@@ -12,6 +12,7 @@ const jurors = [
 
 export default function Home() {
   const [mode, setMode] = useState<"case" | "juror">("case");
+  const [pace, setPace] = useState<"flexible" | "urgent">("flexible");
 
   return (
     <main>
@@ -22,7 +23,7 @@ export default function Home() {
         </a>
         <div className="nav-center">
           <a href="#process">How it works</a>
-          <a href="#standard">The standard</a>
+          <a href="#pricing">Live pricing</a>
           <a href="#jurors">For jurors</a>
         </div>
         <button className="nav-action" onClick={() => setMode("case")}>Open a case <span>↗</span></button>
@@ -37,7 +38,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <button className="button primary" onClick={() => setMode("case")}>Bring a dispute <span>→</span></button>
-            <button className="button secondary" onClick={() => setMode("juror")}>Earn $10 as a juror</button>
+            <button className="button secondary" onClick={() => setMode("juror")}>Get paid to decide</button>
           </div>
           <div className="trust-line">
             <div className="avatar-stack" aria-hidden="true">
@@ -70,7 +71,7 @@ export default function Home() {
               <span>1 min video</span><span>1 page evidence</span><span>Blind vote</span>
             </div>
           </div>
-          <div className="floating-note note-top"><span>⚡</span><p><strong>4 jurors needed</strong><br />$10 · 10 min</p></div>
+          <div className="floating-note note-top"><span>⚡</span><p><strong>4 jurors needed</strong><br />Live rate · 10 min</p></div>
           <div className="floating-note note-bottom"><span>✓</span><p><strong>Same rules</strong><br />for both sides</p></div>
         </div>
       </section>
@@ -98,12 +99,55 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="pricing-section" id="pricing">
+        <div className="shell pricing-heading">
+          <div>
+            <div className="section-kicker">Fair-market pricing</div>
+            <h2>The market sets the rate.<br /><em>The law sets the floor.</em></h2>
+          </div>
+          <p>When plenty of jurors are ready, the price moves down. When demand rises—or you need a jury immediately—the price moves up. Never below the minimum compensation floor for the juror’s location.</p>
+        </div>
+        <div className="shell market-grid">
+          <div className="rate-card">
+            <div className="rate-topline"><span>Illustrative live market</span><span className="market-live"><i /> OPEN</span></div>
+            <div className="pace-control" role="group" aria-label="Choose case urgency">
+              <button className={pace === "flexible" ? "active" : ""} onClick={() => setPace("flexible")}><span>Flexible</span><small>Lowest available rate</small></button>
+              <button className={pace === "urgent" ? "active" : ""} onClick={() => setPace("urgent")}><span>Under 60 sec</span><small>Priority assembly</small></button>
+            </div>
+            <div className="rate-result">
+              <div>
+                <small>JUROR RATE</small>
+                <strong>{pace === "flexible" ? "Local floor" : "Floor × demand"}</strong>
+              </div>
+              <span className={pace === "urgent" ? "rate-arrow urgent" : "rate-arrow"}>↗</span>
+            </div>
+            <div className="rate-meter" aria-hidden="true"><span className={pace} /></div>
+            <div className="market-signal">
+              <span><i>183</i> jurors ready</span>
+              <span><i>{pace === "flexible" ? "Low" : "High"}</i> urgency</span>
+              <span><i>12</i> seats</span>
+            </div>
+          </div>
+          <div className="formula-card">
+            <span className="formula-label">How the rate clears</span>
+            <div className="formula">
+              <p><strong>Local compensation floor</strong><span>Review time × applicable local wage floor</span></p>
+              <b>×</b>
+              <p><strong>Live demand multiplier</strong><span>Available jurors × urgency × case demand</span></p>
+              <b>=</b>
+              <p className="formula-total"><strong>Rate offered upfront</strong><span>Accepted before any case material is shown</span></p>
+            </div>
+            <div className="floor-note"><span>✓</span><p><strong>No race to the bottom.</strong> If local wage rules do not set a floor for this work, the platform minimum applies.</p></div>
+          </div>
+        </div>
+      </section>
+
       <section className="choice-section" id="jurors">
         <div className="shell choice-inner">
           <div className="choice-copy">
             <div className="section-kicker light">Choose your side of the table</div>
             <h2>{mode === "case" ? "Have a disagreement that needs daylight?" : "Good judgment should be worth something."}</h2>
-            <p>{mode === "case" ? "Invite the other party, submit your side, and let a neutral jury move things forward." : "Review two short, equally structured submissions. Vote independently. Earn $10 for about 10 minutes."}</p>
+            <p>{mode === "case" ? "Invite the other party, submit your side, and let a neutral jury move things forward. Choose flexible or priority assembly." : "Review two short, equally structured submissions. Vote independently. See the live rate before you accept."}</p>
             <div className="mode-tabs" role="tablist" aria-label="Choose your role">
               <button className={mode === "case" ? "active" : ""} onClick={() => setMode("case")} role="tab" aria-selected={mode === "case"}>Open a case</button>
               <button className={mode === "juror" ? "active" : ""} onClick={() => setMode("juror")} role="tab" aria-selected={mode === "juror"}>Join the jury</button>
@@ -114,7 +158,7 @@ export default function Home() {
             <h3>{mode === "case" ? "Start with the question" : "Bring your judgment"}</h3>
             <p>{mode === "case" ? "Describe the decision you want the jury to make. You’ll invite the other side next." : "Join the on-call juror pool. We’ll notify you when a case matches your profile."}</p>
             <button>{mode === "case" ? "Create a tribunal" : "Become a juror"}<span>→</span></button>
-            <small>{mode === "case" ? "Both parties approve the final case file before it goes live." : "Independent votes · identity checked · paid after submission"}</small>
+            <small>{mode === "case" ? "Both parties approve the case file and live jury rate before it goes live." : "Local pay floor · rate shown upfront · paid after submission"}</small>
           </div>
         </div>
       </section>
@@ -122,7 +166,7 @@ export default function Home() {
       <footer className="shell">
         <div className="brand footer-brand"><span className="brand-mark">IT</span><span>Independent<br />Tribunal</span></div>
         <p>Fast peer decisions for everyday disputes.<br /><small>Not a court and not legal advice.</small></p>
-        <div><a href="#process">Process</a><a href="#standard">Standards</a><a href="#jurors">Jurors</a></div>
+        <div><a href="#process">Process</a><a href="#pricing">Pricing</a><a href="#jurors">Jurors</a></div>
         <span>© 2026</span>
       </footer>
     </main>
