@@ -2,171 +2,189 @@
 
 import { useState } from "react";
 
-const jurors = [
-  ["MK", "#ffc65c"],
-  ["AS", "#f2a2bb"],
-  ["JL", "#9ee7d8"],
-  ["TN", "#b9a8ff"],
-  ["+8", "#efefeb"],
+const standards = [
+  { number: "01", value: "1 page", label: "Evidence per side", detail: "The most relevant material, presented with equal limits." },
+  { number: "02", value: "1 minute", label: "Statement per side", detail: "A direct, uninterrupted account in each person’s own words." },
+  { number: "03", value: "5 minutes", label: "Independent review", detail: "Focused time to listen, evaluate, decide, and recommend." },
+  { number: "04", value: "Randomized", label: "Jury selection", detail: "Eligible jurors selected without influence from either party." },
+];
+
+const safeguards = [
+  ["Identity checked", "Every participant is verified before taking part."],
+  ["Conflicts screened", "Jurors attest that they have no connection to the case."],
+  ["Votes remain blind", "No juror sees another opinion before submitting."],
+  ["Rates locked upfront", "Compensation cannot change after a case is accepted."],
 ];
 
 export default function Home() {
-  const [mode, setMode] = useState<"case" | "juror">("case");
-  const [pace, setPace] = useState<"flexible" | "urgent">("flexible");
+  const [pages, setPages] = useState(1);
+  const [statementMinutes, setStatementMinutes] = useState(1);
+  const [reviewMinutes, setReviewMinutes] = useState(5);
+  const [juryType, setJuryType] = useState<"random" | "specialist">("random");
+  const [expertRate, setExpertRate] = useState(60);
+  const hourlyRate = juryType === "specialist" ? expertRate : 10;
+  const juryCompensation = (12 * (reviewMinutes / 60) * hourlyRate).toFixed(2);
 
   return (
     <main>
-      <nav className="nav shell" aria-label="Main navigation">
+      <header className="site-header shell">
         <a className="brand" href="#top" aria-label="Independent Tribunal home">
-          <span className="brand-mark" aria-hidden="true">IT</span>
-          <span>Independent<br />Tribunal</span>
+          <span className="brand-seal" aria-hidden="true">IT</span>
+          <span>Independent Tribunal<small>Rapid peer resolution</small></span>
         </a>
-        <div className="nav-center">
-          <a href="#process">How it works</a>
-          <a href="#pricing">Live pricing</a>
+        <nav aria-label="Main navigation">
+          <a href="#process">Process</a>
+          <a href="#standard">Standards</a>
           <a href="#jurors">For jurors</a>
-        </div>
-        <button className="nav-action" onClick={() => setMode("case")}>Open a case <span>↗</span></button>
-      </nav>
+        </nav>
+        <a className="header-action" href="#builder">Start a tribunal <span>→</span></a>
+      </header>
 
-      <section className="hero shell" id="top">
-        <div className="hero-copy">
-          <div className="eyebrow"><span className="pulse" /> Now assembling juries</div>
-          <h1>Resolve the argument.<br /><em>Keep the relationship.</em></h1>
-          <p className="hero-lede">
-            Put both sides in front of 12 independent people. Equal time, equal space, one clear decision—in about 10 minutes.
-          </p>
-          <div className="hero-actions">
-            <button className="button primary" onClick={() => setMode("case")}>Bring a dispute <span>→</span></button>
-            <button className="button secondary" onClick={() => setMode("juror")}>Get paid to decide</button>
-          </div>
-          <div className="trust-line">
-            <div className="avatar-stack" aria-hidden="true">
-              {jurors.map(([label, color]) => <span key={label} style={{background: color}}>{label}</span>)}
+      <section className="hero" id="top">
+        <div className="hero-grid shell">
+          <div className="hero-copy">
+            <p className="overline"><span /> Independent human judgment, on demand</p>
+            <h1>A fair decision.<br /><em>While it still matters.</em></h1>
+            <p className="hero-intro">Give both sides equal space. Let an independent jury evaluate the evidence and recommend a practical way forward—in minutes, not months.</p>
+            <div className="hero-actions">
+              <a className="primary-action" href="#builder">Start a tribunal <span>→</span></a>
+              <a className="quiet-action" href="#process">How it works <span>↓</span></a>
             </div>
-            <p><strong>People, not algorithms.</strong><br />Jurors never see how others voted.</p>
-          </div>
-        </div>
-
-        <div className="case-stage" aria-label="Example live tribunal">
-          <div className="orbit orbit-one" />
-          <div className="orbit orbit-two" />
-          <div className="case-card">
-            <div className="case-topline">
-              <span className="case-id">CASE 0248</span>
-              <span className="live"><i /> LIVE</span>
-            </div>
-            <p className="case-question">Should the full<br />deposit be returned?</p>
-            <div className="parties">
-              <div><span className="party-dot party-a">A</span><p><small>CLAIMANT</small>Maya R.</p></div>
-              <b>vs.</b>
-              <div><span className="party-dot party-b">B</span><p><small>RESPONDENT</small>Joel K.</p></div>
-            </div>
-            <div className="assembly">
-              <div className="assembly-label"><span>Jury assembling</span><strong>8 / 12</strong></div>
-              <div className="progress"><span /></div>
-              <small>Estimated start: under 60 seconds</small>
-            </div>
-            <div className="case-footer">
-              <span>1 min video</span><span>1 page evidence</span><span>Blind vote</span>
+            <div className="trust-points" aria-label="Core safeguards">
+              <span>Equal limits</span><span>Blind voting</span><span>Random selection</span>
             </div>
           </div>
-          <div className="floating-note note-top"><span>⚡</span><p><strong>4 jurors needed</strong><br />Live rate · 10 min</p></div>
-          <div className="floating-note note-bottom"><span>✓</span><p><strong>Same rules</strong><br />for both sides</p></div>
-        </div>
-      </section>
 
-      <section className="principle-strip" id="standard">
-        <div className="shell strip-grid">
-          <p className="strip-intro">A small format<br />for big disagreements.</p>
-          <div><strong>01:00</strong><span>to tell your side</span></div>
-          <div><strong>1 page</strong><span>of essential evidence</span></div>
-          <div><strong>12</strong><span>independent jurors</span></div>
-          <div><strong>10 min</strong><span>from review to vote</span></div>
-        </div>
-      </section>
-
-      <section className="process shell" id="process">
-        <div className="section-kicker">The format</div>
-        <div className="process-heading">
-          <h2>Less theatre.<br /><em>More clarity.</em></h2>
-          <p>Every case is deliberately constrained. The same limits apply to each side, so jurors can focus on the disagreement—not the performance.</p>
-        </div>
-        <div className="steps">
-          <article><span>01</span><div className="step-art video-art"><i>60</i><small>SECONDS</small></div><h3>Say what happened</h3><p>Record one uninterrupted minute. No editing, no interruptions.</p></article>
-          <article><span>02</span><div className="step-art page-art"><i /><i /><i /><b>1</b></div><h3>Show what matters</h3><p>Attach one page with the single strongest piece of supporting evidence.</p></article>
-          <article><span>03</span><div className="step-art vote-art"><i>7</i><b>5</b></div><h3>Receive the decision</h3><p>Twelve jurors review both sides independently, then cast a blind vote.</p></article>
-        </div>
-      </section>
-
-      <section className="pricing-section" id="pricing">
-        <div className="shell pricing-heading">
-          <div>
-            <div className="section-kicker">Fair-market pricing</div>
-            <h2>The market sets the rate.<br /><em>The law sets the floor.</em></h2>
-          </div>
-          <p>When plenty of jurors are ready, the price moves down. When demand rises—or you need a jury immediately—the price moves up. Never below the minimum compensation floor for the juror’s location.</p>
-        </div>
-        <div className="shell market-grid">
-          <div className="rate-card">
-            <div className="rate-topline"><span>Illustrative live market</span><span className="market-live"><i /> OPEN</span></div>
-            <div className="pace-control" role="group" aria-label="Choose case urgency">
-              <button className={pace === "flexible" ? "active" : ""} onClick={() => setPace("flexible")}><span>Flexible</span><small>Lowest available rate</small></button>
-              <button className={pace === "urgent" ? "active" : ""} onClick={() => setPace("urgent")}><span>Under 60 sec</span><small>Priority assembly</small></button>
+          <div className="tribunal-builder" id="builder" aria-label="Tribunal settings calculator">
+            <div className="builder-heading">
+              <div><small>TRIBUNAL BUILDER</small><h2>Set the scope</h2></div>
+              <span>Recommended defaults</span>
             </div>
-            <div className="rate-result">
+            <label className="slider-row">
+              <span>Evidence per side <strong>{pages} {pages === 1 ? "page" : "pages"}</strong></span>
+              <input aria-label="Evidence pages per side" type="range" min="1" max="5" value={pages} onChange={(event) => setPages(Number(event.target.value))} />
+              <i><b style={{width: `${((pages - 1) / 4) * 100}%`}} /></i>
+            </label>
+            <label className="slider-row">
+              <span>Statement per side <strong>{statementMinutes} {statementMinutes === 1 ? "minute" : "minutes"}</strong></span>
+              <input aria-label="Statement minutes per side" type="range" min="1" max="5" value={statementMinutes} onChange={(event) => setStatementMinutes(Number(event.target.value))} />
+              <i><b style={{width: `${((statementMinutes - 1) / 4) * 100}%`}} /></i>
+            </label>
+            <label className="slider-row">
+              <span>Juror review <strong>{reviewMinutes} minutes</strong></span>
+              <input aria-label="Juror review minutes" type="range" min="5" max="30" step="5" value={reviewMinutes} onChange={(event) => setReviewMinutes(Number(event.target.value))} />
+              <i><b style={{width: `${((reviewMinutes - 5) / 25) * 100}%`}} /></i>
+            </label>
+            <fieldset className="jury-choice">
+              <legend>Jury composition</legend>
               <div>
-                <small>JUROR RATE</small>
-                <strong>{pace === "flexible" ? "Local floor" : "Floor × demand"}</strong>
+                <button type="button" className={juryType === "random" ? "active" : ""} onClick={() => setJuryType("random")} aria-pressed={juryType === "random"}><strong>Randomized</strong><small>Any eligible juror</small></button>
+                <button type="button" className={juryType === "specialist" ? "active" : ""} onClick={() => setJuryType("specialist")} aria-pressed={juryType === "specialist"}><strong>Specialist</strong><small>Verified expertise</small></button>
               </div>
-              <span className={pace === "urgent" ? "rate-arrow urgent" : "rate-arrow"}>↗</span>
+            </fieldset>
+            {juryType === "specialist" && (
+              <label className="slider-row specialist-rate">
+                <span>Expert hourly rate <strong>${expertRate} / hour</strong></span>
+                <input aria-label="Expert hourly rate" type="range" min="25" max="150" step="5" value={expertRate} onChange={(event) => setExpertRate(Number(event.target.value))} />
+                <i><b style={{width: `${((expertRate - 25) / 125) * 100}%`}} /></i>
+              </label>
+            )}
+            <div className="builder-total">
+              <div><small>ESTIMATED JURY COMPENSATION</small><strong>${juryCompensation}</strong></div>
+              <p>12 jurors · ${hourlyRate}/hour floor<br /><span>or applicable local minimum wage, if higher</span></p>
             </div>
-            <div className="rate-meter" aria-hidden="true"><span className={pace} /></div>
-            <div className="market-signal">
-              <span><i>183</i> jurors ready</span>
-              <span><i>{pace === "flexible" ? "Low" : "High"}</i> urgency</span>
-              <span><i>12</i> seats</span>
-            </div>
-          </div>
-          <div className="formula-card">
-            <span className="formula-label">How the rate clears</span>
-            <div className="formula">
-              <p><strong>Local compensation floor</strong><span>Review time × applicable local wage floor</span></p>
-              <b>×</b>
-              <p><strong>Live demand multiplier</strong><span>Available jurors × urgency × case demand</span></p>
-              <b>=</b>
-              <p className="formula-total"><strong>Rate offered upfront</strong><span>Accepted before any case material is shown</span></p>
-            </div>
-            <div className="floor-note"><span>✓</span><p><strong>No race to the bottom.</strong> If local wage rules do not set a floor for this work, the platform minimum applies.</p></div>
+            <button className="builder-button" type="button">Continue with these settings <span>→</span></button>
           </div>
         </div>
       </section>
 
-      <section className="choice-section" id="jurors">
-        <div className="shell choice-inner">
-          <div className="choice-copy">
-            <div className="section-kicker light">Choose your side of the table</div>
-            <h2>{mode === "case" ? "Have a disagreement that needs daylight?" : "Good judgment should be worth something."}</h2>
-            <p>{mode === "case" ? "Invite the other party, submit your side, and let a neutral jury move things forward. Choose flexible or priority assembly." : "Review two short, equally structured submissions. Vote independently. See the live rate before you accept."}</p>
-            <div className="mode-tabs" role="tablist" aria-label="Choose your role">
-              <button className={mode === "case" ? "active" : ""} onClick={() => setMode("case")} role="tab" aria-selected={mode === "case"}>Open a case</button>
-              <button className={mode === "juror" ? "active" : ""} onClick={() => setMode("juror")} role="tab" aria-selected={mode === "juror"}>Join the jury</button>
-            </div>
+      <div className="confidence-bar">
+        <div className="shell">
+          <span>12 independent jurors</span>
+          <span>Same rules for both sides</span>
+          <span>Human review, never automated judgment</span>
+          <span>Compensation shown upfront</span>
+        </div>
+      </div>
+
+      <section className="standards shell" id="standard">
+        <div className="section-heading">
+          <div><p className="overline"><span /> The standard format</p><h2>Discipline creates<br /><em>clarity.</em></h2></div>
+          <p>Conflict expands to fill the space given to it. Independent Tribunal starts small on purpose, then lets either party increase the limits when a case genuinely requires more.</p>
+        </div>
+        <div className="standards-grid">
+          {standards.map((item) => (
+            <article key={item.number}>
+              <span>{item.number}</span><strong>{item.value}</strong><h3>{item.label}</h3><p>{item.detail}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="process" id="process">
+        <div className="process-grid shell">
+          <div className="case-file">
+            <div className="file-top"><span>ILLUSTRATIVE CASE</span><span>REF. 0248</span></div>
+            <h3>What is a fair resolution of the disputed deposit?</h3>
+            <div className="side-summary"><span>A</span><p><small>PARTY A · 01:00</small><strong>The property was returned in the agreed condition.</strong></p><i>1 PAGE</i></div>
+            <div className="side-summary"><span>B</span><p><small>PARTY B · 01:00</small><strong>Documented repairs were required after checkout.</strong></p><i>1 PAGE</i></div>
+            <div className="jury-status"><span>JURY</span><div><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /></div><strong>12 / 12</strong></div>
           </div>
-          <div className="start-card">
-            <span className="card-number">{mode === "case" ? "A / B" : "01—12"}</span>
-            <h3>{mode === "case" ? "Start with the question" : "Bring your judgment"}</h3>
-            <p>{mode === "case" ? "Describe the decision you want the jury to make. You’ll invite the other side next." : "Join the on-call juror pool. We’ll notify you when a case matches your profile."}</p>
-            <button>{mode === "case" ? "Create a tribunal" : "Become a juror"}<span>→</span></button>
-            <small>{mode === "case" ? "Both parties approve the case file and live jury rate before it goes live." : "Local pay floor · rate shown upfront · paid after submission"}</small>
+          <div className="process-copy">
+            <p className="overline"><span /> What the jury produces</p>
+            <h2>Not just a verdict.<br /><em>A way forward.</em></h2>
+            <p className="process-intro">Listening to conflict is serious work. Jurors consider both accounts, test the evidence, and produce a useful resolution—not performative paperwork.</p>
+            <ol>
+              <li><span>01</span><div><strong>A clear decision</strong><p>A direct answer to the question both parties agreed to submit.</p></div></li>
+              <li><span>02</span><div><strong>A concise rationale</strong><p>The facts and principles that most influenced the jury’s judgment.</p></div></li>
+              <li><span>03</span><div><strong>A practical recommendation</strong><p>Specific next steps designed to resolve the situation, not prolong it.</p></div></li>
+            </ol>
+            <p className="legal-note">Independent Tribunal provides structured peer judgment and recommendations. It is not a court, arbitral body, or substitute for legal advice.</p>
           </div>
         </div>
       </section>
 
-      <footer className="shell">
-        <div className="brand footer-brand"><span className="brand-mark">IT</span><span>Independent<br />Tribunal</span></div>
-        <p>Fast peer decisions for everyday disputes.<br /><small>Not a court and not legal advice.</small></p>
-        <div><a href="#process">Process</a><a href="#pricing">Pricing</a><a href="#jurors">Jurors</a></div>
+      <section className="juror-section" id="jurors">
+        <div className="shell">
+          <div className="juror-heading">
+            <div><p className="overline light"><span /> For independent jurors</p><h2>Good judgment<br /><em>deserves fair pay.</em></h2></div>
+            <p>Jurors listen to difficult accounts, evaluate evidence, exercise judgment, and propose solutions. The work is compensated by time and expertise, with the full rate shown before acceptance.</p>
+          </div>
+          <div className="pay-grid">
+            <article className="pay-card">
+              <span>DEFAULT JURY</span><h3>$10<small> / hour</small></h3><p>Or the applicable minimum wage in the juror’s location—whichever is higher.</p><ul><li>Randomized eligible jury</li><li>General everyday disputes</li><li>Rate confirmed before review</li></ul>
+            </article>
+            <article className="pay-card specialist">
+              <span>SPECIALIST PANEL</span><h3>$25–150<small> / hour</small></h3><p>A higher rate set upfront for verified subject-matter expertise.</p><ul><li>Credentials checked</li><li>Profession-specific disputes</li><li>Expert opinion, plainly explained</li></ul>
+            </article>
+            <article className="principle-card">
+              <span>THE PRINCIPLE</span><blockquote>“No race to the bottom. No hidden rate. No unpaid deliberation.”</blockquote><p>Compensation is based on the configured review time. Local wage protections always take precedence over the platform floor.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="safeguards shell">
+        <div className="section-heading compact">
+          <div><p className="overline"><span /> Designed for confidence</p><h2>Trust is a<br /><em>system requirement.</em></h2></div>
+          <p>Independence is protected through simple, visible controls that apply to every case.</p>
+        </div>
+        <div className="safeguard-grid">
+          {safeguards.map(([title, body], index) => <article key={title}><span>0{index + 1}</span><h3>{title}</h3><p>{body}</p></article>)}
+        </div>
+      </section>
+
+      <section className="final-cta">
+        <div className="shell cta-grid">
+          <div><p className="overline light"><span /> A useful decision, quickly</p><h2>Bring the question.<br /><em>Leave with direction.</em></h2></div>
+          <div><p>Start with the recommended format. Adjust only what the dispute requires.</p><a href="#builder">Configure a tribunal <span>→</span></a></div>
+        </div>
+      </section>
+
+      <footer className="site-footer shell">
+        <div className="brand"><span className="brand-seal">IT</span><span>Independent Tribunal<small>Rapid peer resolution</small></span></div>
+        <p>Independent human judgment for everyday disputes.<small>Not a court and not legal advice.</small></p>
+        <nav><a href="#process">Process</a><a href="#standard">Standards</a><a href="#jurors">Jurors</a></nav>
         <span>© 2026</span>
       </footer>
     </main>

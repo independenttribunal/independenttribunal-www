@@ -7,7 +7,7 @@ const serif = Instrument_Serif({ variable: "--font-serif", subsets: ["latin"], w
 
 export const metadata: Metadata = {
   title: "Independent Tribunal — A fair decision, fast",
-  description: "Resolve everyday disputes with 12 independent jurors, equal submissions, fair-market pricing, and one clear decision.",
+  description: "Independent juries evaluate equal submissions and recommend practical resolutions for everyday disputes—in minutes, not months.",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 

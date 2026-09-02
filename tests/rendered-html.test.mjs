@@ -21,12 +21,13 @@ test("server-renders the Independent Tribunal experience", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>Independent Tribunal — A fair decision, fast<\/title>/i);
-  assert.match(html, /Resolve the argument/);
+  assert.match(html, /A fair decision/);
   assert.match(html, /12 independent jurors/);
-  assert.match(html, /Equal time, equal space/);
-  assert.match(html, /Get paid to decide/);
-  assert.match(html, /The law sets the floor/);
-  assert.match(html, /Local compensation floor/);
+  assert.match(html, /Give both sides equal space/);
+  assert.match(html, /Independent human judgment/);
+  assert.match(html, /applicable local minimum wage/);
+  assert.match(html, /Not just a verdict/);
+  assert.match(html, /Good judgment/);
   assert.match(html, /Not a court and not legal advice/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
 });
