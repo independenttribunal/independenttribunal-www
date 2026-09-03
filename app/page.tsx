@@ -214,7 +214,7 @@ export default function Home() {
             <div className="modal-seal" aria-hidden="true">IT</div>
             <p className="modal-overline">WORK IN PROGRESS · BUILDING IN PUBLIC</p>
             <h2 id="demo-title">Help us build<br /><em>the institution.</em></h2>
-            <p className="modal-intro">Independent Tribunal is currently a product demo. There is no backend or active juror network yet.</p>
+            <p className="modal-intro">This is the public Independent Tribunal landing page. The application itself is being developed separately, and there is no backend or active juror network yet.</p>
             <p>If this idea resonates, join our Telegram chat. It is the most up-to-date place to follow progress and help shape the real service with future jurors, early users, subject experts, advisors, and builders.</p>
             <div className="community-list"><span>Future jurors</span><span>Early cases</span><span>Builders &amp; advisors</span></div>
             <div className="modal-actions">
@@ -223,8 +223,8 @@ export default function Home() {
             </div>
             <div className="secondary-social">
               <p>ALSO FOLLOW THE WORK</p>
-              <a href="https://twitter.com/marsXrobertson" target="_blank" rel="noreferrer"><span><b>X / Twitter</b><small>Ideas and updates</small></span><i>↗</i></a>
-              <a href="https://github.com/marsrobertson" target="_blank" rel="noreferrer"><span><b>GitHub</b><small>Open-source work</small></span><i>↗</i></a>
+              <a href="https://x.com/independentTrib" target="_blank" rel="noreferrer"><span><b>X / Twitter</b><small>@independentTrib</small></span><i>↗</i></a>
+              <a href="https://github.com/independenttribunal/independenttribunal-www" target="_blank" rel="noreferrer"><span><b>GitHub</b><small>WWW source</small></span><i>↗</i></a>
             </div>
             <small>t.me/IndependentTribunal</small>
           </section>
