@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const standards = [
   { number: "01", value: "1 page", label: "Evidence per side", detail: "The most relevant material, presented with equal limits." },
@@ -17,6 +17,7 @@ const safeguards = [
 ];
 
 export default function Home() {
+  const [isDemoOpen, setIsDemoOpen] = useState(false);
   const [pages, setPages] = useState(1);
   const [statementMinutes, setStatementMinutes] = useState(1);
   const [reviewMinutes, setReviewMinutes] = useState(5);
@@ -24,6 +25,20 @@ export default function Home() {
   const [expertRate, setExpertRate] = useState(60);
   const hourlyRate = juryType === "specialist" ? expertRate : 10;
   const juryCompensation = (12 * (reviewMinutes / 60) * hourlyRate).toFixed(2);
+
+  useEffect(() => {
+    if (!isDemoOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setIsDemoOpen(false);
+    };
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [isDemoOpen]);
 
   return (
     <main>
@@ -37,8 +52,12 @@ export default function Home() {
           <a href="#standard">Standards</a>
           <a href="#jurors">For jurors</a>
         </nav>
-        <a className="header-action" href="#builder">Start a tribunal <span>→</span></a>
+        <button className="header-action" type="button" onClick={() => setIsDemoOpen(true)}>Start a tribunal <span>→</span></button>
       </header>
+
+      <button className="demo-notice" type="button" onClick={() => setIsDemoOpen(true)}>
+        <span>EARLY DEMO</span> Independent Tribunal is being built in public. Join the founding community <b>→</b>
+      </button>
 
       <section className="hero" id="top">
         <div className="hero-grid shell">
@@ -47,7 +66,7 @@ export default function Home() {
             <h1>A fair decision.<br /><em>While it still matters.</em></h1>
             <p className="hero-intro">Give both sides equal space. Let an independent jury evaluate the evidence and recommend a practical way forward—in minutes, not months.</p>
             <div className="hero-actions">
-              <a className="primary-action" href="#builder">Start a tribunal <span>→</span></a>
+              <button className="primary-action" type="button" onClick={() => setIsDemoOpen(true)}>Start a tribunal <span>→</span></button>
               <a className="quiet-action" href="#process">How it works <span>↓</span></a>
             </div>
             <div className="trust-points" aria-label="Core safeguards">
@@ -93,7 +112,7 @@ export default function Home() {
               <div><small>ESTIMATED JURY COMPENSATION</small><strong>${juryCompensation}</strong></div>
               <p>12 jurors · ${hourlyRate}/hour floor<br /><span>or applicable local minimum wage, if higher</span></p>
             </div>
-            <button className="builder-button" type="button">Continue with these settings <span>→</span></button>
+            <button className="builder-button" type="button" onClick={() => setIsDemoOpen(true)}>Continue with these settings <span>→</span></button>
           </div>
         </div>
       </section>
@@ -177,7 +196,7 @@ export default function Home() {
       <section className="final-cta">
         <div className="shell cta-grid">
           <div><p className="overline light"><span /> A useful decision, quickly</p><h2>Bring the question.<br /><em>Leave with direction.</em></h2></div>
-          <div><p>Start with the recommended format. Adjust only what the dispute requires.</p><a href="#builder">Configure a tribunal <span>→</span></a></div>
+          <div><p>Start with the recommended format. Adjust only what the dispute requires.</p><button type="button" onClick={() => setIsDemoOpen(true)}>Configure a tribunal <span>→</span></button></div>
         </div>
       </section>
 
@@ -187,6 +206,25 @@ export default function Home() {
         <nav><a href="#process">Process</a><a href="#standard">Standards</a><a href="#jurors">Jurors</a></nav>
         <span>© 2026</span>
       </footer>
+
+      {isDemoOpen && (
+        <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setIsDemoOpen(false); }}>
+          <section className="demo-modal" role="dialog" aria-modal="true" aria-labelledby="demo-title">
+            <button className="modal-close" type="button" onClick={() => setIsDemoOpen(false)} aria-label="Close dialog">×</button>
+            <div className="modal-seal" aria-hidden="true">IT</div>
+            <p className="modal-overline">WORK IN PROGRESS · BUILDING IN PUBLIC</p>
+            <h2 id="demo-title">Help us build<br /><em>the institution.</em></h2>
+            <p className="modal-intro">Independent Tribunal is currently a product demo. There is no backend or active juror network yet.</p>
+            <p>If this idea resonates, join our Telegram chat. We’re welcoming future jurors, early users, subject experts, advisors, and builders to shape the real service together.</p>
+            <div className="community-list"><span>Future jurors</span><span>Early cases</span><span>Builders &amp; advisors</span></div>
+            <div className="modal-actions">
+              <a href="https://t.me/IndependentTribunal" target="_blank" rel="noreferrer">Join us on Telegram <span>↗</span></a>
+              <button type="button" onClick={() => setIsDemoOpen(false)}>Continue exploring</button>
+            </div>
+            <small>t.me/IndependentTribunal</small>
+          </section>
+        </div>
+      )}
     </main>
   );
 }

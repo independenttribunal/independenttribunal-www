@@ -28,6 +28,7 @@ test("server-renders the Independent Tribunal experience", async () => {
   assert.match(html, /applicable local minimum wage/);
   assert.match(html, /Not just a verdict/);
   assert.match(html, /Good judgment/);
+  assert.match(html, /Independent Tribunal is being built in public/);
   assert.match(html, /Not a court and not legal advice/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
 });
@@ -40,6 +41,7 @@ test("removes the temporary starter preview", async () => {
   ]);
 
   assert.match(page, /Independent Tribunal home/);
+  assert.match(page, /https:\/\/t\.me\/IndependentTribunal/);
   assert.match(layout, /Independent Tribunal — A fair decision, fast/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview", import.meta.url)));
