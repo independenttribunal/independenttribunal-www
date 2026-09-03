@@ -42,6 +42,8 @@ test("removes the temporary starter preview", async () => {
 
   assert.match(page, /Independent Tribunal home/);
   assert.match(page, /https:\/\/t\.me\/IndependentTribunal/);
+  assert.match(page, /https:\/\/twitter\.com\/marsXrobertson/);
+  assert.match(page, /https:\/\/github\.com\/marsrobertson/);
   assert.match(layout, /Independent Tribunal — A fair decision, fast/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview", import.meta.url)));

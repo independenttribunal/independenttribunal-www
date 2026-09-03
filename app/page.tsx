@@ -215,11 +215,16 @@ export default function Home() {
             <p className="modal-overline">WORK IN PROGRESS · BUILDING IN PUBLIC</p>
             <h2 id="demo-title">Help us build<br /><em>the institution.</em></h2>
             <p className="modal-intro">Independent Tribunal is currently a product demo. There is no backend or active juror network yet.</p>
-            <p>If this idea resonates, join our Telegram chat. We’re welcoming future jurors, early users, subject experts, advisors, and builders to shape the real service together.</p>
+            <p>If this idea resonates, join our Telegram chat. It is the most up-to-date place to follow progress and help shape the real service with future jurors, early users, subject experts, advisors, and builders.</p>
             <div className="community-list"><span>Future jurors</span><span>Early cases</span><span>Builders &amp; advisors</span></div>
             <div className="modal-actions">
-              <a href="https://t.me/IndependentTribunal" target="_blank" rel="noreferrer">Join us on Telegram <span>↗</span></a>
+              <a href="https://t.me/IndependentTribunal" target="_blank" rel="noreferrer">Join Telegram · most current <span>↗</span></a>
               <button type="button" onClick={() => setIsDemoOpen(false)}>Continue exploring</button>
+            </div>
+            <div className="secondary-social">
+              <p>ALSO FOLLOW THE WORK</p>
+              <a href="https://twitter.com/marsXrobertson" target="_blank" rel="noreferrer"><span><b>X / Twitter</b><small>Ideas and updates</small></span><i>↗</i></a>
+              <a href="https://github.com/marsrobertson" target="_blank" rel="noreferrer"><span><b>GitHub</b><small>Open-source work</small></span><i>↗</i></a>
             </div>
             <small>t.me/IndependentTribunal</small>
           </section>
