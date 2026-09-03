@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const standards = [
   { number: "01", value: "1 page", label: "Evidence per side", detail: "The most relevant material, presented with equal limits." },
@@ -51,6 +52,7 @@ export default function Home() {
           <a href="#process">Process</a>
           <a href="#standard">Standards</a>
           <a href="#jurors">For jurors</a>
+          <Link href="/about">About</Link>
         </nav>
         <button className="header-action" type="button" onClick={() => setIsDemoOpen(true)}>Start a tribunal <span>→</span></button>
       </header>
@@ -203,7 +205,7 @@ export default function Home() {
       <footer className="site-footer shell">
         <div className="brand"><span className="brand-seal">IT</span><span>Independent Tribunal<small>Rapid peer resolution</small></span></div>
         <p>Independent human judgment for everyday disputes.<small>Not a court and not legal advice.</small></p>
-        <nav><a href="#process">Process</a><a href="#standard">Standards</a><a href="#jurors">Jurors</a></nav>
+        <nav><a href="#process">Process</a><a href="#standard">Standards</a><a href="#jurors">Jurors</a><Link href="/about">About</Link></nav>
         <span>© 2026</span>
       </footer>
 
