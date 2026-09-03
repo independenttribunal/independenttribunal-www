@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
+
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Origins of the idea — Independent Tribunal",
@@ -26,12 +27,12 @@ export default function About() {
   return (
     <main className="about-page">
       <header className="site-header shell">
-        <Link className="brand" href="/" aria-label="Independent Tribunal home">
+        <a className="brand" href="/" aria-label="Independent Tribunal home">
           <span className="brand-seal" aria-hidden="true">IT</span>
           <span>Independent Tribunal<small>Rapid peer resolution</small></span>
-        </Link>
+        </a>
         <nav aria-label="About page navigation">
-          <Link href="/">Home</Link>
+          <a href="/">Home</a>
           <a href="#origins">Origins</a>
           <a href="#tribunals">Tribunals</a>
           <a href="#kleros">Inspiration</a>
@@ -116,7 +117,7 @@ export default function About() {
       <footer className="site-footer shell">
         <div className="brand"><span className="brand-seal">IT</span><span>Independent Tribunal<small>Rapid peer resolution</small></span></div>
         <p>Independent human judgment for everyday disputes.<small>Not a court and not legal advice.</small></p>
-        <nav><Link href="/">Home</Link><a href="#origins">Origins</a><a href="#tribunals">Tribunals</a><a href="#kleros">Kleros</a></nav>
+        <nav><a href="/">Home</a><a href="#origins">Origins</a><a href="#tribunals">Tribunals</a><a href="#kleros">Kleros</a></nav>
         <span>© 2026</span>
       </footer>
     </main>
