@@ -102,13 +102,11 @@ export default function Home() {
                 <button type="button" className={juryType === "specialist" ? "active" : ""} onClick={() => setJuryType("specialist")} aria-pressed={juryType === "specialist"}><strong>Specialist</strong><small>Verified expertise</small></button>
               </div>
             </fieldset>
-            {juryType === "specialist" && (
-              <label className="slider-row specialist-rate">
-                <span>Expert hourly rate <strong>${expertRate} / hour</strong></span>
-                <input aria-label="Expert hourly rate" type="range" min="25" max="150" step="5" value={expertRate} onChange={(event) => setExpertRate(Number(event.target.value))} />
-                <i><b style={{width: `${((expertRate - 25) / 125) * 100}%`}} /></i>
-              </label>
-            )}
+            <label className={`slider-row compensation-rate${juryType === "random" ? " fixed-rate" : ""}`}>
+              <span>{juryType === "specialist" ? "Expert hourly rate" : "Base hourly rate"} <strong>${hourlyRate} / hour</strong></span>
+              <input aria-label={juryType === "specialist" ? "Expert hourly rate" : "Base hourly rate"} type="range" min={juryType === "specialist" ? 25 : 10} max="150" step="5" value={hourlyRate} disabled={juryType === "random"} onChange={(event) => setExpertRate(Number(event.target.value))} />
+              <i aria-hidden="true"><b style={{width: `${juryType === "specialist" ? ((expertRate - 25) / 125) * 100 : 0}%`}} /></i>
+            </label>
             <div className="builder-total">
               <div><small>ESTIMATED JURY COMPENSATION</small><strong>${juryCompensation}</strong></div>
               <p>12 jurors · ${hourlyRate}/hour floor<br /><span>or applicable local minimum wage, if higher</span></p>

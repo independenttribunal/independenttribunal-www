@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root { --navy:#0b1f3a; --navy-2:#102a4c; --gold:#b7862b; --gold-light:#dcb85e; --cream:#f6f4ee; --white:#fff; --text:#16263b; --muted:#667384; --line:rgba(11,31,58,.16); }
+:root { --navy:#10263e; --navy-2:#183650; --gold:#aa8237; --gold-light:#ddbc77; --cream:#f5f7f9; --white:#fff; --text:#162b40; --muted:#5b6978; --line:rgba(16,38,62,.15); }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--cream); color:var(--text); font-family:var(--font-sans),sans-serif; }
@@ -72,3 +72,87 @@ h1 em,h2 em { color:#8b6722; font-family:var(--font-serif); font-weight:400; }
 @media(max-width:960px){.about-hero-grid,.watchers-grid,.kleros-grid{grid-template-columns:1fr}.about-hero-grid{gap:65px;padding:90px 0}.watchers-grid{gap:45px}.answer-panel{grid-template-columns:1fr 1fr}.answer-panel>p{grid-column:1/-1}.tribunal-links{grid-template-columns:1fr}.tribunal-links>a,.tribunal-links>a+a{min-height:210px;padding:21px 34px 25px 0;border-right:0;border-bottom:1px solid var(--line)}.tribunal-links>a:last-child{border-bottom:0}.tribunal-links h3{margin-top:45px}.kleros-grid{gap:55px}}
 @media(max-width:580px){.about-page .header-action{max-width:145px;line-height:1.25}.about-hero-grid{min-height:auto;padding:75px 0 80px;gap:48px}.about-hero h1{font-size:58px}.about-intro p{font-size:22px}.watchers-section{padding:80px 0}.watchers-questions>p{grid-template-columns:26px 1fr;gap:10px;font-size:25px}.watchers-questions a{grid-column:2}.answer-panel{margin-top:55px;padding:38px 27px;grid-template-columns:1fr;gap:30px}.answer-panel>p{grid-column:auto}.answer-panel h2{font-size:53px}.support-section,.about-closing{padding-top:85px;padding-bottom:90px}.tribunal-links{margin-top:45px}.tribunal-links h3{font-size:28px}.kleros-section{padding:85px 0}.kleros-grid h2{font-size:50px}.kleros-statement blockquote{font-size:27px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* A contemporary institutional surface, with stable space for both jury types. */
+html { scrollbar-gutter: stable; }
+:where(a, button, input):focus-visible { outline: 2px solid #28659a; outline-offset: 4px; }
+.site-header { height: 100px; }
+.brand { letter-spacing: .055em; }
+.brand-seal { width: 46px; height: 46px; border-radius: 4px; border-color: var(--navy); color: var(--navy); }
+.brand small { font-size: 10px; letter-spacing: .1em; }
+.site-header nav { font-size: 14px; gap: 26px; }
+.header-action, .primary-action, .quiet-action { font-size: 14px; font-weight: 700; }
+.header-action, .primary-action { border-radius: 4px; }
+.demo-notice { font-size: 12px; min-height: 42px; background: #edf1f5; border-bottom-color: var(--line); }
+.demo-notice span { color: var(--navy); font-size: 10px; }
+.hero { background: linear-gradient(110deg, #fff 0%, #f3f6f9 100%); }
+.hero:before { display: none; }
+.hero-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 64px; align-items: start; padding-block: 76px; }
+.hero-copy { padding-top: 48px; min-width: 0; }
+.overline { font-size: 11px; line-height: 1.5; letter-spacing: .12em; }
+.hero h1 { font-size: clamp(52px, 5.2vw, 72px); line-height: 1.02; letter-spacing: -.045em; font-weight: 600; }
+.hero h1 em { display: inline-block; margin-top: 12px; font-style: normal; color: #496075; line-height: .98; }
+.hero-intro { font-size: 18px; line-height: 1.7; margin-block: 30px; }
+.hero-actions { gap: 18px; }
+.primary-action { min-height: 52px; }
+.quiet-action { gap: 16px; }
+.trust-points { gap: 12px 18px; margin-top: 34px; }
+.trust-points span { font-size: 10px; letter-spacing: .05em; }
+.tribunal-builder { padding: 28px; border: 1px solid #ced7df; border-top: 3px solid var(--navy); border-radius: 6px; box-shadow: 0 12px 34px rgba(16,38,62,.06); min-width: 0; }
+.tribunal-builder:before { display: none; }
+.builder-heading { padding-bottom: 22px; gap: 12px; }
+.builder-heading small { font-size: 11px; color: #617181; letter-spacing: .12em; }
+.builder-heading h2 { margin-top: 8px; font-size: 36px; }
+.builder-heading>span { background: #edf2f5; color: #41586b; font-size: 9px; line-height: 1.4; border-radius: 3px; }
+.slider-row { padding: 18px 0 17px; }
+.slider-row>span { font-size: 14px; line-height: 1.5; gap: 10px; }
+.slider-row strong { font-size: 14px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.slider-row>i { margin-top: 17px; height: 3px; background: #e0e6ec; }
+.slider-row>i b { background: #708ba2; }
+.slider-row>i b:after { width: 12px; height: 12px; top: -4px; right: -6px; }
+.slider-row input { bottom: 8px; height: 24px; }
+.slider-row:has(input:focus-visible)>i { outline: 2px solid #28659a; outline-offset: 6px; }
+.jury-choice { padding: 18px 0 0; }
+.jury-choice legend { font-size: 14px; line-height: 1.5; margin-bottom: 0; }
+.jury-choice>div { gap: 10px; }
+.jury-choice button { border-radius: 4px; padding: 13px 12px; min-height: 70px; transition: background-color .15s, border-color .15s; }
+.jury-choice button.active { border-color: var(--navy); background: #eef3f7; box-shadow: inset 0 0 0 1px var(--navy); }
+.jury-choice strong { font-size: 14px; font-weight: 700; }
+.jury-choice small { font-size: 12px; color: #657383; line-height: 1.4; }
+.compensation-rate { margin-bottom: 16px; }
+.fixed-rate>i { opacity: .45; }
+.fixed-rate input { cursor: default; }
+.builder-total { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; padding: 20px; border-radius: 4px; }
+.builder-total small { font-size: 10px; letter-spacing: .08em; }
+.builder-total strong { font-family: var(--font-sans), sans-serif; font-size: 38px; font-weight: 500; letter-spacing: -.045em; font-variant-numeric: tabular-nums; color: #fff; margin-top: 8px; }
+.builder-total p { text-align: left; font-size: 12px; line-height: 1.5; max-width: none; }
+.builder-total p span { color: #becbd7; }
+.builder-button { border-radius: 4px; margin-top: 12px; font-size: 13px; font-weight: 700; min-height: 50px; }
+.site-footer nav { font-size: 12px; }
+.section-heading>p, .process-intro, .juror-heading>p, .about-closing>p:not(.overline) { font-size: 16px; }
+.standards-grid p, .safeguard-grid p, .process-copy li p, .pay-card>p { font-size: 14px; line-height: 1.65; }
+.about-hero { background: linear-gradient(110deg, #fff, #f0f4f8); }
+@media (max-width: 1100px) and (min-width: 961px) {
+  .hero-grid { gap: 36px; }
+  .site-header nav { gap: 16px; }
+  .builder-heading>span { display: none; }
+  .hero-actions { flex-wrap: wrap; }
+}
+@media (max-width: 960px) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 44px; padding-block: 58px; }
+  .hero-copy { padding-top: 0; }
+  .tribunal-builder { width: 100%; max-width: none; }
+}
+@media (max-width: 580px) {
+  .site-header { height: 82px; }
+  .brand-seal { width: 36px; height: 36px; }
+  .header-action { font-size: 11px; }
+  .hero-grid { padding-block: 44px; }
+  .hero h1 { font-size: clamp(42px, 11vw, 58px); }
+  .hero-intro { font-size: 16px; }
+  .tribunal-builder { padding: 22px 18px; }
+  .builder-heading h2 { font-size: 32px; }
+  .jury-choice button { padding-inline: 10px; }
+  .jury-choice small { font-size: 11px; }
+  .site-footer nav { display: flex; }
+}
