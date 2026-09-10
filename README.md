@@ -22,3 +22,9 @@ npm run dev
 ```
 
 Run `npm test` to build and verify the rendered landing page.
+
+## Publishing
+
+GitHub Actions publishes `main` to [independenttribunal.org](https://independenttribunal.org/).
+`npm run build:pages` exports the landing page and About page into `dist/client` for GitHub Pages.
+The root `CNAME` preserves the custom domain. The default build remains compatible with Sites hosting.

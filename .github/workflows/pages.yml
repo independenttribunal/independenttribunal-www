@@ -1,0 +1,44 @@
+name: Publish website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build:pages
+      - name: Check exported pages and preserve the domain
+        run: |
+          test -s dist/client/index.html
+          test -s dist/client/about.html
+          mkdir -p dist/client/about
+          cp dist/client/about.html dist/client/about/index.html
+          cp CNAME dist/client/CNAME
+          touch dist/client/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/client
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
