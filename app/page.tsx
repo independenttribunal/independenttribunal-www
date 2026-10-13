@@ -9,6 +9,13 @@ const standards = [
   { number: "04", value: "Randomized", label: "Jury selection", detail: "Eligible jurors selected without influence from either party." },
 ];
 
+const legalConcepts = [
+  { number: "01", source: "Bushell’s Case · 1670", title: "Jury conscience", body: "Jurors cannot be punished for their verdict. A jury may acquit according to its conscience, whatever the judge directs.", href: "/uk-timeline/#trudi-warner" },
+  { number: "02", source: "Terrorism Act 2000 · s.1", title: "The loaded gun", body: "“Terrorism” includes serious damage to property done to influence the government for a political cause. No injury required.", href: "/uk-timeline/#how-it-works" },
+  { number: "03", source: "Terrorism Act 2000 · ss.11–13", title: "Proscription", body: "Once a group is banned, membership, inviting support, or even displaying a symbol of support becomes a criminal offence.", href: "/uk-timeline/#proscription" },
+  { number: "04", source: "DPP v Ziegler · 2021", title: "Lawful excuse", body: "The Supreme Court held that blocking a road in protest can be lawful if prosecution would be disproportionate. Later rulings narrowed it.", href: null },
+];
+
 const safeguards = [
   ["Identity checked", "Every participant is verified before taking part."],
   ["Conflicts screened", "Jurors attest that they have no connection to the case."],
@@ -51,6 +58,7 @@ export default function Home() {
           <a href="#process">Process</a>
           <a href="#standard">Standards</a>
           <a href="#jurors">For jurors</a>
+          <a href="#legal-affairs">Legal affairs</a>
           <a href="/about">About</a>
         </nav>
         <button className="header-action" type="button" onClick={() => setIsDemoOpen(true)}>Start a tribunal <span>→</span></button>
@@ -192,6 +200,29 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="legal-affairs" id="legal-affairs">
+        <div className="shell">
+          <div className="section-heading compact">
+            <div><p className="overline"><span /> Legal affairs</p><h2>How the law<br /><em>actually works.</em></h2></div>
+            <p>Plain-language notes on the principles that shape juries, protest, and state power. Commentary and education, not legal advice.</p>
+          </div>
+          <a className="feature-tile" href="/uk-timeline/">
+            <span>FEATURED · UNITED KINGDOM · 1986–2026</span>
+            <h3>The Ratchet<small>A UK timeline, statute by statute and sentence by sentence.</small></h3>
+            <p>Each measure was defended as reasonable, and each drew concern in its moment. The cumulative weight is only visible from the distance of years.</p>
+            <b>Open the timeline <i>→</i></b>
+          </a>
+          <div className="concept-grid">
+            {legalConcepts.map((item) => {
+              const content = <><span>{item.number} · {item.source}</span><h3>{item.title}</h3><p>{item.body}</p>{item.href ? <i>See it in the timeline →</i> : <i className="soon">Case note coming</i>}</>;
+              return item.href
+                ? <a key={item.number} href={item.href}>{content}</a>
+                : <article key={item.number}>{content}</article>;
+            })}
+          </div>
+        </div>
+      </section>
+
       <section className="final-cta">
         <div className="shell cta-grid">
           <div><p className="overline light"><span /> A useful decision, quickly</p><h2>Bring the question.<br /><em>Leave with direction.</em></h2></div>
@@ -202,7 +233,7 @@ export default function Home() {
       <footer className="site-footer shell">
         <div className="brand"><span className="brand-seal">IT</span><span>Independent Tribunal<small>Rapid peer resolution</small></span></div>
         <p>Independent human judgment for everyday disputes.<small>Not a court and not legal advice.</small></p>
-        <nav><a href="#process">Process</a><a href="#standard">Standards</a><a href="#jurors">Jurors</a><a href="/about">About</a></nav>
+        <nav><a href="#process">Process</a><a href="#standard">Standards</a><a href="#jurors">Jurors</a><a href="#legal-affairs">Legal affairs</a><a href="/about">About</a></nav>
         <span>© 2026</span>
       </footer>
 

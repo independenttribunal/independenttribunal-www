@@ -156,3 +156,24 @@ html { scrollbar-gutter: stable; }
   .jury-choice small { font-size: 11px; }
   .site-footer nav { display: flex; }
 }
+
+/* Legal affairs: a featured long-read plus concept tiles that deep-link into it. */
+.legal-affairs { background:white; padding:125px 0 135px; border-top:1px solid var(--line); }
+.feature-tile { position:relative; display:grid; grid-template-columns:1.1fr .9fr; gap:24px 70px; align-items:end; margin-top:68px; padding:44px 48px; background:var(--navy); color:white; border-radius:6px; }
+.feature-tile>span { grid-column:1/-1; color:var(--gold-light); font-size:11px; font-weight:900; letter-spacing:.12em; }
+.feature-tile h3 { margin:0; font-size:clamp(46px,5vw,68px); line-height:.95; letter-spacing:-.045em; font-weight:600; }
+.feature-tile h3 small { display:block; margin-top:14px; color:var(--gold-light); font-family:var(--font-serif); font-size:24px; line-height:1.2; letter-spacing:0; font-weight:400; }
+.feature-tile p { margin:0; color:#c3cdd8; font-size:16px; line-height:1.65; }
+.feature-tile b { grid-column:1/-1; justify-self:start; display:flex; gap:28px; align-items:center; min-height:50px; padding:0 18px; background:var(--gold); color:var(--navy); border-radius:4px; font-size:13px; }
+.feature-tile b i { font-style:normal; transition:transform .2s; }.feature-tile:hover b i { transform:translateX(4px); }
+.concept-grid { display:grid; grid-template-columns:repeat(4,1fr); margin-top:16px; border-top:1px solid var(--navy); }
+.concept-grid>* { display:flex; flex-direction:column; padding:20px 25px 22px 0; border-right:1px solid var(--line); }
+.concept-grid>*+* { padding-left:25px; }.concept-grid>*:last-child { border-right:0; }
+.concept-grid span { color:#956d1c; font-size:10px; font-weight:900; letter-spacing:.06em; }
+.concept-grid h3 { margin:48px 0 10px; font-family:var(--font-serif); font-size:26px; font-weight:400; color:var(--navy); }
+.concept-grid p { margin:0 0 22px; color:#697586; font-size:14px; line-height:1.6; }
+.concept-grid i { margin-top:auto; font-style:normal; color:#7f601f; font-size:12px; font-weight:800; }
+.concept-grid i.soon { color:#8b939d; }
+.concept-grid a:hover h3 { color:#8b6722; }
+@media (max-width:960px) { .feature-tile { grid-template-columns:1fr; padding:36px 30px; } .concept-grid { grid-template-columns:1fr 1fr; } .concept-grid>*:nth-child(2) { border-right:0; } .concept-grid>*:nth-child(3) { padding-left:0; } .concept-grid>*:nth-child(n+3) { border-top:1px solid var(--line); } }
+@media (max-width:580px) { .legal-affairs { padding:85px 0 90px; } .feature-tile { padding:30px 22px; margin-top:45px; } .feature-tile h3 small { font-size:20px; } .concept-grid { grid-template-columns:1fr; } .concept-grid>*,.concept-grid>*+* { padding:18px 0; border-right:0; border-top:1px solid var(--line); } .concept-grid>*:first-child { border-top:0; } .concept-grid h3 { margin-top:28px; } }

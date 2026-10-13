@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How dissent became a crime in Britain, one act, one clause, one exemplary sentence at a time. A UK timeline, 1986–2026.">
+<meta property="og:title" content="The Ratchet — a UK Totalitarian Timeline">
+<meta property="og:description" content="Each measure drew concern in its moment. The cumulative effect is only visible from the distance of years.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://independenttribunal.org/uk-timeline/">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://independenttribunal.org/uk-timeline/">
+<title>The Ratchet — a UK Totalitarian Timeline</title>
+<style>
+  :root {
+    --paper: #E8E5DD;
+    --ink: #1B1A17;
+    --crimson: #A11D2E;
+    --slate: #6B7280;
+    --gold: #D08A1D;
+    --rule: rgba(27, 26, 23, 0.25);
+    --serif-display: "Didot", "Bodoni MT", "Playfair Display", Georgia, serif;
+    --serif-body: "Charter", "Iowan Old Style", Georgia, serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", "Menlo", monospace;
+  }
+
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition: none !important; animation: none !important; }
+    .entry { opacity: 1 !important; transform: none !important; }
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--serif-body);
+    color: var(--era-fg, var(--ink));
+    background: var(--era-bg, var(--paper));
+    transition: background 1.2s ease, color 1.2s ease;
+    line-height: 1.6;
+  }
+
+  /* Era darkening: body carries data-era set by scroll observer */
+  body[data-era="0"] { --era-bg: #E8E5DD; --era-fg: #1B1A17; --era-rule: rgba(27,26,23,.25); --era-dim: #6B7280; }
+  body[data-era="1"] { --era-bg: #D9D5C9; --era-fg: #1B1A17; --era-rule: rgba(27,26,23,.28); --era-dim: #5D6472; }
+  body[data-era="2"] { --era-bg: #B0ACA0; --era-fg: #14130F; --era-rule: rgba(20,19,15,.35); --era-dim: #3E4450; }
+  body[data-era="3"] { --era-bg: #6E6A61; --era-fg: #EFECE3; --era-rule: rgba(239,236,227,.3); --era-dim: #C9C4B7; }
+  body[data-era="4"] { --era-bg: #35332E; --era-fg: #EFECE3; --era-rule: rgba(239,236,227,.28); --era-dim: #ABA69A; }
+  body[data-era="5"] { --era-bg: #131210; --era-fg: #EFECE3; --era-rule: rgba(239,236,227,.25); --era-dim: #948F84; }
+  body[data-era="dawn"] { --era-bg: #F3E4C2; --era-fg: #241B08; --era-rule: rgba(36,27,8,.3); --era-dim: #7A6636; }
+
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 0 1.25rem; }
+
+  /* ---------- Hero ---------- */
+  header.hero { padding: 14vh 0 10vh; }
+  .kicker {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--crimson);
+  }
+  h1 {
+    font-family: var(--serif-display);
+    font-size: clamp(2.6rem, 7vw, 4.6rem);
+    line-height: 1.04;
+    margin: 0.6rem 0 1rem;
+    font-weight: 500;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+  .standfirst {
+    font-size: 1.15rem;
+    max-width: 34rem;
+    color: var(--era-dim, var(--slate));
+  }
+  .cumulative {
+    font-size: 1rem;
+    max-width: 34rem;
+    margin-top: 1.1rem;
+    color: var(--era-dim, var(--slate));
+  }
+  .cumulative strong { color: var(--era-fg, var(--ink)); font-weight: 600; }
+  .epigraph {
+    margin: 2.2rem 0 0;
+    padding-left: 1.1rem;
+    border-left: 2px solid var(--crimson);
+    max-width: 30rem;
+    font-style: italic;
+  }
+  .epigraph cite {
+    display: block;
+    margin-top: 0.4rem;
+    font-style: normal;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--era-dim, var(--slate));
+  }
+  a { color: inherit; text-decoration-color: var(--crimson); text-underline-offset: 3px; }
+  a:hover { color: var(--crimson); }
+  .dawn a { text-decoration-color: var(--gold); }
+  .dawn a:hover { color: var(--gold); }
+  .hero-note {
+    margin-top: 2.5rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--era-dim, var(--slate));
+  }
+
+  /* ---------- Filters ---------- */
+  [id] { scroll-margin-top: 5rem; }
+  .filters {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 0.7rem 0;
+    background: color-mix(in srgb, var(--era-bg, var(--paper)) 88%, transparent);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--era-rule, var(--rule));
+    transition: background 1.2s ease;
+  }
+  .filters .wrap { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .chip {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--era-rule, var(--rule));
+    border-radius: 999px;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+  .chip[aria-pressed="true"] { background: var(--crimson); border-color: var(--crimson); color: #F3EFE6; }
+  .chip:focus-visible { outline: 2px solid var(--crimson); outline-offset: 2px; }
+
+  /* ---------- Eras ---------- */
+  section.era { padding: 5rem 0 2rem; }
+  .era-head { margin-bottom: 3rem; }
+  .era-num {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--crimson);
+  }
+  .era h2 {
+    font-family: var(--serif-display);
+    font-size: clamp(1.8rem, 4.5vw, 2.7rem);
+    font-weight: 500;
+    margin: 0.4rem 0 0.6rem;
+    text-wrap: balance;
+  }
+  .era-sub { color: var(--era-dim, var(--slate)); max-width: 33rem; margin: 0; }
+
+  /* ---------- Entries: the spine ---------- */
+  .spine { border-left: 1px solid var(--era-rule, var(--rule)); padding-left: 2rem; margin-left: 0.35rem; }
+  .entry {
+    position: relative;
+    padding: 0 0 3rem;
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .entry.seen { opacity: 1; transform: none; }
+  .entry.hidden-by-filter { display: none; }
+  .entry::before {
+    content: "";
+    position: absolute;
+    left: calc(-2rem - 5px);
+    top: 0.5rem;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--crimson);
+  }
+  .entry[data-kind="pushback"]::before { background: transparent; border: 2px solid var(--crimson); width: 7px; height: 7px; }
+
+  .entry .date {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    color: var(--era-dim, var(--slate));
+  }
+  .entry h3 {
+    font-family: var(--serif-display);
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin: 0.3rem 0 0.5rem;
+    text-wrap: balance;
+  }
+  .entry p { margin: 0 0 0.5rem; max-width: 38rem; }
+  .tag {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid var(--era-rule, var(--rule));
+    border-radius: 2px;
+    color: var(--era-dim, var(--slate));
+    margin-top: 0.25rem;
+  }
+  .entry[data-kind="statute"] .tag { color: var(--crimson); border-color: var(--crimson); }
+  .entry[data-kind="sentence"] .tag { background: var(--crimson); border-color: var(--crimson); color: #F3EFE6; }
+
+  /* ---------- Mechanism ---------- */
+  section.mechanism { padding: 6rem 0; }
+  .mech-label {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--crimson);
+  }
+  .mechanism h2 {
+    font-family: var(--serif-display);
+    font-size: clamp(1.8rem, 4.5vw, 2.7rem);
+    font-weight: 500;
+    margin: 0.4rem 0 1.5rem;
+    text-wrap: balance;
+  }
+  .mech-panel {
+    border: 1px solid var(--era-rule, var(--rule));
+    background: color-mix(in srgb, var(--era-fg, var(--ink)) 5%, transparent);
+    padding: 1.75rem;
+  }
+  .mech-def { font-size: 1.05rem; margin: 0 0 1.5rem; }
+  .mech-tests { list-style: none; margin: 0 0 1.5rem; padding: 0; display: flex; flex-direction: column; gap: 0.9rem; }
+  .mech-tests li { display: flex; gap: 0.9rem; align-items: baseline; }
+  .mech-tests .n {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--crimson);
+    border: 1px solid var(--crimson);
+    border-radius: 2px;
+    padding: 0.1rem 0.4rem;
+    flex: none;
+  }
+  .mech-verdict {
+    font-family: var(--serif-display);
+    font-size: 1.25rem;
+    margin: 0 0 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--era-rule, var(--rule));
+    text-wrap: balance;
+  }
+  .mech-note { font-size: 0.9rem; color: var(--era-dim, var(--slate)); margin: 0; }
+
+  /* ---------- Dawn ---------- */
+  section.dawn { padding: 16vh 0 10vh; }
+  .dawn .era-num { color: var(--gold); }
+  .dawn h2 {
+    font-family: var(--serif-display);
+    font-size: clamp(2.2rem, 6vw, 3.8rem);
+    font-weight: 500;
+    margin: 0.5rem 0 1.5rem;
+    text-wrap: balance;
+  }
+  .dawn p { font-size: 1.12rem; max-width: 36rem; }
+  .dawn .credo {
+    font-family: var(--serif-display);
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    line-height: 1.2;
+    margin-top: 3rem;
+    border-left: 3px solid var(--gold);
+    padding-left: 1.25rem;
+    text-wrap: balance;
+  }
+  .cta {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .cta-btn {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1a1305;
+    background: var(--gold);
+    padding: 0.95rem 1.6rem;
+    border-radius: 2px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .cta-btn:hover {
+    color: #1a1305;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(208, 138, 29, 0.35);
+  }
+  .cta-btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+  .cta-sub {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--era-dim, var(--slate));
+    margin: 0;
+  }
+
+  footer {
+    padding: 3rem 0 4rem;
+    border-top: 1px solid var(--era-rule, var(--rule));
+    font-size: 0.85rem;
+    color: var(--era-dim, var(--slate));
+  }
+  footer p { max-width: 38rem; }
+</style>
+</head>
+
+<body data-era="0">
+
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">United Kingdom · 1986 – 2026</div>
+    <h1>The Ratchet</h1>
+    <p class="standfirst">How dissent became a crime in Britain — one act, one clause, one exemplary sentence at a time. A ratchet only turns one way. Until it breaks.</p>
+    <p class="cumulative">Taken alone, each measure below was defended as reasonable, and each drew concern in its moment. It is the <strong>cumulative</strong> weight — visible only from the distance of years — that reveals the pattern no single headline could.</p>
+    <blockquote class="epigraph">
+      Regimes never say "we want more police powers and less civil liberties."
+      <cite>— <a href="https://paragraph.com/@dearmoon/totalitarian-timeline-in-the-uk">Totalitarian Timeline in the UK</a>, May 2023</cite>
+    </blockquote>
+    <div class="hero-note">Scroll. The page darkens as the law tightens. ↓</div>
+  </div>
+</header>
+
+<nav class="filters" aria-label="Filter timeline entries">
+  <div class="wrap">
+    <button class="chip" aria-pressed="true" data-filter="all">All entries</button>
+    <button class="chip" aria-pressed="false" data-filter="statute">Statutes</button>
+    <button class="chip" aria-pressed="false" data-filter="sentence">Sentences</button>
+    <button class="chip" aria-pressed="false" data-filter="event">On the ground</button>
+    <button class="chip" aria-pressed="false" data-filter="pushback">Courts push back</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- ══════════════ ERA I ══════════════ -->
+<section class="era" data-era="0">
+  <div class="wrap">
+    <div class="era-head">
+      <div class="era-num">Era I · 1986–2016</div>
+      <h2>Laying the groundwork</h2>
+      <p class="era-sub">Each power arrives with a reassurance: it will only be used against someone else. Each becomes the foundation the next one is built on.</p>
+    </div>
+    <div class="spine">
+
+      <article class="entry" data-kind="statute">
+        <div class="date">1986</div>
+        <h3>Public Order Act 1986</h3>
+        <p>Police gain the power to impose conditions on marches and assemblies. The baseline statute that nearly every later crackdown amends and extends.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="statute">
+        <div class="date">1994</div>
+        <h3>Criminal Justice and Public Order Act</h3>
+        <p>"Aggravated trespass" is invented — protest on private land becomes a crime, not a civil matter. The right to silence is weakened. Even gatherings with "repetitive beats" are targeted.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="statute">
+        <div class="date">2000</div>
+        <h3>Terrorism Act 2000, section 44</h3>
+        <p>Suspicionless stop-and-search, justified by terrorism, used in practice against protesters and journalists for a decade.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="pushback">
+        <div class="date">2010</div>
+        <h3>Strasbourg strikes down s.44</h3>
+        <p>The European Court of Human Rights rules the suspicionless search power unlawful (<em>Gillan &amp; Quinton v UK</em>) — after roughly ten years of use. The pattern is set: the power operates first, the court arrives later.</p>
+        <span class="tag">Courts push back</span>
+      </article>
+
+      <article class="entry" data-kind="statute">
+        <div class="date">2005</div>
+        <h3>Serious Organised Crime and Police Act</h3>
+        <p>Unauthorised protest within one kilometre of Parliament becomes a criminal offence — legislation aimed substantially at a single man, Brian Haw, and his peace camp in Parliament Square.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="statute">
+        <div class="date">2012</div>
+        <h3>LASPO: legal aid gutted, squatting criminalised</h3>
+        <p>The ability of ordinary people to contest the state in court is quietly de-funded, while occupying an empty building becomes a crime.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="statute">
+        <div class="date">2016</div>
+        <h3>Investigatory Powers Act — the "Snoopers' Charter"</h3>
+        <p>Bulk interception, bulk hacking and bulk retention of communications data are written into law. The infrastructure of total visibility is now statutory.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ ERA II ══════════════ -->
+<section class="era" data-era="1">
+  <div class="wrap">
+    <div class="era-head">
+      <div class="era-num">Era II · 2019–2021</div>
+      <h2>Testing the resistance</h2>
+      <p class="era-sub">Mass civil disobedience returns to Britain's streets. The state probes how far existing powers stretch — and starts drafting new ones.</p>
+    </div>
+    <div class="spine">
+
+      <article class="entry" data-kind="event">
+        <div class="date">APR 2019</div>
+        <h3>Extinction Rebellion holds central London</h3>
+        <p>Over 1,100 arrests in ten days. Bridges and squares occupied by teachers, doctors, grandparents. The politics of protest policing changes overnight.</p>
+        <span class="tag">On the ground</span>
+      </article>
+
+      <article class="entry" data-kind="event">
+        <div class="date">OCT 2019</div>
+        <h3>The Met bans protest across all of London</h3>
+        <p>A blanket section 14 order prohibits any Extinction Rebellion assembly anywhere in the capital. Hundreds are arrested under it.</p>
+        <span class="tag">On the ground</span>
+      </article>
+
+      <article class="entry" data-kind="pushback">
+        <div class="date">NOV 2019</div>
+        <h3>High Court: the London-wide ban was unlawful</h3>
+        <p>The ban is quashed — but only after it has already done its work. Arrest first, litigate later.</p>
+        <span class="tag">Courts push back</span>
+      </article>
+
+      <article class="entry" data-kind="event">
+        <div class="date">MAR 2021</div>
+        <h3>The Clapham Common vigil</h3>
+        <p>Women gathering to mourn Sarah Everard — killed by a serving police officer — are pinned to the ground and handcuffed by police. The following year the High Court finds the Met breached the organisers' rights.</p>
+        <span class="tag">On the ground</span>
+      </article>
+
+      <article class="entry" data-kind="event">
+        <div class="date">2021</div>
+        <h3>"Kill the Bill"</h3>
+        <p>Protests erupt nationwide against the Police, Crime, Sentencing and Courts Bill. In Bristol, participants later receive some of the longest riot sentences in decades. The bill passes anyway.</p>
+        <span class="tag">On the ground</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ ERA III ══════════════ -->
+<section class="era" data-era="2">
+  <div class="wrap">
+    <div class="era-head">
+      <div class="era-num">Era III · 2022–2023</div>
+      <h2>The ratchet, written into law</h2>
+      <p class="era-sub">Two acts in two years transform the legal landscape of protest. What was a fine becomes a prison sentence; what was a tactic becomes an offence.</p>
+    </div>
+    <div class="spine">
+
+      <article class="entry" data-kind="statute">
+        <div class="date">APR 2022</div>
+        <h3>Police, Crime, Sentencing and Courts Act</h3>
+        <p>Protests can be restricted for being too <em>noisy</em>. Damaging a memorial: up to ten years. Wilful obstruction of the highway — for a century a matter of a small fine — now carries imprisonment. Even one-person protests can be conditioned.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="event">
+        <div class="date">OCT 2022</div>
+        <h3>Two climbers on the Dartford Crossing</h3>
+        <p>Morgan Trowland and Marcus Decker of Just Stop Oil scale the Queen Elizabeth II bridge, closing it for over a day. No one is hurt. Their sentences will set a new benchmark.</p>
+        <span class="tag">On the ground</span>
+      </article>
+
+      <article class="entry" data-kind="sentence">
+        <div class="date">FEB 2023</div>
+        <h3>Jailed for telling the jury why</h3>
+        <p>Insulate Britain defendant David Nixon is imprisoned for eight weeks for contempt of court — his offence was explaining his climate motivation to the jury after Judge Silas Reid forbade it. Others follow him to the cells for the same words.</p>
+        <span class="tag">Sentence</span>
+      </article>
+
+      <article class="entry" data-kind="pushback">
+        <div class="date">MAR 2023</div>
+        <h3>Lawyers Are Responsible</h3>
+        <p>More than one hundred lawyers — six King's Counsel among them — sign a Declaration of Conscience refusing to prosecute peaceful climate protesters, openly breaking the cab-rank rule. The revolt reaches the bar itself.</p>
+        <span class="tag">Courts push back</span>
+      </article>
+
+      <article class="entry" data-kind="statute">
+        <div class="date">MAY 2023</div>
+        <h3>Public Order Act 2023</h3>
+        <p>Measures the House of Lords threw out of the 2022 act are simply reintroduced and passed: criminal offences of "locking on" and tunnelling, Serious Disruption Prevention Orders — protest banning orders for individuals — and suspicionless stop-and-search, this time explicitly for protest. It comes into force days before the Coronation; the head of the anti-monarchy group Republic is arrested that morning, luggage straps in hand.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="statute">
+        <div class="date">JUN 2023</div>
+        <h3>"Serious disruption" redefined as "more than minor"</h3>
+        <p>After Parliament rejects the change once, the government re-enacts it through secondary legislation — lowering the threshold at which police can shut a protest down to almost nothing.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="statute">
+        <div class="date">OCT 2023</div>
+        <h3>Online Safety Act</h3>
+        <p>The censorship apparatus goes digital: sweeping duties over "harmful" content, and powers that put end-to-end encryption itself on notice. The same ratchet, applied to speech online.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="pushback">
+        <div class="date">MAY 2024</div>
+        <h3>High Court: that regulation was unlawful</h3>
+        <p>In a challenge brought by Liberty, the court finds the government acted outside its powers. The government's response is not repeal — it is appeal.</p>
+        <span class="tag">Courts push back</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ ERA IV ══════════════ -->
+<section class="era" data-era="3">
+  <div class="wrap">
+    <div class="era-head">
+      <div class="era-num">Era IV · 2023–2024</div>
+      <h2>Exemplary sentences</h2>
+      <p class="era-sub">The courts begin handing down punishments designed to be heard about. The message is the sentence.</p>
+    </div>
+    <div class="spine">
+
+      <article class="entry" data-kind="sentence">
+        <div class="date">APR 2023</div>
+        <h3>Three years for climbing a bridge</h3>
+        <p>Trowland receives three years, Decker two years and seven months — at the time, the longest sentences for peaceful climate protest in modern British history. Decker, a long-settled European national, is then threatened with deportation; a tribunal later blocks it.</p>
+        <span class="tag">Sentence</span>
+      </article>
+
+      <article class="entry" id="trudi-warner" data-kind="pushback">
+        <div class="date">APR 2024</div>
+        <h3>The Trudi Warner case collapses</h3>
+        <p>A retired social worker held a sign outside a courtroom stating a centuries-old principle: jurors may acquit according to their conscience. The Solicitor General sought to prosecute her for contempt. The High Court throws the case out as "fanciful". The state attempted to criminalise a sentence engraved at the Old Bailey.</p>
+        <span class="tag">Courts push back</span>
+      </article>
+
+      <article class="entry" data-kind="sentence">
+        <div class="date">JUL 2024</div>
+        <h3>Five years for a Zoom call</h3>
+        <p>The "Whole Truth Five": Roger Hallam sentenced to five years, four others to four, for planning the M25 protests on a video call. The longest sentences ever imposed in Britain for peaceful protest organising. A UN special rapporteur attends the trial and calls the prosecutions something "not acceptable in a democracy". The Court of Appeal later trims some terms — and upholds the approach.</p>
+        <span class="tag">Sentence</span>
+      </article>
+
+      <article class="entry" data-kind="sentence">
+        <div class="date">SEP 2024</div>
+        <h3>Two years for soup on glass</h3>
+        <p>Phoebe Plummer is sentenced to two years for throwing soup at Van Gogh's <em>Sunflowers</em> — a painting protected by glass and undamaged. Around the same courts, sentences for actual violence routinely run shorter.</p>
+        <span class="tag">Sentence</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ MECHANISM ══════════════ -->
+<section class="mechanism" id="how-it-works" data-era="4">
+  <div class="wrap">
+    <div class="mech-label">How it works</div>
+    <h2>Nothing new had to be passed</h2>
+    <div class="mech-panel">
+      <p class="mech-def">Since 2000, the law has defined "terrorism" to include <em>serious damage to property</em> — no injury to any person required — where three tests are met:</p>
+      <ul class="mech-tests">
+        <li><span class="n">1</span><span>the act is designed to <strong>influence the government</strong> or intimidate the public;</span></li>
+        <li><span class="n">2</span><span>it is done to advance a <strong>political, religious or ideological cause</strong>;</span></li>
+        <li><span class="n">3</span><span>it involves serious violence, serious damage to property, or endangers life.</span></li>
+      </ul>
+      <p class="mech-verdict">By this definition, a spray can wielded for a political cause has been chargeable as terrorism for twenty-five years. The gun was always loaded. What changed was the decision to fire it at protesters.</p>
+      <p class="mech-note">A precise point, because precision is the armour: no retroactive crime was invented — that would be unlawful. A past protest is simply charged <em>now</em> under a definition that applied <em>all along</em>. The escalation is not in the statute book. It is in the will to use it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ ERA V ══════════════ -->
+<section class="era" data-era="5">
+  <div class="wrap">
+    <div class="era-head">
+      <div class="era-num">Era V · 2025</div>
+      <h2>Protest becomes terrorism</h2>
+      <p class="era-sub">The final turn of the ratchet: the machinery built for al-Qaeda is pointed at people holding cardboard signs.</p>
+    </div>
+    <div class="spine">
+
+      <article class="entry" data-kind="event">
+        <div class="date">JUN 2025</div>
+        <h3>Paint on warplanes at Brize Norton</h3>
+        <p>Palestine Action activists spray paint into the engines of RAF aircraft. Criminal damage, plainly — and the trigger for something without precedent.</p>
+        <span class="tag">On the ground</span>
+      </article>
+
+      <article class="entry" id="proscription" data-kind="statute">
+        <div class="date">JUL 2025</div>
+        <h3>A protest group is proscribed as a terrorist organisation</h3>
+        <p>Palestine Action is banned under the Terrorism Act 2000 — the first direct-action protest group listed alongside al-Qaeda and ISIS. Membership or expressing support: up to fourteen years in prison.</p>
+        <span class="tag">Statute</span>
+      </article>
+
+      <article class="entry" data-kind="sentence">
+        <div class="date">2024–25</div>
+        <h3>Property damage, tried as terrorism</h3>
+        <p>Activists arrested under section 41 of the Terrorism Act over the 2024 break-in at Elbit Systems' Filton site in Bristol are prosecuted as terrorists — for spray paint and broken equipment, with no allegation that anyone was harmed. The trials run under heavy reporting restrictions: defendants say they cannot put their motivation, or Gaza, before the jury at all.</p>
+        <span class="tag">Sentence</span>
+      </article>
+
+      <article class="entry" data-kind="pushback">
+        <div class="date">NOV 2025</div>
+        <h3>The ban reaches court — and the judge is swapped</h3>
+        <p>Huda Ammori, a Palestine Action co-founder, wins permission to judicially review the proscription — the first such challenge to a banned organisation. Days before the November 2025 hearing, the judge who granted permission is replaced by a three-judge panel. Campaigners, including Defend Our Juries, call it a "stitch-up". The hearing goes ahead, contested.</p>
+        <span class="tag">Courts push back</span>
+      </article>
+
+      <article class="entry" data-kind="event">
+        <div class="date">2025 →</div>
+        <h3>Mass arrests for holding a sign</h3>
+        <p>Retirees, priests, veterans and carers are arrested in their thousands for signs reading "I oppose genocide. I support Palestine Action." More than 2,200 are detained in the months after the ban — reportedly more arrests than the entire post-2000 "war on terror". The arrest queues become the protest. The state has finally built a law so broad that enforcing it manufactures dissidents faster than it can process them.</p>
+        <span class="tag">On the ground</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ DAWN ══════════════ -->
+<section class="dawn" data-era="dawn">
+  <div class="wrap">
+    <div class="era-num">The turn</div>
+    <h2>It had to get this bad</h2>
+    <p>Every clause created a constituency against it. Every exemplary sentence made an example — of the system. Grandmothers with signs, jurors with consciences, judges striking down regulations: the ratchet tightened until the handle snapped.</p>
+    <p>A system that must criminalise soup, placards and Zoom calls to survive is not strong. It is finished, and it knows.</p>
+    <p>None of this is hindsight. <a href="https://paragraph.com/@dearmoon/totalitarian-timeline-in-the-uk">The warning was published in May 2023</a>, while the ink on the Public Order Act was still wet. The timeline since has only confirmed it.</p>
+    <p class="credo">We are not asking the system to fix itself.<br>We are welcoming a better one.</p>
+    <div class="cta">
+      <a class="cta-btn" href="https://planetarycouncil.org/vote/">Cast your vote — Planetary Council →</a>
+      <p class="cta-sub">Vote · Share · Say what you think · #OvergrowTheRegime</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>A civic record, assembled from public reporting and legislation. Every entry names a real statute, ruling or case — verify each against primary sources: legislation.gov.uk, court judgments, and contemporaneous reporting. Corrections welcome.</p>
+    <p>Builds on <a href="https://paragraph.com/@dearmoon/totalitarian-timeline-in-the-uk">"Totalitarian Timeline in the UK"</a> (May 2023). Published under <a href="https://independenttribunal.org/#legal-affairs">Independent Tribunal · Legal affairs</a>.</p>
+  </div>
+</footer>
+
+<script>
+  // Scroll-driven era darkening
+  const body = document.body;
+  const sections = document.querySelectorAll("section[data-era]");
+  const eraObserver = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (e.isIntersecting) body.dataset.era = e.target.dataset.era;
+    }
+  }, { rootMargin: "-40% 0px -40% 0px" });
+  sections.forEach(s => eraObserver.observe(s));
+
+  // Entry reveal
+  const reveal = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (e.isIntersecting) { e.target.classList.add("seen"); reveal.unobserve(e.target); }
+    }
+  }, { rootMargin: "0px 0px -10% 0px" });
+  document.querySelectorAll(".entry").forEach(el => reveal.observe(el));
+
+  // Filters
+  const chips = document.querySelectorAll(".chip");
+  chips.forEach(chip => chip.addEventListener("click", () => {
+    chips.forEach(c => c.setAttribute("aria-pressed", c === chip ? "true" : "false"));
+    const f = chip.dataset.filter;
+    document.querySelectorAll(".entry").forEach(el => {
+      el.classList.toggle("hidden-by-filter", f !== "all" && el.dataset.kind !== f);
+    });
+  }));
+</script>
+</body>
+</html>

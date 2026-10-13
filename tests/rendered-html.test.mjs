@@ -30,6 +30,8 @@ test("server-renders the Independent Tribunal experience", async () => {
   assert.match(html, /Good judgment/);
   assert.match(html, /Independent Tribunal is being built in public/);
   assert.match(html, /Not a court and not legal advice/);
+  assert.match(html, /Legal affairs/);
+  assert.match(html, /href="\/uk-timeline\/"/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
 });
 
