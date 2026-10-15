@@ -1,0 +1,82 @@
+{
+  "id": "proscription-support",
+  "order": 3,
+  "featured": true,
+  "title": "Proscription",
+  "label": "Terrorism Act 2000 · ss.11–13",
+  "jurisdiction": "United Kingdom",
+  "tags": [
+    "terrorism",
+    "proscription",
+    "speech",
+    "protest"
+  ],
+  "summary": "Once a group is banned, membership, inviting support, or even displaying a symbol of support becomes a criminal offence.",
+  "rule": "Once an organisation is proscribed, it is an offence to belong or profess to belong to it (section 11), to invite support for it (section 12(1)), or to express an opinion or belief supportive of it while reckless as to whether others will be encouraged to support it (section 12(1A)). It is also an offence to wear or display an article, or publish an image of one, in circumstances that arouse reasonable suspicion of membership or support (section 13).",
+  "nuance": [
+    "The offences are about support for the organisation. Reporting that something happened, quoting words as evidence of an event, or criticising the law that bans a group is not, by itself, an opinion supportive of that group. Where the line falls in a particular case is for a court.",
+    "The test in section 12(1A) is recklessness, not intent. A person can commit the offence without meaning to encourage anyone, if they are reckless as to whether their audience will be encouraged.",
+    "Both section 12(1A) and the image offence in section 13(1A) were added in 2019. Before then, expressing a supportive opinion was an offence only if it invited support.",
+    "The offences apply only while an organisation is proscribed. Check the current list on GOV.UK, not a secondary source."
+  ],
+  "why_it_matters": "Proscription turns ordinary acts of expression, such as a sign, a T-shirt or a post, into potential terrorism offences. It applies to everyone, not just members.",
+  "history": [
+    {
+      "date": "2000",
+      "date_label": "2000",
+      "text": "The Terrorism Act 2000 creates the membership, support and uniform offences.",
+      "sources": [
+        "tact-2000-s11",
+        "tact-2000-s12",
+        "tact-2000-s13"
+      ]
+    },
+    {
+      "date": "2019",
+      "date_label": "2019",
+      "text": "The Counter-Terrorism and Border Security Act 2019 adds the reckless-expression offence and the image-publication offence.",
+      "sources": [
+        "ctbsa-2019-s1",
+        "ctbsa-2019-s2"
+      ]
+    },
+    {
+      "date": "2025-07-05",
+      "date_label": "JUL 2025",
+      "text": "Palestine Action, Maniacs Murder Cult and Russian Imperial Movement are added to the proscribed list.",
+      "sources": [
+        "uksi-2025-803"
+      ]
+    },
+    {
+      "date": "2026-02-13",
+      "date_label": "FEB 2026",
+      "text": "The High Court proposes to quash the Palestine Action proscription.",
+      "sources": [
+        "ammori-v-sshd-2026-divisional"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "date_label": "JUN 2026",
+      "text": "The Court of Appeal allows the Home Secretary's appeal; the proscription stands.",
+      "sources": [
+        "sshd-v-ammori-2026-appeal"
+      ]
+    }
+  ],
+  "sources": [
+    "tact-2000-s11",
+    "tact-2000-s12",
+    "tact-2000-s13",
+    "home-office-proscribed-list"
+  ],
+  "related": {
+    "timeline": [
+      "proscription",
+      "sign-holder-arrests",
+      "proscription-reinstated-2026"
+    ]
+  },
+  "checked": "2026-10-14"
+}

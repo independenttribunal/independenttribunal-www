@@ -1,0 +1,845 @@
+{
+  "about": "Public references cited across Independent Tribunal. Each entry links to a primary or official source. `checked` is the date the URL was last confirmed to resolve to the named document.",
+  "references": [
+    {
+      "id": "ukpga-1986-64",
+      "title": "Public Order Act 1986",
+      "publisher": "legislation.gov.uk",
+      "date": "1986",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "public-order"
+      ],
+      "summary": "Baseline statute for police conditions on processions and assemblies; amended by most later protest legislation.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ukpga-1994-33",
+      "title": "Criminal Justice and Public Order Act 1994",
+      "publisher": "legislation.gov.uk",
+      "date": "1994",
+      "url": "https://www.legislation.gov.uk/ukpga/1994/33",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "public-order",
+        "trespass"
+      ],
+      "summary": "Created the offence of aggravated trespass and qualified the right to silence.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "tact-2000-s1",
+      "title": "Terrorism Act 2000, section 1 — Terrorism: interpretation",
+      "publisher": "legislation.gov.uk",
+      "date": "2000",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/1",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "definitions"
+      ],
+      "summary": "Statutory definition of terrorism, which includes serious damage to property done to influence the government for a political, religious, racial or ideological cause.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "tact-2000-s3",
+      "title": "Terrorism Act 2000, section 3 — Proscription",
+      "publisher": "legislation.gov.uk",
+      "date": "2000",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/3",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription"
+      ],
+      "summary": "Power of the Home Secretary to add an organisation to the list of proscribed organisations by order.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "tact-2000-s11",
+      "title": "Terrorism Act 2000, section 11 — Membership",
+      "publisher": "legislation.gov.uk",
+      "date": "2000",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/11",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription"
+      ],
+      "summary": "Offence of belonging, or professing to belong, to a proscribed organisation.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "tact-2000-s12",
+      "title": "Terrorism Act 2000, section 12 — Support",
+      "publisher": "legislation.gov.uk",
+      "date": "2000",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/12",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription",
+        "speech"
+      ],
+      "summary": "Offences of inviting support for a proscribed organisation and (s.12(1A)) expressing an opinion or belief supportive of one while reckless as to whether others will be encouraged to support it.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "tact-2000-s13",
+      "title": "Terrorism Act 2000, section 13 — Uniform and publication of images",
+      "publisher": "legislation.gov.uk",
+      "date": "2000",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/13",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription",
+        "speech",
+        "images"
+      ],
+      "summary": "Offences of wearing or displaying articles, or (s.13(1A)) publishing an image of clothing or an article, in circumstances arousing reasonable suspicion of membership or support of a proscribed organisation.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "tact-2000-s44",
+      "title": "Terrorism Act 2000, section 44 — Authorisations (stop and search)",
+      "publisher": "legislation.gov.uk",
+      "date": "2000",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/44",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "stop-and-search",
+        "protest"
+      ],
+      "summary": "Suspicionless stop-and-search power, later held incompatible with Article 8 ECHR in Gillan and Quinton v UK and since repealed.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "tact-2000-sch2",
+      "title": "Terrorism Act 2000, Schedule 2 — Proscribed organisations",
+      "publisher": "legislation.gov.uk",
+      "date": "2000",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/schedule/2",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription"
+      ],
+      "summary": "The statutory list of proscribed organisations, as amended by later orders.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "home-office-proscribed-list",
+      "title": "Proscribed terrorist groups or organisations",
+      "publisher": "Home Office (GOV.UK)",
+      "date": "2026",
+      "url": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription"
+      ],
+      "summary": "The government's current list of proscribed organisations with the stated reasons for each proscription. Check this before relying on any other list.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "uksi-2025-803",
+      "title": "The Terrorism Act 2000 (Proscribed Organisations) (Amendment) Order 2025",
+      "publisher": "legislation.gov.uk",
+      "date": "2025-07-04",
+      "url": "https://www.legislation.gov.uk/uksi/2025/803",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription"
+      ],
+      "summary": "Order adding Palestine Action, Maniacs Murder Cult and Russian Imperial Movement to Schedule 2. Made 4 July 2025, in force 5 July 2025.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "gillan-quinton-v-uk-2010",
+      "title": "Gillan and Quinton v. the United Kingdom (application no. 4158/05)",
+      "publisher": "European Court of Human Rights (HUDOC)",
+      "date": "2010-01-12",
+      "url": "https://hudoc.echr.coe.int/eng?i=001-96585",
+      "type": "judgment",
+      "jurisdiction": "ECHR",
+      "topics": [
+        "stop-and-search",
+        "terrorism",
+        "privacy"
+      ],
+      "summary": "Held that the section 44 stop-and-search power was not 'in accordance with the law' and violated Article 8.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "socpa-2005-part4",
+      "title": "Serious Organised Crime and Police Act 2005, Part 4",
+      "publisher": "legislation.gov.uk",
+      "date": "2005",
+      "url": "https://www.legislation.gov.uk/ukpga/2005/15/part/4",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "public-order"
+      ],
+      "summary": "Public order provisions including the former authorisation regime for demonstrations near Parliament.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "laspo-2012",
+      "title": "Legal Aid, Sentencing and Punishment of Offenders Act 2012",
+      "publisher": "legislation.gov.uk",
+      "date": "2012",
+      "url": "https://www.legislation.gov.uk/ukpga/2012/10",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "legal-aid",
+        "access-to-justice"
+      ],
+      "summary": "Narrowed the scope of civil legal aid.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "laspo-2012-s144",
+      "title": "Legal Aid, Sentencing and Punishment of Offenders Act 2012, section 144",
+      "publisher": "legislation.gov.uk",
+      "date": "2012",
+      "url": "https://www.legislation.gov.uk/ukpga/2012/10/section/144",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "squatting",
+        "trespass"
+      ],
+      "summary": "Offence of squatting in a residential building.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ipa-2016",
+      "title": "Investigatory Powers Act 2016",
+      "publisher": "legislation.gov.uk",
+      "date": "2016",
+      "url": "https://www.legislation.gov.uk/ukpga/2016/25",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "surveillance",
+        "privacy"
+      ],
+      "summary": "Statutory framework for interception, equipment interference and bulk communications data powers.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "jones-v-met-2019",
+      "title": "Jones & Ors v The Commissioner of Police for the Metropolis [2019] EWHC 2957 (Admin)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2019-11-06",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2019/2957",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "public-order"
+      ],
+      "summary": "Holds that the October 2019 London-wide section 14 condition on Extinction Rebellion assemblies was unlawful because the gathering was not a single public assembly within the meaning of the Act.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "leigh-v-met-2022",
+      "title": "Leigh v The Commissioner of Police of the Metropolis [2022] EWHC 527 (Admin)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2022-03-11",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2022/527",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "policing"
+      ],
+      "summary": "Holds that the Metropolitan Police's decisions about the Clapham Common vigil for Sarah Everard were unlawful, including for failing to carry out a case-specific proportionality assessment.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "pcsc-2022",
+      "title": "Police, Crime, Sentencing and Courts Act 2022",
+      "publisher": "legislation.gov.uk",
+      "date": "2022",
+      "url": "https://www.legislation.gov.uk/ukpga/2022/32",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "public-order",
+        "sentencing"
+      ],
+      "summary": "Expanded police powers to impose conditions on protests, including on grounds of noise, and raised penalties for obstruction of the highway.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "poa-2023",
+      "title": "Public Order Act 2023",
+      "publisher": "legislation.gov.uk",
+      "date": "2023",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/15",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "public-order"
+      ],
+      "summary": "Created locking-on and tunnelling offences, Serious Disruption Prevention Orders and protest-related stop-and-search powers.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "osa-2023",
+      "title": "Online Safety Act 2023",
+      "publisher": "legislation.gov.uk",
+      "date": "2023",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "online-speech",
+        "regulation"
+      ],
+      "summary": "Duties on online services in relation to illegal and harmful content, enforced by Ofcom.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "liberty-v-sshd-2024",
+      "title": "R (National Council for Civil Liberties) v Secretary of State for the Home Department [2024] EWHC 1181 (Admin)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2024-05-21",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/1181",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "secondary-legislation"
+      ],
+      "summary": "Liberty's challenge to the 2023 regulations lowering the 'serious disruption' threshold. Grounds I and IV succeed; the court holds the Regulations unlawful.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "hallam-v-r-2025",
+      "title": "Hallam & Ors v R [2025] EWCA Crim 199",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2025-03-07",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/199",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "sentencing"
+      ],
+      "summary": "Court of Appeal reduces sentences in the M25 conspiracy case (Roger Hallam: five years to four) and in related climate-protest cases, while endorsing the general sentencing approach.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ammori-v-sshd-2025-permission",
+      "title": "R (Ammori) v Secretary of State for the Home Department [2025] EWHC 2013 (Admin)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2025-07-30",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/2013",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription",
+        "judicial-review"
+      ],
+      "summary": "High Court grants permission to apply for judicial review of Palestine Action's proscription on grounds 2 and 8, refusing the others.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ammori-v-sshd-2026-divisional",
+      "title": "R (Ammori) v Secretary of State for the Home Department [2026] EWHC 292 (Admin)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2026-02-13",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/292",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription",
+        "judicial-review"
+      ],
+      "summary": "Divisional Court allows the claim on two grounds (2 and 6), dismisses two others (5 and 8), and proposes an order quashing the decision to proscribe Palestine Action.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "sshd-v-ammori-2026-reporting",
+      "title": "Secretary of State for the Home Department v R (Ammori) [2026] EWCA Civ 659",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2026-05-22",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/659",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription",
+        "open-justice"
+      ],
+      "summary": "Court of Appeal ruling on reporting restrictions connected to the proscription appeal.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "sshd-v-ammori-2026-appeal",
+      "title": "Secretary of State for the Home Department v R (Ammori) [2026] EWCA Civ 721",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2026-06-15",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/721",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription",
+        "judicial-review"
+      ],
+      "summary": "Court of Appeal allows the Home Secretary's appeal: the Divisional Court misinterpreted the Proscription Policy and erred on proportionality; the court reassesses proportionality itself and refuses permission to cross-appeal.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "dearmoon-totalitarian-timeline-2023",
+      "title": "Totalitarian Timeline in the UK",
+      "publisher": "Paragraph (@dearmoon)",
+      "date": "2023-05",
+      "url": "https://paragraph.com/@dearmoon/totalitarian-timeline-in-the-uk",
+      "type": "article",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "commentary"
+      ],
+      "summary": "The May 2023 essay that the UK timeline builds on.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "dpa-2018",
+      "title": "Data Protection Act 2018",
+      "publisher": "legislation.gov.uk",
+      "date": "2018",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "privacy",
+        "data-protection"
+      ],
+      "summary": "UK data protection law alongside UK GDPR, including exemptions for journalistic, academic, artistic and literary purposes.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ico-uk-gdpr-guidance",
+      "title": "UK GDPR guidance and resources",
+      "publisher": "Information Commissioner's Office",
+      "date": "2026",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": [
+        "privacy",
+        "data-protection"
+      ],
+      "summary": "The UK regulator's guidance on data protection obligations and individuals' rights.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "juries-act-1974-s20c",
+      "title": "Juries Act 1974, section 20C — Offence: jurors engaging in other prohibited conduct",
+      "publisher": "legislation.gov.uk",
+      "date": "2015",
+      "url": "https://www.legislation.gov.uk/ukpga/1974/23/section/20C",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "juries"
+      ],
+      "summary": "Offence for a juror intentionally to engage in conduct from which it may reasonably be concluded that they intend to try the issue otherwise than on the evidence. Inserted by the Criminal Justice and Courts Act 2015.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "warner-2024",
+      "title": "HM Solicitor General v Warner [2024] EWHC 918 (KB)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2024-04-22",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2024/918",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "juries",
+        "contempt",
+        "protest"
+      ],
+      "summary": "High Court refuses the Solicitor General permission to bring contempt proceedings over a placard telling jurors of their right to acquit according to conscience; recounts Bushell's Case (1670) and the Old Bailey plaque.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "webster-v-king-2026",
+      "title": "Webster & Ors v The King [2026] EWCA Crim 9",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2026-01-20",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2026/9",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "juries",
+        "protest"
+      ],
+      "summary": "Court of Appeal dismisses appeals by protesters convicted of criminal damage, holds the trial judge's direction on section 20C was not wrong in law, and says Warner is not a sound guide on the effect of section 20C.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "highways-act-1980-s137",
+      "title": "Highways Act 1980, section 137 — Penalty for wilful obstruction",
+      "publisher": "legislation.gov.uk",
+      "date": "1980",
+      "url": "https://www.legislation.gov.uk/ukpga/1980/66/section/137",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "public-order"
+      ],
+      "summary": "Offence of wilfully obstructing free passage along a highway 'without lawful authority or excuse'.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ziegler-2021",
+      "title": "DPP v Ziegler and others [2021] UKSC 23",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2021-06-25",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2021/23",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "proportionality"
+      ],
+      "summary": "Supreme Court restores the acquittal of protesters who obstructed a road, holding that where Articles 10 and 11 are engaged, lawful excuse under section 137 can turn on proportionality.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "cuciurean-2022",
+      "title": "DPP v Cuciurean [2022] EWHC 736 (Admin)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2022-03-30",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2022/736",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "proportionality",
+        "trespass"
+      ],
+      "summary": "Divisional Court holds that Ziegler does not make proportionality an ingredient of every protest offence; a conviction for aggravated trespass is intrinsically proportionate.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ag-ref-1-2022-colston",
+      "title": "Attorney General's Reference on a Point of Law No 1 of 2022 [2022] EWCA Crim 1259",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2022-09-28",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2022/1259",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "proportionality",
+        "criminal-damage"
+      ],
+      "summary": "Court of Appeal (Colston statue) holds that violent protest, or protest causing significant damage to property, falls outside Convention protection, so proportionality is not an issue for the jury.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ni-safe-access-zones-2022",
+      "title": "Reference by the Attorney General for Northern Ireland — Abortion Services (Safe Access Zones) Bill [2022] UKSC 32",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2022-12-07",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2022/32",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "protest",
+        "proportionality"
+      ],
+      "summary": "Supreme Court says the wide reading of Ziegler, that every protest conviction needs a fact-specific proportionality assessment, was mistaken.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ctbsa-2019-s1",
+      "title": "Counter-Terrorism and Border Security Act 2019, section 1 — Expressions of support for a proscribed organisation",
+      "publisher": "legislation.gov.uk",
+      "date": "2019",
+      "url": "https://www.legislation.gov.uk/ukpga/2019/3/section/1",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription",
+        "speech"
+      ],
+      "summary": "Inserted section 12(1A) into the Terrorism Act 2000: the reckless-expression-of-support offence.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "ctbsa-2019-s2",
+      "title": "Counter-Terrorism and Border Security Act 2019, section 2 — Publication of images and seizure of articles",
+      "publisher": "legislation.gov.uk",
+      "date": "2019",
+      "url": "https://www.legislation.gov.uk/ukpga/2019/3/section/2",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "terrorism",
+        "proscription",
+        "images"
+      ],
+      "summary": "Inserted section 13(1A) into the Terrorism Act 2000: the offence of publishing images of clothing or articles that arouse reasonable suspicion of membership or support.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "hra-1998-sch1",
+      "title": "Human Rights Act 1998, Schedule 1 — The Articles (including Article 7)",
+      "publisher": "legislation.gov.uk",
+      "date": "1998",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/42/schedule/1",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "human-rights",
+        "retrospectivity"
+      ],
+      "summary": "The Convention rights given effect in UK law, including Article 7: no punishment without law.",
+      "checked": "2026-10-14"
+    },
+    {
+      "id": "uyghur-tribunal-judgment-2021",
+      "title": "Uyghur Tribunal Judgment (with appendices)",
+      "publisher": "Uyghur Tribunal",
+      "date": "2021-12-09",
+      "url": "https://www.utjd.org/uyghurtribunal/wp-content/uploads/2022/09/UYGHUR-TRIBUNAL-Judgment-2022.09.20.pdf",
+      "type": "report",
+      "jurisdiction": "INT",
+      "topics": [
+        "peoples-tribunal",
+        "genocide",
+        "china"
+      ],
+      "summary": "Judgment delivered at Church House, Westminster on 9 December 2021; corrected 10 January 2022; appendices added 20 September 2022. A people's tribunal judgment, not a court ruling.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "uyghur-tribunal-site",
+      "title": "Uyghur Tribunal",
+      "publisher": "Uyghur Tribunal",
+      "date": "2021",
+      "url": "https://uyghurtribunal.com/",
+      "type": "organisation",
+      "jurisdiction": "INT",
+      "topics": [
+        "peoples-tribunal"
+      ],
+      "summary": "The tribunal's own website: hearings, evidence, judgment and press.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "gaza-tribunal-steering-committee",
+      "title": "Gaza Tribunal — Steering Committee",
+      "publisher": "Gaza Tribunal",
+      "date": "2025",
+      "url": "https://gazatribunal.com/steering-committee/",
+      "type": "organisation",
+      "jurisdiction": "INT",
+      "topics": [
+        "peoples-tribunal"
+      ],
+      "summary": "Members of the steering committee, with Richard Falk as President of the Gaza Tribunal Project.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "gaza-tribunal-jury-statement-2025",
+      "title": "Final Statement of the Gaza Tribunal Jury of Conscience",
+      "publisher": "Gaza Tribunal",
+      "date": "2025-10-26",
+      "url": "https://gazatribunal.com/final-statement-of-the-gaza-tribunal-jury-of-conscience/",
+      "type": "report",
+      "jurisdiction": "INT",
+      "topics": [
+        "peoples-tribunal",
+        "genocide",
+        "israel-palestine"
+      ],
+      "summary": "Statement of Findings and Moral Judgment delivered in Istanbul on 26 October 2025. States that the tribunal is not a court of law.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "gaza-tribunal-conclusion-2025",
+      "title": "The Gaza Tribunal Concludes: \"The Genocide Continues\"",
+      "publisher": "Gaza Tribunal",
+      "date": "2025-10-26",
+      "url": "https://gazatribunal.com/the-gaza-tribunal-concludes-the-genocide-continues/",
+      "type": "report",
+      "jurisdiction": "INT",
+      "topics": [
+        "peoples-tribunal",
+        "israel-palestine"
+      ],
+      "summary": "Steering Committee conclusion recording the tribunal's founding in London (November 2024), Sarajevo hearings (May 2025) and Istanbul final session.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "gaza-tribunal-uk-report-2026",
+      "title": "The Gaza Tribunal: An inquiry into Britain's role in Israeli war crimes in Gaza — Report",
+      "publisher": "Peace & Justice Project",
+      "date": "2026-03",
+      "url": "https://actionnetwork.org/user_files/user_files/000/139/185/original/the-gaza-tribunal-report.pdf",
+      "type": "report",
+      "jurisdiction": "UK",
+      "topics": [
+        "peoples-tribunal",
+        "israel-palestine",
+        "uk-foreign-policy"
+      ],
+      "summary": "Report of the two-day tribunal held at Church House, Westminster on 4–5 September 2025, with conclusions and recommendations.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "gaza-tribunal-uk-site",
+      "title": "The Gaza Tribunal: Inquiry into British Complicity",
+      "publisher": "Peace & Justice Project",
+      "date": "2025",
+      "url": "https://thegazatribunal.uk/about",
+      "type": "organisation",
+      "jurisdiction": "UK",
+      "topics": [
+        "peoples-tribunal"
+      ],
+      "summary": "The tribunal's own website, including its account of why it was held.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "gaza-inquiry-bill-2025",
+      "title": "Gaza (Independent Public Inquiry) Bill (2024–26 session)",
+      "publisher": "UK Parliament",
+      "date": "2025-06-04",
+      "url": "https://bills.parliament.uk/bills/3987",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": [
+        "parliament",
+        "israel-palestine"
+      ],
+      "summary": "Private member's bill sponsored by Jeremy Corbyn. Parliament's record shows first reading on 4 June 2025 and no second reading sitting.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "gaza-inquiry-bill-2026",
+      "title": "Gaza (Independent Public Inquiry) Bill (2026 session)",
+      "publisher": "UK Parliament",
+      "date": "2026-06-22",
+      "url": "https://bills.parliament.uk/bills/4183",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": [
+        "parliament",
+        "israel-palestine"
+      ],
+      "summary": "Reintroduced bill sponsored by Jeremy Corbyn: first reading 22 June 2026; second reading listed for 4 December 2026.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "inquiries-act-2005-s1",
+      "title": "Inquiries Act 2005, section 1 — Power to establish inquiry",
+      "publisher": "legislation.gov.uk",
+      "date": "2005",
+      "url": "https://www.legislation.gov.uk/ukpga/2005/12/section/1",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": [
+        "inquiries",
+        "accountability"
+      ],
+      "summary": "Only a Minister may cause a statutory public inquiry to be held.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "belmarsh-tribunal-pi",
+      "title": "The Belmarsh Tribunal",
+      "publisher": "Progressive International",
+      "date": "2020-10-02",
+      "url": "https://progressive.international/movement/campaign/the-belmarsh-tribunal-49b20783-1491-4b86-b02a-eef879e26318/en/",
+      "type": "organisation",
+      "jurisdiction": "INT",
+      "topics": [
+        "peoples-tribunal",
+        "press-freedom"
+      ],
+      "summary": "Campaign page: first sitting online on 2 October 2020, later sittings in London, New York City, Washington DC and Sydney; inspired by the Russell–Sartre Tribunal.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "usa-v-assange-2021",
+      "title": "Government of the United States of America v Assange [2021] EWHC 3313 (Admin)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2021-12-10",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2021/3313",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "extradition",
+        "press-freedom"
+      ],
+      "summary": "High Court allows the US appeal, quashes the order discharging Assange, and remits the case so it is sent to the Home Secretary.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "assange-v-usa-2024",
+      "title": "Assange v Government of the United States of America [2024] EWHC 700 (Admin)",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2024-03-26",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/700",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": [
+        "extradition",
+        "press-freedom"
+      ],
+      "summary": "High Court refuses five grounds and adjourns three, giving the US until 16 April 2024 to file assurances, failing which leave to appeal would be granted on those three.",
+      "checked": "2026-10-15"
+    },
+    {
+      "id": "doj-assange-plea-2024",
+      "title": "WikiLeaks Founder Pleads Guilty and Is Sentenced for Conspiring to Obtain and Disclose Classified National Defense Information",
+      "publisher": "US Department of Justice",
+      "date": "2024-06-26",
+      "url": "https://www.justice.gov/archives/opa/pr/wikileaks-founder-pleads-guilty-and-sentenced-conspiring-obtain-and-disclose-classified",
+      "type": "official",
+      "jurisdiction": "US",
+      "topics": [
+        "press-freedom",
+        "espionage-act"
+      ],
+      "summary": "Plea in the US District Court for the Northern Mariana Islands (Saipan): one Espionage Act conspiracy count, 62-month time-served sentence, return to Australia.",
+      "checked": "2026-10-15"
+    }
+  ]
+}

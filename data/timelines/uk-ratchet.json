@@ -1,0 +1,429 @@
+{
+  "id": "uk-ratchet",
+  "path": "/uk-timeline/",
+  "title": "The Ratchet",
+  "seo_title": "The Ratchet — a UK Totalitarian Timeline",
+  "kicker": "United Kingdom · 1986 – 2026",
+  "description": "How dissent became a crime in Britain, one act, one clause, one exemplary sentence at a time. A UK timeline, 1986–2026.",
+  "og_description": "Each measure drew concern in its moment. The cumulative effect is only visible from the distance of years.",
+  "standfirst": "How dissent became a crime in Britain — one act, one clause, one exemplary sentence at a time. A ratchet only turns one way. Until it breaks.",
+  "cumulative": "Taken alone, each measure below was defended as reasonable, and each drew concern in its moment. It is the **cumulative** weight — visible only from the distance of years — that reveals the pattern no single headline could.",
+  "epigraph": {
+    "text": "Regimes never say \"we want more police powers and less civil liberties.\"",
+    "source": "dearmoon-totalitarian-timeline-2023",
+    "cite": "Totalitarian Timeline in the UK, May 2023"
+  },
+  "genre": "commentary",
+  "note": "A civic record with editorial commentary. Entry text is the publisher's framing; `sources` point to the primary record. Entries with an empty `sources` array still need a primary source.",
+  "kinds": {
+    "statute": "Statute",
+    "sentence": "Sentence",
+    "event": "On the ground",
+    "pushback": "Courts push back",
+    "ruling": "Court rules"
+  },
+  "sections": [
+    {
+      "type": "era",
+      "era": "0",
+      "label": "Era I · 1986–2016",
+      "title": "Laying the groundwork",
+      "subtitle": "Each power arrives with a reassurance: it will only be used against someone else. Each becomes the foundation the next one is built on.",
+      "entries": [
+        {
+          "id": "public-order-act-1986",
+          "date": "1986",
+          "date_label": "1986",
+          "kind": "statute",
+          "title": "Public Order Act 1986",
+          "body": "Police gain the power to impose conditions on marches and assemblies. The baseline statute that nearly every later crackdown amends and extends.",
+          "sources": [
+            "ukpga-1986-64"
+          ]
+        },
+        {
+          "id": "cjpoa-1994",
+          "date": "1994",
+          "date_label": "1994",
+          "kind": "statute",
+          "title": "Criminal Justice and Public Order Act",
+          "body": "\"Aggravated trespass\" is invented — protest on private land becomes a crime, not a civil matter. The right to silence is weakened. Even gatherings with \"repetitive beats\" are targeted.",
+          "sources": [
+            "ukpga-1994-33"
+          ]
+        },
+        {
+          "id": "terrorism-act-s44",
+          "date": "2000",
+          "date_label": "2000",
+          "kind": "statute",
+          "title": "Terrorism Act 2000, section 44",
+          "body": "Suspicionless stop-and-search, justified by terrorism, used in practice against protesters and journalists for a decade.",
+          "sources": [
+            "tact-2000-s44"
+          ]
+        },
+        {
+          "id": "gillan-quinton",
+          "date": "2010-01-12",
+          "date_label": "2010",
+          "kind": "pushback",
+          "title": "Strasbourg strikes down s.44",
+          "body": "The European Court of Human Rights rules the suspicionless search power unlawful (*Gillan & Quinton v UK*) — after roughly ten years of use. The pattern is set: the power operates first, the court arrives later.",
+          "sources": [
+            "gillan-quinton-v-uk-2010",
+            "tact-2000-s44"
+          ]
+        },
+        {
+          "id": "socpa-2005",
+          "date": "2005",
+          "date_label": "2005",
+          "kind": "statute",
+          "title": "Serious Organised Crime and Police Act",
+          "body": "Unauthorised protest within one kilometre of Parliament becomes a criminal offence — legislation aimed substantially at a single man, Brian Haw, and his peace camp in Parliament Square.",
+          "sources": [
+            "socpa-2005-part4"
+          ]
+        },
+        {
+          "id": "laspo-2012",
+          "date": "2012",
+          "date_label": "2012",
+          "kind": "statute",
+          "title": "LASPO: legal aid gutted, squatting criminalised",
+          "body": "The ability of ordinary people to contest the state in court is quietly de-funded, while occupying an empty building becomes a crime.",
+          "sources": [
+            "laspo-2012",
+            "laspo-2012-s144"
+          ]
+        },
+        {
+          "id": "investigatory-powers-act-2016",
+          "date": "2016",
+          "date_label": "2016",
+          "kind": "statute",
+          "title": "Investigatory Powers Act — the \"Snoopers' Charter\"",
+          "body": "Bulk interception, bulk hacking and bulk retention of communications data are written into law. The infrastructure of total visibility is now statutory.",
+          "sources": [
+            "ipa-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "era",
+      "era": "1",
+      "label": "Era II · 2019–2021",
+      "title": "Testing the resistance",
+      "subtitle": "Mass civil disobedience returns to Britain's streets. The state probes how far existing powers stretch — and starts drafting new ones.",
+      "entries": [
+        {
+          "id": "xr-april-2019",
+          "date": "2019-04",
+          "date_label": "APR 2019",
+          "kind": "event",
+          "title": "Extinction Rebellion holds central London",
+          "body": "Over 1,100 arrests in ten days. Bridges and squares occupied by teachers, doctors, grandparents. The politics of protest policing changes overnight.",
+          "sources": []
+        },
+        {
+          "id": "met-london-ban-2019",
+          "date": "2019-10",
+          "date_label": "OCT 2019",
+          "kind": "event",
+          "title": "The Met bans protest across all of London",
+          "body": "A blanket section 14 order prohibits any Extinction Rebellion assembly anywhere in the capital. Hundreds are arrested under it.",
+          "sources": [
+            "jones-v-met-2019"
+          ]
+        },
+        {
+          "id": "london-ban-quashed-2019",
+          "date": "2019-11-06",
+          "date_label": "NOV 2019",
+          "kind": "pushback",
+          "title": "High Court: the London-wide ban was unlawful",
+          "body": "The ban is quashed — but only after it has already done its work. Arrest first, litigate later.",
+          "sources": [
+            "jones-v-met-2019"
+          ]
+        },
+        {
+          "id": "clapham-vigil-2021",
+          "date": "2021-03",
+          "date_label": "MAR 2021",
+          "kind": "event",
+          "title": "The Clapham Common vigil",
+          "body": "Women gathering to mourn Sarah Everard — killed by a serving police officer — are pinned to the ground and handcuffed by police. The following year the High Court finds the Met breached the organisers' rights.",
+          "sources": [
+            "leigh-v-met-2022"
+          ]
+        },
+        {
+          "id": "kill-the-bill-2021",
+          "date": "2021",
+          "date_label": "2021",
+          "kind": "event",
+          "title": "\"Kill the Bill\"",
+          "body": "Protests erupt nationwide against the Police, Crime, Sentencing and Courts Bill. In Bristol, participants later receive some of the longest riot sentences in decades. The bill passes anyway.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "type": "era",
+      "era": "2",
+      "label": "Era III · 2022–2023",
+      "title": "The ratchet, written into law",
+      "subtitle": "Two acts in two years transform the legal landscape of protest. What was a fine becomes a prison sentence; what was a tactic becomes an offence.",
+      "entries": [
+        {
+          "id": "pcsc-act-2022",
+          "date": "2022-04",
+          "date_label": "APR 2022",
+          "kind": "statute",
+          "title": "Police, Crime, Sentencing and Courts Act",
+          "body": "Protests can be restricted for being too *noisy*. Damaging a memorial: up to ten years. Wilful obstruction of the highway — for a century a matter of a small fine — now carries imprisonment. Even one-person protests can be conditioned.",
+          "sources": [
+            "pcsc-2022"
+          ]
+        },
+        {
+          "id": "dartford-crossing-2022",
+          "date": "2022-10",
+          "date_label": "OCT 2022",
+          "kind": "event",
+          "title": "Two climbers on the Dartford Crossing",
+          "body": "Morgan Trowland and Marcus Decker of Just Stop Oil scale the Queen Elizabeth II bridge, closing it for over a day. No one is hurt. Their sentences will set a new benchmark.",
+          "sources": []
+        },
+        {
+          "id": "david-nixon-contempt-2023",
+          "date": "2023-02",
+          "date_label": "FEB 2023",
+          "kind": "sentence",
+          "title": "Jailed for telling the jury why",
+          "body": "Insulate Britain defendant David Nixon is imprisoned for eight weeks for contempt of court — his offence was explaining his climate motivation to the jury after Judge Silas Reid forbade it. Others follow him to the cells for the same words.",
+          "sources": []
+        },
+        {
+          "id": "lawyers-are-responsible-2023",
+          "date": "2023-03",
+          "date_label": "MAR 2023",
+          "kind": "pushback",
+          "title": "Lawyers Are Responsible",
+          "body": "More than one hundred lawyers — six King's Counsel among them — sign a Declaration of Conscience refusing to prosecute peaceful climate protesters, openly breaking the cab-rank rule. The revolt reaches the bar itself.",
+          "sources": []
+        },
+        {
+          "id": "public-order-act-2023",
+          "date": "2023-05",
+          "date_label": "MAY 2023",
+          "kind": "statute",
+          "title": "Public Order Act 2023",
+          "body": "Measures the House of Lords threw out of the 2022 act are simply reintroduced and passed: criminal offences of \"locking on\" and tunnelling, Serious Disruption Prevention Orders — protest banning orders for individuals — and suspicionless stop-and-search, this time explicitly for protest. It comes into force days before the Coronation; the head of the anti-monarchy group Republic is arrested that morning, luggage straps in hand.",
+          "sources": [
+            "poa-2023"
+          ]
+        },
+        {
+          "id": "serious-disruption-regulations-2023",
+          "date": "2023-06",
+          "date_label": "JUN 2023",
+          "kind": "statute",
+          "title": "\"Serious disruption\" redefined as \"more than minor\"",
+          "body": "After Parliament rejects the change once, the government re-enacts it through secondary legislation — lowering the threshold at which police can shut a protest down to almost nothing.",
+          "sources": [
+            "liberty-v-sshd-2024"
+          ]
+        },
+        {
+          "id": "online-safety-act-2023",
+          "date": "2023-10",
+          "date_label": "OCT 2023",
+          "kind": "statute",
+          "title": "Online Safety Act",
+          "body": "The censorship apparatus goes digital: sweeping duties over \"harmful\" content, and powers that put end-to-end encryption itself on notice. The same ratchet, applied to speech online.",
+          "sources": [
+            "osa-2023"
+          ]
+        },
+        {
+          "id": "liberty-v-home-secretary-2024",
+          "date": "2024-05-21",
+          "date_label": "MAY 2024",
+          "kind": "pushback",
+          "title": "High Court: that regulation was unlawful",
+          "body": "In a challenge brought by Liberty, the court finds the government acted outside its powers. The government's response is not repeal — it is appeal.",
+          "sources": [
+            "liberty-v-sshd-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "era",
+      "era": "3",
+      "label": "Era IV · 2023–2024",
+      "title": "Exemplary sentences",
+      "subtitle": "The courts begin handing down punishments designed to be heard about. The message is the sentence.",
+      "entries": [
+        {
+          "id": "dartford-sentences-2023",
+          "date": "2023-04",
+          "date_label": "APR 2023",
+          "kind": "sentence",
+          "title": "Three years for climbing a bridge",
+          "body": "Trowland receives three years, Decker two years and seven months — at the time, the longest sentences for peaceful climate protest in modern British history. Decker, a long-settled European national, is then threatened with deportation; a tribunal later blocks it.",
+          "sources": []
+        },
+        {
+          "id": "trudi-warner",
+          "date": "2024-04",
+          "date_label": "APR 2024",
+          "kind": "pushback",
+          "title": "The Trudi Warner case collapses",
+          "body": "A retired social worker held a sign outside a courtroom stating a centuries-old principle: jurors may acquit according to their conscience. The Solicitor General sought to prosecute her for contempt. The High Court throws the case out as \"fanciful\". The state attempted to criminalise a sentence engraved at the Old Bailey.",
+          "sources": [
+            "warner-2024"
+          ]
+        },
+        {
+          "id": "jury-conscience-court-of-appeal-2026",
+          "date": "2026-01-20",
+          "date_label": "JAN 2026",
+          "kind": "ruling",
+          "title": "Court of Appeal: Warner is \"not a sound guide\"",
+          "body": "Dismissing appeals by five protesters convicted of criminal damage, the Court of Appeal holds that the trial judge's direction on section 20C was not wrong in law, though his statement that placards about jury conscience \"misstated the law\" was \"more questionable\". It says the Warner decision did not consider section 20C of the Juries Act 1974, which makes it an offence for a juror to show they intend to try a case otherwise than on the evidence.",
+          "sources": [
+            "webster-v-king-2026",
+            "juries-act-1974-s20c"
+          ]
+        },
+        {
+          "id": "whole-truth-five-2024",
+          "date": "2024-07",
+          "date_label": "JUL 2024",
+          "kind": "sentence",
+          "title": "Five years for a Zoom call",
+          "body": "The \"Whole Truth Five\": Roger Hallam sentenced to five years, four others to four, for planning the M25 protests on a video call. The longest sentences ever imposed in Britain for peaceful protest organising. A UN special rapporteur attends the trial and calls the prosecutions something \"not acceptable in a democracy\". The Court of Appeal later trims some terms — and upholds the approach.",
+          "sources": [
+            "hallam-v-r-2025"
+          ]
+        },
+        {
+          "id": "sunflowers-sentence-2024",
+          "date": "2024-09",
+          "date_label": "SEP 2024",
+          "kind": "sentence",
+          "title": "Two years for soup on glass",
+          "body": "Phoebe Plummer is sentenced to two years for throwing soup at Van Gogh's *Sunflowers* — a painting protected by glass and undamaged. Around the same courts, sentences for actual violence routinely run shorter.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "type": "explainer",
+      "id": "how-it-works",
+      "era": "4",
+      "label": "How it works",
+      "title": "Nothing new had to be passed",
+      "definition": "Since 2000, the law has defined \"terrorism\" to include *serious damage to property* — no injury to any person required — where three tests are met:",
+      "tests": [
+        "the act is designed to **influence the government** or intimidate the public;",
+        "it is done to advance a **political, religious, racial or ideological cause**;",
+        "it involves serious violence, serious damage to property, or endangers life."
+      ],
+      "verdict": "By this definition, a spray can wielded for a political cause has been chargeable as terrorism for twenty-five years. The gun was always loaded. What changed was the decision to fire it at protesters.",
+      "note": "A precise point, because precision is the armour: no retroactive crime was invented — that would be unlawful. A past protest is simply charged *now* under a definition that applied *all along*. The escalation is not in the statute book. It is in the will to use it.",
+      "sources": [
+        "tact-2000-s1"
+      ]
+    },
+    {
+      "type": "era",
+      "era": "5",
+      "label": "Era V · 2025–2026",
+      "title": "Protest becomes terrorism",
+      "subtitle": "The final turn of the ratchet: the machinery built for al-Qaeda is pointed at people holding cardboard signs.",
+      "entries": [
+        {
+          "id": "brize-norton-2025",
+          "date": "2025-06",
+          "date_label": "JUN 2025",
+          "kind": "event",
+          "title": "Paint on warplanes at Brize Norton",
+          "body": "Palestine Action activists spray paint into the engines of RAF aircraft. Criminal damage, plainly — and the trigger for something without precedent.",
+          "sources": []
+        },
+        {
+          "id": "proscription",
+          "date": "2025-07-05",
+          "date_label": "JUL 2025",
+          "kind": "statute",
+          "title": "A protest group is proscribed as a terrorist organisation",
+          "body": "Palestine Action is banned under the Terrorism Act 2000 — the first direct-action protest group listed alongside al-Qaeda and ISIS. Membership or expressing support: up to fourteen years in prison.",
+          "sources": [
+            "uksi-2025-803",
+            "tact-2000-s11",
+            "tact-2000-s12",
+            "home-office-proscribed-list"
+          ]
+        },
+        {
+          "id": "filton-terrorism-trials",
+          "date": "2024",
+          "date_label": "2024–25",
+          "kind": "sentence",
+          "title": "Property damage, tried as terrorism",
+          "body": "Activists arrested under section 41 of the Terrorism Act over the 2024 break-in at Elbit Systems' Filton site in Bristol are prosecuted as terrorists — for spray paint and broken equipment, with no allegation that anyone was harmed. The trials run under heavy reporting restrictions: defendants say they cannot put their motivation, or Gaza, before the jury at all.",
+          "sources": []
+        },
+        {
+          "id": "proscription-judicial-review",
+          "date": "2025-11",
+          "date_label": "NOV 2025",
+          "kind": "pushback",
+          "title": "The ban reaches court — and the judge is swapped",
+          "body": "Huda Ammori, a Palestine Action co-founder, wins permission to judicially review the proscription — the first such challenge to a banned organisation. Days before the November 2025 hearing, the judge who granted permission is replaced by a three-judge panel. Campaigners, including Defend Our Juries, call it a \"stitch-up\". The hearing goes ahead, contested.",
+          "sources": [
+            "ammori-v-sshd-2025-permission"
+          ]
+        },
+        {
+          "id": "sign-holder-arrests",
+          "date": "2025-07",
+          "date_label": "2025 →",
+          "kind": "event",
+          "title": "Mass arrests for holding a sign",
+          "body": "Retirees, priests, veterans and carers are arrested in their thousands for signs reading \"I oppose genocide. I support Palestine Action.\" More than 2,200 are detained in the months after the ban — reportedly more arrests than the entire post-2000 \"war on terror\". The arrest queues become the protest. The state has finally built a law so broad that enforcing it manufactures dissidents faster than it can process them.",
+          "sources": []
+        },
+        {
+          "id": "proscription-quashed-2026",
+          "date": "2026-02-13",
+          "date_label": "FEB 2026",
+          "kind": "pushback",
+          "title": "High Court: the proscription decision is quashed",
+          "body": "A Divisional Court allows Huda Ammori's claim on two grounds, dismisses two others, and proposes an order quashing the Home Secretary's decision to proscribe Palestine Action. The Home Secretary appeals.",
+          "sources": [
+            "ammori-v-sshd-2026-divisional"
+          ]
+        },
+        {
+          "id": "proscription-reinstated-2026",
+          "date": "2026-06-15",
+          "date_label": "JUN 2026",
+          "kind": "ruling",
+          "title": "Court of Appeal: the ban stands",
+          "body": "The Court of Appeal allows the Home Secretary's appeal. It finds the Divisional Court misread the Proscription Policy and took the wrong approach to proportionality, reassesses proportionality itself, and upholds the proscription. As of October 2026, Palestine Action remains on the Home Office list of proscribed organisations.",
+          "sources": [
+            "sshd-v-ammori-2026-appeal",
+            "home-office-proscribed-list"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "terrorism-definition",
+  "order": 2,
+  "featured": true,
+  "title": "The loaded gun",
+  "label": "Terrorism Act 2000 · s.1",
+  "jurisdiction": "United Kingdom",
+  "tags": [
+    "terrorism",
+    "protest",
+    "definitions"
+  ],
+  "summary": "\"Terrorism\" includes serious damage to property done to influence the government for a political cause. No injury required.",
+  "rule": "Section 1 of the Terrorism Act 2000 defines terrorism as the use or threat of action that involves serious violence against a person, serious damage to property, danger to life, a serious risk to public health or safety, or serious interference with an electronic system. The action must be designed to influence the government or an international governmental organisation, or to intimidate the public. It must also be done to advance a political, religious, racial or ideological cause.",
+  "nuance": [
+    "No one has to be hurt. Serious damage to property, done to influence the government for a political cause, meets the definition on its own.",
+    "Where firearms or explosives are involved, the 'designed to influence the government' test does not apply at all.",
+    "This wording has been in force since 2000. What has changed is how it is used: in 2025 the government relied on serious damage to property when it proscribed a direct-action protest group, and in 2026 the Court of Appeal upheld that decision."
+  ],
+  "why_it_matters": "The breadth of the definition decides which protest tactics can be treated as terrorism. That in turn opens the way to proscription, terrorism powers of arrest, and the support offences that follow.",
+  "history": [
+    {
+      "date": "2000",
+      "date_label": "2000",
+      "text": "The Terrorism Act 2000 enacts the definition, including serious damage to property.",
+      "sources": [
+        "tact-2000-s1"
+      ]
+    },
+    {
+      "date": "2025-07-05",
+      "date_label": "JUL 2025",
+      "text": "A proscription order comes into force. The government's published reasons cite attacks involving serious damage to property.",
+      "sources": [
+        "uksi-2025-803",
+        "home-office-proscribed-list"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "date_label": "JUN 2026",
+      "text": "The Court of Appeal upholds the proscription.",
+      "sources": [
+        "sshd-v-ammori-2026-appeal"
+      ]
+    }
+  ],
+  "sources": [
+    "tact-2000-s1",
+    "home-office-proscribed-list",
+    "sshd-v-ammori-2026-appeal"
+  ],
+  "related": {
+    "timeline": [
+      "how-it-works",
+      "proscription",
+      "proscription-reinstated-2026"
+    ]
+  },
+  "checked": "2026-10-14"
+}

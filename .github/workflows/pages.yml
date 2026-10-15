@@ -32,6 +32,10 @@ jobs:
         run: |
           test -s dist/client/index.html
           test -s dist/client/about.html
+          test -s dist/client/llms.txt
+          test -s dist/client/data/index.json
+          test -s dist/client/legal/index.html
+          test -s dist/client/uk-timeline/index.html
           mkdir -p dist/client/about
           cp dist/client/about.html dist/client/about/index.html
           cp CNAME dist/client/CNAME

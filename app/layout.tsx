@@ -6,8 +6,8 @@ const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"] });
 const serif = Instrument_Serif({ variable: "--font-serif", subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Independent Tribunal — A fair decision, fast",
-  description: "Independent juries evaluate equal submissions and recommend practical resolutions for everyday disputes—in minutes, not months.",
+  title: "Independent Tribunal — The law, shown openly",
+  description: "Legal quirks, people's tribunals and the public record, explained. Every claim links to its primary source. Open data, built for people and for AI.",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 

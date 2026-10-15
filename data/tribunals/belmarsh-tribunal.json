@@ -1,0 +1,80 @@
+{
+  "id": "belmarsh-tribunal",
+  "name": "The Belmarsh Tribunal",
+  "tags": [
+    "peoples-tribunal",
+    "press-freedom",
+    "extradition",
+    "united-states",
+    "london"
+  ],
+  "status": "concluded",
+  "convened_by": "Progressive International, inspired by the Russell–Sartre Tribunal of 1966.",
+  "panel": "A rotating cast of activists, artists, thinkers and political representatives at each sitting.",
+  "question": "In its organisers' words: to put the United States government on trial for its twenty-first-century crimes, from Iraq to Guantánamo to CIA surveillance, and to draw attention to the persecution of Julian Assange, who revealed them.",
+  "summary": "A travelling people's tribunal named after the London prison where Julian Assange was held, convened while he fought extradition to the United States.",
+  "sat": [
+    {
+      "date": "2020-10-02",
+      "date_label": "OCT 2020",
+      "text": "First sitting, held online.",
+      "sources": [
+        "belmarsh-tribunal-pi"
+      ]
+    },
+    {
+      "date": "2023-03-04",
+      "date_label": "→ MAR 2023",
+      "text": "Further sittings in London (Westminster), New York City and Washington DC, then Sydney in March 2023.",
+      "sources": [
+        "belmarsh-tribunal-pi"
+      ]
+    }
+  ],
+  "findings": [
+    "Its organisers describe it as putting the United States government on trial and arguing the case against Assange's extradition. We have not found a published formal judgment; if one exists, tell us and we will add it."
+  ],
+  "nuance": [
+    "The legal case it campaigned about ended outside any courtroom verdict on the merits. In June 2024 Assange pleaded guilty in a US federal court in Saipan to one Espionage Act conspiracy count and was sentenced to the 62 months he had already spent in custody in the UK.",
+    "Before that, the English High Court had allowed the US appeal against the refusal to extradite (December 2021), and in March 2024 had given the US the chance to provide assurances before deciding whether to allow Assange to appeal."
+  ],
+  "legal_status": "A campaign tribunal convened by an advocacy organisation, with no legal powers.",
+  "responses": [],
+  "aftermath": [
+    {
+      "date": "2021-12-10",
+      "date_label": "DEC 2021",
+      "text": "High Court allows the US appeal and remits the case for it to be sent to the Home Secretary.",
+      "sources": [
+        "usa-v-assange-2021"
+      ]
+    },
+    {
+      "date": "2024-03-26",
+      "date_label": "MAR 2024",
+      "text": "High Court adjourns three grounds to give the US time to file assurances.",
+      "sources": [
+        "assange-v-usa-2024"
+      ]
+    },
+    {
+      "date": "2024-06-26",
+      "date_label": "JUN 2024",
+      "text": "Plea and time-served sentence in Saipan; Assange leaves for Australia.",
+      "sources": [
+        "doj-assange-plea-2024"
+      ]
+    }
+  ],
+  "related_tribunals": [
+    "gaza-tribunal"
+  ],
+  "website": "https://progressive.international/movement/campaign/the-belmarsh-tribunal-49b20783-1491-4b86-b02a-eef879e26318/en/",
+  "sources": [
+    "belmarsh-tribunal-pi",
+    "usa-v-assange-2021",
+    "assange-v-usa-2024",
+    "doj-assange-plea-2024"
+  ],
+  "checked": "2026-10-15"
+}

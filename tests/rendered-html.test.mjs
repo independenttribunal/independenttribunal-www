@@ -14,25 +14,21 @@ async function render(path = "/") {
   );
 }
 
-test("server-renders the Independent Tribunal experience", async () => {
+test("server-renders the information hub homepage", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>Independent Tribunal — A fair decision, fast<\/title>/i);
-  assert.match(html, /A fair decision/);
-  assert.match(html, /12 independent jurors/);
-  assert.match(html, /Give both sides equal space/);
-  assert.match(html, /Independent human judgment/);
-  assert.match(html, /applicable local minimum wage/);
-  assert.match(html, /Not just a verdict/);
-  assert.match(html, /Good judgment/);
-  assert.match(html, /Independent Tribunal is being built in public/);
-  assert.match(html, /Not a court and not legal advice/);
-  assert.match(html, /Legal affairs/);
+  assert.match(html, /<title>Independent Tribunal — The law, shown openly<\/title>/i);
+  assert.match(html, /shown openly/);
+  assert.match(html, /href="\/nuances\/jury-conscience\/"/);
+  assert.match(html, /href="\/independent-tribunals\/uyghur-tribunal\/"/);
   assert.match(html, /href="\/uk-timeline\/"/);
-  assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
+  assert.match(html, /href="https:\/\/app\.independenttribunal\.org\/"/);
+  assert.match(html, /Not legal advice|not legal advice/);
+  // The dispute product lives in the app repo now.
+  assert.doesNotMatch(html, /12 independent jurors|applicable local minimum wage/);
 });
 
 test("server-renders the origins and acknowledgements page", async () => {
@@ -52,7 +48,7 @@ test("server-renders the origins and acknowledgements page", async () => {
   assert.match(html, /no affiliation or endorsement is implied/i);
 });
 
-test("removes the temporary starter preview", async () => {
+test("homepage reads its tiles from generated data", async () => {
   const [page, layout, packageJson] = await Promise.all([
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
@@ -60,11 +56,10 @@ test("removes the temporary starter preview", async () => {
   ]);
 
   assert.match(page, /Independent Tribunal home/);
+  assert.match(page, /public\/data\/tiles\.json/);
   assert.match(page, /https:\/\/t\.me\/IndependentTribunal/);
-  assert.match(page, /https:\/\/x\.com\/independentTrib/);
   assert.match(page, /https:\/\/github\.com\/independenttribunal\/independenttribunal-www/);
-  assert.match(page, /The application itself is being developed separately/);
-  assert.match(layout, /Independent Tribunal — A fair decision, fast/);
+  assert.match(layout, /Independent Tribunal — The law, shown openly/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview", import.meta.url)));
 });

@@ -1,0 +1,50 @@
+{
+  "id": "no-punishment-without-law",
+  "order": 5,
+  "featured": false,
+  "title": "No punishment without law",
+  "label": "ECHR Article 7 · Human Rights Act 1998",
+  "jurisdiction": "United Kingdom",
+  "tags": [
+    "human-rights",
+    "retrospectivity",
+    "terrorism"
+  ],
+  "summary": "No one can be convicted for an act that was not a crime when they did it. But an old law can be used in a new way.",
+  "rule": "Article 7 of the European Convention on Human Rights, part of UK law through the Human Rights Act 1998, says no one may be held guilty of a criminal offence for an act that was not an offence when it was committed. It also forbids a heavier penalty than the one that applied at the time.",
+  "nuance": [
+    "Parliament cannot create a crime after the fact. Proscription offences therefore apply only from the moment an organisation is proscribed: the 2025 order came into force on 5 July 2025, and the support offences reach expressions made from then on.",
+    "Article 7 does not stop an existing, broadly drawn law from being applied to conduct it was rarely used against before. That is the point the UK timeline makes about section 1 of the Terrorism Act 2000: the definition has been in force since 2000, so using it against protest creates no new crime. What changes is how it is used."
+  ],
+  "why_it_matters": "Knowing when a law began to apply, and to what, separates conduct that was lawful at the time from conduct that was not.",
+  "history": [
+    {
+      "date": "1998",
+      "date_label": "1998",
+      "text": "The Human Rights Act 1998 gives effect to Article 7 in UK law.",
+      "sources": [
+        "hra-1998-sch1"
+      ]
+    },
+    {
+      "date": "2025-07-05",
+      "date_label": "JUL 2025",
+      "text": "The proscription order comes into force on 5 July 2025.",
+      "sources": [
+        "uksi-2025-803"
+      ]
+    }
+  ],
+  "sources": [
+    "hra-1998-sch1",
+    "uksi-2025-803",
+    "tact-2000-s1"
+  ],
+  "related": {
+    "timeline": [
+      "how-it-works",
+      "proscription"
+    ]
+  },
+  "checked": "2026-10-14"
+}

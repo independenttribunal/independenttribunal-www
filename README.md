@@ -12,6 +12,14 @@ Independent Tribunal is currently a work-in-progress demo. There is no active ju
 - X / Twitter: [@independentTrib](https://x.com/independentTrib)
 - WWW source: [independenttribunal/independenttribunal-www](https://github.com/independenttribunal/independenttribunal-www)
 
+## Data first, for humans and AI agents
+
+The Legal affairs hub (timelines, references, policies) lives in [`/data`](data/README.md) as JSON and Markdown. Each push to `main` validates it and rebuilds the pages, plus machine-readable outputs:
+
+- [`/llms.txt`](https://independenttribunal.org/llms.txt): start here if you are an AI agent
+- [`/data/index.json`](https://independenttribunal.org/data/index.json): every dataset, with coverage
+- [`/legal/`](https://independenttribunal.org/legal/): editorial, terrorism, moderation and privacy policies
+
 ## Local development
 
 Requires Node.js `>=22.13.0`.
@@ -21,7 +29,7 @@ npm install
 npm run dev
 ```
 
-Run `npm test` to build and verify the rendered landing page.
+Run `npm test` to build and verify the rendered pages and generated data. `npm run data` rebuilds just the data outputs.
 
 ## Publishing
 

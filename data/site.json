@@ -1,0 +1,17 @@
+{
+  "name": "Independent Tribunal",
+  "url": "https://independenttribunal.org",
+  "summary": "Independent human judgment for everyday disputes, plus a public-interest research hub on law, courts and state power. Not a court and not legal advice.",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "applies_to": "Our own text and data in /data. Linked sources keep their own licences."
+  },
+  "contact": {
+    "telegram": "https://t.me/IndependentTribunal",
+    "x": "https://x.com/independentTrib",
+    "issues": "https://github.com/independenttribunal/independenttribunal-www/issues",
+    "private": null
+  },
+  "source_repo": "https://github.com/independenttribunal/independenttribunal-www"
+}

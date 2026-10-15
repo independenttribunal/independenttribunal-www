@@ -1,0 +1,30 @@
+{
+  "id": "gaza-tribunal",
+  "name": "The Gaza Tribunal (international)",
+  "tags": ["peoples-tribunal", "genocide", "israel-palestine", "london", "sarajevo", "istanbul"],
+  "status": "concluded",
+  "convened_by": "An international people's tribunal, established in London in November 2024 in the tradition of the Russell Tribunal, with Richard Falk (former UN Special Rapporteur on the occupied Palestinian territories) as President.",
+  "panel": "A Steering Committee, three specialised Chambers (International Law; International Relations and World Order; History, Ethics and Philosophy), an Advisory Policy Council, and an invited Jury of Conscience that delivered the final moral judgment.",
+  "question": "Israel's conduct in Gaza, the complicity of other states and actors, and how civil society can close what the tribunal calls the enforcement gap left by the ICJ and ICC.",
+  "summary": "An international people's tribunal that sat in Sarajevo and Istanbul and whose Jury of Conscience delivered a moral judgment that Israel committed genocide in Gaza.",
+  "sat": [
+    { "date": "2024-11", "date_label": "NOV 2024", "text": "Established in London.", "sources": ["gaza-tribunal-conclusion-2025"] },
+    { "date": "2025-05", "date_label": "MAY 2025", "text": "Public hearings in Sarajevo; adoption of the Sarajevo Declaration.", "sources": ["gaza-tribunal-conclusion-2025"] },
+    { "date": "2025-10-26", "date_label": "OCT 2025", "text": "Final session in Istanbul; the Jury of Conscience delivers its Statement of Findings and Moral Judgment.", "sources": ["gaza-tribunal-jury-statement-2025"] }
+  ],
+  "findings": [
+    "The Jury of Conscience described its statement as a moral judgment on the commission by Israel of genocide in the Gaza Strip, and on the complicity of other actors.",
+    "The Steering Committee's concluding statement, issued in Istanbul on 26 October 2025, said the genocide continues."
+  ],
+  "nuance": [
+    "The tribunal says plainly that it is \"not a court of law\": it does not purport to determine the guilt or liability of any person, organisation or state. Its judgment is moral, not legal.",
+    "It presents itself as an answer to an enforcement gap: in its account, ICJ and ICC decisions depend on the political will of the UN Security Council to be enforced.",
+    "Not the same body as the UK-focused Gaza Tribunal run by the Peace & Justice Project, which examined Britain's role."
+  ],
+  "legal_status": "A civil-society people's tribunal. By its own statement, not a court of law and not a determination of anyone's guilt or liability.",
+  "responses": [],
+  "related_tribunals": ["gaza-tribunal-uk", "belmarsh-tribunal"],
+  "website": "https://gazatribunal.com/",
+  "sources": ["gaza-tribunal-jury-statement-2025", "gaza-tribunal-conclusion-2025", "gaza-tribunal-steering-committee"],
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "uyghur-tribunal",
+  "name": "Uyghur Tribunal",
+  "tags": [
+    "peoples-tribunal",
+    "genocide",
+    "crimes-against-humanity",
+    "china",
+    "london"
+  ],
+  "status": "concluded",
+  "convened_by": "Established by Sir Geoffrey Nice QC at the June 2020 request of Dolkun Isa, President of the World Uyghur Congress. Members worked pro bono; funding for witness travel, venue hire and some staff came initially from the World Uyghur Congress.",
+  "panel": "Sir Geoffrey Nice QC (Chair), Nick Vetch (Vice Chair) and seven other members drawn from law, medicine, academia and business.",
+  "question": "Whether the People's Republic of China committed genocide, crimes against humanity and torture against Uyghur, Kazakh and other Turkic Muslim populations in Xinjiang.",
+  "summary": "A London people's tribunal that found, beyond reasonable doubt, that China committed genocide against Uyghurs — through measures to prevent births, not mass killing.",
+  "sat": [
+    {
+      "date": "2021-06",
+      "date_label": "JUN 2021",
+      "text": "First evidence hearings in London.",
+      "sources": [
+        "uyghur-tribunal-judgment-2021"
+      ]
+    },
+    {
+      "date": "2021-09",
+      "date_label": "SEP 2021",
+      "text": "Second evidence hearings.",
+      "sources": [
+        "uyghur-tribunal-judgment-2021"
+      ]
+    },
+    {
+      "date": "2021-11-27",
+      "date_label": "NOV 2021",
+      "text": "A third, live-streamed hearing on leaked Xinjiang government papers.",
+      "sources": [
+        "uyghur-tribunal-judgment-2021"
+      ]
+    },
+    {
+      "date": "2021-12-09",
+      "date_label": "DEC 2021",
+      "text": "Judgment delivered at Church House, Westminster.",
+      "sources": [
+        "uyghur-tribunal-judgment-2021"
+      ]
+    }
+  ],
+  "findings": [
+    "Torture attributable to the PRC: established beyond reasonable doubt.",
+    "Crimes against humanity attributable to the PRC, including deportation or forcible transfer, imprisonment, torture, rape and other sexual violence, enforced sterilisation, persecution, enforced disappearance and other inhumane acts: established beyond reasonable doubt.",
+    "Genocide: the tribunal was satisfied beyond reasonable doubt that the PRC committed genocide by imposing measures to prevent births, intended to destroy a significant part of the Uyghurs in Xinjiang.",
+    "Killing: evidence of killings, but not on a scale that could threaten the destruction of the group. Serious harm: established, but the tribunal could not conclude it was intended to destroy the group."
+  ],
+  "nuance": [
+    "The genocide finding rests on one of the five acts listed in the Genocide Convention: imposing measures intended to prevent births (Article II(d)). The tribunal noted this may be the first public, evidence-based determination of genocide on that basis alone.",
+    "The tribunal said it would, as a whole, prefer not to make such a finding, because it does not match the public understanding of genocide as mass killing. It made the finding anyway because, it said, the Convention's drafters had deliberately kept that act in.",
+    "It applied the criminal standard, beyond reasonable doubt, rather than the lower 'clear and convincing' standard used by an earlier independent report."
+  ],
+  "legal_status": "A people's tribunal with no legal force. In its own words, it had no power to enforce the provision of documents or the attendance of witnesses.",
+  "responses": [
+    {
+      "date": "2021-03-26",
+      "date_label": "MAR 2021",
+      "by": "People's Republic of China",
+      "text": "Announced sanctions on bodies and individuals including the tribunal and its Chair, describing UK sanctions over Xinjiang as based on lies and disinformation.",
+      "sources": [
+        "uyghur-tribunal-judgment-2021"
+      ]
+    },
+    {
+      "date": "2021",
+      "date_label": "2021",
+      "by": "Governments of the US, UK, Japan and the PRC",
+      "text": "Requests from the tribunal for information were not met, according to the judgment.",
+      "sources": [
+        "uyghur-tribunal-judgment-2021"
+      ]
+    }
+  ],
+  "related_tribunals": [],
+  "website": "https://uyghurtribunal.com/",
+  "sources": [
+    "uyghur-tribunal-judgment-2021",
+    "uyghur-tribunal-site"
+  ],
+  "checked": "2026-10-15"
+}

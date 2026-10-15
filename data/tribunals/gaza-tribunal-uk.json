@@ -1,0 +1,31 @@
+{
+  "id": "gaza-tribunal-uk",
+  "name": "The Gaza Tribunal: Inquiry into British Complicity",
+  "tags": ["peoples-tribunal", "israel-palestine", "uk", "inquiries", "london"],
+  "status": "concluded",
+  "convened_by": "The Peace & Justice Project, founded by Jeremy Corbyn MP.",
+  "panel": "Jeremy Corbyn MP, Dr Shahd Hammouri and Professor Neve Gordon.",
+  "question": "What has happened in Gaza, what Britain's legal responsibilities are, what Britain's role has been (including arms supply, surveillance flights and the use of RAF bases), and whether Britain has met its legal obligations.",
+  "summary": "A two-day UK tribunal at Church House, Westminster, held after a bill for an official inquiry stalled. It concluded that the British government failed its obligation to prevent genocide.",
+  "sat": [
+    { "date": "2025-06-04", "date_label": "JUN 2025", "text": "Jeremy Corbyn's Gaza (Independent Public Inquiry) Bill has its first reading in the Commons.", "sources": ["gaza-inquiry-bill-2025"] },
+    { "date": "2025-09-04", "date_label": "SEP 2025", "text": "The tribunal sits for two days at Church House, Westminster, hearing survivors, medics, aid workers, journalists and legal experts.", "sources": ["gaza-tribunal-uk-report-2026"] },
+    { "date": "2026-03", "date_label": "MAR 2026", "text": "Report published.", "sources": ["gaza-tribunal-uk-report-2026"] },
+    { "date": "2026-06-22", "date_label": "JUN 2026", "text": "A new Gaza (Independent Public Inquiry) Bill has its first reading; second reading is listed for 4 December 2026.", "sources": ["gaza-inquiry-bill-2026"] }
+  ],
+  "findings": [
+    "The report concludes that the British government \"failed in its fundamental obligation to prevent genocide\" and has been complicit in atrocity crimes, and says evidence suggests it was in some instances an active participant.",
+    "It says it will draw the evidence to the attention of UK lawyers, the International Court of Justice and the International Criminal Court, and calls for a full, official, independent public inquiry."
+  ],
+  "nuance": [
+    "Why a tribunal and not an inquiry: under the Inquiries Act 2005 only a Minister can establish a statutory public inquiry, with powers to compel evidence. A citizens' tribunal has none of those powers.",
+    "The tribunal's website says the government rejected Corbyn's inquiry bill at second reading on 4 July. Parliament's bill record shows a first reading on 4 June 2025 and no second-reading sitting for that bill; a new bill was introduced in June 2026.",
+    "Not the same body as the international Gaza Tribunal presided over by Richard Falk."
+  ],
+  "legal_status": "A civil-society inquiry with no statutory powers. Its conclusions are those of its panel and publisher, not of any court or official body.",
+  "responses": [],
+  "related_tribunals": ["gaza-tribunal"],
+  "website": "https://thegazatribunal.uk/",
+  "sources": ["gaza-tribunal-uk-report-2026", "gaza-tribunal-uk-site", "gaza-inquiry-bill-2025", "gaza-inquiry-bill-2026", "inquiries-act-2005-s1"],
+  "checked": "2026-10-15"
+}

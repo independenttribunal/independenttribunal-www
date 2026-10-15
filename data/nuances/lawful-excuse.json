@@ -1,0 +1,67 @@
+{
+  "id": "lawful-excuse",
+  "order": 4,
+  "featured": true,
+  "title": "Lawful excuse",
+  "label": "DPP v Ziegler · 2021",
+  "jurisdiction": "England and Wales",
+  "tags": [
+    "protest",
+    "human-rights",
+    "proportionality"
+  ],
+  "summary": "The Supreme Court held that blocking a road in protest can be lawful if prosecution would be disproportionate. Within eighteen months, the courts confined it.",
+  "rule": "It is an offence to wilfully obstruct a highway \"without lawful authority or excuse\" (Highways Act 1980, section 137). In *DPP v Ziegler* (2021) the Supreme Court held that when protest rights under Articles 10 and 11 are engaged, whether there was a lawful excuse can turn on whether a conviction would be proportionate. It restored the acquittals of protesters who had blocked a road.",
+  "nuance": [
+    "*Ziegler* was widely read as making proportionality a defence to any protest offence. The Supreme Court later said that reading was mistaken.",
+    "In *DPP v Cuciurean* (March 2022) the Divisional Court held that a conviction for aggravated trespass is proportionate in itself, with no separate assessment needed.",
+    "In the Colston statue reference (September 2022) the Court of Appeal held that violent protest, or protest causing significant damage to property, falls outside Convention protection altogether. Proportionality is then not a question for the jury.",
+    "*Ziegler* still matters where an offence includes a lawful-excuse element and the protest is peaceful, as with obstructing a highway."
+  ],
+  "why_it_matters": "Whether proportionality is a live question decides whether a jury or magistrate weighs the protester's rights at all.",
+  "history": [
+    {
+      "date": "2021-06-25",
+      "date_label": "JUN 2021",
+      "text": "*DPP v Ziegler*: the Supreme Court restores the protesters' acquittals.",
+      "sources": [
+        "ziegler-2021",
+        "highways-act-1980-s137"
+      ]
+    },
+    {
+      "date": "2022-03-30",
+      "date_label": "MAR 2022",
+      "text": "*DPP v Cuciurean*: no separate proportionality assessment for aggravated trespass.",
+      "sources": [
+        "cuciurean-2022"
+      ]
+    },
+    {
+      "date": "2022-09-28",
+      "date_label": "SEP 2022",
+      "text": "Colston statue reference: violent conduct or significant damage falls outside Convention protection.",
+      "sources": [
+        "ag-ref-1-2022-colston"
+      ]
+    },
+    {
+      "date": "2022-12-07",
+      "date_label": "DEC 2022",
+      "text": "Northern Ireland safe access zones reference: the Supreme Court says the wide reading of *Ziegler* was mistaken.",
+      "sources": [
+        "ni-safe-access-zones-2022"
+      ]
+    }
+  ],
+  "sources": [
+    "ziegler-2021",
+    "cuciurean-2022",
+    "ag-ref-1-2022-colston",
+    "ni-safe-access-zones-2022"
+  ],
+  "related": {
+    "timeline": []
+  },
+  "checked": "2026-10-14"
+}

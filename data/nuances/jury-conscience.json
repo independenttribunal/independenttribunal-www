@@ -1,0 +1,76 @@
+{
+  "id": "jury-conscience",
+  "order": 1,
+  "featured": true,
+  "title": "Jury conscience",
+  "label": "Bushell's Case · 1670 → Webster · 2026",
+  "jurisdiction": "England and Wales",
+  "tags": [
+    "juries",
+    "courts",
+    "protest"
+  ],
+  "summary": "Jurors cannot be punished for their verdict, and an acquittal stands. But in 2026 the Court of Appeal said the oath to try a case on the evidence leaves no *right* to do the opposite.",
+  "rule": "Since Bushell's Case in 1670, jurors cannot be punished for the verdict they return. A judge can never direct a jury to convict, and a not-guilty verdict cannot be overturned.",
+  "nuance": [
+    "The power to acquit against the evidence exists because no one can review or punish the verdict. That is not the same as a right to do it. Jurors swear to return a true verdict according to the evidence, and judges do not tell them about the power.",
+    "Since 2015, section 20C of the Juries Act 1974 makes it an offence for a juror to engage in conduct from which it may reasonably be concluded that they intend to try the case otherwise than on the evidence. The Court of Appeal has said the offence relates to how a juror intends to try the case, not to the delivery of the verdict.",
+    "In 2024 the High Court refused to let the Solicitor General pursue Trudi Warner for contempt over a placard telling jurors they could acquit according to conscience. In 2026 the Court of Appeal said that decision was not a sound guide on section 20C, which it had not considered. Telling jurors about jury conscience outside a courtroom is therefore legally contested ground."
+  ],
+  "why_it_matters": "Jury conscience is the oldest safeguard against unjust prosecutions in English law. Where informing jurors ends and unlawfully influencing them begins is now being decided case by case.",
+  "history": [
+    {
+      "date": "1670",
+      "date_label": "1670",
+      "text": "Bushell's Case: jurors fined for acquitting William Penn and William Mead are freed on habeas corpus, establishing that juries may give their verdict according to their convictions.",
+      "sources": [
+        "warner-2024"
+      ]
+    },
+    {
+      "date": "2015",
+      "date_label": "2015",
+      "text": "The Criminal Justice and Courts Act 2015 inserts section 20C into the Juries Act 1974.",
+      "sources": [
+        "juries-act-1974-s20c"
+      ]
+    },
+    {
+      "date": "2024-03",
+      "date_label": "FEB–MAR 2024",
+      "text": "At Inner London Crown Court, the judge tells a jury that posters and placards about jury conscience misstate the law. The five defendants are convicted of criminal damage.",
+      "sources": [
+        "webster-v-king-2026"
+      ]
+    },
+    {
+      "date": "2024-04-22",
+      "date_label": "APR 2024",
+      "text": "The High Court refuses the Solicitor General permission to bring contempt proceedings against Trudi Warner.",
+      "sources": [
+        "warner-2024"
+      ]
+    },
+    {
+      "date": "2026-01-20",
+      "date_label": "JAN 2026",
+      "text": "The Court of Appeal dismisses the appeals. It holds the judge's direction on section 20C was not wrong in law and says Warner is not a sound guide on the effect of section 20C.",
+      "sources": [
+        "webster-v-king-2026"
+      ]
+    }
+  ],
+  "sources": [
+    "warner-2024",
+    "juries-act-1974-s20c",
+    "webster-v-king-2026"
+  ],
+  "related": {
+    "timeline": [
+      "trudi-warner",
+      "jury-conscience-court-of-appeal-2026",
+      "david-nixon-contempt-2023"
+    ]
+  },
+  "checked": "2026-10-14"
+}
