@@ -1,0 +1,132 @@
+{
+  "id": "roger-hallam",
+  "title": "Roger Hallam",
+  "subtitle": "Court record and public background",
+  "summary": "The Heathrow and M25 appeals, earlier trial reporting, mentions in other judgments, and the public background of a climate campaigner. Outcomes and sources kept distinct.",
+  "checked": "2026-10-17",
+  "jurisdiction": "England and Wales",
+  "tags": ["uk", "protest", "courts", "sentencing", "climate", "research"],
+  "scope": "A selected public-record research profile of Julian Roger Hallam, the climate campaigner. Not a complete criminal record, not a finding by Independent Tribunal, and not an entry in a judges database. Judicial findings, reported outcomes and self-description are identified separately.",
+  "status_note": "Read the outcomes, not just the original sentences. A sentence reduction is not an acquittal; refusal of permission to appeal is not a fresh merits judgment. This page does not certify current custody, licence conditions or every subsequent proceeding.",
+  "highlights": [
+    {"label": "M25 · sentence appeal", "value": "5 years → 4 years", "detail": "7 March 2025 · conviction was not under appeal", "target": "m25"},
+    {"label": "Heathrow · conviction appeal", "value": "Appeal dismissed", "detail": "16 April 2025 · conviction upheld", "target": "heathrow"},
+    {"label": "Supreme Court · M25 application", "value": "Permission refused", "detail": "8 October 2025 · no arguable point of law", "target": "later-developments"}
+  ],
+  "sections": [
+    {
+      "id": "later-developments", "title": "Later developments", "intro": "The supplied 2025 appeal record has a later Supreme Court outcome. Release reports are a separate question from the sentence imposed.",
+      "entries": [
+        {"id": "supreme-court", "title": "8 October 2025 · permission to appeal refused", "kind": "Official case record", "paragraphs": [
+          {"text": "In UKSC/2025/0096, Lord Hodge, Lord Hamblen and Lord Richards refused permission to appeal. The application concerned whether the protest sentences disproportionately interfered with Articles 10 and 11 of the European Convention on Human Rights. The court recorded that the application raised no arguable point of law. This was a permission decision, not a further full appeal judgment.", "sources": [{"id": "uksc", "locator": "Permission to Appeal"}]}
+        ]},
+        {"id": "release-report", "title": "Release reported in August 2025", "kind": "Reporting and self-description", "paragraphs": [
+          {"text": "Socialist Worker reported his release on 15 August 2025, attributing the news to Just Stop Oil. Hallam later wrote on his own website that he left prison in August and resumed organising; the account refers to a recording made in December 2025. Neither source is a prison release order. We have not independently established the licence terms or his current custody status.", "sources": [{"id": "release-news"}, {"id": "release-self"}]}
+        ]}
+      ]
+    },
+    {
+      "id": "as-a-defendant", "title": "As a defendant", "intro": "Two different prosecutions and two different kinds of appeal. The Heathrow appeal challenged conviction; the M25 appeal challenged sentence.",
+      "entries": [
+        {"id": "heathrow", "title": "Heathrow drones · conviction upheld", "kind": "Published judgment", "citation": "Maxey & Hallam v R [2025] EWCA Crim 472", "date": "2025-04-16", "paragraphs": [
+          {"text": "On 15 December 2023, an Isleworth Crown Court jury convicted Hallam and Larch Maxey of conspiracy to cause a public nuisance. The trial judge is named as HHJ Edmunds KC on the appeal cover. Michael Lynch-White had pleaded guilty; another defendant was acquitted.", "sources": [{"id": "heathrow-appeal", "locator": "Cover and paragraphs 1–2"}]},
+          {"text": "The 2019 Heathrow Pause plan involved drones inside the airport’s restricted zone. The prosecution alleged an agreement intended to force the airport to close. Hallam and Maxey were arrested on 12 September before any drone flew. The limited flights that followed did not disrupt air traffic. Their defence was that this was publicity, not an intention to close Heathrow.", "sources": [{"id": "heathrow-appeal", "locator": "Paragraphs 3–9"}]},
+          {"text": "William Davis LJ, Goss J and Dexter Dias J dismissed the conviction appeal on 16 April 2025. They rejected challenges concerning the case to answer and the jury’s route to verdict. Counsel: Henry Blaxland KC and Michael Goold for the appellants; James Curtis KC and Martyn Bowyer for the Crown.", "sources": [{"id": "heathrow-appeal", "locator": "Cover; paragraphs 2 and 34"}]},
+          {"text": "The defendants’ solicitors confirm that suspended sentences were imposed on 5 April 2024. This sentencing information comes from a separate source, not the conviction appeal’s disposition.", "sources": [{"id": "heathrow-solicitors"}]},
+          {"text": "Contemporaneous reporting gives two years, suspended for 18 months, and 200 hours of unpaid work for Hallam.", "sources": [{"id": "heathrow-report"}]},
+          {"text": "In July 2024, HHJ Hehir cancelled the community requirements attached to the Heathrow sentence. That is not the same as quashing the conviction or finding Hallam not guilty.", "sources": [{"id": "sentencing", "locator": "Paragraph 51, pages 14–15"}]}
+        ]},
+        {"id": "m25", "title": "M25 conspiracy · sentence reduced", "kind": "Published judgment", "citation": "Hallam & Ors v R [2025] EWCA Crim 199", "date": "2025-03-07", "paragraphs": [
+          {"text": "A Southwark Crown Court jury convicted Hallam on 11 July 2024 of conspiracy to cause a public nuisance. HHJ Christopher Hehir imposed five years on 18 July. The case concerned the organisation of Just Stop Oil gantry protests on the M25, 7–10 November 2022; the court described his leading role and a planning Zoom call on 2 November.", "sources": [{"id": "m25-appeal", "locator": "Paragraphs 52, 57, 59 and 67–70"}]},
+          {"text": "The aggravating factors included knowingly breaching an injunction, relevant previous convictions and offending while on bail.", "sources": [{"id": "m25-appeal", "locator": "Paragraph 62"}]},
+          {"text": "Lady Carr LCJ, Lavender J and Griffiths J reduced his sentence to four years on 7 March 2025. They accepted the seriousness of the offending and the relevance of deterrence, but found five years manifestly excessive. Conscientious motivation, proportionality and avoiding sentence inflation remained relevant. The conviction was not in issue.", "sources": [{"id": "m25-appeal", "locator": "Paragraphs 85–87 and 191(i)(a)"}]},
+          {"text": "Hallam’s appeal counsel were Danny Friedman KC and Owen Greenhall, instructed by Hodge Jones & Allen. Jocelyn Ledward KC and Fiona Robertson appeared for the Crown in the M25 conspiracy appeals.", "sources": [{"id": "m25-appeal", "locator": "Appearances"}]},
+          {"text": "The Supreme Court subsequently refused permission to appeal in October 2025, as set out above. The four-year sentence should not be described as a continuing five-year sentence, nor does a sentence length establish how much time someone actually spends in custody.", "sources": [{"id": "uksc"}]}
+        ]}
+      ]
+    },
+    {
+      "id": "earlier-record", "title": "Earlier trial and sentencing background", "intro": "A reported acquittal belongs alongside convictions. A judge’s account of earlier offending is not a substitute for the underlying case files.",
+      "entries": [
+        {"id": "kings-college", "title": "King’s College London · reported jury acquittal", "kind": "Court reporting and campaign account", "paragraphs": [
+          {"text": "Contemporaneous accounts report that a Southwark Crown Court jury unanimously acquitted Hallam and David (Dave) Durant of criminal damage in May 2019. The allegations concerned chalk-spray protests at King’s College London in January and February 2017 over fossil-fuel divestment. Real Media published a detailed trial account; Extinction Rebellion announced the acquittal on 10 May.", "sources": [{"id": "kings-report"}, {"id": "kings-xr"}]},
+          {"text": "No written judgment for this trial was located in this review. The acquittal is reported as an outcome, not proof that the jury accepted a particular legal argument or that there is a general climate-protest defence. The reporting describes the judge limiting the proposed climate arguments.", "sources": [{"id": "kings-report"}, {"id": "kings-xr"}]}
+        ]},
+        {"id": "sentencing-record", "title": "What the July 2024 sentencing remarks actually record", "kind": "Sentencing remarks · attributed findings", "paragraphs": [
+          {"text": "At paragraphs 49–51, Hehir records protest-related convictions in 1987 and 1988 and eleven further convictions between 2017 and 2024. This is the sentencing judge’s account at that date, not an independently reconstructed full criminal record. The conviction count and timing should not be extrapolated to later years.", "sources": [{"id": "sentencing", "locator": "Paragraphs 49–51"}]},
+          {"text": "Hehir assessed Hallam as a leading organiser who obtained the motorway-disruption model and supervised its implementation. He also recorded Hallam’s comparison of his own influence with David Attenborough’s. Those are attributed observations in the remarks, not Independent Tribunal’s assessment of Hallam’s influence.", "sources": [{"id": "sentencing", "locator": "Paragraphs 52–56"}]},
+          {"text": "Hehir said trial disruption did not itself increase the sentence, but affected his assessment of rehabilitation. This is his sentencing explanation, not a finding on a separate charge.", "sources": [{"id": "sentencing", "locator": "Paragraph 60"}]},
+          {"text": "Attribution matters: the 2021 public-nuisance offence resulting in a 2023 community order is discussed under Daniel Shaw; the five-week Inner London sentence and Lewes suspended sentence are discussed under Louise Lancaster. They must not be added to Hallam’s record.", "sources": [{"id": "sentencing", "locator": "Paragraphs 61–62 and 69–70"}]}
+        ]}
+      ]
+    },
+    {
+      "id": "other-judgments", "title": "Mentioned in other judgments", "intro": "These passages concern evidence or context in other proceedings. They are not additional convictions of Hallam and do not make him an appellant in those cases. Injunctions against persons unknown may have a wider scope than their named parties.",
+      "entries": [
+        {"id": "national-highways-appeal", "title": "National Highways v Persons Unknown", "kind": "Civil injunction appeal · contextual mention", "citation": "[2023] EWCA Civ 182", "date": "2023-02-23", "paragraphs": [
+          {"text": "Before Sharp P, Flaux C and Lewison LJ. Paragraph 10 recounts evidence from Ms Higson identifying Hallam as a leading figure in Insulate Britain and Just Stop Oil and quoting his forecast of mass protests on roads and at oil refineries. This is evidence in the injunction proceedings, not a criminal finding against him.", "sources": [{"id": "highways-appeal", "locator": "Paragraph 10"}]}
+        ]},
+        {"id": "national-highways-final", "title": "National Highways v Persons Unknown", "kind": "Final injunction · contextual mention", "citation": "[2023] EWHC 1073 (KB)", "date": "2023-05-05", "paragraphs": [
+          {"text": "Cotter J’s final-injunction judgment repeats that account at paragraph 32. The reference is part of the evidence concerning anticipated protest activity; it is not a separate adjudication of Hallam’s criminal liability.", "sources": [{"id": "highways-final", "locator": "Paragraph 32"}]}
+        ]},
+        {"id": "valero", "title": "Valero Energy v Persons Unknown", "kind": "Civil injunction · judicial characterisation", "citation": "[2024] EWHC 134 (KB)", "date": "2024-01-26", "paragraphs": [
+          {"text": "Ritchie J recounts a witness’s reliance on Hallam’s 4 November 2022 YouTube video at paragraph 28. At paragraph 69, the judge characterises his statements as “dark and ominous threats” when assessing the need for an injunction. That wording is the judge’s characterisation, not a criminal verdict or this site’s description. Paragraph 2 uses “Richard Hallam”, while the relevant later passages expressly name Roger Hallam; the name discrepancy is retained here as a source caution.", "sources": [{"id": "valero", "locator": "Paragraphs 2, 28 and 69"}]}
+        ]},
+        {"id": "hicks", "title": "Hicks & Ors v R", "kind": "Other defendants’ conviction appeal · contextual mention", "citation": "[2026] EWCA Crim 706", "date": "2026-06-05", "paragraphs": [
+          {"text": "Before Edis LJ, McGowan J and Griffiths J. Paragraph 82 discusses a juror’s internet research in another Just Stop Oil trial, including articles about Hallam’s original five-year sentence. The historical articles do not undo his subsequent reduction to four years. Hallam was not an appellant in this juror-misconduct appeal.", "sources": [{"id": "hicks", "locator": "Paragraph 82 and appendix"}]}
+        ]}
+      ]
+    },
+    {
+      "id": "public-background", "title": "Public background and campaigning", "intro": "Selected organisational and biographical context, with self-description distinguished from independent or official records. This is not an endorsement of a campaign or a comprehensive biography.",
+      "entries": [
+        {"id": "farming-research", "title": "From farming to movement research", "kind": "Publisher biography and self-description", "paragraphs": [
+          {"text": "Chelsea Green identifies Hallam as a former organic farmer. His own biography describes farming in Wales and later research at King’s College London on mobilisation and civil disobedience. We attribute those details to the sources rather than treating them as verified academic credentials or claiming a completed doctorate.", "sources": [{"id": "publisher-bio"}, {"id": "hallam-bio"}]}
+        ]},
+        {"id": "movements", "title": "Extinction Rebellion, Insulate Britain and Just Stop Oil", "kind": "Organisational history", "paragraphs": [
+          {"text": "Chelsea Green’s biography places Hallam alongside Gail Bradbrook, Simon Bramwell and others at Extinction Rebellion’s founding in 2018. Hallam’s own biography identifies him as a founder of Insulate Britain and Just Stop Oil; the 2023 National Highways appeal recounts evidence of his leading role in both. These sources establish historical involvement, not his present authority to speak for any organisation.", "sources": [{"id": "publisher-bio"}, {"id": "hallam-bio"}, {"id": "highways-appeal", "locator": "Paragraph 10"}]}
+        ]},
+        {"id": "burning-pink", "title": "Beyond Politics / Burning Pink", "kind": "Official review and regulator record", "paragraphs": [
+          {"text": "The government-commissioned Walney review describes Hallam’s move from a formal Extinction Rebellion role in 2020 to Beyond Politics, also known as Burning Pink. Its footnote 879 places political-party registration in October 2020, not June. The Electoral Commission separately identifies Burning Pink as a deregistered party and records that its accounts investigation found no offence and imposed no sanction. The government review is not a court judgment.", "sources": [{"id": "walney", "locator": "Paragraph 3.97 and footnote 879"}, {"id": "electoral-commission"}]}
+        ]},
+        {"id": "writing", "title": "Common sense for the 21st century", "kind": "Publication and political argument", "paragraphs": [
+          {"text": "Chelsea Green published Common Sense for the 21st Century: Only Nonviolent Rebellion Can Now Stop Climate Breakdown and Social Collapse on 7 November 2019 (ISBN 9781645020004). The publisher presents it as an argument for mass nonviolent civil disobedience, disruption and willingness to face arrest as a route to political change. That is the book’s political programme, not a legal justification for particular conduct.", "sources": [{"id": "book"}]}
+        ]}
+      ]
+    },
+    {
+      "id": "coverage", "title": "Coverage, limitations and corrections", "intro": "Checked on 17 October 2026. Published records are selective, and different sources answer different questions.",
+      "entries": [
+        {"id": "method", "title": "What was checked", "kind": "Research method", "paragraphs": [
+          {"text": "The supplied citations were checked against the published judgments or the court’s own PDFs, with the Supreme Court case record checked separately. Earlier trial outcomes and biography use the specifically attributed sources below. A match for “Hallam” alone is not sufficient: unrelated people and Sheffield Hallam references are excluded. This is a review of the listed sources, not an exhaustive search of every court file.", "sources": []}
+        ]},
+        {"id": "publication-gaps", "title": "What the public record cannot establish here", "kind": "Coverage limitation", "paragraphs": [
+          {"text": "Find Case Law receives selected judgments, not a complete register of prosecutions. Most magistrates’ court decisions are not published there; that does not mean no record can ever be obtained. Crown Court sentencing remarks may be separately published, as Hehir’s were. Missing search results are not proof that a case did not happen, and a published decision may have a later appeal outside the collection.", "sources": [{"id": "coverage"}]},
+          {"text": "This page does not reconstruct every Extinction Rebellion-era prosecution, every civil committal, the full Heathrow sentencing order, or current release and licence conditions. Corrections to the supplied notes include separating co-defendants’ records, replacing the outdated five-year headline with the appeal outcome, and distinguishing a reported jury acquittal from a reasoned judgment. Further primary records can be added without turning background research into a judges-database entry.", "sources": []}
+        ]}
+      ]
+    }
+  ],
+  "sources": [
+    {"id": "heathrow-appeal", "title": "Maxey & Hallam v R [2025] EWCA Crim 472", "publisher": "Courts and Tribunals Judiciary", "type": "Published judgment", "date": "2025-04-16", "checked": "2026-10-17", "url": "https://www.judiciary.uk/wp-content/uploads/2025/04/Court-of-Appeal-FINAL-JUDGMENT-R-v-MAXEY-and-HALLAM-202400258-B4-202400261-B4.pdf"},
+    {"id": "m25-appeal", "title": "Hallam & Ors v R [2025] EWCA Crim 199", "publisher": "Courts and Tribunals Judiciary", "type": "Published judgment", "date": "2025-03-07", "checked": "2026-10-17", "url": "https://www.judiciary.uk/wp-content/uploads/2025/03/R-v-Hallam-and-Others-Judgment.pdf"},
+    {"id": "sentencing", "title": "Rex v Hallam and others · HHJ Hehir’s sentencing remarks", "publisher": "Courts and Tribunals Judiciary", "type": "Sentencing remarks", "date": "2024-07-18", "checked": "2026-10-17", "url": "https://www.judiciary.uk/wp-content/uploads/2024/07/R-v-Hallam-and-others.pdf"},
+    {"id": "uksc", "title": "R v Hallam and others · UKSC/2025/0096", "publisher": "UK Supreme Court", "type": "Official case record", "date": "2025-10-08", "checked": "2026-10-17", "url": "https://supremecourt.uk/cases/uksc-2025-0096"},
+    {"id": "heathrow-solicitors", "title": "Heathrow Pause protesters receive suspended sentences", "publisher": "Hodge Jones & Allen", "type": "Defence solicitors’ statement", "date": "2024-04-05", "checked": "2026-10-17", "url": "https://www.hja.net/news-and-insights/press-releases/falsely-accused-of-crime/heathrow-pause-protestors-receive-suspended-sentences/"},
+    {"id": "heathrow-report", "title": "Heathrow sentencing report", "publisher": "The Independent · Jordan Reynolds", "type": "Court reporting", "date": "2024-04-05", "checked": "2026-10-17", "url": "https://www.independent.co.uk/news/uk/crime/roger-hallam-heathrow-extinction-rebellion-government-isleworth-crown-court-b2524112.html"},
+    {"id": "kings-report", "title": "Crown Court acquittal for divestment direct action · full court report", "publisher": "Real Media", "type": "Court reporting", "date": "2019-05-19", "checked": "2026-10-17", "url": "https://realmedia.press/divestment-action-acquittal/"},
+    {"id": "kings-xr", "title": "Climate activists unanimously acquitted by jury", "publisher": "Extinction Rebellion UK", "type": "Campaign account", "date": "2019-05-10", "checked": "2026-10-17", "url": "https://extinctionrebellion.uk/2019/05/10/climate-activists-unanimously-acquitted-by-jury/"},
+    {"id": "highways-appeal", "title": "National Highways v Persons Unknown [2023] EWCA Civ 182", "publisher": "Find Case Law · The National Archives", "type": "Published judgment", "date": "2023-02-23", "checked": "2026-10-17", "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/182"},
+    {"id": "highways-final", "title": "National Highways v Persons Unknown [2023] EWHC 1073 (KB)", "publisher": "Find Case Law · The National Archives", "type": "Published judgment", "date": "2023-05-05", "checked": "2026-10-17", "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2023/1073"},
+    {"id": "valero", "title": "Valero Energy v Persons Unknown [2024] EWHC 134 (KB)", "publisher": "Find Case Law · The National Archives", "type": "Published judgment", "date": "2024-01-26", "checked": "2026-10-17", "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2024/134"},
+    {"id": "hicks", "title": "Hicks & Ors v R [2026] EWCA Crim 706", "publisher": "Find Case Law · The National Archives", "type": "Published judgment", "date": "2026-06-05", "checked": "2026-10-17", "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2026/706"},
+    {"id": "publisher-bio", "title": "Roger Hallam · author biography", "publisher": "Chelsea Green Publishing", "type": "Publisher biography", "checked": "2026-10-17", "url": "https://www.chelseagreen.com/writer/roger-hallam/"},
+    {"id": "hallam-bio", "title": "About Roger Hallam", "publisher": "Roger Hallam", "type": "Self-description", "checked": "2026-10-17", "url": "https://rogerhallam.com/about/"},
+    {"id": "book", "title": "Common Sense for the 21st Century · publication details", "publisher": "Chelsea Green Publishing", "type": "Publisher catalogue", "date": "2019-11-07", "checked": "2026-10-17", "url": "https://www.chelseagreen.com/product/common-sense-for-the-21st-century/"},
+    {"id": "walney", "title": "Protecting our Democracy from Coercion · Walney review", "publisher": "GOV.UK", "type": "Government-commissioned review, not a judgment", "checked": "2026-10-17", "url": "https://www.gov.uk/government/consultations/independent-review-political-violence-and-disruption/outcome/protecting-our-democracy-from-coercion-accessible--4"},
+    {"id": "electoral-commission", "title": "Concluded investigation concerning Burning Pink", "publisher": "Electoral Commission", "type": "Regulator statement", "checked": "2026-10-17", "url": "https://www.electoralcommission.org.uk/media-centre/electoral-commission-concludes-investigations-political-parties-british-national-party-and-burning"},
+    {"id": "release-news", "title": "JSO activist Roger Hallam released from prison", "publisher": "Socialist Worker · Camilla Royle", "type": "Reporting attributed to Just Stop Oil", "date": "2025-08-15", "checked": "2026-10-17", "url": "https://socialistworker.co.uk/environment/jso-activist-roger-hallam-released-from-prison/"},
+    {"id": "release-self", "title": "How to start a revolution in 2026", "publisher": "Roger Hallam", "type": "Self-description", "checked": "2026-10-17", "url": "https://rogerhallam.com/how-to-start-a-revolution-in-2026/"},
+    {"id": "coverage", "title": "Courts and coverage", "publisher": "Find Case Law · The National Archives", "type": "Official service documentation", "checked": "2026-10-17", "url": "https://caselaw.nationalarchives.gov.uk/courts-and-coverage"}
+  ]
+}

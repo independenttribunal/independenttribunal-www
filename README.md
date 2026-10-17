@@ -20,6 +20,7 @@ The Legal affairs hub (timelines, references, policies) lives in [`/data`](data/
 - [`/data/index.json`](https://independenttribunal.org/data/index.json): every dataset, with coverage
 - [`/legal/`](https://independenttribunal.org/legal/): editorial, terrorism, moderation and privacy policies
 - [`/research/`](https://independenttribunal.org/research/): Barclays5, Filton6, the terrorist-connection add-on and Hansard debates, proscription litigation, hunger strikes and Prairieland
+- [`Roger Hallam`](https://independenttribunal.org/research/roger-hallam/): selected court record and public background, with judgments separated from reporting and self-description
 
 All six research dossiers, source annotations, Hansard material and the historical brochure commentary are maintained here under Independent Tribunal. Nothing depends on the former Barclays5 repository or subdomain. July 2026 narratives are clearly dated, with subsequent updates presented first. See [`data/README.md`](data/README.md) before updating a dossier.
 

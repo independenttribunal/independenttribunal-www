@@ -18,6 +18,7 @@ import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadResearch, publishResearch, researchText, researchUpdatesText } from "./research.mjs";
+import { loadProfiles, publishProfiles, profileText } from "./profiles.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "data");
@@ -184,6 +185,8 @@ for (const file of policyFiles) {
 policies.sort((a, b) => a.order - b.order);
 
 const research = await loadResearch(dataDir, fail);
+const profiles = await loadProfiles(dataDir, fail);
+for (const p of profiles) if (research.some((r) => r.id === p.id)) fail(`profiles/${p.id}`, "profile id conflicts with a research dossier");
 
 if (errors.length) {
   console.error(`✗ data validation failed (${errors.length}):\n  ${errors.join("\n  ")}`);
@@ -241,7 +244,18 @@ const tribunalsOut = tribunals.map((t) => ({
 }));
 await put("data/tribunals.json", { generated: built, license: site.license, about: "People's and independent tribunals: who convened them, what they asked, what they found (attributed to them), their legal status, and the primary record. A tribunal's findings are its own, not a court's and not ours.", tribunals: tribunalsOut });
 
+const profilesOut = profiles.map((p) => ({
+  ...p,
+  url: abs(`/research/${p.id}/`),
+  sections: p.sections.map((s) => ({ ...s, entries: s.entries.map((entry) => ({ ...entry, paragraphs: entry.paragraphs.map((para) => ({
+    ...para, sources: para.sources.map((ref) => ({ ...p.sources.find((source) => source.id === ref.id), ...(ref.locator ? { locator: ref.locator } : {}) })),
+  })) })) })),
+}));
+await put("data/profiles.json", { generated: built, about: "Selected public-record research profiles, not a judges database or complete criminal records. Preserve source types, attributed accounts, review dates and coverage limits.", profiles: profilesOut });
+for (const p of profilesOut) await put(`data/profiles/${p.id}.json`, p);
+
 const tiles = [
+  ...profiles.map((p) => ({ kind: "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
   ...research.map((r) => ({ kind: "research", id: r.id, title: r.title, label: `${r.jurisdiction} · ${r.updates?.length ? "case update available" : "historical dossier"}`, summary: r.summary, tags: [...r.tags, "research"], href: `/research/${r.id}/`, uk: r.tags.includes("uk") })),
   ...nuancesOut.map((n) => ({ kind: "nuance", id: n.id, title: n.title, label: n.label, summary: plain(n.summary), tags: n.tags ?? [], href: `/nuances/${n.id}/`, uk: true })),
   ...timelinesOut.map((t) => ({ kind: "timeline", id: t.id, title: t.title, label: t.kicker, summary: plain(t.description), tags: ["protest", "timeline"], href: t.path, uk: true })),
@@ -266,6 +280,7 @@ await put("data/index.json", {
   source_repo: site.source_repo,
   how_to_cite: "Cite the primary source each entry links to (sources[].url), and this site as the compiler.",
   datasets: [
+    { id: "profiles", url: abs("/data/profiles.json"), page: abs("/research/"), count: profiles.length, description: "Selected public-record research profiles, with paragraph-level sources and explicit coverage limits; not a judges database." },
     { id: "research", url: abs("/data/research.json"), page: abs("/research/"), count: research.length, description: "Six historical research dossiers, with original annotations, provenance and explicit pending-verification status." },
     { id: "references", url: abs("/data/references.json"), count: references.length, description: "Primary and official sources cited across the site." },
     ...timelinesOut.map((t) => ({ id: t.id, url: abs(`/data/timelines/${t.id}.json`), page: t.url, count: t.sections.flatMap((s) => s.entries ?? []).length, description: t.description, genre: t.genre })),
@@ -524,7 +539,8 @@ await put("independent-tribunals/index.html", legalPage({
 }));
 
 // Dated research imports, with provenance and status separate from verified references.
-await publishResearch({ records: research, put, page: legalPage, escapeHtml, site });
+await publishResearch({ records: research, profiles, put, page: legalPage, escapeHtml, site });
+await publishProfiles({ profiles, put, page: legalPage, escapeHtml, site });
 
 // Agent-facing text.
 const llms = `# ${site.name}
@@ -535,6 +551,8 @@ The Legal affairs section is a research hub: legislation, judgments and official
 
 When citing, cite the primary source each entry links to (\`sources[].url\`). Facts that can change carry a \`checked\` date.
 
+Public-record profiles are separately researched and are NOT judges-database entries or complete criminal records. Keep defendant/appellant cases distinct from contextual mentions in other judgments. Preserve paragraph-level source types and coverage limitations; reporting and self-description are not court findings. A source review date does not certify current custody or licence conditions.
+
 Research dossiers are an exception: these are historical imports dated 2026-07-28, not verified current reports. Their \`migrated_on\` date is NOT a fact-check date. Preserve \`verification\`, \`review_note\`, corrections and source attribution when using them. Imported source annotations are commentary, including political labels.
 
 Read any \`updates\` before the historical \`body_html\` or \`body_text\`: these are separately sourced developments with their own event and checked dates. An update supersedes conflicting historical claims only within its stated scope; it is not a full re-verification of the dossier. Follow \`related_updates\` to updates in the named dossier.
@@ -542,6 +560,7 @@ Read any \`updates\` before the historical \`body_html\` or \`body_text\`: these
 ## Data
 
 - [Data index](${abs("/data/index.json")}): every dataset, with counts and coverage
+- [Public-record profiles](${abs("/data/profiles.json")}): ${profiles.length} selected profiles with paragraph-level sources resolved inline
 - [Research dossiers](${abs("/data/research.json")}): ${research.length} historical imports with provenance, annotations and pending-verification status
 - [References](${abs("/data/references.json")}): ${references.length} primary and official sources
 - [Tribunals](${abs("/data/tribunals.json")}): ${tribunals.length} people's tribunals (findings attributed to each tribunal, legal status, primary sources)
@@ -559,7 +578,8 @@ ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("
 
 ## Pages
 
-- [Research library](${abs("/research/")}): Independent Tribunal’s six dossiers and source material
+- [Research library](${abs("/research/")}): Independent Tribunal’s research dossiers and public-record profiles
+${profilesOut.map((p) => `- [${p.title}](${p.url}): ${p.subtitle}; sources reviewed ${p.checked}, selected coverage only`).join("\n")}
 ${researchOut.map((r) => `- [${r.title}](${r.url}): ${r.summary} (historical import; source date ${r.source_as_of}; current review pending)`).join("\n")}
 
 ${timelinesOut.map((t) => `- [${t.seo_title}](${t.url})`).join("\n")}
@@ -578,6 +598,7 @@ await put("llms.txt", llms);
 
 const full = [
   `# ${site.name} — full text\n\nGenerated ${built} from ${site.source_repo}. ${site.summary}\n`,
+  ...profilesOut.map(profileText),
   `\n## Historical research dossiers\n\nImported source narratives and annotations, not newly verified reporting. Political labels belong to the original author. Check primary records before relying on case-status claims.\n`,
   ...researchOut.map((r) => `\n### ${r.title}\n\nURL: ${r.url}\nSource date: ${r.source_as_of}. Migrated: ${r.migrated_on} (not a verification date). Status: ${r.verification}\n${r.review_note}\n\n${r.corrections.map((c) => `Correction (${c.date}): ${c.text} <${c.url}>`).join("\n")}\n\n${researchUpdatesText(r)}\n\nOriginal dossier (historical):\n${r.body_text}\n\n${r.supplementary ? `${r.supplementary.title}\n${r.supplementary.note}\n${researchText(r.supplementary.body_html)}` : ""}\n\nMaintained source: ${site.source_repo}/blob/main/data/research/${r.id}.json\nImported links (not all rechecked):\n${r.links.map((l) => `- ${l.label} <${l.url}>`).join("\n")}\n`),
   `\n## Independent tribunals\n\nFindings below are each tribunal's own, not a court's and not ours.\n`,
@@ -596,7 +617,7 @@ const full = [
 ].join("");
 await put("llms-full.txt", full);
 
-const pages = ["/", "/about", "/research/", ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
+const pages = ["/", "/about", "/research/", ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
 await put("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map((p) => `  <url><loc>${abs(p)}</loc><lastmod>${builtDay}</lastmod></url>`).join("\n")}

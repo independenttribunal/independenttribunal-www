@@ -12,6 +12,7 @@ Everything in the Legal affairs hub starts here. Edit these files (by hand or wi
 | `policies/*.md` | Policies, Markdown with front matter | `/legal/<slug>/` (HTML) and `/legal/<slug>.md` |
 | `research/*.json` | Dated imported dossiers, annotations, links, corrections and immutable provenance | `/research/<id>/`, `/data/research.json` and `/data/research/<id>.json` |
 | `research-migration.json` | Original citation inventory from the Barclays5 source repository | Used by migration-integrity tests |
+| `profiles/*.json` | Selected public-record profiles with per-paragraph source ids, locators, source types and review dates | `/research/<id>/`, `/data/profiles.json` and `/data/profiles/<id>.json` |
 
 Generated for agents: `/llms.txt`, `/llms-full.txt`, `/data/index.json`, `/sitemap.xml`, `/robots.txt`.
 
@@ -41,6 +42,10 @@ Add an object to a section's `entries` and list its references in `sources`. Lea
 Kinds: `statute`, `sentence`, `event`, `pushback`, `ruling`.
 
 ## House rules
+
+### Public-record profiles
+
+Profiles are separate from the six historical imports and from any judges database. `scripts/profiles.mjs` validates their source ids, dates and anchors, then renders escaped plain text with citations. Only research-method and coverage-limit paragraphs may omit sources. Each factual paragraph references the source register, optionally with a paragraph/page locator. Public JSON resolves sources inline and the full-text export preserves attribution and limitations. Do not describe a profile as a full criminal record, conflate a party with a contextual mention, or infer present custody from sentence length. Distinguish judgments, sentencing remarks, reporting, campaign accounts and self-description. The Roger Hallam profile also records corrections to the supplied notes rather than copying co-defendants’ records onto his.
 
 ### Barclays5 research migration
 
