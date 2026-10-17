@@ -250,7 +250,7 @@ const tiles = [
 await put("data/tiles.json", { generated: built, tiles });
 
 const researchOut = research.map((r) => ({ ...r, url: abs(`/research/${r.id}/`), body_text: researchText(r.body_html) }));
-await put("data/research.json", { generated: built, about: "Dated research imported from the Barclays5 repository. Read any separately sourced updates before the historical body. Each update has its own event date, checked date and sources; it does not verify the rest of the dossier. Original source annotations are commentary; imported links have not all been rechecked.", research: researchOut });
+await put("data/research.json", { generated: built, about: "Independent Tribunal research dossiers and source material. Read any separately sourced updates before the historical body and supplementary commentary. Each update has its own event date, checked date and sources; it does not verify the rest of the dossier. Original source annotations are commentary; imported links have not all been rechecked.", research: researchOut });
 for (const r of researchOut) await put(`data/research/${r.id}.json`, r);
 
 await put("data/policies.json", {
@@ -559,7 +559,7 @@ ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("
 
 ## Pages
 
-- [Research library](${abs("/research/")}): the Barclays5 collection, now at Independent Tribunal
+- [Research library](${abs("/research/")}): Independent Tribunal’s six dossiers and source material
 ${researchOut.map((r) => `- [${r.title}](${r.url}): ${r.summary} (historical import; source date ${r.source_as_of}; current review pending)`).join("\n")}
 
 ${timelinesOut.map((t) => `- [${t.seo_title}](${t.url})`).join("\n")}
@@ -579,7 +579,7 @@ await put("llms.txt", llms);
 const full = [
   `# ${site.name} — full text\n\nGenerated ${built} from ${site.source_repo}. ${site.summary}\n`,
   `\n## Historical research dossiers\n\nImported source narratives and annotations, not newly verified reporting. Political labels belong to the original author. Check primary records before relying on case-status claims.\n`,
-  ...researchOut.map((r) => `\n### ${r.title}\n\nURL: ${r.url}\nSource date: ${r.source_as_of}. Migrated: ${r.migrated_on} (not a verification date). Status: ${r.verification}\n${r.review_note}\n\n${r.corrections.map((c) => `Correction (${c.date}): ${c.text} <${c.url}>`).join("\n")}\n\n${researchUpdatesText(r)}\n\nOriginal dossier (historical):\n${r.body_text}\n\nSource snapshot: ${r.provenance.repository}/tree/${r.provenance.commit}\nImported links (not all rechecked):\n${r.links.map((l) => `- ${l.label} <${l.url}>`).join("\n")}\n`),
+  ...researchOut.map((r) => `\n### ${r.title}\n\nURL: ${r.url}\nSource date: ${r.source_as_of}. Migrated: ${r.migrated_on} (not a verification date). Status: ${r.verification}\n${r.review_note}\n\n${r.corrections.map((c) => `Correction (${c.date}): ${c.text} <${c.url}>`).join("\n")}\n\n${researchUpdatesText(r)}\n\nOriginal dossier (historical):\n${r.body_text}\n\n${r.supplementary ? `${r.supplementary.title}\n${r.supplementary.note}\n${researchText(r.supplementary.body_html)}` : ""}\n\nMaintained source: ${site.source_repo}/blob/main/data/research/${r.id}.json\nImported links (not all rechecked):\n${r.links.map((l) => `- ${l.label} <${l.url}>`).join("\n")}\n`),
   `\n## Independent tribunals\n\nFindings below are each tribunal's own, not a court's and not ours.\n`,
   ...tribunalsOut.map((t) => `\n### ${t.name}\n\nURL: ${t.url}\nStatus: ${t.status}. Tags: ${t.tags.join(", ")}. Checked: ${t.checked}\n\n${plain(t.summary)}\n\nConvened by: ${plain(t.convened_by)}\n${t.panel ? `Panel: ${plain(t.panel)}\n` : ""}Question: ${plain(t.question)}\nLegal status: ${plain(t.legal_status)}\n\nFindings (attributed to the tribunal):\n${t.findings.map((f) => `- ${plain(f)}`).join("\n")}\n\nNuance:\n${t.nuance.map((p) => `- ${plain(p)}`).join("\n")}\n\nTimeline:\n${[...t.sat, ...t.aftermath].sort((a, b) => a.date.localeCompare(b.date)).map((h) => `- ${h.date_label}: ${plain(h.text)}${h.sources.length ? ` [${h.sources.map((x) => x.url).join(", ")}]` : ""}`).join("\n")}\n\nSources: ${t.sources.map((x) => `${x.title} <${x.url}>`).join("; ")}\n`),
   `\n## Legal nuances\n`,

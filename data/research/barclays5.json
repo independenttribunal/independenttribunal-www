@@ -1,5 +1,11 @@
 {
   "id": "barclays5",
+  "supplementary": {
+    "title": "Original campaign commentary · July 2026",
+    "date": "2026-07-28",
+    "body_file": "barclays5-brochure.html",
+    "note": "This is the text of the original July 2026 brochure, retained as historical commentary, not a current campaign or an Independent Tribunal call to action. Its predictions, comparisons and legal characterisations have not been independently verified. In particular, its suggestion that these defendants still face terrorist-connection sentencing was superseded by the 21 August ruling above. Read the sourced update first."
+  },
   "title": "Barclays5",
   "jurisdiction": "Burnley · England and Wales",
   "summary": "On 21 August 2026, the judge ruled out terrorist-connection sentencing in the Barclays5 case. The earlier reporting is retained below as a historical record.",
@@ -47,12 +53,11 @@
     }
   ],
   "provenance": {
-    "repository": "https://github.com/PlanetaryCouncil/barclays5",
+    "original_collection": "Barclays5 research · July 2026",
     "commit": "9831cfdcb6ca0f63f488cd81794f8e6d0e79f88c",
     "files": [
       "sources.html"
-    ],
-    "original_site": "https://barclays5.planetarycouncil.org/"
+    ]
   },
   "corrections": [],
   "body_html": "<p>Five defendants &mdash; Brendon O&rsquo;Hagan and Mohammed Malik, both 28; Amanda Kelly and Hmeera Atiqnisar, both 31; and Alma Yaniv, 70 &mdash; convicted of criminal damage at Preston Crown Court over an August 2024 action at a Barclays branch in Burnley. The CPS applied for a &ldquo;terrorist connection&rdquo; finding only after the trial had concluded.</p>\n\n  <ul class=\"src\">\n    <li>\n      <span class=\"title\">Activists Who Spray-Painted Barclays Set to Be Sentenced as Terrorists</span>\n      <span class=\"outlet\">Novara Media &middot; 27 July 2026 <span class=\"lean partisan\">Left</span></span>\n      <span class=\"url\"><a href=\"https://novaramedia.com/2026/07/27/activists-who-spray-painted-barclays-set-to-be-sentenced-as-terrorists/\">novaramedia.com/2026/07/27/activists-who-spray-painted-barclays-set-to-be-sentenced-as-terrorists/</a></span>\n    </li>\n    <li>\n      <span class=\"title\">Five protesters convicted of criminal damage face sentencing as terrorists</span>\n      <span class=\"outlet\">Middle East Eye &middot; 27 July 2026</span>\n      <span class=\"url\"><a href=\"https://www.middleeasteye.net/news/five-protesters-convicted-criminal-damage-face-sentencing-terrorists\">middleeasteye.net/news/five-protesters-convicted-criminal-damage-face-sentencing-terrorists</a></span>\n    </li>\n    <li>\n      <span class=\"title\">Five more Palestine activists could be sentenced as terrorists</span>\n      <span class=\"outlet\">Declassified UK &middot; 27 July 2026</span>\n      <span class=\"url\"><a href=\"https://www.declassifieduk.org/five-more-palestine-activists-could-be-sentenced-as-terrorists/\">declassifieduk.org/five-more-palestine-activists-could-be-sentenced-as-terrorists/</a></span>\n      <span class=\"note\">Has the court-filing detail that the CPS applied only after the trial ended. Interview with Atiqnisar.</span>\n    </li>\n    <li>\n      <span class=\"title\">Judge moves to sentence Barclays spray painters as terrorists despite no terror charges</span>\n      <span class=\"outlet\">Free the Filton 25 &middot; campaign site <span class=\"lean partisan\">Campaign</span></span>\n      <span class=\"url\"><a href=\"https://filtonactionists.com/judge-moves-to-sentence-barclays-spray-painters-as-terrorists-despite-no-terror-charges/\">filtonactionists.com/judge-moves-to-sentence-barclays-spray-painters-as-terrorists-despite-no-terror-charges/</a></span>\n      <span class=\"note\">Fullest account of the sequence, including the judge circulating Justice Johnson&rsquo;s Filton ruling to defence counsel. Partisan &mdash; corroborate before relying on it.</span>\n    </li>\n    <li>\n      <span class=\"title\">PA wire copy, syndicated</span>\n      <span class=\"outlet\">Press Association via Yahoo <span class=\"lean primary\">Agency</span></span>\n      <span class=\"url\"><a href=\"https://ca.news.yahoo.com/palestine-action-activists-ransacked-barclays-073012794.html\">ca.news.yahoo.com/palestine-action-activists-ransacked-barclays-073012794.html</a></span>\n      <span class=\"note\">The neutral agency version most outlets ran. Best single citation for the bare facts.</span>\n    </li>\n    <li>\n      <span class=\"title\">Palestine Action Barclays bank &mdash; sentenced as terrorists</span>\n      <span class=\"outlet\">The Jewish Chronicle <span class=\"lean hostile\">Hostile</span></span>\n      <span class=\"url\"><a href=\"https://www.thejc.com/news/uk/palestine-action-barclays-bank-sentenced-terrorists-rga3642x\">thejc.com/news/uk/palestine-action-barclays-bank-sentenced-terrorists-rga3642x</a></span>\n      <span class=\"note\">Unsympathetic to the defendants and confirms the same underlying facts. Valuable for exactly that reason.</span>\n    </li>\n  </ul>",

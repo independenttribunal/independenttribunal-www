@@ -23,12 +23,18 @@ export async function loadResearch(dataDir, fail) {
       if (!u.title || !u.summary || !u.date_label || !u.paragraphs?.length || !u.sources?.length) fail(where, "updates require a title, dated account and sources");
       for (const s of u.sources ?? []) if (!s.title || !s.publisher || !s.type || !/^https:\/\//.test(s.url) || !/^\d{4}-\d{2}-\d{2}$/.test(s.checked)) fail(where, "update sources require attribution, HTTPS and a checked date");
     }
-    if (!/^https:\/\/github\.com\/[\w-]+\/[\w-]+$/.test(r.provenance?.repository) || !/^[a-f0-9]{40}$/.test(r.provenance?.commit)) fail(where, "immutable source provenance required");
+    if (!r.provenance?.original_collection || !/^[a-f0-9]{40}$/.test(r.provenance?.commit)) fail(where, "historical source provenance required");
+    if (r.supplementary) {
+      if (!/^[a-z0-9-]+\.html$/.test(r.supplementary.body_file)) throw new Error(`${where}: invalid supplementary file`);
+      if (!r.supplementary.title || !r.supplementary.note || !/^\d{4}-\d{2}-\d{2}$/.test(r.supplementary.date)) fail(where, "supplementary material requires a title, date and editorial note");
+      r.supplementary.body_html = await readFile(join(dataDir, "research", "materials", r.supplementary.body_file), "utf8");
+    }
+    const allHtml = r.body_html + (r.supplementary?.body_html ?? "");
     // Imported markup is committed editorial content, never executable content.
     const allowedTags = new Set(["p", "a", "ul", "ol", "li", "span", "strong", "em", "b", "i", "h2", "h3", "h4", "blockquote", "cite", "br", "div", "section", "code", "small", "hr"]);
-    for (const tag of r.body_html.matchAll(/<\/?([a-z][\w:-]*)\b/gi)) if (!allowedTags.has(tag[1].toLowerCase())) fail(where, `unsupported HTML tag ${tag[1]}`);
-    if (/\son\w+\s*=|\s(?:style|srcdoc)\s*=/i.test(r.body_html)) fail(where, "active HTML attributes are not allowed");
-    for (const a of r.body_html.matchAll(/href="([^"]+)"/g)) {
+    for (const tag of allHtml.matchAll(/<\/?([a-z][\w:-]*)\b/gi)) if (!allowedTags.has(tag[1].toLowerCase())) fail(where, `unsupported HTML tag ${tag[1]}`);
+    if (/\son\w+\s*=|\s(?:style|srcdoc)\s*=/i.test(allHtml)) fail(where, "active HTML attributes are not allowed");
+    for (const a of allHtml.matchAll(/href="([^"]+)"/g)) {
       if (!/^(https:\/\/|#)/.test(a[1])) fail(where, `unsupported link ${a[1]}`);
     }
     for (const link of r.links ?? []) {
@@ -81,6 +87,11 @@ export async function publishResearch({ records, put, page, escapeHtml: e, site 
     .research-body .callout { padding:1rem; background:white; border:1px solid var(--line); }
     .research-body .ref { font-size:.85rem; color:var(--muted); }
     .research-provenance { padding-top:1rem; margin-top:2rem; border-top:1px solid var(--line); overflow-wrap:anywhere; }
+    .historical-commentary { border-left:2px solid var(--line); padding-left:1.2rem; }
+    .historical-commentary .compare, .historical-commentary .act { margin:1.3rem 0; }
+    .historical-commentary .cell { padding:1rem; background:white; border:1px solid var(--line); }
+    .historical-commentary .sum { font-size:1.5rem; }
+    .historical-commentary .when, .historical-commentary .rule { font-weight:bold; margin-top:1rem; }
     a:focus-visible { outline:3px solid var(--gold); outline-offset:4px; }
     @media print { .research-nav, .contact { display:none; } }
   </style>`;
@@ -89,11 +100,11 @@ export async function publishResearch({ records, put, page, escapeHtml: e, site 
     meta: `<p class="meta">Open research · <a href="/data/research.json">Download JSON</a> · <a href="/legal/editorial-standards/">Editorial standards</a></p>`,
     body: `${styles}<div class="kicker">Independent Tribunal · Research library</div><h1>Follow the evidence.</h1>
       <p class="lede">Six connected dossiers. Separate cases, distinct legal questions, and a public record you can examine for yourself.</p>
-      <aside class="research-notice"><strong>A new home for the Barclays5 research</strong><p>This collection was moved from Planetary Council. The original dossier is dated 28 July 2026; its case-status claims and source links have not yet had a full current-status review. It includes reporting and campaign commentary, not just primary sources.</p></aside>
+      <aside class="research-notice"><strong>About this research collection</strong><p>Independent Tribunal maintains these six dossiers and their source material. The original research is dated 28 July 2026. Read any dated case updates first; the historical material has not had a full current-status review. It includes reporting and commentary, not just primary sources.</p></aside>
       <ul class="policy-list">${records.map((r) => `<li><span class="kicker">0${r.order} · ${e(r.jurisdiction)}</span><h2><a href="/research/${r.id}/">${e(r.title)} →</a></h2><p>${e(r.summary)}</p><span class="meta">Historical dossier · source date ${e(r.source_as_of)}</span></li>`).join("")}</ul>`,
   }));
   for (const r of records) {
-    const original = `${r.provenance.repository}/blob/${r.provenance.commit}`;
+    const source = `${site.source_repo}/blob/main/data/research/${r.id}.json`;
     await put(`research/${r.id}/index.html`, page({
       title: r.title, description: r.summary, path: `/research/${r.id}/`,
       meta: `<p class="meta">Source dossier: ${e(r.source_as_of)} · Migrated: ${e(r.migrated_on)} (not a verification date)<br><a href="/data/research/${r.id}.json">Download this dossier as JSON</a> · <a href="${site.source_repo}/commits/main/data/research/${r.id}.json">Edit history</a></p>`,
@@ -104,7 +115,8 @@ export async function publishResearch({ records, put, page, escapeHtml: e, site 
         <h2 id="original-dossier">Original dossier · July 2026</h2><p class="attributed">The following narrative and source annotations are the original author’s research and commentary. Publisher labels such as “Campaign” or “Partisan” are the author’s descriptions, not independent ratings. Allegations, reported verdicts and opinions must be distinguished and checked against the primary record.</p>
         <article class="research-body" aria-label="Imported research">${r.body_html}</article>
         ${r.id === "terrorist-connection" ? '<p class="attributed">Hansard excerpts: UK Parliament, reproduced under the <a href="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence</a>. Commentary is separate from the parliamentary record.</p>' : ""}
-        <section class="research-provenance"><h2>Provenance &amp; corrections</h2><p>Imported from the <a href="${original}/README.md">Planetary Council Barclays5 repository</a>, pinned to commit <code>${r.provenance.commit.slice(0, 7)}</code>. The original material remains available for comparison:</p><ul>${r.provenance.files.map((f) => `<li><a href="${original}/${f}">${e(f)}</a></li>`).join("")}${r.id === "barclays5" ? `<li><a href="${original}/index.html">Original printable campaign brochure (July 2026 archive)</a></li>` : ""}</ul><p>Have a judgment, sentencing remark or correction? <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p></section>
+        ${r.supplementary ? `<section id="original-commentary"><h2>${e(r.supplementary.title)}</h2><p class="research-notice">${e(r.supplementary.note)}${r.updates?.length ? ` <a href="#${r.updates[0].id}">Read the case update</a>.` : ""}</p><div class="research-body historical-commentary">${r.supplementary.body_html}</div></section>` : ""}
+        <section class="research-provenance"><h2>Sources &amp; corrections</h2><p>This dossier, its annotations and source links are maintained by Independent Tribunal. <a href="${source}">View the source data</a> or <a href="/data/research/${r.id}.json">download the complete dossier</a>${r.supplementary ? `, including the historical brochure commentary` : ""}.</p><p>Have a judgment, sentencing remark or correction? <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p></section>
         <h2>Explore the collection</h2>${nav(r.id)}`,
     }));
   }

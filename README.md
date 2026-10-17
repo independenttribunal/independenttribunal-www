@@ -21,7 +21,7 @@ The Legal affairs hub (timelines, references, policies) lives in [`/data`](data/
 - [`/legal/`](https://independenttribunal.org/legal/): editorial, terrorism, moderation and privacy policies
 - [`/research/`](https://independenttribunal.org/research/): Barclays5, Filton6, the terrorist-connection add-on and Hansard debates, proscription litigation, hunger strikes and Prairieland
 
-The research collection was migrated from `PlanetaryCouncil/barclays5`. Its July 2026 narratives are explicitly marked as historical imports pending a current-status review, with original citations and immutable source provenance retained. See [`data/README.md`](data/README.md) before updating a dossier.
+All six research dossiers, source annotations, Hansard material and the historical brochure commentary are maintained here under Independent Tribunal. Nothing depends on the former Barclays5 repository or subdomain. July 2026 narratives are clearly dated, with subsequent updates presented first. See [`data/README.md`](data/README.md) before updating a dossier.
 
 ## Local development
 

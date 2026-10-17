@@ -14,12 +14,11 @@
   "verification": "historical-import-needs-current-review",
   "review_note": "“Filton6” is the entry point for this research. The original dossier also covers the broader Filton 24/25 proceedings; counts, verdicts and sentences must be tied to the particular defendants and trial.",
   "provenance": {
-    "repository": "https://github.com/PlanetaryCouncil/barclays5",
+    "original_collection": "Barclays5 research · July 2026",
     "commit": "9831cfdcb6ca0f63f488cd81794f8e6d0e79f88c",
     "files": [
       "sources.html"
-    ],
-    "original_site": "https://barclays5.planetarycouncil.org/"
+    ]
   },
   "corrections": [
     {

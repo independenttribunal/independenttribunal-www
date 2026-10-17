@@ -86,3 +86,31 @@ test("all research pages are discoverable from index, tiles, sitemap and AI guid
   }
   assert.match(await read("public/llms.txt"), /NOT a fact-check date/);
 });
+
+test("the research collection has no dependency on the retired repo or hostname", async () => {
+  const retired = /github\.com\/PlanetaryCouncil\/barclays5|barclays5\.planetarycouncil\.org/;
+  for (const path of ["research/index.html", "data/research.json", "data/tiles.json", "llms.txt", "llms-full.txt", ...expected.flatMap((id) => [`research/${id}/index.html`, `data/research/${id}.json`])]) {
+    const content = await read(`public/${path}`);
+    assert.doesNotMatch(content, retired, path);
+  }
+  for (const id of expected) {
+    assert.ok((await read(`public/research/${id}/index.html`)).includes(`https://github.com/independenttribunal/independenttribunal-www/blob/main/data/research/${id}.json`));
+  }
+  assert.doesNotMatch(await read("public/research/index.html"), /moved from Planetary Council|A new home for the Barclays5/);
+  assert.equal((await read("CNAME")).trim(), "independenttribunal.org", "keep the Independent Tribunal domain");
+});
+
+test("the brochure text is included by default with an explicit superseded-content warning", async () => {
+  const r = await json("public/data/research/barclays5.json");
+  const html = await read("public/research/barclays5/index.html");
+  const material = await read("data/research/materials/barclays5-brochure.html");
+  assert.equal(r.supplementary.body_html, material);
+  assert.ok(html.includes(material));
+  assert.ok(html.indexOf('id="2026-08-21-ruling"') < html.indexOf('id="original-commentary"'));
+  assert.match(html, /not a current campaign or an Independent Tribunal call to action/);
+  assert.match(html, /superseded by the 21 August ruling/);
+  for (const heading of ["Canary Wharf", "How it is done", "How we got here", "Put it to your MP"]) {
+    assert.ok(material.includes(heading));
+    assert.ok((await read("public/llms-full.txt")).includes(heading));
+  }
+});
