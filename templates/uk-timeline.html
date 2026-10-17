@@ -44,34 +44,6 @@
 
   .wrap { max-width: 46rem; margin: 0 auto; padding: 0 1.25rem; }
 
-  /* Site navigation stays separate from the timeline's era colours and filters. */
-  .global-header-surface { background:#f5f7f9; color:#10263e; }
-  .global-header, .global-header * { box-sizing:border-box; }
-  .global-header { width:min(1220px,calc(100% - 64px)); min-height:100px; margin-inline:auto; display:flex; align-items:center; justify-content:space-between; gap:24px; border-bottom:1px solid rgba(16,38,62,.15); font-family:ui-sans-serif,system-ui,sans-serif; }
-  .global-header a { text-decoration:none; }
-  .global-brand { display:flex; align-items:center; gap:12px; color:#10263e; text-transform:uppercase; font-size:12px; line-height:1; font-weight:800; letter-spacing:.055em; flex-shrink:0; }
-  .global-seal { display:grid; place-items:center; width:46px; height:46px; border:1px solid #10263e; border-radius:4px; font:400 15px Georgia,serif; }
-  .global-brand small { display:block; margin-top:5px; color:#778190; font-size:10px; letter-spacing:.1em; }
-  .global-header nav { display:flex; flex-wrap:wrap; gap:12px 26px; color:#425066; font-size:14px; font-weight:700; }
-  .global-header nav a { padding-block:8px; }
-  .global-header nav a[aria-current="page"] { color:#10263e; text-decoration:underline; text-decoration-color:#aa8237; text-underline-offset:7px; }
-  .global-header a:hover { color:#aa8237; }
-  .global-header a:focus-visible { outline:2px solid #28659a; outline-offset:4px; }
-  .global-app { display:flex; align-items:center; justify-content:space-between; flex-shrink:0; gap:32px; background:#10263e; color:white; min-height:49px; padding:0 18px; border-radius:4px; font-size:14px; font-weight:700; }
-  .global-app:hover { background:#183650; color:white !important; }
-  @media(max-width:1100px) {
-    .global-header { flex-wrap:wrap; padding-block:20px; gap:18px; }
-    .global-header nav { order:3; width:100%; }
-  }
-  @media(max-width:580px) {
-    .global-header { width:calc(100% - 28px); gap:16px 10px; }
-    .global-brand { gap:9px; font-size:10px; }
-    .global-brand small { display:none; }
-    .global-seal { width:36px; height:36px; }
-    .global-app { min-height:42px; padding:0 13px; gap:14px; font-size:11px; }
-    .global-header nav { gap:8px 18px; font-size:13px; }
-  }
-
   /* ---------- Hero ---------- */
   header.hero { padding: 14vh 0 10vh; }
   .kicker {
@@ -328,13 +300,13 @@
     margin: 0;
   }
 
-  footer {
+  .timeline-provenance {
     padding: 3rem 0 4rem;
     border-top: 1px solid var(--era-rule, var(--rule));
     font-size: 0.85rem;
     color: var(--era-dim, var(--slate));
   }
-  footer p { max-width: 38rem; }
+  .timeline-provenance p { max-width: 38rem; }
 
   /* ---------- Sources (generated from /data) ---------- */
   .sources { margin: 0.6rem 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.06em; }
@@ -346,17 +318,17 @@
   .mech-panel .sources { margin-top: 1.25rem; }
   .data-note { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; }
 </style>
+<link rel="stylesheet" href="/site-shell.css">
 </head>
 
 <body data-era="0">
 
 {{SITE_HEADER}}
 
+<main id="main-content">
 {{HERO}}
 
 {{FILTERS}}
-
-<main>
 
 {{SECTIONS}}
 
@@ -376,16 +348,17 @@
   </div>
 </section>
 
-</main>
-
-<footer>
+<aside class="timeline-provenance" aria-label="Timeline sources and provenance">
   <div class="wrap">
     <p>A civic record, assembled from public reporting and legislation. Every entry names a real statute, ruling or case — verify each against primary sources: legislation.gov.uk, court judgments, and contemporaneous reporting. Corrections welcome.</p>
     <p>Builds on <a href="https://paragraph.com/@dearmoon/totalitarian-timeline-in-the-uk">"Totalitarian Timeline in the UK"</a> (May 2023). Published under <a href="https://independenttribunal.org/#legal-affairs">Independent Tribunal · Legal affairs</a>.</p>
     <p>Commentary, not legal advice. Read our <a href="/legal/editorial-standards/">editorial standards</a> and <a href="/legal/terrorism-and-proscribed-organisations/">terrorism and proscribed organisations policy</a>.</p>
     <p class="data-note">Machine-readable: <a href="/data/timelines/uk-ratchet.json">uk-ratchet.json</a> · <a href="/data/references.json">references.json</a> · <a href="/llms.txt">llms.txt</a> · last built {{BUILT}}</p>
   </div>
-</footer>
+</aside>
+</main>
+
+{{SITE_FOOTER}}
 
 <script>
   // Scroll-driven era darkening

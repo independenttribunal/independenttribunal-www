@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import type { Metadata } from "next";
+import { SiteFrame } from "../site-frame";
 
 export const metadata: Metadata = {
   title: "Origins of the idea — Independent Tribunal",
@@ -25,21 +26,7 @@ const tribunals = [
 
 export default function About() {
   return (
-    <main className="about-page">
-      <header className="site-header shell">
-        <a className="brand" href="/" aria-label="Independent Tribunal home">
-          <span className="brand-seal" aria-hidden="true">IT</span>
-          <span>Independent Tribunal<small>Rapid peer resolution</small></span>
-        </a>
-        <nav aria-label="About page navigation">
-          <a href="/">Home</a>
-          <a href="#origins">Origins</a>
-          <a href="#tribunals">Tribunals</a>
-          <a href="#kleros">Inspiration</a>
-        </nav>
-        <a className="header-action" href="https://t.me/IndependentTribunal" target="_blank" rel="noreferrer">Join the conversation <span>↗</span></a>
-      </header>
-
+    <SiteFrame path="/about"><main className="about-page" id="main-content">
       <section className="about-hero" id="origins">
         <div className="shell about-hero-grid">
           <div>
@@ -114,12 +101,6 @@ export default function About() {
         <a href="https://t.me/IndependentTribunal" target="_blank" rel="noreferrer">Build it with us <span>↗</span></a>
       </section>
 
-      <footer className="site-footer shell">
-        <div className="brand"><span className="brand-seal">IT</span><span>Independent Tribunal<small>Rapid peer resolution</small></span></div>
-        <p>Independent human judgment for everyday disputes.<small>Not a court and not legal advice.</small></p>
-        <nav><a href="/">Home</a><a href="#origins">Origins</a><a href="#tribunals">Tribunals</a><a href="#kleros">Kleros</a></nav>
-        <span>© 2026</span>
-      </footer>
-    </main>
+    </main></SiteFrame>
   );
 }

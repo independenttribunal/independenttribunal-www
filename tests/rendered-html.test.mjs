@@ -1,6 +1,10 @@
 import assert from "node:assert/strict";
 import { access, readFile } from "node:fs/promises";
 import test from "node:test";
+import { renderSiteHeader, renderSiteFooter } from "../shared/site-shell.mjs";
+
+const navigation = JSON.parse(await readFile(new URL("../data/navigation.json", import.meta.url), "utf8"));
+const site = JSON.parse(await readFile(new URL("../data/site.json", import.meta.url), "utf8"));
 
 async function render(path = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -69,11 +73,22 @@ test("homepage reads its tiles from generated data", async () => {
     readFile(new URL("../package.json", import.meta.url), "utf8"),
   ]);
 
-  assert.match(page, /Independent Tribunal home/);
+  assert.match(page, /SiteFrame/);
   assert.match(page, /public\/data\/tiles\.json/);
-  assert.match(page, /https:\/\/t\.me\/IndependentTribunal/);
-  assert.match(page, /https:\/\/github\.com\/independenttribunal\/independenttribunal-www/);
+  assert.match(layout, /site-shell\.css/);
   assert.match(layout, /Independent Tribunal — The law, shown openly/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview", import.meta.url)));
+});
+
+test("React pages use the exact shared site header and footer", async () => {
+  for (const path of ["/", "/about"]) {
+    const html = await (await render(path)).text();
+    assert.ok(html.includes(renderSiteHeader({ navigation, path })), `${path} header`);
+    assert.ok(html.includes(renderSiteFooter({ navigation, site })), `${path} footer`);
+    assert.equal((html.match(/<header class="global-header">/g) ?? []).length, 1);
+    assert.equal((html.match(/<footer class="global-footer">/g) ?? []).length, 1);
+    assert.match(html, /id="main-content"/);
+    assert.doesNotMatch(html, /Rapid peer resolution|Not a court and not legal advice/);
+  }
 });

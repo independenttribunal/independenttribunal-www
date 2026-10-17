@@ -20,6 +20,7 @@ import { fileURLToPath } from "node:url";
 import { loadResearch, publishResearch, researchText, researchUpdatesText } from "./research.mjs";
 import { loadProfiles, publishProfiles, profileText } from "./profiles.mjs";
 import { loadCommentary, publishCommentary, commentaryText } from "./commentary.mjs";
+import { renderSiteHeader, renderSiteFooter } from "../shared/site-shell.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "data");
@@ -303,11 +304,7 @@ await put("data/index.json", {
 const template = await readFile(join(root, "templates", "uk-timeline.html"), "utf8");
 const navigation = JSON.parse(await readFile(join(dataDir, "navigation.json"), "utf8"));
 for (const t of timelines) {
-  const siteHeader = `<div class="global-header-surface"><header class="global-header">
-    <a class="global-brand" href="/" aria-label="Independent Tribunal home"><span class="global-seal" aria-hidden="true">IT</span><span>Independent Tribunal<small>The law, shown openly</small></span></a>
-    <nav aria-label="Primary">${navigation.links.map((link) => `<a href="${escapeHtml(link.href)}"${link.href === t.path ? ' aria-current="page"' : ""}>${escapeHtml(link.label)}</a>`).join("")}</nav>
-    <a class="global-app" href="${escapeHtml(navigation.app.href)}">${escapeHtml(navigation.app.label)} <span aria-hidden="true">↗</span></a>
-  </header></div>`;
+  const siteHeader = renderSiteHeader({ navigation, path: t.path });
   const sourcesHtml = (ids) => ids.length
     ? `<ul class="sources"><li class="src-label">Sources</li>${ids.map((id) => {
         const r = refById.get(id);
@@ -386,22 +383,11 @@ ${s.entries.map((e) => `
   }).join("\n\n");
   await put(`${t.path.replace(/^\/|\/$/g, "")}/index.html`, template
     .replace("{{HEAD}}", head).replace("{{SITE_HEADER}}", siteHeader).replace("{{HERO}}", hero).replace("{{FILTERS}}", filters)
+    .replace("{{SITE_FOOTER}}", renderSiteFooter({ navigation, site }))
     .replace("{{SECTIONS}}", sections).replace("{{BUILT}}", builtDay));
 }
 
 // Policy pages.
-const contactHtml = () => {
-  const c = site.contact;
-  const rows = [
-    `<li><a href="${c.issues}">GitHub issues</a> — public; for corrections and sources</li>`,
-    `<li><a href="${c.telegram}">Telegram</a> — most current</li>`,
-    `<li><a href="${c.x}">X / Twitter</a></li>`,
-    c.private
-      ? `<li><a href="mailto:${escapeHtml(c.private)}">${escapeHtml(c.private)}</a> — private; for privacy requests and anything sensitive</li>`
-      : "",
-  ];
-  return `<section class="contact" id="contact"><h2>Contact</h2><ul>${rows.join("")}</ul></section>`;
-};
 const legalPage = ({ title, description, path, body, updated, meta }) => `<!doctype html>
 <html lang="en-GB">
 <head>
@@ -417,9 +403,7 @@ const legalPage = ({ title, description, path, body, updated, meta }) => `<!doct
   body { margin: 0; background: var(--cream); color: var(--text); font: 17px/1.65 "Charter", "Iowan Old Style", Georgia, serif; }
   a { color: var(--navy); text-decoration-color: var(--gold); text-underline-offset: 3px; }
   a:hover { color: var(--gold); }
-  header, main, footer { width: min(46rem, calc(100% - 32px)); margin: 0 auto; }
-  header { padding: 1.5rem 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font: 700 12px/1.4 ui-sans-serif, system-ui, sans-serif; letter-spacing: .06em; text-transform: uppercase; }
-  header a { text-decoration: none; }
+  main { width: min(46rem, calc(100% - 32px)); margin: 0 auto; }
   main { padding: 3rem 0 2rem; }
   .kicker { font: 800 11px/1 ui-sans-serif, system-ui, sans-serif; letter-spacing: .17em; text-transform: uppercase; color: #8a671f; }
   h1 { font: 500 clamp(2rem, 6vw, 3rem)/1.1 "Didot", "Bodoni MT", Georgia, serif; color: var(--navy); margin: .6rem 0 1rem; }
@@ -446,18 +430,16 @@ const legalPage = ({ title, description, path, body, updated, meta }) => `<!doct
   .tags { display: flex; flex-wrap: wrap; gap: .4rem; padding: 0; list-style: none; }
   .tags a { font: 11px/1 ui-monospace, "SF Mono", Menlo, monospace; padding: .35rem .6rem; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; }
   .attributed { font-size: .9rem; color: var(--muted); }
-  .contact { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); }
-  footer { padding: 2rem 0 3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
 </style>
+<link rel="stylesheet" href="/site-shell.css">
 </head>
 <body>
-<header><a href="/">Independent Tribunal</a><nav><a href="/research/">Research</a> · <a href="/nuances/">Nuances</a> · <a href="/independent-tribunals/">Tribunals</a> · <a href="/uk-timeline/">UK timeline</a> · <a href="/legal/">Legal</a> · <a href="/data/index.json">Data</a></nav></header>
-<main>
+${renderSiteHeader({ navigation, path })}
+<main id="main-content">
 ${body}
 ${meta ?? (updated ? `<p class="meta">Last updated ${escapeHtml(updated)} · <a href="/legal/${path.split("/")[2]}.md">Markdown source</a> · <a href="${site.source_repo}/commits/main/data/policies">change history</a></p>` : "")}
-${contactHtml()}
 </main>
-<footer><p>Independent Tribunal analyses evidence, law and public records from first principles. Follow the references, question the reasoning, and check the evidence.</p><p>We encourage you to fact-check with multiple frontier AI models, then verify their answers against the original sources. Agreement between models is not proof.</p><a href="/legal/editorial-standards/">Editorial standards and legal framework</a>.</footer>
+${renderSiteFooter({ navigation, site })}
 </body>
 </html>
 `;

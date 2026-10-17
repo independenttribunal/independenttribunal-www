@@ -28,6 +28,10 @@ All six research dossiers, source annotations, Hansard material and the historic
 
 ## Local development
 
+### Shared page layout
+
+All HTML pages use the same header and footer from `shared/site-shell.mjs`, styled by `public/site-shell.css`. React pages wrap their content in `app/site-frame.tsx`; generated pages call the same renderer. Menu links live in `data/navigation.json`, and community/contact links come from `data/site.json`. Keep page-specific navigation and provenance inside the content, not in separate site headers or footers. Tests compare every generated page and both React pages against the shared renderer.
+
 Requires Node.js `>=22.13.0`.
 
 ```bash
