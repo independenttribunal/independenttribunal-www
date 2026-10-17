@@ -1,0 +1,11 @@
+{
+  "links": [
+    { "label": "Research", "href": "/research/" },
+    { "label": "Nuances", "href": "/nuances/" },
+    { "label": "Tribunals", "href": "/independent-tribunals/" },
+    { "label": "UK timeline", "href": "/uk-timeline/" },
+    { "label": "Legal", "href": "/legal/" },
+    { "label": "About", "href": "/about" }
+  ],
+  "app": { "label": "The app", "href": "https://app.independenttribunal.org/" }
+}

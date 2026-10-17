@@ -30,6 +30,27 @@ test("timeline page keeps its anchors and shows sources", async () => {
   assert.doesNotMatch(html, /\{\{[A-Z]+\}\}/);
 });
 
+test("timeline uses the homepage primary navigation without replacing its filters", async () => {
+  const navigation = JSON.parse(await readFile(new URL("../data/navigation.json", import.meta.url), "utf8"));
+  const html = await read("uk-timeline/index.html");
+  const header = html.match(/<header class="global-header">([\s\S]*?)<\/header>/)?.[1];
+  assert.ok(header, "site header exists before the timeline hero");
+  assert.match(header, /aria-label="Primary"/);
+  let previous = -1;
+  for (const link of navigation.links) {
+    const offset = header.indexOf(`href="${link.href}"`);
+    assert.ok(offset > previous, `${link.label} is in homepage menu order`);
+    assert.ok(header.includes(`>${link.label}</a>`));
+    previous = offset;
+  }
+  assert.ok(header.includes(`href="${navigation.app.href}"`));
+  assert.match(header, /href="\/" aria-label="Independent Tribunal home"/);
+  assert.match(header, /href="\/uk-timeline\/" aria-current="page"/);
+  assert.ok(html.indexOf('class="global-header"') < html.indexOf('<header class="hero">'));
+  assert.match(html, /aria-label="Filter timeline entries"/);
+  assert.match(html, /data-filter="all"/);
+});
+
 test("editorial titles use consistent sentence case across tiles, pages and exports", async () => {
   const { tiles } = await json("data/tiles.json");
   const llms = await read("llms.txt");

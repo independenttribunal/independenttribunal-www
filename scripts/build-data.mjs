@@ -301,7 +301,13 @@ await put("data/index.json", {
 
 // Timeline page.
 const template = await readFile(join(root, "templates", "uk-timeline.html"), "utf8");
+const navigation = JSON.parse(await readFile(join(dataDir, "navigation.json"), "utf8"));
 for (const t of timelines) {
+  const siteHeader = `<div class="global-header-surface"><header class="global-header">
+    <a class="global-brand" href="/" aria-label="Independent Tribunal home"><span class="global-seal" aria-hidden="true">IT</span><span>Independent Tribunal<small>The law, shown openly</small></span></a>
+    <nav aria-label="Primary">${navigation.links.map((link) => `<a href="${escapeHtml(link.href)}"${link.href === t.path ? ' aria-current="page"' : ""}>${escapeHtml(link.label)}</a>`).join("")}</nav>
+    <a class="global-app" href="${escapeHtml(navigation.app.href)}">${escapeHtml(navigation.app.label)} <span aria-hidden="true">↗</span></a>
+  </header></div>`;
   const sourcesHtml = (ids) => ids.length
     ? `<ul class="sources"><li class="src-label">Sources</li>${ids.map((id) => {
         const r = refById.get(id);
@@ -379,7 +385,7 @@ ${s.entries.map((e) => `
 </section>`;
   }).join("\n\n");
   await put(`${t.path.replace(/^\/|\/$/g, "")}/index.html`, template
-    .replace("{{HEAD}}", head).replace("{{HERO}}", hero).replace("{{FILTERS}}", filters)
+    .replace("{{HEAD}}", head).replace("{{SITE_HEADER}}", siteHeader).replace("{{HERO}}", hero).replace("{{FILTERS}}", filters)
     .replace("{{SECTIONS}}", sections).replace("{{BUILT}}", builtDay));
 }
 

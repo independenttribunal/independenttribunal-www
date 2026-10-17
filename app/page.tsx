@@ -1,10 +1,11 @@
 import tileData from "../public/data/tiles.json";
 import { TileGrid } from "./tile-grid";
+import navigation from "../data/navigation.json";
 
 // Tiles are generated from /data (nuances, tribunals, timelines) by scripts/build-data.mjs,
 // which runs before dev and build. Edit the JSON in /data, not this file.
 
-const APP_URL = "https://app.independenttribunal.org/";
+const APP_URL = navigation.app.href;
 
 const principles = [
   ["Primary sources first", "Follow the statute, judgment or official record. Historical research imports are clearly dated and marked for review."],
@@ -21,14 +22,9 @@ export default function Home() {
           <span>Independent Tribunal<small>The law, shown openly</small></span>
         </a>
         <nav aria-label="Primary">
-          <a href="/research/">Research</a>
-          <a href="/nuances/">Nuances</a>
-          <a href="/independent-tribunals/">Tribunals</a>
-          <a href="/uk-timeline/">UK timeline</a>
-          <a href="/legal/">Legal</a>
-          <a href="/about">About</a>
+          {navigation.links.map((link) => <a key={link.href} href={link.href}>{link.label}</a>)}
         </nav>
-        <a className="header-action" href={APP_URL}>The app <span>↗</span></a>
+        <a className="header-action" href={APP_URL}>{navigation.app.label} <span>↗</span></a>
       </header>
 
       <section className="hub-hero">
