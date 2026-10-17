@@ -51,6 +51,8 @@ The supplied artwork in `public/images/mental-health-uk/` is reproduced unchange
 
 ### Public-record profiles
 
+The same sourced-page format supports `category: "legal-study"` for super-injunctions, anonymity orders (PPT) and jigsaw identification (Craig Murray). These have distinct legal-study tiles and a research-library section, but remain in the profiles JSON dataset. `related` connects maintained pages; `featured_source` highlights the Guardian report. Citations are numbered by first use and external source links open in new tabs. Keep PPT anonymous; do not reproduce identifying clues from the Murray publications. The 2022 appeal expressly rejects a strict-liability description. Analysis is labelled separately from court findings; the PPT merits are not decided in the cited October anonymity judgment.
+
 Profiles are separate from the six historical imports and from any judges database. `scripts/profiles.mjs` validates their source ids, dates and anchors, then renders escaped plain text with citations. Only research-method and coverage-limit paragraphs may omit sources. Each factual paragraph references the source register, optionally with a paragraph/page locator. Public JSON resolves sources inline and the full-text export preserves attribution and limitations. Do not describe a profile as a full criminal record, conflate a party with a contextual mention, or infer present custody from sentence length. Distinguish judgments, sentencing remarks, reporting, campaign accounts and self-description. The Roger Hallam profile also records corrections to the supplied notes rather than copying co-defendants’ records onto his.
 
 ### Barclays5 research migration

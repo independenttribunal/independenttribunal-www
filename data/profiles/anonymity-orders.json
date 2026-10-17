@@ -1,0 +1,218 @@
+{
+  "category": "legal-study",
+  "checked": "2026-10-17",
+  "tags": [
+    "uk",
+    "open-justice",
+    "anonymity",
+    "press-freedom"
+  ],
+  "id": "anonymity-orders",
+  "title": "Anonymity orders",
+  "subtitle": "PPT, the Guardian and the publicity paradox",
+  "summary": "An order can protect a person’s identity while its own existence becomes news. PPT illustrates the distinction between anonymity, reporting restrictions and secrecy about proceedings.",
+  "jurisdiction": "England and Wales · High Court, King’s Bench Division",
+  "scope": "PPT remains anonymised here. No names, speculative identities or identifying clues are included. Allegations are not findings of fact.",
+  "status_note": "Status at source review, 17 October 2026: the public judgment addresses anonymity, not the merits of the permanent-injunction claim. It lists trial for 27–28 October 2026; this page records no trial outcome.",
+  "featured_source": "guardian",
+  "highlights": [
+    {
+      "label": "5 October 2026",
+      "value": "Anonymity ordered",
+      "detail": "Claim KB-2026-003646 · Nicklin J",
+      "target": "order-details"
+    },
+    {
+      "label": "9 October 2026",
+      "value": "Public reasons",
+      "detail": "[2026] EWHC 2560 (KB)",
+      "target": "public-judgment"
+    },
+    {
+      "label": "The distinction",
+      "value": "Not a super-injunction",
+      "detail": "Reporting the order is expressly permitted",
+      "target": "publicity"
+    }
+  ],
+  "sections": [
+    {
+      "id": "order-details",
+      "title": "What the order protects",
+      "intro": "Read the prohibition together with its express exceptions.",
+      "entries": [
+        {
+          "id": "identity",
+          "title": "Identity protected; media defendants named",
+          "kind": "Court order",
+          "paragraphs": [
+            {
+              "text": "On 5 October 2026, Nicklin J ordered that the claimant be known as PPT and refused anonymity for ITN and Guardian News and Media. Paragraph 6 prohibits publication of the claimant’s identity or material likely to identify him directly or indirectly in connection with the proceedings. It also permits information contained in the order to be communicated.",
+              "sources": [
+                {
+                  "id": "ppt-order",
+                  "locator": "Order §§1, 5–6"
+                }
+              ]
+            },
+            {
+              "text": "Paragraph 8 permits information in public judgments and qualifying public court documents. Paragraph 11 directs publication of the order. This is not a blanket permission to publish other material about the claimant.",
+              "sources": [
+                {
+                  "id": "ppt-order",
+                  "locator": "Order §§8 and 11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public-judgment",
+      "title": "What the judgment does—and does not—decide",
+      "intro": "A procedural protection is not a finding on the allegations.",
+      "entries": [
+        {
+          "id": "claim",
+          "title": "The contested injunction claim",
+          "kind": "Judgment",
+          "paragraphs": [
+            {
+              "text": "PPT seeks to restrain proposed media publications and broadly denies the allegations. His claim relies on medical evidence and asserted risks under Articles 2, 3 and, if necessary, 8 ECHR. The defendants resist the claim, relying on Article 10 and public interest. Nicklin J’s public judgment expressly leaves the substantive issues for trial.",
+              "sources": [
+                {
+                  "id": "ppt-judgment",
+                  "locator": "§§1, 8–16"
+                }
+              ]
+            },
+            {
+              "text": "The court maintained PPT’s anonymity but refused to hide the media defendants’ identities. It reasoned that some risk of speculation does not make anonymity worthless; each additional restriction needs its own justification. The judgment lists an expedited trial for 27–28 October 2026, not a concluded result.",
+              "sources": [
+                {
+                  "id": "ppt-judgment",
+                  "locator": "§§27–34, 35–49"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "publicity",
+      "title": "How anonymity becomes a news story",
+      "intro": "Independent Tribunal analysis, grounded in the published order.",
+      "entries": [
+        {
+          "id": "guardian-report",
+          "title": "The Guardian’s report",
+          "kind": "Media reporting",
+          "paragraphs": [
+            {
+              "text": "The Guardian reported the injunction application on 16 October 2026.",
+              "sources": [
+                {
+                  "id": "guardian"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paradox",
+          "title": "Publicity is not the same thing as identification",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The paradox is real as a question: can publicising a request for anonymity increase curiosity about the protected person? It may. But this page does not measure that effect or establish that protection failed. Nor does attention alone demonstrate a breach. The order’s permission to report its contents and its prohibition on identifying PPT serve different purposes.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "open-justice",
+          "title": "Why publish the order at all?",
+          "kind": "Legal framework",
+          "paragraphs": [
+            {
+              "text": "Rule 39.2(5) provides for publication of anonymity or private-hearing orders unless the court directs otherwise. It also gives non-parties a route to challenge them. Public availability lets people scrutinise restrictions without being entitled to discover the protected identity.",
+              "sources": [
+                {
+                  "id": "cpr",
+                  "locator": "Rule 39.2(5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "editorial-method",
+      "title": "Our reporting boundary",
+      "intro": "Scrutinise the decision, not the protected person.",
+      "entries": [
+        {
+          "id": "no-speculation",
+          "title": "No identity puzzle",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "We link the public order, public judgment and Guardian report. We do not repeat rumours, invite guesses, combine clues or make claims about undisclosed allegations. Whether greater secrecy would better balance protection and scrutiny is considered on the super-injunctions page; jigsaw identification is examined through the separate Scottish Murray case.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ppt-order",
+      "title": "PPT v ITN and Guardian: anonymity and reporting restrictions order",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Court order",
+      "url": "https://www.judiciary.uk/judgments/ppt-v-independent-television-news-limited-and-guardian-news-and-media-limited-anonymity-and-reporting-restrictions-order/",
+      "checked": "2026-10-17",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "ppt-judgment",
+      "title": "PPT v Independent Television News Limited & Anor [2026] EWHC 2560 (KB)",
+      "publisher": "The National Archives",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/2560",
+      "checked": "2026-10-17",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "guardian",
+      "title": "Reporting on PPT’s injunction application",
+      "publisher": "The Guardian",
+      "type": "Reporting by a party to the proceedings",
+      "url": "https://www.theguardian.com/media/2026/oct/16/well-known-individual-tries-to-secure-permanent-injunction-against-guardian-and-itn",
+      "checked": "2026-10-17",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "cpr",
+      "title": "Civil Procedure Rules, rule 39.2",
+      "publisher": "Ministry of Justice",
+      "type": "Procedure rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part39",
+      "checked": "2026-10-17"
+    }
+  ],
+  "related": [
+    {
+      "id": "super-injunctions",
+      "title": "Super-injunctions"
+    },
+    {
+      "id": "jigsaw-identification",
+      "title": "Jigsaw identification · Craig Murray"
+    }
+  ]
+}

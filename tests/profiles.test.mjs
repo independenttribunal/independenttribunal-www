@@ -44,7 +44,8 @@ test("Hallam page has source links, working anchors and metadata", async () => {
 test("profiles are discoverable and preserve paragraph-level attribution in exports", async () => {
   const p = await json("public/data/profiles/roger-hallam.json");
   const collection = await json("public/data/profiles.json");
-  assert.deepEqual(collection.profiles, [p]);
+  assert.deepEqual(collection.profiles.find((profile) => profile.id === p.id), p);
+  assert.equal(collection.profiles.length, 4);
   assert.equal(p.url, "https://independenttribunal.org/research/roger-hallam/");
   for (const s of p.sections) for (const entry of s.entries) for (const para of entry.paragraphs) for (const ref of para.sources) {
     assert.ok(ref.title && ref.type && ref.publisher && ref.checked);
@@ -61,7 +62,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const { tiles } = await json("public/data/tiles.json");
   assert.equal(tiles.find((t) => t.id === p.id).kind, "profile");
   const index = await json("public/data/index.json");
-  assert.equal(index.datasets.find((d) => d.id === "profiles").count, 1);
+  assert.equal(index.datasets.find((d) => d.id === "profiles").count, 4);
   assert.equal(index.datasets.find((d) => d.id === "research").count, 6, "historical imports remain a distinct dataset");
 });
 
@@ -80,5 +81,52 @@ test("profile validation rejects broken citations and unsafe or duplicate anchor
     const errors = [];
     validateProfile(p, (error) => errors.push(error));
     assert.match(errors.join("\n"), pattern);
+  }
+});
+
+test("open-justice studies distinguish the orders, findings and analysis", async () => {
+  const studies = await Promise.all(["super-injunctions", "anonymity-orders", "jigsaw-identification"].map((id) => json(`data/profiles/${id}.json`)));
+  for (const p of studies) {
+    const errors = [];
+    validateProfile(p, (error) => errors.push(error));
+    assert.deepEqual(errors, []);
+    assert.equal(p.category, "legal-study");
+    assert.equal(p.related.length, 2);
+    assert.ok(p.sections.some((s) => s.intro.includes("Independent Tribunal analysis")));
+  }
+  const [superInjunctions, anonymity, jigsaw] = studies.map((p) => JSON.stringify(p));
+  assert.match(superInjunctions, /Anonymity alone does not make an injunction super/);
+  assert.match(anonymity, /not the merits/);
+  assert.match(anonymity, /No names, speculative identities or identifying clues/);
+  assert.match(anonymity, /2026\/oct\/16\/well-known-individual/);
+  assert.match(jigsaw, /expressly rejected describing this as strict liability/);
+  assert.match(jigsaw, /real or substantial risk/);
+  assert.doesNotMatch(jigsaw, /no statutory lifelong anonymity|automatic early release|first person.*jailed/i);
+});
+
+test("legal-study pages have sequential first citations, safe links and related pages", async () => {
+  for (const id of ["super-injunctions", "anonymity-orders", "jigsaw-identification"]) {
+    const p = await json(`data/profiles/${id}.json`);
+    const html = await read(`public/research/${id}/index.html`);
+    assert.ok(html.includes(`<h1>${p.title}</h1>`));
+    assert.ok(html.includes(`rel="canonical" href="https://independenttribunal.org/research/${id}/"`));
+    const firstCitations = [...new Set([...html.matchAll(/aria-label="Source (\d+):/g)].map((m) => Number(m[1])))];
+    assert.deepEqual(firstCitations, p.sources.map((_, i) => i + 1));
+    for (const s of p.sources) {
+      assert.ok(html.includes(`href="${s.url.replaceAll("&", "&amp;")}" target="_blank" rel="noopener noreferrer"`), s.id);
+    }
+    const anchors = [...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]);
+    assert.equal(new Set(anchors).size, anchors.length);
+    for (const m of html.matchAll(/href="#([^"]+)"/g)) assert.ok(anchors.includes(m[1]));
+    for (const r of p.related) assert.ok(html.includes(`href="/research/${r.id}/"`));
+    for (const file of ["public/research/index.html", "public/sitemap.xml", "public/llms.txt", "public/llms-full.txt"]) {
+      assert.ok((await read(file)).includes(`/research/${id}/`), file);
+    }
+    const exported = await json(`public/data/profiles/${id}.json`);
+    for (const s of exported.sections) for (const e of s.entries) for (const para of e.paragraphs) for (const ref of para.sources) {
+      assert.ok(ref.url && ref.publisher && ref.checked && ref.type);
+    }
+    const { tiles } = await json("public/data/tiles.json");
+    assert.equal(tiles.find((t) => t.id === id).kind, "study");
   }
 });

@@ -1,0 +1,192 @@
+{
+  "category": "legal-study",
+  "checked": "2026-10-17",
+  "tags": [
+    "uk",
+    "open-justice",
+    "anonymity",
+    "press-freedom"
+  ],
+  "id": "super-injunctions",
+  "title": "Super-injunctions",
+  "subtitle": "When the existence of proceedings is itself restricted",
+  "summary": "Anonymity protects an identity. A super-injunction adds a restriction on revealing the existence of the order and proceedings. The difference matters for public scrutiny.",
+  "jurisdiction": "England and Wales · civil non-disclosure orders",
+  "scope": "A legal explainer, not a catalogue of secret cases. This page does not identify protected parties or reproduce restricted material.",
+  "status_note": "Read the actual order, not just a headline. An anonymous claimant, a private hearing and a super-injunction are not interchangeable descriptions.",
+  "highlights": [
+    {
+      "label": "The distinction",
+      "value": "Identity ≠ existence",
+      "detail": "Different restrictions protect different information",
+      "target": "definitions"
+    },
+    {
+      "label": "The starting point",
+      "value": "Open justice",
+      "detail": "Restrictions need justification",
+      "target": "safeguards"
+    },
+    {
+      "label": "The policy question",
+      "value": "Protection and scrutiny",
+      "detail": "A separate argument from what the law permits",
+      "target": "analysis"
+    }
+  ],
+  "sections": [
+    {
+      "id": "definitions",
+      "title": "What makes an injunction “super”?",
+      "intro": "Three concepts that are often conflated.",
+      "entries": [
+        {
+          "id": "two-layers",
+          "title": "Two layers of restraint",
+          "kind": "Legal framework",
+          "paragraphs": [
+            {
+              "text": "The Neuberger Committee’s 2011 report distinguishes an interim ban on publishing private or confidential information from the additional ban on disclosing that the order and proceedings exist. That second layer is the “super” element. An anonymised injunction may protect the same underlying information without concealing the existence of the case. Anonymity alone does not make an injunction super.",
+              "sources": [
+                {
+                  "id": "neuberger",
+                  "locator": "§§2.13–2.18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "private-hearings",
+          "title": "A private hearing is a separate decision",
+          "kind": "Legal framework",
+          "paragraphs": [
+            {
+              "text": "CPR 39.2 starts with public hearings. A court must justify hearing a matter privately; protecting an identity is a separate necessity question. Unless the court directs otherwise, orders made under rule 39.2(3) or (4) are published on the Judiciary website, and non-parties can seek variation or discharge.",
+              "sources": [
+                {
+                  "id": "cpr",
+                  "locator": "Rule 39.2(1)–(5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "title": "Why secrecy needs safeguards",
+      "intro": "Protection must be justified, not simply requested.",
+      "entries": [
+        {
+          "id": "necessity",
+          "title": "Strict necessity and limited duration",
+          "kind": "Legal framework",
+          "paragraphs": [
+            {
+              "text": "The interim non-disclosure guidance requires evidence for departures from open justice and consideration of less restrictive measures. Paragraph 15 treats secrecy about the proceedings as exceptional, for example where short-term secrecy prevents an order being defeated before notification. Longer restrictions require truly exceptional circumstances. Agreement between litigants cannot waive the public’s interest in open justice.",
+              "sources": [
+                {
+                  "id": "guidance",
+                  "locator": "§§9–16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ppt-comparison",
+          "title": "PPT is a contrasting example",
+          "kind": "Court order",
+          "paragraphs": [
+            {
+              "text": "The published PPT order of 5 October 2026 conceals the claimant’s identity but expressly permits information contained in the order and public judgments to be reported. It also directs publication of the order itself. Those provisions are why the separate PPT page describes an anonymity and reporting-restrictions order, not a super-injunction.",
+              "sources": [
+                {
+                  "id": "ppt-order",
+                  "locator": "Order §§6, 8 and 11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "title": "Should the existence of anonymity also be hidden?",
+      "intro": "Independent Tribunal analysis · a policy question, not a statement of current law.",
+      "entries": [
+        {
+          "id": "trade-off",
+          "title": "The publicity paradox",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Reporting an attempt to remain anonymous may attract attention to the very subject being protected. That is a plausible risk, not proof that every report defeats anonymity. A default ban on reporting orders could reduce attention, but would also hide judicial decisions from scrutiny and make unnecessary restrictions harder to challenge.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "questions",
+          "title": "What would justify the extra restriction?",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Our starting questions are: what concrete harm is anticipated, what evidence supports it, would a narrower restriction work, and when will the decision be reviewed? The objective is meaningful protection with accountable decision-making—not an invitation to solve a protected identity. The linked case studies examine permission to report an order and the consequences of publishing identifying material.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "neuberger",
+      "title": "Super-injunctions, anonymised injunctions and open justice",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Committee report",
+      "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Reports/super-injunction-report-20052011.pdf",
+      "checked": "2026-10-17",
+      "date": "2011-05-20"
+    },
+    {
+      "id": "cpr",
+      "title": "Civil Procedure Rules, rule 39.2",
+      "publisher": "Ministry of Justice",
+      "type": "Procedure rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part39",
+      "checked": "2026-10-17"
+    },
+    {
+      "id": "guidance",
+      "title": "Practice guidance: interim non-disclosure orders",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Practice guidance",
+      "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Guidance/practice-guidance-civil-non-disclosure-orders-july2011.pdf",
+      "checked": "2026-10-17"
+    },
+    {
+      "id": "ppt-order",
+      "title": "PPT v ITN and Guardian: anonymity and reporting restrictions order",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Court order",
+      "url": "https://www.judiciary.uk/judgments/ppt-v-independent-television-news-limited-and-guardian-news-and-media-limited-anonymity-and-reporting-restrictions-order/",
+      "checked": "2026-10-17",
+      "date": "2026-10-05"
+    }
+  ],
+  "related": [
+    {
+      "id": "anonymity-orders",
+      "title": "Anonymity orders · PPT and the publicity paradox"
+    },
+    {
+      "id": "jigsaw-identification",
+      "title": "Jigsaw identification · Craig Murray"
+    }
+  ]
+}

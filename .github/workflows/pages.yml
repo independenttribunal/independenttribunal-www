@@ -40,6 +40,10 @@ jobs:
           test -s dist/client/data/research.json
           test -s dist/client/research/roger-hallam/index.html
           test -s dist/client/data/profiles/roger-hallam.json
+          for study in super-injunctions anonymity-orders jigsaw-identification; do
+            test -s "dist/client/research/$study/index.html"
+            test -s "dist/client/data/profiles/$study.json"
+          done
           test -s dist/client/research/mental-health-uk/index.html
           test -s dist/client/data/commentary/mental-health-uk.json
           test -s dist/client/images/mental-health-uk/inverse-catch-22.png

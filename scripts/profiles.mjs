@@ -9,6 +9,10 @@ export function validateProfile(p, fail) {
     if (typeof p[key] !== "string" || !p[key].trim()) fail(`missing ${key}`);
   }
   if (!safeId.test(p.id) || !date.test(p.checked)) fail("safe id and checked date required");
+  if (p.category && p.category !== "legal-study") fail("unknown profile category");
+  for (const related of p.related ?? []) {
+    if (!safeId.test(related.id) || !related.title) fail("related pages require a safe id and title");
+  }
   for (const key of ["tags", "highlights", "sections", "sources"]) if (!Array.isArray(p[key]) || !p[key].length) fail(`${key} must be a nonempty array`);
   const sourceIds = new Set();
   for (const s of p.sources ?? []) {
@@ -40,6 +44,7 @@ export function validateProfile(p, fail) {
   for (const h of p.highlights ?? []) {
     if (!h.label || !h.value || !h.detail || !anchorIds.has(h.target)) fail("highlight requires text and an existing target");
   }
+  if (p.featured_source && !sourceIds.has(p.featured_source)) fail("unknown featured source");
 }
 
 export async function loadProfiles(dataDir, fail) {
@@ -49,6 +54,9 @@ export async function loadProfiles(dataDir, fail) {
     validateProfile(p, (message) => fail(`profiles/${file}`, message));
     if (file !== `${p.id}.json`) fail(`profiles/${file}`, "file name must match id");
     profiles.push(p);
+  }
+  for (const p of profiles) for (const related of p.related ?? []) {
+    if (!profiles.some((other) => other.id === related.id && other.id !== p.id)) fail(`profiles/${p.id}`, "related page must exist and not link to itself");
   }
   return profiles;
 }
@@ -69,10 +77,13 @@ export function profileText(p) {
 
 export async function publishProfiles({ profiles, put, page, escapeHtml: e, site }) {
   for (const p of profiles) {
-    const sources = new Map(p.sources.map((s, i) => [s.id, { ...s, number: i + 1 }]));
+    const order = [...new Set(p.sections.flatMap((section) => section.entries.flatMap((entry) => entry.paragraphs.flatMap((para) => para.sources.map((ref) => ref.id)))))];
+    const orderedSources = [...order.map((id) => p.sources.find((s) => s.id === id)), ...p.sources.filter((s) => !order.includes(s.id))];
+    const sources = new Map(orderedSources.map((s, i) => [s.id, { ...s, number: i + 1 }]));
+    const featured = sources.get(p.featured_source);
     const citations = (refs) => refs.length ? `<span class="profile-citations">${refs.map((ref) => {
       const s = sources.get(ref.id);
-      return `<a href="${e(s.url)}" aria-label="Source ${s.number}: ${e(s.title)}">[${s.number}] ${e(ref.locator ?? s.type)}</a>`;
+      return `<a href="${e(s.url)}" target="_blank" rel="noopener noreferrer" aria-label="Source ${s.number}: ${e(s.title)} (opens in a new tab)">[${s.number}] ${e(ref.locator ?? s.type)}</a>`;
     }).join(" · ")}</span>` : "";
     await put(`research/${p.id}/index.html`, page({
       title: p.title, description: p.summary, path: `/research/${p.id}/`,
@@ -101,10 +112,11 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       <aside class="profile-scope">${e(p.scope)}</aside>
       <div class="profile-status">${p.highlights.map((h) => `<a href="#${h.target}"><small>${e(h.label)}</small><strong>${e(h.value)}</strong><small>${e(h.detail)}</small></a>`).join("")}</div>
       <p class="attributed">${e(p.status_note)}</p>
+      ${featured ? `<p><a href="${e(featured.url)}" target="_blank" rel="noopener noreferrer">Read the report from ${e(featured.publisher)} ↗</a> <span class="meta">(opens in a new tab)</span></p>` : ""}
       <nav class="profile-nav" aria-label="On this page">${p.sections.map((s) => `<a href="#${s.id}">${e(s.title)}</a>`).join("")}<a href="#sources">Source register</a></nav>
       ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.paragraphs.map((para) => `<p>${e(para.text)}</p>${citations(para.sources)}`).join("")}</article>`).join("")}</section>`).join("")}
-      <section class="profile-section" id="sources"><h2>Source register</h2><p>Links go to the publisher, court or archive. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${p.sources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
-      <h2>Related research</h2><ul><li><a href="/uk-timeline/">UK timeline</a></li><li><a href="/nuances/jury-conscience/">Jury conscience</a></li><li><a href="/nuances/lawful-excuse/">Lawful excuse</a></li></ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
+      <section class="profile-section" id="sources"><h2>Source register</h2><p>Sources are numbered in order of first citation; repeated citations keep their number. Source links open in a new tab. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${orderedSources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
+      <h2>Related research</h2><ul>${p.related ? p.related.map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/uk-timeline/">UK timeline</a></li><li><a href="/nuances/jury-conscience/">Jury conscience</a></li><li><a href="/nuances/lawful-excuse/">Lawful excuse</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
     }));
   }
 }

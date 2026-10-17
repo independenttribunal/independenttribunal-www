@@ -254,7 +254,7 @@ const profilesOut = profiles.map((p) => ({
     ...para, sources: para.sources.map((ref) => ({ ...p.sources.find((source) => source.id === ref.id), ...(ref.locator ? { locator: ref.locator } : {}) })),
   })) })) })),
 }));
-await put("data/profiles.json", { generated: built, about: "Selected public-record research profiles, not a judges database or complete criminal records. Preserve source types, attributed accounts, review dates and coverage limits.", profiles: profilesOut });
+await put("data/profiles.json", { generated: built, about: "Selected public-record profiles and legal studies (category: legal-study), not a judges database or complete criminal records. Preserve source types, attributed accounts, review dates and coverage limits. Analysis is distinguished from court findings.", profiles: profilesOut });
 for (const p of profilesOut) await put(`data/profiles/${p.id}.json`, p);
 const commentaryOut = commentary.map((p) => ({ ...p, url: abs(`/research/${p.id}/`) }));
 await put("data/commentary.json", { generated: built, about: "Labelled commentary and research questions. Preserve satire labels, anecdote provenance, source scopes and unknown values. Not findings of misconduct or clinical assessments.", commentary: commentaryOut });
@@ -262,7 +262,7 @@ for (const p of commentaryOut) await put(`data/commentary/${p.id}.json`, p);
 
 const tiles = [
   ...commentary.map((p) => ({ kind: "commentary", id: p.id, title: p.title, label: p.genre, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
-  ...profiles.map((p) => ({ kind: "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
+  ...profiles.map((p) => ({ kind: p.category === "legal-study" ? "study" : "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
   ...research.map((r) => ({ kind: "research", id: r.id, title: r.title, label: `${r.jurisdiction} · ${r.updates?.length ? "case update available" : "historical dossier"}`, summary: r.summary, tags: [...r.tags, "research"], href: `/research/${r.id}/`, uk: r.tags.includes("uk") })),
   ...nuancesOut.map((n) => ({ kind: "nuance", id: n.id, title: n.title, label: n.label, summary: plain(n.summary), tags: n.tags ?? [], href: `/nuances/${n.id}/`, uk: true })),
   ...timelinesOut.map((t) => ({ kind: "timeline", id: t.id, title: t.title, label: t.kicker, summary: plain(t.description), tags: ["protest", "timeline"], href: t.path, uk: true })),
@@ -288,7 +288,7 @@ await put("data/index.json", {
   how_to_cite: "Cite the primary source each entry links to (sources[].url), and this site as the compiler.",
   datasets: [
     { id: "commentary", url: abs("/data/commentary.json"), page: abs("/research/"), count: commentary.length, description: "Labelled commentary, with anecdote provenance, dated figures, primary sources and explicit unknowns." },
-    { id: "profiles", url: abs("/data/profiles.json"), page: abs("/research/"), count: profiles.length, description: "Selected public-record research profiles, with paragraph-level sources and explicit coverage limits; not a judges database." },
+    { id: "profiles", url: abs("/data/profiles.json"), page: abs("/research/"), count: profiles.length, description: "Selected public-record profiles and legal studies, with paragraph-level sources and explicit coverage limits; not a judges database." },
     { id: "research", url: abs("/data/research.json"), page: abs("/research/"), count: research.length, description: "Six historical research dossiers, with original annotations, provenance and explicit pending-verification status." },
     { id: "references", url: abs("/data/references.json"), count: references.length, description: "Primary and official sources cited across the site." },
     ...timelinesOut.map((t) => ({ id: t.id, url: abs(`/data/timelines/${t.id}.json`), page: t.url, count: t.sections.flatMap((s) => s.entries ?? []).length, description: t.description, genre: t.genre })),

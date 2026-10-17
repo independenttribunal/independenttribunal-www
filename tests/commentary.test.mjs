@@ -66,7 +66,9 @@ test("commentary is discoverable without becoming a profile or historical dossie
   assert.equal((await json("public/data/tiles.json")).tiles.find((t) => t.id === p.id).kind, "commentary");
   assert.equal((await json("public/data/index.json")).datasets.find((d) => d.id === "commentary").count, 1);
   assert.equal((await json("public/data/research.json")).research.length, 6);
-  assert.equal((await json("public/data/profiles.json")).profiles.length, 1);
+  const profiles = (await json("public/data/profiles.json")).profiles;
+  assert.equal(profiles.length, 4);
+  assert.ok(!profiles.some((profile) => profile.id === p.id));
 });
 
 test("commentary validation rejects unsafe sources, absent context and invented unknown values", async () => {

@@ -1,0 +1,222 @@
+{
+  "category": "legal-study",
+  "checked": "2026-10-17",
+  "tags": [
+    "uk",
+    "open-justice",
+    "anonymity",
+    "press-freedom"
+  ],
+  "id": "jigsaw-identification",
+  "title": "Jigsaw identification",
+  "subtitle": "Craig Murray and the limits of anonymous reporting",
+  "summary": "Not naming someone is not always enough. The Murray judgments examine identifying information in context—and distinguish deliberate publication from an intention to break the law.",
+  "jurisdiction": "Scotland · High Court of Justiciary and Appeal Court",
+  "scope": "A selected case study of contempt and reporting restrictions, not a complete biography or criminal record. No protected complainer is named and no identifying puzzle is reproduced.",
+  "status_note": "Important correction to the supplied research notes: the 2022 appeal judgment explicitly rejects a strict-liability description. The legal explanation below distinguishes the mental element from the objective identification-risk assessment.",
+  "highlights": [
+    {
+      "label": "25 March 2021",
+      "value": "Contempt finding",
+      "detail": "[2021] HCJ 2",
+      "target": "case-record"
+    },
+    {
+      "label": "11 May 2021",
+      "value": "Eight months",
+      "detail": "Custodial sentence imposed",
+      "target": "sentence"
+    },
+    {
+      "label": "25 March 2022",
+      "value": "Challenge rejected",
+      "detail": "[2022] HCJAC 14",
+      "target": "appeal"
+    }
+  ],
+  "sections": [
+    {
+      "id": "case-record",
+      "title": "The court record",
+      "intro": "The protected trial participants are referred to as complainers in the Scottish judgments.",
+      "entries": [
+        {
+          "id": "finding",
+          "title": "HM Advocate v Craig Murray",
+          "kind": "Judgment",
+          "paragraphs": [
+            {
+              "text": "The High Court, comprising Lady Dorrian, Lord Menzies and Lord Turnbull, found Murray in contempt on 25 March 2021 over publications connected with Alex Salmond’s trial. The relevant order dated 10 March 2020 prohibited identifying the complainers. Salmond’s acquittal and Murray’s contempt proceedings concern different questions.",
+              "sources": [
+                {
+                  "id": "murray-finding",
+                  "locator": "Introduction; discussion of the 10 March order; conclusion"
+                }
+              ]
+            }
+          ],
+          "date": "2021-03-25",
+          "citation": "HM Advocate v Craig Murray [2021] HCJ 2"
+        },
+        {
+          "id": "context",
+          "title": "Identification can arise from the combination",
+          "kind": "Judgment",
+          "paragraphs": [
+            {
+              "text": "The court considered material in context, not just whether a name appeared. Information that allows a section of the public to identify a protected person can be enough; it need not identify them to everybody. The risk was assessed objectively. This page explains that principle without reproducing the details used to identify individual complainers.",
+              "sources": [
+                {
+                  "id": "murray-finding",
+                  "locator": "§§54–58"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sentence",
+      "title": "Sentence and competing arguments",
+      "intro": "Submissions and findings are attributed separately.",
+      "entries": [
+        {
+          "id": "custody",
+          "title": "Eight months’ imprisonment",
+          "kind": "Sentencing statement",
+          "paragraphs": [
+            {
+              "text": "On 11 May 2021 the court imposed eight months’ imprisonment, initially delaying the warrant for three weeks to allow an appeal. Its statement distinguishes the established breach of the anonymity order from other allegations of contempt it rejected.",
+              "sources": [
+                {
+                  "id": "murray-sentence",
+                  "locator": "Opening statement and summary of findings"
+                }
+              ]
+            },
+            {
+              "text": "Murray’s counsel argued that a fine would be proportionate, invoking freedom of expression and comparisons with other media contempts. The court treated the repeated risk to protected complainers as serious and concluded custody was required. These are competing submissions and the court’s determination—not a finding that all critical reporting is contempt.",
+              "sources": [
+                {
+                  "id": "murray-sentence",
+                  "locator": "Comparative justice; proportionality; determination"
+                }
+              ]
+            }
+          ],
+          "date": "2021-05-11"
+        }
+      ]
+    },
+    {
+      "id": "appeal",
+      "title": "What the appeal clarified",
+      "intro": "The later reasoning matters when summarising the test.",
+      "entries": [
+        {
+          "id": "mental-element",
+          "title": "Not strict liability",
+          "kind": "Appeal judgment",
+          "paragraphs": [
+            {
+              "text": "The Appeal Court explained that the mental element relates to deliberate publication. A publisher need not intend to commit contempt for deliberately published material to breach an order. The separate objective question is whether the publication creates a real or substantial risk of identification. The court expressly rejected describing this as strict liability.",
+              "sources": [
+                {
+                  "id": "murray-appeal",
+                  "locator": "§§60–63"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "outcome",
+          "title": "The challenge and sentence appeal failed",
+          "kind": "Appeal judgment",
+          "paragraphs": [
+            {
+              "text": "On 25 March 2022 the court rejected Murray’s challenge to the finding and sentence. Its opening records that he had served about four months in custody. We do not infer the legal mechanism of release or current status from that sentence alone.",
+              "sources": [
+                {
+                  "id": "murray-appeal",
+                  "locator": "§1; conclusions and §82"
+                }
+              ]
+            }
+          ],
+          "date": "2022-03-25",
+          "citation": "Craig Murray v HM Advocate [2022] HCJAC 14"
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "title": "Anonymity, scrutiny and equal treatment",
+      "intro": "Independent Tribunal analysis · questions for evaluating the system.",
+      "entries": [
+        {
+          "id": "press-freedom",
+          "title": "What should readers scrutinise?",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Protecting people who give evidence and allowing scrutiny of a prosecution are both important. Relevant questions include whether an order is clear, whether enforcement is consistent across publishers, whether risk is demonstrated in context, and whether punishment is proportionate. Raising those questions does not require exposing protected identities.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "different-jurisdictions",
+          "title": "Do not collapse different cases into one rule",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "PPT concerns a civil anonymity order in England and Wales; Murray concerns contempt in Scotland. Permission to report one order is not permission to disclose identities protected by another. This is a historical case study, not a statement that all Scottish anonymity law remains as it stood in 2021. Later changes and other statutory protections require their own review.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "murray-finding",
+      "title": "HM Advocate v Craig Murray [2021] HCJ 2",
+      "publisher": "Scottish Courts and Tribunals Service",
+      "type": "Judgment",
+      "url": "https://www.scotcourts.gov.uk/media/mmyirfpd/high-court-judgment-hma-against-craig-murray-25-march-2021.pdf",
+      "checked": "2026-10-17",
+      "date": "2021-03-25"
+    },
+    {
+      "id": "murray-sentence",
+      "title": "Craig Murray: petition and complaint — sentencing statement",
+      "publisher": "Judiciary of Scotland",
+      "type": "Sentencing statement",
+      "url": "https://judiciary.scot/home/sentences-judgments/sentences-and-opinions/2021/05/11/craig-murray-petition-and-complaint",
+      "checked": "2026-10-17",
+      "date": "2021-05-11"
+    },
+    {
+      "id": "murray-appeal",
+      "title": "Craig Murray v HM Advocate [2022] HCJAC 14",
+      "publisher": "Scottish Courts and Tribunals Service",
+      "type": "Appeal judgment",
+      "url": "https://www.scotcourts.gov.uk/media/2r0cceui/high-court-judgment-petition-to-the-nobile-officium-by-craig-murray-against-hma-20-january-2022.pdf",
+      "checked": "2026-10-17",
+      "date": "2022-03-25"
+    }
+  ],
+  "related": [
+    {
+      "id": "super-injunctions",
+      "title": "Super-injunctions"
+    },
+    {
+      "id": "anonymity-orders",
+      "title": "Anonymity orders · PPT and the publicity paradox"
+    }
+  ]
+}
