@@ -25,9 +25,31 @@ test("timeline JSON resolves every source to a real URL", async () => {
 test("timeline page keeps its anchors and shows sources", async () => {
   const html = await read("uk-timeline/index.html");
   for (const id of ["trudi-warner", "how-it-works", "proscription"]) assert.match(html, new RegExp(`id="${id}"`));
-  assert.match(html, /<title>The Ratchet — a UK Totalitarian Timeline<\/title>/);
+  assert.match(html, /<title>UK timeline — Independent Tribunal<\/title>/);
   assert.match(html, /legislation\.gov\.uk\/ukpga\/2000\/11\/section\/1"/);
   assert.doesNotMatch(html, /\{\{[A-Z]+\}\}/);
+});
+
+test("editorial titles use consistent sentence case across tiles, pages and exports", async () => {
+  const { tiles } = await json("data/tiles.json");
+  const llms = await read("llms.txt");
+  const fullText = await read("llms-full.txt");
+  const expected = {
+    "terrorist-connection": "Terrorist connection add-on",
+    "proscription-litigation": "Proscription litigation",
+    "hunger-strikes": "The hunger strikes",
+    "terrorism-definition": "The definition of terrorism",
+    "uk-ratchet": "UK timeline",
+  };
+  for (const [id, title] of Object.entries(expected)) {
+    const tile = tiles.find((item) => item.id === id);
+    assert.equal(tile.title, title);
+    const html = await read(`${tile.href.slice(1)}index.html`);
+    assert.ok(html.includes(`<h1>${title}</h1>`), id);
+    assert.ok(html.includes(`<title>${title} — Independent Tribunal</title>`), id);
+    assert.ok(llms.includes(title), id);
+    assert.ok(fullText.includes(title), id);
+  }
 });
 
 test("publishes the policies as HTML and Markdown", async () => {

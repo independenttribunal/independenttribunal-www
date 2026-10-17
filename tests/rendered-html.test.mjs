@@ -28,6 +28,10 @@ test("server-renders the information hub homepage", async () => {
   assert.match(html, /href="\/nuances\/jury-conscience\/"/);
   assert.match(html, /href="\/independent-tribunals\/uyghur-tribunal\/"/);
   assert.match(html, /href="\/uk-timeline\/"/);
+  for (const title of ["Terrorist connection add-on", "Proscription litigation", "The hunger strikes", "The definition of terrorism", "UK timeline"]) {
+    assert.ok(html.includes(title), title);
+  }
+  assert.doesNotMatch(html, /The Ratchet|The loaded gun|Terrorist Connection Add-on|Proscription Litigation|The Hunger Strikes/);
   assert.match(html, /href="https:\/\/app\.independenttribunal\.org\/"/);
   assert.match(html, /Not legal advice|not legal advice/);
   // The dispute product lives in the app repo now.
