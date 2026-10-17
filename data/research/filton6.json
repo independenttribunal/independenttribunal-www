@@ -1,0 +1,79 @@
+{
+  "id": "filton6",
+  "title": "Filton6",
+  "jurisdiction": "Filton · England and Wales",
+  "summary": "The initial six defendants, subsequent proceedings and the wider Filton cases, with the source dossier’s reporting kept together.",
+  "tags": [
+    "uk",
+    "protest",
+    "sentencing"
+  ],
+  "order": 2,
+  "source_as_of": "2026-07-28",
+  "migrated_on": "2026-10-17",
+  "verification": "historical-import-needs-current-review",
+  "review_note": "“Filton6” is the entry point for this research. The original dossier also covers the broader Filton 24/25 proceedings; counts, verdicts and sentences must be tied to the particular defendants and trial.",
+  "provenance": {
+    "repository": "https://github.com/PlanetaryCouncil/barclays5",
+    "commit": "9831cfdcb6ca0f63f488cd81794f8e6d0e79f88c",
+    "files": [
+      "sources.html"
+    ],
+    "original_site": "https://barclays5.planetarycouncil.org/"
+  },
+  "corrections": [
+    {
+      "date": "2026-10-17",
+      "text": "The original annotation suggested that section 1 only refers to the UK government or an intergovernmental body. Section 1(4)(d) also includes the government of a country other than the United Kingdom. That annotation has been corrected; this does not determine whether the other statutory conditions were met in any particular case.",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/1/4/d"
+    }
+  ],
+  "body_html": "<p>Twenty-five people charged over an August 2024 action at Elbit Systems&rsquo; Filton site near Bristol, approximately &pound;1.2m damage, split across multiple trials. Six acquitted of aggravated burglary in February 2026 with a hung jury on criminal damage; four convicted at retrial in May 2026; sentenced 12 June 2026 by Justice Jeremy Johnson with a &ldquo;terrorist connection&rdquo; finding &mdash; the first ever applied to protest criminal damage in the UK. Three further trials run into 2027.</p>\n\n  <ul class=\"src\">\n    <li>\n      <span class=\"title\">UK court jails Palestine Action activists on terrorism charges</span>\n      <span class=\"outlet\">Al Jazeera &middot; 12 June 2026</span>\n      <span class=\"url\"><a href=\"https://www.aljazeera.com/news/2026/6/12/uk-court-jails-palestinian-action-activists-on-terrorism-charges\">aljazeera.com/news/2026/6/12/uk-court-jails-palestinian-action-activists-on-terrorism-charges</a></span>\n    </li>\n    <li>\n      <span class=\"title\">First Filton 25 defendants sentenced as terrorists</span>\n      <span class=\"outlet\">The Bristol Cable &middot; June 2026</span>\n      <span class=\"url\"><a href=\"https://thebristolcable.org/2026/06/first-filton-25-defendants-sentenced-as-terrorists/\">thebristolcable.org/2026/06/first-filton-25-defendants-sentenced-as-terrorists/</a></span>\n      <span class=\"note\">Local outlet, in court throughout. Best single narrative of the case timeline.</span>\n    </li>\n    <li>\n      <span class=\"title\">Terrorism Enhancement for the Filton 25 Sets a Dangerous Precedent</span>\n      <span class=\"outlet\">The Intercept &middot; Natasha Lennard &middot; 13 June 2026</span>\n      <span class=\"url\"><a href=\"https://theintercept.com/2026/06/13/elbit-protest-palestine-action-uk-filton-25-terrorism-enhancement/\">theintercept.com/2026/06/13/elbit-protest-palestine-action-uk-filton-25-terrorism-enhancement/</a></span>\n    </li>\n    <li>\n      <span class=\"title\">UK terrorist sentence for Palestine Action activist marks dangerous move against right to protest</span>\n      <span class=\"outlet\">Amnesty International UK <span class=\"lean primary\">Institutional</span></span>\n      <span class=\"url\"><a href=\"https://www.amnesty.org.uk/latest/uk-terrorist-sentence-for-palestine-action-activist-marks-dangerous-move-against-right-to-protest/\">amnesty.org.uk/latest/uk-terrorist-sentence-for-palestine-action-activist-marks-dangerous-move-against-right-to-protest/</a></span>\n      <span class=\"note\">The citation to use when you need institutional legitimacy rather than movement voice.</span>\n    </li>\n    <li>\n      <span class=\"title\">&lsquo;Direct action is not terrorism&rsquo;: Filton 25 on the sentencing of Palestine Action defendants</span>\n      <span class=\"outlet\">openDemocracy &middot; 25 June 2026</span>\n      <span class=\"url\"><a href=\"https://www.opendemocracy.net/terrorism-palestine-action-filton-25-protest-activists/\">opendemocracy.net/terrorism-palestine-action-filton-25-protest-activists/</a></span>\n      <span class=\"note\">Commentary on the sentencing. Migration correction: the original annotation wrongly suggested that the statutory definition excludes foreign governments. Section 1(4)(d) expressly includes them; see the correction above.</span>\n    </li>\n    <li>\n      <span class=\"title\">Inside the Palestine Action trial that could redefine protest as terrorism</span>\n      <span class=\"outlet\">openDemocracy</span>\n      <span class=\"url\"><a href=\"https://www.opendemocracy.net/inside-the-palestine-action-trial-that-could-redefine-protest-as-terrorism/\">opendemocracy.net/inside-the-palestine-action-trial-that-could-redefine-protest-as-terrorism/</a></span>\n      <span class=\"note\">Sentences ranged from four years eight months to seven years eight months.</span>\n    </li>\n    <li>\n      <span class=\"title\">Jury agrees Filton 24 lacked intent to harm, but convicts 4 activists</span>\n      <span class=\"outlet\">The Canary &middot; 5 May 2026 <span class=\"lean partisan\">Partisan</span></span>\n      <span class=\"url\"><a href=\"https://www.thecanary.co/skwawkbox/2026/05/05/filton-activists-verdict/\">thecanary.co/skwawkbox/2026/05/05/filton-activists-verdict/</a></span>\n      <span class=\"note\">Source for the detail that the court banned mention of jury equity and that people were arrested outside for holding signs about it.</span>\n    </li>\n    <li>\n      <span class=\"title\">Victory for Palestine Action as &lsquo;Filton 6&rsquo; acquitted</span>\n      <span class=\"outlet\">Asa Winstanley &middot; February 2026 <span class=\"lean partisan\">Partisan</span></span>\n      <span class=\"url\"><a href=\"https://asawinstanley.substack.com/p/victory-for-palestine-action-as-filton\">asawinstanley.substack.com/p/victory-for-palestine-action-as-filton</a></span>\n    </li>\n    <li>\n      <span class=\"title\">Meet the Filton 24 &mdash; remand records</span>\n      <span class=\"outlet\">Free the Filton 25 <span class=\"lean partisan\">Campaign</span></span>\n      <span class=\"url\"><a href=\"https://filtonactionists.com/meet-the-filton-24/\">filtonactionists.com/meet-the-filton-24/</a></span>\n      <span class=\"note\">Individual remand figures: 458, 557 and 569 days in prison without conviction. Ordinary pre-trial remand runs to roughly six months.</span>\n    </li>\n  </ul>",
+  "links": [
+    {
+      "url": "https://www.aljazeera.com/news/2026/6/12/uk-court-jails-palestinian-action-activists-on-terrorism-charges",
+      "label": "aljazeera.com/news/2026/6/12/uk-court-jails-palestinian-action-activists-on-terrorism-charges",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://thebristolcable.org/2026/06/first-filton-25-defendants-sentenced-as-terrorists/",
+      "label": "thebristolcable.org/2026/06/first-filton-25-defendants-sentenced-as-terrorists/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://theintercept.com/2026/06/13/elbit-protest-palestine-action-uk-filton-25-terrorism-enhancement/",
+      "label": "theintercept.com/2026/06/13/elbit-protest-palestine-action-uk-filton-25-terrorism-enhancement/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.amnesty.org.uk/latest/uk-terrorist-sentence-for-palestine-action-activist-marks-dangerous-move-against-right-to-protest/",
+      "label": "amnesty.org.uk/latest/uk-terrorist-sentence-for-palestine-action-activist-marks-dangerous-move-against-right-to-protest/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.opendemocracy.net/terrorism-palestine-action-filton-25-protest-activists/",
+      "label": "opendemocracy.net/terrorism-palestine-action-filton-25-protest-activists/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.opendemocracy.net/inside-the-palestine-action-trial-that-could-redefine-protest-as-terrorism/",
+      "label": "opendemocracy.net/inside-the-palestine-action-trial-that-could-redefine-protest-as-terrorism/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.thecanary.co/skwawkbox/2026/05/05/filton-activists-verdict/",
+      "label": "thecanary.co/skwawkbox/2026/05/05/filton-activists-verdict/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://asawinstanley.substack.com/p/victory-for-palestine-action-as-filton",
+      "label": "asawinstanley.substack.com/p/victory-for-palestine-action-as-filton",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://filtonactionists.com/meet-the-filton-24/",
+      "label": "filtonactionists.com/meet-the-filton-24/",
+      "verification": "imported-link-not-rechecked"
+    }
+  ]
+}

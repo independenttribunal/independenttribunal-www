@@ -22,6 +22,9 @@ test("server-renders the information hub homepage", async () => {
   const html = await response.text();
   assert.match(html, /<title>Independent Tribunal — The law, shown openly<\/title>/i);
   assert.match(html, /shown openly/);
+  assert.match(html, /href="\/research\/"/);
+  assert.match(html, /href="\/research\/barclays5\/"/);
+  assert.match(html, /href="\/research\/prairieland\/"/);
   assert.match(html, /href="\/nuances\/jury-conscience\/"/);
   assert.match(html, /href="\/independent-tribunals\/uyghur-tribunal\/"/);
   assert.match(html, /href="\/uk-timeline\/"/);

@@ -19,6 +19,9 @@ The Legal affairs hub (timelines, references, policies) lives in [`/data`](data/
 - [`/llms.txt`](https://independenttribunal.org/llms.txt): start here if you are an AI agent
 - [`/data/index.json`](https://independenttribunal.org/data/index.json): every dataset, with coverage
 - [`/legal/`](https://independenttribunal.org/legal/): editorial, terrorism, moderation and privacy policies
+- [`/research/`](https://independenttribunal.org/research/): Barclays5, Filton6, the terrorist-connection add-on and Hansard debates, proscription litigation, hunger strikes and Prairieland
+
+The research collection was migrated from `PlanetaryCouncil/barclays5`. Its July 2026 narratives are explicitly marked as historical imports pending a current-status review, with original citations and immutable source provenance retained. See [`data/README.md`](data/README.md) before updating a dossier.
 
 ## Local development
 
@@ -34,5 +37,5 @@ Run `npm test` to build and verify the rendered pages and generated data. `npm r
 ## Publishing
 
 GitHub Actions publishes `main` to [independenttribunal.org](https://independenttribunal.org/).
-`npm run build:pages` exports the landing page and About page into `dist/client` for GitHub Pages.
+`npm run build:pages` exports the homepage and About page, together with the generated research, legal and data pages, into `dist/client` for GitHub Pages.
 The root `CNAME` preserves the custom domain. The default build remains compatible with Sites hosting.

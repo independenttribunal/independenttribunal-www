@@ -17,11 +17,12 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadResearch, publishResearch, researchText } from "./research.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "data");
 const publicDir = join(root, "public");
-const GENERATED = ["data", "legal", "nuances", "independent-tribunals", "uk-timeline", "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml"];
+const GENERATED = ["data", "legal", "nuances", "independent-tribunals", "research", "uk-timeline", "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml"];
 
 const REFERENCE_TYPES = new Set(["legislation", "judgment", "official", "report", "article", "organisation", "dataset"]);
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
@@ -182,6 +183,8 @@ for (const file of policyFiles) {
 }
 policies.sort((a, b) => a.order - b.order);
 
+const research = await loadResearch(dataDir, fail);
+
 if (errors.length) {
   console.error(`✗ data validation failed (${errors.length}):\n  ${errors.join("\n  ")}`);
   process.exit(1);
@@ -239,11 +242,16 @@ const tribunalsOut = tribunals.map((t) => ({
 await put("data/tribunals.json", { generated: built, license: site.license, about: "People's and independent tribunals: who convened them, what they asked, what they found (attributed to them), their legal status, and the primary record. A tribunal's findings are its own, not a court's and not ours.", tribunals: tribunalsOut });
 
 const tiles = [
+  ...research.map((r) => ({ kind: "research", id: r.id, title: r.title, label: `${r.jurisdiction} · historical dossier`, summary: r.summary, tags: [...r.tags, "research"], href: `/research/${r.id}/`, uk: r.tags.includes("uk") })),
   ...nuancesOut.map((n) => ({ kind: "nuance", id: n.id, title: n.title, label: n.label, summary: plain(n.summary), tags: n.tags ?? [], href: `/nuances/${n.id}/`, uk: true })),
   ...timelinesOut.map((t) => ({ kind: "timeline", id: t.id, title: t.title, label: t.kicker, summary: plain(t.description), tags: ["protest", "timeline"], href: t.path, uk: true })),
   ...tribunalsOut.map((t) => ({ kind: "tribunal", id: t.id, title: t.name, label: `Independent tribunal · ${t.status}`, summary: plain(t.summary), tags: t.tags, href: `/independent-tribunals/${t.id}/`, uk: t.tags.includes("uk") })),
 ].sort((a, b) => Number(b.uk) - Number(a.uk));
 await put("data/tiles.json", { generated: built, tiles });
+
+const researchOut = research.map((r) => ({ ...r, url: abs(`/research/${r.id}/`), body_text: researchText(r.body_html) }));
+await put("data/research.json", { generated: built, about: "Dated research imported from the Barclays5 repository. Not a current-status verification. Original source annotations are commentary; imported links have not all been rechecked.", research: researchOut });
+for (const r of researchOut) await put(`data/research/${r.id}.json`, r);
 
 await put("data/policies.json", {
   generated: built,
@@ -258,13 +266,14 @@ await put("data/index.json", {
   source_repo: site.source_repo,
   how_to_cite: "Cite the primary source each entry links to (sources[].url), and this site as the compiler.",
   datasets: [
+    { id: "research", url: abs("/data/research.json"), page: abs("/research/"), count: research.length, description: "Six historical research dossiers, with original annotations, provenance and explicit pending-verification status." },
     { id: "references", url: abs("/data/references.json"), count: references.length, description: "Primary and official sources cited across the site." },
     ...timelinesOut.map((t) => ({ id: t.id, url: abs(`/data/timelines/${t.id}.json`), page: t.url, count: t.sections.flatMap((s) => s.entries ?? []).length, description: t.description, genre: t.genre })),
     { id: "nuances", url: abs("/data/nuances.json"), page: abs("/nuances/"), count: nuances.length, description: "Legal nuances: rule, the point most people miss, and dated history with sources." },
     { id: "tribunals", url: abs("/data/tribunals.json"), page: abs("/independent-tribunals/"), count: tribunals.length, description: "People's and independent tribunals, documented from their own records and primary sources." },
     { id: "policies", url: abs("/data/policies.json"), count: policies.length, description: "Editorial, moderation, terrorism and privacy policies." },
   ],
-  coverage: { entries: allEntries.length, entries_without_sources: unsourced },
+  coverage: { entries: allEntries.length, entries_without_sources: unsourced, research_pending_review: research.map((r) => r.id) },
 });
 
 // Timeline page.
@@ -413,7 +422,7 @@ const legalPage = ({ title, description, path, body, updated, meta }) => `<!doct
 </style>
 </head>
 <body>
-<header><a href="/">Independent Tribunal</a><nav><a href="/nuances/">Nuances</a> · <a href="/independent-tribunals/">Tribunals</a> · <a href="/uk-timeline/">UK timeline</a> · <a href="/legal/">Legal</a> · <a href="/data/index.json">Data</a></nav></header>
+<header><a href="/">Independent Tribunal</a><nav><a href="/research/">Research</a> · <a href="/nuances/">Nuances</a> · <a href="/independent-tribunals/">Tribunals</a> · <a href="/uk-timeline/">UK timeline</a> · <a href="/legal/">Legal</a> · <a href="/data/index.json">Data</a></nav></header>
 <main>
 ${body}
 ${meta ?? (updated ? `<p class="meta">Last updated ${escapeHtml(updated)} · <a href="/legal/${path.split("/")[2]}.md">Markdown source</a> · <a href="${site.source_repo}/commits/main/data/policies">change history</a></p>` : "")}
@@ -514,6 +523,9 @@ await put("independent-tribunals/index.html", legalPage({
 <ul class="policy-list">${tribunals.map((t) => `<li><span class="src">${escapeHtml(t.status)} · ${t.tags.map((x) => `#${escapeHtml(x)}`).join(" ")}</span><br><a href="/independent-tribunals/${t.id}/">${escapeHtml(t.name)}</a><br>${inline(t.summary)}</li>`).join("")}</ul>`,
 }));
 
+// Dated research imports, with provenance and status separate from verified references.
+await publishResearch({ records: research, put, page: legalPage, escapeHtml, site });
+
 // Agent-facing text.
 const llms = `# ${site.name}
 
@@ -523,9 +535,12 @@ The Legal affairs section is a research hub: legislation, judgments and official
 
 When citing, cite the primary source each entry links to (\`sources[].url\`). Facts that can change carry a \`checked\` date.
 
+Research dossiers are an exception: these are historical imports dated 2026-07-28, not verified current reports. Their \`migrated_on\` date is NOT a fact-check date. Preserve \`verification\`, \`review_note\`, corrections and source attribution when using them. Imported source annotations are commentary, including political labels.
+
 ## Data
 
 - [Data index](${abs("/data/index.json")}): every dataset, with counts and coverage
+- [Research dossiers](${abs("/data/research.json")}): ${research.length} historical imports with provenance, annotations and pending-verification status
 - [References](${abs("/data/references.json")}): ${references.length} primary and official sources
 - [Tribunals](${abs("/data/tribunals.json")}): ${tribunals.length} people's tribunals (findings attributed to each tribunal, legal status, primary sources)
 - [Homepage tiles](${abs("/data/tiles.json")}): every tile on the homepage with tags
@@ -541,6 +556,9 @@ ${nuancesOut.map((n) => `- [${n.title}](${n.url}): ${plain(n.summary)}`).join("\
 ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("\n")}
 
 ## Pages
+
+- [Research library](${abs("/research/")}): the Barclays5 collection, now at Independent Tribunal
+${researchOut.map((r) => `- [${r.title}](${r.url}): ${r.summary} (historical import; source date ${r.source_as_of}; current review pending)`).join("\n")}
 
 ${timelinesOut.map((t) => `- [${t.seo_title}](${t.url})`).join("\n")}
 - [About](${abs("/about")}): origins of the idea and acknowledgements
@@ -558,6 +576,8 @@ await put("llms.txt", llms);
 
 const full = [
   `# ${site.name} — full text\n\nGenerated ${built} from ${site.source_repo}. ${site.summary}\n`,
+  `\n## Historical research dossiers\n\nImported source narratives and annotations, not newly verified reporting. Political labels belong to the original author. Check primary records before relying on case-status claims.\n`,
+  ...researchOut.map((r) => `\n### ${r.title}\n\nURL: ${r.url}\nSource date: ${r.source_as_of}. Migrated: ${r.migrated_on} (not a verification date). Status: ${r.verification}\n${r.review_note}\n\n${r.corrections.map((c) => `Correction (${c.date}): ${c.text} <${c.url}>`).join("\n")}\n\n${r.body_text}\n\nSource snapshot: ${r.provenance.repository}/tree/${r.provenance.commit}\nImported links (not all rechecked):\n${r.links.map((l) => `- ${l.label} <${l.url}>`).join("\n")}\n`),
   `\n## Independent tribunals\n\nFindings below are each tribunal's own, not a court's and not ours.\n`,
   ...tribunalsOut.map((t) => `\n### ${t.name}\n\nURL: ${t.url}\nStatus: ${t.status}. Tags: ${t.tags.join(", ")}. Checked: ${t.checked}\n\n${plain(t.summary)}\n\nConvened by: ${plain(t.convened_by)}\n${t.panel ? `Panel: ${plain(t.panel)}\n` : ""}Question: ${plain(t.question)}\nLegal status: ${plain(t.legal_status)}\n\nFindings (attributed to the tribunal):\n${t.findings.map((f) => `- ${plain(f)}`).join("\n")}\n\nNuance:\n${t.nuance.map((p) => `- ${plain(p)}`).join("\n")}\n\nTimeline:\n${[...t.sat, ...t.aftermath].sort((a, b) => a.date.localeCompare(b.date)).map((h) => `- ${h.date_label}: ${plain(h.text)}${h.sources.length ? ` [${h.sources.map((x) => x.url).join(", ")}]` : ""}`).join("\n")}\n\nSources: ${t.sources.map((x) => `${x.title} <${x.url}>`).join("; ")}\n`),
   `\n## Legal nuances\n`,
@@ -574,7 +594,7 @@ const full = [
 ].join("");
 await put("llms-full.txt", full);
 
-const pages = ["/", "/about", ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
+const pages = ["/", "/about", "/research/", ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
 await put("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map((p) => `  <url><loc>${abs(p)}</loc><lastmod>${builtDay}</lastmod></url>`).join("\n")}

@@ -1,0 +1,68 @@
+{
+  "id": "proscription-litigation",
+  "title": "Proscription Litigation",
+  "jurisdiction": "Judicial review · United Kingdom",
+  "summary": "The challenge to Palestine Action’s proscription and the litigation sources collected in July 2026.",
+  "tags": [
+    "uk",
+    "proscription",
+    "courts"
+  ],
+  "order": 4,
+  "source_as_of": "2026-07-28",
+  "migrated_on": "2026-10-17",
+  "verification": "historical-import-needs-current-review",
+  "review_note": "The litigation narrative and citation below are retained from the July dossier, not independently confirmed as the current position. Check the judgments, any stay, subsequent appeals and the current official proscription list before relying on its status.",
+  "provenance": {
+    "repository": "https://github.com/PlanetaryCouncil/barclays5",
+    "commit": "9831cfdcb6ca0f63f488cd81794f8e6d0e79f88c",
+    "files": [
+      "sources.html"
+    ],
+    "original_site": "https://barclays5.planetarycouncil.org/"
+  },
+  "corrections": [],
+  "body_html": "<p>Palestine Action proscribed under the Terrorism Act 2000 in July 2025 &mdash; the first such designation for a direct-action protest group. Huda Ammori&rsquo;s challenge succeeded at the High Court in February 2026 and was reversed by the Court of Appeal in June 2026. <span class=\"mono\">Home Secretary v Ammori [2026] EWCA Civ 1721</span></p>\n\n  <ul class=\"src\">\n    <li>\n      <span class=\"title\">Palestine Action terror ban ruled unlawful by High Court in humiliating blow for government</span>\n      <span class=\"outlet\">The Independent &middot; 13 February 2026</span>\n      <span class=\"url\"><a href=\"https://www.aol.com/news/palestine-action-terror-ban-ruled-101433277.html\">aol.com/news/palestine-action-terror-ban-ruled-101433277.html</a></span>\n      <span class=\"note\">Source for the key statistic: more than 2,000 arrested for holding signs, nearly 700 charged with a terrorism offence, none convicted. Home Office legal spend approaching &pound;700,000.</span>\n    </li>\n    <li>\n      <span class=\"title\">Britain&rsquo;s High Court says government illegally banned pro-Palestinian group</span>\n      <span class=\"outlet\">NPR &middot; 13 February 2026</span>\n      <span class=\"url\"><a href=\"https://www.npr.org/2026/02/13/nx-s1-5713346/britain-court-palestine-action-ban\">npr.org/2026/02/13/nx-s1-5713346/britain-court-palestine-action-ban</a></span>\n    </li>\n    <li>\n      <span class=\"title\">Palestine Action cofounder Ammori after High Court win: UK ban &lsquo;backfired&rsquo;</span>\n      <span class=\"outlet\">Al Jazeera &middot; 13 February 2026</span>\n      <span class=\"url\"><a href=\"https://www.aljazeera.com/news/2026/2/13/palestine-action-cofounder-ammori-after-high-court-win-uk-ban-backfired\">aljazeera.com/news/2026/2/13/palestine-action-cofounder-ammori-after-high-court-win-uk-ban-backfired</a></span>\n    </li>\n    <li>\n      <span class=\"title\">Home Office allowed to appeal Palestine Action court ruling</span>\n      <span class=\"outlet\">BBC</span>\n      <span class=\"url\"><a href=\"https://www.aol.com/articles/home-office-allowed-appeal-palestine-182155879.html\">aol.com/articles/home-office-allowed-appeal-palestine-182155879.html</a></span>\n    </li>\n    <li>\n      <span class=\"title\">UK Court of Appeal upholds ban on Palestine Action as &lsquo;terrorist&rsquo; group</span>\n      <span class=\"outlet\">Al Jazeera &middot; 15 June 2026</span>\n      <span class=\"url\"><a href=\"https://www.aljazeera.com/news/2026/6/15/uk-court-says-proscribing-palestine-action-as-terrorist-group-was-lawful\">aljazeera.com/news/2026/6/15/uk-court-says-proscribing-palestine-action-as-terrorist-group-was-lawful</a></span>\n      <span class=\"note\">The reversal. Do not publish anything that omits this.</span>\n    </li>\n    <li>\n      <span class=\"title\">Breaking down the Court of Appeal judgment on Palestine Action&rsquo;s proscription</span>\n      <span class=\"outlet\">Liberty <span class=\"lean primary\">Intervened in case</span></span>\n      <span class=\"url\"><a href=\"https://www.libertyhumanrights.org.uk/issue/breaking-down-the-court-of-appeal-judgment-on-palestine-actions-proscription/\">libertyhumanrights.org.uk/issue/breaking-down-the-court-of-appeal-judgment-on-palestine-actions-proscription/</a></span>\n    </li>\n    <li>\n      <span class=\"title\">Court of Appeal upholds Palestine Action proscription &mdash; an extended look</span>\n      <span class=\"outlet\">UK Human Rights Blog &middot; 16 June 2026</span>\n      <span class=\"url\"><a href=\"https://ukhumanrightsblog.com/2026/06/16/court-of-appeal-upholds-palestine-action-proscription-an-extended-look/\">ukhumanrightsblog.com/2026/06/16/court-of-appeal-upholds-palestine-action-proscription-an-extended-look/</a></span>\n      <span class=\"note\">Five-judge panel including the Lady Chief Justice. The most rigorous account of the reasoning.</span>\n    </li>\n    <li>\n      <span class=\"title\">UK dispatch: appeals court upholds ban on Palestine Action advocacy group</span>\n      <span class=\"outlet\">JURIST</span>\n      <span class=\"url\"><a href=\"https://www.jurist.org/news/2026/06/uk-dispatch-appeals-court-upholds-ban-on-palestine-action-advocacy-group-sparking-debate/\">jurist.org/news/2026/06/uk-dispatch-appeals-court-upholds-ban-on-palestine-action-advocacy-group-sparking-debate/</a></span>\n    </li>\n  </ul>",
+  "links": [
+    {
+      "url": "https://www.aol.com/news/palestine-action-terror-ban-ruled-101433277.html",
+      "label": "aol.com/news/palestine-action-terror-ban-ruled-101433277.html",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.npr.org/2026/02/13/nx-s1-5713346/britain-court-palestine-action-ban",
+      "label": "npr.org/2026/02/13/nx-s1-5713346/britain-court-palestine-action-ban",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/2/13/palestine-action-cofounder-ammori-after-high-court-win-uk-ban-backfired",
+      "label": "aljazeera.com/news/2026/2/13/palestine-action-cofounder-ammori-after-high-court-win-uk-ban-backfired",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.aol.com/articles/home-office-allowed-appeal-palestine-182155879.html",
+      "label": "aol.com/articles/home-office-allowed-appeal-palestine-182155879.html",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/6/15/uk-court-says-proscribing-palestine-action-as-terrorist-group-was-lawful",
+      "label": "aljazeera.com/news/2026/6/15/uk-court-says-proscribing-palestine-action-as-terrorist-group-was-lawful",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.libertyhumanrights.org.uk/issue/breaking-down-the-court-of-appeal-judgment-on-palestine-actions-proscription/",
+      "label": "libertyhumanrights.org.uk/issue/breaking-down-the-court-of-appeal-judgment-on-palestine-actions-proscription/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://ukhumanrightsblog.com/2026/06/16/court-of-appeal-upholds-palestine-action-proscription-an-extended-look/",
+      "label": "ukhumanrightsblog.com/2026/06/16/court-of-appeal-upholds-palestine-action-proscription-an-extended-look/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.jurist.org/news/2026/06/uk-dispatch-appeals-court-upholds-ban-on-palestine-action-advocacy-group-sparking-debate/",
+      "label": "jurist.org/news/2026/06/uk-dispatch-appeals-court-upholds-ban-on-palestine-action-advocacy-group-sparking-debate/",
+      "verification": "imported-link-not-rechecked"
+    }
+  ]
+}

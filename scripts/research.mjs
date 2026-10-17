@@ -1,0 +1,88 @@
+import { readFile, readdir } from "node:fs/promises";
+import { join } from "node:path";
+
+// These are dated imports, not newly verified case reports. Keep that distinction
+// in the public HTML, JSON and agent-facing text, not just in the editorial UI.
+export async function loadResearch(dataDir, fail) {
+  const records = [];
+  for (const file of (await readdir(join(dataDir, "research"))).filter((f) => f.endsWith(".json"))) {
+    const r = JSON.parse(await readFile(join(dataDir, "research", file), "utf8"));
+    const where = `research/${file}`;
+    for (const key of ["id", "title", "jurisdiction", "summary", "source_as_of", "migrated_on", "review_note", "body_html", "provenance"]) {
+      if (!r[key]) fail(where, `missing ${key}`);
+    }
+    if (!/^[a-z0-9-]+$/.test(r.id) || file !== `${r.id}.json`) fail(where, "file name must match a safe id");
+    for (const key of ["source_as_of", "migrated_on"]) if (!/^\d{4}-\d{2}-\d{2}$/.test(r[key])) fail(where, `${key} must be YYYY-MM-DD`);
+    if (r.verification !== "historical-import-needs-current-review") fail(where, "import must retain its unverified status");
+    if (!Array.isArray(r.tags) || !Array.isArray(r.links) || !Array.isArray(r.corrections)) fail(where, "tags, links and corrections must be arrays");
+    if (!/^https:\/\/github\.com\/[\w-]+\/[\w-]+$/.test(r.provenance?.repository) || !/^[a-f0-9]{40}$/.test(r.provenance?.commit)) fail(where, "immutable source provenance required");
+    // Imported markup is committed editorial content, never executable content.
+    const allowedTags = new Set(["p", "a", "ul", "ol", "li", "span", "strong", "em", "b", "i", "h2", "h3", "h4", "blockquote", "cite", "br", "div", "section", "code", "small", "hr"]);
+    for (const tag of r.body_html.matchAll(/<\/?([a-z][\w:-]*)\b/gi)) if (!allowedTags.has(tag[1].toLowerCase())) fail(where, `unsupported HTML tag ${tag[1]}`);
+    if (/\son\w+\s*=|\s(?:style|srcdoc)\s*=/i.test(r.body_html)) fail(where, "active HTML attributes are not allowed");
+    for (const a of r.body_html.matchAll(/href="([^"]+)"/g)) {
+      if (!/^(https:\/\/|#)/.test(a[1])) fail(where, `unsupported link ${a[1]}`);
+    }
+    for (const link of r.links ?? []) {
+      if (!/^https:\/\//.test(link.url) || link.verification !== "imported-link-not-rechecked") fail(where, "imported links require HTTPS and an honest verification status");
+      if (!r.body_html.includes(link.url)) fail(where, `source link missing from body: ${link.url}`);
+    }
+    records.push(r);
+  }
+  return records.sort((a, b) => a.order - b.order);
+}
+
+export const researchText = (html) => html
+  .replace(/<\/(?:p|li|h[2-4]|blockquote)>/g, "\n\n")
+  .replace(/<[^>]*>/g, " ")
+  .replace(/&([a-z]+);/gi, (entity, name) => ({ amp: "&", quot: '"', apos: "'", lt: "<", gt: ">", nbsp: " ", ndash: "–", mdash: "—", lsquo: "‘", rsquo: "’", ldquo: "“", rdquo: "”", pound: "£", middot: "·" }[name] ?? entity))
+  .replace(/[ \t]+/g, " ").trim();
+
+export async function publishResearch({ records, put, page, escapeHtml: e, site }) {
+  const nav = (current) => `<nav class="research-nav" aria-label="Research dossiers">${records.map((r) => `<a href="/research/${r.id}/"${r.id === current ? ' aria-current="page"' : ""}>${e(r.title)}</a>`).join("")}</nav>`;
+  const styles = `<style>
+    .research-nav { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.5rem 0 2rem; font:600 12px/1.5 ui-sans-serif,system-ui,sans-serif; }
+    .research-nav a { padding:.6rem .8rem; border:1px solid var(--line); text-decoration:none; background:white; }
+    .research-nav a[aria-current] { background:var(--navy); color:white; }
+    .research-notice { padding:1rem 1.3rem; border-left:3px solid var(--gold); background:#eee8da; margin:1.5rem 0; }
+    .research-notice p { margin:.4rem 0; }
+    .research-notice strong { font-family:ui-sans-serif,system-ui,sans-serif; }
+    .research-body { overflow-wrap:anywhere; }
+    .research-body .src { list-style:none; padding:0; font:inherit; color:inherit; }
+    .research-body .src li { padding:1.4rem 0; margin:0; border-top:1px solid var(--line); }
+    .research-body .title { display:block; font-weight:700; }
+    .research-body .outlet, .research-body .url { display:block; font:13px/1.65 ui-sans-serif,system-ui,sans-serif; margin-top:.3rem; color:var(--muted); }
+    .research-body .note { display:block; margin-top:.5rem; font-size:.95rem; }
+    .research-body .lean { border:1px solid var(--line); padding:.1rem .35rem; font-size:11px; }
+    .research-body blockquote { margin:1.2rem 0; padding:.2rem 1.2rem; border-left:2px solid var(--gold); }
+    .research-body .callout { padding:1rem; background:white; border:1px solid var(--line); }
+    .research-body .ref { font-size:.85rem; color:var(--muted); }
+    .research-provenance { padding-top:1rem; margin-top:2rem; border-top:1px solid var(--line); overflow-wrap:anywhere; }
+    a:focus-visible { outline:3px solid var(--gold); outline-offset:4px; }
+    @media print { .research-nav, .contact { display:none; } }
+  </style>`;
+  await put("research/index.html", page({
+    title: "Legal research", path: "/research/", description: "Six connected research dossiers on protest, sentencing, proscription, detention and the public record.",
+    meta: `<p class="meta">Open research · <a href="/data/research.json">Download JSON</a> · <a href="/legal/editorial-standards/">Editorial standards</a></p>`,
+    body: `${styles}<div class="kicker">Independent Tribunal · Research library</div><h1>Follow the evidence.</h1>
+      <p class="lede">Six connected dossiers. Separate cases, distinct legal questions, and a public record you can examine for yourself.</p>
+      <aside class="research-notice"><strong>A new home for the Barclays5 research</strong><p>This collection was moved from Planetary Council. The original dossier is dated 28 July 2026; its case-status claims and source links have not yet had a full current-status review. It includes reporting and campaign commentary, not just primary sources.</p></aside>
+      <ul class="policy-list">${records.map((r) => `<li><span class="kicker">0${r.order} · ${e(r.jurisdiction)}</span><h2><a href="/research/${r.id}/">${e(r.title)} →</a></h2><p>${e(r.summary)}</p><span class="meta">Historical dossier · source date ${e(r.source_as_of)}</span></li>`).join("")}</ul>`,
+  }));
+  for (const r of records) {
+    const original = `${r.provenance.repository}/blob/${r.provenance.commit}`;
+    await put(`research/${r.id}/index.html`, page({
+      title: r.title, description: r.summary, path: `/research/${r.id}/`,
+      meta: `<p class="meta">Source dossier: ${e(r.source_as_of)} · Migrated: ${e(r.migrated_on)} (not a verification date)<br><a href="/data/research/${r.id}.json">Download this dossier as JSON</a> · <a href="${site.source_repo}/commits/main/data/research/${r.id}.json">Edit history</a></p>`,
+      body: `${styles}<div class="kicker"><a href="/research/">Legal research</a> · ${e(r.jurisdiction)}</div>
+        <h1>${e(r.title)}</h1><p class="lede">${e(r.summary)}</p>${nav(r.id)}
+        <aside class="research-notice" aria-label="Research status"><strong>Historical dossier · current-status review pending</strong><p>The imported research is dated <time datetime="${r.source_as_of}">28 July 2026</time>. Its original reporting, quotations and annotations are preserved below; do not read them as confirmed current outcomes. Links have not all been rechecked.</p><p>${e(r.review_note)}</p></aside>
+        ${r.corrections.length ? `<section aria-label="Corrections"><h2>Migration corrections</h2>${r.corrections.map((c) => `<p>${e(c.text)} <a href="${e(c.url)}">Statutory source</a> <span class="meta">(${e(c.date)})</span></p>`).join("")}</section>` : ""}
+        <h2 id="original-dossier">Original dossier · July 2026</h2><p class="attributed">The following narrative and source annotations are the original author’s research and commentary. Publisher labels such as “Campaign” or “Partisan” are the author’s descriptions, not independent ratings. Allegations, reported verdicts and opinions must be distinguished and checked against the primary record.</p>
+        <article class="research-body" aria-label="Imported research">${r.body_html}</article>
+        ${r.id === "terrorist-connection" ? '<p class="attributed">Hansard excerpts: UK Parliament, reproduced under the <a href="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence</a>. Commentary is separate from the parliamentary record.</p>' : ""}
+        <section class="research-provenance"><h2>Provenance &amp; corrections</h2><p>Imported from the <a href="${original}/README.md">Planetary Council Barclays5 repository</a>, pinned to commit <code>${r.provenance.commit.slice(0, 7)}</code>. The original material remains available for comparison:</p><ul>${r.provenance.files.map((f) => `<li><a href="${original}/${f}">${e(f)}</a></li>`).join("")}${r.id === "barclays5" ? `<li><a href="${original}/index.html">Original printable campaign brochure (July 2026 archive)</a></li>` : ""}</ul><p>Have a judgment, sentencing remark or correction? <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p></section>
+        <h2>Explore the collection</h2>${nav(r.id)}`,
+    }));
+  }
+}

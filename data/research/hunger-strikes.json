@@ -1,0 +1,53 @@
+{
+  "id": "hunger-strikes",
+  "title": "The Hunger Strikes",
+  "jurisdiction": "Remand · United Kingdom",
+  "summary": "Sources on the prison hunger strikes, custody conditions and reported bail decisions.",
+  "tags": [
+    "uk",
+    "remand",
+    "hunger-strikes"
+  ],
+  "order": 5,
+  "source_as_of": "2026-07-28",
+  "migrated_on": "2026-10-17",
+  "verification": "historical-import-needs-current-review",
+  "review_note": "Health, custody and bail descriptions are dated reporting from the imported dossier. They should not be read as statements of any individual’s current health or detention status.",
+  "provenance": {
+    "repository": "https://github.com/PlanetaryCouncil/barclays5",
+    "commit": "9831cfdcb6ca0f63f488cd81794f8e6d0e79f88c",
+    "files": [
+      "sources.html"
+    ],
+    "original_site": "https://barclays5.planetarycouncil.org/"
+  },
+  "corrections": [],
+  "body_html": "<p>Eight remand prisoners from the Filton and RAF Brize Norton cases began an open-ended hunger strike on 2 November 2025 &mdash; the largest in UK prisons since 1981. Four refused food for up to 73 days. Their demands included bail, an end to correspondence censorship, the right to a fair trial, dropping the terrorist-connection claim, de-proscription, and the closure of Elbit&rsquo;s UK operations. Bail was granted on 20 February 2026. The Justice Secretary declined throughout to meet their representatives.</p>\n\n  <ul class=\"src\">\n    <li>\n      <span class=\"title\">Palestine Action prisoners on hunger strike in UK at &lsquo;a very, very high risk of death&rsquo;, warns doctor</span>\n      <span class=\"outlet\">World Socialist Web Site &middot; 8 December 2025 <span class=\"lean partisan\">Partisan</span></span>\n      <span class=\"url\"><a href=\"https://www.wsws.org/en/articles/2025/12/08/bxdk-d08.html\">wsws.org/en/articles/2025/12/08/bxdk-d08.html</a></span>\n      <span class=\"note\">Heavy editorialising, but the only source with the full demand list and every striker named with their prison.</span>\n    </li>\n    <li>\n      <span class=\"title\">Four Palestine Action Hunger Strikers Finally Granted Bail</span>\n      <span class=\"outlet\">Novara Media &middot; 20 February 2026 <span class=\"lean partisan\">Left</span></span>\n      <span class=\"url\"><a href=\"https://novaramedia.com/2026/02/20/four-palestine-action-hunger-strikers-granted-bail/\">novaramedia.com/2026/02/20/four-palestine-action-hunger-strikers-granted-bail/</a></span>\n    </li>\n    <li>\n      <span class=\"title\">Palestine Action hunger strikers to sue prisons over alleged mistreatment</span>\n      <span class=\"outlet\">Al Jazeera &middot; 25 March 2026</span>\n      <span class=\"url\"><a href=\"https://www.aljazeera.com/news/2026/3/25/palestine-action-hunger-strikers-to-sue-prisons-over-alleged-mistreatment\">aljazeera.com/news/2026/3/25/palestine-action-hunger-strikers-to-sue-prisons-over-alleged-mistreatment</a></span>\n      <span class=\"note\">First-hand accounts of lasting health damage and of conditions in custody.</span>\n    </li>\n    <li>\n      <span class=\"title\">2025 Prisoners for Palestine hunger strike</span>\n      <span class=\"outlet\">Wikipedia <span class=\"lean primary\">Overview</span></span>\n      <span class=\"url\"><a href=\"https://en.wikipedia.org/wiki/2025_Prisoners_for_Palestine_hunger_strike\">en.wikipedia.org/wiki/2025_Prisoners_for_Palestine_hunger_strike</a></span>\n      <span class=\"note\">Well referenced. Use it to chase primaries, not as a citation itself.</span>\n    </li>\n    <li>\n      <span class=\"title\">Prisoners for Palestine hunger strikes &mdash; council motion</span>\n      <span class=\"outlet\">Oxford City Council <span class=\"lean primary\">Official record</span></span>\n      <span class=\"url\"><a href=\"https://mycouncil.oxford.gov.uk/ieDecisionDetails.aspx?ID=2862\">mycouncil.oxford.gov.uk/ieDecisionDetails.aspx?ID=2862</a></span>\n      <span class=\"note\">A local authority formally resolved on this. Precedent worth copying if you want other councils to act.</span>\n    </li>\n  </ul>",
+  "links": [
+    {
+      "url": "https://www.wsws.org/en/articles/2025/12/08/bxdk-d08.html",
+      "label": "wsws.org/en/articles/2025/12/08/bxdk-d08.html",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://novaramedia.com/2026/02/20/four-palestine-action-hunger-strikers-granted-bail/",
+      "label": "novaramedia.com/2026/02/20/four-palestine-action-hunger-strikers-granted-bail/",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/3/25/palestine-action-hunger-strikers-to-sue-prisons-over-alleged-mistreatment",
+      "label": "aljazeera.com/news/2026/3/25/palestine-action-hunger-strikers-to-sue-prisons-over-alleged-mistreatment",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2025_Prisoners_for_Palestine_hunger_strike",
+      "label": "en.wikipedia.org/wiki/2025_Prisoners_for_Palestine_hunger_strike",
+      "verification": "imported-link-not-rechecked"
+    },
+    {
+      "url": "https://mycouncil.oxford.gov.uk/ieDecisionDetails.aspx?ID=2862",
+      "label": "mycouncil.oxford.gov.uk/ieDecisionDetails.aspx?ID=2862",
+      "verification": "imported-link-not-rechecked"
+    }
+  ]
+}

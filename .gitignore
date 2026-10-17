@@ -42,6 +42,7 @@ yarn-error.log*
 # generated from /data by scripts/build-data.mjs (do not edit; edit /data instead)
 /public/data/
 /public/legal/
+/public/research/
 /public/nuances/
 /public/independent-tribunals/
 /public/uk-timeline/
