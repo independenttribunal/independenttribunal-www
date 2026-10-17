@@ -54,12 +54,18 @@ test("editorial titles use consistent sentence case across tiles, pages and expo
 
 test("publishes the policies as HTML and Markdown", async () => {
   for (const slug of ["editorial-standards", "terrorism-and-proscribed-organisations", "moderation", "privacy"]) {
-    assert.match(await read(`legal/${slug}/index.html`), /not a court/i);
+    const html = await read(`legal/${slug}/index.html`);
+    assert.match(html, /analyses evidence, law and public records from first principles/);
+    assert.doesNotMatch(html, /Independent Tribunal is not a court|A private contact address is being set up/);
     assert.match(await read(`legal/${slug}.md`), /^# /);
   }
   const terrorism = await read("legal/terrorism-and-proscribed-organisations/index.html");
   assert.match(terrorism, /does <strong>not<\/strong> support any proscribed organisation/);
   assert.match(terrorism, /href="\/legal\/editorial-standards\/"/);
+  const editorial = await read("legal/editorial-standards/index.html");
+  assert.match(editorial, /legal advice can be unreserved/);
+  assert.match(editorial, /legislation.gov.uk\/ukpga\/2007\/29\/section\/12/);
+  assert.match(editorial, /Agreement between models is not independent verification/);
 });
 
 test("llms.txt follows the llmstxt.org shape", async () => {

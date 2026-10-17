@@ -38,7 +38,9 @@ test("server-renders the information hub homepage", async () => {
   }
   assert.doesNotMatch(html, /The Ratchet|The loaded gun|Terrorist Connection Add-on|Proscription Litigation|The Hunger Strikes/);
   assert.match(html, /href="https:\/\/app\.independenttribunal\.org\/"/);
-  assert.match(html, /Not legal advice|not legal advice/);
+  assert.match(html, /analysed from first principles/);
+  assert.match(html, /multiple frontier AI models/);
+  assert.doesNotMatch(html, /Independent Tribunal is not a court/);
   // The dispute product lives in the app repo now.
   assert.doesNotMatch(html, /12 independent jurors|applicable local minimum wage/);
 });

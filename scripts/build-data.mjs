@@ -392,7 +392,7 @@ const contactHtml = () => {
     `<li><a href="${c.x}">X / Twitter</a></li>`,
     c.private
       ? `<li><a href="mailto:${escapeHtml(c.private)}">${escapeHtml(c.private)}</a> — private; for privacy requests and anything sensitive</li>`
-      : `<li>A private contact address is being set up. Until then, please do not post private information publicly; message us on Telegram and we will arrange a private channel.</li>`,
+      : "",
   ];
   return `<section class="contact" id="contact"><h2>Contact</h2><ul>${rows.join("")}</ul></section>`;
 };
@@ -451,7 +451,7 @@ ${body}
 ${meta ?? (updated ? `<p class="meta">Last updated ${escapeHtml(updated)} · <a href="/legal/${path.split("/")[2]}.md">Markdown source</a> · <a href="${site.source_repo}/commits/main/data/policies">change history</a></p>` : "")}
 ${contactHtml()}
 </main>
-<footer>Independent Tribunal is not a court, and nothing on this site is legal advice. <a href="/legal/editorial-standards/">Editorial standards</a>.</footer>
+<footer><p>Independent Tribunal analyses evidence, law and public records from first principles. Follow the references, question the reasoning, and check the evidence.</p><p>We encourage you to fact-check with multiple frontier AI models, then verify their answers against the original sources. Agreement between models is not proof.</p><a href="/legal/editorial-standards/">Editorial standards and legal framework</a>.</footer>
 </body>
 </html>
 `;
@@ -467,7 +467,7 @@ await put("legal/index.html", legalPage({
   title: "Legal", description: "Independent Tribunal's editorial, moderation, terrorism and privacy policies.", path: "/legal/",
   body: `<div class="kicker">Independent Tribunal</div>
 <h1>Legal</h1>
-<p class="lede">How we work, what we publish, and what we won't. Independent Tribunal is not a court, and nothing here is legal advice.</p>
+<p class="lede">How we analyse evidence from first principles, reference our claims, and make our reasoning open to scrutiny.</p>
 <ul class="policy-list">${policies.map((p) => `<li><a href="/legal/${p.slug}/">${escapeHtml(p.title)}</a><br>${inline(p.summary)} <span class="meta">· updated ${escapeHtml(p.updated)}</span></li>`).join("")}</ul>`,
 }));
 

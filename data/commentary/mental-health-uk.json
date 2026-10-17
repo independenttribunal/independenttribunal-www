@@ -18,7 +18,7 @@
       "period": "Mid-2025",
       "scope": "UK, all ages; provisional",
       "source_numbers": [
-        28
+        1
       ]
     },
     {
@@ -29,7 +29,7 @@
       "scope": "UK, ages 16-64; approximate population implied by rounded Labour Force Survey estimates",
       "calculation": "9,121,000 economically inactive / 0.209 inactivity rate; rounded to 0.1 million",
       "source_numbers": [
-        29
+        2
       ]
     },
     {
@@ -39,7 +39,7 @@
       "period": "May-July 2026",
       "scope": "UK, ages 16 and over; Labour Force Survey estimate",
       "source_numbers": [
-        29
+        2
       ]
     },
     {
@@ -49,7 +49,7 @@
       "period": "2024/25",
       "scope": "UK private-household survey population; long-term conditions limiting everyday activities. Not a count of benefit recipients or people unable to work.",
       "source_numbers": [
-        30
+        3
       ]
     },
     {
@@ -59,7 +59,7 @@
       "period": "June 2026",
       "scope": "UK headcount",
       "source_numbers": [
-        1
+        4
       ]
     },
     {
@@ -69,8 +69,8 @@
       "period": "31 July 2026",
       "scope": "England and Wales; claims with entitlement. Recipients may work. Not all UK disability support.",
       "source_numbers": [
-        4,
-        31
+        5,
+        6
       ]
     },
     {
@@ -80,7 +80,7 @@
       "period": "July 2026",
       "scope": "Normal-rules Personal Independence Payment claims, England and Wales; not population prevalence, a work-capacity measure or a fraud estimate.",
       "source_numbers": [
-        4
+        5
       ]
     },
     {
@@ -90,7 +90,7 @@
       "period": "June 2026",
       "scope": "UK headcount; included in public-sector employment",
       "source_numbers": [
-        1
+        4
       ]
     },
     {
@@ -101,7 +101,7 @@
       "scope": "UK; calculated from rounded headcounts",
       "calculation": "2.07 million / 6.21 million * 100",
       "source_numbers": [
-        1
+        4
       ]
     },
     {
@@ -111,7 +111,7 @@
       "period": "2025/26 report",
       "scope": "Whole HM Courts & Tribunals Service headcount; not benefit appeals alone or the complete assessment and appeals workforce",
       "source_numbers": [
-        23
+        7
       ]
     }
   ],
@@ -152,76 +152,76 @@
   "sources": [
     {
       "number": 1,
-      "title": "ONS: UK public-sector employment, June 2026",
-      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/publicsectorpersonnel/bulletins/publicsectoremployment/june2026",
-      "checked": "2026-10-17",
-      "type": "Official statistics or report"
-    },
-    {
-      "number": 4,
-      "title": "DWP: PIP statistics to July 2026, England & Wales",
-      "url": "https://www.gov.uk/government/statistics/personal-independence-payment-statistics-to-july-2026/personal-independence-payment-statistics-to-july-2026",
-      "checked": "2026-10-17",
-      "type": "Official statistics or report"
-    },
-    {
-      "number": 23,
-      "title": "HMCTS accounts 2025/26, pp. 3, 20-21, 66",
-      "url": "https://assets.publishing.service.gov.uk/media/6a4f74d02467584757371b31/HMCTS1136_Annual_Report_2026_v11_RGB.pdf",
-      "checked": "2026-10-17",
-      "type": "Official statistics or report"
-    },
-    {
-      "number": 28,
       "title": "ONS: provisional UK population, mid-2025",
       "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/provisionalpopulationestimatefortheuk/mid2025",
       "checked": "2026-10-17",
       "type": "Official statistics or report"
     },
     {
-      "number": 29,
+      "number": 2,
       "title": "ONS: Employment in the UK, September 2026",
       "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/september2026",
       "checked": "2026-10-17",
       "type": "Official statistics or report"
     },
     {
-      "number": 30,
+      "number": 3,
       "title": "DWP: Family Resources Survey 2024/25, section 4",
       "url": "https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2024-to-2025/family-resources-survey-financial-year-2024-to-2025",
       "checked": "2026-10-17",
       "type": "Official statistics or report"
     },
     {
-      "number": 31,
+      "number": 4,
+      "title": "ONS: UK public-sector employment, June 2026",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/publicsectorpersonnel/bulletins/publicsectoremployment/june2026",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 5,
+      "title": "DWP: PIP statistics to July 2026, England & Wales",
+      "url": "https://www.gov.uk/government/statistics/personal-independence-payment-statistics-to-july-2026/personal-independence-payment-statistics-to-july-2026",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 6,
       "title": "GOV.UK: Personal Independence Payment eligibility",
       "url": "https://www.gov.uk/pip",
       "checked": "2026-10-17",
       "type": "Official guidance"
     },
     {
-      "number": 32,
+      "number": 7,
+      "title": "HMCTS accounts 2025/26, pp. 3, 20-21, 66",
+      "url": "https://assets.publishing.service.gov.uk/media/6a4f74d02467584757371b31/HMCTS1136_Annual_Report_2026_v11_RGB.pdf",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 8,
       "title": "GOV.UK: PIP eligibility",
       "url": "https://www.gov.uk/pip/eligibility",
       "type": "Official guidance",
       "checked": "2026-10-17"
     },
     {
-      "number": 33,
+      "number": 9,
       "title": "GOV.UK: Benefit fraud",
       "url": "https://www.gov.uk/benefit-fraud",
       "type": "Official guidance",
       "checked": "2026-10-17"
     },
     {
-      "number": 34,
+      "number": 10,
       "title": "GOV.UK: Mandatory reconsideration",
       "url": "https://www.gov.uk/mandatory-reconsideration",
       "type": "Official guidance",
       "checked": "2026-10-17"
     },
     {
-      "number": 35,
+      "number": 11,
       "title": "GOV.UK: Appeal a benefit decision",
       "url": "https://www.gov.uk/appeal-benefit-decision",
       "type": "Official guidance",
@@ -255,24 +255,24 @@
       "title": "Eligibility is not a slogan",
       "text": "PIP concerns the effects of a long-term condition on everyday activities or mobility. A diagnosis or feeling distressed alone does not establish entitlement. PIP can be received while working; it is not an unemployment benefit. Scotland uses Adult Disability Payment for new claims. This page’s PIP statistics cover England and Wales, not the whole UK.",
       "source_numbers": [
-        31,
-        32,
-        4
+        5,
+        6,
+        8
       ]
     },
     {
       "title": "Lawful support is not exploitation",
       "text": "Helping someone describe genuine difficulties and claim support they qualify for is different from encouraging false information. GOV.UK describes benefit fraud as intentionally claiming support to which someone is not entitled. These anecdotes do not establish that any particular person committed fraud.",
       "source_numbers": [
-        33
+        9
       ]
     },
     {
       "title": "Decisions can be challenged",
       "text": "For PIP decisions in England and Wales, the usual route starts with mandatory reconsideration, followed by an appeal to the independent Social Security and Child Support Tribunal. Official guidance sets out deadlines and exceptions. Northern Ireland and decisions by Social Security Scotland have different routes. Independent Tribunal is not that statutory tribunal and cannot decide benefit entitlement.",
       "source_numbers": [
-        34,
-        35
+        10,
+        11
       ]
     }
   ],

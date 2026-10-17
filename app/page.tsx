@@ -51,7 +51,7 @@ export default function Home() {
 
       <footer className="site-footer shell">
         <div className="brand"><span className="brand-seal">IT</span><span>Independent Tribunal<small>The law, shown openly</small></span></div>
-        <p>Independent Tribunal is not a court.<small>Commentary and education, not legal advice.</small></p>
+        <p>Evidence and law, analysed from first principles.<small>Fact-check with multiple frontier AI models—and verify against the original sources.</small></p>
         <nav>
           <a href="/research/">Research</a>
           <a href="/nuances/">Nuances</a>

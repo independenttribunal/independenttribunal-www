@@ -1,21 +1,27 @@
 ---
 title: Editorial standards
-summary: What this hub is, what it is not, and the rules every entry follows.
-updated: 2026-10-14
+summary: First-principles analysis, referenced evidence and reasoning open to scrutiny.
+updated: 2026-10-17
 order: 1
 ---
 
 ## What this is
 
-Independent Tribunal's Legal affairs section is a public-interest research hub. We collect, organise and link to the public record on law, courts and state power: legislation, judgments, official publications and published reporting.
+Independent Tribunal is an independent information source analysing evidence, law and public records from first principles. We collect, organise and link to legislation, judgments, official publications and published reporting. Our authority rests on evidence and reasoning that readers can examine and challenge.
 
 We also publish **commentary**. Some pages, such as the UK timeline, argue a point of view about how laws have been written and used. Commentary is labelled as commentary, and the facts it rests on link to their primary sources so readers can check them and reach their own view.
 
-## What this is not
+## Legal framework
 
-- **Not a court.** Nothing here is a verdict, finding of guilt or legal determination about anyone.
-- **Not legal advice.** Laws change and differ between countries. If you face a legal question, speak to a qualified lawyer where you are.
-- **Not affiliated** with any court, government, party, campaign or organisation we write about. Linking to a source is not an endorsement of it.
+Our published analysis may resemble legal advice. Its purpose is public research and explanation, rather than recommendations tailored to a reader's individual circumstances.
+
+In England and Wales, [section 12 of the Legal Services Act 2007](https://www.legislation.gov.uk/ukpga/2007/29/section/12) distinguishes reserved legal activities from other legal activities. As the [Legal Services Board explains](https://legalservicesboard.org.uk/enquiries/frequently-asked-questions/reserved-legal-activities), legal advice can be unreserved. That distinction does not automatically make published analysis “not legal advice”, nor does it establish judicial authority. The nature of the activity matters, not just its label.
+
+We attribute judicial decisions to the bodies that made them and distinguish our own analysis from those decisions. No affiliation with any court, government, party, campaign or organisation we discuss is implied. Linking to a source is not an endorsement of it.
+
+## Check the reasoning
+
+We encourage you to fact-check everything with multiple frontier AI models. Ask them to locate primary sources, test assumptions and identify counterarguments. Then open the original sources and verify the passages, dates, jurisdiction and context yourself: models can make mistakes, invent citations or repeat the same error. Agreement between models is not independent verification. For decisions affecting your own legal rights, obtain advice appropriate to your circumstances and jurisdiction.
 
 ## The rules every entry follows
 

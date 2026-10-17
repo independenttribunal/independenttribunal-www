@@ -13,6 +13,9 @@ export function validateCommentary(p, fail) {
     ids.add(s.number);
     if (!/^https:\/\//.test(s.url) || !s.title || !s.type || s.checked !== p.checked) fail("source metadata required");
   }
+  if ((p.sources ?? []).some((s, index) => s.number !== index + 1)) fail("source numbers must be consecutive from 1");
+  const citationOrder = [...new Set([...(p.scale_figures ?? []), ...(p.legal_context ?? [])].flatMap((item) => item.source_numbers ?? []))];
+  if (citationOrder.some((id, index) => id !== index + 1)) fail("sources must be numbered in order of first citation");
   for (const key of ["sources", "scale_figures", "legal_context", "first_principles", "questions", "reading_rules", "editorial_argument", "alternative_explanations_to_test"]) {
     if (!Array.isArray(p[key]) || !p[key].length) fail(`${key} required`);
   }
@@ -45,7 +48,7 @@ export function commentaryText(p) {
 export async function publishCommentary({ commentary, put, page, escapeHtml: e }) {
   for (const p of commentary) {
     const sources = new Map(p.sources.map((s) => [s.number, s]));
-    const refs = (ids) => `<span class="src">${ids.map((id) => `<a href="${e(sources.get(id).url)}" aria-label="Source ${id}: ${e(sources.get(id).title)}">[${id}]</a>`).join(" · ")}</span>`;
+    const refs = (ids) => `<span class="src">${ids.map((id) => `<a href="${e(sources.get(id).url)}" target="_blank" rel="noopener noreferrer" aria-label="Source ${id}: ${e(sources.get(id).title)} (opens in a new tab)">[${id}]</a>`).join(" · ")}</span>`;
     const list = (items) => `<ul>${items.map((x) => `<li>${e(x)}</li>`).join("")}</ul>`;
     const sections = [["the-paradox", "The paradox"], ["starting-point", "Starting point"], ["the-scale", "The scale"], ["law-and-accountability", "Law and accountability"], ["questions", "Questions to test"], ["sources", "Sources"]];
     await put(`research/${p.id}/index.html`, page({
@@ -89,7 +92,7 @@ export async function publishCommentary({ commentary, put, page, escapeHtml: e }
       <h3>How to read these figures</h3>${list(p.reading_rules)}</section>
       <section class="essay-section" id="law-and-accountability"><h2>Law, entitlement and accountability</h2>${p.legal_context.map((x) => `<h3>${e(x.title)}</h3><p>${e(x.text)} ${refs(x.source_numbers)}</p>`).join("")}</section>
       <section class="essay-section" id="questions"><h2>Exploiting the benefits system?</h2><p class="meta">A hypothesis to test—not a finding</p><p class="rule">${e(p.hypothesis_to_test)}</p><h3>Alternative explanations to test</h3>${list(p.alternative_explanations_to_test)}<h3>What would we need to know?</h3>${list(p.questions)}<h3>Still unknown</h3><ul class="essay-unknowns">${Object.keys(p.unknowns).map((key) => `<li>${e(p.unknown_labels[key])}: <strong>unknown</strong>.</li>`).join("")}</ul><p>Unknown is not zero. The figures above do not supply these answers. Investigating institutional incentives should not become a presumption against people with mental-health conditions or disabilities.</p></section>
-      <section class="essay-section" id="sources"><h2>Sources and provenance</h2><p>The personal account and artwork were supplied by the author. Neither is independent evidence of benefit misuse. The figures link to the dated official releases below; the legal context links to official guidance. No private individuals are identified.</p><ul class="essay-sources">${p.sources.map((s) => `<li id="source-${s.number}">[${s.number}] <a href="${e(s.url)}">${e(s.title)}</a><small>${e(s.type)} · checked ${e(s.checked)}</small></li>`).join("")}</ul></section>
+      <section class="essay-section" id="sources"><h2>Sources and provenance</h2><p>The personal account and artwork were supplied by the author. Neither is independent evidence of benefit misuse. The figures link to the dated official releases below; the legal context links to official guidance. No private individuals are identified. Source links open in a new tab.</p><ul class="essay-sources">${p.sources.map((s) => `<li id="source-${s.number}">[${s.number}] <a href="${e(s.url)}" target="_blank" rel="noopener noreferrer" aria-label="${e(s.title)} (opens in a new tab)">${e(s.title)}</a><small>${e(s.type)} · checked ${e(s.checked)}</small></li>`).join("")}</ul></section>
       <p><a href="/research/">Back to the research library</a> · <a href="/legal/editorial-standards/">Editorial standards</a></p>`,
     }));
   }
