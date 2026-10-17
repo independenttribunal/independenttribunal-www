@@ -39,6 +39,28 @@ test("no external citation from the original source and Hansard pages is lost", 
   for (const url of manifest.external_links) assert.ok(urls.has(url), `missing ${url}`);
 });
 
+test("the sourced August ruling precedes the superseded Barclays5 reporting everywhere", async () => {
+  const r = await json("public/data/research/barclays5.json");
+  const u = r.updates[0];
+  assert.equal(u.date, "2026-08-21");
+  assert.equal(u.checked, "2026-10-17");
+  assert.ok(u.sources.some((s) => s.type === "judgment" && s.url.endsWith("R-v-OHagan-and-others.pdf")));
+  const html = await read("public/research/barclays5/index.html");
+  assert.ok(html.indexOf(`id="${u.id}"`) < html.indexOf('aria-label="Research dossiers"'), "update above navigation and archived material");
+  assert.ok(html.indexOf(`id="${u.id}"`) < html.indexOf('id="original-dossier"'));
+  assert.match(html, /not an acquittal/);
+  assert.match(html, /does not rule out terrorist-connection findings in other cases/);
+  assert.match(html, /court subsequently rejected/);
+  assert.match(html, /later sentencing and appeal outcomes have not been verified/);
+  const { tiles } = await json("public/data/tiles.json");
+  assert.equal(tiles.find((t) => t.id === "barclays5").summary, r.summary);
+  assert.ok((await read("public/research/index.html")).includes(r.summary));
+  const related = await read("public/research/terrorist-connection/index.html");
+  assert.ok(related.indexOf(`/research/barclays5/#${u.id}`) < related.indexOf('id="original-dossier"'));
+  const full = await read("public/llms-full.txt");
+  assert.ok(full.indexOf(u.summary) < full.indexOf("Activists Who Spray-Painted Barclays Set to Be Sentenced as Terrorists"));
+});
+
 test("Hansard is accessible, attributed, and the statute correction is explicit", async () => {
   const hansard = await read("public/research/terrorist-connection/index.html");
   assert.match(hansard, /id="hansard"/);

@@ -15,6 +15,14 @@ export async function loadResearch(dataDir, fail) {
     for (const key of ["source_as_of", "migrated_on"]) if (!/^\d{4}-\d{2}-\d{2}$/.test(r[key])) fail(where, `${key} must be YYYY-MM-DD`);
     if (r.verification !== "historical-import-needs-current-review") fail(where, "import must retain its unverified status");
     if (!Array.isArray(r.tags) || !Array.isArray(r.links) || !Array.isArray(r.corrections)) fail(where, "tags, links and corrections must be arrays");
+    const updateIds = new Set();
+    for (const u of r.updates ?? []) {
+      if (!/^[a-z0-9-]+$/.test(u.id) || updateIds.has(u.id)) fail(where, "updates require unique safe ids");
+      updateIds.add(u.id);
+      for (const key of ["date", "checked"]) if (!/^\d{4}-\d{2}-\d{2}$/.test(u[key])) fail(where, `update ${key} must be YYYY-MM-DD`);
+      if (!u.title || !u.summary || !u.date_label || !u.paragraphs?.length || !u.sources?.length) fail(where, "updates require a title, dated account and sources");
+      for (const s of u.sources ?? []) if (!s.title || !s.publisher || !s.type || !/^https:\/\//.test(s.url) || !/^\d{4}-\d{2}-\d{2}$/.test(s.checked)) fail(where, "update sources require attribution, HTTPS and a checked date");
+    }
     if (!/^https:\/\/github\.com\/[\w-]+\/[\w-]+$/.test(r.provenance?.repository) || !/^[a-f0-9]{40}$/.test(r.provenance?.commit)) fail(where, "immutable source provenance required");
     // Imported markup is committed editorial content, never executable content.
     const allowedTags = new Set(["p", "a", "ul", "ol", "li", "span", "strong", "em", "b", "i", "h2", "h3", "h4", "blockquote", "cite", "br", "div", "section", "code", "small", "hr"]);
@@ -29,8 +37,13 @@ export async function loadResearch(dataDir, fail) {
     }
     records.push(r);
   }
+  for (const r of records) for (const id of r.related_updates ?? []) {
+    if (!records.some((other) => other.id === id && other.updates?.length)) fail(`research/${r.id}`, `no updates for related dossier ${id}`);
+  }
   return records.sort((a, b) => a.order - b.order);
 }
+
+export const researchUpdatesText = (r) => (r.updates ?? []).map((u) => `Case update: ${u.title}\nEvent date: ${u.date}. Checked: ${u.checked}\n${u.summary}\n${u.paragraphs.join("\n\n")}\nSources: ${u.sources.map((s) => `${s.title} (${s.publisher}) <${s.url}>`).join("; ")}`).join("\n\n");
 
 export const researchText = (html) => html
   .replace(/<\/(?:p|li|h[2-4]|blockquote)>/g, "\n\n")
@@ -39,6 +52,12 @@ export const researchText = (html) => html
   .replace(/[ \t]+/g, " ").trim();
 
 export async function publishResearch({ records, put, page, escapeHtml: e, site }) {
+  const updatesHtml = (r) => (r.updates ?? []).map((u) => `<section class="research-update" id="${u.id}" aria-labelledby="${u.id}-title"><p class="kicker">Case update · <time datetime="${u.date}">${e(u.date_label)}</time></p><h2 id="${u.id}-title">${e(u.title)}</h2><p><strong>${e(u.summary)}</strong></p>${u.paragraphs.map((p) => `<p>${e(p)}</p>`).join("")}<ul>${u.sources.map((s) => `<li><a href="${e(s.url)}">${e(s.title)}</a><br><span class="attributed">${e(s.publisher)}</span></li>`).join("")}</ul><p class="meta">Ruling checked ${e(u.checked)} · original dossier retained below</p></section>`).join("");
+  const relatedUpdatesHtml = (r) => (r.related_updates ?? []).map((id) => {
+    const other = records.find((x) => x.id === id);
+    const u = other.updates[0];
+    return `<aside class="research-update"><p class="kicker">${e(other.title)} · update ${e(u.date_label)}</p><p><strong>${e(u.summary)}</strong></p><p>The earlier Barclays5 comparisons below predate this decision. <a href="/research/${id}/#${u.id}">Read the ruling and sourced update →</a></p></aside>`;
+  }).join("");
   const nav = (current) => `<nav class="research-nav" aria-label="Research dossiers">${records.map((r) => `<a href="/research/${r.id}/"${r.id === current ? ' aria-current="page"' : ""}>${e(r.title)}</a>`).join("")}</nav>`;
   const styles = `<style>
     .research-nav { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.5rem 0 2rem; font:600 12px/1.5 ui-sans-serif,system-ui,sans-serif; }
@@ -47,6 +66,10 @@ export async function publishResearch({ records, put, page, escapeHtml: e, site 
     .research-notice { padding:1rem 1.3rem; border-left:3px solid var(--gold); background:#eee8da; margin:1.5rem 0; }
     .research-notice p { margin:.4rem 0; }
     .research-notice strong { font-family:ui-sans-serif,system-ui,sans-serif; }
+    .research-update { padding:1.3rem; margin:1.5rem 0; background:white; border:1px solid #bacbc7; border-top:4px solid #286355; }
+    .research-update h2 { margin:.7rem 0 1rem; }
+    .research-update .kicker { line-height:1.5; color:#24574c; }
+    .research-update .meta { margin-bottom:0; }
     .research-body { overflow-wrap:anywhere; }
     .research-body .src { list-style:none; padding:0; font:inherit; color:inherit; }
     .research-body .src li { padding:1.4rem 0; margin:0; border-top:1px solid var(--line); }
@@ -75,7 +98,7 @@ export async function publishResearch({ records, put, page, escapeHtml: e, site 
       title: r.title, description: r.summary, path: `/research/${r.id}/`,
       meta: `<p class="meta">Source dossier: ${e(r.source_as_of)} · Migrated: ${e(r.migrated_on)} (not a verification date)<br><a href="/data/research/${r.id}.json">Download this dossier as JSON</a> · <a href="${site.source_repo}/commits/main/data/research/${r.id}.json">Edit history</a></p>`,
       body: `${styles}<div class="kicker"><a href="/research/">Legal research</a> · ${e(r.jurisdiction)}</div>
-        <h1>${e(r.title)}</h1><p class="lede">${e(r.summary)}</p>${nav(r.id)}
+        <h1>${e(r.title)}</h1><p class="lede">${e(r.summary)}</p>${updatesHtml(r)}${relatedUpdatesHtml(r)}${nav(r.id)}
         <aside class="research-notice" aria-label="Research status"><strong>Historical dossier · current-status review pending</strong><p>The imported research is dated <time datetime="${r.source_as_of}">28 July 2026</time>. Its original reporting, quotations and annotations are preserved below; do not read them as confirmed current outcomes. Links have not all been rechecked.</p><p>${e(r.review_note)}</p></aside>
         ${r.corrections.length ? `<section aria-label="Corrections"><h2>Migration corrections</h2>${r.corrections.map((c) => `<p>${e(c.text)} <a href="${e(c.url)}">Statutory source</a> <span class="meta">(${e(c.date)})</span></p>`).join("")}</section>` : ""}
         <h2 id="original-dossier">Original dossier · July 2026</h2><p class="attributed">The following narrative and source annotations are the original author’s research and commentary. Publisher labels such as “Campaign” or “Partisan” are the author’s descriptions, not independent ratings. Allegations, reported verdicts and opinions must be distinguished and checked against the primary record.</p>

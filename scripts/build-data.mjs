@@ -17,7 +17,7 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadResearch, publishResearch, researchText } from "./research.mjs";
+import { loadResearch, publishResearch, researchText, researchUpdatesText } from "./research.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "data");
@@ -242,7 +242,7 @@ const tribunalsOut = tribunals.map((t) => ({
 await put("data/tribunals.json", { generated: built, license: site.license, about: "People's and independent tribunals: who convened them, what they asked, what they found (attributed to them), their legal status, and the primary record. A tribunal's findings are its own, not a court's and not ours.", tribunals: tribunalsOut });
 
 const tiles = [
-  ...research.map((r) => ({ kind: "research", id: r.id, title: r.title, label: `${r.jurisdiction} · historical dossier`, summary: r.summary, tags: [...r.tags, "research"], href: `/research/${r.id}/`, uk: r.tags.includes("uk") })),
+  ...research.map((r) => ({ kind: "research", id: r.id, title: r.title, label: `${r.jurisdiction} · ${r.updates?.length ? "case update available" : "historical dossier"}`, summary: r.summary, tags: [...r.tags, "research"], href: `/research/${r.id}/`, uk: r.tags.includes("uk") })),
   ...nuancesOut.map((n) => ({ kind: "nuance", id: n.id, title: n.title, label: n.label, summary: plain(n.summary), tags: n.tags ?? [], href: `/nuances/${n.id}/`, uk: true })),
   ...timelinesOut.map((t) => ({ kind: "timeline", id: t.id, title: t.title, label: t.kicker, summary: plain(t.description), tags: ["protest", "timeline"], href: t.path, uk: true })),
   ...tribunalsOut.map((t) => ({ kind: "tribunal", id: t.id, title: t.name, label: `Independent tribunal · ${t.status}`, summary: plain(t.summary), tags: t.tags, href: `/independent-tribunals/${t.id}/`, uk: t.tags.includes("uk") })),
@@ -250,7 +250,7 @@ const tiles = [
 await put("data/tiles.json", { generated: built, tiles });
 
 const researchOut = research.map((r) => ({ ...r, url: abs(`/research/${r.id}/`), body_text: researchText(r.body_html) }));
-await put("data/research.json", { generated: built, about: "Dated research imported from the Barclays5 repository. Not a current-status verification. Original source annotations are commentary; imported links have not all been rechecked.", research: researchOut });
+await put("data/research.json", { generated: built, about: "Dated research imported from the Barclays5 repository. Read any separately sourced updates before the historical body. Each update has its own event date, checked date and sources; it does not verify the rest of the dossier. Original source annotations are commentary; imported links have not all been rechecked.", research: researchOut });
 for (const r of researchOut) await put(`data/research/${r.id}.json`, r);
 
 await put("data/policies.json", {
@@ -537,6 +537,8 @@ When citing, cite the primary source each entry links to (\`sources[].url\`). Fa
 
 Research dossiers are an exception: these are historical imports dated 2026-07-28, not verified current reports. Their \`migrated_on\` date is NOT a fact-check date. Preserve \`verification\`, \`review_note\`, corrections and source attribution when using them. Imported source annotations are commentary, including political labels.
 
+Read any \`updates\` before the historical \`body_html\` or \`body_text\`: these are separately sourced developments with their own event and checked dates. An update supersedes conflicting historical claims only within its stated scope; it is not a full re-verification of the dossier. Follow \`related_updates\` to updates in the named dossier.
+
 ## Data
 
 - [Data index](${abs("/data/index.json")}): every dataset, with counts and coverage
@@ -577,7 +579,7 @@ await put("llms.txt", llms);
 const full = [
   `# ${site.name} — full text\n\nGenerated ${built} from ${site.source_repo}. ${site.summary}\n`,
   `\n## Historical research dossiers\n\nImported source narratives and annotations, not newly verified reporting. Political labels belong to the original author. Check primary records before relying on case-status claims.\n`,
-  ...researchOut.map((r) => `\n### ${r.title}\n\nURL: ${r.url}\nSource date: ${r.source_as_of}. Migrated: ${r.migrated_on} (not a verification date). Status: ${r.verification}\n${r.review_note}\n\n${r.corrections.map((c) => `Correction (${c.date}): ${c.text} <${c.url}>`).join("\n")}\n\n${r.body_text}\n\nSource snapshot: ${r.provenance.repository}/tree/${r.provenance.commit}\nImported links (not all rechecked):\n${r.links.map((l) => `- ${l.label} <${l.url}>`).join("\n")}\n`),
+  ...researchOut.map((r) => `\n### ${r.title}\n\nURL: ${r.url}\nSource date: ${r.source_as_of}. Migrated: ${r.migrated_on} (not a verification date). Status: ${r.verification}\n${r.review_note}\n\n${r.corrections.map((c) => `Correction (${c.date}): ${c.text} <${c.url}>`).join("\n")}\n\n${researchUpdatesText(r)}\n\nOriginal dossier (historical):\n${r.body_text}\n\nSource snapshot: ${r.provenance.repository}/tree/${r.provenance.commit}\nImported links (not all rechecked):\n${r.links.map((l) => `- ${l.label} <${l.url}>`).join("\n")}\n`),
   `\n## Independent tribunals\n\nFindings below are each tribunal's own, not a court's and not ours.\n`,
   ...tribunalsOut.map((t) => `\n### ${t.name}\n\nURL: ${t.url}\nStatus: ${t.status}. Tags: ${t.tags.join(", ")}. Checked: ${t.checked}\n\n${plain(t.summary)}\n\nConvened by: ${plain(t.convened_by)}\n${t.panel ? `Panel: ${plain(t.panel)}\n` : ""}Question: ${plain(t.question)}\nLegal status: ${plain(t.legal_status)}\n\nFindings (attributed to the tribunal):\n${t.findings.map((f) => `- ${plain(f)}`).join("\n")}\n\nNuance:\n${t.nuance.map((p) => `- ${plain(p)}`).join("\n")}\n\nTimeline:\n${[...t.sat, ...t.aftermath].sort((a, b) => a.date.localeCompare(b.date)).map((h) => `- ${h.date_label}: ${plain(h.text)}${h.sources.length ? ` [${h.sources.map((x) => x.url).join(", ")}]` : ""}`).join("\n")}\n\nSources: ${t.sources.map((x) => `${x.title} <${x.url}>`).join("; ")}\n`),
   `\n## Legal nuances\n`,

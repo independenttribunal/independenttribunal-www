@@ -2,7 +2,7 @@
   "id": "barclays5",
   "title": "Barclays5",
   "jurisdiction": "Burnley · England and Wales",
-  "summary": "The Burnley Barclays criminal-damage case, the sentencing dispute and the reporting collected in the original dossier.",
+  "summary": "On 21 August 2026, the judge ruled out terrorist-connection sentencing in the Barclays5 case. The earlier reporting is retained below as a historical record.",
   "tags": [
     "uk",
     "protest",
@@ -12,7 +12,40 @@
   "source_as_of": "2026-07-28",
   "migrated_on": "2026-10-17",
   "verification": "historical-import-needs-current-review",
-  "review_note": "The original dossier said sentencing was listed for September 2026. That date has passed. This migration does not establish the sentencing outcome or current appeal status.",
+  "review_note": "The August 2026 ruling supersedes the July dossier’s suggestion that terrorist-connection sentencing remained a possibility in this case. Read the update above first. The wider imported dossier, subsequent sentence and any appeal status have not had a full current-status review.",
+  "updates": [
+    {
+      "id": "2026-08-21-ruling",
+      "date": "2026-08-21",
+      "date_label": "21 August 2026",
+      "checked": "2026-10-17",
+      "title": "Judge rules out terrorist-connection sentencing",
+      "summary": "On 21 August 2026, HHJ Altham at Preston Crown Court ruled that section 69 of the Sentencing Act 2020 did not apply to the Barclays5 case.",
+      "paragraphs": [
+        "The judge found that the damage, although significant, did not meet the high threshold of serious damage in the statutory definition of terrorism (ruling, paragraphs 45–50 and 56).",
+        "This was a decision about sentencing, not an acquittal of criminal damage. The judge expressly limited the decision to these facts; it does not rule out terrorist-connection findings in other cases (paragraph 51).",
+        "The July headlines and commentary below describe a sentencing proposal that the court subsequently rejected. This update confirms the August ruling only; later sentencing and appeal outcomes have not been verified here."
+      ],
+      "sources": [
+        {
+          "title": "R v O’Hagan and others — ruling on section 69 (PDF)",
+          "publisher": "Preston Crown Court; copy hosted by SolicitorNews",
+          "type": "judgment",
+          "date": "2026-08-21",
+          "checked": "2026-10-17",
+          "url": "https://solicitornews.co.uk/wp-content/uploads/2026/08/R-v-OHagan-and-others.pdf"
+        },
+        {
+          "title": "Case report from counsel’s chambers",
+          "publisher": "Garden Court Chambers; counsel acted for one defendant",
+          "type": "participant-report",
+          "date": "2026-08-21",
+          "checked": "2026-10-17",
+          "url": "https://gardencourtchambers.co.uk/palestine-action-barclays-five-activists-will-not-be-sentenced-as-terrorists/"
+        }
+      ]
+    }
+  ],
   "provenance": {
     "repository": "https://github.com/PlanetaryCouncil/barclays5",
     "commit": "9831cfdcb6ca0f63f488cd81794f8e6d0e79f88c",
