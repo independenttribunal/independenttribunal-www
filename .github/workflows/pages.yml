@@ -40,10 +40,13 @@ jobs:
           test -s dist/client/data/research.json
           test -s dist/client/research/roger-hallam/index.html
           test -s dist/client/data/profiles/roger-hallam.json
+          test -s dist/client/research/mental-health-uk/index.html
+          test -s dist/client/data/commentary/mental-health-uk.json
+          test -s dist/client/images/mental-health-uk/inverse-catch-22.png
           for dossier in barclays5 filton6 terrorist-connection proscription-litigation hunger-strikes prairieland; do
             test -s "dist/client/research/$dossier/index.html"
           done
-          node --test tests/data.test.mjs tests/research.test.mjs tests/profiles.test.mjs
+          node --test tests/data.test.mjs tests/research.test.mjs tests/profiles.test.mjs tests/commentary.test.mjs
           mkdir -p dist/client/about
           cp dist/client/about.html dist/client/about/index.html
           cp CNAME dist/client/CNAME

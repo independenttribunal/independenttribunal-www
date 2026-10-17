@@ -1,0 +1,290 @@
+{
+  "title": "Mental health in the UK",
+  "subtitle": "Starting from multiple independent anecdotes: people advising me how easy it is to get disability support, and that I should claim it.",
+  "created_on": "2026-09-19",
+  "purpose": "A simplified account of scale and a starting point for investigating possible problems in eligibility, administration and incentives.",
+  "evidence_frame": {
+    "personal_account": "I report multiple independent conversations in which people advised me that disability support was easy to obtain and encouraged me to claim it.",
+    "provenance": "User-reported personal experience; not independently verified.",
+    "independence": "Described as independent by the user; no information supplied to assess shared sources or social-network selection.",
+    "number_of_accounts": null,
+    "interpretation": "These anecdotes motivate the questions. They do not establish how easy eligibility is, whether the advice was accurate, how common misrepresentation is, or whether incentives explain the national figures."
+  },
+  "scale_figures": [
+    {
+      "label": "UK population",
+      "value": 69487000,
+      "display": "69.5 million",
+      "period": "Mid-2025",
+      "scope": "UK, all ages; provisional",
+      "source_numbers": [
+        28
+      ]
+    },
+    {
+      "label": "Working-age population",
+      "value": 43600000,
+      "display": "Approximately 43.6 million",
+      "period": "May-July 2026",
+      "scope": "UK, ages 16-64; approximate population implied by rounded Labour Force Survey estimates",
+      "calculation": "9,121,000 economically inactive / 0.209 inactivity rate; rounded to 0.1 million",
+      "source_numbers": [
+        29
+      ]
+    },
+    {
+      "label": "People in employment",
+      "value": 34478000,
+      "display": "34.48 million",
+      "period": "May-July 2026",
+      "scope": "UK, ages 16 and over; Labour Force Survey estimate",
+      "source_numbers": [
+        29
+      ]
+    },
+    {
+      "label": "Disabled people",
+      "value": 16700000,
+      "display": "16.7 million",
+      "period": "2024/25",
+      "scope": "UK private-household survey population; long-term conditions limiting everyday activities. Not a count of benefit recipients or people unable to work.",
+      "source_numbers": [
+        30
+      ]
+    },
+    {
+      "label": "Public-sector workers",
+      "value": 6210000,
+      "display": "6.21 million",
+      "period": "June 2026",
+      "scope": "UK headcount",
+      "source_numbers": [
+        1
+      ]
+    },
+    {
+      "label": "Disability support: Personal Independence Payment",
+      "value": 4100000,
+      "display": "4.1 million",
+      "period": "31 July 2026",
+      "scope": "England and Wales; claims with entitlement. Recipients may work. Not all UK disability support.",
+      "source_numbers": [
+        4,
+        31
+      ]
+    },
+    {
+      "label": "Psychiatric-disorder category within disability support",
+      "value": 39,
+      "unit": "percent",
+      "period": "July 2026",
+      "scope": "Normal-rules Personal Independence Payment claims, England and Wales; not population prevalence, a work-capacity measure or a fraud estimate.",
+      "source_numbers": [
+        4
+      ]
+    },
+    {
+      "label": "NHS workers",
+      "value": 2070000,
+      "display": "2.07 million",
+      "period": "June 2026",
+      "scope": "UK headcount; included in public-sector employment",
+      "source_numbers": [
+        1
+      ]
+    },
+    {
+      "label": "NHS share of public-sector workers",
+      "value": 33.3,
+      "unit": "percent",
+      "period": "June 2026",
+      "scope": "UK; calculated from rounded headcounts",
+      "calculation": "2.07 million / 6.21 million * 100",
+      "source_numbers": [
+        1
+      ]
+    },
+    {
+      "label": "Courts and tribunals service staff",
+      "value": 19000,
+      "display": "Approximately 19,000",
+      "period": "2025/26 report",
+      "scope": "Whole HM Courts & Tribunals Service headcount; not benefit appeals alone or the complete assessment and appeals workforce",
+      "source_numbers": [
+        23
+      ]
+    }
+  ],
+  "first_principles": [
+    "Separate the number of people with health-related needs, the number entitled to support, and the number unable to work.",
+    "Determine what support is intended to achieve and what evidence demonstrates eligibility.",
+    "Distinguish the existence of a financial incentive from evidence of its effect on behaviour.",
+    "Measure resources used and outcomes achieved before judging efficiency or waste."
+  ],
+  "hypothesis_to_test": "Could eligibility rules, financial incentives or shared claiming advice encourage some people to claim support without meeting the intended criteria?",
+  "alternative_explanations_to_test": [
+    "Advice helping genuinely eligible people access support",
+    "Changes in underlying health and disability",
+    "Greater recognition or diagnosis",
+    "Changes in eligibility, administration or awareness"
+  ],
+  "questions": [
+    "Which benefit did each person mean, and what exactly did they advise?",
+    "Were these accounts based on successful claims, hearsay or legitimate eligibility advice?",
+    "Did advisers describe genuine functional limitations or encourage exaggeration?",
+    "How representative are these conversations of people outside the same social networks?",
+    "What evidence distinguishes the effect of incentives from changes in health, recognition or access?",
+    "What are the current attributable workforce and full administrative cost of the complete process?"
+  ],
+  "unknowns": {
+    "current_complete_PIP_chain_cost_GBP_per_year": null,
+    "current_complete_PIP_chain_workforce": null,
+    "share_of_claims_caused_by_perverse_incentives": null,
+    "prevalence_of_misrepresentation_in_the_reported_anecdotes": null
+  },
+  "reading_rules": [
+    "Groups overlap: do not add them or use them as mutually exclusive pie slices.",
+    "Dates, geographical coverage and definitions differ.",
+    "A minor headache or diagnosis alone does not establish Personal Independence Payment eligibility; qualifying functional difficulties matter.",
+    "Null means unknown, not zero.",
+    "The cited releases were checked on 17 October 2026. These are the dated figures selected in the author’s September note, not a claim that every series is the latest available release."
+  ],
+  "sources": [
+    {
+      "number": 1,
+      "title": "ONS: UK public-sector employment, June 2026",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/publicsectorpersonnel/bulletins/publicsectoremployment/june2026",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 4,
+      "title": "DWP: PIP statistics to July 2026, England & Wales",
+      "url": "https://www.gov.uk/government/statistics/personal-independence-payment-statistics-to-july-2026/personal-independence-payment-statistics-to-july-2026",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 23,
+      "title": "HMCTS accounts 2025/26, pp. 3, 20-21, 66",
+      "url": "https://assets.publishing.service.gov.uk/media/6a4f74d02467584757371b31/HMCTS1136_Annual_Report_2026_v11_RGB.pdf",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 28,
+      "title": "ONS: provisional UK population, mid-2025",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/provisionalpopulationestimatefortheuk/mid2025",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 29,
+      "title": "ONS: Employment in the UK, September 2026",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/september2026",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 30,
+      "title": "DWP: Family Resources Survey 2024/25, section 4",
+      "url": "https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2024-to-2025/family-resources-survey-financial-year-2024-to-2025",
+      "checked": "2026-10-17",
+      "type": "Official statistics or report"
+    },
+    {
+      "number": 31,
+      "title": "GOV.UK: Personal Independence Payment eligibility",
+      "url": "https://www.gov.uk/pip",
+      "checked": "2026-10-17",
+      "type": "Official guidance"
+    },
+    {
+      "number": 32,
+      "title": "GOV.UK: PIP eligibility",
+      "url": "https://www.gov.uk/pip/eligibility",
+      "type": "Official guidance",
+      "checked": "2026-10-17"
+    },
+    {
+      "number": 33,
+      "title": "GOV.UK: Benefit fraud",
+      "url": "https://www.gov.uk/benefit-fraud",
+      "type": "Official guidance",
+      "checked": "2026-10-17"
+    },
+    {
+      "number": 34,
+      "title": "GOV.UK: Mandatory reconsideration",
+      "url": "https://www.gov.uk/mandatory-reconsideration",
+      "type": "Official guidance",
+      "checked": "2026-10-17"
+    },
+    {
+      "number": 35,
+      "title": "GOV.UK: Appeal a benefit decision",
+      "url": "https://www.gov.uk/appeal-benefit-decision",
+      "type": "Official guidance",
+      "checked": "2026-10-17"
+    }
+  ],
+  "original_title": "Critical thinking from first principles",
+  "id": "mental-health-uk",
+  "headline": "If you are crazy, that’s normal. If you are normal, that’s crazy.",
+  "summary": "The inverse Catch-22: mental health, disability support and institutional accountability. A satirical starting point, followed by evidence and questions—not a finding of benefit misuse.",
+  "genre": "Commentary and research questions",
+  "checked": "2026-10-17",
+  "tags": [
+    "uk",
+    "mental-health",
+    "benefits",
+    "accountability"
+  ],
+  "scope": "Commentary, not a clinical assessment, legal advice or benefits advice. The word “crazy” is used rhetorically in the headline and artwork, not as a diagnosis or a description of benefit recipients.",
+  "image": {
+    "src": "/images/mental-health-uk/inverse-catch-22.png",
+    "width": 1181,
+    "height": 1331,
+    "alt": "User-supplied satirical poster styled as an NHS notice. It contrasts Catch-22 with an inverse Catch-22 and provocatively urges disability claims. This is not an official NHS notice.",
+    "caption": "Satirical artwork supplied by the author—not an official NHS poster, NHS advice or an endorsement. Its invitation to claim regardless of entitlement is part of the satire, not this page’s advice.",
+    "transcript": "INVERSE CATCH-22. CATCH-22: If you ask not to fly because you’re afraid, that proves you’re sane—so you still have to fly. INVERSE CATCH-22: If this absurd world makes you feel crazy, you’re crazy. If it does not make you feel crazy, that seems crazy too. CLAIM YOUR DISABILITY PAYMENT NOW. If you don’t claim the benefit, someone else will exploit the benefit system.",
+    "rights": "User-supplied artwork, reproduced as supplied. The NHS mark does not indicate affiliation or endorsement; no rights in that mark are claimed."
+  },
+  "legal_context": [
+    {
+      "title": "Eligibility is not a slogan",
+      "text": "PIP concerns the effects of a long-term condition on everyday activities or mobility. A diagnosis or feeling distressed alone does not establish entitlement. PIP can be received while working; it is not an unemployment benefit. Scotland uses Adult Disability Payment for new claims. This page’s PIP statistics cover England and Wales, not the whole UK.",
+      "source_numbers": [
+        31,
+        32,
+        4
+      ]
+    },
+    {
+      "title": "Lawful support is not exploitation",
+      "text": "Helping someone describe genuine difficulties and claim support they qualify for is different from encouraging false information. GOV.UK describes benefit fraud as intentionally claiming support to which someone is not entitled. These anecdotes do not establish that any particular person committed fraud.",
+      "source_numbers": [
+        33
+      ]
+    },
+    {
+      "title": "Decisions can be challenged",
+      "text": "For PIP decisions in England and Wales, the usual route starts with mandatory reconsideration, followed by an appeal to the independent Social Security and Child Support Tribunal. Official guidance sets out deadlines and exceptions. Northern Ireland and decisions by Social Security Scotland have different routes. Independent Tribunal is not that statutory tribunal and cannot decide benefit entitlement.",
+      "source_numbers": [
+        34,
+        35
+      ]
+    }
+  ],
+  "editorial_argument": [
+    "The provocation is a reverse Catch-22: treating distress in an unsettling world as abnormal, while finding the absence of distress unsettling too. It is a metaphor about social expectations, not a diagnostic test.",
+    "The legal question is not who seems “normal”. It is whether decisions about support are justified by the relevant evidence and rules—and whether people can challenge a mistaken decision.",
+    "Complicity is a question to investigate, not a conclusion established by an incentive, a headcount or a conversation. Who benefits from the rules, who bears their costs, and what evidence would distinguish lawful help, administrative error and deliberate misuse?"
+  ],
+  "unknown_labels": {
+    "current_complete_PIP_chain_cost_GBP_per_year": "Annual cost of the complete PIP administration and appeals chain",
+    "current_complete_PIP_chain_workforce": "Workforce attributable to that complete chain",
+    "share_of_claims_caused_by_perverse_incentives": "Share of claims caused by perverse incentives",
+    "prevalence_of_misrepresentation_in_the_reported_anecdotes": "Prevalence of misrepresentation in the reported anecdotes"
+  }
+}

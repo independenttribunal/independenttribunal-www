@@ -43,6 +43,12 @@ Kinds: `statute`, `sentence`, `event`, `pushback`, `ruling`.
 
 ## House rules
 
+### Commentary and research questions
+
+`commentary/mental-health-uk.json` adapts the author's September 2026 first-principles note, with its evidence frame, ten dated scale figures, alternative explanations and explicit unknowns preserved. The cited releases were checked on 17 October 2026; this is not a latest-release dashboard. `scripts/commentary.mjs` validates citations and renders the article separately from profiles and historical dossiers. Exports retain the source-number map and null values (unknown, not zero).
+
+The supplied artwork in `public/images/mental-health-uk/` is reproduced unchanged. Keep its satire and non-NHS-affiliation labels immediately alongside it, including in accessible text. Do not turn the headline into a clinical claim, anecdotes into a prevalence estimate, a benefit entitlement into evidence of misconduct, or institutional headcounts into the cost of administering PIP. The NHS mark is not ours and does not imply endorsement.
+
 ### Public-record profiles
 
 Profiles are separate from the six historical imports and from any judges database. `scripts/profiles.mjs` validates their source ids, dates and anchors, then renders escaped plain text with citations. Only research-method and coverage-limit paragraphs may omit sources. Each factual paragraph references the source register, optionally with a paragraph/page locator. Public JSON resolves sources inline and the full-text export preserves attribution and limitations. Do not describe a profile as a full criminal record, conflate a party with a contextual mention, or infer present custody from sentence length. Distinguish judgments, sentencing remarks, reporting, campaign accounts and self-description. The Roger Hallam profile also records corrections to the supplied notes rather than copying co-defendants’ records onto his.

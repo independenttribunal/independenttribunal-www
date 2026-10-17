@@ -57,7 +57,7 @@ export const researchText = (html) => html
   .replace(/&([a-z]+);/gi, (entity, name) => ({ amp: "&", quot: '"', apos: "'", lt: "<", gt: ">", nbsp: " ", ndash: "–", mdash: "—", lsquo: "‘", rsquo: "’", ldquo: "“", rdquo: "”", pound: "£", middot: "·" }[name] ?? entity))
   .replace(/[ \t]+/g, " ").trim();
 
-export async function publishResearch({ records, profiles = [], put, page, escapeHtml: e, site }) {
+export async function publishResearch({ records, profiles = [], commentary = [], put, page, escapeHtml: e, site }) {
   const updatesHtml = (r) => (r.updates ?? []).map((u) => `<section class="research-update" id="${u.id}" aria-labelledby="${u.id}-title"><p class="kicker">Case update · <time datetime="${u.date}">${e(u.date_label)}</time></p><h2 id="${u.id}-title">${e(u.title)}</h2><p><strong>${e(u.summary)}</strong></p>${u.paragraphs.map((p) => `<p>${e(p)}</p>`).join("")}<ul>${u.sources.map((s) => `<li><a href="${e(s.url)}">${e(s.title)}</a><br><span class="attributed">${e(s.publisher)}</span></li>`).join("")}</ul><p class="meta">Ruling checked ${e(u.checked)} · original dossier retained below</p></section>`).join("");
   const relatedUpdatesHtml = (r) => (r.related_updates ?? []).map((id) => {
     const other = records.find((x) => x.id === id);
@@ -96,10 +96,11 @@ export async function publishResearch({ records, profiles = [], put, page, escap
     @media print { .research-nav, .contact { display:none; } }
   </style>`;
   await put("research/index.html", page({
-    title: "Legal research", path: "/research/", description: "Research dossiers and public-record profiles on protest, sentencing, proscription, detention and the public record.",
+    title: "Legal research", path: "/research/", description: "Research dossiers, public-record profiles and labelled commentary on law, rights and institutional accountability.",
     meta: `<p class="meta">Open research · <a href="/data/research.json">Dossiers JSON</a> · <a href="/data/profiles.json">Profiles JSON</a> · <a href="/legal/editorial-standards/">Editorial standards</a></p>`,
     body: `${styles}<div class="kicker">Independent Tribunal · Research library</div><h1>Follow the evidence.</h1>
       <p class="lede">Separate cases, distinct legal questions, and a public record you can examine for yourself.</p>
+      ${commentary.length ? `<h2>Commentary and research questions</h2><p>Arguments and questions, distinguished from verified facts and findings. Anecdotes, satire and limitations are labelled.</p><ul class="policy-list">${commentary.map((p) => `<li><span class="kicker">${e(p.genre)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Cited sources checked ${e(p.checked)} · <a href="/data/commentary/${p.id}.json">JSON</a></span></li>`).join("")}</ul>` : ""}
       ${profiles.length ? `<h2>Public-record profiles</h2><p>Selected court records and public background. Individually sourced; not a judges database or a complete criminal record.</p><ul class="policy-list">${profiles.map((p) => `<li><span class="kicker">${e(p.subtitle)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Sources reviewed ${e(p.checked)} · coverage limits stated</span></li>`).join("")}</ul>` : ""}
       <h2>Research dossiers</h2>
       <aside class="research-notice"><strong>About this research collection</strong><p>Independent Tribunal maintains these six dossiers and their source material. The original research is dated 28 July 2026. Read any dated case updates first; the historical material has not had a full current-status review. It includes reporting and commentary, not just primary sources.</p></aside>
