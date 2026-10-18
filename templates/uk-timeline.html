@@ -6,7 +6,7 @@
 {{HEAD}}
 <style>
   :root {
-    --paper: #E8E5DD;
+    --paper: #f5f7f9;
     --ink: #1B1A17;
     --crimson: #A11D2E;
     --slate: #6B7280;
@@ -34,7 +34,7 @@
   }
 
   /* Era darkening: body carries data-era set by scroll observer */
-  body[data-era="0"] { --era-bg: #E8E5DD; --era-fg: #1B1A17; --era-rule: rgba(27,26,23,.25); --era-dim: #6B7280; }
+  body[data-era="0"] { --era-bg: var(--paper); --era-fg: #1B1A17; --era-rule: rgba(27,26,23,.25); --era-dim: #6B7280; }
   body[data-era="1"] { --era-bg: #D9D5C9; --era-fg: #1B1A17; --era-rule: rgba(27,26,23,.28); --era-dim: #5D6472; }
   body[data-era="2"] { --era-bg: #B0ACA0; --era-fg: #14130F; --era-rule: rgba(20,19,15,.35); --era-dim: #3E4450; }
   body[data-era="3"] { --era-bg: #6E6A61; --era-fg: #EFECE3; --era-rule: rgba(239,236,227,.3); --era-dim: #C9C4B7; }
@@ -363,10 +363,11 @@
 <script>
   // Scroll-driven era darkening
   const body = document.body;
-  const sections = document.querySelectorAll("section[data-era]");
+  // Observe the intro too, so scrolling back restores the site's light surface.
+  const sections = document.querySelectorAll("header.hero, section[data-era]");
   const eraObserver = new IntersectionObserver((entries) => {
     for (const e of entries) {
-      if (e.isIntersecting) body.dataset.era = e.target.dataset.era;
+      if (e.isIntersecting) body.dataset.era = e.target.dataset.era || "0";
     }
   }, { rootMargin: "-40% 0px -40% 0px" });
   sections.forEach(s => eraObserver.observe(s));

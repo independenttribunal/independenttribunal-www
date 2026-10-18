@@ -51,6 +51,18 @@ test("timeline uses the homepage primary navigation without replacing its filter
   assert.match(html, /data-filter="all"/);
 });
 
+test("timeline starts on the shared site surface and retains scroll-driven colours", async () => {
+  const html = await read("uk-timeline/index.html");
+  const shell = await read("site-shell.css");
+  const background = shell.match(/background:(#[\da-f]+);/)?.[1];
+  assert.ok(background);
+  assert.ok(html.includes(`--paper: ${background};`));
+  assert.match(html, /body\[data-era="0"\] \{ --era-bg: var\(--paper\)/);
+  assert.match(html, /body\[data-era="5"\] \{ --era-bg: #131210/);
+  assert.ok(html.includes('document.querySelectorAll("header.hero, section[data-era]")'));
+  assert.ok(html.includes('body.dataset.era = e.target.dataset.era || "0"'));
+});
+
 test("editorial titles use consistent sentence case across tiles, pages and exports", async () => {
   const { tiles } = await json("data/tiles.json");
   const llms = await read("llms.txt");
