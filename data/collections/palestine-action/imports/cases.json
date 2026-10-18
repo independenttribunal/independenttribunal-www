@@ -1,0 +1,3017 @@
+{
+  "schema": "uk-palestine-direct-action-cases/1.0",
+  "compiled_at": "2026-10-17",
+  "compiler_note": "Source index of public reporting and judgments. It is not a manual, not an expression of support for any proscribed organisation, and not a complete police schedule. Palestine Action has been described by police as linked to several hundred actions; this file covers the actions that became named cases or that CAGE documented, plus the public-law case about the ban.",
+  "how_to_use": "Each object is one case or one clearly bounded series. Filter on category, nickname, or action_dates. independent_source_count excludes the CAGE dossier itself. Damage figures are copied from the outlet that stated them and often disagree.",
+  "legal_status_of_the_ban": {
+    "in_force_from": "2025-07-05",
+    "quashed_by": "[2026] EWHC 292 (Admin), 13 February 2026",
+    "restored_by": "[2026] EWCA Civ 721, 15 June 2026",
+    "status_on_compile_date": "Proscription in force. The Court of Appeal allowed the Home Secretary's appeal and set aside the quashing order."
+  },
+  "primary_dossier": {
+    "title": "Putting Bodies on the Line: The Landscape of Direct Action and Civil Disobedience for Palestine in Britain",
+    "publisher": "CAGE International",
+    "date": "2025-11-28",
+    "authors_reported": [
+      "Asim Qureshi"
+    ],
+    "pdf": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+    "page": "https://www.cage.ngo/product/putting-bodies-on-the-line-the-landscape-of-direct-action-and-civil-disobedience-for-palestine-in-britain",
+    "disclaimer_printed_in_the_pdf": "Nothing in this report should be understood as support or as an expression of support for the proscribed organisation Palestine Action."
+  },
+  "limits": [
+    "Ten independent sources was realistic for Filton, the proscription case, Brize Norton, Defend Our Juries, Barclays, Allianz, the Balfour statue and Oldham. It was not realistic for a one-day lock-on that only two outlets covered. Those cases are still included, with the sources that exist.",
+    "No BAILII transcript of the Filton or Teledyne criminal sentences was found. Those outcomes rest on contemporaneous court reporting.",
+    "Defendant lists for the wider Filton 24 are incomplete. Only names read in opened reports are included.",
+    "A few URLs come from the CAGE bibliography after PDF text extraction. The Mancunian Matters URL was line-broken in the PDF and is omitted rather than guessed.",
+    "Social posts are included only where the post itself is a report with a link, not as evidence of the underlying fact."
+  ],
+  "case_count": 46,
+  "cases": [
+    {
+      "id": "elbit-eight",
+      "nickname": "Elbit Eight",
+      "aliases": [
+        "Elbit Six"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2020-07-31",
+        "2020-08",
+        "2020-10",
+        "2021-01"
+      ],
+      "location": "Multiple Elbit-linked sites, including London HQ and UAV Engines, Shenstone",
+      "target": "Elbit Systems UK and related sites",
+      "defendants": [
+        "Jocelyn Cooney",
+        "Nicola Deane",
+        "Caroline Brouard",
+        "Emily Arnott",
+        "Huda Ammori",
+        "Richard Barnard",
+        "Genevieve Scherer",
+        "Robin Refualu"
+      ],
+      "court": "Snaresbrook Crown Court",
+      "charges": "Bundle of criminal damage, burglary, threatening to damage property, possessing articles, and encouraging criminal damage, covering several 2020-21 actions. Not every defendant was on every count.",
+      "outcome": {
+        "verdict_date": "2023-12-23",
+        "result": "Jury returned 12 not-guilty verdicts. Richard Barnard convicted of one count of criminal damage and given a conditional discharge. Jury hung on 23 other counts. Six defendants (Barnard, Ammori, Scherer, Cooney, Brouard, Arnott), later called the Elbit Six, were listed for a retrial, reported as listed into 2027. Declassified UK later reported Elbit lobbied the Home Office for that retrial."
+      },
+      "summary": "First major consolidated Palestine Action prosecution. Trial opened 13 November 2023. Defendants rejected a plea deal under which Ammori and Barnard would plead guilty and the others would be acquitted. Prosecution witness Ofer Meishar, Elbit chief security officer, did not attend; the report says an Israeli government letter said he could not leave Israel.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Elbit Eight chapter, pp.15-18 of Putting Bodies on the Line",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "Landmark court case sees Palestine Action's Elbit Eight acquitted on 12 charges",
+          "url": "https://www.thecanary.co/uk/news/2023/12/23/palestine-action-acquitted-elbit",
+          "kind": "news",
+          "date": "2023-12-23"
+        },
+        {
+          "outlet": "Freedom News",
+          "title": "12 Not Guilty verdicts for Elbit 8",
+          "url": "https://freedomnews.org.uk/2023/12/23/12-not-guilty-verdicts-for-elbit-8",
+          "kind": "news",
+          "date": "2023-12-23"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Elbit Eight acquitted of 12 charges",
+          "url": "https://morningstaronline.co.uk/article/elbit-eight-acquitted-12-charges",
+          "kind": "news",
+          "date": "2023"
+        },
+        {
+          "outlet": "openDemocracy",
+          "title": "Elbit Six: Palestine activists who shut down factory could face fresh trial",
+          "url": "https://www.opendemocracy.net/en/palestine-action-protest-trial-elbit-six-retrial-court-snaresbrook",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Electronic Intifada",
+          "title": "Landlord for top Israeli arms firm ignored its own human rights policy",
+          "url": "https://electronicintifada.net/content/landlord-top-israeli-arms-firm-ignored-its-own-human-rights-policy/44021",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Declassified UK",
+          "title": "Israeli arms firm lobbied Home Office on Palestine Action court case",
+          "url": "https://www.declassifieduk.org/israeli-arms-firm-lobbied-home-office-on-palestine-action-court-case",
+          "kind": "investigation",
+          "date": "2025-06-23"
+        },
+        {
+          "outlet": "Internet Archive",
+          "title": "Palestine Action statement on Elbit Eight verdicts (archived)",
+          "url": "https://web.archive.org/web/20241005184414mp_/https://palestineaction.org/elbit-eight-verdicts/",
+          "kind": "archive",
+          "date": "2023-12"
+        }
+      ],
+      "source_count": 8,
+      "independent_source_count": 7
+    },
+    {
+      "id": "kingsway-five",
+      "nickname": "Kingsway Five",
+      "aliases": [
+        "Kingsway 5"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2020-10-10"
+      ],
+      "location": "77 Kingsway, Holborn, London",
+      "target": "Elbit Systems UK headquarters",
+      "defendants": [
+        "Doone Stormonth Darling",
+        "Flora Thomas",
+        "Joley Thomas",
+        "Anthony Bardos",
+        "Jocelyn Cooney"
+      ],
+      "court": "Southwark Crown Court (trial 23 November 2022); earlier listing at Highbury Magistrates' Court, 9 March 2021",
+      "charges": "Criminal damage under £5,000 and conspiracy to destroy or damage property. Assault allegations were not proceeded with.",
+      "outcome": {
+        "verdict_date": "2022-11-23",
+        "result": "All five cleared by a jury. Freedom News reports a unanimous verdict in a little over an hour."
+      },
+      "summary": "Five people covered the Elbit London HQ in red paint during a public demonstration on 10 October 2020 and were later tried together. This is a separate prosecution from the Elbit Eight, though Jocelyn Cooney appears in both.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Justice Gap",
+          "title": "Palestine activists Kingsway 5 found not guilty",
+          "url": "https://www.thejusticegap.com/palestine-activists-kingsway-5-found-not-guilty-after-criminal-damage-conspiracy-trial/",
+          "kind": "news",
+          "date": "2022"
+        },
+        {
+          "outlet": "Freedom News",
+          "title": "Jury finds Palestine Action's Kingsway 5 not guilty",
+          "url": "https://freedomnews.org.uk/2022/11/24/jury-finds-palestine-actions-kingsway-5-not-guilty/",
+          "kind": "news",
+          "date": "2022-11-24"
+        }
+      ],
+      "source_count": 3,
+      "independent_source_count": 2
+    },
+    {
+      "id": "oldham-ferranti-campaign",
+      "nickname": "Oldham / Ferranti campaign",
+      "aliases": [
+        "Cairo House",
+        "Ferranti Technologies"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2021-02-01",
+        "2021-03-14",
+        "2021-08-23"
+      ],
+      "location": "Ferranti / Elbit site, Oldham, Greater Manchester",
+      "target": "Elbit Ferranti Technologies",
+      "defendants": [],
+      "court": "Arrests reported; this file does not have a single consolidated public judgment covering every Oldham occupation.",
+      "charges": "Reported arrests for criminal damage, burglary, aggravated trespass and obstruction across the three occupations. February 2021: eight arrests, damage put at about £20,000. March 2021: five arrests, damage put at over £100,000.",
+      "outcome": {
+        "result": "Elbit sold the Oldham site to TT Electronics and closed it in January 2022. Campaigners and several outlets treated the closure as the result of the repeated occupations. No single public judgment disposing of every defendant was located in this pass."
+      },
+      "summary": "Series of occupations and blockades, including one with Extinction Rebellion North on 1 February 2021, a break-in and roof occupation on 14 March 2021, and a further occupation on 23 August 2021 in which two women were arrested.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Huge victory for campaigners as Israel's weapons manufacturer forced to close site",
+          "url": "https://www.middleeastmonitor.com/20220111-huge-victory-for-campaigners-as-israels-weapons-manufacturer-forced-to-close-site",
+          "kind": "news",
+          "date": "2022-01-11"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Palestine activists claim victory as Israeli firm Elbit sells off Oldham operation",
+          "url": "https://morningstaronline.co.uk/article/palestine-activists-claim-victory-israeli-firm-elbit-sells-oldham-operation",
+          "kind": "news",
+          "date": "2022"
+        },
+        {
+          "outlet": "The Meteor",
+          "title": "The Arms Factory Next Door",
+          "url": "https://themeteor.org/2022/02/24/the-arms-factory-next-door-elbit-oldham",
+          "kind": "news",
+          "date": "2022-02-24"
+        },
+        {
+          "outlet": "The Meteor",
+          "title": "Elbit, owner of recently occupied arms factory in Oldham, receives multi-million UK contract",
+          "url": "https://themeteor.org/2021/02/05/israeli-company-elbit-owner-of-recently-occupied-arms-factory-in-oldham-receives-multi-million-uk-contract",
+          "kind": "news",
+          "date": "2021-02-05"
+        },
+        {
+          "outlet": "Jewish News",
+          "title": "Extinction Rebellion and Palestine Action activists protest Israeli-linked firm",
+          "url": "https://www.jewishnews.co.uk/extinction-rebellion-and-palestine-action-activists-protest-israeli-linked-firm",
+          "kind": "news",
+          "date": "2021"
+        },
+        {
+          "outlet": "Autonomy News",
+          "title": "Five arrested after causing £100k damage to Elbit Systems",
+          "url": "https://autonomynews.org/five-arrested-after-causing-100k-damage-to-elbit-systems",
+          "kind": "news",
+          "date": "2021"
+        },
+        {
+          "outlet": "ITV Granada",
+          "title": "Five arrested after protests at Israeli-owned factory in Oldham",
+          "url": "https://www.itv.com/news/granada/2021-04-14/five-arrested-after-protests-at-israeli-owned-factory-in-oldham",
+          "kind": "news",
+          "date": "2021-04-14"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Oldham protest: Two arrests at Elbit Systems factory",
+          "url": "https://www.bbc.com/news/uk-england-manchester-58305265",
+          "kind": "news",
+          "date": "2021"
+        },
+        {
+          "outlet": "Oldham Evening Chronicle",
+          "title": "Protestors block Greenacres Road",
+          "url": "https://www.oldham-chronicle.co.uk/news-features/139/main-news/142548/protestors-block-greenacres-road",
+          "kind": "news",
+          "date": "2021"
+        },
+        {
+          "outlet": "Quds News Network",
+          "title": "Pro-Palestine activists occupy roof of UK-based Israeli arms factory",
+          "url": "https://qudsnen.co/pro-palestine-activists-occupy-roof-of-uk-based-israeli-arms-factory-splatter-it-in-blood-red-paint",
+          "kind": "news",
+          "date": "2021"
+        }
+      ],
+      "source_count": 11,
+      "independent_source_count": 10
+    },
+    {
+      "id": "leicester-roof-six",
+      "nickname": "Leicester roof occupation",
+      "aliases": [
+        "UAV Tactical Systems May 2021",
+        "Irving and Ulusu"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2021-05-19"
+      ],
+      "location": "UAV Tactical Systems, Meridian Business Park, Leicester",
+      "target": "Elbit/Thales joint venture UAV Tactical Systems (U-TacS)",
+      "defendants": [
+        "Joe Irving",
+        "Ferhat Ulusu"
+      ],
+      "court": "Leicester Crown Court, 2024",
+      "charges": "Ten people arrested in 2021 for conspiracy to commit criminal damage and aggravated trespass. Irving, then 20, and Ulusu, then 43, were tried for criminal damage.",
+      "outcome": {
+        "verdict_date": "2024-05",
+        "result": "Both acquitted after about 1 hour 40 minutes. The judge left the common-law necessity defence and the statutory defence in section 5(2)(b) Criminal Damage Act 1971 to the jury. Agreed facts included export licences for equipment to Israel."
+      },
+      "summary": "Four people in red boiler suits occupied the roof from 19 to 25 May 2021 during the 2021 Gaza bombardment. The occupation is widely reported; the 2024 acquittal of Irving and Ulusu is the located court outcome.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Leicester pro-Palestinian drone factory protest ends after six days",
+          "url": "https://www.bbc.co.uk/news/uk-england-leicestershire-57243045.amp",
+          "kind": "news",
+          "date": "2021"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Elbit protest: Pro-Palestine activists shut down drone factory",
+          "url": "https://www.aljazeera.com/news/2021/5/21/pro-palestine-activists-shut-down-uk-drone-factory",
+          "kind": "news",
+          "date": "2021-05-21"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Palestine Action activists found not guilty of criminal damage",
+          "url": "https://www.middleeastmonitor.com/20240524-palestine-action-activists-found-not-guilty-of-criminal-damage",
+          "kind": "news",
+          "date": "2024-05-24"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Palestine Action",
+          "url": "https://en.wikipedia.org/wiki/Palestine_Action",
+          "kind": "reference"
+        }
+      ],
+      "source_count": 5,
+      "independent_source_count": 4
+    },
+    {
+      "id": "braunstone-lock-on-2022",
+      "nickname": "Braunstone gate lock-on",
+      "aliases": [],
+      "category": "action",
+      "action_dates": [
+        "2022-04-14"
+      ],
+      "location": "UAV Tactical Systems, Braunstone, Leicester",
+      "target": "U-TacS",
+      "defendants": [],
+      "court": null,
+      "charges": "Three arrests reported. One person released without charge; the two who locked on were released the same day. No located conviction.",
+      "outcome": {
+        "result": "Site blocked for several hours. No located trial."
+      },
+      "summary": "Two people locked themselves to the factory gates. A third person was arrested and released without charge.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Peoples Dispatch",
+          "title": "Activists force Israeli arms factory in UK to shut down for the second time",
+          "url": "https://peoplesdispatch.org/2022/04/17/activists-from-palestine-action-force-israeli-arms-factory-in-uk-to-shut-down-for-the-second-time",
+          "kind": "news",
+          "date": "2022-04-17"
+        }
+      ],
+      "source_count": 2,
+      "independent_source_count": 1
+    },
+    {
+      "id": "thales-five",
+      "nickname": "Thales Five",
+      "aliases": [
+        "Thales 5",
+        "Govan"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2022-06-01"
+      ],
+      "location": "Thales UK, Linthouse Road, Govan, Glasgow",
+      "target": "Thales UK",
+      "defendants": [
+        "Stuart Bretherton",
+        "Eva Simmons",
+        "Calum Lacy",
+        "Erica Hygate",
+        "Sumaya Javaid"
+      ],
+      "court": "Glasgow Sheriff Court; Sheriff John McCormick",
+      "charges": "Breach of the peace / disorderly conduct. Hygate and Javaid also admitted malicious mischief / property damage. Javaid also admitted threatening or abusive behaviour. Damage put at over £1 million.",
+      "outcome": {
+        "sentence_date": "2024-08-20",
+        "result": "Guilty pleas. Bretherton, Simmons, Lacy and Hygate: 12 months. Javaid: 14 months. Later reports say release appeals for some of the five were refused, and that two were released in November 2024."
+      },
+      "summary": "Five people occupied the roof of the Govan factory on 1 June 2022. Two entered the building. A smoke device was set off in an area where staff were being evacuated. The Court of Appeal later treated this, with Instro and Filton, as one of three incidents of serious property damage in the proscription appeal.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Pro-Palestinian activists jailed over weapons equipment factory protest",
+          "url": "https://www.bbc.co.uk/news/articles/c9wj144zd7po",
+          "kind": "news",
+          "date": "2024-08-20"
+        },
+        {
+          "outlet": "The Herald",
+          "title": "Pro-Palestine activists jailed for Glasgow Thales protest",
+          "url": "https://www.heraldscotland.com/news/24530506.pro-palestine-activists-jailed-glasgow-thales-protest/",
+          "kind": "news",
+          "date": "2024-08-20"
+        },
+        {
+          "outlet": "UK Defence Journal",
+          "title": "Palestinian activists jailed for Glasgow arms factory damage",
+          "url": "https://ukdefencejournal.org.uk/palestinian-activists-jailed-for-glasgow-arms-factory-damage",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "The Jewish Chronicle",
+          "title": "Palestine Action vandals handed five years of jail time",
+          "url": "https://www.thejc.com/news/politics/palestine-action-vandals-handed-five-years-of-jail-time-pokn74aa",
+          "kind": "news",
+          "date": "2024-08-21"
+        },
+        {
+          "outlet": "Freedom News",
+          "title": "Thales 5 release appeals rejected",
+          "url": "https://freedomnews.org.uk/2024/11/14/thales-5-release-appeals-rejected",
+          "kind": "news",
+          "date": "2024-11-14"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "Two of the Palestine Action Thales 5 are released from prison",
+          "url": "https://www.thecanary.co/uk/news/2024/11/19/palestine-action-thales-prisoners",
+          "kind": "news",
+          "date": "2024-11-19"
+        },
+        {
+          "outlet": "BAILII",
+          "title": "SSHD v Ammori [2026] EWCA Civ 721",
+          "url": "https://www.bailii.org/ew/cases/EWCA/Civ/2026/721.html",
+          "kind": "judgment",
+          "date": "2026-06-15"
+        }
+      ],
+      "source_count": 8,
+      "independent_source_count": 7
+    },
+    {
+      "id": "balfour-two",
+      "nickname": "Balfour Two",
+      "aliases": [
+        "Balfour statue"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2022-11-12"
+      ],
+      "location": "Members' Lobby, House of Commons, Westminster",
+      "target": "Statue of Arthur Balfour",
+      "defendants": [],
+      "court": "Jury trial; acquittal reported December 2023",
+      "charges": "Criminal damage",
+      "outcome": {
+        "verdict_date": "2023-12",
+        "result": "Unanimous acquittal."
+      },
+      "summary": "On the 105th anniversary of the Balfour Declaration, two people entered the Members' Lobby on a public tour and sprayed the Balfour statue with ketchup described as fake blood. They were arrested at the scene and later acquitted.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Palestinian protesters squirt ketchup on statue in Houses of Parliament",
+          "url": "https://www.theguardian.com/world/2022/nov/12/palestinian-protesters-squirt-ketchup-on-statue-in-houses-of-parliament",
+          "kind": "news",
+          "date": "2022-11-12"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Palestine protesters spray ketchup blood over statue",
+          "url": "https://www.the-independent.com/news/uk/house-of-commons-palestine-houses-of-parliament-palestinians-police-b2223858.html",
+          "kind": "news",
+          "date": "2022"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Palestine Action activists squirt Balfour statue with fake blood",
+          "url": "https://www.middleeastmonitor.com/20221114-palestine-action-activists-squirt-balfour-statue-with-fake-blood-london",
+          "kind": "news",
+          "date": "2022-11-14"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Palestine Action cover Balfour statue in ketchup",
+          "url": "https://www.newarab.com/news/palestine-action-cover-lord-balfour-statue-fake-blood",
+          "kind": "news",
+          "date": "2022"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "2 pro-Palestinian activists squirt ketchup on Balfour statue",
+          "url": "https://www.timesofisrael.com/2-pro-palestinian-activists-squirt-ketchup-on-balfour-statue-in-london-are-arrested",
+          "kind": "news",
+          "date": "2022"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Pro-Palestine activists who covered Balfour statue in ketchup cleared",
+          "url": "https://morningstaronline.co.uk/article/pro-palestine-activists-who-covered-balfour-statue-in-ketchup-cleared-of-criminal-damage",
+          "kind": "news",
+          "date": "2023"
+        },
+        {
+          "outlet": "Freedom News",
+          "title": "Jury unanimously acquits Balfour 2",
+          "url": "https://freedomnews.org.uk/2023/12/19/jury-unanimously-acquits-balfour-2",
+          "kind": "news",
+          "date": "2023-12-19"
+        }
+      ],
+      "source_count": 8,
+      "independent_source_count": 7
+    },
+    {
+      "id": "filton",
+      "nickname": "Filton 24 / Filton 6 / Filton 4",
+      "aliases": [
+        "Filton 25",
+        "Filton 18",
+        "Elbit Four",
+        "Aztec West"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2024-08-06"
+      ],
+      "location": "Elbit Systems UK, Aztec West, Filton, near Bristol",
+      "target": "Elbit Systems UK",
+      "defendants": {
+        "inside_the_building_first_trial": [
+          "Charlotte Head",
+          "Samuel Corner",
+          "Leona Kamio",
+          "Fatema Zainab Rajwani",
+          "Zoe Rogers",
+          "Jordan Devlin"
+        ],
+        "second_trial_joint_enterprise_named_in_wikipedia": [
+          "Ian Sanders",
+          "Aleksandra Herbich",
+          "Teuta Hoxha",
+          "Sean Middlebrough",
+          "Julija Brigadirova",
+          "Hannah Davidson",
+          "Madeleine Norman",
+          "William Plastow"
+        ],
+        "note": "Reporting uses Filton 6, Filton 18, Filton 24 and Filton 25 for overlapping groups. Twenty-four people were charged in connection with the 6 August 2024 action. Not every name of the wider 24 was confirmed from a primary court list in this pass."
+      },
+      "court": "Woolwich Crown Court, Mr Justice Jeremy Johnson (first six); second group at the Old Bailey before Judge Patrick Field KC; a retrial listing was later mentioned at Manchester Crown Court",
+      "charges": "Aggravated burglary, criminal damage, violent disorder. Samuel Corner also faced GBH with intent. CPS did not charge a terrorism offence but asked the judge to treat the offending as having a terrorism connection under s.69 Sentencing Act 2020.",
+      "outcome": {
+        "first_trial_verdicts": "2026-02-04. All six not guilty of aggravated burglary. Rajwani, Rogers and Devlin not guilty of violent disorder. No verdict on criminal damage, or on Corner's GBH count, or on violent disorder for the other three.",
+        "rest_of_24": "2026-02-18. Al Jazeera reported the remaining defendants were formally acquitted of aggravated burglary after the prosecution offered no evidence.",
+        "retrial": "2026-05-05, Woolwich. Head, Corner, Kamio and Rajwani guilty of criminal damage. Rogers and Devlin not guilty. Corner not guilty of GBH with intent; guilty by 11-1 of GBH without intent.",
+        "sentences_2026-06-12": {
+          "Charlotte Head": "6 years less 45 days, plus a driving disqualification",
+          "Leona Kamio": "6 years less 45 days",
+          "Fatema Rajwani": "5 years 8 months less 45 days",
+          "Samuel Corner": "8 years 8 months, covering criminal damage and GBH without intent"
+        },
+        "terrorism_connection": "Johnson ruled the criminal-damage offences had a terrorist connection. Reporting describes this as the first time a UK criminal-damage conviction was sentenced with that enhancement. The finding was not a count on the indictment and was not left to the jury.",
+        "second_trial": "From 22 June 2026, eight alleged organisers. Wikipedia and later reporting: jury acquitted William Plastow of violent disorder; after 37 hours, Sean Middlebrough guilty of criminal damage; no verdict on seven others. A retrial was provisionally listed, with dates reported as June 2027 or June 2028 depending on the outlet. Treat the relisting date as unsettled.",
+        "contempt": "Contempt proceedings were opened against defence barrister Rajiv Menon KC over his first-trial closing speech. Jurisdiction was disputed; a substantive hearing was adjourned.",
+        "site": "Elbit later closed the Aztec West site. September 2025 is the date given on the Wikipedia page."
+      },
+      "summary": "On 6 August 2024 people entered the Filton Elbit site. Prosecutors said damage was about £1 million to £1.2 million, and that a police officer, named in Wikipedia as Kate Evans, suffered a spinal fracture. The six people accused of being inside were held on remand for about 17 months before the first trial, which ran from 17 November 2025. The judge refused a necessity/Gaza defence. Five of the six were bailed after the February acquittals on aggravated burglary; Corner was not. At the retrial the judge restricted what the defence could tell the jury. Sentences in June 2026 totalled a little over 26 years before the 45-day deductions.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Filton 24 section",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "2024 Filton Elbit Systems break-in",
+          "url": "https://en.wikipedia.org/wiki/2024_Filton_Elbit_Systems_break-in",
+          "kind": "reference"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Palestine Action activists cleared of aggravated burglary",
+          "url": "https://www.theguardian.com/uk-news/2026/feb/04/palestine-action-activists-cleared-aggravated-burglary-israeli-defence-firm-elbit-systems-filton",
+          "kind": "news",
+          "date": "2026-02-04"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Pro-Palestine activists used sledgehammers, court told",
+          "url": "https://www.theguardian.com/uk-news/2025/nov/18/pro-palestine-activists-used-sledgehammers-in-action-at-israel-linked-firm-uk-court-told",
+          "kind": "news",
+          "date": "2025-11-18"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Barrister in Palestine Action trial facing contempt proceedings",
+          "url": "https://www.theguardian.com/uk-news/2026/may/05/barrister-palestine-action-trial-facing-contempt-of-court-proceedings",
+          "kind": "news",
+          "date": "2026-05-05"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Palestine Action activists to face retrial over Elbit break-in",
+          "url": "https://www.bbc.co.uk/news/articles/crk8xd4m6v0o",
+          "kind": "news",
+          "date": "2026-02-18"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Five in court over alleged raid of Elbit Systems",
+          "url": "https://www.bbc.co.uk/news/articles/c39zm0zmkv0o",
+          "kind": "news",
+          "date": "2025-07-19"
+        },
+        {
+          "outlet": "Real Media",
+          "title": "The Filton trial: the verdicts",
+          "url": "https://realmedia.press/filton-verdict/",
+          "kind": "news",
+          "date": "2026-02-04"
+        },
+        {
+          "outlet": "Declassified UK",
+          "title": "How Palestine Action put the justice system on trial",
+          "url": "https://www.declassifieduk.org/how-palestine-action-put-the-justice-system-on-trial/",
+          "kind": "investigation",
+          "date": "2026-02-17"
+        },
+        {
+          "outlet": "Mondoweiss",
+          "title": "Palestine Action activists acquitted over Elbit action",
+          "url": "https://mondoweiss.net/2026/02/palestine-action-activists-acquitted-over-elbit-action/",
+          "kind": "news",
+          "date": "2026-02-05"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Pro-Palestine activists acquitted of burglary at Israeli arms site",
+          "url": "https://www.aljazeera.com/news/2026/2/18/pro-palestine-activists-acquitted-of-burglary-at-israeli-arms-site-in-uk",
+          "kind": "news",
+          "date": "2026-02-18"
+        },
+        {
+          "outlet": "The Bristol Cable",
+          "title": "First Filton 25 defendants sentenced as terrorists",
+          "url": "https://thebristolcable.org/2026/06/first-filton-25-defendants-sentenced-as-terrorists/",
+          "kind": "news",
+          "date": "2026-06-17"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "title": "Judge sentences Palestine Action protesters as terrorists",
+          "url": "https://www.middleeasteye.net/news/judge-sentences-palestine-action-protestors-terrorists",
+          "kind": "news",
+          "date": "2026-06-12"
+        },
+        {
+          "outlet": "LBC",
+          "title": "Four activists jailed for more than 26 years",
+          "url": "https://www.lbc.co.uk/article/palestine-action-sentenced-trial-latest-elbit-court-jailed-5HjdbXf_2/",
+          "kind": "news",
+          "date": "2026-06-12"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Palestine Action activists sentenced as terrorists",
+          "url": "https://www.newarab.com/news/palestine-action-activists-sentenced-terrorists-uk-court",
+          "kind": "news",
+          "date": "2026-06-12"
+        },
+        {
+          "outlet": "The Justice Gap",
+          "title": "Filton Four appeal terrorist sentences never put to jury",
+          "url": "https://www.thejusticegap.com/palestine-action-activists-appeal-terrorist-sentences-never-put-to-jury/",
+          "kind": "news",
+          "date": "2026-09"
+        },
+        {
+          "outlet": "X / The Justice Gap",
+          "title": "Post linking the appeal piece",
+          "url": "https://x.com/JusticeGap/status/2099771480586269042",
+          "kind": "social",
+          "date": "2026-09-15"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Jury discharged in organisers' trial, cited from an X post; URL not re-opened in this pass",
+          "url": "https://www.bbc.co.uk/news/articles/c2dk657dky1o",
+          "kind": "news",
+          "date": "2026-08"
+        }
+      ],
+      "source_count": 18,
+      "independent_source_count": 17
+    },
+    {
+      "id": "teledyne-four-shipley",
+      "nickname": "Teledyne Four",
+      "aliases": [
+        "Teledyne 4",
+        "Shipley April 2024"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2024-04-02"
+      ],
+      "location": "Teledyne UK, Shipley, West Yorkshire",
+      "target": "Teledyne Defence & Space / Teledyne UK",
+      "defendants": [
+        "Julian Gao",
+        "Ruby Hamill",
+        "Daniel Jones",
+        "Saeed Najam Shah (also reported as Sayed Shah)"
+      ],
+      "court": "Bradford Crown Court. First jury discharged September 2024. Retrial February 2026. Sentence 24 April 2026, Judge Ahmed Nadim.",
+      "charges": "Criminal damage and possession of articles with intent. Damage figure given in court as about £570,000 to £571,383.",
+      "outcome": {
+        "result": "All four convicted at the retrial. Gao, Shah and Jones each jailed for 20 months on 24 April 2026. Hamill was convicted in her absence and, as of the BBC report that day, was wanted."
+      },
+      "summary": "A separate, smaller Shipley rooftop protest on 15 May 2024 is a different case (see teledyne-shipley-may-2024). This April case is the one newspapers call the Teledyne 4.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Rooftop protesters caused £571k damage, court told",
+          "url": "https://www.bbc.co.uk/news/articles/cp8np976znqo.amp",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Palestine protesters jailed for criminal damage at Teledyne UK",
+          "url": "https://www.bbc.co.uk/news/articles/c1l90g6v2r2o",
+          "kind": "news",
+          "date": "2026-04-24"
+        },
+        {
+          "outlet": "Jewish News",
+          "title": "Three pro-Palestine protesters jailed for 20 months each",
+          "url": "https://www.jewishnews.co.uk/three-pro-palestine-protesters-jailed-for-20-months-each/",
+          "kind": "news",
+          "date": "2026-04-24"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Campaigners protest in solidarity with the Teledyne 4",
+          "url": "https://morningstaronline.co.uk/article/campaigners-protest-solidarity-teledyne-4-outside-bradford-crown-court",
+          "kind": "news",
+          "date": "2026-02-09"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Palestine Action, Teledyne section",
+          "url": "https://en.wikipedia.org/wiki/Palestine_Action",
+          "kind": "reference"
+        }
+      ],
+      "source_count": 6,
+      "independent_source_count": 5
+    },
+    {
+      "id": "teledyne-shipley-may-2024",
+      "nickname": "Shipley May rooftop",
+      "aliases": [],
+      "category": "prosecution",
+      "action_dates": [
+        "2024-05-15"
+      ],
+      "location": "Teledyne Defence & Space, Shipley",
+      "target": "Teledyne Defence & Space Ltd",
+      "defendants": [
+        "Named in the September 2025 BBC report as including Southall and Serena Fenton; the other two names were not captured in the extract used here"
+      ],
+      "court": "Bradford Crown Court, Judge Christopher Smith, sentenced 5/6 September 2025",
+      "charges": "Criminal damage of almost £60,000",
+      "outcome": {
+        "result": "All four guilty. Three received suspended sentences of 10 months. The fourth received a community order. The judge said the decision was finely balanced."
+      },
+      "summary": "Eight-hour, or in the BBC sentencing report seven-hour, rooftop protest. Do not merge with the April 2024 Teledyne 4.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Pro-Palestine activists sentenced over Shipley Teledyne protest",
+          "url": "https://www.bbc.co.uk/news/articles/czdj12jg9m1o",
+          "kind": "news",
+          "date": "2025-09-06"
+        }
+      ],
+      "source_count": 2,
+      "independent_source_count": 1
+    },
+    {
+      "id": "teledyne-bromborough",
+      "nickname": "Bromborough Teledyne",
+      "aliases": [
+        "Teledyne CML",
+        "Wirral"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2024-07-05",
+        "2024-10-02"
+      ],
+      "location": "Teledyne CML Composites, Tebay Road, Bromborough, Wirral",
+      "target": "Teledyne CML Composites, described in reporting as an F-35 components site",
+      "defendants": [],
+      "court": "Merseyside Police announced three arrests after the October occupation. A completed public judgment for the October case was not opened in this pass. Wikipedia says three of four defendants later received suspended sentences and the fourth a community order; that sentence report was not separately opened here, so treat it as secondary.",
+      "charges": "Criminal damage alleged. CAGE says the October occupation was claimed to have compromised clean rooms.",
+      "outcome": {
+        "result": "5 July 2024: a van was driven through the gates and the site was sprayed; arrests reported. 2 October 2024: roof occupation; three arrests. Production impact of 'up to twelve months' is a claim in the CAGE report and secondary coverage, not a court finding located here."
+      },
+      "summary": "Two distinct actions at the same Wirral factory.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "Palestine protesters arrested after van driven through factory",
+          "url": "https://www.telegraph.co.uk/news/2024/07/06/palestine-protesters-arrested-van-driven-through-factory",
+          "kind": "news",
+          "date": "2024-07-06"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Three activists arrested after driving through factory gates",
+          "url": "https://morningstaronline.co.uk/article/three-activists-arrested-after-driving-through-factory-gates",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Bromborough protest report",
+          "url": "https://www.bbc.com/news/articles/ce8108jyldmo",
+          "kind": "news",
+          "date": "2024-10"
+        },
+        {
+          "outlet": "Merseyside Police",
+          "title": "Three arrested following Bromborough protest",
+          "url": "https://www.merseyside.police.uk/news/merseyside/news/2024/october/three-arrested-following-bromborough-protest",
+          "kind": "official",
+          "date": "2024-10"
+        },
+        {
+          "outlet": "UK Defence Journal",
+          "title": "Pro-Palestine activists damage factory building F-35 parts",
+          "url": "https://ukdefencejournal.org.uk/pro-palestine-activists-damage-factory-building-f-35-parts",
+          "kind": "news",
+          "date": "2024"
+        }
+      ],
+      "source_count": 6,
+      "independent_source_count": 5
+    },
+    {
+      "id": "instro",
+      "nickname": "Instro Nine / Instro 10",
+      "aliases": [
+        "Sandwich",
+        "Instro Precision"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2024-06-17"
+      ],
+      "location": "Instro Precision, Sandwich, Kent",
+      "target": "Instro Precision, an Elbit subsidiary making electro-optics and sights",
+      "defendants": [
+        "Julija Brigadirova",
+        "Nasser Akhtar",
+        "Elliot Wilson",
+        "Maximillian Dixon",
+        "Nirad Abrol",
+        "Seirol Davies",
+        "Xavi Davies",
+        "Eoin O'Meara",
+        "Hannah Davidson"
+      ],
+      "court": "Old Bailey. Trial opened early October 2026 before this file was compiled. Prosecutor Anne Whyte KC. All nine deny the charges.",
+      "charges": "Criminal damage, burglary with intent, violent disorder. Reporting also says the CPS has considered a terrorism connection at sentence. That is not a charge.",
+      "outcome": {
+        "as_of": "2026-10-17",
+        "result": "Trial in progress or just opened. No verdict in the sources opened for this file. Seven people were arrested on site in June 2024 and bailed. Nine are now on the indictment. Campaign nickname 'Instro 10' does not match the nine names read in court."
+      },
+      "summary": "Dawn entry on 17 June 2024. The prosecution case, as opened in October 2026, is that one group confronted security while another entered the building, and that a guard, Billy Dennis, was struck and sprayed. A security Land Rover was damaged. Damage and any export-licence consequence are disputed or unproved; do not treat campaign claims of a cancelled licence as a court finding.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Group planned as much damage as possible, court hears",
+          "url": "https://www.bbc.co.uk/news/articles/cjzxlvpy7d3yo",
+          "kind": "news",
+          "date": "2026-10-06"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Activists attacked guard, court hears",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyldlr9lg5o",
+          "kind": "news",
+          "date": "2026-10-12"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Break-in captured on bodycam, court told",
+          "url": "https://www.bbc.co.uk/news/articles/cmlydwgpnwx5o",
+          "kind": "news",
+          "date": "2026-10-13"
+        },
+        {
+          "outlet": "The Grayzone",
+          "title": "British state targets Palestine Action with yet another trial",
+          "url": "https://thegrayzone.com/2026/10/01/british-palestine-action-crooked-trial/",
+          "kind": "news",
+          "date": "2026-10-01"
+        },
+        {
+          "outlet": "Internet Archive",
+          "title": "Palestine Action claim about Instro",
+          "url": "https://web.archive.org/web/20241005175606mp_/https://palestineaction.org/million-instro/",
+          "kind": "archive",
+          "date": "2024"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Palestine Action, Instro section",
+          "url": "https://en.wikipedia.org/wiki/Palestine_Action",
+          "kind": "reference"
+        },
+        {
+          "outlet": "BAILII",
+          "title": "SSHD v Ammori [2026] EWCA Civ 721, citing Instro as one of three serious-damage incidents",
+          "url": "https://www.bailii.org/ew/cases/EWCA/Civ/2026/721.html",
+          "kind": "judgment",
+          "date": "2026-06-15"
+        }
+      ],
+      "source_count": 8,
+      "independent_source_count": 7
+    },
+    {
+      "id": "brize-norton",
+      "nickname": "Brize Norton",
+      "aliases": [
+        "RAF Brize Norton Five",
+        "Voyager"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2025-06-20"
+      ],
+      "location": "RAF Brize Norton, Oxfordshire",
+      "target": "Two RAF Voyager aircraft",
+      "defendants": [
+        "Amy Gardiner-Gibson",
+        "Jony Cink",
+        "Daniel Jeronymides-Norie",
+        "Lewie Chiaramello (also spelled Lewis)",
+        "Muhammad Umer Khalid",
+        "Lara Downes"
+      ],
+      "court": "Old Bailey. Five pleaded not guilty on 16 January 2026 before Mrs Justice Cheema-Grubb and were remanded. Trial was listed for 18 January 2027, estimated eight weeks. Lara Downes was charged on 14/15 May 2026.",
+      "charges": "Conspiracy to commit criminal damage, and conspiracy to enter a prohibited place for a purpose prejudicial to the safety or interests of the UK, under the National Security Act 2023 and the Criminal Law Act 1977. Not charged under the Terrorism Act for the break-in itself.",
+      "outcome": {
+        "as_of": "2026-10-17",
+        "result": "No trial verdict yet. Damage figures in open court and police statements conflict: an early £7 million figure; later £1.7 million spent with a possible rise toward £15 million. The prosecution has said the total was not final."
+      },
+      "summary": "People entered the base on 20 June 2025 and sprayed two Voyager aircraft. Palestine Action claimed it. Four people were charged on 3 July 2025, a fifth in August, a sixth in May 2026. The incident was the immediate public trigger for proscription, although the later Court of Appeal judgment also relied on the longer record, including Thales, Instro and Filton.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "Four charged over RAF Brize Norton damage",
+          "url": "https://www.telegraph.co.uk/news/2025/07/03/four-charged-raf-brize-norton-damage-palestine-action/",
+          "kind": "news",
+          "date": "2025-07-03"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Further arrest over RAF Brize Norton break-in",
+          "url": "https://www.bbc.co.uk/news/articles/c3dp5158720o",
+          "kind": "news",
+          "date": "2025-08-02"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Four in court over RAF Brize Norton break-in",
+          "url": "https://www.bbc.co.uk/news/articles/c98nn62djpdo",
+          "kind": "news",
+          "date": "2025-12-12"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Five deny RAF Brize Norton break-in",
+          "url": "https://www.bbc.co.uk/news/articles/c8e5134k3wyo",
+          "kind": "news",
+          "date": "2026-01-16"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Sixth person charged",
+          "url": "https://www.bbc.co.uk/news/articles/cx21r010kdno",
+          "kind": "news",
+          "date": "2026-05-15"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "Activist remanded",
+          "url": "https://www.telegraph.co.uk/news/2025/08/04/palestine-action-activist-remanded-in-custody-brize-norton/",
+          "kind": "news",
+          "date": "2025-08-04"
+        },
+        {
+          "outlet": "Forces News",
+          "title": "Investigation after activists damage planes",
+          "url": "https://www.forcesnews.com/services/raf/investigation-launched-after-activists-break-raf-brize-norton-and-damage-planes",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Counter-terror arrests",
+          "url": "https://www.independent.co.uk/bulletin/news/raf-brize-norton-counter-terror-arrests-b2778256.html",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "LBC",
+          "title": "Four arrested",
+          "url": "https://www.lbc.co.uk/article/four-arrested-palestine-action-break-in-raf-brize-norton-5Hjd6PX_2/",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "LBC",
+          "title": "Damage-cost report",
+          "url": "https://www.lbc.co.uk/article/costs-damage-palestine-action-attacks-raf-brize-norton-30-million-rpXzX_2/",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "BAILII",
+          "title": "Ammori v SSHD [2025] EWCA Civ 1311, Brize Norton as the immediate background to proscription",
+          "url": "https://www.bailii.org/ew/cases/EWCA/Civ/2025/1311.html",
+          "kind": "judgment",
+          "date": "2025-10-17"
+        }
+      ],
+      "source_count": 12,
+      "independent_source_count": 11
+    },
+    {
+      "id": "proscription-ammori",
+      "nickname": "Ammori v Home Secretary",
+      "aliases": [
+        "Proscription judicial review"
+      ],
+      "category": "public_law",
+      "action_dates": [
+        "2025-06-23",
+        "2025-07-05"
+      ],
+      "location": "High Court and Court of Appeal, London",
+      "target": "The Home Secretary's decision to proscribe Palestine Action",
+      "defendants": [
+        "Claimant: Huda Ammori. Defendant: Secretary of State for the Home Department."
+      ],
+      "court": "King's Bench Divisional Court and Court of Appeal (Civil Division)",
+      "charges": "Not a criminal case. Judicial review of an order under section 3 Terrorism Act 2000 adding Palestine Action to Schedule 2.",
+      "outcome": {
+        "order": "Decision taken 20 June 2025. Order made 4 July 2025, in force 5 July 2025. Commons vote reported as 385 to 26.",
+        "permission": "[2025] EWHC 1708 (Admin), Chamberlain J, and [2025] EWCA Civ 1311 (17 October 2025) on permission / interim issues. A further permission judgment is cited as [2025] EWHC 2013 (Admin).",
+        "divisional_court": "[2026] EWHC 292 (Admin), 13 February 2026, Dame Victoria Sharp PQBD, Swift J and Steyn J. Proscription quashed as contrary to the Home Secretary's own policy and disproportionate under Articles 10 and 11 ECHR.",
+        "court_of_appeal": "[2026] EWCA Civ 721, 15 June 2026. Home Secretary's appeal allowed on both grounds. Quashing order set aside. Proscription held lawful. Cross-appeal on procedural fairness and Article 14 refused. A Scottish petition, Murray v Advocate General (COS-P1017-25), was noted as ongoing."
+      },
+      "summary": "The legal status of the ban changed twice in 2026. From 13 February to 15 June the High Court quashing stood. From 15 June the Court of Appeal reinstated the ban. Support, membership and uniform offences under sections 11 to 13 Terrorism Act 2000 attach again. Maximum on indictment for sections 11 and 12 is 14 years.",
+      "sources": [
+        {
+          "outlet": "BAILII",
+          "title": "Ammori v SSHD [2025] EWHC 1708 (Admin)",
+          "url": "https://www.bailii.org/ew/cases/EWHC/Admin/2025/1708.pdf",
+          "kind": "judgment",
+          "date": "2025"
+        },
+        {
+          "outlet": "BAILII",
+          "title": "Ammori v SSHD [2025] EWCA Civ 1311",
+          "url": "https://www.bailii.org/ew/cases/EWCA/Civ/2025/1311.html",
+          "kind": "judgment",
+          "date": "2025-10-17"
+        },
+        {
+          "outlet": "BAILII",
+          "title": "Ammori v SSHD [2026] EWHC 292 (Admin)",
+          "url": "https://www.bailii.org/ew/cases/EWHC/Admin/2026/292.html",
+          "kind": "judgment",
+          "date": "2026-02-13"
+        },
+        {
+          "outlet": "BAILII",
+          "title": "SSHD v Ammori [2026] EWCA Civ 721",
+          "url": "https://www.bailii.org/ew/cases/EWCA/Civ/2026/721.html",
+          "kind": "judgment",
+          "date": "2026-06-15"
+        },
+        {
+          "outlet": "BAILII",
+          "title": "Court of Appeal press summary PDF",
+          "url": "https://www.bailii.org/ew/cases/EWCA/Civ/2026/721.image.pdf",
+          "kind": "judgment",
+          "date": "2026-06-15"
+        },
+        {
+          "outlet": "ICLR",
+          "title": "HTML case note of [2026] EWCA Civ 721",
+          "url": "https://www.iclr.co.uk/document/2026001065/2026ewcaciv721_TNA/html",
+          "kind": "judgment",
+          "date": "2026"
+        },
+        {
+          "outlet": "The Times",
+          "title": "Law report: proscription ruled lawful",
+          "url": "https://www.thetimes.com/comment/register/article/law-report-proscription-of-palestine-action-ruled-lawful-zjxk9p6vj",
+          "kind": "news",
+          "date": "2026-06-26"
+        },
+        {
+          "outlet": "Chambers",
+          "title": "Court of Appeal upholds the proscription",
+          "url": "https://chambers.com/thought-leadership/huda-ammori-v-sshd-palestine-action-proscription-appeal",
+          "kind": "news",
+          "date": "2026"
+        },
+        {
+          "outlet": "QUT ePrints",
+          "title": "Note on [2026] EWHC 292 (Admin)",
+          "url": "https://eprints.qut.edu.au/264167/1/2026-12_R_Ammori_v_SSHD_2026_EWHC_292_Admin_.pdf",
+          "kind": "judgment",
+          "date": "2026"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "Open/gisted JTAC proscription assessment",
+          "url": "https://www.nytimes.com/interactive/2025/09/12/world/europe/uk-intelligence-report-palestine-action.html",
+          "kind": "primary_document",
+          "date": "2025-09-12"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "What has the group done, as it faces a ban",
+          "url": "https://www.aljazeera.com/news/2025/7/4/palestine-action-what-has-the-group-done-as-it-faces-a-ban",
+          "kind": "news",
+          "date": "2025-07-04"
+        },
+        {
+          "outlet": "Novara Media",
+          "title": "What has happened since the ban",
+          "url": "https://novaramedia.com/2025/07/18/heres-whats-happened-since-the-palestine-action-ban",
+          "kind": "news",
+          "date": "2025-07-18"
+        }
+      ],
+      "source_count": 12,
+      "independent_source_count": 12
+    },
+    {
+      "id": "defend-our-juries",
+      "nickname": "Defend Our Juries sign-holding cases",
+      "aliases": [
+        "Lift the Ban",
+        "I oppose genocide"
+      ],
+      "category": "civil_disobedience",
+      "action_dates": [
+        "2025-07-05",
+        "2025-07-12",
+        "2025-07-19",
+        "2025-08-09",
+        "2025-08-17",
+        "2025-09-06",
+        "2025-09-16",
+        "2025-09-26",
+        "2025-09-29",
+        "2025-10-04"
+      ],
+      "location": "Parliament Square and nationwide, including Norwich and the Labour conference in Liverpool",
+      "target": "The proscription itself. The act alleged is displaying a sign reading 'I oppose genocide. I support Palestine Action.'",
+      "defendants": [
+        "Early named defendants include Jeremy Shippam, Judit Murray, and later Tim Crosland, David Nixon, Dawn Manners, Gwen Harrison, Melanie Griffith and Patrick Friend. Muhammad Rabbani of CAGE was arrested on 4 October 2025. Most of the hundreds arrested are not named in open reporting."
+      ],
+      "court": "Magistrates' courts. Charges under sections 12 and 13 Terrorism Act 2000, authorised in batches by postal charge requisition.",
+      "charges": "Inviting support, or displaying an article in a public place in such a way as to arouse reasonable suspicion of membership or support.",
+      "outcome": {
+        "result": "Arrest totals, which differ by outlet and by the hour they were counted: 29 on 5 July 2025 in Parliament Square, three later charged; 70+ on 12 July; 100+ on 19 July including 55 in Parliament Square; Met said 474 on 9 August, later revised by the BBC to 532 of which 521 were for the placard; more than 425 on 6 September; 66 in Liverpool on 29 September including an 83-year-old; a further mass vigil on 4 October. First three defendants pleaded not guilty on 16 September 2025. CPS said on 5 September 2025 that charged cases had reached 138, plus 24 more. These numbers moved quickly and should be re-checked against CPS releases."
+      },
+      "summary": "After proscription, Defend Our Juries organised open sign-holding. The criminal allegation is the sign, not property damage. Banksy's Royal Courts mural of 8 September 2025 is a related news event, not a prosecution.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Sky News",
+          "title": "Arrests hours after the ban",
+          "url": "https://news.sky.com/story/police-arrest-protesters-supporting-palestine-action-after-group-designated-as-terrorist-organisation-13392763",
+          "kind": "news",
+          "date": "2025-07-05"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Arrests at the London protest on 5 July",
+          "url": "https://www.aljazeera.com/news/2025/7/5/supporters-of-banned-palestine-action-group-arrested-at-london-protest",
+          "kind": "news",
+          "date": "2025-07-05"
+        },
+        {
+          "outlet": "CPS",
+          "title": "Three charged with displaying support",
+          "url": "https://www.cps.gov.uk/cps/news/three-charged-displaying-support-proscribed-terrorist-group",
+          "kind": "official",
+          "date": "2025-07"
+        },
+        {
+          "outlet": "Sky News",
+          "title": "Three charged",
+          "url": "https://news.sky.com/story/three-charged-with-showing-support-for-palestine-action-13408218",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "Sky News",
+          "title": "More than 70 arrests",
+          "url": "https://news.sky.com/story/more-than-70-arrests-at-protests-over-palestine-action-ban-13395938",
+          "kind": "news",
+          "date": "2025-07-12"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Dozens detained, 12 July",
+          "url": "https://www.aljazeera.com/news/2025/7/12/uk-police-detain-dozens-at-london-protest-against-palestine-action-ban",
+          "kind": "news",
+          "date": "2025-07-12"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Protests on 19 July",
+          "url": "https://www.aljazeera.com/news/2025/7/19/protests-across-uk-supporting-banned-group-palestine-action-despite-arrests",
+          "kind": "news",
+          "date": "2025-07-19"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "474 arrests, 9 August",
+          "url": "https://www.theguardian.com/world/2025/aug/09/palestine-action-arrests-london-largest-protest-ban",
+          "kind": "news",
+          "date": "2025-08-09"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Arrests rise above 500",
+          "url": "https://www.bbc.co.uk/news/articles/cqjyyzlwk2go.amp",
+          "kind": "news",
+          "date": "2025-08-10"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "At least 200 arrests, early count",
+          "url": "https://www.aljazeera.com/news/2025/8/9/uk-police-arrest-at-least-200-in-palestine-action-protest-in-london",
+          "kind": "news",
+          "date": "2025-08-09"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Norwich arrests",
+          "url": "https://www.theguardian.com/world/2025/aug/16/police-arrest-protesters-palestine-action-norwich",
+          "kind": "news",
+          "date": "2025-08-16"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "More than 425 arrests, 6 September",
+          "url": "https://www.theguardian.com/world/2025/sep/06/police-make-arrests-at-london-palestine-action-ban-protest",
+          "kind": "news",
+          "date": "2025-09-06"
+        },
+        {
+          "outlet": "CAGE",
+          "title": "Muhammad Rabbani arrested, 4 October 2025",
+          "url": "https://www.cage.ngo/articles/cage-managing-director-arrested-for-participating-in-defend-our-juries-civil-disobedience-action",
+          "kind": "ngo",
+          "date": "2025-10-04"
+        }
+      ],
+      "source_count": 14,
+      "independent_source_count": 13
+    },
+    {
+      "id": "barclays",
+      "nickname": "Barclays campaign",
+      "aliases": [
+        "Moorgate",
+        "Chatham"
+      ],
+      "category": "action",
+      "action_dates": [
+        "2024-06-10",
+        "2024-06-24"
+      ],
+      "location": "About 20 branches on 10 June 2024, including Moorgate, London; Chatham High Street on 24 June 2024. CAGE and Palestine Action claimed 54 actions over a year.",
+      "target": "Barclays branches, over shareholdings in Elbit Systems Ltd",
+      "defendants": [],
+      "court": "Three arrests reported at Moorgate. No consolidated judgment located.",
+      "charges": "Criminal damage alleged at branches: smashed windows and paint.",
+      "outcome": {
+        "result": "SEC filings reproduced by Middle East Eye, The Canary and Ethical Consumer showed Barclays reporting 0 ELST shares in the filing after 15 May 2024, down from 16,345 shares. Barclays told Middle East Eye it was not a shareholder 'in that sense' and that the position was not a policy divestment. Campaign groups called it a divestment. Both the filing change and the bank's denial are part of the record."
+      },
+      "summary": "A branch-damage campaign through 2024, cresting on 10 June, aimed at Barclays' disclosed Elbit position. The October 2024 filing change is documented. Causation is claimed by the campaign and disputed by the bank.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Sky News",
+          "title": "Activists target UK Barclays branches",
+          "url": "https://news.sky.com/story/pro-palestine-activists-target-uk-barclays-branches-13150773",
+          "kind": "news",
+          "date": "2024-06-10"
+        },
+        {
+          "outlet": "The Jewish Chronicle",
+          "title": "20 Barclays branches vandalised",
+          "url": "https://www.thejc.com/news/20-barclays-branches-across-the-uk-vandalised-in-coordinated-effort-by-anti-israel-activists-nfoo7kyg",
+          "kind": "news",
+          "date": "2024-06"
+        },
+        {
+          "outlet": "ITV Granada",
+          "title": "Barclays windows smashed",
+          "url": "https://www.itv.com/news/granada/2024-06-10/barclays-bank-windows-smashed-in-pro-palestine-countrywide-attack",
+          "kind": "news",
+          "date": "2024-06-10"
+        },
+        {
+          "outlet": "City AM",
+          "title": "Moorgate branch vandalised, three arrested",
+          "url": "https://www.cityam.com/barclays-in-moorgate-vandalised-as-three-arrested-in-apparent-palestine-protest",
+          "kind": "news",
+          "date": "2024-06"
+        },
+        {
+          "outlet": "KentOnline",
+          "title": "Chatham branch smashed again",
+          "url": "https://www.kentonline.co.uk/medway/news/barclays-windows-smashed-again-just-two-weeks-after-vandalis-308779",
+          "kind": "news",
+          "date": "2024-06"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "title": "Barclays sells all reported Elbit shares",
+          "url": "https://www.middleeasteye.net/news/barclays-israel-elbit-systems-sells-shares-weapons",
+          "kind": "news",
+          "date": "2024-10-31"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "Barclays position in Elbit goes to zero",
+          "url": "https://www.thecanary.co/uk/news/2024/10/31/barclays-divest-elbit-palestine-action/",
+          "kind": "news",
+          "date": "2024-10-31"
+        },
+        {
+          "outlet": "Ethical Consumer",
+          "title": "Barclays no longer holds shares in Elbit",
+          "url": "https://www.ethicalconsumer.org/money-finance/barclays-no-longer-holds-shares-elbit-systems",
+          "kind": "news",
+          "date": "2024-10-31"
+        }
+      ],
+      "source_count": 9,
+      "independent_source_count": 8
+    },
+    {
+      "id": "leicester-2023-2024",
+      "nickname": "U-TacS 2023-24",
+      "aliases": [
+        "Leicester van",
+        "Leicester lock-on"
+      ],
+      "category": "prosecution",
+      "action_dates": [
+        "2023-10-18",
+        "2023-11-20",
+        "2024-04-11"
+      ],
+      "location": "U-TacS, Braunstone / Meridian Business Park, Leicester",
+      "target": "UAV Tactical Systems",
+      "defendants": [],
+      "court": "A December 2024 jury acquittal of two people is reported by The Canary and the Morning Star. The CAGE report links an acquittal to people arrested at the October 2023 action. The April 2024 car action has a separate charging report.",
+      "charges": "Criminal damage. October 2023: a van was driven through the gates. November 2023: four people aged 31, 23, 20 and 24 arrested over a lock-on blockade. April 2024: two people drove cars at bollards and locked on.",
+      "outcome": {
+        "result": "Canary, 21 December 2024, and Morning Star report two acquittals. Which exact incident those two defendants were tried for should be checked against the indictment; the CAGE report places an acquittal on the October 2023 arrests."
+      },
+      "summary": "Three further actions at the same Leicester drone factory after the 2021 roof occupation.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Two charged after protest at drone factory",
+          "url": "https://www.bbc.com/news/articles/cpvl2rdgkn1o",
+          "kind": "news",
+          "date": "2023"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "Activists break into drone factory linked to Israel",
+          "url": "https://www.telegraph.co.uk/news/2023/10/18/palestine-activists-break-into-drone-factory-leicester",
+          "kind": "news",
+          "date": "2023-10-18"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Blockade of the Leicester drone factory",
+          "url": "https://www.morningstaronline.co.uk/article/palestine-action-blockades-israel-drone-factory",
+          "kind": "news",
+          "date": "2023-11"
+        },
+        {
+          "outlet": "Freedom News",
+          "title": "Blockade of Leicester's drone factory",
+          "url": "https://freedomnews.org.uk/2023/11/20/palestine-action-blockades-leicesters-drone-factory/",
+          "kind": "news",
+          "date": "2023-11-20"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Arrests after drone factory protest",
+          "url": "https://www.bbc.com/news/articles/cxe1xekjydko",
+          "kind": "news",
+          "date": "2023"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "Two activists acquitted",
+          "url": "https://www.thecanary.co/uk/news/2024/12/21/palestine-action-leicester/",
+          "kind": "news",
+          "date": "2024-12-21"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Two Palestine Action activists acquitted",
+          "url": "https://morningstaronline.co.uk/article/two-palestine-action-activists-acquitted",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Activists charged over Israeli drone factory protest",
+          "url": "https://morningstaronline.co.uk/article/pro-palestine-activists-charged-over-israeli-drone-factory-protest",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "April 2024 Leicester action",
+          "url": "https://www.thecanary.co/trending/2024/04/12/palestine-action-take-drastic-measures-to-stop-elbit-crashing-cars-into-its-factory",
+          "kind": "news",
+          "date": "2024-04-12"
+        }
+      ],
+      "source_count": 10,
+      "independent_source_count": 9
+    },
+    {
+      "id": "bbc-portland-place-2023",
+      "nickname": "BBC Broadcasting House, October 2023",
+      "action_dates": [
+        "2023-10-14"
+      ],
+      "location": "BBC Broadcasting House, Portland Place, London",
+      "target": "BBC",
+      "summary": "Red paint was thrown on the BBC's London headquarters. Palestine Action claimed it. A separate February 2025 attack on the same building is its own entry.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "BBC building sprayed with red paint",
+          "url": "https://www.theguardian.com/media/2023/oct/14/bbc-building-red-paint-protest-israel-hamas-coverage",
+          "kind": "news",
+          "date": "2023-10-14"
+        },
+        {
+          "outlet": "Sky News",
+          "title": "Group claims the BBC paint",
+          "url": "https://news.sky.com/story/amp/red-paint-sprayed-over-bbcs-london-headquarters-12984339",
+          "kind": "news",
+          "date": "2023-10-14"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "BBC headquarters covered in red paint",
+          "url": "https://www.telegraph.co.uk/news/2023/10/14/bbc-broadcasting-house-red-paint",
+          "kind": "news",
+          "date": "2023-10-14"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 4,
+      "independent_source_count": 3
+    },
+    {
+      "id": "uav-engines-bristol-2023",
+      "nickname": "UAV Engines roof, October 2023",
+      "action_dates": [
+        "2023-10-31"
+      ],
+      "location": "UAV Engines Ltd, Bristol area",
+      "target": "Elbit subsidiary UAV Engines",
+      "summary": "Roof occupation that the group said stopped engine production for the day, alongside a blockade of Elbit's Bristol office.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Shuts down drone factory and blockades Bristol HQ",
+          "url": "https://morningstaronline.co.uk/article/b/palestine-action-shuts-down-israeli-drone-factory-and-blockades-weapons-makers-bristol",
+          "kind": "news",
+          "date": "2023-10"
+        },
+        {
+          "outlet": "Anadolu",
+          "title": "Occupies Israeli drone engine factory",
+          "url": "https://www.anews.com.tr/world/2023/10/31/palestine-action-group-occupies-israeli-drone-engine-factory-in-uk",
+          "kind": "news",
+          "date": "2023-10-31"
+        },
+        {
+          "outlet": "Bristol Post",
+          "title": "Live: blockade of Bristol defence firm",
+          "url": "https://www.bristolpost.co.uk/news/bristol-news/live-palestine-action-protesters-blockade-8870797",
+          "kind": "news",
+          "date": "2023"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 4,
+      "independent_source_count": 3
+    },
+    {
+      "id": "leonardo-piccadilly",
+      "nickname": "Leonardo Piccadilly",
+      "action_dates": [
+        "2023-11-02"
+      ],
+      "location": "Leonardo UK, Piccadilly, London",
+      "target": "Leonardo UK",
+      "summary": "Two men arrested on suspicion of racially aggravated criminal damage after red paint and 'Free Gaza' graffiti. Investigated as a hate crime. No located verdict.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Evening Standard",
+          "title": "Two men arrested after Piccadilly protest",
+          "url": "https://www.standard.co.uk/news/crime/free-palestine-gaza-protest-london-piccadilly-eagle-place-arrest-b1117669.html",
+          "kind": "news",
+          "date": "2023"
+        },
+        {
+          "outlet": "Sky News",
+          "title": "Red paint on a London building",
+          "url": "https://news.sky.com/story/activists-hurl-red-paint-over-london-building-in-free-gaza-protest-12998673",
+          "kind": "news",
+          "date": "2023"
+        },
+        {
+          "outlet": "ITV London",
+          "title": "Office covered in red paint",
+          "url": "https://www.itv.com/news/london/2023-11-02/gaza-protester-refuses-to-get-down-from-canopy-as-office-covered-in-red-paint",
+          "kind": "news",
+          "date": "2023-11-02"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 4,
+      "independent_source_count": 3
+    },
+    {
+      "id": "lockheed-ampthill",
+      "nickname": "Lockheed Ampthill",
+      "action_dates": [
+        "2023-11-24"
+      ],
+      "location": "Lockheed Martin, Ampthill, Bedfordshire",
+      "target": "Lockheed Martin UK",
+      "summary": "Double blockade of the gates at dawn. Two people locked on. No located trial.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Lockheed Martin: Palestine protesters install blockade",
+          "url": "https://www.bbc.com/news/uk-england-beds-bucks-herts-67519517",
+          "kind": "news",
+          "date": "2023"
+        },
+        {
+          "outlet": "Bedford Today",
+          "title": "Protesters block aerospace company",
+          "url": "https://www.bedfordtoday.co.uk/news/politics/pro-palestine-protesters-block-entrances-of-aerospace-company-lockheed-martin-in-ampthill-4422845",
+          "kind": "news",
+          "date": "2023"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 3,
+      "independent_source_count": 2
+    },
+    {
+      "id": "kuehne-nagel",
+      "nickname": "Kuehne+Nagel Milton Keynes",
+      "action_dates": [
+        "2024-01-17"
+      ],
+      "location": "Milton Keynes",
+      "target": "Kuehne+Nagel",
+      "summary": "Windows smashed and red paint sprayed. On 2 February 2024 the company told the group it had ended business with Elbit. That corporate statement is reported by MEMO and the Morning Star; it is not a court finding about why the company decided.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Group says it vandalised haulage firm",
+          "url": "https://www.bbc.com/news/articles/cd1l112v1ppo",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Targets K+N and Palletline",
+          "url": "https://morningstaronline.co.uk/article/palestine-action-target-logistics-firms-kn-and-palletline-servicing-elbit-systems",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Transport company cuts ties with Elbit",
+          "url": "https://www.middleeastmonitor.com/20240202-transport-company-cuts-ties-with-israel-weapons-manufacturer-elbit",
+          "kind": "news",
+          "date": "2024-02-02"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 4,
+      "independent_source_count": 3
+    },
+    {
+      "id": "twickenham-iav-2024",
+      "nickname": "Twickenham IAV conference",
+      "action_dates": [
+        "2024-01-22"
+      ],
+      "location": "Twickenham Stadium, London",
+      "target": "International Armoured Vehicles conference",
+      "summary": "Red paint on the stadium during the conference. A later, separate drone flight on 9 March 2025 is its own entry.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Group targets Twickenham with red paint",
+          "url": "https://www.bbc.com/news/articles/crg4dg2nq50o",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "ESPN",
+          "title": "Twickenham vandalised as military vehicles event gets under way",
+          "url": "https://www.espn.com.au/rugby/story/_/id/39368047/twickenham-vandalised-military-vehicles-event-gets-way",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "GB News",
+          "title": "Stadium vandalised",
+          "url": "https://www.gbnews.com/sport/rugby/twickenham-stadium-vandalised-blood-red-pro-palestine-protest-rfu",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Evening Standard",
+          "title": "Stadium vandalised with red paint",
+          "url": "https://www.standard.co.uk/news/london/twickenham-stadium-vandalised-palestine-gaza-israel-b1134110.html",
+          "kind": "news",
+          "date": "2024"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 5,
+      "independent_source_count": 4
+    },
+    {
+      "id": "balfour-portrait-cambridge",
+      "nickname": "Trinity Balfour portrait",
+      "action_dates": [
+        "2024-03-08"
+      ],
+      "location": "Trinity College, Cambridge",
+      "target": "1914 portrait of Arthur Balfour",
+      "summary": "One person sprayed and slashed the portrait. In 2025 the BBC reported police had ended the investigation. No charge located.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "Protester damages Balfour portrait",
+          "url": "https://www.telegraph.co.uk/news/2024/03/08/pro-palestine-protest-trinity-college-lord-balfour-portrait",
+          "kind": "news",
+          "date": "2024-03-08"
+        },
+        {
+          "outlet": "New York Post",
+          "title": "Painting vandalised",
+          "url": "https://nypost.com/2024/03/08/world-news/anti-israel-protester-vandalizes-painting-of-balfour-who-backed-creation-of-jewish-state/",
+          "kind": "news",
+          "date": "2024-03-08"
+        },
+        {
+          "outlet": "Artforum",
+          "title": "Activist damages painting of Lord Balfour",
+          "url": "https://www.artforum.com/news/activist-damages-painting-of-lord-balfour-who-played-key-role-in-creation-israel-550588/",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Police end Balfour portrait investigation",
+          "url": "https://www.bbc.com/news/articles/cx2xpnx93epo",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 5,
+      "independent_source_count": 4
+    },
+    {
+      "id": "mod-whitehall-2024",
+      "nickname": "Ministry of Defence paint",
+      "action_dates": [
+        "2024-04-10"
+      ],
+      "location": "Ministry of Defence, Whitehall, London",
+      "target": "MoD headquarters",
+      "summary": "Youth Demand and Palestine Action. People climbed the railings and sprayed the walls. Sky reported five arrests.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Protesters scale MoD railings",
+          "url": "https://www.independent.co.uk/tv/news/israel-palestine-protest-london-mod-b2526876.html",
+          "kind": "news",
+          "date": "2024-04"
+        },
+        {
+          "outlet": "Sky News",
+          "title": "Five arrested after spraying the MoD",
+          "url": "https://news.sky.com/story/five-pro-palestine-protesters-arrested-after-spraying-red-paint-over-ministry-of-defence-building-13112401",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Freedom News",
+          "title": "Palestine Action and Youth Demand paint the MoD",
+          "url": "https://freedomnews.org.uk/2024/04/19/palestine-action-and-youth-demand-paint-ministry-of-defence",
+          "kind": "news",
+          "date": "2024-04-19"
+        },
+        {
+          "outlet": "Youth Demand",
+          "title": "Their own account of the action",
+          "url": "https://youthdemand.org/2024/04/10/youth-demand-and-palestine-action-paint-ministry-of-defence-and-march-through-london",
+          "kind": "campaign",
+          "date": "2024-04-10"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 5,
+      "independent_source_count": 4
+    },
+    {
+      "id": "leonardo-edinburgh",
+      "nickname": "Leonardo Crewe Toll",
+      "action_dates": [
+        "2024-05-28"
+      ],
+      "location": "Leonardo, Crewe Toll, Edinburgh",
+      "target": "Leonardo UK",
+      "summary": "Paint on the factory and on aircraft models, and damage to external communications cabling, claimed by Palestine Action Scotland. No located verdict.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Edinburgh Live",
+          "title": "Activists spray red paint",
+          "url": "https://www.edinburghlive.co.uk/news/edinburgh-news/edinburgh-activists-spray-red-paint-29254230",
+          "kind": "news",
+          "date": "2024-05"
+        },
+        {
+          "outlet": "Edinburgh Reporter",
+          "title": "Leonardo targeted",
+          "url": "https://theedinburghreporter.co.uk/2024/05/leonardo-targeted-by-pro-palestinian-protesters",
+          "kind": "news",
+          "date": "2024-05"
+        },
+        {
+          "outlet": "Bella Caledonia",
+          "title": "Direct action against Edinburgh's Leonardo factory",
+          "url": "https://bellacaledonia.org.uk/2024/05/28/direct-action-against-edinburghs-leonardo-factory",
+          "kind": "news",
+          "date": "2024-05-28"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 4,
+      "independent_source_count": 3
+    },
+    {
+      "id": "cambridge-senate-house",
+      "nickname": "Cambridge Senate House",
+      "action_dates": [
+        "2024-06-22"
+      ],
+      "location": "Senate House, University of Cambridge",
+      "target": "University of Cambridge",
+      "summary": "Red paint on Senate House during graduations, claimed jointly with students. No located verdict.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Senate House splattered",
+          "url": "https://www.independent.co.uk/news/uk/senate-house-cambridge-palestinian-university-of-cambridge-protesters-b2567102.html",
+          "kind": "news",
+          "date": "2024-06"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "Senate House splattered with red paint",
+          "url": "https://www.telegraph.co.uk/news/2024/06/22/university-of-cambridges-senate-house-splattered-red-paint",
+          "kind": "news",
+          "date": "2024-06-22"
+        },
+        {
+          "outlet": "Cambridge Independent",
+          "title": "Police investigate paint on Senate House",
+          "url": "https://www.cambridgeindependent.co.uk/news/police-investigating-after-blood-red-paint-thrown-over-sen-9371630/",
+          "kind": "news",
+          "date": "2024"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 4,
+      "independent_source_count": 3
+    },
+    {
+      "id": "apco",
+      "nickname": "APCO Worldwide",
+      "action_dates": [
+        "2024-09-03",
+        "2024-10-25"
+      ],
+      "location": "APCO Worldwide, London",
+      "target": "APCO, described by the campaign as a registered lobbyist for Elbit UK",
+      "summary": "Two London actions: paint and a lock-on on 3 September, and a further blockade on 25 October. On 1 November 2024 the firm was reported to have ended its Elbit relationship. That is a campaign claim carried by CAGE; a primary APCO statement was not opened in this pass.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Activists blockade lobbying firm",
+          "url": "https://www.middleeastmonitor.com/20240903-activists-blockade-lobbying-firm-in-london-over-ties-with-israel-arms-manufacturer",
+          "kind": "news",
+          "date": "2024-09-03"
+        },
+        {
+          "outlet": "GB News",
+          "title": "APCO protest",
+          "url": "https://www.gbnews.com/news/pro-palestine-protesters-apco-worldwide-london-israel-weapons",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Blockade and spray lobbyists",
+          "url": "https://morningstaronline.co.uk/article/palestine-action-activists-blockade-and-spray-paint-lobbyists-for-israeli-arms-firm",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "October APCO action",
+          "url": "https://www.thecanary.co/uk/news/2024/10/25/palestine-action-apco",
+          "kind": "news",
+          "date": "2024-10-25"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Blockade of APCO offices",
+          "url": "https://morningstaronline.co.uk/article/palestine-activists-blockade-apco-offices",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Popular Resistance",
+          "title": "Blockade and spray",
+          "url": "https://popularresistance.org/palestine-action-blockade-and-spray-lobbyists-for-israeli-weapons-firm",
+          "kind": "news",
+          "date": "2024"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 7,
+      "independent_source_count": 6
+    },
+    {
+      "id": "allianz",
+      "nickname": "Allianz campaign",
+      "action_dates": [
+        "2024-10-08",
+        "2025-01-28",
+        "2025-03-10",
+        "2025-04-14"
+      ],
+      "location": "Allianz offices including Guildford, Gracechurch Street in London, and Victoria Street in Bristol; also a claimed set of 10 offices",
+      "target": "Allianz, as an alleged insurer or investor of Elbit",
+      "summary": "Paint and office blockades. Three arrests were reported around the October 2024 actions. A March 2025 occupation of the Gracechurch Street office is separately reported. No located conviction.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Activists target UK offices of Allianz",
+          "url": "https://www.middleeastmonitor.com/20241008-pro-palestinian-activists-target-uk-offices-of-germanys-allianz",
+          "kind": "news",
+          "date": "2024-10-08"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "UK offices vandalised",
+          "url": "https://www.timesofisrael.com/liveblog_entry/anti-israel-activists-vandalize-uk-offices-of-germanys-allianz-with-red-paint-for-insuring-elbit",
+          "kind": "news",
+          "date": "2024-10"
+        },
+        {
+          "outlet": "Insurance Business",
+          "title": "Allianz UK offices hit",
+          "url": "https://www.insurancebusinessmag.com/uk/news/breaking-news/allianz-uk-offices-hit-by-palestine-action-protests-508842.aspx",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "October Allianz actions",
+          "url": "https://www.thecanary.co/trending/2024/10/08/palestine-action-allianz",
+          "kind": "news",
+          "date": "2024-10-08"
+        },
+        {
+          "outlet": "Insurance Times",
+          "title": "Three arrests",
+          "url": "https://www.insurancetimes.co.uk/news/three-arrests-made-as-palestine-action-promises-more-action-against-allianz/1453251.article",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Evening Standard",
+          "title": "Gracechurch Street occupation",
+          "url": "https://www.standard.co.uk/news/crime/palestine-action-allianz-protest-gracechurch-street-occupation-b1215699.html",
+          "kind": "news",
+          "date": "2025-03"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "March 2025 Allianz action",
+          "url": "https://www.thecanary.co/uk/news/2025/03/10/allianz-palestine-action/",
+          "kind": "news",
+          "date": "2025-03-10"
+        },
+        {
+          "outlet": "The National",
+          "title": "Paint on the insurer's offices",
+          "url": "https://www.thenational.scot/news/24995299.palestine-protesters-spray-paint-insurance-giants-offices/",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "Middle East Monitor",
+          "title": "January 2025 Allianz protest",
+          "url": "https://www.middleeastmonitor.com/20250129-palestine-activists-protest-against-allianz-over-alleged-ties-to-israeli-defence-firm",
+          "kind": "news",
+          "date": "2025-01-29"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 10,
+      "independent_source_count": 9
+    },
+    {
+      "id": "manchester-busts",
+      "nickname": "Manchester Weizmann busts",
+      "action_dates": [
+        "2024-11-02"
+      ],
+      "location": "Chemistry Building, University of Manchester",
+      "target": "Busts of Chaim Weizmann",
+      "summary": "Two people smashed a display case and removed busts on the Balfour anniversary. Police investigated. No located conviction in this pass.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Manchester Evening News",
+          "title": "Wrong sculpture taken",
+          "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/palestine-action-steals-wrong-sculpture-30308321",
+          "kind": "news",
+          "date": "2024-11"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Manchester University busts",
+          "url": "https://www.bbc.com/news/articles/c207z70g6xeo",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "LBC",
+          "title": "Busts removed",
+          "url": "https://www.lbc.co.uk/article/manchester-university-israeli-leader-antisemitic-stolen-5HjctST_2/",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "Straits Times",
+          "title": "Sculptures of Israel's first president removed",
+          "url": "https://www.straitstimes.com/world/europe/protesters-remove-sculptures-of-israels-first-president-from-uk-university",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "The Boar",
+          "title": "Campus tensions after the removal",
+          "url": "https://theboar.org/2024/11/university-of-manchester-navigates-rising-campus-tensions-after-busts-of-israeli-president-stolen/",
+          "kind": "news",
+          "date": "2024-11"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 6,
+      "independent_source_count": 5
+    },
+    {
+      "id": "jnf-bicom",
+      "nickname": "JNF Hendon and BICOM",
+      "action_dates": [
+        "2024-11-02",
+        "2024-11-02"
+      ],
+      "location": "Jewish National Fund office, Hendon; BICOM, Hampstead High Street",
+      "target": "JNF UK and BICOM",
+      "summary": "Red paint on both offices on the Balfour anniversary. Reported together in several outlets as attacks on Jewish charities. No located verdict.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Hate-crime investigation",
+          "url": "https://www.independent.co.uk/news/uk/crime/israel-business-hate-crime-london-met-police-b2640393.html",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "The Jewish Chronicle",
+          "title": "Jewish charities attacked on the Balfour anniversary",
+          "url": "https://www.thejc.com/news/uk/outrage-as-jewish-charities-attacked-on-balfour-anniversary-xcvbtdhh",
+          "kind": "news",
+          "date": "2024"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 3,
+      "independent_source_count": 2
+    },
+    {
+      "id": "bbc-2025",
+      "nickname": "BBC headquarters, February 2025",
+      "action_dates": [
+        "2025-02-17"
+      ],
+      "location": "BBC Broadcasting House, London",
+      "target": "BBC",
+      "summary": "Glass doors smashed and red paint thrown. Separate from the October 2023 paint incident.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Police investigation",
+          "url": "https://www.independent.co.uk/news/uk/home-news/police-bbc-metropolitan-police-israel-hamas-b2699619.html",
+          "kind": "news",
+          "date": "2025-02"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "February 2025 BBC action",
+          "url": "https://www.thecanary.co/uk/news/2025/02/17/bbc-palestine-action/",
+          "kind": "news",
+          "date": "2025-02-17"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 3,
+      "independent_source_count": 2
+    },
+    {
+      "id": "oxford-blavatnik",
+      "nickname": "Blavatnik School",
+      "action_dates": [
+        "2025-02-28"
+      ],
+      "location": "Blavatnik School of Government, Oxford",
+      "target": "University of Oxford",
+      "summary": "Glass doors and windows smashed and red paint sprayed. Cherwell later reported the clean-up cost to the university.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "Oxford action",
+          "url": "https://www.thecanary.co/uk/news/2025/03/02/oxford-university-elbit",
+          "kind": "news",
+          "date": "2025-03-02"
+        },
+        {
+          "outlet": "Cherwell",
+          "title": "Cost of the Oxford protests",
+          "url": "https://cherwell.org/2025/05/17/oxford-pro-palestine-protests-costs",
+          "kind": "news",
+          "date": "2025-05-17"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 3,
+      "independent_source_count": 2
+    },
+    {
+      "id": "cambridge-old-schools",
+      "nickname": "Cambridge Old Schools",
+      "action_dates": [
+        "2025-03-04"
+      ],
+      "location": "Old Schools, Cambridge",
+      "target": "University of Cambridge",
+      "summary": "Students described as autonomous, with Palestine Action, splashed the Grade I entrance. BBC and the local paper reported it.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Cambridge Independent",
+          "title": "Old Schools daubed",
+          "url": "https://www.cambridgeindependent.co.uk/news/palestine-action-daubs-old-schools-building-in-blood-red-pai-9406941",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Cambridge report",
+          "url": "https://www.bbc.com/news/articles/cgl0zjn63nno.amp",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 3,
+      "independent_source_count": 2
+    },
+    {
+      "id": "twickenham-drone-2025",
+      "nickname": "Twickenham drone flag",
+      "action_dates": [
+        "2025-03-09"
+      ],
+      "location": "Allianz Stadium, Twickenham",
+      "target": "The Six Nations match, England v Italy, because of the Allianz sponsorship",
+      "summary": "A drone carrying a Palestinian flag was flown over the ground in the 67th minute. No located charge.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "Palestinian flag flown over Twickenham by drone",
+          "url": "https://www.telegraph.co.uk/rugby-union/2025/03/09/palestinian-flag-flown-over-twickenham-by-drone/",
+          "kind": "news",
+          "date": "2025-03-09"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "Drone over Twickenham",
+          "url": "https://morningstaronline.co.uk/article/palestine-action-use-drone-fly-flag-over-twickenham",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "International report",
+          "url": "https://www.jpost.com/international/article-845536",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 4,
+      "independent_source_count": 3
+    },
+    {
+      "id": "filton-cherry-picker-2025",
+      "nickname": "Aztec West cherry picker",
+      "action_dates": [
+        "2025-03-15"
+      ],
+      "location": "Elbit, Aztec West, Bristol",
+      "target": "Elbit Systems UK",
+      "summary": "Four people charged after a cherry picker was used at the entrance and windows were broken. ITV reported the charges as including conspiracy to damage property. This is not the August 2024 Filton 24 case.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "ITV West Country",
+          "title": "Four charged over damage",
+          "url": "https://www.itv.com/news/westcountry/2025-03-17/four-charged-over-damage-at-defence-firms-facility",
+          "kind": "news",
+          "date": "2025-03-17"
+        },
+        {
+          "outlet": "The Canary",
+          "title": "Cherry-picker action",
+          "url": "https://www.thecanary.co/uk/news/2025/03/16/palestine-action-cherry-picker-elbit-bristol",
+          "kind": "news",
+          "date": "2025-03-16"
+        },
+        {
+          "outlet": "Popular Resistance",
+          "title": "Cherry-picker report",
+          "url": "https://popularresistance.org/palestine-action-just-cherry-picked-their-latest-protest",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "Bristol 24/7",
+          "title": "Police remove protesters",
+          "url": "https://www.bristol247.com/news-and-features/news/police-remove-palestine-action-protesters-building",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "Jerusalem Post",
+          "title": "International report",
+          "url": "https://www.jpost.com/international/article-848898",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 6,
+      "independent_source_count": 5
+    },
+    {
+      "id": "guardtech-brandon",
+      "nickname": "Guardtech Brandon",
+      "action_dates": [
+        "2025-07-01"
+      ],
+      "location": "Guardtech Group, Highbury Road, Brandon, Suffolk",
+      "target": "Guardtech, described by the campaign as an Elbit subcontractor",
+      "summary": "Roof occupation and paint on 1 July 2025, the same day as a blockade of the Bristol Elbit entrance. Two arrests reported locally.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "Suffolk News",
+          "title": "Pair arrested after rooftop protest",
+          "url": "https://www.suffolknews.co.uk/thetford/pair-arrested-after-palestine-action-protest-on-roof-at-town-9423764",
+          "kind": "news",
+          "date": "2025-07"
+        },
+        {
+          "outlet": "ITV Anglia",
+          "title": "Police called to rooftop protest",
+          "url": "https://www.itv.com/news/anglia/2025-07-01/police-called-as-palestine-action-group-stages-rooftop-protest",
+          "kind": "news",
+          "date": "2025-07-01"
+        },
+        {
+          "outlet": "GB News",
+          "title": "Suffolk and Bristol actions",
+          "url": "https://www.gbnews.com/news/palestine-action-blockade-uk-defence-contractor-suffolk-bristol",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "Bristol 24/7",
+          "title": "Bristol entrance blocked the same day",
+          "url": "https://www.bristol247.com/news-and-features/news/palestine-action-protesters-block-entrance-defence-firm",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "No completed public judgment located in this research pass."
+      },
+      "source_count": 5,
+      "independent_source_count": 4
+    },
+    {
+      "id": "picasso-national-gallery",
+      "nickname": "National Gallery Picasso",
+      "action_dates": [
+        "2024-10-09"
+      ],
+      "location": "National Gallery, London",
+      "target": "Picasso, Motherhood (1901)",
+      "summary": "Youth Demand pasted a photograph over the glass of the painting. Not a Palestine Action case.",
+      "sources": [
+        {
+          "outlet": "Evening Standard",
+          "title": "National Gallery Picasso protest",
+          "url": "https://www.standard.co.uk/news/london/national-gallery-picasso-motherhood-gaza-protest-youth-demand-israel-palestine-b1186831.html",
+          "kind": "news",
+          "date": "2024-10"
+        },
+        {
+          "outlet": "Museums Association",
+          "title": "Gaza campaigners target Picasso",
+          "url": "https://www.museumsassociation.org/museums-journal/news/2024/10/gaza-campaigners-target-picasso-painting-in-latest-national-gallery-protest",
+          "kind": "news",
+          "date": "2024-10"
+        }
+      ],
+      "category": "other_direct_action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "See the linked reports. Not part of the Palestine Action indictment."
+      },
+      "source_count": 2,
+      "independent_source_count": 2
+    },
+    {
+      "id": "bbc-wales-murphy",
+      "nickname": "BBC Wales, Deirdre Murphy",
+      "action_dates": [
+        "2023-10-29"
+      ],
+      "location": "BBC Wales, Cardiff",
+      "target": "BBC Cymru",
+      "defendants": [
+        "Deirdre Murphy"
+      ],
+      "summary": "A 69-year-old woman was charged with criminal damage after the word 'liars' was sprayed on BBC Wales during a protest.",
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "title": "BBC Wales graffiti",
+          "url": "https://www.bbc.com/news/uk-wales-67251538",
+          "kind": "news",
+          "date": "2023"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Deirdre Murphy",
+          "url": "https://www.independent.co.uk/news/world/middle-east/deirdre-murphy-israel-police-detention-west-bank-b2764448.html",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "other_direct_action",
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "See the linked reports. Not part of the Palestine Action indictment."
+      },
+      "source_count": 2,
+      "independent_source_count": 2
+    },
+    {
+      "id": "rochdale-cenotaph-teenagers",
+      "nickname": "Rochdale cenotaph",
+      "action_dates": [
+        "2023-11-07"
+      ],
+      "location": "Rochdale cenotaph",
+      "target": "War memorial",
+      "defendants": [
+        "Adeem Ahmed",
+        "Amaan Tariq",
+        "one 17-year-old, unnamed"
+      ],
+      "summary": "'Free Palestine' sprayed on the cenotaph. The two 18-year-olds were sentenced; ITV reported the hearing in April 2024. The child's disposal is restricted.",
+      "sources": [
+        {
+          "outlet": "ITV Granada",
+          "title": "Teenagers sentenced",
+          "url": "https://www.itv.com/news/granada/2024-04-23/teenagers-sentenced-after-writing-free-palestine-on-war-memorial",
+          "kind": "news",
+          "date": "2024-04-23"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Rochdale memorial",
+          "url": "https://www.independent.co.uk/news/uk/crime/free-palestine-rochdale-memorial-war-b2533201.html",
+          "kind": "news",
+          "date": "2023"
+        }
+      ],
+      "category": "other_direct_action",
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "See the linked reports. Not part of the Palestine Action indictment."
+      },
+      "source_count": 2,
+      "independent_source_count": 2
+    },
+    {
+      "id": "whitehall-cenotaph-youth-demand",
+      "nickname": "Whitehall cenotaph",
+      "action_dates": [
+        "2024-07-15"
+      ],
+      "location": "Cenotaph, Whitehall",
+      "target": "Cenotaph",
+      "summary": "Two Youth Demand activists laid flowers and a flag and sprayed a message. Arrests reported.",
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "title": "Cenotaph protest",
+          "url": "https://www.bbc.com/news/articles/cv208nmrnv5o",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Further report",
+          "url": "https://www.bbc.com/news/articles/cgrl1r45r7lo",
+          "kind": "news",
+          "date": "2024"
+        },
+        {
+          "outlet": "The Jewish Chronicle",
+          "title": "Two arrested",
+          "url": "https://www.thejc.com/news/politics/two-pro-palestinian-activists-arrested-after-cenotaph-protest-mfptvbvf",
+          "kind": "news",
+          "date": "2024"
+        }
+      ],
+      "category": "other_direct_action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "See the linked reports. Not part of the Palestine Action indictment."
+      },
+      "source_count": 3,
+      "independent_source_count": 3
+    },
+    {
+      "id": "fcdo-blockade",
+      "nickname": "Foreign Office blockade",
+      "action_dates": [
+        "2024-07-24"
+      ],
+      "location": "FCDO, King Charles Street, London",
+      "target": "Foreign, Commonwealth and Development Office",
+      "summary": "Workers for a Free Palestine. About 200 people. Nine arrests.",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Protesters block Foreign Office entrances",
+          "url": "https://www.theguardian.com/politics/article/2024/jul/24/pro-palestinian-protesters-block-entrances-foreign-office-london",
+          "kind": "news",
+          "date": "2024-07-24"
+        },
+        {
+          "outlet": "The Telegraph",
+          "title": "Nine arrested",
+          "url": "https://www.telegraph.co.uk/news/2024/07/24/nine-arrested-pro-palestine-activists-foreign-office-fcdo",
+          "kind": "news",
+          "date": "2024-07-24"
+        },
+        {
+          "outlet": "ITV",
+          "title": "Nine arrested",
+          "url": "https://www.itv.com/news/2024-07-24/nine-arrested-after-pro-palestine-protesters-block-entrance-to-foreign-office",
+          "kind": "news",
+          "date": "2024-07-24"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Foreign Office blocked",
+          "url": "https://www.newarab.com/news/pro-palestinian-protesters-block-uk-foreign-office-over-gaza",
+          "kind": "news",
+          "date": "2024"
+        }
+      ],
+      "category": "other_direct_action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "See the linked reports. Not part of the Palestine Action indictment."
+      },
+      "source_count": 4,
+      "independent_source_count": 4
+    },
+    {
+      "id": "big-ben-daniel-day",
+      "nickname": "Big Ben, Daniel Day",
+      "action_dates": [
+        "2025-03-08"
+      ],
+      "location": "Elizabeth Tower, Westminster",
+      "target": "Elizabeth Tower",
+      "defendants": [
+        "Daniel Day"
+      ],
+      "summary": "Day, 29, climbed the tower with a Palestinian flag and stayed about 16 hours. He was charged and appeared at Westminster Magistrates' Court on 10 March 2025.",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Area around Big Ben closed",
+          "url": "https://www.theguardian.com/uk-news/2025/mar/08/area-big-ben-closed-man-palestinian-flag-climbs-elizabeth-tower-westminster-bridge",
+          "kind": "news",
+          "date": "2025-03-08"
+        },
+        {
+          "outlet": "BBC News",
+          "title": "Climb",
+          "url": "https://www.bbc.com/news/articles/cgl0dw2d3e5o",
+          "kind": "news",
+          "date": "2025-03"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Appears in court",
+          "url": "https://www.reuters.com/world/uk/man-who-scaled-londons-big-ben-clock-tower-appears-court-2025-03-10/",
+          "kind": "news",
+          "date": "2025-03-10"
+        },
+        {
+          "outlet": "Electronic Intifada",
+          "title": "Profile",
+          "url": "https://electronicintifada.net/content/ascent-freedom-man-who-climbed-big-ben/50503",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "other_direct_action",
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "See the linked reports. Not part of the Palestine Action indictment."
+      },
+      "source_count": 4,
+      "independent_source_count": 4
+    },
+    {
+      "id": "greenpeace-us-embassy",
+      "nickname": "US Embassy pond",
+      "action_dates": [
+        "2025-04-10"
+      ],
+      "location": "US Embassy, Nine Elms, London",
+      "target": "US Embassy pond",
+      "summary": "Greenpeace UK poured about 300 litres of red dye into the pond. Not a Palestine Action case.",
+      "sources": [
+        {
+          "outlet": "Greenpeace UK",
+          "title": "Their account",
+          "url": "https://www.greenpeace.org.uk/news/israel-gaza-protest-us-embassy",
+          "kind": "campaign",
+          "date": "2025-04"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "London protest",
+          "url": "https://www.cbsnews.com/news/uk-greenpeace-protest-us-embassy-london-israel-gaza-war",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "Evening Standard",
+          "title": "Dye in the pond",
+          "url": "https://www.standard.co.uk/news/london/met-police-blood-red-dye-us-embassy-pond-israel-arms-sales-london-b1221715.html",
+          "kind": "news",
+          "date": "2025"
+        },
+        {
+          "outlet": "The Independent",
+          "title": "Nine Elms",
+          "url": "https://www.independent.co.uk/news/uk/home-news/greenpeace-us-embassy-metropolitan-police-nine-elms-london-b2731081.html",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "other_direct_action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "See the linked reports. Not part of the Palestine Action indictment."
+      },
+      "source_count": 4,
+      "independent_source_count": 4
+    },
+    {
+      "id": "greenpeace-westminster-tube",
+      "nickname": "Westminster tube posters",
+      "action_dates": [
+        "2025-08-02"
+      ],
+      "location": "Westminster Underground station",
+      "target": "Posters naming Keir Starmer and David Lammy",
+      "summary": "Greenpeace UK plastered the station with posters. Not a Palestine Action case.",
+      "sources": [
+        {
+          "outlet": "The Independent",
+          "title": "Greenpeace tube action",
+          "url": "https://www.independent.co.uk/bulletin/news/greenpeace-starmer-lammy-gaza-tube-b2801102.html",
+          "kind": "news",
+          "date": "2025"
+        }
+      ],
+      "category": "other_direct_action",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "See the linked reports. Not part of the Palestine Action indictment."
+      },
+      "source_count": 1,
+      "independent_source_count": 1
+    },
+    {
+      "id": "elbit-lobbying-foi",
+      "nickname": "Elbit lobbying dossier",
+      "aliases": [
+        "Patel meeting",
+        "Philp meeting",
+        "Israeli embassy"
+      ],
+      "category": "public_record",
+      "action_dates": [
+        "2020-08-25",
+        "2022-03-02",
+        "2023-04-19",
+        "2023-04-28",
+        "2024-09-09"
+      ],
+      "location": "Home Office, Attorney General's Office",
+      "target": "Ministerial contact with Elbit and Israeli officials about protests",
+      "defendants": [],
+      "court": null,
+      "charges": null,
+      "outcome": {
+        "result": "Not a criminal case. FOI material and the ministerial meetings register show Priti Patel met Elbit on 2 March 2022 to discuss protests and security; Chris Philp met Elbit, police and an AGO representative on 19 April 2023; the Guardian reported in August 2023 that Israeli embassy officials tried to influence UK prosecutions. Declassified UK's June 2025 piece is the Elbit letter asking for the Elbit Eight retrial."
+      },
+      "summary": "Background documents used by defendants and journalists to argue political interference. They are exhibits and news reports, not verdicts.",
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Listed in CAGE International, Putting Bodies on the Line (28 Nov 2025)",
+          "url": "https://cdn.prod.website-files.com/6364ebb4927fbc4330221d8f/69443b32ce87252c18f2e569_PUTTING-BODIES-ON-THE-LINE-v8.pdf",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "UK government",
+          "title": "Ministerial meetings CSV, Jan-Mar 2022",
+          "url": "https://assets.publishing.service.gov.uk/media/62d683eee90e071e7e59c962/Ministerial_Transparency_Meetings_Jan_-_Mar_22.csv",
+          "kind": "official",
+          "date": "2022"
+        },
+        {
+          "outlet": "UK government",
+          "title": "Ministerial meetings CSV, Apr-Jun",
+          "url": "https://www.gov.uk/csv-preview/652fdded9274590013f95985/Apr_-_June_Ministerial_Transparency_Meetings_.csv",
+          "kind": "official",
+          "date": "2023"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Israeli embassy officials attempted to influence UK court cases",
+          "url": "https://www.theguardian.com/uk-news/2023/aug/20/israeli-embassy-officials-attempted-to-influence-uk-court-cases-documents-suggest",
+          "kind": "news",
+          "date": "2023-08-20"
+        },
+        {
+          "outlet": "Declassified UK",
+          "title": "Elbit lobbied the Home Office on the court case",
+          "url": "https://www.declassifieduk.org/israeli-arms-firm-lobbied-home-office-on-palestine-action-court-case",
+          "kind": "investigation",
+          "date": "2025-06-23"
+        }
+      ],
+      "source_count": 5,
+      "independent_source_count": 4
+    }
+  ]
+}

@@ -38,6 +38,10 @@ jobs:
           test -s dist/client/legal/index.html
           test -s dist/client/uk-timeline/index.html
           test -s dist/client/research/index.html
+          test -s dist/client/research/palestine-action/index.html
+          test -s dist/client/data/collections/palestine-action.json
+          test -s dist/client/publications/Cage-NGO-Putting-Bodies-On-The-Line.pdf
+          node --test tests/palestine-action.test.mjs
           test -s dist/client/data/research.json
           test -s dist/client/research/roger-hallam/index.html
           test -s dist/client/data/profiles/roger-hallam.json

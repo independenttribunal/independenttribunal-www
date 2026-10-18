@@ -1,0 +1,430 @@
+{
+  "$schema": "uk-palestine-direct-action-cases/supplementary-1.0",
+  "supplementary_metadata": {
+    "target_dataset": "palestine-action-uk-cases.json",
+    "description": "Supplementary dataset extracting cases, complete defendant rosters, corporate severance outcomes, and judicial interference records documented in the CAGE International dossier[cite: 2, 3].",
+    "scope": "Fills unindexed cases, missing participant names, FOI lobbying records, and post-proscription civil disobedience milestones[cite: 3]."
+  },
+  "new_cases": [
+    {
+      "id": "moog-aircraft-wolverhampton",
+      "nickname": "Moog Aircraft Group Raid",
+      "category": "direct_action_unaffiliated",
+      "action_dates": ["2025-08-26"],
+      "location": "Moog Aircraft Group, Wolverhampton",
+      "target": "Moog Aircraft Group (alleged supplier of military equipment to Hatzerim airbase for Israeli M-346 Lavi jet pilot training)[cite: 44]",
+      "group": "Palestinian Martyrs for Justice[cite: 44]",
+      "action_details": {
+        "summary": "Vehicle crashed through facility gates, red flares lit, and roof occupied[cite: 44]. Activists wore T-shirts depicting deceased Palestinians (Hossam Shabat, Refaat Alareer, Adnan al-Bursh, and Raghd al-Jabri)[cite: 44].",
+        "damage": "Significant damage to skylights and solar panels[cite: 44]"
+      },
+      "legal_proceedings": {
+        "arrests": 4,
+        "police_force": "Staffordshire Police[cite: 44]",
+        "charges": "Criminal damage[cite: 44]",
+        "custody_status": "Remanded in custody awaiting trial[cite: 44]",
+        "sentencing_enhancement": "Terrorism connection attached under counter-terror sentencing provisions[cite: 44]"
+      },
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Putting Bodies on the Line, p. 44",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        }
+      ]
+    },
+    {
+      "id": "elbit-bristol-hq-lockdown-2024",
+      "nickname": "Elbit Bristol HQ Community Blockade",
+      "category": "action",
+      "action_dates": ["2024-01-18"],
+      "location": "Elbit Systems UK Headquarters, Aztec West, Bristol (leased from Somerset Council)[cite: 25]",
+      "target": "Elbit Systems UK main operational headquarters[cite: 25]",
+      "coalition": ["Palestine Action", "Rise Up for Palestine[cite: 25]"],
+      "action_details": {
+        "summary": "Four Palestine Action activists locked on to each other, surrounded by dozens of local community activists to immobilise the sole site entrance[cite: 25].",
+        "context": "Mounted during ongoing operations in Gaza where Elbit supplies 85% of drone and land-based equipment[cite: 25]."
+      },
+      "legal_proceedings": {
+        "arrests": "None recorded in dossier[cite: 25]"
+      },
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Putting Bodies on the Line, p. 25",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        }
+      ]
+    },
+    {
+      "id": "elbit-aztec-west-july-2025",
+      "nickname": "Aztec West Pre-Proscription Blockade",
+      "category": "action",
+      "action_dates": ["2025-07-01"],
+      "location": "Elbit Systems UK, Aztec West, Bristol[cite: 33]",
+      "target": "Elbit Systems UK entrance[cite: 33]",
+      "action_details": {
+        "summary": "Blockade of the facility entrance and application of red paint symbolising bloodshed, occurring days prior to statutory proscription[cite: 33]."
+      },
+      "legal_proceedings": {
+        "arrests": 2,
+        "arrestees": "A 30-year-old woman and a 36-year-old man[cite: 33]",
+        "charges": "Suspicion of criminal damage[cite: 33]"
+      },
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Putting Bodies on the Line, p. 33",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        },
+        {
+          "outlet": "GB News",
+          "title": "Palestine Action blockades UK defence contractor and occupies rooftop",
+          "url": "https://www.gbnews.com/news/palestine-action-blockade-uk-defence-contractor-suffolk-bristol",
+          "date": "2025-07-01"
+        }
+      ]
+    },
+    {
+      "id": "hydrafeed-severance",
+      "nickname": "Hydrafeed Supply-Chain Campaign",
+      "category": "supply_chain_impact",
+      "action_dates": ["2024-06-17", "2024-11-14"],
+      "location": "Hydrafeed production facilities & Instro Precision site, Kent[cite: 52]",
+      "target": "Hydrafeed (supplier of CNC machine tools to Elbit Systems)[cite: 52]",
+      "action_details": {
+        "discovery": "Palestine Action activists identified and dismantled Hydrafeed machinery inside Instro Precision during the 17 June 2024 raid[cite: 52].",
+        "direct_action": "Activists abseiled inside Hydrafeed premises, dismantled manufacturing machinery, smashed front doors, and sprayed red paint[cite: 52]."
+      },
+      "outcome": {
+        "date": "2024-11-14",
+        "result": "Hydrafeed officially notified Palestine Action by email confirming the complete termination of all business ties with Elbit Systems and subsidiaries[cite: 52]."
+      },
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Putting Bodies on the Line, p. 52",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        }
+      ]
+    },
+    {
+      "id": "mod-watchkeeper-scrapping",
+      "nickname": "Watchkeeper Programme Termination",
+      "category": "policy_contract_impact",
+      "action_dates": ["2024-11-22"],
+      "location": "Ministry of Defence / UAV Tactical Systems, Leicester[cite: 51]",
+      "target": "Elbit Systems UK / U-TacS Watchkeeper WK450 contract[cite: 51]",
+      "action_details": {
+        "summary": "UK Ministry of Defence scrapped its Watchkeeper drone programme with Elbit subsidiary U-TacS, cancelling a contract valued at over £2.1 billion[cite: 51].",
+        "context": "Attributed by organizers to sustained direct action at Meridian Business Park since May 2021; government cited decommissioning of older models despite an earlier projected 2042 out-of-service timeline[cite: 51, 52]."
+      },
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Putting Bodies on the Line, pp. 51-52",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        }
+      ]
+    },
+    {
+      "id": "banksy-rcj-mural",
+      "nickname": "Banksy Royal Courts of Justice Mural",
+      "category": "artistic_intervention",
+      "action_dates": ["2025-09-08"],
+      "location": "Exterior wall, Royal Courts of Justice, Strand, London[cite: 47]",
+      "subject": "Depiction of a judge in robes striking a demonstrator holding a blood-stained protest placard with a gavel[cite: 47]",
+      "context": "Visual commentary on state prosecutions and counter-terrorism arrests targeting Palestine Action and Defend Our Juries[cite: 47].",
+      "disposition": {
+        "immediate_action": "Covered with security hoardings and barriers on the day of discovery[cite: 47].",
+        "removal_date": "2025-09-10",
+        "removal_rationale": "Authorities removed the mural citing statutory requirements to maintain the character of the Grade I listed courthouse[cite: 47]."
+      },
+      "sources": [
+        {
+          "outlet": "CAGE International",
+          "title": "Putting Bodies on the Line, p. 47",
+          "kind": "ngo_dossier",
+          "date": "2025-11-28"
+        }
+      ]
+    }
+  ],
+  "case_enrichments": {
+    "filton": {
+      "verified_complete_24_defendants": [
+        "Louis Adams[cite: 36]",
+        "Kamran Ahmed[cite: 36]",
+        "Harland Archer[cite: 36]",
+        "Yulia Brigadirova[cite: 36]",
+        "Finn Collins[cite: 36]",
+        "Samuel Corner[cite: 36]",
+        "Hannah Davidson[cite: 36]",
+        "Jordan Devlin[cite: 36]",
+        "Zahra Farooque[cite: 36]",
+        "Charlotte Head[cite: 36]",
+        "Aleksandra Herbich[cite: 36]",
+        "Teuta Hoxha[cite: 36]",
+        "Moiz Ibrahim[cite: 36]",
+        "Leona Kamio[cite: 36]",
+        "Salaam Mahmood[cite: 36]",
+        "Sean Middlebrough[cite: 36]",
+        "Liam Mullany[cite: 36]",
+        "Heba Muraisi[cite: 36]",
+        "Madeleine Norman[cite: 36]",
+        "William Plastow[cite: 36]",
+        "Fatema Zainab Rajwani[cite: 36]",
+        "Zoe Rogers[cite: 36]",
+        "Qesser Zuhrah[cite: 36]",
+        "Ian Sanders[cite: 36]"
+      ],
+      "procedural_escalations": {
+        "dawn_raids_2024_11_19": {
+          "arrests_added": 11,
+          "total_detained_at_point": 18,
+          "conditions": "Armed counter-terror dawn raids involving family detention, handcuffs, and blanket denial of bail[cite: 34, 35]."
+        },
+        "july_2025_expansion": {
+          "arrests_added": 6,
+          "border_apprehensions": "Two individuals arrested upon re-entering Britain, bringing total indicted cohort to 24[cite: 36]."
+        },
+        "international_human_rights_interventions": "United Nations special communication sent to the UK Government condemning the use of counter-terror detention and incommunicado holding as potentially amounting to enforced disappearance[cite: 34].",
+        "target_facility_specifications": "Site marketed as a £35m research and development centre opened in June 2023 with Israeli Ambassador Tzipi Hotovely in attendance; activists uncovered active assembly of armed quadcopter drones[cite: 34]."
+      }
+    },
+    "teledyne-shipley-may-2024": {
+      "verified_defendants": [
+        {
+          "name": "Francesca Nadin",
+          "age": 39,
+          "pretrial_status": "Remanded in custody for 9 months due to prior bail conditions[cite: 26]",
+          "disposition": "Convicted by jury; suspended sentence on 2025-09-06[cite: 26]"
+        },
+        {
+          "name": "Ricky Southall",
+          "age": 33,
+          "disposition": "Convicted by jury; suspended sentence on 2025-09-06[cite: 26]"
+        },
+        {
+          "name": "Serena Fenton",
+          "age": 57,
+          "disposition": "Convicted by jury; suspended sentence on 2025-09-06[cite: 26]"
+        },
+        {
+          "name": "Amareen Afzal",
+          "age": 33,
+          "disposition": "Convicted by jury; community order on 2025-09-06[cite: 26]"
+        }
+      ],
+      "charges_adjudicated": "Possessing articles with intent to cause criminal damage (valued at approximately £60,000)[cite: 26]."
+    },
+    "thales-five": {
+      "sentencing_modifications": {
+        "appellate_reductions": {
+          "court": "High Court of Justiciary, Edinburgh[cite: 22]",
+          "order_date": "2024-11-05",
+          "defendants": ["Stuart Bretherton", "Calum Lacy[cite: 22]"],
+          "adjustment": "Custodial term reduced from 12 months to 10 months[cite: 22]"
+        },
+        "tag_releases": {
+          "release_date": "2024-11-18",
+          "defendants": ["Eva Simmons", "Erica Hygate[cite: 22]"],
+          "mechanism": "Released under electronic monitoring tag conditions following approximately 3 months served[cite: 22]"
+        }
+      }
+    },
+    "kingsway-five": {
+      "defendant_demographics": [
+        {"name": "Doone Stormonth Darling", "age": 26[cite: 20]},
+        {"name": "Flora Thomas", "age": 26[cite: 20]},
+        {"name": "Joley Thomas", "age": 29[cite: 20]},
+        {"name": "Anthony Bardos", "age": 56[cite: 20]},
+        {"name": "Jocelyn Cooney", "age": 25[cite: 20]}
+      ],
+      "ancillary_state_measures": {
+        "blackmail_arrest": "Co-founder Richard Barnard arrested on suspicion of blackmail outside his home, detained 24 hours at Fresh Wharf Custody Base prior to trial[cite: 19].",
+        "schedule_7_stops": "Barnard and Huda Ammori detained and interrogated under Schedule 7 of the Terrorism Act 2000 in November 2020; both arrested after refusing to disclose digital device passwords[cite: 20]."
+      }
+    },
+    "defend-our-juries": {
+      "granular_chronology": [
+        {
+          "date": "2025-07-05",
+          "location": "Parliament Square, London",
+          "arrests": 29,
+          "charged_individuals": [
+            {"name": "Jeremy Shippam", "age": 71, "location": "Yapton, West Sussex[cite: 45, 47]"},
+            {"name": "Judit Murray", "age": 71, "location": "West Ewell, Surrey[cite: 45, 47]"},
+            {"name": "Fiona Maclean", "age": 53, "location": "Hackney, London[cite: 45, 47]"}
+          ],
+          "procedural_milestone": "Plead not guilty at Westminster Magistrates' Court on 2025-09-16 before Chief Magistrate Paul Goldspring; unconditional bail granted[cite: 47]."
+        },
+        {
+          "date": "2025-07-12",
+          "location": "Nationwide",
+          "arrests": 70,
+          "geographic_breakdown": {
+            "London_Met": 41,
+            "Cardiff_BBC": 13,
+            "Manchester_St_Peters_Square": 16,
+            "Leeds": 1
+          }[cite: 45]
+        },
+        {
+          "date": "2025-07-19",
+          "location": "Nationwide",
+          "arrests": 104,
+          "geographic_breakdown": {
+            "Parliament_Square": 55,
+            "PSC_March_Whitehall": 9,
+            "Manchester": 18,
+            "Bristol": 17,
+            "Truro_Cathedral_Cornwall": 8
+          }[cite: 45]
+        },
+        {
+          "date": "2025-08-09",
+          "location": "Parliament Square, London",
+          "arrests": 500,
+          "notable_arrestees": [
+            "Moazzam Begg (Senior Director of CAGE International)[cite: 45, 46]",
+            "Mike Higgins (62-year-old blind and disabled activist)[cite: 46, 47]"
+          ]
+        },
+        {
+          "date": "2025-08-17",
+          "location": "City Hall, St Peters Street, Norwich",
+          "arrests": 13,
+          "custody": "5 held at Wymondham investigation centre; 8 identified for postal requisition[cite: 46]"
+        },
+        {
+          "date": "2025-09-01",
+          "location": "London",
+          "legal_notice": "47 individuals from the 19 July protest served Postal Charge Requisitions; London charged total reached 114[cite: 46]."
+        },
+        {
+          "date": "2025-09-02",
+          "location": "London, Cumbria, Edinburgh, Barnsley, Oban",
+          "operation": "Counter-terror raids under Section 12 Terrorism Act 2000 (meeting management/addressing; up to 14 years imprisonment)[cite: 46, 47]",
+          "charged_organisers": [
+            {"name": "Tim Crosland", "age": 55, "charges": "3 counts addressing, 3 counts assisting arranging[cite: 46]"},
+            {"name": "Patrick Friend", "age": 26, "charges": "3 counts addressing, 3 counts assisting arranging[cite: 46]"},
+            {"name": "Gwen Harrison", "age": 48, "charges": "4 counts addressing, 4 counts assisting arranging[cite: 46]"},
+            {"name": "David Nixon", "age": 39, "charges": "5 counts managing, 1 addressing, 4 assisting arranging[cite: 46]"},
+            {"name": "Dawn Manners", "age": 61, "charges": "3 counts managing, 2 addressing, 2 assisting arranging[cite: 46]"},
+            {"name": "Melanie Griffith", "age": 62, "charges": "7 counts addressing, 4 assisting arranging[cite: 46]"},
+            {"name": "Unnamed individual", "age": 59, "location": "Arrested on warrant in Oban, Scotland[cite: 46]"}
+          ]
+        },
+        {
+          "date": "2025-09-06",
+          "location": "Parliament Square, London; Belfast; Edinburgh",
+          "arrests": 900,
+          "notable_arrestees": [
+            "Reverend Sue Parfitt (83-year-old Anglican priest)[cite: 47]",
+            "RAF disabled veteran[cite: 47]",
+            "NHS midwife and healthcare practitioners[cite: 47]"
+          ],
+          "ancillary_arrests": "33 for alleged police assault and public order offences[cite: 47]",
+          "police_scotland_actions": "Two men aged 67 and 82 charged with terror offences; one man aged 63 charged with hate crime[cite: 47]"
+        },
+        {
+          "date": "2025-09-29",
+          "location": "Labour Party Conference, Wheel of Liverpool",
+          "arrests": 66,
+          "disposition": "64 bailed on terror-support suspicion; 2 de-arrested; eldest arrestee aged 83[cite: 48]"
+        },
+        {
+          "date": "2025-10-04",
+          "location": "Central London / Westminster Bridge",
+          "arrests": 492,
+          "demographics": "Youngest arrestee aged 18; oldest aged 89[cite: 48]",
+          "notable_arrestees": [
+            "Elizabeth Morley (79, daughter of a Holocaust survivor)[cite: 48]",
+            "Muhammad Rabbani (Managing Director of CAGE International)[cite: 48]"
+          ],
+          "custody_status": "297 detained overnight in police cells; remaining bailed[cite: 48]"
+        }
+      ]
+    }
+  },
+  "judicial_interference_and_lobbying_matrix": [
+    {
+      "date": "2020-08-25",
+      "participants": [
+        "Dominic Raab (UK Foreign Secretary)[cite: 38]",
+        "Orit Farkash-Hacohen (Israeli Minister of Strategic Affairs)[cite: 38]"
+      ],
+      "context": "Meeting following repeated raids on Elbit Holborn offices[cite: 38].",
+      "disclosed_content": "Farkash-Hacohen demanded British intervention against the delegitimisation campaign targeting Elbit Systems[cite: 38]; Raab affirmed the UK commitment to stopping such actions and protecting Israeli corporate operations[cite: 38]."
+    },
+    {
+      "date": "2022-03-02",
+      "participants": [
+        "Priti Patel (Home Secretary)[cite: 39]",
+        "Martin Fausset (CEO, Elbit Systems UK)[cite: 39]",
+        "Shaun Hipgrave (Director, Homeland Security Group)[cite: 39]",
+        "Michael Stewart (Director of Prevent)[cite: 39]"
+      ],
+      "context": "Official Home Office ministerial meeting on protests and industrial security[cite: 39].",
+      "disclosed_content": "Home Office reassured Elbit of action to progress activists through the criminal justice system[cite: 39]; Patel privately signaled intent to ensure severe remand and custodial sentences for direct actionists[cite: 33]."
+    },
+    {
+      "date": "2022-05",
+      "participants": [
+        "Douglas Wilson (Director, Attorney General's Office)[cite: 39]",
+        "Representatives of the Israeli Embassy in London[cite: 39]"
+      ],
+      "context": "Discussions regarding prosecution policies, protest legislation, and appellate references[cite: 39, 40].",
+      "disclosed_content": "Briefings on the Police, Crime, Sentencing and Courts Bill lock-on provisions and Attorney General powers to refer criminal damage protest defences to the Court of Appeal[cite: 39, 40]; invitation extended to Lionel Idan (Chief Crown Prosecutor) for an Israeli legal delegation[cite: 40]."
+    },
+    {
+      "date": "2022-11",
+      "case_affected": "Kingsway 5 trial (Southwark Crown Court)[cite: 40]",
+      "actors": [
+        "My Business Counsel (private legal firm representing Elbit Systems)[cite: 40]",
+        "Crown Prosecution Service[cite: 40]"
+      ],
+      "disclosed_incident": "A corporate trainee barrister attending court emailed the CPS seeking to retract agreed facts describing Elbit's weapons deployment in Gaza[cite: 40]. Defense solicitors were inadvertently copied, resulting in the courtroom being cleared and the legal observer signing a statement acknowledging potential perversion of the course of justice[cite: 40]."
+    },
+    {
+      "date": "2023-04-19",
+      "participants": [
+        "Chris Philp (Minister for Policing)[cite: 40]",
+        "Chief Constable Chris Noble (Staffordshire Police)[cite: 40]",
+        "Kelby Halmes (Director, Attorney General's Office; listed on behalf of CPS)[cite: 40]",
+        "National Police Coordination Centre (NPoCC)[cite: 40]",
+        "Elbit Systems UK representatives[cite: 40]",
+        "Thales representatives[cite: 40]"
+      ],
+      "context": "Ministerial roundtable to reassure arms manufacturers over direct action disruption[cite: 40].",
+      "disclosed_content": "Discussions acknowledging jury acquittals and evaluating proscription thresholds under terrorism legislation[cite: 40, 41]."
+    },
+    {
+      "date": "2023-04-28",
+      "participants": [
+        "Chris Philp (Policing Minister)[cite: 41, 42]",
+        "Home Office Team[cite: 42]",
+        "Deputy Chief Constable, Leicestershire Police[cite: 42]"
+      ],
+      "context": "Briefing held at 17:00 ahead of the planned mass camp at U-TacS drone factory in Leicester[cite: 41, 42].",
+      "disclosed_content": "Ministerial directive urging proactive police intervention, lobbying for remand of arrestees, pushing social media disruption on Meta/Instagram, and revealing Elbit UK maintains an internal intelligence cell sharing fortnightly briefings with police forces[cite: 42]."
+    },
+    {
+      "date": "2024-09-09",
+      "participants": [
+        "Nicola Smith (Head of International Law and National Security, AGO)[cite: 42]",
+        "Douglas Wilson (AGO)[cite: 42]",
+        "Daniela Ekstein (Deputy Israeli Ambassador)[cite: 42]",
+        "Yosef (Yossi) Zilberman (Counsellor of Political Affairs, Israeli Embassy)[cite: 42]"
+      ],
+      "context": "Follow-up communication following an embassy meeting on 28 August 2024[cite: 42].",
+      "disclosed_content": "Email sent with subject heading 'Contacts CPS/SO15', transmitting contact directories for the Crown Prosecution Service and the Counter Terrorism Command to Israeli diplomatic personnel[cite: 42]."
+    }
+  ]
+}

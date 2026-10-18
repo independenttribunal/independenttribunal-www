@@ -4,7 +4,7 @@ import { useMemo, useSyncExternalStore } from "react";
 
 type Tile = { kind: string; id: string; title: string; label: string; summary: string; tags: string[]; href: string };
 
-const KIND_LABEL: Record<string, string> = { study: "Legal study", commentary: "Commentary", profile: "Public-record profile", research: "Research dossier", nuance: "Legal nuance", tribunal: "Independent tribunal", timeline: "Timeline" };
+const KIND_LABEL: Record<string, string> = { collection: "Research collection", study: "Legal study", commentary: "Commentary", profile: "Public-record profile", research: "Research dossier", nuance: "Legal nuance", tribunal: "Independent tribunal", timeline: "Timeline" };
 
 // The selected tag lives in the URL (?tag=), so filtered views can be linked to and shared.
 // Static export has no server-side query string, so the server snapshot is always "all".

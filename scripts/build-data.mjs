@@ -21,6 +21,7 @@ import { loadResearch, publishResearch, researchText, researchUpdatesText } from
 import { loadProfiles, publishProfiles, profileText } from "./profiles.mjs";
 import { loadCommentary, publishCommentary, commentaryText } from "./commentary.mjs";
 import { renderSiteHeader, renderSiteFooter } from "../shared/site-shell.mjs";
+import { loadPalestineAction, publishPalestineAction, palestineActionTile } from "./palestine-action.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "data");
@@ -187,6 +188,7 @@ for (const file of policyFiles) {
 policies.sort((a, b) => a.order - b.order);
 
 const research = await loadResearch(dataDir, fail);
+const palestineAction = await loadPalestineAction(dataDir);
 const profiles = await loadProfiles(dataDir, fail);
 const commentary = await loadCommentary(dataDir, fail);
 for (const p of commentary) if ([...research, ...profiles].some((r) => r.id === p.id)) fail(`commentary/${p.id}`, "commentary id conflicts with a research page");
@@ -262,6 +264,7 @@ await put("data/commentary.json", { generated: built, about: "Labelled commentar
 for (const p of commentaryOut) await put(`data/commentary/${p.id}.json`, p);
 
 const tiles = [
+  palestineActionTile,
   ...commentary.map((p) => ({ kind: "commentary", id: p.id, title: p.title, label: p.genre, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
   ...profiles.map((p) => ({ kind: p.category === "legal-study" ? "study" : "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
   ...research.map((r) => ({ kind: "research", id: r.id, title: r.title, label: `${r.jurisdiction} · ${r.updates?.length ? "case update available" : "historical dossier"}`, summary: r.summary, tags: [...r.tags, "research"], href: `/research/${r.id}/`, uk: r.tags.includes("uk") })),
@@ -288,6 +291,7 @@ await put("data/index.json", {
   source_repo: site.source_repo,
   how_to_cite: "Cite the primary source each entry links to (sources[].url), and this site as the compiler.",
   datasets: [
+    { id: "palestine-action", url: abs("/data/collections/palestine-action.json"), page: abs(palestineActionTile.href), count: palestineAction.base.cases.length + palestineAction.supplement.new_cases.length, description: "Imported case and campaign records, supplementary accounts, and explicit data-quality limitations. Not a verified list of convictions." },
     { id: "commentary", url: abs("/data/commentary.json"), page: abs("/research/"), count: commentary.length, description: "Labelled commentary, with anecdote provenance, dated figures, primary sources and explicit unknowns." },
     { id: "profiles", url: abs("/data/profiles.json"), page: abs("/research/"), count: profiles.length, description: "Selected public-record profiles and legal studies, with paragraph-level sources and explicit coverage limits; not a judges database." },
     { id: "research", url: abs("/data/research.json"), page: abs("/research/"), count: research.length, description: "Six historical research dossiers, with original annotations, provenance and explicit pending-verification status." },
@@ -536,6 +540,7 @@ await put("independent-tribunals/index.html", legalPage({
 
 // Dated research imports, with provenance and status separate from verified references.
 await publishResearch({ records: research, profiles, commentary, put, page: legalPage, escapeHtml, site });
+await publishPalestineAction({ collection: palestineAction, records: research, put, page: legalPage, escapeHtml });
 await publishProfiles({ profiles, put, page: legalPage, escapeHtml, site });
 await publishCommentary({ commentary, put, page: legalPage, escapeHtml });
 
@@ -578,6 +583,7 @@ ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("
 
 ${commentaryOut.map((p) => `- [${p.title}](${p.url}): ${p.genre}; ${p.summary}`).join("\n")}
 - [Research library](${abs("/research/")}): Independent Tribunal’s research dossiers and public-record profiles
+- [Palestine Action collection](${abs(palestineActionTile.href)}): 46 base records, 6 supplementary records, a CAGE advocacy report and 7 lobbying accounts. Imported claims are not independently verified. Do not conflate related unaffiliated actions with Palestine Action, arrests with convictions, or allegations with findings. [Derived JSON](${abs("/data/collections/palestine-action.json")}) preserves quality issues and provenance; source dates are not current-status checks.
 ${profilesOut.map((p) => `- [${p.title}](${p.url}): ${p.subtitle}; sources reviewed ${p.checked}, selected coverage only`).join("\n")}
 ${researchOut.map((r) => `- [${r.title}](${r.url}): ${r.summary} (historical import; source date ${r.source_as_of}; current review pending)`).join("\n")}
 
@@ -596,6 +602,7 @@ ${policies.map((p) => `- [${p.title}](${abs(`/legal/${p.slug}.md`)}): ${p.summar
 await put("llms.txt", llms);
 
 const full = [
+  `# Palestine Action collection\n\n${abs(palestineActionTile.href)}\nImported, unverified source accounts with separate supplementary material. Not a list of convictions. Download the structured collection, including source dates, legal-status sources and data-quality flags: ${abs("/data/collections/palestine-action.json")}\n`,
   `# ${site.name} — full text\n\nGenerated ${built} from ${site.source_repo}. ${site.summary}\n`,
   ...profilesOut.map(profileText),
   ...commentaryOut.map(commentaryText),
@@ -619,6 +626,7 @@ await put("llms-full.txt", full);
 
 const pages = ["/", "/about", "/research/", ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
 pages.push(...commentary.map((p) => `/research/${p.id}/`));
+pages.push(palestineActionTile.href);
 await put("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map((p) => `  <url><loc>${abs(p)}</loc><lastmod>${builtDay}</lastmod></url>`).join("\n")}
