@@ -321,11 +321,11 @@
         {
           "id": "cristea",
           "title": "Claudiu Stefan Cristea — 5 years 6 months",
-          "kind": "Police account of conviction and sentence",
-          "date": "2025-06-24",
+          "kind": "Reporting of police account of conviction and sentence",
+          "date": "2025-06-25",
           "paragraphs": [
             {
-              "text": "Counter Terrorism Policing reported on 24 June 2025 that a Leicester Crown Court jury convicted Cristea after a week-long trial and that he received five and a half years. A physical copy was found on a bookshelf following his February 2024 arrest.",
+              "text": "Counter Terror Business reported on 25 June 2025 that Cristea received five and a half years for possessing a terrorist document. The report says a copy of The Anarchist’s Cookbook was found during a search of his home following his February 2024 arrest.",
               "sources": [
                 {
                   "id": "cristea"
@@ -333,7 +333,7 @@
               ]
             },
             {
-              "text": "Police describe an investigation into the far-right Einsatz14 chat group and suspected attack planning by individuals in it. They say Cristea shared racist and antisemitic views and disputed his claimed academic interest. The reported conviction is for section 58 possession, not a conviction for the suspected Leeds plot. A trial judgment has not been reviewed here.",
+              "text": "The article reports a police investigation into the far-right Einsatz14 chat group and suspected attack planning by individuals in it. It quotes police saying Cristea shared racist and antisemitic views and disputing his claimed academic interest. The reported conviction is for section 58 possession, not a conviction for the suspected Leeds plot. A trial judgment has not been reviewed here.",
               "sources": [
                 {
                   "id": "cristea"
@@ -628,11 +628,11 @@
     },
     {
       "id": "cristea",
-      "title": "Leicester man sentenced for possessing terrorist document",
-      "url": "https://www.counterterrorism.police.uk/news/leicester-man-sentenced-for-possessing-terrorist-document/",
-      "publisher": "Counter Terrorism Policing",
-      "type": "Police statement",
-      "date": "2025-06-24",
+      "title": "Man jailed for possession of terrorist document",
+      "url": "https://counterterrorbusiness.com/news/25062025/man-jailed-possession-terrorist-document",
+      "publisher": "Counter Terror Business",
+      "type": "News report quoting police",
+      "date": "2025-06-25",
       "checked": "2026-10-19"
     },
     {
