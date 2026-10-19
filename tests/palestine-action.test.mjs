@@ -83,3 +83,14 @@ test("targeted corrections replace overstated claims while retaining archival in
   const html = await read("public/research/palestine-action/index.html");
   for (const removed of ["Terrorism connection attached", "cancelling a contract valued at over", "supplies 85% of drone and land-based equipment", "complete termination of all business ties"]) assert.ok(!html.includes(removed));
 });
+
+test("reader-feedback checks correct AI citation and chronology without certifying all records", async () => {
+  assert.equal(collection.corrections.legal_checks.length, 3);
+  const html = await read("public/research/palestine-action/index.html");
+  assert.match(html, /\[2026\] EWCA Civ 721, not 1721/);
+  assert.match(html, /12 June 2026/);
+  assert.match(html, /did not begin with Palestine Action’s July 2025 proscription/);
+  assert.match(html, /targeted checks do not certify every imported claim/);
+  const data = JSON.parse(await read("public/data/collections/palestine-action.json"));
+  assert.deepEqual(data.corrections.legal_checks, collection.corrections.legal_checks);
+});

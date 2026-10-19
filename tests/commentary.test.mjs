@@ -67,7 +67,7 @@ test("commentary is discoverable without becoming a profile or historical dossie
   assert.equal((await json("public/data/index.json")).datasets.find((d) => d.id === "commentary").count, 1);
   assert.equal((await json("public/data/research.json")).research.length, 6);
   const profiles = (await json("public/data/profiles.json")).profiles;
-  assert.equal(profiles.length, 5);
+  assert.equal(profiles.length, 7);
   assert.ok(!profiles.some((profile) => profile.id === p.id));
 });
 

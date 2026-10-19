@@ -29,6 +29,10 @@ test("server-renders the information hub homepage", async () => {
   assert.match(html, /href="\/research\/"/);
   assert.match(html, /href="\/research\/barclays5\/"/);
   assert.match(html, /href="\/research\/roger-hallam\/"/);
+  assert.match(html, /href="\/research\/rajiv-menon-kc\/"/);
+  assert.match(html, /Rajiv Menon KC/);
+  assert.match(html, /href="\/research\/hamas-deproscription\/"/);
+  assert.match(html, /Hamas deproscription/);
   assert.match(html, /Public-record profile/);
   assert.match(html, /href="\/research\/mental-health-uk\/"/);
   assert.match(html, /Mental health in the UK/);

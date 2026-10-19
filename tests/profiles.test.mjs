@@ -7,6 +7,62 @@ const read = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8");
 const json = async (path) => JSON.parse(await read(path));
 const source = () => json("data/profiles/roger-hallam.json");
 
+test("Menon profile distinguishes jurisdiction, a case to answer and final contempt findings", async () => {
+  const p = await json("data/profiles/rajiv-menon-kc.json");
+  const errors = [];
+  validateProfile(p, (message) => errors.push(message));
+  assert.deepEqual(errors, []);
+  const text = JSON.stringify(p);
+  assert.match(text, /1993/);
+  assert.match(text, /2011/);
+  assert.match(text, /\[2026\] EWCA Civ 573/);
+  assert.match(text, /\[2026\] EWCA Crim 966/);
+  assert.match(text, /not a final acquittal/);
+  assert.match(text, /Menon disputes the accusation/);
+  assert.match(text, /No final contempt judgment or later appeal outcome has been established/);
+  assert.match(text, /ordered a stay/);
+});
+
+test("Hamas deproscription study identifies Ansari and separates reported progress from legal status", async () => {
+  const p = await json("data/profiles/hamas-deproscription.json");
+  const errors = [];
+  validateProfile(p, (message) => errors.push(message));
+  assert.deepEqual(errors, []);
+  assert.equal(p.category, "legal-study");
+  const text = JSON.stringify(p);
+  assert.match(text, /Fahad Ansari/);
+  assert.match(text, /Riverway Law/);
+  assert.match(text, /Hamas remains a proscribed terrorist organisation in the UK/);
+  assert.match(text, /2025-04-09/);
+  assert.match(text, /appeal in August 2025/);
+  assert.match(text, /underlying refusal letter and procedural orders have not been independently inspected/);
+  assert.match(text, /Scheduled dates are not evidence/);
+  assert.match(text, /ceased trading in its existing form/);
+  assert.match(text, /not an automated monitoring service/);
+  assert.ok(p.sources.some((s) => s.id === "home-office" && s.type.startsWith("Official")));
+});
+
+test("new pages have homepage tiles, shared discovery, sequential citations and working anchors", async () => {
+  for (const [id, kind] of [["rajiv-menon-kc", "profile"], ["hamas-deproscription", "study"]]) {
+    const p = await json(`data/profiles/${id}.json`);
+    const html = await read(`public/research/${id}/index.html`);
+    assert.ok(html.includes(`<h1>${p.title}</h1>`));
+    const firstCitations = [...new Set([...html.matchAll(/aria-label="Source (\d+):/g)].map((m) => Number(m[1])))];
+    assert.deepEqual(firstCitations, p.sources.map((_, i) => i + 1));
+    const anchors = [...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]);
+    assert.equal(new Set(anchors).size, anchors.length);
+    for (const m of html.matchAll(/href="#([^"]+)"/g)) assert.ok(anchors.includes(m[1]));
+    for (const s of p.sources) assert.ok(html.includes(`href="${s.url}" target="_blank" rel="noopener noreferrer"`));
+    for (const file of ["public/research/index.html", "public/research/palestine-action/index.html", "public/sitemap.xml", "public/llms.txt", "public/llms-full.txt"]) assert.ok((await read(file)).includes(`/research/${id}/`), file);
+    const { tiles } = await json("public/data/tiles.json");
+    assert.equal(tiles.find((t) => t.id === id).kind, kind);
+    const exported = await json(`public/data/profiles/${id}.json`);
+    for (const section of exported.sections) for (const entry of section.entries) for (const para of entry.paragraphs) for (const ref of para.sources) assert.ok(ref.url && ref.type && ref.checked);
+  }
+  const index = await read("public/research/index.html");
+  assert.ok(index.indexOf('/research/hamas-deproscription/') < index.indexOf('Open justice and reporting restrictions'));
+});
+
 test("Middlebrough profile distinguishes later reporting, personal statements and other trials", async () => {
   const p = await json("data/profiles/sean-middlebrough.json");
   const errors = [];
@@ -73,7 +129,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const p = await json("public/data/profiles/roger-hallam.json");
   const collection = await json("public/data/profiles.json");
   assert.deepEqual(collection.profiles.find((profile) => profile.id === p.id), p);
-  assert.equal(collection.profiles.length, 5);
+  assert.equal(collection.profiles.length, 7);
   assert.equal(p.url, "https://independenttribunal.org/research/roger-hallam/");
   for (const s of p.sections) for (const entry of s.entries) for (const para of entry.paragraphs) for (const ref of para.sources) {
     assert.ok(ref.title && ref.type && ref.publisher && ref.checked);
@@ -90,7 +146,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const { tiles } = await json("public/data/tiles.json");
   assert.equal(tiles.find((t) => t.id === p.id).kind, "profile");
   const index = await json("public/data/index.json");
-  assert.equal(index.datasets.find((d) => d.id === "profiles").count, 5);
+  assert.equal(index.datasets.find((d) => d.id === "profiles").count, 7);
   assert.equal(index.datasets.find((d) => d.id === "research").count, 6, "historical imports remain a distinct dataset");
 });
 

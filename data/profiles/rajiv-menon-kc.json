@@ -1,0 +1,62 @@
+{
+  "id": "rajiv-menon-kc",
+  "title": "Rajiv Menon KC",
+  "subtitle": "Defence advocacy, jury independence and the contempt proceedings",
+  "summary": "A dedicated record of Menon’s work and the proceedings arising from his Filton closing speech. Court decisions, the defence position and wider professional concerns are kept distinct.",
+  "checked": "2026-10-19",
+  "jurisdiction": "England and Wales",
+  "tags": ["uk", "palestine-action", "filton", "advocacy", "open-justice", "courts"],
+  "scope": "A public-record profile, not a finding of professional misconduct. A procedural ruling, an allegation of contempt and a final determination are different things.",
+  "status_note": "Latest judicial decision located in this review: 24 July 2026, ordering a stay pending jurisdictional and procedural challenges. Later professional commentary continues to describe unresolved proceedings. No final contempt judgment or later appeal outcome has been established here as of 19 October 2026.",
+  "research_links": [{"id":"palestine-action","title":"Palestine Action research collection"},{"id":"filton6","title":"Filton6 and the wider proceedings"},{"id":"terrorist-connection","title":"Terrorist connection add-on"}],
+  "highlights": [
+    {"label":"Professional background","value":"Called 1993 · silk 2011","detail":"Garden Court Chambers","target":"professional-background"},
+    {"label":"12 May 2026","value":"Jurisdiction ruling","detail":"Not a final decision on contempt","target":"may-appeal"},
+    {"label":"24 July 2026","value":"Proceedings stayed","detail":"Further challenges left to be decided","target":"july-stay"}
+  ],
+  "sections": [
+    {"id":"the-person","title":"The advocate","intro":"Professional background from his chambers, separated from the disputed proceedings.","entries":[
+      {"id":"professional-background","title":"Criminal defence and public-interest cases","kind":"Chambers biography","paragraphs":[
+        {"text":"Rajiv Menon KC is a barrister at Garden Court Chambers. Its biography records his call to the Bar in 1993 and appointment as Queen’s Counsel in 2011. His work includes criminal trials and appeals, inquests, public inquiries and cases involving protest and state power.","sources":[{"id":"biography","locator":"Professional biography"}]},
+        {"text":"The biography lists work on the Stephen Lawrence Inquiry, Hillsborough Inquests, Grenfell Tower Inquiry and UK Covid-19 Inquiry. These are professional instructions, not an endorsement by those inquiries of every position he has advanced.","sources":[{"id":"biography","locator":"Inquests and inquiries"}]}
+      ]}
+    ]},
+    {"id":"court-record","title":"The proceedings, step by step","intro":"The jurisdiction of a court to hear an allegation must not be confused with whether the allegation is proved.","entries":[
+      {"id":"closing-speech","title":"January 2026 · the disputed closing speech","kind":"Court record and defence response","paragraphs":[
+        {"text":"Menon represented Charlotte Head in the Filton trial at Woolwich Crown Court. Mr Justice Johnson considered that the closing speech breached directions concerning jury equity and other matters. Menon disputes the accusation. The resulting proceedings concern his advocacy, not an allegation that he participated in the underlying factory action.","sources":[{"id":"june-ruling","locator":"Background and case-to-answer reasoning"},{"id":"lag","locator":"Account of the allegation and denial"}]}
+      ]},
+      {"id":"may-appeal","title":"12 May 2026 · the first referral cannot proceed by that route","kind":"Court of Appeal · jurisdiction","date":"2026-05-12","citation":"Re contempt proceedings against Rajiv Menon KC [2026] EWCA Civ 573","paragraphs":[
+        {"text":"The Civil Division’s decision concerned the route by which the Crown Court had referred the matter to the High Court. The July judgment explains the result: the matter was left with the trial judge to consider other available steps, including referral to the Attorney General, the Bar Standards Board, or another High Court judge sitting in the Crown Court. This was not a final acquittal on the contempt allegation.","sources":[{"id":"may-ruling","locator":"Judgment identification"},{"id":"july-ruling","locator":"Paragraph 1"}]}
+      ]},
+      {"id":"june-referral","title":"22–29 June 2026 · renewed proceedings","kind":"Crown Court procedural decisions","date":"2026-06-22","paragraphs":[
+        {"text":"On 22 June, Johnson found a case to answer and considered proceedings to be in the public interest, while recognising the importance of uninhibited defence advocacy. He directed referral to a Presiding Judge to decide whether proceedings should be instituted and assigned to another judge. A case-to-answer finding is not a final determination of contempt.","sources":[{"id":"june-ruling","locator":"Case to answer, public interest and procedure"}]},
+        {"text":"The July judgment records that, on 29 June, Mr Justice Nicklin directed summary contempt proceedings and a summons for a hearing before Mrs Justice Cheema-Grubb on 28 July. That listing was subsequently affected by the appeal decision below.","sources":[{"id":"july-ruling","locator":"Paragraph 5"}]}
+      ]},
+      {"id":"july-stay","title":"24 July 2026 · stay pending further challenges","kind":"Court of Appeal · procedural order","date":"2026-07-24","citation":"Re Rajiv Menon KC [2026] EWCA Crim 966","paragraphs":[
+        {"text":"Males LJ and Cutts J allowed an appeal against the refusal to vacate the hearing and ordered a stay of the proceedings before Cheema-Grubb J. They left the existing appeal to address Menon’s jurisdictional and procedural challenges. They did not decide those challenges or the merits of the contempt allegation.","sources":[{"id":"july-ruling","locator":"Paragraphs 14–21"}]}
+      ]}
+    ]},
+    {"id":"why-it-matters","title":"Judicial authority and independent advocacy","intro":"Competing concerns deserve to be stated accurately, without turning either side’s argument into a finding.","entries":[
+      {"id":"court-position","title":"The court’s concern","kind":"Judicial reasoning","paragraphs":[
+        {"text":"Johnson’s ruling stresses compliance with legal directions and the administration of justice. It treats the alleged conduct as more than a single isolated remark. The issue is therefore not captured completely by saying a lawyer was prosecuted merely for representing an unpopular client.","sources":[{"id":"june-ruling","locator":"Public-interest reasoning"}]}
+      ]},
+      {"id":"professional-concern","title":"The concern about a chilling effect","kind":"Attributed professional commentary","paragraphs":[
+        {"text":"Garden Court Chambers argues that the proceedings could inhibit lawyers’ ability to defend clients fearlessly. Raj Chada’s Legal Action commentary frames the dispute as one about the balance between judicial authority and defence independence, and records Menon’s denial. These are attributed professional views, not a court’s resolution of that balance.","sources":[{"id":"chambers-record","locator":"Chambers’ position and resource collection"},{"id":"lag","locator":"Commentary, updated 2 October 2026"}]}
+      ]}
+    ]},
+    {"id":"next-documents","title":"What would update this page?","intro":"A dated research record, not an automated live court feed.","entries":[
+      {"id":"coverage-limits","title":"Outstanding source checks","kind":"Coverage limitation","paragraphs":[
+        {"text":"The next decisive documents would be a judgment on the outstanding jurisdictional appeal, an order changing the stay, or a final contempt decision. None has been located in this review. A planned hearing or public meeting is not evidence that a hearing took place or that an allegation was proved.","sources":[]},
+        {"text":"Garden Court maintains a dedicated page linking judgments, the closing-speech transcript and professional responses. It is a useful source index from Menon’s chambers, rather than an independent adjudication of his case.","sources":[{"id":"chambers-record","locator":"Useful links and resources"}]}
+      ]}
+    ]}
+  ],
+  "sources": [
+    {"id":"biography","title":"Rajiv Menon KC — professional biography","publisher":"Garden Court Chambers","type":"Chambers biography","url":"https://gardencourtchambers.co.uk/barrister/rajiv-menon-kc/","checked":"2026-10-19"},
+    {"id":"june-ruling","title":"Re Rajiv Menon KC — ruling of 22 June 2026","publisher":"Courts and Tribunals Judiciary","type":"Crown Court ruling","url":"https://www.judiciary.uk/wp-content/uploads/2026/06/Re-Rajiv-Menon-KC.pdf","date":"2026-06-22","checked":"2026-10-19"},
+    {"id":"lag","title":"A fundamental question about the balance between judicial authority and the defence’s independence","publisher":"Legal Action Group · Raj Chada","type":"Professional commentary; updated 2 October 2026","url":"https://lag.org.uk/article/218789/-a-fundamental-question-about-the-balance-between-judicial-authority-and-the-defence-s-independence-","date":"2026-09-25","checked":"2026-10-19"},
+    {"id":"may-ruling","title":"Re contempt proceedings against Rajiv Menon KC [2026] EWCA Civ 573","publisher":"Courts and Tribunals Judiciary","type":"Official judgment listing","url":"https://www.judiciary.uk/judgments/in-the-matter-of-contempt-proceedings-against-rajiv-menon-kc/","date":"2026-05-12","checked":"2026-10-19"},
+    {"id":"july-ruling","title":"Re Rajiv Menon KC [2026] EWCA Crim 966","publisher":"The National Archives · Find Case Law","type":"Court of Appeal judgment","url":"https://caselaw.nationalarchives.gov.uk/ewca/crim/2026/966","date":"2026-07-24","checked":"2026-10-19"},
+    {"id":"chambers-record","title":"Rajiv Menon KC: contempt proceedings — documents and responses","publisher":"Garden Court Chambers","type":"Chambers’ account and resource index","url":"https://gardencourtchambers.co.uk/news/rajiv-menon-kc-contempt-proceedings/","checked":"2026-10-19"}
+  ]
+}

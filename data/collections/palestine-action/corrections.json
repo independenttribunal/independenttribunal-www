@@ -1,6 +1,23 @@
 {
   "reviewed_on": "2026-10-19",
   "scope": "Targeted corrections only. This review does not verify every field in these records or the wider collection.",
+  "legal_checks": [
+    {
+      "title": "Use the court’s citation",
+      "text": "The 15 June 2026 Palestine Action appeal is [2026] EWCA Civ 721, not 1721. The official court listing identifies a five-judge panel. Agreement between AI summaries is not a substitute for checking the judgment.",
+      "sources": [{"title":"Home Secretary v Huda Ammori [2026] EWCA Civ 721","outlet":"Courts and Tribunals Judiciary","kind":"official","date":"2026-06-15","url":"https://www.judiciary.uk/judgments/home-secretary-v-huda-ammori/"}]
+    },
+    {
+      "title": "Filton sentencing: 2026, not early 2025",
+      "text": "The published sentencing remarks for Charlotte Head and three co-defendants are dated 12 June 2026. Paragraphs 3.1–3.4 distinguish the August 2024 offence, when Palestine Action was not proscribed, from the later sentencing finding of a terrorist connection. They expressly say the defendants were not convicted of terrorist offences. Proscription, conviction and sentencing aggravation are not interchangeable.",
+      "sources": [{"title":"R v Charlotte Head and others — sentencing remarks, paragraphs 3.1–3.4","outlet":"Courts and Tribunals Judiciary","kind":"sentencing_remarks","date":"2026-06-12","url":"https://www.judiciary.uk/wp-content/uploads/2026/06/R-v-Charlotte-Head-and-others-sentencing-remarks.pdf"}]
+    },
+    {
+      "title": "The sentencing mechanism predates proscription",
+      "text": "Terrorist-connection sentencing did not begin with Palestine Action’s July 2025 proscription. The government’s legislative history traces the relevant provisions to 2009 in England and Wales and their expansion in 2021. Each case still requires its own statutory analysis and findings; a possible connection or prosecution request is not an applied enhancement.",
+      "sources": [{"title":"Counter-terrorism and national security factsheet — terrorist-connection provisions","outlet":"Home Office","kind":"official","url":"https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-counter-terrorism-and-national-security-factsheet"}]
+    }
+  ],
   "records": {
     "mod-watchkeeper-scrapping": {
       "note": "Corrected the announcement date, cost description and unsupported campaign-causation claim; added the later published retirement timetable.",

@@ -47,6 +47,10 @@ jobs:
           test -s dist/client/research/sean-middlebrough/index.html
           test -s dist/client/data/profiles/sean-middlebrough.json
           test -s dist/client/data/profiles/roger-hallam.json
+          for page in rajiv-menon-kc hamas-deproscription; do
+            test -s "dist/client/research/$page/index.html"
+            test -s "dist/client/data/profiles/$page.json"
+          done
           for study in super-injunctions anonymity-orders jigsaw-identification; do
             test -s "dist/client/research/$study/index.html"
             test -s "dist/client/data/profiles/$study.json"

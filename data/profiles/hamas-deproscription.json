@@ -1,0 +1,61 @@
+{
+  "id":"hamas-deproscription",
+  "category":"legal-study",
+  "title":"Hamas deproscription",
+  "subtitle":"Fahad Ansari, Riverway Law and the challenge to UK proscription",
+  "summary":"The application to remove Hamas from the UK’s proscribed list: who brought it, the reported appeal history, the legal route and the documents still needed to establish progress.",
+  "checked":"2026-10-19",
+  "jurisdiction":"United Kingdom · proscription and POAC proceedings",
+  "tags":["uk","proscription","legal-process","courts","research"],
+  "scope":"Legal-process reporting, not endorsement of Hamas or its violence. Hamas remains a proscribed terrorist organisation in the UK. An application to change that status is not a decision changing it.",
+  "status_note":"Checked 19 October 2026: the Home Office list still includes Hamas. A campaign update reports refusal in July 2025, an appeal in August 2025 and a 2026 procedural timetable. No final POAC determination or deproscription order has been located in this review; the timetable does not establish that its scheduled steps occurred.",
+  "research_links":[{"id":"proscription-litigation","title":"Palestine Action proscription litigation — a separate case"},{"id":"terrorist-connection","title":"Terrorist connection add-on — a separate sentencing question"}],
+  "highlights":[
+    {"label":"Present UK status","value":"Still proscribed","detail":"Home Office list · checked 19 October 2026","target":"current-status"},
+    {"label":"Application announced","value":"9 April 2025","detail":"Fahad Ansari · Riverway Law","target":"application-team"},
+    {"label":"Progress record","value":"Appeal reported","detail":"Final outcome not established here","target":"reported-appeal"}
+  ],
+  "sections":[
+    {"id":"status","title":"Start with the legal position","intro":"The application and the organisation’s current designation are separate facts.","entries":[
+      {"id":"current-status","title":"Hamas remains proscribed in the UK","kind":"Official legal status","paragraphs":[
+        {"text":"Hamas remains on the Home Office’s list of proscribed terrorist organisations. The UK extended proscription to the whole organisation on 26 November 2021; its military wing had been proscribed since March 2001. Filing an application or appeal does not itself remove a group from that list.","sources":[{"id":"home-office","locator":"Hamas entry and deproscription procedure"},{"id":"2021-order","locator":"26 November 2021 announcement"}]}
+      ]},
+      {"id":"legal-route","title":"Application → refusal → appeal → implementation","kind":"Official procedure","paragraphs":[
+        {"text":"Home Office guidance describes a written application under section 4 of the Terrorism Act 2000, normally to be determined within 90 days. Following refusal, the applicant may appeal to the Proscribed Organisations Appeals Commission (POAC), which applies judicial-review principles. A successful challenge and the steps implementing removal must be recorded separately.","sources":[{"id":"home-office","locator":"Deproscription"}]}
+      ]}
+    ]},
+    {"id":"people-and-application","title":"Fahad Ansari and Riverway Law","intro":"Identify the lawyers and their procedural role without equating legal representation with the client’s conduct.","entries":[
+      {"id":"application-team","title":"9 April 2025 · the application is announced","kind":"Legal team’s announcement","date":"2025-04-09","paragraphs":[
+        {"text":"Riverway Law’s press release identifies solicitor Fahad Ansari as its director and announces a section 4 application submitted that day on behalf of Mousa Abu Marzouk, a Hamas political-bureau official. It names instructed barristers Franck Magennis and Daniel Grütters. This establishes the team’s public account of the application, not acceptance of its arguments by a court.","sources":[{"id":"launch","locator":"Pages 1–3"}]},
+        {"text":"The application argues that proscription conflicts with international-law obligations and disproportionately restricts speech, assembly and political discussion. These are the applicant’s legal arguments. The Home Office’s position remains that Hamas is a single organisation concerned in terrorism, rather than separable political and military entities.","sources":[{"id":"launch","locator":"Summary of grounds"},{"id":"home-office","locator":"Government’s Hamas assessment"}]}
+      ]},
+      {"id":"riverway-name","title":"Why later sources use a different Riverway name","kind":"Dated organisational reporting","date":"2025-07-07","paragraphs":[
+        {"text":"Legal Futures reported that Riverway Law ceased trading in its existing form on 29 June 2025 and announced a restructuring associated with Riverway to the Sea. This page retains “Riverway Law” for the original application and Fahad Ansari’s documented role; it does not infer a present solicitor-of-record or regulatory status from a later brand name.","sources":[{"id":"riverway-change","locator":"Closure and proposed restructuring"}]}
+      ]}
+    ]},
+    {"id":"progress","title":"Progress and the limits of the public record","intro":"The following sequence is attributed to the deproscription campaign’s update. The underlying refusal letter and procedural orders have not been independently inspected for this page.","entries":[
+      {"id":"reported-appeal","title":"July–August 2025 · refusal and appeal reported","kind":"Campaign-reported procedural history","paragraphs":[
+        {"text":"The Deproscribe campaign reports that the Home Secretary refused the Riverway application in July 2025 and that Hamas submitted seven appeal grounds to POAC in August. It also describes a separate CAGE application in June 2025. Those applications should not be conflated.","sources":[{"id":"campaign-update","locator":"2025 sequence"}]}
+      ]},
+      {"id":"reported-directions","title":"January–March 2026 · further procedural steps reported","kind":"Campaign account, not an inspected order","paragraphs":[
+        {"text":"The same update reports a January 2026 strike-out application by the Home Secretary involving closed material, followed by March directions concerning evidence. This is the campaign’s description; no conclusion about the merits or content of undisclosed material can be drawn from it.","sources":[{"id":"campaign-update","locator":"2026 sequence"}]}
+      ]},
+      {"id":"reported-timetable","title":"May–July 2026 · a timetable, not confirmation of compliance","kind":"Reported deadlines","paragraphs":[
+        {"text":"The update lists 20 May for the Home Secretary’s reasons, 26 June for Hamas’s response, and 31 July for further government statements and evidence. Those dates have passed, but this review has not obtained the filings or a later determination. Scheduled dates are not evidence that documents were filed or that an appeal succeeded.","sources":[{"id":"campaign-update","locator":"Published timetable"}]}
+      ]}
+    ]},
+    {"id":"research-next","title":"What we need to establish next","intro":"Independent Tribunal research priorities: document the progress without manufacturing certainty.","entries":[
+      {"id":"missing-documents","title":"The next additions to the record","kind":"Research method","paragraphs":[
+        {"text":"Seek the refusal decision, appeal number and filed grounds, public procedural orders, any open reasons concerning closed material, and the latest hearing notice or judgment. Record an event date, publication date, source type and outcome for each addition. A refusal, a procedural appeal and final removal from the list must remain distinct.","sources":[]},
+        {"text":"This page is a dated research starting point, not an automated monitoring service. It concerns a separate organisation and separate proceedings from Palestine Action’s proscription challenge. Findings in one case should not be transferred to the other.","sources":[]}
+      ]}
+    ]}
+  ],
+  "sources":[
+    {"id":"home-office","title":"Proscribed terrorist groups or organisations — Hamas entry and deproscription procedure","publisher":"Home Office","type":"Official list and procedural guidance","url":"https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2/proscribed-terrorist-groups-or-organisations-accessible-version","checked":"2026-10-19"},
+    {"id":"2021-order","title":"Islamist terrorist group Hamas banned in the UK","publisher":"Home Office","type":"Official announcement","url":"https://www.gov.uk/government/news/islamist-terrorist-group-hamas-banned-in-the-uk","date":"2021-11-26","checked":"2026-10-19"},
+    {"id":"launch","title":"Legal challenge to end UK ban on Hamas launched","publisher":"Riverway Law · copy hosted by Islam21c","type":"Legal team’s press release, not a judgment","url":"https://www.islam21c.com/wp-content/uploads/Hamas-Deproscription-Press-Release.pdf","date":"2025-04-09","checked":"2026-10-19"},
+    {"id":"riverway-change","title":"Solicitor acting for Hamas ditches traditional law firm model","publisher":"Legal Futures · Neil Rose","type":"Professional news reporting","url":"https://www.legalfutures.co.uk/latest-news/solicitor-acting-for-hamas-ditches-traditional-law-firm-model","date":"2025-07-07","checked":"2026-10-19"},
+    {"id":"campaign-update","title":"Updates in the legal applications for deproscription","publisher":"Deproscribe campaign","type":"Campaign account; underlying orders not inspected; numeric publication date ambiguous","url":"https://deproscribe.com/updates-in-the-legal-applications-for-de-proscription","checked":"2026-10-19"}
+  ]
+}
