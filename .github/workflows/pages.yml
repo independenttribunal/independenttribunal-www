@@ -44,6 +44,8 @@ jobs:
           node --test tests/palestine-action.test.mjs
           test -s dist/client/data/research.json
           test -s dist/client/research/roger-hallam/index.html
+          test -s dist/client/research/sean-middlebrough/index.html
+          test -s dist/client/data/profiles/sean-middlebrough.json
           test -s dist/client/data/profiles/roger-hallam.json
           for study in super-injunctions anonymity-orders jigsaw-identification; do
             test -s "dist/client/research/$study/index.html"

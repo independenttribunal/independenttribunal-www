@@ -10,7 +10,7 @@ export function validateProfile(p, fail) {
   }
   if (!safeId.test(p.id) || !date.test(p.checked)) fail("safe id and checked date required");
   if (p.category && p.category !== "legal-study") fail("unknown profile category");
-  for (const related of p.related ?? []) {
+  for (const related of [...(p.related ?? []), ...(p.research_links ?? [])]) {
     if (!safeId.test(related.id) || !related.title) fail("related pages require a safe id and title");
   }
   for (const key of ["tags", "highlights", "sections", "sources"]) if (!Array.isArray(p[key]) || !p[key].length) fail(`${key} must be a nonempty array`);
@@ -116,7 +116,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       <nav class="profile-nav" aria-label="On this page">${p.sections.map((s) => `<a href="#${s.id}">${e(s.title)}</a>`).join("")}<a href="#sources">Source register</a></nav>
       ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.paragraphs.map((para) => `<p>${e(para.text)}</p>${citations(para.sources)}`).join("")}</article>`).join("")}</section>`).join("")}
       <section class="profile-section" id="sources"><h2>Source register</h2><p>Sources are numbered in order of first citation; repeated citations keep their number. Source links open in a new tab. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${orderedSources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
-      <h2>Related research</h2><ul>${p.related ? p.related.map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/uk-timeline/">UK timeline</a></li><li><a href="/nuances/jury-conscience/">Jury conscience</a></li><li><a href="/nuances/lawful-excuse/">Lawful excuse</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
+      <h2>Related research</h2><ul>${p.related || p.research_links ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/uk-timeline/">UK timeline</a></li><li><a href="/nuances/jury-conscience/">Jury conscience</a></li><li><a href="/nuances/lawful-excuse/">Lawful excuse</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
     }));
   }
 }

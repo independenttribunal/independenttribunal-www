@@ -1,0 +1,98 @@
+{
+  "id": "sean-middlebrough",
+  "title": "Sean Middlebrough",
+  "subtitle": "The Filton proceedings, his account, and the public record",
+  "summary": "A sourced profile of Sean “Shibby” Middlebrough. Read the later court reporting alongside his earlier account, without confusing different Filton defendants or trials.",
+  "checked": "2026-10-19",
+  "jurisdiction": "England and Wales",
+  "tags": ["uk", "palestine-action", "filton", "protest", "courts", "research"],
+  "scope": "This page separates reported court outcomes, prosecution allegations and Middlebrough’s own statements. It is a selected public-record profile, not a complete criminal record or an entry in a judges database.",
+  "status_note": "Latest outcome located in this review: the BBC’s report of 14 September 2026. The older November 2025 account is not a current case-status update. No later sentence, appeal outcome or custody status is established here.",
+  "research_links": [
+    {"id": "palestine-action", "title": "Palestine Action research collection"},
+    {"id": "filton6", "title": "Filton6 and the wider proceedings"},
+    {"id": "terrorist-connection", "title": "Terrorist connection add-on"},
+    {"id": "hunger-strikes", "title": "The hunger strikes"}
+  ],
+  "highlights": [
+    {"label": "Later court reporting", "value": "Conviction reported", "detail": "BBC · 14 September 2026", "target": "reported-outcome"},
+    {"label": "His earlier account", "value": "November 2025", "detail": "Electronic Intifada · attributed statement", "target": "his-account"},
+    {"label": "Wider Filton coverage", "value": "Real Media", "detail": "Third trial · different defendants", "target": "filton-reporting"}
+  ],
+  "sections": [
+    {
+      "id": "later-reporting",
+      "title": "Read the later outcome first",
+      "intro": "The publication date and the date of a reported event are different. This is court reporting, not a judgment reproduced by Independent Tribunal.",
+      "entries": [
+        {
+          "id": "reported-outcome", "title": "Criminal damage · conviction reported in his absence", "kind": "BBC court reporting", "date": "2026-09-14",
+          "paragraphs": [
+            {"text": "Dominic Casciani reported that an Old Bailey jury convicted Middlebrough of criminal damage in August 2026, in his absence. The prosecution alleged an organising role in the August 2024 Elbit break-in. Other counts remained unresolved; Middlebrough denied the outstanding violent-disorder allegation. A retrial was provisionally listed for June 2028.", "sources": [{"id": "bbc", "locator": "Conviction and outstanding charges"}]},
+            {"text": "The BBC reported that Judge Patrick Field KC lifted the restriction on reporting the conviction on 14 September. The delay concerned a separate prosecution over an alleged protest plan at Boris Johnson’s 2022 wedding party. That proceeding had been postponed indefinitely for legal reasons, according to the report.", "sources": [{"id": "bbc", "locator": "Reporting restriction"}]}
+          ]
+        },
+        {
+          "id": "absence-report", "title": "Temporary bail and failure to return", "kind": "Dated reporting, not a live whereabouts claim",
+          "paragraphs": [
+            {"text": "The BBC described temporary bail granted on 20 October 2025, a required return to HMP Wandsworth on 24 October, and a subsequent arrest warrant. It reported him absent as of September 2026. This page does not establish his present location.", "sources": [{"id": "bbc", "locator": "Disappearance after bail decision"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "his-account",
+      "title": "His account, in its original context",
+      "intro": "A person’s explanation is part of the record. Publishing it with attribution does not make it a legal finding or establish a defence.",
+      "entries": [
+        {
+          "id": "november-statement", "title": "10 November 2025 · Electronic Intifada", "kind": "Reported personal statement", "date": "2025-11-10",
+          "paragraphs": [
+            {"text": "Abubaker Abed’s report identifies Middlebrough as a Liverpool activist known as Shibby and publishes his explanation for not returning after temporary bail for his brother’s wedding. He rejected the terrorism label and described his position using the words “prisoner of war”. That is his political self-description, not a legal status established by this review.", "sources": [{"id": "ei", "locator": "Opening account and statement"}]},
+            {"text": "He described prolonged pre-trial detention, sharing a small cell and spending up to 23 hours a day locked inside. The article also reports earlier cases in which charges were dropped. These are attributed accounts; no prison inspection findings or underlying disposal orders have been obtained for this page.", "sources": [{"id": "ei", "locator": "Grim conditions; earlier proceedings"}]},
+            {"text": "The article predates the later conviction report. Its description of an anticipated April 2026 trial must therefore be read as a plan reported in November 2025, not today’s timetable.", "sources": [{"id": "ei", "locator": "Trial date as then reported"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filton-reporting",
+      "title": "Follow the Filton trials with Real Media",
+      "intro": "Featured ongoing court reporting for the wider proceedings. Keep each defendant, charge and trial separate.",
+      "entries": [
+        {
+          "id": "third-trial", "title": "The third Filton trial", "kind": "Real Media court reporting", "date": "2026-10-18",
+          "paragraphs": [
+            {"text": "Real Media’s page, dated 18 October 2026, provides continuing coverage from Woolwich Crown Court, credited to Betty Dempsey and note-takers. It follows five defendants before HH Judge Lees. Middlebrough is not one of the five defendants identified in that report: it is wider Filton context, not a report of his own trial.", "sources": [{"id": "real-media", "locator": "Introduction and defendants"}]},
+            {"text": "The coverage follows prosecution evidence, cross-examination, video material and challenges to digital and cell-site evidence. Read allegations and challenges as competing courtroom positions, not as conclusions reached by the jury. The version reviewed here reports ongoing proceedings rather than a final verdict.", "sources": [{"id": "real-media", "locator": "Weeks 2–3"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-the-record",
+      "title": "What still needs checking",
+      "intro": "Independent Tribunal research notes: preserve uncertainty instead of filling gaps with a plausible story.",
+      "entries": [
+        {
+          "id": "date-discrepancy", "title": "The bail chronology is not identical across sources", "kind": "Source comparison",
+          "paragraphs": [
+            {"text": "Electronic Intifada describes a four-day release starting on 23 October; the BBC gives a 20 October bail decision and 24 October return deadline. We have not reconciled these accounts against the bail order.", "sources": [{"id": "ei", "locator": "Opening chronology"}, {"id": "bbc", "locator": "Bail chronology"}]}
+          ]
+        },
+        {
+          "id": "coverage-limits", "title": "Documents not obtained in this review", "kind": "Coverage limitation",
+          "paragraphs": [
+            {"text": "No sealed conviction record, sentencing remarks for Middlebrough, bail order, reporting-restriction order or subsequent appeal decision was obtained. The reported result is attributed to the BBC rather than presented as our inspection of a court file. No sentence should be inferred from another defendant’s case.", "sources": []},
+            {"text": "This profile does not identify a present location, reconstruct routes of travel, or assess how he avoided custody. Its purpose is to document the proceedings and scrutinise the sources. The broader collection separately addresses proscription and terrorism-related sentencing; neither should be silently substituted for the offence reported here.", "sources": []}
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {"id": "bbc", "title": "Key convicted Palestine Action member on the run", "publisher": "BBC News · Dominic Casciani", "type": "Court reporting", "date": "2026-09-14", "checked": "2026-10-19", "url": "https://www.bbc.co.uk/news/articles/cxly50gm0npmo"},
+    {"id": "ei", "title": "Exclusive: Absconded activist refuses to be “prisoner of war”", "publisher": "The Electronic Intifada · Abubaker Abed", "type": "Reporting and attributed personal statement", "date": "2025-11-10", "checked": "2026-10-19", "url": "https://electronicintifada.net/content/exclusive-absconded-activist-refuses-be-prisoner-war/51056"},
+    {"id": "real-media", "title": "The Third Filton Trial", "publisher": "Real Media · Betty Dempsey and note-takers", "type": "Ongoing court reporting · wider proceedings", "date": "2026-10-18", "checked": "2026-10-19", "url": "https://realmedia.press/third-filton-trial/"}
+  ]
+}

@@ -190,6 +190,9 @@ policies.sort((a, b) => a.order - b.order);
 const research = await loadResearch(dataDir, fail);
 const palestineAction = await loadPalestineAction(dataDir);
 const profiles = await loadProfiles(dataDir, fail);
+for (const p of profiles) for (const related of p.research_links ?? []) {
+  if (![...research.map((r) => r.id), palestineActionTile.id].includes(related.id)) fail(`profiles/${p.id}`, `missing related research ${related.id}`);
+}
 const commentary = await loadCommentary(dataDir, fail);
 for (const p of commentary) if ([...research, ...profiles].some((r) => r.id === p.id)) fail(`commentary/${p.id}`, "commentary id conflicts with a research page");
 for (const p of profiles) if (research.some((r) => r.id === p.id)) fail(`profiles/${p.id}`, "profile id conflicts with a research dossier");

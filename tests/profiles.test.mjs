@@ -7,6 +7,34 @@ const read = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8");
 const json = async (path) => JSON.parse(await read(path));
 const source = () => json("data/profiles/roger-hallam.json");
 
+test("Middlebrough profile distinguishes later reporting, personal statements and other trials", async () => {
+  const p = await json("data/profiles/sean-middlebrough.json");
+  const errors = [];
+  validateProfile(p, (error) => errors.push(error));
+  assert.deepEqual(errors, []);
+  assert.equal(p.checked, "2026-10-19");
+  assert.equal(p.sections[0].id, "later-reporting");
+  const text = JSON.stringify(p);
+  assert.match(text, /convicted Middlebrough of criminal damage in August 2026, in his absence/);
+  assert.match(text, /denied the outstanding violent-disorder allegation/);
+  assert.match(text, /not one of the five defendants/);
+  assert.match(text, /not a legal status/);
+  assert.match(text, /not reconciled these accounts against the bail order/);
+  assert.match(text, /No later sentence, appeal outcome or custody status is established/);
+  const html = await read("public/research/sean-middlebrough/index.html");
+  assert.match(html, /<h1>Sean Middlebrough<\/h1>/);
+  const firstCitations = [...new Set([...html.matchAll(/aria-label="Source (\d+):/g)].map((m) => Number(m[1])))];
+  assert.deepEqual(firstCitations, [1, 2, 3]);
+  for (const s of p.sources) assert.ok(html.includes(`href="${s.url}" target="_blank" rel="noopener noreferrer"`));
+  for (const link of p.research_links) assert.ok(html.includes(`href="/research/${link.id}/"`));
+  for (const file of ["public/research/index.html", "public/research/filton6/index.html", "public/research/palestine-action/index.html", "public/sitemap.xml", "public/llms.txt", "public/llms-full.txt"]) {
+    assert.ok((await read(file)).includes("/research/sean-middlebrough/"), file);
+  }
+  const exported = await json("public/data/profiles/sean-middlebrough.json");
+  assert.equal(exported.sources.length, 3);
+  for (const section of exported.sections) for (const entry of section.entries) for (const para of entry.paragraphs) for (const ref of para.sources) assert.ok(ref.url && ref.publisher && ref.type);
+});
+
 test("Hallam profile keeps sourced outcomes separate from mentions and biography", async () => {
   const p = await source();
   const errors = [];
@@ -45,7 +73,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const p = await json("public/data/profiles/roger-hallam.json");
   const collection = await json("public/data/profiles.json");
   assert.deepEqual(collection.profiles.find((profile) => profile.id === p.id), p);
-  assert.equal(collection.profiles.length, 4);
+  assert.equal(collection.profiles.length, 5);
   assert.equal(p.url, "https://independenttribunal.org/research/roger-hallam/");
   for (const s of p.sections) for (const entry of s.entries) for (const para of entry.paragraphs) for (const ref of para.sources) {
     assert.ok(ref.title && ref.type && ref.publisher && ref.checked);
@@ -62,7 +90,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const { tiles } = await json("public/data/tiles.json");
   assert.equal(tiles.find((t) => t.id === p.id).kind, "profile");
   const index = await json("public/data/index.json");
-  assert.equal(index.datasets.find((d) => d.id === "profiles").count, 4);
+  assert.equal(index.datasets.find((d) => d.id === "profiles").count, 5);
   assert.equal(index.datasets.find((d) => d.id === "research").count, 6, "historical imports remain a distinct dataset");
 });
 
