@@ -569,7 +569,7 @@ Read any \`updates\` before the historical \`body_html\` or \`body_text\`: these
 
 ## Data
 
-- [Sovereign AI document comparison](${abs("/data/forensics/sovereign-ai.json")}): two PDF versions and nine grouped text edits, hashes, source/archive links, interpretations and draft FOI questions. Metadata is not publication evidence; absence of notification is not established.
+- [Sovereign AI document comparison](${abs("/data/forensics/sovereign-ai.json")}): supporting evidence with two PDF versions, nine grouped text edits, file metadata, hashes and source/archive links.
 - [Commentary](${abs("/data/commentary.json")}): ${commentary.length} essays and research notes. Preserve satire labels, anecdote provenance, dated scopes and null (unknown) values; these are not findings of wrongdoing or medical assessments.
 - [Data index](${abs("/data/index.json")}): every dataset, with counts and coverage
 - [Public-record profiles](${abs("/data/profiles.json")}): ${profiles.length} selected profiles with paragraph-level sources resolved inline
@@ -591,7 +591,7 @@ ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("
 ## Pages
 
 - [forensics](${abs("/forensics/")}): document comparisons and reproducible evidence trails
-- [sovereign ai](${abs(forensicPath)}): supporting document for an FOI follow-up; reviewed ${forensics.checked}
+- [Sovereign AI](${abs(forensicPath)}): supporting evidence — document differences and metadata; reviewed ${forensics.checked}
 ${commentaryOut.map((p) => `- [${p.title}](${p.url}): ${p.genre}; ${p.summary}`).join("\n")}
 - [Research library](${abs("/research/")}): Independent Tribunal’s research dossiers and public-record profiles
 - [People & public records](${abs("/people/")}): Individual profiles, proceedings, responses and source checks

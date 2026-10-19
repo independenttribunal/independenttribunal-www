@@ -39,49 +39,76 @@ export function forensicTile(r) {
   return {kind:"forensics", id:r.id, title:r.title, label:r.subtitle, summary:r.summary, tags:["uk", "forensics", "ai", "foi", "procurement"], href:forensicPath, uk:true};
 }
 
-export function forensicText(r, site) {
-  return `## ${r.title}: ${r.subtitle}\nURL: ${site.url}${forensicPath}\nChecked: ${r.checked}\n${r.scope}\n${r.provenance}\n` +
-    Object.entries(r.links).map(([label,url]) => `${label}: ${url}`).join("\n") + "\n\n" +
-    r.versions.map((v) => `${v.id}: ${v.pages} pages; PDF creation metadata ${v.created}; SHA-256 ${v.sha256}\nOriginal: ${v.url}\nArchive: ${v.archive_url}\n${v.verification}`).join("\n\n") + "\n\n" +
-    r.findings.map((f) => `${f.title}: ${f.text}`).join("\n\n") + "\n\n" +
-    r.unchanged_passages.map((p) => `${p.title} (V1 p${p.pages[0]}, V2 p${p.pages[1]}): ${p.text}`).join("\n\n") + "\n\n" +
-    r.changes.map((c) => `${c.id}: ${c.title} (${c.kind}; V1 p${c.pages[0]}, V2 p${c.pages[1]})\nBefore: ${c.before ?? "No corresponding item in this section"}\nAfter: ${c.after}\nInterpretation: ${c.analysis}`).join("\n\n") + "\n\n" +
-    r.foi_context.join("\n\n") + `\n\nFollow-up FOI: ${r.draft_foi.status}\n${r.draft_foi.intro}\n` + r.draft_foi.items.map((q,i) => `${i+1}. ${q}`).join("\n") + `\n${r.draft_foi.closing}\n\nMethod and limitations:\n` + r.method.join("\n\n");
+export function publicForensics(r) {
+  const {id,title,subtitle,summary,checked,versions} = r;
+  return {id,title,subtitle,summary,checked,versions,links:{foi:r.links.foi,letter:r.links.letter},
+    changes:r.changes.map(({analysis,...c})=>c)};
+}
+export function forensicText(r,site) {
+  return "## "+r.title+"\nURL: "+site.url+forensicPath+"\nSupporting evidence\n"+JSON.stringify(publicForensics(r),null,2);
 }
 
-export async function publishForensics({record:r, dataDir, put, page, escapeHtml:e, site}) {
-  const link = (url, label) => `<a href="${e(url)}" target="_blank" rel="noopener noreferrer">${e(label)} ↗</a>`;
-  const pdfLinks = (pages) => r.versions.map((v,i) => link(`${v.url}#page=${pages[i]}`, `${v.id} p${pages[i]}`)).join(" · ");
-  for (const v of r.versions) {
-    await put(`forensics/sovereign-ai/${v.file}`, await readFile(join(dataDir, "forensics", r.id, v.file)));
-    await put(`forensics/sovereign-ai/${v.text_file}`, await readFile(join(dataDir, "forensics", r.id, v.text_file), "utf8"));
+// Longest-common-subsequence matching preserves exact text and marks changed words.
+export function wordDiff(before,after) {
+  const tokens=s=>s.match(/\s+|[\p{L}\p{N}’']+|[^\s\p{L}\p{N}’']/gu)??[];
+  const a=tokens(before??""),b=tokens(after);
+  const dp=Array.from({length:a.length+1},()=>new Uint16Array(b.length+1));
+  for(let i=a.length-1;i>=0;i--) for(let j=b.length-1;j>=0;j--)
+    dp[i][j]=a[i]===b[j]?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
+  const left=[],right=[];let i=0,j=0;
+  while(i<a.length||j<b.length) {
+    if(i<a.length&&j<b.length&&a[i]===b[j]) {
+      left.push({text:a[i++],changed:false});right.push({text:b[j++],changed:false});
+    } else if(i<a.length&&(j===b.length||dp[i+1][j]>=dp[i][j+1])) left.push({text:a[i++],changed:true});
+    else right.push({text:b[j++],changed:true});
   }
-  await put("data/forensics/sovereign-ai.json", {...r, url:`${site.url}${forensicPath}`});
-  await put("forensics/index.html", page({title:"forensics", path:"/forensics/", description:"Document comparisons and reproducible evidence trails supporting public-interest questions.", body:`<p class="kicker">Independent Tribunal · document evidence</p><h1>forensics</h1><p class="lede">Compare the documents. Preserve the evidence. Ask answerable questions.</p><p>Document-level investigations with original sources, archived versions, file fingerprints and explicit limits. A difference is evidence of a difference—not, by itself, proof of motive or wrongdoing.</p><ul class="policy-list"><li><h2><a href="${forensicPath}">${e(r.title)} →</a></h2><p>${e(r.summary)}</p><p class="meta">reviewed ${e(r.checked)} · 2 guidance files · 9 grouped edits</p></li></ul>`}));
-  await put("forensics/sovereign-ai/index.html", page({
-    title:r.title, description:r.summary, path:forensicPath,
-    meta:`<p class="meta">reviewed ${e(r.checked)} · <a href="/data/forensics/sovereign-ai.json">structured JSON</a> · <a href="${site.source_repo}/commits/main/data/forensics/sovereign-ai">edit history</a></p>`,
-    body:`<style>
-      .forensic-note{border-left:3px solid var(--gold);background:#eee8da;padding:1rem 1.2rem;margin:1.2rem 0}.forensic-note p{margin:.3rem 0}
-      .evidence-links,.forensic-nav{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font:600 13px/1.5 system-ui,sans-serif;margin:1rem 0}
-      .forensic-nav{padding:1rem 0;border-block:1px solid var(--line)}.evidence-cards{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
-      .evidence-card{border:1px solid var(--line);padding:1rem;background:white;min-width:0}.evidence-card h3{margin:0 0 .5rem}.evidence-card code{display:block;overflow-wrap:anywhere;font-size:11px;margin:.4rem 0}
-      .forensic-table{overflow-x:auto}.forensic-table table{border-collapse:collapse;width:100%;font:14px/1.6 system-ui,sans-serif}.forensic-table th,.forensic-table td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:.7rem .5rem}
-      .forensic-change{margin:2rem 0;scroll-margin-top:1rem}.diff-pair{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line)}.diff-side{padding:1rem;min-width:0}.diff-side.before{background:#fff0ef}.diff-side.after{background:#eef8ef}.diff-side p{font:700 11px/1.5 system-ui,sans-serif;margin:0 0 .6rem}.diff-side del,.diff-side ins{display:block;text-decoration:none;white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.7 ui-monospace,monospace}
-      .forensic-analysis{font-size:.95rem}.forensic-quote{margin:1rem 0;border-left:3px solid var(--navy);padding:.3rem 1rem;background:white}.forensic-quote p{margin:.5rem 0}.forensic-draft{padding:1.2rem;border:1px solid var(--line);background:white}.forensic-draft li{margin-bottom:1rem}
-      .forensic-method{font-size:.95rem}.forensic-method li{margin:.7rem 0}section[id]{scroll-margin-top:1rem}a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}details summary{cursor:pointer;font-weight:600}
-      @media(max-width:600px){.evidence-cards,.diff-pair{grid-template-columns:1fr}.diff-side+.diff-side{border-top:1px solid var(--line)}}
-    </style>
-    <p class="kicker"><a href="/forensics/">forensics</a> · supporting evidence</p>
-    <aside class="forensic-note"><strong>supporting document for an FOI request</strong><p>${e(r.scope)}</p><div class="evidence-links">${link(r.links.foi,"original FOI and correspondence")}${link(r.links.response,"16 October response")}${link(r.links.letter,"earlier open letter")}</div></aside>
-    <h1>${e(r.title)}</h1><p class="lede">${e(r.subtitle)}</p><p>${e(r.summary)}</p><p class="meta">reviewed ${e(r.checked)} · v1: 10 pages → v2: 11 pages · nine grouped wording edits</p>
-    <section id="documents"><h2>the documents and their archives</h2><p>Original and archived links open in a new tab. V1 and V2 are our comparison labels, not official version numbers.</p><div class="evidence-cards">${r.versions.map((v) => `<article class="evidence-card"><h3>${v.id} · ${v.pages} pages</h3><p>${link(v.url,"original PDF")}<br>${link(v.archive_url,"archived PDF")}</p><p class="meta">archive capture: ${e(v.archive_timestamp)}<br>PDF creation metadata: ${e(v.created)}<br>${v.bytes.toLocaleString("en-GB")} bytes</p><details><summary>fingerprint and reviewed copy</summary><code>SHA-256 ${v.sha256}</code><p class="meta">${e(v.verification)}</p><p>${link(`${forensicPath}${v.file}`,"preserved PDF")} · ${link(`${forensicPath}${v.text_file}`,"extracted text")}</p></details></article>`).join("")}</div><p class="attributed">The live downloads and archive payloads match the local PDFs byte-for-byte. Metadata dates are not publication dates. A hash is a file fingerprint, not a digital signature or proof of authorship.</p></section>
-    <nav class="forensic-nav" aria-label="On this page"><a href="#findings">findings</a><a href="#notification">notification clause</a><a href="#comparison">comparison</a><a href="#foi-context">FOI context</a><a href="#follow-up">draft follow-up</a><a href="#method">method</a></nav>
-    <section id="findings"><h2>what the evidence establishes</h2>${r.findings.map((f) => `<h3>${e(f.title)}</h3><p>${e(f.text)}</p>${f.changes.length ? `<p class="meta">${f.changes.map((id) => `<a href="#${id}">${id.replace("c","change ")}</a>`).join(" · ")}</p>` : ""}`).join("")}</section>
-    <section id="retained-wording"><h2>important wording that did not change</h2>${r.unchanged_passages.map((p) => `<article id="${p.id}"><h3>${e(p.title)}</h3><blockquote class="forensic-quote"><p>${e(p.text)}</p></blockquote><p class="meta">${pdfLinks(p.pages)}</p></article>`).join("")}<p>The guidance also reserves the right to amend the process, timetable or documentation. Whether that power was exercised and communicated properly requires records beyond these PDFs.</p></section>
-    <section id="comparison"><h2>nine grouped wording changes</h2><p>The excerpts below are document text; the interpretation beneath each pair is ours. These are nine edits, not nine new rules. Page links use physical PDF pages.</p><div class="forensic-table"><table><thead><tr><th>edit</th><th>change</th><th>type</th></tr></thead><tbody>${r.changes.map((c,i) => `<tr><td>${i+1}</td><td><a href="#${c.id}">${e(c.title)}</a></td><td>${e(c.kind)}</td></tr>`).join("")}</tbody></table></div>${r.changes.map((c,i) => `<article class="forensic-change" id="${c.id}"><h3>${String(i+1).padStart(2,"0")} · ${e(c.title)}</h3><p class="meta">${e(c.kind)} · ${pdfLinks(c.pages)}</p><div class="diff-pair"><div class="diff-side before"><p>− v1 / before</p>${c.before ? `<del>${e(c.before)}</del>` : "<p>No corresponding item in this section.</p>"}</div><div class="diff-side after"><p>+ v2 / after</p><ins>${e(c.after)}</ins></div></div><p class="forensic-analysis"><strong>interpretation:</strong> ${e(c.analysis)}</p></article>`).join("")}</section>
-    <section id="foi-context"><h2>the FOI context</h2>${r.foi_context.map((p,i) => `<p>${e(p)}</p><p class="meta">${i===0 ? link(r.links.foi,"original request · 24 September 2026") : i===1 ? link(r.links.response,"department response · pages 5–6") : link(r.links.ico,"ICO guidance · section 12 and advice and assistance")}</p>`).join("")}<p>The earlier ${link(r.links.letter,"open letter")} is the requester’s critique of the scheme, not an official finding. This page documents changes and questions; it does not establish that the letter caused the revision.</p></section>
-    <section id="follow-up"><h2>draft follow-up: records that would resolve the questions</h2><p class="meta">${e(r.draft_foi.status)}</p><div class="forensic-draft"><p>${e(r.draft_foi.intro)}</p><ol>${r.draft_foi.items.map((q) => `<li>${e(q)}</li>`).join("")}</ol><p>${e(r.draft_foi.closing)}</p></div><p class="attributed">These are suggested questions, not a guarantee that the request falls within the cost limit. A preference for continuous applications is a policy view; the FOI asks for the recorded reasons for the design chosen.</p></section>
-    <section id="method"><h2>method, limits and corrections to the draft</h2><p>${e(r.provenance)}</p><ol class="forensic-method">${r.method.map((m) => `<li>${e(m)}</li>`).join("")}</ol><p>The draft’s assertion that the Batch 1 opening date was “written after it had passed” has been narrowed to what metadata can establish. Its “six substantive / three wording-only” classification is replaced with descriptive labels: the outcome-timing edit could affect expectations, while several checklist edits restate existing requirements.</p><p>Suggested publication practice: keep a dated version history, stable versioned URLs, archived copies, checksums and a short change notice. This is an editorial recommendation, not a finding of a universal legal requirement.</p><p>${link(`${site.source_repo}/issues`,"submit a source or correction")} · <a href="/data/forensics/sovereign-ai.json">download the structured comparison</a></p></section>`,
-  }));
+  return {before:left,after:right};
+}
+export async function publishForensics({record:r,dataDir,put,page,escapeHtml:e,site}) {
+  const link=(url,label)=>'<a href="'+e(url)+'" target="_blank" rel="noopener noreferrer">'+e(label)+' ↗</a>';
+  for(const v of r.versions) {
+    await put("forensics/sovereign-ai/"+v.file,await readFile(join(dataDir,"forensics",r.id,v.file)));
+    await put("forensics/sovereign-ai/"+v.text_file,await readFile(join(dataDir,"forensics",r.id,v.text_file),"utf8"));
+  }
+  await put("data/forensics/sovereign-ai.json",{...publicForensics(r),url:site.url+forensicPath});
+  await put("forensics/index.html",page({title:"forensics",path:"/forensics/",description:"Document comparisons, source files and archives.",
+    body:'<p class="kicker">Independent Tribunal · supporting evidence</p><h1>forensics</h1><p class="lede">Document differences, sources and metadata.</p><ul class="policy-list"><li><h2><a href="'+forensicPath+'">'+e(r.title)+' →</a></h2><p>'+e(r.summary)+'</p><p class="meta">2 guidance files · 9 grouped edits</p></li></ul>'}));
+  const highlighted=tokens=>tokens.map(t=>t.changed?'<mark>'+e(t.text)+'</mark>':e(t.text)).join("");
+  const row=(kind,tokens)=>{
+    const tag=kind==="removed"?"del":"ins";
+    return '<div class="diff-row '+kind+'"><span class="diff-sign" aria-label="'+kind+'">'+(kind==="removed"?"−":"+")+'</span><'+tag+'>'+highlighted(tokens)+'</'+tag+'></div>';
+  };
+  const changes=r.changes.map((c,i)=>{
+    const diff=wordDiff(c.before,c.after);
+    const pages=r.versions.map((v,n)=>link(v.url+"#page="+c.pages[n],v.id+" p"+c.pages[n])).join(" → ");
+    return '<article class="forensic-change" id="'+c.id+'"><h3><span class="change-number">'+String(i+1).padStart(2,"0")+'</span> '+e(c.title)+'</h3><div class="forensic-diff"><div class="diff-header"><span>'+e(c.kind)+'</span><span>'+pages+'</span></div>'+(c.before?row("removed",diff.before):"")+row("added",diff.after)+'</div></article>';
+  }).join("");
+  const metadataRow=(label,fn)=>'<tr><th scope="row">'+label+'</th>'+r.versions.map(v=>'<td>'+fn(v)+'</td>').join("")+'</tr>';
+  const style='<style>'+
+    '.forensic-content{font:15px/1.6 system-ui,sans-serif}.forensic-content h1,.forensic-content h2,.forensic-content h3{font-family:system-ui,sans-serif;letter-spacing:normal}'+
+    '.forensic-content h1{font-size:clamp(30px,5vw,42px);margin-bottom:.4rem}.forensic-content h2{font-size:21px;margin:2rem 0 .8rem}.forensic-content h3{font-size:16px;font-weight:600;margin:0 0 .7rem}'+
+    '.forensic-links,.diff-legend{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;font-size:13px;margin:.8rem 0}'+
+    '.forensic-table{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:white}.forensic-table table{width:100%;border-collapse:collapse;font-size:13px}.forensic-table th,.forensic-table td{padding:.6rem .75rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}.forensic-table th{font-weight:600}.forensic-table thead{background:#f6f8fa}.forensic-table tr:last-child>*{border-bottom:0}'+
+    '.forensic-files table{table-layout:fixed}.forensic-files th:first-child{width:22%}.forensic-files td{overflow-wrap:anywhere}.forensic-files code{font-size:11px;overflow-wrap:anywhere}.forensic-files details{margin-top:.4rem}.forensic-files summary{cursor:pointer;font-weight:600}.forensic-small{font-size:12px;color:var(--muted);margin:.6rem 0}'+
+    '.forensic-change{margin:1.8rem 0;scroll-margin-top:1rem}.change-number{font:600 13px ui-monospace,monospace;color:var(--muted)}.forensic-diff{border:1px solid var(--line);border-radius:6px;overflow:hidden;background:white}'+
+    '.diff-header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.4rem 1rem;background:#f6f8fa;border-bottom:1px solid var(--line);padding:.5rem .75rem;font:12px/1.6 ui-monospace,monospace}'+
+    '.diff-row{display:grid;grid-template-columns:30px minmax(0,1fr);font:13px/1.7 ui-monospace,monospace}.diff-row del,.diff-row ins{display:block;text-decoration:none;white-space:pre-wrap;overflow-wrap:anywhere;padding:.5rem .7rem}.diff-sign{text-align:center;padding:.5rem 0;user-select:none}'+
+    '.removed{background:#ffebe9}.removed .diff-sign{background:#ffd7d5;color:#82071e}.added{background:#e6ffec}.added .diff-sign{background:#ccffd8;color:#116329}.diff-row mark{color:inherit;border-radius:2px}.removed mark{background:#ffcecb}.added mark{background:#abf2bc}'+
+    '.diff-legend span{padding:1px 6px;border-radius:3px}.diff-legend .exact{background:#abf2bc}'+
+    '@media(max-width:600px){.forensic-table th,.forensic-table td{padding:.5rem}.forensic-files table{font-size:12px}.diff-row{font-size:12px;grid-template-columns:23px minmax(0,1fr)}}'+
+    '</style>';
+  const body=style+'<div class="forensic-content"><p class="kicker"><a href="/forensics/">forensics</a> · supporting evidence</p><h1>'+e(r.title)+'</h1><p>'+e(r.subtitle)+'</p>'+
+    '<div class="forensic-links">'+link(r.links.foi,"original FOI")+link(r.links.letter,"open letter")+'</div>'+
+    '<section id="documents"><h2>the two files</h2><div class="forensic-table forensic-files"><table><thead><tr><th>PDF metadata</th><th>v1 · original</th><th>v2 · revised</th></tr></thead><tbody>'+
+    metadataRow("sources",v=>link(v.url,"original PDF")+"<br>"+link(v.archive_url,"web archive")+"<br>"+link(forensicPath+v.file,"preserved copy"))+
+    metadataRow("created",v=>e(v.created))+metadataRow("archive capture",v=>e(v.archive_timestamp))+
+    metadataRow("pages",v=>v.pages)+metadataRow("bytes",v=>v.bytes.toLocaleString("en-GB"))+
+    metadataRow("SHA-256",v=>'<details><summary>file fingerprint</summary><code>'+v.sha256+'</code><p>'+link(forensicPath+v.text_file,"extracted text")+'</p></details>')+
+    '</tbody></table></div><p class="forensic-small">PDF creation timestamps are metadata, not publication dates. Original, archived and preserved files matched byte-for-byte when checked on '+e(r.checked)+'. V1 and V2 are comparison labels.</p></section>'+
+    '<section id="comparison"><h2>nine wording changes</h2><div class="diff-legend"><span class="removed">− removed</span><span class="added">+ added</span><span class="exact">darker = exact words changed</span></div>'+
+    '<div class="forensic-table"><table><thead><tr><th>#</th><th>change</th><th>pages v1 → v2</th></tr></thead><tbody>'+
+    r.changes.map((c,i)=>'<tr><td>'+String(i+1).padStart(2,"0")+'</td><td><a href="#'+c.id+'">'+e(c.title)+'</a></td><td>'+c.pages[0]+' → '+c.pages[1]+'</td></tr>').join("")+
+    '</tbody></table></div>'+changes+'</section></div>';
+  await put("forensics/sovereign-ai/index.html",page({title:r.title,description:r.summary,path:forensicPath,
+    meta:'<p class="meta">checked '+e(r.checked)+' · <a href="/data/forensics/sovereign-ai.json">structured JSON</a> · <a href="'+site.source_repo+'/commits/main/data/forensics/sovereign-ai">edit history</a></p>',body}));
 }
