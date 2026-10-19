@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import test from "node:test";
-import { loadForensics, forensicPath, wordDiff } from "../scripts/forensics.mjs";
+import { loadForensics, forensicPath, wordDiff, normalizeExtract, validateChangeContext } from "../scripts/forensics.mjs";
 const root = new URL("../", import.meta.url);
 const read = (p) => readFile(new URL(p, root), "utf8");
 const json = async (p) => JSON.parse(await read(p));
@@ -70,6 +70,46 @@ test("word-level highlighting preserves source text and isolates inserted wordin
   const c = r.changes.find(c=>c.id==="c06");
   const diff = wordDiff(c.before,c.after);
   assert.equal(diff.after.filter(t=>t.changed).map(t=>t.text).join("")," within the Competition Date windows");
+});
+
+test("every change retains source-ordered context and renders it without change highlighting", async () => {
+  const r = await loadForensics(fileURLToPath(new URL("data", root)));
+  const html = await read("public/forensics/sovereign-ai/index.html");
+  const exported = await json("public/data/forensics/sovereign-ai.json");
+  assert.match(html, /white = unchanged context/);
+  assert.match(html, /PDF line wrapping normalised/);
+  for (const c of r.changes) {
+    assert.ok(c.context.every(h => h.before.length + h.after.length > 0));
+    assert.deepEqual(exported.changes.find(e => e.id === c.id).context, c.context);
+    const article = html.split('id="'+c.id+'"')[1].split("</article>")[0];
+    assert.match(article, /class="diff-row context"/);
+    for (const row of article.matchAll(/<div class="diff-row context">([\s\S]*?)<\/div>/g)) {
+      assert.doesNotMatch(row[1], /<mark>|<ins>|<del>/);
+    }
+  }
+  const dates = html.split('id="c02"')[1].split("</article>")[0];
+  const sequence = ["Batch 1:", "Opens", "15", "September", "2026", "Submit your proposal by 16 October", "Batch 2:", "14", "November", "Submit your proposal by 31 December", "Batch 3:", "30", "January", "Submit your proposal by 26 February"];
+  let offset = 0;
+  for (const text of sequence) {
+    const index = dates.indexOf(text, offset);
+    assert.ok(index >= 0, text);
+    offset = index + text.length;
+  }
+});
+
+test("context validation rejects invented wording, wrong order and missing hunks", async () => {
+  const r = await json("data/forensics/sovereign-ai/record.json");
+  const pages = await Promise.all(r.versions.map(async v => (await read("data/forensics/sovereign-ai/"+v.text_file)).split("\f").slice(0,v.pages).map(normalizeExtract)));
+  const change = () => structuredClone(r.changes.find(c => c.id === "c03"));
+  const invented = change();
+  invented.context[0].before = ["Invented source wording."];
+  assert.throws(() => validateChangeContext(invented,pages), /missing or out of order/);
+  const reversed = change();
+  [reversed.context[0].before,reversed.context[0].after] = [reversed.context[0].after,reversed.context[0].before];
+  assert.throws(() => validateChangeContext(reversed,pages), /missing or out of order/);
+  const missing = change();
+  missing.context = [];
+  assert.throws(() => validateChangeContext(missing,pages), /every diff hunk/);
 });
 
 test("forensics is discoverable from navigation, homepage data, sitemap and AI exports", async () => {

@@ -5,6 +5,29 @@ import { createHash } from "node:crypto";
 export const forensicPath = "/forensics/sovereign-ai/";
 export const normalizeExtract = (text) => text.replace(/\s+/g, " ").trim();
 
+// Context is common to both versions and must surround the edit in source order.
+export function validateChangeContext(change, pages) {
+  const excerpts = change.after.split("\n");
+  if (!Array.isArray(change.context) || change.context.length !== excerpts.length) throw new Error("Expected context for every diff hunk");
+  if (change.before && excerpts.length !== 1) throw new Error("Replacement must have one diff hunk");
+  change.context.forEach((context, i) => {
+    if (!Array.isArray(context.before) || !Array.isArray(context.after) || !context.before.length && !context.after.length) throw new Error("Diff hunk needs surrounding context");
+    for (let version = 0; version < 2; version++) {
+      const source = pages[version][change.pages[version] - 1];
+      const edit = version === 0 ? change.before : excerpts[i];
+      const ordered = [...context.before, ...(edit ? [edit] : []), ...context.after];
+      let offset = 0;
+      for (const text of ordered) {
+        if (typeof text !== "string" || !text.trim()) throw new Error("Empty context excerpt");
+        const normalized = normalizeExtract(text);
+        const index = source?.indexOf(normalized, offset) ?? -1;
+        if (index < 0) throw new Error(`Context missing or out of order: ${change.id}, v${version + 1}`);
+        offset = index + normalized.length;
+      }
+    }
+  });
+}
+
 export async function loadForensics(dataDir) {
   const dir = join(dataDir, "forensics", "sovereign-ai");
   const record = JSON.parse(await readFile(join(dir, "record.json"), "utf8"));
@@ -31,6 +54,7 @@ export async function loadForensics(dataDir) {
     ids.add(c.id);
     if (c.before) checkExcerpt(c.before, 0, c.pages[0]);
     for (const excerpt of c.after.split("\n")) checkExcerpt(excerpt, 1, c.pages[1]);
+    validateChangeContext(c, pages);
   }
   for (const p of record.unchanged_passages) for (let v = 0; v < 2; v++) checkExcerpt(p.text, v, p.pages[v]);
   return record;
@@ -79,10 +103,15 @@ export async function publishForensics({record:r,dataDir,put,page,escapeHtml:e,s
     const tag=kind==="removed"?"del":"ins";
     return '<div class="diff-row '+kind+'"><span class="diff-sign" aria-label="'+kind+'">'+(kind==="removed"?"−":"+")+'</span><'+tag+'>'+highlighted(tokens)+'</'+tag+'></div>';
   };
+  const contextRow=text=>'<div class="diff-row context"><span class="diff-sign" aria-label="unchanged context"> </span><span class="diff-text">'+e(text)+'</span></div>';
   const changes=r.changes.map((c,i)=>{
-    const diff=wordDiff(c.before,c.after);
     const pages=r.versions.map((v,n)=>link(v.url+"#page="+c.pages[n],v.id+" p"+c.pages[n])).join(" → ");
-    return '<article class="forensic-change" id="'+c.id+'"><h3><span class="change-number">'+String(i+1).padStart(2,"0")+'</span> '+e(c.title)+'</h3><div class="forensic-diff"><div class="diff-header"><span>'+e(c.kind)+'</span><span>'+pages+'</span></div>'+(c.before?row("removed",diff.before):"")+row("added",diff.after)+'</div></article>';
+    const hunks=c.after.split("\n").map((after,n)=>{
+      const diff=wordDiff(c.before,after);
+      const context=c.context[n];
+      return context.before.map(contextRow).join("")+(c.before?row("removed",diff.before):"")+row("added",diff.after)+context.after.map(contextRow).join("");
+    }).join("");
+    return '<article class="forensic-change" id="'+c.id+'"><h3><span class="change-number">'+String(i+1).padStart(2,"0")+'</span> '+e(c.title)+'</h3><div class="forensic-diff"><div class="diff-header"><span>'+e(c.kind)+'</span><span>'+pages+'</span></div>'+hunks+'</div></article>';
   }).join("");
   const metadataRow=(label,fn)=>'<tr><th scope="row">'+label+'</th>'+r.versions.map(v=>'<td>'+fn(v)+'</td>').join("")+'</tr>';
   const style='<style>'+
@@ -93,9 +122,9 @@ export async function publishForensics({record:r,dataDir,put,page,escapeHtml:e,s
     '.forensic-files table{table-layout:fixed}.forensic-files th:first-child{width:22%}.forensic-files td{overflow-wrap:anywhere}.forensic-files code{font-size:11px;overflow-wrap:anywhere}.forensic-files details{margin-top:.4rem}.forensic-files summary{cursor:pointer;font-weight:600}.forensic-small{font-size:12px;color:var(--muted);margin:.6rem 0}'+
     '.forensic-change{margin:1.8rem 0;scroll-margin-top:1rem}.change-number{font:600 13px ui-monospace,monospace;color:var(--muted)}.forensic-diff{border:1px solid var(--line);border-radius:6px;overflow:hidden;background:white}'+
     '.diff-header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.4rem 1rem;background:#f6f8fa;border-bottom:1px solid var(--line);padding:.5rem .75rem;font:12px/1.6 ui-monospace,monospace}'+
-    '.diff-row{display:grid;grid-template-columns:30px minmax(0,1fr);font:13px/1.7 ui-monospace,monospace}.diff-row del,.diff-row ins{display:block;text-decoration:none;white-space:pre-wrap;overflow-wrap:anywhere;padding:.5rem .7rem}.diff-sign{text-align:center;padding:.5rem 0;user-select:none}'+
+    '.diff-row{display:grid;grid-template-columns:30px minmax(0,1fr);font:13px/1.7 ui-monospace,monospace}.diff-row del,.diff-row ins,.diff-text{display:block;text-decoration:none;white-space:pre-wrap;overflow-wrap:anywhere;padding:.5rem .7rem}.diff-sign{text-align:center;padding:.5rem 0;user-select:none}.diff-row.context{background:#fff;color:#424a53}.context .diff-sign{background:#f6f8fa}'+
     '.removed{background:#ffebe9}.removed .diff-sign{background:#ffd7d5;color:#82071e}.added{background:#e6ffec}.added .diff-sign{background:#ccffd8;color:#116329}.diff-row mark{color:inherit;border-radius:2px}.removed mark{background:#ffcecb}.added mark{background:#abf2bc}'+
-    '.diff-legend span{padding:1px 6px;border-radius:3px}.diff-legend .exact{background:#abf2bc}'+
+    '.diff-legend span{padding:1px 6px;border-radius:3px}.diff-legend .exact{background:#abf2bc}.diff-legend .context{background:white;border:1px solid var(--line)}'+
     '@media(max-width:600px){.forensic-table th,.forensic-table td{padding:.5rem}.forensic-files table{font-size:12px}.diff-row{font-size:12px;grid-template-columns:23px minmax(0,1fr)}}'+
     '</style>';
   const body=style+'<div class="forensic-content"><p class="kicker"><a href="/forensics/">forensics</a> · supporting evidence</p><h1>'+e(r.title)+'</h1><p>'+e(r.subtitle)+'</p>'+
@@ -107,7 +136,7 @@ export async function publishForensics({record:r,dataDir,put,page,escapeHtml:e,s
     metadataRow("pages",v=>v.pages)+metadataRow("bytes",v=>v.bytes.toLocaleString("en-GB"))+
     metadataRow("SHA-256",v=>'<details><summary>file fingerprint</summary><code>'+v.sha256+'</code><p>'+link(forensicPath+v.text_file,"extracted text")+'</p></details>')+
     '</tbody></table></div><p class="forensic-small">PDF creation timestamps are metadata, not publication dates. Original, archived and preserved files matched byte-for-byte when checked on '+e(r.checked)+'. V1 and V2 are comparison labels.</p></section>'+
-    '<section id="comparison"><h2>nine wording changes</h2><div class="diff-legend"><span class="removed">− removed</span><span class="added">+ added</span><span class="exact">darker = exact words changed</span></div>'+
+    '<section id="comparison"><h2>nine wording changes</h2><div class="diff-legend"><span class="removed">− removed</span><span class="added">+ added</span><span class="exact">darker = exact words changed</span><span class="context">white = unchanged context</span></div><p class="forensic-small">Nearby wording is shown for context, with PDF line wrapping normalised. Only the changed passages are coloured.</p>'+
     '<div class="forensic-table"><table><thead><tr><th>#</th><th>change</th><th>pages v1 → v2</th></tr></thead><tbody>'+
     r.changes.map((c,i)=>'<tr><td>'+String(i+1).padStart(2,"0")+'</td><td><a href="#'+c.id+'">'+e(c.title)+'</a></td><td>'+c.pages[0]+' → '+c.pages[1]+'</td></tr>').join("")+
     '</tbody></table></div>'+changes+'</section></div>';
