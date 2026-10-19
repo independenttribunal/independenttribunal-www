@@ -23,6 +23,21 @@ test("section 58 preserves the requested opening and supplied Amazon screenshot"
   assert.ok((await read("public/llms-full.txt")).includes(p.evidence_image.caption));
 });
 
+test("paragraph 83 is quoted in full and distinguished from contextual analysis", async () => {
+  const p = await json(`data/profiles/${id}.json`);
+  const entries = new Map(p.sections.flatMap((s) => s.entries).map((e) => [e.id, e]));
+  const quote = entries.get("curiosity-rule").paragraphs[0];
+  assert.equal(quote.quote, true);
+  assert.equal(quote.text, "First, there was much discussion of a hypothetical situation where the defendant downloaded and stored information falling within section 58(1) “out of curiosity”. But the question as to whether he would have a reasonable excuse under section 58(3) is not one that can be answered in the abstract, without knowing exactly what the defendant did and the circumstances in which he did it. In an actual case where the issue arose, the specific facts of the case would inform the decision as to whether the defendant’s excuse for doing what he did either could or should be regarded as reasonable in the circumstances.");
+  const html = await read(`public/research/${id}/index.html`);
+  assert.ok(html.includes(`<blockquote class="profile-quotation" cite="https://publications.parliament.uk/pa/ld200809/ldjudgmt/jd090304/rgrj.pdf"><p>${quote.text}</p></blockquote>`));
+  assert.match(entries.get("objective-and-contextual").paragraphs[0].text, /Objective does not mean context-free/);
+  assert.ok((await read("public/llms-full.txt")).includes(`> ${quote.text}`));
+  const invalid = structuredClone(p);
+  invalid.sections[0].entries[0].paragraphs[0].sources = [];
+  assert.throws(() => validateProfile(invalid, (message) => { throw new Error(message); }), /quotation requires a source/);
+});
+
 test("profile evidence images reject unsafe paths and missing accessibility metadata", async () => {
   const p = await json(`data/profiles/${id}.json`);
   for (const patch of [{ src: "https://example.com/image.png" }, { src: "/images/../secret.png" }, { alt: "" }, { caption: "" }, { width: -1 }]) {

@@ -41,6 +41,8 @@ export function validateProfile(p, fail) {
       if (entry.date && !date.test(entry.date)) fail(`entry ${entry.id}: invalid date`);
       for (const paragraph of entry.paragraphs ?? []) {
         if (!paragraph.text || !Array.isArray(paragraph.sources)) fail(`entry ${entry.id}: text and source array required`);
+        if (paragraph.quote !== undefined && typeof paragraph.quote !== "boolean") fail(`entry ${entry.id}: quote must be boolean`);
+        if (paragraph.quote && !paragraph.sources?.length) fail(`entry ${entry.id}: quotation requires a source`);
         if (!paragraph.sources?.length && entry.kind !== "Research method" && entry.kind !== "Coverage limitation") fail(`entry ${entry.id}: factual paragraph requires sources`);
         for (const s of paragraph.sources ?? []) if (!sourceIds.has(s.id)) fail(`entry ${entry.id}: unknown source ${s.id}`);
       }
@@ -73,7 +75,7 @@ export function profileText(p) {
     ...(p.evidence_image ? [`Image: ${p.evidence_image.src}\n${p.evidence_image.alt}\n${p.evidence_image.caption}`] : []),
     ...p.highlights.map((h) => `${h.label}: ${h.value}. ${h.detail}.`),
     ...p.sections.map((section) => `### ${section.title}\n${section.intro}\n` + section.entries.map((entry) =>
-      `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + entry.paragraphs.map((para) => `${para.text}\n${para.sources.map((ref) => {
+      `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + entry.paragraphs.map((para) => `${para.quote ? "> " : ""}${para.text}\n${para.sources.map((ref) => {
         const s = sources.get(ref.id);
         return `Source: ${s.title} (${s.publisher}; ${s.type}; checked ${s.checked})${ref.locator ? `, ${ref.locator}` : ""} <${s.url}>`;
       }).join("\n")}`).join("\n\n")
@@ -115,6 +117,8 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         .profile-entry { border-top:1px solid var(--line); padding-top:1rem; margin-top:1.5rem; scroll-margin-top:1.5rem; }
         .profile-entry h3 { margin-top:.6rem; }
         .profile-entry .meta { font-size:11px; }
+        .profile-quotation { margin:1.25rem 0; padding:1rem 1.25rem; border-left:3px solid var(--gold); background:#eee8da; }
+        .profile-quotation p { margin:0; }
         .profile-citations { display:block; font:12px/1.6 ui-sans-serif,system-ui,sans-serif; margin:.4rem 0 1.3rem; color:var(--muted); }
         .profile-sources { padding-left:1.5rem; font-size:.95rem; }
         .profile-sources li { margin-bottom:1rem; overflow-wrap:anywhere; }
@@ -130,7 +134,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       <p class="attributed">${e(p.status_note)}</p>
       ${featured ? `<p><a href="${e(featured.url)}" target="_blank" rel="noopener noreferrer">Read the report from ${e(featured.publisher)} ↗</a> <span class="meta">(opens in a new tab)</span></p>` : ""}
       <nav class="profile-nav" aria-label="On this page">${p.sections.map((s) => `<a href="#${s.id}">${e(s.title)}</a>`).join("")}<a href="#sources">Source register</a></nav>
-      ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.paragraphs.map((para) => `<p>${e(para.text)}</p>${citations(para.sources)}`).join("")}</article>`).join("")}</section>`).join("")}
+      ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.paragraphs.map((para) => `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${e(para.text)}</p></blockquote>` : `<p>${e(para.text)}</p>`}${citations(para.sources)}`).join("")}</article>`).join("")}</section>`).join("")}
       <section class="profile-section" id="sources"><h2>Source register</h2><p>Sources are numbered in order of first citation; repeated citations keep their number. Source links open in a new tab. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${orderedSources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
       <h2>Related research</h2><ul>${p.related?.length || p.research_links?.length ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/people/">People &amp; public records</a></li><li><a href="/research/">Research library</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
     }));
