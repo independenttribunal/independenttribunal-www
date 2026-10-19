@@ -12,6 +12,7 @@ export async function loadForensics(dataDir) {
   if (record.versions.length !== 2 || record.changes.length !== 9) throw new Error("Expected two versions and nine grouped edits");
   const pages = [];
   for (const v of record.versions) {
+    if (!/^[A-Za-z]\*{8}$/.test(v.author_masked)) throw new Error("Expected a masked PDF author initial");
     if (!/^guidance-v[12]\.pdf$/.test(v.file) || v.text_file !== v.file.replace(/pdf$/, "txt")) throw new Error("Unsafe forensic source path");
     const bytes = await readFile(join(dir, v.file));
     if (bytes.length !== v.bytes || createHash("sha256").update(bytes).digest("hex") !== v.sha256) throw new Error(`Evidence hash mismatch: ${v.id}`);
@@ -101,6 +102,7 @@ export async function publishForensics({record:r,dataDir,put,page,escapeHtml:e,s
     '<div class="forensic-links">'+link(r.links.foi,"original FOI")+link(r.links.letter,"open letter")+'</div>'+
     '<section id="documents"><h2>the two files</h2><div class="forensic-table forensic-files"><table><thead><tr><th>PDF metadata</th><th>v1 · original</th><th>v2 · revised</th></tr></thead><tbody>'+
     metadataRow("sources",v=>link(v.url,"original PDF")+"<br>"+link(v.archive_url,"web archive")+"<br>"+link(forensicPath+v.file,"preserved copy"))+
+    metadataRow("PDF author metadata (masked)",v=>e(v.author_masked))+
     metadataRow("created",v=>e(v.created))+metadataRow("archive capture",v=>e(v.archive_timestamp))+
     metadataRow("pages",v=>v.pages)+metadataRow("bytes",v=>v.bytes.toLocaleString("en-GB"))+
     metadataRow("SHA-256",v=>'<details><summary>file fingerprint</summary><code>'+v.sha256+'</code><p>'+link(forensicPath+v.text_file,"extracted text")+'</p></details>')+

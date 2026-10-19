@@ -49,6 +49,9 @@ test("public forensics is limited to source metadata and highlighted differences
   for (const field of ["scope", "findings", "unchanged_passages", "foi_context", "draft_foi", "method"]) assert.equal(r[field], undefined);
   for (const id of ["retained-wording", "notification", "foi-context", "follow-up", "method"]) assert.ok(!html.includes('id="'+id+'"'));
   assert.match(html, /metadata, not publication dates/);
+  assert.match(html, /PDF author metadata \(masked\)/);
+  assert.deepEqual(r.versions.map(v=>v.author_masked), ["R********", "j********"]);
+  for (const v of r.versions) assert.ok(html.includes("<td>"+v.author_masked+"</td>"));
   assert.match(html, /<mark>/);
   assert.match(html, /darker = exact words changed/);
   assert.equal(r.changes.some(c=>c.analysis), false);
