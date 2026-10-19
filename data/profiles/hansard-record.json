@@ -1,0 +1,194 @@
+{
+  "id": "hansard-record",
+  "category": "legal-study",
+  "title": "Hansard and the disputed record",
+  "subtitle": "Zarah Sultana’s speech, the Commons explanation and the FOI trail",
+  "summary": "What the published record shows, what the MP disputes, and why the later disclosure matters. The initial ‘not held’ response is not the end of the story.",
+  "checked": "2026-10-19",
+  "jurisdiction": "United Kingdom · Parliament and freedom of information",
+  "tags": [
+    "uk",
+    "parliament",
+    "protest",
+    "accountability"
+  ],
+  "scope": "A record of a dispute about parliamentary reporting. Attributed speech and allegations are not adopted as Independent Tribunal’s position.",
+  "status_note": "The House of Commons published a further response on 7 January 2026, releasing correspondence and withholding other material under parliamentary privilege. An account ending at ‘no records held’ is incomplete.",
+  "related": [
+    {
+      "id": "public-order",
+      "title": "Public order and protest"
+    }
+  ],
+  "research_links": [
+    {
+      "id": "palestine-action",
+      "title": "Palestine Action collection"
+    },
+    {
+      "id": "proscription-litigation",
+      "title": "Proscription litigation"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Original debate",
+      "value": "2 July 2025",
+      "detail": "The published speech ends before the disputed words",
+      "target": "published-record"
+    },
+    {
+      "label": "Parliamentary challenge",
+      "value": "16 July 2025",
+      "detail": "The MP disputes how the record was made",
+      "target": "point-of-order"
+    },
+    {
+      "label": "Later FOI response",
+      "value": "7 January 2026",
+      "detail": "Correspondence released; privilege asserted",
+      "target": "later-disclosure"
+    }
+  ],
+  "sections": [
+    {
+      "id": "speech",
+      "title": "Three records, different evidential weight",
+      "intro": "The spoken event, an early text and the present Hansard entry should not be treated as the same source.",
+      "entries": [
+        {
+          "id": "published-record",
+          "title": "2 July 2025: the published debate",
+          "kind": "Official parliamentary record",
+          "paragraphs": [
+            {
+              "text": "In the present Hansard entry, Sultana’s speech ends with an unfinished sentence introducing that day’s date, followed by the Deputy Speaker’s intervention. The entry does not include her disputed concluding statement of solidarity with Palestine Action.",
+              "sources": [
+                {
+                  "id": "debate",
+                  "locator": "Sultana’s speech and the Chair’s intervention"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "point-of-order",
+          "title": "16 July 2025: Sultana challenges the omission",
+          "kind": "Member’s account recorded in Hansard",
+          "paragraphs": [
+            {
+              "text": "In a later point of order, Sultana said she had spoken the full phrase before the Chair intervened and disputed the handling of the record. Hansard records that complaint; this does not independently settle the precise timing of the earlier speech.",
+              "sources": [
+                {
+                  "id": "point",
+                  "locator": "Point of order concerning the 2 July speech"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rolling-record",
+          "title": "The reported rolling version",
+          "kind": "Secondary reporting",
+          "paragraphs": [
+            {
+              "text": "The National reported that an earlier rolling version included the beginning of the disputed phrase before the text was shortened. This is attributed press reporting, not an archived rolling-version capture independently authenticated by this page.",
+              "sources": [
+                {
+                  "id": "national",
+                  "locator": "Report published 16 July 2025"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foi-trail",
+      "title": "The FOI trail continued",
+      "intro": "Later disclosure changes what can responsibly be said about the existence of records.",
+      "entries": [
+        {
+          "id": "initial-response",
+          "title": "4 September 2025: the initial response",
+          "kind": "House of Commons response",
+          "paragraphs": [
+            {
+              "text": "The House initially said it held no relevant information: the speech exceeded its time limit, the Chair intervened, and recording convention meant no records about the omission were generated. The requester sought an internal review that day.",
+              "sources": [
+                {
+                  "id": "foi",
+                  "locator": "Response and review request, 4 September 2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "later-disclosure",
+          "title": "7 January 2026: records released and others withheld",
+          "kind": "House of Commons response",
+          "paragraphs": [
+            {
+              "text": "In its later F25-481/F25-688 response, the House reconsidered scope following ICO involvement. It released public and press correspondence with personal-data redactions, identified the published point of order, and withheld procedural discussion and advice under section 34 parliamentary privilege. It also acknowledged missing supplementary questions. This is materially different from saying no related records exist.",
+              "sources": [
+                {
+                  "id": "foi",
+                  "locator": "Response, 7 January 2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "remaining-questions",
+          "title": "What remains unresolved",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The response does not itself authenticate a complete version history or settle whether the Chair’s intervention preceded the disputed words. The internal-review attachment and every released attachment have not been individually audited here. The requester’s annotations about ICO referral are not an ICO merits decision. No finding of unlawful censorship is claimed.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "debate",
+      "title": "Prevention and Suppression of Terrorism — Commons debate, 2 July 2025",
+      "publisher": "UK Parliament",
+      "type": "Primary source",
+      "url": "https://hansard.parliament.uk/commons/2025-07-02/debates/6C9338E8-E516-494A-81A2-B3FEF549DD48/PreventionAndSuppressionOfTerrorism",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "point",
+      "title": "Commons Chamber — 16 July 2025, points of order",
+      "publisher": "UK Parliament",
+      "type": "Primary source",
+      "url": "https://hansard.parliament.uk/Commons/2025-07-16/debates/bb89ff2f-b0ad-4a84-bf9b-0c68222456e9/CommonsChamber",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "national",
+      "title": "Zarah Sultana puts ‘We’re all Palestine Action’ on official record after censor row",
+      "publisher": "The National · Xander Elliards, via inkl",
+      "type": "Secondary news reporting",
+      "url": "https://www.inkl.com/news/zarah-sultana-puts-we-re-all-palestine-action-on-official-record-after-censor-row",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "foi",
+      "title": "Records re Palestine Action Redaction — F25-481 / F25-688",
+      "publisher": "House of Commons correspondence hosted by WhatDoTheyKnow",
+      "type": "Public FOI correspondence",
+      "url": "https://www.whatdotheyknow.com/request/records_re_palestine_action_reda",
+      "checked": "2026-10-19"
+    }
+  ]
+}

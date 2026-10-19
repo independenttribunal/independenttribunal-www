@@ -44,6 +44,26 @@
         {"text":"The update lists 20 May for the Home Secretary’s reasons, 26 June for Hamas’s response, and 31 July for further government statements and evidence. Those dates have passed, but this review has not obtained the filings or a later determination. Scheduled dates are not evidence that documents were filed or that an appeal succeeded.","sources":[{"id":"campaign-update","locator":"Published timetable"}]}
       ]}
     ]},
+    {"id":"ansari-disclosure","title":"Ansari’s separate Schedule 7 case","intro":"A challenge to a police stop and the handling of his phone, not a ruling on Hamas deproscription.","entries":[
+      {"id":"ansari-2026","title":"4 March 2026 · closed material and disclosure","kind":"Published procedural judgment","date":"2026-03-04","citation":"R (Ansari) v Chief Constable of North Wales Police [2026] EWHC 472 (Admin)","paragraphs":[
+        {"text":"Chamberlain J describes Ansari’s August 2025 Schedule 7 stop at Holyhead and the downloading, retention and inspection of his work phone. A closed-material procedure had been authorised. The special advocate secured agreement to disclose substantial material openly; other disclosure remained disputed. The OPEN hearing was on 21 January 2026 and the CLOSED hearing on 27 January, not the same day.","sources":[{"id":"ansari-judgment","locator":"Paragraphs 1–7"}]},
+        {"text":"The court held that the heightened AF (No 3) disclosure standard did not apply in these proceedings, so material damaging to national security need not be disclosed. The judgment also records safeguards for legally privileged material. This is a procedural disclosure ruling, not a final determination that the stop was lawful, nor a finding that Ansari supported or belonged to Hamas.","sources":[{"id":"ansari-judgment","locator":"Paragraphs 69–78"}]}
+      ]},
+      {"id":"special-advocate","title":"What the special advocate can do","kind":"Civil Procedure Rules","paragraphs":[
+        {"text":"Under CPR Part 82, a special advocate can test evidence and make submissions in closed proceedings. Communication with the excluded party becomes restricted after access to sensitive material, but it is not an absolute, exceptionless ban: the rules provide for court directions and specified communications. The court must consider a summary when permitting non-disclosure, subject to national-security protection.","sources":[{"id":"cpr-82","locator":"Rules 82.10, 82.11 and 82.14"}]}
+      ]}
+    ]},
+    {"id":"statutory-safeguards","title":"The route exists; its safeguards have limits","intro":"Access to a legal challenge, evidential protection and financial sanctions are separate questions.","entries":[
+      {"id":"affected-person","title":"An organisation or a person affected","kind":"Statutory procedure","paragraphs":[
+        {"text":"Section 4 permits an application by the proscribed organisation or a person affected by its proscription. Sections 5 and 6 provide the POAC route and a further appeal on a point of law. Standing to apply does not itself change the organisation’s status or determine the merits.","sources":[{"id":"tact-procedure","locator":"Sections 4–6"}]}
+      ]},
+      {"id":"section-ten","title":"Section 10 is an evidence rule, not blanket immunity","kind":"Statutory safeguard","paragraphs":[
+        {"text":"Section 10 restricts using specified acts and documents from deproscription applications and related proceedings as prosecution evidence for listed offences, including sections 11–13, 15–19 and 56; the accused may adduce that evidence. It does not provide general permission for support, fundraising or conduct outside those proceedings.","sources":[{"id":"tact-procedure","locator":"Section 10"}]}
+      ]},
+      {"id":"legal-fees","title":"Representation and payment are different issues","kind":"Separate regulatory regimes","paragraphs":[
+        {"text":"Financial-sanctions rules have their own prohibitions, exceptions and licensing framework. A deproscription application, or a person’s standing to bring it, does not establish that a particular payment is permitted. Legal costs must be assessed under the applicable regime and current permissions; this page does not certify a funding arrangement.","sources":[{"id":"sanctions-guidance","locator":"Financial sanctions; exceptions and licences"}]}
+      ]}
+    ]},
     {"id":"research-next","title":"What we need to establish next","intro":"Independent Tribunal research priorities: document the progress without manufacturing certainty.","entries":[
       {"id":"missing-documents","title":"The next additions to the record","kind":"Research method","paragraphs":[
         {"text":"Seek the refusal decision, appeal number and filed grounds, public procedural orders, any open reasons concerning closed material, and the latest hearing notice or judgment. Record an event date, publication date, source type and outcome for each addition. A refusal, a procedural appeal and final removal from the list must remain distinct.","sources":[]},
@@ -52,6 +72,10 @@
     ]}
   ],
   "sources":[
+    {"id":"ansari-judgment","title":"R (Ansari) v Chief Constable of North Wales Police [2026] EWHC 472 (Admin)","publisher":"The National Archives · Find Case Law","type":"Published judgment","url":"https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/472","date":"2026-03-04","checked":"2026-10-19"},
+    {"id":"cpr-82","title":"Civil Procedure Rules, Part 82 — Closed Material Procedure","publisher":"Ministry of Justice","type":"Procedure rules","url":"https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-82-closed-material-procedure","checked":"2026-10-19"},
+    {"id":"tact-procedure","title":"Terrorism Act 2000 — deproscription and evidence provisions","publisher":"legislation.gov.uk","type":"Legislation","url":"https://www.legislation.gov.uk/ukpga/2000/11/data.html","checked":"2026-10-19"},
+    {"id":"sanctions-guidance","title":"Counter-terrorism sanctions: statutory guidance","publisher":"UK Government","type":"Official guidance","url":"https://www.gov.uk/government/publications/counter-terrorism-sanctions-guidance/counter-terrorism-sanctions-eu-exit-regulations-2019-guidance","checked":"2026-10-19"},
     {"id":"home-office","title":"Proscribed terrorist groups or organisations — Hamas entry and deproscription procedure","publisher":"Home Office","type":"Official list and procedural guidance","url":"https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2/proscribed-terrorist-groups-or-organisations-accessible-version","checked":"2026-10-19"},
     {"id":"2021-order","title":"Islamist terrorist group Hamas banned in the UK","publisher":"Home Office","type":"Official announcement","url":"https://www.gov.uk/government/news/islamist-terrorist-group-hamas-banned-in-the-uk","date":"2021-11-26","checked":"2026-10-19"},
     {"id":"launch","title":"Legal challenge to end UK ban on Hamas launched","publisher":"Riverway Law · copy hosted by Islam21c","type":"Legal team’s press release, not a judgment","url":"https://www.islam21c.com/wp-content/uploads/Hamas-Deproscription-Press-Release.pdf","date":"2025-04-09","checked":"2026-10-19"},

@@ -1,0 +1,178 @@
+{
+  "id": "public-order",
+  "category": "legal-study",
+  "title": "Public order and protest",
+  "subtitle": "Violence, the hypothetical bystander and police conditions",
+  "summary": "The difference between riot, violent disorder, affray and the separate powers regulating protests. A source-led guide to the reasonable-firmness test and the amended statutory framework.",
+  "checked": "2026-10-19",
+  "jurisdiction": "England and Wales",
+  "tags": [
+    "uk",
+    "public-order",
+    "protest",
+    "legal-process"
+  ],
+  "scope": "An examination of statutory tests, not a prediction of whether a particular protest or prosecution is lawful.",
+  "status_note": "Reviewed 19 October 2026 against the amended statute and CPS charging guidance. Leeson is described through the CPS summary; its full judgment has not been independently inspected here.",
+  "related": [
+    {
+      "id": "hansard-record",
+      "title": "Hansard and the disputed parliamentary record"
+    }
+  ],
+  "research_links": [
+    {
+      "id": "palestine-action",
+      "title": "Palestine Action collection"
+    },
+    {
+      "id": "terrorist-connection",
+      "title": "Terrorist connection add-on"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Public-order offences",
+      "value": "Different elements",
+      "detail": "Riot, violent disorder and affray are not interchangeable",
+      "target": "three-offences"
+    },
+    {
+      "label": "Reasonable firmness",
+      "value": "Hypothetical bystander",
+      "detail": "Actual presence is not required",
+      "target": "leeson"
+    },
+    {
+      "label": "Police conditions",
+      "value": "Separate powers",
+      "detail": "Processions, assemblies and one-person protests",
+      "target": "conditions"
+    }
+  ],
+  "sections": [
+    {
+      "id": "violence",
+      "title": "The offences and the bystander",
+      "intro": "Crowd size alone does not establish guilt.",
+      "entries": [
+        {
+          "id": "three-offences",
+          "title": "Riot, violent disorder and affray",
+          "kind": "Statutory framework",
+          "paragraphs": [
+            {
+              "text": "Riot requires 12 or more using or threatening unlawful violence for a common purpose; an individual must use violence to be guilty. Violent disorder requires three or more using or threatening unlawful violence; affray concerns violence or threats towards another. Each includes a reasonable-firmness test. Words alone cannot constitute affray. Section 6 supplies mental elements; mere presence does not establish guilt.",
+              "sources": [
+                {
+                  "id": "poa",
+                  "locator": "Sections 1–3 and 6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leeson",
+          "title": "Leeson: violence alone is not enough",
+          "kind": "CPS account of case law",
+          "paragraphs": [
+            {
+              "text": "The statutory bystander is hypothetical: nobody of reasonable firmness need actually be present or likely to be present. The CPS summarises Leeson v DPP [2010] EWHC 994 (Admin) as requiring conduct capable of making a bystander fear for their own safety. Violence against a victim does not automatically satisfy that additional test. This is not a requirement to prove that a real bystander was frightened.",
+              "sources": [
+                {
+                  "id": "cps",
+                  "locator": "Affray: reasonable firmness; Leeson"
+                }
+              ]
+            },
+            {
+              "text": "Failure to establish affray does not mean the conduct is lawful: an assault or another offence may still be relevant. Charging guidance distinguishes the available offences and their evidential requirements.",
+              "sources": [
+                {
+                  "id": "cps",
+                  "locator": "Affray and alternative offences"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protest-powers",
+      "title": "A different question: regulating a protest",
+      "intro": "Police conditions and violent public-order offences have different legal elements.",
+      "entries": [
+        {
+          "id": "conditions",
+          "title": "Notice, conditions and definitions",
+          "kind": "Amended legislation",
+          "paragraphs": [
+            {
+              "text": "Section 11 concerns advance notice for qualifying public processions, with exceptions; it is not a universal notice requirement for static assemblies. Sections 12 and 14 regulate processions and assemblies; section 14ZA covers specified one-person protests. Conditions can address statutory grounds including serious disruption, not only violence. The England-and-Wales definition in section 16 starts at two people.",
+              "sources": [
+                {
+                  "id": "poa",
+                  "locator": "Sections 11–16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "june-2026",
+          "title": "29 June 2026: further amendments in force",
+          "kind": "Commencement record",
+          "paragraphs": [
+            {
+              "text": "The current statute records Crime and Policing Act 2026 amendments commencing on 29 June: places of worship, cumulative disruption, authorisation of officers imposing conditions, and railway-property coverage. The amendments have different commencement routes; they should not all be attributed to a single commencement regulation.",
+              "sources": [
+                {
+                  "id": "poa",
+                  "locator": "Annotations to sections 12, 14, 14ZA and 16; 2026 Act sections 164–167"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "title": "What this study does not establish",
+      "intro": "Keep the law separate from predictions and policy proposals.",
+      "entries": [
+        {
+          "id": "limits",
+          "title": "No automatic clearance or collective guilt",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "This page does not determine the legality of a planned event or any individual defendant’s liability. Proposed changes to the reasonable-firmness wording are not enacted law. Additional cases and legislative-history claims from the supplied research remain outside this verified summary.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "poa",
+      "title": "Public Order Act 1986 — amended text and commencement annotations",
+      "publisher": "legislation.gov.uk",
+      "type": "Primary source",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/data.html",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "cps",
+      "title": "Public Order Offences incorporating the Charging Standard",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official prosecution guidance",
+      "url": "https://www.cps.gov.uk/prosecution-guidance/public-order-offences-incorporating-charging-standard",
+      "checked": "2026-10-19"
+    }
+  ]
+}

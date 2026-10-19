@@ -17,7 +17,9 @@
     "The offences are about support for the organisation. Reporting that something happened, quoting words as evidence of an event, or criticising the law that bans a group is not, by itself, an opinion supportive of that group. Where the line falls in a particular case is for a court.",
     "The test in section 12(1A) is recklessness, not intent. A person can commit the offence without meaning to encourage anyone, if they are reckless as to whether their audience will be encouraged.",
     "Both section 12(1A) and the image offence in section 13(1A) were added in 2019. Before then, expressing a supportive opinion was an offence only if it invited support.",
-    "The offences apply only while an organisation is proscribed. Check the current list on GOV.UK, not a secondary source."
+    "The offences apply only while an organisation is proscribed. Check the current list on GOV.UK, not a secondary source.",
+    "In Pwr v DPP [2022] UKSC 2, the Supreme Court held that section 13(1) is a strict-liability offence: deliberate wearing, carrying or displaying is required, but no further mental element. The statutory circumstances must still arouse reasonable suspicion of membership or support. That holding should not be silently extended to every offence in sections 11–13.",
+    "Sections 12–13 do not confer a blanket exemption simply because material is described as reporting. Context and the elements of the particular offence matter; neither quotation nor criticism alone establishes a breach. The image-publication provision is section 13(1A), not section 13A."
   ],
   "why_it_matters": "Proscription turns ordinary acts of expression, such as a sign, a T-shirt or a post, into potential terrorism offences. It applies to everyone, not just members.",
   "history": [
@@ -69,7 +71,8 @@
     "tact-2000-s11",
     "tact-2000-s12",
     "tact-2000-s13",
-    "home-office-proscribed-list"
+    "home-office-proscribed-list",
+    "pwr-v-dpp-2022"
   ],
   "related": {
     "timeline": [
@@ -78,5 +81,5 @@
       "proscription-reinstated-2026"
     ]
   },
-  "checked": "2026-10-14"
+  "checked": "2026-10-19"
 }

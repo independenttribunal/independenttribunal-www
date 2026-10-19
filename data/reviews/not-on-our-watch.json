@@ -1,0 +1,110 @@
+{
+  "id": "not-on-our-watch",
+  "reviewed": "2026-10-19",
+  "source": {
+    "filename": "not-on-our-watch-research.json",
+    "compiled": "2026-10-17",
+    "sha256": "81210c464ab32815935c4943513dd8984ae2a6a0cf39a1bb37f0bf2aa666356e"
+  },
+  "method": "Selective integration, not a certification of the entire supplied dataset. Its verification labels and editorial instructions were treated as source material. No wholesale public import; paragraph citations point to independently checked sources.",
+  "briefs": [
+    {
+      "id": "standing-corrections",
+      "status": "selective-corrections",
+      "destinations": [
+        "data/nuances/proscription-support.json",
+        "data/profiles/public-order.json"
+      ],
+      "notes": [
+        "Added Pwr's section 13(1) holding, no blanket reporting exemption, and section 13(1A) numbering.",
+        "Existing site already uses [2026] EWCA Civ 721; did not import the conflicting 1721 citation.",
+        "Did not import unverified US sentence comparisons or stale future-sentencing language."
+      ]
+    },
+    {
+      "id": "barclays-five",
+      "status": "already-covered",
+      "destinations": [
+        "data/research/barclays5.json"
+      ],
+      "notes": [
+        "Preserved the newer 21 August 2026 ruling above the historical dossier; no duplicate case page.",
+        "No new sentencing outcome inferred from a scheduled date."
+      ]
+    },
+    {
+      "id": "s69-terrorist-connection",
+      "status": "already-covered",
+      "destinations": [
+        "data/research/terrorist-connection.json"
+      ],
+      "notes": [
+        "Existing dossier covers the sentencing mechanism and 3 March 2021 Lords Report-stage jury amendment.",
+        "Did not import automatic claims that every finding lengthens a sentence or has identical release consequences."
+      ]
+    },
+    {
+      "id": "poa1986-reasonable-firmness",
+      "status": "integrated-selectively",
+      "destinations": [
+        "data/profiles/public-order.json"
+      ],
+      "notes": [
+        "Statutory offences and CPS Leeson summary integrated with provenance.",
+        "Full Leeson judgment, additional cases and detailed 1986 legislative history not independently verified; omitted.",
+        "Counterfactual wording proposals not presented as current law."
+      ]
+    },
+    {
+      "id": "protest-law-framework",
+      "status": "integrated-selectively",
+      "destinations": [
+        "data/profiles/public-order.json"
+      ],
+      "notes": [
+        "Combined with the reasonable-firmness study, avoiding duplicate pages.",
+        "Current statutory annotations support 29 June 2026 amendments, with distinct commencement routes.",
+        "Did not import stale arrest totals or treat arrests as convictions."
+      ]
+    },
+    {
+      "id": "hansard-omission",
+      "status": "integrated-and-updated",
+      "destinations": [
+        "data/profiles/hansard-record.json"
+      ],
+      "notes": [
+        "Initial FOI response and review request dated 4 September 2025.",
+        "Added 7 January 2026 disclosure and section 34 withholding; no assertion that all records or an audit trail are absent.",
+        "Early text attributed to The National; no independently authenticated rolling-version capture.",
+        "Internal-review attachment and all disclosed attachments not individually audited; no ICO merits finding asserted."
+      ]
+    },
+    {
+      "id": "ansari-schedule7-secret-evidence",
+      "status": "integrated-and-corrected",
+      "destinations": [
+        "data/profiles/hamas-deproscription.json"
+      ],
+      "notes": [
+        "Separate Schedule 7 proceedings, not the deproscription merits.",
+        "OPEN 21 January; CLOSED 27 January 2026.",
+        "Substantial OPEN disclosure acknowledged; no claim of zero disclosure.",
+        "CPR communication restrictions have exceptions; ruling does not determine final legality of stop.",
+        "Unverified employment, regulatory and earlier-judgment detail omitted."
+      ]
+    },
+    {
+      "id": "deproscription-mechanism",
+      "status": "integrated-selectively",
+      "destinations": [
+        "data/profiles/hamas-deproscription.json"
+      ],
+      "notes": [
+        "Affected-person route, section 10 evidential protection and separate sanctions framework added.",
+        "No blanket legal-fee or funding immunity asserted; historical licence numbers not treated as current permissions.",
+        "Detailed Lord Alton sequence not independently verified here; omitted."
+      ]
+    }
+  ]
+}

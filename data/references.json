@@ -2,6 +2,18 @@
   "about": "Public references cited across Independent Tribunal. Each entry links to a primary or official source. `checked` is the date the URL was last confirmed to resolve to the named document.",
   "references": [
     {
+      "id": "pwr-v-dpp-2022",
+      "title": "Pwr v Director of Public Prosecutions [2022] UKSC 2",
+      "publisher": "The National Archives · Find Case Law",
+      "date": "2022-01-26",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2022/2",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": ["proscription", "speech"],
+      "summary": "Section 13(1): strict liability subject to deliberate display and the statutory circumstances; see paragraphs 57–58.",
+      "checked": "2026-10-19"
+    },
+    {
       "id": "ukpga-1986-64",
       "title": "Public Order Act 1986",
       "publisher": "legislation.gov.uk",
