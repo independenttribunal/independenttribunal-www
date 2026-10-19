@@ -1,0 +1,209 @@
+{
+  "id": "frameworks-of-truth",
+  "category": "legal-study",
+  "title": "Frameworks of truth and honesty penalized as dishonesty",
+  "subtitle": "She reported herself two hours later. Her frankness was commended. The outcome was disbarment.",
+  "summary": "What does the system reward? A disciplinary case, an argument about incentives, and a proposal to distinguish what is asserted, signed, supported, checked and found.",
+  "scope": "England and Wales · Case 2024/1532/D5. The headline is our editorial argument, not the tribunal’s finding: the misconduct was knowingly misleading the court, not the later confession. Findings, commentary, satire and proposed reforms are identified separately.",
+  "status_note": "The report records an order for disbarment on 8 April 2026; the regulator’s announcement described the findings as subject to appeal. We have not independently established a later appeal outcome or the order’s implementation. The family’s identities are not investigated here.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-10-19",
+  "tags": ["uk", "professional-conduct", "honesty", "evidence", "accountability", "reform"],
+  "featured_source": "tribunal",
+  "related": [
+    {"id": "defences-withdrawn-from-jury", "title": "Defences removed by the judge, not considered by the jury"},
+    {"id": "anonymity-orders", "title": "Anonymity orders"}
+  ],
+  "highlights": [
+    {"label": "The record", "value": "Frankness commended", "detail": "Prompt self-reporting and a disbarment order appear in the same reasons.", "target": "case"},
+    {"label": "The incentive question", "value": "What difference did it make?", "detail": "Mitigation already recognises self-reporting. Its effect needs explanation.", "target": "incentives"},
+    {"label": "Our proposal", "value": "Show the basis of the claim", "detail": "Five overlapping labels—not five grades of truth.", "target": "framework"}
+  ],
+  "artworks": [
+    {
+      "src": "/images/emma-never-admit.png", "width": 1122, "height": 1402, "after_section": "case",
+      "alt": "Editorial poster contrasting a tribunal’s praise for frankness with disbarment, headed Never pollute your barrister with the truth.",
+      "caption": "User-supplied editorial artwork, reproduced unchanged. Its question about receiving no credit is a provocation, not an established finding: the reasons acknowledge her candour, and self-reporting is already recognised in the sanctions guidance. The sanction concerned the earlier misleading conduct. Open the image for full size.",
+      "transcript": "NEVER POLLUTE YOUR BARRISTER WITH THE TRUTH.\nTHIS CASE IS REAL. Inspired by case 2024/1532/D5. A barrister let a court be misled, on an application she did not draft. Self-reported two hours after the hearing. Admitted everything.\nFRANKNESS: COMMENDED. OUTCOME: DISBARRED.\nIF CONFESSING EARNS NO CREDIT, WHAT DOES THE SYSTEM REWARD?\nIndependentTribunal.org — Building the justice system from first principles."
+    },
+    {
+      "src": "/images/emma-two-layers-of-lawyers.png", "width": 1122, "height": 1402, "after_section": "two-layers",
+      "alt": "Satirical two-layer legal team: a reviewing professional filters documents before an unpolluted barrister receives them. A colourful military flamingo questions the incentive to remain uninformed.",
+      "caption": "User-supplied satire, reproduced unchanged—not advice to conceal information or a finding that this two-layer arrangement occurred in the case. Professional duties do not disappear because information passes through another lawyer.",
+      "transcript": "TWO LAYERS OF LAWYERS.\nLayer 1: The reviewing legal professional. Reviews what reaches the barrister.\nLayer 2: The ‘unpolluted’ barrister. Advises on the information supplied.\nThis may seem like satire, but IF a barrister who knows the truth risks her career, the system creates an incentive to keep the barrister uninformed. Why should telling the truth become a strategic disadvantage? It does not make sense.\nIn a world that penalizes honesty as dishonesty, to be dishonest is an honest strategy.\nThe illustrated character is labelled Professor General Admiral F. L. Amingo, Battalion of Militarized Satire.\nBuilding the legal system from first principles: IndependentTribunal.org."
+    },
+    {
+      "src": "/images/misleading-professional-rules.jpg", "width": 1024, "height": 1280, "after_section": "duties",
+      "alt": "Simplified England and Wales comparison of misleading duties for barristers, CILEx-regulated professionals and unregulated McKenzie friends, with separate perjury, public-justice and contempt rules.",
+      "caption": "User-supplied explanatory graphic, reproduced unchanged. These are different legal tests, not a single universal definition of dishonesty or recklessness. The text and sources distinguish professional regulation from criminal and contempt liability. The McKenzie-friend row concerns someone granted permission to speak, not an automatic entitlement.",
+      "transcript": "MISLEADING: WHO IS BOUND BY WHAT? England & Wales — simplified comparison.\n1. Mental state. Intention: aim to mislead. Knowledge: know that you are misleading. Recklessness: indifferent to whether it is true. ‘Knowingly OR recklessly’ covers more than deliberate deception alone. OR = either is enough. These concepts overlap; exact legal tests depend on the rule. ‘Anyone’ is broader than ‘the court’ — that describes WHO, not intention.\n2. Professional rules. Barrister — BSB: court, knowingly or recklessly, rC3.1; anyone, knowingly or recklessly, rC9.1. CILEx-regulated professional: court, knowingly or recklessly, 1.2; anyone dealt with, intentionally, 3.2. Unregulated McKenzie friend: granted rights of audience by a judge; no BSB/CILEx disciplinary code merely from that permission; judge can withdraw permission to speak. Lawyers also have wider honesty and competence duties.\n3. Other legal layers. Can apply to lawyers, clients and McKenzie friends when relevant conditions are met. Perjury: sworn witness or interpreter wilfully gives materially false evidence, knowing it is false or not believing it true. Advocacy alone is not sworn evidence. Perverting the course of justice: acts tending AND intended to pervert public justice. Success is not required. Contempt of court: several distinct tests; examples include breaching orders, disrupting justice, false statements verified by a statement of truth without honest belief.\nDifferent enforcement routes. No professional regulator ≠ immunity. Sources: BSB rC3/rC9; CILEx 1.2/3.2; Judiciary McKenzie Friend guidance; CPS; CPR 32.14. Simplified reference — not a determination of liability."
+    },
+    {
+      "src": "/images/emma-frameworks-of-truth.png", "width": 1122, "height": 1402, "after_section": "framework",
+      "alt": "Proposed frameworks of truth: asserted, signed, supported, checked and found. Each label identifies the basis of a disputed claim rather than certifying its credibility.",
+      "caption": "User-supplied reform proposal, reproduced unchanged. These five labels are not an existing compulsory legal classification. The signed label needs the qualification in the text: a representative may sign for a client, and contempt liability depends on the applicable conditions—not merely an inaccurate statement.",
+      "transcript": "PROPOSED IMPROVEMENT — FRAMEWORKS OF TRUTH.\nThe problem. Genuine belief in truth does not make a statement true. A barrister presenting a client’s case does not certify that every fact was checked. Barristers must not knowingly or recklessly mislead the court. Within those duties, repeating a client’s account can be acceptable.\nCalibrated language: state the basis of disputed factual claims.\nASSERTED: ‘The client says…’ No verification claimed.\nSIGNED: ‘The witness states under a statement of truth…’ Belief formally declared. The signer answers for lies.\nSUPPORTED: ‘The cited evidence supports…’ Documents or other witnesses identified.\nCHECKED: ‘The reviewer checked…’ Checker, method, finding and limits identified.\nFOUND: ‘The court found…’ Decision and scope cited; provisional findings identified.\nLabels may overlap. They record basis, not credibility.\nThe consequence. A client makes a claim. A barrister repeats it. An institutional layer of authority is added. Repetition alone adds no verification.\nEvery disputed factual claim: labelled. Every label: signed by the responsible lawyer. Solicitors — Barristers — Supervised paralegal work.\nNew labels. Existing law. Retain statements of truth, professional duties, privilege and court standards of proof.\nIndependentTribunal.org."
+    }
+  ],
+  "sections": [
+    {
+      "id": "case", "title": "Frankness commended. Outcome: disbarment.",
+      "intro": "The case in one minute. The distinction between the original act and the later admission matters.",
+      "entries": [
+        {
+          "id": "what-happened", "title": "The court was left with a false picture", "kind": "Published disciplinary findings", "citation": "BTAS case 2024/1532/D5",
+          "paragraphs": [
+            {"text": "A Family Court order required a child to attend a particular nursery. The mother moved the child without permission. She told her barrister she was being harassed by the father at the old nursery; that was her account, not a harassment finding by this disciplinary tribunal. The barrister advised seeking retrospective permission. She had not drafted the written application, which implied the move had not happened.", "sources": [{"id": "tribunal", "locator": "paras 7–10"}]},
+            {"text": "At the opposed hearing on 19 June 2024, the judge and unrepresented father proceeded on that mistaken understanding. The barrister knew the child had moved and did not correct it. Two hours after the adjournment, she reported herself to the Bar Standards Board. She later admitted all three charges and accepted that deliberately allowing the court to be misled was professional dishonesty.", "sources": [{"id": "tribunal", "locator": "paras 11–18"}]},
+            {"text": "We commend her frankness before this tribunal.", "quote": true, "sources": [{"id": "tribunal", "locator": "para 19"}]},
+            {"text": "She represented herself, sought no sanction other than disbarment and had already left practice without wishing to return. The tribunal nevertheless had to decide the appropriate sanction. It prioritised public confidence, accepted that the conduct was out of character and had no serious long-term consequences, but found no exceptional circumstances. It ordered disbarment and £3,210 costs.", "sources": [{"id": "tribunal", "locator": "paras 19–27"}]}
+          ]
+        },
+        {
+          "id": "case-timeline", "title": "The chronology", "kind": "Dates in the published record",
+          "table": {"caption": "From the nursery order to disciplinary reasons", "columns": ["Date", "Event"], "rows": [
+            ["22 December 2023", "Family Court order specifies the nursery until further order."],
+            ["10 May 2024", "Application to change nursery; the barrister was not its drafter."],
+            ["5 June 2024", "Client tells the barrister the child has already moved; retrospective permission is advised."],
+            ["19 June 2024", "Hearing and adjournment; self-report two hours later."],
+            ["18 March 2026", "Convening order for the disciplinary tribunal."],
+            ["8 April 2026", "Five-person tribunal; admissions, disbarment order and costs."],
+            ["10 April 2026", "BSB announcement; findings described as subject to appeal."],
+            ["5 May 2026", "Date on the written reasons—not independently verified as the publication date."]
+          ]},
+          "paragraphs": [
+            {"text": "The reasons do not explain the roughly 22 months between self-report and hearing. The published sequence puts the May application before the June advice; we do not invent an explanation for that sequence or infer who drafted the application. The record does not establish what would have happened without her self-report.", "sources": [{"id": "tribunal", "locator": "paras 1, 7–10, 17; dated signature"}, {"id": "bsb-release", "locator": "10 April 2026 announcement"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incentives", "title": "What does the system reward?",
+      "intro": "Our argument concerns incentives and the explanation of sanction—not an attempt to redefine misleading a court as honest conduct.",
+      "entries": [
+        {
+          "id": "existing-mitigation", "title": "Self-reporting is already a mitigating factor", "kind": "Published sanctions guidance",
+          "paragraphs": [
+            {"text": "BTAS Sanctions Guidance version 6 already lists prompt self-reporting, early admission, remorse and cooperation as mitigation; failure to self-report is aggravating. Its dishonesty section nevertheless normally requires disbarment unless circumstances are exceptional. The nature and extent of the dishonesty and culpability carry particular weight. General mitigation is not an automatic exception.", "sources": [{"id": "sanctions", "locator": "section 5.1–5.5; Part 2, group A; Annex 2, printed p 76"}]},
+            {"text": "This corrects an important premise in the supplied draft: making self-reporting a named factor would not be new. The stronger question is how it operates at the exceptional-circumstances threshold. The guidance also already requires reasons sufficient to explain sanction. We propose more explicit treatment of prompt disclosure within those reasons, rather than pretending that mitigation or reason-giving does not exist.", "sources": [{"id": "sanctions", "locator": "group A, steps 2–6; Annexes 2–3"}]}
+          ]
+        },
+        {
+          "id": "our-incentive-argument", "title": "Praise and a changed outcome are not the same thing", "kind": "Our analysis — not a tribunal finding",
+          "paragraphs": [
+            {"text": "The uncomfortable question survives the correction. If a professional believes disclosure guarantees discovery but cannot affect the sanction, a reporting system may discourage candour. That is an incentive hypothesis, not proof that silence would have succeeded here, that every self-reporter receives the same sanction, or that concealment is a lawful strategy. A rule can recognise mitigation yet leave readers unable to see its practical effect.", "sources": [{"id": "tribunal", "locator": "paras 17–23: factual basis for our analysis"}, {"id": "sanctions", "locator": "dishonesty and mitigation: framework being criticised"}]},
+            {"text": "The reasons acknowledge the report and commend frankness. They do not separately explain what weight the two-hour report carried in the exceptional-circumstances assessment. That is narrower than saying it received no weight. We question the clarity and incentives of the outcome; we do not claim the tribunal punished her for confessing.", "sources": [{"id": "tribunal", "locator": "paras 17–24"}]}
+          ]
+        },
+        {
+          "id": "counterargument", "title": "The strongest case against our argument", "kind": "Our analysis of the counterargument",
+          "paragraphs": [
+            {"text": "Public confidence requires advocates not to mislead judges. Confession cannot become insurance for deliberate misconduct, and the absence of lasting harm does not erase the breach. This respondent did not ask for a lesser sanction, so the case does not resolve every possible self-reporting argument. Even so, her preference did not relieve the tribunal of deciding sanction for itself. The tension is between protecting trust and making prompt correction worth doing—not between accountability and impunity.", "sources": [{"id": "tribunal", "locator": "paras 19–23"}, {"id": "bsb-release", "locator": "regulator’s explanation of seriousness"}]}
+          ]
+        },
+        {
+          "id": "candour-proposal", "title": "Our proposal: make the reasoning visible", "kind": "Reform proposal — not an existing mandatory checklist",
+          "paragraphs": [
+            {"text": "For a prompt self-report, identify its timing, voluntariness, corrective steps and what was known about possible discovery. Explain whether it affected culpability, future risk or the exceptional-circumstances assessment, and why the final sanction remains necessary. Do not assume this report preceded any risk of discovery merely because it was quick. Keep disbarment available; require a visible explanation, not a guaranteed discount.", "sources": [{"id": "sanctions", "locator": "Annexes 2–3: existing foundation for our proposed checklist"}, {"id": "tribunal", "locator": "paras 17–24: the question prompting the proposal"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-layers", "title": "Two layers of lawyers",
+      "intro": "Satire aimed at an incentive: what if knowing less appears safer than knowing more?",
+      "entries": [
+        {
+          "id": "satire-not-a-loophole", "title": "An “unpolluted” barrister is the joke—not the solution", "kind": "Editorial satire and professional-rule context",
+          "paragraphs": [
+            {"text": "The artwork imagines a reviewer filtering what reaches the advocate. It is not a description of an arrangement found in this case. Our criticism is of a system that might make strategic ignorance appear attractive. It is not an instruction to create that ignorance: arranging a misleading presentation through intermediaries does not erase responsibility.", "sources": [{"id": "tribunal", "locator": "paras 7–18: what the actual case records"}, {"id": "handbook", "locator": "gC4; rC9: duties relevant to the satire"}]},
+            {"text": "The BSB distinguishes presenting an instructed case from personally believing it. That is not permission to knowingly or recklessly mislead. Confidentiality remains important: gC11 says to seek permission where disclosure is needed to avoid misleading; if refused, cease acting without revealing the confidential information. Knowing a client’s account does not automatically require announcing it to the court.", "sources": [{"id": "handbook", "locator": "rC5–rC6; gC6–gC11"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duties", "title": "Misleading: who is bound by what?",
+      "intro": "Who is protected, what mental state is required, and how a breach is enforced are separate questions.",
+      "entries": [
+        {
+          "id": "different-professional-rules", "title": "Different wording is not immunity", "kind": "Professional rules and official guidance",
+          "table": {"caption": "Simplified comparison—read with each rule’s scope", "columns": ["Role", "Court", "Beyond the court"], "rows": [
+            ["Barrister", "rC3.1: knowingly or recklessly misleading or attempting to mislead, when acting as an advocate.", "rC9.1: knowingly or recklessly misleading or attempting to mislead anyone."],
+            ["CILEx-regulated professional", "1.2: knowingly or recklessly allowing the court to be misled.", "3.2: intentionally misleading anyone dealt with; wider honesty duties also apply."],
+            ["Unregulated McKenzie friend", "Assistance does not automatically include speaking for a litigant; a court may grant and withdraw that permission.", "Court permission alone does not confer professional-regulator membership. Other applicable law remains relevant."]
+          ]},
+          "paragraphs": [
+            {"text": "The BSB’s gC4 explains recklessness as indifference to truth; knowingly misleading also includes complicity and failure to correct a misleading position later recognised. This is a rule-specific explanation, not a universal definition for every offence. The difference between anyone and the court concerns the recipient, not the speaker’s mental state.", "sources": [{"id": "handbook", "locator": "rC3.1, rC9.1, gC4"}]},
+            {"text": "CILEx’s Code uses different language in provisions 1.2 and 3.2, alongside broader honesty, competence and supervision duties. The contrast does not establish permission to mislead recklessly outside court.", "sources": [{"id": "cilex", "locator": "1.2; 3.1–3.2; 5.1–5.3; 8.2–8.4"}]},
+            {"text": "A McKenzie friend ordinarily assists a litigant rather than representing them. The judiciary’s civil-and-family guidance distinguishes assistance from rights of audience and conducting litigation, and permits withdrawal of granted rights. Being unregulated does not place a person beyond criminal law or contempt powers where their requirements are met.", "sources": [{"id": "mckenzie", "locator": "paras 2–3, 18–26"}, {"id": "public-justice", "locator": "perjury and perverting the course of justice"}, {"id": "cpr32", "locator": "32.14"}]}
+          ]
+        },
+        {
+          "id": "other-legal-layers", "title": "Misconduct, perjury and contempt are not interchangeable", "kind": "Official legal guidance and procedural rule",
+          "paragraphs": [
+            {"text": "Perjury under section 1 concerns a lawfully sworn witness or interpreter wilfully making a materially false statement, knowing it false or not believing it true. Advocacy alone is not sworn evidence. Perverting the course of justice requires acts tending and intended to pervert public justice; success is unnecessary. A professional breach does not automatically establish either offence.", "sources": [{"id": "public-justice", "locator": "Perverting the Course of Justice; Perjury"}]},
+            {"text": "CPR 32.14 allows contempt proceedings for making or causing a false statement in a document prepared in anticipation of or during proceedings and verified by a statement of truth, without honest belief in its truth. It does not make every mistake contempt. These are civil-procedure rules; the case above arose in the Family Court, which has its own procedural rules.", "sources": [{"id": "cpr32", "locator": "32.14"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "framework", "title": "Frameworks of truth: state the basis",
+      "intro": "A client makes a claim. A lawyer repeats it. Authority is added; repetition alone adds no verification. Our proposal makes that distinction visible.",
+      "entries": [
+        {
+          "id": "five-labels", "title": "Asserted · signed · supported · checked · found", "kind": "Our proposal — not an existing legal classification",
+          "table": {"caption": "Five overlapping labels for disputed factual claims", "columns": ["Label", "Calibrated wording", "What must be identified"], "rows": [
+            ["Asserted", "The client says…", "The source of the account; no independent verification claimed."],
+            ["Signed", "The witness states under a statement of truth…", "Whose belief is declared, who signed, in what capacity, and when."],
+            ["Supported", "The cited evidence supports…", "The document or witness and the inference being drawn, including conflicting evidence."],
+            ["Checked", "The reviewer checked…", "Reviewer, method, scope, result and limits—not a blanket guarantee."],
+            ["Found", "The court found…", "Decision, passage, standard and scope; interim status and appeal outcome where known."]
+          ]},
+          "paragraphs": [
+            {"text": "These are provenance labels, not credibility scores. An assertion can be true; a signed statement can be mistaken; a check can be incomplete; a finding can later be overturned. Several labels may apply at once. The framework is our proposed improvement, developed in the supplied artwork, not a new burden of proof or a declaration that current practice already requires these labels.", "sources": [{"id": "pd22", "locator": "existing statement-of-truth framework, contrasted with our proposal"}]},
+            {"text": "The proposed responsibility is to sign for the accuracy of the label and its stated basis—not certify every client allegation as independently proven. A practical record could link the claim, source, status, reviewer, method, date, limitations and correction history. Privilege, confidentiality, admissibility and the court’s standards of proof remain intact.", "sources": [{"id": "pd22", "locator": "3.6–3.7: existing signing responsibilities"}, {"id": "handbook", "locator": "rC5 and gC8–gC11: confidentiality limits"}]}
+          ]
+        },
+        {
+          "id": "belief-versus-verification", "title": "A statement of truth is not a certificate of investigation", "kind": "Civil procedural rules and our analysis",
+          "paragraphs": [
+            {"text": "Practice Direction 22 distinguishes the client’s belief from the legal representative’s own belief where the representative signs on the client’s behalf. The signature signifies authority and explanations to the client about belief and consequences. It is not a claim that the lawyer independently verified every fact. The image’s shorthand about the signer answering for lies must be read with those distinctions and the actual conditions for contempt.", "sources": [{"id": "pd22", "locator": "paras 2.2, 3.6–3.9"}, {"id": "cpr32", "locator": "32.14"}]},
+            {"text": "The ambition is simple: make it harder for an unverified account to acquire the appearance of verification merely by passing through professional hands. More precise language should reveal what is known, who knows it, and what remains disputed. It should not manufacture certainty.", "sources": [{"id": "pd22", "locator": "context for our reform analysis—not endorsement of the proposed labels"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process", "title": "Who decides—and what remains unknown?",
+      "intro": "A disciplinary finding, its implementation and any later appeal are distinct stages.",
+      "entries": [
+        {
+          "id": "disciplinary-process", "title": "Regulator, tribunal and Inn", "kind": "Official process and limits of this review",
+          "paragraphs": [
+            {"text": "The BSB brought the charges; the independent disciplinary tribunal determined them and sanction. BTAS distinguishes three- and five-person tribunals, with disbarment within the latter’s powers. This report asks Lincoln’s Inn’s Treasurer to act under the disciplinary regulations and bars issue of a practising certificate pending any appeal. We report the order, not an independently verified later administrative or appeal history.", "sources": [{"id": "process-source", "locator": "Tribunal composition and sanction powers"}, {"id": "tribunal", "locator": "paras 24–26"}, {"id": "bsb-release", "locator": "appeal qualification"}]}
+          ]
+        },
+        {
+          "id": "editorial-method", "title": "What we changed from the supplied draft", "kind": "Research method",
+          "paragraphs": [
+            {"text": "We retained the central case, timeline, incentive critique and exact requested title, and reproduced all four supplied images unchanged. We corrected no weight to no separately explained weight; replaced the proposal to invent a self-reporting factor with a proposal to explain its operation; and distinguished the reasons’ date from their publication date. No inference is made about the family beyond the published record. The aviation analogy is omitted: this case concerns admitted deliberate misleading, not an honest operational error. The artwork is preserved as commentary, not treated as an additional witness or independent corroboration.", "sources": []}
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {"id": "tribunal", "title": "Report of Finding and Sanction: case 2024/1532/D5", "url": "https://www.tbtas.org.uk/wp-content/uploads/hearings/137614/SMITH-Report-of-Findings-and-Sanction-FINAL.pdf", "publisher": "Bar Tribunals & Adjudication Service", "type": "Primary disciplinary decision", "date": "2026-05-05", "checked": "2026-10-19"},
+    {"id": "bsb-release", "title": "Barrister Emma Elizabeth Smith ordered to be disbarred", "url": "https://www.barstandardsboard.org.uk/resources/barrister-emma-elizabeth-smith-ordered-to-be-disbarred.html", "publisher": "Bar Standards Board", "type": "Regulator announcement", "date": "2026-04-10", "checked": "2026-10-19"},
+    {"id": "sanctions", "title": "BTAS Sanctions Guidance, version 6", "url": "https://www.tbtas.org.uk/policies-guidance-and-publications/guidance/btas-sanctions-guidance-consultation-2021/btas-sanctions-guidance-jan-2022-version-6-final/", "publisher": "Bar Tribunals & Adjudication Service", "type": "Official sanctions guidance", "checked": "2026-10-19"},
+    {"id": "handbook", "title": "BSB Handbook: duties to the court, honesty and confidentiality", "url": "https://www.barstandardsboard.org.uk/the-bsb-handbook.html?audience=&part=&q=overriding+duty", "publisher": "Bar Standards Board", "type": "Professional rules and guidance", "checked": "2026-10-19"},
+    {"id": "cilex", "title": "CILEx Code of Conduct", "url": "https://cilexregulation.org.uk/wp-content/uploads/2021/02/Code-of-Conduct-2015.pdf", "publisher": "CILEx Regulation", "type": "Professional code", "checked": "2026-10-19"},
+    {"id": "mckenzie", "title": "Practice Guidance: McKenzie Friends (Civil and Family Courts)", "url": "https://www.judiciary.uk/guidance-and-resources/practice-guidance-mckenzie-friends-civil-and-family-courts/", "publisher": "Courts and Tribunals Judiciary", "type": "Practice guidance", "checked": "2026-10-19"},
+    {"id": "public-justice", "title": "Public Justice Offences", "url": "https://www.cps.gov.uk/prosecution-guidance/public-justice-offences", "publisher": "Crown Prosecution Service", "type": "Official prosecution guidance", "checked": "2026-10-19"},
+    {"id": "cpr32", "title": "Civil Procedure Rules: rule 32.14, false statements", "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part32#32.14", "publisher": "Ministry of Justice", "type": "Procedural rule", "checked": "2026-10-19"},
+    {"id": "pd22", "title": "Practice Direction 22: statements of truth", "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part22/pd_part22", "publisher": "Ministry of Justice", "type": "Practice direction", "checked": "2026-10-19"},
+    {"id": "process-source", "title": "Hearings under the Disciplinary Tribunal Regulations", "url": "https://www.tbtas.org.uk/hearings/how-the-hearings-process-works/disciplinary-tribunal/", "publisher": "Bar Tribunals & Adjudication Service", "type": "Official process explanation", "checked": "2026-10-19"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "page": "frameworks-of-truth",
+  "reviewed": "2026-10-19",
+  "input": {
+    "html": "frankness-commended-disbarred.html",
+    "html_sha256": "8b232e6e6ec5afea1d7adc172eb713f977cf9ae9ac4f9807750b770b9e4f384e",
+    "images": [
+      {"src": "/images/emma-never-admit.png", "sha256": "72d33f1491e2441a54a74e576aba9af14573e7054be365e98ca7b435bf08f9f9"},
+      {"src": "/images/emma-two-layers-of-lawyers.png", "sha256": "23f3d1b5040b3b02bfcd8f6449c388b96c4a80a8222746af189b90096d15b90f"},
+      {"src": "/images/emma-frameworks-of-truth.png", "sha256": "ccb3265431943dcfc857ffcffa7e0a941abae2f7a15166139b179bc6642b5081"},
+      {"src": "/images/misleading-professional-rules.jpg", "sha256": "32537ed6a2b76a78cb9194b3a59b6bdb7ddd185a2e56e7fac15a3ee9f7a29aee"}
+    ]
+  },
+  "checks": [
+    "Read the complete six-page BTAS decision; downloaded the official PDF and visually checked page 5, including paragraphs 17–23.",
+    "Checked BSB announcement, current handbook, BTAS sanctions guidance, CILEx code, Judiciary McKenzie-friend guidance, CPS public-justice guidance and CPR/PD22.",
+    "The report charges conduct under Handbook version 4.8. The general explanatory comparison uses the current online handbook, not an assertion that every current provision was charged.",
+    "All four images copied byte-for-byte. Captions qualify satire, simplify-rule limits and the proposed labels. Text equivalents supplied."
+  ],
+  "corrections": [
+    "Self-reporting is already listed as mitigation: Annex 2, printed p 76 of BTAS Sanctions Guidance version 6. Dishonesty section 5 and Part 2 group A limit the ordinary outcome to disbarment absent exceptional circumstances.",
+    "No separately explained weight is supported by the published reasons; no weight is not an established finding.",
+    "5 May 2026 is the date of the report, not independently confirmed publication date.",
+    "Disbarment order is distinguished from implementation and appeal outcome. No later appeal status established.",
+    "Two-layer lawyers illustration is satire, not an actual arrangement found in the case or a lawful concealment strategy.",
+    "Statement-of-truth signatory responsibilities are not a universal guarantee that the signer independently verified all facts.",
+    "Aviation analogy omitted rather than implying admitted deliberate misleading is equivalent to protected honest error."
+  ]
+}
