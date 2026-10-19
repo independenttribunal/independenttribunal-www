@@ -1,0 +1,31 @@
+{
+  "checked": "2026-10-19",
+  "page": "/research/anarchist-cookbook-section-58/",
+  "input": {
+    "description": "User-supplied case summary and AI-generated statutory analysis; leads, not authority.",
+    "attachment_sha256": "44ba0fba6b0bcb0097ea07f7b88ed0375fb48cf07655c37c779eaedbfffba06f"
+  },
+  "corrections": [
+    "Section 58 reasonable-excuse examples are in 58(3A)(a) and (b)(i)-(ii), not 3B/3C.",
+    "Section 118 imposes an evidential burden; the prosecution must disprove the defence beyond reasonable doubt once sufficiently raised.",
+    "No automatic title-based liability or claim that the offence is strict liability.",
+    "Bel: corrected citation to [2021] EWCA Crim 1461; physical book and December 2018 Amazon purchase recorded in judgment, not an electronic-copy assumption.",
+    "John: corrected citation to [2022] EWCA Crim 54; six acquittals retained; appellate reasoning includes unlawful sentence structure.",
+    "Howarth: original 54-month custodial term reduced to 45 months on 24 November 2022; additional one-year licence retained.",
+    "Walker and Creagh: acquittals do not reveal jurors' reasoning or establish universal exemptions.",
+    "Cristea: distinguish possession conviction from police account of suspected attack planning in the wider group.",
+    "Smith: use 2017 as recorded in the Independent Reviewer's note rather than supplied 2016 date.",
+    "Amazon availability is supported as a dated claim, not certified current stock or edition identity."
+  ],
+  "not_adopted": [
+    "Operational excerpts and reliability claims about the manual",
+    "Outcome prediction matrix, including mental illness as an automatic route to conviction",
+    "Additional Brown, McGee and Scott case narratives pending separate verification",
+    "Unverified Home Office ranking claim"
+  ],
+  "source_access_notes": [
+    "National Archives Howarth and John judgments and revised sections 58/118 retrieved from official XML endpoints because web reader could not open HTML.",
+    "Bel judgment read as a court transcript hosted by Crimeline; National Archives endpoint was unavailable.",
+    "Existing source pages are linked, not mirrored manuals."
+  ]
+}

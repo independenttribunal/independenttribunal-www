@@ -57,7 +57,7 @@ jobs:
             test -s "dist/client/research/$page/index.html"
             test -s "dist/client/data/profiles/$page.json"
           done
-          for study in super-injunctions anonymity-orders jigsaw-identification public-order hansard-record; do
+          for study in super-injunctions anonymity-orders jigsaw-identification public-order hansard-record anarchist-cookbook-section-58; do
             test -s "dist/client/research/$study/index.html"
             test -s "dist/client/data/profiles/$study.json"
           done
@@ -67,7 +67,7 @@ jobs:
           for dossier in barclays5 filton6 terrorist-connection proscription-litigation hunger-strikes prairieland; do
             test -s "dist/client/research/$dossier/index.html"
           done
-          node --test tests/data.test.mjs tests/research.test.mjs tests/profiles.test.mjs tests/commentary.test.mjs tests/forensics.test.mjs tests/site-shell.test.mjs tests/research-integration.test.mjs
+          node --test tests/data.test.mjs tests/research.test.mjs tests/profiles.test.mjs tests/commentary.test.mjs tests/forensics.test.mjs tests/site-shell.test.mjs tests/research-integration.test.mjs tests/section58.test.mjs
           mkdir -p dist/client/about
           cp dist/client/about.html dist/client/about/index.html
           cp CNAME dist/client/CNAME

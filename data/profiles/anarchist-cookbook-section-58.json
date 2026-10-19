@@ -1,0 +1,515 @@
+{
+  "id": "anarchist-cookbook-section-58",
+  "category": "legal-study",
+  "title": "The Anarchist Cookbook and section 58 of the Terrorism Act 2000",
+  "subtitle": "How bizarre that a book reported as widely available on Amazon can also feature in terrorism prosecutions.",
+  "summary": "Commercial availability and criminal liability are different questions. The court record documents an Amazon purchase; the law turns on the material, knowledge and reasonable excuse—not a title alone.",
+  "scope": "Education, awareness and legal research. This page examines legislation and reported proceedings; it does not reproduce the manual, provide instructions from it or link to copies for sale or download.",
+  "status_note": "Selected cases, not an exhaustive register. Outcomes are dated; they do not establish anyone’s current custody or licence status. Police accounts, reporting, judicial findings and our analysis are distinguished.",
+  "jurisdiction": "United Kingdom · cases principally in England and Wales",
+  "checked": "2026-10-19",
+  "tags": [
+    "uk",
+    "terrorism",
+    "section-58",
+    "criminal-law",
+    "research",
+    "freedom-of-expression"
+  ],
+  "related": [
+    {
+      "id": "public-order",
+      "title": "Public order and protest"
+    }
+  ],
+  "research_links": [
+    {
+      "id": "terrorist-connection",
+      "title": "The terrorist-connection sentencing add-on"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Commercial availability",
+      "value": "Not legal clearance",
+      "detail": "An Amazon purchase is recorded in Bel’s judgment.",
+      "target": "availability"
+    },
+    {
+      "label": "Reasonable excuse",
+      "value": "Evidence, not a label",
+      "detail": "Section 118 keeps the ultimate burden with the prosecution once the issue is raised.",
+      "target": "reasonable-excuse"
+    },
+    {
+      "label": "Reported outcomes",
+      "value": "Convictions and acquittals",
+      "detail": "A verdict is not a universal ruling on every reader or edition.",
+      "target": "acquittals"
+    }
+  ],
+  "sections": [
+    {
+      "id": "availability",
+      "title": "Available to buy. Prosecuted to possess.",
+      "intro": "The paradox is documented. A current claim about Amazon stock would require a separate check.",
+      "entries": [
+        {
+          "id": "amazon-record",
+          "title": "What the sources actually establish",
+          "kind": "Court record and contemporaneous reporting",
+          "paragraphs": [
+            {
+              "text": "In R v Bel, the Court of Appeal records that Oliver Bel ordered the book from Amazon in December 2018. Sky’s October 2017 report of Joshua Walker’s acquittal quotes his barrister pointing to availability through Amazon and mainstream retailers. These are dated records—not confirmation of current stock, every edition, or the legality of a particular purchase.",
+              "sources": [
+                {
+                  "id": "bel",
+                  "locator": "paras 10–11"
+                },
+                {
+                  "id": "walker"
+                }
+              ]
+            },
+            {
+              "text": "Our question is about intelligibility and consistency: how can an ordinary reader understand the legal risk when a commercial listing may look routine? Availability does not settle the statutory test. Nor does a prosecution over one document establish a blanket title-based ban.",
+              "sources": [
+                {
+                  "id": "section58"
+                },
+                {
+                  "id": "gj",
+                  "locator": "paras 42–50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "different-documents",
+          "title": "Similar names do not prove identical contents",
+          "kind": "Source distinction",
+          "paragraphs": [
+            {
+              "text": "The records identify different documents: Creagh’s was an online publication called Anarchist Cookbook of 2000; Howarth’s judgment identifies Anarchist’s Cookbook 4.14. We do not assume that every digital compilation, printed edition or similarly named text has identical contents.",
+              "sources": [
+                {
+                  "id": "creagh",
+                  "locator": "para 1"
+                },
+                {
+                  "id": "howarth",
+                  "locator": "paras 6–8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-framework",
+      "title": "What section 58 requires",
+      "intro": "Start with the offence and defence, not with assumptions about the reader’s politics.",
+      "entries": [
+        {
+          "id": "statutory-offence",
+          "title": "Collection, possession and internet access",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Section 58(1) covers collecting or recording information likely to be useful in committing or preparing terrorism, possessing a document or record containing it, and viewing or otherwise accessing such a document through the internet. Subsection (1A) expressly includes internet collection and recording. The current maximum on indictment is 15 years’ imprisonment, a fine, or both; that is a ceiling, not a standard sentence.",
+              "sources": [
+                {
+                  "id": "section58",
+                  "locator": "s 58(1), (1A), (4)"
+                }
+              ]
+            },
+            {
+              "text": "The internet-access limb was added in 2019. The maximum rose from 10 to 15 years with effect from 12 April 2019. Historical cases must be read against the legislation and sentencing regime applicable to them.",
+              "sources": [
+                {
+                  "id": "circular",
+                  "locator": "paras 27–34"
+                },
+                {
+                  "id": "howarth",
+                  "locator": "paras 14–17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "practical-assistance",
+          "title": "Practical assistance and knowledge—not automatic liability",
+          "kind": "Appellate interpretation",
+          "paragraphs": [
+            {
+              "text": "R v G; R v J [2009] UKHL 13 distinguishes inherently practically useful terrorist information from everyday material that could incidentally be misused. For possession, the prosecution must prove control of the record, knowledge of possession, and awareness of the kind of information it contains. It need not prove the defendant had a terrorist purpose.",
+              "sources": [
+                {
+                  "id": "gj",
+                  "locator": "paras 42–50, 73"
+                }
+              ]
+            },
+            {
+              "text": "The Independent Reviewer’s Creagh note expressly rejects describing section 58 as strict liability. Owning a title is not an automatic conviction.",
+              "sources": [
+                {
+                  "id": "creagh",
+                  "locator": "para 18(vi)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reasonable-excuse",
+          "title": "Reasonable excuse and the burden of proof",
+          "kind": "Legislation and appellate interpretation",
+          "paragraphs": [
+            {
+              "text": "Section 58(3A)(a) includes lack of knowledge and lack of reason to believe that the material contained, or was likely to contain, the relevant information. Section 58(3A)(b)(i)–(ii) includes journalism and academic research. These examples are non-exhaustive; they are not separate subsections (3B) and (3C).",
+              "sources": [
+                {
+                  "id": "section58",
+                  "locator": "s 58(3)–(3A)"
+                }
+              ]
+            },
+            {
+              "text": "Read the word “prove” in section 58(3) alongside section 118(2) and (5). Once the defendant adduces sufficient evidence to raise the issue, the court or jury must treat the defence as satisfied unless the prosecution disproves it beyond reasonable doubt. This is an evidential burden, not an obligation on the defendant to prove innocence.",
+              "sources": [
+                {
+                  "id": "section118",
+                  "locator": "s 118(1)–(2), (5)(a)"
+                }
+              ]
+            },
+            {
+              "text": "G and J requires an objectively reasonable excuse. Merely asserting a non-terrorist purpose does not suffice. Curiosity cannot be decided in the abstract: the particular facts matter. There is no universal hobbyist exemption or automatic rejection of genuine research.",
+              "sources": [
+                {
+                  "id": "gj",
+                  "locator": "paras 75–83"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section57",
+          "title": "Section 57 asks a different question",
+          "kind": "Legal distinction",
+          "paragraphs": [
+            {
+              "text": "Section 57 concerns articles possessed in circumstances creating reasonable suspicion of a purpose connected with terrorism, with a defence that possession was not for that purpose. Section 58 focuses on the information’s nature, subject to reasonable excuse. The offences should not be collapsed into one test.",
+              "sources": [
+                {
+                  "id": "gj",
+                  "locator": "paras 51–74"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "convictions",
+      "title": "Convictions and sentencing appeals",
+      "intro": "A section 58 conviction must not be silently upgraded into a finding that the person planned an attack.",
+      "entries": [
+        {
+          "id": "cristea",
+          "title": "Claudiu Stefan Cristea — 5 years 6 months",
+          "kind": "Police account of conviction and sentence",
+          "date": "2025-06-24",
+          "paragraphs": [
+            {
+              "text": "Counter Terrorism Policing reported on 24 June 2025 that a Leicester Crown Court jury convicted Cristea after a week-long trial and that he received five and a half years. A physical copy was found on a bookshelf following his February 2024 arrest.",
+              "sources": [
+                {
+                  "id": "cristea"
+                }
+              ]
+            },
+            {
+              "text": "Police describe an investigation into the far-right Einsatz14 chat group and suspected attack planning by individuals in it. They say Cristea shared racist and antisemitic views and disputed his claimed academic interest. The reported conviction is for section 58 possession, not a conviction for the suspected Leeds plot. A trial judgment has not been reviewed here.",
+              "sources": [
+                {
+                  "id": "cristea"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "howarth-case",
+          "title": "Conrad Howarth — custodial term reduced on appeal",
+          "kind": "Published judgment",
+          "date": "2022-11-24",
+          "citation": "R v Howarth [2022] EWCA Crim 1836",
+          "paragraphs": [
+            {
+              "text": "Howarth pleaded guilty on 31 December 2021. On 15 February 2022 he received a special custodial sentence comprising 54 months in custody and a further 12 months on licence. On 24 November 2022 the Court of Appeal reduced the custodial term to 45 months, retaining the additional one-year licence period.",
+              "sources": [
+                {
+                  "id": "howarth",
+                  "locator": "paras 1–2, 26"
+                }
+              ]
+            },
+            {
+              "text": "The court accepted aggravating factors but held that they justified the top of the relevant category range, not a term beyond it before the guilty-plea discount. A summary giving only the original sentence—or four years plus one—misses the appellate outcome.",
+              "sources": [
+                {
+                  "id": "howarth",
+                  "locator": "paras 22–26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "john",
+          "title": "Ben John — suspended sentence replaced",
+          "kind": "Published judgment",
+          "date": "2022-01-19",
+          "citation": "R v John [2022] EWCA Crim 54",
+          "paragraphs": [
+            {
+              "text": "John was convicted on the Cookbook count and acquitted of the six other counts. The judgment records far-right material on his hard drives, but also evidence that the charged items had not been accessed since their transfer in April 2019. Those distinctions matter.",
+              "sources": [
+                {
+                  "id": "john",
+                  "locator": "paras 3–5"
+                }
+              ]
+            },
+            {
+              "text": "On 19 January 2022 the Court of Appeal replaced the suspended sentence with a three-year special custodial sentence: two years in custody plus one year on licence. Its reasoning concerned the unlawfulness of the suspended sentence as structured, not simply a view that reading classic literature was too soft. The two-year custodial term was not, in itself, held unduly lenient in the unusual circumstances.",
+              "sources": [
+                {
+                  "id": "john",
+                  "locator": "paras 45–48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bel-case",
+          "title": "Oliver Bel — two-year sentence upheld",
+          "kind": "Published judgment",
+          "date": "2021-08-27",
+          "citation": "R v Bel [2021] EWCA Crim 1461",
+          "paragraphs": [
+            {
+              "text": "Bel was convicted in April 2021 and sentenced to two years in May. His academic-research or legitimate-intellectual-interest defence was rejected. The judgment describes extremist communications and contacts alongside the book; it does not treat a claimed academic interest as conclusive.",
+              "sources": [
+                {
+                  "id": "bel",
+                  "locator": "paras 1–3, 11–14, 23"
+                }
+              ]
+            },
+            {
+              "text": "On 27 August 2021 the Court of Appeal granted leave but dismissed his sentence appeal. It concluded that immediate custody was inevitable on the facts and did not decide the broader legal question about suspending this type of sentence.",
+              "sources": [
+                {
+                  "id": "bel",
+                  "locator": "paras 48–51"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acquittals",
+      "title": "Acquittals",
+      "intro": "An acquittal is an acquittal. It should not be rewritten as suspicion, or as a reasoned judgment the jury never delivered.",
+      "entries": [
+        {
+          "id": "creagh-case",
+          "title": "Daniel Creagh — acquitted on both counts",
+          "kind": "Independent Reviewer’s case review",
+          "date": "2018-03-16",
+          "paragraphs": [
+            {
+              "text": "Creagh was acquitted at the Central Criminal Court on 16 March 2018 of section 58 possession and possession of counterfeit currency. The trial included disputes about knowing possession, knowledge of the document’s nature and its practical utility. Max Hill’s review neither challenged the verdicts nor purported to reveal the jury’s reasoning.",
+              "sources": [
+                {
+                  "id": "creagh",
+                  "locator": "paras 1, 5, 8–10, 17–20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "walker-case",
+          "title": "Joshua Walker — acquitted",
+          "kind": "Contemporaneous court reporting",
+          "date": "2017-10-26",
+          "paragraphs": [
+            {
+              "text": "Sky reported that a Birmingham Crown Court jury acquitted Walker on 26 October 2017 after less than three hours. Police had found a 111-page printout in his Aberystwyth student accommodation after his return from Syria. He said he had printed it for a university role-playing group in 2015 and forgotten it.",
+              "sources": [
+                {
+                  "id": "walker"
+                }
+              ]
+            },
+            {
+              "text": "That explanation and the verdict are reported facts. They do not establish a binding exemption for role-playing games, nor disclose exactly why the jury acquitted.",
+              "sources": [
+                {
+                  "id": "walker"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "further-records",
+      "title": "Further cases in the official review",
+      "intro": "Short entries retain the limits of the source rather than inventing a fuller trial history.",
+      "entries": [
+        {
+          "id": "other-cases",
+          "title": "Sneddon, Smith and the Ahmed brothers",
+          "kind": "Independent Reviewer’s secondary case summaries",
+          "paragraphs": [
+            {
+              "text": "Max Hill’s 2018 note records Warren Sneddon’s guilty plea; Roger Smith’s 2017 two-year sentence concurrent with explosives-offence sentences; and suspended sentences in 2014 for Mohammed Saeed Ahmed and Mohammed Naeem Ahmed involving several documents. Those trial records have not been separately examined here.",
+              "sources": [
+                {
+                  "id": "creagh",
+                  "locator": "paras 12–15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-the-record",
+      "title": "What these cases do—and do not—show",
+      "intro": "Our analysis: test the boundaries of the law without flattening different records into one story.",
+      "entries": [
+        {
+          "id": "research-limits",
+          "title": "A research record, not a prediction tool",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "A police announcement is not a transcript. A sentencing appeal may describe trial evidence without reconsidering the conviction. An acquittal does not disclose jurors’ reasoning. We do not infer attack planning from a possession conviction, estimate a reader’s chance of acquittal, or offer a checklist for manufacturing a reasonable excuse.",
+              "sources": []
+            },
+            {
+              "text": "The supplied AI-generated drafts were treated as leads, not verified sources. Unchecked additional cases, claims about recipe reliability, and claims ranking section 58 by charge frequency have not been adopted. No current retail stock audit or comprehensive search for later developments in every case has been completed. Corrections and additional primary records are welcome.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "bel",
+      "title": "R v Bel [2021] EWCA Crim 1461",
+      "url": "https://crimeline.co.uk/wp-content/uploads/2021/10/bel2021ewcacrim1461.pdf",
+      "publisher": "Court of Appeal · transcript hosted by Crimeline",
+      "type": "Published judgment",
+      "date": "2021-08-27",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "walker",
+      "title": "Joshua Walker cleared of terrorism offence",
+      "url": "https://news.sky.com/story/anarchist-cookbook-case-student-joshua-walker-cleared-of-terrorism-offence-11099556",
+      "publisher": "Sky News · Bethany Minelle",
+      "type": "Contemporaneous court reporting",
+      "date": "2017-10-26",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "section58",
+      "title": "Terrorism Act 2000, section 58",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/58",
+      "publisher": "legislation.gov.uk",
+      "type": "Revised legislation",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "gj",
+      "title": "R v G; R v J [2009] UKHL 13",
+      "url": "https://publications.parliament.uk/pa/ld200809/ldjudgmt/jd090304/rgrj.pdf",
+      "publisher": "House of Lords · UK Parliament",
+      "type": "Published judgment",
+      "date": "2009-03-04",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "creagh",
+      "title": "R v Daniel Creagh: a note by Max Hill QC",
+      "url": "https://terrorismlegislationreviewer.independent.gov.uk/wp-content/uploads/2018/10/R-v-Daniel-Creagh-MHQC.pdf",
+      "publisher": "Independent Reviewer of Terrorism Legislation",
+      "type": "Discretionary case review · October 2018",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "howarth",
+      "title": "R v Howarth [2022] EWCA Crim 1836",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2022/1836",
+      "publisher": "Court of Appeal · The National Archives",
+      "type": "Published judgment",
+      "date": "2022-11-24",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "circular",
+      "title": "Counter-Terrorism and Border Security Act 2019: Home Office circular",
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/797555/Home_Office_Circular_-_CTBS_Act_2019_-_v1.0.pdf",
+      "publisher": "Home Office",
+      "type": "Explanatory circular",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "section118",
+      "title": "Terrorism Act 2000, section 118",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/118",
+      "publisher": "legislation.gov.uk",
+      "type": "Revised legislation",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "cristea",
+      "title": "Leicester man sentenced for possessing terrorist document",
+      "url": "https://www.counterterrorism.police.uk/news/leicester-man-sentenced-for-possessing-terrorist-document/",
+      "publisher": "Counter Terrorism Policing",
+      "type": "Police statement",
+      "date": "2025-06-24",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "john",
+      "title": "R v John [2022] EWCA Crim 54",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2022/54",
+      "publisher": "Court of Appeal · The National Archives",
+      "type": "Published judgment",
+      "date": "2022-01-19",
+      "checked": "2026-10-19"
+    }
+  ]
+}
