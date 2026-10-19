@@ -2,9 +2,9 @@
 
 import { useMemo, useSyncExternalStore } from "react";
 
-type Tile = { kind: string; id: string; title: string; label: string; summary: string; tags: string[]; href: string };
+type Tile = { kind: string; id: string; title: string; label: string; summary: string; tags: string[]; href: string; external?: boolean; image?: { src: string; alt: string; width: number; height: number } };
 
-const KIND_LABEL: Record<string, string> = { forensics: "Forensic comparison", collection: "Research collection", study: "Legal study", commentary: "Commentary", profile: "Public-record profile", research: "Research dossier", nuance: "Legal nuance", tribunal: "Independent tribunal", timeline: "Timeline" };
+const KIND_LABEL: Record<string, string> = { petition: "Petition", forensics: "Forensic comparison", collection: "Research collection", study: "Legal study", commentary: "Commentary", profile: "Public-record profile", research: "Research dossier", nuance: "Legal nuance", tribunal: "Independent tribunal", timeline: "Timeline" };
 
 // The selected tag lives in the URL (?tag=), so filtered views can be linked to and shared.
 // Static export has no server-side query string, so the server snapshot is always "all".
@@ -43,11 +43,13 @@ export function TileGrid({ tiles }: { tiles: Tile[] }) {
       </div>
       <div className="hub-tiles">
         {shown.map((t) => (
-          <a className={`hub-tile hub-tile--${t.kind}`} href={t.href} key={`${t.kind}-${t.id}`}>
+          <a className={`hub-tile hub-tile--${t.kind}`} href={t.href} target={t.external ? "_blank" : undefined} rel={t.external ? "noopener noreferrer" : undefined} key={`${t.kind}-${t.id}`}>
             <span className="hub-tile-kind">{KIND_LABEL[t.kind] ?? t.kind}</span>
+            {t.image && <img className="hub-tile-image" src={t.image.src} alt={t.image.alt} width={t.image.width} height={t.image.height} />}
             <small>{t.label}</small>
             <h3>{t.title}</h3>
             <p>{t.summary}</p>
+            {t.external && <small className="hub-tile-external">View {t.kind} ↗ · opens in a new tab</small>}
             <span className="hub-tile-tags">{t.tags.slice(0, 4).map((x) => `#${x}`).join("  ")}</span>
           </a>
         ))}

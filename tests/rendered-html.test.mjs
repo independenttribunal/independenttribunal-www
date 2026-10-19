@@ -58,6 +58,27 @@ test("server-renders the information hub homepage", async () => {
   assert.doesNotMatch(html, /12 independent jurors|applicable local minimum wage/);
 });
 
+test("homepage petition tile includes the supplied image and a safe external link", async () => {
+  const html = await (await render()).text();
+  const card = html.match(/<a class="hub-tile hub-tile--petition"[\s\S]*?<\/a>/)?.[0];
+  assert.ok(card, "petition is present in the unfiltered homepage");
+  assert.match(card, /href="https:\/\/petition.parliament.uk\/petitions\/778631"/);
+  assert.match(card, /target="_blank"/);
+  assert.match(card, /rel="noopener noreferrer"/);
+  assert.match(card, /Create a taskforce to review laws containing the term “reasonable”/);
+  assert.match(card, /src="\/images\/uk-parliament-petitions.png"/);
+  assert.match(card, /alt="Petitions — UK Parliament and UK Government"/);
+  assert.match(card, /opens in a new tab/);
+  const { tiles } = JSON.parse(await readFile(new URL("../public/data/tiles.json", import.meta.url), "utf8"));
+  const petition = tiles.find((tile) => tile.id === "reasonable-laws-petition");
+  assert.equal(petition.kind, "petition");
+  assert.ok(petition.tags.includes("uk"));
+  assert.equal(petition.external, true);
+  const image = await readFile(new URL(`../public${petition.image.src}`, import.meta.url));
+  assert.equal(image.readUInt32BE(16), petition.image.width);
+  assert.equal(image.readUInt32BE(20), petition.image.height);
+});
+
 test("server-renders the origins and acknowledgements page", async () => {
   const response = await render("/about");
   assert.equal(response.status, 200);

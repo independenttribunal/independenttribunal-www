@@ -196,6 +196,17 @@ for (const p of profiles) for (const related of p.research_links ?? []) {
   if (![...research.map((r) => r.id), palestineActionTile.id].includes(related.id)) fail(`profiles/${p.id}`, `missing related research ${related.id}`);
 }
 const commentary = await loadCommentary(dataDir, fail);
+const petitions = await readJson(join(dataDir, "petitions.json"));
+const petitionIds = new Set();
+for (const p of petitions) {
+  const where = `petitions/${p.id}`;
+  if (!/^[a-z0-9-]+$/.test(p.id) || petitionIds.has(p.id)) fail(where, "unique safe id required");
+  petitionIds.add(p.id);
+  for (const key of ["title", "label", "summary"]) if (!p[key]?.trim()) fail(where, `missing ${key}`);
+  if (!/^https:\/\/petition\.parliament\.uk\/petitions\/\d+$/.test(p.href)) fail(where, "official petition URL required");
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(p.checked) || !Array.isArray(p.tags) || !p.tags.length) fail(where, "checked date and tags required");
+  if (!/^\/images\/[a-z0-9-]+\.png$/.test(p.image?.src) || !p.image?.alt?.trim() || ![p.image?.width, p.image?.height].every((n) => Number.isInteger(n) && n > 0)) fail(where, "local image, alt text and dimensions required");
+}
 for (const p of commentary) if ([...research, ...profiles].some((r) => r.id === p.id)) fail(`commentary/${p.id}`, "commentary id conflicts with a research page");
 for (const p of profiles) if (research.some((r) => r.id === p.id)) fail(`profiles/${p.id}`, "profile id conflicts with a research dossier");
 
@@ -270,6 +281,7 @@ for (const p of commentaryOut) await put(`data/commentary/${p.id}.json`, p);
 
 const tiles = [
   forensicTile(forensics),
+  ...petitions.map((p) => ({ ...p, kind: "petition", external: true, uk: p.tags.includes("uk") })),
   palestineActionTile,
   ...commentary.map((p) => ({ kind: "commentary", id: p.id, title: p.title, label: p.genre, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
   ...profiles.map((p) => ({ kind: p.category === "legal-study" ? "study" : "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.category === "legal-study" ? p.tags : [...new Set(["people", ...p.tags])], href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),

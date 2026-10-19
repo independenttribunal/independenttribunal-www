@@ -197,6 +197,9 @@ html { scrollbar-gutter: stable; }
 .hub-tile-kind { color:#8a671f; text-transform:uppercase; letter-spacing:.16em; font-size:9px; font-weight:900; }
 .hub-tile--tribunal .hub-tile-kind { color:#3d5a80; }
 .hub-tile--timeline .hub-tile-kind { color:#a11d2e; }
+.hub-tile--petition .hub-tile-kind { color:#006653; }
+.hub-tile-image { display:block; width:100%; height:auto; margin:8px 0 0; }
+.hub-tile .hub-tile-external { color:var(--navy); margin-top:8px; }
 .hub-tile small { color:#778190; font-size:11px; font-weight:700; }
 .hub-tile h3 { margin:14px 0 4px; font-family:var(--font-serif); font-size:28px; line-height:1.05; font-weight:400; color:var(--navy); }
 .hub-tile p { margin:0; color:#5f6c7d; font-size:14px; line-height:1.55; }

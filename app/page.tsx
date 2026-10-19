@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="hub-grid shell" aria-label="Research dossiers, legal nuances, tribunals and timelines">
+      <section className="hub-grid shell" aria-label="Research dossiers, legal nuances, petitions, tribunals and timelines">
         <TileGrid tiles={tileData.tiles} />
       </section>
 
