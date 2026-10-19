@@ -1,0 +1,94 @@
+{
+  "reviewed_on": "2026-10-19",
+  "scope": "Targeted corrections only. This review does not verify every field in these records or the wider collection.",
+  "records": {
+    "mod-watchkeeper-scrapping": {
+      "note": "Corrected the announcement date, cost description and unsupported campaign-causation claim; added the later published retirement timetable.",
+      "replace": {
+        "nickname": "Watchkeeper retirement decision",
+        "action_dates": ["2024-11-20"],
+        "target": "Ministry of Defence Watchkeeper Mk 1 retirement decision",
+        "action_details": {
+          "summary": "On 20 November 2024, the government announced retirement of Watchkeeper, citing ageing technology. This was a retirement announcement, not evidence of a £2.1 billion contract cancellation caused by protest.",
+          "cost": "A parliamentary answer of 19 June 2023 recorded £1.351 billion in whole-life costs to 31 May 2023, including £1.114 billion in procurement. Whole-life expenditure is not the value of a cancelled contract.",
+          "context": "Campaign accounts connect the decision with sustained protests. The government did not give protest as the reason; a causal link is not established by the cited official statements.",
+          "retirement_timetable": "The November 2024 announcement envisaged retirement from March 2025. A parliamentary answer on 13 October 2025 subsequently gave an out-of-service date of March 2027. The announcement should not be read as completed retirement in 2024."
+        }
+      },
+      "sources": [
+        {"outlet": "UK Parliament", "title": "Defence programme developments — retirement announcement", "url": "https://hansard.parliament.uk/Commons/2024-11-20/debates/24112029000008/DefenceProgrammeDevelopments", "kind": "official", "date": "2024-11-20"},
+        {"outlet": "UK Parliament", "title": "Written answer 189187 — Watchkeeper costs", "url": "https://questions-statements.parliament.uk/written-questions/detail/2023-06-13/189187", "kind": "official", "date": "2023-06-19"},
+        {"outlet": "UK Parliament", "title": "Written answer 77261 — March 2027 out-of-service date", "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-09-15/77261", "kind": "official", "date": "2025-10-13"}
+      ]
+    },
+    "elbit-bristol-hq-lockdown-2024": {
+      "note": "Separated the two reported equipment shares and identified the Israeli military as their subject. The underlying company statistics have not been independently audited here.",
+      "replace": {
+        "nickname": "Elbit Bristol HQ community blockade",
+        "action_details": {
+          "summary": "The imported CAGE account describes four Palestine Action activists locking on, supported by local protesters, at the site entrance.",
+          "context": "AOAV reports Elbit supplies about 85% of the combat drones used by Israel’s air force and 80% of the weapons and equipment for Israel’s land forces. These are separate reported shares concerning the Israeli military, not a combined 85% figure and not a UK market share."
+        }
+      },
+      "sources": [
+        {"outlet": "Action on Armed Violence", "title": "Elbit Systems: weapons supply to Israel — general overview", "url": "https://aoav.org.uk/2026/elbit-systems-weapons-supply-to-israel-and-alleged-violations-of-international-humanitarian-law-in-gaza/", "kind": "ngo_analysis", "date": "2026-06-15"}
+      ]
+    },
+    "hydrafeed-severance": {
+      "note": "The claimed supplier relationship and its alleged termination are disputed. The company’s denial is retained alongside the reported campaign email; neither is silently treated as a finding.",
+      "replace": {
+        "nickname": "Hydrafeed supply-chain dispute",
+        "target": "Hydrafeed — alleged Elbit supplier relationship, denied by the company",
+        "action_details": {
+          "discovery": "The imported campaign account says activists found Hydrafeed machinery at Instro Precision. That account does not by itself establish a direct supply relationship with Elbit.",
+          "direct_action": "The CAGE account describes damage and an occupation at Hydrafeed premises. Hydrafeed’s managing director described the targeting as unfounded."
+        },
+        "outcome": {
+          "reported_email_date": "2024-11-14",
+          "campaign_account": "Morning Star reported an email said to confirm an end to business ties with Elbit and its subsidiaries.",
+          "company_response": "In a public company statement, managing director Martyn Page said Hydrafeed had never supplied Elbit with its products and had no connection with it.",
+          "assessment": "The prior relationship is disputed. The reviewed sources do not establish an undisputed severance or a proven campaign-caused commercial outcome."
+        }
+      },
+      "sources": [
+        {"outlet": "Morning Star", "title": "Palestine Action force another company to cut ties with Elbit Systems — reported email", "url": "https://www.morningstaronline.co.uk/article/h-150-palestine-action-0", "kind": "news", "date": "2024-11-15"},
+        {"outlet": "Hydrafeed Limited", "title": "Managing director Martyn Page’s public denial of an Elbit supply relationship", "url": "https://www.linkedin.com/posts/hydrafeed-limited_martyn-page-managing-director-of-hydrafeed-activity-7218659403820904449-v0Hg", "kind": "company_statement"}
+      ]
+    },
+    "moog-aircraft-wolverhampton": {
+      "note": "Criminal-damage charges are documented. A campaign source describes an intended prosecution application for a terrorism connection, not a judicial finding or an applied sentence enhancement. The underlying court documents have not been independently reviewed here.",
+      "replace": {
+        "nickname": "Moog aircraft factory action",
+        "legal_proceedings": {
+          "arrests": 4,
+          "police_force": "Staffordshire Police",
+          "charges": "ITV’s 28 August 2025 report records four people charged with criminal damage exceeding £5,000 and conspiracy to destroy or damage property of an unknown value.",
+          "custody_status": "The 2025 imported account records remand. This is historical, not a verified current custody status.",
+          "terrorism_connection": "The Moog4 campaign website says court documents describe a CPS intention to seek a terrorism connection under section 69 of the Sentencing Act 2020 if convictions are secured. This attributed account is not evidence that a court has made that finding or applied an enhancement.",
+          "affiliation": "The action was carried out under the name Palestinian Martyrs for Justice. It is included as related, unaffiliated direct action, not a Palestine Action indictment."
+        }
+      },
+      "sources": [
+        {"outlet": "ITV News", "title": "Four charged after activists break in at UK defence factory in Staffordshire", "url": "https://www.itv.com/news/central/2025-08-28/four-charged-after-activists-break-in-at-uk-defence-factory-in-staffordshire", "kind": "news", "date": "2025-08-28"},
+        {"outlet": "Moog4", "title": "The action — campaign account of the proposed terrorism connection", "url": "https://www.moog4.org/the-action", "kind": "campaign_account"}
+      ]
+    },
+    "banksy-rcj-mural": {
+      "note": "Corrected the affected building’s designation to Grade II. Interpretation of the image is distinguished from a stated intention by the artist.",
+      "replace": {
+        "nickname": "Banksy Royal Courts of Justice mural",
+        "location": "Queen’s Court Building, Royal Courts of Justice, Carey Street, London",
+        "context": "The mural appeared during public debate about protest arrests. Its connection to Palestine Action is an interpretation in reporting and campaign commentary, not an independently established statement of the artist’s intention.",
+        "disposition": {
+          "immediate_action": "Covered after it appeared on 8 September 2025.",
+          "removal_dates": ["2025-09-09", "2025-09-10"],
+          "removal_rationale": "Authorities cited the need to preserve the character of a listed building. Historic England lists the affected Queen’s Court Building as Grade II, not Grade I."
+        }
+      },
+      "sources": [
+        {"outlet": "Historic England", "title": "Royal Courts of Justice: Queen’s Court Building — Grade II, list entry 1469797", "url": "https://historicengland.org.uk/listing/the-list/list-entry/1469797", "kind": "official"},
+        {"outlet": "Associated Press", "title": "Banksy mural removed from London court building", "url": "https://apnews.com/article/74bc9121340a73e6620a4898c4199c94", "kind": "news", "date": "2025-09-10"}
+      ]
+    }
+  }
+}

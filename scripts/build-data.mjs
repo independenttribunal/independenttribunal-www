@@ -294,7 +294,7 @@ await put("data/index.json", {
   source_repo: site.source_repo,
   how_to_cite: "Cite the primary source each entry links to (sources[].url), and this site as the compiler.",
   datasets: [
-    { id: "palestine-action", url: abs("/data/collections/palestine-action.json"), page: abs(palestineActionTile.href), count: palestineAction.base.cases.length + palestineAction.supplement.new_cases.length, description: "Imported case and campaign records, supplementary accounts, and explicit data-quality limitations. Not a verified list of convictions." },
+    { id: "palestine-action", url: abs("/data/collections/palestine-action.json"), page: abs(palestineActionTile.href), count: palestineAction.cases.length, description: "One chronological collection of case and campaign records, integrated source accounts, targeted corrections and explicit data-quality limitations. Includes actions before 7 October 2023. Not a verified list of convictions." },
     { id: "commentary", url: abs("/data/commentary.json"), page: abs("/research/"), count: commentary.length, description: "Labelled commentary, with anecdote provenance, dated figures, primary sources and explicit unknowns." },
     { id: "profiles", url: abs("/data/profiles.json"), page: abs("/research/"), count: profiles.length, description: "Selected public-record profiles and legal studies, with paragraph-level sources and explicit coverage limits; not a judges database." },
     { id: "research", url: abs("/data/research.json"), page: abs("/research/"), count: research.length, description: "Six historical research dossiers, with original annotations, provenance and explicit pending-verification status." },
@@ -586,7 +586,7 @@ ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("
 
 ${commentaryOut.map((p) => `- [${p.title}](${p.url}): ${p.genre}; ${p.summary}`).join("\n")}
 - [Research library](${abs("/research/")}): Independent Tribunal’s research dossiers and public-record profiles
-- [Palestine Action collection](${abs(palestineActionTile.href)}): 46 base records, 6 supplementary records, a CAGE advocacy report and 7 lobbying accounts. Imported claims are not independently verified. Do not conflate related unaffiliated actions with Palestine Action, arrests with convictions, or allegations with findings. [Derived JSON](${abs("/data/collections/palestine-action.json")}) preserves quality issues and provenance; source dates are not current-status checks.
+- [Palestine Action collection](${abs(palestineActionTile.href)}): one chronological index of ${palestineAction.cases.length} records, including actions before 7 October 2023. Both inputs are unified, with additional details and seven lobbying accounts attached to the relevant records. A CAGE advocacy report is preserved separately. Only identified fields have received targeted corrections, not a full re-audit. Do not conflate unaffiliated actions with Palestine Action, arrests with convictions, or allegations with findings. [Unified JSON](${abs("/data/collections/palestine-action.json")}) preserves corrections, quality issues and record-level provenance; source dates are not current-status checks.
 ${profilesOut.map((p) => `- [${p.title}](${p.url}): ${p.subtitle}; sources reviewed ${p.checked}, selected coverage only`).join("\n")}
 ${researchOut.map((r) => `- [${r.title}](${r.url}): ${r.summary} (historical import; source date ${r.source_as_of}; current review pending)`).join("\n")}
 
@@ -605,7 +605,7 @@ ${policies.map((p) => `- [${p.title}](${abs(`/legal/${p.slug}.md`)}): ${p.summar
 await put("llms.txt", llms);
 
 const full = [
-  `# Palestine Action collection\n\n${abs(palestineActionTile.href)}\nImported, unverified source accounts with separate supplementary material. Not a list of convictions. Download the structured collection, including source dates, legal-status sources and data-quality flags: ${abs("/data/collections/palestine-action.json")}\n`,
+  `# Palestine Action collection\n\n${abs(palestineActionTile.href)}\nOne unified chronological collection, including actions before 7 October 2023. Source accounts with targeted corrections, not a complete re-audit or a list of convictions. Download the structured collection, including integrated details, provenance, corrections, source dates, legal-status sources and data-quality flags: ${abs("/data/collections/palestine-action.json")}\n`,
   `# ${site.name} — full text\n\nGenerated ${built} from ${site.source_repo}. ${site.summary}\n`,
   ...profilesOut.map(profileText),
   ...commentaryOut.map(commentaryText),
