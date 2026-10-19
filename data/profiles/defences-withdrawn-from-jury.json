@@ -1,0 +1,292 @@
+{
+  "id": "defences-withdrawn-from-jury",
+  "category": "legal-study",
+  "title": "Defences removed by the judge, not considered by the jury",
+  "subtitle": "The system trusts jurors to judge the evidence, but gives judges control over the legal framework and the evidence they receive.",
+  "summary": "Why can a judge rule out a defence before the jury hears it? Where does legal gatekeeping end and deciding the facts begin? A closer look at pre-trial rulings, criminal damage, reasonable excuse and jury independence.",
+  "scope": "England and Wales · Crown Court jury trials. A defence can be ruled unavailable before or during trial—not only pre-trial. Removing a defence, excluding evidence and directing a verdict are different decisions.",
+  "status_note": "Legislation, appellate judgments and official guidance are distinguished from our analysis and reform proposals. This is a study of the legal framework, not a finding that a defence was wrongly excluded in any particular ongoing prosecution.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-10-19",
+  "tags": ["uk", "criminal-law", "jury", "defences", "protest", "reasonableness"],
+  "evidence_image": {
+    "src": "/images/judge-jury-defence-gatekeeping.png",
+    "alt": "Infographic: Can the jury consider this defence? In England and Wales criminal-damage trials, the judge determines legal availability and the jury decides facts. The diagram follows identification of a defence, legal argument, the evidential threshold, available or unavailable routes, and challenges to a ruling. Each stage is explained in the article below.",
+    "caption": "User-supplied infographic, reproduced unchanged. It summarises criminal-damage procedure, not every offence or defence. The text below supplies the authorities and qualifications, including the material-change requirement for a party’s application to revisit a section 40 ruling. Select the image to open it at full size.",
+    "width": 1024,
+    "height": 1536,
+    "after_section": "division"
+  },
+  "related": [
+    {"id": "anarchist-cookbook-section-58", "title": "The Anarchist Cookbook, curiosity and reasonable excuse"},
+    {"id": "public-order", "title": "Public order and protest"},
+    {"id": "roger-hallam", "title": "Roger Hallam — public and court record"},
+    {"id": "rajiv-menon-kc", "title": "Rajiv Menon KC — public and court record"}
+  ],
+  "research_links": [{"id": "filton6", "title": "Filton 6 — the research dossier"}],
+  "highlights": [
+    {"label": "Legal availability", "value": "A threshold, not a verdict", "detail": "An unpopular or unlikely defence is not automatically an unavailable one.", "target": "threshold"},
+    {"label": "Jury independence", "value": "No directed conviction", "detail": "Wang protects the jury’s decision—even where the outcome seems obvious.", "target": "wang"},
+    {"label": "Accountability", "value": "Reasons and review", "detail": "Reconsideration, limited early appeals and conviction appeals are distinct routes.", "target": "challenges"}
+  ],
+  "sections": [
+    {
+      "id": "division",
+      "title": "Who decides what?",
+      "intro": "The jury has the verdict, but not unrestricted control over the questions it may decide.",
+      "entries": [
+        {
+          "id": "division-of-powers",
+          "title": "The division of responsibility",
+          "kind": "Legal framework and explanatory synthesis",
+          "table": {
+            "caption": "From defining an offence to reaching a verdict",
+            "columns": ["Stage", "Who decides", "What they decide"],
+            "rows": [
+              ["Define offences and defences", "Parliament and, where applicable, common law", "What conduct is criminal and what can justify or excuse it"],
+              ["Interpret legal requirements", "Courts, applying binding appellate precedent", "What the legal rules mean"],
+              ["Present the case", "Prosecution and defence", "Which evidence and arguments to put forward, subject to disclosure and procedural obligations"],
+              ["Resolve legal disputes", "Trial judge", "Admissibility and whether a proposed defence has a sufficient legal and evidential foundation"],
+              ["Reach the verdict", "Jury", "What facts are proved and whether applying the directed law establishes guilt"]
+            ]
+          },
+          "paragraphs": [
+            {"text": "Wang explains that jurors find facts and apply the law as directed by the judge. The table is a simplified map of that division, not a claim that every issue fits neatly into a factual or legal box. Admissibility hearings can themselves require a judge to resolve factual disputes; that is different from taking over the jury’s decision on guilt.", "sources": [{"id": "wang", "locator": "paras 8, 12–13"}, {"id": "cpia40", "locator": "s 40(1)"}]},
+            {"text": "The institutional case for this division is consistency, protection against unfair evidence, and reviewable legal rulings. The objection is equally important: controlling the inputs can shape the outcome. Jurors cannot assess evidence they never receive. Whether that control is justified depends on the particular legal rule, the evidence and the reasons given—not simply on calling the excluded material irrelevant.", "sources": [{"id": "pace78", "locator": "s 78(1)"}, {"id": "appeal2", "locator": "s 2"}, {"id": "wang", "locator": "paras 12–13"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "How does a defence reach—or fail to reach—the jury?",
+      "intro": "The infographic’s stages in accessible text. There is no single fixed day when every defence must be accepted or removed.",
+      "entries": [
+        {
+          "id": "identify-the-defence",
+          "title": "1. Identify the defence and the facts supporting it",
+          "kind": "Statute and official procedural guidance",
+          "paragraphs": [
+            {"text": "A Crown Court defence statement must identify the nature of the defence, disputed facts and why they are disputed, facts relied upon, and points of law with supporting authorities. Merely naming a defence does not explain how its conditions could be met. The statement identifies the case to be advanced; it is not a judicial decision allowing or excluding that case.", "sources": [{"id": "cpia6a", "locator": "s 6A(1)"}]},
+            {"text": "CPS disclosure guidance gives the normal Crown Court deadline as 28 days after the prosecution complies, or purports to comply, with initial disclosure. The court can extend it. That deadline is for defence disclosure—not a universal deadline for a judge to rule on legal availability.", "sources": [{"id": "disclosure", "locator": "Applicable time limits; extension applications"}]}
+          ]
+        },
+        {
+          "id": "legal-argument",
+          "title": "2. Resolve the legal question, before or during trial",
+          "kind": "Statutory power",
+          "paragraphs": [
+            {"text": "Section 40 of the Criminal Procedure and Investigations Act 1996 permits pre-trial rulings on admissibility and other legal questions, on a party’s application or the judge’s initiative. Legal argument is addressed to the judge, not decided by the jury. An ordinary pre-trial hearing must not be confused with the special statutory preparatory hearings that have their own appeal provisions.", "sources": [{"id": "cpia40", "locator": "s 40(1)–(2)"}, {"id": "cpia35", "locator": "s 35(1)"}]},
+            {"text": "At trial, the position may also depend on the evidence actually called. A ruling on a proposed legal defence is not the same as finding the defendant’s account untrue. The question is whether the issue can properly be put to the jury under the applicable law.", "sources": [{"id": "ag2022", "locator": "para 118"}]}
+          ]
+        },
+        {
+          "id": "threshold",
+          "title": "3. Test legal sufficiency—not the judge’s preferred verdict",
+          "kind": "Appellate interpretation",
+          "paragraphs": [
+            {"text": "There are two different problems: a defence may have no evidential foundation, or the material advanced may be incapable of supporting the required conclusion before a reasonable, properly directed jury. Neither is merely a prediction that the jury will probably reject it. Different defences have different ingredients and burdens; there is no single free-standing test of whether the defendant has a good moral reason.", "sources": [{"id": "ag2022", "locator": "para 118"}]},
+            {"text": "The 2024 Attorney General’s Reference reaffirms the no-reasonable-jury threshold and requires considerable caution. The judge must not substitute their own decision for the jury’s. Taking an account at its highest is a useful way to identify a missing legal ingredient; it does not make every asserted belief legally sufficient.", "sources": [{"id": "ag2024", "locator": "paras 54–64"}]}
+          ]
+        },
+        {
+          "id": "two-paths",
+          "title": "4. Two paths—not an automatic conviction",
+          "kind": "Legal consequences",
+          "paragraphs": [
+            {"text": "If available, the defence can be considered with relevant, admissible evidence and appropriate jury directions. For criminal-damage lawful excuse, once sufficiently raised, the prosecution must disprove it beyond reasonable doubt. That allocation should not be assumed for every defence under every statute.", "sources": [{"id": "ag2024", "locator": "paras 15–16, 31"}]},
+            {"text": "If unavailable, the judge does not leave that legal route to acquittal to the jury. Evidence relevant only to that route may be excluded. The prosecution must still establish guilt; withdrawing a defence does not authorise a directed guilty verdict or eliminate other live issues.", "sources": [{"id": "wang-end", "locator": "paras 14, 17–18"}, {"id": "cpia40", "locator": "s 40(1)"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wang",
+      "title": "Wang: the safeguard cuts both ways",
+      "intro": "A judge may direct an acquittal where the prosecution case is insufficient. There is no equivalent power to direct a jury to convict.",
+      "entries": [
+        {
+          "id": "no-directed-conviction",
+          "title": "The jury cannot be reduced to a formality",
+          "kind": "House of Lords judgment",
+          "citation": "R v Wang [2005] UKHL 9",
+          "paragraphs": [
+            {"text": "The House of Lords quashed Wang’s conviction after the judge directed a guilty verdict. Paragraph 18 rejects any power to give that direction. The result was not conditional on whether an acquittal seemed likely: paragraph 17 says the defendant’s explanation could contain nuances that jurors, rather than the judge, should evaluate.", "sources": [{"id": "wang-end", "locator": "paras 17–18"}]},
+            {"text": "Paragraph 14 is particularly important. It accepts withdrawal where there truly is no evidence of lawful excuse, but criticises treating the tenuous connection in Hill and Hall as something the judge could conclusively decide instead of the jury. It also rejects the directions to convict. Reading Wang only as permission for judicial gatekeeping misses its warning against encroaching on the jury’s work.", "sources": [{"id": "wang-end", "locator": "para 14"}]},
+            {"text": "Our analysis: the difficult boundary is not judge versus jury in the abstract. It is the difference between identifying a legally impossible defence and deciding a contestable inference that belongs to the jury. Later appellate decisions retain gatekeeping; Wang prevents it becoming a licence to determine guilt.", "sources": [{"id": "wang-end", "locator": "paras 14, 18"}, {"id": "ag2022", "locator": "para 118"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criminal-damage",
+      "title": "Criminal damage: honest belief does not open every door",
+      "intro": "A sincere moral justification, a statutory lawful excuse and a human-rights argument are not interchangeable.",
+      "entries": [
+        {
+          "id": "statutory-routes",
+          "title": "Consent and protection of property are distinct routes",
+          "kind": "Statutory text",
+          "paragraphs": [
+            {"text": "Section 5(2)(a) concerns belief in consent by someone believed entitled to give it, including belief that they would consent if they knew of the damage and its circumstances. Section 5(2)(b) concerns acts done to protect property or a property right or interest, with beliefs about immediate need and reasonable means. Section 5(3) makes honesty, not justification, decisive for the beliefs it addresses. Section 5 also has defined limits on the offences to which it applies.", "sources": [{"id": "damage5", "locator": "s 5(1)–(4)"}]},
+            {"text": "These are not blanket permissions to damage property for an important cause. In particular, section 5(2)(b) is about protecting property, not a general defence of saving lives. Other recognised defences require their own analysis; section 5(5) preserves them rather than establishing that they succeed in any given case.", "sources": [{"id": "damage5", "locator": "s 5(2)(b), (5)"}]}
+          ]
+        },
+        {
+          "id": "consent-circumstances",
+          "title": "The 2024 reference: which circumstances count?",
+          "kind": "Court of Appeal judgment",
+          "citation": "Attorney General’s Reference No 1 of 2023 [2024] EWCA Crim 243",
+          "paragraphs": [
+            {"text": "The court distinguished the fact that damage occurred as a protest from arguments about a cause’s merits or urgency. The latter did not count as the damage’s circumstances under section 5(2)(a). Belief in consent remained subjective, but its statutory subject matter was legally bounded. This is why an honest-belief defence can still face a legal threshold.", "sources": [{"id": "ag2024", "locator": "paras 40–50, 65"}]}
+          ]
+        },
+        {
+          "id": "colston-reference",
+          "title": "The Colston reference did not overturn the acquittals",
+          "kind": "Court of Appeal judgment and statutory limit",
+          "citation": "Attorney General’s Reference No 1 of 2022 [2022] EWCA Crim 1259",
+          "paragraphs": [
+            {"text": "The reference limited reliance on Convention proportionality for significant protest-related damage. It did not decide that the four acquitted defendants were guilty: other defences had been before the jury. Significant damage is not simply a synonym for the £5,000 trial-allocation boundary.", "sources": [{"id": "ag2022", "locator": "paras 115–123"}]},
+            {"text": "Section 36(7) of the Criminal Justice Act 1972 expressly prevents this reference procedure from affecting the original acquittal. Clarifying a rule for future cases and reversing a jury’s verdict are different powers. The same protection governs the 2024 reference; it is not an appeal against C’s acquittal.", "sources": [{"id": "reference36", "locator": "s 36(1), (7)"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "What does “not seen by the jury” actually mean?",
+      "intro": "A legal argument can disappear while some of the underlying evidence remains relevant for another reason.",
+      "entries": [
+        {
+          "id": "three-different-decisions",
+          "title": "Unavailable defence, inadmissible evidence, and disputed facts",
+          "kind": "Explanatory analysis",
+          "paragraphs": [
+            {"text": "A defence-withdrawal ruling controls a route to acquittal. An admissibility ruling controls particular evidence. A jury’s factual finding concerns what the admitted evidence establishes. The decisions interact, but they are not identical: removing a defence does not automatically erase every fact associated with it. The relevance of each item to remaining issues must still be considered.", "sources": [{"id": "cpia40", "locator": "s 40(1)"}, {"id": "wang", "locator": "para 8"}]},
+            {"text": "Nor is all exclusion directed against defendants. PACE section 78 permits exclusion of prosecution evidence where its admission would damage trial fairness to the specified degree, considering all the circumstances, including how it was obtained. It is a fairness safeguard, not a general statutory power to suppress the defence’s explanation.", "sources": [{"id": "pace78", "locator": "s 78(1)–(2)"}]}
+          ]
+        },
+        {
+          "id": "context-and-purpose",
+          "title": "“Irrelevant” is a legal conclusion, not a description of importance",
+          "kind": "Official prosecution guidance and our analysis",
+          "paragraphs": [
+            {"text": "CPS protest guidance explicitly tells prosecutors to resist irrelevant evidence when the proposed prevention-of-crime defence has no foundation. It distinguishes an imminent emergency from a wider political campaign and discusses remoteness in protection-of-property cases. This is the prosecution’s published guidance, not proof that every exclusion it seeks is correct.", "sources": [{"id": "protest-guidance", "locator": "Lawful excuse; prevention of crime"}]},
+            {"text": "Our criticism to test in an individual case: has the court explained why context cannot satisfy a specific legal requirement, or has it merely labelled the context unimportant? A moral or political issue can be profoundly important yet legally irrelevant to one defence. Conversely, a contested factual inference should not be relabelled a legal question just to remove it from the jury.", "sources": [{"id": "wang-end", "locator": "para 14"}, {"id": "protest-guidance", "locator": "Defences"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reasonable-excuse",
+      "title": "Reasonable excuse: objective does not mean context-free",
+      "intro": "This connects directly with our section 58 research. It does not transplant the criminal-damage tests into terrorism legislation.",
+      "entries": [
+        {
+          "id": "curiosity-and-circumstances",
+          "title": "The question cannot always be answered in the abstract",
+          "kind": "House of Lords interpretation",
+          "citation": "R v G; R v J [2009] UKHL 13",
+          "paragraphs": [
+            {"text": "Paragraph 79 distinguishes an objectively reasonable excuse from an explanation the defendant personally regards as reasonable. Paragraph 81 requires attention to the actual circumstances and ordinarily leaves the assessment to the jury unless no reasonable jury could accept the excuse. Paragraph 83 refuses an abstract yes-or-no answer about curiosity without knowing what was done and why.", "sources": [{"id": "gj", "locator": "paras 79, 81, 83"}]},
+            {"text": "Our reading: objective assessment and contextual assessment can coexist. The threshold question asks whether this explanation could qualify under the law; the verdict question asks what the evidence establishes. Neither sincerity alone nor an abstract label such as curiosity settles both questions. The full paragraph 83 and wider case analysis are on the linked section 58 page.", "sources": [{"id": "gj", "locator": "paras 79–83"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jury-independence",
+      "title": "Does jury independence mean a right to disregard the law?",
+      "intro": "Protecting the jury’s verdict is not the same as authorising unrestricted decisions on which laws or defences should exist.",
+      "entries": [
+        {
+          "id": "webster-2026",
+          "title": "Webster: the difference between a verdict and juror misconduct",
+          "kind": "Court of Appeal judgment",
+          "citation": "R v Webster and others [2026] EWCA Crim 9",
+          "paragraphs": [
+            {"text": "In a later criminal-damage appeal, the court considered directions prompted by jury-equity posters and placards. It rejected the argument that the jury had been threatened with imprisonment for acquitting, assessed the directions in the context of the whole trial, and dismissed the appeals. It described parts of the judge’s comments about the posters as more questionable, while finding the convictions safe.", "sources": [{"id": "webster", "locator": "paras 69–82"}]},
+            {"text": "Paragraph 73 distinguishes prohibited juror conduct concerning how someone intends to try the issue from the delivery of the verdict itself. Our conclusion is narrower than either slogan: no directed conviction does not create a general entitlement for advocates to invite jurors to ignore the law; nor should warnings about juror misconduct be described as punishment for returning not guilty.", "sources": [{"id": "webster", "locator": "paras 72–73, 79–80"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "challenges",
+      "title": "Can the ruling be challenged?",
+      "intro": "There is no general automatic interlocutory appeal against every adverse pre-trial decision.",
+      "entries": [
+        {
+          "id": "reconsideration",
+          "title": "Reconsideration by the trial court",
+          "kind": "Statutory procedure",
+          "paragraphs": [
+            {"text": "A section 40 ruling is binding, but the judge can discharge or vary it in the interests of justice. Section 40(5) adds an important limit missing from the short infographic: a party cannot make that application unless there has been a material change of circumstances since the ruling or the last application. The statute also permits the judge to act on their own initiative.", "sources": [{"id": "cpia40", "locator": "s 40(3)–(6)"}]}
+          ]
+        },
+        {
+          "id": "early-appeal",
+          "title": "A limited early appeal route",
+          "kind": "Statutory procedure",
+          "paragraphs": [
+            {"text": "Section 35 provides an appeal, with leave of the judge or Court of Appeal, from specified rulings under section 31(3) at formal preparatory hearings. It does not convert an ordinary section 40 ruling into an immediately appealable decision. Identifying the statutory hearing and ruling is essential before claiming an early appeal is available.", "sources": [{"id": "cpia35", "locator": "s 35(1)–(3)"}]}
+          ]
+        },
+        {
+          "id": "conviction-appeal",
+          "title": "After conviction: safety, not simply disagreement",
+          "kind": "Statute and official appeal guidance",
+          "paragraphs": [
+            {"text": "An application for permission to appeal conviction is normally due within 28 days of conviction, even if sentence comes later. GOV.UK explains that a late application needs reasons and may receive an extension. An alleged error in withdrawing a defence can be raised, but the statutory question is whether the conviction is unsafe—not whether the appeal court would have managed the trial differently.", "sources": [{"id": "appeal-guide", "locator": "Ask for permission to appeal"}, {"id": "appeal2", "locator": "s 2(1)"}]},
+            {"text": "Allowing a conviction appeal results in quashing the conviction. A retrial may sometimes be ordered, so quashing does not invariably mean the proceedings are finished. A general discussion cannot establish whether a particular defendant has a viable ground without the ruling, evidence, directions and procedural record.", "sources": [{"id": "appeal2", "locator": "s 2(2)–(3)"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reform",
+      "title": "Should more of this be for the jury?",
+      "intro": "That is a legitimate reform question. It should be separated from what the current law permits.",
+      "entries": [
+        {
+          "id": "two-reforms",
+          "title": "More context—or power to recognise new justifications?",
+          "kind": "Independent Tribunal analysis · reform proposals, not existing rights",
+          "paragraphs": [
+            {"text": "One reform would let jurors hear more context while retaining judicial directions about recognised defences. A much larger reform would let juries decide which justifications the law should recognise. The first changes the information available for a verdict; the second changes who determines criminal liability. They need different safeguards and cannot be treated as the same proposal.", "sources": [{"id": "wang", "locator": "para 8; starting point for our analysis"}]},
+            {"text": "A narrower transparency proposal is a structured ruling identifying the precise defence, the legal ingredient said to be absent, the supporting evidence considered, why it cannot meet the threshold, and what context remains admissible for other purposes. Publish an appropriately redacted version where lawful. This is our proposal for clearer accountability—not a claim that judges presently give no reasons, or that all rulings can lawfully be published.", "sources": [{"id": "cpia40", "locator": "s 40; starting point for proposed reform"}]}
+          ]
+        },
+        {
+          "id": "question-for-policymakers",
+          "title": "The question worth putting to policymakers",
+          "kind": "Independent Tribunal analysis · policy question",
+          "paragraphs": [
+            {"text": "Where a defendant advances a sincerely held justification supported by evidence, under what circumstances should a judge prevent the jury from considering it—and what safeguards stop an assessment of legal sufficiency becoming a substitute for the jury’s assessment of the facts?",
+              "sources": [{"id": "wang-end", "locator": "paras 14, 17–18; context for our policy question"}]},
+            {"text": "The organising principle is divided power, not unrestricted jury judgment. The remaining question is where that division should sit, how transparently it is applied, and how an erroneous exclusion can be corrected. For any particular case, start with the actual ruling rather than inferring what happened from a verdict or a campaign summary.", "sources": [{"id": "wang", "locator": "para 8"}, {"id": "appeal2", "locator": "s 2"}]}
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {"id": "wang", "title": "R v Wang [2005] UKHL 9 — paragraphs 1–13", "url": "https://publications.parliament.uk/pa/ld200405/ldjudgmt/jd050210/wang-1.htm", "publisher": "UK Parliament · House of Lords", "type": "Judgment", "date": "2005-02-10", "checked": "2026-10-19"},
+    {"id": "wang-end", "title": "R v Wang [2005] UKHL 9 — paragraphs 14–18", "url": "https://publications.parliament.uk/pa/ld200405/ldjudgmt/jd050210/wang-2.htm", "publisher": "UK Parliament · House of Lords", "type": "Judgment", "date": "2005-02-10", "checked": "2026-10-19"},
+    {"id": "cpia40", "title": "Criminal Procedure and Investigations Act 1996, section 40", "url": "https://www.legislation.gov.uk/ukpga/1996/25/section/40", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-19"},
+    {"id": "pace78", "title": "Police and Criminal Evidence Act 1984, section 78", "url": "https://www.legislation.gov.uk/ukpga/1984/60/section/78", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-19"},
+    {"id": "appeal2", "title": "Criminal Appeal Act 1968, section 2", "url": "https://www.legislation.gov.uk/ukpga/1968/19/section/2", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-19"},
+    {"id": "cpia6a", "title": "Criminal Procedure and Investigations Act 1996, section 6A", "url": "https://www.legislation.gov.uk/ukpga/1996/25/section/6A", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-19"},
+    {"id": "disclosure", "title": "Disclosure Manual, chapter 15: defence disclosure", "url": "https://www.cps.gov.uk/prosecution-guidance/disclosure-manual-chapter-15-defence-disclosure", "publisher": "Crown Prosecution Service", "type": "Official prosecution guidance", "checked": "2026-10-19"},
+    {"id": "cpia35", "title": "Criminal Procedure and Investigations Act 1996, section 35", "url": "https://www.legislation.gov.uk/ukpga/1996/25/section/35", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-19"},
+    {"id": "ag2022", "title": "Attorney General’s Reference No 1 of 2022 [2022] EWCA Crim 1259", "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2022/1259", "publisher": "The National Archives · Court of Appeal", "type": "Judgment", "date": "2022-09-28", "checked": "2026-10-19"},
+    {"id": "ag2024", "title": "Attorney General’s Reference No 1 of 2023 [2024] EWCA Crim 243", "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/243", "publisher": "The National Archives · Court of Appeal", "type": "Judgment", "date": "2024-03-18", "checked": "2026-10-19"},
+    {"id": "damage5", "title": "Criminal Damage Act 1971, section 5", "url": "https://www.legislation.gov.uk/ukpga/1971/48/section/5", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-19"},
+    {"id": "reference36", "title": "Criminal Justice Act 1972, section 36", "url": "https://www.legislation.gov.uk/ukpga/1972/71/section/36", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-19"},
+    {"id": "protest-guidance", "title": "Offences during protests, demonstrations or campaigns", "url": "https://www.cps.gov.uk/prosecution-guidance/offences-during-protests-demonstrations-or-campaigns", "publisher": "Crown Prosecution Service", "type": "Official prosecution guidance", "checked": "2026-10-19"},
+    {"id": "gj", "title": "R v G; R v J [2009] UKHL 13", "url": "https://publications.parliament.uk/pa/ld200809/ldjudgmt/jd090304/rgrj.pdf", "publisher": "UK Parliament · House of Lords", "type": "Judgment", "date": "2009-03-04", "checked": "2026-10-19"},
+    {"id": "webster", "title": "R v Webster and others [2026] EWCA Crim 9", "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2026/9", "publisher": "The National Archives · Court of Appeal", "type": "Judgment", "checked": "2026-10-19"},
+    {"id": "appeal-guide", "title": "Appeal a Crown Court decision", "url": "https://www.gov.uk/appeal-against-crown-court-verdict/appeal-a-crown-court-decision", "publisher": "GOV.UK", "type": "Official procedural guidance", "checked": "2026-10-19"}
+  ]
+}

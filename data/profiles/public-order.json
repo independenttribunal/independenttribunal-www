@@ -16,6 +16,10 @@
   "status_note": "Reviewed 19 October 2026 against the amended statute and CPS charging guidance. Leeson is described through the CPS summary; its full judgment has not been independently inspected here.",
   "related": [
     {
+      "id": "defences-withdrawn-from-jury",
+      "title": "Defences removed by the judge, not considered by the jury"
+    },
+    {
       "id": "hansard-record",
       "title": "Hansard and the disputed parliamentary record"
     }

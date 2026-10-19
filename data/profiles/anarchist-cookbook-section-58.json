@@ -25,6 +25,10 @@
   ],
   "related": [
     {
+      "id": "defences-withdrawn-from-jury",
+      "title": "Defences removed by the judge, not considered by the jury"
+    },
+    {
       "id": "public-order",
       "title": "Public order and protest"
     }

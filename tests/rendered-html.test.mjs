@@ -40,6 +40,7 @@ test("server-renders the information hub homepage", async () => {
   assert.match(html, /href="\/research\/richard-heart\/"/);
   assert.match(html, /#people/);
   assert.match(html, /href="\/research\/mental-health-uk\/"/);
+  assert.match(html, /href="\/research\/defences-withdrawn-from-jury\/"/);
   assert.match(html, /Mental health in the UK/);
   assert.match(html, /Commentary/);
   assert.match(html, /href="\/research\/prairieland\/"/);

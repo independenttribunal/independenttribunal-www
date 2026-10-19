@@ -38,6 +38,10 @@ export function validateProfile(p, fail) {
     for (const entry of section.entries ?? []) {
       addAnchor(entry.id);
       if (!entry.title || !entry.kind || !entry.paragraphs?.length) fail(`entry ${entry.id}: title, kind and paragraphs required`);
+      if (entry.table) {
+        const { caption, columns, rows } = entry.table;
+        if (!caption?.trim() || !Array.isArray(columns) || columns.length < 2 || !columns.every((c) => typeof c === "string" && c.trim()) || !Array.isArray(rows) || !rows.length || !rows.every((r) => Array.isArray(r) && r.length === columns.length && r.every((c) => typeof c === "string" && c.trim()))) fail(`entry ${entry.id}: table requires a caption, columns and matching nonempty rows`);
+      }
       if (entry.date && !date.test(entry.date)) fail(`entry ${entry.id}: invalid date`);
       for (const paragraph of entry.paragraphs ?? []) {
         if (!paragraph.text || !Array.isArray(paragraph.sources)) fail(`entry ${entry.id}: text and source array required`);
@@ -52,6 +56,7 @@ export function validateProfile(p, fail) {
     if (!h.label || !h.value || !h.detail || !anchorIds.has(h.target)) fail("highlight requires text and an existing target");
   }
   if (p.featured_source && !sourceIds.has(p.featured_source)) fail("unknown featured source");
+  if (p.evidence_image?.after_section && !p.sections.some((s) => s.id === p.evidence_image.after_section)) fail("evidence image placement requires an existing section");
 }
 
 export async function loadProfiles(dataDir, fail) {
@@ -75,7 +80,7 @@ export function profileText(p) {
     ...(p.evidence_image ? [`Image: ${p.evidence_image.src}\n${p.evidence_image.alt}\n${p.evidence_image.caption}`] : []),
     ...p.highlights.map((h) => `${h.label}: ${h.value}. ${h.detail}.`),
     ...p.sections.map((section) => `### ${section.title}\n${section.intro}\n` + section.entries.map((entry) =>
-      `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + entry.paragraphs.map((para) => `${para.quote ? "> " : ""}${para.text}\n${para.sources.map((ref) => {
+      `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + (entry.table ? `${entry.table.caption}\n${entry.table.rows.map((row) => row.map((cell, i) => `${entry.table.columns[i]}: ${cell}`).join(" · ")).join("\n")}\n\n` : "") + entry.paragraphs.map((para) => `${para.quote ? "> " : ""}${para.text}\n${para.sources.map((ref) => {
         const s = sources.get(ref.id);
         return `Source: ${s.title} (${s.publisher}; ${s.type}; checked ${s.checked})${ref.locator ? `, ${ref.locator}` : ""} <${s.url}>`;
       }).join("\n")}`).join("\n\n")
@@ -95,6 +100,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
     const orderedSources = [...order.map((id) => p.sources.find((s) => s.id === id)), ...p.sources.filter((s) => !order.includes(s.id))];
     const sources = new Map(orderedSources.map((s, i) => [s.id, { ...s, number: i + 1 }]));
     const featured = sources.get(p.featured_source);
+    const evidenceImage = p.evidence_image ? `<figure class="profile-evidence"><a href="${e(p.evidence_image.src)}" target="_blank" rel="noopener noreferrer" aria-label="Open image at full size (opens in a new tab)"><img src="${e(p.evidence_image.src)}" alt="${e(p.evidence_image.alt)}" width="${p.evidence_image.width}" height="${p.evidence_image.height}"></a><figcaption>${e(p.evidence_image.caption)}</figcaption></figure>` : "";
     const citations = (refs) => refs.length ? `<span class="profile-citations">${refs.map((ref) => {
       const s = sources.get(ref.id);
       return `<a href="${e(s.url)}" target="_blank" rel="noopener noreferrer" aria-label="Source ${s.number}: ${e(s.title)} (opens in a new tab)">[${s.number}] ${e(ref.locator ?? s.type)}</a>`;
@@ -119,6 +125,12 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         .profile-entry .meta { font-size:11px; }
         .profile-quotation { margin:1.25rem 0; padding:1rem 1.25rem; border-left:3px solid var(--gold); background:#eee8da; }
         .profile-quotation p { margin:0; }
+        .profile-table-wrap { overflow-x:auto; margin:1rem 0; }
+        .profile-table { width:100%; min-width:34rem; border-collapse:collapse; font-size:.95rem; }
+        .profile-table caption { text-align:left; margin-bottom:.7rem; font-weight:600; }
+        .profile-table th,.profile-table td { text-align:left; vertical-align:top; border-bottom:1px solid var(--line); padding:.8rem; }
+        .profile-table thead { background:var(--navy); color:white; }
+        .profile-table tbody th { width:25%; }
         .profile-citations { display:block; font:12px/1.6 ui-sans-serif,system-ui,sans-serif; margin:.4rem 0 1.3rem; color:var(--muted); }
         .profile-sources { padding-left:1.5rem; font-size:.95rem; }
         .profile-sources li { margin-bottom:1rem; overflow-wrap:anywhere; }
@@ -127,14 +139,14 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         @media(max-width:560px) { .profile-status { grid-template-columns:1fr; } }
         @media print { .profile-nav,.contact { display:none; } }
       </style>
-      <div class="profile-hero"><a href="/research/" class="kicker">Independent Tribunal · Research</a><h1>${e(p.title)}</h1><p class="lede">${e(p.subtitle)}</p>${p.evidence_image ? `<figure class="profile-evidence"><img src="${e(p.evidence_image.src)}" alt="${e(p.evidence_image.alt)}" width="${p.evidence_image.width}" height="${p.evidence_image.height}"><figcaption>${e(p.evidence_image.caption)}</figcaption></figure>` : ""}<p>${e(p.summary)}</p><p class="meta">${e(p.jurisdiction)} · Sources reviewed <time datetime="${p.checked}">${e(p.checked)}</time></p></div>
+      <div class="profile-hero"><a href="/research/" class="kicker">Independent Tribunal · Research</a><h1>${e(p.title)}</h1><p class="lede">${e(p.subtitle)}</p>${p.evidence_image?.after_section ? "" : evidenceImage}<p>${e(p.summary)}</p><p class="meta">${e(p.jurisdiction)} · Sources reviewed <time datetime="${p.checked}">${e(p.checked)}</time></p></div>
       ${p.category !== "legal-study" ? '<p><a href="/people/">People &amp; public records →</a></p>' : ""}
       <aside class="profile-scope">${e(p.scope)}</aside>
       <div class="profile-status">${p.highlights.map((h) => `<a href="#${h.target}"><small>${e(h.label)}</small><strong>${e(h.value)}</strong><small>${e(h.detail)}</small></a>`).join("")}</div>
       <p class="attributed">${e(p.status_note)}</p>
       ${featured ? `<p><a href="${e(featured.url)}" target="_blank" rel="noopener noreferrer">Read the report from ${e(featured.publisher)} ↗</a> <span class="meta">(opens in a new tab)</span></p>` : ""}
       <nav class="profile-nav" aria-label="On this page">${p.sections.map((s) => `<a href="#${s.id}">${e(s.title)}</a>`).join("")}<a href="#sources">Source register</a></nav>
-      ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.paragraphs.map((para) => `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${e(para.text)}</p></blockquote>` : `<p>${e(para.text)}</p>`}${citations(para.sources)}`).join("")}</article>`).join("")}</section>`).join("")}
+      ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.table ? `<div class="profile-table-wrap" role="region" aria-label="${e(entry.table.caption)}" tabindex="0"><table class="profile-table"><caption>${e(entry.table.caption)}</caption><thead><tr>${entry.table.columns.map((c) => `<th scope="col">${e(c)}</th>`).join("")}</tr></thead><tbody>${entry.table.rows.map((row) => `<tr>${row.map((cell, i) => i === 0 ? `<th scope="row">${e(cell)}</th>` : `<td>${e(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}${entry.paragraphs.map((para) => `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${e(para.text)}</p></blockquote>` : `<p>${e(para.text)}</p>`}${citations(para.sources)}`).join("")}</article>`).join("")}${p.evidence_image?.after_section === s.id ? evidenceImage : ""}</section>`).join("")}
       <section class="profile-section" id="sources"><h2>Source register</h2><p>Sources are numbered in order of first citation; repeated citations keep their number. Source links open in a new tab. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${orderedSources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
       <h2>Related research</h2><ul>${p.related?.length || p.research_links?.length ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/people/">People &amp; public records</a></li><li><a href="/research/">Research library</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
     }));

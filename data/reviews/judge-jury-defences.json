@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-19",
+  "page": "/research/defences-withdrawn-from-jury/",
+  "input": {
+    "description": "User-supplied introduction, AI-generated discussion and infographic treated as research leads, not authorities.",
+    "attachment_sha256": "c10dc3d866c7f05ae58122d0cd938546fd9bb74d0f376e74654f7a39faafe6fb",
+    "image_sha256": "d15da53045cb8de13ddfda4d8055815b865fdc09c4b3f7ba9cc8bd2f68bc5f68",
+    "image": "Supplied infographic copied unchanged; article explains its stages in searchable text and qualifies its compressed account of reconsideration. Image contains court imagery but is labelled user-supplied, not a court publication."
+  },
+  "scope": "Targeted primary-source review of jury roles, defence withdrawal, criminal-damage lawful excuse, section 58 reasonable excuse, and review routes in England and Wales. Not an exhaustive case digest or assessment of a live prosecution.",
+  "checks_and_qualifications": [
+    "Title uses defences rather than treating all moral excuses as recognised legal defences; explains before or during trial, not only pre-trial.",
+    "Wang paragraph 14 warns against removing factual questions, not simply permission to withdraw unsupported defences. Paragraph 18 prohibits directing conviction.",
+    "2024 reference paragraphs 54–64 preserve caution and the no-reasonable-properly-directed-jury threshold, not a broad discretion to reject unconvincing explanations.",
+    "Defence withdrawal and exclusion of evidence are distinct. Section 78 PACE concerns prosecution evidence, not a general power to suppress defence explanations.",
+    "Section 5(2)(b) protects property; section 5(3) protects honest beliefs but does not dissolve the other requirements. The burden statement is expressly limited to criminal-damage lawful excuse.",
+    "Section 40(5) requires a material change for a party's variation application, alongside interests of justice and judicial initiative under subsection (4).",
+    "Section 35 preparatory-hearing appeals are not a general appeal against ordinary section 40 rulings. Conviction appeal guidance uses 28 days from conviction, not sentence.",
+    "Attorney General references do not disturb the original acquittals under section 36(7).",
+    "Webster [2026] EWCA Crim 9 is included as a later jury-independence case, not as an appeal determining all defence-withdrawal rules.",
+    "Reform proposals are labelled as our analysis, not existing procedural entitlements."
+  ],
+  "access": [
+    "Wang read on Parliament's HTML pages; G and J paragraphs 79–83 checked in Parliament's PDF text.",
+    "2022 reference read on Find Case Law; 2024 reference and Webster read via official National Archives XML because web-reader HTML was unavailable.",
+    "Revised sections 6A, 35, 40 CPIA; section 78 PACE; section 2 Criminal Appeal Act; section 36 Criminal Justice Act checked in legislation.gov.uk XML. Section 5 Criminal Damage Act checked in the official web text.",
+    "CPS disclosure and protest guidance and GOV.UK conviction-appeal guidance checked directly.",
+    "Ditchfield primary endpoint returned 404; no separate case account added. The article refers to remoteness as discussed in the identified CPS guidance."
+  ]
+}
