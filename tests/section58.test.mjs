@@ -53,3 +53,23 @@ test("section 58 study retains checked corrections rather than supplied AI claim
   assert.match(text("walker-case"), /nor disclose exactly why the jury acquitted/);
   assert.match(text("creagh-case"), /neither challenged the verdicts nor purported to reveal the jury/);
 });
+
+test("curiosity follow-up distinguishes the legal rule, evidence and academic critique", async () => {
+  const p = await json(`data/profiles/${id}.json`);
+  assert.equal(p.sections[0].id, "curiosity");
+  const entries = new Map(p.sections.flatMap((s) => s.entries).map((e) => [e.id, e]));
+  const text = (id) => entries.get(id).paragraphs.map((p) => p.text).join(" ");
+  assert.match(text("curiosity-rule"), /not one that can be answered in the abstract/);
+  assert.ok(entries.get("curiosity-rule").paragraphs[0].sources.some((s) => s.id === "gj" && s.locator === "para 83"));
+  assert.match(text("dunleavy-case"), /innocent purpose did not neutralise an impermissible additional purpose/);
+  assert.match(text("dunleavy-case"), /not another Cookbook prosecution/);
+  assert.match(text("academic-research"), /does not require university affiliation, peer review or ethics-board approval/);
+  assert.match(text("academic-research"), /non-exhaustive/);
+  assert.match(text("ordinary-information"), /“dual use” is not a blanket exemption/);
+  assert.match(text("curiosity-in-practice"), /six interviews/);
+  assert.match(text("curiosity-in-practice"), /not a rule of law or a measured acquittal rate/);
+  assert.match(text("informed-reader"), /case-specific advice/);
+  const html = await read(`public/research/${id}/index.html`);
+  assert.ok(html.includes('id="curiosity"'));
+  assert.ok(html.includes('id="ordinary-information"'));
+});

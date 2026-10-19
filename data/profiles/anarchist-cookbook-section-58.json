@@ -36,10 +36,10 @@
       "target": "availability"
     },
     {
-      "label": "Reasonable excuse",
-      "value": "Evidence, not a label",
-      "detail": "Section 118 keeps the ultimate burden with the prosecution once the issue is raised.",
-      "target": "reasonable-excuse"
+      "label": "Curiosity",
+      "value": "Not automatically excluded",
+      "detail": "Not automatically a defence either: the facts and evidence matter.",
+      "target": "curiosity"
     },
     {
       "label": "Reported outcomes",
@@ -49,6 +49,76 @@
     }
   ],
   "sections": [
+    {
+      "id": "curiosity",
+      "title": "Is curiosity a reasonable excuse?",
+      "intro": "Neither “curiosity always works” nor “curiosity can never work” accurately states the law.",
+      "entries": [
+        {
+          "id": "curiosity-rule",
+          "title": "The leading judgment expressly leaves the question open",
+          "kind": "Appellate interpretation",
+          "citation": "R v G; R v J [2009] UKHL 13, paragraph 83",
+          "paragraphs": [
+            {
+              "text": "The House of Lords considered downloading and storing material out of curiosity. Whether that supplies a reasonable excuse is “not one that can be answered in the abstract”: the conduct and circumstances determine the answer. This contradicts a categorical claim that curiosity is always rejected as a matter of law; it does not promise a successful defence.",
+              "sources": [{ "id": "gj", "locator": "para 83" }]
+            },
+            {
+              "text": "The Court of Appeal in Dunleavy reaffirmed that an excuse ordinarily goes to the jury unless it is plainly incapable of being reasonable. Believing one’s own explanation is reasonable does not settle the objective question. The court can consider the whole explanation and surrounding evidence, rather than the label “curiosity” in isolation.",
+              "sources": [{ "id": "dunleavy", "locator": "paras 40–50" }]
+            }
+          ]
+        },
+        {
+          "id": "dunleavy-case",
+          "title": "Dunleavy: curiosity alongside other purposes",
+          "kind": "Published judgment · wider section 58 authority",
+          "date": "2021-01-21",
+          "citation": "R v Dunleavy [2021] EWCA Crim 39",
+          "paragraphs": [
+            {
+              "text": "Dunleavy invoked curiosity and self-education, but also admitted sharing material with people he understood to support extreme-right terrorist action. The court considered those purposes, his boasting and his anticipation of a race war. It upheld withdrawing reasonable excuse from the jury; an innocent purpose did not neutralise an impermissible additional purpose. His subsequent terrorism-preparation conviction also defeated the challenge. Leave to appeal was refused.",
+              "sources": [{ "id": "dunleavy", "locator": "paras 13–16, 40–51, 67" }]
+            },
+            {
+              "text": "This is a wider section 58 authority, not another Cookbook prosecution. It illustrates why an explanation can fail on its facts—not a rule that every curious reader lacks a defence.",
+              "sources": [{ "id": "dunleavy", "locator": "paras 2, 11–16, 40–51" }]
+            }
+          ]
+        },
+        {
+          "id": "academic-research",
+          "title": "Must research belong to a university?",
+          "kind": "Statutory text and legislative history",
+          "paragraphs": [
+            {
+              "text": "Section 58(3A)(b)(ii) expressly identifies academic research. Its text does not require university affiliation, peer review or ethics-board approval. That does not turn every private reading interest into academic research: the actual purpose remains a factual question. Nor must every reasonable excuse fit that category; the statutory examples are expressly non-exhaustive.",
+              "sources": [{ "id": "section58", "locator": "s 58(3)–(3A)" }]
+            },
+            {
+              "text": "Introducing the amendment on 3 December 2018, Earl Howe told the Lords that journalism and academic research complemented the existing defence, rather than replacing it. Other equally reasonable explanations remained possible. This is legislative history, not a judicial guarantee that any particular reader’s explanation will succeed.",
+              "sources": [{ "id": "hansard-research", "locator": "Clause 3, Amendment 6, Earl Howe, 4.30pm" }]
+            }
+          ]
+        },
+        {
+          "id": "curiosity-in-practice",
+          "title": "Legal possibility is not the same as practical reassurance",
+          "kind": "Academic research and critique",
+          "paragraphs": [
+            {
+              "text": "Kajsa E. Dinesson’s 2024 study combines case analysis with six interviews with experienced prosecutors and defence counsel. It finds that wider online behaviour and other “mindset material” can undermine curiosity explanations. Footnote 66 distinguishes a possible defence in principle from the author’s assessment that success is unlikely in practice. This small qualitative study is not a rule of law or a measured acquittal rate.",
+              "sources": [{ "id": "dinesson", "locator": "Introduction; Filling gaps and finding a terrorist mindset; footnote 66" }]
+            },
+            {
+              "text": "Dinesson also questions whether such evidence reliably distinguishes dangerous intent from curiosity, fantasy or vulnerability, especially for young and neurodivergent defendants. That is a substantive criticism of the law’s operation—not proof that all prosecutions are unjustified or that curiosity is legally forbidden.",
+              "sources": [{ "id": "dinesson", "locator": "The way forward" }]
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "availability",
       "title": "Available to buy. Prosecuted to possess.",
@@ -147,7 +217,7 @@
           "kind": "Appellate interpretation",
           "paragraphs": [
             {
-              "text": "R v G; R v J [2009] UKHL 13 distinguishes inherently practically useful terrorist information from everyday material that could incidentally be misused. For possession, the prosecution must prove control of the record, knowledge of possession, and awareness of the kind of information it contains. It need not prove the defendant had a terrorist purpose.",
+              "text": "For possession, G and J requires control of the record, knowledge of possession and awareness of the information’s nature. The prosecution need not prove a terrorist purpose.",
               "sources": [
                 {
                   "id": "gj",
@@ -163,6 +233,17 @@
                   "locator": "para 18(vi)"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "ordinary-information",
+          "title": "Couldn’t almost any information be useful to a terrorist?",
+          "kind": "Appellate interpretation",
+          "paragraphs": [
+            {
+              "text": "G and J rejects that unlimited reading: an ordinary timetable or street atlas is not caught merely because a terrorist could use it. The information must itself provide practical assistance of the relevant kind. But usefulness need not be exclusive to terrorists: “dual use” is not a blanket exemption. Contents matter, not a book’s general category.",
+              "sources": [{ "id": "gj", "locator": "paras 42–44" }]
             }
           ]
         },
@@ -186,15 +267,6 @@
                 {
                   "id": "section118",
                   "locator": "s 118(1)–(2), (5)(a)"
-                }
-              ]
-            },
-            {
-              "text": "G and J requires an objectively reasonable excuse. Merely asserting a non-terrorist purpose does not suffice. Curiosity cannot be decided in the abstract: the particular facts matter. There is no universal hobbyist exemption or automatic rejection of genuine research.",
-              "sources": [
-                {
-                  "id": "gj",
-                  "locator": "paras 75–83"
                 }
               ]
             }
@@ -407,6 +479,17 @@
       "intro": "Our analysis: test the boundaries of the law without flattening different records into one story.",
       "entries": [
         {
+          "id": "informed-reader",
+          "title": "Wanting to understand the law is not a personal clearance",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Our conclusion: studying why these prosecutions occur and establishing a defence for possessing a particular document are different questions. We cannot determine from “I became intrigued by the controversy” whether a court would accept an excuse. This research links to legislation, judgments and analysis, not the manuals. Anyone facing a real possession question or police enquiry should obtain case-specific advice from a criminal defence solicitor rather than rely on an AI-generated assurance.",
+              "sources": []
+            }
+          ]
+        },
+        {
           "id": "research-limits",
           "title": "A research record, not a prediction tool",
           "kind": "Research method",
@@ -416,7 +499,7 @@
               "sources": []
             },
             {
-              "text": "The supplied AI-generated drafts were treated as leads, not verified sources. Unchecked additional cases, claims about recipe reliability, and claims ranking section 58 by charge frequency have not been adopted. No current retail stock audit or comprehensive search for later developments in every case has been completed. Corrections and additional primary records are welcome.",
+              "text": "The supplied AI-generated drafts were treated as leads, not verified sources. The curiosity follow-up checked the revised statute, G and J, Dunleavy, the 2018 parliamentary debate and subsequent academic analysis. It did not establish a categorical ban on curiosity or a statutory institutional-affiliation requirement. Unchecked additional cases, claims about recipe reliability, and charge-frequency rankings have not been adopted. This is a targeted review, not an exhaustive case register or current retail stock audit. Corrections and additional primary records are welcome.",
               "sources": []
             }
           ]
@@ -425,6 +508,33 @@
     }
   ],
   "sources": [
+    {
+      "id": "dunleavy",
+      "title": "R v Dunleavy [2021] EWCA Crim 39",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2021/39",
+      "publisher": "Court of Appeal · The National Archives",
+      "type": "Published judgment",
+      "date": "2021-01-21",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "hansard-research",
+      "title": "Counter-Terrorism and Border Security Bill — Clause 3, Amendment 6",
+      "url": "https://hansard.parliament.uk/lords/2018-12-03/debates/F5553B52-F09B-4DDB-9728-F3E3EE50EC48/Counter-TerrorismAndBorderSecurityBill",
+      "publisher": "House of Lords · Hansard",
+      "type": "Parliamentary debate · legislative history",
+      "date": "2018-12-03",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "dinesson",
+      "title": "A terrorist mindset: findings from an empirical enquiry into prosecutions, evidence, and mindset material",
+      "url": "https://www.cambridge.org/core/journals/legal-studies/article/terrorist-mindset-findings-from-an-empirical-enquiry-into-prosecutions-evidence-and-mindset-material/8C72A7563D654CA4E02300741B5BB069",
+      "publisher": "Kajsa E. Dinesson · Legal Studies · Cambridge University Press",
+      "type": "Original academic research and analysis",
+      "date": "2024-11-11",
+      "checked": "2026-10-19"
+    },
     {
       "id": "bel",
       "title": "R v Bel [2021] EWCA Crim 1461",

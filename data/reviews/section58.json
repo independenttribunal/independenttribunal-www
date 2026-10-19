@@ -5,6 +5,20 @@
     "description": "User-supplied case summary and AI-generated statutory analysis; leads, not authority.",
     "attachment_sha256": "44ba0fba6b0bcb0097ea07f7b88ed0375fb48cf07655c37c779eaedbfffba06f"
   },
+  "curiosity_follow_up": {
+    "checked": "2026-10-19",
+    "attachment_sha256": "0e141e76c04db22a34db350ca13efa65b3dee334eadcd1194d39ca479e599e2c",
+    "scope": "Targeted review of current legislation, leading and later appellate authority, legislative history and original academic research; not an exhaustive search of every prosecution.",
+    "corrections": [
+      "G and J paragraph 83 expressly declines to determine curiosity in the abstract; the supplied categorical no-defence claim is not adopted.",
+      "Dunleavy illustrates mixed purposes and withdrawing an incapable defence from the jury, not a blanket ban on curiosity.",
+      "Section 58(3A) does not expressly require institutional affiliation, peer review or ethics approval; this is not a promise that private reading qualifies as academic research.",
+      "Material need not be useful exclusively to terrorists; ordinary maps and timetables are examples of the limit, not an exemption for every dual-use reference book.",
+      "Dinesson's assessment of practice is distinguished from the legal rule; six qualitative interviews do not establish an acquittal probability.",
+      "No conclusion about the user's circumstances and no manufactured-excuse checklist."
+    ],
+    "source_access": "Dunleavy and current sections 58/118 read from official XML; G and J from Parliament's judgment PDF; Hansard and Cambridge University Press read directly."
+  },
   "corrections": [
     "Section 58 reasonable-excuse examples are in 58(3A)(a) and (b)(i)-(ii), not 3B/3C.",
     "Section 118 imposes an evidential burden; the prosecution must disprove the defence beyond reasonable doubt once sufficiently raised.",
