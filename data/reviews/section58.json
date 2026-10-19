@@ -1,6 +1,13 @@
 {
   "checked": "2026-10-19",
   "page": "/research/anarchist-cookbook-section-58/",
+  "opening_and_screenshot": {
+    "updated": "2026-10-19",
+    "opening": "Restored the user's exact requested editorial wording: How bizarre it is widely available on Amazon.",
+    "asset": "/images/anarchist-cookbook-amazon-listing.png",
+    "provenance": "User-supplied screenshot, copied without alteration. Receipt date is not independently verified capture time.",
+    "edition_note": "The listing names Keith McHenry and 1 October 2015. Caption does not equate it with documents in the reported prosecutions. No sales link added."
+  },
   "input": {
     "description": "User-supplied case summary and AI-generated statutory analysis; leads, not authority.",
     "attachment_sha256": "44ba0fba6b0bcb0097ea07f7b88ed0375fb48cf07655c37c779eaedbfffba06f"

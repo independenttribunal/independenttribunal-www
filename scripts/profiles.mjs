@@ -10,6 +10,11 @@ export function validateProfile(p, fail) {
   }
   if (!safeId.test(p.id) || !date.test(p.checked)) fail("safe id and checked date required");
   if (p.category && p.category !== "legal-study") fail("unknown profile category");
+  if (p.evidence_image) {
+    const image = p.evidence_image;
+    if (!/^\/images\/[a-z0-9-]+\.(png|jpg|webp)$/.test(image.src) || !image.alt?.trim() || !image.caption?.trim()) fail("evidence image requires a local image path, alt text and caption");
+    if (![image.width, image.height].every((n) => Number.isInteger(n) && n > 0)) fail("evidence image requires positive integer dimensions");
+  }
   for (const related of [...(p.related ?? []), ...(p.research_links ?? [])]) {
     if (!safeId.test(related.id) || !related.title) fail("related pages require a safe id and title");
   }
@@ -65,6 +70,7 @@ export function profileText(p) {
   const sources = new Map(p.sources.map((s) => [s.id, s]));
   return [
     `## ${p.title} — ${p.subtitle}\nURL: ${p.url}\nSource review: ${p.checked}\n${p.scope}\n${p.status_note}`,
+    ...(p.evidence_image ? [`Image: ${p.evidence_image.src}\n${p.evidence_image.alt}\n${p.evidence_image.caption}`] : []),
     ...p.highlights.map((h) => `${h.label}: ${h.value}. ${h.detail}.`),
     ...p.sections.map((section) => `### ${section.title}\n${section.intro}\n` + section.entries.map((entry) =>
       `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + entry.paragraphs.map((para) => `${para.text}\n${para.sources.map((ref) => {
@@ -96,6 +102,9 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       meta: `<p class="meta">Sources reviewed ${e(p.checked)} · <a href="/data/profiles/${p.id}.json">Download JSON</a> · <a href="${site.source_repo}/commits/main/data/profiles/${p.id}.json">Edit history</a></p>`,
       body: `<style>
         .profile-hero { border-top:4px solid var(--navy); padding-top:1.6rem; }
+        .profile-evidence { margin:1.5rem 0; }
+        .profile-evidence img { display:block; width:100%; height:auto; border:1px solid var(--line); }
+        .profile-evidence figcaption { margin-top:.65rem; color:var(--muted); font:12px/1.6 ui-sans-serif,system-ui,sans-serif; }
         .profile-scope { border-left:3px solid var(--gold); padding:.8rem 1.2rem; background:#eee8da; font-size:.95rem; }
         .profile-status { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.75rem; margin:1.7rem 0; }
         .profile-status a { display:flex; flex-direction:column; gap:.7rem; padding:1rem; border:1px solid var(--line); background:white; text-decoration:none; }
@@ -114,7 +123,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         @media(max-width:560px) { .profile-status { grid-template-columns:1fr; } }
         @media print { .profile-nav,.contact { display:none; } }
       </style>
-      <div class="profile-hero"><a href="/research/" class="kicker">Independent Tribunal · Research</a><h1>${e(p.title)}</h1><p class="lede">${e(p.subtitle)}</p><p>${e(p.summary)}</p><p class="meta">${e(p.jurisdiction)} · Sources reviewed <time datetime="${p.checked}">${e(p.checked)}</time></p></div>
+      <div class="profile-hero"><a href="/research/" class="kicker">Independent Tribunal · Research</a><h1>${e(p.title)}</h1><p class="lede">${e(p.subtitle)}</p>${p.evidence_image ? `<figure class="profile-evidence"><img src="${e(p.evidence_image.src)}" alt="${e(p.evidence_image.alt)}" width="${p.evidence_image.width}" height="${p.evidence_image.height}"><figcaption>${e(p.evidence_image.caption)}</figcaption></figure>` : ""}<p>${e(p.summary)}</p><p class="meta">${e(p.jurisdiction)} · Sources reviewed <time datetime="${p.checked}">${e(p.checked)}</time></p></div>
       ${p.category !== "legal-study" ? '<p><a href="/people/">People &amp; public records →</a></p>' : ""}
       <aside class="profile-scope">${e(p.scope)}</aside>
       <div class="profile-status">${p.highlights.map((h) => `<a href="#${h.target}"><small>${e(h.label)}</small><strong>${e(h.value)}</strong><small>${e(h.detail)}</small></a>`).join("")}</div>

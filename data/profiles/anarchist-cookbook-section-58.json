@@ -2,7 +2,14 @@
   "id": "anarchist-cookbook-section-58",
   "category": "legal-study",
   "title": "The Anarchist Cookbook and section 58 of the Terrorism Act 2000",
-  "subtitle": "How bizarre that a book reported as widely available on Amazon can also feature in terrorism prosecutions.",
+  "subtitle": "How bizarre it is widely available on Amazon.",
+  "evidence_image": {
+    "src": "/images/anarchist-cookbook-amazon-listing.png",
+    "alt": "Amazon listing for The Anarchist Cookbook by Keith McHenry, dated 1 October 2015, showing a £12.29 paperback with four copies left in stock and a £7.39 Kindle edition available instantly.",
+    "caption": "Amazon screenshot supplied on 19 October 2026. The listing identifies Keith McHenry’s 2015 edition; it is not assumed to be the same text as the documents involved in the cases below.",
+    "width": 1350,
+    "height": 728
+  },
   "summary": "Commercial availability and criminal liability are different questions. The court record documents an Amazon purchase; the law turns on the material, knowledge and reasonable excuse—not a title alone.",
   "scope": "Education, awareness and legal research. This page examines legislation and reported proceedings; it does not reproduce the manual, provide instructions from it or link to copies for sale or download.",
   "status_note": "Selected cases, not an exhaustive register. Outcomes are dated; they do not establish anyone’s current custody or licence status. Police accounts, reporting, judicial findings and our analysis are distinguished.",
@@ -32,7 +39,7 @@
     {
       "label": "Commercial availability",
       "value": "Not legal clearance",
-      "detail": "An Amazon purchase is recorded in Bel’s judgment.",
+      "detail": "The supplied Amazon screenshot is above; the court purchase record is below.",
       "target": "availability"
     },
     {
@@ -122,7 +129,7 @@
     {
       "id": "availability",
       "title": "Available to buy. Prosecuted to possess.",
-      "intro": "The paradox is documented. A current claim about Amazon stock would require a separate check.",
+      "intro": "The Amazon screenshot above and the historical court record below are distinct pieces of evidence. Their editions should not be conflated.",
       "entries": [
         {
           "id": "amazon-record",

@@ -7,6 +7,30 @@ const id = "anarchist-cookbook-section-58";
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8");
 const json = async (path) => JSON.parse(await read(path));
 
+test("section 58 preserves the requested opening and supplied Amazon screenshot", async () => {
+  const p = await json(`data/profiles/${id}.json`);
+  assert.equal(p.subtitle, "How bizarre it is widely available on Amazon.");
+  const html = await read(`public/research/${id}/index.html`);
+  assert.ok(html.includes(`<p class="lede">${p.subtitle}</p>`));
+  assert.ok(html.includes(`<img src="${p.evidence_image.src}"`));
+  assert.ok(html.indexOf('class="profile-evidence"') < html.indexOf('class="profile-scope"'));
+  assert.match(p.evidence_image.caption, /Keith McHenry’s 2015 edition/);
+  assert.match(p.evidence_image.caption, /not assumed to be the same text/);
+  const image = await readFile(new URL(`../public${p.evidence_image.src}`, import.meta.url));
+  assert.equal(image.subarray(1, 4).toString(), "PNG");
+  assert.equal(image.readUInt32BE(16), p.evidence_image.width);
+  assert.equal(image.readUInt32BE(20), p.evidence_image.height);
+  assert.ok((await read("public/llms-full.txt")).includes(p.evidence_image.caption));
+});
+
+test("profile evidence images reject unsafe paths and missing accessibility metadata", async () => {
+  const p = await json(`data/profiles/${id}.json`);
+  for (const patch of [{ src: "https://example.com/image.png" }, { src: "/images/../secret.png" }, { alt: "" }, { caption: "" }, { width: -1 }]) {
+    const invalid = { ...p, evidence_image: { ...p.evidence_image, ...patch } };
+    assert.throws(() => validateProfile(invalid, (message) => { throw new Error(message); }), /evidence image/);
+  }
+});
+
 test("section 58 study is discoverable and keeps the shared research format", async () => {
   const p = await json(`data/profiles/${id}.json`);
   validateProfile(p, (message) => assert.fail(message));
