@@ -20,6 +20,7 @@ export default function Home() {
           <h1>The law,<br /><em>shown openly.</em></h1>
           <p className="hub-intro">Legal nuances, people&apos;s tribunals and case research, brought into the open. Follow the sources, distinguish the commentary, and learn how to navigate the system yourself.</p>
           <p className="hub-agents">Built for people and for AI: <a href="/llms.txt">llms.txt</a> · <a href="/data/index.json">open data</a> · <a href="/data/tiles.json">tiles.json</a></p>
+          <p className="hub-agents">Explore: <a href="/people/">People &amp; public records</a> · <a href="/research/">Research library</a></p>
         </div>
       </section>
 

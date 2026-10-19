@@ -269,7 +269,7 @@ for (const p of commentaryOut) await put(`data/commentary/${p.id}.json`, p);
 const tiles = [
   palestineActionTile,
   ...commentary.map((p) => ({ kind: "commentary", id: p.id, title: p.title, label: p.genre, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
-  ...profiles.map((p) => ({ kind: p.category === "legal-study" ? "study" : "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
+  ...profiles.map((p) => ({ kind: p.category === "legal-study" ? "study" : "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.category === "legal-study" ? p.tags : [...new Set(["people", ...p.tags])], href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
   ...research.map((r) => ({ kind: "research", id: r.id, title: r.title, label: `${r.jurisdiction} · ${r.updates?.length ? "case update available" : "historical dossier"}`, summary: r.summary, tags: [...r.tags, "research"], href: `/research/${r.id}/`, uk: r.tags.includes("uk") })),
   ...nuancesOut.map((n) => ({ kind: "nuance", id: n.id, title: n.title, label: n.label, summary: plain(n.summary), tags: n.tags ?? [], href: `/nuances/${n.id}/`, uk: true })),
   ...timelinesOut.map((t) => ({ kind: "timeline", id: t.id, title: t.title, label: t.kicker, summary: plain(t.description), tags: ["protest", "timeline"], href: t.path, uk: true })),
@@ -586,6 +586,7 @@ ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("
 
 ${commentaryOut.map((p) => `- [${p.title}](${p.url}): ${p.genre}; ${p.summary}`).join("\n")}
 - [Research library](${abs("/research/")}): Independent Tribunal’s research dossiers and public-record profiles
+- [People & public records](${abs("/people/")}): Individual profiles, proceedings, responses and source checks
 - [Palestine Action collection](${abs(palestineActionTile.href)}): one chronological index of ${palestineAction.cases.length} records, including actions before 7 October 2023. Both inputs are unified, with additional details and seven lobbying accounts attached to the relevant records. A CAGE advocacy report is preserved separately. Only identified fields have received targeted corrections, not a full re-audit. Do not conflate unaffiliated actions with Palestine Action, arrests with convictions, or allegations with findings. [Unified JSON](${abs("/data/collections/palestine-action.json")}) preserves corrections, quality issues and record-level provenance; source dates are not current-status checks.
 ${profilesOut.map((p) => `- [${p.title}](${p.url}): ${p.subtitle}; sources reviewed ${p.checked}, selected coverage only`).join("\n")}
 ${researchOut.map((r) => `- [${r.title}](${r.url}): ${r.summary} (historical import; source date ${r.source_as_of}; current review pending)`).join("\n")}
@@ -627,7 +628,7 @@ const full = [
 ].join("");
 await put("llms-full.txt", full);
 
-const pages = ["/", "/about", "/research/", ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
+const pages = ["/", "/about", "/research/", "/people/", ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
 pages.push(...commentary.map((p) => `/research/${p.id}/`));
 pages.push(palestineActionTile.href);
 await put("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>

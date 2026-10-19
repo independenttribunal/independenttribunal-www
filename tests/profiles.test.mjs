@@ -7,6 +7,42 @@ const read = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8");
 const json = async (path) => JSON.parse(await read(path));
 const source = () => json("data/profiles/roger-hallam.json");
 
+test("Richard Heart separates the dismissed civil case, allegations and confirmed detention", async () => {
+  const p = await json("data/profiles/richard-heart.json");
+  validateProfile(p, (message) => assert.fail(message));
+  const html = await read("public/research/richard-heart/index.html");
+  assert.match(html, /territorial scope/);
+  assert.match(html, /jurisdictional only misses/);
+  assert.match(html, /17 October 2026/);
+  assert.match(html, /No final Finnish criminal judgment/);
+  assert.match(html, /not an international arrest warrant/);
+  assert.match(html, /recipient’s account of a community fundraiser/);
+  assert.match(html, /href="\/people\/"/);
+  const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]);
+  assert.equal(new Set(ids).size, ids.length);
+  for (const match of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(match[1]), match[1]);
+  const numbers = [...html.matchAll(/aria-label="Source (\d+):/g)].map((match) => Number(match[1]));
+  const firstCitations = [...new Set(numbers)];
+  assert.deepEqual(firstCitations, firstCitations.map((_, i) => i + 1));
+  for (const s of p.sources) assert.ok(html.includes(`href="${s.url}" target="_blank" rel="noopener noreferrer"`), s.id);
+  const exported = await json("public/data/profiles/richard-heart.json");
+  assert.deepEqual(exported.provenance, p.provenance);
+});
+
+test("people category contains people, not legal studies, and is discoverable", async () => {
+  const html = await read("public/people/index.html");
+  assert.match(html, /People &amp; public records/);
+  assert.match(html, /Inclusion is not a judgment of character/);
+  const profiles = (await json("public/data/profiles.json")).profiles;
+  const tiles = (await json("public/data/tiles.json")).tiles;
+  for (const p of profiles) {
+    assert.equal(html.includes(`href="/research/${p.id}/"`), p.category !== "legal-study", p.id);
+    assert.equal(tiles.find((t) => t.id === p.id).tags.includes("people"), p.category !== "legal-study");
+  }
+  for (const file of ["public/sitemap.xml", "public/llms.txt"]) assert.ok((await read(file)).includes("/people/"), file);
+  for (const file of ["public/research/index.html", "public/sitemap.xml", "public/llms.txt", "public/llms-full.txt"]) assert.ok((await read(file)).includes("/research/richard-heart/"), file);
+});
+
 test("Menon profile distinguishes jurisdiction, a case to answer and final contempt findings", async () => {
   const p = await json("data/profiles/rajiv-menon-kc.json");
   const errors = [];
@@ -129,7 +165,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const p = await json("public/data/profiles/roger-hallam.json");
   const collection = await json("public/data/profiles.json");
   assert.deepEqual(collection.profiles.find((profile) => profile.id === p.id), p);
-  assert.equal(collection.profiles.length, 7);
+  assert.equal(collection.profiles.length, 8);
   assert.equal(p.url, "https://independenttribunal.org/research/roger-hallam/");
   for (const s of p.sections) for (const entry of s.entries) for (const para of entry.paragraphs) for (const ref of para.sources) {
     assert.ok(ref.title && ref.type && ref.publisher && ref.checked);
@@ -146,7 +182,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const { tiles } = await json("public/data/tiles.json");
   assert.equal(tiles.find((t) => t.id === p.id).kind, "profile");
   const index = await json("public/data/index.json");
-  assert.equal(index.datasets.find((d) => d.id === "profiles").count, 7);
+  assert.equal(index.datasets.find((d) => d.id === "profiles").count, 8);
   assert.equal(index.datasets.find((d) => d.id === "research").count, 6, "historical imports remain a distinct dataset");
 });
 

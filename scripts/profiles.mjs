@@ -76,6 +76,12 @@ export function profileText(p) {
 }
 
 export async function publishProfiles({ profiles, put, page, escapeHtml: e, site }) {
+  const people = profiles.filter((p) => p.category !== "legal-study");
+  await put("people/index.html", page({
+    title: "People & public records", path: "/people/",
+    description: "Individual profiles grounded in documents: public work, legal proceedings, responses and unresolved questions.",
+    body: `<p class="kicker">Independent Tribunal · Research category</p><h1>People &amp; public records</h1><p class="lede">The person. The claims. The record.</p><p>Public figures and individuals whose cases raise wider questions about law, power and accountability. Inclusion is not a judgment of character: an allegation is not a conviction, and a dismissal deserves the same prominence as a complaint.</p><ul class="policy-list">${people.map((p) => `<li><span class="kicker">${e(p.jurisdiction)}</span><h2><a href="/research/${p.id}/">${e(p.title)} →</a></h2><p>${e(p.summary)}</p><p class="meta">Sources reviewed ${e(p.checked)}</p></li>`).join("")}</ul><p><a href="/data/profiles.json">Download the profiles and legal studies JSON</a> · <a href="/research/">All research</a></p>`,
+  }));
   for (const p of profiles) {
     const order = [...new Set(p.sections.flatMap((section) => section.entries.flatMap((entry) => entry.paragraphs.flatMap((para) => para.sources.map((ref) => ref.id)))))];
     const orderedSources = [...order.map((id) => p.sources.find((s) => s.id === id)), ...p.sources.filter((s) => !order.includes(s.id))];
@@ -109,6 +115,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         @media print { .profile-nav,.contact { display:none; } }
       </style>
       <div class="profile-hero"><a href="/research/" class="kicker">Independent Tribunal · Research</a><h1>${e(p.title)}</h1><p class="lede">${e(p.subtitle)}</p><p>${e(p.summary)}</p><p class="meta">${e(p.jurisdiction)} · Sources reviewed <time datetime="${p.checked}">${e(p.checked)}</time></p></div>
+      ${p.category !== "legal-study" ? '<p><a href="/people/">People &amp; public records →</a></p>' : ""}
       <aside class="profile-scope">${e(p.scope)}</aside>
       <div class="profile-status">${p.highlights.map((h) => `<a href="#${h.target}"><small>${e(h.label)}</small><strong>${e(h.value)}</strong><small>${e(h.detail)}</small></a>`).join("")}</div>
       <p class="attributed">${e(p.status_note)}</p>
@@ -116,7 +123,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       <nav class="profile-nav" aria-label="On this page">${p.sections.map((s) => `<a href="#${s.id}">${e(s.title)}</a>`).join("")}<a href="#sources">Source register</a></nav>
       ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.paragraphs.map((para) => `<p>${e(para.text)}</p>${citations(para.sources)}`).join("")}</article>`).join("")}</section>`).join("")}
       <section class="profile-section" id="sources"><h2>Source register</h2><p>Sources are numbered in order of first citation; repeated citations keep their number. Source links open in a new tab. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${orderedSources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
-      <h2>Related research</h2><ul>${p.related || p.research_links ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/uk-timeline/">UK timeline</a></li><li><a href="/nuances/jury-conscience/">Jury conscience</a></li><li><a href="/nuances/lawful-excuse/">Lawful excuse</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
+      <h2>Related research</h2><ul>${p.related?.length || p.research_links?.length ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/people/">People &amp; public records</a></li><li><a href="/research/">Research library</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
     }));
   }
 }

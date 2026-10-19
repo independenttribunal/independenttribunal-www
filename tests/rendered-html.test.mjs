@@ -34,6 +34,9 @@ test("server-renders the information hub homepage", async () => {
   assert.match(html, /href="\/research\/hamas-deproscription\/"/);
   assert.match(html, /Hamas deproscription/);
   assert.match(html, /Public-record profile/);
+  assert.match(html, /href="\/people\/"/);
+  assert.match(html, /href="\/research\/richard-heart\/"/);
+  assert.match(html, /#people/);
   assert.match(html, /href="\/research\/mental-health-uk\/"/);
   assert.match(html, /Mental health in the UK/);
   assert.match(html, /Commentary/);

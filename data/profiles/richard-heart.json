@@ -1,0 +1,75 @@
+{
+  "id": "richard-heart",
+  "title": "Richard Heart",
+  "subtitle": "Richard James Schueler · crypto projects, litigation and the public record",
+  "summary": "HEX, PulseChain and PulseX; the dismissed US civil case; Finnish criminal allegations; and the October 2026 detention in Türkiye. Separate proceedings, separate standards of proof.",
+  "checked": "2026-10-19",
+  "jurisdiction": "United States · Finland · Türkiye",
+  "tags": ["crypto", "regulation", "courts", "cross-border"],
+  "scope": "A sourced public-record profile, not a verdict on a person. Allegations, court decisions, official announcements and a party’s response are identified separately. Detention does not establish guilt.",
+  "status_note": "Update to the supplied 14 October compilation: on 17 October 2026, Türkiye’s Justice Ministry announced that Schueler had been detained on 14 October. The US SEC action was dismissed in 2025. No final Finnish criminal judgment or completed extradition has been established in this review.",
+  "provenance": {"starting_point":"User-supplied dossier compiled 2026-10-14; used as research leads, not as proof.","reviewed":"2026-10-19","changes":"Updated detention confirmation; corrected the description of the US dismissal; omitted unsupported biographical claims, victim details and speculative asset totals."},
+  "related": [],
+  "highlights": [
+    {"label":"United States · 2025","value":"SEC action dismissed","detail":"Jurisdiction and territorial reach of securities law","target":"dismissal"},
+    {"label":"Finland","value":"Criminal allegations","detail":"Tax evasion and assault; no final judgment located","target":"finnish-record"},
+    {"label":"Türkiye · October 2026","value":"Detention announced","detail":"17 October official statement about 14 October operation","target":"detention-update"}
+  ],
+  "sections": [
+    {"id":"latest-update","title":"Latest update: detention confirmed by official announcement","intro":"The newer source changes the status of the original media reports. It does not resolve the allegations.","entries":[
+      {"id":"detention-update","title":"14–17 October 2026 · Istanbul","kind":"Official announcement, corroborated by reporting","date":"2026-10-17","paragraphs":[
+        {"text":"Türkiye’s Justice Ministry published a statement on 17 October saying Richard James Schueler had been detained in Beşiktaş on 14 October. The Block separately reported Justice Minister Akın Gürlek’s confirmation. The original dossier’s statement that no official confirmation had been located is therefore superseded. The ministry page was search-indexed during this review but redirected to its homepage when opened; the corroborating report is linked alongside it.","sources":[{"id":"turkey-ministry","locator":"Statement dated 17 October 2026; indexed text"},{"id":"turkey-report","locator":"Minister’s confirmation"}]},
+        {"text":"The ministry announced seizures across 15 addresses, including US$7.15 million, six cold wallets and 28 watches. These are the authorities’ reported inventory figures, not independently audited valuations or findings that the assets were criminal proceeds. Earlier media totals differ and should not be added together.","sources":[{"id":"turkey-ministry","locator":"Reported searches and inventory"}]},
+        {"text":"The Block notes a discrepancy: the minister described crypto-fraud allegations in the US and Finland, while the Finnish-requested Red Notice concerned suspected tax evasion and assault, and the US SEC lawsuit had already ended. Its report does not establish whether Türkiye received an extradition request. An announcement of detention must not be read as a revived SEC case or a criminal conviction.","sources":[{"id":"turkey-report","locator":"Heart’s Red Notice and unresolved extradition question"}]}
+      ]}
+    ]},
+    {"id":"projects","title":"The person and the projects","intro":"What the projects are, how they were described, and what those descriptions do not prove.","entries":[
+      {"id":"identity","title":"Richard Heart / Richard James Schueler","kind":"Public identity","paragraphs":[
+        {"text":"Richard Heart is the name used by Richard Schueler, founder of HEX, PulseChain and PulseX. The SEC’s 2023 release identifies the three projects and his involvement. This profile follows the legal and institutional record rather than attempting to certify claims about his wealth, intelligence, early business career or investment performance.","sources":[{"id":"sec-release","locator":"Identity and affiliated projects"}]}
+      ]},
+      {"id":"project-summary","title":"HEX, PulseChain and PulseX","kind":"Project background from the court record","paragraphs":[
+        {"text":"The dismissal order describes HEX as an Ethereum token, offered from December 2019, with a lock-up mechanism marketed as staking. PulseChain is an Ethereum fork with the PLS token; PulseX is its exchange project with PLSX. The order records fundraising labelled “sacrifices” in 2021–22 and token launches in May 2023. Its background recounts the complaint: that is not a trial finding or an investment endorsement.","sources":[{"id":"dismissal-order","locator":"Background I(a)–(c)"}]}
+      ]},
+      {"id":"charitable-fundraising","title":"2021 · SENS research fundraising","kind":"Recipient organisation’s account","paragraphs":[
+        {"text":"SENS Research Foundation’s 2022 annual report credits the PulseChain Airdrop initiative with raising approximately US$27 million in summer 2021 and thanks Heart for encouraging followers to donate. This is the recipient’s account of a community fundraiser—not evidence that the entire sum was his personal donation, and not a resolution of any unrelated legal allegation.","sources":[{"id":"sens-report","locator":"Page 14 · Richard Heart"}]}
+      ]}
+    ]},
+    {"id":"us-civil-case","title":"United States: the SEC civil case","intro":"Securities and Exchange Commission v. Schueler, 1:23-cv-05749 (CBA)(PK), Eastern District of New York.","entries":[
+      {"id":"sec-complaint","title":"31 July 2023 · civil allegations filed","kind":"Regulator’s allegations","date":"2023-07-31","paragraphs":[
+        {"text":"The SEC alleged unregistered crypto-asset securities offerings raising more than US$1 billion across the projects. It separately alleged that Heart and PulseChain diverted at least US$12 million to luxury purchases, including cars, watches and the Enigma black diamond. These were civil allegations, not established losses or a criminal verdict. The dismissal below is essential to any account of this complaint.","sources":[{"id":"sec-release","locator":"Allegations and requested civil remedies"}]}
+      ]},
+      {"id":"dismissal","title":"28 February 2025 · complaint dismissed","kind":"Federal court decision","date":"2025-02-28","paragraphs":[
+        {"text":"Judge Carol Bagley Amon granted the motion to dismiss. The order found insufficient suit-related US contacts for personal jurisdiction. It also held, independently, that the complaint did not adequately plead domestic transactions or conduct within the territorial scope of federal securities law. Describing the ruling as jurisdictional only misses that second ground.","sources":[{"id":"dismissal-order","locator":"Discussion I–II"}]},
+        {"text":"This was a dismissal of a civil pleading, not a criminal acquittal or a trial determination that the alleged conduct occurred. The court allowed an amended complaint if the SEC could remedy the deficiencies in good faith.","sources":[{"id":"dismissal-order","locator":"Background; Discussion III; conclusion"}]}
+      ]},
+      {"id":"sec-no-amendment","title":"21 April 2025 · SEC declines to amend","kind":"Defence counsel’s account and contemporaneous reporting","date":"2025-04-21","paragraphs":[
+        {"text":"Heart’s co-counsel, Clark Smith Villazor, reported that the SEC notified the court on 21 April that it would not amend its complaint; the firm links the filing and describes the outcome as a complete victory for its client. Contemporary reporting likewise records the decision not to continue. That closes this civil action; it does not decide separate Finnish allegations.","sources":[{"id":"defence-response","locator":"23 April account and linked SEC notice"},{"id":"sec-closure-report","locator":"April 2025 reporting"}]}
+      ]}
+    ]},
+    {"id":"finland-and-notices","title":"Finland and international notices","intro":"A separate criminal investigation. Suspicion, a remand order, a notice and a conviction are different procedural stages.","entries":[
+      {"id":"finnish-record","title":"13 September 2024 · remand in absentia","kind":"Reporting on police and court records","date":"2024-09-13","paragraphs":[
+        {"text":"Yle reported that Schueler was remanded in absentia on suspicion of gross tax evasion and assault. It dates the suspected tax conduct to 2 June 2020–2 April 2024 and the suspected assault to 16–17 February 2021. Quoting the investigating officer, Yle describes discrepancies between tax returns and the Tax Administration’s income assessment. This page has not independently obtained the Finnish remand order or a subsequent indictment; it does not present those suspicions as convictions.","sources":[{"id":"yle-remand","locator":"17 September 2024 report quoting detective Harri Saaristola"}]}
+      ]},
+      {"id":"red-notice","title":"What a Red Notice does—and does not—mean","kind":"INTERPOL procedure and case reporting","paragraphs":[
+        {"text":"October 2026 reporting records a Red Notice issued at Finland’s request in December 2024. INTERPOL explains that a Red Notice asks police to locate and provisionally arrest a person pending extradition, surrender or similar action. It is not an international arrest warrant; each country determines its legal effect. A notice is not a finding of guilt.","sources":[{"id":"turkey-report","locator":"Finnish request and December 2024 notice"},{"id":"interpol","locator":"About Red Notices"}]}
+      ]}
+    ]},
+    {"id":"research-notes","title":"Research notes and outstanding questions","intro":"Do your own research: follow the documents, check dates and identify who is making each claim.","entries":[
+      {"id":"coverage-limits","title":"What remains unverified here","kind":"Coverage limitation","paragraphs":[
+        {"text":"No final Finnish criminal judgment, completed extradition, Turkish charging document or subsequent custody order has been established in this review. The next useful records would be an official Finnish update, a Turkish judicial order, any extradition decision and a response from Schueler or his current criminal counsel. The US counsel’s 2025 statement is not a response to the 2026 detention.","sources":[]},
+        {"text":"The supplied JSON was a starting point, not a source of verified facts. This edition omits uncorroborated personal biography, graphic details of an alleged victim’s experience, unsupported exact tax totals and speculative asset ownership. It is selected coverage, not a complete criminal record or a live custody tracker. AI-generated summaries and repeated headlines do not replace the underlying evidence.","sources":[]}
+      ]}
+    ]}
+  ],
+  "sources": [
+    {"id":"turkey-ministry","title":"Justice Minister announces Richard James Schueler’s detention in Istanbul","publisher":"Republic of Türkiye · Ministry of Justice","type":"Official announcement; indexed text, direct URL redirected during review","url":"https://www.adalet.gov.tr/1-milyar-dolarlik-kripto-vurgununun-suphelisi-istanbul-da-yakalandi","date":"2026-10-17","checked":"2026-10-19"},
+    {"id":"turkey-report","title":"Turkey confirms Hex founder Richard Heart’s arrest","publisher":"The Block · Zack Abrams","type":"Reporting on the minister’s announcement","url":"https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852","date":"2026-10-17","checked":"2026-10-19"},
+    {"id":"sec-release","title":"SEC charges HEX founder Richard Heart — release 2023-143","publisher":"US Securities and Exchange Commission","type":"Regulator’s original allegations; case subsequently dismissed","url":"https://www.sec.gov/newsroom/press-releases/2023-143","date":"2023-07-31","checked":"2026-10-19"},
+    {"id":"dismissal-order","title":"SEC v. Schueler — memorandum and order, 28 February 2025","publisher":"US District Court, EDNY · reproduced by Midpage","type":"Court decision; third-party text reproduction","url":"https://app.midpage.ai/document/securities-and-exchange-commission-v-1000431717531","date":"2025-02-28","checked":"2026-10-19"},
+    {"id":"sens-report","title":"SENS Research Foundation — 2022 annual report","publisher":"SENS Research Foundation · archived by Lifespan Research Institute","type":"Fundraising recipient’s annual report","url":"https://lifespan.io/wp-content/uploads/2025/06/SRF-AR-2022-1.2.pdf","checked":"2026-10-19"},
+    {"id":"defence-response","title":"SEC declines to file amended complaint against Richard Heart","publisher":"Clark Smith Villazor LLP","type":"Defence counsel’s statement with links to court documents","url":"https://www.csvllp.com/latest-news/sec-declines-to-file-amended-complaint-against-csv-client-richard-heart-cementing-a-complete-victory-for-mr-heart-in-the-secs-case-against-him","date":"2025-04-23","checked":"2026-10-19"},
+    {"id":"sec-closure-report","title":"Richard Heart declares victory as SEC declines to amend","publisher":"The Block","type":"Contemporaneous reporting","url":"https://www.theblock.co/news/regulation/2025-04-23-hex-richard-heart-sec-fraud-suit-351621","date":"2025-04-23","checked":"2026-10-19"},
+    {"id":"yle-remand","title":"Finnish police suspect US crypto influencer of gross tax evasion and assault","publisher":"Yle News","type":"Reporting quoting police and describing the remand order","url":"https://yle.fi/a/74-20112197","date":"2024-09-17","checked":"2026-10-19"},
+    {"id":"interpol","title":"About Red Notices","publisher":"INTERPOL","type":"Official procedural explanation","url":"https://www.interpol.int/en/How-we-work/Notices/Red-Notices","checked":"2026-10-19"}
+  ]
+}
