@@ -47,7 +47,7 @@
           "date_label": "1994",
           "kind": "statute",
           "title": "Criminal Justice and Public Order Act",
-          "body": "\"Aggravated trespass\" is invented — protest on private land becomes a crime, not a civil matter. The right to silence is weakened. Even gatherings with \"repetitive beats\" are targeted.",
+          "body": "Aggravated trespass is created. Trespassing on land and doing something intended to intimidate, obstruct or disrupt a lawful activity there becomes a crime. Simply being on private land stays a civil matter. The right to silence is weakened. A separate power targets some outdoor gatherings at night whose music is characterised by repetitive beats.",
           "sources": [
             "ukpga-1994-33"
           ]
@@ -69,10 +69,11 @@
           "date_label": "2010",
           "kind": "pushback",
           "title": "Strasbourg strikes down s.44",
-          "body": "The European Court of Human Rights rules the suspicionless search power unlawful (*Gillan & Quinton v UK*) — after roughly ten years of use. The pattern is set: the power operates first, the court arrives later.",
+          "body": "The European Court of Human Rights rules the suspicionless search power unlawful (*Gillan & Quinton v UK*), after roughly ten years of use. Parliament later replaces sections 44 to 47 with section 47A. An authorisation can still allow a search without individual suspicion, but only where a senior officer reasonably suspects that an act of terrorism will take place, and only for a limited time and place.",
           "sources": [
             "gillan-quinton-v-uk-2010",
-            "tact-2000-s44"
+            "tact-2000-s44",
+            "tact-2000-s47a"
           ]
         },
         {
@@ -81,9 +82,10 @@
           "date_label": "2005",
           "kind": "statute",
           "title": "Serious Organised Crime and Police Act",
-          "body": "Unauthorised protest within one kilometre of Parliament becomes a criminal offence — legislation aimed substantially at a single man, Brian Haw, and his peace camp in Parliament Square.",
+          "body": "An unauthorised demonstration in a designated area of up to one kilometre around Parliament becomes a criminal offence. The provisions are aimed substantially at Brian Haw and his peace camp in Parliament Square. Sections 132 to 138 are later repealed. Parliament Square is then regulated under a different, narrower scheme.",
           "sources": [
-            "socpa-2005-part4"
+            "socpa-2005-part4",
+            "prsra-2011-s141"
           ]
         },
         {
@@ -92,7 +94,7 @@
           "date_label": "2012",
           "kind": "statute",
           "title": "LASPO: legal aid gutted, squatting criminalised",
-          "body": "The ability of ordinary people to contest the state in court is quietly de-funded, while occupying an empty building becomes a crime.",
+          "body": "The scope of civil legal aid is sharply narrowed. Squatting in an empty residential building becomes a crime. The offence does not cover commercial premises.",
           "sources": [
             "laspo-2012",
             "laspo-2012-s144"
@@ -184,7 +186,7 @@
           "date_label": "APR 2022",
           "kind": "statute",
           "title": "Police, Crime, Sentencing and Courts Act",
-          "body": "Protests can be restricted for being too *noisy*. Damaging a memorial: up to ten years. Wilful obstruction of the highway — for a century a matter of a small fine — now carries imprisonment. Even one-person protests can be conditioned.",
+          "body": "Protests can be restricted for being too *noisy*, and a protest by one person can be conditioned. Damage to a memorial is taken out of the rule that keeps low-value criminal damage in the magistrates' court, so it can be sentenced up to the ordinary maximum of ten years. Wilful obstruction of the highway, long a fine-only offence, becomes punishable with imprisonment.",
           "sources": [
             "pcsc-2022"
           ]
@@ -255,8 +257,20 @@
           "date_label": "MAY 2024",
           "kind": "pushback",
           "title": "High Court: that regulation was unlawful",
-          "body": "In a challenge brought by Liberty, the court finds the government acted outside its powers. The government's response is not repeal — it is appeal.",
+          "body": "In a challenge brought by Liberty, the court finds the government acted outside its powers. The government's response is not repeal. It is an appeal.",
           "sources": [
+            "liberty-v-sshd-2024"
+          ]
+        },
+        {
+          "id": "liberty-v-home-secretary-2025",
+          "date": "2025-05-02",
+          "date_label": "MAY 2025",
+          "kind": "pushback",
+          "title": "Court of Appeal: \"serious\" is not \"more than minor\"",
+          "body": "The Court of Appeal upholds the quashing of the 2023 regulations. Secondary legislation cannot lower \"serious disruption\" to \"more than minor\". The Home Secretary's appeal succeeds only on the consultation ground. The police threshold remains the one Parliament enacted in 1986.",
+          "sources": [
+            "liberty-v-sshd-2025",
             "liberty-v-sshd-2024"
           ]
         }
@@ -307,7 +321,7 @@
           "date_label": "JUL 2024",
           "kind": "sentence",
           "title": "Five years for a Zoom call",
-          "body": "The \"Whole Truth Five\": Roger Hallam sentenced to five years, four others to four, for planning the M25 protests on a video call. The longest sentences ever imposed in Britain for peaceful protest organising. A UN special rapporteur attends the trial and calls the prosecutions something \"not acceptable in a democracy\". The Court of Appeal later trims some terms — and upholds the approach.",
+          "body": "The \"Whole Truth Five\" are convicted of conspiracy to cause a public nuisance, for a plan to disrupt the M25 agreed on a video call. Roger Hallam is sentenced to five years. Daniel Shaw, Lucia Whittaker de Abreu, Louise Lancaster and Cressida Gethin are sentenced to four. In March 2025 the Court of Appeal substitutes four years, three years, 30 months, three years and 30 months. Conscientious motive is relevant. It does not prevent a finding of high culpability. The court upholds the general approach.",
           "sources": [
             "hallam-v-r-2025"
           ]
@@ -318,8 +332,10 @@
           "date_label": "SEP 2024",
           "kind": "sentence",
           "title": "Two years for soup on glass",
-          "body": "Phoebe Plummer is sentenced to two years for throwing soup at Van Gogh's *Sunflowers* — a painting protected by glass and undamaged. Around the same courts, sentences for actual violence routinely run shorter.",
-          "sources": []
+          "body": "Phoebe Plummer is sentenced to two years after soup is thrown at Van Gogh's *Sunflowers*. The painting, behind glass, is not damaged. In March 2025 the Court of Appeal treats the damage that was caused as significant and dismisses the appeals against sentence in that case.",
+          "sources": [
+            "hallam-v-r-2025"
+          ]
         }
       ]
     },
@@ -329,16 +345,19 @@
       "era": "4",
       "label": "How it works",
       "title": "Nothing new had to be passed",
-      "definition": "Since 2000, the law has defined \"terrorism\" to include *serious damage to property* — no injury to any person required — where three tests are met:",
+      "definition": "Section 1 of the Terrorism Act 2000 defines \"terrorism\". It is not an offence. Since 2000 the definition has included *serious damage to property* — no injury required — where the other tests are met:",
       "tests": [
-        "the act is designed to **influence the government** or intimidate the public;",
-        "it is done to advance a **political, religious, racial or ideological cause**;",
-        "it involves serious violence, serious damage to property, or endangers life."
+        "the use or threat involves serious violence against a person, serious damage to property, danger to life, a serious risk to health or safety, or serious interference with an electronic system;",
+        "it is designed to **influence the government** — or, since 2006, an international governmental organisation — or to intimidate the public;",
+        "it is done to advance a **political, religious or ideological cause**. **Racial** was added in 2009."
       ],
-      "verdict": "By this definition, a spray can wielded for a political cause has been chargeable as terrorism for twenty-five years. The gun was always loaded. What changed was the decision to fire it at protesters.",
-      "note": "A precise point, because precision is the armour: no retroactive crime was invented — that would be unlawful. A past protest is simply charged *now* under a definition that applied *all along*. The escalation is not in the statute book. It is in the will to use it.",
+      "verdict": "Where firearms or explosives are used, the influence test drops away. The definition also reaches acts abroad, and foreign governments and publics. A spray can is not automatically inside it: the damage has to be serious, and that is a question of fact. What the definition unlocks is everything built on top of it. Arrest powers. Proscription. The support offences. And, at sentence, a terrorist connection decided by a judge.",
+      "note": "Precision is the point. The proscription offences do not reach back before the organisation was proscribed. An older definition can still be applied to conduct that already met it. That is what the Filton sentences do. The jury convicted of criminal damage. The judge, not the jury, found a terrorist connection under a definition in force since 2000. No new crime was created. No terrorism offence was charged.",
       "sources": [
-        "tact-2000-s1"
+        "tact-2000-s1",
+        "tact-2006-s34",
+        "cta-2008-s75",
+        "sentencing-act-2020-s69"
       ]
     },
     {
@@ -363,7 +382,7 @@
           "date_label": "JUL 2025",
           "kind": "statute",
           "title": "A protest group is proscribed as a terrorist organisation",
-          "body": "Palestine Action is banned under the Terrorism Act 2000 — the first direct-action protest group listed alongside al-Qaeda and ISIS. Membership or expressing support: up to fourteen years in prison.",
+          "body": "Palestine Action is added to Schedule 2 of the Terrorism Act 2000, the same list as al-Qaeda and ISIS, and the first direct-action protest group put there. Membership, inviting support, or recklessly expressing support can be tried in the Crown Court, with a maximum of 14 years. Displaying a sign or an article is usually the separate section 13 offence, which is summary only: up to six months.",
           "sources": [
             "uksi-2025-803",
             "tact-2000-s11",
@@ -376,9 +395,11 @@
           "date": "2024",
           "date_label": "2024–25",
           "kind": "sentence",
-          "title": "Property damage, tried as terrorism",
-          "body": "Activists arrested under section 41 of the Terrorism Act over the 2024 break-in at Elbit Systems' Filton site in Bristol are prosecuted as terrorists — for spray paint and broken equipment, with no allegation that anyone was harmed. The trials run under heavy reporting restrictions: defendants say they cannot put their motivation, or Gaza, before the jury at all.",
-          "sources": []
+          "title": "Filton: criminal damage, and a police officer's spine broken",
+          "body": "On 6 August 2024 activists drive a van through the shutters of Elbit Systems' site at Filton, Bristol, and damage equipment. Insurers later pay out well over £1 million. A police officer's spine is fractured with a sledgehammer. The defendants are prosecuted for criminal damage. Samuel Corner is also prosecuted for inflicting grievous bodily harm. They are not charged with a terrorism offence.",
+          "sources": [
+            "head-sentencing-2026"
+          ]
         },
         {
           "id": "proscription-judicial-review",
@@ -386,9 +407,10 @@
           "date_label": "NOV 2025",
           "kind": "pushback",
           "title": "The ban reaches court — and the judge is swapped",
-          "body": "Huda Ammori, a Palestine Action co-founder, wins permission to judicially review the proscription — the first such challenge to a banned organisation. Days before the November 2025 hearing, the judge who granted permission is replaced by a three-judge panel. Campaigners, including Defend Our Juries, call it a \"stitch-up\". The hearing goes ahead, contested.",
+          "body": "Huda Ammori, a Palestine Action co-founder, is granted permission to judicially review the decision to proscribe. The statutory route against a group already on the list is an application for deproscription, then an appeal to the Proscribed Organisations Appeal Commission. This case is a different procedure. The substantive hearing is listed before a three-judge Divisional Court, the ordinary constitution for a public-law case of this weight, rather than the judge who granted permission. Campaigners, including Defend Our Juries, call that change a \"stitch-up\".",
           "sources": [
-            "ammori-v-sshd-2025-permission"
+            "ammori-v-sshd-2025-permission",
+            "tact-2000-s4"
           ]
         },
         {
@@ -397,8 +419,12 @@
           "date_label": "2025 →",
           "kind": "event",
           "title": "Mass arrests for holding a sign",
-          "body": "Retirees, priests, veterans and carers are arrested in their thousands for signs reading \"I oppose genocide. I support Palestine Action.\" More than 2,200 are detained in the months after the ban — reportedly more arrests than the entire post-2000 \"war on terror\". The arrest queues become the protest. The state has finally built a law so broad that enforcing it manufactures dissidents faster than it can process them.",
-          "sources": []
+          "body": "In the year ending June 2026 the Home Office recorded 3,867 arrests for terrorism-related activity. 3,630 of them, 94 per cent, were linked to support for Palestine Action. By publication, 634 people had been charged under section 12 or section 13. Section 13, the charge used for displaying an article in public, carries a maximum of six months. Section 12, inviting support or recklessly expressing it, carries a maximum of 14 years. Many of those arrested held a sign reading \"I oppose genocide. I support Palestine Action.\"",
+          "sources": [
+            "home-office-tact-stats-2026-06",
+            "tact-2000-s12",
+            "tact-2000-s13"
+          ]
         },
         {
           "id": "proscription-quashed-2026",
@@ -409,6 +435,19 @@
           "body": "A Divisional Court allows Huda Ammori's claim on two grounds, dismisses two others, and proposes an order quashing the Home Secretary's decision to proscribe Palestine Action. The Home Secretary appeals.",
           "sources": [
             "ammori-v-sshd-2026-divisional"
+          ]
+        },
+        {
+          "id": "filton-terrorist-connection-2026",
+          "date": "2026-06-12",
+          "date_label": "JUN 2026",
+          "kind": "sentence",
+          "title": "A terrorist connection, decided by the judge",
+          "body": "Mr Justice Johnson sentences four Filton defendants at Woolwich. The jury's verdicts were for ordinary offences. Under section 69 of the Sentencing Act 2020 the judge decides whether the criminal damage had a terrorist connection. He finds that it did: serious damage to property, one purpose being to influence the United Kingdom government, for a political cause. He does not find a purpose of influencing the Israeli government. Charlotte Head and Leona Kamio receive special custodial sentences of six years less 45 days. Fatima Zainab Rajwani receives five years and eight months less 45 days. Samuel Corner receives three years and eight months for the grievous bodily harm and a consecutive five-year special sentence for the damage, eight years and eight months in all. Each special sentence adds a further year on licence. Two-thirds of the custodial term must be served before the Parole Board can direct release. Terrorist notification requirements run for 15 years. None of this is a conviction for a terrorism offence.",
+          "sources": [
+            "head-sentencing-2026",
+            "sentencing-act-2020-s69",
+            "tact-2000-s1"
           ]
         },
         {

@@ -10,21 +10,47 @@
     "protest",
     "definitions"
   ],
-  "summary": "\"Terrorism\" includes serious damage to property done to influence the government for a political cause. No injury required.",
-  "rule": "Section 1 of the Terrorism Act 2000 defines terrorism as the use or threat of action that involves serious violence against a person, serious damage to property, danger to life, a serious risk to public health or safety, or serious interference with an electronic system. The action must be designed to influence the government or an international governmental organisation, or to intimidate the public. It must also be done to advance a political, religious, racial or ideological cause.",
+  "summary": "Section 1 defines terrorism. It is not itself an offence. Serious damage to property can meet it, with no injury — but only if the other tests are met, and \"serious\" is a real threshold.",
+  "rule": "Section 1 of the Terrorism Act 2000 defines terrorism as the use or threat of action that involves serious violence against a person, serious damage to property, danger to life (other than the life of the person committing the action), a serious risk to public health or safety, or serious interference with an electronic system. The use or threat must be designed to influence the government or an international governmental organisation, or to intimidate the public or a section of it. It must also be made for the purpose of advancing a political, religious, racial or ideological cause.",
   "nuance": [
-    "No one has to be hurt. Serious damage to property, done to influence the government for a political cause, meets the definition on its own.",
-    "Where firearms or explosives are involved, the 'designed to influence the government' test does not apply at all.",
-    "This wording has been in force since 2000. What has changed is how it is used: in 2025 the government relied on serious damage to property when it proscribed a direct-action protest group, and in 2026 the Court of Appeal upheld that decision."
+    "Section 1 creates no crime. Nobody is charged with \"terrorism\" under it. The definition is a gateway: it feeds terrorism powers of arrest, proscription, the support offences, and — separately — a judge's power at sentence to treat an ordinary offence as having a terrorist connection.",
+    "No one has to be hurt. Serious damage to property can be enough on its own, if the influence and cause tests are also met. \"Serious\" is a threshold, not a synonym for any damage. A threat is enough; the action need not be carried out. The section also reaches conduct outside the United Kingdom, and \"the government\" and \"the public\" include foreign governments and publics.",
+    "Where the use or threat involves firearms or explosives, the \"designed to influence\" test does not apply. The cause test still does.",
+    "The 2000 text said political, religious or ideological. \"An international governmental organisation\" was added to the influence test on 13 April 2006. \"Racial\" was added to the cause test on 16 February 2009. In *R v Gul* (2013) the Supreme Court held that the width is deliberate: the definition can cover a military attack by a non-state armed group on armed forces in a non-international armed conflict, and the court would not read in an exclusion Parliament had not enacted.",
+    "Using the definition against a protest group did not create a new offence. In 2025 the government relied on serious damage to property when it proscribed a direct-action group, and in June 2026 the Court of Appeal upheld that decision. The same month a judge, not a jury, found that criminal damage at Filton had a terrorist connection for sentence. That finding aggravated the sentence. It was not a conviction for a terrorism offence."
   ],
-  "why_it_matters": "The breadth of the definition decides which protest tactics can be treated as terrorism. That in turn opens the way to proscription, terrorism powers of arrest, and the support offences that follow.",
+  "why_it_matters": "The breadth of the definition decides which conduct can be treated as terrorism for arrest, proscription, support offences and sentence. Confusing the definition with an offence makes both the power and its limits look simpler than they are.",
   "history": [
     {
       "date": "2000",
       "date_label": "2000",
-      "text": "The Terrorism Act 2000 enacts the definition, including serious damage to property.",
+      "text": "The Terrorism Act 2000 enacts the definition, including serious damage to property. The cause test is political, religious or ideological. There is no offence of \"being a terrorist\" in the section.",
       "sources": [
         "tact-2000-s1"
+      ]
+    },
+    {
+      "date": "2006-04-13",
+      "date_label": "APR 2006",
+      "text": "The Terrorism Act 2006 adds international governmental organisations to the influence test.",
+      "sources": [
+        "tact-2006-s34"
+      ]
+    },
+    {
+      "date": "2009-02-16",
+      "date_label": "FEB 2009",
+      "text": "The Counter-Terrorism Act 2008 adds \"racial\" to the cause test.",
+      "sources": [
+        "cta-2008-s75"
+      ]
+    },
+    {
+      "date": "2013-10-23",
+      "date_label": "OCT 2013",
+      "text": "*R v Gul*: the Supreme Court refuses to narrow the definition. It can cover attacks by a non-state armed group on armed forces abroad.",
+      "sources": [
+        "gul-2013"
       ]
     },
     {
@@ -43,19 +69,34 @@
       "sources": [
         "sshd-v-ammori-2026-appeal"
       ]
+    },
+    {
+      "date": "2026-06-12",
+      "date_label": "JUN 2026",
+      "text": "At Woolwich, the judge finds the Filton criminal damage had a terrorist connection under section 69 of the Sentencing Act 2020 and passes special custodial sentences. The convictions are for criminal damage, and in one case grievous bodily harm, not for a terrorism offence.",
+      "sources": [
+        "head-sentencing-2026",
+        "sentencing-act-2020-s69",
+        "tact-2000-s1"
+      ]
     }
   ],
   "sources": [
     "tact-2000-s1",
+    "tact-2006-s34",
+    "cta-2008-s75",
+    "gul-2013",
     "home-office-proscribed-list",
-    "sshd-v-ammori-2026-appeal"
+    "sshd-v-ammori-2026-appeal",
+    "sentencing-act-2020-s69"
   ],
   "related": {
     "timeline": [
       "how-it-works",
       "proscription",
-      "proscription-reinstated-2026"
+      "proscription-reinstated-2026",
+      "filton-terrorist-connection-2026"
     ]
   },
-  "checked": "2026-10-14"
+  "checked": "2026-10-19"
 }

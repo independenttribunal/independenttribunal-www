@@ -2,18 +2,6 @@
   "about": "Public references cited across Independent Tribunal. Each entry links to a primary or official source. `checked` is the date the URL was last confirmed to resolve to the named document.",
   "references": [
     {
-      "id": "pwr-v-dpp-2022",
-      "title": "Pwr v Director of Public Prosecutions [2022] UKSC 2",
-      "publisher": "The National Archives · Find Case Law",
-      "date": "2022-01-26",
-      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2022/2",
-      "type": "judgment",
-      "jurisdiction": "UK",
-      "topics": ["proscription", "speech"],
-      "summary": "Section 13(1): strict liability subject to deliberate display and the statutory circumstances; see paragraphs 57–58.",
-      "checked": "2026-10-19"
-    },
-    {
       "id": "ukpga-1986-64",
       "title": "Public Order Act 1986",
       "publisher": "legislation.gov.uk",
@@ -56,8 +44,8 @@
         "terrorism",
         "definitions"
       ],
-      "summary": "Statutory definition of terrorism, which includes serious damage to property done to influence the government for a political, religious, racial or ideological cause.",
-      "checked": "2026-10-14"
+      "summary": "Definition of terrorism, not an offence. It includes serious damage to property where the influence and cause tests are met. 'International governmental organisation' was added in 2006; 'racial' was added in 2009. Acts abroad, and foreign governments and publics, are within the section.",
+      "checked": "2026-10-19"
     },
     {
       "id": "tact-2000-s3",
@@ -578,7 +566,7 @@
         "proportionality",
         "criminal-damage"
       ],
-      "summary": "Court of Appeal (Colston statue) holds that violent protest, or protest causing significant damage to property, falls outside Convention protection, so proportionality is not an issue for the jury.",
+      "summary": "Court of Appeal (Colston statue) holds that violent or non-peaceful conduct falls outside Articles 9, 10 and 11, and that prosecution for significant damage could not be disproportionate even if the protest was otherwise peaceful. The reference did not affect the acquittals.",
       "checked": "2026-10-14"
     },
     {
@@ -852,6 +840,222 @@
       ],
       "summary": "Plea in the US District Court for the Northern Mariana Islands (Saipan): one Espionage Act conspiracy count, 62-month time-served sentence, return to Australia.",
       "checked": "2026-10-15"
+    },
+    {
+      "id": "tact-2006-s34",
+      "title": "Terrorism Act 2006, section 34 — Amendment of the definition of “terrorism”",
+      "publisher": "legislation.gov.uk",
+      "date": "2006-04-13",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/11/section/34",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "definitions"],
+      "summary": "Inserted 'or an international governmental organisation' into section 1(1)(b) of the Terrorism Act 2000. In force 13 April 2006.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "cta-2008-s75",
+      "title": "Counter-Terrorism Act 2008, section 75 — Amendment of the definition of “terrorism” etc.",
+      "publisher": "legislation.gov.uk",
+      "date": "2009-02-16",
+      "url": "https://www.legislation.gov.uk/ukpga/2008/28/section/75",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "definitions"],
+      "summary": "Inserted 'racial' into the cause test in section 1(1)(c) of the Terrorism Act 2000. In force 16 February 2009.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "gul-2013",
+      "title": "R v Gul [2013] UKSC 64",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2013-10-23",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2013/64",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "definitions"],
+      "summary": "Supreme Court holds that section 1 is deliberately wide and can cover military attacks by a non-state armed group on armed forces in a non-international armed conflict. The court refused to read the definition down.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "ctsa-2021-s26",
+      "title": "Counter-Terrorism and Sentencing Act 2021, section 26 — Increase in maximum sentences",
+      "publisher": "legislation.gov.uk",
+      "date": "2021-06-29",
+      "url": "https://www.legislation.gov.uk/ukpga/2021/11/section/26",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription", "sentencing"],
+      "summary": "Raised the maximum on indictment for sections 11 and 12 of the Terrorism Act 2000 from 10 years to 14. Applies only to an offence committed on or after 29 June 2021.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "pwr-v-dpp-2022",
+      "title": "Pwr v Director of Public Prosecutions [2022] UKSC 2",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2022-01-26",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2022/2",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription"],
+      "summary": "Section 13(1) is strict liability beyond deliberate wearing, carrying or displaying. The prosecution need not prove the person knew the article would arouse reasonable suspicion, or that they were in fact a member or supporter. See paragraphs 57–58. The holding does not extend to sections 11 and 12.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "tact-2000-s4",
+      "title": "Terrorism Act 2000, section 4 — Deproscription: application",
+      "publisher": "legislation.gov.uk",
+      "date": "2000",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/4",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription"],
+      "summary": "The organisation, or a person affected by the proscription, may apply to the Secretary of State to remove it from Schedule 2. A refusal can be appealed to the Proscribed Organisations Appeal Commission.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "tact-2000-s47a",
+      "title": "Terrorism Act 2000, section 47A — Searches in specified areas or places",
+      "publisher": "legislation.gov.uk",
+      "date": "2012",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/47A",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "stop-and-search"],
+      "summary": "Replacement for the section 44 power struck down in Gillan. An authorisation still allows a search without individual suspicion, but only where a senior officer reasonably suspects an act of terrorism will take place, and only for a limited period and area.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "prsra-2011-s141",
+      "title": "Police Reform and Social Responsibility Act 2011, section 141 — Repeal of SOCPA 2005 provisions",
+      "publisher": "legislation.gov.uk",
+      "date": "2011",
+      "url": "https://www.legislation.gov.uk/ukpga/2011/13/section/141",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["protest", "public-order"],
+      "summary": "Repealed sections 132 to 138 of the Serious Organised Crime and Police Act 2005, the authorisation regime for demonstrations in the vicinity of Parliament.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "cda-1971-s5",
+      "title": "Criminal Damage Act 1971, section 5 — “Without lawful excuse”",
+      "publisher": "legislation.gov.uk",
+      "date": "1971",
+      "url": "https://www.legislation.gov.uk/ukpga/1971/48/section/5",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["protest", "criminal-damage"],
+      "summary": "Statutory lawful excuse for criminal damage, including an honest belief that the person entitled to consent would have consented had they known of the destruction or damage and its circumstances.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "ag-ref-1-2023",
+      "title": "Attorney General's Reference on a Point of Law No 1 of 2023 [2024] EWCA Crim 243",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2024-03-18",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2024/243",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": ["protest", "criminal-damage"],
+      "summary": "Court of Appeal holds that the 'circumstances' of damage in section 5(2)(a) can include the fact that it was done as a protest, but not the merits, urgency or importance of the cause. The reference did not affect the acquittal.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "sentencing-act-2020-s69",
+      "title": "Sentencing Act 2020, section 69 — Offences with a terrorist connection",
+      "publisher": "legislation.gov.uk",
+      "date": "2020",
+      "url": "https://www.legislation.gov.uk/ukpga/2020/17/section/69",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "sentencing"],
+      "summary": "Where an offence has a terrorist connection as defined by section 69, the court must treat that connection as an aggravating factor. The finding is made by the judge for sentence. It is not a separate conviction.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "head-sentencing-2026",
+      "title": "R v Charlotte Head and others — sentencing remarks of Mr Justice Johnson",
+      "publisher": "Judiciary of England and Wales",
+      "date": "2026-06-12",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2026/06/R-v-Charlotte-Head-and-others-sentencing-remarks.pdf",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "sentencing", "protest"],
+      "summary": "Woolwich Crown Court, 12 June 2026. Four defendants sentenced for criminal damage at Elbit's Filton site; Samuel Corner also for inflicting grievous bodily harm on a police officer. The judge finds the criminal damage had a terrorist connection under section 69 and passes special custodial sentences. The jury had not convicted them of a terrorism offence.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "home-office-tact-stats-2026-06",
+      "title": "Operation of police powers under the Terrorism Act 2000: arrests, outcomes and stop and search, to June 2026",
+      "publisher": "Home Office (GOV.UK)",
+      "date": "2026-10-08",
+      "url": "https://www.gov.uk/government/statistics/operation-of-police-powers-under-tact-2000-to-june-2026",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription", "protest"],
+      "summary": "In the year ending June 2026 there were 3,867 arrests for terrorism-related activity, of which 3,630 (94%) were linked to support for Palestine Action. 634 of the charges were under section 12 or section 13.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "liberty-v-sshd-2025",
+      "title": "R (National Council for Civil Liberties) v Secretary of State for the Home Department [2025] EWCA Civ 571",
+      "publisher": "The National Archives — Find Case Law",
+      "date": "2025-05-02",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/571",
+      "type": "judgment",
+      "jurisdiction": "UK",
+      "topics": ["protest", "secondary-legislation"],
+      "summary": "Court of Appeal upholds the quashing of the 2023 regulations. 'Serious disruption' cannot be lowered to 'more than minor' by secondary legislation. The appeal succeeds only on the consultation ground.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "cpa-2026-s233",
+      "title": "Crime and Policing Act 2026, section 233 — Wearing or displaying articles in support of a proscribed organisation",
+      "publisher": "legislation.gov.uk",
+      "date": "2026-06-29",
+      "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/233",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription"],
+      "summary": "Inserted section 13(1ZA) into the Terrorism Act 2000, extending the uniform offence from public places to prisons and other 'relevant premises'. In force 29 June 2026. Also widened seizure powers, including a power to destroy a seized article.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "hra-1998-s3",
+      "title": "Human Rights Act 1998, section 3 — Interpretation of legislation",
+      "publisher": "legislation.gov.uk",
+      "date": "1998",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/42/section/3",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["human-rights"],
+      "summary": "So far as it is possible to do so, primary and subordinate legislation must be read and given effect in a way compatible with the Convention rights.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "hra-1998-s4",
+      "title": "Human Rights Act 1998, section 4 — Declaration of incompatibility",
+      "publisher": "legislation.gov.uk",
+      "date": "1998",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/42/section/4",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["human-rights"],
+      "summary": "A court may declare primary legislation incompatible with a Convention right. The declaration does not affect the validity of the legislation.",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "cja-2003-part10",
+      "title": "Criminal Justice Act 2003, Part 10 — Retrial for serious offences",
+      "publisher": "legislation.gov.uk",
+      "date": "2003",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/44/part/10",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["juries"],
+      "summary": "Allows a retrial of certain qualifying offences after an acquittal where there is new and compelling evidence and a retrial is in the interests of justice. It is not a general prosecution appeal.",
+      "checked": "2026-10-19"
     }
   ]
 }

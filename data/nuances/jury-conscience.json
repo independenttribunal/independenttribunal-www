@@ -10,19 +10,20 @@
     "courts",
     "protest"
   ],
-  "summary": "Jurors cannot be punished for their verdict, and an acquittal stands. But in 2026 the Court of Appeal said the oath to try a case on the evidence leaves no *right* to do the opposite.",
-  "rule": "Since Bushell's Case in 1670, jurors cannot be punished for the verdict they return. A judge can never direct a jury to convict, and a not-guilty verdict cannot be overturned.",
+  "summary": "Jurors cannot be punished for their verdict. There is no general prosecution appeal against an acquittal. In 2026 the Court of Appeal said the oath to try a case on the evidence leaves no *right* to do the opposite.",
+  "rule": "Since Bushell's Case in 1670, jurors cannot be punished for the verdict they return. A judge cannot direct a jury to convict. There is no general prosecution appeal against a jury's not-guilty verdict.",
   "nuance": [
-    "The power to acquit against the evidence exists because no one can review or punish the verdict. That is not the same as a right to do it. Jurors swear to return a true verdict according to the evidence, and judges do not tell them about the power.",
-    "Since 2015, section 20C of the Juries Act 1974 makes it an offence for a juror to engage in conduct from which it may reasonably be concluded that they intend to try the case otherwise than on the evidence. The Court of Appeal has said the offence relates to how a juror intends to try the case, not to the delivery of the verdict.",
-    "In 2024 the High Court refused to let the Solicitor General pursue Trudi Warner for contempt over a placard telling jurors they could acquit according to conscience. In 2026 the Court of Appeal said that decision was not a sound guide on section 20C, which it had not considered. Telling jurors about jury conscience outside a courtroom is therefore legally contested ground."
+    "The power to acquit against the evidence exists because the verdict cannot be punished and, in the ordinary case, cannot be appealed by the prosecution. That is not the same as a right to try the case otherwise than on the evidence. Jurors swear to return a true verdict according to the evidence.",
+    "An acquittal is not always the last word, and there is still no routine prosecution appeal. Part 10 of the Criminal Justice Act 2003 allows a retrial of certain serious offences where there is new and compelling evidence and a retrial is in the interests of justice. A judge may direct an acquittal where there is no case to answer. The judge may not direct a conviction.",
+    "Since 2015, section 20C of the Juries Act 1974 makes it an offence for a juror intentionally to engage in conduct from which it may reasonably be concluded that they intend to try the issue otherwise than on the evidence. The Court of Appeal has said the offence is about how the juror intends to try the case during the trial. It does not criminalise returning a verdict of not guilty.",
+    "In 2024 the High Court refused the Solicitor General permission to pursue Trudi Warner for contempt over a placard telling jurors they could acquit according to conscience. In *Webster* (2026) the Court of Appeal held that the trial judge's direction on what section 20C means was not wrong in law. It said his further statement, that the placards misstated the law and that holding them was a criminal offence, was more questionable. *Warner* is not a sound guide on section 20C, which it did not consider. *Warner* decides the placard was not a contempt. *Webster* does not decide that holding one is a crime."
   ],
   "why_it_matters": "Jury conscience is the oldest safeguard against unjust prosecutions in English law. Where informing jurors ends and unlawfully influencing them begins is now being decided case by case.",
   "history": [
     {
       "date": "1670",
       "date_label": "1670",
-      "text": "Bushell's Case: jurors fined for acquitting William Penn and William Mead are freed on habeas corpus, establishing that juries may give their verdict according to their convictions.",
+      "text": "Bushell's Case: jurors imprisoned for acquitting William Penn and William Mead are freed on habeas corpus. The judgment is the foundation of the rule that a jury cannot be punished for its verdict.",
       "sources": [
         "warner-2024"
       ]
@@ -30,9 +31,10 @@
     {
       "date": "2015",
       "date_label": "2015",
-      "text": "The Criminal Justice and Courts Act 2015 inserts section 20C into the Juries Act 1974.",
+      "text": "The Criminal Justice and Courts Act 2015 inserts section 20C into the Juries Act 1974. Part 10 of the Criminal Justice Act 2003 is already in force: a retrial after acquittal is available for certain serious offences, on new and compelling evidence.",
       "sources": [
-        "juries-act-1974-s20c"
+        "juries-act-1974-s20c",
+        "cja-2003-part10"
       ]
     },
     {
@@ -54,7 +56,7 @@
     {
       "date": "2026-01-20",
       "date_label": "JAN 2026",
-      "text": "The Court of Appeal dismisses the appeals. It holds the judge's direction on section 20C was not wrong in law and says Warner is not a sound guide on the effect of section 20C.",
+      "text": "The Court of Appeal dismisses the appeals. The direction on section 20C was not wrong in law. The judge's statement that the placards misstated the law, and that holding them was an offence, was more questionable. Warner is not a sound guide on section 20C.",
       "sources": [
         "webster-v-king-2026"
       ]
@@ -63,7 +65,8 @@
   "sources": [
     "warner-2024",
     "juries-act-1974-s20c",
-    "webster-v-king-2026"
+    "webster-v-king-2026",
+    "cja-2003-part10"
   ],
   "related": {
     "timeline": [
@@ -72,5 +75,5 @@
       "david-nixon-contempt-2023"
     ]
   },
-  "checked": "2026-10-14"
+  "checked": "2026-10-19"
 }

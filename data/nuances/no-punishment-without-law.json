@@ -2,7 +2,7 @@
   "id": "no-punishment-without-law",
   "order": 5,
   "featured": false,
-  "title": "No punishment without law",
+  "title": "Law does not work backwards",
   "label": "ECHR Article 7 · Human Rights Act 1998",
   "jurisdiction": "United Kingdom",
   "tags": [
@@ -10,11 +10,12 @@
     "retrospectivity",
     "terrorism"
   ],
-  "summary": "No one can be convicted for an act that was not a crime when they did it. But an old law can be used in a new way.",
-  "rule": "Article 7 of the European Convention on Human Rights, part of UK law through the Human Rights Act 1998, says no one may be held guilty of a criminal offence for an act that was not an offence when it was committed. It also forbids a heavier penalty than the one that applied at the time.",
+  "summary": "No one can be convicted, or given a heavier penalty, for conduct that was not criminal to that extent when they did it. An old law can still be applied to new facts that were already inside it.",
+  "rule": "Article 7 of the European Convention on Human Rights, given effect in UK law by the Human Rights Act 1998, says no one may be held guilty of a criminal offence for an act or omission that did not constitute an offence under national or international law when it was committed. It also forbids a heavier penalty than the one applicable at the time. Article 7(2) does not prevent trial for an act that, at the time, was criminal according to the general principles of law recognised by civilised nations.",
   "nuance": [
-    "Parliament cannot create a crime after the fact. Proscription offences therefore apply only from the moment an organisation is proscribed: the 2025 order came into force on 5 July 2025, and the support offences reach expressions made from then on.",
-    "Article 7 does not stop an existing, broadly drawn law from being applied to conduct it was rarely used against before. That is the point the UK timeline makes about section 1 of the Terrorism Act 2000: the definition has been in force since 2000, so using it against protest creates no new crime. What changes is how it is used."
+    "Article 7 binds courts as well as ministers and Parliament. The Human Rights Act does not let a court cancel an Act. Section 3 requires legislation to be read compatibly with Convention rights so far as possible. Section 4 allows a declaration of incompatibility, which leaves the Act in force.",
+    "Proscription offences run from the moment the organisation is proscribed, not before. The 2025 order came into force on 5 July 2025. Expressions of support made earlier are not section 11, 12 or 13 offences. Someone who joined before the ban, and who has not taken part in the organisation's activities while it was proscribed, has a defence to the membership offence. Conduct before the ban can still be prosecuted under whatever ordinary offences already applied, such as criminal damage.",
+    "Article 7 does not stop an existing law from being applied to facts it was rarely used against, if those facts were already within it. Section 1 of the Terrorism Act 2000 has defined terrorism to include serious damage to property since 2000. Applying that definition is not the creation of a new crime. It is also not, by itself, a charge. In June 2026 the Filton defendants were sentenced for criminal damage. The judge, applying section 69 of the Sentencing Act 2020, found a terrorist connection and aggravated the sentence. The jury had not convicted them of a terrorism offence, and the proscription offences did not exist, as against that group, when the damage was done."
   ],
   "why_it_matters": "Knowing when a law began to apply, and to what, separates conduct that was lawful at the time from conduct that was not.",
   "history": [
@@ -23,28 +24,45 @@
       "date_label": "1998",
       "text": "The Human Rights Act 1998 gives effect to Article 7 in UK law.",
       "sources": [
-        "hra-1998-sch1"
+        "hra-1998-sch1",
+        "hra-1998-s3",
+        "hra-1998-s4"
       ]
     },
     {
       "date": "2025-07-05",
       "date_label": "JUL 2025",
-      "text": "The proscription order comes into force on 5 July 2025.",
+      "text": "The proscription order comes into force on 5 July 2025. The support offences do not reach expressions made before that day.",
       "sources": [
-        "uksi-2025-803"
+        "uksi-2025-803",
+        "tact-2000-s11"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "date_label": "JUN 2026",
+      "text": "The Filton sentences apply the pre-existing definition at the sentencing stage. They do not treat the August 2024 damage as a proscription offence.",
+      "sources": [
+        "head-sentencing-2026",
+        "sentencing-act-2020-s69"
       ]
     }
   ],
   "sources": [
     "hra-1998-sch1",
+    "hra-1998-s3",
+    "hra-1998-s4",
     "uksi-2025-803",
-    "tact-2000-s1"
+    "tact-2000-s1",
+    "tact-2000-s11",
+    "sentencing-act-2020-s69"
   ],
   "related": {
     "timeline": [
       "how-it-works",
-      "proscription"
+      "proscription",
+      "filton-terrorist-connection-2026"
     ]
   },
-  "checked": "2026-10-14"
+  "checked": "2026-10-19"
 }
