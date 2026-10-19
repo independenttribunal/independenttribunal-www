@@ -48,6 +48,11 @@ jobs:
           test -s dist/client/data/profiles/sean-middlebrough.json
           test -s dist/client/data/profiles/roger-hallam.json
           test -s dist/client/people/index.html
+          test -s dist/client/forensics/index.html
+          test -s dist/client/forensics/sovereign-ai/index.html
+          test -s dist/client/data/forensics/sovereign-ai.json
+          test -s dist/client/forensics/sovereign-ai/guidance-v1.pdf
+          test -s dist/client/forensics/sovereign-ai/guidance-v2.pdf
           for page in rajiv-menon-kc hamas-deproscription richard-heart; do
             test -s "dist/client/research/$page/index.html"
             test -s "dist/client/data/profiles/$page.json"
@@ -62,7 +67,7 @@ jobs:
           for dossier in barclays5 filton6 terrorist-connection proscription-litigation hunger-strikes prairieland; do
             test -s "dist/client/research/$dossier/index.html"
           done
-          node --test tests/data.test.mjs tests/research.test.mjs tests/profiles.test.mjs tests/commentary.test.mjs tests/site-shell.test.mjs
+          node --test tests/data.test.mjs tests/research.test.mjs tests/profiles.test.mjs tests/commentary.test.mjs tests/forensics.test.mjs tests/site-shell.test.mjs
           mkdir -p dist/client/about
           cp dist/client/about.html dist/client/about/index.html
           cp CNAME dist/client/CNAME

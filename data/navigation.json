@@ -1,6 +1,7 @@
 {
   "links": [
     { "label": "Research", "href": "/research/" },
+    { "label": "Forensics", "href": "/forensics/" },
     { "label": "Nuances", "href": "/nuances/" },
     { "label": "Tribunals", "href": "/independent-tribunals/" },
     { "label": "UK timeline", "href": "/uk-timeline/" },

@@ -19,7 +19,7 @@ async function htmlFiles(directory) {
 }
 
 test("every generated page shares the same header, footer and stylesheet", async () => {
-  const files = (await Promise.all(["research", "legal", "nuances", "independent-tribunals", "uk-timeline"].map((dir) => htmlFiles(`public/${dir}`)))).flat();
+  const files = (await Promise.all(["research", "people", "forensics", "legal", "nuances", "independent-tribunals", "uk-timeline"].map((dir) => htmlFiles(`public/${dir}`)))).flat();
   assert.ok(files.length > 20);
   for (const file of files) {
     const html = await read(file);

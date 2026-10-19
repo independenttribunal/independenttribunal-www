@@ -22,11 +22,12 @@ import { loadProfiles, publishProfiles, profileText } from "./profiles.mjs";
 import { loadCommentary, publishCommentary, commentaryText } from "./commentary.mjs";
 import { renderSiteHeader, renderSiteFooter } from "../shared/site-shell.mjs";
 import { loadPalestineAction, publishPalestineAction, palestineActionTile } from "./palestine-action.mjs";
+import { loadForensics, publishForensics, forensicTile, forensicText, forensicPath } from "./forensics.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "data");
 const publicDir = join(root, "public");
-const GENERATED = ["data", "legal", "nuances", "independent-tribunals", "research", "uk-timeline", "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml"];
+const GENERATED = ["data", "legal", "nuances", "independent-tribunals", "research", "people", "forensics", "uk-timeline", "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml"];
 
 const REFERENCE_TYPES = new Set(["legislation", "judgment", "official", "report", "article", "organisation", "dataset"]);
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
@@ -190,6 +191,7 @@ policies.sort((a, b) => a.order - b.order);
 const research = await loadResearch(dataDir, fail);
 const palestineAction = await loadPalestineAction(dataDir);
 const profiles = await loadProfiles(dataDir, fail);
+const forensics = await loadForensics(dataDir);
 for (const p of profiles) for (const related of p.research_links ?? []) {
   if (![...research.map((r) => r.id), palestineActionTile.id].includes(related.id)) fail(`profiles/${p.id}`, `missing related research ${related.id}`);
 }
@@ -212,7 +214,7 @@ for (const name of GENERATED) await rm(join(publicDir, name), { recursive: true,
 const put = async (path, content) => {
   const full = join(publicDir, path);
   await mkdir(dirname(full), { recursive: true });
-  await writeFile(full, typeof content === "string" ? content : JSON.stringify(content, null, 2) + "\n");
+  await writeFile(full, typeof content === "string" || Buffer.isBuffer(content) ? content : JSON.stringify(content, null, 2) + "\n");
 };
 
 const resolve = (ids) => ids.map((id) => {
@@ -267,6 +269,7 @@ await put("data/commentary.json", { generated: built, about: "Labelled commentar
 for (const p of commentaryOut) await put(`data/commentary/${p.id}.json`, p);
 
 const tiles = [
+  forensicTile(forensics),
   palestineActionTile,
   ...commentary.map((p) => ({ kind: "commentary", id: p.id, title: p.title, label: p.genre, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
   ...profiles.map((p) => ({ kind: p.category === "legal-study" ? "study" : "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.category === "legal-study" ? p.tags : [...new Set(["people", ...p.tags])], href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
@@ -294,6 +297,7 @@ await put("data/index.json", {
   source_repo: site.source_repo,
   how_to_cite: "Cite the primary source each entry links to (sources[].url), and this site as the compiler.",
   datasets: [
+    { id: "sovereign-ai-forensics", url: abs("/data/forensics/sovereign-ai.json"), page: abs(forensicPath), count: forensics.changes.length, description: "Nine grouped wording edits between two guidance PDFs, byte-verified sources and archive copies, limits and draft FOI questions. Not findings of wrongdoing." },
     { id: "palestine-action", url: abs("/data/collections/palestine-action.json"), page: abs(palestineActionTile.href), count: palestineAction.cases.length, description: "One chronological collection of case and campaign records, integrated source accounts, targeted corrections and explicit data-quality limitations. Includes actions before 7 October 2023. Not a verified list of convictions." },
     { id: "commentary", url: abs("/data/commentary.json"), page: abs("/research/"), count: commentary.length, description: "Labelled commentary, with anecdote provenance, dated figures, primary sources and explicit unknowns." },
     { id: "profiles", url: abs("/data/profiles.json"), page: abs("/research/"), count: profiles.length, description: "Selected public-record profiles and legal studies, with paragraph-level sources and explicit coverage limits; not a judges database." },
@@ -546,6 +550,7 @@ await publishResearch({ records: research, profiles, commentary, put, page: lega
 await publishPalestineAction({ collection: palestineAction, records: research, put, page: legalPage, escapeHtml });
 await publishProfiles({ profiles, put, page: legalPage, escapeHtml, site });
 await publishCommentary({ commentary, put, page: legalPage, escapeHtml });
+await publishForensics({ record: forensics, dataDir, put, page: legalPage, escapeHtml, site });
 
 // Agent-facing text.
 const llms = `# ${site.name}
@@ -564,6 +569,7 @@ Read any \`updates\` before the historical \`body_html\` or \`body_text\`: these
 
 ## Data
 
+- [Sovereign AI document comparison](${abs("/data/forensics/sovereign-ai.json")}): two PDF versions and nine grouped text edits, hashes, source/archive links, interpretations and draft FOI questions. Metadata is not publication evidence; absence of notification is not established.
 - [Commentary](${abs("/data/commentary.json")}): ${commentary.length} essays and research notes. Preserve satire labels, anecdote provenance, dated scopes and null (unknown) values; these are not findings of wrongdoing or medical assessments.
 - [Data index](${abs("/data/index.json")}): every dataset, with counts and coverage
 - [Public-record profiles](${abs("/data/profiles.json")}): ${profiles.length} selected profiles with paragraph-level sources resolved inline
@@ -584,6 +590,8 @@ ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("
 
 ## Pages
 
+- [forensics](${abs("/forensics/")}): document comparisons and reproducible evidence trails
+- [sovereign ai](${abs(forensicPath)}): supporting document for an FOI follow-up; reviewed ${forensics.checked}
 ${commentaryOut.map((p) => `- [${p.title}](${p.url}): ${p.genre}; ${p.summary}`).join("\n")}
 - [Research library](${abs("/research/")}): Independent Tribunal’s research dossiers and public-record profiles
 - [People & public records](${abs("/people/")}): Individual profiles, proceedings, responses and source checks
@@ -606,6 +614,7 @@ ${policies.map((p) => `- [${p.title}](${abs(`/legal/${p.slug}.md`)}): ${p.summar
 await put("llms.txt", llms);
 
 const full = [
+  forensicText(forensics, site),
   `# Palestine Action collection\n\n${abs(palestineActionTile.href)}\nOne unified chronological collection, including actions before 7 October 2023. Source accounts with targeted corrections, not a complete re-audit or a list of convictions. Download the structured collection, including integrated details, provenance, corrections, source dates, legal-status sources and data-quality flags: ${abs("/data/collections/palestine-action.json")}\n`,
   `# ${site.name} — full text\n\nGenerated ${built} from ${site.source_repo}. ${site.summary}\n`,
   ...profilesOut.map(profileText),
@@ -631,6 +640,7 @@ await put("llms-full.txt", full);
 const pages = ["/", "/about", "/research/", "/people/", ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
 pages.push(...commentary.map((p) => `/research/${p.id}/`));
 pages.push(palestineActionTile.href);
+pages.push("/forensics/", forensicPath);
 await put("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map((p) => `  <url><loc>${abs(p)}</loc><lastmod>${builtDay}</lastmod></url>`).join("\n")}

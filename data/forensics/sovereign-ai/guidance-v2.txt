@@ -1,0 +1,557 @@
+                                           OFFICIAL
+
+
+
+
+Sovereign AI R&D Procurement
+The Sovereign AI Fund supports the UK’s best founders to build a new generation of globally
+leading AI companies. We do this through an integrated offer: equity investment alongside
+government procurement, compute access, R&D grants, talent visas, and regulatory
+support.
+The Sovereign AI Research and Development (R&D) Procurement Scheme procures novel
+AI capabilities that address government challenges and deliver public benefit - advancing the
+Sovereign AI Fund's mission to build sovereign capability across its focus areas and grow
+strategically important AI companies in the UK.
+The Scheme is challenge-led; we want you to build new AI capabilities which respond to
+challenges set by Government with the potential to be widely commercialised. Companies
+will work in partnership with public sector users, establishing a direct supplier-customer
+relationship.
+
+
+Overview
+What we fund: We are procuring the development of novel AI capabilities that address
+challenges set by government and result in public benefit. See our initial challenges below.
+Contract size: The minimum contract value is £250,000 and the maximum is £10 million per
+project. We welcome projects of different sizes, and we anticipate that most contracts will be
+around £1 million to 3 million. Up to £100 million is allocated across the lifetime of the
+Scheme.
+Who Should Apply: UK-registered startups and small-to-medium enterprises building UK-
+based AI capabilities. (Companies that have already received equity investment from the
+Sovereign AI Fund are eligible to apply but this will not confer any advantage in the
+competition).
+The Application Process:
+   •   Approved Supplier List: An initial assessment to check you meet the Scheme’s
+       eligibility criteria. Submit this quick form to be approved to participate in the Scheme.
+   •   Full Application: Once approved, submit your project proposal which addresses one
+       of our challenges. This will be assessed against the criteria published below.
+
+
+
+
+                                           OFFICIAL
+                                           OFFICIAL
+
+
+
+
+Competition Dates
+Proposals are assessed in competition batches every two months. Once you are an
+Approved Supplier you can submit your Full Application in line with the Competition Dates.
+You will receive an outcome one month after the deadline.
+The dates for this financial year are:
+Batch 1:
+   •   Opens 15 September 2026
+   •   Submit your proposal by 16 October 2026 to receive an outcome on 13 November
+       2026
+Batch 2:
+   •   Opens 14 November 2026
+   •   Submit your proposal by 31 December 2026 to receive an outcome on 29 January
+       2027
+Batch 3:
+   •   Opens 30 January 2027
+   •   Submit your proposal by 26 February 2027 to receive an outcome on 31 March 2027
+
+
+Challenges
+Your proposal must address one of the following challenges. We have four initial
+challenges and will introduce new challenges over the lifetime of the Scheme and may
+remove previously funded challenges. Any new challenges will be communicated through
+this webpage.
+
+
+                              Challenges                                Challenge-owner
+ Challenge 1: AI for a more productive NHS – Build systems that       Department of
+ unlock NHS productivity at scale, whether automating workflows,      Health and Social
+ coordinating care, or supporting decision-making across services.    Care (DHSC)
+ Reduce cost, free capacity, and improve staff experience while
+ delivering measurable system-wide efficiency gains, aligned to the
+ ambition of the NHS 10 Year Health Plan.
+ Challenge 2: Integrate AI at pace across Defence mission Ministry of Defence
+ environments – Develop open, secure, and modular-by-design AI (MOD)
+ capabilities that can operate on platform, in the field, and by
+ dismounted forces in close combat. Defence's competitive edge is
+ defined by its ability to integrate emerging technologies at speed,
+ with a high tolerance for the rapid employment of low-TRL
+ technologies. Defence operates concurrently from enterprise to
+ edge, across disconnected and distributed environments at every
+ classification, but has critical gaps in edge AI deployment now.
+ Challenge 3: Increase compute efficiency – Drive efficiency and      Department for
+ effectiveness in public compute infrastructure, to help deliver      Business,
+ expansion of the AI Research Resource (AIRR), through trialling      Innovation, Science
+ and deploying novel hardware or software supporting compute          and Trade (BIST) &
+ efficiency and heterogeneous systems development.                    ARIA Scaling
+                                                                      Inference Lab (SIL)
+
+
+
+
+                                           OFFICIAL
+                                            OFFICIAL
+
+
+
+
+ Challenge 4: Enabling safe AI agent adoption – Produce an                National Cyber
+ evidence-based, operational, and ideally automated risk                  Security Centre
+ management approach for CISOs to support risk-based decision-            (NCSC)
+ making for specific agents in specific contexts. The risk
+ management approach should include both resilience and cyber
+ security risks. Alternatively, or in addition, develop an evidence-
+ based approach to reducing operational risk of specific agents
+ through architecture, monitoring, and controls, while supporting
+ agentic adoption and innovation at pace. Solutions that support
+ wide-scale adoption, such as those built on open-source
+ frameworks, will be preferred.
+
+
+Designed for startups and SMEs
+The Sovereign AI R&D Procurement Scheme is deliberately designed to enable innovative
+startups and SMEs to participate in government procurement. We have reduced some of the
+common barriers that startups and SMEs face when competing for government contracts.
+The Scheme offers:
+    •   No minimum annual turnover, trading history, net assets, or cash reserves
+        requirements.
+    •   A streamlined, low-burden application process.
+    •   Supplier ownership of intellectual property and no exclusivity requirements.
+    •   Prompt payment arrangements and simple contracting.
+    •   Upfront payments for eligible suppliers, where justified to support the participation of
+        cash flow constrained startups.
+Suppliers retain ownership of all their Background IP and the Foreground IP created during
+the project, with government granted a licence to use the outputs, data, and results for public
+sector purposes (this will be set out in the contract). Suppliers are encouraged to
+commercialise their capabilities.
+
+
+Eligibility
+To be eligible for this Scheme:
+    •   You must address one of the Scheme’s current challenges.
+    •   The lead applicant must be a UK-registered company.
+    •   The project must be located in the UK.
+    •   The lead applicant must carry out at least 50% of the work.
+    •   Project proposals must be between £250,000 and £10 million.
+    •   The proposal must seek funding only for eligible activities and expenditure (defined
+        below).
+    •   The project activity and payment claims must be completed by 31 March 2030.
+
+
+Research & Development
+
+
+
+
+                                            OFFICIAL
+                                            OFFICIAL
+
+
+
+
+The R&D Procurement Scheme funds the design, development, testing, and demonstration
+of novel AI capabilities that address challenges set by Government. We focus on pre-
+commercial research and development, particularly Technology Readiness Levels 4-8.
+The Scheme operates under the R&D services exemption in the Procurement Act 2023
+(more information can be found here - Guidance: Exempted Contracts (HTML) - GOV.UK). A
+R&D services contract is defined in Schedule 2 Para 22(1) as follows:
+   •   the contract is for the provision of R&D services;
+   •   the services are intended by the authority to be for, or to result in, benefit to the
+       public;
+   •   the contract is not also for provision of goods or works.
+You must ensure that any proposals submitted to the Scheme constitute R&D in accordance
+with Para 22 Schedule 2 of the Procurement Act 2023 or they will not be eligible. This
+includes, for example, solution exploration and design, prototyping, demonstrating, piloting,
+testing and validation of the product or service. Further guidance on what constitutes R&D
+can be found here – Categories of Research & Development.
+You must also ensure your project proposal complies with Paragraph 7 Schedule 2 of the
+Procurement Act 2023, that the goods, services, or works representing the main purpose of
+the contract could not reasonably be supplied under a separate contract.
+
+
+How to Apply
+Stage 1 – Approved Supplier List
+Companies may apply to join the Approved Supplier List at any time by completing our
+Expression of Interest (EOI) form on the Sovereign AI website. Applications are assessed on
+a pass/fail basis to confirm eligibility and alignment with the objectives of the Scheme.
+We aim to review EOIs and provide an outcome within two weeks of submission. To ensure
+sufficient time for assessment and onboarding, companies should submit their EOI at least
+two weeks before the any competition deadline they are intending to apply to. Applications
+received later may not be reviewed in time to participate in the next competition batch.
+If your EOI is successful and you pass due diligence screening, you will be invited to join the
+Approved Supplier List. The Sovereign AI Fund may also request additional information or
+evidence where necessary to support the assessment process.
+Submit an Expression of Interest on the Sovereign AI Fund website:
+https://www.sovereignai.gov.uk
+What we check:
+   •   Which challenge you intend to address.
+   •   Whether your work aligns with the Sovereign AI Focus Areas (these are described in
+       more detail in the EOI form):
+           1. Compute & Infrastructure
+           2. Foundational Models
+           3. AI in Health & Life Sciences
+           4. AI for Scientific Discovery
+           5. AI Trust, Safety & Assurance
+           6. Defence & National Security
+   •   Whether the applicant is a UK-registered business.
+
+
+
+
+                                            OFFICIAL
+                                            OFFICIAL
+
+
+
+
+   •   Confirmation that any project proposal you put forward would take place in the UK.
+   •   Confirming your understanding that this is a research and development scheme and
+       proposals must constitute R&D.
+   •   Confirming your understanding that no more than 50% of the work can be
+       subcontracted.
+   •   Whether initial due diligence checks on the lead applicant identifies any material
+       issues that could prevent the application from proceeding.
+
+
+Post-Qualification Supplier Briefing Sessions
+If approved for the Approved Supplier List, you will be invited to attend a supplier briefing
+session hosted by the Sovereign AI Fund. These sessions are designed to support supplier
+readiness ahead of future challenge competitions and provide an opportunity for approved
+suppliers to better understand the scheme and its objectives.
+The briefings may cover:
+   •   Scheme Overview: Guidance on the competition process, competition batches,
+       eligible R&D costs, and intellectual property terms.
+   •   Challenge Context: An overview of published challenges, government priorities, and
+       the operational contexts in which solutions may be deployed.
+   •   Data and Technical Environments: Information on anticipated deployment
+       considerations, data, and relevant security requirements.
+   •   Questions and Answers: An opportunity for suppliers to ask questions about the
+       scheme and the challenges.
+Attendance at supplier briefing sessions is optional and does not form part of the
+assessment process. Choosing not to attend will have no impact on a supplier's eligibility or
+evaluation scores. The purpose of these sessions is to provide general information about the
+Scheme and answer questions. The Sovereign AI Fund and challenge-owners will not
+review draft proposals, provide bid-writing support, or discuss suppliers' proposed solutions.
+
+
+Stage 2 – Full Application
+Following admission to the Approved Supplier List, applicants can submit a proposal against
+any of our live competition challenges within the Competition Date windows.
+Applicants will be invited to submit their Full Application on Flexigrant, an application portal
+which contains instructions on the assessment questions and detailed information on each of
+the challenges.
+Due Diligence Check –Creditsafe ‘know your customer’ due diligence checks will be
+conducted on the lead applicant and all subcontractors involved. Where the due diligence
+process identifies material risks, concerns, or deficiencies, applicants may be invited to
+provide additional information or take corrective action. Applications will only progress to the
+Full Application assessment stage where the Authority is satisfied that the due diligence
+requirements have been met. Failure to satisfactorily address any identified concerns may
+result in the application being excluded from further consideration.
+How full applications are assessed
+Stage 2 is the detailed assessment stage. At this stage, applications are assessed against
+the published criteria set out below.
+
+
+
+
+                                            OFFICIAL
+                                           OFFICIAL
+
+
+
+
+Technical Assessment Panel – Technical assessors will assess the following:
+   1. Technical Approach – Assessors will consider the extent to which the proposal is
+      technically credible, sufficiently specified, and genuinely innovative.
+   2. Delivery Plan & Team – Assessors will consider the extent to which the proposal is
+      realistically deliverable within the proposed timeframe, supported by a capable
+      delivery team, and able to manage technical, regulatory, security, or privacy risks.
+Sovereign AI Fund Assessment – The Sovereign AI Fund, alongside the relevant
+government challenge-owner will assess the following:
+   3. Impact - Assessors will consider whether the proposal will enable capabilities or
+      applications which result in meaningful benefits aligned with government priorities
+      and whether it is commercially viable.
+   4. Value for Money - Assessors will consider whether the project represents value for
+      money for the taxpayer, whether costs are reasonable, proportionate, and justified,
+      and whether there is a proportionate relationship between the requested funding and
+      the expected benefits.
+Each of these criteria is scored out of 5. To progress to stage 3, an application must score 4
+or higher in each criterion using the following scale:
+   •   1 – Very weak/not evidenced: Fails to meet requirements; significant
+       gaps, weaknesses or risks.
+   •   2 – Weak: addresses some requirements, but substantial gaps, weaknesses or risks
+       remain.
+   •   3 – Below threshold: shows some merit but does not meet the standard required to
+       progress.
+   •   4 – Strong: meets the standard required to progress; credible, well-evidenced and
+       deliverable, with manageable risks.
+   •   5 – Excellent: exceeds the standard required to progress; highly credible, well-
+       evidenced and compelling, with very limited weaknesses or risks.
+Strategic Fit & Social Value assessment and final decision
+Proposals that meet the Stage 2 assessment thresholds will move to the final decision stage.
+The Investment Committee will score the Strategic Fit & Social Value criterion and make the
+final contract award decisions. The Investment Committee comprises the Sovereign AI
+Fund’s Managing Partner, Investment Partners, the Fund’s Senior Responsible Owner, the
+Fund’s Deputy Director, and the Fund’s Head of R&D Schemes. The Investment Committee
+will score Strategic Fit & Social Value criterion using the same 1–5 scoring methodology set
+out for the Stage 2 assessment.
+In scoring Strategic Fit & Social Value, the Investment Committee will consider the extent to
+which the proposal:
+   •   Aligns with the Sovereign AI Fund’s focus areas and strengthens UK sovereign AI
+       capabilities.
+   •   Benefits UK AI firms and the wider UK AI ecosystem that the Fund is intended to
+       support.
+   •   Delivers economic value in the UK.
+The Investment Committee will also consider wider portfolio-level factors when making
+contract award decisions, including:
+
+
+
+
+                                           OFFICIAL
+                                            OFFICIAL
+
+
+
+
+   •   The balance of projects funded across Sovereign AI focus areas and each challenge.
+   •   The balance of risk within the portfolio of funded projects.
+   •   The remaining budget available.
+   •   The contribution of the proposal to developing a strategically coherent portfolio.
+Subject to further approvals, the Investment Committee may decide to:
+   •   Approve the contract
+   •   Approve the contract subject to conditions (such as adjustments to eligible costs)
+   •   Decide not to award a contract
+   •   Invite the supplier to re-submit their proposal in a future competition batch, where it
+       meets the assessment thresholds and is judged fundable in principle but cannot be
+       funded at that point in time due to remaining budget for the financial year.
+
+
+
+
+What Happens After a Contract is Awarded?
+Successful applicants will be issued the Sovereign AI R&D Procurement Scheme Contract,
+and the project schedule, milestones, and payments will be discussed and agreed with the
+Sovereign AI Fund. By submitting a Full Application, applicants acknowledge that any contract
+awarded will be based on the Sovereign AI R&D Procurement Scheme Contract. Any
+proposed amendments will be subject to the Sovereign AI Fund’s written agreement. Material
+changes to the contract will go through a formal change process outlined in the contract and
+will require approval. Projects will be expected to start as soon as reasonably practicable after
+contract award.
+
+
+Eligible Costs
+All costs quoted must reflect actual costs at a fair market value and not include profit.
+Directly incurred costs - These are costs specific to the project. They are charged to the
+project as the amount actually spent. They must be fully supported by evidence
+accompanying each claim. They include:
+   ▪   labour costs for all those contributing to the project broken down by individual
+   ▪   material costs (including consumables specific to the project)
+   ▪   capital equipment costs
+   ▪   subcontracting costs
+   ▪   travel and subsistence (where clearly justified and costed)
+   ▪   other costs specifically attributed to the project.
+Overhead costs - Overhead costs should be charged only in proportion to the amount of
+effort deployed on the project. Calculate them using your own cost rates. If including
+overhead costs you must provide a method of calculation. They can include:
+   ▪   general office and basic laboratory consumables
+   ▪   library services or learning resources
+   ▪   administrative tasks
+   ▪   finance, personnel, and departmental services
+
+
+
+
+                                            OFFICIAL
+                                            OFFICIAL
+
+
+
+
+   ▪   central and distributed computing
+   ▪   cost of capital employed.
+Costs that are considered unreasonable will be rejected.
+You will be asked to provide an itemisation of costs and methods of calculation to support
+your application at the Full Application stage.
+Full economic cost calculations (FEC) are not relevant in this context.
+This Scheme is a competitive procurement mechanism. Whatever calculation you use to
+arrive at your tender price, your application is assessed against bids from other
+organisations. You should bear this in mind when calculating your tender price. The
+assessors will judge value for money and whether it reflects a fair market value. You are
+entitled to include overheads but remember that this is a competitive tender.
+VAT - Applicants must confirm their VAT status as part of the application process. All costs
+submitted should be exclusive of VAT, where applicable. VAT will be applied separately in
+accordance with the application system requirements. Applicants are responsible for ensuring
+VAT is calculated correctly, as errors may affect the eligibility of an application.
+Subcontracting - Contracts will be awarded to a single legal entity only. You can work alone
+or with other organisations as subcontractors. No more than 50% of the work can be
+subcontracted.
+Ineligible costs – We won’t fund:
+   ▪   Ongoing business-as-usual operating costs
+   ▪   Activity that doesn't directly contribute to the project
+   ▪   Retrospective costs incurred before the contract is signed by both parties
+
+
+Upfront Payments
+Applicants will be required to propose project milestones as part of their Full Application. As a
+default position, payments will be made in arrears against completed and accepted milestones.
+Applicants should therefore ensure they have sufficient working capital to manage project
+delivery and any subcontracting arrangements between payment periods.
+Where a micro or small business is cashflow constrained, the Sovereign AI Fund may consider
+upfront payments to help cover mobilisation costs that must be incurred before the first
+milestone deliverable. You can submit a request for upfront payments as part of your Full
+Application. You will need to submit a clear justification and evidence of your financial need
+for upfront payments which will be scrutinised and verified through financial due diligence. We
+will not approve upfront payments for companies that have the capital to cover the costs
+themselves.
+The Sovereign AI Fund reserves the right to reject any request for upfront payment
+arrangements and require delivery under the standard payment-in-arrears model.
+
+
+FAQs
+Can universities and research organisations apply? Universities and research
+organisations cannot apply to the Scheme as a lead applicant but can be involved in projects
+funded under the Scheme as a subcontractor.
+
+
+
+
+                                            OFFICIAL
+                                            OFFICIAL
+
+
+
+
+Can non-UK organisations take part? The lead applicant must be a UK-registered
+company, and the project must take place in the UK. Foreign organisations can be involved
+in projects funded under the Scheme as subcontractors.
+Can I apply if I've received Sovereign AI equity investment? Yes. But investee status will
+not confer any advantage in the competition. Assessment is based on the published
+assessment criteria.
+Is there a preference for smaller or larger bids? Since the Scheme is intended to fund
+pre-commercial prototypes, we anticipate that most contracts will be in the range of £1
+million to £3 million. The Scheme has been designed to accommodate larger compute and
+infrastructure-focused projects that have higher evidenced costs. However, we are also
+interested in supporting smaller-scale projects which address a specific element of each
+challenge. Bids must reflect actual costs at a fair market value, and you should remember
+that this is a competitive tender that is assessed on value for money.
+Can multiple projects be funded against the same challenge? Yes. We are interested in
+developing a range of different solutions to address key challenges with a view to inform
+separate future procurement activity by the relevant challenge-owning departments, but no
+such procurement is guaranteed.
+Will the scheme give me direct access to the end users? The relevant challenge-owning
+department is expected to support each funded project, including by contributing relevant
+operational context and engaging with the supplier during delivery. The precise form and level
+of engagement will depend on the challenge.
+
+
+Conditions
+Re-applying
+Unsuccessful applicants are welcome to apply to the Scheme again in the future. However,
+any further EOI or Full Application must either be materially different from the original
+submission, or clearly address the reasons previously given for non-progression or failure at
+due diligence. The Sovereign AI Fund reserves the right to determine whether a
+resubmission constitutes a materially different proposal and to reject non-compliant or
+duplicate applications without further assessment.
+This requirement does not apply where an applicant was invited to re-submit a proposal
+because it met the assessment thresholds and was considered fundable in principle but
+could not be funded due to budget availability.
+No Obligation to Award
+Participation in the Sovereign AI R&D Procurement Scheme does not guarantee an
+invitation to tender, progression through any stage of the procurement process, or the award
+of a contract.
+The Sovereign AI Fund reserves the right to award contracts in whole or in part, make no
+award, discontinue a challenge, or withdraw a procurement opportunity at any stage of the
+process.
+The Sovereign AI Fund reserves the right not to award a contract where due diligence
+checks identify material risks, concerns, or issues that, in the Sovereign AI Fund’s
+reasonable opinion, could affect an applicant’s suitability, capability, financial standing, or
+ability to successfully deliver the proposed work.
+Right to Amend or Cancel
+The Sovereign AI Fund reserves the right, at any time and without liability, to:
+
+
+
+
+                                            OFFICIAL
+                                            OFFICIAL
+
+
+
+
+   •   amend the procurement process, timetable or documentation;
+   •   request additional information or clarification;
+   •   change the scope, requirements, budget or duration of a project;
+   •   suspend, withdraw or terminate a procurement activity; or
+   •   cancel a procurement opportunity without making an award.
+Any changes will be updated via this page and suppliers on the ‘Approved Supplier List’ will
+be notified via email. Further information relating to individual challenge requirements will be
+issued to suppliers on the Approved Supplier List.
+The Sovereign AI Fund reserves the right to award one or more contracts in respect of any
+challenge statement, or to make no award, where proposals do not meet the required quality
+threshold, value for money requirements, or strategic objectives of the Scheme.
+Costs and Expenses
+Companies participate in the application process entirely at their own cost. The Contracting
+Authority will not reimburse any costs, expenses or losses incurred in preparing or
+submitting applications, bids, proposals or supporting information, or in participating in any
+assessment, due diligence or competition process.
+Clarifications
+The Sovereign AI Fund may, but is under no obligation to, seek clarification of any aspect of
+an application or tender submission.
+Companies should not assume that an opportunity to clarify or correct omissions will be
+provided. Applications may be rejected where required information is not submitted by the
+relevant deadline.
+Project Feasibility and Access to Data
+Companies are responsible for satisfying themselves that they can deliver the proposed
+work and should not rely upon assumptions regarding future access to data, infrastructure,
+facilities, systems, approvals or information unless expressly confirmed by the Sovereign AI
+Fund.
+Where access to datasets, systems, facilities or third-party assets becomes unavailable,
+delayed or restricted for reasons beyond the Sovereign AI Fund’s reasonable control, the
+Sovereign AI Fund reserves the right to amend, suspend or terminate the procurement or
+proposed project without liability for company bid preparation costs.
+Transparency and Information Disclosure
+Suppliers should be aware that Department for Business, Innovation, Science and Trade
+(BIST) is subject to transparency obligations, including the Freedom of Information Act 2000
+and other applicable disclosure requirements.
+Whilst the Sovereign AI Fund will consider requests for confidentiality, information submitted
+as part of the procurement process may be disclosed where required by law.
+If an application is successful, BIST may publish the name of the applicant organisation, the
+project name and the amount of funding awarded, in line with standard transparency
+requirements.
+Non-Collusion and Fair Competition
+By participating in the Scheme, suppliers confirm that they have prepared their submissions
+independently and have not engaged in any activity that distorts competition, including
+collusion, bid-rigging, canvassing or inappropriate influence.
+
+
+
+
+                                            OFFICIAL
+                                          OFFICIAL
+
+
+
+
+The Sovereign AI Fund reserves the right to exclude any Supplier where evidence of anti-
+competitive behaviour is identified.
+Changes to challenges
+The Sovereign AI Fund reserves the right, at its sole discretion, to amend, modify, remove,
+replace or introduce challenge statements at any point during the lifetime of the Scheme.
+Publication of a challenge statement does not constitute a commitment by the Sovereign AI
+Fund to award a contract in relation to that challenge.
+Applicants should therefore not assume that challenges included in one batch will remain
+unchanged for future batches. The Sovereign AI Fund reserves the right to determine the
+timing, scope and content of all future challenge competitions.
+
+
+
+
+                                          OFFICIAL
+
