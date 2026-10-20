@@ -8,15 +8,18 @@ const id = "frameworks-of-truth";
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8");
 const json = async (path) => JSON.parse(await read(path));
 
-test("truth framework preserves the exact title and separates findings, incentives and proposals", async () => {
+test("truth framework's title matches its argument and separates findings, incentives and proposals", async () => {
   const p = await json(`data/profiles/${id}.json`);
   validateProfile(p, (message) => assert.fail(message));
-  assert.equal(p.title, "Frameworks of truth and honesty penalized as dishonesty");
+  assert.equal(p.title, "Frameworks of truth: what does the system reward?");
   assert.equal(p.category, "legal-study");
   assert.match(p.scope, /not the later confession/);
-  assert.match(p.status_note, /not independently established a later appeal outcome/);
+  assert.match(p.status_note, /Disbarred and the finding as Final/);
+  assert.match(p.status_note, /not found a published appeal decision/);
   const entries = new Map(p.sections.flatMap((s) => s.entries).map((entry) => [entry.id, entry]));
   const text = (entry) => entries.get(entry).paragraphs.map((p) => p.text).join(" ");
+  assert.match(text("register-record"), /Core Duty 3/);
+  assert.ok(!entries.has("editorial-method"), "no editing log on the published page");
   assert.match(text("existing-mitigation"), /already lists prompt self-reporting/);
   assert.match(text("our-incentive-argument"), /narrower than saying it received no weight/);
   assert.match(text("counterargument"), /did not relieve the tribunal/);
@@ -25,7 +28,7 @@ test("truth framework preserves the exact title and separates findings, incentiv
   assert.deepEqual(entries.get("five-labels").table.rows.map((r) => r[0]), ["Asserted", "Signed", "Supported", "Checked", "Found"]);
 });
 
-test("all four supplied images remain unmodified with contextual captions and transcripts", async () => {
+test("all four images match the reviewed files, are named by case number and carry transcripts", async () => {
   const p = await json(`data/profiles/${id}.json`);
   const review = await json("data/reviews/frameworks-of-truth.json");
   const html = await read(`public/research/${id}/index.html`);
@@ -39,6 +42,8 @@ test("all four supplied images remain unmodified with contextual captions and tr
     assert.ok(position > start && position < end, art.after_section);
     assert.equal(html.split(`<img src="${art.src}"`).length - 1, 1);
     assert.ok(art.alt && art.caption && art.transcript);
+    assert.match(art.src, /^\/images\/(case-2024-1532-|misleading-)/);
+    assert.doesNotMatch(art.caption, /user-supplied|reproduced unchanged/i);
     assert.ok(profileText({ ...p, url: `/research/${id}/` }).includes(art.transcript));
     if (art.src.endsWith(".png")) {
       assert.equal(bytes.readUInt32BE(16), art.width);
