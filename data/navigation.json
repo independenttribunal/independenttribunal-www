@@ -8,5 +8,5 @@
     { "label": "Legal", "href": "/legal/" },
     { "label": "About", "href": "/about" }
   ],
-  "app": { "label": "The app", "href": "https://app.independenttribunal.org/" }
+  "app": { "label": "The app (BETA)", "href": "https://app.independenttribunal.org/" }
 }
