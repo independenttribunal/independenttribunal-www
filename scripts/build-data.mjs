@@ -296,6 +296,7 @@ const researchOut = research.map((r) => ({ ...r, url: abs(`/research/${r.id}/`),
 await put("data/research.json", { generated: built, about: "Independent Tribunal research dossiers and source material. Read any separately sourced updates before the historical body and supplementary commentary. Each update has its own event date, checked date and sources; it does not verify the rest of the dossier. Original source annotations are commentary; imported links have not all been rechecked.", research: researchOut });
 for (const r of researchOut) await put(`data/research/${r.id}.json`, r);
 
+await put("data/petitions.json", { generated: built, petitions });
 await put("data/policies.json", {
   generated: built,
   policies: policies.map(({ slug, title, summary, updated }) => ({ slug, title, summary, updated, url: abs(`/legal/${slug}/`), markdown: abs(`/legal/${slug}.md`) })),
@@ -315,6 +316,7 @@ await put("data/index.json", {
     { id: "profiles", url: abs("/data/profiles.json"), page: abs("/research/"), count: profiles.length, description: "Selected public-record profiles and legal studies, with paragraph-level sources and explicit coverage limits; not a judges database." },
     { id: "research", url: abs("/data/research.json"), page: abs("/research/"), count: research.length, description: "Six historical research dossiers, with original annotations, provenance and explicit pending-verification status." },
     { id: "references", url: abs("/data/references.json"), count: references.length, description: "Primary and official sources cited across the site." },
+    { id: "petitions", url: abs("/data/petitions.json"), count: petitions.length, description: "Official petitions tracked for law reform and public oversight." },
     ...timelinesOut.map((t) => ({ id: t.id, url: abs(`/data/timelines/${t.id}.json`), page: t.url, count: t.sections.flatMap((s) => s.entries ?? []).length, description: t.description, genre: t.genre })),
     { id: "nuances", url: abs("/data/nuances.json"), page: abs("/nuances/"), count: nuances.length, description: "Legal nuances: rule, the point most people miss, and dated history with sources." },
     { id: "tribunals", url: abs("/data/tribunals.json"), page: abs("/independent-tribunals/"), count: tribunals.length, description: "People's and independent tribunals, documented from their own records and primary sources." },
@@ -582,7 +584,7 @@ Read any \`updates\` before the historical \`body_html\` or \`body_text\`: these
 ## Data
 
 - [Sovereign AI document comparison](${abs("/data/forensics/sovereign-ai.json")}): supporting evidence with two PDF versions, nine grouped text edits, file metadata, hashes and source/archive links.
-- [Commentary](${abs("/data/commentary.json")}): ${commentary.length} essays and research notes. Preserve satire labels, anecdote provenance, dated scopes and null (unknown) values; these are not findings of wrongdoing or medical assessments.
+- [Commentary](${abs("/data/commentary.json")}): ${commentary.length === 1 ? "1 essay" : `${commentary.length} essays`} and research notes. Preserve satire labels, anecdote provenance, dated scopes and null (unknown) values; these are not findings of wrongdoing or medical assessments.
 - [Data index](${abs("/data/index.json")}): every dataset, with counts and coverage
 - [Public-record profiles](${abs("/data/profiles.json")}): ${profiles.length} selected profiles with paragraph-level sources resolved inline
 - [Research dossiers](${abs("/data/research.json")}): ${research.length} historical imports with provenance, annotations and pending-verification status
