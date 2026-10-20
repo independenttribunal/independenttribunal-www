@@ -1,0 +1,23 @@
+{
+  "page": "private-prosecution-staying-in-control",
+  "reviewed": "2026-10-20",
+  "input": {
+    "images": [
+      {
+        "src": "/images/private-prosecution-open-first-hearing.png",
+        "sha256": "928649e866e9420de8524b6bfea4667411c1541ef26891d0b1ba5c8b1a22d51b"
+      }
+    ]
+  },
+  "checks": [
+    "Current law checked against primary sources: Prosecution of Offences Act 1985 ss 6, 7, 15, 17, 23 and 23A; Magistrates' Courts Act 1980 s 1; Criminal Procedure Rules 2025 rr 2.8 and 7.2 as amended; Crime and Disorder Act 1998 Sch 3; Criminal Justice Act 2003 s 29; CPIA 1996 s 3; Gujra [2012] UKSC 52; BDI [2025] EWCA Crim 1289; Johnson [2019] EWHC 1709 (Admin); Kay [2018] EWHC 1233 (Admin); CPS private prosecutions and Victims' Right to Review guidance.",
+    "Justice Committee report HC 497 (2020) and the government response HC 1238 were read from archived copies because parliament.uk returned 403.",
+    "The page went through an adversarial legal-accuracy review and a style and schema review before publication."
+  ],
+  "corrections": [
+    "Image header changed from “CURRENT UK LAW” to “CURRENT LAW (E&W)”: the process shown is England and Wales law only.",
+    "Step 4 changed from “CPS can take over and stop your case.” to “CPS can take over to stop or continue.”: a takeover can continue a case.",
+    "Key problem changed from “Defendant has no chance to respond early.” to “Defendant rarely heard before summons.”: the court has a discretion to hear the proposed defendant.",
+    "The proposal column is kept as the author's proposal and labelled as such on the page. The optional improvement (inviting the CPS to the first hearing) is set out in text, with illustrative drafting that is not legislation."
+  ]
+}

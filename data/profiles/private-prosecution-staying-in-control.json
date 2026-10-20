@@ -1,0 +1,1565 @@
+{
+  "id": "private-prosecution-staying-in-control",
+  "category": "legal-study",
+  "title": "Private prosecution and staying in control",
+  "subtitle": "Today a court screens the case on paper, and the state can take it over at any stage. We propose hearing both sides from the start.",
+  "summary": "In England and Wales anyone may bring a private prosecution, although some offences need the consent of the Director of Public Prosecutions or the Attorney General. A case usually starts with a paper decision on a summons, and the Director of Public Prosecutions can take it over at any stage. We propose an open first hearing where both sides are heard. As an optional improvement, the Crown Prosecution Service would be invited to that hearing so the takeover question is settled there. Replacing the summons and limiting later takeover would need an Act of Parliament; notifying the Crown Prosecution Service could be done by court rules or practice.",
+  "scope": "England and Wales · Private prosecutions started by a summons application in a magistrates’ court. Scotland and Northern Ireland have separate systems. Current law, the official reform debate and our own proposal are set out separately.",
+  "status_note": "Statute, judgments, the Criminal Procedure Rules and Crown Prosecution Service (CPS) guidance were checked against primary sources on 20 October 2026. The open first hearing and the optional improvement of inviting the CPS are our reform proposal, not current law or government policy. This page is a legal study, not legal advice, and is not a comment on any particular case.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-10-20",
+  "tags": [
+    "uk",
+    "criminal-law",
+    "private-prosecution",
+    "reform",
+    "cps",
+    "courts"
+  ],
+  "artworks": [
+    {
+      "src": "/images/private-prosecution-open-first-hearing.png",
+      "width": 1024,
+      "height": 1536,
+      "after_section": "proposal",
+      "alt": "Infographic comparing today’s summons screening in England and Wales with our proposed open first hearing, step by step.",
+      "caption": "Proposal artwork, Independent Tribunal. It shows our reform proposal, not current law, and its current-law column is simplified. The notes under “What the artwork simplifies” qualify it. Select the image to open it at full size.",
+      "transcript": "PRIVATE PROSECUTION\nFrom gatekeeper screening to an open first hearing\nSame justice. A fairer process.\nCURRENT LAW (E&W) — Magistrate gatekeeper (one-sided)\n1. Prepare your case. Gather evidence and allegations.\n2. Apply for summons. Ask the magistrates’ court to issue a summons against the defendant.\n3. Magistrate screening. Magistrate decides whether to issue the summons.\n4. CPS can take over. CPS can take over to stop or continue.\n5. Case proceeds to trial. If it survives, the case reaches trial (Magistrates’ or Crown Court).\nKEY PROBLEMS: One-sided screening before the other party is heard. Magistrate acts as gatekeeper. CPS can take over and stop the case. Defendant rarely heard before summons.\nVS\nPROPOSED REFORM — Initial hearing from the start (open)\n1. Prepare your case. Gather evidence and allegations.\n2. File with court. Submit your charge and evidence pack directly. No screening.\n3. Initial hearing. Both sides attend. Evidence is discussed and challenged.\n4. Outcome on the day: Dismiss. Amend. Or proceed to trial.\n5. You stay in control. CPS cannot take over. You decide whether to continue or withdraw (subject to court approval).\n6. Case proceeds to trial. If it has merit, it proceeds with a clear record of evidence.\nKEY BENEFITS: The other party can challenge the case early. Evidence authenticity is tested from the start. No CPS takeover – you stay in control. Faster, fairer and more transparent.\nWHY THIS IS BETTER: Fairness: Both sides heard from the start. Truth: Evidence tested early. Freedom: Citizens keep control. Efficiency: No delays from one-sided screening.\nIdea endorsed by independenttribunal.org"
+    }
+  ],
+  "related": [
+    {
+      "id": "defences-withdrawn-from-jury",
+      "title": "Defences removed by the judge, not considered by the jury"
+    },
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth: what does the system reward?"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Current law",
+      "value": "Takeover at any stage",
+      "detail": "The Director of Public Prosecutions may take over a private prosecution to continue it or to stop it",
+      "target": "dpp-takeover"
+    },
+    {
+      "label": "Our proposal",
+      "value": "An open first hearing",
+      "detail": "Both sides heard before the case goes further. This would need legislation",
+      "target": "proposal"
+    },
+    {
+      "label": "Optional improvement",
+      "value": "Settle takeover on day one",
+      "detail": "Invite the Crown Prosecution Service to the first hearing, so the question is answered early and in open court",
+      "target": "cps-first-hearing"
+    }
+  ],
+  "sections": [
+    {
+      "id": "proposal",
+      "title": "The proposal in one page",
+      "intro": "This is our reform proposal. It is not the law today. Replacing the summons would need an Act of Parliament as well as changes to the Criminal Procedure Rules.",
+      "entries": [
+        {
+          "id": "proposal-steps",
+          "title": "What would change",
+          "kind": "Reform proposal — not current law",
+          "paragraphs": [
+            {
+              "text": "Today a private prosecutor asks a magistrates’ court to issue a summons. The court usually decides on the papers, without hearing the person accused. Under the Criminal Procedure Rules, any hearing on the application is in private unless the court directs otherwise.",
+              "sources": [
+                {
+                  "id": "mca1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(12)"
+                }
+              ]
+            },
+            {
+              "text": "We propose four changes. First, the prosecutor files the charge and evidence with the court, without a paper screening decision. Second, the court lists an initial hearing that both sides attend, where the evidence can be discussed and challenged. Third, the court decides on the day whether to dismiss the case, require it to be amended, or let it proceed. Fourth, the private prosecutor keeps conduct of the case.",
+              "sources": [
+                {
+                  "id": "mca1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(12)"
+                }
+              ]
+            },
+            {
+              "text": "Withdrawing a charge would still need the court’s permission, which continues the current position. On takeover, see our optional improvement below: settle the question at the first hearing instead of removing the power.",
+              "sources": [
+                {
+                  "id": "crimpr28",
+                  "locator": "r 2.8(5)(c)"
+                },
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                }
+              ]
+            },
+            {
+              "text": "Today the summons is what requires the accused to attend. Under our proposal the court would issue a notice to attend the initial hearing, similar to the written charge and requisition that public prosecutors use under section 29 of the Criminal Justice Act 2003. That procedure is limited to listed public prosecutors, people they authorise and people specified by order, so private prosecutors cannot generally use it. This part of the proposal would need an amendment to primary legislation. What happens if the accused does not attend is a design question we list below.",
+              "sources": [
+                {
+                  "id": "mca1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "cja29",
+                  "locator": "s 29(1), (2), (5)"
+                }
+              ]
+            },
+            {
+              "text": "We suggest one qualification to the artwork. The court should keep a basic check before listing: that the offence is known to law, the filing is in time, the court has jurisdiction and the prosecutor has authority. These are the points the High Court already expects a court to check. An obviously defective or abusive filing should not reach a hearing at all.",
+              "sources": [
+                {
+                  "id": "kay",
+                  "locator": "paras 21–22 (quoting ex p Klahn)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proposal-aims",
+          "title": "Why we propose it",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The aim is to hear the other side before a person is drawn further into a prosecution. Courts can already do this. The High Court has said a court may give notice to the proposed defendant and hear them before deciding whether to issue a summons. In the Johnson case a District Judge received written and oral submissions for the proposed defendant before deciding. We propose making that the normal route, not the exception.",
+              "sources": [
+                {
+                  "id": "kay",
+                  "locator": "para 22(6)"
+                },
+                {
+                  "id": "johnson",
+                  "locator": "paras 10–13"
+                }
+              ]
+            },
+            {
+              "text": "In 2020 the House of Commons Justice Committee found that the summons stage had been strengthened, but that how well it works depends on the individual magistrate and the defence. Some witnesses told the Committee that getting a summons was largely a matter of completing the paperwork. A defendant with limited means may not be able to afford a judicial review of a summons.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "paras 41–45"
+                }
+              ]
+            },
+            {
+              "text": "The benefits shown in the artwork, including “faster”, are expected benefits, not measured results. An extra contested hearing could add time and cost in some cases. We have not found published data on delays caused by summons screening. Any pilot should measure speed, cost and outcomes.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "paras 41–45"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "today",
+      "title": "How it works today",
+      "intro": "The current law of England and Wales, from the first application to a possible takeover by the state.",
+      "entries": [
+        {
+          "id": "right-to-prosecute",
+          "title": "The right to bring a private prosecution",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 6(1) of the Prosecution of Offences Act 1985 preserves the right of any person to institute criminal proceedings. The Supreme Court, quoting Lord Wilberforce in Gouriet, has called private prosecution a valuable constitutional safeguard against inertia or partiality on the part of authority.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(1)"
+                },
+                {
+                  "id": "gujra",
+                  "locator": "paras 27, 90"
+                }
+              ]
+            },
+            {
+              "text": "The right is subject to statutory consent requirements. Some offences cannot be prosecuted without the consent of the Director of Public Prosecutions (DPP) or the Attorney General. For example, section 117 of the Terrorism Act 2000 requires the DPP’s consent for specified offences.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "para 58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "summons-application",
+          "title": "The summons application",
+          "kind": "Statute and procedural rules",
+          "paragraphs": [
+            {
+              "text": "Under section 1 of the Magistrates’ Courts Act 1980, when an information (a written statement of the alleged offence) is laid before a justice of the peace, the justice may issue a summons or, in limited cases, a warrant. It is a discretion, not a duty. The Criminal Procedure Rules require a written application, or an oral one with a written statement of the allegation. The current rules are the Criminal Procedure Rules 2025, in force since 6 October 2025. Part 7 deals with starting a prosecution in a magistrates’ court.",
+              "sources": [
+                {
+                  "id": "mca1",
+                  "locator": "s 1(1), (3)–(4)"
+                },
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(1)"
+                },
+                {
+                  "id": "crimpr",
+                  "locator": "Part 7, rr 7.1–7.6"
+                }
+              ]
+            },
+            {
+              "text": "A private applicant must outline the grounds, and disclose earlier applications and other proceedings about the same allegation. It must also state, to the best of its knowledge, that the allegations are substantially true, that the evidence will be available at trial, and that the application discloses all information material to the court’s decision.",
+              "sources": [
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(5)–(7)"
+                }
+              ]
+            },
+            {
+              "text": "The court may decide the application without a hearing, which is the general rule, or at a hearing held in private unless it directs otherwise. It may decide with or without representations by the defendant.",
+              "sources": [
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(12)"
+                }
+              ]
+            },
+            {
+              "text": "Since October 2025 the rule has listed examples of when a court may decline a summons, including material non-disclosure and an abusive motive. From 5 October 2026 rule 7.2(14) bars a summons that would be incompatible with a statutory provision or other rule of law. The examples were moved to an expanded note, which adds unconscionable delay, immunity, a previous acquittal or conviction, and parallel prosecution by another prosecutor. The note says the list is not exhaustive.",
+              "sources": [
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(14), version of 6 October 2025"
+                },
+                {
+                  "id": "crimpr-2026",
+                  "locator": "r 8(a)–(b)"
+                }
+              ]
+            },
+            {
+              "text": "The decision need not be made by a lay magistrate or District Judge. Under rule 2.8(3) and (5)(a) of the Criminal Procedure Rules 2025, a legally qualified authorised court officer (in practice, a justices’ legal adviser) may issue a summons.",
+              "sources": [
+                {
+                  "id": "crimpr28",
+                  "locator": "r 2.8(3), (5)(a)"
+                },
+                {
+                  "id": "kay",
+                  "locator": "para 16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "summons-test",
+          "title": "What the court checks",
+          "kind": "High Court judgments",
+          "citation": "R (Kay) v Leeds Magistrates’ Court [2018] EWHC 1233 (Admin); R (Johnson) v Westminster Magistrates’ Court [2019] EWHC 1709 (Admin)",
+          "paragraphs": [
+            {
+              "text": "Kay restates the test from R v West London Metropolitan Stipendiary Magistrate, ex p Klahn [1979] 1 WLR 933. The court must be satisfied that the offence is known to law and its ingredients are present on the face of it, that the application is in time, that the court has jurisdiction, and that the informant has authority. It may consider whether the application is vexatious. A proposed defendant has no right to be heard at this stage.",
+              "sources": [
+                {
+                  "id": "kay",
+                  "locator": "paras 21–22"
+                }
+              ]
+            },
+            {
+              "text": "If those requirements are met, a summons should generally issue unless there are compelling reasons not to, such as vexatiousness, abuse or impropriety. The court may require notice to the proposed defendant and hear them. A private applicant owes a duty of candour, whose importance the court said “cannot be overstated”. In Kay the summonses were quashed for non-disclosure.",
+              "sources": [
+                {
+                  "id": "kay",
+                  "locator": "paras 20–29, 22(6), 37–43"
+                }
+              ]
+            },
+            {
+              "text": "In Johnson the proposed defendant made written and oral submissions before the summons decision. The Divisional Court quashed the decision to issue summonses. It held that it was wrong to treat the threshold as low, or to leave essential ingredients of the offence to be decided at trial.",
+              "sources": [
+                {
+                  "id": "johnson",
+                  "locator": "paras 20–21, 29, 40, 47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dpp-takeover",
+          "title": "The Director of Public Prosecutions can take over at any stage",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Where the DPP is not under a duty to take over a private prosecution, section 6(2) says the DPP “may nevertheless do so at any stage”. Where a summons is issued, the proceedings are treated as instituted from the time the information was laid. If the court refuses the summons, no proceedings are instituted by that application, so there is nothing to take over.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                },
+                {
+                  "id": "poa15",
+                  "locator": "s 15(2)(a)"
+                }
+              ]
+            },
+            {
+              "text": "Once the DPP has conduct of a case, section 23 allows it to be discontinued at the preliminary stage in a magistrates’ court by notice. The accused may give notice requiring the proceedings to continue. Discontinuance does not prevent fresh proceedings.",
+              "sources": [
+                {
+                  "id": "poa23",
+                  "locator": "s 23(1)–(3), (6), (7), (9)"
+                }
+              ]
+            },
+            {
+              "text": "Section 23 applies only at the preliminary stage, which ends once the court begins to hear prosecution evidence at a summary trial or the accused is sent for trial. Once the accused has been sent for trial, the DPP may discontinue under section 23A by notice to the Crown Court, and the accused cannot require the case to continue.",
+              "sources": [
+                {
+                  "id": "poa23",
+                  "locator": "s 23(2)"
+                },
+                {
+                  "id": "poa23a",
+                  "locator": "s 23A(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "Where a private prosecution is withdrawn or not proceeded with, and there is ground to suspect there was no satisfactory reason, the magistrates’ court’s designated officer must send the papers to the DPP.",
+              "sources": [
+                {
+                  "id": "poa7",
+                  "locator": "s 7(4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cps-policy",
+          "title": "When the Crown Prosecution Service continues or stops a case",
+          "kind": "Official guidance and Supreme Court judgment",
+          "citation": "R (Gujra) v Crown Prosecution Service [2012] UKSC 52",
+          "paragraphs": [
+            {
+              "text": "Under its published guidance, the Crown Prosecution Service (CPS) takes over and stops a private prosecution if either stage of the Full Code Test in the Code for Crown Prosecutors fails: the evidential stage or the public interest stage. It takes over and continues a case only if both stages are met and there is a particular need, for example a serious offence, complex or sensitive disclosure, applications for special measures or anonymity, or extradition. The guidance shows updates in October 2019, November 2024 and July 2026.",
+              "sources": [
+                {
+                  "id": "cps-guidance",
+                  "locator": "Sections on taking over to continue and to stop"
+                }
+              ]
+            },
+            {
+              "text": "The private prosecutor has no duty to tell the CPS about a case, although the Court of Appeal has said that acting without reference to the state authorities can count against a prosecutor’s costs (see Costs below). The CPS may hear of a case from the private prosecutor, the defendant, a judge or justices’ clerk, a Home Office extradition referral, or the press.",
+              "sources": [
+                {
+                  "id": "cps-guidance",
+                  "locator": "How the CPS may find out"
+                },
+                {
+                  "id": "bdi",
+                  "locator": "paras 76, 80, 83"
+                }
+              ]
+            },
+            {
+              "text": "The CPS is not a party until it takes over. It usually allows about 14 days for information, and an adjournment may be needed. Where the CPS stops a case, the victim may be able to use the Victims’ Right to Review scheme.",
+              "sources": [
+                {
+                  "id": "cps-guidance",
+                  "locator": "Procedure"
+                },
+                {
+                  "id": "vrr",
+                  "locator": "para 25 (Private Prosecutions)"
+                }
+              ]
+            },
+            {
+              "text": "In Gujra the Supreme Court, by a majority (Lords Wilson, Neuberger and Kerr; Lord Mance and Lady Hale dissenting), upheld as lawful the DPP’s 2009 policy of taking over and stopping private prosecutions that fail the evidential stage. Lord Wilson reasoned that a prosecution which lacks a reasonable prospect of success draws inappropriately on the resources of the court, and that a defendant would have a legitimate grievance at being subjected to it.",
+              "sources": [
+                {
+                  "id": "gujra",
+                  "locator": "paras 22, 24–25, 36, 39, 73–75"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "takeover-figures",
+          "title": "How often the CPS takes over",
+          "kind": "Official figures",
+          "paragraphs": [
+            {
+              "text": "From April 2019 to March 2020 the CPS Special Crime Division dealt with 49 private prosecution referrals. It took over 32: 29 to discontinue and 3 to continue. It declined to take over 17. In 2023–24 the CPS took over and discontinued 20 of the 32 cases referred to it, and did not take over and continue any.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "para 48"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Chapter 1, pp 13–14"
+                }
+              ]
+            },
+            {
+              "text": "These are referrals, not all private prosecutions. The Ministry of Justice says the CPS is not notified when a private prosecution starts, and usually hears of one only when the defendant refers it.",
+              "sources": [
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Chapter 1, pp 13–14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "costs",
+          "title": "Costs from public funds",
+          "kind": "Statute and Court of Appeal judgment",
+          "citation": "R v BDI & Ors [2025] EWCA Crim 1289",
+          "paragraphs": [
+            {
+              "text": "Section 17 of the 1985 Act lets a court order a private prosecutor’s costs from central funds in proceedings for an indictable offence, and in some appellate proceedings for summary offences. Public authorities are excluded. The amount is what the court considers reasonably sufficient to compensate for expenses properly incurred. Since 29 June 2026, section 12 of the Victims and Courts Act 2026 has made this subject to regulations the Lord Chancellor may make. We have not found any such regulations.",
+              "sources": [
+                {
+                  "id": "poa17",
+                  "locator": "s 17(1), (2), (2ZA), (2A), (2AA)"
+                },
+                {
+                  "id": "vca12",
+                  "locator": "s 12"
+                }
+              ]
+            },
+            {
+              "text": "In BDI the Court of Appeal held that there is no legal duty to report to the police or CPS first. But a private prosecutor who pursues a case without reference to the state authorities risks having costs refused or reduced, even without misconduct. In that case costs were capped at what the CPS would have spent.",
+              "sources": [
+                {
+                  "id": "bdi",
+                  "locator": "paras 76, 78, 80, 82–83, 93–98, 100"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "today-vs-proposal",
+          "title": "Today compared with our proposal",
+          "kind": "Comparison of current law and our proposal",
+          "table": {
+            "caption": "Stage by stage: current law of England and Wales and the Independent Tribunal proposal",
+            "columns": [
+              "Stage",
+              "Today",
+              "Our proposal"
+            ],
+            "rows": [
+              [
+                "Starting the case",
+                "An information (a written statement of the alleged offence) and summons application to a magistrates’ court. A private applicant gives candour statements.",
+                "Charge and evidence filed with the court, which issues a notice to attend. Candour duties stay. A basic check before listing."
+              ],
+              [
+                "First decision",
+                "Usually on the papers, by a justice, District Judge or legally qualified court officer. Any hearing is private unless the court directs otherwise.",
+                "An open initial hearing listed for both sides."
+              ],
+              [
+                "Proposed defendant",
+                "No right to be heard. The court may give notice and hear them.",
+                "Attends, and may challenge the case and its evidence."
+              ],
+              [
+                "Possible results",
+                "Summons issued or refused.",
+                "Dismiss, require amendment, or proceed."
+              ],
+              [
+                "Crown Prosecution Service",
+                "Not notified. Learns of cases by referral, often from the defendant. Not a party until it takes over.",
+                "With the optional improvement: notified on filing and invited to the hearing."
+              ],
+              [
+                "Takeover",
+                "The DPP may take over at any stage, to continue or to stop.",
+                "Artwork: no takeover. Our optional improvement, which we prefer: the question is settled at the first hearing, with narrow exceptions."
+              ],
+              [
+                "Ending the case",
+                "The prosecutor may withdraw a charge with the court’s permission (CrimPR r 2.8(5)(c)), with referral to the DPP if there seems no satisfactory reason (s 7(4)). After a takeover the DPP may discontinue.",
+                "The court may dismiss at the first hearing. Withdrawal still needs the court’s permission, as today."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The left-hand column summarises the sources cited above. The right-hand column is our proposal. It would need an Act of Parliament, including changes to section 1 of the Magistrates’ Courts Act 1980 or section 29 of the Criminal Justice Act 2003, and to section 6(2) of the 1985 Act for any limit on takeover, together with changes to Part 7 of the Criminal Procedure Rules.",
+              "sources": [
+                {
+                  "id": "mca1",
+                  "locator": "s 1"
+                },
+                {
+                  "id": "cja29",
+                  "locator": "s 29"
+                },
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                },
+                {
+                  "id": "poa7",
+                  "locator": "s 7(4)"
+                },
+                {
+                  "id": "poa23",
+                  "locator": "s 23"
+                },
+                {
+                  "id": "crimpr28",
+                  "locator": "r 2.8(5)(c)"
+                },
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "title": "What the artwork simplifies",
+      "intro": "A one-page graphic cannot carry every qualification. These notes correct or qualify it.",
+      "entries": [
+        {
+          "id": "accuracy-notes",
+          "title": "Accuracy notes",
+          "kind": "Accuracy notes on our artwork",
+          "paragraphs": [
+            {
+              "text": "England and Wales only. The process shown is the law of England and Wales, not the whole UK. In Scotland, private prosecution of serious crime needs a Bill for Criminal Letters, which is very rarely granted; in 2024 the High Court of Justiciary refused one even though the Lord Advocate did not oppose it. Northern Ireland preserves private prosecutions under separate legislation, and its Director of Public Prosecutions may take over at any stage.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "extent note E+W"
+                },
+                {
+                  "id": "cooney",
+                  "locator": "paras 19–20; final paragraph"
+                },
+                {
+                  "id": "jnia31",
+                  "locator": "s 31(3)–(4)"
+                }
+              ]
+            },
+            {
+              "text": "The defendant can sometimes be heard. The proposed defendant has no right to be heard before a summons issues, but the court has a discretion to hear them, and does so in some contested cases. After a summons issues, the defendant can ask for it to be set aside or ask the CPS to take the case over. The artwork therefore says the defendant is “rarely heard before summons”. How often courts hear the proposed defendant is not recorded in any published data we found.",
+              "sources": [
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(12)(c)"
+                },
+                {
+                  "id": "kay",
+                  "locator": "para 22(6)"
+                },
+                {
+                  "id": "johnson",
+                  "locator": "paras 10–13"
+                },
+                {
+                  "id": "cps-guidance",
+                  "locator": "Requests by defendants"
+                }
+              ]
+            },
+            {
+              "text": "A takeover can continue a case, not only stop it. Calling the CPS’s role purely obstructive would be misleading. Its guidance provides for continuing a case where the Full Code Test is met and there is a particular need. In practice most recent referrals that were taken over were stopped.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                },
+                {
+                  "id": "cps-guidance",
+                  "locator": "Taking over to continue"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Chapter 1, pp 13–14"
+                }
+              ]
+            },
+            {
+              "text": "“Magistrate” is shorthand. The decision may be made by a lay justice, a District Judge (Magistrates’ Courts) or a legally qualified court officer. Calling the screening “one-sided” is our critique, not a legal defect. The screening exists to protect people from vexatious or abusive prosecutions, and our proposal aims to keep that protection while letting the other side be heard.",
+              "sources": [
+                {
+                  "id": "crimpr28",
+                  "locator": "r 2.8(3), (5)(a)"
+                },
+                {
+                  "id": "kay",
+                  "locator": "paras 16, 21–22"
+                }
+              ]
+            },
+            {
+              "text": "Some early challenge already exists. After sending to the Crown Court, a defendant can already apply to dismiss a charge because the evidence would not be sufficient for a proper conviction, and can apply at any stage to stay a prosecution as an abuse of process. An initial hearing could test whether the evidence discloses the offence, but disputed facts and the authenticity of evidence would normally remain for trial.",
+              "sources": [
+                {
+                  "id": "cda-sch3",
+                  "locator": "Sch 3 para 2(1)–(2)"
+                },
+                {
+                  "id": "jc-report",
+                  "locator": "para 51"
+                }
+              ]
+            },
+            {
+              "text": "“Tested from the start” means challenged early, not decided early. An initial hearing can test whether there is a case to answer and expose obvious defects. In our analysis it cannot usually resolve disputed authenticity, which needs witnesses and a fact-finder at trial.",
+              "sources": [
+                {
+                  "id": "cda-sch3",
+                  "locator": "Sch 3 para 2(2)"
+                },
+                {
+                  "id": "johnson",
+                  "locator": "paras 40, 47"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cps-first-hearing",
+      "title": "Optional improvement: invite the Crown Prosecution Service to the first hearing",
+      "intro": "Our optional improvement. Instead of removing the takeover power, settle the takeover question openly at the start. Notification and an invitation to the hearing could be introduced by Criminal Procedure Rules or HMCTS practice. A presumption against later takeover would need an Act of Parliament amending section 6.",
+      "entries": [
+        {
+          "id": "cps-invite-mechanism",
+          "title": "How it would work",
+          "kind": "Reform proposal — not current law",
+          "paragraphs": [
+            {
+              "text": "When a private prosecution is filed, the court notifies the CPS and invites it to the initial hearing. Before or at that hearing, the CPS states one of three positions: it will take over and continue the case; it will take over and stop the case; or it declines to take over and leaves the case with the private prosecutor. It gives short written reasons, and the decision is recorded in open court.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                },
+                {
+                  "id": "cps-guidance",
+                  "locator": "Taking over to continue; taking over to stop; Procedure"
+                }
+              ]
+            },
+            {
+              "text": "The first hearing would be listed long enough after notice to allow the CPS’s usual review, and the CPS could ask once for a short, time-limited adjournment instead of choosing a position on the day.",
+              "sources": [
+                {
+                  "id": "cps-guidance",
+                  "locator": "Procedure"
+                }
+              ]
+            },
+            {
+              "text": "Today none of this happens as a matter of course. The CPS guidance makes no provision for attending a summons hearing or first hearing, and courts are not required to notify the CPS of summons applications. The CPS is not a party until it takes over.",
+              "sources": [
+                {
+                  "id": "cps-guidance",
+                  "locator": "How the CPS may find out; Procedure"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Chapter 1, pp 13–14"
+                }
+              ]
+            },
+            {
+              "text": "If the CPS neither attends nor writes, the court would record that it was notified. Whether silence should count as a decision to decline is an open design question, and the illustrative wording below leaves it undecided. Treating silence as a decision would give certainty, but could push the CPS into reviewing every case.",
+              "sources": [
+                {
+                  "id": "gov-response",
+                  "locator": "Response to recommendations 6–7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "presumption",
+          "title": "A presumption against later takeover",
+          "kind": "Reform proposal — not current law",
+          "paragraphs": [
+            {
+              "text": "If the CPS declines at the first hearing, a presumption against later takeover would apply. A later takeover would still be possible where genuinely new material comes to light, or circumstances change materially, for example a risk to a witness, an extradition request or evidence of abuse. The CPS would give written reasons to the court and the parties.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                },
+                {
+                  "id": "cps-guidance",
+                  "locator": "Particular need examples"
+                }
+              ]
+            },
+            {
+              "text": "Notification and an invitation to the hearing could be introduced by Criminal Procedure Rules or HMCTS practice; the Justice Committee asked HMCTS to ensure the CPS is notified. A presumption against later takeover could not. Section 6(2) lets the DPP take over “at any stage”, so a decision at the first hearing could not legally rule out a later takeover without an Act of Parliament amending section 6.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                },
+                {
+                  "id": "jc-report",
+                  "locator": "recommendation 6"
+                },
+                {
+                  "id": "crimpr",
+                  "locator": "Part 7"
+                },
+                {
+                  "id": "cps-guidance",
+                  "locator": "Requests by defendants"
+                }
+              ]
+            },
+            {
+              "text": "The defendant’s route of asking the CPS to review the case later is kept: limb (c) of the illustrative wording preserves it where the Code tests are not met.",
+              "sources": [
+                {
+                  "id": "cps-guidance",
+                  "locator": "Requests by defendants"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "illustrative-clause",
+          "title": "Illustrative wording",
+          "kind": "Illustrative drafting — not legislation",
+          "paragraphs": [
+            {
+              "text": "Illustrative only, showing how section 6 of the 1985 Act might be amended. It leaves open whether silence after notification counts as declining.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(1)–(2)"
+                }
+              ],
+              "quote": false
+            },
+            {
+              "text": "(2A) Where the Director has been notified of proceedings in accordance with Criminal Procedure Rules and has declined, at or before the initial hearing, to take over their conduct, the Director may later take over the proceedings only if (a) material has come to light that was not reasonably available to the Director at that hearing, (b) there has been a material change of circumstances, or (c) the accused applies to the Director, and the Director is satisfied that the evidential stage or the public interest stage of the Code for Crown Prosecutors is not met.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                }
+              ],
+              "quote": false
+            },
+            {
+              "text": "(2B) Where the Director takes over proceedings under subsection (2A), the Director must give written reasons to the court and to the parties.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                }
+              ],
+              "quote": false
+            },
+            {
+              "text": "(2C) Subsection (2A) does not apply where the Director is under a duty to take over the proceedings.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                }
+              ],
+              "quote": false
+            }
+          ]
+        },
+        {
+          "id": "precedents",
+          "title": "The idea has been proposed before",
+          "kind": "Parliamentary and official record",
+          "paragraphs": [
+            {
+              "text": "In 2020 the Justice Committee recommended that HM Courts & Tribunals Service (HMCTS) make sure the CPS is notified whenever a private prosecution starts, through a central register. It said notification would not necessarily trigger a review.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "paras 65, 71; recommendation 6"
+                }
+              ]
+            },
+            {
+              "text": "The Committee also recorded an academic proposal by Claire de Than and Jesse Elvin: a Crown Prosecutor would take part in a pre-trial review in the magistrates’ court and decide whether the case continues as a public prosecution, is disallowed, or continues privately with monitoring and review. The Royal Commission on Criminal Procedure had recommended automatic referral to a public prosecutor in 1981.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "para 70; footnotes 143–145"
+                }
+              ]
+            },
+            {
+              "text": "The objections were recorded too. One witness warned of “added bureaucracy, added delay and added cost”. The CPS rejected mandatory review as not “proportionate or cost-effective” and said it would have to act “inappropriately as a gatekeeper”. The Committee added that mandatory review was potentially incompatible with the statutory right to bring private prosecutions.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "paras 50, 70"
+                }
+              ]
+            },
+            {
+              "text": "Some early state involvement already exists. For offences that need the consent of the DPP or the Attorney General, the state decides before a private prosecution can be instituted.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "para 58"
+                }
+              ]
+            },
+            {
+              "text": "In its 2021 response the government rejected notification. It argued that notification would in practice imply a duty to review, with a heavy resource burden and a risk of judicial review. It noted the same idea had been rejected when the 1985 Act was passed and when the Law Commission proposed it in 1998. In November 2020 the Criminal Procedure Rule Committee declined, for the same reasons, to require that defendants be told of their right to seek a CPS review. The Ministry of Justice’s 2025 consultation does not propose notification or early CPS involvement.",
+              "sources": [
+                {
+                  "id": "gov-response",
+                  "locator": "Annex, responses to recommendations 6–7"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Chapter 1, pp 13–14"
+                }
+              ]
+            },
+            {
+              "text": "Courts already nudge prosecutors towards early state involvement. In BDI a District Judge asked the private prosecutors to inform the CPS; they wrote about six weeks after the summons hearing, and the CPS did not reply. The Court of Appeal said that whether the state authorities had a reasonable opportunity to make an informed decision “will always be important, and in some cases decisively so” for costs.",
+              "sources": [
+                {
+                  "id": "bdi",
+                  "locator": "paras 6, 8, 83, 94"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "benefits-costs",
+          "title": "Benefits and costs",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Benefits. Both sides would know early whether the state will take over. The CPS would review the case before most of the work is done. Fewer costs would be wasted on cases later taken over and stopped. A private prosecutor would face less risk of a takeover followed by discontinuance after years of work. The defendant would gain early state scrutiny of the case against them, which today usually depends on the defendant asking for it.",
+              "sources": [
+                {
+                  "id": "cps-guidance",
+                  "locator": "How the CPS may find out"
+                },
+                {
+                  "id": "bdi",
+                  "locator": "paras 80, 94"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Chapter 1, pp 13–14"
+                }
+              ]
+            },
+            {
+              "text": "Costs and objections. The CPS would need resources to review every filed case, and its usual 14-day period for information could delay the first hearing. A decision recorded in open court could itself be challenged by judicial review. A statutory discretion cannot be bound without legislation. And new evidence must always remain a ground for a later takeover, or the safeguard is lost.",
+              "sources": [
+                {
+                  "id": "gov-response",
+                  "locator": "Response to recommendations 6–7"
+                },
+                {
+                  "id": "cps-guidance",
+                  "locator": "Procedure"
+                },
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                }
+              ]
+            },
+            {
+              "text": "Our answer to the resource objection is that the CPS already reviews many of these cases, but late and on referral. Moving that review to the start, with a short written decision, may cost less than a late takeover after full preparation. That is a hypothesis to be tested, not a measured result.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "para 48"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Chapter 1, pp 13–14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objections",
+      "title": "Objections and safeguards",
+      "intro": "Private prosecution protects against official inaction. It can also be misused. Any reform has to answer both points.",
+      "entries": [
+        {
+          "id": "protecting-defendants",
+          "title": "Protecting people from oppressive prosecutions",
+          "kind": "Judgments, statute and official record",
+          "citation": "Hamilton & Ors v Post Office Ltd [2021] EWCA Crim 577",
+          "paragraphs": [
+            {
+              "text": "The Post Office brought its prosecutions as a private prosecutor. According to a Post Office response to a freedom of information request, reported by the Justice Committee, it brought 918 successful prosecutions of subpostmasters, their assistants and other employees between 1991 and 2015.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "para 4"
+                }
+              ]
+            },
+            {
+              "text": "In Hamilton the Court of Appeal quashed 39 of 42 convictions, which dated from 2003 to 2013. It found the Post Office knew of serious issues with the reliability of its Horizon system, and that it had a clear duty to investigate all reasonable lines of enquiry. Parliament later quashed further convictions by the Post Office (Horizon System) Offences Act 2024.",
+              "sources": [
+                {
+                  "id": "hamilton",
+                  "locator": "paras 1, 4, 77, 121, 447"
+                },
+                {
+                  "id": "horizon-act",
+                  "locator": "ss 1–2"
+                }
+              ]
+            },
+            {
+              "text": "The Justice Committee inquiry followed a request from the Criminal Cases Review Commission to examine cases where one organisation is victim, investigator and prosecutor. The Ministry of Justice’s 2025 consultation foreword singles out the Post Office prosecutions as a leading example of private prosecutor failure.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "paras 1–3"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Foreword"
+                }
+              ]
+            },
+            {
+              "text": "An open first hearing for every filing would change a protection that exists today. Summons applications are decided on paper or in private by default. A public hearing before any judicial filter could expose a person to reputational harm and cost from a weak case. This engages the right to respect for private life under Article 8 of the European Convention on Human Rights. That is our analysis; no court has ruled on this design.",
+              "sources": [
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(12)"
+                },
+                {
+                  "id": "jc-report",
+                  "locator": "para 44"
+                },
+                {
+                  "id": "gujra",
+                  "locator": "para 36"
+                }
+              ]
+            },
+            {
+              "text": "Our analysis: an open hearing does not remove gatekeeping. It moves it to a judge, who would rule on the evidence before trial, and early dismissal on the evidence is itself a judicial filter of the kind our study of defences removed from the jury questions. The proposal also asks more of the accused. Every filing would require them to attend, usually with a lawyer, before any judicial filter, whereas today many applications are decided without the accused being involved at all.",
+              "sources": [
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(12)"
+                },
+                {
+                  "id": "kay",
+                  "locator": "paras 21–22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "removing-takeover",
+          "title": "Why removing takeover entirely is risky",
+          "kind": "Official record and our analysis",
+          "paragraphs": [
+            {
+              "text": "The Justice Committee called the CPS’s power to take over private prosecutions “the most effective safeguard” against misuse of the right. Recent figures show it is mostly used to stop cases. We found no official source that supports abolishing section 6(2). The Justice Committee in 2020 and the Ministry of Justice in 2025 both sought more state oversight of private prosecutors, not less.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "paras 48, 69"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Foreword; Chapter 1"
+                }
+              ]
+            },
+            {
+              "text": "For that reason the artwork’s line “CPS cannot take over” is the most contestable part of the proposal. Our optional improvement keeps public oversight but moves it to the start, and we prefer it to removing takeover entirely: the takeover question is settled at the first hearing, with narrow exceptions.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                },
+                {
+                  "id": "jc-report",
+                  "locator": "para 69"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kept-safeguards",
+          "title": "Safeguards the proposal keeps",
+          "kind": "Statute, rules and judgments",
+          "paragraphs": [
+            {
+              "text": "Under the proposal the court could dismiss a case at the first hearing. The grounds on which a court may decline a summons, including abuse of process and material non-disclosure, would carry over as grounds for dismissal. The court’s power to stop a prosecution as an abuse of process would remain; in Hamilton the Post Office conceded that 39 appellants could not have had a fair trial.",
+              "sources": [
+                {
+                  "id": "crimpr-2026",
+                  "locator": "r 8(b), note to r 7.2"
+                },
+                {
+                  "id": "hamilton",
+                  "locator": "paras 73, 77"
+                }
+              ]
+            },
+            {
+              "text": "A private prosecutor would still owe the duty of candour to the court, and the statutory duty of initial disclosure: to disclose prosecution material that might reasonably be considered capable of undermining the case for the prosecution or of assisting the case for the accused. Costs from public funds would still depend on the court’s view, including whether the state authorities had a fair chance to decide.",
+              "sources": [
+                {
+                  "id": "kay",
+                  "locator": "paras 37–43"
+                },
+                {
+                  "id": "cpia3",
+                  "locator": "s 3(1)"
+                },
+                {
+                  "id": "poa17",
+                  "locator": "s 17"
+                },
+                {
+                  "id": "bdi",
+                  "locator": "paras 76, 80"
+                }
+              ]
+            },
+            {
+              "text": "Withdrawing a charge would still need the court’s permission, as it does today, and the existing referral to the DPP where a case is dropped without a satisfactory reason could be kept. Where the CPS stops a case, the Victims’ Right to Review scheme may still apply.",
+              "sources": [
+                {
+                  "id": "crimpr28",
+                  "locator": "r 2.8(5)(c)"
+                },
+                {
+                  "id": "poa7",
+                  "locator": "s 7(4)"
+                },
+                {
+                  "id": "vrr",
+                  "locator": "para 25 (Private Prosecutions)"
+                },
+                {
+                  "id": "killick",
+                  "locator": "paras 48, 51"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "status-of-reform",
+          "title": "Where official reform stands",
+          "kind": "Government and Parliament",
+          "paragraphs": [
+            {
+              "text": "The Ministry of Justice consulted from 6 March to 8 May 2025 on oversight and regulation of private prosecutors. Its proposals include a binding code of conduct, inspection, accreditation, sanctions and a public register. On 20 October 2026 the consultation page still said the government was analysing the feedback. A written answer on 10 June 2026 said the response would be published in due course.",
+              "sources": [
+                {
+                  "id": "moj-consultation",
+                  "locator": "Consultation page status"
+                },
+                {
+                  "id": "moj-consultation-paper",
+                  "locator": "Chapters 1–3"
+                },
+                {
+                  "id": "wq-6188",
+                  "locator": "UIN 6188"
+                }
+              ]
+            },
+            {
+              "text": "The Victims and Courts Act 2026 deals with private prosecutions only in section 12, on costs from central funds. It creates no code of practice, no register and no duty to notify the CPS, and it does not change summons screening or the DPP’s takeover power. Volume 1 of the Post Office Horizon IT Inquiry’s final report (July 2025) dealt with the human impact of Horizon and redress, and its recommendations concern redress. As at 8 July 2026 the Inquiry said Volumes 2 to 6 had not been published.",
+              "sources": [
+                {
+                  "id": "vca12",
+                  "locator": "s 12"
+                },
+                {
+                  "id": "horizon-inquiry",
+                  "locator": "Progress update, 8 July 2026"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control",
+      "title": "Four control surfaces",
+      "intro": "Who controls a prosecution at each point: starting it, running it, ending it and deciding it.",
+      "entries": [
+        {
+          "id": "control-table",
+          "title": "Who holds each lever",
+          "kind": "Analysis",
+          "table": {
+            "caption": "Control of a private prosecution: today, under our proposal, and with the optional improvement of inviting the CPS to the first hearing",
+            "columns": [
+              "Control surface",
+              "Today",
+              "Our proposal (as in the artwork)",
+              "With the optional improvement"
+            ],
+            "rows": [
+              [
+                "Initiation",
+                "The private prosecutor applies. The court decides whether to issue a summons, usually on paper.",
+                "The private prosecutor files. The court lists an open hearing after a basic check.",
+                "As the proposal, and the CPS is notified when the case is filed."
+              ],
+              [
+                "Conduct",
+                "The private prosecutor, until the DPP takes over at any stage.",
+                "The private prosecutor throughout. No takeover.",
+                "Decided at the first hearing: the CPS continues it, the CPS stops it, or the private prosecutor keeps it. Later takeover only on new material, a material change, or the accused’s request where the Code tests are not met, with reasons."
+              ],
+              [
+                "Termination",
+                "The prosecutor may withdraw a charge with the court’s permission, with possible referral to the DPP. The DPP may discontinue after takeover, subject, at the preliminary stage in a magistrates’ court, to the accused’s right to require the case to continue; after sending for trial there is no such right. The court may refuse a summons or stop the case as an abuse.",
+                "The court may dismiss at the first hearing. Withdrawal still needs the court’s permission, as today.",
+                "As the proposal, plus any CPS decision to stop the case announced at the first hearing with reasons."
+              ],
+              [
+                "Outcome",
+                "Magistrates or a jury decide guilt at trial.",
+                "Unchanged.",
+                "Unchanged."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The proposal moves control of initiation from a paper decision to an open hearing. The optional improvement moves the state’s control of conduct and termination from “at any stage” to a single, reasoned decision at the start. Neither changes who decides guilt.",
+              "sources": [
+                {
+                  "id": "mca1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "poa6",
+                  "locator": "s 6(2)"
+                },
+                {
+                  "id": "poa23",
+                  "locator": "s 23(2), (3), (7)"
+                },
+                {
+                  "id": "poa23a",
+                  "locator": "s 23A"
+                },
+                {
+                  "id": "crimpr28",
+                  "locator": "r 2.8(5)(c)"
+                },
+                {
+                  "id": "crimpr72",
+                  "locator": "r 7.2(12)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Open questions and research to do",
+      "intro": "What we could not establish, and the records that would answer it.",
+      "entries": [
+        {
+          "id": "open-questions",
+          "title": "Questions for further research",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "How many private prosecutions are started each year? In 2020 the Justice Committee recommended a central register of all private prosecutions, and in 2021 the government said HMCTS was setting one up. We have not established whether it was completed, what it records, or whether it covers the single justice procedure (paper-only cases for minor offences). Without that number, CPS takeover figures describe referrals, not the whole system.",
+              "sources": [
+                {
+                  "id": "jc-report",
+                  "locator": "paras 63, 65"
+                },
+                {
+                  "id": "gov-response",
+                  "locator": "Response to recommendation 5"
+                }
+              ]
+            },
+            {
+              "text": "Freedom of Information requests that would help. To HMCTS: the number of summons applications by private prosecutors each year, how many were refused, and how many were decided at a hearing with the proposed defendant present. To the CPS: the number of referrals, takeovers to continue and to stop, the source of each referral, and the time between the first hearing and the takeover decision. To the Ministry of Justice: the volume of central-funds costs paid to private prosecutors, and any regulations planned under the 2026 Act.",
+              "sources": []
+            },
+            {
+              "text": "Design questions: what a basic check before listing should cover; how a notice to attend would work, and the consequences of non-attendance; how long the interval between filing and the first hearing should be; whether CPS silence should count as declining; which new circumstances should allow a later takeover; and how to protect the privacy of a person named in a filing that is dismissed at the first hearing.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "method",
+          "title": "What was checked, and what was not",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Legislation was checked on legislation.gov.uk and judgments on the National Archives’ Find Case Law service. The Justice Committee report and the government response could not be opened directly on parliament.uk by our automated checks; they were read from archived copies of the HTML editions on publications.parliament.uk, and the written answer from Parliament’s official questions service. The 1979 Klahn judgment was not available online; its principles are taken from the High Court’s quotation in Kay.",
+              "sources": []
+            },
+            {
+              "text": "Not verified: whether regulations capping private prosecutors’ costs have been made under the 2026 Act; whether any further volumes of the Horizon Inquiry’s final report have been published since 8 July 2026; exactly what changed in the July 2026 update to the CPS guidance; and how often courts hear the proposed defendant before deciding on a summons. None of these is stated as fact on this page.",
+              "sources": []
+            },
+            {
+              "text": "This page studies the law and argues for a reform. It does not explain how to bring a private prosecution, and it is not legal advice. Anyone considering or facing a private prosecution should take advice from a qualified criminal lawyer.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "poa6",
+      "title": "Prosecution of Offences Act 1985, section 6",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1985/23/section/6",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "poa7",
+      "title": "Prosecution of Offences Act 1985, section 7",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1985/23/section/7",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "poa15",
+      "title": "Prosecution of Offences Act 1985, section 15",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1985/23/section/15",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "poa17",
+      "title": "Prosecution of Offences Act 1985, section 17",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1985/23/section/17",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "poa23",
+      "title": "Prosecution of Offences Act 1985, section 23",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1985/23/section/23",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "poa23a",
+      "title": "Prosecution of Offences Act 1985, section 23A",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1985/23/section/23A",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "mca1",
+      "title": "Magistrates’ Courts Act 1980, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1980/43/section/1",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "cja29",
+      "title": "Criminal Justice Act 2003, section 29",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/44/section/29",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "crimpr",
+      "title": "The Criminal Procedure Rules 2025 (SI 2025/909)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2025/909/contents",
+      "date": "2025-07-15",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "crimpr28",
+      "title": "The Criminal Procedure Rules 2025, rule 2.8",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2025/909/rule/2.8",
+      "date": "2025-07-15",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "crimpr72",
+      "title": "The Criminal Procedure Rules 2025, rule 7.2",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2025/909/rule/7.2",
+      "date": "2025-07-15",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "crimpr-2026",
+      "title": "The Criminal Procedure (Amendment) (No. 2) Rules 2026 (SI 2026/721)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2026/721/made",
+      "date": "2026-06-29",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "kay",
+      "title": "R (Kay) v Leeds Magistrates’ Court [2018] EWHC 1233 (Admin)",
+      "publisher": "The National Archives · Find Case Law",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2018/1233",
+      "date": "2018-05-23",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "johnson",
+      "title": "R (Johnson) v Westminster Magistrates’ Court [2019] EWHC 1709 (Admin)",
+      "publisher": "The National Archives · Find Case Law",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2019/1709",
+      "date": "2019-07-03",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "gujra",
+      "title": "R (Gujra) v Crown Prosecution Service [2012] UKSC 52",
+      "publisher": "The National Archives · Find Case Law",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2012/52",
+      "date": "2012-11-14",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "cps-guidance",
+      "title": "Private Prosecutions — legal guidance",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official prosecution guidance",
+      "url": "https://www.cps.gov.uk/legal-guidance/private-prosecutions",
+      "date": "2026-07-31",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "vrr",
+      "title": "Victims’ Right to Review Scheme — legal guidance",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official prosecution guidance",
+      "url": "https://www.cps.gov.uk/legal-guidance/victims-right-review-scheme",
+      "date": "2021-05-27",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "killick",
+      "title": "R v Killick [2011] EWCA Crim 1608",
+      "publisher": "The National Archives · Find Case Law",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2011/1608",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "bdi",
+      "title": "R v BDI & Ors [2025] EWCA Crim 1289",
+      "publisher": "The National Archives · Find Case Law",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2025/1289",
+      "date": "2025-10-10",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "vca12",
+      "title": "Victims and Courts Act 2026, section 12",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2026/19/section/12",
+      "date": "2026-04-29",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "cpia3",
+      "title": "Criminal Procedure and Investigations Act 1996, section 3",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1996/25/section/3",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "cda-sch3",
+      "title": "Crime and Disorder Act 1998, Schedule 3, paragraph 2",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/37/schedule/3/paragraph/2",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "cooney",
+      "title": "Bill for Criminal Letters by AB against Paul Cooney [2024] HCJAC 40",
+      "publisher": "Scottish Courts and Tribunals Service",
+      "type": "Judgment",
+      "url": "https://www.scotcourts.gov.uk/media/3hpjn0hs/2024hcjac40-bill-for-criminal-letters-by-ab-against-paul-cooney.pdf",
+      "date": "2024-10-29",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "jnia31",
+      "title": "Justice (Northern Ireland) Act 2002, section 31",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2002/26/section/31",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "jc-report",
+      "title": "Private prosecutions: safeguards (Ninth Report of Session 2019–21, HC 497) — read from archived copy",
+      "publisher": "House of Commons Justice Committee",
+      "type": "Select committee report",
+      "url": "https://publications.parliament.uk/pa/cm5801/cmselect/cmjust/497/49702.htm",
+      "date": "2020-10-02",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "gov-response",
+      "title": "Private prosecutions: safeguards — Government response (Tenth Special Report of Session 2019–21, HC 1238) — read from archived copy",
+      "publisher": "House of Commons Justice Committee · Ministry of Justice",
+      "type": "Government response to a select committee report",
+      "url": "https://publications.parliament.uk/pa/cm5801/cmselect/cmjust/1238/123802.htm",
+      "date": "2021-03-04",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "moj-consultation",
+      "title": "Oversight and regulation of private prosecutors in the criminal justice system",
+      "publisher": "Ministry of Justice (GOV.UK)",
+      "type": "Government consultation page",
+      "url": "https://www.gov.uk/government/consultations/oversight-and-regulation-of-private-prosecutors-in-the-criminal-justice-system",
+      "date": "2025-03-06",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "moj-consultation-paper",
+      "title": "Oversight and regulation of private prosecutors — consultation paper",
+      "publisher": "Ministry of Justice",
+      "type": "Government consultation document",
+      "url": "https://assets.publishing.service.gov.uk/media/67c57c4f72e83aab48866ce8/oversight-regulation-private-prosecutors-consultation.pdf",
+      "date": "2025-03-06",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "wq-6188",
+      "title": "Written question UIN 6188: private prosecutions consultation",
+      "publisher": "UK Parliament",
+      "type": "Parliamentary written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-02/6188",
+      "date": "2026-06-10",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "hamilton",
+      "title": "Hamilton & Ors v Post Office Ltd [2021] EWCA Crim 577",
+      "publisher": "The National Archives · Find Case Law",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2021/577",
+      "date": "2021-04-23",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "horizon-act",
+      "title": "Post Office (Horizon System) Offences Act 2024, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/14/section/1",
+      "date": "2024-05-24",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "horizon-inquiry",
+      "title": "Progress update from Sir Wyn Williams",
+      "publisher": "Post Office Horizon IT Inquiry",
+      "type": "Statutory inquiry publication",
+      "url": "https://www.postofficehorizoninquiry.org.uk/progress-update-sir-wyn-williams-0",
+      "date": "2026-07-08",
+      "checked": "2026-10-20"
+    }
+  ]
+}
