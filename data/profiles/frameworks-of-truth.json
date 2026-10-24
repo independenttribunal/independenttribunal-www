@@ -3,11 +3,11 @@
   "category": "legal-study",
   "title": "Frameworks of truth: what does the system reward?",
   "subtitle": "She reported herself two hours later. Her frankness was commended. The outcome was disbarment.",
-  "summary": "A disciplinary case, an argument about incentives, and a proposal to distinguish what is asserted, signed, supported, checked and found.",
+  "summary": "A disciplinary case, an argument about incentives, a proposal to distinguish what is asserted, signed, supported, checked and found, and the wider legal framework of knowledge, silence and dishonesty that surrounds them.",
   "scope": "England and Wales · Case 2024/1532/D5. The misconduct was knowingly misleading the court, not the later confession. Findings, commentary, satire and proposed reforms are identified separately.",
-  "status_note": "The report records an order for disbarment on 8 April 2026, and the regulator’s announcement described the findings as subject to appeal. On 20 October 2026 the regulator’s register listed her status as Disbarred and the finding as Final, although its sanction line still read “sentence still to take effect … pending any appeal”. We have not found a published appeal decision. The family’s identities are not investigated here.",
+  "status_note": "The report records an order for disbarment on 8 April 2026, and the regulator’s announcement described the findings as subject to appeal. On 24 October 2026 the regulator’s register listed her status as Disbarred and the finding as Final, although its sanction line still read “sentence still to take effect … pending any appeal”. We have not found a published appeal decision. The family’s identities are not investigated here.",
   "jurisdiction": "England and Wales",
-  "checked": "2026-10-20",
+  "checked": "2026-10-24",
   "tags": ["uk", "professional-conduct", "honesty", "evidence", "accountability", "reform"],
   "featured_source": "tribunal",
   "related": [
@@ -119,6 +119,14 @@
             {"text": "The artwork imagines a reviewer filtering what reaches the advocate. It is not a description of an arrangement found in this case. Our criticism is of a system that might make strategic ignorance appear attractive. It is not an instruction to create that ignorance: arranging a misleading presentation through intermediaries does not erase responsibility.", "sources": [{"id": "tribunal", "locator": "paras 7–18: what the actual case records"}, {"id": "handbook", "locator": "gC4; rC9: duties relevant to the satire"}]},
             {"text": "The BSB distinguishes presenting an instructed case from personally believing it. That is not permission to knowingly or recklessly mislead. Confidentiality remains important: gC11 says to seek permission where disclosure is needed to avoid misleading; if refused, cease acting without revealing the confidential information. Knowing a client’s account does not automatically require announcing it to the court.", "sources": [{"id": "handbook", "locator": "rC5–rC6; gC6–gC11"}]}
           ]
+        },
+        {
+          "id": "filter-carries-risk", "title": "The filter carries the risk", "kind": "Our analysis — read with the professional rules and criminal law cited",
+          "paragraphs": [
+            {"text": "The two layers do not share risk equally. An advocate who was never told a fact cannot knowingly mislead the court about it. The person who chose what reached her did know. If a case is ever presented on a false basis, intention is provable where the knowledge sits: with the filter. Perverting the course of justice can be committed by anyone whose acts tend and are intended to pervert public justice; it is not confined to regulated lawyers.", "sources": [{"id": "handbook", "locator": "rC3.1, gC4"}, {"id": "public-justice", "locator": "Perverting the Course of Justice"}]},
+            {"text": "A solicitor acting as the filter is also bound by the Solicitors Regulation Authority (SRA) Code. Paragraph 1.4 forbids misleading the court or others “either by your own acts or omissions or allowing or being complicit in the acts or omissions of others (including your client)”. Leaving out what is irrelevant is ordinary case preparation. Arranging omissions so that the court is misled is not.", "quote": false, "sources": [{"id": "sra-code", "locator": "para 1.4"}]},
+            {"text": "It follows that the legal framework on this page is not optional reading for whoever filters information. Knowing where the line falls is their protection. We treat it as baseline education for anyone in that role: solicitor, paralegal, relative, lay helper, or the designer of software that summarises files for counsel.", "sources": [{"id": "sra-code", "locator": "paras 1.4, 2.1–2.2"}, {"id": "public-justice", "locator": "Perverting the Course of Justice"}]}
+          ]
         }
       ]
     },
@@ -142,7 +150,7 @@
         {
           "id": "other-legal-layers", "title": "Misconduct, perjury and contempt are not interchangeable", "kind": "Official legal guidance and procedural rule",
           "paragraphs": [
-            {"text": "Perjury under section 1 concerns a lawfully sworn witness or interpreter wilfully making a materially false statement, knowing it false or not believing it true. Advocacy alone is not sworn evidence. Perverting the course of justice requires acts tending and intended to pervert public justice; success is unnecessary. A professional breach does not automatically establish either offence.", "sources": [{"id": "public-justice", "locator": "Perverting the Course of Justice; Perjury"}]},
+            {"text": "Perjury under section 1 of the Perjury Act 1911 concerns a lawfully sworn witness or interpreter wilfully making a materially false statement, knowing it false or not believing it true. Advocacy alone is not sworn evidence. Perverting the course of justice requires acts tending and intended to pervert public justice; success is unnecessary. A professional breach does not automatically establish either offence.", "sources": [{"id": "public-justice", "locator": "Perverting the Course of Justice; Perjury"}]},
             {"text": "Rule 32.14 of the Civil Procedure Rules (CPR) allows contempt proceedings for making or causing a false statement in a document prepared in anticipation of or during proceedings and verified by a statement of truth, without honest belief in its truth. It does not make every mistake contempt. These are civil-procedure rules; the case above arose in the Family Court, which has its own procedural rules.", "sources": [{"id": "cpr32", "locator": "32.14"}]}
           ]
         }
@@ -176,19 +184,127 @@
       ]
     },
     {
+      "id": "explaining-the-law", "title": "Explaining the law is not an offence", "intro": "Public legal education is lawful. The line concerns purpose and the facts that reach a court, not information about rules.",
+      "entries": [
+        {
+          "id": "cps-paragraph-35", "title": "The prosecutor’s own example", "kind": "Official prosecution policy",
+          "paragraphs": [
+            {"text": "For the avoidance of doubt, a person who does not do anything other than provide information to another which sets out or explains the legal position in respect of the offence of encouraging or assisting suicide under section 2 of the Suicide Act 1961 does not commit an offence under that section.", "quote": true, "sources": [{"id": "cps-suicide", "locator": "para 35, “Explaining the law”"}]},
+            {"text": "That paragraph is confined to the Suicide Act. The general offences of encouraging or assisting crime are in Part 2 of the Serious Crime Act 2007. Section 44 requires intention to encourage or assist, and section 44(2) says intention is not established merely because encouragement or assistance was a foreseeable consequence. Section 50 provides a defence where it was reasonable to act as the person did, having regard to factors including the purpose for which they claim to have acted.", "sources": [{"id": "sca-44", "locator": "s 44(1)–(2)"}, {"id": "sca-50", "locator": "s 50(1)–(3)"}]}
+          ]
+        },
+        {
+          "id": "line-geometry", "title": "Line geometry: four questions", "kind": "Our analysis — not a legal test",
+          "table": {"caption": "Where a statement or act sits", "columns": ["Question", "Lower risk", "Higher risk"], "rows": [
+            ["What is it about?", "Rules, rights and procedure", "The facts of a live case"],
+            ["Who is it for?", "Anyone, published openly", "One person in one case"],
+            ["What does it change?", "What a person understands", "What the evidence says"],
+            ["Is it true?", "True statements, or silence", "False statements"]
+          ]},
+          "paragraphs": [
+            {"text": "Risk rises when the subject, the effect and the truth move together towards the right-hand column. Being case-specific is not enough on its own: lawyers advise on specific cases every day. Teaching where the line falls is itself on the safe side of it. The offences cited above turn on intention and purpose, so private material aimed at one person’s evidence carries inferences that open public education does not.", "sources": [{"id": "sca-44", "locator": "intention requirement"}, {"id": "sca-50", "locator": "purpose as a factor"}, {"id": "public-justice", "locator": "Perverting the Course of Justice"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dishonesty-test", "title": "The dishonesty test", "intro": "What a person knew decides the first question. The standards of ordinary decent people decide the second.",
+      "entries": [
+        {
+          "id": "ivey-test", "title": "Two steps since Ivey", "kind": "Supreme Court and Court of Appeal judgments",
+          "paragraphs": [
+            {"text": "In Ivey v Genting Casinos the Supreme Court restated the test for dishonesty. The fact-finder first establishes the person’s actual state of knowledge or belief as to the facts, then asks whether the conduct was dishonest by the standards of ordinary decent people. There is no requirement that the person appreciated that their conduct was dishonest by those standards.", "sources": [{"id": "ivey", "locator": "[2017] UKSC 67, para 74"}, {"id": "barton", "locator": "paras 83–84, quoting Ivey"}]},
+            {"text": "In R v Barton and Booth the Court of Appeal held that “the test for dishonesty in all criminal cases is that established in Ivey”, replacing the older Ghosh test.", "sources": [{"id": "barton", "locator": "paras 104–105"}]},
+            {"text": "Professional regulation adds a separate duty. In Wingate v SRA the Court of Appeal said that “integrity is a broader concept than honesty”, connoting adherence to the ethical standards of one’s own profession. A professional can lack integrity without being dishonest.", "sources": [{"id": "wingate", "locator": "paras 95, 100"}]},
+            {"text": "For this page the first step is the hinge. Knowledge turns an omission into a dishonest one, which is why the information that reaches an advocate matters and why the disciplinary case above turned on what the barrister had been told on 5 June 2024.", "sources": [{"id": "ivey", "locator": "para 74"}, {"id": "tribunal", "locator": "paras 7–18"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strategic-ignorance", "title": "Strategic ignorance", "intro": "The law treats deliberate not-knowing differently depending on who is doing it.",
+      "entries": [
+        {
+          "id": "ignorance-asymmetry", "title": "One profession, two treatments", "kind": "Legislation, professional rules and our analysis",
+          "table": {"caption": "How not-knowing is treated", "columns": ["Who", "Treatment"], "rows": [
+            ["Professional in the regulated sector who suspects money laundering", "Liable for failing to disclose if they know or suspect, or have reasonable grounds for knowing or suspecting. Not looking is no protection."],
+            ["Barrister who is not told the client’s account", "Cannot knowingly mislead about what she does not know. No rule requires her to interrogate the client."],
+            ["Barrister who is told", "Must not knowingly or recklessly mislead. If disclosure is needed to avoid misleading and the client refuses permission, she ceases to act without revealing the confidence."]
+          ]},
+          "paragraphs": [
+            {"text": "Section 330 of the Proceeds of Crime Act 2002 uses an objective limb: reasonable grounds for knowing or suspecting are enough. In that setting the law refuses strategic ignorance by design.", "sources": [{"id": "poca-330", "locator": "s 330(2)"}]},
+            {"text": "Advocacy works the other way. The BSB rules distinguish presenting an instructed case from personally believing it, and the obligation to stop acting arises from what the barrister actually knows. Our point is the asymmetry: the same legal system that removes the protection of not-looking from a money-laundering reporter lets the safest advocate be the least informed one.", "sources": [{"id": "handbook", "locator": "rC3.1, rC9.1, gC4, gC11"}, {"id": "poca-330", "locator": "objective limb, for contrast"}]},
+            {"text": "The United States Supreme Court has addressed the same pressure from the other side. In Nix v Whiteside it held that “the right to counsel includes no right to have a lawyer who will cooperate with planned perjury”. That is a US constitutional decision, cited for comparison only.", "sources": [{"id": "nix", "locator": "475 U.S. 157 (1986)"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silence", "title": "Silence, with a price", "intro": "The right to stay silent exists in England and Wales. Since 1994 it can carry a cost.",
+      "entries": [
+        {
+          "id": "cjpoa-inferences", "title": "Adverse inferences", "kind": "Legislation and US comparison",
+          "paragraphs": [
+            {"text": "Under section 34 of the Criminal Justice and Public Order Act 1994, a court or jury may draw such inferences “as appear proper” from a failure to mention, when questioned under caution or charged, a fact later relied on in defence, if it could reasonably have been expected to be mentioned. Section 34(2A) disapplies this where the person was at an authorised place of detention and had not been allowed to consult a solicitor.", "sources": [{"id": "cjpoa-34", "locator": "s 34(1)–(2A)"}]},
+            {"text": "No one may be found to have a case to answer, or be convicted, solely on an inference drawn from silence under those sections.", "sources": [{"id": "cjpoa-38", "locator": "s 38(3)"}]},
+            {"text": "The contrast with the United States is sharp. In Griffin v California the Supreme Court held that the Fifth Amendment forbids comment by the prosecution on the accused’s silence, or instructions that silence is evidence of guilt, calling such comment a penalty for exercising a constitutional privilege.", "sources": [{"id": "griffin", "locator": "380 U.S. 609 (1965)"}]},
+            {"text": "The Right to Ambiguity has the same boundary. A person may decline to tell their own lawyer, may decline to answer police questions, and may decline to give evidence. Silence can carry a cost; a false statement on oath or in a document verified by a statement of truth is a different category.", "sources": [{"id": "cjpoa-34", "locator": "cost of silence"}, {"id": "public-justice", "locator": "Perjury"}, {"id": "cpr32", "locator": "32.14"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "witnesses", "title": "Familiarisation, not coaching", "intro": "Preparing a witness for court is lawful. Shaping what they say is not.",
+      "entries": [
+        {
+          "id": "momodou", "title": "The Momodou distinction", "kind": "Court of Appeal judgment and professional rule",
+          "paragraphs": [
+            {"text": "In R v Momodou the Court of Appeal drew “a dramatic distinction between witness training or coaching, and witness familiarisation”. Training or coaching witnesses in criminal proceedings is not permitted. Arrangements to familiarise a witness with the layout of the court and the experience of giving evidence are permissible, provided they involve no discussion of proposed or intended evidence.", "sources": [{"id": "momodou", "locator": "paras 61–62"}]},
+            {"text": "Solicitors must not seek to influence the substance of evidence, including generating false evidence or persuading witnesses to change their evidence.", "sources": [{"id": "sra-code", "locator": "para 2.2"}]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history", "title": "Nothing new: a very old problem", "intro": "Loyalty to a client and loyalty to the truth have pulled against each other for two thousand years. The rules evolved; the question did not.",
+      "entries": [
+        {
+          "id": "timeline-of-the-tension", "title": "How the tension evolved", "kind": "Historical sources and later law",
+          "table": {"caption": "Selected milestones", "columns": ["When", "Source", "What it added"], "rows": [
+            ["c. 44 BC", "Cicero, De Officiis, book II", "The judge must find the truth; the advocate may sometimes maintain what is plausible."],
+            ["1768", "Samuel Johnson, recorded by Boswell", "A lawyer does not know a cause to be good or bad until the judge decides, but must not tell lies to a judge."],
+            ["1840", "R v Courvoisier, Old Bailey", "An accused confesses to his barrister mid-trial; counsel is advised he may use all fair argument on the evidence."],
+            ["1966", "Monroe Freedman, Michigan Law Review", "The “three hardest questions” on truthful witnesses, client perjury and advice that may tempt a lie."],
+            ["1986", "Nix v Whiteside, US Supreme Court", "No right to a lawyer who will cooperate with planned perjury."],
+            ["1994", "Criminal Justice and Public Order Act", "Inferences from silence in England and Wales."],
+            ["2017–2020", "Ivey; Barton and Booth", "One test for dishonesty, civil and criminal."],
+            ["2024–2026", "Case 2024/1532/D5", "A barrister who knew allowed the court to be misled, self-reported and was disbarred."]
+          ]},
+          "paragraphs": [
+            {"text": "Cicero wrote that it is always the business of the judge to find out the truth, and sometimes the business of the advocate to maintain what is plausible, even if not strictly true. He added that he would not say so in an ethical treatise without the authority of the Stoic Panaetius.", "sources": [{"id": "cicero", "locator": "book II, s 51 (Miller translation)"}]},
+            {"text": "Sir, you do not know it to be good or bad till the Judge determines it.", "quote": true, "sources": [{"id": "boswell", "locator": "1768, Oxford conversations"}]},
+            {"text": "Johnson’s answer to Boswell began with limits: “you are not to tell lies to a judge.” The same pairing, freedom to argue and no freedom to deceive, runs through the modern BSB duties.", "sources": [{"id": "boswell", "locator": "1768, Oxford conversations"}, {"id": "handbook", "locator": "rC3.1"}]},
+            {"text": "In 1840 François Courvoisier admitted to his counsel, Charles Phillips, during his trial for murdering Lord William Russell. According to a later account, Phillips sought guidance from Baron Parke, who said the client could maintain his plea and counsel could use all fair argument arising on the evidence. Phillips was criticised afterwards for suggesting that a housemaid might be responsible.", "sources": [{"id": "courvoisier", "locator": "secondary account, Law Society Gazette"}]},
+            {"text": "In 1966 Monroe Freedman asked whether a defence lawyer may discredit a truthful witness, put on a client who intends to commit perjury, or give advice that may tempt a client to lie. Twenty years later the US Supreme Court confirmed that there is no right to a lawyer who will cooperate with planned perjury.", "sources": [{"id": "freedman", "locator": "64 Mich. L. Rev. 1469"}, {"id": "nix", "locator": "475 U.S. 157"}]},
+            {"text": "Our reading: the dilemma in case 2024/1532/D5 is not a new loophole. Each era moved the line—from rhetoric to codes, from clerks to software—and the question stayed the same: how much may an advocate know, and what may she do with it?", "sources": [{"id": "cicero", "locator": "origin"}, {"id": "tribunal", "locator": "modern instance"}]}
+          ]
+        }
+      ]
+    },
+    {
       "id": "process", "title": "Who decides—and what remains unknown?",
       "intro": "A disciplinary finding, its implementation and any later appeal are distinct stages.",
       "entries": [
         {
           "id": "disciplinary-process", "title": "Regulator, tribunal and Inn", "kind": "Official process and limits of this review",
           "paragraphs": [
-            {"text": "The BSB brought the charges; the independent disciplinary tribunal decided them and the sanction. BTAS distinguishes three- and five-person tribunals, with disbarment within the latter’s powers. This report asks Lincoln’s Inn’s Treasurer to act under the disciplinary regulations and bars issue of a practising certificate pending any appeal. We report the order, not an independently verified later administrative or appeal history.", "sources": [{"id": "process-source", "locator": "Tribunal composition and sanction powers"}, {"id": "tribunal", "locator": "paras 24–26"}, {"id": "bsb-release", "locator": "appeal qualification"}]}
+            {"text": "The BSB brought the charges; the independent disciplinary tribunal decided them and the sanction. BTAS distinguishes three- and five-person tribunals, with disbarment within the latter’s powers. This report asks Lincoln’s Inn’s Treasurer to act under the disciplinary regulations and directs that no practising certificate be issued pending any appeal. We report the order, not an independently verified later administrative or appeal history.", "sources": [{"id": "process-source", "locator": "Tribunal composition and sanction powers"}, {"id": "tribunal", "locator": "paras 24–26"}, {"id": "bsb-release", "locator": "appeal qualification"}]}
           ]
         },
         {
-          "id": "register-record", "title": "The regulator’s register disagrees with itself, and with the report", "kind": "Record check · 20 October 2026",
+          "id": "register-record", "title": "The regulator’s register disagrees with itself, and with the report", "kind": "Record check · 24 October 2026",
           "paragraphs": [
-            {"text": "The BSB’s public register now lists her status as Disbarred and marks the finding Final. Its sanction line still reads “Disbarred (Sentence still to take effect)” and says no practising certificate is to be issued “pending any appeal”. Both cannot be current. We have not found a published appeal decision.", "sources": [{"id": "register", "locator": "Barrister status; Sanction; Status"}]},
+            {"text": "The BSB’s public register now lists her status as Disbarred and marks the finding Final. Its sanction line still reads “Disbarred (Sentence still to take effect)” and says no practising certificate is to be issued “pending any appeal”. The register itself defines Final as meaning the 21-day appeal period has ended or an appeal outcome has been announced, so the sanction line appears not to have been updated. We have not found a published appeal decision.", "sources": [{"id": "register", "locator": "Barrister status; Sanction; Status"}]},
             {"text": "The register lists the breaches as Core Duty 1, Core Duty 2 and rules rC8 and “rC61.a”. The tribunal’s report charged Core Duty 3 (honesty and integrity) and/or rC8, Core Duty 1 and rC6.1a. Core Duty 2 is the duty to act in each client’s best interests, which was not charged. The register appears to be wrong on Core Duty 2, and “rC61.a” looks like a typing error for rC6.1a. Where the two disagree, rely on the report.", "sources": [{"id": "register", "locator": "Breach details"}, {"id": "tribunal", "locator": "charges 1–3"}]}
           ]
         }
@@ -197,7 +313,7 @@
   ],
   "sources": [
     {"id": "tribunal", "title": "Report of Finding and Sanction: case 2024/1532/D5", "url": "https://www.tbtas.org.uk/wp-content/uploads/hearings/137614/SMITH-Report-of-Findings-and-Sanction-FINAL.pdf", "publisher": "Bar Tribunals & Adjudication Service", "type": "Primary disciplinary decision", "date": "2026-05-05", "checked": "2026-10-19"},
-    {"id": "register", "title": "Disciplinary finding record 183730", "url": "https://www.barstandardsboard.org.uk/disciplinary_finding/183730.html", "publisher": "Bar Standards Board", "type": "Regulator’s public register", "checked": "2026-10-20"},
+    {"id": "register", "title": "Disciplinary finding record 183730", "url": "https://www.barstandardsboard.org.uk/disciplinary_finding/183730.html", "publisher": "Bar Standards Board", "type": "Regulator’s public register", "checked": "2026-10-24"},
     {"id": "bsb-release", "title": "Barrister Emma Elizabeth Smith ordered to be disbarred", "url": "https://www.barstandardsboard.org.uk/resources/barrister-emma-elizabeth-smith-ordered-to-be-disbarred.html", "publisher": "Bar Standards Board", "type": "Regulator announcement", "date": "2026-04-10", "checked": "2026-10-19"},
     {"id": "sanctions", "title": "BTAS Sanctions Guidance, version 6", "url": "https://www.tbtas.org.uk/policies-guidance-and-publications/guidance/btas-sanctions-guidance-consultation-2021/btas-sanctions-guidance-jan-2022-version-6-final/", "publisher": "Bar Tribunals & Adjudication Service", "type": "Official sanctions guidance", "checked": "2026-10-19"},
     {"id": "handbook", "title": "BSB Handbook: duties to the court, honesty and confidentiality", "url": "https://www.barstandardsboard.org.uk/the-bsb-handbook.html?audience=&part=&q=overriding+duty", "publisher": "Bar Standards Board", "type": "Professional rules and guidance", "checked": "2026-10-19"},
@@ -206,6 +322,23 @@
     {"id": "public-justice", "title": "Public Justice Offences", "url": "https://www.cps.gov.uk/prosecution-guidance/public-justice-offences", "publisher": "Crown Prosecution Service", "type": "Official prosecution guidance", "checked": "2026-10-19"},
     {"id": "cpr32", "title": "Civil Procedure Rules: rule 32.14, false statements", "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part32#32.14", "publisher": "Ministry of Justice", "type": "Procedural rule", "checked": "2026-10-19"},
     {"id": "pd22", "title": "Practice Direction 22: statements of truth", "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part22/pd_part22", "publisher": "Ministry of Justice", "type": "Practice direction", "checked": "2026-10-19"},
-    {"id": "process-source", "title": "Hearings under the Disciplinary Tribunal Regulations", "url": "https://www.tbtas.org.uk/hearings/how-the-hearings-process-works/disciplinary-tribunal/", "publisher": "Bar Tribunals & Adjudication Service", "type": "Official process explanation", "checked": "2026-10-19"}
+    {"id": "process-source", "title": "Hearings under the Disciplinary Tribunal Regulations", "url": "https://www.tbtas.org.uk/hearings/how-the-hearings-process-works/disciplinary-tribunal/", "publisher": "Bar Tribunals & Adjudication Service", "type": "Official process explanation", "checked": "2026-10-19"},
+    {"id": "cps-suicide", "title": "Suicide: Policy for Prosecutors in Respect of Cases of Encouraging or Assisting Suicide", "url": "https://www.cps.gov.uk/prosecution-guidance/suicide-policy-prosecutors-respect-cases-encouraging-or-assisting-suicide", "publisher": "Crown Prosecution Service", "type": "Official prosecution policy", "checked": "2026-10-15"},
+    {"id": "sca-44", "title": "Serious Crime Act 2007, section 44", "url": "https://www.legislation.gov.uk/ukpga/2007/27/section/44", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-21"},
+    {"id": "sca-50", "title": "Serious Crime Act 2007, section 50: defence of acting reasonably", "url": "https://www.legislation.gov.uk/ukpga/2007/27/section/50", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-21"},
+    {"id": "sra-code", "title": "Code of Conduct for Solicitors, RELs and RFLs", "url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/", "publisher": "Solicitors Regulation Authority", "type": "Professional rules", "checked": "2026-10-21"},
+    {"id": "ivey", "title": "Ivey v Genting Casinos (UK) Ltd t/a Crockfords [2017] UKSC 67", "url": "https://www.supremecourt.uk/cases/uksc-2016-0213.html", "publisher": "UK Supreme Court", "type": "Judgment", "checked": "2026-10-21", "date": "2017-10-25"},
+    {"id": "barton", "title": "R v Barton and Booth [2020] EWCA Crim 575", "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2020/575", "publisher": "The National Archives: Find Case Law", "type": "Judgment", "checked": "2026-10-21", "date": "2020-04-29"},
+    {"id": "wingate", "title": "Wingate v Solicitors Regulation Authority [2018] EWCA Civ 366", "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/366", "publisher": "The National Archives: Find Case Law", "type": "Judgment", "checked": "2026-10-21", "date": "2018-03-07"},
+    {"id": "poca-330", "title": "Proceeds of Crime Act 2002, section 330", "url": "https://www.legislation.gov.uk/ukpga/2002/29/section/330", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-21"},
+    {"id": "nix", "title": "Nix v Whiteside, 475 U.S. 157 (1986)", "url": "https://www.law.cornell.edu/supremecourt/text/475/157", "publisher": "Legal Information Institute, Cornell Law School", "type": "US judgment (comparative)", "checked": "2026-10-21", "date": "1986-02-26"},
+    {"id": "cjpoa-34", "title": "Criminal Justice and Public Order Act 1994, section 34", "url": "https://www.legislation.gov.uk/ukpga/1994/33/section/34", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-21"},
+    {"id": "cjpoa-38", "title": "Criminal Justice and Public Order Act 1994, section 38", "url": "https://www.legislation.gov.uk/ukpga/1994/33/section/38", "publisher": "legislation.gov.uk", "type": "Legislation", "checked": "2026-10-21"},
+    {"id": "griffin", "title": "Griffin v California, 380 U.S. 609 (1965)", "url": "https://www.law.cornell.edu/supremecourt/text/380/609", "publisher": "Legal Information Institute, Cornell Law School", "type": "US judgment (comparative)", "checked": "2026-10-21", "date": "1965-04-28"},
+    {"id": "momodou", "title": "R v Momodou [2005] EWCA Crim 177", "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2005/177", "publisher": "The National Archives: Find Case Law", "type": "Judgment", "checked": "2026-10-21", "date": "2005-02-02"},
+    {"id": "cicero", "title": "Cicero, De Officiis, trans. Walter Miller (Loeb, 1913)", "url": "https://www.gutenberg.org/ebooks/47001", "publisher": "Project Gutenberg", "type": "Classical text", "checked": "2026-10-21"},
+    {"id": "boswell", "title": "James Boswell, Life of Johnson, ed. G. B. Hill, volume 2", "url": "https://www.gutenberg.org/ebooks/9072", "publisher": "Project Gutenberg", "type": "Historical text", "checked": "2026-10-21"},
+    {"id": "courvoisier", "title": "“20,000 hang on words of killer”", "url": "https://www.lawgazette.co.uk/obiter/20000-hang-on-words-of-killer-/5068441.article", "publisher": "Law Society Gazette", "type": "Secondary historical account", "checked": "2026-10-21", "date": "2018-11-26"},
+    {"id": "freedman", "title": "Monroe H. Freedman, “Professional Responsibility of the Criminal Defense Lawyer: The Three Hardest Questions”, 64 Mich. L. Rev. 1469 (1966)", "url": "https://repository.law.umich.edu/mlr/vol64/iss8/2", "publisher": "Michigan Law Review", "type": "Academic article", "checked": "2026-10-21"}
   ]
 }
