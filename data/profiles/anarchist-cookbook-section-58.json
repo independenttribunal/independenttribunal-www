@@ -23,7 +23,7 @@
     "research",
     "freedom-of-expression"
   ],
-  "related": [
+  "related": [{"id": "terrorist-connection-add-on", "title": "Terrorist connection add-on"}, 
     {
       "id": "defences-withdrawn-from-jury",
       "title": "Defences removed by the judge, not considered by the jury"
@@ -36,7 +36,7 @@
   "research_links": [
     {
       "id": "terrorist-connection",
-      "title": "The terrorist-connection sentencing add-on"
+      "title": "Section 69 in Parliament: the 2021 Hansard record"
     }
   ],
   "highlights": [

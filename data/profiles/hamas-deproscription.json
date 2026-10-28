@@ -9,7 +9,8 @@
   "tags":["uk","proscription","legal-process","courts","research"],
   "scope":"Legal-process reporting, not endorsement of Hamas or its violence. Hamas remains a proscribed terrorist organisation in the UK. An application to change that status is not a decision changing it.",
   "status_note":"Checked 19 October 2026: the Home Office list still includes Hamas. A campaign update reports refusal in July 2025, an appeal in August 2025 and a 2026 procedural timetable. No final POAC determination or deproscription order has been located in this review; the timetable does not establish that its scheduled steps occurred.",
-  "research_links":[{"id":"proscription-litigation","title":"Palestine Action proscription litigation — a separate case"},{"id":"terrorist-connection","title":"Terrorist connection add-on — a separate sentencing question"}],
+  "related": [{"id": "terrorist-connection-add-on", "title": "Terrorist connection add-on"}],
+  "research_links":[{"id":"proscription-litigation","title":"Palestine Action proscription litigation — a separate case"},{"id":"terrorist-connection","title":"Section 69 in Parliament: the 2021 Hansard record"}],
   "highlights":[
     {"label":"Present UK status","value":"Still proscribed","detail":"Home Office list · checked 19 October 2026","target":"current-status"},
     {"label":"Application announced","value":"9 April 2025","detail":"Fahad Ansari · Riverway Law","target":"application-team"},

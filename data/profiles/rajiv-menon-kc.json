@@ -8,7 +8,8 @@
   "tags": ["uk", "palestine-action", "filton", "advocacy", "open-justice", "courts"],
   "scope": "A public-record profile, not a finding of professional misconduct. A procedural ruling, an allegation of contempt and a final determination are different things.",
   "status_note": "Latest judicial decision located in this review: 24 July 2026, ordering a stay pending jurisdictional and procedural challenges. Later professional commentary continues to describe unresolved proceedings. No final contempt judgment or later appeal outcome has been established here as of 19 October 2026.",
-  "research_links": [{"id":"palestine-action","title":"Palestine Action research collection"},{"id":"filton6","title":"Filton6 and the wider proceedings"},{"id":"terrorist-connection","title":"Terrorist connection add-on"}],
+  "related": [{"id": "terrorist-connection-add-on", "title": "Terrorist connection add-on"}],
+  "research_links": [{"id":"palestine-action","title":"Palestine Action research collection"},{"id":"filton6","title":"Filton6 and the wider proceedings"},{"id":"terrorist-connection","title":"Section 69 in Parliament: the 2021 Hansard record"}],
   "highlights": [
     {"label":"Professional background","value":"Called 1993 · silk 2011","detail":"Garden Court Chambers","target":"professional-background"},
     {"label":"12 May 2026","value":"Jurisdiction ruling","detail":"Not a final decision on contempt","target":"may-appeal"},

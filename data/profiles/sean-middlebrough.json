@@ -8,10 +8,11 @@
   "tags": ["uk", "palestine-action", "filton", "protest", "courts", "research"],
   "scope": "This page separates reported court outcomes, prosecution allegations and Middlebrough’s own statements. It is a selected public-record profile, not a complete criminal record or an entry in a judges database.",
   "status_note": "Latest outcome located in this review: the BBC’s report of 14 September 2026. The older November 2025 account is not a current case-status update. No later sentence, appeal outcome or custody status is established here.",
+  "related": [{"id": "terrorist-connection-add-on", "title": "Terrorist connection add-on"}],
   "research_links": [
     {"id": "palestine-action", "title": "Palestine Action research collection"},
     {"id": "filton6", "title": "Filton6 and the wider proceedings"},
-    {"id": "terrorist-connection", "title": "Terrorist connection add-on"},
+    {"id": "terrorist-connection", "title": "Section 69 in Parliament: the 2021 Hansard record"},
     {"id": "hunger-strikes", "title": "The hunger strikes"}
   ],
   "highlights": [

@@ -43,7 +43,7 @@ test("the sourced August ruling precedes the superseded Barclays5 reporting ever
   const r = await json("public/data/research/barclays5.json");
   const u = r.updates[0];
   assert.equal(u.date, "2026-08-21");
-  assert.equal(u.checked, "2026-10-17");
+  assert.equal(u.checked, "2026-10-25");
   assert.ok(u.sources.some((s) => s.type === "judgment" && s.url.endsWith("R-v-OHagan-and-others.pdf")));
   const html = await read("public/research/barclays5/index.html");
   assert.ok(html.indexOf(`id="${u.id}"`) < html.indexOf('aria-label="Research dossiers"'), "update above navigation and archived material");

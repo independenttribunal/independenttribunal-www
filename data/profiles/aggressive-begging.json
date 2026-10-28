@@ -1,0 +1,870 @@
+{
+  "id": "aggressive-begging",
+  "category": "legal-study",
+  "title": "Aggressive begging: when does asking become a crime?",
+  "subtitle": "Begging is no longer an offence. Section 5 can still apply without any victim coming forward, but likelihood must be proved by evidence.",
+  "summary": "The Vagrancy Act was repealed in England and Wales on 29 June 2026, so begging is no longer a crime in itself. There is no offence of “aggressive begging”. Threatening, abusive or disorderly conduct can still fall under section 5 of the Public Order Act 1986, which does not need anyone to say they were distressed, but the courts require evidence that someone present was likely to be. The Court of Appeal has said “aggressive” and “passive” are not the legal test.",
+  "scope": "England and Wales · Criminal and anti-social behaviour law on begging after the repeal of the Vagrancy Act 1824. Scotland and Northern Ireland have separate law. Includes a fictional scenario, labelled as such.",
+  "status_note": "Legislation, Home Office and CPS guidance and the judgments cited were checked on 28 October 2026. The examples table, the hypothetical and the reform proposal are our analysis, not court findings or current law. This is legal research, not legal advice.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-10-28",
+  "tags": [
+    "uk",
+    "criminal-law",
+    "public-order",
+    "begging",
+    "freedom-of-expression",
+    "anti-social-behaviour"
+  ],
+  "related": [
+    {
+      "id": "public-order",
+      "title": "Public order and protest"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Begging itself",
+      "value": "Not a crime",
+      "detail": "Since the Vagrancy Act was repealed on 29 June 2026. Organising others’ begging for gain is a new offence",
+      "target": "law-now"
+    },
+    {
+      "label": "Section 5",
+      "value": "No victim needed",
+      "detail": "But there must be evidence that someone present was likely to be harassed, alarmed or distressed",
+      "target": "bystander"
+    },
+    {
+      "label": "“Aggressive”",
+      "value": "Not the legal test",
+      "detail": "The Court of Appeal rejected the aggressive/passive distinction in 2024. The statutory words decide",
+      "target": "label"
+    }
+  ],
+  "sections": [
+    {
+      "id": "law-now",
+      "title": "The law since 29 June 2026",
+      "intro": "Begging is not a crime in itself. Conduct that goes with it can be.",
+      "entries": [
+        {
+          "id": "vagrancy-repeal",
+          "title": "The Vagrancy Act is gone",
+          "kind": "Official circular and government explainer",
+          "date": "2026-06-29",
+          "paragraphs": [
+            {
+              "text": "The Vagrancy Act 1824 was repealed in England and Wales with effect from 29 June 2026, under commencement regulations made under the Police, Crime, Sentencing and Courts Act 2022. The Act had made rough sleeping and begging offences.",
+              "sources": [
+                {
+                  "id": "circular",
+                  "locator": "para 5"
+                },
+                {
+                  "id": "explainer",
+                  "locator": "explainer"
+                }
+              ]
+            },
+            {
+              "text": "There is no general offence called “aggressive begging”. Asking for money, holding a sign or offering a contactless card reader is not a crime merely because it is begging. Whether particular conduct is unlawful depends on the elements of some other offence or order.",
+              "sources": [
+                {
+                  "id": "circular",
+                  "locator": "paras 5–6"
+                },
+                {
+                  "id": "abrook",
+                  "locator": "para 108"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "new-offence",
+          "title": "The new offence targets organisers, not beggars",
+          "kind": "Statute",
+          "date": "2026-06-29",
+          "paragraphs": [
+            {
+              "text": "Section 12 of the Crime and Policing Act 2026 makes it an offence, for gain, to arrange or facilitate another person’s begging. It is triable only in the magistrates’ court and carries imprisonment, a fine or both. It came into force on 29 June 2026.",
+              "sources": [
+                {
+                  "id": "cpa12",
+                  "locator": "s 12(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "The government describes it as aimed at, for example, organised begging gangs or driving people to places to beg. A person begging for themselves is not committing this offence.",
+              "sources": [
+                {
+                  "id": "explainer",
+                  "locator": "explainer"
+                },
+                {
+                  "id": "cpa12",
+                  "locator": "s 12(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "other-tools",
+          "title": "The tools that remain",
+          "kind": "Statute and official guidance",
+          "paragraphs": [
+            {
+              "text": "The criminal offences most often relevant are section 5 of the Public Order Act 1986, and the more serious sections 4A and 4. Councils and police can also use anti-social behaviour powers under the Anti-social Behaviour, Crime and Policing Act 2014, including injunctions and public spaces protection orders (PSPOs). These turn on conduct causing, or likely to cause, harassment, alarm or distress, or on a detrimental effect on local quality of life.",
+              "sources": [
+                {
+                  "id": "poa5",
+                  "locator": "s 5"
+                },
+                {
+                  "id": "cps",
+                  "locator": "sections 4, 4A and 5"
+                },
+                {
+                  "id": "asb2",
+                  "locator": "s 2"
+                },
+                {
+                  "id": "asb59",
+                  "locator": "s 59"
+                }
+              ]
+            },
+            {
+              "text": "From 26 October 2026, the maximum fixed penalty for breaching a PSPO or a community protection notice rose from £100 to £500.",
+              "sources": [
+                {
+                  "id": "cpa4",
+                  "locator": "s 4(3), (5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "title": "Section 5: what has to be proved",
+      "intro": "A summary offence with a maximum of a level 3 fine. Every element must be proved beyond reasonable doubt.",
+      "entries": [
+        {
+          "id": "elements",
+          "title": "The elements",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "The person must use threatening or abusive words or behaviour, or disorderly behaviour, or display threatening or abusive writing or signs. It must happen within the hearing or sight of a person likely to be caused harassment, alarm or distress by it. “Insulting” was removed from section 5 in 2014.",
+              "sources": [
+                {
+                  "id": "poa5",
+                  "locator": "s 5(1)"
+                },
+                {
+                  "id": "cps",
+                  "locator": "section 5"
+                }
+              ]
+            },
+            {
+              "text": "The mental element is in section 6(4). The person must intend the words or behaviour to be threatening or abusive, or the behaviour to be disorderly, or be aware that it may be so.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(4)"
+                }
+              ]
+            },
+            {
+              "text": "Whether behaviour is disorderly is a question of fact, and it does not require violence. The CPS gives “pestering people waiting to catch public transport or otherwise waiting in a queue” as an example of conduct capable of being disorderly.",
+              "sources": [
+                {
+                  "id": "cps",
+                  "locator": "section 5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "defences",
+          "title": "The defences, including reasonable conduct",
+          "kind": "Statute and official guidance",
+          "paragraphs": [
+            {
+              "text": "It is a defence for the accused to prove that they had no reason to believe anyone within hearing or sight was likely to be caused harassment, alarm or distress, or that their conduct was reasonable. There is also a dwelling defence.",
+              "sources": [
+                {
+                  "id": "poa5",
+                  "locator": "s 5(3)"
+                }
+              ]
+            },
+            {
+              "text": "The burden of proving these defences is on the accused, on the balance of probabilities. The CPS notes that the courts treat the reasonable-conduct defence and the right to freedom of expression as interlinked.",
+              "sources": [
+                {
+                  "id": "poa5",
+                  "locator": "s 5(3)"
+                },
+                {
+                  "id": "cps",
+                  "locator": "defence of reasonable conduct"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bystander",
+      "title": "The hypothetical distressed bystander",
+      "intro": "No one has to say they were distressed. But likelihood is a question of evidence, not assumption.",
+      "entries": [
+        {
+          "id": "no-victim-needed",
+          "title": "No complainant required",
+          "kind": "Official guidance and judgment",
+          "paragraphs": [
+            {
+              "text": "The prosecution does not have to prove that anyone was actually harassed, alarmed or distressed. That is the difference from section 4A, which needs evidence of actual harassment, alarm or distress.",
+              "sources": [
+                {
+                  "id": "cps",
+                  "locator": "sections 4A and 5"
+                },
+                {
+                  "id": "holloway",
+                  "locator": "judgment"
+                }
+              ]
+            },
+            {
+              "text": "A police officer can be the person likely to be caused harassment, alarm or distress, but that is a question of fact. Magistrates may take into account that officers are used to the language and behaviour seen in disorderly incidents.",
+              "sources": [
+                {
+                  "id": "cps",
+                  "locator": "section 5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "someone-present",
+          "title": "But someone must be there",
+          "kind": "Judgment",
+          "date": "2004-10-21",
+          "paragraphs": [
+            {
+              "text": "In Holloway v DPP a man filmed himself naked where schoolchildren could have seen him, but no one was shown to have seen him. The conviction was quashed. The two judges put the test differently: Silber J said someone must actually have seen the conduct; Collins J said there must at least be evidence that someone could see or hear it at the time.",
+              "sources": [
+                {
+                  "id": "holloway",
+                  "locator": "judgment"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "harvey",
+          "title": "Harvey: no inference without evidence",
+          "kind": "Judgment",
+          "date": "2011-11-17",
+          "paragraphs": [
+            {
+              "text": "Denzel Harvey swore three times at police officers searching him outside a block of flats. The magistrates convicted him under section 5. The High Court quashed the conviction.",
+              "sources": [
+                {
+                  "id": "harvey",
+                  "locator": "paras 1–4, 16"
+                }
+              ]
+            },
+            {
+              "text": "Neither officer said they were alarmed or distressed, and the court said it was wrong to draw that inference, especially for police. Nor could it be inferred, without evidence, that a group of young people nearby was likely to be distressed by fairly common swear words. It was “not enough simply to say” the incident happened outside a block of flats; there was no evidence that residents could hear it.",
+              "sources": [
+                {
+                  "id": "harvey",
+                  "locator": "paras 12–15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "title": "“Aggressive” is not a legal test",
+      "intro": "The Court of Appeal has rejected the aggressive/passive distinction. The statutory words decide.",
+      "entries": [
+        {
+          "id": "abrook",
+          "title": "Swindon v Abrook",
+          "kind": "Court of Appeal judgment",
+          "date": "2024-03-08",
+          "paragraphs": [
+            {
+              "text": "A district judge discharged an anti-social behaviour injunction against a persistent beggar, treating “passive” begging as not anti-social. The Court of Appeal allowed the council’s appeal on all grounds.",
+              "sources": [
+                {
+                  "id": "abrook",
+                  "locator": "paras 6, 28, 38, 112"
+                }
+              ]
+            },
+            {
+              "text": "Lady Justice Elisabeth Laing said that a distinction between “aggressive” and “passive” begging is not useful. The question is whether the conduct caused, or was likely to cause, harassment, alarm or distress, which depends on the context and the evidence.",
+              "sources": [
+                {
+                  "id": "abrook",
+                  "locator": "paras 103, 108"
+                }
+              ]
+            },
+            {
+              "text": "The same passage cuts both ways. A court should expect more than general assertions, should not accept a bald assertion of the statutory test, and “should not take a credulous approach”. It must also be satisfied that an order is just and convenient.",
+              "sources": [
+                {
+                  "id": "abrook",
+                  "locator": "paras 108–109"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lacatus",
+          "title": "Strasbourg: blanket bans need strong justification",
+          "kind": "European Court of Human Rights judgment",
+          "date": "2021-01-19",
+          "paragraphs": [
+            {
+              "text": "In Lăcătuş v Switzerland, a destitute woman was fined for begging in Geneva and detained for five days when she could not pay. The European Court of Human Rights found a violation of Article 8, the right to respect for private life. It said the right to call on others for assistance goes to the very essence of that right.",
+              "sources": [
+                {
+                  "id": "lacatus",
+                  "locator": "paras 59, 117"
+                }
+              ]
+            },
+            {
+              "text": "The Court criticised a law that penalised begging regardless of whether it was aggressive or passive, or of the person’s vulnerability. It accepted that some forms, “especially aggressive ones”, might disturb passers-by. It did not rule separately on freedom of expression under Article 10.",
+              "sources": [
+                {
+                  "id": "lacatus",
+                  "locator": "paras 97, 102, 120"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "title": "Expression, eccentricity and proportionality",
+      "intro": "The irritating and the unusual are not, without more, criminal.",
+      "entries": [
+        {
+          "id": "percy",
+          "title": "Percy: justification must be convincingly established",
+          "kind": "Judgment",
+          "date": "2001-12-21",
+          "paragraphs": [
+            {
+              "text": "A protester was convicted under section 5 for defacing and standing on a United States flag at an air base. The High Court quashed the conviction as a disproportionate interference with freedom of expression. It said the justification for any interference must be convincingly established, and that the availability of other ways to protest was only one factor.",
+              "sources": [
+                {
+                  "id": "percy",
+                  "locator": "judgment"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "redmond-bate",
+          "title": "Redmond-Bate: freedom to irritate",
+          "kind": "Judgment",
+          "date": "1999-07-23",
+          "paragraphs": [
+            {
+              "text": "In a case about breach of the peace, not section 5, Sedley LJ said that free speech includes the irritating, the contentious, the eccentric and the provocative, provided it does not tend to provoke violence.",
+              "sources": [
+                {
+                  "id": "redmond-bate",
+                  "locator": "para 20"
+                }
+              ]
+            },
+            {
+              "text": "“Freedom only to speak inoffensively is not worth having.”",
+              "sources": [
+                {
+                  "id": "redmond-bate",
+                  "locator": "para 20"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "proportionality-limits",
+          "title": "How far proportionality goes",
+          "kind": "Supreme Court record and our analysis",
+          "paragraphs": [
+            {
+              "text": "Not every offence requires a separate proportionality check in each case. The Supreme Court held in 2022 that where an offence’s own elements strike the balance, a further case-by-case assessment is not always needed. For section 5, the main route for freedom of expression is the reasonable-conduct defence.",
+              "sources": [
+                {
+                  "id": "ni-reference",
+                  "locator": "judgment"
+                },
+                {
+                  "id": "cps",
+                  "locator": "defence of reasonable conduct"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "examples",
+      "title": "Where the lines fall",
+      "intro": "Our analysis of common situations. Every case turns on its facts and evidence.",
+      "entries": [
+        {
+          "id": "examples-table",
+          "title": "From lawful to criminal",
+          "kind": "Our analysis",
+          "table": {
+            "caption": "Begging-related conduct and the questions it raises",
+            "columns": [
+              "Conduct",
+              "Starting point",
+              "What could change it"
+            ],
+            "rows": [
+              [
+                "Holding a sign asking for money",
+                "Lawful",
+                "A PSPO covering that place; obstruction"
+              ],
+              [
+                "Offering a contactless card reader",
+                "Lawful: the payment method does not change the legal character",
+                "Pushing the reader at someone, or blocking them until they pay"
+              ],
+              [
+                "Unusually intense eye contact or a theatrical manner",
+                "Not threatening, abusive or disorderly in itself",
+                "Looming, closing distance, or combining it with words that threaten"
+              ],
+              [
+                "Asking again after a refusal",
+                "Depends on context",
+                "Persistence, following, pestering people who cannot easily leave, such as a queue"
+              ],
+              [
+                "Following someone while demanding money",
+                "Potentially unlawful",
+                "Section 5, harassment law or anti-social behaviour powers, on the evidence"
+              ],
+              [
+                "Blocking someone and threatening harm unless they pay",
+                "Likely criminal",
+                "More serious offences may apply, such as sections 4 or 4A, or offences of threats or robbery"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "This table is a starting point for analysis, not legal advice. The same act can be lawful in one setting and unlawful in another, and local orders such as PSPOs can add restrictions in particular places.",
+              "sources": [
+                {
+                  "id": "poa5",
+                  "locator": "s 5"
+                },
+                {
+                  "id": "abrook",
+                  "locator": "paras 103, 108"
+                },
+                {
+                  "id": "asb59",
+                  "locator": "s 59"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hypothetical",
+      "title": "Hypothetical: the entrepreneurial beggar",
+      "intro": "A fictional scenario, analysed by us; no real prosecution or court decision is described. A street performer calls himself an “aggressive entrepreneurial beggar”. He holds a contactless card reader, makes extremely intense eye contact and asks for donations theatrically. He does not block anyone, follow anyone or make any threat.",
+      "entries": [
+        {
+          "id": "analysis",
+          "title": "Would section 5 be made out?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The label is not evidence of the offence. “Aggressive” is his description, and the Court of Appeal has said that labels like “aggressive” and “passive” do not replace the statutory test. What matters is what he actually said and did.",
+              "sources": [
+                {
+                  "id": "abrook",
+                  "locator": "para 108"
+                }
+              ]
+            },
+            {
+              "text": "Intense eye contact and a theatrical manner are unlikely, without more, to be threatening, abusive or disorderly. The prosecution would also need evidence that someone present was likely to be caused harassment, alarm or distress, not just awkwardness, and that he intended or was aware his conduct might be threatening, abusive or disorderly.",
+              "sources": [
+                {
+                  "id": "poa5",
+                  "locator": "s 5(1)"
+                },
+                {
+                  "id": "poa6",
+                  "locator": "s 6(4)"
+                },
+                {
+                  "id": "harvey",
+                  "locator": "paras 12–15"
+                }
+              ]
+            },
+            {
+              "text": "If it got that far, he could argue that his conduct was reasonable, with freedom of expression in the balance. On these bare facts a section 5 case would, in our view, be weak. It could change if he followed people, blocked their way, kept pressing after a clear refusal, or targeted people who could not easily leave.",
+              "sources": [
+                {
+                  "id": "poa5",
+                  "locator": "s 5(3)(c)"
+                },
+                {
+                  "id": "cps",
+                  "locator": "defence of reasonable conduct"
+                },
+                {
+                  "id": "percy",
+                  "locator": "judgment"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fact-check",
+      "title": "Checking the briefs we were sent",
+      "intro": "Two research briefs were supplied for this page. Most of their law is right; these points were corrected or left out.",
+      "entries": [
+        {
+          "id": "corrections",
+          "title": "Corrections and omissions",
+          "kind": "Accuracy notes",
+          "table": {
+            "caption": "Claims in the supplied briefs and what we found",
+            "columns": [
+              "Claim",
+              "What we found"
+            ],
+            "rows": [
+              [
+                "Swindon v Abrook is [2024] EWCA Civ 241",
+                "The neutral citation is [2024] EWCA Civ 230."
+              ],
+              [
+                "Owusu-Yianoma is authority that section 5 needs no proof of actual distress",
+                "It is a judicial review of a conditional caution for a section 4A offence. The CPS guidance cites it on this point; we rely on the guidance and Holloway instead."
+              ],
+              [
+                "Lăcătuş decided the case under Article 10",
+                "It found a violation of Article 8 and did not rule separately on Article 10."
+              ],
+              [
+                "Redmond-Bate defines “disorderly” under section 5",
+                "It is a breach-of-the-peace case. Its statement on freedom of expression is relevant by analogy only."
+              ],
+              [
+                "The reasonable-conduct defence works only as an evidential burden",
+                "Section 5(3) puts the burden of proof on the accused. We found no authority reading it down for section 5, so we do not say so."
+              ],
+              [
+                "Every section 5 case needs a separate Ziegler proportionality check",
+                "Overstated. The Supreme Court held in 2022 that this is not required for every offence."
+              ],
+              [
+                "PSPO fixed penalties rose to £500",
+                "Correct: in force from 26 October 2026."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each correction was checked against the primary source listed.",
+              "sources": [
+                {
+                  "id": "abrook",
+                  "locator": "neutral citation"
+                },
+                {
+                  "id": "owusu",
+                  "locator": "judgment"
+                },
+                {
+                  "id": "lacatus",
+                  "locator": "para 120"
+                },
+                {
+                  "id": "redmond-bate",
+                  "locator": "judgment"
+                },
+                {
+                  "id": "poa5",
+                  "locator": "s 5(3)"
+                },
+                {
+                  "id": "ni-reference",
+                  "locator": "judgment"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Open questions and our proposal",
+      "intro": "Research questions and a reform proposal. These are our views, not current law.",
+      "entries": [
+        {
+          "id": "open-questions",
+          "title": "Unresolved questions",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "How should courts tell a real likelihood of distress from a speculative possibility, when no one gives evidence? Whose likely reaction sets the benchmark: an ordinary passer-by, a person in a queue who cannot leave, a police officer? How should unusual social behaviour be distinguished from disorderly conduct, and what weight should theatrical or satirical intent carry?",
+              "sources": [
+                {
+                  "id": "harvey",
+                  "locator": "paras 12–15"
+                },
+                {
+                  "id": "holloway",
+                  "locator": "judgment"
+                },
+                {
+                  "id": "abrook",
+                  "locator": "para 108"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proposal",
+          "title": "Our proposal: clearer guidance",
+          "kind": "Our proposal — not current law",
+          "paragraphs": [
+            {
+              "text": "Public guidance, for example from the CPS and in the statutory guidance on anti-social behaviour powers, could separate expressive or persistent solicitation from coercive conduct such as blocking, following, touching or veiled threats. It could set out what evidence is expected where no member of the public complains, such as body-worn video showing people’s actual reactions, in line with Harvey and Abrook. And it could remind decision-makers that blanket penalties for non-intrusive begging need strong justification, as Lăcătuş shows.",
+              "sources": [
+                {
+                  "id": "cps",
+                  "locator": "section 5"
+                },
+                {
+                  "id": "harvey",
+                  "locator": "para 15"
+                },
+                {
+                  "id": "abrook",
+                  "locator": "para 108"
+                },
+                {
+                  "id": "lacatus",
+                  "locator": "paras 101–102"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "We checked the legislation on legislation.gov.uk, the Home Office circular, the CPS guidance and the judgments on 28 October 2026. Harvey, Abrook and Lăcătuş were read from the judgment text; Holloway, Percy and Redmond-Bate were checked against the judgment record and reliable summaries. We have not found a reported judgment applying section 5 to begging since the Vagrancy Act was repealed; that does not mean none exists. This is legal research and commentary, not legal advice.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "circular",
+      "title": "Circular 004/2026: Crime and Policing Act 2026",
+      "publisher": "Home Office (GOV.UK)",
+      "type": "Official circular",
+      "url": "https://www.gov.uk/government/publications/circular-0042026-crime-and-policing-act-2026/circular-0042026-crime-and-policing-act-2026-accessible",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "explainer",
+      "title": "Explainer: repeal of the Vagrancy Act, what happens next?",
+      "publisher": "Ministry of Housing, Communities and Local Government",
+      "type": "Government explainer",
+      "url": "https://mhclgmedia.blog.gov.uk/2026/06/29/explainer-repeal-of-the-vagrancy-act-what-happens-next/",
+      "checked": "2026-10-28",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "cpa12",
+      "title": "Crime and Policing Act 2026, section 12: arranging or facilitating begging for gain",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/12",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "cpa4",
+      "title": "Crime and Policing Act 2026, section 4: fixed penalty notices",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/4",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "asb2",
+      "title": "Anti-social Behaviour, Crime and Policing Act 2014, section 2: meaning of anti-social behaviour",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2014/12/section/2",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "asb59",
+      "title": "Anti-social Behaviour, Crime and Policing Act 2014, section 59: public spaces protection orders",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2014/12/section/59",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "poa5",
+      "title": "Public Order Act 1986, section 5: harassment, alarm or distress",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/5",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "poa6",
+      "title": "Public Order Act 1986, section 6: mental element",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/6",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "cps",
+      "title": "Public order offences, incorporating the charging standard",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official guidance",
+      "url": "https://www.cps.gov.uk/prosecution-guidance/public-order-offences-incorporating-charging-standard",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "holloway",
+      "title": "Holloway v Director of Public Prosecutions [2004] EWHC 2621 (Admin)",
+      "publisher": "High Court (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2004/2621",
+      "checked": "2026-10-28",
+      "date": "2004-10-21"
+    },
+    {
+      "id": "harvey",
+      "title": "Harvey v Director of Public Prosecutions [2011] EWHC 3992 (Admin)",
+      "publisher": "High Court, Bean J (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2011/3992",
+      "checked": "2026-10-28",
+      "date": "2011-11-17"
+    },
+    {
+      "id": "abrook",
+      "title": "Swindon Borough Council v Abrook [2024] EWCA Civ 230",
+      "publisher": "Court of Appeal (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/230",
+      "checked": "2026-10-28",
+      "date": "2024-03-08"
+    },
+    {
+      "id": "lacatus",
+      "title": "Lăcătuş v Switzerland, application no. 14065/15",
+      "publisher": "European Court of Human Rights (HUDOC)",
+      "type": "Judgment",
+      "url": "https://hudoc.echr.coe.int/eng?i=001-207695",
+      "checked": "2026-10-28",
+      "date": "2021-01-19"
+    },
+    {
+      "id": "percy",
+      "title": "Percy v Director of Public Prosecutions [2001] EWHC Admin 1125",
+      "publisher": "High Court (BAILII)",
+      "type": "Judgment",
+      "url": "https://www.bailii.org/ew/cases/EWHC/Admin/2001/1125.html",
+      "checked": "2026-10-28",
+      "date": "2001-12-21"
+    },
+    {
+      "id": "redmond-bate",
+      "title": "Redmond-Bate v Director of Public Prosecutions [1999] EWHC Admin 733",
+      "publisher": "High Court, Sedley LJ (BAILII)",
+      "type": "Judgment",
+      "url": "https://www.bailii.org/ew/cases/EWHC/Admin/1999/733.html",
+      "checked": "2026-10-28",
+      "date": "1999-07-23"
+    },
+    {
+      "id": "ni-reference",
+      "title": "Reference by the Attorney General for Northern Ireland: Abortion Services (Safe Access Zones) Bill [2022] UKSC 32",
+      "publisher": "UK Supreme Court",
+      "type": "Court case record",
+      "url": "https://www.supremecourt.uk/cases/uksc-2022-0077",
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "owusu",
+      "title": "R (Owusu-Yianoma) v Chief Constable of Leicestershire [2017] EWHC 576 (Admin)",
+      "publisher": "High Court (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2017/576",
+      "checked": "2026-10-28"
+    }
+  ]
+}

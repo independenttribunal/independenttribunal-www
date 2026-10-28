@@ -1,0 +1,1116 @@
+{
+  "id": "terrorist-connection-add-on",
+  "category": "legal-study",
+  "title": "Terrorist connection add-on",
+  "subtitle": "Section 69: after a jury convicts of an ordinary offence, a judge alone decides whether it had a terrorist connection.",
+  "summary": "Section 69 of the Sentencing Act 2020 lets a judge find, after conviction, that an ordinary offence such as criminal damage had a terrorist connection. The jury is not asked. The finding brings a longer sentence, restricted release and police notification duties. In 2026 one judge found it in the Filton case and another rejected it for the Barclays5. Scotland requires the connection to be charged and proved.",
+  "scope": "England and Wales · Sentencing under section 69 of the Sentencing Act 2020, with the Filton and Barclays5 rulings of 2026. Scotland is covered only for comparison. The Czech Elbit 10 case is a separate page.",
+  "status_note": "Court rulings, sentencing remarks, legislation and the Independent Reviewer’s report were checked against primary sources on 25 October 2026. The appeal and sentencing status come from news reports and are labelled. Our analysis is labelled separately. This is a legal study, not legal advice, and does not express support for any proscribed organisation.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-10-25",
+  "tags": [
+    "uk",
+    "terrorism-law",
+    "sentencing",
+    "juries",
+    "protest",
+    "courts"
+  ],
+  "related": [
+    {
+      "id": "czech-elbit-10",
+      "title": "Czech Elbit 10: terrorism charged from the start"
+    },
+    {
+      "id": "defences-withdrawn-from-jury",
+      "title": "Defences removed by the judge, not considered by the jury"
+    },
+    {
+      "id": "rajiv-menon-kc",
+      "title": "Rajiv Menon KC"
+    }
+  ],
+  "research_links": [
+    {
+      "id": "filton6",
+      "title": "Filton6: the research dossier"
+    },
+    {
+      "id": "barclays5",
+      "title": "Barclays5: the research dossier"
+    },
+    {
+      "id": "terrorist-connection",
+      "title": "Section 69 in Parliament: the 2021 Hansard record"
+    },
+    {
+      "id": "palestine-action",
+      "title": "Palestine Action research collection"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Who decides",
+      "value": "The judge alone",
+      "detail": "After a jury convicts of an ordinary offence. In Scotland the connection must be charged and proved",
+      "target": "who-decides"
+    },
+    {
+      "label": "Filton, June 2026",
+      "value": "Connection found",
+      "detail": "Four special custodial sentences and 15 years of notification. An appeal was filed in September",
+      "target": "filton"
+    },
+    {
+      "label": "Barclays5, August 2026",
+      "value": "Connection rejected",
+      "detail": "About £177,000 of damage was not serious enough in the terrorism sense, on those facts",
+      "target": "barclays"
+    }
+  ],
+  "sections": [
+    {
+      "id": "in-brief",
+      "title": "What section 69 does",
+      "intro": "Section 69 is not a charge. It is a finding made at sentencing that makes an ordinary offence count as more serious.",
+      "entries": [
+        {
+          "id": "what-it-is",
+          "title": "A sentencing finding, not a conviction",
+          "kind": "Statute and judgment",
+          "paragraphs": [
+            {
+              "text": "Section 69 of the Sentencing Act 2020 applies when a court is deciding how serious an offence is. If the offence has a terrorist connection, the court must treat that as an aggravating factor and must state in open court that the offence is so aggravated.",
+              "sources": [
+                {
+                  "id": "s69",
+                  "locator": "s 69(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "The person remains convicted only of the ordinary offence, such as criminal damage. In the Filton case the judge said the finding does not mean the defendants were convicted of a terrorist offence, or of any offence other than criminal damage.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "para 63"
+                }
+              ]
+            },
+            {
+              "text": "An offence has a terrorist connection if it is, or takes place in the course of, an act of terrorism, or if it is committed for the purposes of terrorism. “Terrorism” has the meaning in section 1 of the Terrorism Act 2000.",
+              "sources": [
+                {
+                  "id": "s69",
+                  "locator": "s 69(3)"
+                },
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 15–16"
+                }
+              ]
+            },
+            {
+              "text": "Section 69 sets no fixed increase. The judge decides how much the finding adds, and the sentence cannot exceed the ordinary maximum for the offence. For criminal damage that maximum is 10 years’ imprisonment.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "para 64"
+                },
+                {
+                  "id": "filton-remarks",
+                  "locator": "para 4.1"
+                },
+                {
+                  "id": "sc-guidance",
+                  "locator": "guidance"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gateway",
+          "title": "How criminal damage came within reach in 2021",
+          "kind": "Statute and judgment",
+          "paragraphs": [
+            {
+              "text": "Section 1 of the Counter-Terrorism and Sentencing Act 2021 widened the provision. For offences committed on or after 29 June 2021, it covers any offence punishable on indictment with more than two years’ imprisonment, unless the offence is listed in Schedule A1. The test is the maximum sentence available, not the sentence actually given.",
+              "sources": [
+                {
+                  "id": "ctsa1",
+                  "locator": "s 1"
+                },
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 13, 18"
+                }
+              ]
+            },
+            {
+              "text": "Before that change the provision applied only to offences listed in a schedule. The Filton judge noted that criminal damage has come within its scope only since 29 June 2021.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "para 65"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "definition",
+          "title": "The definition of terrorism it relies on",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "For the route used in these cases, section 1 of the Terrorism Act 2000 has three parts. The action must involve serious damage to property, or another listed harm such as serious violence against a person or endangering life. It must be designed to influence a government or an international governmental organisation, or to intimidate the public or a section of the public. And it must be done to advance a political, religious, racial or ideological cause.",
+              "sources": [
+                {
+                  "id": "tact1",
+                  "locator": "s 1(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "“The government” includes the government of a country other than the United Kingdom. Where firearms or explosives are used, the influence-or-intimidation part does not have to be shown. So serious damage to property can count as terrorism without anyone being hurt, provided the other two parts are also proved.",
+              "sources": [
+                {
+                  "id": "tact1",
+                  "locator": "s 1(3), (4)(d)"
+                },
+                {
+                  "id": "filton-ruling",
+                  "locator": "para 32"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-decides",
+      "title": "Who decides: the judge, not the jury",
+      "intro": "The point most people miss. The jury decides guilt of the ordinary offence. The terrorism question is decided afterwards, by the judge.",
+      "entries": [
+        {
+          "id": "judge-not-jury",
+          "title": "Decided after conviction, by the judge alone",
+          "kind": "Judgments and official review",
+          "paragraphs": [
+            {
+              "text": "The jury is not asked about terrorism. After conviction the prosecution can argue that the offence had a terrorist connection, and the judge decides. The prosecution must make the judge sure: the criminal standard of proof.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 2, 27"
+                },
+                {
+                  "id": "barclays-ruling",
+                  "locator": "paras 3–6, 41"
+                },
+                {
+                  "id": "hall-2024",
+                  "locator": "para 3.32"
+                }
+              ]
+            },
+            {
+              "text": "A separate fact-finding hearing (a Newton hearing) is not always needed. After a contested trial the judge can rely on the evidence already heard. In Filton the judge said the defendants had known since March 2025 that the question would arise, and had given extensive evidence about their motives at two trials.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "para 28"
+                }
+              ]
+            },
+            {
+              "text": "In the Barclays5 case the question was first raised after the verdicts, when the trial judge invited submissions. The judge who decided it held that this was not unfair: section 69 creates no separate offence, and the wider context came from the defendants’ own evidence.",
+              "sources": [
+                {
+                  "id": "barclays-ruling",
+                  "locator": "paras 3, 36–43"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "filton-pretrial",
+          "title": "Filton: an earlier ruling, kept out of the news",
+          "kind": "Judgment",
+          "paragraphs": [
+            {
+              "text": "On 27 March 2025, before the Filton trial, the judge found that the evidence appeared to reveal a terrorist connection for the purposes of section 29(1C) of the Criminal Procedure and Investigations Act 1996. That required a preparatory hearing for case management. The judge said at the time that it had no effect on sentence: the sentencing test is different, and must be proved on evidence tested at trial.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 6–7"
+                }
+              ]
+            },
+            {
+              "text": "That ruling was covered by a statutory reporting restriction. The defence asked for a further restriction, and after the first trial opposed an application by ITN to lift it, arguing that reporting would prejudice the retrial. The judge agreed. The restrictions were lifted after the verdicts in May 2026.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 8–9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "scotland",
+          "title": "Scotland does it differently",
+          "kind": "Statute and official review",
+          "paragraphs": [
+            {
+              "text": "In Scotland, section 31 of the Counter-Terrorism Act 2008 requires the terrorist connection to be stated in the indictment and proved. The Independent Reviewer of Terrorism Legislation, Jonathan Hall KC, notes that in England and Wales and Northern Ireland, but not in Scotland, the decision is reserved to the judge at the sentencing stage.",
+              "sources": [
+                {
+                  "id": "cta31",
+                  "locator": "s 31"
+                },
+                {
+                  "id": "hall-2024",
+                  "locator": "para 3.32"
+                }
+              ]
+            },
+            {
+              "text": "He adds that where the connection rests on serious damage to property only, it is arguable that the question is “too important to be left for a judge alone”.",
+              "sources": [
+                {
+                  "id": "hall-2024",
+                  "locator": "para 3.32"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consequences",
+      "title": "What the finding changes",
+      "intro": "The finding brings more than a longer sentence. Most consequences depend on further conditions, such as the person’s age and the sentence imposed.",
+      "entries": [
+        {
+          "id": "consequence-table",
+          "title": "Consequences in law and in the Filton case",
+          "kind": "Statute and sentencing remarks",
+          "table": {
+            "caption": "What a terrorist-connection finding can bring, and what happened in Filton",
+            "columns": [
+              "Consequence",
+              "What the law says",
+              "Filton, June 2026"
+            ],
+            "rows": [
+              [
+                "More serious offence",
+                "Must be treated as aggravating. No fixed uplift; the maximum for the offence is unchanged.",
+                "Starting point 5 years, raised to 7 years before mitigation for all aggravating factors combined. The judge said the terrorism increase was significantly reduced because no one intended to injure a person."
+              ],
+              [
+                "Special custodial sentence",
+                "For adults 21 and over who receive custody: a custodial term plus 1 year of extra licence (s 278).",
+                "Imposed on all four for criminal damage."
+              ],
+              [
+                "Restricted release",
+                "Parole Board consideration at two-thirds of the custodial term; release is not automatic (s 247A, Criminal Justice Act 2003).",
+                "The judge said each would serve two-thirds, then be considered for release by the Parole Board."
+              ],
+              [
+                "Notification",
+                "Report personal details to the police, such as contact, financial, vehicle and identity-document information, and foreign travel, for 10, 15 or 30 years (Counter-Terrorism Act 2008, ss 47, 53).",
+                "15 years for each defendant."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Section 69 does not itself require prison. A special custodial sentence follows only where section 278 applies, including that the offender was 21 or over at conviction and a custodial sentence is imposed. Younger offenders are covered by separate provisions.",
+              "sources": [
+                {
+                  "id": "s278",
+                  "locator": "s 278"
+                },
+                {
+                  "id": "filton-remarks",
+                  "locator": "para 4.8"
+                }
+              ]
+            },
+            {
+              "text": "The notification period depends on age and sentence: 10, 15 or 30 years. Time in custody does not count towards it.",
+              "sources": [
+                {
+                  "id": "cta53",
+                  "locator": "s 53"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cases",
+      "title": "Two cases, two outcomes",
+      "intro": "In 2026 two judges applied the same test to protest-related criminal damage. One found a terrorist connection; the other did not.",
+      "entries": [
+        {
+          "id": "filton",
+          "title": "Filton: terrorist connection found",
+          "kind": "Judgment and sentencing remarks",
+          "date": "2026-06-12",
+          "paragraphs": [
+            {
+              "text": "A jury at Woolwich Crown Court convicted four defendants of criminal damage at Elbit Systems UK’s factory at Filton, near Bristol, on 6 August 2024. One of them was also convicted of inflicting grievous bodily harm on a police officer. None was charged with, or convicted of, a terrorist offence. Palestine Action was not a proscribed organisation at the time.",
+              "sources": [
+                {
+                  "id": "filton-remarks",
+                  "locator": "paras 1.1, 3.1"
+                }
+              ]
+            },
+            {
+              "text": "Mr Justice Johnson found the damage was serious, applying what he called a very high threshold. Evidence was that well over £1 million was paid out by insurers. He rejected the defence argument that “serious damage to property” requires a risk to life or to health and safety.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 30–37"
+                }
+              ]
+            },
+            {
+              "text": "He rejected the prosecution’s argument that the action was designed to influence the Israeli government: limiting military capability is different from influencing government policy. He was sure it was designed to influence the UK Government and to intimidate a section of the public, namely people working for Elbit and linked businesses.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 39, 46–49"
+                }
+              ]
+            },
+            {
+              "text": "He rejected arguments based on Articles 7, 10, 11 and 14 of the European Convention on Human Rights. On the claim that prosecutors avoided terrorism charges to reach the same result through section 69, he found no evidence for it.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 53–69"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "filton-sentences",
+          "title": "The Filton sentences",
+          "kind": "Sentencing remarks",
+          "table": {
+            "caption": "R v Head and others, sentences of 12 June 2026",
+            "columns": [
+              "Defendant",
+              "Sentence",
+              "Made up of"
+            ],
+            "rows": [
+              [
+                "Charlotte Head",
+                "Special custodial sentence of 6 years less 45 days",
+                "Custodial term of 4 years 320 days, plus 1 year extra licence. Also disqualified from driving."
+              ],
+              [
+                "Leona Kamio",
+                "Special custodial sentence of 6 years less 45 days",
+                "Custodial term of 4 years 320 days, plus 1 year extra licence"
+              ],
+              [
+                "Fatema Zainab Rajwani",
+                "Special custodial sentence of 5 years 8 months less 45 days",
+                "Custodial term of 4 years 200 days, plus 1 year extra licence"
+              ],
+              [
+                "Samuel Corner",
+                "8 years 8 months in total",
+                "3 years 8 months for grievous bodily harm, then a consecutive special custodial sentence of 5 years for criminal damage (4-year custodial term plus 1 year extra licence)"
+              ]
+            ]
+          },
+          "date": "2026-06-12",
+          "paragraphs": [
+            {
+              "text": "Sentences as stated by the judge on 12 June 2026. The 45-day deductions reflect time spent on a qualifying curfew.",
+              "sources": [
+                {
+                  "id": "filton-remarks",
+                  "locator": "paras 6.4, 8.1–8.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "barclays",
+          "title": "Barclays5: terrorist connection rejected",
+          "kind": "Judgment",
+          "date": "2026-08-21",
+          "paragraphs": [
+            {
+              "text": "Five defendants were convicted on 15 June 2026 at Preston Crown Court of criminal damage at a Barclays branch in Burnley on 5 August 2024. The damage cost £177,337, a little over £200,000 including VAT.",
+              "sources": [
+                {
+                  "id": "barclays-ruling",
+                  "locator": "para 1"
+                }
+              ]
+            },
+            {
+              "text": "On 22 June the trial judge asked both sides for submissions on section 69. The Crown argued for a terrorist connection on 8 July. It had not raised the issue before trial and said the evidence of a wider campaign came from the defendants’ own evidence.",
+              "sources": [
+                {
+                  "id": "barclays-ruling",
+                  "locator": "paras 3, 10–12, 19–20"
+                }
+              ]
+            },
+            {
+              "text": "HHJ Altham rejected the defence arguments of procedural unfairness. But he was not satisfied that the damage amounted to “serious damage” in the terrorism context. He said monetary value is not the only factor, and contrasted Filton: an arms factory, with drones targeted and far greater damage. Section 69 did not apply.",
+              "sources": [
+                {
+                  "id": "barclays-ruling",
+                  "locator": "paras 36–50, 56"
+                }
+              ]
+            },
+            {
+              "text": "He limited the decision to its facts and said others should not assume the same conclusion will follow where the damage is of the same value or less.",
+              "sources": [
+                {
+                  "id": "barclays-ruling",
+                  "locator": "para 51"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "filton-vs-barclays",
+          "title": "Side by side",
+          "kind": "Comparison of court records",
+          "table": {
+            "caption": "Filton and Barclays5 compared",
+            "columns": [
+              "Question",
+              "Filton",
+              "Barclays5"
+            ],
+            "rows": [
+              [
+                "Court and judge",
+                "Woolwich Crown Court, Mr Justice Johnson",
+                "Preston Crown Court, HHJ Altham"
+              ],
+              [
+                "Target",
+                "Elbit Systems UK arms factory",
+                "Barclays bank branch in Burnley"
+              ],
+              [
+                "Damage",
+                "Well over £1 million paid by insurers",
+                "£177,337 before VAT"
+              ],
+              [
+                "When terrorism was first raised",
+                "Before trial, in March 2025",
+                "After the verdicts, in June 2026"
+              ],
+              [
+                "Serious damage to property?",
+                "Yes",
+                "No"
+              ],
+              [
+                "Outcome",
+                "Terrorist connection found",
+                "Section 69 did not apply"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Drawn from the two rulings and the Filton sentencing remarks. Each was decided on its own facts.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 6, 37, 49"
+                },
+                {
+                  "id": "barclays-ruling",
+                  "locator": "paras 1, 3, 48–51"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "czech-comparator",
+          "title": "A different route: the Czech Elbit 10",
+          "kind": "Prosecutor statements",
+          "paragraphs": [
+            {
+              "text": "In the Czech Republic, prosecutors began proceedings for a terrorist attack and participation in a terrorist group after a fire at a warehouse in Pardubice on 20 March 2026. There, terrorism is part of the charge from the start rather than a sentencing finding. No court has decided the case. See our separate page on the Czech Elbit 10.",
+              "sources": [
+                {
+                  "id": "cz-prosecutor-march",
+                  "locator": "press release"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parliament",
+      "title": "Parliament was warned in 2021",
+      "intro": "The House of Lords debated a judge-only finding before the law was widened.",
+      "entries": [
+        {
+          "id": "lords-amendment",
+          "title": "The amendment that was voted down",
+          "kind": "Parliamentary record",
+          "date": "2021-03-03",
+          "paragraphs": [
+            {
+              "text": "On 3 March 2021 Lord Marks of Henley-on-Thames moved an amendment so that no offence could be treated as having a terrorist connection unless the defendant admitted it in person in open court, or it was proved at a trial of the issue. That trial would be by jury unless a judge alone better served the interests of justice.",
+              "sources": [
+                {
+                  "id": "hansard-2021",
+                  "locator": "amendment 1"
+                },
+                {
+                  "id": "division-2021",
+                  "locator": "division"
+                }
+              ]
+            },
+            {
+              "text": "He warned that a person convicted by a jury of an ordinary offence could be sentenced on the basis of a terrorist connection found by the judge alone. The amendment was defeated by 281 votes to 126.",
+              "sources": [
+                {
+                  "id": "hansard-2021",
+                  "locator": "Lord Marks"
+                },
+                {
+                  "id": "division-2021",
+                  "locator": "126 Content, 281 Not Content"
+                }
+              ]
+            },
+            {
+              "text": "The Government said the safeguards were the criminal standard of proof, evidence at trial or a Newton hearing where needed, the chance for the defence to make representations, and appeal. Our separate Hansard dossier sets out the debate contribution by contribution.",
+              "sources": [
+                {
+                  "id": "hansard-2021",
+                  "locator": "Lord Parkinson of Whitley Bay"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Open questions",
+      "intro": "Our analysis and research questions. These are not court findings.",
+      "entries": [
+        {
+          "id": "charging",
+          "title": "Does section 69 change charging incentives?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Verfassungsblog points to a “down-charging” risk: prosecutors could bring ordinary charges and leave the terrorism question to the judge after conviction, avoiding a jury verdict on terrorism. That is a fair question about incentives in the system.",
+              "sources": [
+                {
+                  "id": "verfassungsblog",
+                  "locator": "analysis"
+                }
+              ]
+            },
+            {
+              "text": "It is not proof of intent in any case. In Filton the judge found no evidence that charging decisions departed from the Code for Crown Prosecutors.",
+              "sources": [
+                {
+                  "id": "filton-ruling",
+                  "locator": "para 69"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "why-different",
+          "title": "Why does Scotland need a jury and England not?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "In Scotland, a terrorist connection must be stated in the indictment and proved. In England and Wales it is decided by the judge at sentencing. What justifies the difference for property damage, where no one was hurt?",
+              "sources": [
+                {
+                  "id": "cta31",
+                  "locator": "s 31"
+                },
+                {
+                  "id": "hall-2024",
+                  "locator": "para 3.32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proportionality",
+          "title": "Is the combined effect proportionate?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "A finding can bring a longer sentence, restricted release, an extra year on licence and up to 30 years of notification duties. What justifies that combination where there is no conviction for violence against a person? In Filton, three of the four had no such conviction; the fourth was also convicted of grievous bodily harm.",
+              "sources": [
+                {
+                  "id": "s278",
+                  "locator": "s 278"
+                },
+                {
+                  "id": "cja247a",
+                  "locator": "s 247A"
+                },
+                {
+                  "id": "cta53",
+                  "locator": "s 53"
+                },
+                {
+                  "id": "filton-remarks",
+                  "locator": "paras 1.1, 6.2–6.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reform-options",
+          "title": "Options the Independent Reviewer has set out",
+          "kind": "Official review",
+          "paragraphs": [
+            {
+              "text": "If Parliament revisited the property-damage limb, Jonathan Hall KC lists options: requiring a risk to life or limb, including to police or others who intervene; a value or sentence threshold; a method requirement, such as explosion or violence; a link to national security, such as a military base; or an exclusion for protest where no one’s life or limb is at risk.",
+              "sources": [
+                {
+                  "id": "hall-2024",
+                  "locator": "para 3.31"
+                }
+              ]
+            },
+            {
+              "text": "He also writes that excluding all serious damage to property from the definition of terrorism would be “unthinkable”. These are options for Parliament, not current law.",
+              "sources": [
+                {
+                  "id": "hall-2024",
+                  "locator": "para 3.30"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "how-often",
+          "title": "How often is it used?",
+          "kind": "Official statistics and attributed claims",
+          "paragraphs": [
+            {
+              "text": "We found no published national count of section 69 findings. The Home Office’s statistics to June 2026, published on 8 October 2026, report terrorism-related arrests, prosecutions and prisoners, but not terrorist-connection findings at sentencing.",
+              "sources": [
+                {
+                  "id": "ho-stats",
+                  "locator": "release to June 2026"
+                }
+              ]
+            },
+            {
+              "text": "Amnesty International said after the Filton sentencing that criminal damage had never before been treated as terrorism in the UK justice system. That is Amnesty’s statement; we have not been able to check every earlier case.",
+              "sources": [
+                {
+                  "id": "amnesty",
+                  "locator": "statement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "title": "Where things stand",
+      "intro": "As checked on 25 October 2026. These can change quickly.",
+      "entries": [
+        {
+          "id": "filton-appeal",
+          "title": "Filton: appeal filed, permission not yet reported",
+          "kind": "News reports",
+          "date": "2026-09-03",
+          "paragraphs": [
+            {
+              "text": "On 3 September 2026, solicitors for the four said an appeal had been filed against the sentences and the terrorist-connection finding. Reported grounds include that the judge applied the wrong test for serious damage to property, and arguments under Articles 6 and 7 of the Convention. We have found no published decision on permission or hearing date. Filing an appeal is not the same as being given permission.",
+              "sources": [
+                {
+                  "id": "novara-appeal",
+                  "locator": "report"
+                },
+                {
+                  "id": "national-appeal",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "barclays-sentence",
+          "title": "Barclays5: sentence for criminal damage",
+          "kind": "Judgment and news report",
+          "paragraphs": [
+            {
+              "text": "The August ruling records that sentence was adjourned to 4 September 2026. Declassified UK reported on 21 August that sentencing was scheduled for 30 October. We have not found a report of the sentence.",
+              "sources": [
+                {
+                  "id": "barclays-ruling",
+                  "locator": "para 2"
+                },
+                {
+                  "id": "declassified-barclays",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proscription",
+          "title": "Separate: the proscription challenge",
+          "kind": "Court case record and sentencing remarks",
+          "paragraphs": [
+            {
+              "text": "The challenge to Palestine Action’s proscription is a separate case. The Supreme Court gave permission to appeal in part on 29 July 2026, and the hearing is listed for 4 and 5 November 2026. Listed dates can change.",
+              "sources": [
+                {
+                  "id": "uksc",
+                  "locator": "case record"
+                }
+              ]
+            },
+            {
+              "text": "Section 69 does not depend on proscription. In Filton the organisation was not proscribed when the offence was committed.",
+              "sources": [
+                {
+                  "id": "filton-remarks",
+                  "locator": "para 3.1"
+                },
+                {
+                  "id": "s69",
+                  "locator": "s 69(3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Commentary and coverage",
+      "intro": "Labelled by type. Advocacy pieces set out their authors’ positions; they are not court findings.",
+      "entries": [
+        {
+          "id": "commentary",
+          "title": "Further reading",
+          "kind": "Commentary and advocacy",
+          "paragraphs": [
+            {
+              "text": "Verfassungsblog: Frederick Attenborough’s legal analysis of the expanded terrorist-connection regime after Filton.",
+              "sources": [
+                {
+                  "id": "verfassungsblog",
+                  "locator": "6 July 2026"
+                }
+              ]
+            },
+            {
+              "text": "The Aftershock describes itself as media for the movement. It publishes reports of direct action for Palestine sent in by activists, and opinion pieces. Two pieces by Thomas Necchi criticise the Filton trial and sentencing. They say the terrorism finding was kept from the jury. The court record adds context: the defendants knew from March 2025 that it could arise, and reporting restrictions stayed in place partly at the defence’s request. We link only to these two pieces and do not endorse any call to action.",
+              "sources": [
+                {
+                  "id": "aftershock-johnson",
+                  "locator": "29 June 2026"
+                },
+                {
+                  "id": "aftershock-stitchup",
+                  "locator": "4 June 2026"
+                },
+                {
+                  "id": "filton-ruling",
+                  "locator": "paras 8–9, 28"
+                }
+              ]
+            },
+            {
+              "text": "Amnesty International’s statement after the Filton sentencing sets out its view that the finding is a dangerous move against the right to protest.",
+              "sources": [
+                {
+                  "id": "amnesty",
+                  "locator": "15 June 2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "We read the Filton terrorist-connection ruling, the Filton sentencing remarks and the Barclays5 ruling in full from judiciary.uk, and checked the legislation on legislation.gov.uk and the Independent Reviewer’s report on GOV.UK on 25 October 2026. News reports are used only for events after the court documents. We do not quote operational material from the court record, and this page does not express support for any proscribed organisation.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s69",
+      "title": "Sentencing Act 2020, section 69: offences with a terrorist connection",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2020/17/section/69",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "ctsa1",
+      "title": "Counter-Terrorism and Sentencing Act 2021, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2021/11/section/1",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "tact1",
+      "title": "Terrorism Act 2000, section 1: terrorism, interpretation",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/1",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "sc-guidance",
+      "title": "Offences with a terrorist connection: guidance",
+      "publisher": "Sentencing Council",
+      "type": "Official sentencing guidance",
+      "url": "https://www.sentencingcouncil.org.uk/guidelines/offences-with-a-terrorist-connection-guidance/",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "filton-ruling",
+      "title": "R v Head and others: ruling on terrorist connection",
+      "publisher": "Crown Court at Woolwich, Mr Justice Johnson (judiciary.uk)",
+      "type": "Judgment",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2026/06/Ruling-on-terrorism-connection.pdf",
+      "checked": "2026-10-25",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "filton-remarks",
+      "title": "R v Charlotte Head and others: sentencing remarks",
+      "publisher": "Crown Court at Woolwich, Mr Justice Johnson (judiciary.uk)",
+      "type": "Sentencing remarks",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2026/06/R-v-Charlotte-Head-and-others-sentencing-remarks.pdf",
+      "checked": "2026-10-25",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "barclays-ruling",
+      "title": "R v O’Hagan and others: ruling on section 69",
+      "publisher": "Preston Crown Court, HHJ Altham (judiciary.uk)",
+      "type": "Judgment",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2026/08/R-v-OHagan-and-others.pdf",
+      "checked": "2026-10-25",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "hall-2024",
+      "title": "The Terrorism Acts in 2024: report of the Independent Reviewer of Terrorism Legislation",
+      "publisher": "Jonathan Hall KC (GOV.UK)",
+      "type": "Official independent review",
+      "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2024/the-terrorism-acts-in-2024-report-of-the-independent-reviewer-of-terrorism-legislation-accessible",
+      "checked": "2026-10-25",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "cta31",
+      "title": "Counter-Terrorism Act 2008, section 31: offences with a terrorist connection (Scotland)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2008/28/section/31",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "s278",
+      "title": "Sentencing Act 2020, section 278: special sentence for offenders of particular concern",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2020/17/section/278",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "cja247a",
+      "title": "Criminal Justice Act 2003, section 247A: restricted release for terrorist prisoners",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/44/section/247A",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "cta47",
+      "title": "Counter-Terrorism Act 2008, section 47: initial notification",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2008/28/section/47",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "cta53",
+      "title": "Counter-Terrorism Act 2008, section 53: period of notification requirements",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2008/28/section/53",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "hansard-2021",
+      "title": "House of Lords, Counter-Terrorism and Sentencing Bill, report stage",
+      "publisher": "Hansard, UK Parliament",
+      "type": "Parliamentary record",
+      "url": "https://hansard.parliament.uk/Lords/2021-03-03/debates/505579E3-C8CF-4546-A758-65B6A263F113/Counter-TerrorismAndSentencingBill",
+      "checked": "2026-10-25",
+      "date": "2021-03-03"
+    },
+    {
+      "id": "division-2021",
+      "title": "Counter-Terrorism and Sentencing Bill: Lords division on amendment 1",
+      "publisher": "UK Parliament, Lords votes",
+      "type": "Parliamentary record",
+      "url": "https://votes.parliament.uk/Votes/Lords/Division/2470",
+      "checked": "2026-10-25",
+      "date": "2021-03-03"
+    },
+    {
+      "id": "novara-appeal",
+      "title": "Palestine Action prisoners to appeal ‘terrorist’ sentences",
+      "publisher": "Novara Media",
+      "type": "News report",
+      "url": "https://novaramedia.com/2026/09/03/palestine-action-prisoners-to-appeal-terrorist-sentences/",
+      "checked": "2026-10-25",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "national-appeal",
+      "title": "Four Palestine Action activists to appeal terror sentences",
+      "publisher": "The National",
+      "type": "News report",
+      "url": "https://www.thenationalnews.com/news/uk/2026/09/03/four-palestine-action-activists-to-appeal-terror-sentences/",
+      "checked": "2026-10-25",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "declassified-barclays",
+      "title": "‘Barclays 5’ Palestine activists will not be tried as terrorists",
+      "publisher": "Declassified UK",
+      "type": "News report",
+      "url": "https://www.declassifieduk.org/barclay-5-palestine-activists-will-not-be-tried-as-terrorists/",
+      "checked": "2026-10-25",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "uksc",
+      "title": "R (Ammori) v Secretary of State for the Home Department, UKSC/2026/0099",
+      "publisher": "UK Supreme Court",
+      "type": "Court case record",
+      "url": "https://www.supremecourt.uk/cases/uksc-2026-0099",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "ho-stats",
+      "title": "Operation of police powers under the Terrorism Act 2000, to June 2026",
+      "publisher": "Home Office",
+      "type": "Official statistics",
+      "url": "https://www.gov.uk/government/statistics/operation-of-police-powers-under-tact-2000-to-june-2026/operation-of-police-powers-under-the-terrorism-act-2000-and-subsequent-legislation-arrests-outcomes-and-stop-and-search-great-britain-to-june-202",
+      "checked": "2026-10-25",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "amnesty",
+      "title": "UK: terrorist sentence for Palestine Action activists marks dangerous move against right to protest",
+      "publisher": "Amnesty International",
+      "type": "Advocacy statement",
+      "url": "https://www.amnesty.org/en/latest/news/2026/06/uk-terrorist-sentence-for-palestine-action-marks-dangerous-move-against-right-to-protest/",
+      "checked": "2026-10-25",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "verfassungsblog",
+      "title": "Palestine Action and the UK’s expanded terrorist-connection sentencing regime",
+      "publisher": "Frederick Attenborough, Verfassungsblog",
+      "type": "Legal commentary",
+      "url": "https://verfassungsblog.de/palestine-action-sentencing-regime/",
+      "checked": "2026-10-25",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "aftershock-johnson",
+      "title": "Judge, Johnson and Executioner",
+      "publisher": "Thomas Necchi, The Aftershock",
+      "type": "Advocacy commentary",
+      "url": "https://aftershock.media/judge-johnson-and-executioner/",
+      "checked": "2026-10-25",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "aftershock-stitchup",
+      "title": "The Great British Stitch Up",
+      "publisher": "Thomas Necchi, The Aftershock",
+      "type": "Advocacy commentary",
+      "url": "https://aftershock.media/the-great-british-stitch-up/",
+      "checked": "2026-10-25",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "cz-prosecutor-march",
+      "title": "Press release of 30 March 2026 on the Pardubice arson case",
+      "publisher": "High Public Prosecutor’s Office, Prague",
+      "type": "Prosecutor statement",
+      "url": "https://verejnazaloba.cz/vsz-praha-aktuality/tiskova-zprava-ze-dne-30-3-2026/",
+      "checked": "2026-10-25",
+      "date": "2026-03-30"
+    }
+  ]
+}

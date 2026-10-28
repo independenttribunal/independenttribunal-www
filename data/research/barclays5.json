@@ -8,7 +8,7 @@
   },
   "title": "Barclays5",
   "jurisdiction": "Burnley · England and Wales",
-  "summary": "On 21 August 2026, the judge ruled out terrorist-connection sentencing in the Barclays5 case. The earlier reporting is retained below as a historical record.",
+  "summary": "On 21 August 2026, the judge ruled out terrorist-connection sentencing in the Barclays5 case: the damage was not serious enough in the terrorism sense. Sentence for criminal damage had not been reported by 25 October. The earlier reporting is retained below as a historical record.",
   "tags": [
     "uk",
     "protest",
@@ -24,15 +24,25 @@
       "id": "2026-08-21-ruling",
       "date": "2026-08-21",
       "date_label": "21 August 2026",
-      "checked": "2026-10-17",
+      "checked": "2026-10-25",
       "title": "Judge rules out terrorist-connection sentencing",
       "summary": "On 21 August 2026, HHJ Altham at Preston Crown Court ruled that section 69 of the Sentencing Act 2020 did not apply to the Barclays5 case.",
       "paragraphs": [
-        "The judge found that the damage, although significant, did not meet the high threshold of serious damage in the statutory definition of terrorism (ruling, paragraphs 45–50 and 56).",
+        "The judge found that the damage, although significant, did not meet the high threshold of serious damage in the statutory definition of terrorism (ruling, paragraphs 45–50 and 56). The damage cost £177,337, a little over £200,000 including VAT (paragraph 1).",
+        "The question arose only after the verdicts. On 22 June 2026 the trial judge asked both sides for submissions on section 69, and the Crown argued for a terrorist connection on 8 July (paragraphs 3 and 19). The judge rejected the defence arguments that raising it after conviction was unfair (paragraphs 36–43); the case turned on the seriousness of the damage.",
         "This was a decision about sentencing, not an acquittal of criminal damage. The judge expressly limited the decision to these facts; it does not rule out terrorist-connection findings in other cases (paragraph 51).",
-        "The July headlines and commentary below describe a sentencing proposal that the court subsequently rejected. This update confirms the August ruling only; later sentencing and appeal outcomes have not been verified here."
+        "Sentence for criminal damage: the ruling records that sentence was adjourned to 4 September 2026 (paragraph 2). Declassified UK reported on 21 August that sentencing was scheduled for 30 October. As of 25 October 2026 we have not found a report of the sentence.",
+        "The July headlines and commentary below describe a sentencing proposal that the court subsequently rejected. This update confirms the August ruling only; later sentencing and appeal outcomes have not been verified here. For how section 69 works and how this ruling compares with Filton, read our legal study, Terrorist connection add-on."
       ],
       "sources": [
+        {
+          "title": "R v O’Hagan and others — ruling on section 69 (PDF)",
+          "publisher": "Preston Crown Court, HHJ Altham; published on judiciary.uk",
+          "type": "judgment",
+          "date": "2026-08-21",
+          "checked": "2026-10-25",
+          "url": "https://www.judiciary.uk/wp-content/uploads/2026/08/R-v-OHagan-and-others.pdf"
+        },
         {
           "title": "R v O’Hagan and others — ruling on section 69 (PDF)",
           "publisher": "Preston Crown Court; copy hosted by SolicitorNews",
@@ -48,6 +58,14 @@
           "date": "2026-08-21",
           "checked": "2026-10-17",
           "url": "https://gardencourtchambers.co.uk/palestine-action-barclays-five-activists-will-not-be-sentenced-as-terrorists/"
+        },
+        {
+          "title": "‘Barclays 5’ Palestine activists will not be tried as terrorists",
+          "publisher": "Declassified UK",
+          "type": "news-report",
+          "date": "2026-08-21",
+          "checked": "2026-10-25",
+          "url": "https://www.declassifieduk.org/barclay-5-palestine-activists-will-not-be-tried-as-terrorists/"
         }
       ]
     }

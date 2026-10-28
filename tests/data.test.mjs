@@ -68,7 +68,7 @@ test("editorial titles use consistent sentence case across tiles, pages and expo
   const llms = await read("llms.txt");
   const fullText = await read("llms-full.txt");
   const expected = {
-    "terrorist-connection": "Terrorist connection add-on",
+    "terrorist-connection-add-on": "Terrorist connection add-on",
     "proscription-litigation": "Proscription litigation",
     "hunger-strikes": "The hunger strikes",
     "terrorism-definition": "The definition of terrorism",

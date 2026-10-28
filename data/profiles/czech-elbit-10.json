@@ -1,0 +1,384 @@
+{
+  "id": "czech-elbit-10",
+  "category": "legal-study",
+  "title": "Czech Elbit 10",
+  "subtitle": "Terrorism charges after a fire at a Czech arms factory with a disputed Elbit link. Accused, not convicted.",
+  "summary": "After a fire at an LPP Holding factory in Pardubice on 20 March 2026, Czech prosecutors charged a terrorist attack and participation in a terrorist group. ČTK reports 11 people detained. Four of them deny involvement, according to ČTK. LPP says its planned cooperation with Elbit never went ahead. No trial date or verdict has been reported. Supporters call the group the Czech Elbit 10, now 11.",
+  "scope": "Czech Republic · The Pardubice fire of 20 March 2026 and the terrorism proceedings that followed. Allegations are distinguished from findings; the accused are not named.",
+  "status_note": "Prosecutor statements, Czech news agency reporting and the Criminal Code were checked on 25 October 2026. Everyone detained is presumed innocent; no court has ruled on guilt. Campaign claims are attributed. This is a legal study, not legal advice, and does not express support for any act or group.",
+  "jurisdiction": "Czech Republic",
+  "checked": "2026-10-25",
+  "tags": [
+    "czech-republic",
+    "terrorism-law",
+    "protest",
+    "courts",
+    "comparative"
+  ],
+  "related": [
+    {
+      "id": "terrorist-connection-add-on",
+      "title": "Terrorist connection add-on: the UK’s section 69 route"
+    }
+  ],
+  "research_links": [
+    {
+      "id": "filton6",
+      "title": "Filton6: the UK case at Elbit’s Filton factory"
+    },
+    {
+      "id": "palestine-action",
+      "title": "Palestine Action research collection"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Charges",
+      "value": "Terrorist attack",
+      "detail": "And participation in a terrorist group, charged from the start",
+      "target": "charges"
+    },
+    {
+      "label": "Detained",
+      "value": "11 people",
+      "detail": "Eight held in the Czech Republic and three in Poland, according to ČTK",
+      "target": "arrests"
+    },
+    {
+      "label": "Status",
+      "value": "No verdict",
+      "detail": "The four whose custody was reviewed in July deny involvement. No trial date reported",
+      "target": "current"
+    }
+  ],
+  "sections": [
+    {
+      "id": "case",
+      "title": "The case",
+      "intro": "What is reported, and by whom. No court has decided whether anyone is guilty.",
+      "entries": [
+        {
+          "id": "fire",
+          "title": "The fire in Pardubice",
+          "kind": "News reports",
+          "date": "2026-03-20",
+          "paragraphs": [
+            {
+              "text": "On 20 March 2026 a fire destroyed a production hall of LPP Holding, a defence manufacturer, in Pardubice, about 120 km east of Prague. The damage was put at hundreds of millions of Czech crowns. No injuries were reported.",
+              "sources": [
+                {
+                  "id": "expats",
+                  "locator": "report"
+                },
+                {
+                  "id": "ctk-july",
+                  "locator": "report"
+                },
+                {
+                  "id": "ctk-september",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "A group calling itself the Earthquake Faction claimed responsibility, saying it targeted weapons production for Israel. Expats.cz described the group’s existence as unclear.",
+              "sources": [
+                {
+                  "id": "ctk-july",
+                  "locator": "report"
+                },
+                {
+                  "id": "expats",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elbit-link",
+          "title": "The Elbit link is disputed",
+          "kind": "News reports",
+          "paragraphs": [
+            {
+              "text": "LPP had earlier announced plans to develop drones with Elbit Systems in Pardubice. The company says that cooperation never went ahead. We describe the site as an LPP Holding facility with a reported, disputed link to Elbit; Elbit ownership is not established.",
+              "sources": [
+                {
+                  "id": "ctk-july",
+                  "locator": "report"
+                },
+                {
+                  "id": "ctk-september",
+                  "locator": "report"
+                },
+                {
+                  "id": "expats",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "Czech reporting says the security services are also examining whether the attack was a false-flag operation.",
+              "sources": [
+                {
+                  "id": "ctk-july",
+                  "locator": "report"
+                },
+                {
+                  "id": "ctk-september",
+                  "locator": "report"
+                },
+                {
+                  "id": "expats",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "arrests",
+          "title": "Arrests and custody",
+          "kind": "Prosecutor statements and news reports",
+          "paragraphs": [
+            {
+              "text": "Prague’s High Public Prosecutor’s Office announced proceedings for a terrorist attack and for participation in a terrorist group. By 30 March 2026 four people had been charged in the Czech Republic and a fifth was in custody in Slovakia. On 27 May it announced that a further foreign national had been detained and charged.",
+              "sources": [
+                {
+                  "id": "vsz-march",
+                  "locator": "press release"
+                },
+                {
+                  "id": "vsz-may",
+                  "locator": "press release"
+                }
+              ]
+            },
+            {
+              "text": "In July and September 2026 ČTK reported that 11 people had been detained in the case: eight held in the Czech Republic and three in Poland. Custody for four of them was extended in July and upheld on appeal by the Regional Court; the grounds given were risk of flight and of further offending. ČTK also reported that the Constitutional Court rejected one accused person’s complaint against the original custody order.",
+              "sources": [
+                {
+                  "id": "ctk-july",
+                  "locator": "report"
+                },
+                {
+                  "id": "ctk-september",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "According to ČTK, the four whose custody was extended in July all deny guilt and say they had nothing to do with the fire.",
+              "sources": [
+                {
+                  "id": "ctk-july",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "title": "Why “Czech Elbit 10”",
+          "kind": "Campaign and movement-aligned reporting",
+          "paragraphs": [
+            {
+              "text": "Supporters called the detained people the Czech Elbit 10, and now the Czech Elbit 11 after a further detention. Their campaign describes the case as a political witch-hunt and asks for release on bail, full access to evidence, and for the fire to be treated as arson rather than terrorism. These are the campaign’s claims and demands, not established facts.",
+              "sources": [
+                {
+                  "id": "unicorn",
+                  "locator": "report"
+                },
+                {
+                  "id": "campaign",
+                  "locator": "campaign statement"
+                }
+              ]
+            },
+            {
+              "text": "The campaign’s figures do not match the official reporting exactly. For example, it gives different counts for the people held in each country. We use ČTK’s figures above.",
+              "sources": [
+                {
+                  "id": "campaign",
+                  "locator": "campaign statement"
+                },
+                {
+                  "id": "ctk-september",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "Czech terrorism law",
+      "intro": "Unlike the UK section 69 route, terrorism here is part of the charge from the start.",
+      "entries": [
+        {
+          "id": "charges",
+          "title": "The two offences",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Section 311 of the Czech Criminal Code (terrorist attack) covers listed acts, including destroying or damaging property on a large scale, or causing a fire that puts property at risk of large-scale damage. It requires an intent such as seriously intimidating the population or unlawfully forcing a government or other public body to act. The basic offence carries 3 to 12 years’ imprisonment; aggravated forms carry 5 to 15 or 12 to 20 years.",
+              "sources": [
+                {
+                  "id": "cz-code",
+                  "locator": "§ 311"
+                }
+              ]
+            },
+            {
+              "text": "Section 312a (participation in a terrorist group) carries 3 to 12 years in its basic form, and up to 20 years in aggravated forms. Which subsections apply to each accused person has not been published, so the possible sentence cannot be stated for any individual.",
+              "sources": [
+                {
+                  "id": "cz-code",
+                  "locator": "§ 312a"
+                }
+              ]
+            },
+            {
+              "text": "Czech law also makes it an offence to publicly approve a committed terrorist offence or to praise its perpetrator for it.",
+              "sources": [
+                {
+                  "id": "cz-code",
+                  "locator": "§ 312e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uk-comparison",
+          "title": "Compared with the UK",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "In England and Wales, protesters in the Filton case were charged and convicted of ordinary criminal damage, and a judge found a terrorist connection only at sentencing. In the Czech case, prosecutors charged terrorism from the outset, so a court will have to decide it as part of guilt. Our page on the terrorist connection add-on explains the UK route.",
+              "sources": [
+                {
+                  "id": "vsz-march",
+                  "locator": "press release"
+                },
+                {
+                  "id": "cz-code",
+                  "locator": "§§ 311, 312a"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "title": "Where things stand",
+      "intro": "As checked on 25 October 2026.",
+      "entries": [
+        {
+          "id": "current",
+          "title": "No trial, no verdict",
+          "kind": "News reports",
+          "paragraphs": [
+            {
+              "text": "We found no indictment date, trial date or verdict. The people detained are accused, not convicted. Questions to follow: the charge particulars for each person, further custody decisions, the roster of accused people, and the outcome of the false-flag line of inquiry.",
+              "sources": [
+                {
+                  "id": "ctk-september",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "We used the Prague prosecutor’s press releases, reports from the Czech news agency ČTK, and the consolidated text of the Criminal Code, checked on 25 October 2026. Campaign and movement-aligned sources are used only for the campaign’s own name, claims and demands. We do not name the accused, because none has been convicted, and we do not link to material that praises the fire. This page does not express support for any act or group.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "expats",
+      "title": "Three suspects charged with terrorism for Pardubice fire: what we (don’t) know so far",
+      "publisher": "Expats.cz",
+      "type": "News report",
+      "url": "https://www.expats.cz/czech-news/article/three-suspects-charged-with-terrorism-for-pardubice-fire-what-we-don-t-know-so-far",
+      "checked": "2026-10-25",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "vsz-march",
+      "title": "Press release of 30 March 2026 on the Pardubice arson case",
+      "publisher": "High Public Prosecutor’s Office, Prague",
+      "type": "Prosecutor statement",
+      "url": "https://verejnazaloba.cz/vsz-praha-aktuality/tiskova-zprava-ze-dne-30-3-2026/",
+      "checked": "2026-10-25",
+      "date": "2026-03-30"
+    },
+    {
+      "id": "vsz-may",
+      "title": "Press release of 27 May 2026 on the Pardubice arson case",
+      "publisher": "High Public Prosecutor’s Office, Prague",
+      "type": "Prosecutor statement",
+      "url": "https://verejnazaloba.cz/vsz-praha-aktuality-zahajeni-rizeni/tiskova-zprava-ze-dne-27-5-2026/",
+      "checked": "2026-10-25",
+      "date": "2026-05-27"
+    },
+    {
+      "id": "ctk-july",
+      "title": "Court in Pardubice extends custody of four accused over the LPP arms factory attack",
+      "publisher": "ČTK via České noviny",
+      "type": "News agency report (Czech)",
+      "url": "https://www.ceskenoviny.cz/zpravy/2854002",
+      "checked": "2026-10-25",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "ctk-september",
+      "title": "Accused in the Pardubice arms factory attack remain in custody; court fears they may flee",
+      "publisher": "ČTK via CNN Prima News",
+      "type": "News agency report (Czech)",
+      "url": "https://cnn.iprima.cz/obvineni-z-utoku-na-zbrojovku-v-pardubicich-zustanou-ve-vazbe-soud-se-obava-jejich-uteku-521622",
+      "checked": "2026-10-25",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "cz-code",
+      "title": "Criminal Code of the Czech Republic (Act No. 40/2009 Coll.), consolidated text",
+      "publisher": "Zákony pro lidi",
+      "type": "Legislation (unofficial consolidated text)",
+      "url": "https://www.zakonyprolidi.cz/cs/2009-40",
+      "checked": "2026-10-25"
+    },
+    {
+      "id": "unicorn",
+      "title": "Terror charges, repression, and the Czech pro-Palestine movement",
+      "publisher": "Unicorn Riot",
+      "type": "Documentary report (movement-aligned)",
+      "url": "https://unicornriot.ninja/media/terror-charges-repression-and-the-czech-pro-palestine-movement/",
+      "checked": "2026-10-25",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "campaign",
+      "title": "Defend the Czech Elbit 11",
+      "publisher": "Supporters’ campaign",
+      "type": "Campaign statement",
+      "url": "https://czechelbit10.org/",
+      "checked": "2026-10-25"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "id": "filton6",
   "title": "Filton6",
   "jurisdiction": "Filton · England and Wales",
-  "summary": "The initial six defendants, subsequent proceedings and the wider Filton cases, with the source dossier’s reporting kept together.",
+  "summary": "Four defendants from the Filton case were sentenced on 12 June 2026 after a judge found a terrorist connection; they have appealed. The original dossier also covers the initial six defendants and the wider Filton proceedings.",
   "tags": [
     "uk",
     "protest",
@@ -13,6 +13,49 @@
   "migrated_on": "2026-10-17",
   "verification": "historical-import-needs-current-review",
   "review_note": "“Filton6” is the entry point for this research. The original dossier also covers the broader Filton 24/25 proceedings; counts, verdicts and sentences must be tied to the particular defendants and trial.",
+  "updates": [
+    {
+      "id": "2026-06-12-sentence",
+      "date": "2026-06-12",
+      "date_label": "12 June 2026",
+      "checked": "2026-10-25",
+      "title": "Four sentenced with a terrorist connection; appeal filed",
+      "summary": "On 12 June 2026, Mr Justice Johnson sentenced four Filton defendants for criminal damage after finding a terrorist connection under section 69 of the Sentencing Act 2020. They filed an appeal in September.",
+      "paragraphs": [
+        "A jury convicted Charlotte Head, Samuel Corner, Leona Kamio and Fatema Zainab Rajwani of criminal damage at the Filton factory on 6 August 2024; Samuel Corner was also convicted of inflicting grievous bodily harm on a police officer. None was charged with or convicted of a terrorist offence (sentencing remarks, paragraphs 1.1 and 3.1).",
+        "The judge found that the damage was serious, with well over £1 million paid by insurers, and that the offence was designed to influence the UK Government and to intimidate people working for Elbit and linked businesses. He rejected the argument that it was designed to influence the Israeli government (ruling, paragraphs 37, 39 and 46–49).",
+        "Head and Kamio received special custodial sentences of 6 years less 45 days, and Rajwani 5 years 8 months less 45 days, each including 1 year of extra licence. Corner received 8 years 8 months in total, including 3 years 8 months for grievous bodily harm. Each is subject to terrorist notification requirements for 15 years (sentencing remarks, paragraphs 6.3 and 8.1–8.4).",
+        "On 3 September 2026 their solicitors said an appeal had been filed against the sentences and the terrorist-connection finding. We have found no published decision on permission to appeal or hearing date.",
+        "This update covers these four defendants only. Other Filton trials are separate. For the law and a comparison with the Barclays5 ruling, read our legal study, Terrorist connection add-on."
+      ],
+      "sources": [
+        {
+          "title": "R v Charlotte Head and others — sentencing remarks (PDF)",
+          "publisher": "Crown Court at Woolwich, Mr Justice Johnson; published on judiciary.uk",
+          "type": "sentencing-remarks",
+          "date": "2026-06-12",
+          "checked": "2026-10-25",
+          "url": "https://www.judiciary.uk/wp-content/uploads/2026/06/R-v-Charlotte-Head-and-others-sentencing-remarks.pdf"
+        },
+        {
+          "title": "R v Head and others — ruling on terrorist connection (PDF)",
+          "publisher": "Crown Court at Woolwich, Mr Justice Johnson; published on judiciary.uk",
+          "type": "judgment",
+          "date": "2026-06-15",
+          "checked": "2026-10-25",
+          "url": "https://www.judiciary.uk/wp-content/uploads/2026/06/Ruling-on-terrorism-connection.pdf"
+        },
+        {
+          "title": "Palestine Action prisoners to appeal ‘terrorist’ sentences",
+          "publisher": "Novara Media",
+          "type": "news-report",
+          "date": "2026-09-03",
+          "checked": "2026-10-25",
+          "url": "https://novaramedia.com/2026/09/03/palestine-action-prisoners-to-appeal-terrorist-sentences/"
+        }
+      ]
+    }
+  ],
   "provenance": {
     "original_collection": "Barclays5 research · July 2026",
     "commit": "9831cfdcb6ca0f63f488cd81794f8e6d0e79f88c",
