@@ -1,0 +1,1064 @@
+{
+  "id": "calling-fraud-a-fraud",
+  "category": "legal-study",
+  "title": "Calling fraud a fraud: defamation law for people who mean it",
+  "subtitle": "In England you can call a fraud a fraud. You just have to be able to prove it, or show it was your honest opinion on true facts, or have reasonably believed publishing it was in the public interest. Here is where the line runs, tested on sentences we deliberately put on this page.",
+  "summary": "Defamation law does not ban the word “fraud”. It asks what an ordinary reader would take your words to mean, and then whether you can defend that meaning. A bare allegation of dishonesty is normally treated as a statement of fact, so you need proof. Dictionaries, private definitions and a winking “*innocent face*” do not change the meaning. Context, a stated factual basis and an evaluative frame can turn a damning word into protected opinion, as Simon Singh’s “bogus” case shows. Since June 2025, claims that try to silence speech about suspected economic crime, which includes fraud, can be struck out early as SLAPPs.",
+  "scope": "England and Wales · The Defamation Act 2013, the meaning rules and the leading cases, applied to the words “fraud”, “fraudulent”, “scam” and “jail”. It quotes, as specimens, sentences that could be actionable if they were published as allegations, and analyses them. They are not our allegations. Scotland and Northern Ireland have different law.",
+  "status_note": "The legislation and the judgments cited were read from the official text on 30 October 2026. The specimen table, the scoring of risk, the analysis of this page’s own exposure and the house-style proposal are our views, not court findings or current law. Nothing on this page says that any person or company committed fraud, and no court has found that anyone named here did. This is legal research and public education, not legal advice. Before publishing a serious allegation about a real person, get a media lawyer to read it.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-10-30",
+  "tags": [
+    "uk",
+    "defamation",
+    "freedom-of-expression",
+    "fraud",
+    "slapp",
+    "public-interest"
+  ],
+  "related": [
+    {
+      "id": "thames-water",
+      "title": "Thames Water: a marvel of financial engineering"
+    },
+    {
+      "id": "not-conducive-to-the-public-good",
+      "title": "Access to the UK restricted: “not conducive to the public good”"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Calling fraud a fraud",
+      "value": "Legal, if you can defend it",
+      "detail": "Truth, honest opinion or public interest. The burden is on you, not on the person you accuse",
+      "target": "short-answer"
+    },
+    {
+      "label": "A bare allegation of dishonesty",
+      "value": "Treated as fact",
+      "detail": "Court of Appeal, 2022. “In my opinion” in front of it does not change that on its own",
+      "target": "fraud-word"
+    },
+    {
+      "label": "Suspected fraud is economic crime",
+      "value": "Anti-SLAPP rule applies",
+      "detail": "Since 18 June 2025 a claim aimed at silencing that speech can be struck out unless it is likely to win",
+      "target": "slapp"
+    }
+  ],
+  "sections": [
+    {
+      "id": "short-answer",
+      "title": "The short answer",
+      "intro": "Yes, you can say it. The law decides what you said, then asks whether you can defend it.",
+      "entries": [
+        {
+          "id": "threshold",
+          "title": "First, is it defamatory at all?",
+          "kind": "Statute and Supreme Court judgment",
+          "paragraphs": [
+            {
+              "text": "A statement is not defamatory unless its publication has caused or is likely to cause serious harm to the claimant’s reputation. A company trading for profit must go further and show serious financial loss, actual or likely.",
+              "sources": [
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "The Supreme Court held in Lachaux that serious harm is judged “by reference to the actual facts about its impact and not just to the meaning of the words”. The court can infer it from how grave the allegation is and how widely it was read. An allegation of fraud is grave, so for an individual the threshold is rarely the obstacle.",
+              "sources": [
+                {
+                  "id": "lachaux",
+                  "locator": "paras 12, 14"
+                },
+                {
+                  "id": "banks",
+                  "locator": "para 67"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "defences",
+          "title": "Then, can you defend it?",
+          "kind": "Statute",
+          "table": {
+            "caption": "The three main defences in the Defamation Act 2013",
+            "columns": [
+              "Defence",
+              "What you must show",
+              "What it means for “fraud”"
+            ],
+            "rows": [
+              [
+                "Truth (s 2)",
+                "The imputation the words convey is substantially true. You prove it, on the balance of probabilities.",
+                "Prove the dishonesty the reader heard, not a milder version of it."
+              ],
+              [
+                "Honest opinion (s 3)",
+                "It was opinion; it indicated its basis; an honest person could have held it on facts that existed at the time. It fails if you did not actually hold it.",
+                "Works when “fraud” reads as your judgment on stated, true facts. Fails when the stated facts are wrong."
+              ],
+              [
+                "Public interest (s 4)",
+                "A matter of public interest, and you reasonably believed publishing it was in the public interest. The court looks at all the circumstances and allows for editorial judgment.",
+                "Can protect allegations you cannot prove, if your belief was reasonable. It can lapse when the facts change."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each defence is separate; one is enough. The public interest defence can protect statements of fact or of opinion. Libel trials are now heard by a judge alone unless the court orders otherwise, and criminal libel was abolished: defamation is a civil wrong, so the risk is damages and costs, not prison.",
+              "sources": [
+                {
+                  "id": "da-s2",
+                  "locator": "s 2(1)"
+                },
+                {
+                  "id": "da-s3",
+                  "locator": "s 3(1)–(5)"
+                },
+                {
+                  "id": "da-s4",
+                  "locator": "s 4(1)–(5)"
+                },
+                {
+                  "id": "da-s11",
+                  "locator": "s 11"
+                },
+                {
+                  "id": "cja73",
+                  "locator": "s 73(b)"
+                },
+                {
+                  "id": "depp",
+                  "locator": "paras 40–41"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meaning",
+      "title": "Your words mean what the reader hears",
+      "intro": "Most libel fights are won or lost on meaning, before any defence is reached.",
+      "entries": [
+        {
+          "id": "no-dictionaries",
+          "title": "No private dictionaries",
+          "kind": "Supreme Court judgment",
+          "date": "2019-04-03",
+          "citation": "Stocker v Stocker [2019] UKSC 17",
+          "paragraphs": [
+            {
+              "text": "Mrs Stocker wrote on Facebook that her former husband “tried to strangle me”. The trial judge used the Oxford English Dictionary to narrow the words to two meanings and found she had accused him of trying to kill her. The Supreme Court allowed her appeal.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 1–7, 63"
+                }
+              ]
+            },
+            {
+              "text": "The meaning “is to be determined according to how it would be understood by the ordinary reasonable reader. It is not fixed by technical, linguistically precise dictionary definitions, divorced from the context in which the statement was made.” On social media people “scroll through it quickly. They do not pause and reflect.” Their reaction is “impressionistic and fleeting”.",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 25, 44"
+                }
+              ]
+            },
+            {
+              "text": "The lesson cuts both ways. Mrs Stocker escaped a meaning the dictionary would have pinned on her. But a writer who defines “fraudulent” in a footnote as “showing features that deserve investigation” cannot rely on the footnote either. The reader does not read footnotes the way a lawyer does.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 25, 44"
+                },
+                {
+                  "id": "singh",
+                  "locator": "para 7, quoting Eady J at para 14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "labels",
+          "title": "Labels do not decide it",
+          "kind": "Court of Appeal judgment, quoting the trial judge",
+          "paragraphs": [
+            {
+              "text": "Singh’s article ran under the heading “Comment and debate”. The trial judge still treated it as fact: “It is a question of substance rather than labelling.” The Court of Appeal reversed him on the meaning, not on that principle. Writing “opinion” above an accusation does not make it opinion.",
+              "sources": [
+                {
+                  "id": "singh",
+                  "locator": "paras 6–7, quoting Eady J at para 14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "innocent-face",
+          "title": "Hints, questions and “*innocent face*”",
+          "kind": "High Court judgment",
+          "date": "2013-05-24",
+          "citation": "McAlpine v Bercow [2013] EWHC 1342 (QB)",
+          "paragraphs": [
+            {
+              "text": "Sally Bercow tweeted: “Why is Lord McAlpine trending? *Innocent face*”. She argued it was a neutral question. Tugendhat J held that the reasonable reader would understand “innocent face” as “insincere and ironical”, and that the tweet meant McAlpine “was a paedophile who was guilty of sexually abusing boys living in care”. The allegation was false.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 3, 84, 90"
+                }
+              ]
+            },
+            {
+              "text": "Under the repetition rule, a person who repeats someone else’s defamatory allegation is treated as making it, “even if he attempts to distance himself from the allegation”. Reporting that “people are calling it a fraud” is, in law, calling it a fraud.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 44, 88"
+                },
+                {
+                  "id": "lachaux",
+                  "locator": "para 23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chase-levels",
+          "title": "Guilt, suspicion, investigation: the Chase levels",
+          "kind": "High Court judgments applying Court of Appeal authority",
+          "paragraphs": [
+            {
+              "text": "Courts sort allegations of wrongdoing into three levels, named after Chase v News Group Newspapers (2002): level 1, the person is guilty; level 2, there are reasonable grounds to suspect they are guilty; level 3, there are grounds to investigate whether they are. All three can be defamatory. Each needs different proof.",
+              "sources": [
+                {
+                  "id": "depp",
+                  "locator": "para 81"
+                }
+              ]
+            },
+            {
+              "text": "Truth means proving the sting at the level the reader heard. Proving “the truth of some lesser defamatory meaning does not provide a complete defence.” If you publish level 1 and can prove level 3, you lose.",
+              "sources": [
+                {
+                  "id": "vardy",
+                  "locator": "para 29, quoting Chase at para 34"
+                },
+                {
+                  "id": "da-s2",
+                  "locator": "s 2(1), (3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fraud-word",
+      "title": "Why “fraud” is the hardest word",
+      "intro": "Fraud means dishonesty, and dishonesty is usually something that is either true or false.",
+      "entries": [
+        {
+          "id": "dishonesty-is-fact",
+          "title": "Dishonesty is normally a fact",
+          "kind": "Court of Appeal judgment and statute",
+          "paragraphs": [
+            {
+              "text": "In Riley v Murray, Warby LJ put it in one clause: “a bare allegation of dishonesty will normally be analysed as an allegation of fact”. The criminal offence needs dishonesty too. Fraud by false representation requires a false representation made dishonestly, intending gain or loss.",
+              "sources": [
+                {
+                  "id": "riley",
+                  "locator": "para 54"
+                },
+                {
+                  "id": "fraud-act-s2",
+                  "locator": "s 2(1)"
+                }
+              ]
+            },
+            {
+              "text": "So “X is a fraud”, “X committed fraud” and usually “X’s conduct was fraudulent” are claims you defend by proving dishonesty, under the truth defence. Swapping the noun for an adjective changes the grammar, not the accusation.",
+              "sources": [
+                {
+                  "id": "riley",
+                  "locator": "para 54"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "para 25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bogus",
+          "title": "When a damning word is opinion: Simon Singh’s “bogus”",
+          "kind": "Court of Appeal judgment",
+          "date": "2010-04-01",
+          "citation": "British Chiropractic Association v Singh [2010] EWCA Civ 350",
+          "paragraphs": [
+            {
+              "text": "Singh wrote that the British Chiropractic Association claimed chiropractors could treat children’s colic, asthma and ear infections “even though there is not a jot of evidence”, and that it “happily promotes bogus treatments”. The next paragraph gave his basis: his co-author Edzard Ernst had examined 70 trials and found no evidence for such uses. Eady J held this was “the plainest allegation of dishonesty” and a matter of verifiable fact.",
+              "sources": [
+                {
+                  "id": "singh",
+                  "locator": "paras 6–7, quoting Eady J at paras 12–14"
+                }
+              ]
+            },
+            {
+              "text": "The Court of Appeal disagreed. “Not a jot of evidence” was a value judgment in a scientific dispute; once it was, “happily” lost its sting and meant no more than “blithely”. Forcing Singh to prove his argument in court would “invite the court to become an Orwellian ministry of truth.” The appeal was allowed.",
+              "sources": [
+                {
+                  "id": "singh",
+                  "locator": "paras 23, 26, 30, 37"
+                }
+              ]
+            },
+            {
+              "text": "What saved Singh was not the word but the structure: a public controversy, an evaluative claim about evidence, and the basis set out next to it. That is the honest opinion defence now written into section 3.",
+              "sources": [
+                {
+                  "id": "singh",
+                  "locator": "paras 28, 36"
+                },
+                {
+                  "id": "da-s3",
+                  "locator": "s 3(2)–(4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "riley-lesson",
+          "title": "When opinion fails: the misstated fact",
+          "kind": "Court of Appeal judgment",
+          "date": "2022-08-11",
+          "citation": "Riley v Murray [2022] EWCA Civ 1146",
+          "paragraphs": [
+            {
+              "text": "Laura Murray tweeted that “Rachel Riley tweets that Corbyn deserves to be violently attacked because he is a Nazi.” Riley’s tweet was ambiguous. The judge held that Murray stated as fact what Riley had said, and that it was not substantially true. Riley was awarded £10,000 and the Court of Appeal dismissed the appeal.",
+              "sources": [
+                {
+                  "id": "riley",
+                  "locator": "paras 1, 8, 13, 19–20, 89"
+                }
+              ]
+            },
+            {
+              "text": "The trial judge, quoted by the Court of Appeal, said it “could easily have been avoided”: had she written that Riley’s tweet “was capable of suggesting, or implied” that, she “may well have had a viable defence”. Instead she “put forward the very worst construction … and stated, as a fact, that this was what the Claimant had said.”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "riley",
+                  "locator": "para 21, quoting Nicklin J at para 78"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cases",
+      "title": "Five cases that show the line",
+      "intro": "Two people who said the unsayable and won, three who lost or lost ground. Read from the judgments.",
+      "entries": [
+        {
+          "id": "cases-table",
+          "title": "Who said what, and what happened",
+          "kind": "Summary of judgments",
+          "table": {
+            "caption": "Leading cases on harsh words",
+            "columns": [
+              "Case",
+              "The words",
+              "Result",
+              "Why"
+            ],
+            "rows": [
+              [
+                "Depp v News Group Newspapers (2020)",
+                "“wife beater”",
+                "Newspaper won",
+                "Level 1 meaning accepted; the Sun proved it substantially true"
+              ],
+              [
+                "Vardy v Rooney (2022)",
+                "“It’s ……….Rebekah Vardy’s account.”",
+                "Coleen Rooney won",
+                "Truth proved, partly by inference from evidence the judge found had been deliberately deleted"
+              ],
+              [
+                "BCA v Singh (2010)",
+                "“happily promotes bogus treatments”",
+                "Singh won the appeal on meaning",
+                "Value judgment in a scientific dispute, with its basis stated"
+              ],
+              [
+                "Riley v Murray (2022)",
+                "“Rachel Riley tweets that Corbyn deserves to be violently attacked”",
+                "Riley won £10,000",
+                "Stated an ambiguous tweet as fact at its worst reading"
+              ],
+              [
+                "Banks v Cadwalladr (2023)",
+                "TED talk about Brexit funding",
+                "Cadwalladr protected until 29 April 2020, liable after",
+                "Public interest defence lapsed once official investigations found no evidence"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each row is taken from the judgment cited.",
+              "sources": [
+                {
+                  "id": "depp",
+                  "locator": "paras 2, 81, 583–585"
+                },
+                {
+                  "id": "vardy",
+                  "locator": "paras 70, 287, 290"
+                },
+                {
+                  "id": "singh",
+                  "locator": "paras 23, 37"
+                },
+                {
+                  "id": "riley",
+                  "locator": "paras 1, 89"
+                },
+                {
+                  "id": "banks",
+                  "locator": "paras 18, 34, 71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "depp",
+          "title": "Depp: proving the worst meaning",
+          "kind": "High Court judgment",
+          "date": "2020-11-02",
+          "citation": "Depp v News Group Newspapers Ltd [2020] EWHC 2911 (QB)",
+          "paragraphs": [
+            {
+              "text": "The Sun’s online headline called Johnny Depp a “wife beater”. The publisher accepted that this was a level 1 meaning, an allegation of guilt. Nicol J examined 14 alleged incidents and held the words “substantially true in the meanings I have held them to bear.” Parliament, he said, has given a defendant who proves that “a complete defence”.",
+              "sources": [
+                {
+                  "id": "depp",
+                  "locator": "paras 2, 81, 583–585"
+                }
+              ]
+            },
+            {
+              "text": "The case shows the honest route at full strength: say the hardest thing, and prove it. The standard is the civil one, more probable than not, not the criminal one.",
+              "sources": [
+                {
+                  "id": "depp",
+                  "locator": "paras 40–41"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "banks",
+          "title": "Banks: even “grounds to investigate” needs upkeep",
+          "kind": "Court of Appeal judgment",
+          "date": "2023-02-28",
+          "citation": "Banks v Cadwalladr [2023] EWCA Civ 219",
+          "paragraphs": [
+            {
+              "text": "The trial judge found that Carole Cadwalladr’s TED talk asserted there were grounds to investigate whether Arron Banks’s donations came from foreign funding, a level 3 meaning. The public interest defence protected her until 29 April 2020, when the Electoral Commission publicly accepted the National Crime Agency’s finding of no evidence of offences. After that, the judge held, it was “no longer reasonable” to keep making that assertion without qualification.",
+              "sources": [
+                {
+                  "id": "banks",
+                  "locator": "paras 18, 34"
+                }
+              ]
+            },
+            {
+              "text": "The Court of Appeal held that continued publication of the TED talk after that date caused serious harm, and entered judgment for Banks with damages to be assessed. A level 3 allegation is protected only while the grounds still exist, and an online post keeps being published for as long as it stays up.",
+              "sources": [
+                {
+                  "id": "banks",
+                  "locator": "paras 30, 67–68, 71"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "specimens",
+      "title": "Specimen sentences, scored",
+      "intro": "The quoted sentences below are specimens for analysis, not statements by Independent Tribunal. We do not allege that any person or company committed fraud.",
+      "entries": [
+        {
+          "id": "specimen-table",
+          "title": "From verdict to question",
+          "kind": "Our analysis",
+          "table": {
+            "caption": "How the same anger reads at different levels",
+            "columns": [
+              "Specimen",
+              "What the reader hears",
+              "How you would defend it"
+            ],
+            "rows": [
+              [
+                "“Thames Water is a fraud in plain sight, and the executives belong in jail.”",
+                "Level 1: dishonest crime by the company and by identifiable people, deserving prison",
+                "Truth only: proof of dishonesty against each person identified. No court has found that. Do not publish this as an allegation."
+              ],
+              [
+                "“We are using ‘fraudulent’ not in a legal sense, but to describe their behaviour.”",
+                "Usually still dishonesty. The disclaimer is a label, not a meaning",
+                "Same as above, unless the rest of the piece genuinely recasts the word as an evaluation of stated facts"
+              ],
+              [
+                "“Why is nobody investigating the directors? *innocent face*”",
+                "Guilt by insinuation, as in McAlpine",
+                "Truth at whatever level the insinuation carries, often level 1"
+              ],
+              [
+                "“There are reasonable grounds to suspect fraud here.”",
+                "Level 2",
+                "Prove the grounds existed and were reasonable, or rely on public interest"
+              ],
+              [
+                "“On the published record, this deserves investigation for possible fraud by false representation.”",
+                "Level 3",
+                "Public interest, kept current; truth of the grounds. Best placed for anti-SLAPP protection"
+              ],
+              [
+                "“In our view this was extraction from a captive public, under rules that should never have allowed it.”",
+                "Opinion, with its basis stated alongside",
+                "Honest opinion, if the facts stated are true and you hold the view"
+              ],
+              [
+                "“If an inquiry found crimes, those responsible should face prosecution and, if convicted, prison.”",
+                "A conditional political demand, not an accusation",
+                "Little to defend: it accuses nobody"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The scoring applies the meaning rules and the defences above. It is our assessment, not a prediction of any court’s ruling: meaning depends on the whole publication, the headline and the pictures.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 25, 44"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 84, 88, 90"
+                },
+                {
+                  "id": "depp",
+                  "locator": "para 81"
+                },
+                {
+                  "id": "riley",
+                  "locator": "para 54"
+                },
+                {
+                  "id": "banks",
+                  "locator": "para 34"
+                }
+              ]
+            },
+            {
+              "text": "The last two rows are adapted from our own Thames Water page, which says the record justifies an independent inquiry with the power to compel documents and states that no court has found fraud. That is the register we use: angry, specific, and aimed at the process that could establish guilt.",
+              "sources": [
+                {
+                  "id": "da-s3",
+                  "locator": "s 3(2)–(4)"
+                },
+                {
+                  "id": "eccta-195",
+                  "locator": "s 195(3)(b)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jail",
+          "title": "What “belong in jail” does",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Prison follows only criminal guilt. Attaching “belong in jail” to named or identifiable people tells the reader you mean guilt, not suspicion, which pushes the meaning to level 1. We found no rule that the word is automatically fatal; it is one strong piece of context. Making the demand conditional on a finding by a court or inquiry points it back at the process.",
+              "sources": [
+                {
+                  "id": "depp",
+                  "locator": "para 81"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "para 25"
+                }
+              ]
+            },
+            {
+              "text": "Identification matters too. Tugendhat J held that Bercow’s tweet, by adding McAlpine’s name, made an allegation earlier reports had made without it. A small, known group such as “the executives” of one company can point to real people just as clearly.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 88"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "own-risk",
+          "title": "Does this page defame anyone by quoting the specimens?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "We think not, and we would defend that. The repetition rule treats a repeated allegation as made by the person repeating it. But meaning is fixed by reading the whole publication, as an ordinary reader would. A reader of a legal analysis that labels the sentence a specimen, scores it as indefensible without proof, and says no court has found fraud, would not take it as our allegation that anyone committed fraud.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 44"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "paras 25, 44"
+                },
+                {
+                  "id": "lachaux",
+                  "locator": "para 23"
+                }
+              ]
+            },
+            {
+              "text": "A claimant could still argue that a specimen screenshotted without its context is a new publication with a new meaning. That is a real risk of quoting harsh words, and it is why each specimen sits inside its own analysis on this page. We accept that risk; the analysis is worth more than the caution.",
+              "sources": [
+                {
+                  "id": "da-s8",
+                  "locator": "s 8(4)–(5)"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "para 44"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slapp",
+      "title": "Who can sue, and the SLAPP shield",
+      "intro": "Fraud is the one subject where the law now has a dedicated shield for the speaker.",
+      "entries": [
+        {
+          "id": "who-sues",
+          "title": "Companies, people and time",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "A company that trades for profit must show serious financial loss. Its directors, as individuals, need only show serious harm to reputation. So an allegation aimed at “the company” is a harder claim for the company to win than an allegation that identifies its people. Claims must generally be brought within one year; republishing substantially the same statement does not restart the clock unless the manner of publication is materially different.",
+              "sources": [
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)–(2)"
+                },
+                {
+                  "id": "da-s8",
+                  "locator": "s 8(1)–(5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "slapp-rules",
+          "title": "Anti-SLAPP: economic crime",
+          "kind": "Statute",
+          "date": "2025-06-18",
+          "paragraphs": [
+            {
+              "text": "Since 18 June 2025 the court rules must allow a “SLAPP claim” to be struck out before trial unless the claimant shows it is more likely than not to succeed, and the defendant cannot be ordered to pay the claimant’s costs except for misconduct.",
+              "sources": [
+                {
+                  "id": "eccta-194",
+                  "locator": "s 194(1), (4); commencement note"
+                }
+              ]
+            },
+            {
+              "text": "A claim qualifies if it restrains free speech about economic crime, the speech is for a purpose related to the public interest in combating economic crime, and the claimant intends harassment, expense or other harm beyond ordinary litigation. “Economic crime” includes fraud under the Fraud Act, conspiracy to defraud and fraudulent trading. Information counts if the speaker reasonably believes it is evidence of such a crime, or has reason to suspect one and believes disclosure would help an investigation.",
+              "sources": [
+                {
+                  "id": "eccta-195",
+                  "locator": "s 195(1), (3)"
+                },
+                {
+                  "id": "eccta-sch11",
+                  "locator": "paras 2 and 14; Companies Act 2006 s 993 entry"
+                }
+              ]
+            },
+            {
+              "text": "Our reading: the statute protects suspicion directed at investigation, which is close to a level 3 allegation. It does not protect a level 1 verdict delivered without proof, and it does not stop a well-founded claim, since the claimant can still show it is likely to win. It rewards exactly the discipline this page recommends.",
+              "sources": [
+                {
+                  "id": "eccta-195",
+                  "locator": "s 195(3)(b)"
+                },
+                {
+                  "id": "eccta-194",
+                  "locator": "s 194(1)(b)"
+                },
+                {
+                  "id": "depp",
+                  "locator": "para 81"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fact-check",
+      "title": "Checking the briefs we were given",
+      "intro": "Three drafts were supplied for this page. Most of their law is right. These points were wrong, overstated or unchecked.",
+      "entries": [
+        {
+          "id": "corrections",
+          "title": "Corrections",
+          "kind": "Our analysis",
+          "table": {
+            "caption": "Claims in the supplied drafts, checked against the judgments and statutes",
+            "columns": [
+              "Draft claim",
+              "What the record shows"
+            ],
+            "rows": [
+              [
+                "“Stockers v Stocker [2019] UKSC 17”",
+                "The case is Stocker v Stocker."
+              ],
+              [
+                "Chase level 3 is “reasonable grounds to investigate”",
+                "Level 3 is “grounds to investigate”. Level 2 is “reasonable grounds to suspect”."
+              ],
+              [
+                "Cadwalladr “ultimately agreed to pay £35,000”",
+                "The Court of Appeal entered judgment for Banks with damages to be assessed. We have not checked the later damages figure."
+              ],
+              [
+                "Accusations of fraud are “almost invariably” treated as fact",
+                "“Normally”, says the Court of Appeal. Singh shows a damning word can be opinion in context."
+              ],
+              [
+                "Invoking prison is “fatal” to any hyperbole argument",
+                "Overstated. It is strong context pointing to guilt, but we found no rule that it is decisive."
+              ],
+              [
+                "The public interest defence requires “standards of responsible journalism”",
+                "Section 4 asks whether the belief was reasonable in all the circumstances, allowing for editorial judgment. It also covers opinion."
+              ],
+              [
+                "Prince Harry’s claims were dismissed in July 2026",
+                "Not checked, and not defamation: those are privacy and unlawful information-gathering claims. Left out."
+              ],
+              [
+                "Derbyshire v Times Newspapers (1993): councils cannot sue",
+                "Correct in principle, but we could not open the judgment text, so it is not relied on here."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Checked against the sources listed.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "neutral citation"
+                },
+                {
+                  "id": "depp",
+                  "locator": "para 81"
+                },
+                {
+                  "id": "banks",
+                  "locator": "para 71"
+                },
+                {
+                  "id": "riley",
+                  "locator": "para 54"
+                },
+                {
+                  "id": "singh",
+                  "locator": "paras 23, 30"
+                },
+                {
+                  "id": "da-s4",
+                  "locator": "s 4(2), (4), (5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "house-style",
+      "title": "Our house style for saying it",
+      "intro": "How we intend to write about suspected wrongdoing. A proposal and a practice, not legal advice.",
+      "entries": [
+        {
+          "id": "rules",
+          "title": "Six rules",
+          "kind": "Our proposal — not legal advice",
+          "paragraphs": [
+            {
+              "text": "1. Pick the level before you pick the word. If you can prove dishonesty, say fraud. If you can show grounds, say so, and say what they are. 2. Put the facts next to the judgment, as Singh did, and make sure every stated fact is true; Riley lost on one misstated fact. 3. Never insinuate. A question with a wink is an accusation. 4. Aim demands at process: inquiry, investigation, prosecution if the evidence holds. 5. Keep it current: when an investigation clears someone, update or qualify the post, as Banks shows. 6. Ask the accused for comment before publishing, and print the answer.",
+              "sources": [
+                {
+                  "id": "depp",
+                  "locator": "para 81"
+                },
+                {
+                  "id": "singh",
+                  "locator": "para 28"
+                },
+                {
+                  "id": "riley",
+                  "locator": "para 21"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 84"
+                },
+                {
+                  "id": "banks",
+                  "locator": "para 34"
+                },
+                {
+                  "id": "da-s4",
+                  "locator": "s 4(2)"
+                }
+              ]
+            },
+            {
+              "text": "We would rather be sued over a sentence we can defend than stay safe by saying nothing. Being on the receiving end of a claim over a well-founded, properly framed allegation about suspected economic crime is exactly the situation the anti-SLAPP rules were written for.",
+              "sources": [
+                {
+                  "id": "eccta-194",
+                  "locator": "s 194(1), (4)"
+                },
+                {
+                  "id": "eccta-195",
+                  "locator": "s 195(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "We read sections 1, 2, 3, 4, 8 and 11 of the Defamation Act 2013, section 73 of the Coroners and Justice Act 2009, sections 194–195 and Schedule 11 of the Economic Crime and Corporate Transparency Act 2023, and the judgments in Stocker, Lachaux, Singh, Riley, Banks, Depp, Vardy and McAlpine from legislation.gov.uk and the National Archives on 30 October 2026. Chase is cited through its quotation in Depp and Vardy because the BAILII copy could not be opened. We did not check whether the Civil Procedure Rules made under section 194 add conditions beyond the Act. This is legal research and commentary, not legal advice.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "da-s1",
+      "title": "Defamation Act 2013, section 1: serious harm",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/1",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "da-s2",
+      "title": "Defamation Act 2013, section 2: truth",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/2",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "da-s3",
+      "title": "Defamation Act 2013, section 3: honest opinion",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/3",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "da-s4",
+      "title": "Defamation Act 2013, section 4: publication on matter of public interest",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/4",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "da-s8",
+      "title": "Defamation Act 2013, section 8: single publication rule",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/8",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "da-s11",
+      "title": "Defamation Act 2013, section 11: trial to be without a jury unless the court orders otherwise",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/11",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "cja73",
+      "title": "Coroners and Justice Act 2009, section 73: abolition of common law libel offences",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2009/25/section/73",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "fraud-act-s2",
+      "title": "Fraud Act 2006, section 2: fraud by false representation",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/35/section/2",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "eccta-194",
+      "title": "Economic Crime and Corporate Transparency Act 2023, section 194: strategic litigation against public participation",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/56/section/194",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "eccta-195",
+      "title": "Economic Crime and Corporate Transparency Act 2023, section 195: meaning of “SLAPP” claim",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/56/section/195",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "eccta-sch11",
+      "title": "Economic Crime and Corporate Transparency Act 2023, Schedule 11: economic crime offences",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/56/schedule/11",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "lachaux",
+      "title": "Lachaux v Independent Print Ltd [2019] UKSC 27",
+      "publisher": "UK Supreme Court (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+      "checked": "2026-10-30",
+      "date": "2019-06-12"
+    },
+    {
+      "id": "stocker",
+      "title": "Stocker v Stocker [2019] UKSC 17",
+      "publisher": "UK Supreme Court (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/17",
+      "checked": "2026-10-30",
+      "date": "2019-04-03"
+    },
+    {
+      "id": "singh",
+      "title": "British Chiropractic Association v Singh [2010] EWCA Civ 350",
+      "publisher": "Court of Appeal (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/350",
+      "checked": "2026-10-30",
+      "date": "2010-04-01"
+    },
+    {
+      "id": "riley",
+      "title": "Riley v Murray [2022] EWCA Civ 1146",
+      "publisher": "Court of Appeal (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/1146",
+      "checked": "2026-10-30",
+      "date": "2022-08-11"
+    },
+    {
+      "id": "banks",
+      "title": "Banks v Cadwalladr [2023] EWCA Civ 219",
+      "publisher": "Court of Appeal (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/219",
+      "checked": "2026-10-30",
+      "date": "2023-02-28"
+    },
+    {
+      "id": "depp",
+      "title": "Depp v News Group Newspapers Ltd [2020] EWHC 2911 (QB)",
+      "publisher": "High Court, Nicol J (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2020/2911",
+      "checked": "2026-10-30",
+      "date": "2020-11-02"
+    },
+    {
+      "id": "vardy",
+      "title": "Vardy v Rooney [2022] EWHC 2017 (QB)",
+      "publisher": "High Court, Steyn J (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2022/2017",
+      "checked": "2026-10-30",
+      "date": "2022-07-29"
+    },
+    {
+      "id": "mcalpine",
+      "title": "McAlpine v Bercow [2013] EWHC 1342 (QB)",
+      "publisher": "High Court, Tugendhat J (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/1342",
+      "checked": "2026-10-30",
+      "date": "2013-05-24"
+    }
+  ]
+}
