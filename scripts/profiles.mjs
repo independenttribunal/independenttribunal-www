@@ -10,6 +10,7 @@ export function validateProfile(p, fail) {
   }
   if (!safeId.test(p.id) || !date.test(p.checked)) fail("safe id and checked date required");
   if (p.category && p.category !== "legal-study") fail("unknown profile category");
+  if (p.pinned !== undefined && p.pinned !== true) fail("pinned must be true when set");
   if (p.artworks !== undefined && !Array.isArray(p.artworks)) fail("artworks must be an array");
   for (const image of [p.evidence_image, ...(p.artworks ?? [])].filter(Boolean)) {
     if (!/^\/images\/[a-z0-9-]+\.(png|jpg|webp)$/.test(image.src) || !image.alt?.trim() || !image.caption?.trim()) fail("evidence image requires a local image path, alt text and caption");

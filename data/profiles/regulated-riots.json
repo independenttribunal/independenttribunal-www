@@ -1,0 +1,1242 @@
+{
+  "id": "regulated-riots",
+  "category": "legal-study",
+  "title": "Regulated riots and the hypothetical person of reasonable firmness",
+  "subtitle": "A riot needs 12 people, a common purpose and violence that would frighten a bystander who need not exist. When rioters damage property, the local police body pays, within strict limits.",
+  "summary": "In England and Wales, riot is defined by section 1 of the Public Order Act 1986: 12 or more people using or threatening unlawful violence for a common purpose, in a way that would make a person of reasonable firmness fear for their safety. That person is hypothetical and need not be present. The same definition triggers the Riot Compensation Act 2016, under which the local Police and Crime Commissioner compensates uninsured owners and insurers for direct property damage, up to £1 million per claim. The scheme dates back to the Riot Act 1714, is rarely used outside major disorder, and refuses claimants who took part in or helped cause the riot.",
+  "scope": "England and Wales · The criminal definition of riot and police-funded riot compensation under the Riot Compensation Act 2016 and its predecessors. Scotland and Northern Ireland have separate law.",
+  "status_note": "Legislation, judgments, the 2013 Home Office review and Police and Crime Commissioner decisions were checked on 29 October 2026. The section on staged riots is our analysis, not a court finding. This is legal research, not legal advice.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-10-29",
+  "tags": [
+    "uk",
+    "public-order",
+    "riot",
+    "compensation",
+    "policing",
+    "legal-history"
+  ],
+  "related": [
+    {
+      "id": "public-order",
+      "title": "Public order and protest"
+    },
+    {
+      "id": "aggressive-begging",
+      "title": "Aggressive begging: when does asking become a crime?"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Riot",
+      "value": "12 or more",
+      "detail": "People present together, using or threatening violence for a common purpose",
+      "target": "elements"
+    },
+    {
+      "label": "The bystander",
+      "value": "Need not exist",
+      "detail": "No person of reasonable firmness need actually be, or be likely to be, present",
+      "target": "phantom"
+    },
+    {
+      "label": "Compensation",
+      "value": "£1m cap",
+      "detail": "Per claim, direct property loss only, paid by the local policing body",
+      "target": "money"
+    }
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "title": "What makes a riot",
+      "intro": "Riot is the most serious offence in Part 1 of the Public Order Act 1986. Every element has to be present, and the numbers matter.",
+      "entries": [
+        {
+          "id": "elements",
+          "title": "Twelve people, one purpose, frightening violence",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "A riot needs 12 or more people who are present together and who use or threaten unlawful violence for a common purpose. Their conduct, taken together, must be such as would cause a person of reasonable firmness present at the scene to fear for their personal safety.",
+              "sources": [
+                {
+                  "id": "poa1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            },
+            {
+              "text": "The 12 do not have to act at the same moment, the common purpose can be inferred from what they do, and a riot can happen in a private place as well as a public one.",
+              "sources": [
+                {
+                  "id": "poa1",
+                  "locator": "s 1(2), (3), (5)"
+                }
+              ]
+            },
+            {
+              "text": "“Violence” includes violent conduct towards property, not only towards people. It is not limited to conduct that causes injury or damage: throwing a missile that falls short counts.",
+              "sources": [
+                {
+                  "id": "poa8",
+                  "locator": "s 8"
+                }
+              ]
+            },
+            {
+              "text": "Only those who actually use unlawful violence for the common purpose are guilty of riot. Someone who only threatens is counted towards the 12 but is not guilty of riot, although they may be guilty of a lesser offence. Each person must intend to use violence or be aware that their conduct may be violent.",
+              "sources": [
+                {
+                  "id": "poa1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "poa6",
+                  "locator": "s 6(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ladder",
+          "title": "Riot, violent disorder and affray",
+          "kind": "Statute",
+          "table": {
+            "caption": "The three violent public order offences",
+            "columns": [
+              "Offence",
+              "People needed",
+              "Common purpose?",
+              "Maximum sentence"
+            ],
+            "rows": [
+              [
+                "Riot (s 1)",
+                "12 or more",
+                "Yes",
+                "10 years"
+              ],
+              [
+                "Violent disorder (s 2)",
+                "3 or more",
+                "No",
+                "5 years"
+              ],
+              [
+                "Affray (s 3)",
+                "1 is enough",
+                "No",
+                "3 years"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The three offences share the reasonable-firmness test but differ in the number of people and whether a common purpose is needed. The Court of Appeal has stressed that violent disorder, unlike riot, needs no common purpose.",
+              "sources": [
+                {
+                  "id": "poa1",
+                  "locator": "s 1"
+                },
+                {
+                  "id": "poa2",
+                  "locator": "s 2"
+                },
+                {
+                  "id": "poa3",
+                  "locator": "s 3"
+                },
+                {
+                  "id": "nw",
+                  "locator": "paras 14–15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dpp",
+          "title": "Riot prosecutions need the DPP’s consent",
+          "kind": "Statute and prosecution record",
+          "paragraphs": [
+            {
+              "text": "No prosecution for riot may be brought except by or with the consent of the Director of Public Prosecutions.",
+              "sources": [
+                {
+                  "id": "poa7",
+                  "locator": "s 7(1)"
+                }
+              ]
+            },
+            {
+              "text": "Riot charges are brought when prosecutors consider the higher threshold can be proved. In January 2025, for example, the CPS authorised riot charges against 11 more people over disorder in Ely, Cardiff, in May 2023; it said 31 others had already been charged. Charges are allegations, not findings of guilt.",
+              "sources": [
+                {
+                  "id": "ely",
+                  "locator": "press release"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "firmness",
+      "title": "The person who need not exist",
+      "intro": "The “person of reasonable firmness” is a yardstick, not a witness. The law asks what the violence was like, not whether anyone was actually frightened.",
+      "entries": [
+        {
+          "id": "phantom",
+          "title": "Section 1(4)",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "No person of reasonable firmness need actually be, or be likely to be, present at the scene.",
+              "sources": [
+                {
+                  "id": "poa1",
+                  "locator": "s 1(4)"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "So a riot can be committed where nobody is watching, for example inside a closed building at night. The same rule applies to violent disorder. The question is whether the violence, taken together, would make a hypothetical person of reasonable firmness fear for their safety if they were there.",
+              "sources": [
+                {
+                  "id": "poa1",
+                  "locator": "s 1(4)–(5)"
+                },
+                {
+                  "id": "poa2",
+                  "locator": "s 2(3)–(4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mischief",
+          "title": "Why the law uses a hypothetical person",
+          "kind": "Judgment",
+          "date": "2010-03-03",
+          "paragraphs": [
+            {
+              "text": "The Court of Appeal explained that riot, violent disorder and affray target violent or threatening conduct that would frighten ordinary members of the public going about their lawful business, if they happened to come upon it.",
+              "sources": [
+                {
+                  "id": "nw",
+                  "locator": "para 14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "common-law",
+          "title": "From “firmness and courage” to section 1",
+          "kind": "Judgment",
+          "paragraphs": [
+            {
+              "text": "At common law, Field v Metropolitan Police Receiver (1907) set out five ingredients of riot. They included at least three people and force or violence displayed so as to alarm at least one person of reasonable firmness and courage.",
+              "sources": [
+                {
+                  "id": "mitsui-ca",
+                  "locator": "para 22"
+                }
+              ]
+            },
+            {
+              "text": "The 1986 Act raised the minimum to 12 people and said expressly that the person of reasonable firmness need not be there.",
+              "sources": [
+                {
+                  "id": "poa1",
+                  "locator": "s 1(1), (4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contrast-s5",
+          "title": "Compare section 5",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Lower down the scale, section 5 works differently. It needs conduct within the hearing or sight of a real person likely to be caused harassment, alarm or distress. Riot, the most serious offence, needs no real bystander at all. Our page on aggressive begging covers section 5.",
+              "sources": [
+                {
+                  "id": "poa5",
+                  "locator": "s 5(1)"
+                },
+                {
+                  "id": "poa1",
+                  "locator": "s 1(4)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "From the hundred to the police fund",
+      "intro": "Paying for riot damage out of public funds is more than 300 years old. The idea was that the local community answers for disorder in its area.",
+      "entries": [
+        {
+          "id": "riot-act",
+          "title": "The Riot Act 1714",
+          "kind": "Statute (historical), as described by the Supreme Court",
+          "paragraphs": [
+            {
+              "text": "The Riot Act 1714 made it a felony punishable by death for 12 or more people unlawfully assembled to fail to disperse after an official read a proclamation, which is where “reading the Riot Act” comes from. Section 6 made the inhabitants of the “hundred”, a local administrative area, liable for buildings that rioters pulled down.",
+              "sources": [
+                {
+                  "id": "mitsui-uksc",
+                  "locator": "para 19"
+                }
+              ]
+            },
+            {
+              "text": "Lord Mansfield explained the principle in 1776, drawing on far older hue-and-cry law:",
+              "sources": [
+                {
+                  "id": "mitsui-uksc",
+                  "locator": "paras 20, 25"
+                }
+              ]
+            },
+            {
+              "text": "the inhabitants shall be in the nature of sureties for one another",
+              "sources": [
+                {
+                  "id": "mitsui-uksc",
+                  "locator": "para 20, quoting Ratcliffe v Eden (1776)"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "act-1886",
+          "title": "The Riot (Damages) Act 1886",
+          "kind": "Statute (historical), as described by the Supreme Court",
+          "paragraphs": [
+            {
+              "text": "The 1886 Act moved liability from the hundred to the police authority. It allowed insurers to claim in their own name and told the authority to have regard to the claimant’s conduct, including precautions, being a party or accessory to the riot, and provocation.",
+              "sources": [
+                {
+                  "id": "mitsui-uksc",
+                  "locator": "paras 7, 32"
+                }
+              ]
+            },
+            {
+              "text": "The Act was applied sparingly. The largest payouts before 2011 followed the riots of the early 1980s.",
+              "sources": [
+                {
+                  "id": "kinghan",
+                  "locator": "paras 1.2, 1.12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "strict",
+          "title": "Liability without fault",
+          "kind": "Judgment",
+          "paragraphs": [
+            {
+              "text": "The police did not have to be at fault. In Pitchers v Surrey County Council, about a riot by soldiers at Witley Camp during the First World War, the courts held that the right to compensation did not depend on what the police did or failed to do.",
+              "sources": [
+                {
+                  "id": "yarls",
+                  "locator": "paras 41–42"
+                },
+                {
+                  "id": "mitsui-ca",
+                  "locator": "para 43"
+                }
+              ]
+            },
+            {
+              "text": "The 1886 Act required people to be assembled “riotously and tumultuously”. Small, furtive robberies did not qualify: in J W Dwyer Ltd v Metropolitan Police Receiver (1967), a raid by four armed robbers was held not to be tumultuous. The 2016 Act dropped the word “tumultuously” and simply uses the 1986 definition of riot.",
+              "sources": [
+                {
+                  "id": "yarls",
+                  "locator": "paras 49–50"
+                },
+                {
+                  "id": "rca",
+                  "locator": "s 1(6)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compensation",
+      "title": "The Riot Compensation Act 2016",
+      "intro": "Since 6 April 2017, claims are made under the 2016 Act and the 2017 Regulations. The scheme is narrower, capped and tightly timed.",
+      "entries": [
+        {
+          "id": "who-claims",
+          "title": "Who can claim, and from whom",
+          "kind": "Statute",
+          "date": "2017-04-06",
+          "paragraphs": [
+            {
+              "text": "A person whose property was damaged, destroyed or stolen in the course of a riot can claim if it was uninsured or not adequately insured, which includes being insured for less than its value or subject to an excess. An insurer that has paid out can also claim. Claims go to the local policing body for the area, usually the Police and Crime Commissioner.",
+              "sources": [
+                {
+                  "id": "rca",
+                  "locator": "s 1(1)–(3), (5)"
+                }
+              ]
+            },
+            {
+              "text": "“Riot” has the meaning in section 1 of the Public Order Act 1986, but riots in prisons, young offender institutions, secure training centres, hospitals where people are detained under the Mental Health Act, and immigration removal centres are excluded.",
+              "sources": [
+                {
+                  "id": "rca",
+                  "locator": "s 1(6)"
+                }
+              ]
+            },
+            {
+              "text": "Claims can cover buildings, property inside a building or its curtilage or on business land, and certain motor vehicles.",
+              "sources": [
+                {
+                  "id": "rca",
+                  "locator": "s 2 and Schedule"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "money",
+          "title": "The cap and what it covers",
+          "kind": "Statute and regulations",
+          "paragraphs": [
+            {
+              "text": "The decision-maker awards what is fair and reasonable, up to £1 million per claim. Compensation reflects only the loss directly resulting from the damage, destruction or theft. Consequential loss, such as lost profits, is excluded.",
+              "sources": [
+                {
+                  "id": "rca",
+                  "locator": "s 8(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "There is one exception: if a home is made uninhabitable, the cost of alternative accommodation can be paid, for up to 132 days.",
+              "sources": [
+                {
+                  "id": "rca",
+                  "locator": "s 8(3)"
+                },
+                {
+                  "id": "regs",
+                  "locator": "reg 15"
+                }
+              ]
+            },
+            {
+              "text": "Loss is ignored to the extent that the claimant’s own insurance covers it.",
+              "sources": [
+                {
+                  "id": "regs",
+                  "locator": "reg 9(b)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "deadlines",
+          "title": "Deadlines",
+          "kind": "Regulations",
+          "paragraphs": [
+            {
+              "text": "An ordinary claim must normally be made within 43 days starting with the “riot reference date”, which is the date the riot ends; disorder anywhere within 24 hours of the last riot counts as part of the same riot. Supporting details and evidence must arrive within 91 days, or the claim may lapse. Periods outside the claimant’s control can be disregarded.",
+              "sources": [
+                {
+                  "id": "regs",
+                  "locator": "regs 6, 7(4)"
+                }
+              ]
+            },
+            {
+              "text": "The Act sets the floor: at least 42 days to claim and 90 days for evidence.",
+              "sources": [
+                {
+                  "id": "rca",
+                  "locator": "s 3(4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "conduct",
+          "title": "The claimant’s own conduct",
+          "kind": "Regulations",
+          "paragraphs": [
+            {
+              "text": "The authority may refuse a claim or reduce compensation if the claimant, by act or omission, participated in, assisted, encouraged or facilitated the riot or its spread, or contributed directly or indirectly to any damage, destruction or theft during it. It may also do so if the claimant committed a criminal offence relating to the riot. For insurer claims the same tests apply to the insured person.",
+              "sources": [
+                {
+                  "id": "regs",
+                  "locator": "reg 16"
+                }
+              ]
+            },
+            {
+              "text": "It may refuse a claim if it believes the claim, or any other claim by the same claimant, is fraudulent to any extent.",
+              "sources": [
+                {
+                  "id": "regs",
+                  "locator": "reg 17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge",
+          "title": "Review and appeal",
+          "kind": "Regulations",
+          "paragraphs": [
+            {
+              "text": "A claimant can ask the authority to review its decision within 29 days of being notified. After a review, the claimant can appeal to the Upper Tribunal. The Lands Chamber’s procedure rules were amended in 2017 to deal with these appeals.",
+              "sources": [
+                {
+                  "id": "regs",
+                  "locator": "regs 22–24"
+                },
+                {
+                  "id": "ut-rules",
+                  "locator": "rules 22–26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "old-new",
+          "title": "1886 and 2016 compared",
+          "kind": "Statute and case law",
+          "table": {
+            "caption": "The old and the new scheme",
+            "columns": [
+              "Question",
+              "Riot (Damages) Act 1886",
+              "Riot Compensation Act 2016"
+            ],
+            "rows": [
+              [
+                "What counts",
+                "People assembled “riotously and tumultuously”",
+                "A riot under section 1 of the 1986 Act"
+              ],
+              [
+                "Cap",
+                "None",
+                "£1 million per claim"
+              ],
+              [
+                "Consequential loss",
+                "Not recoverable (Mitsui, 2016)",
+                "Excluded by statute, except alternative accommodation"
+              ],
+              [
+                "Prisons and detention centres",
+                "Claims possible (Yarl’s Wood, 2009)",
+                "Excluded"
+              ],
+              [
+                "Claimant’s conduct",
+                "Precautions, being a party or accessory, provocation",
+                "Participating, assisting, encouraging, facilitating, contributing, offences, fraud"
+              ],
+              [
+                "Challenge",
+                "Court action against the authority",
+                "Review, then appeal to the Upper Tribunal"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The 2016 Act followed an independent review of the 1886 Act after the 2011 riots and the litigation that came with them.",
+              "sources": [
+                {
+                  "id": "kinghan",
+                  "locator": "ch 1"
+                },
+                {
+                  "id": "rca",
+                  "locator": "long title"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cases",
+      "title": "The leading cases",
+      "intro": "Two cases under the old Act shaped the new one.",
+      "entries": [
+        {
+          "id": "mitsui",
+          "title": "The Sony warehouse, Enfield, 2011",
+          "kind": "Judgment",
+          "date": "2016-04-20",
+          "paragraphs": [
+            {
+              "text": "At about 11.40 pm on 8 August 2011, a gang of youths broke into the Sony DADC distribution warehouse in Enfield, looted it and set it on fire with petrol bombs. The fire destroyed the warehouse and its contents. The trial judge found that the group numbered about 20 to 25.",
+              "sources": [
+                {
+                  "id": "mitsui-uksc",
+                  "locator": "para 3"
+                },
+                {
+                  "id": "mitsui-ca",
+                  "locator": "paras 2, 68"
+                }
+              ]
+            },
+            {
+              "text": "The courts held that this was a riot for which the police authority had to compensate. The Court of Appeal noted that a riot may take place in private, and that riot can be committed where the only violence is against property.",
+              "sources": [
+                {
+                  "id": "mitsui-ca",
+                  "locator": "paras 65–66"
+                }
+              ]
+            },
+            {
+              "text": "On compensation, the Supreme Court held unanimously that the 1886 Act covered physical damage only, not consequential losses such as lost profits or rent. It described the scheme as a self-contained regime, not a mirror of the rioters’ liability in tort.",
+              "sources": [
+                {
+                  "id": "mitsui-uksc",
+                  "locator": "paras 2, 33, 40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yarls-wood",
+          "title": "Yarl’s Wood, 2002",
+          "kind": "Judgment",
+          "date": "2009-10-23",
+          "paragraphs": [
+            {
+              "text": "On the night of 14 to 15 February 2002, a riot at Yarl’s Wood immigration detention centre in Bedfordshire destroyed almost half of it by fire. The private operators and their insurer claimed against Bedfordshire Police Authority under the 1886 Act. The claim was quantified at about £32 million.",
+              "sources": [
+                {
+                  "id": "yarls",
+                  "locator": "paras 1–3"
+                }
+              ]
+            },
+            {
+              "text": "The High Court rejected the claim on the basis that the operators were responsible for order inside the centre. The Court of Appeal reversed that decision: the operators were within “any person” and could claim. Their responsibilities went to the amount of compensation through the conduct proviso, not to whether they could claim at all. The court did not decide how the claim would fare on its facts.",
+              "sources": [
+                {
+                  "id": "yarls",
+                  "locator": "paras 24, 63, 75"
+                }
+              ]
+            },
+            {
+              "text": "Under the 2016 Act, a riot in an immigration removal centre would now be excluded.",
+              "sources": [
+                {
+                  "id": "rca",
+                  "locator": "s 1(6)(c)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "How often it is used",
+      "intro": "The scheme lies almost dormant between major outbreaks of disorder. The figures below come from official records and are dated.",
+      "entries": [
+        {
+          "id": "before-2011",
+          "title": "Before 2011",
+          "kind": "Official review",
+          "paragraphs": [
+            {
+              "text": "The 1981 riots in Toxteth, Brixton, Bristol and elsewhere led to claims totalling £17.2 million. The government met 60% of the worst-affected police authorities’ costs, at a cost to the Exchequer of £6.2 million. The review noted that these figures may include other police costs.",
+              "sources": [
+                {
+                  "id": "kinghan",
+                  "locator": "para 1.12"
+                }
+              ]
+            },
+            {
+              "text": "Later uses were smaller. The Brixton riot of 1995 led to claims of £1.39 million. The Metropolitan Police paid on seven occasions between 1995 and 2011, including £565,000 after the student riot at Millbank in 2010, and Greater Manchester Police paid £37,000 after the Oldham riots of 2001.",
+              "sources": [
+                {
+                  "id": "kinghan",
+                  "locator": "paras 1.12, 3.12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "riots-2011",
+          "title": "August 2011",
+          "kind": "Official review",
+          "paragraphs": [
+            {
+              "text": "By August 2013, police authorities had received 3,220 claims from insurers, of which 1,097 had been settled at a public cost of £31.5 million, and 578 from uninsured claimants, of which 391 had been settled at a cost of £3.76 million. In London alone, 1,442 of 2,389 insurer claims had been rejected.",
+              "sources": [
+                {
+                  "id": "kinghan",
+                  "locator": "paras 1.17, 3.19"
+                }
+              ]
+            },
+            {
+              "text": "The review put the public cost so far at £35.2 million and said it could grow to £100 million or more. Insurers reported paying £167 million on 2,254 claims of their own. These are 2013 figures, not final totals.",
+              "sources": [
+                {
+                  "id": "kinghan",
+                  "locator": "para 1.2 and insurance industry data"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "riots-2024",
+          "title": "Summer 2024",
+          "kind": "Official decisions and reporting",
+          "table": {
+            "caption": "Selected public figures for the 2024 disorder",
+            "columns": [
+              "Area",
+              "Claims",
+              "Value",
+              "Status"
+            ],
+            "rows": [
+              [
+                "England (APCC, Nov 2024)",
+                "88",
+                "About £1.9 million claimed",
+                "Early snapshot; expected to rise"
+              ],
+              [
+                "Cleveland (Nov 2024)",
+                "39",
+                "£394,000 claimed",
+                "Being assessed; nothing paid"
+              ],
+              [
+                "Merseyside (May 2026)",
+                "30 received, 18 valid",
+                "£709,874.79 claimed",
+                "£272,336.20 paid or approved"
+              ],
+              [
+                "Northumbria (Jan 2026)",
+                "1 authorised, 5 in progress",
+                "£71,985.12",
+                "Ongoing"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "By November 2024, the Association of Police and Crime Commissioners said it knew of 88 claims worth about £1.9 million across England, and expected both figures to rise. Cleveland had received 39 claims totalling £394,000, with nothing yet paid.",
+              "sources": [
+                {
+                  "id": "itv",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "Merseyside’s signed decision of May 2026 gives the fullest public account. The Home Office set the riot reference date as 7 August 2024 and, in October 2024, decided that claims should be handled locally rather than by a national bureau. Of 30 claims worth £709,874.79, 9 were invalid and 3 were duplicates. The 18 valid claims were settled for £272,336.20, against an estimated reserve of £619,921.40. A BBC freedom of information figure reported in 2024 put Merseyside’s claims at £799,000.",
+              "sources": [
+                {
+                  "id": "merseyside",
+                  "locator": "summary; paras 2.2–3.4"
+                },
+                {
+                  "id": "itv",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "In Northumbria, the Commissioner authorised one claim of £71,985.12 in January 2026, with five more in progress.",
+              "sources": [
+                {
+                  "id": "northumbria",
+                  "locator": "decision"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "who-pays",
+          "title": "Who actually pays",
+          "kind": "Official decision",
+          "paragraphs": [
+            {
+              "text": "The money comes from the policing body’s own budget. Merseyside paid from its insurance reserve and could not seek a Home Office special grant, because the total fell below the qualifying threshold of 1% of core funding, about £3.7 million.",
+              "sources": [
+                {
+                  "id": "merseyside",
+                  "locator": "paras 4.1–4.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moot",
+      "title": "Could a riot be staged for money?",
+      "intro": "The briefs we were given asked whether 12 people could arrange a fight to meet the legal definition and then claim compensation. This section is our analysis of why the law does not pay for that. It is not guidance and describes no method.",
+      "entries": [
+        {
+          "id": "rival-groups",
+          "title": "Two sides fighting: one purpose or two?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Riot needs a common purpose; violent disorder does not. In R v NW the trial judge remarked that classic violent disorder often involves one group wanting to fight another, and the Court of Appeal confirmed that violent disorder needs no common purpose.",
+              "sources": [
+                {
+                  "id": "nw",
+                  "locator": "paras 7, 15"
+                }
+              ]
+            },
+            {
+              "text": "In our view, two groups fighting each other do not automatically share one purpose, so a six-against-six brawl fits violent disorder far more naturally than riot. But it goes too far to say a fight can never be a riot. If 12 or more people on one side use violence for a shared purpose, that side may satisfy section 1 whatever the other side does. We found no authority deciding the point either way.",
+              "sources": [
+                {
+                  "id": "poa1",
+                  "locator": "s 1(1)–(3)"
+                },
+                {
+                  "id": "poa2",
+                  "locator": "s 2(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "staged",
+          "title": "A staged fight is still violence",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "One brief argued that a staged fight cannot be a riot because the participants lack “genuine hostility”. That is not the test. Section 6(1) asks only whether a person intends to use violence or is aware that their conduct may be violent. People who really use violence in an arranged fight meet that test. Real violence makes the participants more exposed to prosecution, not less.",
+              "sources": [
+                {
+                  "id": "poa6",
+                  "locator": "s 6(1)"
+                },
+                {
+                  "id": "poa1",
+                  "locator": "s 1(6)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "why-fails",
+          "title": "Why the claim fails anyway",
+          "kind": "Statute and regulations",
+          "paragraphs": [
+            {
+              "text": "Even if a riot were proved, the scheme is built to refuse such a claim. The authority may refuse a claimant who participated in, assisted, encouraged or facilitated the riot, contributed to the damage, or committed an offence relating to the riot. It may refuse any claim it believes is fraudulent to any extent.",
+              "sources": [
+                {
+                  "id": "regs",
+                  "locator": "regs 16–17"
+                }
+              ]
+            },
+            {
+              "text": "A false claim would also be fraud, which carries up to 10 years’ imprisonment, the same maximum as riot. Insured loss is not compensated to the extent it is insured, consequential loss is excluded, and payments are capped.",
+              "sources": [
+                {
+                  "id": "fraud",
+                  "locator": "s 1(3)"
+                },
+                {
+                  "id": "poa1",
+                  "locator": "s 1(6)"
+                },
+                {
+                  "id": "regs",
+                  "locator": "reg 9(b)"
+                },
+                {
+                  "id": "rca",
+                  "locator": "s 8(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "This is not new. The 1886 Act already told the authority to consider whether the claimant was a party or accessory to the riot.",
+              "sources": [
+                {
+                  "id": "mitsui-uksc",
+                  "locator": "para 7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "no-case",
+          "title": "No known case",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "We found no reported case of anyone manufacturing a riot to claim compensation, under either Act. Decisions by policing bodies are mostly unpublished, so we cannot rule out refused claims we have not seen.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fact-check",
+      "title": "Checking the briefs",
+      "intro": "This page began from three research briefs. Several of their statements did not match the primary sources.",
+      "entries": [
+        {
+          "id": "corrections",
+          "title": "Corrections",
+          "kind": "Accuracy notes",
+          "table": {
+            "caption": "Statements in the supplied briefs and what the sources show",
+            "columns": [
+              "Brief said",
+              "Sources show"
+            ],
+            "rows": [
+              [
+                "Yarl’s Wood is “Bedfordshire Police Authority v Derek Beaven [2007] EWCA Civ 32”",
+                "The case is Yarl’s Wood Immigration Ltd v Bedfordshire Police Authority [2009] EWCA Civ 1110"
+              ],
+              [
+                "The Yarl’s Wood damage was over £40m and nearly bankrupted the police authority",
+                "The claim was quantified at about £32 million; we found no source for the bankruptcy claim"
+              ],
+              [
+                "The Court of Appeal held the Act applied to prisons",
+                "It held only that the private operators of a detention centre could claim; it decided nothing about prisons"
+              ],
+              [
+                "Insurer claims are subject to a business turnover threshold",
+                "The 2013 review recommended a £2 million turnover limit; neither the Act nor the Regulations contain one"
+              ],
+              [
+                "The 2011 riots produced several hundred claims",
+                "Police authorities received 3,798 claims by August 2013"
+              ],
+              [
+                "4,500–5,000 claims and over £100m paid in London",
+                "Public cost was £35.2 million by 2013; £100 million was a projection"
+              ],
+              [
+                "The Sony warehouse was attacked by 30–40 youths",
+                "The trial judge found about 20 to 25"
+              ],
+              [
+                "The deadlines are 42 and 90 days",
+                "Those are the statutory minimums; the Regulations give 43 and 91 days, counted from the end of the riot"
+              ],
+              [
+                "A staged fight lacks the mental element",
+                "Section 6(1) is satisfied by intending or being aware of violence"
+              ],
+              [
+                "Opposing factions can never form a common purpose",
+                "We found no authority for this as a general rule"
+              ],
+              [
+                "Merseyside claims were about £800,000",
+                "The PCC’s signed decision records £709,874.79 claimed and £272,336.20 paid"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each correction rests on the judgment, statute, official review or decision cited.",
+              "sources": [
+                {
+                  "id": "yarls",
+                  "locator": "paras 1–3, 75"
+                },
+                {
+                  "id": "kinghan",
+                  "locator": "paras 1.2, 3.19, 5.21"
+                },
+                {
+                  "id": "rca",
+                  "locator": "ss 1–3, 8"
+                },
+                {
+                  "id": "regs",
+                  "locator": "regs 6, 16–17"
+                },
+                {
+                  "id": "poa6",
+                  "locator": "s 6(1)"
+                },
+                {
+                  "id": "mitsui-ca",
+                  "locator": "para 68"
+                },
+                {
+                  "id": "merseyside",
+                  "locator": "summary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "omitted",
+          "title": "Left out",
+          "kind": "Accuracy notes",
+          "paragraphs": [
+            {
+              "text": "We left out an estimate that the Mitsui decision saved about £80 million, and descriptions of the facts of Field (1907), because we could not check them against a primary source. The common-law test from Field is given as the Court of Appeal summarised it.",
+              "sources": [
+                {
+                  "id": "mitsui-ca",
+                  "locator": "para 22"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "About this study",
+      "intro": "How this page was researched.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Statutes and regulations were read on legislation.gov.uk, and judgments on the National Archives’ Find Case Law service. Claims figures come from the 2013 Home Office review, signed decisions of Police and Crime Commissioners, and one news report of official figures. All were checked on 29 October 2026. This is legal research, not legal advice.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "poa1",
+      "title": "Public Order Act 1986, section 1 (riot)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/1",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "poa2",
+      "title": "Public Order Act 1986, section 2 (violent disorder)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/2",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "poa3",
+      "title": "Public Order Act 1986, section 3 (affray)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/3",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "poa5",
+      "title": "Public Order Act 1986, section 5 (harassment, alarm or distress)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/5",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "poa6",
+      "title": "Public Order Act 1986, section 6 (mental element)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/6",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "poa7",
+      "title": "Public Order Act 1986, section 7 (procedure)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/7",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "poa8",
+      "title": "Public Order Act 1986, section 8 (interpretation)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/8",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "rca",
+      "title": "Riot Compensation Act 2016",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/2016/8",
+      "checked": "2026-10-29",
+      "date": "2016-03-23"
+    },
+    {
+      "id": "regs",
+      "title": "Riot Compensation Regulations 2017 (SI 2017/371)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2017/371/made",
+      "checked": "2026-10-29",
+      "date": "2017-03-13"
+    },
+    {
+      "id": "ut-rules",
+      "title": "Tribunal Procedure (Amendment No. 2) Rules 2017 (SI 2017/1168)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2017/1168/made",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fraud",
+      "title": "Fraud Act 2006, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/35/section/1",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "mitsui-uksc",
+      "title": "The Mayor’s Office for Policing and Crime v Mitsui Sumitomo Insurance Co (Europe) Ltd [2016] UKSC 18",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Supreme Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2016/18",
+      "checked": "2026-10-29",
+      "date": "2016-04-20"
+    },
+    {
+      "id": "mitsui-ca",
+      "title": "Mitsui Sumitomo Insurance Co (Europe) Ltd v Mayor’s Office for Policing and Crime [2014] EWCA Civ 682",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/682",
+      "checked": "2026-10-29",
+      "date": "2014-05-20"
+    },
+    {
+      "id": "yarls",
+      "title": "Yarl’s Wood Immigration Ltd v Bedfordshire Police Authority [2009] EWCA Civ 1110",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/1110",
+      "checked": "2026-10-29",
+      "date": "2009-10-23"
+    },
+    {
+      "id": "nw",
+      "title": "R v NW [2010] EWCA Crim 404",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal, Criminal Division)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2010/404",
+      "checked": "2026-10-29",
+      "date": "2010-03-03"
+    },
+    {
+      "id": "kinghan",
+      "title": "Independent Review of the Riot (Damages) Act 1886 (Neil Kinghan)",
+      "publisher": "Home Office (GOV.UK)",
+      "type": "Official review",
+      "url": "https://assets.publishing.service.gov.uk/media/5a7c686040f0b626628abd77/riot_damages_act_review.pdf",
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "merseyside",
+      "title": "Settlement of Riot Compensation Act Claims, decision 2026/018",
+      "publisher": "Merseyside Police and Crime Commissioner",
+      "type": "Signed decision",
+      "url": "https://www.merseysidepcc.info/media/qjooemag/decision-paper-part1-accessible.pdf",
+      "checked": "2026-10-29",
+      "date": "2026-05-21"
+    },
+    {
+      "id": "northumbria",
+      "title": "Riot Compensation Act: Northumbria Force Area Claims, PCC/725/2026",
+      "publisher": "Northumbria Police and Crime Commissioner",
+      "type": "Signed decision",
+      "url": "https://northumbria-pcc.gov.uk/v3/wp-content/uploads/2026/01/PCC.725-Key-Decision-Riot-Compensation-Act.pdf",
+      "checked": "2026-10-29",
+      "date": "2026-01-14"
+    },
+    {
+      "id": "itv",
+      "title": "Almost £400,000 in compensation claimed after summer riots in Cleveland Police area",
+      "publisher": "ITV News Tyne Tees / Local Democracy Reporting Service",
+      "type": "News report",
+      "url": "https://www.itv.com/news/tyne-tees/2024-11-20/almost-400000-in-compensation-claimed-after-summer-riots-on-teesside",
+      "checked": "2026-10-29",
+      "date": "2024-11-20"
+    },
+    {
+      "id": "ely",
+      "title": "Crown Prosecution Service authorises further charges relating to Ely riots",
+      "publisher": "Crown Prosecution Service",
+      "type": "Press release",
+      "url": "https://www.cps.gov.uk/cymruwales/news/crown-prosecution-service-authorises-further-charges-relating-ely-riots",
+      "checked": "2026-10-29",
+      "date": "2025-01-13"
+    }
+  ]
+}

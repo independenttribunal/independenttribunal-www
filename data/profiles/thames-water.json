@@ -1,0 +1,2351 @@
+{
+  "id": "thames-water",
+  "category": "legal-study",
+  "title": "Thames Water: a marvel of financial engineering",
+  "subtitle": "Privatised debt-free in 1989, it now owes about £20bn. As a company it had been convicted on 106 occasions by 2015. In April 2025 the Government said no water executive had been jailed since privatisation.",
+  "summary": "A monopoly with one of the most predictable incomes in Britain ended up 86% geared, paying about £810m of gross interest last year including capitalised costs, on a one-star environmental rating, kept alive by emergency loans. A Commons committee blames “financial engineering and mismanagement”. This study follows the money through the 178-page High Court judgment, sets out the company’s criminal record, explains why no executive has been jailed and answers who regulates the regulators. The watchdog found that they, too, failed to comply with environmental law.",
+  "scope": "England · Thames Water’s finances, regulation, pollution record and restructuring, and the legal routes to accountability, as at 30 October 2026. Contains marked commentary.",
+  "status_note": "Judgments, legislation, regulators’ decisions, the Commons committee report and the 2025/26 accounts were checked on 30 October 2026. Creditors approved the structure for a larger rescue facility on 30 October, but the extra money is not yet committed. Sections marked as our analysis are commentary, not findings. No individual named here has been convicted of any offence connected with these events, and no person or company named here has been convicted of fraud over the group’s finances. This is research, not legal or financial advice.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-10-30",
+  "pinned": true,
+  "tags": [
+    "uk",
+    "water",
+    "regulation",
+    "finance",
+    "environment",
+    "insolvency"
+  ],
+  "related": [
+    {
+      "id": "private-prosecution-staying-in-control",
+      "title": "Private prosecution and staying in control"
+    },
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth: what does the system reward?"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Executives jailed",
+      "value": "0",
+      "detail": "Since privatisation, as the Government said in April 2025. The company itself was convicted on 106 occasions by 2015",
+      "target": "zero"
+    },
+    {
+      "label": "Interest paid, 2025/26",
+      "value": "£810m",
+      "detail": "Gross, including £200.8m of capitalised borrowing costs. About 22% of underlying revenue, from a company privatised debt-free",
+      "target": "interest"
+    },
+    {
+      "label": "High Court judgment",
+      "value": "178 pages",
+      "detail": "“It is not for this Court to attribute blame”",
+      "target": "not-blame"
+    }
+  ],
+  "sections": [
+    {
+      "id": "machine",
+      "title": "The most boring business in Britain",
+      "intro": "Water is the dull end of capitalism. Everybody needs it, nobody can shop around, and a regulator sets the price. That is exactly why it can carry so much debt. This is how the structure works, using the court’s own description of it.",
+      "entries": [
+        {
+          "id": "monopoly",
+          "title": "A captive customer base",
+          "kind": "Background",
+          "paragraphs": [
+            {
+              "text": "The Thames Water group is the largest water and sewerage provider in the UK by customers, serving 24% of the population. It runs over 32,000 km of water mains and 109,000 km of sewers, about 354 wastewater and treatment sites and 88 water treatment works, and employs about 8,000 people.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 2, 10"
+                }
+              ]
+            },
+            {
+              "text": "Every five years Ofwat sets allowable price increases and performance targets. Each company has a monopoly in its area, so a customer cannot move to another network. In our view that makes for an unusually predictable income, which is what lenders want to see.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "regulatory framework, from para 36"
+                },
+                {
+                  "id": "uksc-roberts",
+                  "locator": "facts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "debt-free",
+          "title": "From zero to about £20bn",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "Charlie Maynard MP gave evidence to the High Court, which the judge recorded as unchallenged, that the operating company and its group were transferred to the private sector debt-free in 1989. By 28 November 2024 principal debt was about £19bn, plus hedging with a further £1.68bn mark-to-market liability, against underlying annual earnings before interest, tax, depreciation and amortisation of £1.2bn.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60, quoting Maynard 1 at paras 24–25"
+                }
+              ]
+            },
+            {
+              "text": "The same evidence cited a Macquarie note putting debt at 6.5 times those earnings when the business was sold by RWE, rising to 10 times in 2017. Macquarie’s own account is in the section on the Macquarie years. Covenant net debt had reached £19.8bn by 31 March 2026.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60"
+                },
+                {
+                  "id": "macquarie",
+                  "locator": "section on debt levels"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "incentive",
+          "title": "Why more debt pays",
+          "kind": "Official review",
+          "paragraphs": [
+            {
+              "text": "The Independent Water Commission explained the incentive plainly. Ofwat sets the allowed return using a notional level of gearing. Debt is usually cheaper than equity, so a company may be incentivised to borrow more than the notional level and keep the difference between the allowed return and its true cost of capital as profit.",
+              "sources": [
+                {
+                  "id": "iwc",
+                  "locator": "para 410"
+                }
+              ]
+            },
+            {
+              "text": "The Commission added that Ofwat did not, or could not, intervene to address this. It also recorded that Ofwat itself has said that, on balance, debt structures such as whole business securitisation have not been beneficial for companies, while some companies and investors said they can benefit customers through cheaper financing.",
+              "sources": [
+                {
+                  "id": "iwc",
+                  "locator": "paras 410, 681"
+                }
+              ]
+            },
+            {
+              "text": "Professor Sir Dieter Helm, quoted in the evidence before the court, described the regulator’s stance on company balance sheets this way: “the referee was taken off the pitch too”. That is his opinion, and it was evidence the court recorded, not a finding of the court.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60, quoting Maynard 1 at para 27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layers",
+          "title": "The Russian doll",
+          "kind": "Court record",
+          "table": {
+            "caption": "Simplified group chain at the time of the 2025 proceedings. This is not a full Companies House ownership tree.",
+            "columns": [
+              "Company",
+              "What it does"
+            ],
+            "rows": [
+              [
+                "Kemble Water Holdings Ltd",
+                "Ultimate parent. Kemble group companies stopped servicing their own debt from April 2024"
+              ],
+              [
+                "Thames Water Ltd (TWL)",
+                "Direct parent of the plan company and also its subordinated creditor. It voted against the plan and opposed it in court"
+              ],
+              [
+                "Thames Water Utilities Holdings Ltd",
+                "The plan company. Holds the shares and gives guarantees. No employees and no material assets other than shares in its subsidiary"
+              ],
+              [
+                "Thames Water Utilities Ltd (TWUL)",
+                "The regulated company that actually supplies water and sewerage"
+              ],
+              [
+                "Thames Water Utilities Finance plc (TWUF)",
+                "Finance subsidiary. With TWUL, it issues or borrows much of the group’s debt"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "A group like this has several companies for reasons that are not in themselves improper: separating the licence, the borrowing, the guarantees and the ranking of creditors. The surprising detail is at the top. In the 2025 case, the plan company’s own parent opposed its subsidiary’s rescue, as a creditor.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 5, 7, 9–10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "waterfall",
+          "title": "Who gets paid first",
+          "kind": "Court record",
+          "table": {
+            "caption": "Broad creditor ranking as at late 2024, with the rescue funding added by the 2025 plan. Actual priority depends on contract terms and on what triggers payment",
+            "columns": [
+              "Rank",
+              "Layer",
+              "Size",
+              "How it voted on the 2025 plan"
+            ],
+            "rows": [
+              [
+                "Added 2025",
+                "Super senior funding",
+                "£1.5bn, with capacity for £1.5bn more",
+                "Created by the plan, with priority over existing debt"
+              ],
+              [
+                "1",
+                "Liquidity facilities",
+                "Undrawn safety net",
+                "Not broken out in this summary"
+              ],
+              [
+                "2",
+                "Hedging agreements",
+                "A £1.68bn mark-to-market liability in November 2024",
+                "Payments continue in the ordinary course"
+              ],
+              [
+                "3",
+                "Class A debt",
+                "About £16bn across 53 instruments",
+                "Almost all in favour"
+              ],
+              [
+                "4",
+                "Class B debt",
+                "About £1bn across 12 instruments",
+                "Only 15.5% of those voting approved"
+              ],
+              [
+                "5",
+                "Subordinated debt",
+                "A £4.25bn loan, with £1.98bn of principal and £1.25bn of unpaid interest outstanding, plus four loans totalling £331m",
+                "Against. The sole creditor in this class was TWL, the parent"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The group uses a whole business securitisation, meaning debt secured against all or substantially all of its assets. The debt sits in about 60 instruments. Lenders hold fixed charges over the shares, the land, the bank balances, the book debts and more, plus a floating charge over the whole undertaking of each group company.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 11–12, 21"
+                }
+              ]
+            },
+            {
+              "text": "The list below is the judge’s broad summary. He said the exact order is much more complex.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 19"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "title": "Follow the money",
+      "intro": "Three questions get mixed up all the time. How much was paid out, who actually received it, and was the borrowing used to pay for it. The record answers the first much better than the other two.",
+      "entries": [
+        {
+          "id": "dividends",
+          "title": "What the court was told about dividends",
+          "kind": "Court record",
+          "table": {
+            "caption": "Operating-company dividends in evidence before the High Court, not adjusted for inflation",
+            "columns": [
+              "Period",
+              "Dividends"
+            ],
+            "rows": [
+              [
+                "1990–1999",
+                "£2.061bn"
+              ],
+              [
+                "2000–2009",
+                "£1.769bn"
+              ],
+              [
+                "2010–2019",
+                "£1.823bn"
+              ],
+              [
+                "2020–2024",
+                "Over £300m"
+              ],
+              [
+                "Total (our arithmetic)",
+                "About £5.95bn"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Mr Maynard’s unchallenged evidence set out dividends from the operating company, taken from its filed annual statements. Added together they come to about £5.95bn. That total is our arithmetic. The figures are not adjusted for inflation.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60, quoting Maynard 1 at para 23"
+                }
+              ]
+            },
+            {
+              "text": "Dividends from the operating company are not the same as cash reaching outside investors. The evidence was that most of the money paid up to the plan company went further up the structure, either to equity investors or to service debt.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60, quoting Maynard 1 at para 23"
+                }
+              ]
+            },
+            {
+              "text": "The campaign group We Own It gives bigger numbers: £10.4bn in dividends since privatisation on its website, and £11.9bn “extracted” in a statement to The Guardian. We could not reproduce either figure from the sources we checked, and the second uses a wider word than dividends. We attribute them to the group and do not adopt them.",
+              "sources": [
+                {
+                  "id": "weownit",
+                  "locator": "headline figures"
+                },
+                {
+                  "id": "guardian",
+                  "locator": "We Own It statement"
+                }
+              ]
+            },
+            {
+              "text": "Four things should not be added together: dividends from the operating company, money reaching outside equity investors, debt service at holding-company level, and other related-party transfers. These figures measure only the first. Tracing the rest needs the filed accounts of every company in the chain, which we have not done.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "macquarie",
+          "title": "The Macquarie years, 2006 to 2017",
+          "kind": "Parliamentary finding",
+          "paragraphs": [
+            {
+              "text": "The Commons committee reports that during Macquarie’s stewardship debt rose from £3.4bn to £10.8bn, while an estimated £2.5bn was paid in dividends to shareholders. It says much of the blame has been attributed to Macquarie.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "para 4"
+                }
+              ]
+            },
+            {
+              "text": "The committee also cites analysis for the BBC, which concluded returns averaged 15.5% to 19% a year, and found that £2bn of new debt appeared to have been transferred from Macquarie to Thames Water, seemingly in contravention of licence conditions. That is the committee’s report of a media analysis, hedged in its own words. No court or regulator finding on that point appears in the material we checked.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "para 4"
+                }
+              ]
+            },
+            {
+              "text": "Macquarie disputes the picture. It says its funds owned about 48% for much of the period and sold down gradually, that annual gross returns were 12% to 13%, that over £11bn was invested, that the regulated asset base doubled from about £6.5bn to about £12.9bn, and that debt went from about £6bn to about £11bn. It says the regulated company stayed investment grade throughout, and that debt stayed at 6 to 7 times earnings until the last regulatory period, when it reached about 10 times because of tighter regulatory returns.",
+              "sources": [
+                {
+                  "id": "macquarie",
+                  "locator": "sections on returns, investment and debt"
+                }
+              ]
+            },
+            {
+              "text": "On distributions Macquarie gives a much lower figure: about £1.1bn in total, made up of £879m in dividends and £277m of interest on shareholder loans, of which £508m went to investors in its funds. It calls a £2.7bn figure in circulation a misrepresentation that adds inter-company movements. It says more expensive holding company debt was exchanged for cheaper operating company loans after consulting the regulator, auditors and rating agencies, and that the company met all its regulated licence conditions throughout. The sources we checked do not reconcile these figures with the committee’s.",
+              "sources": [
+                {
+                  "id": "macquarie",
+                  "locator": "sections on distributions and licence conditions"
+                }
+              ]
+            },
+            {
+              "text": "The two debt figures have different starting points, £3.4bn and about £6bn. Macquarie’s figure comes from its description of about £6.2bn of third-party debt at acquisition. The sources we checked do not reconcile the two, so both are shown here.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "para 4"
+                },
+                {
+                  "id": "macquarie",
+                  "locator": "sections on acquisition and debt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "after-2017",
+          "title": "After 2017: no outside dividends, but the money still moved",
+          "kind": "Parliamentary finding",
+          "paragraphs": [
+            {
+              "text": "The pension and sovereign wealth funds that took over from 2017 have not received dividends, according to the committee and the company. Dividends were instead used to service the debt of the parent, Kemble Water.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "para 5"
+                },
+                {
+                  "id": "ar26",
+                  "locator": "financial review: no dividends to external shareholders since 2017"
+                }
+              ]
+            },
+            {
+              "text": "In March 2024 the shareholders called the business plan “unfinanceable and uninvestible” and declined to provide £750m of new funding. From April 2024 Kemble group companies stopped servicing their debt and defaulted.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 63"
+                }
+              ]
+            },
+            {
+              "text": "The result was not a win for those shareholders. The committee says they wrote off their investment and “abandoned” the company. The funds behind those stakes include pension funds.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "paras 5, 12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "broken-rules",
+          "title": "The dividends that broke the rules",
+          "kind": "Regulatory finding",
+          "paragraphs": [
+            {
+              "text": "Ofwat found that Thames Water failed to comply with Licence Condition P30 when it approved interim dividends of £37.5m in October 2023 and further dividends in March 2024. This was the first time Ofwat had used these powers over dividends that did not reflect delivery for customers and the environment.",
+              "sources": [
+                {
+                  "id": "ofwat-fines",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "ofwat-div",
+                  "locator": "executive summary"
+                }
+              ]
+            },
+            {
+              "text": "The March 2024 total was £158.3m. Ofwat’s concern covered £131.3m of that, a payment that surrendered tax losses to other Kemble companies. It did not object to the £27.1m paid to support pension payments. Ofwat said no cash left Thames Water through the £131.3m, but value was extracted, and it will be able to recover that value through the price control.",
+              "sources": [
+                {
+                  "id": "ofwat-div",
+                  "locator": "executive summary and analysis of the March 2024 payments"
+                },
+                {
+                  "id": "ofwat-fines",
+                  "locator": "announcement"
+                }
+              ]
+            },
+            {
+              "text": "The penalty was £18.2m, or 0.75% of relevant turnover, reduced from 1% because it was the first use of the condition. Thames Water said its board had considered its obligations, and it disputed the findings. Ofwat accepted the March evidence appeared to show the board considered them more explicitly than in October, but still found it failed to comply fully. This is a licence breach, not a crime.",
+              "sources": [
+                {
+                  "id": "ofwat-div",
+                  "locator": "executive summary and Appendix A1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "interest",
+          "title": "What the debt costs now",
+          "kind": "Company accounts",
+          "table": {
+            "caption": "Headline numbers at or for the year to 31 March 2026, from the annual results, the TWUF annual report and the Commons committee",
+            "columns": [
+              "Measure",
+              "Figure"
+            ],
+            "rows": [
+              [
+                "Underlying revenue",
+                "£3,616m, up 39%, largely from allowed tariff rises"
+              ],
+              [
+                "Capital investment",
+                "£2,680m"
+              ],
+              [
+                "Net debt, statutory basis",
+                "£18,516m"
+              ],
+              [
+                "Net debt, covenant basis",
+                "£19,772m"
+              ],
+              [
+                "Debt as stated by the Commons committee",
+                "£19.1bn"
+              ],
+              [
+                "Regulatory Capital Value",
+                "£22,725m"
+              ],
+              [
+                "Gearing",
+                "86%, the highest in the sector according to the committee"
+              ],
+              [
+                "Net cash outflow before debt funding",
+                "£1,130m"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The group accounts for the year to 31 March 2026 show interest paid on borrowings of £809.6m, up from £601.0m the year before. That includes £200.8m of capitalised borrowing costs. The interest line in the cash flow statement, which excludes them, is £609.3m (£414.6m the year before). Against underlying revenue of £3,615.6m those are about 22% and 17%, on our arithmetic. After £114.9m of interest received, the company reports net interest paid of £494m. None of these is the interest charged in the income statement, or debt principal repaid, which are different measures again.",
+              "sources": [
+                {
+                  "id": "ar26",
+                  "locator": "note on movements in net debt; income statement"
+                },
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                }
+              ]
+            },
+            {
+              "text": "The Commons committee gives a different measure. It estimates that 27% of bills go towards servicing debts, and says that is similar to the sector average. The problem is not that percentage alone but the combination with Thames Water’s other financial stresses.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "para 12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pipes",
+      "title": "What came out of the pipes",
+      "intro": "The finance would be a curiosity if the service were fine. It is not. The regulators’ own findings describe a company whose sewage system was failing at scale.",
+      "entries": [
+        {
+          "id": "ofwat-sewage",
+          "title": "Ofwat: failures at two-thirds of the works with these permits",
+          "kind": "Regulatory finding",
+          "paragraphs": [
+            {
+              "text": "In May 2025 Ofwat imposed a £104.5m penalty, 9% of relevant turnover and the largest it had ever issued. It said failures to build, maintain and operate adequate infrastructure amounted to a significant breach of the company’s legal obligations.",
+              "sources": [
+                {
+                  "id": "ofwat-fines",
+                  "locator": "announcement"
+                }
+              ]
+            },
+            {
+              "text": "Ofwat found that 157 wastewater works, 66% of those with the relevant permit conditions, could not meet those conditions. It found that 171 storm overflows at works, 73%, recorded 20 or more spills in 2021. In 2022 Thames Water identified 307 network overflows that had not been listed and were unmonitored, and 196 of them were unpermitted. Ofwat said the true scale of network spills was therefore likely to be much higher than reported.",
+              "sources": [
+                {
+                  "id": "ofwat-fines",
+                  "locator": "notes for editors"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ea-rating",
+          "title": "The Environment Agency: one star, two years running",
+          "kind": "Regulatory finding",
+          "paragraphs": [
+            {
+              "text": "For 2024 Thames Water was the only company rated poor performing, at one star. It had 33 serious pollution incidents, more than double 2023. That was the highest of any company, and 7 of the 11 most serious category 1 incidents in the country were its own.",
+              "sources": [
+                {
+                  "id": "epa24",
+                  "locator": "star ratings and serious pollution incidents"
+                }
+              ]
+            },
+            {
+              "text": "For 2025 it stayed at one star, joined by three other companies. Serious incidents fell to 24, still the highest, and it again had the most incidents overall at 464. Serious incidents fell 27%. The company reports an 18% fall in pollutions. The Agency’s total on the same page fell from 523 to 464, about 11%, and the two measures may use different bases.",
+              "sources": [
+                {
+                  "id": "epa25",
+                  "locator": "star ratings and serious pollution incidents"
+                },
+                {
+                  "id": "results26",
+                  "locator": "operational highlights"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sick",
+          "title": "Did it make people sick?",
+          "kind": "Evidence assessment",
+          "paragraphs": [
+            {
+              "text": "The record shows real risk and real concern, but we found no court or regulator finding that a named person became ill because of a particular Thames Water discharge. People do report it. Before the 2024 Boat Race, organisers warned crews against entering the water because of E. coli, and Oxford’s Leonard Jenkins told the BBC afterwards that several of the crew had gone down badly with it. The club later confirmed that three of the crew had fallen ill that week, but did not directly blame the river. That is a rower’s account and a club statement, not a medical finding.",
+              "sources": [
+                {
+                  "id": "boar",
+                  "locator": "Boat Race report"
+                }
+              ]
+            },
+            {
+              "text": "At the 2017 sentencing, Judge Sheridan said the company had shown “scant regard for the law, with dreadful results for people who live in the area”. A published summary of the case lists harm to animal life and to businesses, including one crayfish fisherman who lost £25,000 in a year.",
+              "sources": [
+                {
+                  "id": "envirotec",
+                  "locator": "remarks of Judge Sheridan"
+                },
+                {
+                  "id": "kn",
+                  "locator": "summary of harm"
+                }
+              ]
+            },
+            {
+              "text": "Proving that one discharge caused one person’s illness is hard, and none of the sources we checked attempts it. That is a limit of the evidence, not a clean bill of health.",
+              "sources": [
+                {
+                  "id": "boar",
+                  "locator": "Boat Race report"
+                },
+                {
+                  "id": "kn",
+                  "locator": "summary of harm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "record",
+      "title": "The criminal record",
+      "intro": "Here is the part that surprises people. The company has a long criminal record, and judges have criticised it in strong terms. All of this is about environmental offences, and all of it is about the company, not individuals.",
+      "entries": [
+        {
+          "id": "convictions",
+          "title": "Convicted on 106 occasions",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "In 2015 the Court of Appeal set out the company’s record, in a sentencing appeal it brought itself and lost.",
+              "sources": [
+                {
+                  "id": "crim2015",
+                  "locator": "paras 44, 46"
+                }
+              ]
+            },
+            {
+              "text": "Since 1991, the Appellant has been convicted on 106 occasions of 162 environmental offences.",
+              "sources": [
+                {
+                  "id": "crim2015",
+                  "locator": "para 44"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "That is a count to 2015, and it mixes serious and minor offences. The court itself said it could not sort them all into categories, and it accepted that a large undertaker cannot prevent every unauthorised discharge. It still said the £250,000 fine under appeal was lenient, and that it would have upheld a very substantially higher one.",
+              "sources": [
+                {
+                  "id": "crim2015",
+                  "locator": "paras 42, 44, 46"
+                }
+              ]
+            },
+            {
+              "text": "The court also said the record did “not suggest routine disregard of environmental obligations”, while leaving “room for substantial improvement”. As a rough proxy for more serious offences, it counted 16 fines above £20,000 from 1999 to August 2014.",
+              "sources": [
+                {
+                  "id": "crim2015",
+                  "locator": "para 44"
+                }
+              ]
+            },
+            {
+              "text": "The court said sentences must bring the message home to directors and shareholders. In the worst cases a fine could reach up to 100% of a company’s pre-tax net profit, and repeat offenders could expect fines in the millions.",
+              "sources": [
+                {
+                  "id": "crim2015",
+                  "locator": "paras 38–40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fines",
+          "title": "The fines since",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "In March 2017 Aylesbury Crown Court sentenced the company over six water pollution incidents from 2012 to 2014, with fines and costs of over £20m. It was reported as the largest such penalty for a water utility at the time, and the court heard that in many instances less than half the incoming sewage was sent for treatment. Sources give 1.4bn or 1.9bn litres for the volume.",
+              "sources": [
+                {
+                  "id": "kn",
+                  "locator": "summary of the sentence"
+                },
+                {
+                  "id": "envirotec",
+                  "locator": "report of the hearing"
+                },
+                {
+                  "id": "yahoo17",
+                  "locator": "1.4bn litres figure"
+                },
+                {
+                  "id": "defra-blog",
+                  "locator": "1.9bn litres figure"
+                }
+              ]
+            },
+            {
+              "text": "By November 2021 the Environment Agency counted £32.4m in fines since 2017 across 11 cases. By July 2023 the total was reported at £35.7m, after a £3.33m fine at Lewes Crown Court, where the judge said the company had deliberately misled the Environment Agency during its investigation.",
+              "sources": [
+                {
+                  "id": "gov-4m",
+                  "locator": "summary"
+                },
+                {
+                  "id": "swm",
+                  "locator": "report of the sentence"
+                }
+              ]
+            },
+            {
+              "text": "In May 2025 the Government said 81 criminal investigations into water companies had been opened since the election, and that the Agency was running its largest ever criminal investigation, into potential non-compliance at over 2,000 sewage treatment works. Reporting of the Defra and Agency figures put Thames Water at 31 of the 81, the most of any company. These are investigations, not findings. We did not find a later count.",
+              "sources": [
+                {
+                  "id": "gov-81",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "cityam",
+                  "locator": "breakdown by company"
+                }
+              ]
+            },
+            {
+              "text": "One case is unresolved. The 2025/26 accounts say the Environment Agency is prosecuting over five pollution incidents across four counties and alleges the highest level of culpability, “deliberate”. The company says it has pleaded guilty to the offences but strongly disputes deliberate culpability and will defend that in court. Local reporting of a May 2026 hearing at Reading Crown Court, which appears to be the same prosecution, says the judge ordered a hearing before sentence on whether the pollution was deliberate because of a history of under-investment. We found no outcome.",
+              "sources": [
+                {
+                  "id": "ar26",
+                  "locator": "note on provisions: sensitivity analysis"
+                },
+                {
+                  "id": "newbury",
+                  "locator": "report of the hearing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-one-jailed",
+      "title": "So why is nobody in prison?",
+      "intro": "The anger on this point is justified by the record, and the Government has said so itself. The reasons are less satisfying than a cover-up: how the law was written, how hard personal guilt is to prove, and how rarely it has been tried.",
+      "entries": [
+        {
+          "id": "zero",
+          "title": "Zero, officially",
+          "kind": "Government statement",
+          "paragraphs": [
+            {
+              "text": "In April 2025 the Government put it this way.",
+              "sources": [
+                {
+                  "id": "gov-prison",
+                  "locator": "announcement"
+                }
+              ]
+            },
+            {
+              "text": "No prison sentences have been handed to water executives since privatisation despite widespread illegal sewage discharges into rivers, lakes and seas.",
+              "sources": [
+                {
+                  "id": "gov-prison",
+                  "locator": "announcement"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "It added that since privatisation only three water company officials had been criminally prosecuted for obstruction by the Environment Agency without appeal, that the maximum punishment was a fine, and that no fines were issued.",
+              "sources": [
+                {
+                  "id": "gov-prison",
+                  "locator": "announcement"
+                }
+              ]
+            },
+            {
+              "text": "We found no report of any Thames Water director or executive being charged over the group’s finances, and no report of a Serious Fraud Office or Financial Conduct Authority investigation into them. That is the result of our search of public reporting to 30 October 2026. It is not proof that none exists.",
+              "sources": [
+                {
+                  "id": "gov-prison",
+                  "locator": "context only: the negative is our own search"
+                }
+              ]
+            },
+            {
+              "text": "It does not mean no water executive has ever been charged. In July 2026 Reuters reported that the Environment Agency had charged a former Southern Water chief executive and three former employees with conspiracy to defraud the Agency and Ofwat, by allegedly manipulating wastewater compliance testing between 2012 and 2017. His lawyer says he denies all wrongdoing. Nothing has been proved, and it concerns a different company.",
+              "sources": [
+                {
+                  "id": "reuters-southern",
+                  "locator": "report"
+                },
+                {
+                  "id": "kentonline",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "law-gap",
+          "title": "The gap in the old law",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Obstructing an environmental investigation was a crime, but in most cases it carried only a fine. Section 6 of the Water (Special Measures) Act 2025 changed that for water companies. It now carries up to two years on conviction on indictment and can be heard in the Crown Court. The Government says directors and executives can be prosecuted where obstruction occurs with their consent, connivance or neglect. Section 6 took effect in late April 2025.",
+              "sources": [
+                {
+                  "id": "wsma",
+                  "locator": "section 6"
+                },
+                {
+                  "id": "env110",
+                  "locator": "section 110(4)–(5)"
+                },
+                {
+                  "id": "gov-prison",
+                  "locator": "announcement"
+                }
+              ]
+            },
+            {
+              "text": "That law only looks forward and only reaches obstruction. It does nothing about a decision taken years ago to carry more debt.",
+              "sources": [
+                {
+                  "id": "wsma",
+                  "locator": "section 6"
+                }
+              ]
+            },
+            {
+              "text": "A personal route for pollution itself already existed. Under regulation 41 of the Environmental Permitting Regulations, if a company’s offence was committed with the consent or connivance of an officer, or is attributable to their neglect, the officer is guilty too. In May 2025 the Government said that, following these investigations, “water bosses could be jailed for five years”. So the power is there. The record of its use against water executives is the problem, and we found no prosecution of a Thames Water officer under it.",
+              "sources": [
+                {
+                  "id": "epr41",
+                  "locator": "regulation 41(1)"
+                },
+                {
+                  "id": "gov-81",
+                  "locator": "announcement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plain-sight",
+          "title": "Is it fraud in plain sight?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "No court has said so, and nobody named on this page has been convicted of fraud. The phrase also has a built-in problem. Fraud by false representation under section 2 of the Fraud Act needs a dishonest false statement. Fraud by abuse of position under section 4 needs a dishonest abuse of a position of financial trust, with intent to gain or cause loss. Fraudulent trading under section 993 of the Companies Act needs an intent to defraud creditors or a fraudulent purpose, and carries up to ten years.",
+              "sources": [
+                {
+                  "id": "fraud2",
+                  "locator": "section 2"
+                },
+                {
+                  "id": "fraud4",
+                  "locator": "section 4"
+                },
+                {
+                  "id": "ca993",
+                  "locator": "section 993"
+                }
+              ]
+            },
+            {
+              "text": "Public disclosure does not make a transaction lawful and does not rule out fraud. A misleading statement inside a public document can still be a false representation. But high leverage, dividends and complex structures are not, without more, evidence of fraud. Each offence needs proof of its own elements, including dishonesty or intent, against a specific person. The public record we reviewed does not contain that proof. So “in plain sight” is a strong political charge, and it would need more than the published record to become a criminal one.",
+              "sources": [
+                {
+                  "id": "fraud2",
+                  "locator": "section 2"
+                },
+                {
+                  "id": "ca993",
+                  "locator": "section 993"
+                },
+                {
+                  "id": "ewhc",
+                  "locator": "para 61"
+                }
+              ]
+            },
+            {
+              "text": "This does not mean nothing was unlawful. A long list of pollution offences has been proved. Ofwat found licence breaches on dividends. The environmental watchdog found that the regulators failed to comply with environmental law. The accurate claim is narrower and worse than “all of it was legal”: the financial structure was largely permitted, while the service it paid for repeatedly broke the rules.",
+              "sources": [
+                {
+                  "id": "crim2015",
+                  "locator": "para 44"
+                },
+                {
+                  "id": "ofwat-fines",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "oep-press",
+                  "locator": "findings"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "directors",
+          "title": "What directors can be sued for",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Dividends may only be paid out of profits available for the purpose. Directors must also consider creditors’ interests in certain circumstances, and the Supreme Court held in Sequana that this duty can apply to a decision to pay an otherwise lawful dividend, where a company is insolvent or bordering on insolvency, or an insolvent liquidation or administration is probable. Wrongful trading can make a director contribute to company assets in an insolvent winding up, if they knew or ought to have concluded that insolvency could not be avoided.",
+              "sources": [
+                {
+                  "id": "ca830",
+                  "locator": "section 830"
+                },
+                {
+                  "id": "ca172",
+                  "locator": "section 172(3)"
+                },
+                {
+                  "id": "sequana",
+                  "locator": "Lord Reed at para 111; Lord Briggs on issue 2, from para 158"
+                },
+                {
+                  "id": "ia214",
+                  "locator": "section 214"
+                }
+              ]
+            },
+            {
+              "text": "Each of those tests is tied to a specific company, date and decision. Macquarie says the regulated company stayed investment grade throughout its ownership, which would make the creditor duty harder to engage for dividends in that period. The duty is also owed to the company, not directly to creditors, so such claims mostly belong to the company or an insolvency office-holder.",
+              "sources": [
+                {
+                  "id": "macquarie",
+                  "locator": "section on debt levels"
+                },
+                {
+                  "id": "sequana",
+                  "locator": "Lord Briggs at para 112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "release",
+          "title": "The release in the rescue plan",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "The 2025 rescue plan contained a release of claims, including claims by the plan company and Thames Water Utilities against their own officers and advisers. It covered conduct in preparing and implementing the plan, not historic dividends or borrowing. The High Court declined to carve out a later special administrator.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "paras 230–232, 241"
+                }
+              ]
+            },
+            {
+              "text": "The Court of Appeal dismissed the appeals but changed this. It said releasing potential assets in a future insolvency was not shown to be necessary. It required an express carve-out, so that a special administrator of Thames Water Utilities, or an insolvency office-holder of the plan company, could still bring those claims.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "paras 241, 245"
+                }
+              ]
+            },
+            {
+              "text": "Its reasoning matters. Nobody opposing the plan had access to the information a future special administrator would have, and nobody can be expected to investigate such claims during a sanction hearing.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "para 242"
+                }
+              ]
+            },
+            {
+              "text": "The court was also careful to say it had been given no reason to conclude there had been any breach of duty by the directors.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "para 241"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dossier",
+          "title": "The police dossier",
+          "kind": "Allegation, not a finding",
+          "paragraphs": [
+            {
+              "text": "In January 2026 the solicitors Leigh Day said the campaign group Citizen’s Arrest Network had sent Thames Valley Police a dossier arguing that infrastructure failures amount to the statutory offence of public nuisance, and asking for an investigation of the company and its chief executive. The group said there had been no police action nearly a year after its first approach.",
+              "sources": [
+                {
+                  "id": "leighday",
+                  "locator": "announcement"
+                }
+              ]
+            },
+            {
+              "text": "This is a campaign group’s allegation. We found no report that any investigation has been opened, and nothing here suggests anyone has committed that offence.",
+              "sources": [
+                {
+                  "id": "leighday",
+                  "locator": "announcement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "customers-sue",
+          "title": "Can the public sue?",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "Owners of a watercourse can. In 2024 the Supreme Court decided that the Water Industry Act 1991 does not remove common law claims in nuisance and trespass for polluting discharges. Those are property claims, so they help landowners far more than swimmers or bill-payers.",
+              "sources": [
+                {
+                  "id": "msc",
+                  "locator": "paras 1, 136"
+                }
+              ]
+            },
+            {
+              "text": "Customers are trying another route. Professor Carolyn Roberts alleges that six companies, including Thames Water, abused their monopolies by giving Ofwat misleading information on pollution incidents. Her proposed class claim was refused by the Competition Appeal Tribunal, and the Court of Appeal upheld that on 5 March 2026 by a majority, with Lord Justice Zacaroli dissenting. The reasoning turns on section 18(8) of the 1991 Act.",
+              "sources": [
+                {
+                  "id": "roberts",
+                  "locator": "summary and dissent"
+                },
+                {
+                  "id": "uksc-roberts",
+                  "locator": "case summary"
+                }
+              ]
+            },
+            {
+              "text": "The Supreme Court gave permission on 29 June 2026, and the hearing is listed for 8 and 9 February 2027. The claim is unproven.",
+              "sources": [
+                {
+                  "id": "uksc-roberts",
+                  "locator": "permission and hearing dates"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulators",
+      "title": "Who regulates the regulators?",
+      "intro": "There is an actual answer, and it is one of the best-documented parts of this story. The watchdog set up to check them found that the regulators and the department above them had failed to comply with environmental law.",
+      "entries": [
+        {
+          "id": "watchdog",
+          "title": "The regulators were found to have failed to comply with environmental law",
+          "kind": "Regulatory finding",
+          "paragraphs": [
+            {
+              "text": "In December 2024 the Office for Environmental Protection found failures to comply with environmental law by Defra, the Environment Agency and Ofwat, over the regulation of sewage discharges from storm overflows on the network.",
+              "sources": [
+                {
+                  "id": "oep-press",
+                  "locator": "findings"
+                }
+              ]
+            },
+            {
+              "text": "For Ofwat, it found a serious failure in two ways. Ofwat had misunderstood the legal extent of sewerage undertakers’ duties and of its own duty to investigate and make enforcement orders, and it had unlawfully failed to make enforcement orders when it was under a legal duty to do so.",
+              "sources": [
+                {
+                  "id": "oep-notice",
+                  "locator": "paras 3–5"
+                }
+              ]
+            },
+            {
+              "text": "The story ended without a court. The OEP warned of possible court action, then announced in July 2025 that it would conclude the investigation after securing significant progress, and published its reports in December 2025.",
+              "sources": [
+                {
+                  "id": "oep-press",
+                  "locator": "next steps"
+                },
+                {
+                  "id": "oep-reports",
+                  "locator": "summary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "oversight-table",
+          "title": "The chain of oversight",
+          "kind": "Our analysis",
+          "table": {
+            "caption": "Who checks whom, and what happened when they looked",
+            "columns": [
+              "Body",
+              "Job",
+              "Who checks it",
+              "What the record shows"
+            ],
+            "rows": [
+              [
+                "Ofwat",
+                "Sets prices, enforces licences",
+                "Parliament, the courts, the OEP on environmental law. Price decisions can go to the CMA",
+                "OEP found failures. Commission said it did not, or could not, intervene on gearing. The Government has said it will be abolished"
+              ],
+              [
+                "Environment Agency",
+                "Permits, inspects and prosecutes pollution",
+                "Defra, Parliament, the OEP",
+                "OEP found failures on storm overflows"
+              ],
+              [
+                "Defra and ministers",
+                "Set policy, hold the backstop power of special administration",
+                "Parliament, the OEP",
+                "OEP found failures. The committee calls the threshold for special administration too vague"
+              ],
+              [
+                "Office for Environmental Protection",
+                "Checks public bodies on environmental law",
+                "Parliament. Created by the Environment Act 2021",
+                "Found serious failures, then closed the case on progress made"
+              ],
+              [
+                "The courts",
+                "Apply the law to the case in front of them",
+                "Appeal courts",
+                "“Not for this Court to attribute blame”. Said protecting customers is for the Secretary of State and Ofwat"
+              ],
+              [
+                "Parliament",
+                "Scrutiny and legislation",
+                "Voters",
+                "Committee calls Thames Water at the end of the road. Its recommendations do not bind the Government"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each layer checks the one below and passes the hard question along. This is our reading of the sources, not a finding by any of them.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "para 201"
+                },
+                {
+                  "id": "efra",
+                  "locator": "paras 30–36, 39"
+                },
+                {
+                  "id": "ewhc",
+                  "locator": "paras 47, 61"
+                },
+                {
+                  "id": "oep-press",
+                  "locator": "findings"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "abolish",
+          "title": "The regulator is to be abolished",
+          "kind": "Official review",
+          "paragraphs": [
+            {
+              "text": "The Independent Water Commission reported on 21 July 2025. The Government said the same day that it would abolish Ofwat and set up a new regulator, with Ofwat staying in place during the transition. The January 2026 white paper accepted many of the recommendations, and a Water Bill is still to come.",
+              "sources": [
+                {
+                  "id": "gov-iwc",
+                  "locator": "statement"
+                },
+                {
+                  "id": "efra",
+                  "locator": "paras 2–3"
+                }
+              ]
+            },
+            {
+              "text": "The Commission also recorded two structural gaps. Ofwat acknowledged the challenges of complex and non-transparent group structures, and its lack of extraterritorial reach means ultimate controllers outside the UK can be hard to regulate.",
+              "sources": [
+                {
+                  "id": "iwc",
+                  "locator": "PDF pages 290–291"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creditor-gap",
+          "title": "Who controls it now? Outside the undertakings",
+          "kind": "Parliamentary finding",
+          "paragraphs": [
+            {
+              "text": "A water company’s ultimate controller must give legally enforceable undertakings. The committee says Thames Water told a court that senior creditors are now effectively the economic owners, while Ofwat still treats the shareholders who walked away as the ultimate controllers. So the people with the power are outside those undertakings.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "paras 19–22"
+                }
+              ]
+            },
+            {
+              "text": "The committee is concerned that due diligence has not been carried out on the creditor consortium, and says most of its roughly 100 members are not publicly identified. The licence, the board and Ofwat all remain in place. The gap is that these undertakings do not bind the people the company itself calls its economic owners.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "summary, paras 21–24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sar",
+          "title": "The nuclear option nobody has pressed",
+          "kind": "Parliamentary finding",
+          "paragraphs": [
+            {
+              "text": "Special administration keeps the water running while a company is rescued or transferred, and it has never been used in the sector. A judge held that a special administrator must balance creditors against the public interest, and that the court cannot interfere with a decision to prioritise the statutory purpose once creditors’ interests have been fully considered.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "para 30"
+                },
+                {
+                  "id": "ewhc",
+                  "locator": "para 59"
+                }
+              ]
+            },
+            {
+              "text": "It is not nationalisation. Mr Justice Leech said a special administration would not result in nationalisation or the Government taking control of the water supply in London. Its purpose would be to keep the business going as a private company or transfer it.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 306"
+                }
+              ]
+            },
+            {
+              "text": "The committee could not see why it had not already been used. It said that if creditors’ further loans can sidestep the insolvency grounds, the legislation is not fit for purpose. It says the regime should be cost-neutral to taxpayers in the long run, though the taxpayer would fund it at first. Ministers are not confident a court would grant it on performance grounds.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "summary, paras 31, 35"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "court",
+      "title": "178 pages, seven camps",
+      "intro": "The 178 pages are real. The judgment is a remarkable document, because the people who wanted to talk about the past were told, politely, that this was not the place.",
+      "entries": [
+        {
+          "id": "parties",
+          "title": "Who turned up",
+          "kind": "Court record",
+          "table": {
+            "caption": "Positions at the 2025 sanction hearing",
+            "columns": [
+              "Party",
+              "Position"
+            ],
+            "rows": [
+              [
+                "Plan company",
+                "For"
+              ],
+              [
+                "Class A ad hoc group",
+                "For"
+              ],
+              [
+                "Group of bank creditors",
+                "For"
+              ],
+              [
+                "Pension trustees",
+                "Wrote that they favoured a viable restructuring"
+              ],
+              [
+                "Class B ad hoc group",
+                "Against"
+              ],
+              [
+                "Thames Water Ltd, the parent",
+                "Against"
+              ],
+              [
+                "Charlie Maynard MP, for the public interest and customers, unpaid",
+                "Against"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The hearing ran from 31 January to 7 February 2025 before Mr Justice Leech, whose judgment is dated 18 February. It is often described as a fight between creditors. Seven camps took a position.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 6–7; cover page"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sanction",
+          "title": "What the court decided",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "The judge sanctioned an interim plan. It extended all debt maturities by two years, gave £1.5bn of new super senior funding with capacity for a further £1.5bn, and bound the dissenting Class B and subordinated creditors through a cross-class cram down. The relevant alternative was special administration, and the company forecast that its money would run out on 24 March 2025.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 2–6, 285"
+                }
+              ]
+            },
+            {
+              "text": "Mr Maynard won a real point. The company and the Class A group said the public had no standing. The judge rejected that. Customers are “plainly affected”, and he thanked Mr Maynard’s unpaid team for very clear and cogent evidence and arguments.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 284–287"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "not-blame",
+          "title": "“It is not for this Court”",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "It is not for this Court to attribute blame for the financial position in which the Plan Company now finds itself.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 61"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "That is the sentence everyone remembers, and it needs what follows. The judge said he would have been more confident in the plan “if there had been some evidence of introspection before the Court”. He had noted that the company’s evidence showed no real acceptance that its problems were the consequence of “any financial mismanagement by shareholders and directors” rather than changes in Ofwat policy. He made no finding of mismanagement, and said this was not a criticism of the two witnesses personally.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 60–61"
+                }
+              ]
+            },
+            {
+              "text": "The Court of Appeal agreed that the focus was forward-looking. It said the appeal was not about any steps that might be taken in respect of past failings. So the sanction of the plan decided nothing about whether past conduct was lawful. It is not a clean bill of health, and it is not a condemnation.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "para 16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cost",
+          "title": "The price of the rescue",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "The company’s chief financial officer accepted that more than £443m of the first tranche would go back to plan creditors in interest and costs. The same funding from the Government to a special administrator at a commercial rate would, on the figure put in court, cost £65.93m. Another witness found that figure surprising, and put the cost of special administration at £3.35bn to £4.01bn. The judge found that witness’s assumptions very pessimistic and was not persuaded the cost would be upwards of £3.35bn, but accepted that a special administration would likely cost at least as much as the plan. He said the finance costs and fees might be described as eye-watering. The Court of Appeal said significant parts of the headline figures were not costs that a special administration would avoid.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 290–293, 300"
+                },
+                {
+                  "id": "ewca",
+                  "locator": "para 202"
+                }
+              ]
+            },
+            {
+              "text": "The headline rate reported is 9.75%. The committee says it has been reported that, with fees and sweeteners, the £3bn is expected to cost over £800m, and that investors were reportedly trading the debt at 112% of face value before the deal was final.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "para 32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "two-loans",
+          "title": "“Very, very high”: the rival loan",
+          "kind": "Court record",
+          "table": {
+            "caption": "Evidence for the Class B side, as reproduced in the judgment. The judge doubted its accuracy",
+            "columns": [
+              "Term",
+              "The plan",
+              "The rival B Plan"
+            ],
+            "rows": [
+              [
+                "Facility",
+                "£1.5bn committed, £1.5bn uncommitted",
+                "£3.0bn committed"
+              ],
+              [
+                "Original issue discount",
+                "3.0%",
+                "2.0%"
+              ],
+              [
+                "Interest",
+                "9.75% a year",
+                "8.00% a year"
+              ],
+              [
+                "Maturity",
+                "2.5 years",
+                "1 year, extendable to 15 months"
+              ],
+              [
+                "Backstop fee",
+                "3.5% on the committed amount",
+                "1.5% on committed funding, plus a 1.5% ticking fee on undrawn amounts"
+              ],
+              [
+                "Total fees and interest",
+                "£327m",
+                "£169m"
+              ],
+              [
+                "Cost of debt",
+                "22.5%",
+                "11.5%"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The judge accepted a detailed costing of the plan’s first six months. It included a £45m discount and a £52.5m backstop fee, for neither of which he was given any justification or rationale. There was also a possible £156m make-whole fee, and adviser costs of about £15m a month. With continuing interest, the company’s finance chief accepted that £800m of the £1.388bn it could draw in six months was purely the cost of finance.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 111–119"
+                }
+              ]
+            },
+            {
+              "text": "The Class B side offered a rival rescue, and its solicitor exhibited the comparison below. It is one side’s table, on different terms, and not a court finding. The judge said he was not fully convinced the figures were accurate, and assumed they were only for present purposes.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 128–129, 252"
+                }
+              ]
+            },
+            {
+              "text": "He still called the price “very, very high”, and said the rival terms and the funding’s trading price suggested Thames Water “might have found better terms in the market”. He did not treat that as a reason to refuse the plan. The Class A creditors’ consent was needed for any new super senior funding. He held the rival plan could not be relied on to take effect in time. And he expected the Class A creditors to bear the price through a haircut.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 252–253, 173"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "who-pays",
+          "title": "Who pays: both sides of it",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "Mr Justice Leech said the addition of a potential £3bn of high-cost debt “is bound to have a long-term effect on the quality of public services”, especially if the equity raise failed. He rejected the argument that customers were unaffected because Ofwat fixes prices.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 288"
+                }
+              ]
+            },
+            {
+              "text": "But he also said he was not satisfied that the company or its customers would have to bear the finance costs, because the Class A creditors would very likely have to take a substantial haircut. He treated the creditors as bearing the costs at that stage. The creditors’ financial adviser accepted that this depended on “where the value breaks”.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 303–304"
+                }
+              ]
+            },
+            {
+              "text": "Ofwat agreed with the judge that, because of the cap on what the company can charge customers, the costs of the plan would ultimately fall on creditors. The fight continues. Thames Water says the new funding does not add any costs for households. The creditor consortium says the costs fall entirely on Class A creditors. Mr Maynard and We Own It say customers will end up paying. We Own It’s £40 per household is a campaign calculation that assumes the cost is added to bills. Bills are rising for other reasons in any case: revenue rose 39% in 2025/26, largely from allowed tariff increases.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "para 180"
+                },
+                {
+                  "id": "guardian",
+                  "locator": "statements of each side"
+                },
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "appeal",
+          "title": "The appeals",
+          "kind": "Court record",
+          "paragraphs": [
+            {
+              "text": "The Court of Appeal dismissed the appeals, with the one amendment on releases described above. Its reasons are dated 15 April 2025. It parted company with Mr Maynard’s argument at the outset, saying the question was not whether a special administration would be better for customers and the public. It repeated that the Secretary of State and Ofwat are charged with protecting customers and the wider public interest, and with deciding whether to apply for special administration.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "paras 179, 201, 245"
+                }
+              ]
+            },
+            {
+              "text": "The Supreme Court refused Mr Maynard permission to appeal on 28 July 2025.",
+              "sources": [
+                {
+                  "id": "uksc-maynard",
+                  "locator": "permission to appeal decision"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "now",
+      "title": "Where it stands on 30 October 2026",
+      "intro": "This section will date quickly. Everything here is as reported on the date shown.",
+      "entries": [
+        {
+          "id": "status",
+          "title": "The latest position",
+          "kind": "Current status",
+          "paragraphs": [
+            {
+              "text": "On 30 October 2026 Thames Water announced that creditors had approved its 16th consent requests. These allow further drawdowns of £350m now and, if conditions are met, £350m in November, and they set up the structure to raise the facility from £3bn to £5.4bn, which the company says would last into autumn 2027. They do not themselves provide the extra £2.4bn. Commitments are still to be sought in tranches. Thames Water Ltd, the parent, disputes that one of the consents binds it. The company had drawn £2.65bn before the vote.",
+              "sources": [
+                {
+                  "id": "tw-result",
+                  "locator": "announcement and footnote 1"
+                },
+                {
+                  "id": "tw-launch",
+                  "locator": "launch announcement"
+                },
+                {
+                  "id": "guardian",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "On 16 October Thames Water announced a support agreement with certain Class A and Class B creditors, including holders of more than 60% of Class B debt. The proposed terms would write off about £1bn of Class B debt for a recovery of about 5.9%. The company says its board, Ofwat and other regulators have made no decision to take forward any London & Valley Water proposal, that there is no certainty a recapitalisation will be agreed, and that a further interim deal is planned to extend maturities beyond March 2027.",
+              "sources": [
+                {
+                  "id": "tw-classb",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "watermag",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "S&P cut the company to CCC− on 27 October, with a negative outlook, citing weak liquidity, prolonged negotiations and recurring negative free operating cash flows.",
+              "sources": [
+                {
+                  "id": "watermag",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "On 18 September the Commons committee said: “Thames Water is at the end of the road.” It told the Government to reject the London & Valley Water consortium’s proposals and explore alternatives including special administration or fresh legislation. It said the creditors have reportedly asked for relief from fines and penalties. The Government has two months to respond.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "paras 14, 28–29, header"
+                }
+              ]
+            },
+            {
+              "text": "The Guardian reports that Prime Minister Andy Burnham is deciding whether to allow a creditor takeover, and is considering nationalisation or another form of state control. One reported option would convert about £100m of outstanding fines into a Government stake.",
+              "sources": [
+                {
+                  "id": "guardian",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "The £122.7m in penalties is mostly deferred. Ofwat agreed that 20%, or £24.5m, was due by 30 September 2025, with the rest due after a restructuring, after special administration, or by 31 March 2030 at the latest. Ofwat had said the penalties would be paid by the company and its investors, not customers. The Guardian refers to about £100m of fines still outstanding.",
+              "sources": [
+                {
+                  "id": "ofwat-plan",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "ofwat-fines",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "guardian",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "view",
+      "title": "Rational is not the same as reasonable",
+      "intro": "This section is opinion, and it is ours. Everything above it is the record. Nothing here is a finding about any person.",
+      "entries": [
+        {
+          "id": "rational",
+          "title": "Every step can be rational",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Each move in this story can look rational from where it was made. A lender prices risk. An owner uses the leverage the rules reward. A director takes legal advice. A regulator applies its framework. A judge answers only the question in front of them. The sum of those steps is a monopoly carrying about £20bn of debt, on a one-star environmental rating, kept alive by emergency loans. That is not reasonable, and rules that produce it are not fit for purpose.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "summary"
+                },
+                {
+                  "id": "iwc",
+                  "locator": "para 410"
+                },
+                {
+                  "id": "ewhc",
+                  "locator": "para 61"
+                },
+                {
+                  "id": "epa25",
+                  "locator": "star ratings"
+                }
+              ]
+            },
+            {
+              "text": "Our view is that the outcome looks like extraction from a captive public, under rules that should never have allowed it, and that the record justifies an independent inquiry with the power to compel documents. If such an inquiry found crimes, those responsible should face prosecution and, if convicted, prison. If nobody is ever held personally answerable for a result like this, we would read that as a symptom of a system that is not fit for purpose.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "summary"
+                },
+                {
+                  "id": "gov-prison",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "ewhc",
+                  "locator": "para 61"
+                }
+              ]
+            },
+            {
+              "text": "That is a political judgment about a system. This page does not say that any person or company committed fraud, and only evidence tested in court can establish guilt.",
+              "sources": [
+                {
+                  "id": "ewca",
+                  "locator": "para 241"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fact-check",
+      "title": "Checking the claims",
+      "intro": "Much of what circulates about Thames Water is right in spirit and wrong in detail. These are claims from the briefs we were given and from public debate, tested against the primary sources. The corrections matter, because the accurate version is stronger.",
+      "entries": [
+        {
+          "id": "corrections",
+          "title": "Claims against the record",
+          "kind": "Fact check",
+          "table": {
+            "caption": "Claims tested against the record",
+            "columns": [
+              "Claim",
+              "What the record shows"
+            ],
+            "rows": [
+              [
+                "No one in jail",
+                "Correct, and officially stated: no prison sentences for water executives since privatisation"
+              ],
+              [
+                "No indictments",
+                "Too broad. We found no charges against Thames Water executives over the finances, but the company has been convicted again and again: 106 occasions by 2015, with Crown Court sentences since. Elsewhere in the sector, a former Southern Water chief executive was charged in July 2026 and denies wrongdoing"
+              ],
+              [
+                "It was all entirely legal, no laws were broken",
+                "Wrong. Pollution offences were proved, Ofwat found dividend and wastewater breaches, and the OEP found the regulators failed to comply with the law"
+              ],
+              [
+                "£10bn in dividends",
+                "The court record adds up to about £5.95bn from the operating company. £10.4bn and £11.9bn are We Own It’s figures, which we could not reproduce"
+              ],
+              [
+                "£500m annual interest, 20% of revenue",
+                "Depends on the measure. For 2025/26: £809.6m gross including capitalised costs (about 22% of underlying revenue), £609.3m in the cash flow statement (about 17%), £494m net of interest received. The committee estimates 27% of bills service debt"
+              ],
+              [
+                "£2.8bn in Macquarie-era dividends, debt from £3.2bn to £10.5bn",
+                "The committee says an estimated £2.5bn, and £3.4bn to £10.8bn. Macquarie says £1.1bn in distributions, and about £6bn to £11bn"
+              ],
+              [
+                "Dumping sewage into the ocean",
+                "Rivers and streams: the Thames and its tributaries, the Hinksey and Seacourt streams, rivers near Gatwick"
+              ],
+              [
+                "Making people physically and psychosomatically sick",
+                "Serious concern and individual accounts, but no finding we could locate that ties a named illness to a discharge, and no study on the psychosomatic claim"
+              ],
+              [
+                "Shareholders withdrew £500m",
+                "The judgment says they declined to provide £750m. The committee’s report says a promised £500m. Both are cited, and the judgment is the fuller account"
+              ],
+              [
+                "Ofwat blocked dividends, so Kemble immediately defaulted",
+                "Simplified. Ofwat gained stronger powers in 2023. Shareholders declined funding in March 2024, and the default followed"
+              ],
+              [
+                "The Court of Appeal simply dismissed the challenge",
+                "It dismissed the appeals but amended the plan so a special administrator can still bring claims over conduct in preparing and implementing the plan"
+              ],
+              [
+                "Five stakeholders in a single lawsuit",
+                "Seven camps took a position at the sanction hearing"
+              ],
+              [
+                "178-page judgment",
+                "Correct. The official PDF runs to 178 pages"
+              ],
+              [
+                "Creditors approved the extra £2.4bn",
+                "Partly. The structure was approved on 30 October 2026. The extra money still has to be committed in tranches"
+              ],
+              [
+                "Fraud in plain sight",
+                "No court has made that finding about anyone here. Public disclosure neither proves nor rules out fraud. Each offence needs proof of dishonesty or intent against a specific person"
+              ],
+              [
+                "The rescue loan cost 22.5%",
+                "One side’s table, on different terms, whose accuracy the judge doubted. It is not a court finding. The judge did call the price “very, very high”"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each row states the claim as it reached us, then what the record shows.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "as cited in the sections above"
+                },
+                {
+                  "id": "crim2015",
+                  "locator": "para 44"
+                },
+                {
+                  "id": "gov-prison",
+                  "locator": "announcement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "omitted",
+          "title": "What we left out, and why",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "We left out the claim of £656m in dividends against £241m of profit in 2007. Other material points to different figures for that period and we could not open the primary record. We left out the size of the debt write-off and “green dowry” at privatisation, because the figures vary between sources and we did not find the primary one.",
+              "sources": []
+            },
+            {
+              "text": "We did not use the claim about the bulk of debt being inflation-linked, since we could not verify a current proportion. We did not cover the Thames Tideway Tunnel. We did not build a full year-by-year account of distributions, which would need every set of filed accounts at each level of the group, and we did not check Companies House for the complete ownership chain.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "About this page",
+      "intro": "How this was checked and how to read it.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Method and limits",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Checked on 30 October 2026. We worked from the official text of the High Court and Court of Appeal judgments, the September 2026 Commons committee report, Ofwat’s decision and announcements, the Office for Environmental Protection’s notice, the Environment Agency’s annual reports, the Water (Special Measures) Act 2025 and the 2025/26 accounts, and checked each cited passage there. Where we relied on press or campaign material, the text says so.",
+              "sources": []
+            },
+            {
+              "text": "The word “marvel” in the title is our irony, and “financial engineering” is the Commons committee’s own phrase. Sections marked as our analysis are commentary. Nothing here says that any person or company committed fraud. No individual named here has been convicted of any offence connected with these events, and no person or company named here has been convicted of fraud over the group’s finances. A company’s convictions are the company’s. Allegations stay allegations, and the presumption of innocence applies. This is research, not legal or financial advice.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ewhc",
+      "title": "Re Thames Water Utilities Holdings Ltd [2025] EWHC 338 (Ch)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/338",
+      "checked": "2026-10-30",
+      "date": "2025-02-18"
+    },
+    {
+      "id": "ewca",
+      "title": "Kington S.à r.l. and others v Thames Water Utilities Holdings Ltd [2025] EWCA Civ 475",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/475",
+      "checked": "2026-10-30",
+      "date": "2025-04-15"
+    },
+    {
+      "id": "uksc-maynard",
+      "title": "Maynard v Thames Water Utilities Holdings Ltd and another, UKSC/2025/0101 (permission to appeal)",
+      "publisher": "UK Supreme Court",
+      "type": "Court record",
+      "url": "https://supremecourt.uk/cases/uksc-2025-0101",
+      "checked": "2026-10-30",
+      "date": "2025-07-28"
+    },
+    {
+      "id": "efra",
+      "title": "The future of Thames Water and special administration (Second Report of Session 2026–27)",
+      "publisher": "House of Commons Environment, Food and Rural Affairs Committee",
+      "type": "Parliamentary report",
+      "url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmenvfru/664/report.html",
+      "checked": "2026-10-30",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "iwc",
+      "title": "Independent Water Commission: Final Report",
+      "publisher": "Independent Water Commission (GOV.UK)",
+      "type": "Independent review",
+      "url": "https://assets.publishing.service.gov.uk/media/687dfcc4312ee8a5f0806be6/Independent_Water_Commission_-_Final_Report_-_21_July.pdf",
+      "checked": "2026-10-30",
+      "date": "2025-07-21"
+    },
+    {
+      "id": "gov-iwc",
+      "title": "Government initial response to the Independent Water Commission’s final report",
+      "publisher": "Department for Environment, Food and Rural Affairs (GOV.UK)",
+      "type": "Ministerial statement",
+      "url": "https://www.gov.uk/government/speeches/government-initial-response-to-independent-water-commissions-final-report",
+      "checked": "2026-10-30",
+      "date": "2025-07-21"
+    },
+    {
+      "id": "ofwat-fines",
+      "title": "Ofwat fines Thames Water nearly £123m following two investigations into the company",
+      "publisher": "Ofwat",
+      "type": "Regulator's announcement",
+      "url": "https://www.ofwat.gov.uk/ofwat-fines-thames-water-nearly-123m-following-two-investigations-into-the-company/",
+      "checked": "2026-10-30",
+      "date": "2025-05-28"
+    },
+    {
+      "id": "ofwat-div",
+      "title": "Notice of Ofwat’s decision to impose a financial penalty on Thames Water for contravention of Condition P30",
+      "publisher": "Ofwat",
+      "type": "Regulatory decision",
+      "url": "https://www.ofwat.gov.uk/wp-content/uploads/2024/12/2025-05-28-Thames-Waters-Dividend-Payments-and-ConditIon-P30-Final-Decision.pdf",
+      "checked": "2026-10-30",
+      "date": "2025-05-28"
+    },
+    {
+      "id": "ofwat-plan",
+      "title": "Ofwat confirms Thames Water penalties payment plan",
+      "publisher": "Ofwat",
+      "type": "Regulator's announcement",
+      "url": "https://www.ofwat.gov.uk/ofwat-confirms-thames-water-penalties-payment-plan/",
+      "checked": "2026-10-30",
+      "date": "2025-08-27"
+    },
+    {
+      "id": "oep-press",
+      "title": "OEP finds there have been failures to comply with environmental law in relation to regulatory oversight of untreated sewage discharges",
+      "publisher": "Office for Environmental Protection",
+      "type": "Regulator's announcement",
+      "url": "https://www.theoep.org.uk/node/2165",
+      "checked": "2026-10-30",
+      "date": "2024-12-16"
+    },
+    {
+      "id": "oep-notice",
+      "title": "Decision Notice to Ofwat: investigation into untreated sewage discharges",
+      "publisher": "Office for Environmental Protection",
+      "type": "Regulatory decision",
+      "url": "https://www.theoep.org.uk/sites/default/files/reports-files/OEP%20CSO%20Investigation%20-%20Decision%20Notice%20-%20Ofwat.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "oep-reports",
+      "title": "OEP reports on investigation into regulation of Combined Sewer Overflows",
+      "publisher": "Office for Environmental Protection",
+      "type": "Regulator's report",
+      "url": "https://www.theoep.org.uk/node/2954",
+      "checked": "2026-10-30",
+      "date": "2025-12-11"
+    },
+    {
+      "id": "crim2015",
+      "title": "R v Thames Water Utilities Ltd [2015] EWCA Crim 960",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal, Criminal Division)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2015/960",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "kn",
+      "title": "Thames Water receives record £20m fine for polluting rivers",
+      "publisher": "Kingsley Napley",
+      "type": "Legal commentary",
+      "url": "https://www.kingsleynapley.co.uk/our-insights/articles/thames-water-receives-record-20m-fine-for-polluting-rivers/",
+      "checked": "2026-10-30",
+      "date": "2017-03-30"
+    },
+    {
+      "id": "envirotec",
+      "title": "Record-breaking fine for Thames pollution incident",
+      "publisher": "Envirotec",
+      "type": "Published reporting",
+      "url": "https://envirotecmagazine.com/?p=11151",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "defra-blog",
+      "title": "Times article on sewage discharges in the Thames",
+      "publisher": "Defra Press Office",
+      "type": "Government blog",
+      "url": "https://deframedia.blog.gov.uk/2020/10/29/times-article-on-sewage-discharges-in-the-thames/",
+      "checked": "2026-10-30",
+      "date": "2020-10-29"
+    },
+    {
+      "id": "gov-4m",
+      "title": "Thames Water fined £4 million after 30 hour waterfall of sewage discharge",
+      "publisher": "Environment Agency (GOV.UK)",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/news/thames-water-fined-4-million-after-30-hour-waterfall-of-sewage-discharge",
+      "checked": "2026-10-30",
+      "date": "2021-11-19"
+    },
+    {
+      "id": "swm",
+      "title": "Rivers polluted by ’reckless’ Thames Water",
+      "publisher": "Smart Water Magazine (republishing the Environment Agency)",
+      "type": "Published reporting",
+      "url": "https://smartwatermagazine.com/news/govuk/rivers-polluted-reckless-thames-water",
+      "checked": "2026-10-30",
+      "date": "2023-07-05"
+    },
+    {
+      "id": "gov-81",
+      "title": "Record 81 criminal investigations launched into water companies under Government crackdown",
+      "publisher": "Department for Environment, Food and Rural Affairs (GOV.UK)",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/news/record-81-criminal-investigations-launched-into-water-companies-under-government-crackdown",
+      "checked": "2026-10-30",
+      "date": "2025-05-21"
+    },
+    {
+      "id": "cityam",
+      "title": "Record 81 criminal investigations opened into water firms",
+      "publisher": "City AM",
+      "type": "Published reporting",
+      "url": "https://www.cityam.com/?p=2332698",
+      "checked": "2026-10-30",
+      "date": "2025-05-21"
+    },
+    {
+      "id": "gov-prison",
+      "title": "Polluting water bosses face up to two years in prison",
+      "publisher": "Department for Environment, Food and Rural Affairs (GOV.UK)",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/news/polluting-water-bosses-face-up-to-two-years-in-prison",
+      "checked": "2026-10-30",
+      "date": "2025-04-25"
+    },
+    {
+      "id": "wsma",
+      "title": "Water (Special Measures) Act 2025",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/5",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "epr41",
+      "title": "Environmental Permitting (England and Wales) Regulations 2016, regulation 41",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2016/1154/regulation/41",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "ca830",
+      "title": "Companies Act 2006, section 830",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/830",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "ca172",
+      "title": "Companies Act 2006, section 172",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "ca993",
+      "title": "Companies Act 2006, section 993 (fraudulent trading)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/993",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "ia214",
+      "title": "Insolvency Act 1986, section 214 (wrongful trading)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/45/section/214",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "fraud2",
+      "title": "Fraud Act 2006, section 2",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/35/section/2",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "sequana",
+      "title": "BTI 2014 LLC v Sequana SA and others [2022] UKSC 25",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Supreme Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2022/25",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "msc",
+      "title": "The Manchester Ship Canal Company Ltd v United Utilities Water Ltd (No 2) [2024] UKSC 22",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Supreme Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2024/22",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "roberts",
+      "title": "Professor Carolyn Roberts v Severn Trent Water Ltd and others [2026] EWCA Civ 222",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/222",
+      "checked": "2026-10-30",
+      "date": "2026-03-05"
+    },
+    {
+      "id": "uksc-roberts",
+      "title": "Roberts v Severn Trent Water Ltd and others, UKSC/2026/0042",
+      "publisher": "UK Supreme Court",
+      "type": "Court record",
+      "url": "https://supremecourt.uk/cases/uksc-2026-0042",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "ar26",
+      "title": "Thames Water Utilities Limited Annual Report and Financial Statements 2025/26",
+      "publisher": "Thames Water",
+      "type": "Company accounts",
+      "url": "https://www.thameswater.co.uk/media-library/2tad3w44/annual-report-2025-26.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "results26",
+      "title": "Thames Water Utilities Limited Annual Results for the year to 31 March 2026",
+      "publisher": "Thames Water",
+      "type": "Company announcement",
+      "url": "https://www.thameswater.co.uk/news/2026/jul/thames-water-annual-results-2025-26",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "twuf",
+      "title": "Thames Water Utilities Finance plc Annual Report 2025/26",
+      "publisher": "Thames Water",
+      "type": "Company accounts",
+      "url": "https://www.thameswater.co.uk/media-library/35cibnzp/twuf-annual-report-2025-26.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "epa24",
+      "title": "Water and sewerage companies in England: environmental performance report for 2024",
+      "publisher": "Environment Agency (GOV.UK)",
+      "type": "Regulator's report",
+      "url": "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2024/water-and-sewerage-companies-in-england-environmental-performance-report-for-2024",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "epa25",
+      "title": "Water and sewerage companies in England: environmental performance report for 2025",
+      "publisher": "Environment Agency (GOV.UK)",
+      "type": "Regulator's report",
+      "url": "https://www.gov.uk/government/publications/water-and-sewerage-companies-in-england-environmental-performance-report-2025/water-and-sewerage-companies-in-england-environmental-performance-report-for-2025",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "guardian",
+      "title": "Thames Water creditors to vote on emergency £2.4bn loan as cash runs low",
+      "publisher": "The Guardian",
+      "type": "Published reporting",
+      "url": "https://www.theguardian.com/business/2026/oct/29/thames-water-creditors-vote-emergency-loan-cash-runs-low",
+      "checked": "2026-10-30",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "tw-result",
+      "title": "Sixteenth Consent Requests results",
+      "publisher": "Thames Water",
+      "type": "Company announcement",
+      "url": "https://www.thameswater.co.uk/news/2026/oct/twul-sixteenth-consent-requests-stid-results",
+      "checked": "2026-10-30",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "tw-launch",
+      "title": "Sixteenth Consent Requests launch announcement",
+      "publisher": "Thames Water",
+      "type": "Company announcement",
+      "url": "https://www.thameswater.co.uk/news/2026/oct/twul-sixteenth-consent-requests-results",
+      "checked": "2026-10-30",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "tw-classb",
+      "title": "Class B creditors update",
+      "publisher": "Thames Water",
+      "type": "Company announcement",
+      "url": "https://www.thameswater.co.uk/news/2026/oct/class-b-creditors-update",
+      "checked": "2026-10-30",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "reuters-southern",
+      "title": "Former Southern Water CEO charged with fraud for ’manipulating’ wastewater testing",
+      "publisher": "Reuters (via WHBL)",
+      "type": "Published reporting",
+      "url": "https://whbl.com/2026/07/22/former-southern-water-ceo-among-four-facing-uk-prosecution-over-wastewater-monitoring-allegations/",
+      "checked": "2026-10-30",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "kentonline",
+      "title": "Ex-Southern Water boss among four charged with conspiracy to defraud the Environment Agency and Ofwat",
+      "publisher": "KentOnline",
+      "type": "Published reporting",
+      "url": "https://www.kentonline.co.uk/kent/news/ex-southern-water-boss-among-four-charged-over-plan-to-mani-343019/",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "newbury",
+      "title": "Thames Water fights national landmark case which alleges deliberate sewage dumps in Newbury and Thatcham waterways",
+      "publisher": "Newbury Today",
+      "type": "Published reporting",
+      "url": "https://www.newburytoday.co.uk/news/thames-water-fights-national-landmark-case-which-alleges-del-9467003/",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "yahoo17",
+      "title": "Thames Water given record £20.3m fine after 1.4bn litres of raw sewage pollute river",
+      "publisher": "Yahoo News UK",
+      "type": "Published reporting",
+      "url": "https://uk.news.yahoo.com/thames-water-given-record-20-122515774.html",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "env110",
+      "title": "Environment Act 1995, section 110",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/1995/25/section/110",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "fraud4",
+      "title": "Fraud Act 2006, section 4",
+      "publisher": "legislation.gov.uk",
+      "type": "Statute",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/35/section/4",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "watermag",
+      "title": "S&P downgrades Thames Water further as restructuring talks continue",
+      "publisher": "Water Magazine",
+      "type": "Published reporting",
+      "url": "https://www.watermagazine.co.uk/2026/10/28/sp-downgrades-thames-water-further-as-restructuring-talks-continue/",
+      "checked": "2026-10-30",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "macquarie",
+      "title": "Macquarie and Thames Water: factsheet (August 2023)",
+      "publisher": "Macquarie",
+      "type": "Company statement",
+      "url": "https://www.macquarie.com/assets/macq/impact/case-studies/thames-water-upgrading-londons-water-and-wastewater-infrastructure/macquarie-thames-water-factsheet.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "weownit",
+      "title": "Thames Water: profits from pollution",
+      "publisher": "We Own It",
+      "type": "Campaign material",
+      "url": "https://weownit.org.uk/privatisation-profits-from-pollution/thames-water",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "leighday",
+      "title": "Evidence dossier sent to police over Thames Water",
+      "publisher": "Leigh Day",
+      "type": "Solicitors' announcement",
+      "url": "https://www.leighday.co.uk/news/press-releases/2026-news/evidence-dossier-sent-to-police-over-thames-water/",
+      "checked": "2026-10-30",
+      "date": "2026-01-19"
+    },
+    {
+      "id": "boar",
+      "title": "Is the Thames safe to race? The fallout of the Oxford-Cambridge Boat Race",
+      "publisher": "The Boar",
+      "type": "Published reporting",
+      "url": "https://theboar.org/2024/04/is-the-thames-safe-to-race-in-the-fallout-of-the-oxford-cambridge-boat-race",
+      "checked": "2026-10-30"
+    }
+  ]
+}
