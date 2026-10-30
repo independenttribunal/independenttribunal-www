@@ -24,6 +24,10 @@
     {
       "id": "not-conducive-to-the-public-good",
       "title": "Access to the UK restricted: “not conducive to the public good”"
+    },
+    {
+      "id": "jigsaw-identification",
+      "title": "Jigsaw identification"
     }
   ],
   "highlights": [
@@ -543,6 +547,11 @@
                 "Truth at whatever level the insinuation carries, often level 1"
               ],
               [
+                "“We name nobody. Just search for who ran the company in 2005. They belong in jail.”",
+                "Level 1 against an identifiable person. The pointer identifies; the jail demand accuses",
+                "Truth only, against that person. Leaving out the name changes nothing"
+              ],
+              [
                 "“There are reasonable grounds to suspect fraud here.”",
                 "Level 2",
                 "Prove the grounds existed and were reasonable, or rely on public interest"
@@ -629,6 +638,65 @@
                 {
                   "id": "mcalpine",
                   "locator": "para 88"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jigsaw",
+          "title": "Not naming them: “Google the CEO in 2005”",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Leaving out the name does not stop a person being identified. Newsnight did not name the politician it described; the presenter said they did not have enough evidence “to name names”. Bercow’s tweet supplied the missing piece. Tugendhat J found that her followers knew the Newsnight story, and that the tweet linked it to Lord McAlpine.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 17, 81, 83, 88"
+                }
+              ]
+            },
+            {
+              "text": "Where identification depends on facts outside the words, the claimant must prove that readers knew those facts. A line telling readers to search “CEO of [company] in 2005” supplies those facts on purpose. In our view a pointer of that kind is, in law, a name, and a deliberate one.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 50"
+                }
+              ]
+            },
+            {
+              "text": "So the protection lies in what the words say about the person, not in whether the name is printed. A statement that the chief executive in a given year ran the company during a period of heavy borrowing is defensible if it is true, named or not. Put the same pointer next to “fraud” or “belongs in jail” and the specimen becomes an allegation against a person anyone can find.",
+              "sources": [
+                {
+                  "id": "da-s2",
+                  "locator": "s 2(1)"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 88"
+                }
+              ]
+            },
+            {
+              "text": "Satire and “everyone plays a role in a toxic system”. The 2013 Act has no separate satire defence. Parody is safe when no reasonable reader could take it as a statement of fact about the person, and a “satire” label does not undo a meaning the reader does take literally. A systemic critique that imputes no personal wrongdoing does not harm an individual’s reputation, so it is not defamatory of them. Identifying someone while accusing them of nothing is the strongest position there is.",
+              "sources": [
+                {
+                  "id": "singh",
+                  "locator": "para 7, quoting Eady J at para 14"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "para 25"
+                },
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "da-s3",
+                  "locator": "s 3(2)"
                 }
               ]
             }

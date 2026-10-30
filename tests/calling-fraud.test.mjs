@@ -21,7 +21,7 @@ test("the fraud study rests on primary sources and keeps its specimens labelled 
   assert.match(text("bogus"), /Orwellian ministry of truth/);
   // Specimen accusations only ever appear inside labelled analysis.
   assert.match(sections.get("specimens").intro, /not statements by Independent Tribunal/);
-  for (const id of ["specimen-table", "jail", "own-risk", "corrections"]) assert.equal(entries.get(id).kind, "Our analysis", id);
+  for (const id of ["specimen-table", "jail", "jigsaw", "own-risk", "corrections"]) assert.equal(entries.get(id).kind, "Our analysis", id);
   assert.match(entries.get("rules").kind, /not legal advice/);
   assert.match(p.status_note, /Nothing on this page says that any person or company committed fraud/);
   const html = await read("public/research/calling-fraud-a-fraud/index.html");
