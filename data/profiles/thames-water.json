@@ -2,10 +2,10 @@
   "id": "thames-water",
   "category": "legal-study",
   "title": "Thames Water: a marvel of financial engineering",
-  "subtitle": "Privatised debt-free in 1989, it now owes about £20bn. As a company it had been convicted on 106 occasions by 2015. In April 2025 the Government said no water executive had been jailed since privatisation.",
-  "summary": "A monopoly with one of the most predictable incomes in Britain ended up 86% geared, paying about £810m of gross interest last year including capitalised costs, on a one-star environmental rating, kept alive by emergency loans. A Commons committee blames “financial engineering and mismanagement”. This study follows the money through the 178-page High Court judgment, sets out the company’s criminal record, explains why no executive has been jailed and answers who regulates the regulators. The watchdog found that they, too, failed to comply with environmental law.",
+  "subtitle": "Everyone needs water, nobody can switch network, and it began in 1989 with no debt. It now owes about £20bn and paid interest equal to about 22p of every £1 of revenue last year. Here is how that happened, in plain English.",
+  "summary": "This page starts with the story in plain English: the rivers, the money and who was meant to stop it. A monopoly with one of the most predictable incomes in Britain ended up with debt of about 86% of its regulated value, on a one-star environmental rating, kept alive by emergency loans. A Commons committee blames “financial engineering and mismanagement”. The fuller record follows: the 178-page High Court judgment, the company’s criminal record, why no executive has been jailed, and who regulates the regulators.",
   "scope": "England · Thames Water’s finances, regulation, pollution record and restructuring, and the legal routes to accountability, as at 30 October 2026. Contains marked commentary.",
-  "status_note": "Judgments, legislation, regulators’ decisions, the Commons committee report and the 2025/26 accounts were checked on 30 October 2026. Creditors approved the structure for a larger rescue facility on 30 October, but the extra money is not yet committed. Sections marked as our analysis are commentary, not findings. No individual named here has been convicted of any offence connected with these events, and no person or company named here has been convicted of fraud over the group’s finances. This is research, not legal or financial advice.",
+  "status_note": "Judgments, legislation, regulators’ decisions, the Commons committee report and the 2025/26 accounts were checked on 30 October 2026. Creditors approved the structure for a larger rescue facility on 30 October, but the extra money is not yet committed. Sections marked as our analysis are commentary, not findings. No individual named here has been convicted of any offence connected with these events, and no person or company named here has been convicted of fraud over the group’s finances. We welcome scrutiny, including from the National Audit Office. This is research, not legal or financial advice.",
   "jurisdiction": "England and Wales",
   "checked": "2026-10-30",
   "pinned": true,
@@ -33,25 +33,747 @@
   ],
   "highlights": [
     {
+      "label": "Money in, 2025/26",
+      "value": "£3.6bn",
+      "detail": "Underlying revenue, up 39%, largely from allowed tariff increases",
+      "target": "money-in-out"
+    },
+    {
+      "label": "Interest paid",
+      "value": "£810m",
+      "detail": "About 22p of every £1 of revenue, including capitalised costs. Without them, about 17p",
+      "target": "the-bill"
+    },
+    {
+      "label": "Profit before tax",
+      "value": "£226m",
+      "detail": "After a £1.65bn loss the year before. In cash it was still £1.13bn short",
+      "target": "money-in-out"
+    },
+    {
+      "label": "New borrowing",
+      "value": "£1.57bn",
+      "detail": "Lent to it in 2025/26, after fees",
+      "target": "money-in-out"
+    },
+    {
+      "label": "Total debt",
+      "value": "£19.8bn",
+      "detail": "Up from nothing in 1989, on evidence the High Court recorded as unchallenged",
+      "target": "debt-free"
+    },
+    {
       "label": "Executives jailed",
       "value": "0",
       "detail": "Since privatisation, as the Government said in April 2025. The company itself was convicted on 106 occasions by 2015",
       "target": "zero"
-    },
-    {
-      "label": "Interest paid, 2025/26",
-      "value": "£810m",
-      "detail": "Gross, including £200.8m of capitalised borrowing costs. About 22% of underlying revenue, from a company privatised debt-free",
-      "target": "interest"
-    },
-    {
-      "label": "High Court judgment",
-      "value": "178 pages",
-      "detail": "“It is not for this Court to attribute blame”",
-      "target": "not-blame"
     }
   ],
   "sections": [
+    {
+      "id": "story",
+      "title": "The story in plain English",
+      "intro": "Start here. You do not need to know what a bond is. This section tells the story from first principles, and every number in it can be checked against the sources listed and the fuller record further down the page.",
+      "entries": [
+        {
+          "id": "summer-day",
+          "kind": "Plain English",
+          "title": "A hot day at the river",
+          "paragraphs": [
+            {
+              "text": "Picture a hot day in summer. You want to take the children to the water. In much of England that means the seaside. Thames Water’s story is mostly about rivers and streams, so here it means the riverbank.",
+              "sources": [
+                {
+                  "id": "tw-bw",
+                  "locator": "bathing waters its discharges could affect"
+                }
+              ]
+            },
+            {
+              "text": "Oxford has one official bathing site, Wolvercote Mill Stream. Its 2025 rating was Poor, the lowest grade. Oxford City Council says the official status means the water is monitored, not that it is safe, and that anyone who swims does so at their own risk. Wallingford Beach, on the Thames, was rated Sufficient. Thames Water lists both among the bathing waters its discharges could affect. The ratings do not say how much of the pollution came from Thames Water, and the company says farming and road run-off also affect river health.",
+              "sources": [
+                {
+                  "id": "bw25",
+                  "locator": "Wolvercote Mill Stream and Wallingford Beach"
+                },
+                {
+                  "id": "oxford-bw",
+                  "locator": "bathing water sites"
+                },
+                {
+                  "id": "tw-bw",
+                  "locator": "bathing waters its discharges could affect"
+                },
+                {
+                  "id": "ver",
+                  "locator": "company response"
+                }
+              ]
+            },
+            {
+              "text": "Nobody seems to count the days out that were spoiled. We found no official figure for how many people stayed out of the water or fell ill. The nearest thing is a charity’s tally: by August 2026 Surfers Against Sewage had received 765 sickness reports from 406 places in 2026. Those reports come from the whole UK, not just Thames Water’s area, and they are people’s own accounts, not medical findings.",
+              "sources": [
+                {
+                  "id": "lbc",
+                  "locator": "Surfers Against Sewage figures"
+                }
+              ]
+            },
+            {
+              "text": "The best-known case came before the 2024 Boat Race, when crews were warned not to enter the Thames because of E. coli. Oxford later confirmed that three of its crew had fallen ill that week, but did not directly blame the river. Proving that one discharge made one person ill is hard, and we found no court or regulator finding that does so.",
+              "sources": [
+                {
+                  "id": "boar",
+                  "locator": "Boat Race report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simple-business",
+          "kind": "Plain English",
+          "title": "The safest business you can imagine",
+          "paragraphs": [
+            {
+              "text": "Now think about the business behind that river. Everyone needs water. That is the assumption this story rests on: a home cannot function normally without it, so people cannot simply stop buying. Nobody can move to a different network. A regulator sets the price every five years. Thames Water’s group serves 24% of the UK population. In our view, few businesses anywhere have customers this certain.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 2, 10 and regulatory framework"
+                }
+              ]
+            },
+            {
+              "text": "It also began with a clean sheet. Evidence recorded by the High Court as unchallenged says the business went into private hands debt-free in 1989. By March 2026 it owed about £19.8bn.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-trick",
+          "kind": "Plain English",
+          "title": "How a safe business ends up owing £20bn",
+          "paragraphs": [
+            {
+              "text": "The logic is simple. Lenders like a business whose customers cannot leave, so they lend to it. Debt is usually cheaper than shareholders’ money. Ofwat set prices assuming a certain level of debt, so a company that borrowed more than that could keep the difference as profit. The Independent Water Commission described this incentive and said Ofwat did not, or could not, intervene.",
+              "sources": [
+                {
+                  "id": "iwc",
+                  "locator": "para 410"
+                }
+              ]
+            },
+            {
+              "text": "Borrowing is not wrong in itself. Pipes and treatment works last for generations, and a family borrows to buy a home for the same reason. Macquarie says over £11bn was invested during its years as an owner, and that the regulated asset base doubled.",
+              "sources": [
+                {
+                  "id": "macquarie",
+                  "locator": "sections on investment"
+                }
+              ]
+            },
+            {
+              "text": "The trouble comes when money leaves at the top while debt grows underneath. The Commons committee says that between 2006 and 2017 debt rose from £3.4bn to £10.8bn while an estimated £2.5bn was paid in dividends. Macquarie disputes those figures and puts distributions at about £1.1bn, with debt going from about £6bn to about £11bn. Money has no label, so nobody can say that one borrowed pound paid for one dividend. The common-sense point still holds: a pound paid to owners is not spent on a pipe, and a pound borrowed has to be paid back with interest.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "para 4"
+                },
+                {
+                  "id": "macquarie",
+                  "locator": "sections on distributions and debt"
+                }
+              ]
+            },
+            {
+              "text": "A monopoly cannot run out of customers. It can run out of money to pay its lenders. In March 2024 the shareholders called the business plan “unfinanceable and uninvestible” and declined to provide £750m. From April 2024 the parent group stopped servicing its debt and defaulted.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 63"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plain-words",
+          "kind": "Plain English",
+          "title": "The words that trip everyone up",
+          "table": {
+            "caption": "Financial words in plain English, with Thames Water’s 2025/26 figure",
+            "columns": [
+              "Word",
+              "What it means",
+              "Thames Water"
+            ],
+            "rows": [
+              [
+                "Revenue",
+                "All the money billed to customers. Nothing has been taken off yet",
+                "£3.6bn"
+              ],
+              [
+                "Profit",
+                "What is left on paper after all costs, including interest",
+                "£226m before tax"
+              ],
+              [
+                "Cash flow",
+                "The money that actually came in and went out. It can be negative even when there is a profit",
+                "£1.13bn short, before new loans"
+              ],
+              [
+                "Interest",
+                "The price of borrowing. It pays for the loan and does not reduce the debt",
+                "£809.6m paid"
+              ],
+              [
+                "Gross interest",
+                "All the interest paid, before taking off any interest received. Plain “interest paid” usually means this",
+                "£809.6m"
+              ],
+              [
+                "Net interest",
+                "Interest paid minus interest received",
+                "£494m"
+              ],
+              [
+                "Capitalised interest",
+                "Interest counted as part of the cost of building something, so it does not show up as a running cost that year. It is still real",
+                "£200.8m"
+              ],
+              [
+                "Net debt",
+                "What is owed, minus the cash held",
+                "£19.8bn on the lenders’ measure, £18.5bn in the accounts"
+              ],
+              [
+                "Gearing",
+                "Debt as a share of what the business is worth, like owing £86 on a £100 house",
+                "About 86%"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "If you mix up revenue, profit and cash, you are in good company. They are three different things, and this story depends on the difference.",
+              "sources": [
+                {
+                  "id": "ar26",
+                  "locator": "financial review; note on movements in net debt"
+                },
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-bill",
+          "kind": "Plain English",
+          "title": "What the debt costs, in pennies",
+          "table": {
+            "caption": "Every £1 of underlying revenue, 2025/26 (pence are our arithmetic)",
+            "columns": [
+              "Measure",
+              "Pence in the £1",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Underlying revenue",
+                "100p",
+                "£3,615.6m"
+              ],
+              [
+                "Interest paid, including capitalised costs",
+                "22p",
+                "£809.6m"
+              ],
+              [
+                "Interest in the cash flow statement",
+                "17p",
+                "£609.3m"
+              ],
+              [
+                "Net interest paid, after interest received",
+                "14p",
+                "£494m"
+              ],
+              [
+                "Share of bills servicing debts (committee’s estimate)",
+                "27p",
+                "Not given as an amount"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "These are the numbers that matter most. In the year to March 2026 the company’s underlying revenue was about £3.6bn. In the same year it paid £809.6m of interest on its borrowings. That is about 22p of every £1 coming in, or about £2.2m every day, and none of it pays off the debt itself.",
+              "sources": [
+                {
+                  "id": "ar26",
+                  "locator": "note on movements in net debt; income statement"
+                },
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                }
+              ]
+            },
+            {
+              "text": "The other figures are real too, and they measure different things. £200.8m of that interest was capitalised, which means it was counted as part of the cost of building projects. Leave that out and the figure is £609.3m, about 17p. Take off £114.9m of interest received and it is £494m, about 14p. The Commons committee estimates that 27% of bills go towards servicing debts and says that is similar to the sector average, so heavy debt costs are not unique to Thames Water.",
+              "sources": [
+                {
+                  "id": "ar26",
+                  "locator": "note on movements in net debt"
+                },
+                {
+                  "id": "efra",
+                  "locator": "para 12"
+                }
+              ]
+            },
+            {
+              "text": "Scale the 2025/26 numbers down to a household, and a family bringing in £36,156 a year would pay £8,096 in interest and owe about £198,000, more than five times its income. That family would also have spent about £11,300 more than it took in, before new borrowing. In fairness, part of that went on rebuilding the house: capital investment was £2,680m, and the regulator’s measure of the business’s value is £22.7bn. But the debt is about 86% of that value, the highest in the sector according to the committee, and this family cannot sell up and move.",
+              "sources": [
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                },
+                {
+                  "id": "efra",
+                  "locator": "para 12"
+                }
+              ]
+            },
+            {
+              "text": "Customers were paying more all the while. Underlying revenue rose 39% in 2025/26, largely from allowed tariff increases.",
+              "sources": [
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "money-in-out",
+          "kind": "Plain English",
+          "title": "Does it make a loss?",
+          "table": {
+            "caption": "Money in and money out, year to 31 March 2026, in order",
+            "columns": [
+              "Step",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Money billed (underlying revenue)",
+                "£3,616m"
+              ],
+              [
+                "Operating profit, after running costs and wear on assets (underlying)",
+                "£1,282m"
+              ],
+              [
+                "Reported profit before tax, after finance costs and one-off items",
+                "£226m"
+              ],
+              [
+                "The same line a year earlier",
+                "£1,647m loss"
+              ],
+              [
+                "Cash from running the business",
+                "£1,909m in"
+              ],
+              [
+                "Cash spent on investment",
+                "£2,544m out"
+              ],
+              [
+                "Net interest paid",
+                "£494m out"
+              ],
+              [
+                "Cash shortfall before new borrowing",
+                "£1,129m"
+              ],
+              [
+                "New borrowing, after fees",
+                "£1,570m in"
+              ],
+              [
+                "Net debt in the accounts, start to end of the year",
+                "£16,794m to £18,516m"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "On paper, not last year. After costs, interest and other finance items, the company reported a profit before tax of £226m for 2025/26. The year before it reported a loss of £1.65bn, mostly because of a £1.27bn write-down of a loan to another group company. The swing back came with a 39% rise in revenue, largely from allowed tariff increases.",
+              "sources": [
+                {
+                  "id": "ar26",
+                  "locator": "income statement"
+                },
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                }
+              ]
+            },
+            {
+              "text": "In cash, yes. Running the business brought in £1,909m, investment took out £2,544m, and net interest took out £494m. That left it £1,129m short, so lenders put in another £1,570m after fees, while only about £11m of borrowings and leases was repaid, because the rescue plan pushed repayments back. No dividends went to outside shareholders.",
+              "sources": [
+                {
+                  "id": "ar26",
+                  "locator": "summary cash flow statement"
+                }
+              ]
+            },
+            {
+              "text": "Profit and cash differ for an ordinary reason: a new sewage works is paid for in cash when it is built, but charged against profit a slice at a time over many years. So reporting a profit while needing loans to keep going is not a contradiction. It is the position Thames Water is in. The company itself says recapitalisation is not certain.",
+              "sources": [
+                {
+                  "id": "ar26",
+                  "locator": "financial review"
+                },
+                {
+                  "id": "tw-classb",
+                  "locator": "announcement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rivers",
+          "kind": "Plain English",
+          "title": "What happened to the rivers",
+          "paragraphs": [
+            {
+              "text": "Start with how a sewer works. When it rains hard, sewers fill up. Storm overflows are a relief valve: they release sewage diluted with rainwater into rivers so that it does not back up into homes and streets. That is what they are permitted for. Using them at other times is a breach.",
+              "sources": [
+                {
+                  "id": "epa25",
+                  "locator": "section on storm overflows"
+                }
+              ]
+            },
+            {
+              "text": "The Environment Agency’s monitors recorded Thames Water’s overflows spilling for 298,081 hours in 2024 and 107,822 hours in 2025. Laid end to end, that is about 34 years and about 12 years of continuous spilling, each packed into one calendar year. These hours are time, not volume, and many overflows run at once. The average spill lasted 11.7 hours in 2025, the longest of any company in the return. The fall from 2024 is real, but the Agency says much of the improvement across England reflects unusually dry weather. Thames Water also credits the Thames Tideway Tunnel. Several other companies recorded more hours in total.",
+              "sources": [
+                {
+                  "id": "edm",
+                  "locator": "tables 1 and 2, our arithmetic"
+                },
+                {
+                  "id": "gov-edm",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "ar26",
+                  "locator": "sewage and storm overflow review"
+                }
+              ]
+            },
+            {
+              "text": "Rain does not explain it all. Ofwat found that 157 wastewater works, 66% of those with the relevant permit conditions, could not meet those conditions. In 2025 Thames Water had the most pollution incidents of any company, 464, including 24 serious ones.",
+              "sources": [
+                {
+                  "id": "ofwat-fines",
+                  "locator": "notes for editors"
+                },
+                {
+                  "id": "epa25",
+                  "locator": "star ratings and serious pollution incidents"
+                }
+              ]
+            },
+            {
+              "text": "Pollution harms living things. Between 2012 and 2014 at least 1.4bn litres of untreated sewage reached the Thames and its tributaries, enough to fill about 560 Olympic swimming pools. Reporting of the case said people and animals were left ill and thousands of fish died. Judge Sheridan called it “a shocking and disgraceful state of affairs”. One crayfish fisherman lost £25,000 in a year. At Henley in 2016, a spill killed 1,144 fish and other water life across 13 species, and the stream took almost a year to recover. Near Gatwick, investigators found almost 1,400 dead fish, a fraction of the number the Agency believes were killed.",
+              "sources": [
+                {
+                  "id": "yahoo17",
+                  "locator": "report of the sentence"
+                },
+                {
+                  "id": "kn",
+                  "locator": "summary of harm"
+                },
+                {
+                  "id": "gov-henley",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "swm",
+                  "locator": "report of the sentence"
+                }
+              ]
+            },
+            {
+              "text": "Some of these places are rare. Chalk streams are among the rarest freshwater habitats on Earth, and around 85% of the world’s 280 are in England. The Telegraph reported in January 2025 that an overflow at Markyate had been discharging into the River Ver for more than 1,000 hours. Thames Water said its sewers had been overwhelmed after one of the wettest years in its region and pointed to plans to upgrade 250 sites, including Markyate.",
+              "sources": [
+                {
+                  "id": "ea-chalk",
+                  "locator": "introduction"
+                },
+                {
+                  "id": "ver",
+                  "locator": "report and company response"
+                }
+              ]
+            },
+            {
+              "text": "Further downstream, the tidal Thames shows what investment can do. Parts of it were declared biologically dead in 1957. The Zoological Society of London’s January 2026 health check found seals, seahorses, eels and even sharks, and credited upgraded sewage works and the Lee Tunnel for long-term improvements in water quality. The £4.6bn Tideway Tunnel was fully connected in 2025. The same report warns that sewage effluent continues to raise nitrate levels, which can harm aquatic life, and that the number of fish species has slightly declined, for reasons not yet known.",
+              "sources": [
+                {
+                  "id": "zsl",
+                  "locator": "summary of findings"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "who-watched",
+          "kind": "Plain English",
+          "title": "Who was supposed to stop it?",
+          "paragraphs": [
+            {
+              "text": "None of this was secret. The dividends were in filed accounts, the debt was in published reports, and the regulators’ rules were public. So the useful question is not how nobody noticed. It is why nobody stopped it.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60, drawing on filed accounts"
+                },
+                {
+                  "id": "iwc",
+                  "locator": "para 410"
+                }
+              ]
+            },
+            {
+              "text": "Different bodies had different jobs. Ofwat regulated the money and the service, the Environment Agency the rivers, the Drinking Water Inspectorate the tap water, and Defra set the policy. In April 2025 the National Audit Office reported on all of them under the headline “Regulators have failed to deliver a trusted and resilient water sector”. It found that no regulator was responsible for proactively inspecting wastewater assets. In December 2024 the Office for Environmental Protection had found that Defra, the Environment Agency and Ofwat failed to comply with environmental law over storm overflows.",
+              "sources": [
+                {
+                  "id": "nao",
+                  "locator": "press release"
+                },
+                {
+                  "id": "oep-press",
+                  "locator": "findings"
+                }
+              ]
+            },
+            {
+              "text": "The company has been punished many times: convicted on 106 occasions by 2015, with more fines since, and £122.7m in Ofwat penalties. Those convictions belong to the company. As the Government said in April 2025, no prison sentence had been handed to a water executive since privatisation. The section on why nobody is in prison explains the reasons, including how the law was written.",
+              "sources": [
+                {
+                  "id": "crim2015",
+                  "locator": "para 44"
+                },
+                {
+                  "id": "ofwat-fines",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "gov-prison",
+                  "locator": "announcement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "other-side",
+          "kind": "Plain English",
+          "title": "The other side of the story",
+          "paragraphs": [
+            {
+              "text": "A fair account has to include what goes right. The National Audit Office says the UK has one of the highest standards of drinking water in the world, and compliance with drinking water standards in England was 99.97% in 2024. That figure covers all of England, not Thames Water alone. The company’s own water quality index worsened from 2.04 to 4.32 in 2025, where lower is better. It says one positive test at a large works caused over half of that score, and that none of the failures was a risk to public health.",
+              "sources": [
+                {
+                  "id": "nao",
+                  "locator": "press release"
+                },
+                {
+                  "id": "dwi",
+                  "locator": "overall compliance table"
+                },
+                {
+                  "id": "ar26",
+                  "locator": "water quality"
+                }
+              ]
+            },
+            {
+              "text": "Not every owner came out ahead. The pension and sovereign wealth funds that took over from 2017 received no dividends and wrote off their investment. The company invested £2,680m in 2025/26, and says that in an average year it treats 99.46% of the wastewater entering its system.",
+              "sources": [
+                {
+                  "id": "efra",
+                  "locator": "paras 5, 12"
+                },
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                },
+                {
+                  "id": "ar26",
+                  "locator": "sewage and storm overflow review"
+                }
+              ]
+            },
+            {
+              "text": "Three more limits matter. The High Court said it was not its job to attribute blame. No person or company named here has been convicted of fraud over the group’s finances. And whether customers will end up paying for the rescue is still disputed and not yet known.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 61, 303–304"
+                },
+                {
+                  "id": "guardian",
+                  "locator": "statements of each side"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "kind": "Plain English",
+          "title": "The whole story on one page",
+          "table": {
+            "caption": "Thames Water from privatisation to 30 October 2026",
+            "columns": [
+              "When",
+              "What happened"
+            ],
+            "rows": [
+              [
+                "1989",
+                "Moved into private hands debt-free, on evidence the High Court recorded as unchallenged"
+              ],
+              [
+                "2006",
+                "Macquarie’s period as an owner begins. Debt is £3.4bn on the committee’s figure, about £6bn on Macquarie’s"
+              ],
+              [
+                "2015",
+                "The Court of Appeal records 106 convictions covering 162 environmental offences since 1991"
+              ],
+              [
+                "2017",
+                "Macquarie’s period ends, with debt at £10.8bn on the committee’s figure and about £11bn on Macquarie’s. A record fine of over £20m follows six pollution incidents. No outside shareholder receives a dividend from now on"
+              ],
+              [
+                "2024",
+                "In March shareholders decline to provide £750m. In April the parent group defaults. In December the environmental watchdog finds that the regulators failed to comply with environmental law"
+              ],
+              [
+                "2025",
+                "In February the High Court sanctions the rescue plan in 178 pages. In April the Court of Appeal dismisses the appeals, the National Audit Office reports, and the Government confirms no water executive has been jailed. In May Ofwat’s penalties reach £122.7m"
+              ],
+              [
+                "March 2026",
+                "Debt of £19.8bn and gearing of 86%, on revenue of £3.6bn"
+              ],
+              [
+                "September 2026",
+                "The Commons committee says “Thames Water is at the end of the road”"
+              ],
+              [
+                "October 2026",
+                "S&P cuts the company to CCC−. Creditors approve the structure for a larger rescue, but the extra £2.4bn is not yet committed"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Strip away the jargon and three plain questions remain. How did a business with guaranteed customers and no debt in 1989 end up here? Who benefited? And who pays? The rest of this page sets out the record on each, including where the record runs out.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60"
+                },
+                {
+                  "id": "efra",
+                  "locator": "paras 4–5, 14, 28–29"
+                },
+                {
+                  "id": "crim2015",
+                  "locator": "para 44"
+                },
+                {
+                  "id": "oep-press",
+                  "locator": "findings"
+                },
+                {
+                  "id": "nao",
+                  "locator": "press release"
+                },
+                {
+                  "id": "gov-prison",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "ofwat-fines",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "kn",
+                  "locator": "summary of the sentence"
+                },
+                {
+                  "id": "macquarie",
+                  "locator": "sections on acquisition and debt"
+                },
+                {
+                  "id": "ewca",
+                  "locator": "outcome"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                },
+                {
+                  "id": "tw-result",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "watermag",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "machine",
       "title": "The most boring business in Britain",
@@ -610,7 +1332,7 @@
               ]
             },
             {
-              "text": "For 2025 it stayed at one star, joined by three other companies. Serious incidents fell to 24, still the highest, and it again had the most incidents overall at 464. Serious incidents fell 27%. The company reports an 18% fall in pollutions. The Agency’s total on the same page fell from 523 to 464, about 11%, and the two measures may use different bases.",
+              "text": "For 2025 it stayed at one star, joined by three other companies. Serious incidents fell to 24, still the highest, and it again had the most incidents overall at 464. Serious incidents fell 27%. The company’s own count fell 18%, from 470 to 386. The Agency’s total on the same page fell from 523 to 464, about 11%. The two counts use different bases, and we use the Agency’s.",
               "sources": [
                 {
                   "id": "epa25",
@@ -619,6 +1341,10 @@
                 {
                   "id": "results26",
                   "locator": "operational highlights"
+                },
+                {
+                  "id": "ar26",
+                  "locator": "pollution review"
                 }
               ]
             }
@@ -956,6 +1682,15 @@
                 {
                   "id": "oep-press",
                   "locator": "findings"
+                }
+              ]
+            },
+            {
+              "text": "English defamation law has its own rules for words like these. Our study “Calling fraud a fraud”, linked at the foot of this page, sets them out.",
+              "sources": [
+                {
+                  "id": "fraud2",
+                  "locator": "section 2"
                 }
               ]
             }
@@ -1587,6 +2322,19 @@
                   "locator": "financial highlights"
                 }
               ]
+            },
+            {
+              "text": "Whether customers ultimately bear any part of the rescue costs depends on the size of any write-down or new equity and on how Ofwat treats any remaining cost in future price controls. That is not yet known.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "paras 303–304"
+                },
+                {
+                  "id": "ewca",
+                  "locator": "para 180"
+                }
+              ]
             }
           ]
         },
@@ -1763,6 +2511,65 @@
               ]
             }
           ]
+        },
+        {
+          "id": "whole-picture",
+          "kind": "Our analysis",
+          "title": "One step at a time, and the whole",
+          "paragraphs": [
+            {
+              "text": "Taken one at a time, most of the financial steps were permitted: borrowing, whole-business securitisation, restructuring with a court’s approval. Not everything was. The pollution offences were proved in court, and Ofwat found that dividends broke licence rules. But the biggest question is not about any single step. It is about what the steps added up to.",
+              "sources": [
+                {
+                  "id": "crim2015",
+                  "locator": "para 44"
+                },
+                {
+                  "id": "ofwat-fines",
+                  "locator": "announcement"
+                },
+                {
+                  "id": "ewhc",
+                  "locator": "paras 61, 288"
+                }
+              ]
+            },
+            {
+              "text": "So look at the whole. After 37 years, a public that had no choice but to pay is left with a monopoly owing about £20bn, on a one-star environmental rating, with a river site in Oxford graded Poor, kept alive by emergency loans. On those facts, it is our honest opinion that the fair everyday word for the overall bargain is fraudulent: the public paid for one thing and got another.",
+              "sources": [
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                },
+                {
+                  "id": "epa25",
+                  "locator": "star ratings"
+                },
+                {
+                  "id": "bw25",
+                  "locator": "Wolvercote Mill Stream"
+                },
+                {
+                  "id": "efra",
+                  "locator": "summary"
+                }
+              ],
+              "withheld": true
+            },
+            {
+              "text": "That word is our opinion of the arrangement as a whole, meaning the rules, the regulators and the market together. It is not a statement that any person or company lied, acted dishonestly or committed a crime. Fraud in law needs proof of dishonesty or intent against a particular person, and nobody has been convicted of it here. Our study “Calling fraud a fraud”, linked at the foot of this page, explains how English defamation law treats a word like this, and says that a label does not decide what a word means. Judge the word by the facts set out beside it.",
+              "sources": [
+                {
+                  "id": "fraud2",
+                  "locator": "section 2"
+                },
+                {
+                  "id": "ca993",
+                  "locator": "section 993"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1845,6 +2652,46 @@
               [
                 "The rescue loan cost 22.5%",
                 "One side’s table, on different terms, whose accuracy the judge doubted. It is not a court finding. The judge did call the price “very, very high”"
+              ],
+              [
+                "Special administration would have cost £3.35bn or more",
+                "One witness’s estimate. The judge was not persuaded it would be upwards of £3.35bn, but accepted it would likely cost at least as much as the plan"
+              ],
+              [
+                "£800m of the £1.388bn went on the cost of finance",
+                "Accurate as an answer given in cross-examination, once interest on existing debt and fees are included. The judge said the costs might be described as eye-watering"
+              ],
+              [
+                "Fines can reach 100% of profit",
+                "Accurate for the worst cases: the Court of Appeal said a fine could reach up to 100% of pre-tax net profit, even if that meant more than £100m"
+              ],
+              [
+                "Drinking water compliance of 99.97% is Thames Water’s score",
+                "That is the figure for all of England in 2024. The company’s own measure is its Compliance Risk Index, which worsened in 2025"
+              ],
+              [
+                "Spills fell by about 64%, so the problem is fixed",
+                "The fall in hours is accurate on the Agency’s data, from 298,081 to 107,822. The Agency says much of the improvement across England reflects unusually dry weather"
+              ],
+              [
+                "Thames Water runs at a loss",
+                "Not on paper in 2025/26: it reported a £226m profit before tax, after a £1.65bn loss the year before. In cash it was £1,129m short before new borrowing"
+              ],
+              [
+                "£7.2bn of dividends since privatisation, half to outside investors",
+                "We could not verify this from a primary source. The evidence before the High Court adds up to about £5.95bn from the operating company, and we found no record splitting that into outside and internal dividends"
+              ],
+              [
+                "£195.8m of dividends to the parent in 2023/24",
+                "Supported by Ofwat’s decision: £37.5m of interim dividends and £158.3m in March 2024 add up to £195.8m"
+              ],
+              [
+                "£656.3m dividend and about £1.2bn of new loans after the 2006 takeover",
+                "Not verified from a primary source, so we left it out"
+              ],
+              [
+                "470 pollution incidents in 2024",
+                "That is the company’s own count. The Environment Agency’s total for 2024 is 523. Both agree on 33 serious incidents"
               ]
             ]
           },
@@ -1878,7 +2725,7 @@
               "sources": []
             },
             {
-              "text": "We did not use the claim about the bulk of debt being inflation-linked, since we could not verify a current proportion. We did not cover the Thames Tideway Tunnel. We did not build a full year-by-year account of distributions, which would need every set of filed accounts at each level of the group, and we did not check Companies House for the complete ownership chain.",
+              "text": "We did not use the claim about the bulk of debt being inflation-linked, since we could not verify a current proportion. We mention the Thames Tideway Tunnel only briefly. We did not build a full year-by-year account of distributions, which would need every set of filed accounts at each level of the group, and we did not check Companies House for the complete ownership chain.",
               "sources": []
             }
           ]
@@ -1896,11 +2743,35 @@
           "kind": "Research method",
           "paragraphs": [
             {
-              "text": "Checked on 30 October 2026. We worked from the official text of the High Court and Court of Appeal judgments, the September 2026 Commons committee report, Ofwat’s decision and announcements, the Office for Environmental Protection’s notice, the Environment Agency’s annual reports, the Water (Special Measures) Act 2025 and the 2025/26 accounts, and checked each cited passage there. Where we relied on press or campaign material, the text says so.",
+              "text": "Checked on 30 October 2026. We worked from the official text of the High Court and Court of Appeal judgments, the September 2026 Commons committee report, Ofwat’s decision and announcements, the Office for Environmental Protection’s notice, the Environment Agency’s annual reports and storm overflow returns, the Water (Special Measures) Act 2025 and the 2025/26 accounts, and checked each cited passage there. Where we relied on press or campaign material, the text says so.",
               "sources": []
             },
             {
               "text": "The word “marvel” in the title is our irony, and “financial engineering” is the Commons committee’s own phrase. Sections marked as our analysis are commentary. Nothing here says that any person or company committed fraud. No individual named here has been convicted of any offence connected with these events, and no person or company named here has been convicted of fraud over the group’s finances. A company’s convictions are the company’s. Allegations stay allegations, and the presumption of innocence applies. This is research, not legal or financial advice.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "scrutiny",
+          "kind": "Research method",
+          "title": "We welcome scrutiny",
+          "paragraphs": [
+            {
+              "text": "The National Audit Office is the UK’s independent public spending watchdog. It audits public bodies for Parliament, and in April 2025 it reported on Ofwat, the Environment Agency, the Drinking Water Inspectorate and Defra. We welcome its scrutiny of this page. We intend to ask it, along with the companies and individuals involved, what should be done with this work.",
+              "sources": [
+                {
+                  "id": "nao-about",
+                  "locator": "about the NAO"
+                },
+                {
+                  "id": "nao",
+                  "locator": "press release"
+                }
+              ]
+            },
+            {
+              "text": "We welcome the same scrutiny from Thames Water, its lenders, its past and present owners, the regulators and anyone else named here. If we have something wrong, tell us using the corrections link at the foot of this page. We will fix it, keep the change in the public history of this page, and print any reply.",
               "sources": []
             }
           ]
@@ -2350,6 +3221,124 @@
       "type": "Published reporting",
       "url": "https://theboar.org/2024/04/is-the-thames-safe-to-race-in-the-fallout-of-the-oxford-cambridge-boat-race",
       "checked": "2026-10-30"
+    },
+    {
+      "id": "nao",
+      "title": "Regulators have failed to deliver a trusted and resilient water sector",
+      "publisher": "National Audit Office",
+      "type": "Public audit body press release",
+      "url": "https://www.nao.org.uk/press-releases/regulators-have-failed-to-deliver-a-trusted-and-resilient-water-sector-nao/",
+      "checked": "2026-10-30",
+      "date": "2025-04-25"
+    },
+    {
+      "id": "nao-about",
+      "title": "About the National Audit Office",
+      "publisher": "National Audit Office",
+      "type": "Public audit body statement",
+      "url": "https://www.nao.org.uk/about-us/",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "edm",
+      "title": "Event Duration Monitoring: storm overflows annual returns, 2024 and 2025 summary tables",
+      "publisher": "Environment Agency",
+      "type": "Regulator’s data",
+      "url": "https://www.data.gov.uk/dataset/19f6064d-7356-466f-844e-d20ea10ae9fd/event-duration-monitoring-storm-overflows-annual-returns",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "gov-edm",
+      "title": "Fewer and shorter storm overflow spills in 2025, new monitoring data shows",
+      "publisher": "GOV.UK (Environment Agency)",
+      "type": "Regulator’s announcement",
+      "url": "https://www.gov.uk/government/news/fewer-and-shorter-storm-overflow-spills-in-2025-new-monitoring-data-shows",
+      "checked": "2026-10-30",
+      "date": "2026-03-26"
+    },
+    {
+      "id": "bw25",
+      "title": "Bathing water classifications 2025",
+      "publisher": "GOV.UK",
+      "type": "Regulator’s data",
+      "url": "https://www.gov.uk/government/publications/bathing-waters-in-england-compliance-reports/bathing-water-classifications-2025",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "oxford-bw",
+      "title": "Bathing water sites",
+      "publisher": "Oxford City Council",
+      "type": "Local authority guidance",
+      "url": "https://www.oxford.gov.uk/waterways/bathing-water",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "tw-bw",
+      "title": "Bathing waters: planning note",
+      "publisher": "Thames Water",
+      "type": "Company statement",
+      "url": "https://www.thameswater.co.uk/media-library/mwnntbwf/bathing-waters.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "gov-henley",
+      "title": "Thames Water fined £2.3 million for foreseeable pollution",
+      "publisher": "GOV.UK (Environment Agency)",
+      "type": "Regulator’s announcement",
+      "url": "https://www.gov.uk/government/news/thames-water-fined-23-million-for-foreseeable-pollution",
+      "checked": "2026-10-30",
+      "date": "2021-03-02"
+    },
+    {
+      "id": "zsl",
+      "title": "The State of the Thames",
+      "publisher": "Zoological Society of London",
+      "type": "Scientific report summary",
+      "url": "https://www.zsl.org/what-we-do/projects/state-of-the-thames",
+      "checked": "2026-10-30",
+      "date": "2026-01-19"
+    },
+    {
+      "id": "dwi",
+      "title": "Drinking Water 2024: compliance with water quality standards, England",
+      "publisher": "Drinking Water Inspectorate",
+      "type": "Regulator’s report",
+      "url": "https://www.dwi.gov.uk/what-we-do/annual-report/drinking-water-2024/drinking-water-2024-summary-of-the-chief-inspectors-report-for-drinking-water-in-england/compliance-with-water-quality-standards/",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "lbc",
+      "title": "Hundreds fall ill in sewage crisis at UK’s best beaches",
+      "publisher": "LBC",
+      "type": "Published reporting",
+      "url": "https://www.lbc.co.uk/news/uk/hundreds-fall-ill-sewage-crisis-uks-best-beaches/",
+      "checked": "2026-10-30",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "ea-chalk",
+      "title": "Giving the River Rib room to breathe: restoring a Hertfordshire chalk stream",
+      "publisher": "Environment Agency",
+      "type": "Government blog",
+      "url": "https://environmentagency.blog.gov.uk/2026/09/09/giving-the-river-rib-room-to-breathe-restoring-a-hertfordshire-chalk-stream/",
+      "checked": "2026-10-30",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "ver",
+      "title": "Thames Water pumps sewage into chalk stream for 1,000 hours",
+      "publisher": "The Telegraph, on Yahoo",
+      "type": "Published reporting",
+      "url": "https://www.yahoo.com/news/thames-water-pumps-sewage-chalk-120000633.html",
+      "checked": "2026-10-30",
+      "date": "2025-01-24"
     }
-  ]
+  ],
+  "evidence_image": {
+    "src": "/images/thames-water-headline-numbers.png",
+    "width": 1080,
+    "height": 2890,
+    "alt": "Infographic of Thames Water headline numbers for the year to 31 March 2026. Revenue £3.6bn. Interest paid £810m, about 22p of every £1. Profit before tax £226m after a £1.65bn loss the year before. Cash shortfall £1.13bn. New borrowing £1.57bn. Total net debt £19.8bn, about 86% of regulated value. Debt rose from £0 in 1989 to £3.4bn in 2006, £10.8bn in 2017 and £19.8bn in 2026, with Macquarie giving about £6bn and about £11bn for 2006 and 2017. Overflow spills 107,822 hours in 2025. 464 pollution incidents in 2025, 24 serious. 106 convictions of the company by 2015. No water executive jailed. No official total of people made ill was found. No court has found fraud by any person or company.",
+    "caption": "The headline numbers. Every figure is sourced in the sections below. Open the image at full size to read or share it."
+  }
 }

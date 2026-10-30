@@ -29,6 +29,30 @@ test("the Thames Water study keeps findings, allegations and commentary apart", 
   // The "dreadful results" remark is the judge's, and Macquarie's reply stays on the page.
   assert.match(text("sick"), /Judge Sheridan said/);
   assert.match(text("macquarie"), /£879m in dividends/);
+  // The page opens with the plain-English story, and its numbers stay tied to the record.
+  assert.equal(p.sections[0].id, "story");
+  assert.equal(p.highlights[1].target, "the-bill");
+  assert.match(text("money-in-out"), /profit before tax of £226m/);
+  assert.match(text("money-in-out"), /£1,129m short/);
+  assert.match(text("money-in-out"), /£1,570m after fees/);
+  await readFile(new URL(`../public${p.evidence_image.src}`, import.meta.url));
+  assert.match(text("the-bill"), /about 22p of every £1/);
+  assert.match(text("the-bill"), /about £2\.2m every day/);
+  assert.match(text("rivers"), /298,081 hours in 2024 and 107,822 hours in 2025/);
+  assert.match(text("rivers"), /time, not volume/);
+  assert.match(text("summer-day"), /not medical findings/);
+  assert.match(text("other-side"), /covers all of England, not Thames Water alone/);
+  // "Fraudulent" appears once as our word, aimed at the whole arrangement, inside labelled analysis.
+  assert.equal(entries.get("whole-picture").kind, "Our analysis");
+  assert.equal(entries.get("whole-picture").paragraphs[1].withheld, true);
+  assert.match(entries.get("whole-picture").paragraphs[1].text, /fraudulent/);
+  assert.equal(entries.get("whole-picture").paragraphs[2].withheld, undefined);
+  assert.match(text("whole-picture"), /not a statement that any person or company lied, acted dishonestly or committed a crime/);
+  const own = p.sections.flatMap((s) => s.entries).filter((e) => e.paragraphs.some((x) => /fraudulent(?! trading| purpose)/i.test(x.text)));
+  assert.deepEqual(own.map((e) => e.id), ["whole-picture"]);
+  // The audit office can scrutinise the regulators, and the page says it welcomes that.
+  assert.match(text("scrutiny"), /We intend to ask it, along with the companies and individuals involved, what should be done with this work/);
+  assert.match(p.status_note, /National Audit Office/);
   assert.equal((await json("public/data/tiles.json")).tiles[0].id, "thames-water");
   assert.equal(entries.get("rational").kind, "Our analysis");
   assert.match(text("rational"), /does not say that any person or company committed fraud/);
@@ -36,6 +60,7 @@ test("the Thames Water study keeps findings, allegations and commentary apart", 
   assert.match(text("two-loans"), /not fully convinced/);
   assert.match(text("interest"), /£200\.8m of capitalised borrowing costs/);
   const html = await read("public/research/thames-water/index.html");
+  assert.ok(html.includes("This part is not published"));
   assert.ok(html.includes('href="/research/private-prosecution-staying-in-control/"'));
   assert.ok((await read("public/research/private-prosecution-staying-in-control/index.html")).includes('href="/research/thames-water/"'));
 });
