@@ -1,0 +1,1026 @@
+{
+  "id": "not-conducive-to-the-public-good",
+  "category": "legal-study",
+  "title": "Access to the UK restricted: “not conducive to the public good”",
+  "subtitle": "One broad phrase lets the Home Office keep out artists, politicians, commentators and academics. In 2026 the travel authorisation system made it fast, quiet and unappealable.",
+  "summary": "In 2026 the Home Office kept out Ye, an MEP and other speakers at a far-right rally, the streamers Hasan Piker and Cenk Uygur, a Finnish MEP and, in late October, the Swedish author Andreas Malm. Each time the stated reason was that their presence was “not conducive to the public good”. The test needs no conviction. Most of these people were refused or lost an electronic travel authorisation, which has no appeal. Official statistics count only the Home Secretary’s personal exclusions (10 in 2025), not these refusals. The courts accept that free expression is engaged, but they give ministers great weight and have upheld exclusions.",
+  "scope": "United Kingdom · Immigration law on refusing or cancelling permission to travel to or enter the UK on “non-conducive” grounds, the Home Secretary’s personal exclusion power, and the leading court cases. Covers cases reported up to 30 October 2026. It does not cover deportation, deprivation of citizenship or temporary exclusion orders against British citizens.",
+  "status_note": "Rules, guidance, official statistics and judgments were checked on 30 October 2026. The 2026 cases rest on news reporting and the people’s own accounts, because the Home Office does not publish reasons. The Malm decision was reported the same day and may change. The pattern analysis, the fact-check of the post and artwork, and the reform proposal are our views, not court findings or current law. This is legal research, not legal advice.",
+  "jurisdiction": "United Kingdom",
+  "checked": "2026-10-30",
+  "tags": [
+    "uk",
+    "immigration",
+    "freedom-of-expression",
+    "exclusion",
+    "home-office",
+    "palestine"
+  ],
+  "evidence_image": {
+    "src": "/images/malm-uk-entry-campaign-post.jpg",
+    "width": 1179,
+    "height": 1730,
+    "after_section": "cases-2026",
+    "alt": "Screenshot of an Instagram post by defendourjuries headed BREAKING: Swedish author and academic Andreas Malm banned from entering the UK. Malm had been due to speak at an event about UK state repression. A photograph of Malm and covers of his books.",
+    "caption": "The campaign post that prompted this page (defendourjuries on Instagram, 30 October 2026). A campaign post, not an official record. Cropped to remove a private account. Its core claim matches the reporting cited above; see the fact-check below for the detail."
+  },
+  "artworks": [
+    {
+      "src": "/images/uk-freedom-timeline-satire.jpg",
+      "width": 1254,
+      "height": 1254,
+      "after_section": "fact-check",
+      "alt": "Satirical neon poster titled UK Freedom Timeline: panels for Magna Carta 1215, the Bill of Rights 1689 and the European Convention on Human Rights 1950, then a red 2026 panel in which an artist, a politician and a journalist are each stamped Not conducive to the public good. A banner reads We protect you from different opinions. We tell you what to think. Signed Planetary Council, Ministry of Memes and the Better Propaganda.",
+      "caption": "Satire supplied to Independent Tribunal. The “Planetary Council” and “Ministry of Memes” are fictional, and the slogans are parody, not government statements. The table above checks each panel against the record.",
+      "transcript": "UK FREEDOM TIMELINE\n1215 — MAGNA CARTA. Limit arbitrary power.\n1689 — BILL OF RIGHTS. Parliament and free debate.\n1950 — EUROPEAN CONVENTION ON HUMAN RIGHTS. Freedom of expression.\n2026 — LIVE. Artist: NOT CONDUCIVE TO THE PUBLIC GOOD. Politician: NOT CONDUCIVE TO THE PUBLIC GOOD. Journalist: NOT CONDUCIVE TO THE PUBLIC GOOD. Status: real time.\nWE PROTECT YOU FROM DIFFERENT OPINIONS. WE TELL YOU WHAT TO THINK.\nPLANETARY COUNCIL | MINISTRY OF MEMES AND THE BETTER PROPAGANDA"
+    }
+  ],
+  "related": [
+    {
+      "id": "public-order",
+      "title": "Public order and protest"
+    },
+    {
+      "id": "terrorist-connection-add-on",
+      "title": "Terrorist connection add-on"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The test",
+      "value": "Character, conduct, associations",
+      "detail": "No conviction needed. Home Office guidance calls it “intentionally broad”",
+      "target": "meaning"
+    },
+    {
+      "label": "Travel authorisation cancelled",
+      "value": "No appeal",
+      "detail": "The only routes are a visa application, which takes weeks, or judicial review",
+      "target": "eta"
+    },
+    {
+      "label": "Official count",
+      "value": "10 in 2025",
+      "detail": "Personal exclusions only. No figures for refusals by officials or travel authorisations",
+      "target": "numbers"
+    }
+  ],
+  "sections": [
+    {
+      "id": "meaning",
+      "title": "What the phrase means",
+      "intro": "There are two routes to the same result: the Home Secretary excludes someone personally, or officials refuse or cancel their permission.",
+      "entries": [
+        {
+          "id": "definition",
+          "title": "The Home Office definition",
+          "kind": "Official guidance",
+          "date": "2025-11-11",
+          "paragraphs": [
+            {
+              "text": "Home Office guidance says “non-conducive to the public good” means it is undesirable to admit the person to the UK because of their character, conduct or associations, because they pose a threat to UK society. It calls the test “intentionally broad in nature so that it can be applied proportionately on a case-by-case basis.”",
+              "sources": [
+                {
+                  "id": "guidance",
+                  "locator": "Introduction: background"
+                }
+              ]
+            },
+            {
+              "text": "No criminal conviction is needed. The guidance says the standard is the balance of probabilities (more likely than not), that decisions must be “reasonable, proportionate and evidence based”, and that “allegations, unsubstantiated and vague generalisations are not sufficient.” The examples given for extremism are withheld from the published version as “Official – sensitive”.",
+              "sources": [
+                {
+                  "id": "guidance",
+                  "locator": "Introduction; extremism and unacceptable behaviour"
+                }
+              ]
+            },
+            {
+              "text": "The guidance does not mention Article 10 of the European Convention on Human Rights (freedom of expression).",
+              "sources": [
+                {
+                  "id": "guidance",
+                  "locator": "whole document, version 4.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unacceptable-behaviours",
+          "title": "“Unacceptable behaviours”",
+          "kind": "Official guidance",
+          "paragraphs": [
+            {
+              "text": "Since 2005 the Home Office has applied a list of “unacceptable behaviours”. It covers using writing, public speaking, a website or a position of responsibility to express views that incite, justify or glorify terrorist violence, seek to provoke others to terrorist acts, foment other serious criminal activity, or “foster hatred which might lead to inter-community violence in the UK”. The list is “indicative rather than exhaustive”. Decision-makers must consider whether the person has publicly retracted those views.",
+              "sources": [
+                {
+                  "id": "guidance",
+                  "locator": "Extremism and unacceptable behaviour"
+                },
+                {
+                  "id": "commons-library",
+                  "locator": "summary of briefing SN07035"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "two-routes",
+          "title": "Personal exclusion and refusal by officials",
+          "kind": "Official guidance and parliamentary briefing",
+          "paragraphs": [
+            {
+              "text": "The Home Secretary can personally direct that someone be excluded. The Commons Library says the circumstances in which this power can be used are not limited by legislation, and the discretion “has been deliberately left in broad terms”. Officials then must refuse that person. Separately, officials must refuse, and can cancel, permission where they judge a person’s presence not conducive to the public good. They do not need the Home Secretary to decide personally.",
+              "sources": [
+                {
+                  "id": "commons-library",
+                  "locator": "sections 1.1 and 2"
+                },
+                {
+                  "id": "guidance",
+                  "locator": "Part Suitability; exclusion"
+                }
+              ]
+            },
+            {
+              "text": "An excluded person can write to the Home Office asking for the ban to be lifted. The Commons Library notes that “in most cases there is no formal right of appeal”, but judicial review (a court check on whether the decision was lawful, not whether it was right) is available.",
+              "sources": [
+                {
+                  "id": "commons-library",
+                  "locator": "section 2.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eta",
+      "title": "The travel authorisation: faster, quieter, no appeal",
+      "intro": "Most of the 2026 cases did not involve a personal exclusion. They involved an electronic travel authorisation (ETA) being refused or cancelled.",
+      "entries": [
+        {
+          "id": "eta-rules",
+          "title": "What the rules require",
+          "kind": "Immigration Rules",
+          "paragraphs": [
+            {
+              "text": "Most visitors who do not need a visa, including EU citizens and Americans, need an ETA before travelling. Appendix ETA of the Immigration Rules says an application must be refused, and an ETA already held must be cancelled, where “the person’s presence in the UK is not conducive to the public good because of their conduct, character, associations”. The same applies where the Home Secretary has personally directed exclusion.",
+              "sources": [
+                {
+                  "id": "appendix-eta",
+                  "locator": "ETA 2.1(a), 2.3, 5.1(a), 5.3"
+                },
+                {
+                  "id": "euronews-rally",
+                  "locator": "ETA explainer"
+                }
+              ]
+            },
+            {
+              "text": "The Home Office says an ETA is permission to travel, not permission to enter. A person refused an ETA has to apply for a visa instead.",
+              "sources": [
+                {
+                  "id": "appendix-eta",
+                  "locator": "introduction"
+                },
+                {
+                  "id": "guidance",
+                  "locator": "Electronic Travel Authorisation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eta-remedies",
+          "title": "What a person can do",
+          "kind": "Legal commentary",
+          "paragraphs": [
+            {
+              "text": "There is no appeal against an ETA cancellation. Immigration lawyers advise applying for a visit visa, which allows supporting evidence and representations, and seeking judicial review if that is refused. They also note that Convention rights usually apply only to people within the UK’s jurisdiction, which makes it harder for a would-be visitor to rely on them.",
+              "sources": [
+                {
+                  "id": "irwin-mitchell",
+                  "locator": "options after cancellation"
+                },
+                {
+                  "id": "lee-thompson",
+                  "locator": "alternatives"
+                }
+              ]
+            },
+            {
+              "text": "Timing matters. Al Jazeera notes that a standard visitor visa takes about three weeks, so a person cancelled a week before a talk cannot obtain a decision in time.",
+              "sources": [
+                {
+                  "id": "aljazeera-malm",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cases-2026",
+      "title": "The 2026 cases",
+      "intro": "Reported cases only. The Home Office generally does not name the people it keeps out or give its reasons, so this list is incomplete and relies on reporting.",
+      "entries": [
+        {
+          "id": "cases-table",
+          "title": "Who, when and what was reported",
+          "kind": "Summary of reporting",
+          "table": {
+            "caption": "Reported non-conducive decisions in 2026",
+            "columns": [
+              "Person",
+              "When",
+              "What happened",
+              "Reported context"
+            ],
+            "rows": [
+              [
+                "Ye (Kanye West), US rapper",
+                "6–7 April",
+                "ETA approved online, then withdrawn after review",
+                "Due to headline Wireless in July; festival cancelled. Antisemitic remarks, including praise for Hitler"
+              ],
+              [
+                "Speakers for the “Unite the Kingdom” rally, including Polish MEP Dominik Tarczyński and Belgian MP Filip Dewinter",
+                "May",
+                "ETAs refused or withdrawn",
+                "Rally organised by Tommy Robinson on 16 May. Home Secretary cited the public good; Prime Minister called them “far-right agitators”"
+              ],
+              [
+                "Hasan Piker and Cenk Uygur, US streamer and broadcaster",
+                "1 June",
+                "ETAs cancelled",
+                "Due at SXSW London; Uygur also at the Oxford Union. Both say it was about criticising Israel; a Labour MP had called for a ban"
+              ],
+              [
+                "Sebastian Tynkkynen, Finnish MEP",
+                "July",
+                "Entry refused by email, which said there was no right of appeal",
+                "Purpose of trip not reported by Yle"
+              ],
+              [
+                "Andreas Malm, Swedish author and academic",
+                "28–30 October",
+                "ETA cancelled; told to apply for a visa",
+                "Due to speak on 4 November at the launch of Tribune magazine’s “Empire Now” issue, with Palestine Action co-founder Huda Ammori"
+              ],
+              [
+                "Macklemore, US rapper",
+                "October",
+                "No decision reported. 50 peers asked for his ETA to be cancelled",
+                "“Free Palestine” concert at Wembley on 30 October"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each row is drawn from the reports cited in the entries below.",
+              "sources": [
+                {
+                  "id": "guardian-ye",
+                  "locator": "report"
+                },
+                {
+                  "id": "euronews-rally",
+                  "locator": "report"
+                },
+                {
+                  "id": "ap-piker",
+                  "locator": "report"
+                },
+                {
+                  "id": "yle-tynkkynen",
+                  "locator": "report"
+                },
+                {
+                  "id": "aljazeera-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "ibtimes-macklemore",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ye",
+          "title": "Ye and the Wireless festival",
+          "kind": "News reporting",
+          "date": "2026-04-07",
+          "paragraphs": [
+            {
+              "text": "Ye applied for an ETA on 6 April. It was approved online and then rescinded after review. Festival Republic said: “The Home Office has withdrawn Ye’s ETA, denying him entry into the United Kingdom.” Wireless was cancelled and tickets refunded. The Prime Minister had called the booking “deeply concerning” given Ye’s “previous anti-Semitic remarks”. Ye had praised Hitler and released a song called “Heil Hitler”; in January he apologised in a newspaper advert and attributed his behaviour to bipolar disorder.",
+              "sources": [
+                {
+                  "id": "guardian-ye",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rally",
+          "title": "The “Unite the Kingdom” speakers",
+          "kind": "News reporting",
+          "date": "2026-05-15",
+          "paragraphs": [
+            {
+              "text": "Before the 16 May rally organised by Tommy Robinson (Stephen Yaxley-Lennon), the Home Office refused or withdrew the ETAs of several foreign speakers. Euronews named six of at least seven: Eva Vlaardingerbroek, Ada Lluch, Filip Dewinter, MEP Dominik Tarczyński, Valentina Gomez and Joey Mannarino. Home Secretary Shabana Mahmood said their presence was “not conducive to the public good”. The Home Office did not say why any individual was refused. The Commons Library later referred to eleven people.",
+              "sources": [
+                {
+                  "id": "euronews-rally",
+                  "locator": "report"
+                },
+                {
+                  "id": "commons-library",
+                  "locator": "recent cases"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "piker",
+          "title": "Hasan Piker and Cenk Uygur",
+          "kind": "News reporting",
+          "date": "2026-06-01",
+          "paragraphs": [
+            {
+              "text": "The Home Office cancelled both men’s ETAs “on the grounds that their presence in the U.K. may not be conducive to the public good”, adding that such decisions are based solely on an assessment of risk. Piker called it a case where “the interests of Israel take the highest priority”. Uygur said he was banned “for criticizing Israel”. Labour MP David Taylor, who had called for the ban, said “there is no reason we should open our doors to those who seek to spread hate and division”.",
+              "sources": [
+                {
+                  "id": "ap-piker",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "The Home Office has not published its reasons for either man. Their explanation and the MP’s are competing accounts; neither has been tested in court.",
+              "sources": [
+                {
+                  "id": "ap-piker",
+                  "locator": "report"
+                },
+                {
+                  "id": "irwin-mitchell",
+                  "locator": "commentary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tynkkynen",
+          "title": "Sebastian Tynkkynen MEP",
+          "kind": "News reporting",
+          "date": "2026-07-16",
+          "paragraphs": [
+            {
+              "text": "Tynkkynen, a Finnish MEP in the European Conservatives and Reformists group, said he received an email at his work address, on his way to Brussels airport, refusing him entry because his presence was “not conducive to the public good”. He said the notice stated there was no right of appeal. Yle did not report why he was travelling.",
+              "sources": [
+                {
+                  "id": "yle-tynkkynen",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "malm",
+          "title": "Andreas Malm",
+          "kind": "News reporting",
+          "date": "2026-10-30",
+          "paragraphs": [
+            {
+              "text": "Malm, a Swedish climate scholar and author of How to Blow Up a Pipeline, says the Home Office cancelled his ETA by email on Wednesday 28 October without warning. The email said his “presence in the UK is not considered to be conducive to the public good” and that if he wished to visit he must apply for a visa, when officials would “consider your circumstances in more detail”. He had used an ETA to visit in May.",
+              "sources": [
+                {
+                  "id": "aljazeera-malm",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "He was due to speak on Wednesday 4 November at the launch of Tribune magazine’s “Empire Now” issue, with Huda Ammori, a co-founder of Palestine Action, which is proscribed. Novara Media describes the event as being about the effect of the Palestine Action ban on free speech, timed to coincide with the Supreme Court challenge to the ban. Tribune says the event will go ahead with Malm speaking by video, and that lawyers told it the cancellation had “effectively banned him from entry”.",
+              "sources": [
+                {
+                  "id": "tribune-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "aljazeera-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "novara-malm",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "Malm said: “I am deeply dismayed at this sudden ban on travelling to the UK”, “My position on Palestine has always been public” and “I haven’t said anything in public about Palestine during these intervening months or written anything about it.” He called it “a drift towards authoritarianism that didn’t begin with me”. The Home Office said it does not comment on individual cases and that decisions are “based solely on an assessment of the potential risk an individual may pose to UK society”.",
+              "sources": [
+                {
+                  "id": "tribune-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "aljazeera-malm",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "macklemore",
+          "title": "Macklemore: a call, not a decision",
+          "kind": "News reporting",
+          "date": "2026-10-25",
+          "paragraphs": [
+            {
+              "text": "Fifty peers, in a letter led by Lord Walney, asked the Home Secretary to cancel Macklemore’s ETA before his “Free Palestine” concert at Wembley on 30 October, invoking the same ground. No decision had been reported when this page was checked.",
+              "sources": [
+                {
+                  "id": "ibtimes-macklemore",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "courts",
+      "title": "What the courts have said",
+      "intro": "Courts accept that excluding a speaker can engage freedom of expression. They have still upheld the exclusions in the leading cases.",
+      "entries": [
+        {
+          "id": "carlile",
+          "title": "Parliamentarians lose: the Rajavi case",
+          "kind": "Supreme Court judgment",
+          "date": "2014-11-12",
+          "citation": "R (Lord Carlile of Berriew QC) v Secretary of State for the Home Department [2014] UKSC 60",
+          "paragraphs": [
+            {
+              "text": "Cross-party parliamentarians invited Maryam Rajavi, an Iranian opposition leader living in Paris and excluded since 1997, to speak at Westminster. The Home Secretary refused to lift the ban, citing the risk to British interests from Iran’s reaction. It was common ground that Article 10 was engaged.",
+              "sources": [
+                {
+                  "id": "carlile",
+                  "locator": "paras 2–8, 35, 40"
+                }
+              ]
+            },
+            {
+              "text": "The Supreme Court dismissed the appeal by four to one. Lord Sumption said the question depends on effects, not on whether ministers agree with the opinions. He gave considerable weight to the Home Secretary’s predictive judgment: “Ministers are politically responsible for the consequences of their decision. Judges are not.”",
+              "sources": [
+                {
+                  "id": "carlile",
+                  "locator": "paras 17, 21, 32"
+                }
+              ]
+            },
+            {
+              "text": "Lord Kerr dissented. He accepted that courts should respect the executive’s assessment of risk, but said “the courts do not defer to the executive in assessing the value of that right”, and that it was a fundamental error to let the executive’s expertise weigh in valuing free expression.",
+              "sources": [
+                {
+                  "id": "carlile",
+                  "locator": "paras 150, 155"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "naik",
+          "title": "Zakir Naik: the audience’s rights count",
+          "kind": "Court of Appeal judgment",
+          "date": "2011-12-19",
+          "citation": "R (Naik) v Secretary of State for the Home Department [2011] EWCA Civ 1546",
+          "paragraphs": [
+            {
+              "text": "The Home Secretary excluded the Indian preacher Zakir Naik in June 2010 under the unacceptable behaviours policy. The Court of Appeal accepted that his UK supporters held Article 10 rights he could rely on, and left open whether he could rely on his own. It found the earlier June decisions procedurally unfair but held the August 2010 exclusion justified and proportionate.",
+              "sources": [
+                {
+                  "id": "naik",
+                  "locator": "paras 31–32, 74–76"
+                },
+                {
+                  "id": "naik-home-office",
+                  "locator": "news story"
+                }
+              ]
+            },
+            {
+              "text": "Carnwath LJ said “great weight” is given to the minister’s assessment, but where Article 10 is engaged the court must decide whether the reasons are “relevant and sufficient”. He added that the Home Secretary was entitled to ask “not just for general assertions, but for specific repudiation” of past statements.",
+              "sources": [
+                {
+                  "id": "naik",
+                  "locator": "paras 48, 74"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wilders",
+          "title": "Geert Wilders: a tribunal win in 2009",
+          "kind": "Tribunal decision, as reported",
+          "date": "2009-10-13",
+          "paragraphs": [
+            {
+              "text": "In February 2009 the Dutch MP Geert Wilders was turned back at Heathrow on his way to a House of Lords screening of his film Fitna. The Home Office said his presence “could have inflamed tensions between our communities and have led to inter-faith violence.” In October 2009 an immigration tribunal ruled that he should not have been refused entry. The Home Office said it was “disappointed”.",
+              "sources": [
+                {
+                  "id": "dutchnews-wilders",
+                  "locator": "report"
+                },
+                {
+                  "id": "commons-library",
+                  "locator": "overturned or rescinded bans"
+                }
+              ]
+            },
+            {
+              "text": "Wilders, as a Dutch citizen, then had EU free-movement rights, which set a higher bar for refusal. Visitors from the EU now face the domestic non-conducive test; Home Office guidance applies it even to people with EU Settlement Scheme status, for their conduct after 31 December 2020.",
+              "sources": [
+                {
+                  "id": "guidance",
+                  "locator": "EEA citizens with EUSS leave"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "The numbers, and the gaps",
+      "intro": "The government counts one route and not the other.",
+      "entries": [
+        {
+          "id": "official-count",
+          "title": "Personal exclusions",
+          "kind": "Official statistics",
+          "date": "2026-10-01",
+          "paragraphs": [
+            {
+              "text": "The government’s annual counter-terrorism powers report says that in 2025 “10 individuals were excluded from the UK because their exclusion from the UK was considered conducive to the public good.” The previous report gave 15 for 2024. Exclusion is used for national security, “unacceptable behaviour (such as extremism)”, international relations and criminality.",
+              "sources": [
+                {
+                  "id": "ct-report-2025",
+                  "locator": "section 3.9"
+                },
+                {
+                  "id": "ct-report-2024",
+                  "locator": "section 3.9"
+                }
+              ]
+            },
+            {
+              "text": "From May 2010 to December 2024, Home Secretaries excluded 392 people, about 26 a year, according to the Commons Library’s tally of these reports.",
+              "sources": [
+                {
+                  "id": "commons-library",
+                  "locator": "section 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uncounted",
+          "title": "What is not counted",
+          "kind": "Parliamentary briefing",
+          "paragraphs": [
+            {
+              "text": "The Commons Library says “no data is available for refusals by immigration officials” and that the Home Office “does not routinely publish the names of people banned from the UK”. ETA refusals and cancellations on these grounds, which account for most of the 2026 cases above, are therefore not in the official figures. The only published list of names was a 2009 “name and shame” list of 16 people.",
+              "sources": [
+                {
+                  "id": "commons-library",
+                  "locator": "sections 4 and 4.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fact-check",
+      "title": "Checking the post and the artwork",
+      "intro": "Our assessment of each claim against the sources on this page. The artwork is satire, so we check its factual frame, not its jokes.",
+      "entries": [
+        {
+          "id": "claims-table",
+          "title": "Claim by claim",
+          "kind": "Our analysis",
+          "table": {
+            "caption": "Claims in the campaign post and the satirical timeline",
+            "columns": [
+              "Claim",
+              "What the record shows"
+            ],
+            "rows": [
+              [
+                "Malm “banned from entering the UK”",
+                "Substantially right. His ETA was cancelled on non-conducive grounds. He can apply for a visa, but not in time for the event. Lawyers told Tribune the cancellation had “effectively banned him from entry”."
+              ],
+              [
+                "He was due to speak “at an event about UK state repression”",
+                "A fair paraphrase. It was a Tribune launch event with a Palestine Action co-founder, described by Novara Media as being about the ban’s effect on free speech."
+              ],
+              [
+                "1215, Magna Carta",
+                "Clause 42 of the 1215 charter said every man could leave the kingdom and return “safely and securely”. It was dropped from later versions and is not law today. Nothing in it governs today’s visitor rules."
+              ],
+              [
+                "1689, Bill of Rights: Parliament and free debate",
+                "Article 9 protects freedom of speech in Parliament. In the Rajavi case, parliamentarians still could not bring an excluded speaker to address them."
+              ],
+              [
+                "1950, ECHR: freedom of expression",
+                "Courts accept that Article 10 can be engaged, at least through the UK audience, but they have upheld exclusions, giving ministers great weight."
+              ],
+              [
+                "2026: artist, politician, journalist “not conducive”",
+                "Accurate in outline: Ye, two MEPs and the broadcasters Piker and Uygur. Piker and Uygur are commentators rather than reporters. The panel leaves out that the 2026 decisions hit the far right as well as the left."
+              ],
+              [
+                "“We protect you from different opinions”",
+                "Satire. The legal test is risk, not disagreement: Lord Sumption said it turns on effects, not on whether ministers agree. Whether practice matches the test cannot be checked, because reasons are not published."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each row was checked against the sources listed.",
+              "sources": [
+                {
+                  "id": "aljazeera-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "tribune-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "novara-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "magna-carta-42",
+                  "locator": "clause 42"
+                },
+                {
+                  "id": "fullfact-42",
+                  "locator": "fact check"
+                },
+                {
+                  "id": "bill-of-rights",
+                  "locator": "article 9"
+                },
+                {
+                  "id": "carlile",
+                  "locator": "paras 4–8, 17"
+                },
+                {
+                  "id": "naik",
+                  "locator": "paras 32, 48"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "title": "Our analysis and proposal",
+      "intro": "These are our views, not current law or court findings.",
+      "entries": [
+        {
+          "id": "pattern",
+          "title": "The problem is the process, not one side",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The 2026 decisions reach across the spectrum: far-right rally speakers and MEPs, left-wing broadcasters, a pro-Palestine academic, and a rapper with a record of antisemitic statements. Reading them as one government silencing one side does not fit the record. What they share is a process: a broad test, no published reasons, a no-appeal travel authorisation, and timing that defeats the visa route.",
+              "sources": [
+                {
+                  "id": "euronews-rally",
+                  "locator": "report"
+                },
+                {
+                  "id": "ap-piker",
+                  "locator": "report"
+                },
+                {
+                  "id": "aljazeera-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "guardian-ye",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "Political pressure is visible on both sides: an MP campaigned for the Piker ban and fifty peers for a Macklemore ban. Officials can cancel an ETA without the Home Secretary’s personal decision, and those refusals are not counted. So the public cannot see how often the power is used, against whom, or whether like cases are treated alike.",
+              "sources": [
+                {
+                  "id": "ap-piker",
+                  "locator": "report"
+                },
+                {
+                  "id": "ibtimes-macklemore",
+                  "locator": "report"
+                },
+                {
+                  "id": "commons-library",
+                  "locator": "section 4.2"
+                }
+              ]
+            },
+            {
+              "text": "Malm’s case tests the guidance’s own standard. He says he has said nothing new about Palestine since he was admitted in May. If the decision rests on who he planned to share a stage with, that is “associations”, which the rules allow. But the guidance also says “allegations, unsubstantiated and vague generalisations are not sufficient”, and no evidence has been disclosed.",
+              "sources": [
+                {
+                  "id": "aljazeera-malm",
+                  "locator": "report"
+                },
+                {
+                  "id": "guidance",
+                  "locator": "Introduction"
+                },
+                {
+                  "id": "appendix-eta",
+                  "locator": "ETA 5.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proposal",
+          "title": "Our proposal: reasons, numbers and a fast review",
+          "kind": "Our proposal — not current law",
+          "paragraphs": [
+            {
+              "text": "First, give the person the gist of the reasons, as the Naik court expected specific grounds rather than general assertions. Second, publish annual figures for ETA and visa refusals on non-conducive grounds, broken down by the categories in the guidance, alongside personal exclusions. Third, where a cancellation lands within weeks of a scheduled public event, allow a fast administrative review, or an expedited visa decision, before the event takes place. None of this removes the power. It makes its use visible enough to judge.",
+              "sources": [
+                {
+                  "id": "naik",
+                  "locator": "para 74"
+                },
+                {
+                  "id": "commons-library",
+                  "locator": "section 4.2"
+                },
+                {
+                  "id": "guidance",
+                  "locator": "Introduction"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "We read Appendix ETA of the Immigration Rules, the Home Office non-conducive guidance (version 4.0), the 2024 and 2025 counter-terrorism disruptive powers reports, and the Carlile and Naik judgments on 30 October 2026. The Commons Library briefing (16 June 2026) blocked automated access, so we rely on Electronic Immigration Network’s summary of it; check the briefing itself before quoting. The Wilders account comes from contemporary reporting; we did not open the tribunal decision. Tribune’s own site timed out, so we used its Substack edition. A reported Sky News account of the government’s reasons for the Piker decision could not be traced and is left out. The Farrakhan judgment (2002) is not summarised here because we could not open the text. This is legal research and commentary, not legal advice.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Coverage limits",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The 2026 table lists only reported cases, so it is not a complete record. The reasons for each decision are the Home Office’s general statements or the person’s own account, and none has been tested in court. Other reported refusals, such as that of the Finnish MP Päivi Räsänen, have not been checked for this page.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "guidance",
+      "title": "Suitability: non-conducive grounds for refusal or cancellation of entry clearance or permission (version 4.0)",
+      "publisher": "Home Office (GOV.UK)",
+      "type": "Official guidance",
+      "url": "https://www.gov.uk/government/publications/suitability-non-conducive-grounds-for-refusal-or-cancellation-of-entry-clearance-or-permission/suitability-non-conducive-grounds-for-refusal-or-cancellation-of-entry-clearance-or-permission-accessible",
+      "checked": "2026-10-30",
+      "date": "2025-11-11"
+    },
+    {
+      "id": "appendix-eta",
+      "title": "Immigration Rules: Appendix Electronic Travel Authorisation",
+      "publisher": "Home Office (GOV.UK)",
+      "type": "Immigration Rules",
+      "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-electronic-travel-authorisation",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "commons-library",
+      "title": "House of Commons Library briefing explains how the UK can exclude foreign nationals for the “public good” (summary of briefing SN07035, 16 June 2026)",
+      "publisher": "Electronic Immigration Network",
+      "type": "Summary of parliamentary briefing",
+      "url": "https://www.ein.org.uk/news/house-commons-library-briefing-explains-how-uk-can-exclude-foreign-nationals-public-good",
+      "checked": "2026-10-30",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "ct-report-2025",
+      "title": "Counter-Terrorism Disruptive Powers Report 2025 (CP 1702)",
+      "publisher": "HM Government (GOV.UK)",
+      "type": "Official statistics",
+      "url": "https://assets.publishing.service.gov.uk/media/6acdffc171dbe79328fd43be/E03704304_-_Counter_Terrorism_Disruptive_Powers_Report_2025_Accessible.pdf",
+      "checked": "2026-10-30",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "ct-report-2024",
+      "title": "Counter-terrorism disruptive powers report 2024",
+      "publisher": "HM Government (GOV.UK)",
+      "type": "Official statistics",
+      "url": "https://www.gov.uk/government/publications/counter-terrorism-disruptive-powers-report-2024/counter-terrorism-disruptive-powers-report-2024-accessible",
+      "checked": "2026-10-30",
+      "date": "2025-12-15"
+    },
+    {
+      "id": "carlile",
+      "title": "R (Lord Carlile of Berriew QC and others) v Secretary of State for the Home Department [2014] UKSC 60",
+      "publisher": "UK Supreme Court (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2014/60",
+      "checked": "2026-10-30",
+      "date": "2014-11-12"
+    },
+    {
+      "id": "naik",
+      "title": "R (Naik) v Secretary of State for the Home Department [2011] EWCA Civ 1546",
+      "publisher": "Court of Appeal (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/1546",
+      "checked": "2026-10-30",
+      "date": "2011-12-19"
+    },
+    {
+      "id": "naik-home-office",
+      "title": "Decision to exclude Dr Zakir Naik upheld",
+      "publisher": "Home Office (GOV.UK)",
+      "type": "Government news story",
+      "url": "https://www.gov.uk/government/news/decision-to-exclude-dr-zakir-naik-upheld",
+      "checked": "2026-10-30",
+      "date": "2010-11-05"
+    },
+    {
+      "id": "dutchnews-wilders",
+      "title": "Britain wrong to ban Wilders, says court",
+      "publisher": "DutchNews.nl",
+      "type": "News report",
+      "url": "https://www.dutchnews.nl/2009/10/britain_wrong_to_ban_wilders_s/",
+      "checked": "2026-10-30",
+      "date": "2009-10-13"
+    },
+    {
+      "id": "irwin-mitchell",
+      "title": "Hasan Piker and Cenk Uygur – what can be done following the cancellation of an ETA?",
+      "publisher": "Irwin Mitchell",
+      "type": "Legal commentary",
+      "url": "https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102n16y/hasan-piker-and-cenk-uygur-what-can-be-done-following-the-cancellation-of-an-et",
+      "checked": "2026-10-30",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "lee-thompson",
+      "title": "Long read – ETA refusals and revocations: lessons from Kanye West",
+      "publisher": "Lee & Thompson",
+      "type": "Legal commentary",
+      "url": "https://www.leeandthompson.com/news/long-read-eta-refusals-and-revocations-lessons-from-kanye-west/",
+      "checked": "2026-10-30",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "guardian-ye",
+      "title": "Kanye West banned from entering UK amid pressure over planned Wireless festival appearance",
+      "publisher": "The Guardian, republished by The Irish Times",
+      "type": "News report",
+      "url": "https://www.irishtimes.com/culture/music/2026/04/07/kanye-west-banned-from-entering-uk-amid-pressure-over-planned-wireless-festival-appearance/",
+      "checked": "2026-10-30",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "euronews-rally",
+      "title": "MEP and far-right influencers barred from UK rally: who are they and what was the reason?",
+      "publisher": "Euronews",
+      "type": "News report",
+      "url": "https://www.euronews.com/my-europe/2026/05/15/mep-and-far-right-influencers-barred-from-uk-rally-who-are-they-and-what-was-the-reason",
+      "checked": "2026-10-30",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "ap-piker",
+      "title": "Online commentators Hasan Piker and Cenk Uygur barred from entering the UK for public events",
+      "publisher": "Associated Press (via KSAT)",
+      "type": "News report",
+      "url": "https://www.ksat.com/news/world/2026/06/01/online-commentators-hasan-piker-and-cenk-uygur-barred-from-entering-the-uk-for-public-events/",
+      "checked": "2026-10-30",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "yle-tynkkynen",
+      "title": "UK denies entry to Finnish MEP Sebastian Tynkkynen",
+      "publisher": "Yle",
+      "type": "News report",
+      "url": "https://yle.fi/a/74-20236698",
+      "checked": "2026-10-30",
+      "date": "2026-07-16"
+    },
+    {
+      "id": "aljazeera-malm",
+      "title": "UK denies entry to Swedish academic due to speak at Palestine event",
+      "publisher": "Al Jazeera",
+      "type": "News report",
+      "url": "https://www.aljazeera.com/news/2026/10/30/swedish-academic-says-denied-entry-to-uk-over-palestine-event",
+      "checked": "2026-10-30",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "novara-malm",
+      "title": "Home Office bans pro-Palestine author Andreas Malm from entering UK",
+      "publisher": "Novara Media",
+      "type": "News report",
+      "url": "https://novaramedia.com/2026/10/30/home-office-bans-pro-palestine-author-andreas-malm-from-entering-uk/",
+      "checked": "2026-10-30",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "tribune-malm",
+      "title": "Andreas Malm denied entry to the UK to speak at Tribune event",
+      "publisher": "Tribune (event organiser, Substack edition)",
+      "type": "Organiser’s report",
+      "url": "https://tribunemagazine.substack.com/p/andreas-malm-denied-entry-to-the",
+      "checked": "2026-10-30",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "ibtimes-macklemore",
+      "title": "UK peers call Macklemore “not conducive to the public good” ahead of his Free Palestine Wembley concert",
+      "publisher": "International Business Times UK",
+      "type": "News report",
+      "url": "https://www.ibtimes.co.uk/uk-peers-urge-cancel-macklemore-eta-wembley-concert-1827624",
+      "checked": "2026-10-30",
+      "date": "2026-10-25"
+    },
+    {
+      "id": "magna-carta-42",
+      "title": "Magna Carta 1215, clause 42",
+      "publisher": "The Magna Carta Project (University of East Anglia)",
+      "type": "Historical text and translation",
+      "url": "https://magnacarta.cmp.uea.ac.uk/read/magna_carta_1215/Clause_42",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "fullfact-42",
+      "title": "Magna Carta does not guarantee freedom of movement",
+      "publisher": "Full Fact",
+      "type": "Fact check",
+      "url": "https://fullfact.org/law/magna-carta-article-42/",
+      "checked": "2026-10-30",
+      "date": "2021-01-29"
+    },
+    {
+      "id": "bill-of-rights",
+      "title": "Bill of Rights 1689",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/aep/WillandMarSess2/1/2",
+      "checked": "2026-10-30"
+    }
+  ]
+}
