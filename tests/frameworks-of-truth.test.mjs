@@ -99,3 +99,16 @@ test("the implication and silence section keeps hypotheticals and reported cases
   for (const sid of ["fraud-act-s2", "fraud-act-s3", "wia-144", "wia-61", "wia-sch4a"]) assert.match(sources.get(sid).url, /^https:\/\/www\.legislation\.gov\.uk\//);
   for (const rid of ["thames-water", "calling-fraud-a-fraud"]) assert.ok(p.related.some((r) => r.id === rid), rid);
 });
+
+test("Ivey: the casino's naivety is answered from the trial judgment", async () => {
+  const p = await json(`data/profiles/${id}.json`);
+  const entry = p.sections.find((s) => s.id === "implication").entries.find((e) => e.id === "ivey-edge-sorting");
+  const paras = entry.paragraphs;
+  const naive = paras.find((x) => /could have protected itself/.test(x.text));
+  assert.ok(naive, "immaterial-protection quote present");
+  assert.ok(naive.sources.some((s) => s.id === "ivey-trial"));
+  const reading = paras.find((x) => /^Our reading/.test(x.text));
+  assert.match(reading.text, /reportedly settled/);
+  const sources = new Map(p.sources.map((s) => [s.id, s]));
+  assert.match(sources.get("ivey-trial").url, /^https:\/\/caselaw\.nationalarchives\.gov\.uk\/ewhc\/qb\/2014\/3394$/);
+});

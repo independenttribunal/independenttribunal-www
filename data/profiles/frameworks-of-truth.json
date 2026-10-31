@@ -944,6 +944,32 @@
               ]
             },
             {
+              "text": "Wasn’t the casino asking for it? A high roller with a £1m stake asks for the same cards shoe after shoe, an automatic shuffling machine, and the croupier turning particular cards, and gets all of it. The trial judge explained why: “Casinos routinely play on quirky and superstitious behaviour by punters”, and such requests are “accommodated by casinos without demur or surprise”. Nobody at Crockfords “had heard of edge-sorting before”. As for “they should have spotted it”, the judge answered: “It is immaterial that the casino could have protected itself against it by simple measures.” Crockfords refunded his £1m stake and kept the £7.7m.",
+              "sources": [
+                {
+                  "id": "ivey-trial",
+                  "locator": "paras 16, 18, 24, 28, 31, 32, 51"
+                }
+              ]
+            },
+            {
+              "text": "Our reading: the casino looks foolish, and that is a different question from whether Ivey was honest. Fraud works the same way: the s2 offence is complete when someone dishonestly makes a false representation intending to gain, whether or not anyone falls for it. A gullible victim is still a victim. The same trick on the other side of the Atlantic: a US federal court ordered Ivey and his partner to repay about $10.1m to the Borgata in Atlantic City for breach of contract, after dismissing the casino’s fraud claim; the case reportedly settled in 2020.",
+              "sources": [
+                {
+                  "id": "fraud-act-s2",
+                  "locator": "s2(1)"
+                },
+                {
+                  "id": "borgata-ivey",
+                  "locator": "report"
+                },
+                {
+                  "id": "borgata-settle",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
               "text": "Lord Hughes called it “a carefully planned and executed sting”. Ivey did not just observe; “he took positive steps to fix the deck” through “the unwitting but directed actions of the croupier”. The appeal was dismissed. This was a civil claim for winnings, not a prosecution, and Ivey was not convicted of anything.",
               "sources": [
                 {
@@ -1523,6 +1549,33 @@
       "type": "Judgment",
       "checked": "2026-10-21",
       "date": "2017-10-25"
+    },
+    {
+      "id": "ivey-trial",
+      "title": "Ivey v Genting Casinos (UK) Ltd t/a Crockfords Club [2014] EWHC 3394 (QB)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2014/3394",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment",
+      "checked": "2026-10-31",
+      "date": "2014-10-08"
+    },
+    {
+      "id": "borgata-ivey",
+      "title": "Phil Ivey Loses Borgata Edge-sorting Case, Must Pay Casino $10.1 Million",
+      "url": "https://www.casino.org/news/phil-ivey-loses-borgata-edge-sorting-case/",
+      "publisher": "Casino.org",
+      "type": "News report",
+      "checked": "2026-10-31",
+      "date": "2016-12-16"
+    },
+    {
+      "id": "borgata-settle",
+      "title": "Phil Ivey Reportedly Settles With Borgata, Ending 6-Year Legal War",
+      "url": "https://www.pokernews.com/news/2020/07/phil-ivey-borgata-settlement-37591.htm",
+      "publisher": "PokerNews",
+      "type": "News report",
+      "checked": "2026-10-31",
+      "date": "2020-07-08"
     },
     {
       "id": "barton",
