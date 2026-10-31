@@ -83,3 +83,19 @@ test("section artwork rejects missing transcripts, unsafe paths and nonexistent 
     assert.throws(() => validateProfile(copy, (message) => { throw new Error(message); }));
   }
 });
+
+test("the implication and silence section keeps hypotheticals and reported cases labelled", async () => {
+  const p = await json(`data/profiles/${id}.json`);
+  const section = p.sections.find((s) => s.id === "implication");
+  assert.ok(section, "implication section present");
+  const entries = new Map(section.entries.map((e) => [e.id, e]));
+  const text = (eid) => entries.get(eid).paragraphs.map((x) => x.text).join(" ");
+  assert.match(entries.get("landlord-lodger").kind, /^Hypothetical/);
+  assert.match(entries.get("spice-girls").kind, /as reported/);
+  assert.match(text("ivey-edge-sorting"), /not whether Mr Ivey thought of it as cheating/);
+  assert.match(text("ivey-edge-sorting"), /not convicted/);
+  assert.match(text("landlord-lodger"), /only or principal home/);
+  const sources = new Map(p.sources.map((s) => [s.id, s]));
+  for (const sid of ["fraud-act-s2", "fraud-act-s3", "wia-144", "wia-61", "wia-sch4a"]) assert.match(sources.get(sid).url, /^https:\/\/www\.legislation\.gov\.uk\//);
+  for (const rid of ["thames-water", "calling-fraud-a-fraud"]) assert.ok(p.related.some((r) => r.id === rid), rid);
+});
