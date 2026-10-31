@@ -461,6 +461,27 @@
             "sshd-v-ammori-2026-appeal",
             "home-office-proscribed-list"
           ]
+        },
+        {
+          "id": "section-35-us-embassy-2026",
+          "date": "2026-10-31",
+          "date_label": "OCT 2026",
+          "kind": "event",
+          "title": "A power to move people on before any offence",
+          "body": "Defend Our Juries calls a protest on public land outside the US Embassy, with participants holding signs in support of Palestine Action, four days before the Supreme Court hears the challenge to the ban. The Met puts section 35 dispersal powers in place from 8am to 11pm across a mapped area that takes in Westminster and runs south of the Thames. Commander Adam Slonecki says the force will protect lawful protest, but that it assesses people are being encouraged to attend in order to commit offences. \"Our intention is to prevent crime from occurring in the first place.\" Section 35 needs no court order. An officer of inspector rank or above authorises it. A constable can then direct a person to leave on reasonable grounds to suspect their behaviour is likely to contribute to crime or disorder, so no offence need have happened yet. Both must have particular regard to freedom of expression and assembly. Refusing without reasonable excuse is its own offence, with up to three months in prison. Notified marches and lawful pickets are exempt. A gathering that stays in one place is not on that list. Supporting a proscribed organisation is an offence, and Palestine Action stays proscribed unless the Supreme Court decides otherwise. A court examines the police judgment only if someone is charged or brings a challenge. First arrests are reported shortly after 1pm. By about 4.30pm the Met reports 48 arrests, most for expressing support for a proscribed organisation, and says officers are still making arrests, so this is not a final total. Defend Our Juries estimates around 400 people attended and calls the response overzealous. No report we have seen says how many people were ordered to leave under section 35. *Publisher's note, written the same day: recording this supports no proscribed organisation and asks no one to break any law. The publisher is not complicit in letting it pass unrecorded.*",
+          "sources": [
+            "met-section-35-post-2026-10-31",
+            "met-slonecki-statement-2026-10-31",
+            "met-djo-update-2026-10-30",
+            "met-arrests-post-2026-10-31",
+            "asbcpa-2014-s34",
+            "asbcpa-2014-s35",
+            "asbcpa-2014-s36",
+            "asbcpa-2014-s39",
+            "ammori-v-sshd-uksc-2026-0099",
+            "aol-us-embassy-live-2026-10-31",
+            "guardian-us-embassy-2026-10-31"
+          ]
         }
       ]
     }

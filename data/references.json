@@ -1056,6 +1056,138 @@
       "topics": ["juries"],
       "summary": "Allows a retrial of certain qualifying offences after an acquittal where there is new and compelling evidence and a retrial is in the interests of justice. It is not a general prosecution appeal.",
       "checked": "2026-10-19"
+    },
+    {
+      "id": "met-section-35-post-2026-10-31",
+      "title": "Metropolitan Police post announcing the section 35 dispersal order, with map",
+      "publisher": "Metropolitan Police",
+      "date": "2026-10-31",
+      "url": "https://x.com/metpoliceuk/status/2116446080686530843",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing", "proscription"],
+      "summary": "The Met says a section 35 dispersal order covers a mapped part of central London from 8am to 11pm, because it has information that a group plans to attend an event and express support for a proscribed organisation.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "met-slonecki-statement-2026-10-31",
+      "title": "Metropolitan Police post: statement of Commander Adam Slonecki on the US Embassy event",
+      "publisher": "Metropolitan Police",
+      "date": "2026-10-31",
+      "url": "https://x.com/metpoliceuk/status/2116497680033591426",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing", "proscription"],
+      "summary": "The Met says it will protect lawful protest, assesses that people are being encouraged to attend in order to commit offences, and explains the section 35 authorisation as a way of preventing crime rather than waiting to make arrests.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "met-djo-update-2026-10-30",
+      "title": "Met issues update ahead of planned Defend Our Juries activity this weekend",
+      "publisher": "Metropolitan Police",
+      "date": "2026-10-30",
+      "url": "https://news.met.police.uk/news/met-issues-update-ahead-of-planned-defend-our-juries-activity-this-weekend-514526",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing", "proscription"],
+      "summary": "The Met sets out its policing plan for the Saturday event near the US Embassy and warns that arrests may reach beyond people holding placards.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "asbcpa-2014-s34",
+      "title": "Anti-social Behaviour, Crime and Policing Act 2014, section 34 — Authorisations to use powers under section 35",
+      "publisher": "legislation.gov.uk",
+      "date": "2014",
+      "url": "https://www.legislation.gov.uk/ukpga/2014/12/section/34",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing"],
+      "summary": "An officer of at least inspector rank may authorise the powers for a locality for up to 48 hours, must have particular regard to Articles 10 and 11, and needs no court order.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "asbcpa-2014-s35",
+      "title": "Anti-social Behaviour, Crime and Policing Act 2014, section 35 — Directions excluding a person from an area",
+      "publisher": "legislation.gov.uk",
+      "date": "2014",
+      "url": "https://www.legislation.gov.uk/ukpga/2014/12/section/35",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing"],
+      "summary": "A uniformed constable may direct a person to leave and stay away for up to 72 hours, on reasonable grounds to suspect their behaviour has contributed or is likely to contribute to harassment, alarm, distress, crime or disorder.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "asbcpa-2014-s36",
+      "title": "Anti-social Behaviour, Crime and Policing Act 2014, section 36 — Restrictions",
+      "publisher": "legislation.gov.uk",
+      "date": "2014",
+      "url": "https://www.legislation.gov.uk/ukpga/2014/12/section/36",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing"],
+      "summary": "No direction may be given to groups engaged in lawful picketing or in a notified or exempt public procession. A constable must have particular regard to Articles 10 and 11. Stationary assemblies are not listed.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "asbcpa-2014-s39",
+      "title": "Anti-social Behaviour, Crime and Policing Act 2014, section 39 — Offences",
+      "publisher": "legislation.gov.uk",
+      "date": "2014",
+      "url": "https://www.legislation.gov.uk/ukpga/2014/12/section/39",
+      "type": "legislation",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing"],
+      "summary": "Failing without reasonable excuse to comply with a section 35 direction is an offence, with up to three months in prison or a level 4 fine.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "ammori-v-sshd-uksc-2026-0099",
+      "title": "R (on the application of Ammori) v Secretary of State for the Home Department, UKSC/2026/0099",
+      "publisher": "The Supreme Court",
+      "date": "2026",
+      "url": "https://supremecourt.uk/cases/uksc-2026-0099",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription"],
+      "summary": "Case page for the appeal on whether the proscription of Palestine Action was lawful. Permission granted in part on 29 July 2026. Hearing listed for 4 and 5 November 2026.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "aol-us-embassy-live-2026-10-31",
+      "title": "London protest LIVE: Hundreds face arrest at pro-Palestine Action demo outside US Embassy",
+      "publisher": "AOL",
+      "date": "2026-10-31",
+      "url": "https://www.aol.co.uk/articles/london-protest-live-hundreds-face-121221000.html",
+      "type": "article",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing"],
+      "summary": "Same-day live report of the protest outside the US Embassy, including the 1pm start, the first arrests and the Met’s 48 arrests figure.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "met-arrests-post-2026-10-31",
+      "title": "Metropolitan Police post: 48 arrests so far at the US Embassy event",
+      "publisher": "Metropolitan Police",
+      "date": "2026-10-31",
+      "url": "https://x.com/metpoliceuk/status/2116556036358258862",
+      "type": "official",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing", "proscription"],
+      "summary": "The Met reports 48 arrests that afternoon, most for expressing support for a proscribed organisation, and says officers are continuing to make arrests.",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "guardian-us-embassy-2026-10-31",
+      "title": "More than 100 protest against Palestine Action ban outside US embassy in London",
+      "publisher": "The Guardian, republished by AOL",
+      "date": "2026-10-31",
+      "url": "https://www.aol.co.uk/articles/more-100-protest-against-palestine-143557000.html",
+      "type": "article",
+      "jurisdiction": "UK",
+      "topics": ["protest", "policing"],
+      "summary": "Same-day report of the protest, with the Defend Our Juries attendance estimate of around 400, the Met’s figure of 48 arrests and the group’s response.",
+      "checked": "2026-10-31"
     }
   ]
 }

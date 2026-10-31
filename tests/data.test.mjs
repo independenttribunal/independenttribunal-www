@@ -20,6 +20,12 @@ test("timeline JSON resolves every source to a real URL", async () => {
   for (const e of entries) for (const s of e.sources) assert.match(s.url, /^https:\/\//);
   assert.ok(entries.some((e) => e.id === "trudi-warner"));
   assert.ok(entries.some((e) => e.id === "proscription"));
+  const dispersal = entries.find((e) => e.id === "section-35-us-embassy-2026");
+  assert.match(dispersal.body, /Section 35 needs no court order/);
+  assert.match(dispersal.body, /the Met reports 48 arrests/);
+  assert.match(dispersal.body, /not a final total/);
+  assert.match(dispersal.body, /supports no proscribed organisation/);
+  assert.ok(dispersal.sources.some((s) => s.url.endsWith("/ukpga/2014/12/section/36")));
 });
 
 test("timeline page keeps its anchors and shows sources", async () => {
