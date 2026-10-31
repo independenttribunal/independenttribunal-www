@@ -37,8 +37,8 @@ test("judge–jury page has an accessible table, image, sequential sources and v
   const html = await read(`public/research/${id}/index.html`);
   const table = p.sections[0].entries[0].table;
   assert.ok(html.includes(`<caption>${table.caption}</caption>`));
-  assert.match(html, /<th scope="col">Stage<\/th>/);
-  assert.match(html, /<th scope="row">Reach the verdict<\/th>/);
+  assert.match(html, /<th scope="col"[^>]*>Stage<\/th>/);
+  assert.match(html, /<th scope="row"[^>]*>Reach the verdict<\/th>/);
   assert.ok(html.indexOf('<caption>') < html.indexOf(`<img src="${p.evidence_image.src}"`));
   assert.ok(html.indexOf(`<img src="${p.evidence_image.src}"`) < html.indexOf('id="procedure"'));
   assert.equal(html.split(`<img src="${p.evidence_image.src}"`).length - 1, 1);
