@@ -865,11 +865,57 @@
               ]
             },
             {
-              "text": "Professor Sir Dieter Helm, quoted in the evidence before the court, described the regulator’s stance on company balance sheets this way: “the referee was taken off the pitch too”. That is his opinion, and it was evidence the court recorded, not a finding of the court.",
+              "text": "Professor Sir Dieter Helm, quoted in unchallenged evidence before the court, wrote that Thames used its balance sheet “to mortgage the assets and pay out the proceeds in special dividends and other benefits to the shareholders”. He traced this to the mid-1990s, “when OFWAT … decided not to act to protect the balance sheets. It was as if the owners were shown an open goal – not only had the goalkeeper been removed, but the referee was taken off the pitch too.” In plain English: nothing in the company’s structure stopped the borrowing, and the regulator chose not to police it. That is his opinion, recorded as evidence. The judge said it was not for the court to attribute blame.",
               "sources": [
                 {
                   "id": "ewhc",
                   "locator": "para 60, quoting Maynard 1 at para 27"
+                },
+                {
+                  "id": "ewhc",
+                  "locator": "para 61"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "offshore",
+          "title": "The offshore companies",
+          "kind": "Company accounts and disclosures",
+          "paragraphs": [
+            {
+              "text": "Helm also wrote of “an offshore set of companies … going under the label of various Kemble entities”. The record is more specific. The Kemble companies were set up in 2006 to buy Thames and hold it for its investors; Thames Water describes its Kemble financing companies as UK-incorporated.",
+              "sources": [
+                {
+                  "id": "ewhc",
+                  "locator": "para 60, quoting Maynard 1 at para 27"
+                },
+                {
+                  "id": "tw-companies",
+                  "locator": "other companies"
+                }
+              ]
+            },
+            {
+              "text": "The offshore part was two Cayman Islands financing subsidiaries, Thames Water Utilities Cayman Finance Ltd and Thames Water Utilities Cayman Finance Holdings Ltd, which raised bond debt for the group. Thames said they were “fully registered in the UK for tax”, but that “their existence confused perceptions”. It moved their debt to a UK company, Thames Water Utilities Finance plc, on 31 August 2018, and they were dissolved on 28 February 2019. Liquidation fees were £5.9m.",
+              "sources": [
+                {
+                  "id": "ar1819",
+                  "locator": "governance review; financial statements note 32; finance expense"
+                }
+              ]
+            },
+            {
+              "text": "Our reading: offshore is not the same as dodging tax, and by the company’s account these entities were taxed as UK companies. They concerned where the debt was issued, not where the profit was taxed. What drove the debt was the incentive described above, not the address of the companies that issued it.",
+              "sources": [
+                {
+                  "id": "ar1819",
+                  "locator": "governance review"
+                },
+                {
+                  "id": "iwc",
+                  "locator": "gearing and incentives"
                 }
               ]
             }
@@ -3332,6 +3378,22 @@
       "url": "https://www.yahoo.com/news/thames-water-pumps-sewage-chalk-120000633.html",
       "checked": "2026-10-30",
       "date": "2025-01-24"
+    },
+    {
+      "id": "ar1819",
+      "title": "Thames Water Utilities Limited, Annual Report and Annual Performance Report 2018/19",
+      "publisher": "Thames Water (copy hosted by AnnualReports.com)",
+      "type": "Company annual report",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/thames-water-utilities-limited_2019.pdf",
+      "checked": "2026-10-31"
+    },
+    {
+      "id": "tw-companies",
+      "title": "Other companies (Kemble Water group debt entities)",
+      "publisher": "Thames Water",
+      "type": "Company disclosure",
+      "url": "https://www.thameswater.co.uk/about-us/investors/debt-information/other-companies",
+      "checked": "2026-10-31"
     }
   ],
   "evidence_image": {
