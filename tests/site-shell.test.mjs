@@ -51,3 +51,12 @@ test("footer has one consistent set of community links and no placeholder contac
   assert.doesNotMatch(html, /mailto:|private contact address is being set up|not a court/i);
   assert.match(html, /Agreement between models is not proof/);
 });
+
+test("every page loads the free read-aloud player from the shared footer", async () => {
+  assert.match(renderSiteFooter({ navigation, site }), /<script src="\/read-aloud\.js" defer><\/script>/);
+  const js = await read("public/read-aloud.js");
+  // Browser speech only: no network calls, keys or third-party services.
+  assert.match(js, /speechSynthesis/);
+  assert.doesNotMatch(js, /fetch\(|XMLHttpRequest|https?:\/\//);
+  assert.match(await read("public/site-shell.css"), /\.ra-bar/);
+});

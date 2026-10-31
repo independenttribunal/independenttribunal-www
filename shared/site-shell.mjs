@@ -25,5 +25,5 @@ export function renderSiteFooter({ navigation, site }) {
     <nav aria-label="Open data and standards"><h2>Open by design</h2>${links([{label:"Open data",href:"/data/index.json"},{label:"For AI agents",href:"/llms.txt"},{label:"Editorial standards and legal framework",href:"/legal/editorial-standards/"},{label:"Privacy",href:"/legal/privacy/"}])}</nav>
     <nav aria-label="Community and contact"><h2>Contact</h2>${links([{label:"Telegram · most current",href:site.contact.telegram},{label:"X / Twitter",href:site.contact.x},{label:"GitHub",href:site.source_repo},{label:"Corrections and sources",href:site.contact.issues}])}${site.contact.private ? `<a href="mailto:${e(site.contact.private)}">Private contact</a>` : ""}<p>Do not post private case material publicly.</p></nav>
     <div class="global-footer-bottom"><span>© 2026 Independent Tribunal</span><a href="${e(site.license.url)}">Our text and data: ${e(site.license.name)}</a></div>
-  </footer></div>`;
+  </footer></div><script src="/read-aloud.js" defer></script>`;
 }

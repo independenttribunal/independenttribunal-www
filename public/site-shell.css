@@ -40,3 +40,21 @@
   .global-footer nav:last-of-type { grid-column:1/-1; }
 }
 @media print { .global-header-surface,.global-footer-surface { display:none; } }
+/* Listen: read-aloud bar from /read-aloud.js */
+.ra-bar { display:flex; flex-wrap:wrap; align-items:center; gap:10px 14px; margin:1rem 0 1.5rem; padding:10px 12px; border:1px solid rgba(16,38,62,.15); border-radius:6px; background:#fff; color:#10263e; font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif; }
+.ra-bar [hidden] { display:none !important; }
+.ra-bar.ra-active { position:fixed; left:50%; bottom:16px; transform:translateX(-50%); width:min(46rem,calc(100% - 32px)); margin:0; z-index:50; box-shadow:0 6px 18px rgba(16,38,62,.18); }
+.ra-spacer { margin:1rem 0 1.5rem; }
+.ra-bar button { display:inline-flex; align-items:center; gap:8px; min-height:40px; padding:0 16px; border:1px solid #10263e; border-radius:4px; background:#10263e; color:#fff; font:inherit; cursor:pointer; }
+.ra-bar .ra-stop { background:transparent; color:#10263e; }
+.ra-bar button:hover { background:#183650; color:#fff; }
+.ra-bar button:focus-visible,.ra-bar select:focus-visible { outline:2px solid #28659a; outline-offset:3px; }
+.ra-bar .ra-icon { font-size:11px; letter-spacing:-1px; }
+.ra-bar .ra-time { color:#5b6978; font-weight:500; }
+.ra-bar .ra-opt { display:inline-flex; align-items:center; gap:6px; color:#5b6978; font-weight:500; }
+.ra-bar select { max-width:12rem; min-height:34px; border:1px solid rgba(16,38,62,.25); border-radius:4px; background:#fff; color:#10263e; font:inherit; }
+.ra-current { background:#f3ead6; box-shadow:-8px 0 0 #f3ead6, 8px 0 0 #f3ead6; border-radius:2px; transition:background .2s; }
+@media(max-width:580px) { .ra-bar .ra-voice-wrap { flex-basis:100%; } .ra-bar select { max-width:100%; } }
+@media print { .ra-bar { display:none; } }
+.ra-bar.ra-floating { position:fixed; right:16px; bottom:16px; left:auto; transform:none; width:auto; z-index:50; margin:0; max-width:calc(100% - 32px); box-shadow:0 6px 18px rgba(16,38,62,.18); }
+.ra-bar.ra-floating:not(.ra-active) .ra-opt,.ra-bar.ra-floating:not(.ra-active) .ra-time { display:none; }
