@@ -1188,6 +1188,42 @@
       "topics": ["protest", "policing"],
       "summary": "Same-day report of the protest, with the Defend Our Juries attendance estimate of around 400, the Met’s figure of 48 arrests and the group’s response.",
       "checked": "2026-10-31"
+    },
+    {
+      "id": "aljazeera-malm-2026-10-30",
+      "title": "UK denies entry to Swedish academic due to speak at Palestine event",
+      "publisher": "Al Jazeera",
+      "date": "2026-10-30",
+      "url": "https://www.aljazeera.com/news/2026/10/30/swedish-academic-says-denied-entry-to-uk-over-palestine-event",
+      "type": "article",
+      "jurisdiction": "UK",
+      "topics": ["immigration", "freedom-of-expression"],
+      "checked": "2026-11-04",
+      "summary": "Malm’s account of the ETA cancellation email, the Tribune event and the Home Office’s general statement."
+    },
+    {
+      "id": "openletter-malm-2026-10-30",
+      "title": "Defend Academic Freedom: Reverse the UK Travel Ban on Andreas Malm",
+      "publisher": "openletter.earth",
+      "date": "2026-10-30",
+      "url": "https://openletter.earth/defend-academic-freedom-reverse-the-uk-travel-ban-on-andreas-malm-8e6224f4",
+      "type": "organisation",
+      "jurisdiction": "UK",
+      "topics": ["immigration", "freedom-of-expression"],
+      "checked": "2026-11-04",
+      "summary": "Academics’ open letter to the Prime Minister and Home Secretary asking for the decision to be reversed."
+    },
+    {
+      "id": "guardian-malm-letter-2026-11-04",
+      "title": "More than 900 academics urge UK to reverse decision to bar Andreas Malm",
+      "publisher": "The Guardian",
+      "date": "2026-11-04",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/04/andreas-malm-academics-letter-uk-reverse-entry-bar",
+      "type": "article",
+      "jurisdiction": "UK",
+      "topics": ["immigration", "freedom-of-expression"],
+      "checked": "2026-11-04",
+      "summary": "Reports more than 1,400 signatories, Malm’s comments to the BBC and the Home Office’s statement that it is not a ban."
     }
   ]
 }

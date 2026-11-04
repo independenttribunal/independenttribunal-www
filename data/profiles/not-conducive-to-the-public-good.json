@@ -1,13 +1,14 @@
 {
   "id": "not-conducive-to-the-public-good",
   "category": "legal-study",
-  "title": "Access to the UK restricted: “not conducive to the public good”",
-  "subtitle": "One broad phrase lets the Home Office keep out artists, politicians, commentators and academics. In 2026 the travel authorisation system made it fast, quiet and unappealable.",
-  "summary": "In 2026 the Home Office kept out Ye, an MEP and other speakers at a far-right rally, the streamers Hasan Piker and Cenk Uygur, a Finnish MEP and, in late October, the Swedish author Andreas Malm. Each time the stated reason was that their presence was “not conducive to the public good”. The test needs no conviction. Most of these people were refused or lost an electronic travel authorisation, which has no appeal. Official statistics count only the Home Secretary’s personal exclusions (10 in 2025), not these refusals. The courts accept that free expression is engaged, but they give ministers great weight and have upheld exclusions.",
-  "scope": "United Kingdom · Immigration law on refusing or cancelling permission to travel to or enter the UK on “non-conducive” grounds, the Home Secretary’s personal exclusion power, and the leading court cases. Covers cases reported up to 30 October 2026. It does not cover deportation, deprivation of citizenship or temporary exclusion orders against British citizens.",
-  "status_note": "Rules, guidance, official statistics and judgments were checked on 30 October 2026. The 2026 cases rest on news reporting and the people’s own accounts, because the Home Office does not publish reasons. The Malm decision was reported the same day and may change. The pattern analysis, the fact-check of the post and artwork, and the reform proposal are our views, not court findings or current law. This is legal research, not legal advice.",
+  "pinned": true,
+  "title": "Not welcome to the UK: “not conducive to the public good”",
+  "subtitle": "A rapper, politicians, two broadcasters and an author. One broad phrase let the Home Office keep them all out in 2026, and the travel authorisation system made it fast, quiet and unappealable.",
+  "summary": "In 2026 the Home Office kept out Ye, an MEP and other speakers at a far-right rally, the streamers Hasan Piker and Cenk Uygur, a Finnish MEP and, in late October, the Swedish author Andreas Malm, whose exclusion drew an open letter from more than 1,400 academics. Each time the stated reason was that their presence was “not conducive to the public good”. The test needs no conviction. Most of these people were refused or lost an electronic travel authorisation, which has no appeal. Official statistics count only the Home Secretary’s personal exclusions (10 in 2025), not these refusals. The courts accept that free expression is engaged, but they give ministers great weight and have upheld exclusions.",
+  "scope": "United Kingdom · Immigration law on refusing or cancelling permission to travel to or enter the UK on “non-conducive” grounds, the Home Secretary’s personal exclusion power, and the leading court cases. Covers cases reported up to 4 November 2026. It does not cover deportation, deprivation of citizenship or temporary exclusion orders against British citizens.",
+  "status_note": "Rules, guidance, official statistics and judgments were checked on 30 October 2026. The 2026 cases rest on news reporting and the people’s own accounts, because the Home Office does not publish reasons. The Malm decision and the academics’ letter are recent and may change. The pattern analysis, the fact-check of the post and artwork, and the reform proposal are our views, not court findings or current law. This is legal research, not legal advice.",
   "jurisdiction": "United Kingdom",
-  "checked": "2026-10-30",
+  "checked": "2026-11-04",
   "tags": [
     "uk",
     "immigration",
@@ -46,6 +47,12 @@
     }
   ],
   "highlights": [
+    {
+      "label": "Kept out in 2026",
+      "value": "Artist, politicians, broadcasters, author",
+      "detail": "Ye, two MEPs and a Belgian MP, Hasan Piker and Cenk Uygur, Andreas Malm",
+      "target": "cases-2026"
+    },
     {
       "label": "The test",
       "value": "Character, conduct, associations",
@@ -271,7 +278,7 @@
               [
                 "Andreas Malm, Swedish author and academic",
                 "28–30 October",
-                "ETA cancelled; told to apply for a visa",
+                "ETA cancelled; told to apply for a visa. More than 1,400 academics have signed a letter asking for it to be reversed",
                 "Due to speak on 4 November at the launch of Tribune magazine’s “Empire Now” issue, with Palestine Action co-founder Huda Ammori"
               ],
               [
@@ -403,7 +410,7 @@
           "id": "malm",
           "title": "Andreas Malm",
           "kind": "News reporting",
-          "date": "2026-10-30",
+          "date": "2026-11-04",
           "paragraphs": [
             {
               "text": "Malm, a Swedish climate scholar and author of How to Blow Up a Pipeline, says the Home Office cancelled his ETA by email on Wednesday 28 October without warning. The email said his “presence in the UK is not considered to be conducive to the public good” and that if he wished to visit he must apply for a visa, when officials would “consider your circumstances in more detail”. He had used an ETA to visit in May.",
@@ -440,6 +447,28 @@
                 },
                 {
                   "id": "aljazeera-malm",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "On 30 October an open letter to the Prime Minister and the Home Secretary called the decision “a grave violation of academic freedom and freedom of expression” and asked them to “immediately reverse this decision, restore Andreas Malm’s permission to enter the UK”. It was started by Fabian Dablander, an assistant professor at the London School of Economics. By 4 November the Guardian reported more than 1,400 signatories from over 250 academic institutions. The letter says: “Excluding academics because of their political views or the topics they discuss sets a dangerous precedent.”",
+              "sources": [
+                {
+                  "id": "openletter-malm",
+                  "locator": "letter"
+                },
+                {
+                  "id": "guardian-malm-letter",
+                  "locator": "report"
+                }
+              ]
+            },
+            {
+              "text": "Malm told the BBC: “I cannot see any other explanation than the scheduled appearance of me on stage” with Ammori. Besides the Tribune event he was due at an academic conference and on the BBC. The Home Office said that “cancelling or refusing an ETA can take place for a range of reasons” and “it is not a ban on coming to the UK”, because he can still apply for a visa.",
+              "sources": [
+                {
+                  "id": "guardian-malm-letter",
                   "locator": "report"
                 }
               ]
@@ -1021,6 +1050,24 @@
       "type": "Legislation",
       "url": "https://www.legislation.gov.uk/aep/WillandMarSess2/1/2",
       "checked": "2026-10-30"
+    },
+    {
+      "id": "openletter-malm",
+      "title": "Defend Academic Freedom: Reverse the UK Travel Ban on Andreas Malm",
+      "publisher": "openletter.earth (signatories’ letter)",
+      "type": "Open letter",
+      "url": "https://openletter.earth/defend-academic-freedom-reverse-the-uk-travel-ban-on-andreas-malm-8e6224f4",
+      "checked": "2026-11-04",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "guardian-malm-letter",
+      "title": "More than 900 academics urge UK to reverse decision to bar Andreas Malm",
+      "publisher": "The Guardian (Matthew Taylor)",
+      "type": "News report",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/04/andreas-malm-academics-letter-uk-reverse-entry-bar",
+      "checked": "2026-11-04",
+      "date": "2026-11-04"
     }
   ]
 }

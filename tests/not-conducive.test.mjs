@@ -27,3 +27,20 @@ test("the exclusion study keeps official counts, reported cases and our views ap
   const html = await read("public/research/not-conducive-to-the-public-good/index.html");
   assert.ok(html.includes('href="/research/public-order/"'));
 });
+
+test("Not welcome to the UK: pinned, carries the academics' letter, and the timeline links to it", async () => {
+  const p = await json("data/profiles/not-conducive-to-the-public-good.json");
+  assert.match(p.title, /^Not welcome to the UK/);
+  assert.equal(p.pinned, true);
+  const malm = p.sections.flatMap((s) => s.entries).find((e) => e.id === "malm");
+  const letter = malm.paragraphs.find((x) => /open letter/.test(x.text));
+  assert.ok(letter.sources.some((s) => s.id === "openletter-malm"));
+  assert.match(malm.paragraphs.map((x) => x.text).join(" "), /not a ban on coming to the UK/);
+  const tiles = (await json("public/data/tiles.json")).tiles;
+  assert.ok(tiles.slice(0, 3).some((t) => t.id === p.id), "pinned near the top of the homepage grid");
+  const t = await json("data/timelines/uk-ratchet.json");
+  const entry = t.sections.flatMap((s) => s.entries ?? []).find((e) => e.id === "not-conducive-malm-2026");
+  assert.ok(entry.body.includes("(/research/not-conducive-to-the-public-good/)"));
+  const html = await read("uk-timeline/index.html").catch(() => read("public/uk-timeline/index.html"));
+  assert.ok(html.includes('href="/research/not-conducive-to-the-public-good/"'));
+});

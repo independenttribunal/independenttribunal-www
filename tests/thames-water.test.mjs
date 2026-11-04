@@ -53,7 +53,8 @@ test("the Thames Water study keeps findings, allegations and commentary apart", 
   // The audit office can scrutinise the regulators, and the page says it welcomes that.
   assert.match(text("scrutiny"), /We intend to ask it, along with the companies and individuals involved, what should be done with this work/);
   assert.match(p.status_note, /National Audit Office/);
-  assert.equal((await json("public/data/tiles.json")).tiles[0].id, "thames-water");
+  const tiles = (await json("public/data/tiles.json")).tiles;
+  assert.ok(tiles.slice(0, 2).some((t) => t.id === "thames-water"), "pinned at the top of the homepage grid");
   assert.equal(entries.get("rational").kind, "Our analysis");
   assert.match(text("rational"), /does not say that any person or company committed fraud/);
   // The 22.5% figure is one side's evidence, and the judge doubted it.
