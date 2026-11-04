@@ -28,3 +28,14 @@ test("the fraud study rests on primary sources and keeps its specimens labelled 
   assert.ok(html.includes('href="/research/thames-water/"'));
   assert.ok((await read("public/research/thames-water/index.html")).includes('href="/research/calling-fraud-a-fraud/"'));
 });
+
+test("McAlpine: the tweet is quoted as the judgment spells it, with a spelling note", async () => {
+  const p = JSON.parse(await readFile(new URL("../data/profiles/calling-fraud-a-fraud.json", import.meta.url), "utf8"));
+  const entry = p.sections.flatMap((s) => s.entries).find((e) => e.id === "innocent-face");
+  const text = entry.paragraphs.map((x) => x.text).join(" ");
+  assert.ok(text.includes("“Why is Lord McAlpine trending? *Innocent face*”"));
+  assert.match(text, /Spelling note \[sic!\]/);
+  assert.match(text, /IS \[sic\] not taking sides/);
+  const jigsaw = p.sections.flatMap((s) => s.entries).find((e) => e.id === "jigsaw");
+  assert.match(jigsaw.paragraphs[0].text, /the last piece in the jigsaw/);
+});
