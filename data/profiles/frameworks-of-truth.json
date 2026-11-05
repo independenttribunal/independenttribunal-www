@@ -7,7 +7,7 @@
   "scope": "England and Wales · Case 2024/1532/D5. The misconduct was knowingly misleading the court, not the later confession. Findings, commentary, satire and proposed reforms are identified separately.",
   "status_note": "The report records an order for disbarment on 8 April 2026, and the regulator’s announcement described the findings as subject to appeal. On 24 October 2026 the regulator’s register listed her status as Disbarred and the finding as Final, although its sanction line still read “sentence still to take effect … pending any appeal”. We have not found a published appeal decision. The family’s identities are not investigated here. The section “Implication, silence and legal games” was added on 31 October 2026; its legislation, the Ivey judgment and the Bar Standards Board Handbook (version 5.0) were checked that day. The Spice Girls decision is described from published reports because we could not open the judgment text.",
   "jurisdiction": "England and Wales",
-  "checked": "2026-10-24",
+  "checked": "2026-11-05",
   "tags": [
     "uk",
     "professional-conduct",
@@ -33,6 +33,14 @@
     {
       "id": "calling-fraud-a-fraud",
       "title": "Calling fraud a fraud: defamation law for people who mean it"
+    },
+    {
+      "id": "who-speaks-at-the-world-court",
+      "title": "Who gets to speak at the World Court? Parties, counsel and the missing ethics code"
+    },
+    {
+      "id": "disclaimer-level-three",
+      "title": "Disclaimer Level Three: the most convoluted way to read one sentence"
     }
   ],
   "highlights": [
@@ -479,6 +487,208 @@
                 {
                   "id": "cpr32",
                   "locator": "32.14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lying-to-your-barrister",
+      "title": "Lie to your barrister? Not a loophole",
+      "intro": "If telling your barrister the truth can end their career, is lying to them the winning move? No. The risk moves to the person who lied.",
+      "entries": [
+        {
+          "id": "client-consequences",
+          "kind": "Official legal guidance, procedural rule and Supreme Court judgment",
+          "title": "No code binds the client to candour. The law still does.",
+          "table": {
+            "caption": "Simplified map for England and Wales: each route has its own elements",
+            "columns": [
+              "What the client does",
+              "Possible consequence"
+            ],
+            "rows": [
+              [
+                "Gives their barrister false facts, intending them to be put to the court as true",
+                "Perverting the course of justice: acts tending and intended to pervert public justice. Success is not required, and the offence is not confined to lawyers."
+              ],
+              [
+                "Puts the same falsehood in a document verified by a statement of truth, without honest belief in it",
+                "Contempt proceedings under rule 32.14 of the Civil Procedure Rules."
+              ],
+              [
+                "Repeats it on oath as a witness",
+                "Perjury, where the elements of section 1 of the Perjury Act 1911 are met."
+              ],
+              [
+                "Wins a civil judgment on it",
+                "The judgment can be set aside for fraud. Where fraud was not raised at the trial, the losing party need not show it could have discovered the fraud with reasonable diligence."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Premise check. The Bar Standards Board regulates barristers, not their lay clients, and no professional code requires a client to tell their own barrister the truth. The absence of a regulatory rule is not the absence of a legal one.",
+              "sources": [
+                {
+                  "id": "handbook",
+                  "locator": "rC3.1, rC9.1: duties addressed to barristers"
+                },
+                {
+                  "id": "public-justice",
+                  "locator": "Perverting the Course of Justice"
+                }
+              ]
+            },
+            {
+              "text": "The table is a map, not a charge sheet: each route has its own elements, and a professional breach does not automatically establish any of them. On the last row, the Supreme Court held in Takhar v Gracefield Developments that “where it can be shown that a judgment has been obtained by fraud, and where no allegation of fraud had been raised at the trial which led to that judgment, a requirement of reasonable diligence should not be imposed on the party seeking to set aside the judgment.”",
+              "sources": [
+                {
+                  "id": "public-justice",
+                  "locator": "Perverting the Course of Justice"
+                },
+                {
+                  "id": "public-justice",
+                  "locator": "Perjury"
+                },
+                {
+                  "id": "cpr32",
+                  "locator": "32.14"
+                },
+                {
+                  "id": "takhar",
+                  "locator": "para 54"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "client-as-source",
+          "kind": "Our analysis — read with the rules cited",
+          "title": "The barrister is the conduit; the intent stays with the client",
+          "paragraphs": [
+            {
+              "text": "A barrister who unknowingly repeats a client’s lie cannot knowingly mislead the court about it. Knowledge and intention sit with the client. The risk moves; it does not disappear. It is the same point as the filter above: whoever knows the truth and arranges a misleading presentation carries the intent.",
+              "sources": [
+                {
+                  "id": "handbook",
+                  "locator": "rC3.1, gC4"
+                },
+                {
+                  "id": "public-justice",
+                  "locator": "Perverting the Course of Justice"
+                }
+              ]
+            },
+            {
+              "text": "Silence. Our reading: a client generally has no duty to correct their barrister’s honest mistake. A falsehood the client planted is different: staying quiet while the court relies on it is part of the scheme, not a neutral omission. A barrister who learns the truth must not go on misleading the court; if the client refuses permission to disclose, the barrister stops acting without revealing the confidence.",
+              "sources": [
+                {
+                  "id": "handbook",
+                  "locator": "rC3.1; gC4; gC11"
+                },
+                {
+                  "id": "public-justice",
+                  "locator": "Perverting the Course of Justice"
+                }
+              ]
+            },
+            {
+              "text": "Conclusion. The disbarment on this page shows an incentive problem for barristers who know. It does not reward clients who deceive. Clients lying to their lawyers is an old risk in every system: the professional rules put the duty to correct on the barrister once the barrister knows, and the criminal law puts the risk on the person who lied.",
+              "sources": [
+                {
+                  "id": "tribunal",
+                  "locator": "paras 7–18"
+                },
+                {
+                  "id": "handbook",
+                  "locator": "rC3.1; gC11"
+                },
+                {
+                  "id": "public-justice",
+                  "locator": "Perverting the Course of Justice"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pollute-the-other-side",
+          "kind": "Hypothetical — our analysis, not drawn from any case, chambers or person",
+          "title": "The “pollute your barrister manoeuvre”: aiming the lie across the corridor",
+          "paragraphs": [
+            {
+              "text": "Status: speculation. This inverts our own satire. Instead of keeping the truth away from your barrister, a client deliberately feeds one adviser false information, hoping it travels to the other side through an informal or improper channel. The obvious imagined route is the English chambers system: barristers in one set are self-employed, and the Handbook expressly contemplates that other members of chambers are free, and may be obliged by the cab-rank rule, to act for clients with conflicting interests. Each must keep their own client’s affairs confidential, and chambers must have proper arrangements for conflicts and confidentiality.",
+              "sources": [
+                {
+                  "id": "handbook",
+                  "locator": "gC137; CD6; rC89.5"
+                }
+              ]
+            },
+            {
+              "text": "The scenario is generic. It is not drawn from any chambers, case, lawyer, client or state, and we do not know whether it has ever happened anywhere. It depends on information crossing a boundary that the rules require to hold. Shared membership does not create that channel, and proof that two lawyers know each other would not establish disclosure.",
+              "sources": [
+                {
+                  "id": "handbook",
+                  "locator": "gC137; CD6; rC89.5"
+                }
+              ]
+            },
+            {
+              "text": "Why it fails, legally. Our reading: the plan needs someone to breach a confidence, and the client is not let off by the fact that a third person carries the message. If the aim is that the falsehood shapes what a court is told, the plan is an act tending and intended to pervert the course of justice, whoever delivers it.",
+              "sources": [
+                {
+                  "id": "public-justice",
+                  "locator": "Perverting the Course of Justice"
+                },
+                {
+                  "id": "handbook",
+                  "locator": "CD6"
+                }
+              ]
+            },
+            {
+              "text": "Why it fails, practically. Similar information appearing on the other side can come from public material, independent research, shared sources or coincidence. The useful question is the design one: how would information crossing between opposing teams be detected and investigated, and what would count as evidence against the hypothesis?",
+              "sources": [
+                {
+                  "id": "handbook",
+                  "locator": "rC89.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "at-the-world-court",
+          "kind": "Treaty text and our analysis",
+          "title": "And at the World Court?",
+          "paragraphs": [
+            {
+              "text": "Everything above is the law of England and Wales. Before the International Court of Justice there is no ethics code for counsel. An English barrister remains bound by the BSB Handbook there, while colleagues on the same team may be bound by other codes or none. Domestic perjury, contempt and perverting offences protect domestic justice; we found no authority applying them to submissions in The Hague.",
+              "sources": [
+                {
+                  "id": "world-court"
+                },
+                {
+                  "id": "handbook",
+                  "locator": "rC3.1, rC9.1"
+                }
+              ]
+            },
+            {
+              "text": "The fraud route differs too. An ICJ judgment “is final and without appeal”. The only route back is revision under Article 61, which must be “based upon the discovery of some fact of such a nature as to be a decisive factor”, unknown to the Court and to the party claiming revision, “always provided that such ignorance was not due to negligence”, and applied for within six months of discovering the fact and ten years of the judgment. That is close to the reverse of Takhar: in The Hague, diligence still matters.",
+              "sources": [
+                {
+                  "id": "icj-statute",
+                  "locator": "Arts 60–61"
+                },
+                {
+                  "id": "takhar",
+                  "locator": "para 54"
                 }
               ]
             }
@@ -1735,6 +1945,31 @@
       "type": "Legislation",
       "url": "https://www.legislation.gov.uk/ukpga/1991/56/schedule/4A",
       "checked": "2026-10-31"
+    },
+    {
+      "id": "takhar",
+      "title": "Takhar v Gracefield Developments Ltd [2019] UKSC 13",
+      "publisher": "UK Supreme Court (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/13",
+      "checked": "2026-11-05",
+      "date": "2019-03-20"
+    },
+    {
+      "id": "icj-statute",
+      "title": "Statute of the International Court of Justice",
+      "publisher": "International Court of Justice",
+      "type": "Treaty text",
+      "url": "https://www.icj-cij.org/statute",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "world-court",
+      "title": "Who gets to speak at the World Court? Parties, counsel and the missing ethics code",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/research/who-speaks-at-the-world-court/",
+      "checked": "2026-11-05"
     }
   ]
 }

@@ -1,0 +1,517 @@
+{
+  "id": "disclaimer-level-three",
+  "category": "legal-study",
+  "title": "Disclaimer Level Three: the most convoluted way to read one sentence",
+  "subtitle": "SATIRE. Every gate below is a joke. No data is collected, no audio is recorded and no barking is stored.",
+  "summary": "In English defamation law, what you meant does not decide what you said. The ordinary reasonable reader decides, reading the whole publication, disclaimers included. So every disclaimer is more text to be read, and a pile of them can start to suggest exactly what it denies. This page takes that problem to its logical end: seven gates, five captchas, a 72-hour freezer and an exam, all standing between you and one sentence. The last section is not satire. It sets out what actually works: writing so the meaning is clear the first time.",
+  "scope": "England and Wales · Satire about how the law reads disclaimers, built on the meaning test as stated by the courts, followed by a plain section on what protects a writer. It names no person and makes no allegation about anyone.",
+  "status_note": "SATIRE, labelled as such, except the section headed “What actually works (not satire)” and the notes. The gates do not exist: nothing is collected, recorded or stored, and there is no microphone, timer or exam. The legal statements are taken from the judgments and legislation cited. This is commentary and public education, not legal advice.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-05",
+  "tags": [
+    "uk",
+    "defamation",
+    "satire",
+    "meaning",
+    "freedom-of-expression"
+  ],
+  "featured_source": "mcalpine",
+  "related": [
+    {
+      "id": "mcalpine-v-bercow",
+      "title": "“Innocent face”: McAlpine v Bercow, in praise of a judgment"
+    },
+    {
+      "id": "calling-fraud-a-fraud",
+      "title": "Calling fraud a fraud: defamation law for people who mean it"
+    },
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth: what does the system reward?"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Gates",
+      "value": "Seven",
+      "detail": "Including barking, a 72-hour freezer and an exam",
+      "target": "the-gates"
+    },
+    {
+      "label": "Who decides the meaning",
+      "value": "Not you",
+      "detail": "The ordinary reasonable reader; the writer’s intention is irrelevant",
+      "target": "the-problem"
+    },
+    {
+      "label": "What works",
+      "value": "Clarity first time",
+      "detail": "The only section here that is not a joke",
+      "target": "what-works"
+    }
+  ],
+  "sections": [
+    {
+      "id": "exhibit-a",
+      "title": "Exhibit A",
+      "intro": "Where this page came from. The author’s words are reproduced as spoken.",
+      "entries": [
+        {
+          "id": "the-author",
+          "kind": "The author’s own words",
+          "title": "The author, thinking out loud",
+          "paragraphs": [
+            {
+              "text": "no allegation, no evidence, pure theory, pure speculation, nothing in this article can be read, they will see this actually that because I put such a disclaimer that I actually mean it. And so this is, yeah, we live in a post-truth, that was word of the year 2016. We live in a post-satire when reality is satire, therefore satire is a label satire",
+              "sources": [
+                {
+                  "id": "author"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-problem",
+      "title": "The problem",
+      "intro": "Not satire yet. This is the rule the rest of the page makes fun of.",
+      "entries": [
+        {
+          "id": "meaning",
+          "kind": "Court of Appeal test, as quoted by the High Court",
+          "title": "The reader decides, reading everything",
+          "paragraphs": [
+            {
+              "text": "In English defamation law, what a publication means is decided by the hypothetical ordinary reasonable reader, who is “not naïve but … not unduly suspicious”, “can read between the lines” and “can read in an implication more readily than a lawyer”. Two of the rules in the standard summary do the damage here: “The intention of the publisher is irrelevant” and “The article must be read as a whole, and any ‘bane and antidote’ taken together.” A disclaimer is part of the whole. It helps only if it actually changes what that reader understands.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 57, quoting Jeynes: the meaning test"
+                }
+              ]
+            },
+            {
+              "text": "So every disclaimer is itself read. “I am not suggesting anything” is a sentence, and sentences carry implications. Pile on enough of them and the pile starts to suggest something. The author cannot prove what they do not mean, because each denial is more text for the reasonable reader to interpret.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 57, quoting Jeynes: the meaning test"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "level-three",
+          "kind": "High Court judgment quoting the Court of Appeal",
+          "title": "Why “level three”",
+          "paragraphs": [
+            {
+              "text": "The courts grade implied allegations in three “Chase levels”, after Chase v News Group Newspapers (2002): the person is guilty; there are reasonable grounds to suspect they are; there are grounds to investigate whether they are. Level three is the lightest, and it can still be defamatory and still has to be defended. Hence the title.",
+              "sources": [
+                {
+                  "id": "depp",
+                  "locator": "para 29, quoting Chase at para 34"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-gates",
+      "title": "The gates",
+      "intro": "SATIRE. To read the one sentence at the bottom of this page, complete the following.",
+      "entries": [
+        {
+          "id": "seven-gates",
+          "kind": "Satire",
+          "title": "Seven gates",
+          "paragraphs": [
+            {
+              "text": "Each gate is an attempt to make the reader less ordinary, and therefore less like the reader the law actually asks about.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 57, quoting Jeynes: the meaning test"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "The seven gates (none of them exists)",
+            "columns": [
+              "Gate",
+              "What you do",
+              "Small print"
+            ],
+            "rows": [
+              [
+                "1. Disclaimer before disclaimer before disclaimer",
+                "Read a disclaimer about the disclaimer.",
+                "Before you read the disclaimer, please read this disclaimer about the disclaimer. A further disclaimer will follow to disclaim this one."
+              ],
+              [
+                "2. Generating plausible deniability",
+                "Move your mouse randomly for 30 seconds.",
+                "Like encryption software gathering randomness, we are gathering enough deniability to publish safely. Progress: 12% deniable."
+              ],
+              [
+                "3. Canine consent",
+                "Bark like a dog to continue.",
+                "By barking, you confirm you have read and misunderstood this disclaimer. The microphone is not switched on. Bark anyway; the reasonable reader would."
+              ],
+              [
+                "4. Five captchas",
+                "Solve all five (below).",
+                "Including ‘select all squares containing a reasonable reader’. There are none."
+              ],
+              [
+                "5. The cooling-off freezer",
+                "Wait 72 hours.",
+                "Your request has been placed in the freezer for 72 hours, so that your first impression can defrost into the impression of an ordinary reasonable reader."
+              ],
+              [
+                "6. Reasonable Reader Certification Exam",
+                "Answer three questions (below).",
+                "Pass mark: reasonable."
+              ],
+              [
+                "7. Final gate",
+                "Read the final disclaimer.",
+                "This disclaimer is not a disclaimer."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "captchas",
+          "kind": "Satire",
+          "title": "Gate 4: five captchas",
+          "paragraphs": [
+            {
+              "text": "Complete all five. Failure is also completion.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 57, quoting Jeynes: the meaning test"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "The five captchas",
+            "columns": [
+              "Captcha",
+              "Instruction"
+            ],
+            "rows": [
+              [
+                "1",
+                "Tick the box to prove you are not a robot. Robots cannot be reasonable readers; neither, on reflection, can most humans."
+              ],
+              [
+                "2",
+                "Select all squares containing a reasonable reader. (There are none. Click ‘skip’. Clicking ‘skip’ is an admission.)"
+              ],
+              [
+                "3",
+                "Select all squares containing an implied allegation. (All of them, if you look long enough.)"
+              ],
+              [
+                "4",
+                "Rotate the disclaimer until it is the right way up. (No orientation makes it mean what it says.)"
+              ],
+              [
+                "5",
+                "Type the distorted text: ‘I DO NOT MEAN IT’. Your answer has been read as ‘I DO MEAN IT’. Please try again."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "exam",
+          "kind": "Satire",
+          "title": "Gate 6: the Reasonable Reader Certification Exam",
+          "paragraphs": [
+            {
+              "text": "Three questions. The answers are printed, because the exam was never the point.",
+              "sources": [
+                {
+                  "id": "depp",
+                  "locator": "para 29, quoting Chase at para 34"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 57, quoting Jeynes: the meaning test"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Exam questions and model answers",
+            "columns": [
+              "Question",
+              "Options",
+              "Answer"
+            ],
+            "rows": [
+              [
+                "Does this disclaimer mean what it says?",
+                "Yes · No · The court will decide in 2029",
+                "The court will decide in 2029"
+              ],
+              [
+                "If an author says ‘I really, seriously do not mean it’, the reasonable reader concludes:",
+                "He doesn’t mean it · He protests too much · Both, at Chase level three",
+                "Both, at Chase level three"
+              ],
+              [
+                "A satire label is:",
+                "A defence · A label · Satire",
+                "A label"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-sentence",
+      "title": "The sentence",
+      "intro": "SATIRE. The reward.",
+      "entries": [
+        {
+          "id": "congratulations",
+          "kind": "Satire",
+          "title": "Congratulations",
+          "paragraphs": [
+            {
+              "text": "Having barked, wiggled, rotated, waited three days and passed an exam, you are no longer an ordinary reader. You are now a highly unusual one, and the law was never asking about you: the hypothetical reader “is taken to be representative of those who would read the publication in question”.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 57, quoting Jeynes: the meaning test"
+                }
+              ]
+            },
+            {
+              "text": "This disclaimer is not a disclaimer.",
+              "sources": [
+                {
+                  "id": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-works",
+      "title": "What actually works (not satire)",
+      "intro": "The way out of the disclaimer spiral is not more disclaimers. It is writing so the meaning is clear the first time.",
+      "entries": [
+        {
+          "id": "aim",
+          "kind": "Our editorial practice",
+          "title": "Aim satire at systems, not named people",
+          "paragraphs": [
+            {
+              "text": "Disclaimer culture, incentives and the reasonable-reader test are fair targets. A named person with an implied factual charge is where the risk returns, whatever the label says. Seven words and a stage direction were enough in McAlpine v Bercow.",
+              "sources": [
+                {
+                  "id": "mcalpine-page"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 84–90: the meaning found"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "separate",
+          "kind": "Our editorial practice",
+          "title": "Separate fact, opinion and hypothesis visibly",
+          "paragraphs": [
+            {
+              "text": "Label each claim for what it is. Our Frameworks of truth page proposes five provenance labels for disputed claims: asserted, signed, supported, checked and found.",
+              "sources": [
+                {
+                  "id": "frameworks"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "basis",
+          "kind": "Legislation",
+          "title": "State the basis of opinions",
+          "paragraphs": [
+            {
+              "text": "The honest-opinion defence protects a statement of opinion that indicates, in general or specific terms, the basis of the opinion, where an honest person could have held it on facts that existed at the time. The public-interest defence protects a statement on a matter of public interest that the publisher reasonably believed it was in the public interest to publish. Neither protects a hint dressed up as a hypothetical.",
+              "sources": [
+                {
+                  "id": "da-s3",
+                  "locator": "s 3(2)–(4)"
+                },
+                {
+                  "id": "da-s4",
+                  "locator": "s 4(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "offences",
+          "kind": "Legislation",
+          "title": "Know the communications offences",
+          "paragraphs": [
+            {
+              "text": "Defamation is civil. Separately, it is a criminal offence to send a message conveying information you know to be false, intending it to cause non-trivial psychological or physical harm to a likely audience, without reasonable excuse. Sending a threat of death or serious harm, intending or being reckless as to whether someone fears it will be carried out, is another offence. Section 180 contains exemptions we have not analysed here.",
+              "sources": [
+                {
+                  "id": "osa-179",
+                  "locator": "s 179(1)"
+                },
+                {
+                  "id": "osa-181",
+                  "locator": "s 181(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ivey",
+          "kind": "Our analysis",
+          "title": "Remember Ivey",
+          "paragraphs": [
+            {
+              "text": "Your own description of your conduct does not decide its legal character. Phil Ivey sincerely believed edge-sorting was not cheating; the Supreme Court held that it was. That applies to the word “satire” too: a satire label is a label.",
+              "sources": [
+                {
+                  "id": "frameworks"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "intro": "Method and limits.",
+      "entries": [
+        {
+          "id": "method",
+          "kind": "Research method",
+          "title": "How this page was checked",
+          "paragraphs": [
+            {
+              "text": "We read McAlpine v Bercow and Depp v News Group Newspapers from the National Archives, and sections 3 and 4 of the Defamation Act 2013 and sections 179 and 181 of the Online Safety Act 2023 from legislation.gov.uk, on 30 October and 5 November 2026. Charleston v News Group Newspapers [1995] 2 AC 65, the House of Lords case usually cited for reading “bane and antidote” together, and Chase v News Group Newspapers [2002] EWCA Civ 1772 could not be opened. Both principles are cited through their quotation in later judgments.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "kind": "Coverage limitation",
+          "title": "What this page does not do",
+          "paragraphs": [
+            {
+              "text": "It is not a disclaimer for any other page, and it is not linked to any page as one. It does not discuss every defence, the serious-harm test in section 1, or the law of Scotland and Northern Ireland. This is commentary, not legal advice.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "author",
+      "title": "The author, thinking out loud (editorial notes, 5 November 2026)",
+      "publisher": "Independent Tribunal",
+      "type": "Author’s own words, first published here",
+      "url": "https://independenttribunal.org/research/disclaimer-level-three/",
+      "checked": "2026-11-05",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "mcalpine",
+      "title": "McAlpine v Bercow [2013] EWHC 1342 (QB)",
+      "publisher": "High Court, Tugendhat J (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/1342",
+      "checked": "2026-11-05",
+      "date": "2013-05-24"
+    },
+    {
+      "id": "depp",
+      "title": "Depp v News Group Newspapers Ltd [2020] EWHC 2911 (QB)",
+      "publisher": "High Court, Nicol J (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2020/2911",
+      "checked": "2026-10-30",
+      "date": "2020-11-02"
+    },
+    {
+      "id": "da-s3",
+      "title": "Defamation Act 2013, section 3: honest opinion",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/3",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "da-s4",
+      "title": "Defamation Act 2013, section 4: publication on matter of public interest",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/4",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "osa-179",
+      "title": "Online Safety Act 2023, section 179: false communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/179",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "osa-181",
+      "title": "Online Safety Act 2023, section 181: threatening communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/181",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "frameworks",
+      "title": "Frameworks of truth: what does the system reward?",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/research/frameworks-of-truth/",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "mcalpine-page",
+      "title": "“Innocent face”: McAlpine v Bercow, in praise of a judgment",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/research/mcalpine-v-bercow/",
+      "checked": "2026-11-05"
+    }
+  ]
+}
