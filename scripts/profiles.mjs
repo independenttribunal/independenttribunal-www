@@ -87,7 +87,7 @@ export function profileText(p) {
     ...(p.artworks ?? []).map((image) => `Artwork after ${image.after_section}: ${image.src}\n${image.alt}\n${image.caption}\nText equivalent: ${image.transcript}`),
     ...p.highlights.map((h) => `${h.label}: ${h.value}. ${h.detail}.`),
     ...p.sections.map((section) => `### ${section.title}\n${section.intro}\n` + section.entries.map((entry) =>
-      `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + (entry.table ? `${entry.table.caption}\n${entry.table.rows.map((row) => row.map((cell, i) => `${entry.table.columns[i]}: ${cell}`).join(" · ")).join("\n")}\n\n` : "") + entry.paragraphs.map((para) => `${para.withheld ? "[This part is not published] " : ""}${para.quote ? "> " : ""}${para.text}\n${para.sources.map((ref) => {
+      `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + (entry.table ? `${entry.table.caption}\n${entry.table.rows.map((row) => row.map((cell, i) => `${entry.table.columns[i]}: ${cell}`).join(" · ")).join("\n")}\n\n` : "") + entry.paragraphs.map((para) => `${para.withheld ? "[Marked “This part is not published”. It is published: in law, words are published once a reader sees them.] " : ""}${para.quote ? "> " : ""}${para.text}\n${para.sources.map((ref) => {
         const s = sources.get(ref.id);
         return `Source: ${s.title} (${s.publisher}; ${s.type}; checked ${s.checked})${ref.locator ? `, ${ref.locator}` : ""} <${s.url}>`;
       }).join("\n")}`).join("\n\n")
@@ -113,7 +113,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       const s = sources.get(ref.id);
       return `<a href="${e(s.url)}" target="_blank" rel="noopener noreferrer" aria-label="Source ${s.number}: ${e(s.title)} (opens in a new tab)">[${s.number}] ${e(ref.locator ?? s.type)}</a>`;
     }).join(" · ")}</span>` : "";
-    const withheld = (inner) => `<div class="profile-withheld"><div class="profile-withheld-bounce" aria-hidden="true"><span class="profile-bounce-x"><span class="profile-bounce-y">🦩</span></span><span class="profile-bounce-x"><span class="profile-bounce-y">💩</span></span></div><p class="profile-withheld-label">This part is not published</p><div class="profile-withheld-text">${inner}</div></div>`;
+    const withheld = (inner) => `<div class="profile-withheld"><div class="profile-withheld-bounce" aria-hidden="true"><span class="profile-bounce-x"><span class="profile-bounce-y">🦩</span></span><span class="profile-bounce-x"><span class="profile-bounce-y">💩</span></span></div><p class="profile-withheld-label">This part is not published*</p><div class="profile-withheld-text">${inner}</div><p class="profile-withheld-note">*It is. In law, words are published the moment a reader sees them, and a label saying otherwise changes nothing. Read it as published, and as our honest opinion on the facts above.</p></div>`;
     await put(`research/${p.id}/index.html`, page({
       title: p.title, description: p.summary, path: `/research/${p.id}/`,
       meta: `<p class="meta">Sources reviewed ${e(p.checked)} · <a href="/data/profiles/${p.id}.json">Download JSON</a> · <a href="${site.source_repo}/commits/main/data/profiles/${p.id}.json">Edit history</a></p>`,
@@ -137,6 +137,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         @media(prefers-reduced-motion:reduce) { .profile-bounce-x, .profile-bounce-y { animation:none; } }
         .profile-withheld-label { position:relative; margin:0 0 .6rem; font:700 12px/1.5 ui-sans-serif,system-ui,sans-serif; letter-spacing:.06em; text-transform:uppercase; }
         .profile-withheld-text { position:relative; opacity:.25; }
+        .profile-withheld-note { position:relative; margin:.6rem 0 0; font:12px/1.5 ui-sans-serif,system-ui,sans-serif; color:var(--muted); }
         .profile-scope { border-left:3px solid var(--gold); padding:.8rem 1.2rem; background:#eee8da; font-size:.95rem; }
         .profile-status { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.75rem; margin:1.7rem 0; }
         .profile-status a { display:flex; flex-direction:column; gap:.7rem; padding:1rem; border:1px solid var(--line); background:white; text-decoration:none; }

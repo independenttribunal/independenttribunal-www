@@ -62,6 +62,7 @@ test("the Thames Water study keeps findings, allegations and commentary apart", 
   assert.match(text("interest"), /£200\.8m of capitalised borrowing costs/);
   const html = await read("public/research/thames-water/index.html");
   assert.ok(html.includes("This part is not published"));
+  assert.ok(html.includes("words are published the moment a reader sees them"), "the withheld label admits it is published");
   assert.ok(html.includes('href="/research/private-prosecution-staying-in-control/"'));
   assert.ok((await read("public/research/private-prosecution-staying-in-control/index.html")).includes('href="/research/thames-water/"'));
 });

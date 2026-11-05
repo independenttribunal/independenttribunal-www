@@ -1,7 +1,7 @@
 ---
 title: Editorial standards
 summary: First-principles analysis, referenced evidence and reasoning open to scrutiny.
-updated: 2026-10-17
+updated: 2026-11-05
 order: 1
 ---
 
@@ -31,6 +31,10 @@ We encourage you to fact-check everything with multiple frontier AI models. Ask 
 4. **We link; we do not rehost.** We point to documents where they are published and quote only what is needed to report on them.
 5. **Allegations stay allegations.** We do not present an accusation as a finding. A charge is not a conviction, and a conviction under appeal is described as such.
 6. **People are described by what they did in public.** We document officials acting in their official roles and parties in published cases. We do not publish private individuals' personal details. See the [moderation policy](moderation.md).
+
+## Right of reply
+
+For a serious allegation about an identifiable person or organisation, we normally ask them for a response before publishing. We record the date and channel of contact, give a reasonable time to reply in proportion to the allegation, and publish the substance of any response. We distinguish "declined to comment" from "did not respond". Exceptions, such as urgency or a risk to evidence or safety, are recorded. Material corrections are published prominently.
 
 ## Corrections
 

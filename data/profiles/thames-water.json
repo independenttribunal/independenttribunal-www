@@ -220,7 +220,7 @@
             "rows": [
               [
                 "Revenue",
-                "All the money billed to customers. Nothing has been taken off yet",
+                "The income from customers’ bills that the company counts as earned in the year. It is not the same as cash collected, since some bills go unpaid, and nothing has been taken off yet",
                 "£3.6bn"
               ],
               [
@@ -2531,7 +2531,7 @@
               ]
             },
             {
-              "text": "Our view is that the outcome looks like extraction from a captive public, under rules that should never have allowed it, and that the record justifies an independent inquiry with the power to compel documents. If such an inquiry found crimes, those responsible should face prosecution and, if convicted, prison. If nobody is ever held personally answerable for a result like this, we would read that as a symptom of a system that is not fit for purpose.",
+              "text": "Our view is that the outcome looks like extraction from a captive public, under rules that should never have allowed it. High borrowing, customers who cannot leave, environmental failure and emergency loans together raise systemic accountability questions, and we think the record justifies an independent inquiry with statutory powers to compel documents. That is a policy recommendation about the system, not a finding of fraud or personal dishonesty against anyone. If such an inquiry found crimes, those responsible should face prosecution and, if convicted, prison. If nobody is ever held personally answerable for a result like this, we would read that as a symptom of a system that is not fit for purpose.",
               "sources": [
                 {
                   "id": "efra",

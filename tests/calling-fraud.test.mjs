@@ -39,3 +39,15 @@ test("McAlpine: the tweet is quoted as the judgment spells it, with a spelling n
   const jigsaw = p.sections.flatMap((s) => s.entries).find((e) => e.id === "jigsaw");
   assert.match(jigsaw.paragraphs[0].text, /the last piece in the jigsaw/);
 });
+
+test("fraud study: corrections keep the defences, Chase levels and SLAPP conditions precise", async () => {
+  const p = JSON.parse(await readFile(new URL("../data/profiles/calling-fraud-a-fraud.json", import.meta.url), "utf8"));
+  const all = JSON.stringify(p);
+  assert.doesNotMatch(all, /Truth only/);
+  assert.doesNotMatch(all, /is, in law, calling it a fraud/);
+  assert.match(all, /all four conditions in section 195\(1\)/);
+  assert.match(all, /not rigid boxes/);
+  assert.match(p.summary, /more likely than not to succeed/);
+  const policy = await readFile(new URL("../data/policies/editorial-standards.md", import.meta.url), "utf8");
+  assert.match(policy, /## Right of reply/);
+});

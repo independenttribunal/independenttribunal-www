@@ -62,7 +62,7 @@
       "height": 1402,
       "after_section": "case",
       "alt": "Editorial poster contrasting a tribunal’s praise for frankness with disbarment, headed Never pollute your barrister with the truth.",
-      "caption": "Editorial artwork, Independent Tribunal. All four images on this page are our commentary, not evidence. Open any image for full size.",
+      "caption": "Editorial artwork, Independent Tribunal. All four images on this page are our commentary, not evidence. Open any image for full size. The poster’s last line is rhetorical: the guidance already treats prompt self-reporting as mitigation. What the reasons do not show is how much weight it carried against a sanction that is normally disbarment for dishonesty. See “Self-reporting is already a mitigating factor”.",
       "transcript": "NEVER POLLUTE YOUR BARRISTER WITH THE TRUTH.\nTHIS CASE IS REAL. Inspired by case 2024/1532/D5. A barrister let a court be misled, on an application she did not draft. Self-reported two hours after the hearing. Admitted everything.\nFRANKNESS: COMMENDED. OUTCOME: DISBARRED.\nIF CONFESSING EARNS NO CREDIT, WHAT DOES THE SYSTEM REWARD?\nIndependentTribunal.org — Building the justice system from first principles."
     },
     {
@@ -532,7 +532,7 @@
           },
           "paragraphs": [
             {
-              "text": "These are provenance labels, not credibility scores. An assertion can be true; a signed statement can be mistaken; a check can be incomplete; a finding can later be overturned. Several labels may apply at once. The framework is our proposed improvement, not a new burden of proof or a declaration that current practice already requires these labels.",
+              "text": "These are provenance labels, not credibility scores. They describe where a claim comes from and what checking it has had, not a numerical confidence, admissibility or a legal standard of proof. An assertion can be true; a signed statement can be mistaken; a check can be incomplete; a finding can be provisional, later overturned, or limited to particular parties and issues. Several labels may apply at once. The framework is our proposed improvement, not a new burden of proof or a declaration that current practice already requires these labels.",
               "sources": [
                 {
                   "id": "pd22",
