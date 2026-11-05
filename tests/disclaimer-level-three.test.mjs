@@ -29,3 +29,15 @@ test("Frameworks of truth: lying to your barrister is not a loophole", async () 
   assert.match(entries.get("at-the-world-court").paragraphs[1].text, /not due to negligence/);
   assert.ok(p.related.some((r) => r.id === "who-speaks-at-the-world-court"));
 });
+
+test("Bark gate: records locally, uploads nothing, offers a word of honour", async () => {
+  const js = await read("public/bark-gate.js");
+  assert.doesNotMatch(js, /fetch\(|XMLHttpRequest|sendBeacon|WebSocket|localStorage|indexedDB|new Image\(/);
+  assert.match(js, /getUserMedia/);
+  assert.match(js, /word of honour/i);
+  assert.match(js, /Another reason/);
+  const html = await read("dist/client/research/disclaimer-level-three/index.html");
+  assert.match(html, /<div class="profile-interactive" id="bark-gate">/);
+  assert.match(html, /<script src="\/bark-gate\.js" defer><\/script>/);
+  assert.match(await read("data/policies/privacy.md"), /## The bark gate/);
+});

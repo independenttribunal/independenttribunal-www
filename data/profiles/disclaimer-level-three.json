@@ -2,10 +2,10 @@
   "id": "disclaimer-level-three",
   "category": "legal-study",
   "title": "Disclaimer Level Three: the most convoluted way to read one sentence",
-  "subtitle": "SATIRE. Every gate below is a joke. No data is collected, no audio is recorded and no barking is stored.",
+  "subtitle": "SATIRE. Every gate below is a joke, except that you can really bark at gate 3. The recording stays in your browser and is never sent to us.",
   "summary": "In English defamation law, what you meant does not decide what you said. The ordinary reasonable reader decides, reading the whole publication, disclaimers included. So every disclaimer is more text to be read, and a pile of them can start to suggest exactly what it denies. This page takes that problem to its logical end: seven gates, five captchas, a 72-hour freezer and an exam, all standing between you and one sentence. The last section is not satire. It sets out what actually works: writing so the meaning is clear the first time.",
   "scope": "England and Wales · Satire about how the law reads disclaimers, built on the meaning test as stated by the courts, followed by a plain section on what protects a writer. It names no person and makes no allegation about anyone.",
-  "status_note": "SATIRE, labelled as such, except the section headed “What actually works (not satire)” and the notes. The gates do not exist: nothing is collected, recorded or stored, and there is no microphone, timer or exam. The legal statements are taken from the judgments and legislation cited. This is commentary and public education, not legal advice.",
+  "status_note": "SATIRE, labelled as such, except the section headed “What actually works (not satire)” and the notes. Most gates do not exist: there is no timer, freezer or exam. Gate 3 works: if you press Bark and allow it, your browser records up to five seconds, which you can play back or save to your own device. The page has no code that uploads or stores anything, and the word-of-honour checklist never leaves the page. The legal statements are taken from the judgments and legislation cited. This is commentary and public education, not legal advice.",
   "jurisdiction": "England and Wales",
   "checked": "2026-11-05",
   "tags": [
@@ -162,8 +162,8 @@
               ],
               [
                 "3. Canine consent",
-                "Bark like a dog to continue.",
-                "By barking, you confirm you have read and misunderstood this disclaimer. The microphone is not switched on. Bark anyway; the reasonable reader would."
+                "Bark like a dog to continue. This one works: try it below.",
+                "By barking, you confirm you have read and misunderstood this disclaimer. The microphone switches on only if you press Bark and allow it. Cannot bark, or will not? Word of honour accepted."
               ],
               [
                 "4. Five captchas",
@@ -513,5 +513,11 @@
       "url": "https://independenttribunal.org/research/mcalpine-v-bercow/",
       "checked": "2026-11-05"
     }
-  ]
+  ],
+  "interactive": {
+    "id": "bark-gate",
+    "after_section": "the-gates",
+    "script": "/bark-gate.js",
+    "fallback": "Gate 3 needs JavaScript and a microphone. Without them, your word of honour is accepted: you would have barked."
+  }
 }

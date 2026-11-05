@@ -1,7 +1,7 @@
 ---
 title: Privacy policy
 summary: What happens to your data when you visit, and how we handle personal data about people in our records.
-updated: 2026-10-14
+updated: 2026-11-05
 order: 4
 ---
 
@@ -19,6 +19,10 @@ Some services we rely on necessarily process technical data when you visit:
 - **Cloudflare** provides our DNS (the system that turns our domain name into a server address). See [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
 
 We do not receive or store these logs ourselves.
+
+## The bark gate
+
+Our satire page [Disclaimer Level Three](https://independenttribunal.org/research/disclaimer-level-three/) has a button that records you barking. Your browser asks for microphone permission first. The recording, and anything you tick or type in its word-of-honour checklist, stays in your browser tab: the page sends nothing to us or anyone else, and the recording is gone when you close the tab unless you save it to your own device.
 
 ## Contacting us
 
