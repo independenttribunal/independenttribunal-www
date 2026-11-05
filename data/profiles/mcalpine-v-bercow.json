@@ -1,0 +1,793 @@
+{
+  "id": "mcalpine-v-bercow",
+  "category": "legal-study",
+  "title": "“*Innocent face*”: McAlpine v Bercow, in praise of a judgment",
+  "subtitle": "Seven words on Twitter, a false allegation that a man was a child abuser, and a High Court judgment that explains, better than any textbook, how English law reads between the lines. We praise it, we argue with it, and we remember the man who brought it.",
+  "summary": "On 4 November 2012 Sally Bercow tweeted “Why is Lord McAlpine trending? *Innocent face*” to more than 56,000 followers, two days after BBC Newsnight aired an abuse allegation against an unnamed senior Conservative from the Thatcher years. The allegation was false: the accuser had identified the wrong man. On 24 May 2013 Mr Justice Tugendhat held that the tweet meant McAlpine “was a paedophile who was guilty of sexually abusing boys living in care”. The judgment sets out who the law’s “reasonable reader” is, why a question and a stage direction can carry an accusation, and why the writer’s intention is irrelevant. Bercow settled and apologised in the High Court in October 2013. McAlpine died in January 2014. His name now stands for the rule that a wink is a statement.",
+  "scope": "England and Wales · The High Court’s ruling on meaning in McAlpine v Bercow [2013] EWHC 1342 (QB), the events around it, the meaning rules it applies, and what they mean for anyone posting about a real person. The tweet was published before the Defamation Act 2013 came into force, so the serious-harm test did not apply to it. Scotland and Northern Ireland have different law.",
+  "status_note": "The judgment was read from the official text on the National Archives on 5 November 2026, and quotations are taken from it, including its spelling. The settlement, the BBC and ITV payments and the £25 scheme come from press reports and encyclopaedia summaries, which are labelled as such. The praise, the criticism, the plain-English answers and the memorial are our views. The 2012 allegation against Lord McAlpine was false; the accuser withdrew it and apologised, and every party accepted he was innocent. Nothing on this page repeats it as true. This is legal research and public education, not legal advice.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-05",
+  "tags": [
+    "uk",
+    "defamation",
+    "freedom-of-expression",
+    "social-media",
+    "twitter",
+    "meaning"
+  ],
+  "related": [
+    {
+      "id": "calling-fraud-a-fraud",
+      "title": "Calling fraud a fraud: defamation law for people who mean it"
+    },
+    {
+      "id": "jigsaw-identification",
+      "title": "Jigsaw identification"
+    },
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The tweet",
+      "value": "Seven words",
+      "detail": "A five-word question and “*Innocent face*”, to more than 56,000 followers",
+      "target": "short-answer"
+    },
+    {
+      "label": "What it meant",
+      "value": "Guilty, not suspected",
+      "detail": "The most serious of the three possible levels of meaning",
+      "target": "judgment"
+    },
+    {
+      "label": "Who decides",
+      "value": "The reasonable reader",
+      "detail": "Not naïve, not avid for scandal. The writer’s intention is irrelevant",
+      "target": "intention"
+    }
+  ],
+  "sections": [
+    {
+      "id": "short-answer",
+      "title": "The short answer",
+      "intro": "What was said, what the court decided, and why it still matters.",
+      "entries": [
+        {
+          "id": "what-happened",
+          "title": "Seven words, one meaning",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The tweet, exactly as the judgment sets it out: “Why is Lord McAlpine trending? *Innocent face*”. Its author, Sally Bercow, was then the wife of the Speaker of the House of Commons and had “over 56,000 followers”. It was published on Sunday 4 November 2012, probably early in the day, as the third of 14 tweets she sent that day.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 3, 10, 19"
+                }
+              ]
+            },
+            {
+              "text": "Tugendhat J found that “the Tweet meant, in its natural and ordinary defamatory meaning, that the Claimant was a paedophile who was guilty of sexually abusing boys living in care.” That allegation was false. The judge recorded that it “is accepted by the Defendant, and by the complainant, and by the public at large that the Claimant was entirely innocent”, and that Bercow had accepted this “very soon after 4 November”.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 16, 90"
+                }
+              ]
+            },
+            {
+              "text": "The hearing decided meaning only, as a preliminary issue, before a judge sitting without a jury. Bercow did not try to defend the meaning as true or on any other basis. In October 2013 the case was settled in the High Court: she apologised for her “irresponsible use of Twitter” and agreed to pay undisclosed damages and legal costs, reportedly to go to charity, and to post an apology if she ever reactivated her Twitter account.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 1–2"
+                },
+                {
+                  "id": "pg-settlement",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "why-it-matters",
+          "title": "Why it is worth a page of its own",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Because it answers, in plain sentences, the question every person with a phone now faces: who decides what my post means? Not you, and not your most hostile reader, but a “hypothetical reasonable reader” who is “not naïve but … not unduly suspicious”. The judgment shows that reader at work on seven words, and shows why a question mark, a stage direction and a show of innocence did not change the answer.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 57, 62, 84"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "November 2012, and after",
+      "intro": "The tweet landed in the middle of a fast-moving story. The judge insisted on reading it as of 4 November, “without the benefit of hindsight”.",
+      "entries": [
+        {
+          "id": "timeline-table",
+          "title": "What happened when",
+          "kind": "Summary of the record",
+          "table": {
+            "caption": "McAlpine v Bercow: the sequence of events",
+            "columns": [
+              "Date",
+              "What happened",
+              "Source"
+            ],
+            "rows": [
+              [
+                "2 November 2012",
+                "BBC Newsnight broadcasts an allegation by Steve Messham, who was abused as a boy at the Bryn Estyn care home in Wales, against “a leading Conservative politician from the Thatcher years”. The presenter says they do not have enough evidence “to name names”.",
+                "Judgment, paras 15, 17"
+              ],
+              [
+                "2–4 November",
+                "Newspapers and websites report the allegation. The Telegraph describes a “frenzy of unsubstantiated speculation on social networking sites, with several politicians being named”.",
+                "Judgment, paras 18–24 (quoting the press)"
+              ],
+              [
+                "4 November",
+                "Sally Bercow tweets “Why is Lord McAlpine trending? *Innocent face*”.",
+                "Judgment, paras 3, 19"
+              ],
+              [
+                "Later that week",
+                "On television an interviewer hands the Prime Minister a list of names on which McAlpine’s name can be seen. Bercow’s counsel stressed that this came after the tweet; the judge decided meaning as at 4 November, “without the benefit of hindsight”.",
+                "Judgment, paras 9, 77"
+              ],
+              [
+                "9 November",
+                "Messham says he was mistaken about his abuser’s identity and apologises. The judgment later calls it “a case of mistaken identity”.",
+                "CBS News; judgment, para 15"
+              ],
+              [
+                "10 November",
+                "BBC Director-General George Entwistle resigns after eight weeks in the job.",
+                "CBS News"
+              ],
+              [
+                "November 2012",
+                "The BBC pays McAlpine £185,000 in damages and ITV £125,000 over its This Morning broadcast, plus costs. He gives the money to charity. Twitter users with fewer than 500 followers can settle by giving £25 to BBC Children in Need.",
+                "Encyclopaedia summaries (Wikipedia)"
+              ],
+              [
+                "24 May 2013",
+                "Tugendhat J rules that the tweet meant McAlpine was guilty of child sexual abuse.",
+                "Judgment, para 90"
+              ],
+              [
+                "22 October 2013",
+                "Settlement and apology in the High Court; damages undisclosed.",
+                "Press Gazette (Press Association)"
+              ],
+              [
+                "1 January 2014",
+                "The Defamation Act 2013, with its serious-harm test, comes into force. It does not apply to the 2012 tweet.",
+                "Commencement Order"
+              ],
+              [
+                "17 January 2014",
+                "Lord McAlpine dies at his home in Italy, aged 71.",
+                "Encyclopaedia summary (Wikipedia)"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The judgment is the source for everything up to the tweet and for the ruling itself. Later events come from contemporary reporting and encyclopaedia summaries, as marked in the source column.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 9, 15–24, 77"
+                },
+                {
+                  "id": "cbs-entwistle",
+                  "locator": "report"
+                },
+                {
+                  "id": "wiki-mcalpine",
+                  "locator": "biography"
+                },
+                {
+                  "id": "wiki-case",
+                  "locator": "article"
+                },
+                {
+                  "id": "pg-settlement",
+                  "locator": "report"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "title": "The judgment, step by step",
+      "intro": "Ninety-two paragraphs. These are the moves that decided it, in the judge’s words where they are quotable.",
+      "entries": [
+        {
+          "id": "the-fight",
+          "title": "The two readings",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Bercow’s case: “the question she asked in her Tweet was simply a question”, as neutral as Twitter’s own list of trends. Her counsel said “innocent face” should be read literally, as a “deadpan” expression, and that “Only an unreasonable reader, avid for scandal” would read more into it. Otherwise “it would be almost impossible to tweet about anything.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 34, 75, 78"
+                }
+              ]
+            },
+            {
+              "text": "McAlpine’s case: “innocent face” was irony, put in “to negate a neutral interpretation, and to hint, or nudge readers into understanding that the Claimant has been doing wrong.” The question was “just a device … to draw the readers’ attention to an answer which a reasonable reader would understand that she already thought she knew.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 68, 71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-reader",
+          "title": "Who reads: the hypothetical reasonable reader",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The judge applied the standard test from Jeynes v News Magazines, which neither side disputed: “(1) The governing principle is reasonableness. (2) The hypothetical reasonable reader is not naïve but he is not unduly suspicious. He can read between the lines. He can read in an implication more readily than a lawyer and may indulge in a certain amount of loose thinking but he must be treated as being a man who is not avid for scandal … (3) Over-elaborate analysis is best avoided. (4) The intention of the publisher is irrelevant. (5) The article must be read as a whole … (6) The hypothetical reader is taken to be representative of those who would read the publication in question.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 57, quoting Jeynes at [14]"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "Point 6 decided much. The tweet “was not a publication to the world at large”; the reader is a reasonable representative of “users of Twitter who follow the Defendant”. The judge found her followers were “very largely made up of people who share her interest in politics and current affairs”, who by 4 November knew the gist of the Newsnight story and the row over the BBC not naming the man.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 58, 81"
+                }
+              ]
+            },
+            {
+              "text": "No real reader gave evidence. That is the law: “evidence is not admissible as to what any individual reader claims to have understood a publication to mean.” The reader is a standard the judge applies, not a witness.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 13"
+                }
+              ]
+            },
+            {
+              "text": "On the line that the reader should not “select one bad meaning where other non-defamatory meanings are available”, the judge refused to turn it into a rule of charity: “It would be unreasonable for a reader to be avid for scandal, and always to adopt a bad meaning where a non-defamatory meaning was available. But always to adopt the less derogatory meaning would also be unreasonable: it would be naïve.” He noted that the old 17th-century rule of reading words in their mildest sense, meant to discourage suits, “has not been a rule of law since then”.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 64, 66"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "questions",
+          "title": "A question can accuse",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "“The law is clear that words may be defamatory in whatever form they are used. A question, or a rhetorical question, or any other form of words may, in principle, be understood to convey a defamatory meaning.” And: “A reasonable reader of a Tweet, or anything else, does not just look at the words. A reasonable reader would ask him or herself what the Tweet is about, if it was not pointing the finger of blame at the Claimant. And there would not be a reasonable alternative meaning that would spring to mind.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 62, 72"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "innocent-face",
+          "title": "“*Innocent face*”: a stage direction that winks",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Both sides agreed the words work “like a stage direction, or an emoticon”: readers imagine the writer’s face as she asks. The dispute was whether the innocence was sincere. The judge: “the reasonable reader would understand the words ‘innocent face’ as being insincere and ironical. There is no sensible reason for including those words in the Tweet if they are to be taken as meaning that the Defendant simply wants to know the answer to a factual question.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 7, 84"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jigsaw",
+          "title": "“The last piece in the jigsaw”",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "A reader did not need to remember McAlpine’s career. The tweet called him “Lord”, and “It is common knowledge that peers nowadays are generally people who have held prominent positions in public life, in many cases in politics”. He “was not otherwise in the public eye”, and there was “much speculation as to the identity of an unnamed politician”.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 83"
+                }
+              ]
+            },
+            {
+              "text": "Bercow did not have to explain why else he might be trending. “But where the Defendant is telling her followers that she does not know why he is trending, and there is no alternative explanation for why this particular peer was being named … it is reasonable to infer that he is trending because he fits the description of the unnamed abuser. … The reader would reasonably infer that the Defendant had provided the last piece in the jigsaw.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 85"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "level",
+          "title": "Guilt, not suspicion",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Meanings come in three levels, set out in Chase v News Group: that the person did it, that there are reasonable grounds to suspect them, or that there are grounds to investigate. Bercow argued for the lower levels. The judge refused. Newsnight reported an accusation, not an investigation, and the tweet “adds a name that was not in the reports themselves”. Under the repetition rule she is treated as making the accusation herself: “It is an allegation of guilt. I see no room on these facts for any less serious meaning.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 41–42, 44, 87–88"
+                }
+              ]
+            },
+            {
+              "text": "Had he been wrong about the natural meaning, he would have found the same meaning by innuendo, but only among the “small number of readers” who already knew McAlpine had been a prominent Conservative of the Thatcher years. He did not decide how many people read the tweet.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 91–92"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spelling",
+          "title": "Spelling note [sic!]",
+          "kind": "Textual note",
+          "paragraphs": [
+            {
+              "text": "The judgment sets the tweet out as “*Innocent face*”, with a capital I; we quote it that way. The judge’s own discussion, Wikipedia and much of the press write “innocent face” in lower case. The judgment also records counsel submitting that Bercow “IS [sic] not taking sides”. And it counts the tweet as “its seven words”.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 3, 67, 78, 84"
+                },
+                {
+                  "id": "wiki-case",
+                  "locator": "article"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "praise",
+      "title": "In praise of the judgment",
+      "intro": "Our view. Why this is good law, well explained, and why it protects writers more than it first appears.",
+      "entries": [
+        {
+          "id": "substance",
+          "title": "It refuses to let form launder substance",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "If adding a question mark or “*innocent face*” made an accusation safe, every smear would be phrased as a question. The judgment closes that door in two sentences: words can defame “in whatever form they are used”, and the reader asks what the post is about. That is not hostility to speech. It is refusing a loophole that would let the most careless speakers say the worst things.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 62, 72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fair",
+          "title": "It is fair to everyone in the room",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The judge reads the tweet as of 4 November, “without the benefit of hindsight”. He records that Messham “was undoubtedly abused” and that the problem was mistaken identity, a risk he describes as behind “some of the worst miscarriages of justice”. He puts no burden on Bercow to explain herself, and rejects the claimant’s reader as much as the defendant’s: not avid for scandal, but not naïve either.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 9, 15–16, 66, 85"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "both-ways",
+          "title": "The same reader protects writers",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Six years later the Supreme Court used the same ordinary reader to rescue a defendant. In Stocker v Stocker, a wife wrote on Facebook that her ex-husband “tried to strangle me”. The trial judge took a dictionary meaning, attempted killing. The Supreme Court said readers of social media “scroll through it quickly … Their reaction to the post is impressionistic and fleeting”, found the post meant he grasped her by the neck, which was true, and she won. The test that sank “*Innocent face*” is the test that saved her.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 1, 43–44, 47, 49, 61"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "us",
+          "title": "Even American law draws the same line",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The United States is the most speech-protective system there is. In Hustler v Falwell (1988) its Supreme Court protected a crude parody of a preacher because it “could not reasonably be understood as describing actual facts”. Bercow’s tweet failed exactly that test: readers understood it as stating a fact. Satire is protected where the reader knows it is not a claim of fact; a wink is not satire.",
+              "sources": [
+                {
+                  "id": "hustler",
+                  "locator": "syllabus and opinion"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "against",
+      "title": "The case against",
+      "intro": "Our view. Praise is not the whole story.",
+      "entries": [
+        {
+          "id": "chill",
+          "title": "The chill was real, and it fell unevenly",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Bercow was sued because she was prominent and had followers. Thousands of accounts named McAlpine; most were offered a £25 charity donation. The BBC, which started the fire, paid £185,000. A law that reaches the person with the biggest platform, rather than the person who did most harm, is a law of who is worth suing.",
+              "sources": [
+                {
+                  "id": "wiki-case",
+                  "locator": "article"
+                },
+                {
+                  "id": "wiki-mcalpine",
+                  "locator": "biography"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "old-law",
+          "title": "Old law, and a choice not to favour speech",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The tweet predates the Defamation Act 2013, which added a serious-harm threshold from 1 January 2014. A paedophile allegation would pass it easily, so we think the result would be the same today. The judge also noted that English law once read words in their mildest sense precisely to discourage libel suits, and no longer does. That was a choice, and the case shows its cost.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 38, 64"
+                },
+                {
+                  "id": "da-commencement",
+                  "locator": "art 2"
+                },
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reader-fiction",
+          "title": "The reader is a fiction the judge builds",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "No reader testified. The judge inferred who Bercow’s followers were and what they knew. That is the law, and probably the only workable way to decide meaning, but it puts a great deal of weight on one person’s picture of an audience of 56,000.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 13, 81–82"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intention",
+      "title": "Our intention is irrelevant (Jeynes, principle 4)",
+      "intro": "Plain answers to the questions this case raises for anyone who posts about real people. Our analysis, not legal advice.",
+      "entries": [
+        {
+          "id": "think",
+          "title": "“So I cannot post what I think?”",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "You can. Honest opinion is a defence if the statement is recognisably opinion, indicates in general terms what it is based on, and an honest person could have held it on facts that existed when you posted. “On these accounts, this looks to me like a legalised fraud on bill payers” is opinion with a basis. “X is a fraudster” is a bare statement of fact, and you would have to prove it.",
+              "sources": [
+                {
+                  "id": "da-s3",
+                  "locator": "s 3(2)–(4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hypotheticals",
+          "title": "“So I cannot ask hypothetical questions?”",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "You can, if the reasonable reader takes them as hypothetical. A question about no one in particular accuses no one. Bercow’s question was not hypothetical: it named a real man at the moment everyone was asking who the unnamed politician was. The question mark did not matter. Where it pointed did.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 62, 83, 85"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "which-reader",
+          "title": "“Reasonable, or objectively reasonable?”",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Both words do work. “Reasonable” describes a character: fair-minded, able to read between the lines, neither naïve nor avid for scandal. “Objective” describes the method: the judge decides what that reader would understand, without evidence from real readers, and without regard to what you intended. The reader is drawn from your actual audience, so a site that labels its analysis and quotes judgments has a different reader from a fast-scrolling feed. Clear labels are the “antidote” that principle 5 says must be read with the “bane”.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 13, 57–58, 66"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "paras 41, 43"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-not",
+          "title": "What you cannot do",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Publish, without a defence, words that a fair-minded member of your audience would take as a factual accusation against a person they can identify. That is narrower than it sounds. Thinking is unrestricted. Opinion with a stated basis is protected. Systemic criticism that accuses no individual defames no individual. The trap is the wink at a named person.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 36, 62, 85"
+                },
+                {
+                  "id": "da-s3",
+                  "locator": "s 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memorial",
+      "title": "In memoriam: Lord McAlpine of West Green (1942–2014)",
+      "intro": "Our tribute, with the facts sourced. He asked the courts to clear his name. They did, and they also made it permanent.",
+      "entries": [
+        {
+          "id": "who",
+          "title": "Who he was",
+          "kind": "Encyclopaedia summary",
+          "paragraphs": [
+            {
+              "text": "Robert Alistair McAlpine, of the construction family, became a director of Sir Robert McAlpine & Sons at 21. He was Conservative Party treasurer under Margaret Thatcher until 1990 and deputy chairman from 1979 to 1983, and was made a life peer in 1984. He collected art, gave 60 sculptures to the Tate in 1970, developed tourism in Broome in Western Australia, and wrote books including The Servant. By 2012 he had lived in southern Italy “out of the public eye” for a decade.",
+              "sources": [
+                {
+                  "id": "wiki-mcalpine",
+                  "locator": "biography"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "remembered",
+          "title": "How he will be remembered",
+          "kind": "Our tribute",
+          "paragraphs": [
+            {
+              "text": "Not as the man in the allegation, which was false, withdrawn and apologised for. He is remembered as the man who made Twitter read the law. He won against the BBC, ITV and the Speaker’s wife, gave the damages away, let small accounts off for £25, and left behind a judgment that explains, in ordinary sentences, why a wink is a statement. Every person who has typed “just asking questions” after a name has, whether they know it or not, been ruled on by McAlpine v Bercow.",
+              "sources": [
+                {
+                  "id": "wiki-mcalpine",
+                  "locator": "biography"
+                },
+                {
+                  "id": "wiki-case",
+                  "locator": "article"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 16, 84–85, 90"
+                }
+              ]
+            },
+            {
+              "text": "A note on the word “offended”. Defamation law does not protect feelings. Words are defamatory if they “substantially affect in an adverse manner the attitude of other people towards the claimant”. McAlpine’s complaint was not that he was upset, but that tens of thousands of people were told he abused children in care. He was right, and a court said so.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 36, 38, 90"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Method and limits",
+      "intro": "How this page was built and what it does not cover.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The judgment was read in full from the National Archives’ official text. Quotations are copied from it, including its spelling and typography. Stocker v Stocker was read from the same service. Hustler v Falwell was read from the Cornell Legal Information Institute. Events after the tweet come from contemporary reports and encyclopaedia articles, and are labelled as such.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Coverage limits",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The amounts paid by the BBC and ITV, the £25 scheme and McAlpine’s biography come from secondary sources, not court records. Bercow’s damages were never disclosed. This page does not cover McAlpine’s other claims, such as those against George Monbiot or Alan Davies, beyond noting that they existed.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "mcalpine",
+      "title": "McAlpine v Bercow [2013] EWHC 1342 (QB)",
+      "publisher": "High Court, Tugendhat J (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/1342",
+      "checked": "2026-11-05",
+      "date": "2013-05-24"
+    },
+    {
+      "id": "stocker",
+      "title": "Stocker v Stocker [2019] UKSC 17",
+      "publisher": "UK Supreme Court (National Archives)",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/17",
+      "checked": "2026-11-05",
+      "date": "2019-04-03"
+    },
+    {
+      "id": "hustler",
+      "title": "Hustler Magazine, Inc. v Falwell, 485 U.S. 46 (1988)",
+      "publisher": "US Supreme Court (Cornell LII)",
+      "type": "Judgment",
+      "url": "https://www.law.cornell.edu/supremecourt/text/485/46",
+      "checked": "2026-11-05",
+      "date": "1988-02-24"
+    },
+    {
+      "id": "da-s1",
+      "title": "Defamation Act 2013, section 1: serious harm",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/1",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "da-s3",
+      "title": "Defamation Act 2013, section 3: honest opinion",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/3",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "da-commencement",
+      "title": "Defamation Act 2013 (Commencement) (England and Wales) Order 2013, SI 2013/3027",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/2013/3027/made",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "pg-settlement",
+      "title": "Bercow must tweet McAlpine apology if she ever rejoins Twitter",
+      "publisher": "Press Gazette (Press Association)",
+      "type": "News report",
+      "url": "https://pressgazette.co.uk/publishers/digital-journalism/bercow-must-tweet-mcalpine-apology-if-she-ever-rejoins-twitter-contrite-face/",
+      "checked": "2026-11-05",
+      "date": "2013-10-22"
+    },
+    {
+      "id": "cbs-entwistle",
+      "title": "BBC chief quits after saying TV report was wrong",
+      "publisher": "CBS News (Associated Press)",
+      "type": "News report",
+      "url": "https://www.cbsnews.com/news/bbc-chief-quits-after-saying-tv-report-was-wrong",
+      "checked": "2026-11-05",
+      "date": "2012-11-10"
+    },
+    {
+      "id": "wiki-mcalpine",
+      "title": "Alistair McAlpine, Baron McAlpine of West Green",
+      "publisher": "Wikipedia",
+      "type": "Encyclopaedia article",
+      "url": "https://en.wikipedia.org/wiki/Alistair_McAlpine,_Baron_McAlpine_of_West_Green",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "wiki-case",
+      "title": "McAlpine v Bercow",
+      "publisher": "Wikipedia",
+      "type": "Encyclopaedia article",
+      "url": "https://en.wikipedia.org/wiki/McAlpine_v_Bercow",
+      "checked": "2026-11-05"
+    }
+  ]
+}
