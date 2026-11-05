@@ -1,0 +1,766 @@
+{
+  "id": "who-speaks-at-the-world-court",
+  "category": "legal-study",
+  "title": "Who gets to speak at the World Court? Parties, counsel and the missing ethics code",
+  "subtitle": "Only states can be parties. They can bring almost anyone as counsel. And the Court itself has no code of conduct for those counsel, so who can discipline an advocate depends on which country’s bar they belong to, if any.",
+  "summary": "Before the International Court of Justice, only states may be parties in contentious cases. Each state is represented by an agent and may bring counsel and advocates of its choosing; the Statute sets no qualification for them. The Court’s Practice Directions deal with conflicts of position, such as former judges appearing as counsel, but not with honesty, and counsel “are not subject under international law to any compulsory code of conduct”. English barristers carry their own rules with them wherever they appear; academics who are not admitted anywhere may carry none. The Genocide Convention case South Africa v. Israel shows the system at work: members of one London chambers on opposite sides, and more than a dozen states intervening.",
+  "scope": "International Court of Justice · Who may be a party, who may represent a party, which conduct rules bind them, who could enforce those rules, and how third states and NGOs take part. English professional rules are covered as one example of home-bar rules. Covers documents checked up to 5 November 2026.",
+  "status_note": "The Statute, Practice Directions, General Assembly resolution 90(I), ICJ press releases, the ICTY code and Bar Council guidance were read from their official texts on 5 November 2026. Some academic sources and the January 2024 verbatim record could not be retrieved; claims resting on them were removed or are labelled. Chapters marked “Our analysis” are our views. This is legal research and public education, not legal advice.",
+  "jurisdiction": "International · England and Wales",
+  "checked": "2026-11-05",
+  "tags": [
+    "international-law",
+    "icj",
+    "legal-ethics",
+    "barristers",
+    "genocide-convention",
+    "uk"
+  ],
+  "related": [
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Parties",
+      "value": "States only",
+      "detail": "Article 34(1) of the Statute",
+      "target": "door"
+    },
+    {
+      "label": "ICJ code of conduct for counsel",
+      "value": "None",
+      "detail": "Home-bar rules apply, if the advocate has a home bar",
+      "target": "vacuum"
+    },
+    {
+      "label": "Interventions in South Africa v. Israel",
+      "value": "At least 15 states",
+      "detail": "On the Court’s releases and one report we checked; the full count is higher",
+      "target": "third-voices"
+    }
+  ],
+  "sections": [
+    {
+      "id": "door",
+      "title": "1. The door: who can be a party?",
+      "intro": "The Court decides disputes between states and gives advisory opinions. Each has its own door.",
+      "entries": [
+        {
+          "id": "states-only",
+          "title": "Contentious cases: states only",
+          "kind": "Treaty text",
+          "paragraphs": [
+            {
+              "text": "“Only states may be parties in cases before the Court.” Individuals, companies and NGOs cannot bring or defend a contentious case.",
+              "sources": [
+                {
+                  "id": "statute",
+                  "locator": "Art 34(1)"
+                }
+              ]
+            },
+            {
+              "text": "Advisory proceedings work differently: states and intergovernmental organisations may present statements under Article 66 of the Statute. NGOs have a narrower side route, described in chapter 7.",
+              "sources": [
+                {
+                  "id": "pd",
+                  "locator": "Practice Direction XII"
+                },
+                {
+                  "id": "statute",
+                  "locator": "Art 66"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "title": "2. The team: agents, counsel and advocates",
+      "intro": "Who stands up for a state, and who chooses them.",
+      "entries": [
+        {
+          "id": "article-42",
+          "title": "Article 42",
+          "kind": "Treaty text",
+          "paragraphs": [
+            {
+              "text": "“The parties shall be represented by agents. They may have the assistance of counsel or advocates before the Court.” The agent is the state’s formal representative. The Statute says nothing about who counsel and advocates must be: no admission, no qualification, no nationality rule. In practice states choose national lawyers, foreign barristers, professors and diplomats.",
+              "sources": [
+                {
+                  "id": "statute",
+                  "locator": "Art 42(1)–(2)"
+                },
+                {
+                  "id": "parlett",
+                  "locator": "pp 219–22"
+                }
+              ]
+            },
+            {
+              "text": "Example: Vaughan Lowe KC, a member of Essex Court Chambers in London, lists South Africa v. Israel among his reported cases as counsel, “ICJ 2024- (for South Africa)”.",
+              "sources": [
+                {
+                  "id": "lowe",
+                  "locator": "Reported cases as counsel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vacuum",
+      "title": "3. The vacuum: no ICJ ethics code",
+      "intro": "The striking fact about the world’s highest court.",
+      "entries": [
+        {
+          "id": "no-code",
+          "title": "Nothing binding from the Court",
+          "kind": "Academic commentary and court documents",
+          "paragraphs": [
+            {
+              "text": "Two practitioners writing in the American Society of International Law’s proceedings put it plainly: individuals appearing before the Court “are not subject under international law to any compulsory code of conduct”.",
+              "sources": [
+                {
+                  "id": "parlett",
+                  "locator": "pp 219–22"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The Court’s Practice Directions do contain rules about counsel, but they deal with conflicts of position, such as a former judge appearing as counsel. None addresses honesty or misleading the Court.",
+              "sources": [
+                {
+                  "id": "pd",
+                  "locator": "Practice Directions VII, VIII"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hague",
+          "title": "The nearest substitute: the Hague Principles",
+          "kind": "Non-binding principles",
+          "paragraphs": [
+            {
+              "text": "In 2010 a study group of the International Law Association presented the Hague Principles on Ethical Standards for Counsel Appearing before International Courts and Tribunals. They are soft law: guidance that binds no one unless a court adopts it.",
+              "sources": [
+                {
+                  "id": "hague",
+                  "locator": "text"
+                },
+                {
+                  "id": "hague-cite",
+                  "locator": "commentary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "icty",
+          "title": "Other tribunals chose a binding code",
+          "kind": "Court code (contrast)",
+          "paragraphs": [
+            {
+              "text": "The International Criminal Tribunal for the former Yugoslavia adopted a code of conduct for counsel with its own disciplinary panel. Article 4: “If there is any inconsistency between this Code and any other codes of practice and ethics governing counsel, the terms of this Code prevail in respect of counsel’s conduct before the Tribunal.”",
+              "sources": [
+                {
+                  "id": "icty",
+                  "locator": "Art 4"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patchwork",
+      "title": "4. The patchwork: one team, several codes",
+      "intro": "Because the Court has no code, each lawyer brings their own, or none.",
+      "entries": [
+        {
+          "id": "vary",
+          "title": "Different rules for the same conduct",
+          "kind": "Academic commentary",
+          "paragraphs": [
+            {
+              "text": "National conduct rules “can vary considerably across different jurisdictions”, and “Counsel who are academics or are not admitted in any jurisdiction may not be subject to any conduct rules.”",
+              "sources": [
+                {
+                  "id": "parlett",
+                  "locator": "pp 219–22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "english",
+          "title": "English barristers carry their rules with them",
+          "kind": "Professional guidance",
+          "table": {
+            "caption": "Who on a state’s team is bound by what",
+            "columns": [
+              "Team member",
+              "Conduct rules that bind them"
+            ],
+            "rows": [
+              [
+                "English barrister",
+                "BSB Handbook wherever they appear, plus applicable foreign rules unless inconsistent with the Core Duties"
+              ],
+              [
+                "Lawyer admitted in another country",
+                "That country’s rules, to the extent they apply abroad"
+              ],
+              [
+                "Academic not admitted anywhere",
+                "Possibly none"
+              ],
+              [
+                "Diplomat or government official",
+                "Their state’s employment rules; no bar code"
+              ],
+              [
+                "Everyone",
+                "The non-binding Hague Principles, if they choose to follow them"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Bar Council guidance: the BSB Handbook “applies to your conduct in court and before tribunals … wherever those courts and tribunals may be sitting”. Sections 2.B, 2.C and 2.D apply “whether you are practising or providing legal services in England and Wales or elsewhere”. Rule rC13 adds a duty to comply with applicable foreign conduct rules, unless they are inconsistent with the Core Duties.",
+              "sources": [
+                {
+                  "id": "bc-foreign",
+                  "locator": "paras 1–4"
+                }
+              ]
+            },
+            {
+              "text": "Foreign work is not subject to the cab-rank rule, so an English barrister may decline it without breaching the duty to accept work in their field (rC30.5).",
+              "sources": [
+                {
+                  "id": "bc-2014",
+                  "locator": "para 13"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "title": "5. Enforcement: who can do anything?",
+      "intro": "If no one has a code, who holds an advocate to account?",
+      "entries": [
+        {
+          "id": "court-lever",
+          "title": "The Court and the home regulator",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The Court controls its own procedure and weighs the evidence and arguments put to it. We found no published disciplinary procedure for counsel before the ICJ. A home regulator can, in principle, act on conduct abroad where its rules apply; for English barristers, the BSB. We found no published instance of a regulator disciplining counsel for conduct before the ICJ. That is a gap in our search, not proof that none exists.",
+              "sources": [
+                {
+                  "id": "pd",
+                  "locator": "whole text"
+                },
+                {
+                  "id": "bc-foreign",
+                  "locator": "para 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "immunities",
+          "title": "Immunities",
+          "kind": "Treaty text and UN resolution",
+          "paragraphs": [
+            {
+              "text": "Agents, counsel and advocates “shall enjoy the privileges and immunities necessary to the independent exercise of their duties.” General Assembly resolution 90(I) of 1946 gives effect to this during their missions, and says the immunities exist in the interests of justice, not for personal benefit; for counsel representing a state, the state may waive them.",
+              "sources": [
+                {
+                  "id": "statute",
+                  "locator": "Art 42(3)"
+                },
+                {
+                  "id": "ga90",
+                  "locator": "para 5"
+                }
+              ]
+            },
+            {
+              "text": "Our analysis: these protections aim at legal process interfering with the work. Whether they would limit a home regulator’s discipline is, as far as we found, unsettled. Domestic offences such as perverting the course of justice protect a country’s own justice system; in our assessment they are unlikely to reach conduct in The Hague, but we found no authority either way.",
+              "sources": [
+                {
+                  "id": "ga90",
+                  "locator": "para 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rules-that-exist",
+      "title": "6. Procedural rules that do exist",
+      "intro": "The Court regulates conflicts of position, not honesty.",
+      "entries": [
+        {
+          "id": "pd-vii-viii",
+          "title": "Practice Directions VII and VIII",
+          "kind": "Court practice directions",
+          "paragraphs": [
+            {
+              "text": "Direction VII: parties should not nominate as judge ad hoc anyone acting, or who acted in the previous three years, as agent, counsel or advocate in another case, nor appoint as counsel anyone sitting as judge ad hoc elsewhere. Direction VIII: parties should not designate as agent, counsel or advocate anyone who in the previous three years was a Member of the Court, a judge ad hoc, Registrar, Deputy-Registrar or a senior Registry official.",
+              "sources": [
+                {
+                  "id": "pd",
+                  "locator": "Directions VII, VIII"
+                }
+              ]
+            },
+            {
+              "text": "Nothing in the Directions corresponds to the English rule against knowingly or recklessly misleading the court.",
+              "sources": [
+                {
+                  "id": "pd",
+                  "locator": "whole text"
+                },
+                {
+                  "id": "bc-foreign",
+                  "locator": "para 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "third-voices",
+      "title": "7. Third voices: interventions and NGOs",
+      "intro": "States can join a case; NGOs can only leave a document in the building.",
+      "entries": [
+        {
+          "id": "articles-62-63",
+          "title": "Two routes for states",
+          "kind": "Treaty text",
+          "paragraphs": [
+            {
+              "text": "Article 62: a state with “an interest of a legal nature which may be affected by the decision” may ask to intervene. Article 63: when a convention is being interpreted, every state party to it “has the right to intervene”, but “the construction given by the judgment will be equally binding upon it.”",
+              "sources": [
+                {
+                  "id": "statute",
+                  "locator": "Arts 62(1), 63"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "interventions",
+          "title": "South Africa v. Israel draws a crowd",
+          "kind": "Court press releases and news reporting",
+          "table": {
+            "caption": "Interventions confirmed in the sources we checked",
+            "columns": [
+              "When",
+              "State",
+              "Route"
+            ],
+            "rows": [
+              [
+                "23 January 2024",
+                "Nicaragua",
+                "Article 62"
+              ],
+              [
+                "5 April 2024",
+                "Colombia",
+                "Article 63"
+              ],
+              [
+                "10 May 2024",
+                "Libya",
+                "Article 63"
+              ],
+              [
+                "24 May 2024",
+                "Mexico",
+                "Article 63"
+              ],
+              [
+                "31 May 2024",
+                "Palestine",
+                "Articles 62 and 63"
+              ],
+              [
+                "28 June 2024",
+                "Spain",
+                "Article 63"
+              ],
+              [
+                "7 August 2024",
+                "Türkiye",
+                "Article 63"
+              ],
+              [
+                "12 September 2024",
+                "Chile",
+                "Article 63"
+              ],
+              [
+                "1 October 2024",
+                "Maldives",
+                "Article 63"
+              ],
+              [
+                "11 March 2026",
+                "Netherlands, Iceland",
+                "Article 63 (as reported)"
+              ],
+              [
+                "12 March 2026",
+                "Namibia, United States, Hungary, Fiji",
+                "Article 63"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "By 2 October 2024 the Court listed Nicaragua (Article 62, January 2024), Palestine (Articles 62 and 63) and Article 63 declarations from Colombia, Libya, Mexico, Spain, Türkiye, Chile and the Maldives. On 11 March 2026 the Netherlands and Iceland filed declarations, as reported citing the Court. On 12 March 2026 Namibia, the United States, Hungary and Fiji filed Article 63 declarations. That is at least 15 states; others filed in between, and we have not reconciled a full count.",
+              "sources": [
+                {
+                  "id": "icj-maldives",
+                  "locator": "press release 2024/65"
+                },
+                {
+                  "id": "iol",
+                  "locator": "report"
+                },
+                {
+                  "id": "icj-2026",
+                  "locator": "press release 2026/6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ngos",
+          "title": "NGOs: a side door, advisory cases only",
+          "kind": "Court practice directions",
+          "paragraphs": [
+            {
+              "text": "Under Practice Direction XII an international NGO may submit a written statement on its own initiative in advisory proceedings. It “is not to be considered part of the case file”, is “placed in a designated location in the Peace Palace”, and participating states and organisations are told where to find it. There is no equivalent route in contentious cases such as South Africa v. Israel.",
+              "sources": [
+                {
+                  "id": "pd",
+                  "locator": "Direction XII"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "case-study",
+      "title": "8. Case study: same chambers, opposite sides",
+      "intro": "Our companion page on this is in preparation and not yet published.",
+      "entries": [
+        {
+          "id": "essex",
+          "title": "One London set, two states",
+          "kind": "Professional biographies",
+          "paragraphs": [
+            {
+              "text": "Vaughan Lowe KC’s Essex Court Chambers profile lists South Africa v. Israel, “ICJ 2024- (for South Africa)”. Malcolm Shaw KC’s profile at the same chambers lists “Government of Israel (lead counsel) in case before the International Court of Justice, (2023 -)”. The chambers describes itself as “not a firm or a partnership but rather an unincorporated association of self-employed sole practitioners”.",
+              "sources": [
+                {
+                  "id": "lowe",
+                  "locator": "Reported cases as counsel"
+                },
+                {
+                  "id": "shaw",
+                  "locator": "Selected clients and work"
+                },
+                {
+                  "id": "essex-legal",
+                  "locator": "legal information"
+                }
+              ]
+            },
+            {
+              "text": "Our analysis: under English rules that arrangement is permitted. Before the ICJ it sits inside the patchwork above: home-bar rules for the English barristers, other rules or none for their colleagues on each team. Shared membership tells us nothing, on its own, about any private discussion, and we allege none.",
+              "sources": [
+                {
+                  "id": "bc-foreign",
+                  "locator": "paras 1–4"
+                },
+                {
+                  "id": "parlett",
+                  "locator": "pp 219–22"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "access",
+      "title": "9. How can anyone else be there?",
+      "intro": "A private person cannot appoint themselves to a case.",
+      "entries": [
+        {
+          "id": "routes",
+          "title": "The routes in",
+          "kind": "Our summary",
+          "table": {
+            "caption": "Routes into a case",
+            "columns": [
+              "Route",
+              "What it gives you"
+            ],
+            "rows": [
+              [
+                "Appointment by a state",
+                "A place on a legal team as counsel, adviser or assistant"
+              ],
+              [
+                "Intervention",
+                "States only, under Article 62 or 63"
+              ],
+              [
+                "NGO statement (Practice Direction XII)",
+                "An advisory-case statement kept at the Peace Palace, outside the case file"
+              ],
+              [
+                "Public gallery or media",
+                "Watching or reporting public hearings, under the Court’s current arrangements"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "States choose their teams freely, interventions are for states only, and NGOs have Practice Direction XII in advisory cases. Public hearings can be watched; check the Court’s current arrangements for the public gallery and media accreditation, which we have not set out here.",
+              "sources": [
+                {
+                  "id": "statute",
+                  "locator": "Arts 42, 62, 63"
+                },
+                {
+                  "id": "pd",
+                  "locator": "Direction XII"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Questions",
+      "intro": "Our questions, for readers and for the Court.",
+      "entries": [
+        {
+          "id": "q",
+          "title": "Open questions",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "1. Should the ICJ adopt a binding counsel code, as the Yugoslavia tribunal did? 2. If so, who would enforce it: the Court, the state, or home bars? 3. Should states disclose which conduct rules bind each member of their team? 4. Is it fair that an English barrister and an unregulated academic on the same team face different exposure for identical conduct?",
+              "sources": [
+                {
+                  "id": "icty",
+                  "locator": "Art 4"
+                },
+                {
+                  "id": "parlett",
+                  "locator": "pp 219–22"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Method and limits",
+      "intro": "How this page was checked.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The Statute, Practice Directions, resolution 90(I), ICJ press releases, the ICTY code, Bar Council guidance and the chambers profiles were read on 5 November 2026. The draft supplied to us was checked line by line; claims we could not trace to a document we read were removed or labelled.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Coverage limits",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "We could not retrieve the January 2024 verbatim record (CR 2024/2), so delegation lists are not quoted here. Academic works by Skinner, Sarvarian and Longobardo, and a Leiden-hosted ASIL article that the draft mislabelled, were not read and are not relied on. The total number of intervening states is not reconciled. We found no published case of a regulator disciplining counsel for ICJ conduct; that is a search result, not a finding.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "statute",
+      "title": "Statute of the International Court of Justice",
+      "publisher": "International Court of Justice",
+      "type": "Treaty",
+      "url": "https://www.icj-cij.org/statute",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "pd",
+      "title": "Practice Directions",
+      "publisher": "International Court of Justice",
+      "type": "Court practice directions",
+      "url": "https://icj-cij.org/node/201782",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "ga90",
+      "title": "General Assembly resolution 90 (I): privileges and immunities of members of the Court, agents and counsel",
+      "publisher": "International Court of Justice",
+      "type": "UN resolution",
+      "url": "https://www.icj-cij.org/other-texts/resolution-90",
+      "checked": "2026-11-05",
+      "date": "1946-12-11"
+    },
+    {
+      "id": "icj-maldives",
+      "title": "The Maldives files a declaration of intervention (press release 2024/65)",
+      "publisher": "International Court of Justice",
+      "type": "Press release",
+      "url": "https://www.icj-cij.org/node/204270",
+      "checked": "2026-11-05",
+      "date": "2024-10-02"
+    },
+    {
+      "id": "icj-2026",
+      "title": "Declarations of intervention filed on 12 March 2026 (press release 2026/6)",
+      "publisher": "International Court of Justice",
+      "type": "Press release",
+      "url": "https://icj-cij.org/node/206230",
+      "checked": "2026-11-05",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "iol",
+      "title": "Netherlands and Iceland intervene in South Africa’s genocide case against Israel at ICJ",
+      "publisher": "IOL",
+      "type": "News report",
+      "url": "https://iol.co.za/saturday-star/news/2026-03-14-netherlands-and-iceland-intervene-in-south-africas-genocide-case-against-israel-at-icj/",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "parlett",
+      "title": "Kate Parlett and Amy Sander, “Into the Void: A Counsel Perspective on the Need to Articulate Rules Concerning Disclosure Before the ICJ”, ASIL Proceedings 113 (2019)",
+      "publisher": "Cambridge University Press",
+      "type": "Academic article",
+      "url": "https://www.cambridge.org/core/journals/proceedings-of-the-asil-annual-meeting/article/abs/into-the-void-a-counsel-perspective-on-the-need-to-articulate-rules-concerning-disclosure-before-the-icj/F325C366FDCA2D0B09BAC87DCCC605B3",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "hague",
+      "title": "Hague Principles on Ethical Standards for Counsel Appearing before International Courts and Tribunals (2010)",
+      "publisher": "International Law Association study group (hosted by UCL)",
+      "type": "Non-binding principles",
+      "url": "https://www.ucl.ac.uk/international-courts/sites/international_courts/files/hague_sept2010.pdf",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "hague-cite",
+      "title": "Ex pluribus unum: on the form and shape of a common code of ethics in international litigation",
+      "publisher": "Cambridge University Press",
+      "type": "Academic article",
+      "url": "https://cambridge.org/core/services/aop-cambridge-core/content/view/56602860D92EAEFF64B35C51A7199231/S2398772319000394a.pdf/ex_pluribus_unum_on_the_form_and_shape_of_a_common_code_of_ethics_in_international_litigation.pdf",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "icty",
+      "title": "ICTY Code of Professional Conduct for Counsel Appearing before the International Tribunal (IT/125 Rev. 2)",
+      "publisher": "International Criminal Tribunal for the former Yugoslavia",
+      "type": "Court code",
+      "url": "https://www.icty.org/x/file/Legal%20Library/Defence/defence_code_of_conduct_june2006.pdf",
+      "checked": "2026-11-05",
+      "date": "2006-06-29"
+    },
+    {
+      "id": "bc-foreign",
+      "title": "Barristers’ duties in relation to foreign work",
+      "publisher": "Bar Council Ethics",
+      "type": "Professional guidance",
+      "url": "https://www.barcouncilethics.co.uk/wp-content/uploads/2017/10/Foreign-Work-July-2024.pdf",
+      "checked": "2026-11-05",
+      "date": "2024-07-15"
+    },
+    {
+      "id": "bc-2014",
+      "title": "Summary of changes to the rules on international practice",
+      "publisher": "Bar Council International Committee",
+      "type": "Professional guidance",
+      "url": "https://www.barcouncilethics.co.uk/wp-content/uploads/2017/10/international_committee_summary_of_changes_to_the_rules_on_international_practice_31_01_2014.pdf",
+      "checked": "2026-11-05",
+      "date": "2014-01-31"
+    },
+    {
+      "id": "lowe",
+      "title": "Professor Vaughan Lowe KC",
+      "publisher": "Essex Court Chambers",
+      "type": "Professional biography",
+      "url": "https://essexcourt.com/barrister/professor-vaughan-lowe-kc/",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "shaw",
+      "title": "Professor Malcolm Shaw KC",
+      "publisher": "Essex Court Chambers",
+      "type": "Professional biography",
+      "url": "https://essexcourt.com/barrister/professor-malcolm-shaw-kc/",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "essex-legal",
+      "title": "Legal information",
+      "publisher": "Essex Court Chambers",
+      "type": "Institutional statement",
+      "url": "https://essexcourt.com/about/legal-information/",
+      "checked": "2026-11-05"
+    }
+  ]
+}
