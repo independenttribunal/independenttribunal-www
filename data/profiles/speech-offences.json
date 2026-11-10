@@ -1,0 +1,2755 @@
+{
+  "id": "speech-offences",
+  "category": "legal-study",
+  "title": "Speech offences",
+  "subtitle": "The wider record: words, symbols and criminal proceedings",
+  "summary": "A growing register of 45 case records covering UK speech and Hamas-related allegations, Palestine Action expression cases and a separate Jersey comparator, with dated outcomes, official scale figures and an explicit coverage audit.",
+  "checked": "2026-11-10",
+  "jurisdiction": "United Kingdom · England and Wales and Scotland · Jersey comparator separately identified",
+  "tags": [
+    "uk",
+    "freedom-of-expression",
+    "terrorism",
+    "protest",
+    "courts",
+    "research"
+  ],
+  "scope": "A research register of Hamas-related proceedings and wider speech cases concerning Palestine, Israel and political expression. The legal provisions and outcomes differ. Jersey is outside the UK; no record is presented as proof that every intervention was justified or unjustified.",
+  "status_note": "Source review: 10 November 2026. 45 case records, including grouped defendants, separate events and anonymised appellate records. This is not a certified count of unique proceedings. Dates identify the last sourced position, not a guarantee of current status. Acquittals, dropped charges, procedural terminations, hung juries and convictions remain distinct. Current focus: Sarah Wilkinson; the cited June report is a dated account, not a current court-listing certificate. The separately tracked proscription appeal does not increase the 45-record count.",
+  "related": [
+    {
+      "id": "hamas-deproscription",
+      "title": "Hamas deproscription — a separate legal process"
+    },
+    {
+      "id": "public-order",
+      "title": "Public order and protest"
+    },
+    {
+      "id": "anarchist-cookbook-section-58",
+      "title": "The Anarchist Cookbook and section 58"
+    },
+    {
+      "id": "terrorist-connection-add-on",
+      "title": "Terrorist connection add-on"
+    }
+  ],
+  "research_links": [
+    {
+      "id": "palestine-action",
+      "title": "Palestine Action research collection"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The wider register",
+      "value": "45 case records",
+      "detail": "73 sources · grouped cases and coverage gaps identified",
+      "target": "register-scope"
+    },
+    {
+      "label": "Outcomes first",
+      "value": "Acquittals and convictions",
+      "detail": "Charges, retrials and closed investigations identified separately",
+      "target": "further-acquittals"
+    },
+    {
+      "label": "Current focus",
+      "value": "Sarah Wilkinson",
+      "detail": "The phone-PIN allegation and the separate RIPA notice offence",
+      "target": "current-focus"
+    }
+  ],
+  "sections": [
+    {
+      "id": "current-focus",
+      "title": "Current focus: Sarah Wilkinson and the phone-PIN allegation",
+      "intro": "Selected for closer research on 10 November 2026. A current research priority, with the date and limits of the court reporting kept visible.",
+      "entries": [
+        {
+          "id": "wilkinson-current-focus",
+          "title": "Speech allegations and a separate device-access allegation",
+          "kind": "Dated court reporting · allegations denied",
+          "paragraphs": [
+            {
+              "text": "The BBC’s 24 June 2026 report records seven denied counts, continuing bail and a trial listed for 4 January 2027 at Birmingham Crown Court. It attributes Wilkinson’s compliance allegation to non-disclosure of her mobile-phone PIN. This is a historical court report; the present listing and precise charge particulars still need confirmation.",
+              "sources": [
+                {
+                  "id": "wilkinson-bbc-focus"
+                }
+              ]
+            },
+            {
+              "text": "one of failing to comply with a police investigation",
+              "sources": [
+                {
+                  "id": "wilkinson-bbc-focus"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "ripa-notice-explanation",
+          "title": "RIPA: what the separate compliance offence requires",
+          "kind": "Legislation · general explanation, not a finding about this defendant",
+          "paragraphs": [
+            {
+              "text": "Part III of the Regulation of Investigatory Powers Act 2000 provides for notices requiring disclosure of protected information. Section 49 requires appropriate permission and reasonable grounds, including necessity, proportionality and the impracticability of obtaining intelligible information without a notice. The notice must identify the required disclosure and allow a reasonable compliance period. These are statutory requirements to examine against the actual notice.",
+              "sources": [
+                {
+                  "id": "ripa-part-three",
+                  "locator": "Section 49(2)–(4)"
+                }
+              ]
+            },
+            {
+              "text": "Section 53 concerns knowingly failing to make the disclosure required by a section 49 notice. It also addresses possession of a key, the criminal standard for the contrary case once sufficient evidence of non-possession is raised, and a defence concerning disclosure as soon as reasonably practicable. These provisions are more specific than a general allegation of not cooperating with police.",
+              "sources": [
+                {
+                  "id": "ripa-section-fifty-three",
+                  "locator": "Section 53(1)–(4)"
+                }
+              ]
+            },
+            {
+              "text": "On indictment the usual maximum is two years; it is five years where the notice’s specified grounds include national security, or in the separately defined child-indecency category. A terrorism-related investigation alone does not establish which maximum applies. The notice and charge particulars must be obtained before attributing a sentencing ceiling to Wilkinson.",
+              "sources": [
+                {
+                  "id": "ripa-section-fifty-three",
+                  "locator": "Section 53(5)–(6)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wilkinson-focus-evidence",
+          "title": "The evidence needed to examine the demand",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Our focus is the relationship between the disputed expression, device seizure, the disclosure demand and the separate compliance charge. Obtain the charge sheet or indictment, the notice and authorisation, its terms and deadline, relevant legal rulings and the defence response. Establish the claimed ability to comply and any documented impact on reporting, work and access to communications. The BBC’s description does not itself identify the subsection charged or establish guilt.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-scope",
+      "title": "How to read the case register",
+      "intro": "Words, posts, images, performance and the state’s response. Every record gives the last position supported by its cited source.",
+      "entries": [
+        {
+          "id": "register-method",
+          "title": "A broad register with dated limits",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The register includes Hamas-related proceedings, searches and arrests, Palestine Action expression and meeting cases, and related communications, performance and protest-condition cases. Grouped records explicitly identify co-defendants; distinct arrests of Peter Tatchell and investigations of Bobby Vylan remain separate. Counts describe entries in this collection, not UK defendants, prosecutions, offences or verified unique proceedings.",
+              "sources": []
+            },
+            {
+              "text": "A source review on 10 November 2026 does not turn an older report into a current court-status certificate. Each machine-readable case record includes its jurisdiction, scope, legal provisions and the date of the last sourced position when known. Unknown dates stay unknown. Scheduled hearings are not proof that hearings happened.",
+              "sources": []
+            },
+            {
+              "text": "The aim is comprehensive coverage of identifiable cases relevant to this subject. This edition is not an exhaustive national census. Further records need to be found through police and prosecution disclosures, court records and legal representatives; Scotland, England and Wales, Northern Ireland and Jersey require separate treatment.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage-audit",
+      "title": "Coverage and outstanding evidence",
+      "intro": "Comprehensiveness means tracking omissions, aliases and later decisions as well as adding names.",
+      "entries": [
+        {
+          "id": "supplied-leads-review",
+          "title": "Cross-checking suggested cases",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Recent suggested additions — ABJ, BDN, Mohammed Adil and the three-defendant paraglider case — matched existing records. They have not been counted again. References to unnamed online users remain leads until a case can be identified and sourced. General lawful/unlawful labels cannot replace the conditional statutory tests explained below.",
+              "sources": []
+            }
+          ],
+          "table": {
+            "caption": "Additional leads checked against existing records",
+            "columns": [
+              "Suggested case",
+              "Existing record",
+              "Treatment"
+            ],
+            "rows": [
+              [
+                "ABJ",
+                "ABJ · preparatory legal challenge",
+                "Retain published identifier; verify later disposal"
+              ],
+              [
+                "BDN",
+                "BDN · preparatory legal challenge",
+                "Retain published identifier; verify later disposal"
+              ],
+              [
+                "Mohammed Adil",
+                "WhatsApp images",
+                "Already included; guilty pleas and community order"
+              ],
+              [
+                "Alhayek, Ankunda and Taiwo",
+                "Paraglider imagery",
+                "One grouped record for three defendants"
+              ],
+              [
+                "Unspecified online users",
+                "No identifiable record",
+                "Not included in the count without a verifiable case"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "coverage-follow-up",
+          "title": "Priorities for completing the register",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "Coverage is strongest for publicly reported England and Wales cases. Scottish court disposals and Northern Ireland referrals need further primary records. Earlier cases are included where identified, but this is not a complete historical series. Employment, university and medical disciplinary actions require a separate register from criminal cases.",
+              "sources": []
+            },
+            {
+              "text": "Before adding a name, compare the event, charge, jurisdiction and case reference with existing records. A later hearing or appeal normally updates the same record; a separate alleged event may justify another. Do not infer that a publicly named report identifies an anonymised appellant. Reporting restrictions must be checked before any such link is made. The record count is not a certified count of unique proceedings.",
+              "sources": []
+            }
+          ],
+          "table": {
+            "caption": "Coverage gaps and evidence needed",
+            "columns": [
+              "Area",
+              "What this edition provides",
+              "What remains"
+            ],
+            "rows": [
+              [
+                "England and Wales",
+                "Named cases, grouped cases and appellate rulings",
+                "Indictments, trial disposals and appeal results"
+              ],
+              [
+                "Scotland",
+                "Speech-charge disposal, border examination and meeting charge",
+                "Court / Crown Office confirmation and wider case search"
+              ],
+              [
+                "Northern Ireland",
+                "Official policy and FOI replies; reported referral totals",
+                "Underlying disclosure for the 32-file figure, named cases and PPS decisions"
+              ],
+              [
+                "Palestine Action",
+                "Selected expression and meeting cases plus official scale data",
+                "Reconcile police cohorts and court outcomes without double counting"
+              ],
+              [
+                "Earlier enforcement",
+                "2018 PKK flag convictions and 2021 T-shirt case",
+                "Systematic search before October 2023"
+              ],
+              [
+                "Supplied and anonymous leads",
+                "Four matched records and an unnamed lead category",
+                "No added cases until identity, source and procedural stage are verified"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tony-greenstein",
+      "title": "Tony Greenstein",
+      "intro": "A completed speech prosecution: read the allegation together with the acquittal.",
+      "entries": [
+        {
+          "id": "greenstein-verdict",
+          "title": "21 August 2026 · not guilty",
+          "kind": "Reported jury verdict · Last sourced position: 2026-08-21 · England and Wales",
+          "date": "2026-08-21",
+          "paragraphs": [
+            {
+              "text": "Press Association reports that a Kingston Crown Court jury acquitted Tony Greenstein of inviting support for Hamas. The single count concerned three posts published on 7 October 2023 and material linked from them. The verdict followed two hours and eleven minutes of deliberation.",
+              "sources": [
+                {
+                  "id": "greenstein-verdict",
+                  "locator": "Charge, posts and jury verdict"
+                }
+              ]
+            },
+            {
+              "text": "The report identifies Greenstein as a Jewish activist and the son of an Orthodox rabbi, aged 72 at trial. It records his contention that he did not support Hamas as an organisation, alongside the prosecution material, which included praise for the attack in a linked blog. The full exhibits matter when examining the dispute.",
+              "sources": [
+                {
+                  "id": "greenstein-verdict",
+                  "locator": "Defence evidence and linked blog"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Tony Greenstein",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Terrorism Act 2000 s12; indictment needed"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Acquitted",
+            "status_as_of": "2026-08-21",
+            "outcome_type": "acquittal"
+          }
+        },
+        {
+          "id": "greenstein-record",
+          "title": "What the acquittal leaves to investigate",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Obtain the indictment, full posts and linked article as used at trial, prosecution consents, preparatory rulings, legal directions and formal verdict record. Examine the reasons for prosecuting and any documented costs or restrictions. The verdict alone does not explain which part of the prosecution case the jury rejected or establish bad faith by officials.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soas-two",
+      "title": "The SOAS 2",
+      "intro": "Two students, distinct procedural histories. The campaign name does not establish that both were charged.",
+      "entries": [
+        {
+          "id": "cotte-verdict",
+          "title": "Sarah Cotte · acquittal reported in September 2026",
+          "kind": "Defence chambers' case note · Last sourced position: 2026-09-18 · England and Wales",
+          "date": "2026-09-18",
+          "paragraphs": [
+            {
+              "text": "One Pump Court's case note, dated 18 September 2026, records Sarah Cotte's acquittal at the Old Bailey of offences under section 12(1A) of the Terrorism Act 2000. It describes her rally speech on 9 October 2023 and the prosecution allegation that references to armed resistance in Palestine were a veiled reference to Hamas.",
+              "sources": [
+                {
+                  "id": "cotte-chambers",
+                  "locator": "R v Cotte [2026] Old Bailey"
+                }
+              ]
+            },
+            {
+              "text": "The case note comes from the chambers of her defence barrister, Margo Munro Kerr. The formal count-by-count disposal, complete speech and any other charged material remain to be collected for this section.",
+              "sources": [
+                {
+                  "id": "cotte-chambers",
+                  "locator": "Representation and scope of published note"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Sarah Cotte",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Acquitted",
+            "status_as_of": "2026-09-18",
+            "outcome_type": "acquittal"
+          }
+        },
+        {
+          "id": "second-soas-student",
+          "title": "The second student's latest status needs verification",
+          "kind": "Attributed campaign account · Last sourced position: date unverified · England and Wales",
+          "paragraphs": [
+            {
+              "text": "The SOAS 2 campaign distinguishes a student who was charged from another who was arrested under section 12. These materials establish the campaign's account, not a current court status for the second student. The second student’s latest procedural position has not been independently verified for this review.",
+              "sources": [
+                {
+                  "id": "soas-campaign",
+                  "locator": "About text and 2025 campaign entries; subsequent individual status unverified"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Second SOAS student · not identified",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Reported Terrorism Act 2000 s12 investigation"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Arrest reported; latest status unverified",
+            "status_as_of": null,
+            "outcome_type": "investigation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rahmeh-aladwan",
+      "title": "Dr Rahmeh Aladwan",
+      "intro": "A criminal prosecution and a separate medical-regulation history. Findings in one process must not be transferred to the other.",
+      "entries": [
+        {
+          "id": "aladwan-prosecution",
+          "title": "Six charges denied; a future trial reported",
+          "kind": "Court reporting · allegations denied · Last sourced position: 2026-08-30 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "An August 2026 court report says Dr Rahmeh Aladwan pleaded not guilty to four charges concerning alleged support for Hamas and two racial-hatred-related charges, and remained on bail. The prosecution allegations concern online material and speech. They are not findings of guilt.",
+              "sources": [
+                {
+                  "id": "aladwan-pleas",
+                  "locator": "Pleas, six charges and continued bail"
+                }
+              ]
+            },
+            {
+              "text": "A BBC report by Matty Edwards, published through AOL on 24 April 2026, records charging on 26 March and a trial set for 15 March 2027 at Bristol Crown Court. The current listing and the exact statutory subsection for each count still require confirmation from court records; news reports use differing shorthand for the support allegations.",
+              "sources": [
+                {
+                  "id": "aladwan-listing",
+                  "locator": "Charging date and scheduled trial"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Dr Rahmeh Aladwan",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Hamas-support charges; exact subsection needed",
+              "Racial-hatred charges"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Not-guilty pleas reported; trial listing to confirm",
+            "status_as_of": "2026-08-30",
+            "outcome_type": "charged"
+          }
+        },
+        {
+          "id": "aladwan-regulation",
+          "title": "The medical suspension is a separate record",
+          "kind": "Medical and legal reporting",
+          "paragraphs": [
+            {
+              "text": "The BMJ's accessible report extract describes a 15-month interim suspension from the medical register in November 2025 pending a full tribunal hearing. This is an interim regulatory restriction, not a criminal conviction. The underlying medical orders and subsequent reviews are needed to establish the full regulatory chronology.",
+              "sources": [
+                {
+                  "id": "aladwan-bmj",
+                  "locator": "Accessible article extract; full report not inspected"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "further-acquittals",
+      "title": "Further acquittals and dropped charges",
+      "intro": "A not-guilty verdict and a decision to drop a charge are different outcomes. Campaign accounts are attributed.",
+      "entries": [
+        {
+          "id": "kd-cardiff",
+          "title": "KD · Cardiff speech · Acquitted",
+          "kind": "Case record · Acquitted · Last sourced position: 2026-03-18 · England and Wales · speech in Cardiff, trial in Bristol",
+          "paragraphs": [
+            {
+              "text": "Doughty Street Chambers reported on 18 March 2026 that KD had been unanimously acquitted by a Bristol Crown Court jury. The charge followed an impromptu speech at a Cardiff Palestine solidarity march in November 2023 and an arrest on 30 January 2024. The chambers uses initials; this register retains them. The case note does not supply the jury’s reasons.",
+              "sources": [
+                {
+                  "id": "kd-chambers"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "KD · Cardiff speech",
+            "jurisdiction": "England and Wales · speech in Cardiff, trial in Bristol",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Acquitted",
+            "status_as_of": "2026-03-18",
+            "outcome_type": "acquittal"
+          }
+        },
+        {
+          "id": "mick-napier",
+          "title": "Mick Napier · Glasgow speech · Terrorism charge dropped",
+          "kind": "Case record · Terrorism charge dropped · Last sourced position: 2024-01-26 · Scotland",
+          "paragraphs": [
+            {
+              "text": "The Scottish Palestine Solidarity Campaign reports that Glasgow Sheriff Court was told on 26 January 2024 that the terrorism charge against its founder Mick Napier had been dropped. This entry concerns that speech-related case. It does not determine the outcome of other protest proceedings or any later Palestine Action support case. Obtain the Procurator Fiscal’s formal disposal before expanding the account.",
+              "sources": [
+                {
+                  "id": "napier-spsc"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Mick Napier · Glasgow speech",
+            "jurisdiction": "Scotland",
+            "provisions": [
+              "Terrorism Act 2000 s12"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Terrorism charge dropped",
+            "status_as_of": "2024-01-26",
+            "outcome_type": "charge-dropped"
+          },
+          "date": "2024-01-26"
+        }
+      ]
+    },
+    {
+      "id": "further-prosecutions",
+      "title": "Further prosecutions and retrials",
+      "intro": "The dates below identify the last position established by the cited material. A historical charge is not proof that a case is still awaiting trial today.",
+      "entries": [
+        {
+          "id": "abj-prosecution",
+          "title": "ABJ · preparatory legal challenge · Prosecution recorded; later trial disposal unverified",
+          "kind": "Case record · Prosecution recorded; later trial disposal unverified · Last sourced position: 2026-02-26 · England and Wales · Kingston Crown Court",
+          "paragraphs": [
+            {
+              "text": "The December 2024 Court of Appeal judgment records a section 12(1A) prosecution alleging expression supportive of Hamas and an appeal from preparatory rulings at Kingston Crown Court. The legal appeal did not decide guilt. The current trial disposal has not been verified here. The published identifier is retained; the later Supreme Court legal ruling is explained below.",
+              "sources": [
+                {
+                  "id": "abj-bdn-appeal"
+                }
+              ]
+            },
+            {
+              "text": "The Supreme Court dismissed the legal appeal on 26 February 2026; the judgment did not determine guilt.",
+              "sources": [
+                {
+                  "id": "abj-bdn"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "ABJ · preparatory legal challenge",
+            "jurisdiction": "England and Wales · Kingston Crown Court",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Prosecution recorded; later trial disposal unverified",
+            "status_as_of": "2026-02-26",
+            "outcome_type": "charged"
+          }
+        },
+        {
+          "id": "bdn-prosecution",
+          "title": "BDN · preparatory legal challenge · Prosecution recorded; later trial disposal unverified",
+          "kind": "Case record · Prosecution recorded; later trial disposal unverified · Last sourced position: 2026-02-26 · England and Wales · Central Criminal Court",
+          "paragraphs": [
+            {
+              "text": "The same published judgment separately records BDN’s section 12(1A) prosecution and preparatory rulings at the Central Criminal Court. This is a separate defendant. The procedural arguments do not amount to a conviction or acquittal, and each appeal is not counted as a new prosecution. A later trial disposal has not been verified; the published identifier is retained.",
+              "sources": [
+                {
+                  "id": "abj-bdn-appeal"
+                }
+              ]
+            },
+            {
+              "text": "The Supreme Court dismissed the legal appeal on 26 February 2026; the judgment did not determine guilt.",
+              "sources": [
+                {
+                  "id": "abj-bdn"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "BDN · preparatory legal challenge",
+            "jurisdiction": "England and Wales · Central Criminal Court",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Prosecution recorded; later trial disposal unverified",
+            "status_as_of": "2026-02-26",
+            "outcome_type": "charged"
+          }
+        },
+        {
+          "id": "richard-barnard",
+          "title": "Richard Barnard · two speeches · Charged; later disposal unverified",
+          "kind": "Case record · Charged; later disposal unverified · Last sourced position: 2024-09-19 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "Real Media’s report of Barnard’s September 2024 court appearance identifies a Hamas-related section 12(1A) charge and two allegations of encouraging criminal damage arising from speeches in October 2023. The latest disposal of these particular counts has not been established here. Verdicts in other Palestine Action proceedings cannot be substituted for this speech case’s outcome.",
+              "sources": [
+                {
+                  "id": "barnard-report"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Richard Barnard · two speeches",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)",
+              "Serious Crime Act 2007 s44"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Charged; later disposal unverified",
+            "status_as_of": "2024-09-19",
+            "outcome_type": "charged"
+          }
+        },
+        {
+          "id": "majid-freeman",
+          "title": "Majid Freeman · social-media posts · Jury unable to agree; retrial reported",
+          "kind": "Case record · Jury unable to agree; retrial reported · Last sourced position: 2026-05-12 · England and Wales · Birmingham Crown Court",
+          "paragraphs": [
+            {
+              "text": "Novara Media reports that Freeman’s trial concluded on 11 May 2026 without the jury reaching a verdict on the charges, and that a retrial was set for September 2027. It describes allegations of encouraging terrorism and inviting or expressing support for a proscribed organisation through X and Instagram posts; Freeman denied the charges. A discharged jury is neither a conviction nor an acquittal. Verify the retrial order and count particulars.",
+              "sources": [
+                {
+                  "id": "freeman-retrial"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Majid Freeman · social-media posts",
+            "jurisdiction": "England and Wales · Birmingham Crown Court",
+            "provisions": [
+              "Alleged encouragement of terrorism",
+              "Alleged inviting / expressing organisational support; indictment needed"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Jury unable to agree; retrial reported",
+            "status_as_of": "2026-05-12",
+            "outcome_type": "hung-jury"
+          }
+        },
+        {
+          "id": "sarah-wilkinson",
+          "title": "Sarah Wilkinson · online publications · Not-guilty pleas; trial reported",
+          "kind": "Case record · Not-guilty pleas; trial reported · Last sourced position: 2026-06-25 · England and Wales · Birmingham Crown Court",
+          "paragraphs": [
+            {
+              "text": "June 2026 court reports record seven not-guilty pleas: two encouragement counts, two Hamas-supportive-expression counts, two dissemination counts and one investigation-compliance allegation. The BBC identifies the latter as a mobile-phone PIN allegation and places the listed trial on 4 January 2027, read with its caption specifying January next year. The present listing still requires confirmation.",
+              "sources": [
+                {
+                  "id": "wilkinson-bbc-focus"
+                },
+                {
+                  "id": "wilkinson-pleas"
+                }
+              ]
+            },
+            {
+              "text": "The October 2025 police announcement recorded five charges and appears to transpose the Act years. Obtain the later indictment and the actual disclosure notice before treating reported shorthand as verified statutory particulars. The current-focus section explains the general RIPA framework; it does not establish that each statutory requirement is met in this case.",
+              "sources": [
+                {
+                  "id": "wilkinson-police"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Sarah Wilkinson · online publications",
+            "jurisdiction": "England and Wales · Birmingham Crown Court",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)",
+              "Alleged encouragement and dissemination",
+              "Alleged non-compliance with a RIPA notice"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Not-guilty pleas; trial reported",
+            "status_as_of": "2026-06-25",
+            "outcome_type": "charged"
+          }
+        },
+        {
+          "id": "rehiana-ali",
+          "title": "Dr Rehiana Ali · X and WhatsApp · Charged; later pleas and disposal unverified",
+          "kind": "Case record · Charged; later pleas and disposal unverified · Last sourced position: 2026-09-01 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "September 2026 court reporting records four alleged Hamas-support offences and seven alleged racial-hatred publication offences against the consultant neurologist. It says she declined to indicate pleas at the magistrates’ hearing, described the prosecution as politically motivated, and was released on unconditional bail for an Old Bailey appearance. This is a different person and case from Dr Rahmeh Aladwan. The later plea record and disposal remain to be verified.",
+              "sources": [
+                {
+                  "id": "rehiana-court"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Dr Rehiana Ali · X and WhatsApp",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Alleged reckless organisational support",
+              "Alleged publication to stir up racial hatred"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Charged; later pleas and disposal unverified",
+            "status_as_of": "2026-09-01",
+            "outcome_type": "charged"
+          }
+        },
+        {
+          "id": "muhammad-abu-jweid",
+          "title": "Muhammad Abu Jweid · online posts · Two charges reported; later disposal unverified",
+          "kind": "Case record · Two charges reported; later disposal unverified · Last sourced position: 2024-03-08 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "CT Insight’s account of a Metropolitan Police announcement records two section 12(1A) charges on 8 March 2024, concerning alleged Hamas-supportive posts referred to police in October 2023. It reports release on bail for a Westminster Magistrates’ Court appearance. This is evidence of charges, not guilt; obtain the charge sheet and subsequent court disposal.",
+              "sources": [
+                {
+                  "id": "jweid-charge"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Muhammad Abu Jweid · online posts",
+            "jurisdiction": "England and Wales",
+            "scope": "hamas",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)"
+            ],
+            "last_sourced_position": "Two charges reported; later disposal unverified",
+            "status_as_of": "2024-03-08",
+            "outcome_type": "charged",
+            "aliases": [
+              "Muhammad Abujweid"
+            ]
+          }
+        },
+        {
+          "id": "dylan-evans",
+          "title": "Dylan Evans · X posts · Not-guilty pleas reported; later disposal unverified",
+          "kind": "Case record · Not-guilty pleas reported; later disposal unverified · Last sourced position: 2025-05-23 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "Local reporting identifies a section 12(1) count and two racial-hatred publication counts relating to October 2023 posts. PA’s 23 May 2025 court report records Evans pleading not guilty to all three at Westminster Magistrates’ Court and receiving conditional bail. The later Old Bailey disposal has not been established here.",
+              "sources": [
+                {
+                  "id": "evans-charge"
+                },
+                {
+                  "id": "evans-pleas"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Dylan Evans · X posts",
+            "jurisdiction": "England and Wales",
+            "scope": "hamas",
+            "provisions": [
+              "Terrorism Act 2000 s12(1)",
+              "Public Order Act 1986 s19"
+            ],
+            "last_sourced_position": "Not-guilty pleas reported; later disposal unverified",
+            "status_as_of": "2025-05-23",
+            "outcome_type": "charged"
+          }
+        },
+        {
+          "id": "marian-milenovic",
+          "title": "Marian Milenovic · Huddersfield case · One charge reported; plea and later disposal unverified",
+          "kind": "Case record · One charge reported; plea and later disposal unverified · Last sourced position: 2026-07-15 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "Hits Radio reported on 15 July 2026 that Marian Milenovic had been charged with one allegation of expressing a supportive opinion or belief concerning Hamas following a Counter Terrorism Policing North East investigation. A Westminster appearance was announced for the following day. The report does not establish a plea, conviction or the later disposal; the precise subsection also needs confirmation.",
+              "sources": [
+                {
+                  "id": "milenovic-charge"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Marian Milenovic · Huddersfield case",
+            "jurisdiction": "England and Wales",
+            "scope": "hamas",
+            "provisions": [
+              "Terrorism Act 2000 s12; exact subsection requires charge sheet"
+            ],
+            "last_sourced_position": "One charge reported; plea and later disposal unverified",
+            "status_as_of": "2026-07-15",
+            "outcome_type": "charged"
+          }
+        }
+      ]
+    },
+    {
+      "id": "searches-and-investigations",
+      "title": "Searches, arrests and press freedom",
+      "intro": "These records include interventions without an established criminal charge. Their effect on journalism is a research question; the source of each reported outcome is identified.",
+      "entries": [
+        {
+          "id": "haim-bresheeth",
+          "title": "Haim Bresheeth · London speech · Arrest and release reported; later disposal unverified",
+          "kind": "Case record · Arrest and release reported; later disposal unverified · Last sourced position: 2024-11-11 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "The National’s November 2024 interview reports Bresheeth’s arrest after a speech outside the Israeli ambassador’s residence and his account that the matter was referred to the CPS following release. No later charging decision or final disposal has been verified for this register. He is a separate individual from Tony Greenstein; an arrest or referral is not evidence of guilt.",
+              "sources": [
+                {
+                  "id": "h-bresheeth"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Haim Bresheeth · London speech",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Reported use of terrorism powers; charge not established"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Arrest and release reported; later disposal unverified",
+            "status_as_of": "2024-11-11",
+            "outcome_type": "investigation"
+          }
+        },
+        {
+          "id": "richard-medhurst",
+          "title": "Richard Medhurst · Heathrow arrest · No UK charges reported",
+          "kind": "Case record · No UK charges reported · Last sourced position: 2025-12-16 · England and Wales · separate Austrian proceedings outside this entry",
+          "paragraphs": [
+            {
+              "text": "The NUJ and IFJ documented Medhurst’s 15 August 2024 arrest and the seizure of journalistic equipment in a September letter. Consortium News later reported, based on his December 2025 announcement, that the UK case would not lead to charges and bail was cancelled. The decision letter has not been inspected. Separate Austrian action must not be counted as a UK prosecution or treated as an outcome of this investigation.",
+              "sources": [
+                {
+                  "id": "medhurst-unions"
+                },
+                {
+                  "id": "medhurst-nfa"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Richard Medhurst · Heathrow arrest",
+            "jurisdiction": "England and Wales · separate Austrian proceedings outside this entry",
+            "provisions": [
+              "Reported Terrorism Act 2000 s12 investigation"
+            ],
+            "scope": "press-freedom",
+            "last_sourced_position": "No UK charges reported",
+            "status_as_of": "2025-12-16",
+            "outcome_type": "no-further-action"
+          }
+        },
+        {
+          "id": "asa-winstanley",
+          "title": "Asa Winstanley · raid and seized material · Warrant ruled unlawful, according to NUJ",
+          "kind": "Case record · Warrant ruled unlawful, according to NUJ · Last sourced position: 2025-05-29 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "The NUJ’s May 2025 account says the Central Criminal Court found the search warrant unlawful and refused police access to Winstanley’s journalistic property following the October 2024 raid. It expressly says he was neither arrested nor charged. The union and legal team’s account is not the judgment itself, which remains to be obtained; the source does not establish that the wider investigation had ended.",
+              "sources": [
+                {
+                  "id": "winstanley-nuj"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Asa Winstanley · raid and seized material",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Counter-terrorism search and access to journalistic material"
+            ],
+            "scope": "press-freedom",
+            "last_sourced_position": "Warrant ruled unlawful, according to NUJ",
+            "status_as_of": "2025-05-29",
+            "outcome_type": "search-ruling"
+          }
+        },
+        {
+          "id": "craig-murray-border",
+          "title": "Craig Murray · Glasgow Airport examination · Border questioning and device retention reported; later disposal unverified",
+          "kind": "Case record · Border questioning and device retention reported; later disposal unverified · Last sourced position: 2024-12-04 · Scotland",
+          "paragraphs": [
+            {
+              "text": "A 4 December 2024 UN Special Procedures communication recounts Murray’s examination at Glasgow Airport on 16 October 2023 and the seizure of devices and demand for access codes. It conveys allegations of politically motivated questioning, not a judicial finding. This entry concerns a border examination; no support-offence charge or later investigation disposal is established by this source.",
+              "sources": [
+                {
+                  "id": "un-special-procedures-2024"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Craig Murray · Glasgow Airport examination",
+            "jurisdiction": "Scotland",
+            "scope": "press-freedom",
+            "provisions": [
+              "Terrorism Act 2000 Schedule 7 border examination"
+            ],
+            "last_sourced_position": "Border questioning and device retention reported; later disposal unverified",
+            "status_as_of": "2024-12-04",
+            "outcome_type": "investigation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "earlier-symbol-case",
+      "title": "Before October 2023: an earlier symbol prosecution",
+      "intro": "The register also tracks earlier enforcement. Match the organisation and the law to the conduct date.",
+      "entries": [
+        {
+          "id": "feras-al-jayoosi",
+          "title": "Feras al-Jayoosi · T-shirts in 2021 · Guilty pleas; suspended sentence reported",
+          "kind": "Case record · Guilty pleas; suspended sentence reported · Last sourced position: 2021-12-20 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "CST, which reported the conduct, records four guilty pleas over T-shirts worn in May and June 2021, followed on 17 December 2021 by sixteen weeks’ imprisonment suspended for two years and unpaid work. This is an attributed account by a referring organisation; the sentencing order remains to be collected.",
+              "sources": [
+                {
+                  "id": "jayoosi-cst"
+                }
+              ]
+            },
+            {
+              "text": "The conduct preceded the Home Office’s 26 November 2021 extension of Hamas proscription to the whole organisation. The earlier military-wing listing and the particular imagery therefore need to be checked against the charge particulars, rather than applying the later whole-organisation status retrospectively.",
+              "sources": [
+                {
+                  "id": "hamas-proscription-2021"
+                },
+                {
+                  "id": "jayoosi-cst"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Feras al-Jayoosi · T-shirts in 2021",
+            "jurisdiction": "England and Wales",
+            "scope": "hamas",
+            "provisions": [
+              "Terrorism Act 2000 s13(1) and (3); Hamas military-wing / Palestinian Islamic Jihad imagery"
+            ],
+            "last_sourced_position": "Guilty pleas; suspended sentence reported",
+            "status_as_of": "2021-12-20",
+            "outcome_type": "conviction",
+            "aliases": [
+              "Feras Al Jayoosi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "symbols-and-posts",
+      "title": "Convictions over symbols and online posts",
+      "intro": "Convictions belong in the record alongside acquittals. Suspended sentences, community orders and conditional discharges are not acquittals. These dated reports do not establish current custody or the absence of later appeals.",
+      "entries": [
+        {
+          "id": "paraglider-three",
+          "title": "Heba Alhayek, Pauline Ankunda and Noimutu Taiwo · Convicted; conditional discharges",
+          "kind": "Case record · Convicted; conditional discharges · Last sourced position: 2024-02-14 · England and Wales · Westminster Magistrates’ Court",
+          "paragraphs": [
+            {
+              "text": "South London Press reports convictions under section 13 for displaying paraglider images at the 14 October 2023 London demonstration, with a twelve-month conditional discharge for each defendant. It records the prosecution interpretation and the defence challenge to the images’ identification and context. These are three defendants in a grouped record, not three additional cases hidden in a headline count. Later appeal outcomes have not been verified here.",
+              "sources": [
+                {
+                  "id": "paragliders-report"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Heba Alhayek, Pauline Ankunda and Noimutu Taiwo",
+            "jurisdiction": "England and Wales · Westminster Magistrates’ Court",
+            "provisions": [
+              "Terrorism Act 2000 s13"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Convicted; conditional discharges",
+            "status_as_of": "2024-02-14",
+            "outcome_type": "conviction",
+            "subjects": [
+              "Heba Alhayek",
+              "Pauline Ankunda",
+              "Noimutu Taiwo"
+            ]
+          }
+        },
+        {
+          "id": "mohammed-adil",
+          "title": "Mohammed Adil · WhatsApp images · Guilty pleas; community order",
+          "kind": "Case record · Guilty pleas; community order · Last sourced position: 2024-06-05 · England and Wales · Westminster Magistrates’ Court",
+          "paragraphs": [
+            {
+              "text": "The IOPC’s republished official release records guilty pleas to two image-publication charges and sentencing on 4 June 2024 to an eighteen-month community order, including 160 hours of unpaid work. It concerns WhatsApp images shared in October and November 2023. Adil’s police disciplinary process is separate from the criminal convictions.",
+              "sources": [
+                {
+                  "id": "adil-iopc"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Mohammed Adil · WhatsApp images",
+            "jurisdiction": "England and Wales · Westminster Magistrates’ Court",
+            "provisions": [
+              "Terrorism Act 2000 s13; image-publication offences"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Guilty pleas; community order",
+            "status_as_of": "2024-06-05",
+            "outcome_type": "conviction"
+          },
+          "date": "2024-06-04"
+        },
+        {
+          "id": "ozain-yousef",
+          "title": "Ozain Ibn Yousef · X images · Admitted offence; suspended sentence",
+          "kind": "Case record · Admitted offence; suspended sentence · Last sourced position: 2024-04-10 · England and Wales · Leeds case",
+          "paragraphs": [
+            {
+              "text": "ITV reports that Yousef admitted publishing Hamas-related images on X and received sixteen weeks’ imprisonment suspended for two years, with 100 hours of community service. Its 10 April 2024 report describes an offence of arousing reasonable suspicion of support for a proscribed organisation. This is a conviction with a suspended custodial sentence, not an immediate prison term; obtain the precise charge and sentencing order.",
+              "sources": [
+                {
+                  "id": "yousef-itv"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Ozain Ibn Yousef · X images",
+            "jurisdiction": "England and Wales · Leeds case",
+            "provisions": [
+              "Terrorism Act; image / reasonable-suspicion offence, precise count needed"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Admitted offence; suspended sentence",
+            "status_as_of": "2024-04-10",
+            "outcome_type": "conviction"
+          }
+        },
+        {
+          "id": "khaled-hajsaad",
+          "title": "Khaled Hajsaad · green headband · Convicted; three-month conditional discharge",
+          "kind": "Case record · Convicted; three-month conditional discharge · Last sourced position: 2024-06-21 · England and Wales · London magistrates’ courts",
+          "paragraphs": [
+            {
+              "text": "Press Association’s sentencing report records a three-month conditional discharge on 21 June 2024 following conviction over a green headband worn at a November 2023 Trafalgar Square protest. The dispute concerned the headband and its context; the defendant had described it as an expression of faith. A conditional discharge follows a conviction and should not be presented as an acquittal.",
+              "sources": [
+                {
+                  "id": "hajsaad-sentence"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Khaled Hajsaad · green headband",
+            "jurisdiction": "England and Wales · London magistrates’ courts",
+            "provisions": [
+              "Terrorism Act 2000 s13"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Convicted; three-month conditional discharge",
+            "status_as_of": "2024-06-21",
+            "outcome_type": "conviction"
+          },
+          "date": "2024-06-21"
+        },
+        {
+          "id": "sara-el-houssein",
+          "title": "Sara El-Houssein · online image · Conviction reported; sentence unverified",
+          "kind": "Case record · Conviction reported; sentence unverified · Last sourced position: 2024-07-14 · England and Wales · Westminster Magistrates’ Court",
+          "paragraphs": [
+            {
+              "text": "Harrow Online reports that El-Houssein was found guilty on 12 July 2024 of publishing an image in circumstances arousing reasonable suspicion of support for Hamas. The article lists a future sentencing date. This register records the conviction reported at that time; it does not assume the scheduled sentencing happened or infer a sentence or later appeal result.",
+              "sources": [
+                {
+                  "id": "el-houssein-report"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Sara El-Houssein · online image",
+            "jurisdiction": "England and Wales · Westminster Magistrates’ Court",
+            "provisions": [
+              "Terrorism Act 2000 s13(1A)"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Conviction reported; sentence unverified",
+            "status_as_of": "2024-07-14",
+            "outcome_type": "conviction"
+          },
+          "date": "2024-07-12"
+        },
+        {
+          "id": "mohammed-nafees-ahmed",
+          "title": "Mohammed Nafees Ahmed · X posts · Guilty pleas; imprisonment reported",
+          "kind": "Case record · Guilty pleas; imprisonment reported · Last sourced position: 2025-01-07 · England and Wales · Old Bailey sentencing reported",
+          "paragraphs": [
+            {
+              "text": "CST’s January 2025 account reports guilty pleas to eight Hamas-support offences and sentencing on 19 December 2024 to one year in prison plus a year on extended licence. CST identifies itself as the organisation that referred his posts to police and describes threatening material. Its role and account are attributed; obtain the indictment and sentencing remarks before making a fuller finding about the conduct or sentence structure.",
+              "sources": [
+                {
+                  "id": "ahmed-cst"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Mohammed Nafees Ahmed · X posts",
+            "jurisdiction": "England and Wales · Old Bailey sentencing reported",
+            "provisions": [
+              "Eight organisational-support offences; indictment needed"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Guilty pleas; imprisonment reported",
+            "status_as_of": "2025-01-07",
+            "outcome_type": "conviction"
+          },
+          "date": "2024-12-19"
+        },
+        {
+          "id": "zakir-hussain",
+          "title": "Zakir Hussain · support and racial-hatred posts · Guilty pleas; imprisonment reported",
+          "kind": "Case record · Guilty pleas; imprisonment reported · Last sourced position: 2025-07-01 · England and Wales · Old Bailey",
+          "paragraphs": [
+            {
+              "text": "Counter Terrorism Policing’s 1 July 2025 release confirms four section 12(1A) organisational-support counts concerning Hamas and Hizballah and seven section 19 racial-hatred publication counts. It records guilty pleas on 20 March and sentencing on 26 June 2025 to five years and eight months’ imprisonment plus three years on extended licence. The combined sentence cannot be attributed solely to a single post or to the Hamas-related counts. The earlier secondary report is retained in the source trail.",
+              "sources": [
+                {
+                  "id": "hussain-ctp-primary"
+                },
+                {
+                  "id": "hussain-sentence"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Zakir Hussain · support and racial-hatred posts",
+            "jurisdiction": "England and Wales · Old Bailey",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)",
+              "Public Order Act 1986 s19"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Guilty pleas; imprisonment reported",
+            "status_as_of": "2025-07-01",
+            "outcome_type": "conviction"
+          },
+          "date": "2025-06-26"
+        },
+        {
+          "id": "zahir-khan",
+          "title": "Mohammed Zahir Khan · online posts and notification breaches · Guilty pleas; aggregate prison sentence reported",
+          "kind": "Case record · Guilty pleas; aggregate prison sentence reported · Last sourced position: 2026-04-30 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "BBC’s earlier charging report identified Hamas as the organisation concerned.",
+              "sources": [
+                {
+                  "id": "zahir-khan-charge-bbc"
+                }
+              ]
+            },
+            {
+              "text": "West Midlands Police’s 30 April 2026 release reports a sentence of two years and ten months following February guilty pleas to supportive expression, a Serious Crime Prevention Order breach and four notification breaches. It describes online posts and undisclosed devices, accounts and other details. The sentence covers the combined offending; it cannot be attributed solely to a Hamas post. Obtain the indictment and sentencing remarks for the count-by-count basis.",
+              "sources": [
+                {
+                  "id": "zahir-khan-police"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Mohammed Zahir Khan · online posts and notification breaches",
+            "jurisdiction": "England and Wales",
+            "scope": "hamas",
+            "provisions": [
+              "Supportive-expression offence; exact subsection requires indictment",
+              "Serious Crime Prevention Order breach",
+              "Counter-Terrorism Act 2008 Part 4 notification breaches"
+            ],
+            "last_sourced_position": "Guilty pleas; aggregate prison sentence reported",
+            "status_as_of": "2026-04-30",
+            "outcome_type": "conviction",
+            "aliases": [
+              "Mohammad Zahir Khan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "palestine-action-speech",
+      "title": "Palestine Action: placards and meeting prosecutions",
+      "intro": "A distinct set of support allegations. These records concern expression or organising meetings; the wider collection covers direct-action prosecutions.",
+      "entries": [
+        {
+          "id": "greta-thunberg-placard",
+          "title": "Greta Thunberg · London placard · Arrest and release on bail reported; charge unverified",
+          "kind": "Case record · Arrest and release on bail reported; charge unverified · Last sourced position: 2026-02-10 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "LBC reports that City of London Police arrested Thunberg on 23 December 2025 over a placard supporting Palestine Action prisoners and that she was subsequently released on bail. Its page was updated on 10 February 2026. The cited police account distinguishes her placard arrest from two other people’s criminal-damage arrests at the same location. No subsequent formal charge, plea or disposal is verified here.",
+              "sources": [
+                {
+                  "id": "thunberg-arrest"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Greta Thunberg · London placard",
+            "jurisdiction": "England and Wales",
+            "scope": "palestine-action",
+            "provisions": [
+              "Terrorism Act 2000 s13; arrest allegation"
+            ],
+            "last_sourced_position": "Arrest and release on bail reported; charge unverified",
+            "status_as_of": "2026-02-10",
+            "outcome_type": "investigation"
+          }
+        },
+        {
+          "id": "defend-our-juries-six",
+          "title": "Defend Our Juries organisers · six defendants · Not-guilty pleas reported; later trial disposal unverified",
+          "kind": "Case record · Not-guilty pleas reported; later trial disposal unverified · Last sourced position: 2026-01-30 · England and Wales · Old Bailey",
+          "paragraphs": [
+            {
+              "text": "The CPS announced charges against Timothy Crosland, Patrick Friend, Gwen Harrison, David Nixon, Dawn Manners and Melanie Griffith relating to arranging, managing or addressing meetings, including Zoom meetings, allegedly supporting Palestine Action. The published counts differ between defendants. This is one grouped record for six people, not six additional prosecutions.",
+              "sources": [
+                {
+                  "id": "doj-six-cps"
+                }
+              ]
+            },
+            {
+              "text": "Jewish News reported not-guilty pleas to 29 charges at the Old Bailey on 30 January 2026, with the defendants on bail and a trial listed for 22 June. The earlier CPS announcement enumerated a different total of counts. The operative indictment and what happened to that trial listing remain unverified; the January report must not be read as a current listing.",
+              "sources": [
+                {
+                  "id": "doj-six-pleas"
+                },
+                {
+                  "id": "doj-six-cps"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Defend Our Juries organisers · six defendants",
+            "jurisdiction": "England and Wales · Old Bailey",
+            "scope": "palestine-action",
+            "provisions": [
+              "Terrorism Act 2000 s12(2) and s12(3); counts differ by defendant"
+            ],
+            "last_sourced_position": "Not-guilty pleas reported; later trial disposal unverified",
+            "status_as_of": "2026-01-30",
+            "outcome_type": "charged",
+            "subjects": [
+              "Timothy Crosland",
+              "Patrick Friend",
+              "Gwen Harrison",
+              "David Nixon",
+              "Dawn Manners",
+              "Melanie Griffith"
+            ]
+          }
+        },
+        {
+          "id": "anthony-harvey",
+          "title": "Anthony Harvey · Oban meeting allegation · Charged; no plea at first appearance; later disposal unverified",
+          "kind": "Case record · Charged; no plea at first appearance; later disposal unverified · Last sourced position: 2025-09-03 · Scotland",
+          "paragraphs": [
+            {
+              "text": "PA Scotland’s indexed court report records Harvey appearing privately at Oban Sheriff Court on 3 September 2025 on a section 12(3) meeting allegation concerning Palestine Action. STV reports that he made no plea and was granted bail pending further examination. This Scottish proceeding is kept separate from the six-defendant Old Bailey case; later disposal requires court confirmation.",
+              "sources": [
+                {
+                  "id": "harvey-court"
+                },
+                {
+                  "id": "harvey-stv"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Anthony Harvey · Oban meeting allegation",
+            "jurisdiction": "Scotland",
+            "scope": "palestine-action",
+            "provisions": [
+              "Terrorism Act 2000 s12(3)"
+            ],
+            "last_sourced_position": "Charged; no plea at first appearance; later disposal unverified",
+            "status_as_of": "2025-09-03",
+            "outcome_type": "charged"
+          }
+        },
+        {
+          "id": "palestine-action-proscription-appeal",
+          "title": "Palestine Action proscription appeal: awaiting judgment",
+          "kind": "Separate legal process · checked 2026-11-10",
+          "paragraphs": [
+            {
+              "text": "The Supreme Court’s official case page records that the proscription order took effect on 5 July 2025. It describes the Divisional Court finding the decision unlawful and the Court of Appeal reversing that decision. Permission was granted on 29 July 2026 only on compatibility with Articles 10 and 11 ECHR; the separate policy ground was refused.",
+              "sources": [
+                {
+                  "id": "ammori-supreme-appeal"
+                }
+              ]
+            },
+            {
+              "text": "The Court records the full hearing on 4–5 November 2026 and, as checked on 10 November, the case is awaiting judgment. This is a challenge to the proscription decision, separate from the trial of any person accused of a support offence. No individual acquittal, charge withdrawal or current trial position is inferred here from the appeal.",
+              "sources": [
+                {
+                  "id": "ammori-supreme-appeal"
+                }
+              ]
+            }
+          ],
+          "legal_process_record": {
+            "case_reference": "UKSC/2026/0099",
+            "name": "R (Ammori) v Secretary of State for the Home Department",
+            "status_as_of": "2026-11-10",
+            "status": "awaiting-judgment",
+            "hearing_dates": [
+              "2026-11-04",
+              "2026-11-05"
+            ],
+            "counted_in_individual_case_register": false
+          }
+        },
+        {
+          "id": "speech-versus-direct-action",
+          "title": "Support allegations and direct-action sentencing are separate records",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "This page tracks expression, display and meeting allegations. Criminal-damage, burglary or assault cases belong in the Palestine Action collection and the terrorist-connection study linked below. A terrorism connection considered at sentence is a different legal question from a section 12 or 13 speech charge. Neither those direct-action defendants nor national arrest totals are added to this page’s named-record count.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-speech-cases",
+      "title": "Other speech, communications and performance cases",
+      "intro": "Related free-expression cases, with their different legal routes kept visible. Inclusion does not classify every case as a Hamas offence or establish that every intervention was unjustified.",
+      "entries": [
+        {
+          "id": "marieha-hussain",
+          "title": "Marieha Hussain · coconut placard · Acquitted of public-order allegation",
+          "kind": "Case record · Acquitted of public-order allegation · Last sourced position: 2024-09-16 · England and Wales · Westminster Magistrates’ Court",
+          "paragraphs": [
+            {
+              "text": "Garden Court Chambers records Hussain’s acquittal after a two-day trial concerning a placard portraying politicians as coconuts. This was a racially aggravated public-order prosecution, not a charge of supporting Hamas. The defence chambers’ account supplies the outcome and explains the political-satire dispute; broader claims about the charging decision need their own evidence.",
+              "sources": [
+                {
+                  "id": "hussain-coconut"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Marieha Hussain · coconut placard",
+            "jurisdiction": "England and Wales · Westminster Magistrates’ Court",
+            "provisions": [
+              "Racially aggravated public-order allegation"
+            ],
+            "scope": "related-speech",
+            "last_sourced_position": "Acquitted of public-order allegation",
+            "status_as_of": "2024-09-16",
+            "outcome_type": "acquittal"
+          }
+        },
+        {
+          "id": "fiona-ryan",
+          "title": "Fiona Ryan · TikTok and X posts · Communications convictions; suspended sentence",
+          "kind": "Case record · Communications convictions; suspended sentence · Last sourced position: 2024-11-14 · England and Wales · Salisbury Magistrates’ Court",
+          "paragraphs": [
+            {
+              "text": "The CPS records four convictions after trial and two further guilty pleas for grossly offensive communications. Its November 2024 release describes a suspended custodial sentence, but gives inconsistent term wording in its main text and editor’s notes; the order is needed to settle the exact total. These established communications convictions must not be relabelled as section 12 convictions merely because earlier reporting described alleged Hamas support.",
+              "sources": [
+                {
+                  "id": "ryan-cps"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Fiona Ryan · TikTok and X posts",
+            "jurisdiction": "England and Wales · Salisbury Magistrates’ Court",
+            "provisions": [
+              "Communications Act 2003 s127(1)(a)"
+            ],
+            "scope": "related-speech",
+            "last_sourced_position": "Communications convictions; suspended sentence",
+            "status_as_of": "2024-11-14",
+            "outcome_type": "conviction"
+          },
+          "date": "2024-11-14"
+        },
+        {
+          "id": "mohammad-al-accad",
+          "title": "Mohammad Al Accad · Instagram message · Guilty plea; fine",
+          "kind": "Case record · Guilty plea; fine · Last sourced position: 2025-01-22 · England and Wales · Manchester Magistrates’ Court",
+          "paragraphs": [
+            {
+              "text": "Pharmacy Magazine reports a guilty plea to sending a grossly offensive Instagram message to a university Israel Society and a £675 fine, with additional costs and surcharge. The report places the message on 7 October 2023 and attributes the sentencing explanation to the CPS. This is a communications conviction, distinct from an organisational-support offence; any professional-regulation process requires a separate record.",
+              "sources": [
+                {
+                  "id": "al-accad-report"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Mohammad Al Accad · Instagram message",
+            "jurisdiction": "England and Wales · Manchester Magistrates’ Court",
+            "provisions": [
+              "Grossly offensive communication; exact provision to verify"
+            ],
+            "scope": "related-speech",
+            "last_sourced_position": "Guilty plea; fine",
+            "status_as_of": "2025-01-22",
+            "outcome_type": "conviction"
+          }
+        },
+        {
+          "id": "thomas-mearing",
+          "title": "Thomas Mearing · voicemail to Naz Shah MP · Guilty plea; suspended sentence",
+          "kind": "Case record · Guilty plea; suspended sentence · Last sourced position: 2025-02-05 · England and Wales · Taunton Magistrates’ Court",
+          "paragraphs": [
+            {
+              "text": "The CPS reports that Mearing pleaded guilty after leaving an abusive voicemail accusing Naz Shah MP of supporting Hamas. On 5 February 2025 he received twelve weeks’ imprisonment suspended for eighteen months and a five-year restraining order. This is a contrasting communications case involving an accusation of Hamas support, not support by the defendant for the organisation.",
+              "sources": [
+                {
+                  "id": "mearing-cps"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Thomas Mearing · voicemail to Naz Shah MP",
+            "jurisdiction": "England and Wales · Taunton Magistrates’ Court",
+            "provisions": [
+              "Public communications offence"
+            ],
+            "scope": "related-speech",
+            "last_sourced_position": "Guilty plea; suspended sentence",
+            "status_as_of": "2025-02-05",
+            "outcome_type": "conviction"
+          },
+          "date": "2025-02-05"
+        },
+        {
+          "id": "pete-north",
+          "title": "Pete North · anti-Hamas / anti-Islam meme · No further action, according to his account",
+          "kind": "Case record · No further action, according to his account · Last sourced position: 2025-10-25 · England and Wales · North Yorkshire",
+          "paragraphs": [
+            {
+              "text": "Reporting describes North’s arrest over an anti-Hamas and anti-Islam meme. In an October 2025 post he said a police notice confirmed no further action. The notice itself has not been independently inspected. This is included as a contrasting speech investigation, with a participant-reported outcome; it is not a prosecution for expressing support for Hamas.",
+              "sources": [
+                {
+                  "id": "north-report"
+                },
+                {
+                  "id": "north-account"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Pete North · anti-Hamas / anti-Islam meme",
+            "jurisdiction": "England and Wales · North Yorkshire",
+            "provisions": [
+              "Reported public-order investigation; no charge established"
+            ],
+            "scope": "related-speech",
+            "last_sourced_position": "No further action, according to his account",
+            "status_as_of": "2025-10-25",
+            "outcome_type": "no-further-action"
+          }
+        },
+        {
+          "id": "kneecap-liam",
+          "title": "Liam Óg Ó Hannaidh / Mo Chara · alleged flag display · Proceedings invalid; appeal dismissed",
+          "kind": "Case record · Proceedings invalid; appeal dismissed · Last sourced position: 2026-03-11 · England and Wales · alleged London concert conduct",
+          "paragraphs": [
+            {
+              "text": "The Divisional Court dismissed the DPP’s appeal on 11 March 2026. Its official summary explains that the charge concerning alleged display of a Hizballah flag was issued without the required Attorney General permission, and a valid replacement was not issued within the time limit. The court expressly said he had not been tried, convicted or acquitted. This is a procedural termination concerning Hizballah, not a Hamas acquittal.",
+              "sources": [
+                {
+                  "id": "kneecap-court"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Liam Óg Ó Hannaidh / Mo Chara · alleged flag display",
+            "jurisdiction": "England and Wales · alleged London concert conduct",
+            "provisions": [
+              "Terrorism Act 2000 s13",
+              "Consent and summary time-limit rules"
+            ],
+            "scope": "other-proscribed-organisation",
+            "last_sourced_position": "Proceedings invalid; appeal dismissed",
+            "status_as_of": "2026-03-11",
+            "outcome_type": "procedural-termination"
+          },
+          "date": "2026-03-11"
+        },
+        {
+          "id": "pwr-akdogan-demir",
+          "title": "Pwr, Akdogan and Demir · PKK flags · Convictions; Supreme Court appeals dismissed",
+          "kind": "Case record · Convictions; Supreme Court appeals dismissed · Last sourced position: 2022-01-26 · England and Wales",
+          "citation": "Pwr; Akdogan and another v DPP [2022] UKSC 2",
+          "paragraphs": [
+            {
+              "text": "The Supreme Court judgment records three 2018 convictions over PKK flags at a London demonstration concerning Afrin. Pwr and Akdogan received three-month conditional discharges; Demir an absolute discharge. Their Supreme Court appeals were dismissed on 26 January 2022. This is one grouped comparator record for three defendants, concerning the PKK. It is relevant to the section 13 test used in later symbol cases.",
+              "sources": [
+                {
+                  "id": "pwr-judgment",
+                  "locator": "Paragraphs 3, 26, 58 and 80"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Pwr, Akdogan and Demir · PKK flags",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Terrorism Act 2000 s13(1)"
+            ],
+            "scope": "other-proscribed-organisation",
+            "last_sourced_position": "Convictions; Supreme Court appeals dismissed",
+            "status_as_of": "2022-01-26",
+            "outcome_type": "conviction",
+            "subjects": [
+              "Rahman Pwr",
+              "Ismail Akdogan",
+              "Rotinda Demir"
+            ]
+          }
+        },
+        {
+          "id": "bob-vylan-glastonbury",
+          "title": "Bob Vylan · Glastonbury performance · No further action reported",
+          "kind": "Case record · No further action reported · Last sourced position: 2025-12-23 · England and Wales · Avon and Somerset Police investigation",
+          "paragraphs": [
+            {
+              "text": "ITV reports that Avon and Somerset Police concluded the investigation into chants at Bob Vylan’s June 2025 Glastonbury set with no further action after reviewing the evidence and obtaining CPS advice. The report identifies insufficient evidence for a realistic prospect of conviction. This is an investigation closed without prosecution, not a trial acquittal or a finding about every later performance.",
+              "sources": [
+                {
+                  "id": "vylan-glastonbury"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Bob Vylan · Glastonbury performance",
+            "jurisdiction": "England and Wales · Avon and Somerset Police investigation",
+            "provisions": [
+              "Performance / speech investigation; no charge established"
+            ],
+            "scope": "related-speech",
+            "last_sourced_position": "No further action reported",
+            "status_as_of": "2025-12-23",
+            "outcome_type": "no-further-action"
+          }
+        },
+        {
+          "id": "bobby-vylan-london",
+          "title": "Bobby Vylan · London Al-Quds Day rally · Separate no-further-action decision reported",
+          "kind": "Case record · Separate no-further-action decision reported · Last sourced position: date unverified · England and Wales · Metropolitan Police investigation",
+          "paragraphs": [
+            {
+              "text": "The Jewish Chronicle reports a separate Metropolitan Police decision to take no further action over Bobby Vylan’s chant at a London Al-Quds Day rally. This must not be merged with the Glastonbury investigation: the event, police force and decision are different. The precise decision date and original police statement remain to be collected.",
+              "sources": [
+                {
+                  "id": "vylan-london"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Bobby Vylan · London Al-Quds Day rally",
+            "jurisdiction": "England and Wales · Metropolitan Police investigation",
+            "provisions": [
+              "Speech investigation; no charge established"
+            ],
+            "scope": "related-speech",
+            "last_sourced_position": "Separate no-further-action decision reported",
+            "status_as_of": null,
+            "outcome_type": "no-further-action"
+          }
+        },
+        {
+          "id": "mohamed-hassn",
+          "title": "Mohamed Hassn / Mohamed Al-Mail · Swiss Cottage speech · Racially aggravated public-order charge reported; later disposal unverified",
+          "kind": "Case record · Racially aggravated public-order charge reported; later disposal unverified · Last sourced position: 2025-12-19 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "Jewish News quotes a Metropolitan Police announcement of a racially aggravated public-order charge after alleged remarks at Swiss Cottage on 20 September 2024. Police said prosecutors twice declined action before a later charge was secured. This record concerns a reported public-order charge, not a terrorism conviction. The charge sheet, plea and later disposal remain to be verified.",
+              "sources": [
+                {
+                  "id": "hassn-charge"
+                }
+              ]
+            },
+            {
+              "text": "The quoted announcement calls the Public Order Act a 1998 Act. Section 4A is in the Public Order Act 1986; the Crime and Disorder Act is from 1998. That discrepancy is retained here as a source-checking issue, not silently treated as verified charge wording.",
+              "sources": [
+                {
+                  "id": "hassn-charge"
+                },
+                {
+                  "id": "public-order-four-a"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Mohamed Hassn / Mohamed Al-Mail · Swiss Cottage speech",
+            "jurisdiction": "England and Wales",
+            "scope": "related-speech",
+            "provisions": [
+              "Public Order Act 1986 s4A; reported charge particulars require checking",
+              "Crime and Disorder Act 1998 s31"
+            ],
+            "last_sourced_position": "Racially aggravated public-order charge reported; later disposal unverified",
+            "status_as_of": "2025-12-19",
+            "outcome_type": "charged",
+            "aliases": [
+              "Mohammed Hassn",
+              "Mohamed Al-Mail",
+              "Mohammad al-Mail"
+            ]
+          }
+        },
+        {
+          "id": "tatchell-nakba",
+          "title": "Peter Tatchell · Nakba Day 2025 arrest · Police admitted error; no further action reported",
+          "kind": "Case record · Police admitted error; no further action reported · Last sourced position: 2025-05-18 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "PA’s report quotes the Metropolitan Police accepting that Tatchell was arrested in error on 17 May 2025 after being mistaken for a counter-protester. His placard criticised both Israel’s actions and Hamas executions. Police said he was legitimately participating, had breached no conditions and would face no further action. PSC denied making a complaint or knowing of stewards doing so. This was not an allegation of Tatchell supporting Hamas.",
+              "sources": [
+                {
+                  "id": "tatchell-nakba-pa"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Peter Tatchell · Nakba Day 2025 arrest",
+            "jurisdiction": "England and Wales",
+            "scope": "related-speech",
+            "provisions": [
+              "Arrest on suspicion of breaching protest conditions / to prevent breach of peace; no charge verified"
+            ],
+            "last_sourced_position": "Police admitted error; no further action reported",
+            "status_as_of": "2025-05-18",
+            "outcome_type": "no-further-action"
+          }
+        },
+        {
+          "id": "tatchell-intifada",
+          "title": "Peter Tatchell · January 2026 placard · No further action, according to his foundation",
+          "kind": "Case record · No further action, according to his foundation · Last sourced position: 2026-04-29 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "In a statement dated 29 April 2026, Tatchell’s foundation says police dropped the case arising from his 31 January arrest over an intifada placard which expressly referred to non-violent resistance. It reports detention and a restriction on attending Palestine protests before a bail challenge. This is a participant organisation’s account; the police decision and bail orders have not been inspected. It concerns a different arrest from May 2025.",
+              "sources": [
+                {
+                  "id": "tatchell-intifada-foundation"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Peter Tatchell · January 2026 placard",
+            "jurisdiction": "England and Wales",
+            "scope": "related-speech",
+            "provisions": [
+              "Public Order Act s5; alleged racial / religious aggravation according to participant account"
+            ],
+            "last_sourced_position": "No further action, according to his foundation",
+            "status_as_of": "2026-04-29",
+            "outcome_type": "no-further-action"
+          }
+        },
+        {
+          "id": "jamal-nineham",
+          "title": "Ben Jamal and Chris Nineham · protest conditions · Convicted; appeal listing subsequently reported",
+          "kind": "Case record · Convicted; appeal listing subsequently reported · Last sourced position: 2026-05-08 · England and Wales",
+          "paragraphs": [
+            {
+              "text": "The Metropolitan Police report that both men were convicted on 1 April 2026 of breaching conditions at the 18 January 2025 demonstration, with Jamal additionally convicted of inciting breaches. Jamal received an eighteen-month conditional discharge and Nineham twelve months; each was ordered to pay £7,500 costs. These are public-order convictions, not Hamas-support convictions or suspended prison sentences.",
+              "sources": [
+                {
+                  "id": "jamal-nineham-police"
+                }
+              ]
+            },
+            {
+              "text": "Morning Star reported on 8 May 2026 that Jamal had announced a joint appeal listing for 14 December. Confirm the appeal court, listing and any subsequent orders before describing the convictions as final. The reported appeal does not itself quash them.",
+              "sources": [
+                {
+                  "id": "jamal-nineham-appeal"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Ben Jamal and Chris Nineham · protest conditions",
+            "jurisdiction": "England and Wales",
+            "scope": "related-speech",
+            "provisions": [
+              "Public Order Act protest-condition offences; Jamal also incitement; precise counts require court record"
+            ],
+            "last_sourced_position": "Convicted; appeal listing subsequently reported",
+            "status_as_of": "2026-05-08",
+            "outcome_type": "conviction",
+            "subjects": [
+              "Benjamin Jamal",
+              "Christopher Nineham"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "jersey-comparator",
+      "title": "Jersey: a separate jurisdiction",
+      "intro": "Jersey is a Crown Dependency, not part of the United Kingdom. Its case is a comparator under its own terrorism law and is excluded from UK-only counts.",
+      "entries": [
+        {
+          "id": "natalie-strecker",
+          "title": "Natalie Strecker · Hamas and Hezbollah posts · Acquitted in Jersey",
+          "kind": "Case record · Acquitted in Jersey · Last sourced position: 2025-12-02 · Jersey · outside the UK",
+          "paragraphs": [
+            {
+              "text": "Channel 103 reports that the Royal Court jurats acquitted Strecker on 2 December 2025 of both counts of inviting support for proscribed organisations, concerning Hamas and Hezbollah posts. The Privy Council case page separately records a preparatory legal challenge about the offence’s scope. An interlocutory appeal outcome is not the trial verdict, and the UK’s section 12 must not be substituted for Jersey’s Article 13.",
+              "sources": [
+                {
+                  "id": "strecker-verdict"
+                },
+                {
+                  "id": "strecker-jcpc"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Natalie Strecker · Hamas and Hezbollah posts",
+            "jurisdiction": "Jersey · outside the UK",
+            "provisions": [
+              "Terrorism (Jersey) Law 2002 art13(1)"
+            ],
+            "scope": "jersey-comparator",
+            "last_sourced_position": "Acquitted in Jersey",
+            "status_as_of": "2025-12-02",
+            "outcome_type": "acquittal"
+          },
+          "date": "2025-12-02"
+        }
+      ]
+    },
+    {
+      "id": "legal-tests",
+      "title": "What must the prosecution prove?",
+      "intro": "Start with the charged provision, the full expression and the circumstances in which it reached its audience.",
+      "entries": [
+        {
+          "id": "two-support-offences",
+          "title": "Inviting support and reckless encouragement are different offences",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Section 12(1) of the Terrorism Act 2000 concerns inviting support for a proscribed organisation, where the support is not confined to money or property. Section 12(1A) concerns expressing a supportive opinion or belief while reckless as to whether someone to whom it is directed will be encouraged to support a proscribed organisation. The provision also contains separate meeting offences.",
+              "sources": [
+                {
+                  "id": "section-twelve",
+                  "locator": "Sections 12(1), 12(1A), 12(2) and 12(3)"
+                }
+              ]
+            },
+            {
+              "text": "Section 12 provides a maximum of fourteen years' imprisonment on conviction on indictment. This is the statutory ceiling, not a prediction of the sentence in any individual case.",
+              "sources": [
+                {
+                  "id": "section-twelve",
+                  "locator": "Section 12(6)(a)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "context-not-automatic",
+          "title": "Images and footage are not automatic offences",
+          "kind": "Legislation and legal interpretation",
+          "paragraphs": [
+            {
+              "text": "An image of a flag, headband or uniform is not automatically unlawful: section 13 requires its particular reasonable-suspicion conditions. Nor does every sharing of footage or a statement establish encouragement or dissemination. Under sections 1 and 2 of the 2006 Act, the publication, circumstances, required intention or recklessness, and applicable defences must be examined. Section 1’s indirect-encouragement test includes whether glorified conduct could reasonably be understood as something to emulate.",
+              "sources": [
+                {
+                  "id": "section-thirteen"
+                },
+                {
+                  "id": "encouragement-law"
+                },
+                {
+                  "id": "dissemination-law"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pwr-section-thirteen",
+          "title": "Section 13(1): the earlier Supreme Court ruling",
+          "kind": "Supreme Court judgment",
+          "date": "2022-01-26",
+          "citation": "Pwr; Akdogan and another v DPP [2022] UKSC 2",
+          "paragraphs": [
+            {
+              "text": "The Court held section 13(1) to impose strict liability, subject to knowledge that the person is wearing, carrying or displaying the article. It does not require the further mental element argued for by the appellants. The Court also rejected their Article 10 challenge. The reasonable-suspicion conditions still require proof; this ruling should not be collapsed into section 12(1A)’s recklessness test or assumed to resolve every section 13(1A) image-publication issue.",
+              "sources": [
+                {
+                  "id": "pwr-judgment",
+                  "locator": "Paragraphs 26, 58 and 60–78"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "images-and-publications-law",
+          "title": "Symbols, encouragement and dissemination have their own tests",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Section 13 addresses clothing, displayed articles and published images in circumstances arousing reasonable suspicion of membership or support. It is distinct from the section 12 invitation and reckless-expression offences. The wording and version applicable at the alleged event date must be checked.",
+              "sources": [
+                {
+                  "id": "section-thirteen"
+                }
+              ]
+            },
+            {
+              "text": "Sections 1 and 2 of the Terrorism Act 2006 separately address encouragement of terrorism and dissemination of terrorist publications, with their specified intention or recklessness requirements. The content as a whole and the circumstances matter. An allegation under one provision should not be retold as a conviction under another.",
+              "sources": [
+                {
+                  "id": "encouragement-law"
+                },
+                {
+                  "id": "dissemination-law"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "supreme-court-test",
+          "title": "26 February 2026 · the Supreme Court's explanation",
+          "kind": "Supreme Court judgment",
+          "date": "2026-02-26",
+          "citation": "R v ABJ; R v BDN [2026] UKSC 8",
+          "paragraphs": [
+            {
+              "text": "The Supreme Court dismissed the Article 10 challenges to section 12(1A). It explained that the expression must objectively support the organisation and that the defendant must know it does. The prosecution must also prove awareness of a risk of encouraging the intended audience and that taking that risk was objectively unreasonable in the circumstances known to the defendant.",
+              "sources": [
+                {
+                  "id": "abj-bdn",
+                  "locator": "Paragraphs 57–83 and 129–138"
+                }
+              ]
+            },
+            {
+              "text": "Agreement with an organisation's aims, including Palestinian statehood or ending occupation, does not itself establish support for the organisation. Every ingredient must be proved to the criminal standard. Sentencing remains subject to proportionality. These appeals determined legal questions, not the defendants' guilt.",
+              "sources": [
+                {
+                  "id": "abj-bdn",
+                  "locator": "Paragraphs 67, 82–84, 109 and 129–138"
+                }
+              ]
+            },
+            {
+              "text": "The published judgment contains a specific reporting-restriction notice concerning the underlying criminal proceedings. This section addresses the published legal ruling; further reporting requires checking the applicable orders.",
+              "sources": [
+                {
+                  "id": "abj-bdn",
+                  "locator": "Reporting-restriction notice preceding the judgment"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scale-and-limits",
+      "title": "What the numbers tell us",
+      "intro": "The provision, period, jurisdiction and unit being counted all matter.",
+      "entries": [
+        {
+          "id": "cps-disclosure",
+          "title": "Eleven commenced prosecutions in one defined period",
+          "kind": "CPS freedom-of-information disclosure",
+          "paragraphs": [
+            {
+              "text": "The CPS disclosed eleven commenced section 12(1A) prosecutions in England and Wales between 7 October 2023 and 7 October 2024 inclusive. It described its manually collated figures as provisional and subject to change. The disclosure is not a Hamas-only count, a UK-wide total, a conviction count or a measure of the acquittal rate.",
+              "sources": [
+                {
+                  "id": "cps-figures",
+                  "locator": "Request scope, response and data-quality qualification"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "palestine-action-official-scale",
+          "title": "Great Britain: 3,630 Palestine Action-linked arrests in the year to June 2026",
+          "kind": "Official statistics with an internal discrepancy",
+          "paragraphs": [
+            {
+              "text": "The Home Office’s 8 October 2026 release records 3,630 arrests linked to supporting Palestine Action in Great Britain in the year ending 30 June 2026. Outcomes were supplied on 28 August. Its detailed commentary records 632 charged, including 621 under section 13, eight under section 12 and three under section 57; 2,936 remained on bail or under investigation. These are dated arrest-cohort outcomes, not a count of convictions, distinct people or today’s open cases.",
+              "sources": [
+                {
+                  "id": "home-office-june-2026"
+                }
+              ]
+            },
+            {
+              "text": "The headline summary instead mentions 634 section 12 or 13 charges, which does not reconcile with the detailed breakdown. We retain that discrepancy rather than manufacture a reconciled total. This release concerns Great Britain, excluding Northern Ireland, and does not identify the full set of named cases. Individual records in this register must not be added to its totals.",
+              "sources": [
+                {
+                  "id": "home-office-june-2026"
+                }
+              ]
+            }
+          ],
+          "statistical_record": {
+            "unit": "arrests and dated outcomes for an arrest cohort; not unique people",
+            "jurisdiction": "Great Britain",
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "outcomes_as_of": "2026-08-28",
+            "publication_date": "2026-10-08",
+            "arrests": 3630,
+            "charged_detailed": 632,
+            "section_13_detailed": 621,
+            "section_12_detailed": 8,
+            "section_57_detailed": 3,
+            "bail_or_under_investigation": 2936,
+            "headline_section_12_13": 634,
+            "internal_discrepancy_unresolved": true,
+            "additive_to_named_records": false
+          }
+        },
+        {
+          "id": "northern-ireland-referrals",
+          "title": "Northern Ireland: referral files are a different unit",
+          "kind": "Investigative reporting of a freedom-of-information response",
+          "paragraphs": [
+            {
+              "text": "The Detail reported on 28 April 2026 that PSNI had submitted 32 Palestine Action-related section 13 files to the Public Prosecution Service, within 90 such files since 2000. One file may cover multiple people. These are reported referral files, not 32 convictions or necessarily 32 prosecutions. The underlying disclosure, individual identities and subsequent PPS decisions have not been verified in this register.",
+              "sources": [
+                {
+                  "id": "ni-files-detail"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "northern-ireland-primary-records",
+          "title": "Northern Ireland: the police account and the disclosure gap",
+          "kind": "Official responses and limits of disclosure",
+          "paragraphs": [
+            {
+              "text": "A PSNI answer attached to a Policing Board question dated 6 November 2025 reported one Palestine Action-related arrest subsequently reported, fourteen ongoing investigations and an expectation of around twenty report files. Those are different stages and include a forecast. PSNI described evidence gathering and referral to PPS, with necessity and proportionality guiding decisions. This is its stated approach, not an independent finding that every intervention was proportionate.",
+              "sources": [
+                {
+                  "id": "ni-policing-board-response"
+                }
+              ]
+            },
+            {
+              "text": "PSNI’s March 2026 FOI/17010 response refused a combined request covering arrests, outcomes, costs, funding and guidance on cost grounds. It expressly suggested a refined request excluding the cost element. The refusal supplies no zero-case finding or usable arrest total. It gives a specific route for seeking the missing data.",
+              "sources": [
+                {
+                  "id": "psni-foi-17010"
+                }
+              ]
+            },
+            {
+              "text": "In December 2025 PSNI had separately acknowledged holding section 13 guidance and described releasing redacted material while withholding information concerning investigations, policing tactics and personal data. The published FOI reply is cited here; its referenced guidance attachment has not been inspected. Redactions do not themselves establish improper enforcement.",
+              "sources": [
+                {
+                  "id": "psni-foi-guidance"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions-and-evidence",
+      "title": "The case we are building",
+      "intro": "Our research question: did speech investigations and prosecutions impose unjustified restrictions on political expression, including where no conviction followed?",
+      "entries": [
+        {
+          "id": "evidence-needed",
+          "title": "Establish the words, the decision and the consequences",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Collect the complete speech or post, its context and audience, the prosecution exhibit version, charge particulars, legal directions and outcome. Examine the strongest prosecution evidence alongside the defence response. An edited clip, an allegation and a jury verdict answer different questions.",
+              "sources": []
+            },
+            {
+              "text": "Test the personal consequences through dated records: custody, bail conditions, seized devices, defence costs, lost work, study disruption and cancelled events. A claim that lawful discussion was deterred needs identified examples and evidence explaining why people changed what they said or published.",
+              "sources": []
+            },
+            {
+              "text": "Trace complaints and official responses through documents. A complaint shows that action was requested; it does not, by itself, establish improper influence over an independent decision. Seek the reasons recorded by police, prosecutors and regulators, together with their responses to specific criticisms.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "coverage-limits",
+          "title": "An initial record, open to correction",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "This is an expanding collection of identifiable cases, not an exhaustive national register or a finding of misconduct. It contains named proceedings in England and Wales and Scotland, Northern Ireland referral data without a verified named case, and a separate Jersey comparator. Original case files and interviews remain to be collected. Additions require a source, jurisdiction, dated procedural position and a clear account of what remains unknown.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "greenstein-verdict",
+      "title": "Tony Greenstein cleared of inviting support for Hamas",
+      "publisher": "Press Association · The Jewish Chronicle",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.thejc.com/news/uk/tony-greenstein-cleared-inviting-support-hamas-bfbjrlik",
+      "date": "2026-08-21",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "cotte-chambers",
+      "title": "R v Cotte [2026] Old Bailey",
+      "publisher": "One Pump Court",
+      "type": "Defence chambers' case note",
+      "url": "https://onepumpcourt.co.uk/cases/r-v-cotte-2026-old-bailey/",
+      "date": "2026-09-18",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "soas-campaign",
+      "title": "Defend the SOAS 2 — campaign news and case description",
+      "publisher": "Defend the SOAS 2",
+      "type": "Campaign account; latest second-student status unverified",
+      "url": "https://www.defendsoas2.org/category/news/",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "aladwan-pleas",
+      "title": "NHS doctor denies posting social media support for Hamas in London court",
+      "publisher": "The Jerusalem Post · Alex Carson",
+      "type": "Court reporting and attributed stakeholder comments",
+      "url": "https://www.jpost.com/diaspora/antisemitism/article-907055",
+      "date": "2026-08-30",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "aladwan-listing",
+      "title": "Doctor to stand trial over alleged pro-Hamas posts",
+      "publisher": "BBC · Matty Edwards · republished by AOL",
+      "type": "Court reporting; historical trial listing",
+      "url": "https://www.aol.com/articles/doctor-stand-trial-over-alleged-111735000.html",
+      "date": "2026-04-24",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "aladwan-bmj",
+      "title": "British Palestinian doctor Rahmeh Aladwan is charged with supporting Hamas",
+      "publisher": "The BMJ · Clare Dyer",
+      "type": "Medical and legal reporting; accessible extract only",
+      "url": "https://www.bmj.com/content/392/bmj.s607",
+      "date": "2026-03-27",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "section-twelve",
+      "title": "Terrorism Act 2000, section 12 — Support",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/12/data.html",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "abj-bdn",
+      "title": "R v ABJ; R v BDN [2026] UKSC 8",
+      "publisher": "UK Supreme Court",
+      "type": "Published judgment",
+      "url": "https://supremecourt.uk/cases/judgments/uksc-2025-0079",
+      "date": "2026-02-26",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "cps-figures",
+      "title": "Section 12(1A) prosecutions, 7 October 2023 to 7 October 2024 inclusive",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official freedom-of-information disclosure",
+      "url": "https://www.cps.gov.uk/foi/2025/section-121a-terrorism-act-2000-prosecutions-7-october-2023-7-october-2024-inclusive",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "kd-chambers",
+      "title": "Woman acquitted of expressing support for Hamas",
+      "publisher": "Doughty Street Chambers",
+      "type": "Defence chambers' case note",
+      "url": "https://www.doughtystreet.co.uk/news/woman-acquitted-expressing-support-hamas",
+      "checked": "2026-11-10",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "napier-spsc",
+      "title": "Terrorism charge against SPSC campaigner dropped",
+      "publisher": "Scottish Palestine Solidarity Campaign",
+      "type": "Campaign account of court proceedings; formal disposal not inspected",
+      "url": "https://www.scottishpsc.org.uk/terrorism-charge-dropped-against-spsc-campaigner/",
+      "checked": "2026-11-10",
+      "date": "2024-01-26"
+    },
+    {
+      "id": "barnard-report",
+      "title": "Terrorism legislation used against Palestine Action co-founder",
+      "publisher": "Real Media",
+      "type": "Court reporting; subsequent speech-case disposal unverified",
+      "url": "https://realmedia.press/palestine-action-terrorism-charge/",
+      "checked": "2026-11-10",
+      "date": "2024-09-19"
+    },
+    {
+      "id": "freeman-retrial",
+      "title": "Jury fails to convict pro-Palestine activist over social media posts",
+      "publisher": "Novara Media · Sophia Sheera",
+      "type": "Court reporting and attributed defence account",
+      "url": "https://novaramedia.com/2026/05/12/jury-fails-to-convict-pro-palestine-activist-over-social-media-posts/",
+      "checked": "2026-11-10",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "wilkinson-police",
+      "title": "Shropshire woman charged with supporting a banned terrorist organisation",
+      "publisher": "West Mercia Police",
+      "type": "Police charging announcement; printed Act years appear transposed",
+      "url": "https://www.westmercia.police.uk/news/west-mercia/news/2025/october/shropshire-woman-charged-with-supporting-a-banned-terrorist-organisation/",
+      "checked": "2026-11-10",
+      "date": "2025-10-06"
+    },
+    {
+      "id": "wilkinson-pleas",
+      "title": "Bishop’s Castle woman to stand trial after denying terrorism charges",
+      "publisher": "Shropshire Live",
+      "type": "Court reporting; later indictment and current listing needed",
+      "url": "https://www.shropshirelive.com/news/2026/06/25/bishops-castle-woman-to-stand-trial-after-denying-terrorism-charges/",
+      "checked": "2026-11-10",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "rehiana-court",
+      "title": "Doctor accused of supporting Hamas in social media posts appears in court",
+      "publisher": "Jewish News",
+      "type": "Court reporting; latest disposal unverified",
+      "url": "https://www.jewishnews.co.uk/doctor-accused-of-supporting-hamas-in-social-media-posts-appears-in-court/",
+      "checked": "2026-11-10",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "h-bresheeth",
+      "title": "Israeli protester treated like terrorist after taking on Netanyahu’s ambassador to UK",
+      "publisher": "The National · Lemma Shehadi",
+      "type": "Interview and reporting; latest police/CPS position unverified",
+      "url": "https://www.thenationalnews.com/news/uk/2024/11/11/israeli-protester-treated-like-terrorist-after-taking-on-netanyahus-ambassador-to-uk/",
+      "checked": "2026-11-10",
+      "date": "2024-11-11"
+    },
+    {
+      "id": "medhurst-unions",
+      "title": "Letter concerning Richard Medhurst’s arrest",
+      "publisher": "National Union of Journalists / International Federation of Journalists",
+      "type": "Unions’ contemporaneous letter; not a court finding",
+      "url": "https://www.ifj.org/fileadmin/user_upload/NUJ-IFJ_Letter_to_Matt_Jukes_September_2024.pdf",
+      "checked": "2026-11-10",
+      "date": "2024-09-03"
+    },
+    {
+      "id": "medhurst-nfa",
+      "title": "UK drops terror case vs journalist on Gaza",
+      "publisher": "Consortium News · Joe Lauria",
+      "type": "Reporting based on Medhurst’s announcement; decision letter not inspected",
+      "url": "https://consortiumnews.com/2025/12/16/uk-drops-terror-case-vs-journalist-on-gaza/",
+      "checked": "2026-11-10",
+      "date": "2025-12-16"
+    },
+    {
+      "id": "winstanley-nuj",
+      "title": "Journalist wins court ruling against unlawful police raid with NUJ backing",
+      "publisher": "National Union of Journalists",
+      "type": "Union and legal-team account of court ruling; judgment not inspected",
+      "url": "https://www.nuj.org.uk/resource/journalist-wins-court-ruling-against-unlawful-police-raid-with-nuj-backing.html",
+      "checked": "2026-11-10",
+      "date": "2025-05-29"
+    },
+    {
+      "id": "paragliders-report",
+      "title": "Three given conditional discharge over paraglider imagery invoking Hamas attack",
+      "publisher": "South London Press · Yann Tear",
+      "type": "Court reporting",
+      "url": "https://londonnewsonline.org.uk/news/three-given-conditional-discharge-over-paraglider-imagery-invoking-hamas-attack/",
+      "checked": "2026-11-10",
+      "date": "2024-02-14"
+    },
+    {
+      "id": "adil-iopc",
+      "title": "West Yorkshire Police officer charged under Terrorism Act given 18-month community order",
+      "publisher": "IOPC · republished by WiredGov",
+      "type": "Official press release, republished",
+      "url": "https://www.wired-gov.net/wg/news.nsf/articles/West%2BYorkshire%2BPolice%2Bofficer%2Bcharged%2Bunder%2BTerrorism%2BAct%2Bgiven%2B18month%2Bcommunity%2Border%2B05062024092000",
+      "checked": "2026-11-10",
+      "date": "2024-06-05"
+    },
+    {
+      "id": "yousef-itv",
+      "title": "Leeds man sentenced for pro-Hamas posts on social media",
+      "publisher": "ITV News Calendar",
+      "type": "Court and police reporting",
+      "url": "https://www.itv.com/news/calendar/2024-04-10/man-sentenced-for-pro-hamas-posts-on-social-media",
+      "checked": "2026-11-10",
+      "date": "2024-04-10"
+    },
+    {
+      "id": "hajsaad-sentence",
+      "title": "Man who wore headband in support of Hamas spared punishment",
+      "publisher": "Press Association · Jersey Evening Post",
+      "type": "Court reporting about an England and Wales prosecution",
+      "url": "https://jerseyeveningpost.com/morenews/uknews/2024/06/21/man-who-wore-headband-in-support-of-hamas-spared-punishment/",
+      "checked": "2026-11-10",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "el-houssein-report",
+      "title": "Woman from north west London convicted for supporting proscribed terror group",
+      "publisher": "Harrow Online",
+      "type": "Court and police reporting; sentence and later appeal status unverified",
+      "url": "https://harrowonline.org/2024/07/14/woman-from-north-west-london-convicted-for-supporting-proscribed-terror-group/",
+      "checked": "2026-11-10",
+      "date": "2024-07-14"
+    },
+    {
+      "id": "ahmed-cst",
+      "title": "Hamas supporter behind bars because of CST research",
+      "publisher": "Community Security Trust",
+      "type": "Referring organisation’s account; sentencing remarks not inspected",
+      "url": "https://cst.org.uk/news/blog/2025/01/07/hamas-supporter-behind-bars-because-of-cst-research",
+      "checked": "2026-11-10",
+      "date": "2025-01-07"
+    },
+    {
+      "id": "hussain-sentence",
+      "title": "Man jailed for pro-terrorist messages on social media",
+      "publisher": "Counter Terror Business",
+      "type": "Reporting quoting Metropolitan Police; linked police page returned 404",
+      "url": "https://counterterrorbusiness.com/news/30062025/man-jailed-pro-terrorist-messages-social-media",
+      "checked": "2026-11-10",
+      "date": "2025-06-30"
+    },
+    {
+      "id": "hussain-coconut",
+      "title": "Protestor Marieha Hussain acquitted of racially aggravated public order offence after holding coconut placard",
+      "publisher": "Garden Court Chambers",
+      "type": "Defence chambers' case note",
+      "url": "https://gardencourtchambers.co.uk/protestor-marieha-hussain-acquitted-of-racially-aggravated-public-order-offence-after-holding-coconut-placard/",
+      "checked": "2026-11-10",
+      "date": "2024-09-16"
+    },
+    {
+      "id": "ryan-cps",
+      "title": "TikToker sentenced for grossly offensive antisemitic posts",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official prosecution account; sentence wording internally inconsistent",
+      "url": "https://www.cps.gov.uk/cy/node/25340",
+      "checked": "2026-11-10",
+      "date": "2024-11-14"
+    },
+    {
+      "id": "al-accad-report",
+      "title": "Trainee pharmacist sentenced over antisemitic social media post about Hamas attacks",
+      "publisher": "Pharmacy Magazine · Neil Trainis",
+      "type": "Court reporting and attributed CPS statements",
+      "url": "https://www.pharmacymagazine.co.uk/news/trainee-pharmacist-sentenced-over-antisemitic-social-media-post-about-hamas-attacks",
+      "checked": "2026-11-10",
+      "date": "2025-01-22"
+    },
+    {
+      "id": "mearing-cps",
+      "title": "Naz Shah MP: man sentenced for leaving grossly offensive voice message",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official prosecution account",
+      "url": "https://www.cps.gov.uk/south-west/news/naz-shah-mp-man-sentenced-leaving-grossly-offensive-voice-message",
+      "checked": "2026-11-10",
+      "date": "2025-02-05"
+    },
+    {
+      "id": "north-account",
+      "title": "No Further Action?",
+      "publisher": "Pete North · Northern Variant",
+      "type": "Participant’s account; police notice not independently inspected",
+      "url": "https://www.northernvariant.co.uk/p/no-further-action",
+      "checked": "2026-11-10",
+      "date": "2025-10-25"
+    },
+    {
+      "id": "north-report",
+      "title": "The disturbing arrest of Pete North",
+      "publisher": "The Spectator",
+      "type": "Reporting and commentary on arrest",
+      "url": "https://spectator.com/article/the-disturbing-arrest-of-pete-north/?_thumbnail_id=580852&edition=us",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "kneecap-court",
+      "title": "DPP v Liam Óg Ó Hannaidh [2026] EWHC 540 (Admin): summary",
+      "publisher": "Judiciary of England and Wales",
+      "type": "Official court summary; procedural ruling, no trial verdict",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2026/03/OHannaidh-2026-EWHC-540-Admin-summary-1.pdf",
+      "checked": "2026-11-10",
+      "date": "2026-03-11"
+    },
+    {
+      "id": "vylan-glastonbury",
+      "title": "No further action to be taken over chants made during Bob Vylan’s Glastonbury set",
+      "publisher": "ITV News West Country",
+      "type": "Reporting of police decision",
+      "url": "https://www.itv.com/news/westcountry/2025-12-23/no-futher-action-to-be-taken-over-bob-vylans-glastonbury-set",
+      "checked": "2026-11-10",
+      "date": "2025-12-23"
+    },
+    {
+      "id": "vylan-london",
+      "title": "Bob Vylan frontman to face no further action over death to IDF chant",
+      "publisher": "The Jewish Chronicle",
+      "type": "Reporting of separate Metropolitan Police decision",
+      "url": "https://www.thejc.com/news/uk/bob-vylan-no-further-action-death-to-idf-hd3lawwr",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "strecker-verdict",
+      "title": "Natalie Strecker not guilty of terrorism offences",
+      "publisher": "Channel 103",
+      "type": "Jersey Royal Court reporting, including police response",
+      "url": "https://www.channel103.com/news/jersey/breaking-natalie-strecker-not-guilty-of-terrorism-offences/",
+      "checked": "2026-11-10",
+      "date": "2025-12-02"
+    },
+    {
+      "id": "strecker-jcpc",
+      "title": "Attorney General v Natalie Roselyn Strecker, JCPC/2025/0110",
+      "publisher": "Judicial Committee of the Privy Council",
+      "type": "Official record of preparatory legal appeal; not a verdict",
+      "url": "https://www.jcpc.uk/cases/jcpc-2025-0110",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "section-thirteen",
+      "title": "Terrorism Act 2000, section 13 — Uniform and publication of images",
+      "publisher": "legislation.gov.uk",
+      "type": "Revised legislation; match historical version to alleged conduct",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/13/data.html",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "encouragement-law",
+      "title": "Terrorism Act 2006, section 1 — Encouragement of terrorism",
+      "publisher": "legislation.gov.uk",
+      "type": "Revised legislation; match historical version to alleged conduct",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/11/section/1/data.html",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "dissemination-law",
+      "title": "Terrorism Act 2006, section 2 — Dissemination of terrorist publications",
+      "publisher": "legislation.gov.uk",
+      "type": "Revised legislation; match historical version to alleged conduct",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/11/section/2/data.html",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "abj-bdn-appeal",
+      "title": "ABJ v Rex; BDN v Rex [2024] EWCA Crim 1597",
+      "publisher": "Court of Appeal · Judiciary of England and Wales",
+      "type": "Published preparatory-hearing appeal judgment; reporting restrictions stated",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2024/12/ABJ-v-Rex-and-BDN-v-Rex-judgment.pdf",
+      "checked": "2026-11-10",
+      "date": "2024-12-24"
+    },
+    {
+      "id": "jweid-charge",
+      "title": "Man charged after Metropolitan Police investigation into alleged Hamas-supporting social media posts",
+      "publisher": "CT Insight · reporting a Metropolitan Police announcement",
+      "type": "Reported police charging announcement",
+      "url": "https://ctinsight.net/metropolitan-police-charge-man-for-hamas-social-media-posts/",
+      "checked": "2026-11-10",
+      "date": "2024-03-08"
+    },
+    {
+      "id": "evans-pleas",
+      "title": "Man, 58, denies inviting support for Hamas",
+      "publisher": "Pol Allingham / Press Association · The Irish News",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.irishnews.com/news/uk/man-58-denies-inviting-support-for-hamas-CNXF3OF2ONMP7AEMAKPHV4RCDQ/",
+      "checked": "2026-11-10",
+      "date": "2025-05-23"
+    },
+    {
+      "id": "evans-charge",
+      "title": "Man charged with supporting Hamas",
+      "publisher": "Brighton and Hove News",
+      "type": "Local reporting of charges",
+      "url": "https://www.brightonandhovenews.org/2025/04/23/man-charged-with-supporting-hamas/",
+      "checked": "2026-11-10",
+      "date": "2025-04-23"
+    },
+    {
+      "id": "milenovic-charge",
+      "title": "Huddersfield woman charged with showing support for Hamas",
+      "publisher": "Matt Soanes · Hits Radio West Yorkshire",
+      "type": "Reported charging announcement",
+      "url": "https://www.hellorayo.co.uk/hits-radio/west-yorkshire/news/huddersfield-terror-charge-2",
+      "checked": "2026-11-10",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "zahir-khan-police",
+      "title": "Man jailed for terrorism offences",
+      "publisher": "West Midlands Police",
+      "type": "Police report of guilty pleas and sentence",
+      "url": "https://www.westmidlands.police.uk/news/west-midlands/news/news/2026/april/man-jailed-for-terrorism-offences/",
+      "checked": "2026-11-10",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "hassn-charge",
+      "title": "Alleged “I love 7 October” chanter charged after CPS twice decline to take action",
+      "publisher": "Jewish News",
+      "type": "Reporting quoting Metropolitan Police charging announcement; statute-year discrepancy",
+      "url": "https://www.jewishnews.co.uk/alleged-i-love-7-october-chanter-charged-after-cps-twice-decline-to-take-action/",
+      "checked": "2026-11-10",
+      "date": "2025-12-19"
+    },
+    {
+      "id": "public-order-four-a",
+      "title": "Public Order Act 1986, section 4A",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/4A/data.html",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "jayoosi-cst",
+      "title": "Swindon man admits terror offences after CST intervention",
+      "publisher": "Community Security Trust",
+      "type": "Account by the organisation which reported the conduct",
+      "url": "https://cst.org.uk/news/blog/2021/12/20/swindon-man-admits-terror-offences-after-cst-intervention",
+      "checked": "2026-11-10",
+      "date": "2021-12-20"
+    },
+    {
+      "id": "hamas-proscription-2021",
+      "title": "Islamist terrorist group Hamas banned in the UK",
+      "publisher": "Home Office",
+      "type": "Official announcement of whole-organisation proscription",
+      "url": "https://www.gov.uk/government/news/islamist-terrorist-group-hamas-banned-in-the-uk",
+      "checked": "2026-11-10",
+      "date": "2021-11-26"
+    },
+    {
+      "id": "un-special-procedures-2024",
+      "title": "AL GBR 15/2024: communication concerning counter-terrorism powers, journalists and political activists",
+      "publisher": "UN Special Procedures · four Special Rapporteurs",
+      "type": "Communication transmitting allegations and requesting a government response; not a judgment",
+      "url": "https://spcommreports.ohchr.org/TMResultsBase/DownLoadPublicCommunicationFile?gId=29517",
+      "checked": "2026-11-10",
+      "date": "2024-12-04"
+    },
+    {
+      "id": "thunberg-arrest",
+      "title": "Greta Thunberg arrested in central London over Palestine Action placard",
+      "publisher": "Asher McShane · LBC",
+      "type": "Reporting quoting City of London Police; published 23 December 2025, updated 10 February 2026",
+      "url": "https://www.lbc.co.uk/article/greta-thunberg-arrested-in-central-london-over-palestine-action-placard-5HjdPnz_2/",
+      "checked": "2026-11-10",
+      "date": "2025-12-23"
+    },
+    {
+      "id": "doj-six-cps",
+      "title": "Organisers charged over arranging and managing meetings in support of proscribed Palestine Action",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official charging announcement",
+      "url": "https://www.cps.gov.uk/cps/news/organisers-charged-over-arranging-and-managing-meetings-support-proscribed-palestine",
+      "checked": "2026-11-10",
+      "date": "2025-09-03"
+    },
+    {
+      "id": "doj-six-pleas",
+      "title": "Six people deny organising gatherings to support terror group Palestine Action",
+      "publisher": "Jewish News",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.jewishnews.co.uk/six-people-deny-organising-gatherings-to-support-terror-group-palestine-action/",
+      "checked": "2026-11-10",
+      "date": "2026-01-30"
+    },
+    {
+      "id": "harvey-court",
+      "title": "Man in court in Oban after Palestine Action investigation",
+      "publisher": "Neil Pooran / PA Scotland · Express & Star",
+      "type": "Indexed court reporting; full page could not be retrieved during review",
+      "url": "https://www.expressandstar.com/uk-news/man-in-court-in-oban-after-palestine-action-investigation-5671953",
+      "checked": "2026-11-10",
+      "date": "2025-09-03"
+    },
+    {
+      "id": "tatchell-nakba-pa",
+      "title": "Palestine campaign used police to silence my Hamas criticism – Peter Tatchell",
+      "publisher": "Sam Hall / Press Association · The Standard",
+      "type": "Reporting including police admission of error and PSC response",
+      "url": "https://www.standard.co.uk/news/uk/peter-tatchell-hamas-metropolitan-police-palestine-london-b1228369.html",
+      "checked": "2026-11-10",
+      "date": "2025-05-18"
+    },
+    {
+      "id": "tatchell-intifada-foundation",
+      "title": "Police drop “intifada” case against Peter Tatchell",
+      "publisher": "Peter Tatchell Foundation",
+      "type": "Participant organisation’s account; statement dated 29 April, page also displays 29 May 2026",
+      "url": "https://petertatchellfoundation.org/police-drop-intifada-case-against-peter-tatchell/",
+      "checked": "2026-11-10",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "jamal-nineham-police",
+      "title": "Organisers found guilty over January 2025 protest breaches",
+      "publisher": "Metropolitan Police",
+      "type": "Official report of convictions and conditional discharges",
+      "url": "https://news.met.police.uk/news/organisers-found-guilty-over-january-2025-protest-breaches-507885",
+      "checked": "2026-11-10",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "jamal-nineham-appeal",
+      "title": "Ben Jamal resigns as PSC director",
+      "publisher": "Morning Star",
+      "type": "Reporting of participant’s announced appeal listing",
+      "url": "https://morningstaronline.co.uk/article/ben-jamal-resigns-psc-director",
+      "checked": "2026-11-10",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "home-office-june-2026",
+      "title": "Operation of police powers under the Terrorism Act 2000 and subsequent legislation: Great Britain, to June 2026",
+      "publisher": "Home Office",
+      "type": "Official statistics; period to 30 June 2026, outcomes supplied 28 August, published 8 October 2026",
+      "url": "https://www.gov.uk/government/statistics/operation-of-police-powers-under-tact-2000-to-june-2026/operation-of-police-powers-under-the-terrorism-act-2000-and-subsequent-legislation-arrests-outcomes-and-stop-and-search-great-britain-to-june-202",
+      "checked": "2026-11-10",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "ni-files-detail",
+      "title": "Palestine Action accounts for third of cases involving displays of support for terror groups in Northern Ireland over the past 25 years",
+      "publisher": "Luke Butterly · The Detail",
+      "type": "Investigative reporting of PSNI freedom-of-information data; underlying disclosure not inspected",
+      "url": "https://www.thedetail.tv/articles/palestine-action-third-cases-displays-support-terror-groups-northern-ireland-25-years",
+      "checked": "2026-11-10",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "zahir-khan-charge-bbc",
+      "title": "Man charged with supporting Hamas",
+      "publisher": "BBC News",
+      "type": "Earlier charging report",
+      "url": "https://www.bbc.com/news/articles/c3w1leq3l41o",
+      "date": "2025-03-14",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "harvey-stv",
+      "title": "Man charged under terrorism act after Palestine Action investigation",
+      "publisher": "Beth Franklin · STV News",
+      "type": "Contemporaneous court reporting",
+      "url": "https://news.stv.tv/west-central/man-charged-under-terrorism-act-after-palestine-action-investigation",
+      "date": "2025-09-03",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "pwr-judgment",
+      "title": "Pwr; Akdogan and another v DPP [2022] UKSC 2",
+      "publisher": "UK Supreme Court · The National Archives",
+      "type": "Published judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2022/2",
+      "date": "2022-01-26",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "ni-policing-board-response",
+      "title": "Enforcement of the Terrorism Act 2000 in NI",
+      "publisher": "Northern Ireland Policing Board · PSNI response",
+      "type": "Published written response; question dated 6 November 2025, response date not separately specified",
+      "url": "https://www.nipolicingboard.org.uk/questions/enforcement-terrorism-act-2000-ni",
+      "date": "2025-11-06",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "psni-foi-17010",
+      "title": "Palestine Action · FOI/17010",
+      "publisher": "Police Service of Northern Ireland",
+      "type": "Published FOI refusal and advice on refining the request",
+      "url": "https://www.psni.police.uk/foi-disclosure-log/palestine-action-1",
+      "date": "2026-03-16",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "psni-foi-guidance",
+      "title": "Guidance – Section 13 of the Terrorism Act · FOI/16108",
+      "publisher": "Police Service of Northern Ireland",
+      "type": "Published FOI response; referenced guidance attachment not inspected",
+      "url": "https://www.psni.police.uk/foi-disclosure-log/guidance-section-13-terrorism-act",
+      "date": "2025-12-10",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "hussain-ctp-primary",
+      "title": "Man from Harlow jailed for posting support on social media for terrorist groups",
+      "publisher": "Counter Terrorism Policing",
+      "type": "Official report of charges, guilty pleas and sentence",
+      "url": "https://www.counterterrorism.police.uk/news/man-from-harlow-jailed-for-posting-support-on-social-media-for-terrorist-groups/",
+      "date": "2025-07-01",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "wilkinson-bbc-focus",
+      "title": "Trial set for woman, 63, on terrorism charges",
+      "publisher": "BBC News",
+      "type": "Contemporaneous court report; inspected in browser; listing remains subject to court confirmation",
+      "url": "https://www.bbc.co.uk/news/articles/cwyl9lv7v2vo",
+      "checked": "2026-11-10",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "ripa-part-three",
+      "title": "Regulation of Investigatory Powers Act 2000, Part III",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation: notice requirements, disclosure and safeguards",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/23/part/III/data.html",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "ripa-section-fifty-three",
+      "title": "Regulation of Investigatory Powers Act 2000, section 53",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation: knowing non-compliance, evidential provisions, defence and maximum penalties",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/23/section/53/data.html",
+      "checked": "2026-11-10"
+    },
+    {
+      "id": "ammori-supreme-appeal",
+      "title": "R (Ammori) v Secretary of State for the Home Department, UKSC/2026/0099",
+      "publisher": "UK Supreme Court",
+      "type": "Official case page: permission, hearing dates and awaiting-judgment status, checked 10 November 2026",
+      "url": "https://www.supremecourt.uk/cases/uksc-2026-0099",
+      "checked": "2026-11-10"
+    }
+  ],
+  "register_metadata": {
+    "record_count": 45,
+    "unit": "case records; grouped defendants, separate events and anonymised appellate records explicitly identified",
+    "checked": "2026-11-10",
+    "exhaustive": false,
+    "jersey_in_uk_count": false,
+    "source_count": 73,
+    "unique_proceedings_verified": false,
+    "by_scope": {
+      "hamas": 25,
+      "jersey-comparator": 1,
+      "other-proscribed-organisation": 2,
+      "palestine-action": 3,
+      "press-freedom": 3,
+      "related-speech": 11
+    },
+    "legal_process_count": 1
+  },
+  "coverage_audit": {
+    "checked": "2026-11-10",
+    "supplied_note_review": {
+      "matched_record_ids": [
+        "abj-prosecution",
+        "bdn-prosecution",
+        "mohammed-adil",
+        "paraglider-three"
+      ],
+      "additional_identifiable_cases": 0,
+      "unidentified_leads_counted": false
+    },
+    "known_gaps": [
+      "Original charge sheets, indictments and count-level disposals",
+      "Later trial and appeal outcomes for dated historical reports",
+      "Northern Ireland named cases and underlying PSNI / PPS disclosure",
+      "Systematic historical coverage before October 2023",
+      "Reconciliation of anonymised appeals without inference or jigsaw identification",
+      "Complete Palestine Action expression cohorts; official totals are not the named register",
+      "Sarah Wilkinson: actual disclosure notice, authorisation, charge particulars and confirmation of the reported January 2027 listing"
+    ],
+    "statistical_totals_are_additive": false
+  },
+  "current_focus": {
+    "record_id": "sarah-wilkinson",
+    "section_id": "current-focus",
+    "selected": "2026-11-10",
+    "report_date": "2026-06-24",
+    "current_listing_verified": false,
+    "notice_and_charge_particulars_obtained": false
+  }
+}

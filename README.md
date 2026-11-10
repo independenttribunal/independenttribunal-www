@@ -20,6 +20,7 @@ The Legal affairs hub (timelines, references, policies) lives in [`/data`](data/
 - [`/data/index.json`](https://independenttribunal.org/data/index.json): every dataset, with coverage
 - [`/legal/`](https://independenttribunal.org/legal/): editorial, terrorism, moderation and privacy policies
 - [`/research/`](https://independenttribunal.org/research/): Barclays5, Filton6, the terrorist-connection add-on and Hansard debates, proscription litigation, hunger strikes and Prairieland
+- [`Speech offences`](https://independenttribunal.org/research/speech-offences/): 45 sourced case records covering Hamas-related proceedings, journalism, symbols, Palestine Action expression and meetings, communications, performance and protest conditions, with a separate Jersey comparator, dated outcomes and a coverage audit
 - [`Roger Hallam`](https://independenttribunal.org/research/roger-hallam/): selected court record and public background, with judgments separated from reporting and self-description
 - [`Mental health in the UK`](https://independenttribunal.org/research/mental-health-uk/): labelled satire and commentary, first-principles questions, dated official figures and benefits-law context
 - Open justice: [`Super-injunctions`](https://independenttribunal.org/research/super-injunctions/), [`Anonymity orders`](https://independenttribunal.org/research/anonymity-orders/) (PPT, with the Guardian report), and [`Jigsaw identification`](https://independenttribunal.org/research/jigsaw-identification/) (Craig Murray, including the 2022 appeal)
