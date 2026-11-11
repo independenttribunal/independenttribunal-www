@@ -1,0 +1,517 @@
+{
+  "id": "absurdity-paradox",
+  "category": "legal-study",
+  "title": "“Your mother was raped by a dog”: the absurdity paradox",
+  "subtitle": "An insult so absurd that nobody could believe it. The absurdity is a strong answer to a libel claim and almost no answer to a criminal charge.",
+  "summary": "Take a specimen insult, “You are so ugly because your mother was raped by a dog”, sent as a private message. As libel it fails three times over: a message sent only to the person it insults is not published to anyone else; no reasonable reader takes it as a statement of fact, which is what the courts call “mere vulgar abuse”; and nobody’s reputation suffers serious harm. As a crime it does not need to be believed. Section 127 asks whether it was grossly offensive or indecent and sent over a public network. The Malicious Communications Act asks whether it was sent to cause distress. In 2026 a councillor argued that “you cannot melt people down”. He was convicted.",
+  "scope": "England and Wales. The specimen sentence is ours, written to test the law and aimed at no real person. We quote it in order to analyse it, which is the kind of context the courts say changes what words are.",
+  "status_note": "Our analysis of how the cited statutes and judgments apply to an invented sentence, read from the official texts on 11 November 2026. No court has ruled on this sentence, and whether words are grossly offensive or indecent is a question of fact for the court in each case. This is legal research, not legal advice.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-11",
+  "tags": [
+    "uk",
+    "speech-offences",
+    "defamation",
+    "communications",
+    "freedom-of-expression"
+  ],
+  "related": [
+    {
+      "id": "grossly-offensive",
+      "title": "Grossly offensive: when a message becomes a crime"
+    },
+    {
+      "id": "message-ultra",
+      "title": "Message ultra: one message, six offences"
+    },
+    {
+      "id": "calling-fraud-a-fraud",
+      "title": "Calling fraud a fraud: defamation law for people who mean it"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "As libel",
+      "value": "Fails three times",
+      "detail": "Not published to a third party, mere vulgar abuse, no serious harm to reputation",
+      "target": "civil"
+    },
+    {
+      "label": "As a crime",
+      "value": "Belief not required",
+      "detail": "Section 127 punishes sending it. The 1988 Act punishes sending it to cause distress",
+      "target": "criminal"
+    },
+    {
+      "label": "“It was absurd”",
+      "value": "Did not save Gibbins",
+      "detail": "Convicted on 9 November 2026 after arguing nobody could melt people down",
+      "target": "gibbins-parallel"
+    }
+  ],
+  "sections": [
+    {
+      "id": "specimen",
+      "title": "The specimen",
+      "intro": "One sentence, sent as a direct message to one person.",
+      "entries": [
+        {
+          "id": "the-sentence",
+          "title": "The sentence",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "“You are so ugly because your mother was raped by a dog.”",
+              "sources": []
+            },
+            {
+              "text": "It does three things at once. It insults the recipient. It makes a claim about a third person, the mother, involving sexual violence and an animal. And it is absurd as a statement of fact: nobody reading it would think it was reporting something that happened.",
+              "sources": []
+            },
+            {
+              "text": "We wrote it because it separates two areas of law that are often confused. Civil defamation protects reputation, so it cares whether anyone would believe the words. The criminal communications offences protect other things, so they mostly do not.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civil",
+      "title": "Why it fails as libel",
+      "intro": "Libel is a claim brought by the person defamed, at their own cost. It has three hurdles this sentence cannot clear.",
+      "entries": [
+        {
+          "id": "no-publication",
+          "title": "Hurdle one: nobody else read it",
+          "kind": "Court of Appeal judgment",
+          "paragraphs": [
+            {
+              "text": "“At common law, a cause of action for libel is made out by proof that the defendant was responsible for the publication to one or more third parties of a written statement that bore a defamatory meaning about the claimant.”",
+              "sources": [
+                {
+                  "id": "soriano",
+                  "locator": "para 15"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "A direct message read only by the person it insults has not been published to a third party. If the sender posts it publicly, or into a group, this hurdle disappears. The next two remain.",
+              "sources": [
+                {
+                  "id": "soriano",
+                  "locator": "para 15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vulgar-abuse",
+          "title": "Hurdle two: mere vulgar abuse",
+          "kind": "High Court judgment",
+          "date": "2008-07-25",
+          "paragraphs": [
+            {
+              "text": "Courts read words the way an ordinary reader would. Some remarks, in their context, are obviously “not to be taken literally or seriously” and are understood as abuse. Mr Justice Eady called this “mere vulgar abuse”, an old idea from slander cases, and treated it as part of working out what words mean rather than as a separate defence.",
+              "sources": [
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                }
+              ]
+            },
+            {
+              "text": "He said online exchanges are often like casual conversation in a bar: “uninhibited, casual and ill thought out”, with readers who expect “a certain amount of repartee or ‘give and take’”.",
+              "sources": [
+                {
+                  "id": "advfn",
+                  "locator": "para 14"
+                }
+              ]
+            },
+            {
+              "text": "Nobody reads the specimen as a report of fact about anyone’s mother. That is why it reads as abuse.",
+              "sources": [
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "serious-harm",
+          "title": "Hurdle three: no serious harm",
+          "kind": "Statute and High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Since 2014 a statement is not defamatory unless its publication has caused, or is likely to cause, serious harm to the claimant’s reputation.",
+              "sources": [
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            },
+            {
+              "text": "That harm is measured in the minds of readers, not by how hurt the claimant feels. It “is the effect of a publication in the mind of a third-party publishee (reader)”, and is “not constituted by a claimant’s own subjective reaction”.",
+              "sources": [
+                {
+                  "id": "tattersall",
+                  "locator": "para 9"
+                }
+              ]
+            },
+            {
+              "text": "An insult nobody believes changes nobody’s opinion of anyone. And the factual part of the sentence is about the mother, not the recipient, so if anyone had a claim at all it would be hers.",
+              "sources": [
+                {
+                  "id": "tattersall",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "soriano",
+                  "locator": "para 15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criminal",
+      "title": "Why it can still be a crime",
+      "intro": "The criminal offences do not ask whether anyone believed it. They ask what was sent, how, and why.",
+      "entries": [
+        {
+          "id": "s127-specimen",
+          "title": "Section 127: sent over a public network",
+          "kind": "Statute and House of Lords judgment, applied by us",
+          "paragraphs": [
+            {
+              "text": "Sending a message that is “grossly offensive or of an indecent, obscene or menacing character” over a public electronic communications network is an offence. A direct message on any app goes over one.",
+              "sources": [
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1)(a)"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 4"
+                }
+              ]
+            },
+            {
+              "text": "The question is whether the words are “liable to cause gross offence to those to whom it relates”, judged by reasonably enlightened contemporary standards in context. It does not matter whether the message is believed, or even read.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 8–9"
+                }
+              ]
+            },
+            {
+              "text": "In our view, a sentence built on the rape of the recipient’s mother by an animal is a strong candidate for both “indecent” and “grossly offensive”. That is a question of fact for magistrates, and a court could take a different view of a single crude insult.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mca-specimen",
+          "title": "The Malicious Communications Act: sent to hurt",
+          "kind": "Statute, applied by us",
+          "paragraphs": [
+            {
+              "text": "The 1988 Act punishes sending another person a message that is indecent or grossly offensive, where one purpose of sending it is to cause that person distress or anxiety. The maximum is two years’ imprisonment.",
+              "sources": [
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1), (4)"
+                }
+              ]
+            },
+            {
+              "text": "An insult sent directly to its target exists to hurt them. That purpose is what makes this offence fit the specimen better than section 127 does.",
+              "sources": [
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gibbins-parallel",
+          "title": "The absurdity defence, tried in court",
+          "kind": "Press reporting of a magistrates’ court verdict · appeal intended",
+          "date": "2026-11-09",
+          "paragraphs": [
+            {
+              "text": "Glenn Gibbins posted that Nigerians in Sunderland should be melted down to fill potholes. In court he said: “It’s an unreal scenario, you cannot melt people down, anyone that takes that literally… you cannot do that.” On 9 November 2026 he was convicted. His lawyers said he would appeal.",
+              "sources": [
+                {
+                  "id": "gibbins-lbc",
+                  "locator": "evidence and verdict"
+                }
+              ]
+            },
+            {
+              "text": "His post was about a group, our specimen is about one person, but the argument is the same: that a literally impossible scenario cannot be taken seriously. In defamation that argument wins. In a communications prosecution the court looks instead at what the words say about the people they target.",
+              "sources": [
+                {
+                  "id": "gibbins-lbc",
+                  "locator": "verdict"
+                },
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "where-it-fails",
+          "title": "Where the specimen probably fails",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "It is unlikely to be obscene in the sense of the Obscene Publications Act 1959, which asks whether material tends to “deprave and corrupt” the people likely to read it. A crude insult is not that kind of material.",
+              "sources": [
+                {
+                  "id": "opa-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            },
+            {
+              "text": "It contains no threat of death or serious harm, so the Online Safety Act threatening-communications offence does not apply. Sent once, it is not harassment, which needs a course of conduct, meaning conduct on at least two occasions.",
+              "sources": [
+                {
+                  "id": "osa-s181",
+                  "locator": "s 181(1)"
+                },
+                {
+                  "id": "pha-s7",
+                  "locator": "s 7(3)"
+                }
+              ]
+            },
+            {
+              "text": "Add a threat, a second message and a few other ingredients, and the count rises quickly. That is Message ultra.",
+              "sources": [
+                {
+                  "id": "osa-s181",
+                  "locator": "s 181(1)"
+                },
+                {
+                  "id": "pha-s7",
+                  "locator": "s 7(3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paradox",
+      "title": "The paradox in one table",
+      "intro": "The same words, judged by two different questions.",
+      "entries": [
+        {
+          "id": "paradox-table",
+          "title": "Libel and the communications offences compared",
+          "kind": "Statute and judgments, summarised by us",
+          "table": {
+            "caption": "The specimen insult sent as a direct message",
+            "columns": [
+              "Question",
+              "Libel",
+              "Section 127 and the 1988 Act"
+            ],
+            "rows": [
+              [
+                "Must anyone believe it?",
+                "Yes. Absurd abuse is read as abuse, not fact",
+                "No"
+              ],
+              [
+                "Must anyone else read it?",
+                "Yes. Publication to a third party is required",
+                "No. Section 127 is complete on sending; the 1988 Act needs only the recipient"
+              ],
+              [
+                "Whose harm counts?",
+                "Serious harm to the claimant’s reputation, in readers’ minds",
+                "None needed for section 127; for the 1988 Act, a purpose of causing distress"
+              ],
+              [
+                "Who brings the case?",
+                "The person defamed, at their own risk and cost",
+                "The state"
+              ],
+              [
+                "Is “it was a joke” an answer?",
+                "Often, as mere vulgar abuse",
+                "A factor to weigh, not a defence: compare Chambers with Meechan and Gibbins"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Libel asks what the words did to someone’s reputation. The communications offences ask what the sender did with a public network, or with another person’s peace of mind.",
+              "sources": [
+                {
+                  "id": "soriano",
+                  "locator": "para 15"
+                },
+                {
+                  "id": "collins",
+                  "locator": "paras 7–8"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reasonable-person",
+          "title": "Whose standards?",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Both areas of law rely on an imagined reasonable person. In defamation that person is a reader deciding what words mean, and absurdity helps them. In section 127 that person applies “reasonably enlightened, but not perfectionist, contemporary standards” to decide what is grossly offensive, which is a judgment about taste. Lord Bingham accepted that these standards change over time. The result is an offence whose limits are set case by case, by magistrates, after the message has been sent.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "soriano",
+      "title": "Soriano v Forensic News LLC [2021] EWCA Civ 1952",
+      "publisher": "Court of Appeal",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1952",
+      "date": "2021-12-21",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "advfn",
+      "title": "Smith v ADVFN plc [2008] EWHC 1797 (QB)",
+      "publisher": "High Court (Eady J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2008/1797",
+      "date": "2008-07-25",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "da-s1",
+      "title": "Defamation Act 2013, section 1: serious harm",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "tattersall",
+      "title": "Tattersall v Tattersall [2025] EWHC 2558 (KB)",
+      "publisher": "High Court",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/2558",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ca-s127",
+      "title": "Communications Act 2003, section 127: improper use of public electronic communications network",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/section/127",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cobban",
+      "title": "Cobban and Borders v DPP [2024] EWHC 1908 (Admin)",
+      "publisher": "High Court, Divisional Court (Lady Carr of Walton-on-the-Hill CJ and Saini J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/1908",
+      "date": "2024-07-26",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "collins",
+      "title": "DPP v Collins [2006] UKHL 40",
+      "publisher": "House of Lords",
+      "type": "Judgment (House of Lords)",
+      "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm",
+      "date": "2006-07-19",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "mca-s1",
+      "title": "Malicious Communications Act 1988, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "gibbins-lbc",
+      "title": "Reform councillor who said Nigerians should be melted down and used to fill potholes avoids jail",
+      "publisher": "LBC (with PA)",
+      "type": "Court reporting",
+      "url": "https://www.lbc.co.uk/article/reform-councillor-avoids-jail-racist-facebook-post-5HjdmB8_2/",
+      "date": "2026-11-09",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "opa-s1",
+      "title": "Obscene Publications Act 1959, section 1: test of obscenity",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/Eliz2/7-8/66/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "osa-s181",
+      "title": "Online Safety Act 2023, section 181: threatening communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/181",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "pha-s7",
+      "title": "Protection from Harassment Act 1997, section 7: interpretation",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/7",
+      "checked": "2026-11-11"
+    }
+  ]
+}

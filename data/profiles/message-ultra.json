@@ -1,0 +1,515 @@
+{
+  "id": "message-ultra",
+  "category": "legal-study",
+  "title": "Message ultra: one message, six offences",
+  "subtitle": "A single hypothetical message that a prosecutor could charge from six directions, and the one civil claim it would still survive.",
+  "summary": "We built one direct message, sent twice, that engages six criminal offences: sending a grossly offensive message over a public network (Communications Act 2003, s 127), sending it to cause distress (Malicious Communications Act 1988, s 1), threatening death (Online Safety Act 2023, s 181), a lie told to cause harm (s 179), expressing support for a proscribed organisation (Terrorism Act 2000, s 12(1A)) and harassment (Protection from Harassment Act 1997). The maximum sentences run from six months to fourteen years. As libel it still fails. We publish the insult in full and describe the other parts in brackets: this page analyses a threat and an expression of support for a banned group, and does not make either.",
+  "scope": "England and Wales; the terrorism offence applies across the UK. A teaching specimen in the tradition of the exam problem question. It is aimed at no real person and names no real organisation. The bracketed parts are described rather than written, under our terrorism and proscribed organisations policy.",
+  "status_note": "Our analysis of an invented message against the current text of each statute, read on 11 November 2026. Each offence has elements that would have to be proved to the criminal standard on real facts, and defences that could apply. In practice a prosecutor chooses charges and would not normally bring all six for the same words. This is legal research, not legal advice, and not a guide to anything.",
+  "jurisdiction": "England and Wales · United Kingdom (Terrorism Act)",
+  "checked": "2026-11-11",
+  "tags": [
+    "uk",
+    "speech-offences",
+    "communications",
+    "terrorism",
+    "harassment",
+    "defamation"
+  ],
+  "related": [
+    {
+      "id": "absurdity-paradox",
+      "title": "“Your mother was raped by a dog”: the absurdity paradox"
+    },
+    {
+      "id": "grossly-offensive",
+      "title": "Grossly offensive: when a message becomes a crime"
+    },
+    {
+      "id": "speech-offences",
+      "title": "Speech offences: the case register"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Criminal angles",
+      "value": "Six",
+      "detail": "Four statutes, from 1988 to 2023, in one direct message sent twice",
+      "target": "layers"
+    },
+    {
+      "label": "Highest maximum",
+      "value": "14 years",
+      "detail": "Expressing support for a proscribed organisation, Terrorism Act 2000, s 12(1A)",
+      "target": "layer-support"
+    },
+    {
+      "label": "As libel",
+      "value": "Still fails",
+      "detail": "Unpublished, unbelievable, and no serious harm to anyone’s reputation",
+      "target": "survives"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-message",
+      "title": "The message",
+      "intro": "Sent as a direct message from a phone to one named person, and then sent again the next day.",
+      "entries": [
+        {
+          "id": "ultra-text",
+          "title": "Message ultra",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "“You are so ugly because your mother was raped by a dog. [A threat to kill the recipient.] [An opinion praising a proscribed organisation.] [A claim the sender knows is false, chosen to frighten the recipient.]”",
+              "sources": []
+            },
+            {
+              "text": "The insult is the specimen from the absurdity paradox chapter. The parts in brackets are described, not written. We do not publish a real threat, and we never express or invite support for a proscribed organisation. The law turns on what each part does, so the description is enough for the analysis.",
+              "sources": []
+            },
+            {
+              "text": "The House of Lords accepted that context is everything: a scriptwriter emailing menacing dialogue to a director is unlikely to break the law. A page analysing a hypothetical message is a different act from sending one.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "layers",
+      "title": "Six ways to charge it",
+      "intro": "Each part of the message, matched to the offence it engages. The table summarises; the entries below set out what would have to be proved.",
+      "entries": [
+        {
+          "id": "layers-table",
+          "title": "The layers",
+          "kind": "Legislation, summarised by us",
+          "table": {
+            "caption": "Message ultra, offence by offence",
+            "columns": [
+              "Part of the message",
+              "Offence",
+              "What makes it fit",
+              "Maximum"
+            ],
+            "rows": [
+              [
+                "The insult",
+                "Communications Act 2003, s 127(1)(a)",
+                "Grossly offensive or indecent, sent over a public network",
+                "Six months"
+              ],
+              [
+                "The insult, sent to its target",
+                "Malicious Communications Act 1988, s 1",
+                "Indecent or grossly offensive, sent to another person to cause distress",
+                "Two years"
+              ],
+              [
+                "[A threat to kill]",
+                "Online Safety Act 2023, s 181",
+                "A threat of death, meant or recklessly likely to make the recipient fear it will be carried out",
+                "Five years"
+              ],
+              [
+                "[A known lie, to frighten]",
+                "Online Safety Act 2023, s 179",
+                "False information the sender knows is false, meant to cause non-trivial psychological harm",
+                "Six months (51 weeks once the higher limit is in force)"
+              ],
+              [
+                "[Support for a proscribed organisation]",
+                "Terrorism Act 2000, s 12(1A)",
+                "An opinion supportive of a proscribed organisation, reckless as to whether the recipient will be encouraged to support it",
+                "Fourteen years"
+              ],
+              [
+                "Sending it twice",
+                "Protection from Harassment Act 1997, s 2",
+                "A course of conduct on at least two occasions that amounts to harassment",
+                "Six months"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Maximum sentences are taken from each statute, or for section 181 from the CPS guidance. Sentences in real cases are usually far below the maximum.",
+              "sources": [
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(3)"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(4)"
+                },
+                {
+                  "id": "osa-s179",
+                  "locator": "s 179(5)–(6)"
+                },
+                {
+                  "id": "cps-comms",
+                  "locator": "section 181 penalty"
+                },
+                {
+                  "id": "tact-s12",
+                  "locator": "s 12(6)"
+                },
+                {
+                  "id": "pha-s2",
+                  "locator": "s 2(2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layer-127",
+          "title": "1. Grossly offensive or indecent",
+          "kind": "Statute and House of Lords judgment",
+          "paragraphs": [
+            {
+              "text": "Sent over a public electronic communications network, which any messaging app uses. The offence is complete on sending, whoever reads it. The threat in the message would also make it “menacing”, another limb of the same section.",
+              "sources": [
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1)(a)"
+                },
+                {
+                  "id": "collins",
+                  "locator": "paras 8–9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layer-mca",
+          "title": "2. Sent to cause distress",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Sent to another person, indecent or grossly offensive, with a purpose of causing that person distress or anxiety.",
+              "sources": [
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layer-threat",
+          "title": "3. A threat to kill",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 181 covers a message conveying a threat of death or serious harm, where the sender intended the recipient to fear it would be carried out, or was reckless about that. Serious harm includes grievous bodily harm, rape and serious financial loss. It replaced the threat limb of the 1988 Act for messages sent from 31 January 2024.",
+              "sources": [
+                {
+                  "id": "osa-s181",
+                  "locator": "s 181(1)–(2)"
+                },
+                {
+                  "id": "cps-comms",
+                  "locator": "Online Safety Act 2023"
+                }
+              ]
+            },
+            {
+              "text": "A threat that is plainly a joke may fail on the mental element. In Chambers, the High Court said that if a sender may have meant a message as a joke, “even if a poor joke in bad taste”, the mental element for the menacing form of section 127 is unlikely to be proved. Here the threat sits inside a message designed to hurt, which makes that argument much harder.",
+              "sources": [
+                {
+                  "id": "chambers",
+                  "locator": "para 38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layer-false",
+          "title": "4. A lie told to frighten",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 179 covers a message conveying information the sender knows is false, sent intending to cause non-trivial psychological or physical harm to a likely audience, without reasonable excuse. Here the likely audience is the recipient. It replaced the old false-message offences.",
+              "sources": [
+                {
+                  "id": "osa-s179",
+                  "locator": "s 179(1)–(2)"
+                },
+                {
+                  "id": "cps-comms",
+                  "locator": "Online Safety Act 2023"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layer-support",
+          "title": "5. Support for a proscribed organisation",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 12(1A) makes it an offence to express “an opinion or belief that is supportive of a proscribed organisation” while being reckless as to whether a person to whom it is directed will be encouraged to support one. A direct message has a person to whom it is directed. The maximum on indictment is fourteen years.",
+              "sources": [
+                {
+                  "id": "tact-s12",
+                  "locator": "s 12(1A), (6)"
+                }
+              ]
+            },
+            {
+              "text": "This is the most serious layer and the one with the most live litigation. The Speech offences register follows the Hamas and Palestine Action cases, including the acquittals.",
+              "sources": [
+                {
+                  "id": "tact-s12",
+                  "locator": "s 12(1A)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layer-harassment",
+          "title": "6. Sending it twice",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Harassment needs a course of conduct: conduct on at least two occasions in relation to one person. The second message supplies the second occasion. Speech counts as conduct, and harassing includes causing alarm or distress.",
+              "sources": [
+                {
+                  "id": "pha-s7",
+                  "locator": "s 7(2)–(4)"
+                },
+                {
+                  "id": "pha-s2",
+                  "locator": "s 2(1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "survives",
+      "title": "What it survives",
+      "intro": "Two things this message does not do.",
+      "entries": [
+        {
+          "id": "ultra-libel",
+          "title": "It is not libel",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Sent privately, it is published to nobody but the person it attacks, and libel needs publication to a third party. If it were posted publicly, the insult would still read as mere vulgar abuse, and nobody’s reputation would be seriously harmed. The person with most reason to complain about the factual claim, the mother, is not the person who received it. The full reasoning is in the absurdity paradox chapter.",
+              "sources": [
+                {
+                  "id": "soriano",
+                  "locator": "para 15"
+                },
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                },
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ultra-obscene",
+          "title": "It is probably not obscene in the 1959 Act’s sense",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The Obscene Publications Act asks whether material tends to “deprave and corrupt” those likely to read it. A crude insult, however revolting, is not what that Act is for. The word “obscene” in section 127 is a separate question.",
+              "sources": [
+                {
+                  "id": "opa-s1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1)(a)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-practice",
+      "title": "What would actually happen",
+      "intro": "Six possible charges is not six convictions.",
+      "entries": [
+        {
+          "id": "charging",
+          "title": "Charging and proportionality",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Prosecutors apply the evidential and public interest tests and the guidance on freedom of expression, and avoid charging the same words several times over. The threat and the terrorism layer would drive the case. The communications offences would probably fall away as duplication.",
+              "sources": [
+                {
+                  "id": "cps-comms",
+                  "locator": "public interest and Article 10"
+                }
+              ]
+            },
+            {
+              "text": "The point of the exercise is the overlap. Four statutes, passed between 1988 and 2023, now reach a single direct message from different angles, each with its own test. The gaps between them, and the decisions about which to use, are where most of the arguments in this category take place.",
+              "sources": [
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1)"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "osa-s181",
+                  "locator": "s 181(1)"
+                },
+                {
+                  "id": "tact-s12",
+                  "locator": "s 12(1A)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ca-s127",
+      "title": "Communications Act 2003, section 127: improper use of public electronic communications network",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/section/127",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "mca-s1",
+      "title": "Malicious Communications Act 1988, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "osa-s179",
+      "title": "Online Safety Act 2023, section 179: false communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/179",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "osa-s181",
+      "title": "Online Safety Act 2023, section 181: threatening communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/181",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cps-comms",
+      "title": "Communications Offences: prosecution guidance (updated 29 June 2026)",
+      "publisher": "Crown Prosecution Service",
+      "type": "Prosecution guidance",
+      "url": "https://www.cps.gov.uk/prosecution-guidance/communications-offences",
+      "date": "2026-06-29",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "tact-s12",
+      "title": "Terrorism Act 2000, section 12: support",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/12",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "pha-s2",
+      "title": "Protection from Harassment Act 1997, section 2: offence of harassment",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/2",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "pha-s7",
+      "title": "Protection from Harassment Act 1997, section 7: interpretation",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/7",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "collins",
+      "title": "DPP v Collins [2006] UKHL 40",
+      "publisher": "House of Lords",
+      "type": "Judgment (House of Lords)",
+      "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm",
+      "date": "2006-07-19",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "chambers",
+      "title": "Chambers v DPP [2012] EWHC 2157 (Admin)",
+      "publisher": "High Court, Divisional Court (Lord Judge CJ, Owen J and Griffith Williams J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/2157",
+      "date": "2012-07-27",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "soriano",
+      "title": "Soriano v Forensic News LLC [2021] EWCA Civ 1952",
+      "publisher": "Court of Appeal",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1952",
+      "date": "2021-12-21",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "advfn",
+      "title": "Smith v ADVFN plc [2008] EWHC 1797 (QB)",
+      "publisher": "High Court (Eady J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2008/1797",
+      "date": "2008-07-25",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "da-s1",
+      "title": "Defamation Act 2013, section 1: serious harm",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "opa-s1",
+      "title": "Obscene Publications Act 1959, section 1: test of obscenity",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/Eliz2/7-8/66/section/1",
+      "checked": "2026-11-11"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "speech-offences",
+  "path": "/speech-offences/",
+  "title": "Speech offences",
+  "lede": "Words the state can punish, and words it cannot.",
+  "intro": "A category on the law of saying things in the UK: what turns words into a crime, what makes them a civil wrong, and where the lines run. Each chapter is sourced to the statutes and the judgments, commentary is labelled as commentary, and acquittals get the same prominence as convictions. Nothing here supports any proscribed organisation or advises anyone on what to say. It is legal research, not legal advice.",
+  "checked": "2026-11-11",
+  "chapters": [
+    {
+      "title": "Grossly offensive",
+      "href": "/research/grossly-offensive/",
+      "summary": "Section 127 of the Communications Act 2003: the House of Lords test in Collins, the Twitter joke trial, the Nazi pug, and the councillor who said you cannot melt people down.",
+      "links": [
+        { "label": "The test in Collins", "href": "/research/grossly-offensive/#the-test" },
+        { "label": "Jokes and satire", "href": "/research/grossly-offensive/#jokes" }
+      ]
+    },
+    {
+      "title": "Private chats and cloud notes",
+      "href": "/research/grossly-offensive/#private",
+      "summary": "The police WhatsApp group with Wayne Couzens, what “a reasonable expectation of privacy” protects, and whether a note that syncs to your own cloud can be “sent”.",
+      "links": [
+        { "label": "The police WhatsApp group", "href": "/research/grossly-offensive/#whatsapp" },
+        { "label": "Notes saved to your own cloud", "href": "/research/grossly-offensive/#cloud" }
+      ]
+    },
+    {
+      "title": "Supporting Hamas",
+      "href": "/research/speech-offences/#legal-tests",
+      "summary": "Inviting support, reckless expressions of support, flags and images under sections 12 and 13 of the Terrorism Act 2000, and the prosecutions, acquittals and dropped charges since October 2023.",
+      "links": [
+        { "label": "Convictions over symbols and posts", "href": "/research/speech-offences/#symbols-and-posts" },
+        { "label": "Acquittals and dropped charges", "href": "/research/speech-offences/#further-acquittals" },
+        { "label": "Hamas deproscription", "href": "/research/hamas-deproscription/" }
+      ]
+    },
+    {
+      "title": "Supporting Palestine Action",
+      "href": "/research/speech-offences/#palestine-action-speech",
+      "summary": "Placards, meetings and the mass arrests after the July 2025 proscription, the legal challenge to the ban, and the section 35 dispersal order outside the US Embassy.",
+      "links": [
+        { "label": "Proscription: the offences", "href": "/nuances/proscription-support/" },
+        { "label": "The Palestine Action collection", "href": "/research/palestine-action/" },
+        { "label": "Proscription litigation", "href": "/research/proscription-litigation/" },
+        { "label": "The US Embassy dispersal order", "href": "/uk-timeline/#section-35-us-embassy-2026" }
+      ]
+    },
+    {
+      "title": "Defamation",
+      "href": "/research/calling-fraud-a-fraud/",
+      "summary": "The civil side. You can call a fraud a fraud if you can defend it: truth, honest opinion or public interest. Applied to a real case in the Thames Water study.",
+      "links": [
+        { "label": "Calling fraud a fraud", "href": "/research/calling-fraud-a-fraud/" },
+        { "label": "Thames Water", "href": "/research/thames-water/" }
+      ]
+    },
+    {
+      "title": "“Your mother was raped by a dog”",
+      "href": "/research/absurdity-paradox/",
+      "summary": "The absurdity paradox. An insult nobody could believe fails as libel three times over and can still be a crime, because the criminal offences do not need anyone to believe it."
+    },
+    {
+      "title": "Message ultra",
+      "href": "/research/message-ultra/",
+      "summary": "One hypothetical direct message, sent twice, that a prosecutor could charge from six directions under four statutes, and the civil claim it would still survive."
+    },
+    {
+      "title": "The case register",
+      "href": "/research/speech-offences/",
+      "summary": "45 sourced case records: Hamas-related proceedings, journalism, symbols, Palestine Action expression and meetings, communications, performance and protest conditions, with dated outcomes and a coverage audit."
+    }
+  ],
+  "related": [
+    { "label": "Public order and protest", "href": "/research/public-order/" },
+    { "label": "UK timeline", "href": "/uk-timeline/" },
+    { "label": "Terrorism and proscribed organisations policy", "href": "/legal/terrorism-and-proscribed-organisations/" }
+  ]
+}

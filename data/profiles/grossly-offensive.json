@@ -1,0 +1,886 @@
+{
+  "id": "grossly-offensive",
+  "category": "legal-study",
+  "title": "Grossly offensive: when a message becomes a crime",
+  "subtitle": "Section 127 of the Communications Act 2003 punishes sending a grossly offensive message over a public network. Nobody has to read it and nobody has to be offended. A private chat between friends is covered, and possibly a note that syncs to your own cloud.",
+  "summary": "The offence is complete when the message is sent. In DPP v Collins (2006) the House of Lords said it is judged by “reasonably enlightened, but not perfectionist, contemporary standards”, and Lord Brown accepted that two racists chatting on the phone commit it although they would not in the street. In 2024 the High Court upheld the convictions of two Metropolitan Police officers over a private WhatsApp group with Wayne Couzens, found only because of an unrelated criminal investigation. The court said ordinary people messaging privately are “very likely” to have a reasonable expectation of privacy, and repeated the Law Commission’s warning that indecent material saved only in private online storage could still complete the offence.",
+  "scope": "England and Wales, with one Scottish case (Meechan) under the same section. Covers section 127(1)(a) of the Communications Act 2003 and its sister offence, section 1 of the Malicious Communications Act 1988. Threats, deliberate lies, terrorism and defamation are covered in other chapters of the Speech offences category. Where a court quoted slurs or other abusive words, we describe them rather than repeat them, except where the exact words are the point of the case.",
+  "status_note": "Judgments and legislation read from the official text on 11 November 2026, including the full House of Lords text of Collins. The Gibbins verdict of 9 November 2026 comes from press reporting: reports differ on which offence he was convicted of, and his lawyers said he would appeal. What we say about phone notes and cloud backups is our analysis of what the courts and the Law Commission have said; we found no reported prosecution for material kept only in a person’s own cloud storage. This is legal research, not legal advice.",
+  "jurisdiction": "England and Wales · Scotland (one case)",
+  "checked": "2026-11-11",
+  "tags": [
+    "uk",
+    "speech-offences",
+    "freedom-of-expression",
+    "communications",
+    "privacy"
+  ],
+  "related": [
+    {
+      "id": "absurdity-paradox",
+      "title": "“Your mother was raped by a dog”: the absurdity paradox"
+    },
+    {
+      "id": "message-ultra",
+      "title": "Message ultra: one message, six offences"
+    },
+    {
+      "id": "speech-offences",
+      "title": "Speech offences: the case register"
+    },
+    {
+      "id": "calling-fraud-a-fraud",
+      "title": "Calling fraud a fraud: defamation law for people who mean it"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Who has to be offended?",
+      "value": "Nobody",
+      "detail": "The offence is complete when the message is sent, even if it is erased before anyone hears it",
+      "target": "the-test"
+    },
+    {
+      "label": "A private WhatsApp group",
+      "value": "Still covered",
+      "detail": "Two police officers’ convictions upheld in 2024. Their chat surfaced through an unrelated investigation",
+      "target": "private"
+    },
+    {
+      "label": "A note synced to your own cloud",
+      "value": "Possibly covered",
+      "detail": "The Law Commission’s warning, repeated by the High Court. We found no reported prosecution",
+      "target": "cloud"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-test",
+      "title": "The test, in the House of Lords’ own words",
+      "intro": "DPP v Collins is the leading case. A man rang his MP’s offices over two years and used racist terms. The magistrates found the calls offensive but not grossly offensive. Five Law Lords disagreed, unanimously.",
+      "entries": [
+        {
+          "id": "collins-facts",
+          "title": "What happened in Collins",
+          "kind": "House of Lords judgment",
+          "date": "2006-07-19",
+          "citation": "DPP v Collins [2006] UKHL 40",
+          "paragraphs": [
+            {
+              "text": "Between January 2002 and January 2004 the defendant telephoned the constituency and Westminster offices of his MP, sometimes speaking to staff and sometimes leaving recorded messages. He was angry about immigration and asylum policy and used racist terms, which the judgment quotes. Some of the staff described themselves as shocked, alarmed and depressed.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 2"
+                }
+              ]
+            },
+            {
+              "text": "Leicestershire magistrates acquitted him. They found the messages “offensive” but not “grossly” offensive, and the Divisional Court upheld that. The House of Lords allowed the prosecution’s appeal. Lord Bingham concluded that the language “can only have been chosen because of its highly abusive, insulting, pejorative, offensive character”, and that the defendant should have been convicted.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 4–5, 13"
+                }
+              ]
+            },
+            {
+              "text": "He was never actually convicted. The Director of Public Prosecutions had promised not to send the case back to the magistrates if the appeal succeeded, so the House made no further order. The case was brought to settle the law.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "public-network",
+          "title": "The crime is using the public network",
+          "kind": "House of Lords judgment",
+          "paragraphs": [
+            {
+              "text": "“The purpose of the legislation which culminates in section 127(1)(a) was to prohibit the use of a service provided and funded by the public for the benefit of the public for the transmission of communications which contravene the basic standards of our society.”",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "Lord Bingham, para 7"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "So the offence is not about protecting the person who receives the message. Lord Bingham said that job belongs to the Malicious Communications Act 1988. A grossly offensive letter pushed through a letterbox may be covered by that Act, but it is not a section 127 offence, because it never touched the public network.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 7"
+                }
+              ]
+            },
+            {
+              "text": "“The offence is complete when the message is sent. Thus it can make no difference that the message is never received, for example because a recorded message is erased before anyone listens to it.”",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "Lord Bingham, para 8"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "the-standard",
+          "title": "“Reasonably enlightened, but not perfectionist”",
+          "kind": "House of Lords judgment",
+          "paragraphs": [
+            {
+              "text": "“There can be no yardstick of gross offensiveness otherwise than by the application of reasonably enlightened, but not perfectionist, contemporary standards to the particular message sent in its particular context. The test is whether a message is couched in terms liable to cause gross offence to those to whom it relates.”",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "Lord Bingham, para 9"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The same paragraph says magistrates must apply “the standards of an open and just multi-racial society”, that context and all relevant circumstances count, and that “Usages and sensitivities may change over time”. Words that insult in one era can be used affectionately, or worn as a badge of honour, in another.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                }
+              ]
+            },
+            {
+              "text": "Lord Carswell put the same test plainly: it makes no difference whether the message is ever received, or whether the people who receive it are offended. “What matters is whether reasonable persons in our society would find it grossly offensive.”",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "Lord Carswell, para 21"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mental-element",
+          "title": "What the sender must know",
+          "kind": "House of Lords judgment",
+          "paragraphs": [
+            {
+              "text": "The section itself says nothing about the sender’s state of mind. Lord Bingham read one in: the sender must intend the words to be grossly offensive to those to whom they relate, or be aware that they may be taken that way. Parliament cannot have meant to punish someone using language that is, “for reasons unknown to him”, grossly offensive.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 10–11"
+                }
+              ]
+            },
+            {
+              "text": "In practice that is easy to prove. A culpable state of mind “will ordinarily be found” where the words show an intention to insult the people they are about, or where the sender must have recognised that risk.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "two-racists",
+          "title": "Two racists on the telephone",
+          "kind": "House of Lords judgment",
+          "paragraphs": [
+            {
+              "text": "Lord Brown spelled out what this means. Section 1 of the 1988 Act needs a purpose of causing distress. Section 127 does not: sending the message is the offence, even to someone the sender knows will not be offended at all.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "Lord Brown, paras 25–26"
+                }
+              ]
+            },
+            {
+              "text": "“Take, for example, the case considered in argument before your Lordships, that of one racist talking on the telephone to another and both using the very language used in the present case.”",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "Lord Brown, para 26"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "He said that would be no offence under the 1988 Act, and no offence “if the conversation took place in the street”, but it would be an offence under section 127. He admitted this “did not at once strike me”, and left open where it leaves telephone chat-lines, whose whole business is indecent or obscene messages: “left for another day”.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "Lord Brown, paras 26–27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "title": "“Context is everything”",
+          "kind": "Divisional Court judgment, quoted by the House of Lords",
+          "paragraphs": [
+            {
+              "text": "In the court below, Sedley LJ said that the same content “may be menacing or grossly offensive in one message and innocuous in another”. A scriptwriter emailing a director about dialogue for a film is unlikely to break the law, however menacing or offensive the text. “Here, as elsewhere, context is everything.”",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 5, quoting Sedley LJ at para 9 of the Divisional Court judgment"
+                }
+              ]
+            },
+            {
+              "text": "That is the principle that lets a legal study like this one quote offensive words in order to analyse them.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "article-10",
+          "title": "Freedom of expression",
+          "kind": "House of Lords judgment",
+          "paragraphs": [
+            {
+              "text": "Lord Bingham accepted that section 127(1)(a) interferes with freedom of expression, but held the interference lawful: it is set out in statute, aimed at a legitimate objective, which he called “preventing the use of a public electronic communications network for attacking the reputations and rights of others”, and goes no further than necessary in a democratic society. The defence did not argue otherwise.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jokes",
+      "title": "Jokes, satire and absurdity",
+      "intro": "Saying it was a joke is a fact the court weighs, not a defence. The cases go both ways.",
+      "entries": [
+        {
+          "id": "chambers",
+          "title": "Chambers: the airport tweet that was not a threat",
+          "kind": "High Court judgment",
+          "date": "2012-07-27",
+          "citation": "Chambers v DPP [2012] EWHC 2157 (Admin)",
+          "paragraphs": [
+            {
+              "text": "In January 2010, when snow closed Robin Hood Airport, Paul Chambers posted to about 600 followers: “Crap! Robin Hood Airport is closed. You’ve got a week and a bit to get your shit together otherwise I am blowing the airport sky high!!” Nobody did anything about it until five days later, when an off-duty airport manager found it while searching at home for tweets that mentioned the airport.",
+              "sources": [
+                {
+                  "id": "chambers",
+                  "locator": "paras 12–13"
+                }
+              ]
+            },
+            {
+              "text": "He was convicted of sending a message of a “menacing character”. The High Court quashed the conviction. On an objective assessment, it held, the tweet was not menacing.",
+              "sources": [
+                {
+                  "id": "chambers",
+                  "locator": "paras 1, 34"
+                }
+              ]
+            },
+            {
+              "text": "“Satirical, or iconoclastic, or rude comment, the expression of unpopular or unfashionable opinion about serious or trivial matters, banter or humour, even if distasteful to some or painful to those subjected to it should and no doubt will continue at their customary level, quite undiminished by this legislation.”",
+              "sources": [
+                {
+                  "id": "chambers",
+                  "locator": "para 28"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "On the mental element of the menacing form of the offence, the court added that if the sender “may have intended the message as a joke, even if a poor joke in bad taste”, the required state of mind is unlikely to be proved.",
+              "sources": [
+                {
+                  "id": "chambers",
+                  "locator": "para 38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "meechan",
+          "title": "Meechan: the joke that was still grossly offensive",
+          "kind": "Scottish court proceedings, from case summaries and court reporting",
+          "date": "2019-01-23",
+          "paragraphs": [
+            {
+              "text": "In 2016 Mark Meechan posted a video in which his girlfriend’s pug raised its paw in response to “Sieg Heil” and “Gas the Jews”. He said it was meant to annoy her and to be funny. At Airdrie Sheriff Court he was convicted under section 127, which also applies in Scotland, and Sheriff Derek O’Carroll fined him £800.",
+              "sources": [
+                {
+                  "id": "meechan-gfe",
+                  "locator": "facts and decision"
+                },
+                {
+                  "id": "meechan-sln",
+                  "locator": "conviction and fine"
+                }
+              ]
+            },
+            {
+              "text": "The sheriff rejected the joke explanation, finding that annoying his girlfriend was not the video’s primary purpose, and found it likely to be regarded as grossly offensive and menacing to Jewish people. The Sheriff Appeal Court refused leave to appeal. In January 2019 the High Court of Justiciary rejected his petition for a route to the UK Supreme Court.",
+              "sources": [
+                {
+                  "id": "meechan-gfe",
+                  "locator": "decision overview"
+                },
+                {
+                  "id": "meechan-sln",
+                  "locator": "Lord Carloway’s ruling"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gibbins",
+          "title": "Gibbins: “you cannot melt people down”",
+          "kind": "Press reporting of a magistrates’ court verdict · appeal intended",
+          "date": "2026-11-09",
+          "paragraphs": [
+            {
+              "text": "In March 2024 Glenn Gibbins, later elected a Reform UK councillor in Sunderland, posted on his public Facebook profile that he could not believe the number of Nigerians in town and that they should be melted down to fill in the potholes. In July 2026 ITV reported that he had been charged over a “grossly offensive comment” on social media.",
+              "sources": [
+                {
+                  "id": "gibbins-lbc",
+                  "locator": "the post"
+                },
+                {
+                  "id": "gibbins-itv-charge",
+                  "locator": "headline and charge"
+                }
+              ]
+            },
+            {
+              "text": "At South Tyneside Magistrates’ Court he said it was “a tongue-in-cheek joke” and argued: “It’s an unreal scenario, you cannot melt people down”. The prosecutor said the post implied that Nigerians were “somewhat less than human, stripping people in that group of humanity”.",
+              "sources": [
+                {
+                  "id": "gibbins-lbc",
+                  "locator": "evidence and prosecution case"
+                }
+              ]
+            },
+            {
+              "text": "On 9 November 2026 District Judge Passfield convicted him. She considered his right to freedom of expression under Article 10 but found the post was not a genuine expression of political views. He avoided a prison sentence and his lawyers said he would appeal to the Crown Court. LBC describes the conviction as one for “a malicious communication”, while the charge was reported as one of posting a grossly offensive comment; we record both until the court record is available.",
+              "sources": [
+                {
+                  "id": "gibbins-lbc",
+                  "locator": "verdict, sentence and appeal"
+                },
+                {
+                  "id": "gibbins-itv-charge",
+                  "locator": "charge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "absurdity-lesson",
+          "title": "What the joke cases teach",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "An impossible act does not make a message harmless. Gibbins argued that nobody could melt people down; the court looked at what the post said about the people it described. Chambers won because his tweet was not a threat at all, not because it was a joke. Meechan lost because a joke can still be grossly offensive. The question is always the message in its context, judged by Collins’s standard.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "chambers",
+                  "locator": "para 34"
+                },
+                {
+                  "id": "gibbins-lbc",
+                  "locator": "verdict"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cps-bar",
+          "title": "The bar prosecutors are told to apply",
+          "kind": "Prosecution guidance",
+          "date": "2026-06-29",
+          "paragraphs": [
+            {
+              "text": "The Crown Prosecution Service tells prosecutors to proceed only if a communication is more than offensive, shocking or disturbing; more than satirical, iconoclastic or rude comment; and more than unpopular opinion, banter or humour, “even if distasteful to some or painful to those subjected to it”. The wording comes from Chambers.",
+              "sources": [
+                {
+                  "id": "cps-comms",
+                  "locator": "Article 10 and the high threshold"
+                },
+                {
+                  "id": "chambers",
+                  "locator": "para 28"
+                }
+              ]
+            },
+            {
+              "text": "The guidance treats messaging services such as WhatsApp as using a public electronic communications network, and says it is not necessary to show that the message was addressed to, or received by, anyone else.",
+              "sources": [
+                {
+                  "id": "cps-comms",
+                  "locator": "section 127"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "private",
+      "title": "Private chats",
+      "intro": "Section 127 does not ask whether a message was private. It asks whether it went over a public network. That is how a closed WhatsApp group of police officers ended in prison sentences.",
+      "entries": [
+        {
+          "id": "whatsapp",
+          "title": "The police WhatsApp group",
+          "kind": "High Court judgment",
+          "date": "2024-07-26",
+          "citation": "Cobban and Borders v DPP [2024] EWHC 1908 (Admin)",
+          "paragraphs": [
+            {
+              "text": "Seven Metropolitan Police officers, one of them Wayne Couzens, were members of a WhatsApp group called “Bottle and Stoppers”. Between April and August 2019, Joel Borders and Jonathan Cobban sent messages in it that the courts found grossly offensive. Couzens was later convicted of kidnapping, raping and murdering Sarah Everard.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "para 1"
+                }
+              ]
+            },
+            {
+              "text": "The messages were never meant to go further. The trial judge found the officers treated the group as a “safe space” among like-minded people, and that the messages were meant as “darkly humorous jokes”. They came to light only through an unrelated criminal investigation.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "paras 2, 16, 18"
+                }
+              ]
+            },
+            {
+              "text": "In 2022 District Judge Sarah Turnock convicted Borders of five offences and Cobban of three; a third officer was acquitted. Each was sentenced to 12 weeks’ immediate custody.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "paras 6, 8"
+                }
+              ]
+            },
+            {
+              "text": "On 26 July 2024 the Divisional Court, led by the Lady Chief Justice, dismissed their appeals and upheld the sentences. It described this as apparently the first time the senior courts had considered section 127 and private consensual messaging. It held that Collins is binding, that WhatsApp messages travel over a public network, and that the other members’ amusement was irrelevant, because they shared the officers’ sense of humour.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "paras 4–5, 50, 59, 129"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "expectation",
+          "title": "“Very likely to have a reasonable expectation of privacy”",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The officers argued that their right to private life under Article 8 protected the chat. The court asked whether these particular people had a reasonable expectation of privacy in these particular messages, not whether private messaging is private in general.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "para 86"
+                }
+              ]
+            },
+            {
+              "text": "For police officers sending messages about policing, in breach of their professional standards, the answer was no: Article 8 was not engaged. The court stressed that this conclusion does not touch “ordinary members of the public engaged in consensual private messaging”.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "paras 99–100"
+                }
+              ]
+            },
+            {
+              "text": "“However, in the case of private messages consensually exchanged on a medium such as WhatsApp between purely private persons (not public officials, such as police officers, discussing policing matters) like the Lord Ordinary in BC, we consider that such persons are very likely to have a reasonable expectation of privacy.”",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "para 110"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "It called such a prosecution “unlikely”, but said that if one were brought, “difficult questions may arise” about whether the interference with private life could be justified. The court declined to decide whether the Human Rights Act requires section 127 to be read more narrowly for all private consensual messages: “That is not the question before us.”",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "paras 76, 110"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reasonable",
+          "title": "The trouble with “reasonable”",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The word “reasonable” does a lot of work here, and none of it happens in advance. Nothing in section 127 protects a private message: the offence is complete when the message is sent. Whatever protection there is comes from the Human Rights Act, decided case by case, after a prosecution has begun, by a court asking whether your expectation of privacy was reasonable given who you are and what you were discussing.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 8"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "paras 76, 86, 110"
+                }
+              ]
+            },
+            {
+              "text": "“Very likely” and “unlikely” are forecasts, not rules. A person in a group chat today cannot know which side of them they will fall. Lord Brown admitted in 2006 that it had not at once struck him that two people on a phone call could both be committing a crime. Eighteen years later the High Court said that question remains open for ordinary people, and answered it only for police officers.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "Lord Brown, para 27"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "paras 99, 110"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cloud",
+          "title": "Notes saved to your own cloud",
+          "kind": "Law Commission analysis, adopted by the High Court",
+          "paragraphs": [
+            {
+              "text": "The Divisional Court cited a Law Commission example. If someone takes “obscene” photographs of themselves, or writes an “indecent” sexual fantasy, and saves it in a private online storage service where others are unlikely to see it, a section 127 offence “may still be complete if the fault element is present”. If the same material were printed and kept in a drawer at home, no offence would be committed.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "para 54, citing Law Com No 381, para 4.77"
+                }
+              ]
+            },
+            {
+              "text": "The court said the breadth of the offence is exactly why the Law Commission was asked to look at reform. It added that a prosecution “where indecent material was simply stored in an online facility and not seen by others” would raise questions about the scope of the offence and its compatibility with private life and freedom of expression, to be decided on the facts of that case.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "paras 54, 110"
+                }
+              ]
+            },
+            {
+              "text": "The Law Commission proposed replacing section 127(1) with an offence based on likely harm. The Government did not take that forward, so section 127(1) remains in force.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "para 71"
+                },
+                {
+                  "id": "cps-comms",
+                  "locator": "Online Safety Act 2023"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cloud-analysis",
+          "title": "Phone notes, backups and drafts: what we think follows",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The section covers “a message or other matter” sent by means of a public electronic communications network. No recipient is required: Collins says the offence is complete on sending, and the CPS says there is no need to show the message was addressed to, or received by, anyone. On the Law Commission’s reading, an upload of your own material to your own online storage can be “sent” in this sense.",
+              "sources": [
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1)(a)"
+                },
+                {
+                  "id": "collins",
+                  "locator": "para 8"
+                },
+                {
+                  "id": "cps-comms",
+                  "locator": "section 127"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 54"
+                }
+              ]
+            },
+            {
+              "text": "From that we draw these conclusions. A note that never leaves your phone does not touch a public network, so section 127 does not apply to it, like the drawer. A note, draft or photo that syncs to an online account is uploaded over the internet, so it can in principle fall within the section. To be an offence it would still have to be grossly offensive, indecent, obscene or menacing, and the prosecution would still have to prove the mental element in Collins: that you intended the material to be grossly offensive to the people it is about, or were aware it might be taken that way.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 7–8, 11"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 54"
+                }
+              ]
+            },
+            {
+              "text": "Two other offences point the other way. Section 1 of the Malicious Communications Act needs a message sent “to another person”, and the Online Safety Act offences need a message that is sent, transmitted or published. A note to yourself is neither. That leaves section 127 as the outlier.",
+              "sources": [
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "osa-s182",
+                  "locator": "s 182(2)"
+                }
+              ]
+            },
+            {
+              "text": "We found no reported prosecution for material kept only in a person’s own cloud storage. The High Court’s remarks about privacy, and the CPS’s public interest test, are the practical protections. They are discretion, not a rule.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "para 110"
+                },
+                {
+                  "id": "cps-comms",
+                  "locator": "public interest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sister-offences",
+      "title": "Section 127 and its sister offence",
+      "intro": "Two offences cover offensive messages. They protect different things, so the same words can be one offence and not the other.",
+      "entries": [
+        {
+          "id": "comparison",
+          "title": "Side by side",
+          "kind": "Legislation and House of Lords judgment",
+          "table": {
+            "caption": "Communications Act 2003, s 127(1)(a) and Malicious Communications Act 1988, s 1",
+            "columns": [
+              "Question",
+              "Section 127(1)(a)",
+              "Section 1 of the 1988 Act"
+            ],
+            "rows": [
+              [
+                "How is it sent?",
+                "Only by a public electronic communications network: phone, internet, messaging apps",
+                "Any letter, electronic communication or article"
+              ],
+              [
+                "Must it go to someone?",
+                "No. Complete on sending, even if never received",
+                "Yes. It must be sent to another person"
+              ],
+              [
+                "What must it be?",
+                "Grossly offensive, or indecent, obscene or menacing",
+                "Indecent or grossly offensive"
+              ],
+              [
+                "What must the sender intend?",
+                "To be grossly offensive to those it relates to, or awareness it may be taken that way",
+                "A purpose of causing distress or anxiety"
+              ],
+              [
+                "Two friends sharing racist jokes",
+                "Can be an offence (Lord Brown; the police WhatsApp case)",
+                "No offence, because neither intends to distress the other"
+              ],
+              [
+                "Maximum sentence",
+                "Six months’ imprisonment, a fine, or both",
+                "Two years’ imprisonment on indictment"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Lord Bingham drew the distinction: section 127 protects the integrity of the public network, while the 1988 Act protects people from receiving messages meant to distress them.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 7"
+                },
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1), (3)"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1), (4)"
+                }
+              ]
+            },
+            {
+              "text": "The Online Safety Act 2023 removed the threatening and false-message parts of both offences and replaced them with new offences for messages sent from 31 January 2024. The grossly offensive, indecent, obscene and menacing parts remain.",
+              "sources": [
+                {
+                  "id": "cps-comms",
+                  "locator": "Online Safety Act 2023"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "How this chapter was made",
+      "intro": "Primary sources first, with the limits stated.",
+      "entries": [
+        {
+          "id": "method-note",
+          "title": "Sources and limits",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "We read Collins in the full House of Lords text, and Chambers and Cobban from the National Archives. We took the Meechan and Gibbins facts from case summaries and court reporting, because neither decision is published as a written judgment. Bussetti, the Grenfell effigy case, is mentioned only through the CPS guidance; we have not yet read that judgment in full. Corrections are welcome.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "collins",
+      "title": "DPP v Collins [2006] UKHL 40",
+      "publisher": "House of Lords",
+      "type": "Judgment (House of Lords)",
+      "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm",
+      "date": "2006-07-19",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cobban",
+      "title": "Cobban and Borders v DPP [2024] EWHC 1908 (Admin)",
+      "publisher": "High Court, Divisional Court (Lady Carr of Walton-on-the-Hill CJ and Saini J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/1908",
+      "date": "2024-07-26",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "chambers",
+      "title": "Chambers v DPP [2012] EWHC 2157 (Admin)",
+      "publisher": "High Court, Divisional Court (Lord Judge CJ, Owen J and Griffith Williams J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2012/2157",
+      "date": "2012-07-27",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ca-s127",
+      "title": "Communications Act 2003, section 127: improper use of public electronic communications network",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/section/127",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "mca-s1",
+      "title": "Malicious Communications Act 1988, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "osa-s182",
+      "title": "Online Safety Act 2023, section 182: interpretation of sections 179 to 181",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/182",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cps-comms",
+      "title": "Communications Offences: prosecution guidance (updated 29 June 2026)",
+      "publisher": "Crown Prosecution Service",
+      "type": "Prosecution guidance",
+      "url": "https://www.cps.gov.uk/prosecution-guidance/communications-offences",
+      "date": "2026-06-29",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "meechan-gfe",
+      "title": "Meechan v Procurator Fiscal, Airdrie: case analysis",
+      "publisher": "Columbia Global Freedom of Expression",
+      "type": "Case database summary",
+      "url": "https://globalfreedomofexpression.columbia.edu/cases/meechan-v-prosecutor-fiscal-airdrie/",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "meechan-sln",
+      "title": "Nazi pug man fails in Supreme Court appeal bid",
+      "publisher": "Scottish Legal News",
+      "type": "Court reporting",
+      "url": "https://www.scottishlegal.com/articles/nazi-pug-man-fails-in-supreme-court-appeal-bid",
+      "date": "2019-01-23",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "gibbins-lbc",
+      "title": "Reform councillor who said Nigerians should be melted down and used to fill potholes avoids jail",
+      "publisher": "LBC (with PA)",
+      "type": "Court reporting",
+      "url": "https://www.lbc.co.uk/article/reform-councillor-avoids-jail-racist-facebook-post-5HjdmB8_2/",
+      "date": "2026-11-09",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "gibbins-itv-charge",
+      "title": "Sunderland councillor charged with posting ‘grossly offensive comment’ on social media",
+      "publisher": "ITV News Tyne Tees",
+      "type": "News report of a charge",
+      "url": "https://www.itv.com/news/tyne-tees/2026-07-29/councillor-charged-with-posting-grossly-offensive-comment-on-social-media",
+      "date": "2026-07-29",
+      "checked": "2026-11-11"
+    }
+  ]
+}

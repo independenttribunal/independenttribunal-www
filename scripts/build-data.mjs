@@ -19,6 +19,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadResearch, publishResearch, researchText, researchUpdatesText } from "./research.mjs";
 import { loadProfiles, publishProfiles, profileText } from "./profiles.mjs";
+import { loadCategories, validateCategory, publishCategory, categoryText } from "./categories.mjs";
 import { loadCommentary, publishCommentary, commentaryText } from "./commentary.mjs";
 import { renderSiteHeader, renderSiteFooter } from "../shared/site-shell.mjs";
 import { loadPalestineAction, publishPalestineAction, palestineActionTile } from "./palestine-action.mjs";
@@ -27,7 +28,7 @@ import { loadForensics, publishForensics, forensicTile, forensicText, forensicPa
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "data");
 const publicDir = join(root, "public");
-const GENERATED = ["data", "legal", "nuances", "independent-tribunals", "research", "people", "forensics", "uk-timeline", "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml"];
+const GENERATED = ["data", "legal", "nuances", "independent-tribunals", "research", "people", "speech-offences", "forensics", "uk-timeline", "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml"];
 
 const REFERENCE_TYPES = new Set(["legislation", "judgment", "official", "report", "article", "organisation", "dataset"]);
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
@@ -209,6 +210,16 @@ for (const p of petitions) {
 }
 for (const p of commentary) if ([...research, ...profiles].some((r) => r.id === p.id)) fail(`commentary/${p.id}`, "commentary id conflicts with a research page");
 for (const p of profiles) if (research.some((r) => r.id === p.id)) fail(`profiles/${p.id}`, "profile id conflicts with a research dossier");
+
+// Categories only link to pages that exist, and to anchors that exist on them.
+const categories = await loadCategories(dataDir);
+const linkTargets = new Map([["/research/", new Set()], ["/people/", new Set()], ["/nuances/", new Set()], ["/legal/", new Set()], [palestineActionTile.href, new Set()]]);
+for (const p of profiles) linkTargets.set(`/research/${p.id}/`, new Set(["sources", ...p.sections.flatMap((s) => [s.id, ...s.entries.map((e) => e.id)])]));
+for (const r of [...research, ...commentary]) linkTargets.set(`/research/${r.id}/`, new Set());
+for (const n of nuances) linkTargets.set(`/nuances/${n.id}/`, new Set());
+for (const t of timelines) linkTargets.set(t.path, new Set(t.sections.flatMap((s) => [s.id, ...(s.entries ?? []).map((e) => e.id)])));
+for (const p of policies) linkTargets.set(`/legal/${p.slug}/`, new Set());
+for (const c of categories) validateCategory(c, linkTargets, fail);
 
 if (errors.length) {
   console.error(`✗ data validation failed (${errors.length}):\n  ${errors.join("\n  ")}`);
@@ -563,6 +574,11 @@ await put("independent-tribunals/index.html", legalPage({
 await publishResearch({ records: research, profiles, commentary, put, page: legalPage, escapeHtml, site });
 await publishPalestineAction({ collection: palestineAction, records: research, put, page: legalPage, escapeHtml });
 await publishProfiles({ profiles, put, page: legalPage, escapeHtml, site });
+for (const category of categories) {
+  const { file, ...data } = category;
+  await put(`data/categories/${category.id}.json`, { generated: built, about: "A research category: ordered chapters linking to sourced pages. It contains no findings of its own.", ...data, url: abs(category.path) });
+  await publishCategory({ category, put, page: legalPage, escapeHtml });
+}
 await publishCommentary({ commentary, put, page: legalPage, escapeHtml });
 await publishForensics({ record: forensics, dataDir, put, page: legalPage, escapeHtml, site });
 
@@ -609,6 +625,7 @@ ${tribunalsOut.map((t) => `- [${t.name}](${t.url}): ${plain(t.summary)}`).join("
 ${commentaryOut.map((p) => `- [${p.title}](${p.url}): ${p.genre}; ${p.summary}`).join("\n")}
 - [Research library](${abs("/research/")}): Independent Tribunal’s research dossiers and public-record profiles
 - [People & public records](${abs("/people/")}): Individual profiles, proceedings, responses and source checks
+${categories.map((c) => `- [${c.title}](${abs(c.path)}): ${c.lede} ${c.chapters.length} chapters: ${c.chapters.map((ch) => ch.title).join("; ")}`).join("\n")}
 - [Palestine Action collection](${abs(palestineActionTile.href)}): one chronological index of ${palestineAction.cases.length} records, including actions before 7 October 2023. Both inputs are unified, with additional details and seven lobbying accounts attached to the relevant records. A CAGE advocacy report is preserved separately. Only identified fields have received targeted corrections, not a full re-audit. Do not conflate unaffiliated actions with Palestine Action, arrests with convictions, or allegations with findings. [Unified JSON](${abs("/data/collections/palestine-action.json")}) preserves corrections, quality issues and record-level provenance; source dates are not current-status checks.
 ${profilesOut.map((p) => `- [${p.title}](${p.url}): ${p.subtitle}; sources reviewed ${p.checked}, selected coverage only`).join("\n")}
 ${researchOut.map((r) => `- [${r.title}](${r.url}): ${r.summary} (historical import; source date ${r.source_as_of}; current review pending)`).join("\n")}
@@ -631,6 +648,7 @@ const full = [
   forensicText(forensics, site),
   `# Palestine Action collection\n\n${abs(palestineActionTile.href)}\nOne unified chronological collection, including actions before 7 October 2023. Source accounts with targeted corrections, not a complete re-audit or a list of convictions. Download the structured collection, including integrated details, provenance, corrections, source dates, legal-status sources and data-quality flags: ${abs("/data/collections/palestine-action.json")}\n`,
   `# ${site.name} — full text\n\nGenerated ${built} from ${site.source_repo}. ${site.summary}\n`,
+  ...categories.map((c) => `\n${categoryText(c, abs)}\n`),
   ...profilesOut.map(profileText),
   ...commentaryOut.map(commentaryText),
   `\n## Historical research dossiers\n\nImported source narratives and annotations, not newly verified reporting. Political labels belong to the original author. Check primary records before relying on case-status claims.\n`,
@@ -651,7 +669,7 @@ const full = [
 ].join("");
 await put("llms-full.txt", full);
 
-const pages = ["/", "/about", "/research/", "/people/", ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
+const pages = ["/", "/about", "/research/", "/people/", ...categories.map((c) => c.path), ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
 pages.push(...commentary.map((p) => `/research/${p.id}/`));
 pages.push(palestineActionTile.href);
 pages.push("/forensics/", forensicPath);
