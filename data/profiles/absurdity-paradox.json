@@ -2,8 +2,8 @@
   "id": "absurdity-paradox",
   "category": "legal-study",
   "title": "“Your mother was raped by a dog”: the absurdity paradox",
-  "subtitle": "An insult so absurd that nobody could believe it. The absurdity is a strong answer to a libel claim and almost no answer to a criminal charge.",
-  "summary": "Take a specimen insult, “You are so ugly because your mother was raped by a dog”, sent as a private message. As libel it fails three times over: a message sent only to the person it insults is not published to anyone else; no reasonable reader takes it as a statement of fact, which is what the courts call “mere vulgar abuse”; and nobody’s reputation suffers serious harm. As a crime it does not need to be believed. Section 127 asks whether it was grossly offensive or indecent and sent over a public network. The Malicious Communications Act asks whether it was sent to cause distress. In 2026 a councillor argued that “you cannot melt people down”. He was convicted.",
+  "subtitle": "An insult so absurd that nobody could believe it. The absurdity is a strong answer to a libel claim and, by itself, no defence to a criminal charge. Disclaimers do not change either answer.",
+  "summary": "Defamation is hard to predict for a simple reason. Words are judged through a hypothetical reasonable reader, the writer’s intention is irrelevant, and since 2014 that reader is imagined by a judge, not a jury. Take a specimen insult, “You are so ugly because your mother was raped by a dog”, sent as a private message. As libel it fails three times over: a message sent only to the person it insults is not published to anyone else; no reasonable reader takes it as a statement of fact, which is what the courts call “mere vulgar abuse”; and nobody’s reputation suffers serious harm. As a crime it does not need to be believed. Section 127 asks whether it was grossly offensive or indecent and sent over a public network. The Malicious Communications Act asks whether it was sent to cause distress. In 2026 a councillor argued that “you cannot melt people down”. He was convicted. Adding disclaimers (“I’m not accusing, I’m only asking, hypothetically”) does not help either way: the courts read the whole message, and the sender’s intention is irrelevant to what it means.",
   "scope": "England and Wales. The specimen sentence is ours, written to test the law and aimed at no real person. We quote it in order to analyse it, which is the kind of context the courts say changes what words are.",
   "status_note": "Our analysis of how the cited statutes and judgments apply to an invented sentence, read from the official texts on 11 November 2026. No court has ruled on this sentence, and whether words are grossly offensive or indecent is a question of fact for the court in each case. This is legal research, not legal advice.",
   "jurisdiction": "England and Wales",
@@ -27,6 +27,10 @@
     {
       "id": "calling-fraud-a-fraud",
       "title": "Calling fraud a fraud: defamation law for people who mean it"
+    },
+    {
+      "id": "mcalpine-v-bercow",
+      "title": "“*Innocent face*”: McAlpine v Bercow"
     }
   ],
   "highlights": [
@@ -47,6 +51,23 @@
       "value": "Did not save Gibbins",
       "detail": "Convicted on 9 November 2026 after arguing nobody could melt people down",
       "target": "gibbins-parallel"
+    },
+    {
+      "label": "“Just asking”",
+      "value": "Disclaimers",
+      "detail": "Cannot make the absurd believable, or a believable insinuation innocent",
+      "target": "disclaimers"
+    }
+  ],
+  "artworks": [
+    {
+      "src": "/images/reasonable-unreasonable.webp",
+      "width": 1254,
+      "height": 1254,
+      "after_section": "paradox",
+      "alt": "Split illustration. On the left, in grey, rows of identical clerks at desks piled with paper, a courthouse, scales of justice and a clock, under the words Reasonable (on old terms) is unreasonable. On the right, in colour, gardens, waterfalls, bridges and a domed building labelled Planetary Council, under the words Unreasonable is reasonable. A cloaked figure walks a glowing path between them towards a half-lit globe.",
+      "caption": "Editorial artwork, Independent Tribunal: our commentary, not evidence. Both standards in the table above are imagined people, and Lord Bingham accepted that “usages and sensitivities may change over time”. What is reasonable on old terms can look unreasonable on new ones.",
+      "transcript": "Reasonable (on old terms) is unreasonable\nUnreasonable is reasonable\nPlanetary Council"
     }
   ],
   "sections": [
@@ -69,7 +90,20 @@
               "sources": []
             },
             {
-              "text": "We wrote it because it separates two areas of law that are often confused. Civil defamation protects reputation, so it cares whether anyone would believe the words. The criminal communications offences protect other things, so they mostly do not.",
+              "text": "The absurdity sits in the word “because”: a dog cannot father a human child. The law assumes its hypothetical reader knows that. It does not ask whether every real reader does, and it hears no evidence from real readers about what they understood.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 13"
+                }
+              ]
+            },
+            {
+              "text": "We wrote it because it separates two areas of law that are often confused. Civil defamation protects reputation, so it cares what a reasonable reader would take the words to mean. The criminal communications offences protect other things, so they mostly do not.",
               "sources": []
             }
           ]
@@ -193,7 +227,7 @@
           "kind": "Statute and House of Lords judgment, applied by us",
           "paragraphs": [
             {
-              "text": "Sending a message that is “grossly offensive or of an indecent, obscene or menacing character” over a public electronic communications network is an offence. A direct message on any app goes over one.",
+              "text": "Sending a message that is “grossly offensive or of an indecent, obscene or menacing character” over a public electronic communications network is an offence. Ordinary messaging apps run over the internet, which counts, though the network element still has to be shown for the message in question.",
               "sources": [
                 {
                   "id": "ca-s127",
@@ -240,7 +274,7 @@
               ]
             },
             {
-              "text": "An insult sent directly to its target exists to hurt them. That purpose is what makes this offence fit the specimen better than section 127 does.",
+              "text": "Sent directly to its target, an insult like this invites the inference that one purpose was to cause distress. That purpose must still be proved in context; the words alone do not settle it. Where it is proved, this offence fits the specimen better than section 127 does.",
               "sources": [
                 {
                   "id": "mca-s1",
@@ -266,7 +300,7 @@
               ]
             },
             {
-              "text": "His post was about a group, our specimen is about one person, but the argument is the same: that a literally impossible scenario cannot be taken seriously. In defamation that argument wins. In a communications prosecution the court looks instead at what the words say about the people they target.",
+              "text": "His post was about a group, our specimen is about one person, but the argument is the same: that a literally impossible scenario cannot be taken seriously. In defamation that argument usually wins, depending on the whole publication. In a communications prosecution the court looks instead at what the words say about the people they target.",
               "sources": [
                 {
                   "id": "gibbins-lbc",
@@ -325,6 +359,164 @@
       ]
     },
     {
+      "id": "disclaimers",
+      "title": "The disclaimer paradox",
+      "intro": "Now add disclaimers. “I am not accusing you. I am not implying anything. I am not suggesting anything. I am only asking, purely hypothetically.” The more of them there are, the more a reasonable reader asks why they are needed.",
+      "entries": [
+        {
+          "id": "disclaimed-specimen",
+          "title": "Two disclaimed versions",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The absurd version: “I am not accusing anyone of anything. I am not implying anything, and I am not suggesting anything. This is purely hypothetical, and I am only asking: is it possible that your mother was raped by a dog?”",
+              "sources": []
+            },
+            {
+              "text": "A plausible version, with the allegation described rather than written: “I’m not accusing [a named neighbour] of anything, and I’m not implying anything. I’m only asking, purely hypothetically, why [the neighbour] was seen near [the place where a crime was committed] that night.”",
+              "sources": []
+            },
+            {
+              "text": "The two pull apart. The first stays absurd however it is phrased. In the second, the disclaimers are all that stand between a question and an accusation.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "question-form",
+          "title": "A question can be an accusation",
+          "kind": "High Court judgment",
+          "date": "2013-05-24",
+          "citation": "The Lord McAlpine of West Green v Bercow [2013] EWHC 1342 (QB)",
+          "paragraphs": [
+            {
+              "text": "“The law is clear that words may be defamatory in whatever form they are used. A question, or a rhetorical question, or any other form of words may, in principle, be understood to convey a defamatory meaning.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 62"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "Sally Bercow tweeted “Why is Lord McAlpine trending? *Innocent face*”. The judge held that it meant he was a paedophile who had sexually abused boys in care, which was false. “Innocent face” was her disclaimer, and those two words decided the meaning:",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 3, 90"
+                }
+              ]
+            },
+            {
+              "text": "“the reasonable reader would understand the words ‘innocent face’ as being insincere and ironical. There is no sensible reason for including those words in the Tweet if they are to be taken as meaning that the Defendant simply wants to know the answer to a factual question.”",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 84"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "bane-antidote",
+          "title": "Bane and antidote",
+          "kind": "Supreme Court judgment",
+          "date": "2019-04-03",
+          "citation": "Stocker v Stocker [2019] UKSC 17",
+          "paragraphs": [
+            {
+              "text": "In Stocker v Stocker the Supreme Court restated the test for meaning, quoting the Court of Appeal in Jeynes. Two of its rules settle the disclaimer question: “The intention of the publisher is irrelevant.” And: “The article must be read as a whole, and any ‘bane and antidote’ taken together.”",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                }
+              ]
+            },
+            {
+              "text": "A disclaimer is offered as the antidote. It works when, read with everything else, it really changes what a reasonable reader takes from the words. It fails when the reader sees it as a device: a denial of the very thing the words point at. What the writer says they meant does not decide it.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 84"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "disclaimer-lesson",
+          "title": "Why more disclaimers can make it worse",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The reasonable reader asks why each disclaimer is there. One honest qualification can be taken at face value. A stack of them, each denying an accusation nobody has made yet, invites the question the McAlpine judge asked of “innocent face”: what sensible reason is there for including them, unless the writer means the opposite? The more the writer insists the question is only hypothetical, the more the reader wonders who it is about.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "para 84"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                }
+              ]
+            },
+            {
+              "text": "That is our reading, not a rule of law. Courts do not count disclaimers, and a disclaimer does not always backfire. The test is still what the whole publication conveys to a reader who is neither naïve nor avid for scandal. A hypothetical about no one accuses no one. A hypothetical that points at a real person, at a moment when readers are asking about him, points the finger.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 62, 83, 85"
+                }
+              ]
+            },
+            {
+              "text": "For the absurd specimen the disclaimers change nothing. As libel it was never a statement of fact, so there is nothing for them to cancel. For the criminal offences, “purely hypothetical” does not alter whether a message about someone’s mother, sent to them, is indecent or grossly offensive, or why it was sent. A disclaimer is part of the context, but it cannot turn the message into something else.",
+              "sources": [
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                },
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            },
+            {
+              "text": "So the paradox runs both ways. Disclaimers cannot make the absurd believable, and they cannot make a believable insinuation innocent. We apply this to ourselves: on live-case pages we do not set uncharged material next to a defendant’s name and add that its meaning should not be assumed, because a disclaimer does not change what a reader takes from the juxtaposition.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 84"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "paradox",
       "title": "The paradox in one table",
       "intro": "The same words, judged by two different questions.",
@@ -342,8 +534,8 @@
             ],
             "rows": [
               [
-                "Must anyone believe it?",
-                "Yes. Absurd abuse is read as abuse, not fact",
+                "Must it be read as fact?",
+                "Yes. It needs a defamatory meaning that causes serious harm; absurd abuse is read as abuse, not fact",
                 "No"
               ],
               [
@@ -365,6 +557,11 @@
                 "Is “it was a joke” an answer?",
                 "Often, as mere vulgar abuse",
                 "A factor to weigh, not a defence: compare Chambers with Meechan and Gibbins"
+              ],
+              [
+                "Does a disclaimer help?",
+                "Only if, read with the whole, it really changes the meaning. An insincere one does not",
+                "Part of the context; it does not change what was sent, or why"
               ]
             ]
           },
@@ -405,6 +602,200 @@
                   "locator": "para 17"
                 }
               ]
+            },
+            {
+              "text": "Who imagines the reader? Since 1 January 2014 defamation trials have been heard without a jury unless the court orders otherwise, so in practice a judge decides what words mean, often as a preliminary issue before anything else is tried. That is how McAlpine was decided. No real reader gives evidence, and the writer’s intention is irrelevant: the meaning is the one the judge attributes to an imagined fair-minded reader.",
+              "sources": [
+                {
+                  "id": "da-s11",
+                  "locator": "s 11"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 1–2, 13"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "two-people",
+          "title": "Two imagined people",
+          "kind": "House of Lords and High Court judgments, compared by us",
+          "table": {
+            "caption": "Two standards for the same words: the “hypothetical reasonable reader” of defamation and the “reasonably enlightened, but not perfectionist” standard of section 127",
+            "columns": [
+              "Question",
+              "Defamation: the “hypothetical reasonable reader”",
+              "Section 127: “reasonably enlightened, but not perfectionist”"
+            ],
+            "rows": [
+              [
+                "Their job",
+                "Decide what the words mean",
+                "Decide whether the message is grossly offensive"
+              ],
+              [
+                "Who they stand for",
+                "The actual audience of the publication",
+                "Reasonable members of society in general, not the people who received it"
+              ],
+              [
+                "Their character",
+                "Not naïve, not unduly suspicious, can read between the lines, not avid for scandal",
+                "Reasonably enlightened, not perfectionist, applying today’s standards of an open and just multi-racial society"
+              ],
+              [
+                "Who imagines them",
+                "A judge, usually without a jury since 2014",
+                "Magistrates, as a question of fact"
+              ],
+              [
+                "Does the writer’s intention count?",
+                "No. The intention of the publisher is irrelevant to meaning",
+                "Not to the standard. But the sender must intend the words to be grossly offensive, or be aware that they may be taken to be so"
+              ],
+              [
+                "Does receipt matter?",
+                "Yes. Publication to a third party is required",
+                "No. The offence is complete when the message is sent"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Defamation and section 127 each rely on an imagined person, but not the same one. The defamation reader decides what words mean. The section 127 standard decides whether a message is grossly offensive. They were built by different courts for different jobs, and no judgment we have found says how they fit together.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 57–58"
+                },
+                {
+                  "id": "collins",
+                  "locator": "paras 8–9"
+                }
+              ]
+            },
+            {
+              "text": "“There can be no yardstick of gross offensiveness otherwise than by the application of reasonably enlightened, but not perfectionist, contemporary standards to the particular message sent in its particular context.”",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The section 127 standard belongs to society, not to the audience. Lord Carswell criticised the magistrates for weighing “the reaction of the actual listeners to the messages, rather than considering the reactions of reasonable members of society in general”. The defamation reader is the reverse: a reasonable representative of the people who actually read the words, in McAlpine the “users of Twitter who follow the Defendant”.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 22"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "compatible",
+          "title": "Are the two compatible?",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Not obviously. Before magistrates can ask whether a message is grossly offensive, someone has to decide what it means, and Collins does not say whose reading fixes that. It does not import the defamation reader, and the defamation cases do not mention reasonable enlightenment. In practice the same magistrates decide both questions, from the standpoint of society in general.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 8–11, 22"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                }
+              ]
+            },
+            {
+              "text": "The gap is where the absurdity paradox lives. The defamation reader, who is not avid for scandal, reads the specimen as abuse and stops there. The reasonably enlightened standard asks a different question of the same words, whether they are liable to cause gross offence to those to whom they relate, and the absurdity does not answer it. Both imagined people are designed to resist over-sensitivity, one against finding scandal and one against perfectionism, yet they can reach opposite results on one sentence.",
+              "sources": [
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                },
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "change-the-standards",
+          "title": "Can you change the law by changing the standards?",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "“The reasonable man adapts himself to the world: the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man.”",
+              "sources": [
+                {
+                  "id": "shaw",
+                  "locator": "Reason"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "Our version, from the artwork at the end of this section: reasonable on old terms is unreasonable; unreasonable is reasonable.",
+              "sources": [
+                {
+                  "id": "shaw",
+                  "locator": "Reason"
+                }
+              ]
+            },
+            {
+              "text": "Partly, yes. Where the law is written as a standard rather than a rule, it moves when society moves, without Parliament changing a word. Lord Bingham accepted that “usages and sensitivities may change over time”, and that language once insulting can become “a badge of honour”. Lord Carswell described magistrates as people “expected to apply the standards of today’s society”. Dishonesty works the same way: since Ivey, it is judged by “the (objective) standards of ordinary decent people”.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 9, 18"
+                },
+                {
+                  "id": "ivey",
+                  "locator": "para 74"
+                }
+              ]
+            },
+            {
+              "text": "The limits. You cannot set the standard yourself: it belongs to reasonable members of society in general, and your standards count only once enough people share them that a court treats them as ordinary. That is changed by argument, publishing and persuasion, slowly and together. Standards can also tighten as well as loosen. And only standards move this way: definitions, maximum sentences and lists of what may be reported change only through Parliament or the higher courts.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 22"
+                }
+              ]
+            },
+            {
+              "text": "So the law’s reasonable person is a conformist by design, and Shaw’s unreasonable person is the one who changes what the conformist accepts. Blasphemy shows the whole cycle: it fell out of use as public standards moved, and Parliament abolished it in 2008, recognising a change that had already happened. To be “unreasonably reasonable” is to act on tomorrow’s standard while being judged by today’s.",
+              "sources": [
+                {
+                  "id": "cjia-s79",
+                  "locator": "s 79(1)"
+                },
+                {
+                  "id": "shaw",
+                  "locator": "Reason"
+                }
+              ]
             }
           ]
         }
@@ -412,6 +803,57 @@
     }
   ],
   "sources": [
+    {
+      "id": "mcalpine",
+      "title": "The Lord McAlpine of West Green v Bercow [2013] EWHC 1342 (QB)",
+      "publisher": "High Court (Tugendhat J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/1342",
+      "date": "2013-05-24",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "stocker",
+      "title": "Stocker v Stocker [2019] UKSC 17",
+      "publisher": "UK Supreme Court",
+      "type": "Judgment (Supreme Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/17",
+      "date": "2019-04-03",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "da-s11",
+      "title": "Defamation Act 2013, section 11: trial to be without a jury unless the court orders otherwise",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/11",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "shaw",
+      "title": "Maxims for Revolutionists (from Man and Superman, 1903), “Reason”",
+      "publisher": "Bernard Shaw, via Project Gutenberg",
+      "type": "Book (public domain)",
+      "url": "https://www.gutenberg.org/ebooks/26107",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ivey",
+      "title": "Ivey v Genting Casinos (UK) Ltd t/a Crockfords [2017] UKSC 67",
+      "publisher": "UK Supreme Court",
+      "type": "Judgment (Supreme Court)",
+      "url": "https://supremecourt.uk/uploads/uksc_2016_0213_judgment_0e789d3e68.pdf",
+      "date": "2017-10-25",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cjia-s79",
+      "title": "Criminal Justice and Immigration Act 2008, section 79: abolition of blasphemy and blasphemous libel",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2008/4/section/79",
+      "checked": "2026-11-11"
+    },
     {
       "id": "soriano",
       "title": "Soriano v Forensic News LLC [2021] EWCA Civ 1952",

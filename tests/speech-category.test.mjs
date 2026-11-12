@@ -41,8 +41,21 @@ test("the absurdity paradox separates libel hurdles from criminal offences", asy
   assert.equal(e.get("the-sentence").paragraphs[0].text, "“You are so ugly because your mother was raped by a dog.”");
   assert.ok(e.get("no-publication").paragraphs[0].text.includes("publication to one or more third parties"));
   assert.match(textOf(e.get("vulgar-abuse")), /mere vulgar abuse/);
-  assert.equal(e.get("paradox-table").table.rows.length, 5);
-  for (const id of ["where-it-fails", "reasonable-person"]) assert.equal(e.get(id).kind, "Our commentary");
+  assert.equal(e.get("paradox-table").table.rows.length, 6);
+  for (const id of ["where-it-fails", "reasonable-person", "disclaimer-lesson"]) assert.equal(e.get(id).kind, "Our commentary");
+  // The disclaimer paradox: McAlpine and Stocker quoted exactly, and the claim labelled as ours.
+  assert.ok(e.get("question-form").paragraphs[2].text.includes("as being insincere and ironical"));
+  assert.match(textOf(e.get("bane-antidote")), /“The intention of the publisher is irrelevant\.”/);
+  assert.match(textOf(e.get("disclaimer-lesson")), /That is our reading, not a rule of law/);
+  // Two imagined people: the defamation reader and the section 127 standard, compared.
+  assert.ok(e.get("two-people").paragraphs[1].text.includes("reasonably enlightened, but not perfectionist, contemporary standards"));
+  assert.equal(e.get("two-people").table.rows.length, 6);
+  assert.match(textOf(e.get("two-people")), /reasonable members of society in general/);
+  assert.equal(e.get("compatible").kind, "Our commentary");
+  assert.ok(e.get("change-the-standards").paragraphs[0].text.startsWith("“The reasonable man adapts himself to the world"));
+  assert.ok(p.artworks.some((a) => a.src === "/images/reasonable-unreasonable.webp" && a.transcript.includes("Unreasonable is reasonable")));
+  // Corrections from review: the purpose must be proved, and absurdity is not a criminal defence by itself.
+  assert.doesNotMatch(JSON.stringify(p), /exists to hurt them|almost no answer|on any app/);
 });
 
 test("message ultra describes the threat and the support in brackets instead of writing them", async () => {
