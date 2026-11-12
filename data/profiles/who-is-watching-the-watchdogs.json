@@ -45,6 +45,12 @@
       "value": "Not found",
       "detail": "No published letter on this appointment was identified in this review",
       "target": "acoba-question"
+    },
+    {
+      "label": "Washington visit",
+      "value": "27 February 2025",
+      "detail": "Prime Minister at Palantir’s offices with Lord Mandelson · official written answers",
+      "target": "mandelson"
     }
   ],
   "sections": [
@@ -307,6 +313,78 @@
                 {
                   "id": "acoba-gov",
                   "locator": "the public-advice model, where it applies"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mandelson",
+          "title": "Lord Mandelson, Global Counsel and a Washington visit",
+          "kind": "Official record",
+          "paragraphs": [
+            {
+              "text": "Lord Peter Mandelson, a Labour life peer and former cabinet minister, is officially described as co-founder of Global Counsel, “a global public policy advisory firm.” That wording appears in the government’s announcement of 20 December 2024 that he would be the next British ambassador to the United States, and again on his official GOV.UK biography. The same biography records that he was ambassador from 10 February 2025 to 11 September 2025.",
+              "sources": [
+                {
+                  "id": "mandelson-appoint",
+                  "locator": "20 December 2024 announcement: co-founder of Global Counsel"
+                },
+                {
+                  "id": "mandelson-bio",
+                  "locator": "ambassador 10 February 2025 to 11 September 2025; co-founder of Global Counsel"
+                }
+              ]
+            },
+            {
+              "text": "The statutory register of consultant lobbyists lists Global Counsel Ltd as a consultant lobbyist engaged by Palantir in January to March 2025, the quarter in which the Washington visit took place. The same register also lists Global Counsel Ltd against Palantir in July to September 2024, July to September 2025 and October to December 2025. Those entries record that the firm conducted consultant lobbying for Palantir in those quarters. They do not, by themselves, describe any particular meeting or contract.",
+              "sources": [
+                {
+                  "id": "orcl-palantir",
+                  "locator": "consultant lobbyists engaged, including January to March 2025"
+                }
+              ]
+            },
+            {
+              "text": "A Cabinet Office written answer of 13 October 2025, responding to a question about “the Prime Minister’s visit to the offices of Palantir Technologies in Washington with Lord Mandelson on 27 February 2025,” said: “This was not a formal meeting, therefore we do not hold any minutes.” A later written question, tabled on 11 February 2026, asked whether informal notes were taken of “the meeting at Palantir HQ that was attended by Peter Mandelson, the Prime Minister, the chief executive of Palantir and the Head of Palantir Technologies UK and that took place on 27 February 2025.” The Cabinet Office replied on 10 March 2026 that the visit “was part of the Prime Minister’s trip to Washington” and that “during this visit the Prime Minister listened to a short presentation about Palantir’s work, followed by a tour of the premises and an introduction to members of staff.” The later answer describes what the Prime Minister did on the visit; it does not itself name the other people listed in the question.",
+              "sources": [
+                {
+                  "id": "pq-77563",
+                  "locator": "question reciting the 27 February 2025 visit; answer of 13 October 2025"
+                },
+                {
+                  "id": "pq-112839",
+                  "locator": "question of 11 February 2026; answer of 10 March 2026"
+                }
+              ]
+            },
+            {
+              "text": "He was withdrawn as ambassador on 11 September 2025. The Foreign, Commonwealth and Development Office said the Prime Minister had asked the Foreign Secretary to withdraw him “in light of the additional information in emails written by Peter Mandelson,” which showed that “the depth and extent of Peter Mandelson’s relationship with Jeffrey Epstein is materially different from that known at the time of his appointment.” The stated reason was that relationship, not the Palantir visit or Global Counsel’s client work. This page records the official reason so the two events are not run together.",
+              "sources": [
+                {
+                  "id": "fcdo-withdraw",
+                  "locator": "11 September 2025 statement"
+                },
+                {
+                  "id": "mandelson-bio",
+                  "locator": "end of appointment, 11 September 2025"
+                }
+              ]
+            },
+            {
+              "text": "The documented facts are that a firm he co-founded was, in the same quarter as the visit, on the statutory register as a lobbyist for Palantir; that he was then the ambassador; and that he was with the Prime Minister at Palantir’s Washington offices on 27 February 2025, on a visit the government later described as informal and unminuted. Whether that combination should have been handled differently is a question about transparency and conflict-of-interest rules. It is not a finding, on this page, that he lobbied on the visit, that he arranged it for Palantir’s benefit, or that any later public contract followed from it.",
+              "sources": [
+                {
+                  "id": "orcl-palantir",
+                  "locator": "Global Counsel Ltd listed for Palantir in January to March 2025"
+                },
+                {
+                  "id": "pq-77563",
+                  "locator": "the visit with Lord Mandelson; no minutes"
+                },
+                {
+                  "id": "mandelson-appoint",
+                  "locator": "co-founder of Global Counsel; appointed ambassador"
                 }
               ]
             }
@@ -782,6 +860,58 @@
       "type": "Published reporting",
       "url": "https://www.publictechnology.net/2026/11/10/public-order-justice-and-rights/eastern-police-forces-sign-10m-palantir-deal-to-support-safeguarding-as-reports-claim-nhs-extension-planned/",
       "date": "2026-11-10",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "mandelson-appoint",
+      "title": "Appointment of Lord Mandelson as the next British Ambassador to the United States of America",
+      "publisher": "GOV.UK (Prime Minister’s Office)",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/news/appointment-of-lord-mandelson-as-the-next-british-ambassador-to-the-united-states-of-america",
+      "date": "2024-12-20",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "mandelson-bio",
+      "title": "The Rt Hon Lord Peter Mandelson",
+      "publisher": "GOV.UK",
+      "type": "Official biography",
+      "url": "https://www.gov.uk/government/people/peter-mandelson",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "orcl-palantir",
+      "title": "Office of the Registrar of Consultant Lobbyists: Palantir client profile",
+      "publisher": "Office of the Registrar of Consultant Lobbyists",
+      "type": "Official register",
+      "url": "https://orcl.my.site.com/CLR_Client_Profile?Id=a08Tu00000DeWL4IAN",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "pq-77563",
+      "title": "Written question 77563: Palantir (minutes of the Washington visit)",
+      "publisher": "UK Parliament (Cabinet Office written answer)",
+      "type": "Parliamentary written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-09-16/77563/",
+      "date": "2025-10-13",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "pq-112839",
+      "title": "Written question 112839: Lord Mandelson (the Washington Palantir visit)",
+      "publisher": "UK Parliament (Cabinet Office written answer)",
+      "type": "Parliamentary written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-02-11/112839",
+      "date": "2026-03-10",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "fcdo-withdraw",
+      "title": "FCDO Statement: HMA Washington",
+      "publisher": "GOV.UK (Foreign, Commonwealth & Development Office)",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/news/fcdo-statement-hma-washington",
+      "date": "2025-09-11",
       "checked": "2026-11-12"
     },
     {

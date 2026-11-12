@@ -34,6 +34,11 @@ export function validateCategory(c, targets, fail) {
     if (!link.label?.trim()) fail(where, "related link without label");
     check(link.href ?? "");
   }
+  if (c.image) {
+    const image = c.image;
+    if (!/^\/images\/[a-z0-9-]+\.(png|jpg|webp)$/.test(image.src) || !image.alt?.trim() || !image.caption?.trim()) fail(where, "category image requires a local image path, alt text and caption");
+    if (![image.width, image.height].every((n) => Number.isInteger(n) && n > 0)) fail(where, "category image requires positive integer dimensions");
+  }
 }
 
 export function categoryText(c, abs) {
@@ -44,10 +49,13 @@ export function categoryText(c, abs) {
 }
 
 export async function publishCategory({ category: c, put, page, escapeHtml: e }) {
+  const image = c.image;
+  const imageHtml = image ? `<figure class="category-evidence"><a href="${e(image.src)}" target="_blank" rel="noopener noreferrer" aria-label="Open image at full size (opens in a new tab)"><img src="${e(image.src)}" alt="${e(image.alt)}" width="${image.width}" height="${image.height}"></a><figcaption>${e(image.caption)}</figcaption></figure>` : "";
   await put(`${c.id}/index.html`, page({
     title: c.title,
     path: c.path,
     description: `${c.lede} ${c.intro}`,
+    image,
     meta: `<p class="meta">Reviewed ${e(c.checked)} · <a href="/data/categories/${c.id}.json">Download JSON</a></p>`,
     body: `<style>
       .chapter-list { list-style:none; padding:0; margin:2rem 0; counter-reset:chapter; }
@@ -56,9 +64,12 @@ export async function publishCategory({ category: c, put, page, escapeHtml: e })
       .chapter-list h2 { margin:0 0 .4rem; font-size:1.3rem; }
       .chapter-list p { margin:.3rem 0; }
       .chapter-links { display:flex; flex-wrap:wrap; gap:.3rem 1rem; padding:0; margin:.5rem 0 0; list-style:none; font:600 13px/1.6 ui-sans-serif,system-ui,sans-serif; }
+      .category-evidence { margin:1.5rem 0; }
+      .category-evidence img { display:block; width:100%; height:auto; border:1px solid var(--line); }
+      .category-evidence figcaption { margin-top:.65rem; color:var(--muted); font:12px/1.6 ui-sans-serif,system-ui,sans-serif; }
       @media(max-width:560px) { .chapter-list > li { padding-left:2.8rem; } }
     </style>
-    <p class="kicker">Independent Tribunal · Research category</p><h1>${e(c.title)}</h1><p class="lede">${e(c.lede)}</p><p>${e(c.intro)}</p>
+    <p class="kicker">Independent Tribunal · Research category</p><h1>${e(c.title)}</h1><p class="lede">${e(c.lede)}</p>${imageHtml}<p>${e(c.intro)}</p>
     <ol class="chapter-list">${c.chapters.map((ch) => `<li><h2><a href="${e(ch.href)}">${e(ch.title)} →</a></h2><p>${e(ch.summary)}</p>${ch.links?.length ? `<ul class="chapter-links">${ch.links.map((l) => `<li><a href="${e(l.href)}">${e(l.label)}</a></li>`).join("")}</ul>` : ""}</li>`).join("")}</ol>
     ${c.related?.length ? `<h2>Related</h2><ul>${c.related.map((l) => `<li><a href="${e(l.href)}">${e(l.label)}</a></li>`).join("")}</ul>` : ""}
     <p><a href="/research/">All research</a></p>`,

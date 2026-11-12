@@ -5,9 +5,9 @@
   "subtitle": "Only states can be parties. They can bring almost anyone as counsel. And the Court itself has no code of conduct for those counsel, so who can discipline an advocate depends on which country’s bar they belong to, if any.",
   "summary": "Before the International Court of Justice, only states may be parties in contentious cases. Each state is represented by an agent and may bring counsel and advocates of its choosing; the Statute sets no qualification for them. The Court’s Practice Directions deal with conflicts of position, such as former judges appearing as counsel, but not with honesty, and counsel “are not subject under international law to any compulsory code of conduct”. English barristers carry their own rules with them wherever they appear; academics who are not admitted anywhere may carry none. The Genocide Convention case South Africa v. Israel shows the system at work: members of one London chambers on opposite sides, and more than a dozen states intervening.",
   "scope": "International Court of Justice · Who may be a party, who may represent a party, which conduct rules bind them, who could enforce those rules, and how third states and NGOs take part. English professional rules are covered as one example of home-bar rules. Covers documents checked up to 5 November 2026.",
-  "status_note": "The Statute, Practice Directions, General Assembly resolution 90(I), ICJ press releases, the ICTY code and Bar Council guidance were read from their official texts on 5 November 2026. Some academic sources and the January 2024 verbatim record could not be retrieved; claims resting on them were removed or are labelled. Chapters marked “Our analysis” are our views. This is legal research and public education, not legal advice.",
+  "status_note": "The Statute, the Rules of Court, Practice Directions, General Assembly resolution 90(I), ICJ press releases, the ICTY code and Bar Council guidance were read from their official texts on 5 November 2026, with the Rules of Court checked again on 12 November 2026. Some academic sources and the January 2024 verbatim record could not be retrieved; claims resting on them were removed or are labelled. Chapters marked “Our analysis” are our views. This is legal research and public education, not legal advice.",
   "jurisdiction": "International · England and Wales",
-  "checked": "2026-11-05",
+  "checked": "2026-11-12",
   "tags": [
     "international-law",
     "icj",
@@ -82,7 +82,7 @@
     {
       "id": "team",
       "title": "2. The team: agents, counsel and advocates",
-      "intro": "Who stands up for a state, and who chooses them.",
+      "intro": "Who stands up for a state, and who chooses them. The Court requires an agent and regulates that role. It does not decide who a state may appoint, or how the appointment is made at home.",
       "entries": [
         {
           "id": "article-42",
@@ -108,6 +108,43 @@
                 {
                   "id": "lowe",
                   "locator": "Reported cases as counsel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "who-appoints",
+          "title": "The Court regulates the agent’s role, not who a state appoints",
+          "kind": "Official rules",
+          "paragraphs": [
+            {
+              "text": "The Rules of Court fill in how that agency works, once a case has begun. Article 40 says that, except in the special case of an application awaiting the other state’s consent to jurisdiction, “all steps on behalf of the parties after proceedings have been instituted shall be taken by agents.” Agents must have an address for service at the seat of the Court; communications to the agents “shall be considered as having been addressed to the parties themselves.” The applicant (or the party notifying a special agreement) must state the name of its agent, and the other party must inform the Court of the name of its agent. Article 60, paragraph 2, adds a further formal act: at the end of a party’s last statement at the hearing, “its agent, without recapitulation of the arguments, shall read that party’s final submissions.” Article 58, paragraph 2, lets the Court, after hearing the parties, settle “the number of counsel and advocates to be heard on behalf of each party.” These are rules about the role of the agent, and about how the hearing is run.",
+              "sources": [
+                {
+                  "id": "rules",
+                  "locator": "Articles 40, 58(2) and 60(2)"
+                },
+                {
+                  "id": "statute",
+                  "locator": "Article 42"
+                }
+              ]
+            },
+            {
+              "text": "Neither the Statute nor the Rules of Court set any qualification, admission, nationality or method of appointment for the agent, or for counsel or advocates. The Court must be told the name of the agent; it does not choose the person, and it does not regulate how a state makes that choice. Who is appointed, and by what domestic process, is left to each state under its own arrangements. Practice Directions VII and VIII, discussed below, limit certain conflicts of position. They still do not tell a state whom it may appoint in the ordinary case, or how to do so at home.",
+              "sources": [
+                {
+                  "id": "statute",
+                  "locator": "Article 42: the duty to have agents, with no eligibility rule"
+                },
+                {
+                  "id": "rules",
+                  "locator": "Article 40: the name of the agent is notified, not selected, by the Court"
+                },
+                {
+                  "id": "pd",
+                  "locator": "Practice Directions VII and VIII"
                 }
               ]
             }
@@ -616,7 +653,7 @@
           "kind": "Research method",
           "paragraphs": [
             {
-              "text": "The Statute, Practice Directions, resolution 90(I), ICJ press releases, the ICTY code, Bar Council guidance and the chambers profiles were read on 5 November 2026. The draft supplied to us was checked line by line; claims we could not trace to a document we read were removed or labelled.",
+              "text": "The Statute, Rules of Court, Practice Directions, resolution 90(I), ICJ press releases, the ICTY code, Bar Council guidance and the chambers profiles were read on 5 November 2026, with the Rules of Court (Articles 40, 58 and 60) checked again on 12 November 2026 when the section on what the Court does and does not regulate in appointments was added. The draft supplied to us was checked line by line; claims we could not trace to a document we read were removed or labelled.",
               "sources": []
             }
           ]
@@ -761,6 +798,15 @@
       "type": "Institutional statement",
       "url": "https://essexcourt.com/about/legal-information/",
       "checked": "2026-11-05"
+    },
+    {
+      "id": "rules",
+      "title": "Rules of Court (1978, as amended)",
+      "publisher": "International Court of Justice",
+      "type": "Official rules",
+      "url": "https://www.icj-cij.org/rules",
+      "date": "1978-04-14",
+      "checked": "2026-11-12"
     }
   ]
 }
