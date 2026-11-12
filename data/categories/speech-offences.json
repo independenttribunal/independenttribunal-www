@@ -11,8 +11,14 @@
       "href": "/research/grossly-offensive/",
       "summary": "Section 127 of the Communications Act 2003: the House of Lords test in Collins, the Twitter joke trial, the Nazi pug, and the councillor who said you cannot melt people down.",
       "links": [
-        { "label": "The test in Collins", "href": "/research/grossly-offensive/#the-test" },
-        { "label": "Jokes and satire", "href": "/research/grossly-offensive/#jokes" }
+        {
+          "label": "The test in Collins",
+          "href": "/research/grossly-offensive/#the-test"
+        },
+        {
+          "label": "Jokes and satire",
+          "href": "/research/grossly-offensive/#jokes"
+        }
       ]
     },
     {
@@ -20,8 +26,14 @@
       "href": "/research/grossly-offensive/#private",
       "summary": "The police WhatsApp group with Wayne Couzens, what “a reasonable expectation of privacy” protects, and whether a note that syncs to your own cloud can be “sent”.",
       "links": [
-        { "label": "The police WhatsApp group", "href": "/research/grossly-offensive/#whatsapp" },
-        { "label": "Notes saved to your own cloud", "href": "/research/grossly-offensive/#cloud" }
+        {
+          "label": "The police WhatsApp group",
+          "href": "/research/grossly-offensive/#whatsapp"
+        },
+        {
+          "label": "Notes saved to your own cloud",
+          "href": "/research/grossly-offensive/#cloud"
+        }
       ]
     },
     {
@@ -29,9 +41,18 @@
       "href": "/research/speech-offences/#legal-tests",
       "summary": "Inviting support, reckless expressions of support, flags and images under sections 12 and 13 of the Terrorism Act 2000, and the prosecutions, acquittals and dropped charges since October 2023.",
       "links": [
-        { "label": "Convictions over symbols and posts", "href": "/research/speech-offences/#symbols-and-posts" },
-        { "label": "Acquittals and dropped charges", "href": "/research/speech-offences/#further-acquittals" },
-        { "label": "Hamas deproscription", "href": "/research/hamas-deproscription/" }
+        {
+          "label": "Convictions over symbols and posts",
+          "href": "/research/speech-offences/#symbols-and-posts"
+        },
+        {
+          "label": "Acquittals and dropped charges",
+          "href": "/research/speech-offences/#further-acquittals"
+        },
+        {
+          "label": "Hamas deproscription",
+          "href": "/research/hamas-deproscription/"
+        }
       ]
     },
     {
@@ -39,11 +60,26 @@
       "href": "/research/speech-offences/#palestine-action-speech",
       "summary": "Placards, meetings and the mass arrests after the July 2025 proscription, the legal challenge to the ban (heard by the Supreme Court on 4 and 5 November 2026, judgment awaited), and the section 35 dispersal order outside the US Embassy.",
       "links": [
-        { "label": "Proscription: the offences", "href": "/nuances/proscription-support/" },
-        { "label": "The Palestine Action collection", "href": "/research/palestine-action/" },
-        { "label": "Proscription litigation", "href": "/research/proscription-litigation/" },
-        { "label": "The Supreme Court hearing", "href": "/uk-timeline/#supreme-court-hearing-2026" },
-        { "label": "The US Embassy dispersal order", "href": "/uk-timeline/#section-35-us-embassy-2026" }
+        {
+          "label": "Proscription: the offences",
+          "href": "/nuances/proscription-support/"
+        },
+        {
+          "label": "The Palestine Action collection",
+          "href": "/research/palestine-action/"
+        },
+        {
+          "label": "Proscription litigation",
+          "href": "/research/proscription-litigation/"
+        },
+        {
+          "label": "The Supreme Court hearing",
+          "href": "/uk-timeline/#supreme-court-hearing-2026"
+        },
+        {
+          "label": "The US Embassy dispersal order",
+          "href": "/uk-timeline/#section-35-us-embassy-2026"
+        }
       ]
     },
     {
@@ -51,8 +87,14 @@
       "href": "/research/calling-fraud-a-fraud/",
       "summary": "The civil side. You can call a fraud a fraud if you can defend it: truth, honest opinion or public interest. Applied to a real case in the Thames Water study.",
       "links": [
-        { "label": "Calling fraud a fraud", "href": "/research/calling-fraud-a-fraud/" },
-        { "label": "Thames Water", "href": "/research/thames-water/" }
+        {
+          "label": "Calling fraud a fraud",
+          "href": "/research/calling-fraud-a-fraud/"
+        },
+        {
+          "label": "Thames Water",
+          "href": "/research/thames-water/"
+        }
       ]
     },
     {
@@ -70,11 +112,26 @@
       "href": "/research/reporting-limits/",
       "summary": "Why explaining the law is not a crime, then contempt of court, reporting restrictions and the dissemination offence, applied to a live terrorism trial. Four categories: legally restricted, potentially prejudicial, protected discussion, and withheld by choice.",
       "links": [
-        { "label": "Explaining the law", "href": "/research/reporting-limits/#explaining-the-law" },
-        { "label": "The four categories", "href": "/research/reporting-limits/#four-boxes" },
-        { "label": "How to know if restrictions apply", "href": "/research/reporting-limits/#checking" },
-        { "label": "What the jury will be asked", "href": "/research/reporting-limits/#the-test" },
-        { "label": "One live case", "href": "/research/reporting-limits/#live-case" }
+        {
+          "label": "Explaining the law",
+          "href": "/research/reporting-limits/#explaining-the-law"
+        },
+        {
+          "label": "The four categories",
+          "href": "/research/reporting-limits/#four-boxes"
+        },
+        {
+          "label": "How to know if restrictions apply",
+          "href": "/research/reporting-limits/#checking"
+        },
+        {
+          "label": "What the jury will be asked",
+          "href": "/research/reporting-limits/#the-test"
+        },
+        {
+          "label": "One live case",
+          "href": "/research/reporting-limits/#live-case"
+        }
       ]
     },
     {
@@ -82,19 +139,44 @@
       "href": "/research/speech-law-reform/",
       "summary": "The universities free speech Act 2023, switched on in stages, and the Prosperity Institute’s draft Free Speech Bill, which would repeal several offences in this category. Law and proposal, kept apart.",
       "links": [
-        { "label": "The 2023 Act: what is in force", "href": "/research/speech-law-reform/#universities-act" },
-        { "label": "The draft Free Speech Bill", "href": "/research/speech-law-reform/#draft-bill" }
+        {
+          "label": "The 2023 Act: what is in force",
+          "href": "/research/speech-law-reform/#universities-act"
+        },
+        {
+          "label": "The draft Free Speech Bill",
+          "href": "/research/speech-law-reform/#draft-bill"
+        }
       ]
     },
     {
       "title": "The case register",
       "href": "/research/speech-offences/",
-      "summary": "45 sourced case records: Hamas-related proceedings, journalism, symbols, Palestine Action expression and meetings, communications, performance and protest conditions, with dated outcomes and a coverage audit."
+      "summary": "45 sourced case records: Hamas-related proceedings, journalism, symbols, Palestine Action expression and meetings, communications, performance and protest conditions, with dated outcomes and a coverage audit.",
+      "links": [
+        {
+          "label": "Live case: Sarah Wilkinson",
+          "href": "/research/speech-offences/#current-focus"
+        },
+        {
+          "label": "Research, reasonable excuse and section 58",
+          "href": "/research/speech-offences/#research-reasonable-excuse"
+        }
+      ]
     }
   ],
   "related": [
-    { "label": "Public order and protest", "href": "/research/public-order/" },
-    { "label": "UK timeline", "href": "/uk-timeline/" },
-    { "label": "Terrorism and proscribed organisations policy", "href": "/legal/terrorism-and-proscribed-organisations/" }
+    {
+      "label": "Public order and protest",
+      "href": "/research/public-order/"
+    },
+    {
+      "label": "UK timeline",
+      "href": "/uk-timeline/"
+    },
+    {
+      "label": "Terrorism and proscribed organisations policy",
+      "href": "/legal/terrorism-and-proscribed-organisations/"
+    }
   ]
 }
