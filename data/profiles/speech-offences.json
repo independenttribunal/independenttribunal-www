@@ -54,39 +54,30 @@
       "target": "further-acquittals"
     },
     {
-      "label": "Current focus",
-      "value": "Sarah Wilkinson",
-      "detail": "The phone-PIN allegation and the separate RIPA notice offence",
+      "label": "Live case",
+      "value": "Reported particulars only",
+      "detail": "How we report an active terrorism-speech case",
       "target": "current-focus"
     }
   ],
   "sections": [
     {
       "id": "current-focus",
-      "title": "Current focus: Sarah Wilkinson and the phone-PIN allegation",
-      "intro": "Selected for closer research on 10 November 2026. A current research priority, with the date and limits of the court reporting kept visible.",
+      "title": "Live case: Sarah Wilkinson, reported particulars only",
+      "intro": "Selected for closer research on 10 November 2026. While the case is active we report only the offences charged, the court, adjournments and bail, and explain the general law. See What we can say, and what we can’t, for why.",
       "entries": [
         {
           "id": "wilkinson-current-focus",
-          "title": "Speech allegations and a separate device-access allegation",
-          "kind": "Dated court reporting · allegations denied",
+          "title": "Seven counts; trial listed",
+          "kind": "Dated court reporting · limited to the reportable particulars",
           "paragraphs": [
             {
-              "text": "The BBC’s 24 June 2026 report records seven denied counts, continuing bail and a trial listed for 4 January 2027 at Birmingham Crown Court. It attributes Wilkinson’s compliance allegation to non-disclosure of her mobile-phone PIN. This is a historical court report; the present listing and precise charge particulars still need confirmation.",
+              "text": "Court reporting from 24 June 2026 records seven counts before Birmingham Crown Court: two of encouragement of terrorism, two of expressing an opinion or belief supportive of a proscribed organisation, two of disseminating a terrorist publication, and one of failing to comply with a notice under section 49 of the Regulation of Investigatory Powers Act 2000. Bail was continued and a trial is listed for 4 January 2027. Because the counts require a preparatory hearing, we keep to the particulars a report of one may contain until the court confirms which restrictions apply. She is presumed innocent.",
               "sources": [
                 {
                   "id": "wilkinson-bbc-focus"
                 }
               ]
-            },
-            {
-              "text": "one of failing to comply with a police investigation",
-              "sources": [
-                {
-                  "id": "wilkinson-bbc-focus"
-                }
-              ],
-              "quote": true
             }
           ]
         },
@@ -114,24 +105,13 @@
               ]
             },
             {
-              "text": "On indictment the usual maximum is two years; it is five years where the notice’s specified grounds include national security, or in the separately defined child-indecency category. A terrorism-related investigation alone does not establish which maximum applies. The notice and charge particulars must be obtained before attributing a sentencing ceiling to Wilkinson.",
+              "text": "On indictment the usual maximum is two years; it is five years where the notice’s specified grounds include national security, or in the separately defined child-indecency category. A terrorism-related investigation alone does not establish which maximum applies. The notice itself shows which maximum applies in a given case.",
               "sources": [
                 {
                   "id": "ripa-section-fifty-three",
                   "locator": "Section 53(5)–(6)"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "wilkinson-focus-evidence",
-          "title": "The evidence needed to examine the demand",
-          "kind": "Research method",
-          "paragraphs": [
-            {
-              "text": "Our focus is the relationship between the disputed expression, device seizure, the disclosure demand and the separate compliance charge. Obtain the charge sheet or indictment, the notice and authorisation, its terms and deadline, relevant legal rulings and the defence response. Establish the claimed ability to comply and any documented impact on reporting, work and access to communications. The BBC’s description does not itself identify the subsection charged or establish guilt.",
-              "sources": []
             }
           ]
         }
@@ -646,11 +626,11 @@
         },
         {
           "id": "sarah-wilkinson",
-          "title": "Sarah Wilkinson · online publications · Not-guilty pleas; trial reported",
-          "kind": "Case record · Not-guilty pleas; trial reported · Last sourced position: 2026-06-25 · England and Wales · Birmingham Crown Court",
+          "title": "Sarah Wilkinson · online publications · Charged; trial listed",
+          "kind": "Case record · Charged; trial listed · Last sourced position: 2026-06-25 · England and Wales · Birmingham Crown Court",
           "paragraphs": [
             {
-              "text": "June 2026 court reports record seven not-guilty pleas: two encouragement counts, two Hamas-supportive-expression counts, two dissemination counts and one investigation-compliance allegation. The BBC identifies the latter as a mobile-phone PIN allegation and places the listed trial on 4 January 2027, read with its caption specifying January next year. The present listing still requires confirmation.",
+              "text": "June 2026 court reports record seven counts: two of encouragement of terrorism, two of expressing support for a proscribed organisation, two of dissemination, and one of failing to comply with a RIPA section 49 notice. Bail was continued and a trial is listed for 4 January 2027 at Birmingham Crown Court. Further hearing particulars are withheld until the court confirms whether reporting restrictions for preparatory hearings apply.",
               "sources": [
                 {
                   "id": "wilkinson-bbc-focus"
@@ -678,7 +658,7 @@
               "Alleged non-compliance with a RIPA notice"
             ],
             "scope": "hamas",
-            "last_sourced_position": "Not-guilty pleas; trial reported",
+            "last_sourced_position": "Charged; trial listed",
             "status_as_of": "2026-06-25",
             "outcome_type": "charged"
           }

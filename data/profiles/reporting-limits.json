@@ -1,0 +1,1419 @@
+{
+  "id": "reporting-limits",
+  "category": "legal-study",
+  "title": "What we can say, and what we can’t: reporting a live trial",
+  "subtitle": "Active criminal proceedings limit prejudicial publications. They do not suspend public debate. This chapter separates four things that are easy to blur: what the law forbids, what needs a risk assessment, what is protected discussion, and what we choose not to publish.",
+  "summary": "Explaining the law is not itself a crime: the Crown Prosecution Service says so in terms for the offence of encouraging suicide, and we adopt it as our stated working assumption for every offence we discuss. The Contempt of Court Act 1981 forbids publications that create a substantial risk of serious prejudice to active proceedings, whatever the intent; it does not forbid commentary in general, and the threshold is high and fact-specific. Fair and accurate contemporaneous court reports and good-faith discussion of public affairs have statutory protections, each with conditions. Section 2 of the Terrorism Act 2006 needs a terrorist publication, defined conduct, and intention or recklessness; a link is not automatically an offence. We apply all of this to the trial of Sarah Wilkinson, listed for January 2027, and say which of our choices are law and which are house policy.",
+  "scope": "England and Wales. Covers the strict liability rule in the Contempt of Court Act 1981, automatic reporting restrictions for sending and preparatory hearings, and the dissemination offence in section 2 of the Terrorism Act 2006, with one live case as the worked example. It does not cover restrictions that protect particular people, such as complainants in sexual offence cases or children, or contempt by jurors. A court can make case-specific orders, which must be checked case by case.",
+  "status_note": "Legislation, judgments and guidance read from the official texts on 11 November 2026, then revised after a hostile external review of a draft. The Wilkinson details come from police and court reporting; the court has not yet confirmed which hearings were preparatory hearings, whether any order is in force, or the current listing. Nothing here says or implies anything about whether any defendant is guilty. This is legal research about publishing, not legal advice to anyone about what they may post.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-11",
+  "tags": [
+    "uk",
+    "speech-offences",
+    "contempt-of-court",
+    "open-justice",
+    "terrorism"
+  ],
+  "related": [
+    {
+      "id": "speech-offences",
+      "title": "Speech offences: the case register"
+    },
+    {
+      "id": "grossly-offensive",
+      "title": "Grossly offensive: when a message becomes a crime"
+    },
+    {
+      "id": "message-ultra",
+      "title": "Message ultra: one message, six offences"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Is explaining the law a crime?",
+      "value": "No",
+      "detail": "The CPS says so for encouraging suicide. We assume it for every offence, and say so",
+      "target": "explaining-the-law"
+    },
+    {
+      "label": "Who must check for restrictions?",
+      "value": "The publisher",
+      "detail": "HMCTS guidance: find out what restrictions exist before publishing",
+      "target": "checking"
+    },
+    {
+      "label": "Our view of the disputed posts",
+      "value": "Withheld by choice",
+      "detail": "Not every comment on a live case is unlawful. We hold ours back until the case ends",
+      "target": "live-case"
+    }
+  ],
+  "sections": [
+    {
+      "id": "explaining-the-law",
+      "title": "Explaining the law",
+      "intro": "Everything on this site rests on one assumption, so we state it rather than imply it.",
+      "entries": [
+        {
+          "id": "cps-para-35",
+          "title": "The prosecutors’ own words",
+          "kind": "Prosecution policy",
+          "paragraphs": [
+            {
+              "text": "“For the avoidance of doubt, a person who does not do anything other than provide information to another which sets out or explains the legal position in respect of the offence of encouraging or assisting suicide under section 2 of the Suicide Act 1961 does not commit an offence under that section.”",
+              "sources": [
+                {
+                  "id": "cps-suicide",
+                  "locator": "para 35, “Explaining the law”"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The Supreme Court has said something similar about the offence of expressing support for a proscribed organisation: it does not make it an offence to express a personal opinion, to invite others to share it, or even to express support, unless the further elements are proved.",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "para 38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "our-assumption",
+          "title": "Our working assumption, made explicit",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The CPS says this about one offence only: encouraging or assisting suicide. It has not said it about any other offence, and we do not know whether it would. We assume it does. If explaining the law on suicide is not a crime, it would be strange if explaining the law on any other offence were treated more harshly. That is common sense, but common sense should not be assumed, so we state it as our assumption, not as the CPS’s position or a rule of law.",
+              "sources": [
+                {
+                  "id": "cps-suicide",
+                  "locator": "para 35"
+                }
+              ]
+            },
+            {
+              "text": "The assumption also follows from how offences are built. Each one is defined by elements, a prohibited act and a state of mind, which the prosecution must prove. Accurately explaining what a statute says is not the act any of these statutes prohibits. The Supreme Court’s reading of section 12(1A), that even expressing support is not enough without the further elements, points the same way. We know of no offence committed only by accurately explaining the law. If there is one, we want to be told, and we will say so here.",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "paras 38, 82"
+                }
+              ]
+            },
+            {
+              "text": "The assumption has limits. Explaining a law is different from applying it to a named person in a live case, and different from passing on the material a case is about. The rest of this chapter is about those differences.",
+              "sources": [
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(2)"
+                },
+                {
+                  "id": "ta06-s2",
+                  "locator": "s 2(2)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "four-boxes",
+      "title": "Four categories",
+      "intro": "These are editorial categories, not four statutory permissions. The first is what the law forbids. The second needs a risk assessment before anything is published. The third has statutory protection, with conditions. The fourth is our own choice.",
+      "entries": [
+        {
+          "id": "the-boxes",
+          "title": "What goes in each category",
+          "kind": "Our proposal",
+          "table": {
+            "caption": "Four categories, with the live Wilkinson case as the example",
+            "columns": [
+              "Category",
+              "What it means",
+              "The question it answers",
+              "In the Wilkinson case"
+            ],
+            "rows": [
+              [
+                "Legally restricted",
+                "Barred by a statutory restriction or a court order, or meeting the contempt test.",
+                "What must no one publish?",
+                "Anything from a preparatory hearing beyond the listed particulars, if one was held; anything covered by an order, if one exists. Neither is confirmed yet."
+              ],
+              [
+                "Potentially prejudicial",
+                "Not automatically forbidden. Needs a case-by-case assessment of the risk of serious prejudice.",
+                "What needs a risk check first?",
+                "Whether particular posts meet the offences, what she knew, whether she should be convicted. We have not done that assessment, so we do not publish it."
+              ],
+              [
+                "Protected discussion, with conditions",
+                "Fair, accurate, contemporaneous reports of public hearings; good-faith discussion of public affairs where any risk to a trial is merely incidental. A publisher cannot certify this for itself.",
+                "What are we saying?",
+                "The law: the seven elements, the Supreme Court’s full ruling, that context is not automatically support, and the charges as announced and reported."
+              ],
+              [
+                "Withheld by choice",
+                "Material we choose not to publish even where the law might allow it.",
+                "What are we choosing not to say?",
+                "Uncharged material reported elsewhere, any video, her past, and our own opinion of the evidence."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The law does not draw a simple line between reporting and influencing. Contempt needs active proceedings and a publication creating a substantial risk of serious prejudice, which depends on the content, timing and audience. The CPS calls it a high threshold, assessed on the facts of each case. Fair court reports and incidental public-affairs discussion have specific protections; neither is unlimited.",
+              "sources": [
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(2), (3)"
+                },
+                {
+                  "id": "cps-contempt",
+                  "locator": "“the prosecutor’s assessment”"
+                },
+                {
+                  "id": "cca-s4",
+                  "locator": "s 4(1)"
+                },
+                {
+                  "id": "cca-s5",
+                  "locator": "s 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-law",
+      "title": "The law: contempt of court",
+      "intro": "The Contempt of Court Act 1981, read from the text in force. The rule is strict: intention does not matter, but the risk must be substantial and the prejudice serious.",
+      "entries": [
+        {
+          "id": "strict-liability",
+          "title": "Liability without intent",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "“In this Act “the strict liability rule” means the rule of law whereby conduct may be treated as a contempt of court as tending to interfere with the course of justice in particular legal proceedings regardless of intent to do so.”",
+              "sources": [
+                {
+                  "id": "cca-s1",
+                  "locator": "s 1"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The rule applies only to publications: any speech, writing, broadcast or other communication “addressed to the public at large or any section of the public”. Websites, public posts and livestreams qualify. A genuinely private conversation usually does not, but a message to a large group may reach a section of the public, and other laws may still apply.",
+              "sources": [
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(1)"
+                }
+              ]
+            },
+            {
+              "text": "“The strict liability rule applies only to a publication which creates a substantial risk that the course of justice in the proceedings in question will be seriously impeded or prejudiced.”",
+              "sources": [
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(2)"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The CPS lists the kinds of publication that can cross the line: misleading reporting that misrepresents the evidence or the case, reporting “which vilifies a person in the proceedings or presumes their guilt or innocence”, and reporting of extraneous prejudicial evidence. Declaring a defendant innocent, as a fact, can be as much of a problem as declaring them guilty. Stating the legal presumption of innocence is not: every defendant has it until a verdict.",
+              "sources": [
+                {
+                  "id": "cps-contempt",
+                  "locator": "“The strict liability rule”"
+                }
+              ]
+            },
+            {
+              "text": "Only the Attorney General, or a court with jurisdiction, can bring proceedings for strict liability contempt. A superior court can commit to prison for up to two years.",
+              "sources": [
+                {
+                  "id": "cca-s7",
+                  "locator": "s 7"
+                },
+                {
+                  "id": "cca-s14",
+                  "locator": "s 14(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "active",
+          "title": "When the limits start and stop",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Criminal proceedings become active at the first of: arrest without warrant, the issue of a warrant for arrest, the issue of a summons, the service of an indictment or other document specifying the charge, or an oral charge. They stay active until acquittal or sentence, any other verdict or decision that ends the proceedings, or discontinuance. An arrested person who is told they will not be prosecuted is no longer in active proceedings.",
+              "sources": [
+                {
+                  "id": "cca-sch1",
+                  "locator": "paras 3 to 5, 7"
+                }
+              ]
+            },
+            {
+              "text": "A conviction alone does not end the active period: sentence does. An appeal starts a new active period, from the application for leave to appeal or notice of appeal until it is decided or abandoned. If an appeal court orders a retrial, the new proceedings are active from the end of the appeal.",
+              "sources": [
+                {
+                  "id": "cca-sch1",
+                  "locator": "paras 5, 15 and 16"
+                }
+              ]
+            },
+            {
+              "text": "A publisher who took all reasonable care, and did not know and had no reason to suspect that proceedings were active, has a defence. Once an arrest has been reported, that defence is hard to use.",
+              "sources": [
+                {
+                  "id": "cca-s3",
+                  "locator": "s 3(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fair-reports",
+          "title": "Two protections: reports and public debate",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "“Subject to this section a person is not guilty of contempt of court under the strict liability rule in respect of a fair and accurate report of legal proceedings held in public, published contemporaneously and in good faith.”",
+              "sources": [
+                {
+                  "id": "cca-s4",
+                  "locator": "s 4(1)"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The court can order that reports of the proceedings, or part of them, be postponed, where that is necessary to avoid a substantial risk of prejudice to those or other pending proceedings. A report that breaches such an order is not protected.",
+              "sources": [
+                {
+                  "id": "cca-s4",
+                  "locator": "s 4(2)"
+                }
+              ]
+            },
+            {
+              "text": "“A publication made as or as part of a discussion in good faith of public affairs or other matters of general public interest is not to be treated as a contempt of court under the strict liability rule if the risk of impediment or prejudice to particular legal proceedings is merely incidental to the discussion.”",
+              "sources": [
+                {
+                  "id": "cca-s5",
+                  "locator": "s 5"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "section-5-limits",
+          "title": "Section 5 is not a label",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Every condition in section 5 is a question of fact: good faith, a discussion of public affairs, and a risk that is merely incidental to that discussion. A page does not earn the protection by calling itself research. The closer a publication comes to the evidence in one live case, the less incidental any risk looks. That is why our case-specific material stays at the level of the charges and the law.",
+              "sources": [
+                {
+                  "id": "cca-s5",
+                  "locator": "s 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cases",
+      "title": "Two cases",
+      "intro": "Two Divisional Court decisions show where the line has fallen. One involved a livestream outside a courtroom, the other a photograph on a newspaper website.",
+      "entries": [
+        {
+          "id": "yaxley-lennon",
+          "title": "A livestream outside a courtroom",
+          "kind": "High Court judgment",
+          "date": "2019-07-09",
+          "citation": "HM Attorney General v Yaxley-Lennon [2019] EWHC 1791 (QB)",
+          "paragraphs": [
+            {
+              "text": "On 25 May 2018, while a jury was considering its verdicts in a long sexual offences trial at Leeds Crown Court, Stephen Yaxley-Lennon (also known as Tommy Robinson) livestreamed video from outside the court to a Facebook page liked or followed by some 1.2 million people.",
+              "sources": [
+                {
+                  "id": "yaxley",
+                  "locator": "para 2"
+                }
+              ]
+            },
+            {
+              "text": "The court found contempt in three respects: breach of an order postponing reports of the trial; publishing content that created a substantial risk that the course of justice would be seriously impeded; and aggressively confronting and filming defendants as they arrived, which interfered directly with the course of justice.",
+              "sources": [
+                {
+                  "id": "yaxley",
+                  "locator": "para 4"
+                }
+              ]
+            },
+            {
+              "text": "“The purpose of the law of contempt of court is to protect the integrity of legal proceedings, the administration of justice, and ultimately the rule of law, which is vital to the protection of the rights of every citizen.”",
+              "sources": [
+                {
+                  "id": "yaxley",
+                  "locator": "para 4"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "photograph",
+          "title": "A photograph online for under five hours",
+          "kind": "High Court judgment",
+          "date": "2011-03-03",
+          "citation": "Attorney General v Associated Newspapers Ltd and News Group Newspapers Ltd [2011] EWHC 418 (Admin)",
+          "paragraphs": [
+            {
+              "text": "On the first day of a murder trial at Sheffield Crown Court, where the defence was self-defence, Mail Online published a picture of the defendant holding a pistol. It stayed up for 4 hours and 54 minutes. Overnight, Sun Online published the same picture, cropped for the paper to hide the gun but cropped for the website so that the barrel showed. Both publishers accepted these were mistakes. The trial judge was satisfied no juror had seen either picture.",
+              "sources": [
+                {
+                  "id": "anl",
+                  "locator": "paras 3, 6, 12, 14, 52"
+                }
+              ]
+            },
+            {
+              "text": "The court held that the risk is judged at the moment of publication, looking forward. That the jury did not in fact see the picture did not show there had been no substantial risk.",
+              "sources": [
+                {
+                  "id": "anl",
+                  "locator": "para 25"
+                }
+              ]
+            },
+            {
+              "text": "How long material stays up matters. Publication happens the moment it is posted, but the risk is judged on all the circumstances, including how long it remained available and at what times of day.",
+              "sources": [
+                {
+                  "id": "anl",
+                  "locator": "para 27"
+                }
+              ]
+            },
+            {
+              "text": "“Visual images are designed for impact; that is why any editor would be keen to use them to add to the impact of the news story.”",
+              "sources": [
+                {
+                  "id": "anl",
+                  "locator": "para 41"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "“…since the statute imposes a strict liability, notwithstanding that publication of the image of the accused with a pistol was a mistake, both defendants were guilty of contempt.”",
+              "sources": [
+                {
+                  "id": "anl",
+                  "locator": "para 55"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "cases-lesson",
+          "title": "What the two cases do and do not show",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The cases show three distinct risks: breaching a postponement order, interfering directly with the people in a case, and putting extraneous prejudicial material where jurors could see it. They do not show that holding or voicing an opinion about a pending case is forbidden. Exposure, timing, audience and the precise kind of interference all mattered. Mistakes were no defence, so we decide what to hold back before we publish, not after.",
+              "sources": [
+                {
+                  "id": "yaxley",
+                  "locator": "para 4"
+                },
+                {
+                  "id": "anl",
+                  "locator": "paras 27, 41, 55"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checking",
+      "title": "How to know if restrictions apply",
+      "intro": "There are two layers: the strict liability rule, which applies to every active case without any order, and specific restrictions, some automatic by statute and some made by a court. Not hearing from the court is not permission. Finding out is the publisher’s job.",
+      "entries": [
+        {
+          "id": "publishers-job",
+          "title": "The duty is on the publisher",
+          "kind": "Official guidance",
+          "paragraphs": [
+            {
+              "text": "“It is, however, the responsibility of the publisher to find out what reporting restrictions exist prior to publication.”",
+              "sources": [
+                {
+                  "id": "hmcts-media-guide",
+                  "locator": "p 2"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "HMCTS tells court staff that the media should be given advance notice of applications for reporting restrictions and a chance to make representations, that orders should be written up promptly in clear and precise terms, and that staff should not advise journalists on what an order means: journalists should take their own legal advice. After the plea and trial preparation hearing, staff can confirm the charges on the indictment.",
+              "sources": [
+                {
+                  "id": "hmcts-media-guide",
+                  "locator": "pp 2 to 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "automatic",
+          "title": "Restrictions that need no order",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "When a magistrates’ court sends a case to the Crown Court, a report of that hearing may contain only listed basic facts, such as the court, the defendant’s name, age, address and occupation, and the charges, until the trial ends, unless the court lifts the restriction.",
+              "sources": [
+                {
+                  "id": "cda-s52a",
+                  "locator": "s 52A(1), (6), (7)"
+                }
+              ]
+            },
+            {
+              "text": "A Crown Court judge must order a preparatory hearing in every case where the indictment includes a terrorism offence, and section 12 of the Terrorism Act 2000 is on the list. Where one is ordered, the trial formally starts with that hearing, months before a jury is sworn.",
+              "sources": [
+                {
+                  "id": "cpia-s29",
+                  "locator": "s 29(1B), (6)(a)"
+                },
+                {
+                  "id": "cpia-s30",
+                  "locator": "s 30"
+                }
+              ]
+            },
+            {
+              "text": "A preparatory hearing, and any appeal from it, may not be reported beyond a short list of particulars unless the judge or the appeal court orders otherwise. The list is: the court and the judge; the names, ages, home addresses and occupations of the accused and witnesses; the offences charged, or a summary; the lawyers; where and when the hearing is adjourned to; bail; and legal aid. Pleas and arguments are not on it.",
+              "sources": [
+                {
+                  "id": "cpia-s37",
+                  "locator": "s 37(1) to (5), (9)"
+                }
+              ]
+            },
+            {
+              "text": "“Note – The provisions of section 37 of the Criminal Procedure and Investigation Act 1996 apply to the proceedings in the preparatory hearings in these cases. No order has been made in the Crown Court that section 37(1) shall not apply. An order is now made that section 37(1) shall not apply to this judgment. Unless and until any further order is made, only this judgment, and those particulars identified in section 37(9) of the 1996 Act may be reported until the conclusion of both sets of proceedings in the Crown Court .”",
+              "sources": [
+                {
+                  "id": "abj-ca",
+                  "locator": "note on page 2"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "That is the note at the head of the Court of Appeal’s judgment in the two section 12(1A) cases that later reached the Supreme Court. The legal ruling could be reported; the rest of those preparatory hearings could not. It is also why the defendants are known only by letters.",
+              "sources": [
+                {
+                  "id": "abj-ca",
+                  "locator": "note on page 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "orders",
+          "title": "Orders a court can make",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "A court can postpone reports of all or part of a hearing to avoid a substantial risk of prejudice. Other orders, outside the scope of this chapter, protect particular people. An order is specific to the case, so each one has to be found and read.",
+              "sources": [
+                {
+                  "id": "cca-s4",
+                  "locator": "s 4(2)"
+                }
+              ]
+            },
+            {
+              "text": "The Attorney General also publishes media advisory notices in high-profile cases. They add no new law, but say what the Attorney General is watching for: “material that asserts or assumes the guilt” of a defendant, and “matters adverse to his character, the admissibility of which a Judge in due course may need to determine”.",
+              "sources": [
+                {
+                  "id": "ago-couzens"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "our-check",
+          "title": "Our check before publishing about a live case",
+          "kind": "Our proposal",
+          "paragraphs": [
+            {
+              "text": "Before we publish anything about an active case we will: ask the court’s listing office in writing whether any order or automatic restriction applies; read the header of any judgment we cite for a restrictions notice; search the Attorney General’s media advisory notices; and keep case-specific material to the charges and the law. Until a restriction’s scope is confirmed, we do not add granular hearing content.",
+              "sources": [
+                {
+                  "id": "hmcts-media-guide",
+                  "locator": "p 2"
+                },
+                {
+                  "id": "cca-s4",
+                  "locator": "s 4(2)"
+                },
+                {
+                  "id": "cpia-s37",
+                  "locator": "s 37(1), (9)"
+                }
+              ]
+            },
+            {
+              "text": "For every page that touches a live case we record, in the page’s data: the proceedings it touches and when they became active; whether it addresses evidence or only law and the published charges; any order or automatic restriction found, and how we checked; our assessment of the risk and the reasons; and who signed it off, and when.",
+              "sources": [
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(2), (3)"
+                },
+                {
+                  "id": "hmcts-media-guide",
+                  "locator": "p 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "before-restrictions",
+          "title": "Can you publish before restrictions start?",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The strict liability rule depends on when proceedings become active and when material is published, not on the first court order. Here, reporting places the arrest in August 2024, so there has been no window since then free of the rule. Material put online before proceedings became active is not caught when it is posted. If it stays up afterwards, its continued availability is part of the risk assessment, as the Mail Online case shows, so it should be reviewed when an arrest is reported or an order is made.",
+              "sources": [
+                {
+                  "id": "cca-sch1",
+                  "locator": "para 4"
+                },
+                {
+                  "id": "anl",
+                  "locator": "para 27"
+                },
+                {
+                  "id": "wmp-charge"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terrorist-material",
+      "title": "A separate offence: terrorist material",
+      "intro": "Section 2 of the Terrorism Act 2006 is a separate offence from contempt and does not end with the case. Whether particular circulation or linking is criminal depends on the statutory definitions, the conduct and the mental element. Our refusal to host or link the disputed video is more cautious than the law strictly requires, and we say so.",
+      "entries": [
+        {
+          "id": "dissemination",
+          "title": "What the offence requires",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "The offence needs one of the listed acts, such as distributing or circulating a terrorist publication, transmitting its contents electronically, or providing “a service to others that enables them to obtain, read, listen to or look at such a publication”. It also needs intention to encourage or assist terrorism, or recklessness as to that effect. The maximum sentence on indictment is 15 years.",
+              "sources": [
+                {
+                  "id": "ta06-s2",
+                  "locator": "s 2(1), (2), (11)"
+                }
+              ]
+            },
+            {
+              "text": "A publication is a terrorist publication if it is likely to be understood by a reasonable person as directly or indirectly encouraging terrorism, or as useful to terrorists and provided mainly for that purpose. Indirect encouragement includes glorification, but only where a person could reasonably infer the conduct is held up as conduct to emulate. The publication is judged as a whole, in the circumstances of the conduct.",
+              "sources": [
+                {
+                  "id": "ta06-s2",
+                  "locator": "s 2(3) to (5)"
+                }
+              ]
+            },
+            {
+              "text": "Section 2(9) gives a limited defence, for the encouragement limb only, where the person was not proved to intend encouragement and shows the material neither expressed their views nor had their endorsement, and that this was clear in all the circumstances. It is not a general exemption for research or journalism. Equally, the absence of the defence does not establish guilt where another element is missing.",
+              "sources": [
+                {
+                  "id": "ta06-s2",
+                  "locator": "s 2(9), (10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "our-rule",
+          "title": "Our policy on the video",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "We do not embed, host or link the disputed video, before or after the verdict, without a separate legal review. A link can be the kind of service section 2(2)(d) describes, but a link alone does not prove the offence: the nature of the material, the conduct and the mental element must all be established. We can explain the law without circulating the material, so we do.",
+              "sources": [
+                {
+                  "id": "ta06-s2",
+                  "locator": "s 2(2)(d), (9)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-test",
+      "title": "What the jury will be asked",
+      "intro": "The Supreme Court set out the section 12(1A) test in February 2026, in appeals by two defendants known only by letters. It unanimously dismissed the appeals and upheld the offence as compatible with freedom of expression, while setting out exactly what must be proved and expecting judges to stop weak cases. It decided the law, not anyone’s guilt, and it concerns only one of the four offences charged in the Wilkinson case.",
+      "entries": [
+        {
+          "id": "seven-elements",
+          "title": "Seven elements, all to be proved",
+          "kind": "Supreme Court judgment",
+          "date": "2026-02-26",
+          "citation": "R v ABJ; R v BDN [2026] UKSC 8",
+          "table": {
+            "caption": "Section 12(1A) of the Terrorism Act 2000: what the prosecution must prove, from the Supreme Court’s summary",
+            "columns": [
+              "Element",
+              "What must be proved"
+            ],
+            "rows": [
+              [
+                "1. Expression",
+                "The defendant expressed an opinion or belief."
+              ],
+              [
+                "2. Objectively supportive",
+                "The opinion or belief was objectively supportive of an organisation, judged by how the words would naturally and reasonably have been understood in the circumstances. A question of fact."
+              ],
+              [
+                "3. Knowledge",
+                "The defendant knew they were expressing an opinion or belief supportive of the organisation."
+              ],
+              [
+                "4. Proscription",
+                "The organisation was proscribed at the time."
+              ],
+              [
+                "5. Risk",
+                "There was a risk that a person to whom the expression was directed would be encouraged to support the organisation."
+              ],
+              [
+                "6. Awareness of the risk",
+                "The defendant knew of that risk."
+              ],
+              [
+                "7. Unreasonable",
+                "Taking that risk was objectively unreasonable in the circumstances known to the defendant."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "“That provision does not make it an offence to express a personal opinion or belief, or to invite someone else to share that opinion or belief. Nor does it make it an offence to express support for a proscribed organisation. Proof that a person had done so would not be sufficient to support a conviction.”",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "para 38"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The court summarised the ingredients of the offence in seven points. The table follows its words closely.",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "para 82"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "compatibility",
+          "title": "The other half: the offence was upheld",
+          "kind": "Supreme Court judgment",
+          "date": "2026-02-26",
+          "paragraphs": [
+            {
+              "text": "“Viewed against the background of the foregoing analysis of the European case law, it is reasonable to conclude that, where all the elements of an offence under section 12(1A) are established, as set out in para 82 above, the interference with freedom of expression is in principle justifiable.”",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "para 129"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The court rejected the argument that the offence is too vague, or strikes the wrong balance, to be compatible with Convention rights. It also rejected the argument that a trial court must make a separate proportionality assessment after the elements are proved: “There is no need for any further assessment by a trial court”. All five justices agreed.",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "paras 134 to 136"
+                }
+              ]
+            },
+            {
+              "text": "Its two qualifications: the judge must make sure the evidence is enough for a reasonable jury to be sure of every element, and must make sure any sentence is proportionate.",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "paras 129, 133, 138"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "title": "Context is not automatically support",
+          "kind": "Supreme Court judgment",
+          "date": "2026-02-26",
+          "paragraphs": [
+            {
+              "text": "“For example, a responsible discussion of the conflict in Gaza, which sought to place the events of 7 October 2023 in the context of the history of Israel’s treatment of the Palestinians, would not constitute the expression of an opinion which was supportive of Hamas, even if it tended to make their actions more understandable.”",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "para 67"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The offence does not prohibit views supportive of an organisation’s aims, such as a united Ireland or the ending of the Israeli occupation of Palestinian territory. It prohibits only the reckless encouragement of support for the organisation itself.",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "para 109"
+                }
+              ]
+            },
+            {
+              "text": "“In view of the importance of freedom of expression, and the risk that an overly broad application of section 12(1A) might discourage legitimate public debate, judges should be robust in exercising that power.”",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "para 131"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The power is the judge’s duty to stop a trial on a submission of no case to answer, if a reasonable jury could not be sure that every element is proved.",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "para 131"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "live-case",
+      "title": "Applying it: one live case",
+      "intro": "Sarah Wilkinson’s jury trial is listed for January 2027. She denies the charges and is presumed innocent. Here is each category, filled in.",
+      "entries": [
+        {
+          "id": "can-say-charge",
+          "title": "The charges",
+          "kind": "Police announcement and news agency court reporting",
+          "date": "2025-10-06",
+          "table": {
+            "caption": "One investigation, four offences in three Acts: counts as announced at charge and as reported from November 2025",
+            "columns": [
+              "Offence",
+              "Provision",
+              "At charge (October 2025)",
+              "Reported November 2025 and June 2026"
+            ],
+            "rows": [
+              [
+                "Encouragement of terrorism",
+                "Terrorism Act 2006, s 1",
+                "1",
+                "2"
+              ],
+              [
+                "Dissemination of terrorist publications",
+                "Terrorism Act 2006, s 2",
+                "1",
+                "2"
+              ],
+              [
+                "Expressing an opinion supportive of a proscribed organisation",
+                "Terrorism Act 2000, s 12(1A)",
+                "2",
+                "2"
+              ],
+              [
+                "Failing to comply with a section 49 notice",
+                "Regulation of Investigatory Powers Act 2000, s 53",
+                "1",
+                "1"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Counter Terrorism Policing West Midlands announced on 6 October 2025 that Sarah Wilkinson, then 62, of Bishop’s Castle, had been charged the previous day with five offences, and was due at Westminster Magistrates’ Court on 20 October. It said she had been arrested in August 2024 and bailed while the investigation continued.",
+              "sources": [
+                {
+                  "id": "wmp-charge"
+                }
+              ]
+            },
+            {
+              "text": "The announcement swapped the years of the two Terrorism Acts. Encouragement and dissemination are offences under sections 1 and 2 of the Terrorism Act 2006. The offence of expressing a supportive opinion is section 12(1A) of the Terrorism Act 2000, inserted in 2019. Failing to comply with a section 49 notice is an offence under section 53 of the Regulation of Investigatory Powers Act 2000. The table uses the correct Acts.",
+              "sources": [
+                {
+                  "id": "wmp-charge"
+                },
+                {
+                  "id": "ta06-s1",
+                  "locator": "s 1"
+                },
+                {
+                  "id": "ta06-s2",
+                  "locator": "s 2(1)"
+                },
+                {
+                  "id": "tact-s12",
+                  "locator": "s 12(1A)"
+                },
+                {
+                  "id": "abj",
+                  "locator": "para 34"
+                },
+                {
+                  "id": "ripa-s53",
+                  "locator": "s 53(1)"
+                }
+              ]
+            },
+            {
+              "text": "By 14 November 2025, PA Media reported seven counts: two of encouraging terrorism, two of disseminating a terrorist publication, two of expressing support for a proscribed organisation, and one of failing to comply with a section 49 notice, all relating to 2024. The court was the Old Bailey and the judge Mrs Justice Cheema-Grubb. The case was adjourned to a plea hearing on 13 March 2026 and a provisional trial from 4 January 2027 at Birmingham Crown Court, and bail was continued.",
+              "sources": [
+                {
+                  "id": "pa-nov2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "can-say",
+          "title": "The June 2026 hearing",
+          "kind": "Court reporting, limited to the listed particulars",
+          "date": "2026-06-24",
+          "paragraphs": [
+            {
+              "text": "The case was before Birmingham Crown Court on 24 June 2026. The offences charged, in summary: two of encouragement of terrorism, two of expressing an opinion or belief supportive of a proscribed organisation, namely Hamas, two of disseminating a terrorist publication, and one of failing to comply with a section 49 notice. The case was adjourned for trial from 4 January 2027, and conditional bail was continued.",
+              "sources": [
+                {
+                  "id": "wilkinson-pleas"
+                }
+              ]
+            },
+            {
+              "text": "That is all we report from the hearings, because it is all a report of a preparatory hearing may contain, and we do not yet know which hearings were preparatory hearings. She is presumed innocent.",
+              "sources": [
+                {
+                  "id": "cpia-s37",
+                  "locator": "s 37(9)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "restrictions-here",
+          "title": "Which restrictions apply here",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The counts include section 12(1A), so a preparatory hearing must be ordered, and reports of it are limited to the section 37(9) particulars unless the judge lifts the restriction. We have not confirmed which hearings so far were preparatory hearings, or whether any order has been made. Several outlets reported the pleas, but pleas are not among the section 37(9) particulars, and a defendant is arraigned at the start of a preparatory hearing if not before. So until the court confirms, we keep to the particulars: the offences in summary, the courts and judge, adjournments and bail. We intend to ask Birmingham Crown Court; until we have an answer, we add nothing more.",
+              "sources": []
+            },
+            {
+              "text": "“Trial” can mean two things here. Where a preparatory hearing is ordered, the trial formally starts with it, so a pre-trial hearing can accurately be called part of the trial. We use “trial” for the jury trial listed for January 2027.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "cannot-say",
+          "title": "Case-specific commentary we currently withhold",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "We do not publish our own view of whether particular posts meet any element of any offence, what she knew, whether anyone was likely to be encouraged, or whether she should be convicted. This is a cautious editorial choice while proceedings are active. Such commentary is not automatically unlawful, but depending on its content, timing and audience it could create the risk the strict liability rule exists to prevent, and we have not done the case-specific assessment that would justify it.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "are-saying",
+          "title": "What we are saying",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "We explain the general law: the seven elements of section 12(1A), the Supreme Court’s decision that the offence is compatible with freedom of expression, and its insistence on robust scrutiny of weak cases. We distinguish placing 7 October in context from supporting a proscribed organisation. We report, with attribution, that police announced five counts in October 2025 and that seven were reported by November 2025. Our assessment, made before publishing: about the live case this page repeats only the offences charged, the courts, adjournments and bail, all reported elsewhere and all within the particulars a preparatory-hearing report may carry. It says nothing about the evidence, the defendant’s knowledge or character, or the likely verdict. Everything else is the general law. On that basis we judge that it creates no substantial risk of serious prejudice. We do not rely on section 5 to reach that view, and we do not claim the label “research” settles it.",
+              "sources": [
+                {
+                  "id": "abj",
+                  "locator": "paras 67, 82, 129, 131"
+                },
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(2)"
+                },
+                {
+                  "id": "cpia-s37",
+                  "locator": "s 37(9)"
+                },
+                {
+                  "id": "wmp-charge"
+                },
+                {
+                  "id": "pa-nov2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "not-saying",
+          "title": "What we withhold by choice",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "In researching this case we found further material that we are not publishing while proceedings are active. We hold it privately, outside this website. We do not describe it, date it or link to it, or to anyone who reported it. Withholding it does not mean it is relevant, admissible or incriminating. We will review it when the case ends; some of it we will not publish at any time.",
+              "sources": [],
+              "embargo": true
+            },
+            {
+              "text": "We are also not publishing her earlier political history or past disputes. Whether a jury hears about a defendant’s past is for the trial judge to decide under the rules of evidence, not for a publisher.",
+              "sources": []
+            },
+            {
+              "text": "Nor will we publish drafts we were offered that set reported but uncharged material next to her name with a note that its meaning “should not be assumed”. A disclaimer does not change what a reader takes from the juxtaposition, and the Attorney General warns specifically about untested and unconnected allegations.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "why-withheld",
+          "title": "Why “it is already public” does not settle it",
+          "kind": "Case law and our reasoning",
+          "paragraphs": [
+            {
+              "text": "Each publication is judged on its own facts. The Mail Online and Sun photograph had been taken from a social networking page: it was already public, and its publication during the trial was still a contempt. Earlier availability is not a defence, though it can bear on how much extra risk a new publication adds. A link sends readers to the same material, so we treat linking to an outlet that published it the same way as publishing it. That is our policy; whether a link is itself a publication is not settled law.",
+              "sources": [
+                {
+                  "id": "anl"
+                },
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(2)"
+                }
+              ]
+            },
+            {
+              "text": "Pieces that are harmless alone can be put together. Courts call this jigsaw identification. On 25 March 2021 the High Court of Justiciary found the former ambassador Craig Murray in contempt for publishing material likely to lead to the identification of complainers in the trial of Alex Salmond, protected by an order under section 11 of the Contempt of Court Act 1981, which applies in Scotland as in England. The order continued after the trial ended in acquittal. On 11 May 2021 he was sentenced to eight months’ imprisonment, and the court later held the sentence proportionate.",
+              "sources": [
+                {
+                  "id": "murray-hcj2",
+                  "locator": "paras 1, 3"
+                },
+                {
+                  "id": "murray-sentence"
+                },
+                {
+                  "id": "murray-refusal"
+                }
+              ]
+            },
+            {
+              "text": "Murray breached a court order protecting identified people. No order covers the material we hold, and the legal test for us is the strict liability rule. We use his case only to show how pieces combine, and apply it by analogy as policy: a quoted phrase is a search term, and a date narrows the search. That is why we do not give the wording or the date. We found the material; that does not mean a reader will, and we will not make it easier. Jurors are told not to research their case, and the rule exists because finding things online is easy.",
+              "sources": [
+                {
+                  "id": "murray-hcj2"
+                },
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "our-view",
+          "title": "Our view: the cost of silence",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "We would rather live in a jurisdiction where people can discuss the evidence and the law while a trial is running, and educate each other about both. Other systems manage the same risk differently. In the United States, jurors are protected mainly through jury selection and the judge’s directions, and the Supreme Court held in 1976 that orders stopping the press from reporting a case are presumptively unconstitutional. In England and Wales the law protects juries by limiting what everyone else may say. That has a real cost: the public learns least about a case while it matters most. We follow the law as it is, say openly what it stops us saying, and argue for change.",
+              "sources": [
+                {
+                  "id": "nebraska"
+                },
+                {
+                  "id": "cca-s2",
+                  "locator": "s 2(2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "after-verdict",
+          "title": "What changes when the case ends",
+          "kind": "Our proposal",
+          "paragraphs": [
+            {
+              "text": "The active period ends with acquittal or, after a conviction, with sentence, and an appeal opens a new one. When the case ends we will reassess: any appeal, any remaining orders, the provenance of the material, and the risk of circulating it. Reporting the verdict will not prove anything about material that was never before the court. Our policy on the video is a separate decision and does not lapse with the verdict.",
+              "sources": [
+                {
+                  "id": "cca-sch1",
+                  "locator": "paras 5, 15"
+                },
+                {
+                  "id": "cca-s4",
+                  "locator": "s 4(1)"
+                },
+                {
+                  "id": "ta06-s2",
+                  "locator": "s 2(2)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "Method",
+      "intro": "How this chapter was checked, and how it changed.",
+      "entries": [
+        {
+          "id": "method-note",
+          "title": "Drafts, a hostile review, and the texts",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "This chapter began from three drafts written by AI tools and pasted in by the publisher. Each statement was checked against the legislation, the judgments, official guidance and court reporting. The drafts had placed the encouragement and dissemination offences in the Terrorism Act 2000; both are in the Terrorism Act 2006. One draft included the defendant’s earlier political history; we left it out. The police charge announcement gives the Act years the wrong way round; we use the correct Acts.",
+              "sources": []
+            },
+            {
+              "text": "A first version was then given a hostile external review. We accepted its main criticisms: the first version presented our editorial caution as if it were the law, treated section 5 as near-automatic, implied that a link is automatically dissemination, and gave only half of the Supreme Court’s ruling. The review also found a PA Media report showing seven counts by November 2025, and secondary accounts that disagree on the arrest date (28 or 29 August 2024) and the number of officers present. We state only “August 2024”, which the police confirm. A second round of five reviews followed. We accepted: making clear that the CPS spoke about one offence and the extension is our own assumption; separating the presumption of innocence from declaring innocence; keeping hearing reports to the section 37(9) particulars until the court confirms; and removing a reference to uncharged material. We did not accept advice to drop the working assumption; we restated it as ours. Paragraph numbers are from the National Archives texts. The January 2027 listing should be confirmed nearer the date.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cca-s1",
+      "title": "Contempt of Court Act 1981, section 1: the strict liability rule",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/49/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cca-s2",
+      "title": "Contempt of Court Act 1981, section 2: limitation of scope of strict liability",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/49/section/2",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cca-s3",
+      "title": "Contempt of Court Act 1981, section 3: defence of innocent publication or distribution",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/49/section/3",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cca-s4",
+      "title": "Contempt of Court Act 1981, section 4: contemporary reports of proceedings",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/49/section/4",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cca-s5",
+      "title": "Contempt of Court Act 1981, section 5: discussion of public affairs",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/49/section/5",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cca-s7",
+      "title": "Contempt of Court Act 1981, section 7: consent required for institution of proceedings",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/49/section/7",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cca-s14",
+      "title": "Contempt of Court Act 1981, section 14: proceedings in England and Wales",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/49/section/14",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cca-sch1",
+      "title": "Contempt of Court Act 1981, Schedule 1: times when proceedings are active",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/49/schedule/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "yaxley",
+      "title": "HM Attorney General v Yaxley-Lennon [2019] EWHC 1791 (QB)",
+      "publisher": "High Court, Divisional Court (Dame Victoria Sharp P and Warby J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2019/1791",
+      "date": "2019-07-09",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "anl",
+      "title": "Attorney General v Associated Newspapers Ltd and News Group Newspapers Ltd [2011] EWHC 418 (Admin)",
+      "publisher": "High Court, Divisional Court (Moses LJ and Owen J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2011/418",
+      "date": "2011-03-03",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "hmcts-media-guide",
+      "title": "Jurisdictional guidance to support media access to courts and tribunals: criminal courts guide (October 2026, version 4)",
+      "publisher": "HM Courts & Tribunals Service",
+      "type": "Official guidance",
+      "url": "https://assets.publishing.service.gov.uk/media/6abe84dff04a15f5337228ba/HMCTS1151_Media_Guidance_-_Criminal_Court_Guide_Oct_2026_v4.pdf",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cda-s52a",
+      "title": "Crime and Disorder Act 1998, section 52A: restrictions on reporting allocation or sending proceedings",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/37/section/52A",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cpia-s29",
+      "title": "Criminal Procedure and Investigations Act 1996, section 29: power to order preparatory hearing",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1996/25/section/29",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cpia-s30",
+      "title": "Criminal Procedure and Investigations Act 1996, section 30: start of trial and arraignment",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1996/25/section/30",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cpia-s37",
+      "title": "Criminal Procedure and Investigations Act 1996, section 37: restrictions on reporting preparatory hearings",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1996/25/section/37",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "abj-ca",
+      "title": "ABJ v Rex; BDN v Rex [2024] EWCA Crim 1597",
+      "publisher": "Court of Appeal, Criminal Division (Baroness Carr of Walton-on-the-Hill CJ, Edis LJ and Murray J)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2024/12/ABJ-v-Rex-and-BDN-v-Rex-judgment.pdf",
+      "date": "2024-12-24",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ago-couzens",
+      "title": "Media Advisory Notice: Wayne Couzens",
+      "publisher": "Attorney General’s Office",
+      "type": "Media advisory notice",
+      "url": "https://www.gov.uk/government/news/media-advisory-notice-wayne-couzens",
+      "date": "2022-11-30",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "wmp-charge",
+      "title": "Shropshire woman charged with supporting a banned terrorist organisation",
+      "publisher": "West Mercia Police (Counter Terrorism Policing West Midlands)",
+      "type": "Police announcement",
+      "url": "https://www.westmercia.police.uk/news/west-mercia/news/2025/october/shropshire-woman-charged-with-supporting-a-banned-terrorist-organisation/",
+      "date": "2025-10-06",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ta06-s2",
+      "title": "Terrorism Act 2006, section 2: dissemination of terrorist publications",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/11/section/2",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "abj",
+      "title": "R v ABJ; R v BDN [2026] UKSC 8",
+      "publisher": "UK Supreme Court (Lord Reed, with whom Lord Lloyd-Jones, Lord Sales, Lord Burrows and Lord Richards agree)",
+      "type": "Judgment (Supreme Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2026/8",
+      "date": "2026-02-26",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ta06-s1",
+      "title": "Terrorism Act 2006, section 1: encouragement of terrorism",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/11/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "tact-s12",
+      "title": "Terrorism Act 2000, section 12: support",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/12",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ripa-s53",
+      "title": "Regulation of Investigatory Powers Act 2000, section 53: failure to comply with a notice",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/23/section/53",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "wilkinson-pleas",
+      "title": "Bishop’s Castle woman to stand trial after denying terrorism charges",
+      "publisher": "Shropshire Live",
+      "type": "Court reporting",
+      "url": "https://www.shropshirelive.com/news/2026/06/25/bishops-castle-woman-to-stand-trial-after-denying-terrorism-charges/",
+      "date": "2026-06-25",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cps-suicide",
+      "title": "Suicide: Policy for Prosecutors in Respect of Cases of Encouraging or Assisting Suicide (February 2010, updated October 2014)",
+      "publisher": "Crown Prosecution Service",
+      "type": "Prosecution policy",
+      "url": "https://www.cps.gov.uk/prosecution-guidance/suicide-policy-prosecutors-respect-cases-encouraging-or-assisting-suicide",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cps-contempt",
+      "title": "Contempt of court: prosecution guidance",
+      "publisher": "Crown Prosecution Service",
+      "type": "Prosecution guidance",
+      "url": "https://www.cps.gov.uk/prosecution-guidance/contempt-court",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "pa-nov2025",
+      "title": "62-year-old woman faces trial over alleged Hamas support (Emily Pennink, PA Old Bailey correspondent)",
+      "publisher": "PA Media, via Rayo",
+      "type": "News agency court reporting",
+      "url": "https://www.hellorayo.co.uk/news/uk/news/sarah-wilkinson-hamas-trial",
+      "date": "2025-11-14",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "murray-hcj2",
+      "title": "HM Advocate v Craig Murray [2021] HCJ 2",
+      "publisher": "High Court of Justiciary (Lady Dorrian, Lord Justice Clerk; Lord Menzies; Lord Turnbull)",
+      "type": "Judgment (High Court of Justiciary)",
+      "url": "https://www.scotcourts.gov.uk/media/mmyirfpd/high-court-judgment-hma-against-craig-murray-25-march-2021.pdf",
+      "date": "2021-03-25",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "murray-sentence",
+      "title": "Craig Murray: Petition and Complaint (sentencing statement)",
+      "publisher": "Judiciary of Scotland",
+      "type": "Sentencing statement",
+      "url": "https://www.judiciary.scot/home/sentences-judgments/sentences-and-opinions/2021/05/11/craig-murray-petition-and-complaint",
+      "date": "2021-05-11",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "murray-refusal",
+      "title": "Ex-diplomat found in contempt of court over Salmond case refused permission to appeal to Supreme Court",
+      "publisher": "Scottish Legal News",
+      "type": "Legal news report of a judgment (High Court of Justiciary)",
+      "url": "https://www.scottishlegal.com/article/ex-diplomat-found-in-contempt-of-court-over-salmond-case-refused-permission-to-appeal-to-supreme-court",
+      "date": "2021-06-10",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "nebraska",
+      "title": "Nebraska Press Association v Stuart, 427 U.S. 539 (1976)",
+      "publisher": "Supreme Court of the United States",
+      "type": "Judgment (foreign court)",
+      "url": "https://supreme.justia.com/cases/federal/us/427/539/",
+      "date": "1976-06-30",
+      "checked": "2026-11-11"
+    }
+  ]
+}

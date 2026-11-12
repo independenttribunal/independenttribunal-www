@@ -3,7 +3,7 @@
   "path": "/speech-offences/",
   "title": "Speech offences",
   "lede": "Words the state can punish, and words it cannot.",
-  "intro": "A category on the law of saying things in the UK: what turns words into a crime, what makes them a civil wrong, and where the lines run. Each chapter is sourced to the statutes and the judgments, commentary is labelled as commentary, and acquittals get the same prominence as convictions. Nothing here supports any proscribed organisation or advises anyone on what to say. It is legal research, not legal advice.",
+  "intro": "A category on the law of saying things in the UK: what turns words into a crime, what makes them a civil wrong, and where the lines run. Each chapter is sourced to the statutes and the judgments, commentary is labelled as commentary, and acquittals get the same prominence as convictions. We work on one stated assumption: explaining what the law says is not itself an offence. The Crown Prosecution Service says so for one offence, encouraging suicide. We do not know whether the same holds for every other offence; we assume it does, and we say so openly. Nothing here supports any proscribed organisation or advises anyone on what to say. It is legal research, not legal advice.",
   "checked": "2026-11-11",
   "chapters": [
     {
@@ -37,11 +37,12 @@
     {
       "title": "Supporting Palestine Action",
       "href": "/research/speech-offences/#palestine-action-speech",
-      "summary": "Placards, meetings and the mass arrests after the July 2025 proscription, the legal challenge to the ban, and the section 35 dispersal order outside the US Embassy.",
+      "summary": "Placards, meetings and the mass arrests after the July 2025 proscription, the legal challenge to the ban (heard by the Supreme Court on 4 and 5 November 2026, judgment awaited), and the section 35 dispersal order outside the US Embassy.",
       "links": [
         { "label": "Proscription: the offences", "href": "/nuances/proscription-support/" },
         { "label": "The Palestine Action collection", "href": "/research/palestine-action/" },
         { "label": "Proscription litigation", "href": "/research/proscription-litigation/" },
+        { "label": "The Supreme Court hearing", "href": "/uk-timeline/#supreme-court-hearing-2026" },
         { "label": "The US Embassy dispersal order", "href": "/uk-timeline/#section-35-us-embassy-2026" }
       ]
     },
@@ -63,6 +64,27 @@
       "title": "Message ultra",
       "href": "/research/message-ultra/",
       "summary": "One hypothetical direct message, sent twice, that a prosecutor could charge from six directions under four statutes, and the civil claim it would still survive."
+    },
+    {
+      "title": "What we can say, and what we can’t",
+      "href": "/research/reporting-limits/",
+      "summary": "Why explaining the law is not a crime, then contempt of court, reporting restrictions and the dissemination offence, applied to a live terrorism trial. Four categories: legally restricted, potentially prejudicial, protected discussion, and withheld by choice.",
+      "links": [
+        { "label": "Explaining the law", "href": "/research/reporting-limits/#explaining-the-law" },
+        { "label": "The four categories", "href": "/research/reporting-limits/#four-boxes" },
+        { "label": "How to know if restrictions apply", "href": "/research/reporting-limits/#checking" },
+        { "label": "What the jury will be asked", "href": "/research/reporting-limits/#the-test" },
+        { "label": "One live case", "href": "/research/reporting-limits/#live-case" }
+      ]
+    },
+    {
+      "title": "Reform tracker",
+      "href": "/research/speech-law-reform/",
+      "summary": "The universities free speech Act 2023, switched on in stages, and the Prosperity Institute’s draft Free Speech Bill, which would repeal several offences in this category. Law and proposal, kept apart.",
+      "links": [
+        { "label": "The 2023 Act: what is in force", "href": "/research/speech-law-reform/#universities-act" },
+        { "label": "The draft Free Speech Bill", "href": "/research/speech-law-reform/#draft-bill" }
+      ]
     },
     {
       "title": "The case register",

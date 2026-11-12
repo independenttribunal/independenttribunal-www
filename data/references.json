@@ -1150,8 +1150,8 @@
       "type": "official",
       "jurisdiction": "UK",
       "topics": ["terrorism", "proscription"],
-      "summary": "Case page for the appeal on whether the proscription of Palestine Action was lawful. Permission granted in part on 29 July 2026. Hearing listed for 4 and 5 November 2026.",
-      "checked": "2026-10-31"
+      "summary": "Case page for the appeal on whether the proscription of Palestine Action was lawful. Permission granted on Ground 1 only (Articles 10 and 11) on 29 July 2026. Heard 4 and 5 November 2026 before Lords Reed, Sales, Lloyd-Jones, Briggs and Stephens; the afternoon of 5 November was closed. Judgment awaited.",
+      "checked": "2026-11-11"
     },
     {
       "id": "aol-us-embassy-live-2026-10-31",
@@ -1224,6 +1224,42 @@
       "topics": ["immigration", "freedom-of-expression"],
       "checked": "2026-11-04",
       "summary": "Reports more than 1,400 signatories, Malm’s comments to the BBC and the Home Office’s statement that it is not a ban."
+    },
+    {
+      "id": "lbc-uksc-hearing-2026-11-04",
+      "title": "Dozens of arrests made as Supreme Court battle over Palestine Action ban begins",
+      "publisher": "LBC",
+      "date": "2026-11-04",
+      "url": "https://www.lbc.co.uk/article/arrests-supreme-court-battle-palestine-action-ban-begins-5HjdksF_2/",
+      "type": "article",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription", "protest"],
+      "summary": "Day-one report: submissions quoted for Ammori (Raza Husain KC) and the Home Office (Sir James Eadie KC); about 25 demonstrators removed; placards copying Sarah Helm's X post; court told more than 3,000 arrests since the ban.",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "murray-uksc-day-1-2026",
+      "title": "Palestine Action Supreme Court Hearing Day 1",
+      "publisher": "Craig Murray (personal blog)",
+      "date": "2026-11-05",
+      "url": "https://www.craigmurray.org.uk/archives/2026/11/palestine-action-supreme-court-hearing-day-1/",
+      "type": "article",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription", "commentary"],
+      "summary": "An attendee's account of the first day, openly partisan; useful for courtroom detail, not a transcript.",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "murray-uksc-day-2-2026",
+      "title": "Palestine Action Supreme Court Hearing Day 2",
+      "publisher": "Craig Murray (personal blog)",
+      "date": "2026-11-08",
+      "url": "https://www.craigmurray.org.uk/archives/2026/11/palestine-action-supreme-court-hearing-day-2/",
+      "type": "article",
+      "jurisdiction": "UK",
+      "topics": ["terrorism", "proscription", "commentary"],
+      "summary": "An attendee's account of the second day and the closed session, openly partisan; useful for courtroom detail, not a transcript.",
+      "checked": "2026-11-11"
     }
   ]
 }

@@ -1,0 +1,222 @@
+{
+  "id": "craig-murray",
+  "category": "legal-study",
+  "title": "Craig Murray",
+  "subtitle": "A former ambassador and blogger, sentenced for contempt over jigsaw identification, now reporting from the Palestine Action hearings",
+  "summary": "Placeholder profile. In 2021 the High Court of Justiciary found Craig Murray, a former UK ambassador, in contempt of court for blog posts about the Alex Salmond trial that were likely to lead to the identification of complainers protected by a court order, and sentenced him to eight months’ imprisonment. The case is the leading modern example of jigsaw identification by a blogger. In November 2026 he published attendee accounts of the Supreme Court hearing on the Palestine Action ban, which we cite as partisan courtroom reports.",
+  "scope": "A public-record placeholder, started because our reporting-limits chapter relies on his case. It records the contempt finding and sentence as reported, and his recent reporting that we cite. It is not a biography and makes no assessment of his wider work.",
+  "status_note": "Placeholder, opened 12 November 2026. The 2021 finding and the sentencing statement have been read; the permission ruling, the Supreme Court refusal and the 2022 petitions have not yet been read and checked.",
+  "jurisdiction": "Scotland; England and Wales",
+  "checked": "2026-11-12",
+  "tags": [
+    "contempt",
+    "jigsaw-identification",
+    "open-justice",
+    "scotland",
+    "palestine-action",
+    "bloggers"
+  ],
+  "related": [
+    {
+      "id": "reporting-limits",
+      "title": "What we can say, and what we can’t"
+    },
+    {
+      "id": "rajiv-menon-kc",
+      "title": "Rajiv Menon KC"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "25 March 2021",
+      "value": "Found in contempt",
+      "detail": "Breach of a section 11 order",
+      "target": "finding"
+    },
+    {
+      "label": "11 May 2021",
+      "value": "Eight months",
+      "detail": "Later held proportionate",
+      "target": "sentence"
+    },
+    {
+      "label": "November 2026",
+      "value": "Supreme Court reports",
+      "detail": "Palestine Action hearing, days 1 and 2",
+      "target": "uksc-reports"
+    }
+  ],
+  "sections": [
+    {
+      "id": "contempt-2021",
+      "title": "The 2021 contempt case",
+      "intro": "Why this profile exists: the case shows how material that is harmless piece by piece can, put together, breach a court order.",
+      "entries": [
+        {
+          "id": "finding",
+          "title": "The finding",
+          "kind": "Judgment (High Court of Justiciary)",
+          "date": "2021-03-25",
+          "citation": "HM Advocate v Craig Murray [2021] HCJ 2",
+          "paragraphs": [
+            {
+              "text": "Alex Salmond was tried at the High Court in Edinburgh from 9 March 2020 and acquitted on all charges on 23 March 2020. Craig Murray had published articles about the arrest and prosecution.",
+              "sources": [
+                {
+                  "id": "murray-hcj2",
+                  "locator": "para 1"
+                }
+              ]
+            },
+            {
+              "text": "The High Court of Justiciary, in an opinion delivered by Lady Dorrian, the Lord Justice Clerk, sitting with Lord Menzies and Lord Turnbull, found that blog posts by Craig Murray breached an order under section 11 of the Contempt of Court Act 1981. The order prohibited publishing the complainers’ names or any information likely to disclose their identity.",
+              "sources": [
+                {
+                  "id": "murray-hcj2"
+                },
+                {
+                  "id": "murray-finding"
+                }
+              ]
+            },
+            {
+              "text": "The test the court applied was whether the material, judged objectively, was likely to lead to identification by members of the public, not only by people who already knew the complainers. The court rejected a separate allegation that articles about a dismissed juror breached a section 4(2) postponement order.",
+              "sources": [
+                {
+                  "id": "murray-finding"
+                },
+                {
+                  "id": "murray-refusal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sentence",
+          "title": "The sentence and the appeal",
+          "kind": "Legal news report of a judgment",
+          "date": "2021-05-11",
+          "paragraphs": [
+            {
+              "text": "On 11 May 2021 the court imposed eight months’ imprisonment, and delayed the warrant for three weeks to allow an appeal.",
+              "sources": [
+                {
+                  "id": "murray-sentence"
+                }
+              ]
+            },
+            {
+              "text": "In June 2021 the court refused permission to appeal to the UK Supreme Court. It held the sentence proportionate, noting that the maximum is two years, and said his conduct struck at the heart of the fair administration of justice. It suspended the warrant for four weeks to allow a direct application to the Supreme Court.",
+              "sources": [
+                {
+                  "id": "murray-refusal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recent",
+      "title": "His recent reporting we cite",
+      "intro": "We cite his blog as an attendee’s account, labelled as partisan, never as a transcript.",
+      "entries": [
+        {
+          "id": "uksc-reports",
+          "title": "The Palestine Action hearing in the Supreme Court",
+          "kind": "Blog reporting",
+          "date": "2026-11-08",
+          "paragraphs": [
+            {
+              "text": "He published accounts of the first and second days of the Supreme Court hearing on the Palestine Action ban, including the closed session. We use them for courtroom detail, cross-checked against other reports.",
+              "sources": [
+                {
+                  "id": "murray-day-1"
+                },
+                {
+                  "id": "murray-day-2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "to-do",
+      "title": "Not yet covered",
+      "intro": "What this placeholder still needs.",
+      "entries": [
+        {
+          "id": "gaps",
+          "title": "Gaps",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "Still to read and add: the June 2021 opinion refusing permission to appeal, reported as [2021] HCJ 3; reports that the UK Supreme Court itself refused permission in July 2021; and the 2022 opinions on his petitions to the nobile officium, reported as [2022] HCJAC 5 and [2022] HCJAC 14. We have not yet read them, and we do not yet state how much of the sentence he served.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "murray-hcj2",
+      "title": "HM Advocate v Craig Murray [2021] HCJ 2",
+      "publisher": "High Court of Justiciary (Lady Dorrian, Lord Justice Clerk; Lord Menzies; Lord Turnbull)",
+      "type": "Judgment (High Court of Justiciary)",
+      "url": "https://www.scotcourts.gov.uk/media/mmyirfpd/high-court-judgment-hma-against-craig-murray-25-march-2021.pdf",
+      "date": "2021-03-25",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "murray-sentence",
+      "title": "Craig Murray: Petition and Complaint (sentencing statement)",
+      "publisher": "Judiciary of Scotland",
+      "type": "Sentencing statement",
+      "url": "https://www.judiciary.scot/home/sentences-judgments/sentences-and-opinions/2021/05/11/craig-murray-petition-and-complaint",
+      "date": "2021-05-11",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "murray-finding",
+      "title": "Former UK ambassador held in contempt of court for Salmond case publications",
+      "publisher": "Scottish Legal News",
+      "type": "Legal news report of a judgment (High Court of Justiciary)",
+      "url": "https://scottishlegal.com/article/former-uk-ambassador-held-in-contempt-of-court-for-salmond-case-publications",
+      "date": "2021-03-30",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "murray-refusal",
+      "title": "Ex-diplomat found in contempt of court over Salmond case refused permission to appeal to Supreme Court",
+      "publisher": "Scottish Legal News",
+      "type": "Legal news report of a judgment (High Court of Justiciary)",
+      "url": "https://www.scottishlegal.com/article/ex-diplomat-found-in-contempt-of-court-over-salmond-case-refused-permission-to-appeal-to-supreme-court",
+      "date": "2021-06-10",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "murray-day-1",
+      "title": "Palestine Action Supreme Court Hearing Day 1",
+      "publisher": "Craig Murray (personal blog)",
+      "type": "Blog (partisan attendee account)",
+      "url": "https://www.craigmurray.org.uk/archives/2026/11/palestine-action-supreme-court-hearing-day-1/",
+      "date": "2026-11-05",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "murray-day-2",
+      "title": "Palestine Action Supreme Court Hearing Day 2",
+      "publisher": "Craig Murray (personal blog)",
+      "type": "Blog (partisan attendee account)",
+      "url": "https://www.craigmurray.org.uk/archives/2026/11/palestine-action-supreme-court-hearing-day-2/",
+      "date": "2026-11-08",
+      "checked": "2026-11-12"
+    }
+  ]
+}

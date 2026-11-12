@@ -1,0 +1,741 @@
+{
+  "id": "speech-law-reform",
+  "category": "legal-study",
+  "title": "Reform tracker: free speech laws in progress",
+  "subtitle": "Two things often called “the free speech bill”. One is a law already passed, for universities, being switched on in stages. The other is a draft bill from a think tank that would repeal several of the offences in this category. This page keeps track of both.",
+  "summary": "The Higher Education (Freedom of Speech) Act 2023 received Royal Assent on 11 May 2023. Its duties on universities came into force on 1 August 2025; a complaints scheme for staff and visiting speakers starts on 1 September 2026; regulatory conditions follow on 1 April 2027. The government says it will repeal the Act’s right to sue and its duties on students’ unions. Separately, in July 2026 the Prosperity Institute published a draft Free Speech Bill that would repeal section 5 of the Public Order Act 1986, replace three communications offences with one, repeal the hate speech offences, and create a civil wrong of interfering with free speech. That is a proposal, not a bill before Parliament.",
+  "scope": "England and Wales, with the Scottish hate crime Act noted where the draft bill names it. Records what each instrument says and its status. The Prosperity proposals are reported as proposals, attributed to their author; we do not endorse or oppose them here.",
+  "status_note": "Act, commencement regulations and ministerial statement read from the official texts on 11 November 2026. The Prosperity report was read from its web page on the same day; parts of a long page were read through excerpts, and the draft bill’s full clause text should be checked against the report before quotation. Status can change: this page is dated.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-11",
+  "tags": [
+    "uk",
+    "speech-offences",
+    "freedom-of-expression",
+    "law-reform",
+    "higher-education"
+  ],
+  "related": [
+    {
+      "id": "reporting-limits",
+      "title": "What we can say, and what we can’t: reporting a live trial"
+    },
+    {
+      "id": "grossly-offensive",
+      "title": "Grossly offensive: when a message becomes a crime"
+    },
+    {
+      "id": "message-ultra",
+      "title": "Message ultra: one message, six offences"
+    },
+    {
+      "id": "public-order",
+      "title": "Public order and protest"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The 2023 universities Act",
+      "value": "Partly in force",
+      "detail": "Duties from August 2025, complaints from September 2026, conditions from April 2027",
+      "target": "universities-act"
+    },
+    {
+      "label": "The regulator’s complaints scheme",
+      "value": "Open since 1 Sep 2026",
+      "detail": "For staff and speakers, not students. Recommendations, not orders",
+      "target": "regulator"
+    },
+    {
+      "label": "The Prosperity “Free Speech Bill”",
+      "value": "A proposal",
+      "detail": "A think-tank draft. The one related bill in Parliament has had no second reading",
+      "target": "draft-bill"
+    }
+  ],
+  "sections": [
+    {
+      "id": "universities-act",
+      "title": "The law already passed: universities",
+      "intro": "Bill 2862 on the Parliament website is the Higher Education (Freedom of Speech) Bill, now an Act. It does not create or repeal any criminal offence. It puts duties on universities and their regulator, the Office for Students.",
+      "entries": [
+        {
+          "id": "hefos-passage",
+          "title": "From bill to Act",
+          "kind": "Parliamentary record",
+          "date": "2023-05-11",
+          "paragraphs": [
+            {
+              "text": "Its sponsors included Gavin Williamson and Nadhim Zahawi in the Commons and Earl Howe in the Lords. It received Royal Assent as the Higher Education (Freedom of Speech) Act 2023 on 11 May 2023, after an extended exchange of amendments between the two Houses.",
+              "sources": [
+                {
+                  "id": "hefos-bill"
+                },
+                {
+                  "id": "hefos-act"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hefos-stages",
+          "title": "Switched on in stages",
+          "kind": "Statutory instruments",
+          "table": {
+            "caption": "Higher Education (Freedom of Speech) Act 2023: status on 11 November 2026",
+            "columns": [
+              "Provision",
+              "What it does",
+              "Status"
+            ],
+            "rows": [
+              [
+                "Sections 1 and 2",
+                "Duties on providers and colleges to protect free speech",
+                "In force from 1 August 2025"
+              ],
+              [
+                "Section 5",
+                "Office for Students free speech functions",
+                "In force from 1 August 2025"
+              ],
+              [
+                "Section 8",
+                "Complaints scheme",
+                "From 1 September 2026, for staff, speakers and non-student members only"
+              ],
+              [
+                "Section 6",
+                "Conditions of registration",
+                "From 1 April 2027, in part"
+              ],
+              [
+                "Section 3",
+                "Duties on students’ unions",
+                "Not in force (one definition only); repeal intended"
+              ],
+              [
+                "Section 4",
+                "Right to sue for breach (statutory tort)",
+                "Not in force; repeal intended"
+              ],
+              [
+                "Section 9",
+                "Overseas funding",
+                "Under review"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "From 1 August 2025: the duties on registered higher education providers and constituent colleges to protect freedom of speech, the Office for Students’ general free speech functions, and the related changes to the Prevent duty legislation.",
+              "sources": [
+                {
+                  "id": "hefos-c3",
+                  "locator": "reg 2"
+                }
+              ]
+            },
+            {
+              "text": "From 1 September 2026: the Office for Students complaints scheme, for staff, visiting speakers and non-student members. Students and complaints about students’ unions are excluded.",
+              "sources": [
+                {
+                  "id": "hefos-c4",
+                  "locator": "reg 2"
+                }
+              ]
+            },
+            {
+              "text": "From 1 April 2027: the Office for Students’ duty to set free speech conditions of registration, except one subsection.",
+              "sources": [
+                {
+                  "id": "hefos-c4",
+                  "locator": "reg 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hefos-statement",
+          "title": "The government’s stated plan",
+          "kind": "Written ministerial statement",
+          "date": "2026-04-20",
+          "paragraphs": [
+            {
+              "text": "On 20 April 2026 the Education Secretary told Parliament she would bring the complaints scheme and the conditions of registration into force on those dates, would “seek a suitable legislative vehicle to repeal the tort and duties on students’ unions”, and would keep the overseas funding measures under review.",
+              "sources": [
+                {
+                  "id": "hcws1525"
+                }
+              ]
+            },
+            {
+              "text": "“I want to be clear that these new protections for freedom of speech will not protect any of the abhorrent unlawful extremist speech and harassment we have seen at some universities, and which should not be tolerated on campus.”",
+              "sources": [
+                {
+                  "id": "hcws1525"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulator",
+      "title": "The regulator: the Office for Students",
+      "intro": "The 2023 Act gives the job of enforcing university free speech duties in England to the Office for Students. Its complaints scheme opened on 1 September 2026, months after the regulator lost its leading free speech case in the High Court.",
+      "entries": [
+        {
+          "id": "ofs-director",
+          "title": "A director for free speech",
+          "kind": "Regulator announcement",
+          "paragraphs": [
+            {
+              "text": "In June 2023 the Office for Students announced Arif Ahmed, a Cambridge philosophy professor, as its first Director for Freedom of Speech and Academic Freedom, a post created by the 2023 Act.",
+              "sources": [
+                {
+                  "id": "ofs-director"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ofs-scheme",
+          "title": "The complaints scheme",
+          "kind": "Regulator’s scheme rules",
+          "date": "2026-09-01",
+          "paragraphs": [
+            {
+              "text": "The scheme takes complaints from staff, applicants for academic posts, actual or invited visiting speakers, and non-student members. Students cannot use it; they go to their university and then the Office of the Independent Adjudicator. Complaints are about registered providers and their constituent institutions.",
+              "sources": [
+                {
+                  "id": "ofs-rules"
+                },
+                {
+                  "id": "ofs-who"
+                }
+              ]
+            },
+            {
+              "text": "A complaint must claim that the complainant suffered adverse consequences, which need not be financial, because of something the institution did or failed to do in breach of its free speech duty. The act or omission must be on or after 1 September 2026. Anonymous complaints are not reviewed.",
+              "sources": [
+                {
+                  "id": "ofs-rules",
+                  "locator": "definition of a free speech complaint"
+                },
+                {
+                  "id": "ofs-covers"
+                },
+                {
+                  "id": "ofs-who"
+                }
+              ]
+            },
+            {
+              "text": "Complainants normally use the institution’s own process first. The scheme then accepts the complaint once that process is complete or, if earlier, 90 days after it began. Ninety days is the longest a complainant normally has to wait, not the shortest.",
+              "sources": [
+                {
+                  "id": "ofs-rules"
+                },
+                {
+                  "id": "ofs-covers"
+                }
+              ]
+            },
+            {
+              "text": "If a complaint is justified or partly justified, the regulator may recommend that the institution does something specified, which may include paying a sum. These are recommendations, not orders.",
+              "sources": [
+                {
+                  "id": "ofs-rules",
+                  "locator": "Section H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sussex",
+          "title": "The regulator in court: Sussex",
+          "kind": "High Court judgment",
+          "date": "2026-04-29",
+          "citation": "R (University of Sussex) v Office for Students [2026] EWHC 984 (Admin)",
+          "paragraphs": [
+            {
+              "text": "The Office for Students fined the University of Sussex £585,000 for breaching two registration conditions, after an investigation connected with Professor Kathleen Stock. On judicial review, Mrs Justice Lieven quashed the decision. Her first holding was that the regulator had misread “governing documents”: the University’s policy statement was not one, so the regulator could not find a breach of the first condition on that basis. She also found that the regulator had misdirected itself on what “freedom of speech within the law” requires, and on what counts as a breach of academic freedom. It had failed to have proper regard to the University’s code of practice, and had not considered whether the alleged breaches had been remedied. And its decision was “vitiated by bias” because the regulator approached it with a closed mind. She found against the University on other grounds, including its argument that the University’s Visitor, not the regulator, had jurisdiction over the second condition.",
+              "sources": [
+                {
+                  "id": "sussex-v-ofs",
+                  "locator": "paras 112, 446 to 455"
+                }
+              ]
+            },
+            {
+              "text": "“It is important to make clear that I am not determining any of the issues or facts surrounding what happened to Professor Stock. That was not the subject of the OfS investigation and it is not the subject of this Judicial Review.”",
+              "sources": [
+                {
+                  "id": "sussex-v-ofs",
+                  "locator": "para 444"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The judge separated two bias arguments. She rejected the claim that Dr Ahmed’s personal role gave rise to apparent bias: he was not the decision-maker, and she found “no vitiating apparent bias in respect of Dr Ahmed’s personal role in the decision-making”. She called his emails, which suggested a clear view that the University had failed in its free speech obligations, the most troubling aspect, and said that had he been the decision-maker she would in all probability have found that he had predetermined the decision.",
+              "sources": [
+                {
+                  "id": "sussex-v-ofs",
+                  "locator": "paras 423 to 426"
+                }
+              ]
+            },
+            {
+              "text": "She upheld the separate finding that the regulator, as an organisation, had predetermined the outcome. She relied on its test-case strategy, its refusal to settle unless breaches were admitted, and the decision committee’s failure to test its officers’ material independently. Both officers, Ms Lapworth and Dr Ahmed, were in the room when relevant decisions were made.",
+              "sources": [
+                {
+                  "id": "sussex-v-ofs",
+                  "locator": "paras 427 to 443"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sussex-after",
+          "title": "After the judgment: no appeal, full costs",
+          "kind": "Regulator statement and High Court costs ruling",
+          "date": "2026-10-23",
+          "citation": "R (University of Sussex) v Office for Students [2026] EWHC 2708 (Admin)",
+          "paragraphs": [
+            {
+              "text": "On 19 May 2026 the Office for Students confirmed that it would not seek to appeal.",
+              "sources": [
+                {
+                  "id": "ofs-no-appeal"
+                }
+              ]
+            },
+            {
+              "text": "On 23 October 2026 Mrs Justice Lieven refused the regulator’s request to reduce the University’s costs by 10%, so it pays them in full. She declined to order the Free Speech Union, which had intervened, to pay any costs: its approach had been “proportionate and focused”, and the case raised issues of very broad concern.",
+              "sources": [
+                {
+                  "id": "sussex-costs",
+                  "locator": "paras 11, 25 to 27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ofs-unknowns",
+          "title": "What is not yet known",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "We found no published figures for the number of complaints received, accepted or upheld, the staff working on the scheme, or its cost. Recommendations are not binding, so whether institutions follow them is the measure to watch. Press reports that the regulator revised its free speech guidance after the Sussex judgment have not been checked against the guidance itself.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft-bill",
+      "title": "A proposal: the Prosperity Institute’s draft Free Speech Bill",
+      "intro": "Published on 9 July 2026 by the Prosperity Institute, written by the barrister Jon Holbrook, with a foreword by Lord Frost. It is a think-tank report with draft clauses. No Member of Parliament has introduced it as a bill that we have found.",
+      "entries": [
+        {
+          "id": "prosperity-proposals",
+          "title": "Five proposals",
+          "kind": "Think-tank proposal, attributed",
+          "date": "2026-07-09",
+          "paragraphs": [
+            {
+              "text": "The report proposes: repealing section 5 of the Public Order Act 1986 while keeping section 4; replacing the communications offences in the Malicious Communications Act 1988, section 127 of the Communications Act 2003 and section 179 of the Online Safety Act 2023 with one offence of communication that is “intentionally menacing and targeted”, while keeping section 181 (threats); repealing the hate speech laws it lists; creating a civil wrong of unlawful interference with the right of free speech, replacing the religion and belief protections in the Equality Act 2010; and a costs regime to protect claimants.",
+              "sources": [
+                {
+                  "id": "prosperity",
+                  "locator": "Section 5 and Free Speech Bill boxes"
+                }
+              ]
+            },
+            {
+              "text": "For hate speech it names Part 3 and Part 3A of the Public Order Act 1986, sections 28 to 33 of the Crime and Disorder Act 1998, section 66 of and parts of Schedule 21 to the Sentencing Act 2020, and sections 1 to 15 of the Hate Crime and Public Order (Scotland) Act 2021.",
+              "sources": [
+                {
+                  "id": "prosperity",
+                  "locator": "third proposal"
+                }
+              ]
+            },
+            {
+              "text": "Under the proposed civil wrong, interference with free speech would be unlawful unless shown to be prescribed by law and necessary in a democracy, with the time limit for claims extended from three to six months.",
+              "sources": [
+                {
+                  "id": "prosperity",
+                  "locator": "fourth proposal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "against-the-index",
+          "title": "What the proposal would do to the offences in this category",
+          "kind": "Our analysis of the proposal",
+          "table": {
+            "caption": "Offences in this category under the Prosperity draft bill",
+            "columns": [
+              "Offence",
+              "Maximum today",
+              "Draft bill"
+            ],
+            "rows": [
+              [
+                "Public Order Act 1986, s 5 (harassment, alarm or distress)",
+                "Fine (level 3)",
+                "Repeal"
+              ],
+              [
+                "Public Order Act 1986, s 4 (fear or provocation of violence)",
+                "6 months",
+                "Keep"
+              ],
+              [
+                "Malicious Communications Act 1988, s 1",
+                "2 years",
+                "Replace with one new offence"
+              ],
+              [
+                "Communications Act 2003, s 127",
+                "6 months",
+                "Replace with one new offence"
+              ],
+              [
+                "Online Safety Act 2023, s 179 (false communications)",
+                "Summary maximum",
+                "Replace with one new offence"
+              ],
+              [
+                "Online Safety Act 2023, s 181 (threats)",
+                "5 years",
+                "Keep"
+              ],
+              [
+                "Public Order Act 1986, Part 3 (stirring up racial hatred)",
+                "7 years",
+                "Repeal"
+              ],
+              [
+                "Public Order Act 1986, Part 3A (religion, sexual orientation)",
+                "7 years",
+                "Repeal"
+              ],
+              [
+                "Crime and Disorder Act 1998, s 31 (aggravated public order)",
+                "2 years",
+                "Repeal (ss 28 to 33)"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "We compared the draft bill’s list with the offences we track. The table records what the proposal says, not whether it would pass or whether it is right. Maximum sentences are from the statutes.",
+              "sources": [
+                {
+                  "id": "prosperity"
+                },
+                {
+                  "id": "poa-s5",
+                  "locator": "s 5(6)"
+                },
+                {
+                  "id": "poa-s4",
+                  "locator": "s 4(4)"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(4)"
+                },
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(3)"
+                },
+                {
+                  "id": "osa-s179",
+                  "locator": "s 179(5)"
+                },
+                {
+                  "id": "osa-s181",
+                  "locator": "s 181(5)"
+                },
+                {
+                  "id": "poa-s27",
+                  "locator": "s 27(3)"
+                },
+                {
+                  "id": "poa-s29l",
+                  "locator": "s 29L(3)"
+                },
+                {
+                  "id": "cda-s31",
+                  "locator": "s 31(4), (5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reform-commentary",
+          "title": "Two meanings of “free speech law”",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The 2023 Act tries to protect speech by placing duties on institutions; it leaves every criminal offence in this category untouched. The Prosperity draft would protect speech mainly by removing offences, and by giving individuals a civil claim. The first is law, partly in force. The second is an argument. Both are worth reading against the case register.",
+              "sources": [
+                {
+                  "id": "hefos-act"
+                },
+                {
+                  "id": "prosperity"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "timothy-bill",
+          "title": "A bill introduced but not debated",
+          "kind": "Parliamentary record",
+          "date": "2025-06-10",
+          "paragraphs": [
+            {
+              "text": "A separate Private Members’ Bill, the Freedom of Expression (Religion or Belief System) Bill, was introduced by Nick Timothy under the Ten Minute Rule and read a first time on 10 June 2025. Its long title is “A Bill to make provision about freedom of expression in relation to religion or belief systems; and for connected purposes.” The Parliament record shows no second reading. We could not retrieve the bill text, so we do not describe its clauses.",
+              "sources": [
+                {
+                  "id": "bill-3984"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "Method",
+      "intro": "How this page is kept.",
+      "entries": [
+        {
+          "id": "method-note",
+          "title": "Sources and updates",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The Act and its commencement regulations were read on legislation.gov.uk, the bill record through the Parliament bills service, and the ministerial statement through the Parliament written statements service. The Prosperity report was read from its web page; it is long, and the full draft clause text should be checked in the report before anyone quotes it. We will add new commencement regulations, the repeal legislation the government has promised, and any bill actually introduced in Parliament.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "hefos-bill",
+      "title": "Higher Education (Freedom of Speech) Act 2023: bill stages and documents",
+      "publisher": "UK Parliament",
+      "type": "Parliamentary record",
+      "url": "https://bills.parliament.uk/bills/2862",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "hefos-act",
+      "title": "Higher Education (Freedom of Speech) Act 2023",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/16/contents",
+      "date": "2023-05-11",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "hefos-c3",
+      "title": "The Higher Education (Freedom of Speech) Act 2023 (Commencement No. 3) Regulations 2025 (SI 2025/528)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2025/528/made",
+      "date": "2025-04-28",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "hefos-c4",
+      "title": "The Higher Education (Freedom of Speech) Act 2023 (Commencement No. 4) Regulations 2026 (SI 2026/654)",
+      "publisher": "legislation.gov.uk",
+      "type": "Statutory instrument",
+      "url": "https://www.legislation.gov.uk/uksi/2026/654/made",
+      "date": "2026-06-17",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "hcws1525",
+      "title": "Higher Education Freedom of Speech: written statement HCWS1525 (Secretary of State for Education)",
+      "publisher": "House of Commons",
+      "type": "Written ministerial statement",
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-04-20/hcws1525",
+      "date": "2026-04-20",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "prosperity",
+      "title": "Reversing Britain’s Free Speech Recession (Jon Holbrook; foreword by Lord Frost)",
+      "publisher": "Prosperity Institute",
+      "type": "Think-tank report and draft bill",
+      "url": "https://www.prosperity.com/media-publications/reversing-britains-free-speech-recession/",
+      "date": "2026-07-09",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "bill-3984",
+      "title": "Freedom of Expression (Religion or Belief System) Bill (Bill 257, 2024-25)",
+      "publisher": "UK Parliament",
+      "type": "Parliamentary record (Private Members’ Bill, Ten Minute Rule)",
+      "url": "https://bills.parliament.uk/bills/3984",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ofs-rules",
+      "title": "Free speech complaints scheme rules (effective 1 September 2026)",
+      "publisher": "Office for Students",
+      "type": "Regulator’s scheme rules",
+      "url": "https://www.officeforstudents.org.uk/for-providers/freedom-of-speech/free-speech-complaints-scheme-rules/",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ofs-covers",
+      "title": "What the free speech complaints scheme covers",
+      "publisher": "Office for Students",
+      "type": "Regulator guidance",
+      "url": "https://www.officeforstudents.org.uk/for-providers/freedom-of-speech/free-speech-complaints/what-the-scheme-covers/",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ofs-who",
+      "title": "Who can make a free speech complaint",
+      "publisher": "Office for Students",
+      "type": "Regulator guidance",
+      "url": "https://www.officeforstudents.org.uk/for-providers/freedom-of-speech/free-speech-complaints/who-can-make-a-free-speech-complaint/",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ofs-director",
+      "title": "Office for Students announces its first Director for Freedom of Speech and Academic Freedom",
+      "publisher": "Office for Students",
+      "type": "Regulator announcement",
+      "url": "https://www.officeforstudents.org.uk/news-blog-and-events/press-and-media/office-for-students-announces-its-first-director-for-freedom-of-speech-and-academic-freedom/",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ofs-no-appeal",
+      "title": "Statement on the University of Sussex judicial review",
+      "publisher": "Office for Students",
+      "type": "Regulator statement",
+      "url": "https://www.officeforstudents.org.uk/news-blog-and-events/press-and-media/university-of-sussex-judicial-review/",
+      "date": "2026-05-19",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "sussex-costs",
+      "title": "R (University of Sussex) v Office for Students [2026] EWHC 2708 (Admin) (costs)",
+      "publisher": "High Court (Lieven J)",
+      "type": "Judgment (High Court)",
+      "url": "https://www.sussex.ac.uk/news/documents/ac-2025-lon-001462-final-costs-judgment.pdf",
+      "date": "2026-10-23",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "sussex-v-ofs",
+      "title": "R (University of Sussex) v Office for Students [2026] EWHC 984 (Admin)",
+      "publisher": "High Court (Lieven J)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2026/984",
+      "date": "2026-04-29",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "poa-s5",
+      "title": "Public Order Act 1986, section 5: harassment, alarm or distress",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/5",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "poa-s4",
+      "title": "Public Order Act 1986, section 4: fear or provocation of violence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/4",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "mca-s1",
+      "title": "Malicious Communications Act 1988, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "ca-s127",
+      "title": "Communications Act 2003, section 127",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/section/127",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "osa-s179",
+      "title": "Online Safety Act 2023, section 179: false communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/179",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "osa-s181",
+      "title": "Online Safety Act 2023, section 181: threatening communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/181",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "poa-s27",
+      "title": "Public Order Act 1986, section 27: procedure and punishment (Part 3)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/27",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "poa-s29l",
+      "title": "Public Order Act 1986, section 29L: procedure and punishment (Part 3A)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1986/64/section/29L",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "cda-s31",
+      "title": "Crime and Disorder Act 1998, section 31: racially or religiously aggravated public order offences",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/37/section/31",
+      "checked": "2026-11-11"
+    }
+  ]
+}
