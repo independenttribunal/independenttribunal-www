@@ -100,7 +100,21 @@
     {
       "title": "“Your mother was raped by a dog”",
       "href": "/research/absurdity-paradox/",
-      "summary": "The absurdity paradox. An insult nobody could believe fails as libel three times over and can still be a crime, because the criminal offences do not need anyone to believe it."
+      "summary": "The absurdity paradox. An insult nobody could believe fails as libel three times over and can still be a crime, because the criminal offences do not need anyone to believe it.",
+      "links": [
+        {
+          "label": "The disclaimer paradox",
+          "href": "/research/absurdity-paradox/#disclaimers"
+        },
+        {
+          "label": "The hypothetical reasonable reader",
+          "href": "/research/absurdity-paradox/#reasonable-reader"
+        },
+        {
+          "label": "Two imagined people",
+          "href": "/research/absurdity-paradox/#two-people"
+        }
+      ]
     },
     {
       "title": "Message ultra",
