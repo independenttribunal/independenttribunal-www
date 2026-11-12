@@ -32,6 +32,10 @@
     {
       "id": "terrorist-connection-add-on",
       "title": "Terrorist connection add-on"
+    },
+    {
+      "id": "reporting-limits",
+      "title": "What we can say, and what we can’t"
     }
   ],
   "research_links": [
@@ -64,7 +68,7 @@
     {
       "id": "current-focus",
       "title": "Live case: Sarah Wilkinson, reported particulars only",
-      "intro": "Selected for closer research on 10 November 2026. While the case is active we report only the offences charged, the court, adjournments and bail, and explain the general law. See What we can say, and what we can’t, for why.",
+      "intro": "Selected for closer research on 10 November 2026. While the case is active we report only the offences charged, the court, adjournments and bail, and explain the general law. The next section examines section 58 and independent research. See What we can say, and what we can’t, for why.",
       "entries": [
         {
           "id": "wilkinson-current-focus",
@@ -110,6 +114,310 @@
                 {
                   "id": "ripa-section-fifty-three",
                   "locator": "Section 53(5)–(6)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-reasonable-excuse",
+      "title": "Research, reasonable excuse and section 58",
+      "intro": "The reported counts in the Wilkinson case are encouragement, support, dissemination and a separate RIPA compliance offence, not section 58. The general law of section 58 still matters for anyone researching the same subject matter: collecting or accessing certain material is a different question from publishing it or expressing a view. This section explains that distinction. It is general legal explanation, not a finding about this defendant.",
+      "entries": [
+        {
+          "id": "section-58-what-the-law-says",
+          "title": "Section 58: what the law actually says",
+          "kind": "Legislation · general explanation, not a finding about this defendant",
+          "paragraphs": [
+            {
+              "text": "A person does not have to be a university researcher to potentially have a reasonable excuse under section 58 of the Terrorism Act 2000. There is a major legal distinction between researching terrorist material and publishing or distributing it.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(3)–(3A)"
+                }
+              ]
+            },
+            {
+              "text": "The cases in which a person has a reasonable excuse for the purposes of subsection (3) include (but are not limited to) those in which—",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(3A)"
+                }
+              ]
+            },
+            {
+              "text": "That phrase means Parliament expressly recognised certain reasonable excuses without making them an exhaustive list. Under section 58, collecting or recording information of a kind likely to be useful to a person committing or preparing an act of terrorism, possessing a document or record containing it, or viewing or otherwise accessing such a document by means of the internet, can constitute an offence. Section 58(3) provides a reasonable-excuse defence. Section 58(3A) expressly identifies circumstances including: not knowing, and having no reason to believe, that the document or record contained, or was likely to contain, information of that kind; carrying out work as a journalist; and conducting academic research.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(1), (1A), (3), (3A)"
+                }
+              ]
+            },
+            {
+              "text": "An independent researcher investigating the history of Hamas, the events of 7 October 2023 or competing narratives about Operation Al-Aqsa Flood is not automatically excluded from the defence. The statute does not establish that all independent research is automatically a reasonable excuse either.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(3)–(3A)"
+                }
+              ]
+            },
+            {
+              "text": "The statutory language refers to the purpose of the activity, not possession of a university degree, university employment or academic accreditation. There is no express credential requirement in section 58(3A)(b)(ii). That does not mean every self-described research project necessarily qualifies as academic research. Its actual character and purpose would matter. This page has not identified a binding judicial definition that conclusively settles every borderline case involving independent researchers. The broader section 58(3) reasonable-excuse defence is therefore especially important for non-academic research. A longer treatment of section 58, including curiosity and the leading cases, is in The Anarchist Cookbook and section 58 of the Terrorism Act 2000.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(3A)(b)(ii)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-58-burden",
+          "title": "The burden of proof",
+          "kind": "Legislation · general explanation, not a finding about this defendant",
+          "paragraphs": [
+            {
+              "text": "Section 118 of the Terrorism Act 2000 creates an additional protection. If a defendant adduces evidence sufficient to raise a reasonable-excuse issue under section 58, the court or jury must assume that the defence is satisfied unless the prosecution proves beyond reasonable doubt that it is not. The defendant does not have to establish the excuse beyond reasonable doubt.",
+              "sources": [
+                {
+                  "id": "section-one-eighteen",
+                  "locator": "Section 118(2), (5)(a)"
+                }
+              ]
+            },
+            {
+              "text": "This is not a presumption that every researcher is acting lawfully. There must first be evidence sufficient to raise the defence.",
+              "sources": [
+                {
+                  "id": "section-one-eighteen",
+                  "locator": "Section 118(2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "particular-publications",
+          "title": "Particular publications: why wording can be legally ambiguous",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "While this case is active we do not publish, date, link or characterise particular posts, or offer a view on whether any post meets an element of any offence. That is the same choice explained in What we can say, and what we can’t. Withholding a publication does not mean it is relevant, admissible or among the charged counts.",
+              "sources": []
+            },
+            {
+              "text": "A linguistic observation remains legitimate in general terms. An adjective of degree can describe an operation as extraordinary or unexpectedly successful, rather than morally admirable, and is not intrinsically an endorsement. A celebratory reading, including a conventional wish for someone’s success, could support an inference of approval or encouragement. Political context, such as characterising an operation as resistance, is relevant but does not itself establish a legal defence. Neither reading can be conclusively established from a caption alone. The defence could dispute the prosecution’s interpretation and argue that the required elements have not been proved.",
+              "sources": []
+            },
+            {
+              "text": "Publicly reported particulars do not establish whether any particular publication forms part of the seven counts. The indictment and the prosecution’s particularisation of its case have not been obtained.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "different-offences-different-rules",
+          "title": "Different offences, different rules",
+          "kind": "Legislation · general explanation, not a finding about this defendant",
+          "table": {
+            "caption": "Research protection differs by offence; liability depends on the applicable provision and its elements",
+            "columns": [
+              "Provision",
+              "Conduct addressed",
+              "Research protection"
+            ],
+            "rows": [
+              [
+                "Terrorism Act 2000, s58",
+                "Collecting, possessing or accessing certain terrorism-useful information",
+                "Express, non-exhaustive reasonable-excuse defence"
+              ],
+              [
+                "Terrorism Act 2000, s12(1A)",
+                "Expressing an opinion or belief supportive of a proscribed organisation while reckless as to encouraging support",
+                "No equivalent general research defence; every statutory element must still be proved"
+              ],
+              [
+                "Terrorism Act 2006, s1",
+                "Publishing statements intentionally or recklessly encouraging terrorism",
+                "No general academic-research exemption; a narrower statutory defence may apply"
+              ],
+              [
+                "Terrorism Act 2006, s2",
+                "Disseminating terrorist publications with the required intention or recklessness",
+                "No general academic-research exemption; a narrower statutory defence may apply"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "This is the central distinction for research of this kind. UK law does not impose a blanket prohibition on sending or reproducing anything originating from Hamas. Hamas is a proscribed organisation, but criminal liability for a particular publication or communication depends on the applicable offence and its elements.",
+              "sources": [
+                {
+                  "id": "hamas-proscription-2021"
+                },
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58"
+                },
+                {
+                  "id": "section-twelve",
+                  "locator": "Section 12(1A)"
+                },
+                {
+                  "id": "encouragement-law",
+                  "locator": "Section 1"
+                },
+                {
+                  "id": "dissemination-law",
+                  "locator": "Section 2"
+                }
+              ]
+            },
+            {
+              "text": "For example, section 2 of the 2006 Act provides a specific defence in certain encouragement-based cases: where the person is not proved to have intended encouragement, and shows that the matter neither expressed their views nor had their endorsement, and that this was clear in all the circumstances. The defence applies only to the encouragement limb in section 2(3)(a), not to every category of terrorist publication. It is not a general exemption for research.",
+              "sources": [
+                {
+                  "id": "dissemination-law",
+                  "locator": "Section 2(9), (10)"
+                }
+              ]
+            },
+            {
+              "text": "This is why a caption, contextual explanation or disclaimer may be relevant evidence, but cannot guarantee legality.",
+              "sources": [
+                {
+                  "id": "dissemination-law",
+                  "locator": "Section 2(5), (9)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "independent-historical-research",
+          "title": "Independent historical research: then and later",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Suppose an independent researcher prepares a comparative historical study examining Hamas’s publicly stated objectives on 7 October 2023; what was known about the operation at the time; how Hamas, Israel, international media and independent investigators described the events; how these narratives changed by October 2025; and which claims were subsequently corroborated, contradicted or remain unresolved. That is a recognisable research purpose, even without an institutional affiliation.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(3A)"
+                }
+              ]
+            },
+            {
+              "text": "The legal considerations change depending on the activity. Reading and archiving: section 58 may be relevant if material contains information of the statutorily specified kind. Research purpose and reasonable excuse matter. Analysing and describing: historical analysis and criticism are not automatically offences simply because Hamas appears in the subject matter. Publishing statements: sections 12, 1 and 2 become relevant depending on what is said, what is distributed and the required mental element. Redistributing original footage deserves particular caution. A video depicting an attack is not automatically a terrorist publication under section 2, but its content, accompanying commentary, intended effect and likely understanding by an audience may all matter.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(1), (3)"
+                },
+                {
+                  "id": "section-twelve",
+                  "locator": "Section 12"
+                },
+                {
+                  "id": "encouragement-law",
+                  "locator": "Section 1"
+                },
+                {
+                  "id": "dissemination-law",
+                  "locator": "Section 2(3)–(5)"
+                }
+              ]
+            },
+            {
+              "text": "For sensitive primary-source material, a written description, a carefully contextualised transcript excerpt or an independent analytical summary may achieve the research objective without unnecessarily redistributing the underlying footage.",
+              "sources": [
+                {
+                  "id": "dissemination-law",
+                  "locator": "Section 2(2), (3), (5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "should-research-be-academic",
+          "title": "Should research have to be academic?",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "There is a genuine legal-policy tension. The statutory reference to academic research expressly protects a recognised activity. Yet public-interest investigations are frequently conducted by independent journalists, citizen researchers, historians, activists and people without institutional affiliations. A narrow approach could disadvantage independent researchers. An excessively broad approach, however, could allow almost any dissemination to be characterised retrospectively as research. The non-exhaustive wording of section 58 allows courts to consider genuine circumstances outside the expressly listed categories, without treating someone’s assertion that they are researching as conclusive.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(3A)"
+                }
+              ]
+            },
+            {
+              "text": "Independent research can potentially attract a reasonable-excuse defence under section 58, without academic credentials. The same defence cannot be assumed to apply when publicly disseminating material or expressing views about a proscribed organisation.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(3), (3A)"
+                },
+                {
+                  "id": "section-twelve",
+                  "locator": "Section 12"
+                },
+                {
+                  "id": "encouragement-law",
+                  "locator": "Section 1"
+                },
+                {
+                  "id": "dissemination-law",
+                  "locator": "Section 2"
+                }
+              ]
+            },
+            {
+              "text": "For a publication on Independent Tribunal, the more precise legal question is: when does independent investigation of a terrorist organisation become criminal encouragement, support or dissemination, and what specific statutory protections exist for researchers outside academia? That is a more precise question than whether it is legal to research Hamas. It also keeps the analysis focused on the conduct, the statutory elements and the evidence, rather than the researcher’s identity.",
+              "sources": [
+                {
+                  "id": "section-fifty-eight",
+                  "locator": "Section 58(3A)"
+                },
+                {
+                  "id": "section-twelve",
+                  "locator": "Section 12"
+                },
+                {
+                  "id": "encouragement-law",
+                  "locator": "Section 1"
+                },
+                {
+                  "id": "dissemination-law",
+                  "locator": "Section 2"
+                }
+              ]
+            },
+            {
+              "text": "Given the potential criminal consequences, any proposed publication incorporating original attack footage, or statements that could be interpreted as support, should be reviewed by a solicitor experienced in terrorism and media law. This is general explanation, not legal advice.",
+              "sources": [
+                {
+                  "id": "section-twelve",
+                  "locator": "Section 12"
+                },
+                {
+                  "id": "encouragement-law",
+                  "locator": "Section 1"
+                },
+                {
+                  "id": "dissemination-law",
+                  "locator": "Section 2"
                 }
               ]
             }
@@ -2681,6 +2989,22 @@
       "type": "Official case page: permission, hearing dates and awaiting-judgment status, checked 10 November 2026",
       "url": "https://www.supremecourt.uk/cases/uksc-2026-0099",
       "checked": "2026-11-10"
+    },
+    {
+      "id": "section-fifty-eight",
+      "title": "Terrorism Act 2000, section 58 — Collection of information",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/58",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "section-one-eighteen",
+      "title": "Terrorism Act 2000, section 118 — Defences",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/118",
+      "checked": "2026-11-12"
     }
   ],
   "register_metadata": {
@@ -2689,7 +3013,7 @@
     "checked": "2026-11-10",
     "exhaustive": false,
     "jersey_in_uk_count": false,
-    "source_count": 73,
+    "source_count": 75,
     "unique_proceedings_verified": false,
     "by_scope": {
       "hamas": 25,

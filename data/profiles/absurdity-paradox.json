@@ -5,9 +5,9 @@
   "subtitle": "An insult so absurd that nobody could believe it. The absurdity is a strong answer to a libel claim and, by itself, no defence to a criminal charge. Disclaimers do not change either answer.",
   "summary": "Defamation is hard to predict for a simple reason. Words are judged through a hypothetical reasonable reader, the writer’s intention is irrelevant, and since 2014 that reader is imagined by a judge, not a jury. Take a specimen insult, “You are so ugly because your mother was raped by a dog”, sent as a private message. As libel it fails three times over: a message sent only to the person it insults is not published to anyone else; no reasonable reader takes it as a statement of fact, which is what the courts call “mere vulgar abuse”; and nobody’s reputation suffers serious harm. As a crime it does not need to be believed. Section 127 asks whether it was grossly offensive or indecent and sent over a public network. The Malicious Communications Act asks whether it was sent to cause distress. In 2026 a councillor argued that “you cannot melt people down”. He was convicted. Adding disclaimers (“I’m not accusing, I’m only asking, hypothetically”) does not help either way: the courts read the whole message, and the sender’s intention is irrelevant to what it means.",
   "scope": "England and Wales. The specimen sentence is ours, written to test the law and aimed at no real person. We quote it in order to analyse it, which is the kind of context the courts say changes what words are.",
-  "status_note": "Our analysis of how the cited statutes and judgments apply to an invented sentence, read from the official texts on 11 November 2026. No court has ruled on this sentence, and whether words are grossly offensive or indecent is a question of fact for the court in each case. This is legal research, not legal advice.",
+  "status_note": "Our analysis of how the cited statutes and judgments apply to an invented sentence, read from the official texts on 11 November 2026. The reasonable-reader section was checked against the National Archives texts of Jeynes, Stocker and Rufus on 12 November 2026, and the House of Lords text of DPP v Collins was checked the same day. No court has ruled on this sentence, and whether words are grossly offensive or indecent is a question of fact for the court in each case. This is legal research, not legal advice.",
   "jurisdiction": "England and Wales",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "tags": [
     "uk",
     "speech-offences",
@@ -517,6 +517,359 @@
       ]
     },
     {
+      "id": "reasonable-reader",
+      "title": "The hypothetical reasonable reader: a person who does not exist, interpreting meanings that may never have been intended",
+      "intro": "The law of defamation decides meaning through a person who is not called to give evidence. That reader may read between the lines and indulge in a certain amount of loose thinking, but must not be avid for scandal. The criteria below are a defamation-law framework. They do not automatically supply the test for a criminal speech offence.",
+      "entries": [
+        {
+          "id": "playbook",
+          "title": "The reasonable reader's playbook",
+          "kind": "Supreme Court judgment, quoting the Court of Appeal",
+          "table": {
+            "caption": "The eight criteria from Jeynes, paragraph 14, as set out by Lord Kerr in Stocker, paragraph 35, for a unanimous court",
+            "columns": [
+              "Criterion",
+              "The test, as quoted in Stocker"
+            ],
+            "rows": [
+              [
+                "(1)",
+                "The governing principle is reasonableness."
+              ],
+              [
+                "(2)",
+                "The hypothetical reasonable reader is not naïve, but he is not unduly suspicious. He can read between the lines. He can read in an implication more readily than a lawyer and may indulge in a certain amount of loose thinking, but he must be treated as being a man who is not avid for scandal and someone who does not, and should not, select one bad meaning where other non-defamatory meanings are available."
+              ],
+              [
+                "(3)",
+                "Over-elaborate analysis is best avoided."
+              ],
+              [
+                "(4)",
+                "The intention of the publisher is irrelevant."
+              ],
+              [
+                "(5)",
+                "The article must be read as a whole, and any ‘bane and antidote’ taken together."
+              ],
+              [
+                "(6)",
+                "The hypothetical reader is taken to be representative of those who would read the publication in question."
+              ],
+              [
+                "(7)",
+                "In delimiting the range of permissible defamatory meanings, the court should rule out any meaning which, ‘can only emerge as the produce of some strained, or forced, or utterly unreasonable interpretation …’"
+              ],
+              [
+                "(8)",
+                "It follows that ‘it is not enough to say that by some person or another the words might be understood in a defamatory sense.’"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Lord Kerr, with whom the rest of the court agreed, treated the choice of a single meaning as well entrenched. Guidance as to how the judge should set about that task had been given by Sir Anthony Clarke MR in Jeynes. The table quotes the eight criteria as they appear in Stocker, paragraph 35. We have omitted only the case citations that follow the quoted words in criteria (7) and (8). The original wording in Jeynes, paragraph 14, is to the same effect; the differences are two commas in criterion (2) and the form of those citations.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 34–35"
+                },
+                {
+                  "id": "jeynes",
+                  "locator": "para 14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jeynes-tensions",
+          "title": "What the criteria leave open",
+          "kind": "Our commentary",
+          "table": {
+            "caption": "Our questions about the eight criteria, not a further legal test",
+            "columns": [
+              "The criterion, in short",
+              "The tension we see"
+            ],
+            "rows": [
+              [
+                "Reasonableness governs",
+                "Who determines what is reasonable?"
+              ],
+              [
+                "Not naïve, not suspicious",
+                "Where does healthy inference become excessive suspicion?"
+              ],
+              [
+                "Avoid over-analysis",
+                "How can judges explain complex meanings without over-analysing them?"
+              ],
+              [
+                "The publisher’s intention is irrelevant",
+                "A writer can mean one thing and legally communicate another."
+              ],
+              [
+                "Read the whole publication",
+                "A disclaimer may neutralise an allegation, or fail to do so."
+              ],
+              [
+                "Representative of the audience",
+                "The same words can communicate differently to different audiences."
+              ],
+              [
+                "Exclude strained interpretations",
+                "A merely conceivable interpretation is not necessarily reasonable."
+              ],
+              [
+                "One person’s reading is not enough",
+                "Actual offence or suspicion does not automatically establish a defamatory meaning."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Each criterion answers one question and leaves another open. These are our questions, not a ninth legal test, and not implications that any court has drawn as a list.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                },
+                {
+                  "id": "jeynes",
+                  "locator": "para 14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rufus-rider",
+          "title": "The Rufus rider: “should not select one bad meaning” describes the reader",
+          "kind": "Court of Appeal and Supreme Court judgments",
+          "paragraphs": [
+            {
+              "text": "Sharp LJ added a rider to the second criterion in Rufus v Elliott. Lord Kerr quoted it:",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 36"
+                },
+                {
+                  "id": "rufus",
+                  "locator": "para 11"
+                }
+              ]
+            },
+            {
+              "text": "To this I would only add that the words ‘should not select one bad meaning where other non-defamatory meanings are available’ are apt to be misleading without fuller explanation. They obviously do not mean in a case such as this one, where it is open to a defendant to contend either on a capability application or indeed at trial that the words complained of are not defamatory of the claimant, that the tribunal adjudicating on the question must then select the non-defamatory meaning for which the defendant contends. Instead, those words are ‘part of the description of the hypothetical reasonable reader, rather than (as) a prescription of how such a reader should attribute meanings to words complained of as defamatory’: see McAlpine v Bercow [2013] EWHC 1342 (QB), paras 63 to 66.",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 36"
+                },
+                {
+                  "id": "rufus",
+                  "locator": "para 11"
+                }
+              ]
+            },
+            {
+              "text": "So, Lord Kerr said, where a range of meanings is available and one of them is not defamatory, “the court is not obliged to select the non-defamatory meaning”. The touchstone remains what the ordinary reasonable reader would consider the words to mean. A theoretically possible innocent reading does not compel that result.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 37"
+                }
+              ]
+            },
+            {
+              "text": "That is the reading Tugendhat J had already given the same words in McAlpine. He treated them as a description of the reader, not as a rule that the less derogatory meaning must be chosen. It would be unreasonable always to adopt a bad meaning where a non-defamatory meaning was available. It would also be naïve always to adopt the less derogatory meaning. Bercow was held liable on the meaning the judge found.",
+              "sources": [
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 63–66, 84, 90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "single-meaning",
+          "title": "One meaning from many minds",
+          "kind": "Supreme Court judgment",
+          "table": {
+            "caption": "The single-meaning rule as a legal device, not a claim about what every reader thought",
+            "columns": [
+              "In fact",
+              "In law"
+            ],
+            "rows": [
+              [
+                "Actual readers may take different interpretations",
+                "The court still settles on a single meaning"
+              ],
+              [
+                "The reasonable reader is a legal construct",
+                "No real reader gives evidence of what the words meant to them"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Whether the analogy between a single defamatory meaning and a sole meaning to be given to a contractual term, statutory provision or notice is apt (which I take leave to doubt), it is clear that the single meaning approach is well entrenched in the law of defamation and neither party in the present appeal sought to impeach it. And, whatever else may be said of it, it provides a practical, workable solution. Where a statement has more than one plausible meaning, the question of whether defamation has occurred can only be answered by deciding that one particular meaning should be ascribed to the statement.",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 34"
+                }
+              ]
+            },
+            {
+              "text": "The judge is not claiming that everyone actually understood the publication identically. The rule supplies a workable legal answer to an inherently variable linguistic problem. Since 2014 that choice is almost always made by a judge, sitting without a jury.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 33–34"
+                },
+                {
+                  "id": "da-s11",
+                  "locator": "s 11"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "disclaimer-readings",
+          "title": "A disclaimer does not dictate the meaning",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The same tension is at work in the disclaimed specimens above, and in a plainer form of words: “I am not suggesting that the decision-maker committed fraud. There is no evidence of fraud. This is merely a hypothetical question about whether fraud might be investigated.”",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "para 35"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 84"
+                }
+              ]
+            },
+            {
+              "text": "A reasonable reader might take that as a genuine clarification excluding an allegation; as an expression of uncertainty about potential wrongdoing; or as an insinuation dressed as a disclaimer. But the reader is not entitled to choose the most scandalous interpretation merely because it is possible. Equally, the publisher cannot dictate the meaning by declaring that no accusation is intended. That is the tension between criteria (2), (4) and (5).",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35, 37"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "paras 66, 84"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "one-reader-many-names",
+          "title": "One reader, many names",
+          "kind": "Our commentary",
+          "table": {
+            "caption": "Names used in the National Archives text of Stocker, including passages that quote other judgments. Counted on 12 November 2026, as exact phrases",
+            "columns": [
+              "Name",
+              "Times used",
+              "What the word stresses, on our reading"
+            ],
+            "rows": [
+              [
+                "ordinary reasonable reader",
+                "9",
+                "The full label: ordinary, and reasonable"
+              ],
+              [
+                "ordinary reader",
+                "7",
+                "Not a lawyer. The court must “step aside from a lawyerly analysis”"
+              ],
+              [
+                "hypothetical reasonable reader",
+                "2",
+                "The reader is imagined, so no real reader gives evidence"
+              ],
+              [
+                "hypothetical reader",
+                "2",
+                "The same imagined figure, in Jeynes criterion (6)"
+              ],
+              [
+                "typical reader",
+                "1",
+                "Stands for the actual audience: “the typical reader of a Facebook post”"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Stocker switches between these names without marking any difference, so they are best read as synonyms for one figure. Each word stresses a different side of it. “Hypothetical” marks that the reader is imagined, and that no real reader gives evidence of meaning. “Reasonable” is the character in Jeynes criteria (1) and (2): not naïve, not unduly suspicious. “Ordinary” is the instruction not to parse the words as a lawyer would. “Typical” points to the actual audience in criterion (6), which is why “the typical reader of a Facebook post” is not the reader of a law report. Lord Kerr once makes the equation express: “a typical (ie an ordinary reasonable) reader”. That wording is not an extra hit for the exact phrase “typical reader”.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35, 38, 43"
+                },
+                {
+                  "id": "mcalpine",
+                  "locator": "para 13"
+                }
+              ]
+            },
+            {
+              "text": "Section 127 uses none of these names. Lord Carswell described the magistrates’ task as deciding whether a message was grossly offensive “in the eyes of reasonable people” (para 18). In paragraph 22 he referred to “reasonable members of society in general” and “reasonable citizens”. These are different names for a different imagined person, whose job is to decide whether a message is grossly offensive, not what it means as a matter of defamation.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 18, 22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "not-a-criminal-test",
+          "title": "A defamation framework, not a criminal one",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "There is one further limit. The Jeynes criteria, the single-meaning rule and the Rufus rider belong to the law of defamation. They cannot automatically be transplanted into criminal speech offences, whose statutory elements and tests differ. Section 127, as the next section sets out, asks a different question of a different imagined person. The absurdity paradox in this chapter depends on that difference.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 34–35"
+                },
+                {
+                  "id": "collins",
+                  "locator": "paras 8–9, 22"
+                },
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "paradox",
       "title": "The paradox in one table",
       "intro": "The same words, judged by two different questions.",
@@ -691,7 +1044,7 @@
               "quote": true
             },
             {
-              "text": "The section 127 standard belongs to society, not to the audience. Lord Carswell criticised the magistrates for weighing “the reaction of the actual listeners to the messages, rather than considering the reactions of reasonable members of society in general”. The defamation reader is the reverse: a reasonable representative of the people who actually read the words, in McAlpine the “users of Twitter who follow the Defendant”.",
+              "text": "The section 127 standard belongs to society, not to the audience. Lord Carswell thought the justices may have “placed some weight on the reaction of the actual listeners to the messages, rather than considering the reactions of reasonable members of society in general”. The defamation reader is the reverse: a reasonable representative of the people who actually read the words, in McAlpine the “users of Twitter who follow the Defendant”.",
               "sources": [
                 {
                   "id": "collins",
@@ -912,7 +1265,7 @@
       "type": "Judgment (House of Lords)",
       "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm",
       "date": "2006-07-19",
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     {
       "id": "mca-s1",
@@ -954,6 +1307,24 @@
       "type": "Legislation",
       "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/7",
       "checked": "2026-11-11"
+    },
+    {
+      "id": "jeynes",
+      "title": "Jeynes v News Magazines Ltd [2008] EWCA Civ 130",
+      "publisher": "Court of Appeal (Sir Anthony Clarke MR)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/130",
+      "date": "2008-01-31",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "rufus",
+      "title": "Rufus v Elliott [2015] EWCA Civ 121",
+      "publisher": "Court of Appeal (Sharp LJ)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/121",
+      "date": "2015-02-20",
+      "checked": "2026-11-12"
     }
   ]
 }
