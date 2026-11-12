@@ -637,7 +637,7 @@
           "kind": "Coverage limitation",
           "paragraphs": [
             {
-              "text": "We did not find a published ACOBA advice letter for Dame Cressida Dick’s Palantir role; that is a limit of this review, not a finding that she was required to seek one. We have not found a published figure for what she is paid. We did not open a primary official notice for the Bedfordshire, Cambridgeshire and Hertfordshire Foundry award, so those figures are attributed to reporting. We did not re-open Thames Water’s 2025/26 annual-report PDFs for this page. The two user-supplied images intended for this page were not available in the working files at the time of writing, so they have not been included. This page is not legal advice, not a charge, and not the forthcoming Gaza investigation.",
+              "text": "We did not find a published ACOBA advice letter for Dame Cressida Dick’s Palantir role; that is a limit of this review, not a finding that she was required to seek one. We have not found a published figure for what she is paid. We did not open a primary official notice for the Bedfordshire, Cambridgeshire and Hertfordshire Foundry award, so those figures are attributed to reporting. We did not re-open Thames Water’s 2025/26 annual-report PDFs for this page. The two campaign graphics on this page are Independent Tribunal artwork: illustrative commentary, not evidence. This page is not legal advice, not a charge, and not the forthcoming Gaza investigation.",
               "sources": []
             }
           ]
@@ -861,6 +861,24 @@
       "url": "https://www.gov.uk/government/publications/notice-to-exporters-202420-suspension-of-licences-for-israel/nte-202420-suspension-of-licences-for-israel",
       "date": "2024-09-02",
       "checked": "2026-11-12"
+    }
+  ],
+  "evidence_image": {
+    "src": "/images/cressida-dick-palantir-adviser.webp",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Campaign graphic of Dame Cressida Dick in Metropolitan Police uniform, set against purple tentacles and the Palantir logo, with screens labelled NHS and Police and a London skyline. The headline reads Exclusive: Ex-Met Police chief hired as paid adviser by Palantir, with a line that she joined in September 2025, and the slogan NHS and now police. Shocking and appalling became the new normal.",
+    "caption": "Independent Tribunal campaign graphic (illustrative, not evidence). The appointment and September 2025 date are those later reported by the Bureau of Investigative Journalism, cited below. The tentacles, screens and slogan are commentary artwork, not a record that she obtained any contract."
+  },
+  "artworks": [
+    {
+      "src": "/images/independent-tribunal-campaign-poster.webp",
+      "width": 1200,
+      "height": 1200,
+      "after_section": "gaza",
+      "alt": "Gold-and-black Independent Tribunal campaign poster. The heading reads Independent Tribunal, investigating and prosecuting those enabling genocide and war crimes in public office. Four people sit behind a courtroom bench, in the likeness of David Lammy, Keir Starmer, Dame Cressida Dick and David Cameron, each with a plaque reading Defendant. Below, the poster says no immunity, no statute of limitations, justice will come no matter how slow, and We do not forget. We do remember, with a note that after the Second World War there were many courts and Nuremberg was only the most famous.",
+      "caption": "Independent Tribunal campaign graphic (illustrative, not evidence). The “Defendant” labels and the courtroom staging are the artwork’s rhetoric, not a court record or a finding that any named person has been charged or convicted.",
+      "transcript": "INDEPENDENT TRIBUNAL\nInvestigating and prosecuting those enabling GENOCIDE & WAR CRIMES in public office\nPLANETARY COUNCIL.ORG\nFour figures, each labelled DEFENDANT.\nNo immunity, no statute of limitations. Justice will come no matter how slow.\nWE DO NOT FORGET. WE DO REMEMBER.\nAfter World War II, there were many courts. Nuremberg was just the most famous.\nINDEPENDENTTRIBUNAL.ORG"
     }
   ]
 }

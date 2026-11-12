@@ -123,6 +123,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
     const withheld = (inner) => `<div class="profile-withheld"><div class="profile-withheld-bounce" aria-hidden="true"><span class="profile-bounce-x"><span class="profile-bounce-y">🦩</span></span><span class="profile-bounce-x"><span class="profile-bounce-y">💩</span></span></div><p class="profile-withheld-label">This part is not published*</p><div class="profile-withheld-text">${inner}</div><p class="profile-withheld-note">*It is. In law, words are published the moment a reader sees them, and a label saying otherwise changes nothing. Read it as published, and as our honest opinion on the facts above.</p></div>`;
     await put(`research/${p.id}/index.html`, page({
       title: p.title, description: p.summary, path: `/research/${p.id}/`,
+      image: p.evidence_image && !p.evidence_image.after_section ? p.evidence_image : undefined,
       meta: `<p class="meta">Sources reviewed ${e(p.checked)} · <a href="/data/profiles/${p.id}.json">Download JSON</a> · <a href="${site.source_repo}/commits/main/data/profiles/${p.id}.json">Edit history</a></p>`,
       body: `<style>
         .profile-hero { border-top:4px solid var(--navy); padding-top:1.6rem; }

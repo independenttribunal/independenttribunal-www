@@ -82,6 +82,30 @@ test("who is watching the watchdogs: sourced facts, questions not allegations, T
   assert.ok(html.includes("Shocking and appalling became the new normal"));
   assert.match(html, /under investigation/i);
 
+  assert.equal(p.evidence_image.src, "/images/cressida-dick-palantir-adviser.webp");
+  assert.equal(p.evidence_image.width, 1200);
+  assert.equal(p.evidence_image.height, 1200);
+  assert.match(p.evidence_image.alt, /Dame Cressida Dick/);
+  assert.match(p.evidence_image.caption, /campaign graphic/i);
+  assert.match(p.evidence_image.caption, /not evidence/i);
+  assert.equal(p.artworks[0].src, "/images/independent-tribunal-campaign-poster.webp");
+  assert.equal(p.artworks[0].after_section, "gaza");
+  assert.match(p.artworks[0].caption, /campaign graphic/i);
+  assert.match(p.artworks[0].caption, /not evidence/i);
+  assert.match(p.artworks[0].transcript, /WE DO NOT FORGET/);
+  assert.match(text("limits"), /illustrative commentary, not evidence/);
+  assert.doesNotMatch(text("limits"), /not available/);
+
+  assert.ok(html.includes('src="/images/cressida-dick-palantir-adviser.webp"'));
+  assert.ok(html.includes('src="/images/independent-tribunal-campaign-poster.webp"'));
+  assert.ok(html.includes('loading="lazy"'));
+  assert.ok(html.includes('property="og:image" content="https://independenttribunal.org/images/cressida-dick-palantir-adviser.webp"'));
+  assert.ok(html.includes('name="twitter:card" content="summary_large_image"'));
+  assert.ok(html.includes('name="twitter:image" content="https://independenttribunal.org/images/cressida-dick-palantir-adviser.webp"'));
+  await readFile(new URL("../public/images/cressida-dick-palantir-adviser.webp", import.meta.url));
+  await readFile(new URL("../public/images/independent-tribunal-campaign-poster.webp", import.meta.url));
+
+
   const anchors = [...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]);
   assert.equal(new Set(anchors).size, anchors.length);
   for (const m of html.matchAll(/href="#([^"]+)"/g)) assert.ok(anchors.includes(m[1]), m[1]);
