@@ -5,7 +5,7 @@
   "subtitle": "An insult so absurd that nobody could believe it. The absurdity is a strong answer to a libel claim and, by itself, no defence to a criminal charge. Disclaimers do not change either answer.",
   "summary": "Defamation is hard to predict for a simple reason. Words are judged through a hypothetical reasonable reader, the writer’s intention is irrelevant, and since 2014 that reader is imagined by a judge, not a jury. Take a specimen insult, “You are so ugly because your mother was raped by a dog”, sent as a private message. As libel it fails three times over: a message sent only to the person it insults is not published to anyone else; no reasonable reader takes it as a statement of fact, which is what the courts call “mere vulgar abuse”; and nobody’s reputation suffers serious harm. As a crime it does not need to be believed. Section 127 asks whether it was grossly offensive or indecent and sent over a public network. The Malicious Communications Act asks whether it was sent to cause distress. In 2026 a councillor argued that “you cannot melt people down”. He was convicted. Adding disclaimers (“I’m not accusing, I’m only asking, hypothetically”) does not help either way: the courts read the whole message, and the sender’s intention is irrelevant to what it means.",
   "scope": "England and Wales. The specimen sentence is ours, written to test the law and aimed at no real person. We quote it in order to analyse it, which is the kind of context the courts say changes what words are.",
-  "status_note": "Our analysis of how the cited statutes and judgments apply to an invented sentence, read from the official texts on 11 November 2026. The reasonable-reader section was checked against the National Archives texts of Jeynes, Stocker and Rufus on 12 November 2026. No court has ruled on this sentence, and whether words are grossly offensive or indecent is a question of fact for the court in each case. This is legal research, not legal advice.",
+  "status_note": "Our analysis of how the cited statutes and judgments apply to an invented sentence, read from the official texts on 11 November 2026. The reasonable-reader section was checked against the National Archives texts of Jeynes, Stocker and Rufus on 12 November 2026, and the House of Lords text of DPP v Collins was checked the same day. No court has ruled on this sentence, and whether words are grossly offensive or indecent is a question of fact for the court in each case. This is legal research, not legal advice.",
   "jurisdiction": "England and Wales",
   "checked": "2026-11-12",
   "tags": [
@@ -833,11 +833,11 @@
               ]
             },
             {
-              "text": "Section 127 uses none of these names. Its imagined person, already compared in the next section, is described as “reasonable members of society in general”: a different name for a different figure, whose job is to decide whether a message is grossly offensive, not what it means as a matter of defamation.",
+              "text": "Section 127 uses none of these names. Lord Carswell described the magistrates’ task as deciding whether a message was grossly offensive “in the eyes of reasonable people” (para 18). In paragraph 22 he referred to “reasonable members of society in general” and “reasonable citizens”. These are different names for a different imagined person, whose job is to decide whether a message is grossly offensive, not what it means as a matter of defamation.",
               "sources": [
                 {
                   "id": "collins",
-                  "locator": "para 22"
+                  "locator": "paras 18, 22"
                 }
               ]
             }
@@ -1044,7 +1044,7 @@
               "quote": true
             },
             {
-              "text": "The section 127 standard belongs to society, not to the audience. Lord Carswell criticised the magistrates for weighing “the reaction of the actual listeners to the messages, rather than considering the reactions of reasonable members of society in general”. The defamation reader is the reverse: a reasonable representative of the people who actually read the words, in McAlpine the “users of Twitter who follow the Defendant”.",
+              "text": "The section 127 standard belongs to society, not to the audience. Lord Carswell thought the justices may have “placed some weight on the reaction of the actual listeners to the messages, rather than considering the reactions of reasonable members of society in general”. The defamation reader is the reverse: a reasonable representative of the people who actually read the words, in McAlpine the “users of Twitter who follow the Defendant”.",
               "sources": [
                 {
                   "id": "collins",
@@ -1265,7 +1265,7 @@
       "type": "Judgment (House of Lords)",
       "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm",
       "date": "2006-07-19",
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     {
       "id": "mca-s1",
