@@ -1,0 +1,1333 @@
+{
+  "id": "defamation-game-theory",
+  "category": "legal-study",
+  "title": "The game theory of suing for defamation",
+  "subtitle": "A single insult in a small group chat is usually a weak legal claim, an expensive one, and a poor reputational signal.",
+  "summary": "Suing over a snarky comparison, made once in a small semi-private chat, is very likely a bad trade in England and Wales. Section 1 of the Defamation Act 2013 requires serious harm to reputation, shown on the actual facts of publication and impact, not presumed from the words and not proved by mere offence. A heat-of-the-argument insult is often read as “mere vulgar abuse” or opinion, not as a statement of fact. Even a legally arguable claim can be struck out as an abuse of process where so little is at stake that the cost of the litigation is out of proportion. Neighbouring criminal offences do not fill the gap: harassment needs a course of conduct, and the Online Safety Act 2023 replaced only the false-message and threat limbs of older communications offences, leaving high thresholds behind. The cheaper moves — a short reply, a private request, preserving evidence, or ignoring it — usually send a stronger signal. This is legal research and commentary, not legal advice, and it names nobody.",
+  "scope": "England and Wales. The case study is a generic scenario: one snarky comparison to a Nazi, made once in a small semi-private group chat. It is written to test the legal and reputational incentives. It is not an account of a named dispute, and nobody in any group is identified. Scotland and Northern Ireland have different law.",
+  "status_note": "The statutes and judgments cited were read from legislation.gov.uk, the National Archives (Find Case Law) and the Civil Procedure Rules on 13 November 2026. Items marked [ESTIMATE] are rough figures, not surveyed market rates. Items marked [JUDGMENT] are our interpretation, not findings of a court. This is legal research and commentary, not legal advice. Before sending a letter before claim, or issuing, take advice from a specialist defamation solicitor.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-13",
+  "tags": [
+    "uk",
+    "defamation",
+    "freedom-of-expression",
+    "speech-offences",
+    "game-theory"
+  ],
+  "related": [
+    {
+      "id": "calling-fraud-a-fraud",
+      "title": "Calling fraud a fraud: defamation law for people who mean it"
+    },
+    {
+      "id": "absurdity-paradox",
+      "title": "“Your mother was raped by a dog”: the absurdity paradox"
+    },
+    {
+      "id": "mcalpine-v-bercow",
+      "title": "“*Innocent face*”: McAlpine v Bercow"
+    },
+    {
+      "id": "grossly-offensive",
+      "title": "Grossly offensive: when a message becomes a crime"
+    },
+    {
+      "id": "message-ultra",
+      "title": "Message ultra: one message, six offences"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The core finding",
+      "value": "A bad trade",
+      "detail": "A weak claim, a high cost, and a signal closer to thin-skinned than strong",
+      "target": "core-finding"
+    },
+    {
+      "label": "Serious harm",
+      "value": "Actual impact",
+      "detail": "Lachaux: judged on the facts of publication and impact, not presumed from the words. Offence is not enough",
+      "target": "serious-harm"
+    },
+    {
+      "label": "Signalling",
+      "value": "Restraint can be stronger",
+      "detail": "Not suing can signal strength; writing up why you will not sue can undo that signal",
+      "target": "signalling"
+    },
+    {
+      "label": "The lesson",
+      "value": "Proportion, then move on",
+      "detail": "The offence can be real and the legal remedy still the wrong move",
+      "target": "the-lesson"
+    }
+  ],
+  "sections": [
+    {
+      "id": "core-finding",
+      "title": "The core finding",
+      "intro": "A working illustration, not a report of a named dispute: one insulting comparison, made once, in a small group of people who already know the person being compared.",
+      "entries": [
+        {
+          "id": "bad-trade",
+          "title": "A bad trade",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Suing over a single insulting comparison in a small group chat is very likely a bad trade. The claim is legally weak, the cost is high, and the reputational signal is closer to “thin-skinned” than “strong”. [JUDGMENT]",
+              "sources": [
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "lachaux",
+                  "locator": "paras 12, 14, 16"
+                },
+                {
+                  "id": "jameel",
+                  "locator": "paras 69–70"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "That is a judgment about incentives, not a finding that any particular comment was lawful, or that any particular person has a claim or a defence. Offence can be real and still be a poor reason to start a High Court action.",
+              "sources": [
+                {
+                  "id": "monroe",
+                  "locator": "para 67"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-weakness",
+      "title": "Why the legal claim is weak",
+      "intro": "Six points of English law, read from the statutes and the judgments. Together they make a claim over one insult in a small chat an uphill fight.",
+      "entries": [
+        {
+          "id": "serious-harm",
+          "title": "Serious harm is not presumed, and offence is not enough",
+          "kind": "Statute and Supreme Court judgment",
+          "paragraphs": [
+            {
+              "text": "A statement is not defamatory unless its publication “has caused or is likely to cause serious harm to the reputation of the claimant.” That is section 1(1) of the Defamation Act 2013, in force from 1 January 2014.",
+              "sources": [
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            },
+            {
+              "text": "The Supreme Court in Lachaux v Independent Print Ltd held that section 1 “not only raises the threshold of seriousness” above the earlier common-law tests, “but requires its application to be determined by reference to the actual facts about its impact and not just to the meaning of the words.” Harm that “has caused” serious harm “points to some historic harm, which is shown to have actually occurred.” It “depends on a combination of the inherent tendency of the words and their actual impact on those to whom they were communicated.” The same is true of harm that is “likely” to be caused, which “naturally refers to probable future harm.”",
+              "sources": [
+                {
+                  "id": "lachaux",
+                  "locator": "paras 12, 14"
+                }
+              ]
+            },
+            {
+              "text": "The court can infer serious harm from the gravity of the allegation, the circumstances of publication and the inherent probabilities. It does not follow that a grave-sounding insult, published to a handful of people who already know the claimant, will meet the test. Being offended is not reputational harm. As Warby J noted in Monroe v Hopkins, quoting Dingemans J in Sobrinho, unless serious harm to reputation is established, “an injury to feelings alone, however grave, will not suffice.”",
+              "sources": [
+                {
+                  "id": "lachaux",
+                  "locator": "paras 16, 21"
+                },
+                {
+                  "id": "monroe",
+                  "locator": "para 67"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "small-audience",
+          "title": "A small audience rarely produces serious harm",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "A statement made to a small group of people who already know the claimant will rarely cause serious harm to reputation. [JUDGMENT] In Lachaux the Supreme Court gave, as an illustration of why inherent tendency is not enough, a grave allegation “published to a small number of people, or to people none of whom believe it, or possibly to people among whom the claimant had no reputation to be harmed.” Those facts, which used to go only to damages, are now “part of the test of the defamatory character of the statement.”",
+              "sources": [
+                {
+                  "id": "lachaux",
+                  "locator": "para 16"
+                },
+                {
+                  "id": "jameel",
+                  "locator": "paras 17, 69–70"
+                }
+              ]
+            },
+            {
+              "text": "Jameel v Dow Jones is the textbook of a tiny audience. The Court of Appeal treated five publications of a terrorism-funding allegation in England and Wales as not amounting, “individually or collectively, to a real and substantial tort,” and as an abuse of process “where so little is now seen to be at stake.” A semi-private group chat is usually closer to that scale than to a newspaper.",
+              "sources": [
+                {
+                  "id": "jameel",
+                  "locator": "paras 17, 70"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vulgar-abuse",
+          "title": "Insult versus fact: “mere vulgar abuse”",
+          "kind": "High Court judgment, applied by us",
+          "paragraphs": [
+            {
+              "text": "Courts distinguish a factual allegation from opinion and from what they call “mere vulgar abuse.” Mr Justice Eady, in Smith v ADVFN, treated that phrase as “an aspect of interpreting the meaning of words,” not as a separate defence. “From the context of casual conversations, one can often tell that a remark is not to be taken literally or seriously and is rather to be construed merely as abuse.”",
+              "sources": [
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                }
+              ]
+            },
+            {
+              "text": "He described online bulletin-board exchanges as “rather like contributions to a casual conversation (the analogy sometimes being drawn with people chatting in a bar),” “often uninhibited, casual and ill thought out,” in which participants “expect a certain amount of repartee or ‘give and take.’” A snarky Nazi comparison, made in the heat of an argument in a small group chat, will usually be read in that way: as abuse or as an evaluative outburst, not as a claim that the person is literally a Nazi or holds or promotes Nazi views. [JUDGMENT] That reading is a matter of meaning in context. It is not automatic, and a more specific wording can change it.",
+              "sources": [
+                {
+                  "id": "advfn",
+                  "locator": "paras 14, 17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "monroe-counterpoint",
+          "title": "A counterpoint: when a tweet did cause serious harm",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Monroe v Hopkins is the useful contrast, not the parallel. Katie Hopkins tweeted about the writer Jack Monroe. Warby J held that the first tweet meant Monroe “condoned and approved of scrawling on war memorials, vandalising monuments commemorating those who fought for her freedom,” and that the second tweet, by innuendo, meant she condoned and approved of the vandalising of the women’s war memorial in Whitehall. Those were specific factual imputations, published on Twitter “to thousands.”",
+              "sources": [
+                {
+                  "id": "monroe",
+                  "locator": "paras 48, 74, 82"
+                }
+              ]
+            },
+            {
+              "text": "The judge was “satisfied that she has established that the publications complained of caused serious harm to her reputation,” even though she “may not have proved that her reputation suffered gravely.” Damages were £24,000. Injury to feelings, however real, was not enough on its own. The difference from the case study is the difference that matters: a public, specific allegation of fact, reaching a wide audience, rather than a one-off insult in a small group of people who already know the target.",
+              "sources": [
+                {
+                  "id": "monroe",
+                  "locator": "paras 67, 74, 80, 82"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honest-opinion",
+          "title": "Honest opinion",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 3 of the Defamation Act 2013 is a defence if three conditions are met: the statement was a statement of opinion; it indicated, “whether in general or specific terms, the basis of the opinion”; and “an honest person could have held the opinion” on the basis of any fact that existed at the time, or of anything asserted as fact in a privileged statement published earlier. The defence is defeated if the claimant shows that the defendant did not hold the opinion.",
+              "sources": [
+                {
+                  "id": "da-s3",
+                  "locator": "s 3(1)–(5)"
+                }
+              ]
+            },
+            {
+              "text": "A Nazi comparison may or may not be recognisably opinion, and it may or may not indicate its basis. If the words are mere vulgar abuse, the meaning question comes first and there may be no defamatory statement of fact or of opinion to defend. If they are opinion, section 3 is the statutory route. Neither is a free pass for a specific factual charge that the person holds or promotes Nazi views.",
+              "sources": [
+                {
+                  "id": "da-s3",
+                  "locator": "s 3(2)–(4)"
+                },
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jameel-abuse",
+          "title": "Proportionality and abuse of process",
+          "kind": "Court of Appeal judgment",
+          "paragraphs": [
+            {
+              "text": "In Jameel the Court of Appeal held that it would be “an abuse of process to continue to commit the resources of the English court … to an action where so little is now seen to be at stake.” The five publications in the jurisdiction did not amount to “a real and substantial tort.” If the claim went on and the claimant won, “the cost of the exercise will have been out of all proportion to what has been achieved. The game will not merely not have been worth the candle, it will not have been worth the wick.”",
+              "sources": [
+                {
+                  "id": "jameel",
+                  "locator": "paras 69–70"
+                }
+              ]
+            },
+            {
+              "text": "A court can still strike out, or stay, a claim on that basis where no real and substantial wrong is shown and the litigation cost is out of proportion to what is at stake. Section 1 has since raised the substantive threshold, but Jameel remains the procedural warning: a technically defamatory meaning, published to almost nobody who matters, may still be stopped as an abuse.",
+              "sources": [
+                {
+                  "id": "jameel",
+                  "locator": "paras 69–70"
+                },
+                {
+                  "id": "lachaux",
+                  "locator": "paras 8, 12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time-limit",
+          "title": "The one-year limit",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "A defamation claim may not be brought “after the expiration of one year from the date on which the cause of action accrued.” That is section 4A of the Limitation Act 1980. The cause of action ordinarily accrues on publication to a third party.",
+              "sources": [
+                {
+                  "id": "la-s4a"
+                },
+                {
+                  "id": "lachaux",
+                  "locator": "para 18"
+                }
+              ]
+            },
+            {
+              "text": "Section 32A gives the court a discretion to disapply that limit if it appears “equitable to allow an action to proceed,” balancing the prejudice to both sides. The court must have regard to all the circumstances, including the length of and reasons for the delay, when any relevant facts became known, whether the claimant then acted promptly, and whether evidence is likely to be unavailable or less cogent. The statute does not describe the discretion as “narrow,” and we have not treated it as automatic. It is a discretion, not an extension of right.",
+              "sources": [
+                {
+                  "id": "la-s32a",
+                  "locator": "s 32A(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "Section 8 of the Defamation Act 2013 adds a single-publication rule: a later publication of substantially the same statement, by the same person, is treated as accruing on the date of the first publication, unless the manner of publication is materially different. Keeping the option open for a year means dating the first publication, not waiting for a repost to restart the clock.",
+              "sources": [
+                {
+                  "id": "da-s8",
+                  "locator": "s 8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neighbouring",
+      "title": "Neighbouring laws that also do not fit",
+      "intro": "If the civil claim is weak, it is tempting to reach for a criminal statute instead. The neighbouring offences have their own thresholds, and a single snarky comparison sits well below them. [JUDGMENT]",
+      "entries": [
+        {
+          "id": "harassment",
+          "title": "Harassment needs a course of conduct",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "The Protection from Harassment Act 1997 prohibits a course of conduct that amounts to harassment and that the person knows, or ought to know, amounts to harassment. For conduct in relation to a single person, a “course of conduct” “must involve … conduct on at least two occasions in relation to that person.” Speech is conduct. One comment is not a course of conduct.",
+              "sources": [
+                {
+                  "id": "pha-s1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "pha-s7",
+                  "locator": "s 7(3)(a), (4)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "communications-offences",
+          "title": "What the Online Safety Act actually repealed",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "The Malicious Communications Act 1988 and section 127 of the Communications Act 2003 were often described, loosely, as covering grossly offensive, threatening or knowingly false messages. That was never the whole picture, and it is not the picture now.",
+              "sources": [
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1"
+                },
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127"
+                },
+                {
+                  "id": "osa-s189"
+                }
+              ]
+            },
+            {
+              "text": "From 31 January 2024, section 189 of the Online Safety Act 2023 repealed only some of those limbs, and replaced them with new offences in sections 179 and 181. In England, Wales and Northern Ireland it repealed section 127(2)(a) and (b) of the 2003 Act, the “false messages” offence of sending, or causing to be sent, a message known to be false for the purpose of causing annoyance, inconvenience or needless anxiety. It also repealed section 1(1)(a)(ii) and (iii) of the 1988 Act — the limbs that covered a threat, and information which is false and known or believed to be false by the sender — and the associated subsection (2).",
+              "sources": [
+                {
+                  "id": "osa-s189",
+                  "locator": "s 189(1)–(2)"
+                },
+                {
+                  "id": "si-2024-31",
+                  "locator": "reg 2"
+                },
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(2)"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "textual amendments F2, F3, F5"
+                }
+              ]
+            },
+            {
+              "text": "What remains is substantial. Section 127(1) still makes it an offence to send, by a public electronic communications network, a message that is “grossly offensive or of an indecent, obscene or menacing character.” Section 127(2)(c) still covers persistently making use of such a network for the purpose of causing annoyance, inconvenience or needless anxiety. The 1988 Act still covers sending an indecent or grossly offensive message or article, if a purpose of sending it is to cause distress or anxiety to the recipient or to someone the sender intends it to reach.",
+              "sources": [
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1), (2)(c)"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            },
+            {
+              "text": "The new false-communications offence, section 179, is narrower than the old false-message limbs. It requires a message conveying information the sender knows to be false, sent with intent that the message or the information should cause “non-trivial psychological or physical harm to a likely audience,” and with “no reasonable excuse.” The threatening-communications offence, section 181, requires a message conveying “a threat of death or serious harm,” and intention or recklessness as to whether someone encountering it would fear that the threat would be carried out. “Serious harm” here means grievous bodily harm, rape, assault by penetration, or serious financial loss.",
+              "sources": [
+                {
+                  "id": "osa-s179",
+                  "locator": "s 179(1)"
+                },
+                {
+                  "id": "osa-s181",
+                  "locator": "s 181(1)–(2)"
+                }
+              ]
+            },
+            {
+              "text": "A single snarky comparison is not a threat of death or serious harm, and it is not a knowing falsehood sent to cause non-trivial harm. It might, in an extreme case, be argued to be grossly offensive under the remaining section 127(1) or the 1988 Act, but those are high thresholds, decided case by case, and a one-off jibe in a group of people who know each other sits far below them. [JUDGMENT]",
+              "sources": [
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1)"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "osa-s179",
+                  "locator": "s 179(1)"
+                },
+                {
+                  "id": "osa-s181",
+                  "locator": "s 181(1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "Costs",
+      "intro": "Even a weak claim is expensive to start, and more expensive to lose. The figures in this section are rough orders of magnitude, not a quote.",
+      "entries": [
+        {
+          "id": "letter-costs",
+          "title": "A letter before claim",
+          "kind": "Our estimate",
+          "paragraphs": [
+            {
+              "text": "A solicitor’s letter before claim typically costs hundreds of pounds to a few thousand, depending on the firm and how much evidence is assembled first. [ESTIMATE]",
+              "sources": [
+                {
+                  "id": "pap-media",
+                  "locator": "paras 1.3, 3.1–3.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trial-costs",
+          "title": "A claim taken towards trial",
+          "kind": "Our estimate",
+          "paragraphs": [
+            {
+              "text": "A defamation claim fought towards trial commonly runs to tens of thousands of pounds, and can reach several hundred thousand pounds, per side. [ESTIMATE] Monroe is a warning even where the claimant won: damages were £24,000, and Warby J noted that the costs incurred were “largely … incurred in contesting the issue of whether a statement which on its face had a defamatory tendency had actually caused serious harm.”",
+              "sources": [
+                {
+                  "id": "monroe",
+                  "locator": "paras 80, 82–83"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "loser-pays",
+          "title": "The loser usually pays",
+          "kind": "Procedure rules",
+          "paragraphs": [
+            {
+              "text": "The court has a discretion as to whether costs are payable, in what amount, and when. If it makes an order about costs, “the general rule is that the unsuccessful party will be ordered to pay the costs of the successful party; but the court may make a different order.” A costs order is usually assessed on the standard basis, so the loser pays a substantial proportion of the winner’s reasonably incurred costs, not every pound. A weak claim therefore carries a double bill: one’s own costs, and most of the other side’s. The general rule can be displaced; it is not a guarantee.",
+              "sources": [
+                {
+                  "id": "cpr-44-2",
+                  "locator": "r 44.2(1)–(2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "protocol",
+          "title": "The pre-action protocol",
+          "kind": "Pre-action protocol",
+          "paragraphs": [
+            {
+              "text": "Defamation claims fall within the Pre-Action Protocol for Media and Communications Claims, which applies to “all cases involving claims in defamation” and certain other media and communications claims. The courts “will expect parties to have complied with this Protocol in good time before proceedings are issued.” If the claim proceeds, “the extent to which this Protocol has been followed … will assist the court in dealing with liability for costs and making other orders.” Non-compliance is not an absolute bar to issuing, especially where time is short, but it is a costs risk.",
+              "sources": [
+                {
+                  "id": "pap-media",
+                  "locator": "paras 1.1, 1.3–1.4"
+                }
+              ]
+            },
+            {
+              "text": "The protocol itself notes that “time is frequently ‘of the essence’” and that “the limitation period is (uniquely) only 1 year in defamation and malicious falsehood cases.” A letter of claim in a defamation case should, among other things, identify the publication, the words, the meaning complained of, and “how or why the Claimant says that the statement complained of has caused or is likely to cause serious harm.” The parties “should act reasonably to keep costs proportionate to the nature and gravity of the case.”",
+              "sources": [
+                {
+                  "id": "pap-media",
+                  "locator": "paras 1.4, 2.2, 3.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time-attention",
+          "title": "Time and attention",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Even a claim that never reaches a trial can consume months, and a fought claim can consume years. Attention is one of the few non-renewable resources. That cost does not appear in a costs budget, and it is often the one that matters. [JUDGMENT]",
+              "sources": [
+                {
+                  "id": "jameel",
+                  "locator": "paras 69–70"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reputational",
+      "title": "Reputational game theory",
+      "intro": "The legal merits are only half of the decision. The other half is the signal the claim sends, including to people who will never read a judgment. [JUDGMENT] throughout this section.",
+      "entries": [
+        {
+          "id": "streisand-effect",
+          "title": "The Streisand effect cuts the wrong way",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Trying to suppress a small publication often advertises it. The usual name for that reversal is the Streisand effect. Suing over a group-chat insult spreads the original comparison to a far larger audience than the chat ever reached. The amplified headline is the comparison itself, not the rebuttal.",
+              "sources": [
+                {
+                  "id": "streisand"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "defendant-move",
+          "title": "The defendant has a move too",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "A letter before claim is not a private document in any reliable sense. The defendant can publish it, frame the claimant as a bully, and gain sympathy and attention at no equivalent cost. Once the letter is out, the claimant no longer controls the story.",
+              "sources": [
+                {
+                  "id": "pap-media",
+                  "locator": "paras 1.3, 3.1"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proportion-signal",
+          "title": "Strength is signalled by proportion",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "A measured response to a small provocation reads as strong. A lawsuit over a snarky comment reads as fragile or vindictive. The audience does not need to be right about the law for that reading to be costly.",
+              "sources": [
+                {
+                  "id": "jameel",
+                  "locator": "paras 69–70"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "threat-credibility",
+          "title": "Both branches of a legal threat are bad",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "A threat only deters if the other side believes it will be carried out. A legal threat that is not followed through lowers the credibility of every later threat. A threat that is followed through on a weak claim ends in a costly loss, and possibly an abuse-of-process dismissal. Both branches are bad.",
+              "sources": [
+                {
+                  "id": "jameel",
+                  "locator": "paras 69–70"
+                },
+                {
+                  "id": "cpr-44-2",
+                  "locator": "r 44.2(2)"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group-jury",
+          "title": "The group is the jury that matters",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Members of the group are the audience whose opinion actually shifted, if anyone’s did. Legal escalation inside a community usually moves sympathy towards the person being sued, and away from the person who brought the lawyers in.",
+              "sources": [
+                {
+                  "id": "lachaux",
+                  "locator": "para 16"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hypocrisy-penalty",
+          "title": "The hypocrisy penalty",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Anyone who publicly defends free expression pays a consistency cost for suing over an insult. The cost is reputational, not legal, and it falls due whether or not the claim was technically available.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "slapp-label",
+          "title": "The SLAPP label",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Claims over insults and criticism are often labelled strategic lawsuits against public participation. The label itself is a reputational cost, whether or not it is accurate. The statutory SLAPP regime in sections 194 and 195 of the Economic Crime and Corporate Transparency Act 2023 is narrower: it is built for claims over speech about economic crime, and it would not be the tool for this case study. The colloquial label still travels.",
+              "sources": [
+                {
+                  "id": "eccta-195",
+                  "locator": "s 195"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signalling",
+      "title": "Signalling: virtue, reverse virtue, meta-reverse virtue",
+      "intro": "A simple payoff analysis of the signals a would-be claimant can send. It is general, and it names nobody. The table and the readings in this section are [JUDGMENT].",
+      "entries": [
+        {
+          "id": "virtue-signalling",
+          "title": "Virtue signalling",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Virtue signalling, in this setting, is suing or loudly condemning the insult in order to show moral seriousness to one’s in-group. Talk is cheap: a post that says “this is unacceptable” costs little and proves little. A lawsuit is costly, so it can look like a more credible signal of seriousness. The problem is that the same cost can be read as fragility or vindictiveness rather than virtue, especially where the legal claim is weak and the original audience was small.",
+              "sources": [
+                {
+                  "id": "jameel",
+                  "locator": "paras 69–70"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reverse-virtue",
+          "title": "Reverse virtue signalling",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Reverse virtue signalling is deliberately not suing, or visibly shrugging the insult off, in order to signal strength and indifference. The costly-signal logic is that you can afford to ignore it. Only someone who is not actually harmed, or who is secure enough not to need a court to say so, leaves the legal option unused. The risk is that silence is later treated as assent, or as fear. A short, proportionate reply, then stopping, is often a cleaner version of the same signal.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "advfn",
+                  "locator": "paras 14, 17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "meta-reverse",
+          "title": "Meta-reverse virtue signalling",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Meta-reverse virtue signalling is publicly writing up why you will not sue. It tries to cash both cheques at once: the restraint of not suing, and the sophistication of being able to explain the incentives. The risk is that the write-up is read as a disguised threat (“I could sue, and here is how”), or as evidence that you are still bothered. The more tightly the analysis is tied to an identifiable person, the more it resembles the threat it claims not to be. That is why this page names nobody.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "payoff-table",
+          "title": "A small payoff table",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Readings will vary with the audience. This is a sketch of typical ones, not a prediction about any real dispute. [JUDGMENT]",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "[JUDGMENT] Claimant move against two kinds of audience reading. These are interpretations, not measured results.",
+            "columns": [
+              "Claimant move",
+              "Sympathetic in-group reading",
+              "Sceptical or wider reading",
+              "Main risk"
+            ],
+            "rows": [
+              [
+                "Sue, or loudly condemn and threaten a claim",
+                "Moral seriousness; loyalty to the insulted value",
+                "Thin-skinned, punitive, or trying to chill speech",
+                "High cost, Streisand effect, and a weak claim if followed through"
+              ],
+              [
+                "Ignore it, or decline to sue without a fuss",
+                "Strength and indifference; able to absorb the insult",
+                "Assent, weakness, or fear of the argument",
+                "Silence later treated as acceptance"
+              ],
+              [
+                "Write publicly about why you will not sue",
+                "Restraint plus sophistication; a costly explanation of a cheap remedy",
+                "A disguised threat, or proof that you are still bothered",
+                "The write-up can undo the restraint it describes, especially if anyone is identifiable"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cheaper-moves",
+      "title": "Cheaper moves that send the desired signal",
+      "intro": "If the aim is to mark the comparison as false, keep your reputation with the people who matter, and not look fragile, these moves are usually better than a claim. [JUDGMENT]",
+      "entries": [
+        {
+          "id": "calm-reply",
+          "title": "One calm public reply, then stop",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "One calm reply in the same thread is often enough: “That comparison is false and offensive. Withdraw it or back it up.” Then stop replying. Repeating the argument, or raising the temperature, hands the other person the attention they have already shown they want.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "advfn",
+                  "locator": "para 14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "private-request",
+          "title": "A private request",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "A private request for a retraction or an apology costs little, does not advertise the insult, and does not start the protocol clock in the way a formal letter before claim does. It can still be saved, dated, and produced later if the facts change.",
+              "sources": [
+                {
+                  "id": "pap-media",
+                  "locator": "paras 1.2, 2.1"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "preserve-evidence",
+          "title": "Preserve the evidence",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Dated screenshots, and a note of who was in the group at the time, keep the legal option open for the year that section 4A allows, at almost no cost. Do it once, store it, and do not turn the archive into a campaign.",
+              "sources": [
+                {
+                  "id": "la-s4a"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ask-admin",
+          "title": "Ask the administrator",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "If the group has rules, ask the administrator to apply them. That is a community remedy, not a legal one, and it stays inside the audience that actually saw the comment.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "turn-to-satire",
+          "title": "Turn it into satire, without naming anyone",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The episode can be turned into satire or educational material if the person is not named or identifiable. The moment they can be recognised, the publication is no longer a harmless abstract, and some of the legal and reputational risks return.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "absurdity-page"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ignore-it",
+          "title": "Ignore it",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "Often the dominant strategy is to ignore the comment. It decays faster than any response, and a response can keep it alive. Ignoring it is not the same as agreeing with it. It is a decision about where attention is better spent.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "streisand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-would-change",
+      "title": "What would change the assessment",
+      "intro": "The conclusion above is for one insulting comparison, made once, in a small group. The assessment changes if the facts do.",
+      "entries": [
+        {
+          "id": "factual-allegation",
+          "title": "A specific factual allegation",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "If the statement is a specific factual allegation — for example, that the person holds or promotes Nazi views, or has done a particular thing — and not merely a comparison or an insult, the meaning analysis shifts. Monroe is the reminder that a factual imputation, published widely, can cause serious harm even when the defendant later says it was a mistake or a flourish.",
+              "sources": [
+                {
+                  "id": "monroe",
+                  "locator": "paras 74, 82"
+                },
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spreads-or-repeats",
+          "title": "It spreads, or is repeated publicly",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "If the comment is forwarded outside the group, posted in public, or taken up by a larger audience, the Lachaux facts change: more readers, including people who do not already know the claimant, and a greater chance of serious harm. A later, materially different manner of publication can also matter for the single-publication rule.",
+              "sources": [
+                {
+                  "id": "lachaux",
+                  "locator": "paras 14, 16, 21"
+                },
+                {
+                  "id": "da-s8",
+                  "locator": "s 8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "provable-loss",
+          "title": "Concrete, provable loss",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "A cancelled contract, a lost client, or some other specific and provable consequence is evidence of actual impact. It does not automatically win the claim, but it is the kind of fact section 1 is designed to look at. Bodies that trade for profit must show serious financial loss in any event.",
+              "sources": [
+                {
+                  "id": "da-s1",
+                  "locator": "s 1(1)–(2)"
+                },
+                {
+                  "id": "lachaux",
+                  "locator": "paras 15–16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "repeated-conduct",
+          "title": "Repeated conduct",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "If the behaviour is repeated, harassment law comes into view, because a course of conduct can be made out of two or more occasions. The communications offences remain a poor fit for ordinary insults, but a campaign is a different case from a one-off jibe.",
+              "sources": [
+                {
+                  "id": "pha-s7",
+                  "locator": "s 7(3)(a)"
+                },
+                {
+                  "id": "pha-s1",
+                  "locator": "s 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "get-advice",
+          "title": "If any of those apply",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "If any of these apply, a single paid consultation with a specialist defamation solicitor is justified before sending anything that looks like a letter before claim. That is not a recommendation to sue. It is a recommendation not to improvise once the facts have left the “one insult in a small chat” box.",
+              "sources": [
+                {
+                  "id": "pap-media",
+                  "locator": "paras 1.3, 2.2"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authors-stance",
+      "title": "The author’s stance",
+      "intro": "A first-person illustration of “mere vulgar abuse,” not directed at any identifiable person.",
+      "entries": [
+        {
+          "id": "authors-quote",
+          "title": "Mars Robertson",
+          "kind": "Author’s statement",
+          "paragraphs": [
+            {
+              "text": "If anyone sues me for defamation, I will happily respond with deliberately absurd vulgar abuse of the “you are so ugly because your mother was raped by a dog” kind: the sort of insult no reasonable reader takes as a factual statement.",
+              "sources": [
+                {
+                  "id": "mars-stance"
+                },
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "That sentence is an illustration of the category the courts call “mere vulgar abuse.” It is not aimed at any identifiable person, and it is not a comment on any live dispute. No reasonable reader takes it as a report of fact about anyone’s mother, which is why, as libel, it usually fails as a statement of meaning. The longer civil and criminal analysis of this specimen is in our chapter on the absurdity paradox.",
+              "sources": [
+                {
+                  "id": "advfn",
+                  "locator": "para 17"
+                },
+                {
+                  "id": "absurdity-page"
+                },
+                {
+                  "id": "mars-stance"
+                }
+              ]
+            },
+            {
+              "text": "Vulgar abuse is not costless just because it is a weak libel. A platform can still remove it under its own rules. If the same kind of message is sent more than once, it can become a course of conduct under the Protection from Harassment Act 1997. The remaining grossly-offensive limbs of section 127 and of the 1988 Act are a separate question, and they do not require anyone to believe the words.",
+              "sources": [
+                {
+                  "id": "pha-s7",
+                  "locator": "s 7(3)–(4)"
+                },
+                {
+                  "id": "ca-s127",
+                  "locator": "s 127(1)"
+                },
+                {
+                  "id": "mca-s1",
+                  "locator": "s 1(1)"
+                },
+                {
+                  "id": "absurdity-page"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discussing-openly",
+      "title": "A note on discussing this openly, and the lesson",
+      "intro": "Analysing the costs and benefits of a lawsuit is not a threat to bring one. The published analysis has to stay general for that to remain true.",
+      "entries": [
+        {
+          "id": "not-a-threat",
+          "title": "Do not name or identify the person",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "To keep a public discussion of incentives from reading as a threat, the analysis should not name or identify the person who made the comment, or the particular group in which it was made. This page does not. If a reader thinks they recognise a dispute, that recognition is their own, and it is not supplied here.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-lesson",
+          "title": "The lesson",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The offence is real, the remedy is disproportionate. The strongest available move is a short, proportionate response, followed by spending attention elsewhere. [JUDGMENT]",
+              "sources": [
+                {
+                  "id": "jameel",
+                  "locator": "paras 69–70"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "How we checked this",
+      "intro": "Primary sources, and the limits of this page.",
+      "entries": [
+        {
+          "id": "research-method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "We read sections 1, 3 and 8 of the Defamation Act 2013; sections 4A and 32A of the Limitation Act 1980; sections 1 and 7 of the Protection from Harassment Act 1997; section 1 of the Malicious Communications Act 1988; section 127 of the Communications Act 2003; sections 179, 181 and 189 of the Online Safety Act 2023; regulation 2 of SI 2024/31; section 195 of the Economic Crime and Corporate Transparency Act 2023; Civil Procedure Rules, rule 44.2; and the Pre-Action Protocol for Media and Communications Claims, from legislation.gov.uk and Justice UK, on 13 November 2026. We read Lachaux v Independent Print Ltd [2019] UKSC 27, Dow Jones & Co Inc v Jameel [2005] EWCA Civ 75, Smith v ADVFN plc [2008] EWHC 1797 (QB) and Monroe v Hopkins [2017] EWHC 433 (QB) from the National Archives the same day. The cost figures are estimates. The signalling analysis and the core finding are our judgments. This is legal research and commentary, not legal advice.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "da-s1",
+      "title": "Defamation Act 2013, section 1: serious harm",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/1",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "da-s3",
+      "title": "Defamation Act 2013, section 3: honest opinion",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/3",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "da-s8",
+      "title": "Defamation Act 2013, section 8: single publication rule",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/8",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "lachaux",
+      "title": "Lachaux v Independent Print Ltd [2019] UKSC 27",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Supreme Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+      "date": "2019-06-12",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "jameel",
+      "title": "Dow Jones & Co Inc v Jameel [2005] EWCA Civ 75",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/75",
+      "date": "2005-02-03",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "advfn",
+      "title": "Smith v ADVFN plc [2008] EWHC 1797 (QB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2008/1797",
+      "date": "2008-07-25",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "monroe",
+      "title": "Monroe v Hopkins [2017] EWHC 433 (QB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2017/433",
+      "date": "2017-03-10",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "la-s4a",
+      "title": "Limitation Act 1980, section 4A: time limit for actions for defamation or malicious falsehood",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1980/58/section/4A",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "la-s32a",
+      "title": "Limitation Act 1980, section 32A: discretionary exclusion of the time limit",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1980/58/section/32A",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "pha-s1",
+      "title": "Protection from Harassment Act 1997, section 1: prohibition of harassment",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/1",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "pha-s7",
+      "title": "Protection from Harassment Act 1997, section 7: interpretation",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/7",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "mca-s1",
+      "title": "Malicious Communications Act 1988, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/1",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "ca-s127",
+      "title": "Communications Act 2003, section 127: improper use of public electronic communications network",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/section/127",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "osa-s179",
+      "title": "Online Safety Act 2023, section 179: false communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/179",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "osa-s181",
+      "title": "Online Safety Act 2023, section 181: threatening communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/181",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "osa-s189",
+      "title": "Online Safety Act 2023, section 189: repeals in connection with offences under sections 179 and 181",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/189",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "si-2024-31",
+      "title": "The Online Safety Act 2023 (Commencement No. 3) Regulations 2024, SI 2024/31, regulation 2",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/2024/31/regulation/2",
+      "date": "2024-01-31",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "cpr-44-2",
+      "title": "Civil Procedure Rules, rule 44.2: court’s discretion as to costs",
+      "publisher": "Ministry of Justice (Justice UK)",
+      "type": "Procedure rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-44-general-rules-about-costs",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "pap-media",
+      "title": "Pre-Action Protocol for Media and Communications Claims",
+      "publisher": "Ministry of Justice (Justice UK)",
+      "type": "Pre-action protocol",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/protocol/prot_def",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "eccta-195",
+      "title": "Economic Crime and Corporate Transparency Act 2023, section 195: meaning of “SLAPP”",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/56/section/195",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "streisand",
+      "title": "Streisand effect",
+      "publisher": "Wikipedia",
+      "type": "Encyclopaedia entry",
+      "url": "https://en.wikipedia.org/wiki/Streisand_effect",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "editorial",
+      "title": "Editorial standards",
+      "publisher": "Independent Tribunal",
+      "type": "Our policy",
+      "url": "https://independenttribunal.org/legal/editorial-standards/",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "absurdity-page",
+      "title": "“Your mother was raped by a dog”: the absurdity paradox",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/research/absurdity-paradox/",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "mars-stance",
+      "title": "Author’s statement on responding to a defamation claim",
+      "publisher": "Mars Robertson",
+      "type": "Author’s statement",
+      "url": "https://independenttribunal.org/research/defamation-game-theory/#authors-quote",
+      "checked": "2026-11-13"
+    }
+  ]
+}
