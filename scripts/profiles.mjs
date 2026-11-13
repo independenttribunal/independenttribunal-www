@@ -65,9 +65,14 @@ export function validateProfile(p, fail) {
     const i = p.interactive;
     if (!safeId.test(i.id ?? "") || anchorIds.has(i.id) || !/^\/[a-z0-9-]+\.js$/.test(i.script ?? "") || !i.fallback?.trim() || !p.sections.some((s) => s.id === i.after_section)) fail("interactive requires a safe unique id, a local script, fallback text and an existing section");
   }
+  const entryIds = new Set((p.sections ?? []).flatMap((s) => (s.entries ?? []).map((e) => e.id)));
   for (const image of p.artworks ?? []) {
-    if (!p.sections.some((s) => s.id === image.after_section)) fail("artwork placement requires an existing section");
+    const afterSection = image.after_section && p.sections.some((s) => s.id === image.after_section);
+    const afterEntry = image.after_entry && entryIds.has(image.after_entry);
+    if (image.after_section && image.after_entry) fail("artwork should use after_section or after_entry, not both");
+    if (!afterSection && !afterEntry) fail("artwork placement requires an existing section or entry");
     if (!image.transcript?.trim()) fail("artwork requires a text transcript");
+    if (image.content_warning !== undefined && !String(image.content_warning).trim()) fail("artwork content_warning must be nonempty when set");
   }
 }
 
@@ -90,7 +95,7 @@ export function profileText(p) {
   return [
     `## ${p.title} — ${p.subtitle}\nURL: ${p.url}\nSource review: ${p.checked}\n${p.scope}\n${p.status_note}`,
     ...(p.evidence_image ? [`Image: ${p.evidence_image.src}\n${p.evidence_image.alt}\n${p.evidence_image.caption}`] : []),
-    ...(p.artworks ?? []).map((image) => `Artwork after ${image.after_section}: ${image.src}\n${image.alt}\n${image.caption}\nText equivalent: ${image.transcript}`),
+    ...(p.artworks ?? []).map((image) => `Artwork after ${image.after_entry || image.after_section}: ${image.src}\n${image.alt}\n${image.caption}\n${image.content_warning ? `Content warning: ${image.content_warning}\n` : ""}Text equivalent: ${image.transcript}`),
     ...p.highlights.map((h) => `${h.label}: ${h.value}. ${h.detail}.`),
     ...p.sections.map((section) => `### ${section.title}\n${section.intro}\n` + section.entries.map((entry) =>
       `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + (entry.table ? `${entry.table.caption}\n${entry.table.rows.map((row) => row.map((cell, i) => `${entry.table.columns[i]}: ${cell}`).join(" · ")).join("\n")}\n\n` : "") + entry.paragraphs.map((para) => `${para.withheld ? "[Marked “This part is not published”. It is published: in law, words are published once a reader sees them.] " : ""}${para.embargo ? "[Not published until the case ends. This describes what is held back; the material itself is not on this site.] " : ""}${para.quote ? "> " : ""}${para.text}\n${para.sources.map((ref) => {
@@ -113,7 +118,13 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
     const orderedSources = [...order.map((id) => p.sources.find((s) => s.id === id)), ...p.sources.filter((s) => !order.includes(s.id))];
     const sources = new Map(orderedSources.map((s, i) => [s.id, { ...s, number: i + 1 }]));
     const featured = sources.get(p.featured_source);
-    const artworkMarkup = (image) => `<figure class="profile-evidence"><a href="${e(image.src)}" target="_blank" rel="noopener noreferrer" aria-label="Open image at full size (opens in a new tab)"><img src="${e(image.src)}" alt="${e(image.alt)}" width="${image.width}" height="${image.height}" loading="lazy"></a><figcaption>${e(image.caption)}</figcaption><details class="profile-transcript"><summary>Read the image text</summary><p>${e(image.transcript)}</p></details></figure>`;
+    const artworkMarkup = (image) => {
+      const img = `<a href="${e(image.src)}" target="_blank" rel="noopener noreferrer" aria-label="Open image at full size (opens in a new tab)"><img src="${e(image.src)}" alt="${e(image.alt)}" width="${image.width}" height="${image.height}" loading="lazy"></a>`;
+      const media = image.content_warning
+        ? `<p class="profile-content-warning-label">Content warning</p><details class="profile-content-warning"><summary>${e(image.content_warning)}</summary>${img}</details>`
+        : img;
+      return `<figure class="profile-evidence${image.content_warning ? " profile-sensitive" : ""}">${media}<figcaption>${e(image.caption)}</figcaption><details class="profile-transcript"><summary>Read the image text</summary><p>${e(image.transcript)}</p></details></figure>`;
+    };
     const evidenceImage = p.evidence_image ? `<figure class="profile-evidence"><a href="${e(p.evidence_image.src)}" target="_blank" rel="noopener noreferrer" aria-label="Open image at full size (opens in a new tab)"><img src="${e(p.evidence_image.src)}" alt="${e(p.evidence_image.alt)}" width="${p.evidence_image.width}" height="${p.evidence_image.height}"></a><figcaption>${e(p.evidence_image.caption)}</figcaption></figure>` : "";
     const citations = (refs) => refs.length ? `<span class="profile-citations">${refs.map((ref) => {
       const s = sources.get(ref.id);
@@ -130,6 +141,10 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         .profile-evidence { margin:1.5rem 0; }
         .profile-evidence img { display:block; width:100%; height:auto; border:1px solid var(--line); }
         .profile-evidence figcaption { margin-top:.65rem; color:var(--muted); font:12px/1.6 ui-sans-serif,system-ui,sans-serif; }
+        .profile-content-warning-label { margin:0 0 .45rem; font:700 12px/1.5 ui-sans-serif,system-ui,sans-serif; letter-spacing:.06em; text-transform:uppercase; }
+        .profile-content-warning { margin:0 0 .65rem; padding:.8rem 1rem; border:2px solid var(--navy); background:#eee8da; font:14px/1.65 ui-sans-serif,system-ui,sans-serif; }
+        .profile-content-warning summary { cursor:pointer; font-weight:700; }
+        .profile-content-warning img { margin-top:.8rem; }
         .profile-transcript { margin-top:.75rem; padding:.8rem 1rem; border:1px solid var(--line); font:14px/1.65 ui-sans-serif,system-ui,sans-serif; }
         .profile-transcript summary { cursor:pointer; font-weight:600; }
         .profile-transcript p { white-space:pre-line; }
@@ -191,7 +206,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       <p class="attributed">${e(p.status_note)}</p>
       ${featured ? `<p><a href="${e(featured.url)}" target="_blank" rel="noopener noreferrer">Read the report from ${e(featured.publisher)} ↗</a> <span class="meta">(opens in a new tab)</span></p>` : ""}
       <nav class="profile-nav" aria-label="On this page">${p.sections.map((s) => `<a href="#${s.id}">${e(s.title)}</a>`).join("")}<a href="#sources">Source register</a></nav>
-      ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.table ? `<div class="profile-table-wrap" role="region" aria-label="${e(entry.table.caption)}" tabindex="0"><table class="profile-table" role="table"><caption>${e(entry.table.caption)}</caption><thead role="rowgroup"><tr role="row">${entry.table.columns.map((c) => `<th scope="col" role="columnheader">${e(c)}</th>`).join("")}</tr></thead><tbody role="rowgroup">${entry.table.rows.map((row) => `<tr role="row">${row.map((cell, i) => i === 0 ? `<th scope="row" role="rowheader">${e(cell)}</th>` : `<td role="cell" data-label="${e(entry.table.columns[i])}">${e(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}${entry.paragraphs.map((para) => para.embargo ? embargo(`<p>${e(para.text)}</p>${citations(para.sources)}`) : para.withheld ? withheld(`<p>${e(para.text)}</p>${citations(para.sources)}`) : `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${e(para.text)}</p></blockquote>` : `<p>${e(para.text)}</p>`}${citations(para.sources)}`).join("")}</article>`).join("")}${p.evidence_image?.after_section === s.id ? evidenceImage : ""}${(p.artworks ?? []).filter((image) => image.after_section === s.id).map(artworkMarkup).join("")}${p.interactive?.after_section === s.id ? `<div class="profile-interactive" id="${p.interactive.id}"><p>${e(p.interactive.fallback)}</p></div><script src="${p.interactive.script}" defer></script>` : ""}</section>`).join("")}
+      ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.table ? `<div class="profile-table-wrap" role="region" aria-label="${e(entry.table.caption)}" tabindex="0"><table class="profile-table" role="table"><caption>${e(entry.table.caption)}</caption><thead role="rowgroup"><tr role="row">${entry.table.columns.map((c) => `<th scope="col" role="columnheader">${e(c)}</th>`).join("")}</tr></thead><tbody role="rowgroup">${entry.table.rows.map((row) => `<tr role="row">${row.map((cell, i) => i === 0 ? `<th scope="row" role="rowheader">${e(cell)}</th>` : `<td role="cell" data-label="${e(entry.table.columns[i])}">${e(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}${entry.paragraphs.map((para) => para.embargo ? embargo(`<p>${e(para.text)}</p>${citations(para.sources)}`) : para.withheld ? withheld(`<p>${e(para.text)}</p>${citations(para.sources)}`) : `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${e(para.text)}</p></blockquote>` : `<p>${e(para.text)}</p>`}${citations(para.sources)}`).join("")}</article>${(p.artworks ?? []).filter((image) => image.after_entry === entry.id).map(artworkMarkup).join("")}`).join("")}${p.evidence_image?.after_section === s.id ? evidenceImage : ""}${(p.artworks ?? []).filter((image) => image.after_section === s.id).map(artworkMarkup).join("")}${p.interactive?.after_section === s.id ? `<div class="profile-interactive" id="${p.interactive.id}"><p>${e(p.interactive.fallback)}</p></div><script src="${p.interactive.script}" defer></script>` : ""}</section>`).join("")}
       <section class="profile-section" id="sources"><h2>Source register</h2><p>Sources are numbered in order of first citation; repeated citations keep their number. Source links open in a new tab. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${orderedSources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
       <h2>Related research</h2><ul>${p.related?.length || p.research_links?.length ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/people/">People &amp; public records</a></li><li><a href="/research/">Research library</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
     }));

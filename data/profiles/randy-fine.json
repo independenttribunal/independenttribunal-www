@@ -35,6 +35,12 @@
       "target": "the-office"
     },
     {
+      "label": "18 August 2026 Republican primary",
+      "value": "Fine 57.6%, Bilzerian 18.9%",
+      "detail": "Official Florida Division of Elections result; Dan Bilzerian finished second in a four-candidate field",
+      "target": "the-2026-primary"
+    },
+    {
       "label": "22 July 2025, on X",
       "value": "“Until then, starve away.”",
       "detail": "Posted from @RepFine, quoting an ABC report of famine deaths; condemned by the American Jewish Committee",
@@ -132,6 +138,90 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "the-2026-primary",
+      "title": "The 2026 Republican primary and Dan Bilzerian",
+      "intro": "Dan Bilzerian did run against Randy Fine in the 2026 Republican primary for Florida’s 6th Congressional District. The figures below are the official, certified results. Bilzerian appeared on the Republican primary ballot, not as an independent candidate.",
+      "entries": [
+        {
+          "id": "bilzerian-primary",
+          "title": "18 August 2026 · official primary result",
+          "kind": "Official record",
+          "date": "2026-08-18",
+          "paragraphs": [
+            {
+              "text": "The Florida Division of Elections published official results for the 18 August 2026 Republican primary in Florida’s 6th Congressional District. Randy Fine won and advanced as the Republican nominee, with 51,109 votes (57.6%). Dan Bilzerian, listed as a Republican candidate and not as an independent, finished second, with 16,776 votes (18.9%). Aaron Baker received 12,074 votes (13.6%) and Charles Gambaro 8,716 votes (9.8%). The four-candidate total is 88,675 votes.",
+              "sources": [
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "Official Results, United States Representative, District 6, Republican primary, 18 August 2026"
+                },
+                {
+                  "id": "ballotpedia-2026-primary",
+                  "locator": "certified Republican primary tally, 18 August 2026: Fine 51,109 (57.6%), Bilzerian 16,776 (18.9%), Baker 12,074 (13.6%), Gambaro 8,716 (9.8%); total 88,675"
+                }
+              ]
+            },
+            {
+              "text": "Ballotpedia’s certified table matches those official totals and records that Fine defeated Bilzerian, Baker and Gambaro. It also lists Manuel Asensio as a Republican who withdrew but remained on the ballot, along with other withdrawn or disqualified Republican candidates who do not appear as vote-getters in the Division of Elections official summary table used here. Some unofficial election-night tallies circulating online included slightly different counts, and in at least one case a small Asensio total; this page uses the official certified figures.",
+              "sources": [
+                {
+                  "id": "ballotpedia-2026-primary",
+                  "locator": "withdrawn or disqualified candidates, including Manuel Asensio (R) (Withdrew, still on ballot)"
+                },
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "official District 6 Republican primary table lists Baker, Bilzerian, Fine and Gambaro only"
+                }
+              ]
+            },
+            {
+              "text": "Fine was therefore the Republican nominee in the 3 November 2026 general election. This section is confined to the primary challenge from Bilzerian; it does not treat later general-election reporting as a substitute for the official primary record above.",
+              "sources": [
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "Fine’s plurality in the official Republican primary"
+                },
+                {
+                  "id": "ballotpedia-2026-primary",
+                  "locator": "Fine advanced from the Republican primary for the 3 November 2026 general election"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Official results, Florida Division of Elections, 18 August 2026 Republican primary, Florida’s 6th Congressional District. Figures match Ballotpedia’s certified tally. Total votes: 88,675.",
+            "columns": [
+              "Candidate",
+              "Votes",
+              "Share"
+            ],
+            "rows": [
+              [
+                "Randy Fine",
+                "51,109",
+                "57.6%"
+              ],
+              [
+                "Dan Bilzerian",
+                "16,776",
+                "18.9%"
+              ],
+              [
+                "Aaron Baker",
+                "12,074",
+                "13.6%"
+              ],
+              [
+                "Charles Gambaro",
+                "8,716",
+                "9.8%"
+              ]
+            ]
+          }
         }
       ]
     },
@@ -251,7 +341,7 @@
           "date": "2021-06-04",
           "paragraphs": [
             {
-              "text": "On 4 June 2021, a user replied to Fine, accused him of “Supporting killing innocent ppl and babies,” asked “How do you sleep at night??” and attached an image. Fine replied, from @VoteRandyFine: “Quite well, actually!  Thanks for the pic!” The Jones video describes the attached image as a photograph of a dead Palestinian baby under rubble. This page does not reproduce the image. The parent post and Fine’s reply remain publicly available.",
+              "text": "On 4 June 2021, Maram (@Palestinianengr) replied to Fine: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” The post included a graphic photograph of a child in rubble. Fine replied from @VoteRandyFine: “Quite well, actually!  Thanks for the pic!” The live post is timestamped 20:45:13 UTC on 4 June 2021 (9:45 pm British Summer Time that evening; 4:45 pm Eastern in Florida). A user-supplied screenshot of the exchange, which this page has checked against the still-public parent post and Fine’s reply, is reproduced below, behind a content warning. The photograph of the child has been blurred. The Owen Jones video describes the attached image as a photograph of a dead Palestinian baby under rubble.",
               "sources": [
                 {
                   "id": "x-thanks-pic",
@@ -546,6 +636,110 @@
           ]
         }
       ]
+    },
+    {
+      "id": "authors-disclosure",
+      "title": "Author’s disclosure",
+      "intro": "This section is a first-person statement by Mars Robertson, the author of IndependentTribunal.org. It is his own account of his position and contacts, clearly marked as such. It is not a finding of this page, not a judgment of character, and not an allegation of wrongdoing against anyone named below.",
+      "entries": [
+        {
+          "id": "authors-statement",
+          "title": "A statement in the author’s own name",
+          "kind": "Author’s disclosure",
+          "paragraphs": [
+            {
+              "text": "In that race I supported Dan Bilzerian’s campaign on a provisional and temporary basis. On 10 November 2026 I wrote, from @MarsitaTheUltra: “I support independent candidates, in principle. @DanBilzerian @ElectBilzerian was totally unserious about the campaign, 28.5M followers on Insta and not a single post... Totally unserious. My support to his campaign was provisional and temporary.” The post names Bilzerian and the campaign account @ElectBilzerian. Official election records, set out above, show that Bilzerian ran as a Republican in the 18 August 2026 primary, not as an independent candidate. My post also stated a general principle of supporting independent candidates. This is my own statement, not a finding of this page.",
+              "sources": [
+                {
+                  "id": "x-mars-support",
+                  "locator": "https://x.com/MarsitaTheUltra/status/2120137598794694744, 10 November 2026, 12:52 UTC"
+                },
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "Bilzerian listed among Republican primary candidates"
+                }
+              ]
+            },
+            {
+              "text": "That support was strategic and conditional. It was directed at a candidate with a large Instagram platform — the post gives the figure as 28.5 million followers — and at the possibility of reaching that audience. In politics and diplomacy, one may support or withhold support strategically, based on overarching objectives. An artist looking for an audience is a commonplace example. Support of that kind is not an endorsement of every view a candidate holds. I refuse to call myself, or be labelled, a Nazi supporter.",
+              "sources": [
+                {
+                  "id": "x-mars-support",
+                  "locator": "the same post, including the 28.5 million Instagram figure and the description of support as provisional and temporary"
+                },
+                {
+                  "id": "editorial",
+                  "locator": "the author’s own statement of position, not a finding of this page"
+                }
+              ]
+            },
+            {
+              "text": "Before the Epstein files were made public, I was in contact with individuals later named in them, including Brock Pierce and Maria Prusakova (also known as Masha Prusso). I value the lessons learnt. That is a statement about my own contacts and what I took from them. It is not an allegation against those individuals, and this page makes none in its own voice.",
+              "sources": [
+                {
+                  "id": "editorial",
+                  "locator": "the author’s own disclosure, not a finding"
+                },
+                {
+                  "id": "doj-epstein-library",
+                  "locator": "U.S. Department of Justice Epstein Files Transparency Act library"
+                },
+                {
+                  "id": "wikipedia-prusakova",
+                  "locator": "English Wikipedia biography of Mariya Prusakova (snowboarder)"
+                }
+              ]
+            },
+            {
+              "text": "Brock Pierce’s name appears in documents released by the U.S. Department of Justice under the Epstein Files Transparency Act. The official library is at https://www.justice.gov/epstein and includes a search of the full library; a search for “Brock Pierce” is the check invited here. Individual files on that site are behind an age-verification gate, and a live keyword search could not be completed from this publishing environment. Third-party indexes of the same official release include correspondence involving him, among them document EFTA01923671, an email dated 13 May 2014 from Brock Pierce to Jeffrey Epstein asking for information about Jeff Herman, indexed as coming from DOJ Data Set 10. Appearance in released documents is not, by itself, a finding of wrongdoing, and this page makes no such finding.",
+              "sources": [
+                {
+                  "id": "doj-epstein-library",
+                  "locator": "https://www.justice.gov/epstein — official library and search of the full collection"
+                },
+                {
+                  "id": "efta-01923671",
+                  "locator": "third-party index of official EFTA document EFTA01923671, email of 13 May 2014"
+                }
+              ]
+            },
+            {
+              "text": "For Maria Prusakova, this page quotes Wikipedia and names Wikipedia’s source. The English Wikipedia article “Mariya Prusakova (snowboarder)”, checked on 13 November 2026, states: “She recruited women into Epstein's trafficking network, calling herself the \"Paris based Ghislaine Maxwell\" in a 2013 email to Epstein.” Wikipedia attaches that sentence to David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. This page repeats the recruitment and trafficking characterisation only as Wikipedia’s, citing The Verge; it does not adopt it as a finding of its own. The Verge itself quotes the 2013 email as saying, in part, “Sometimes I think that I am your Paris based Ghislaine Maxwell.” The same Verge article, in a section headed Epstein’s “Madam”, names Masha Drokova (also known as Masha Bucher) and Maria Prusakova (also known as Masha Prusso). A user-supplied screenshot of that section is reproduced below, as a record of the reporting, not as a finding of this page.",
+              "sources": [
+                {
+                  "id": "wikipedia-prusakova",
+                  "locator": "exact wording of the 2013 email sentence, citing Morris, The Verge, 27 February 2026 (reference 5 on the live page)"
+                },
+                {
+                  "id": "verge-epstein-bitcoin",
+                  "locator": "section “Epstein’s ‘Madam’”; quotation “Sometimes I think that I am your Paris based Ghislaine Maxwell.”"
+                }
+              ]
+            },
+            {
+              "text": "I appreciate the lessons from the “Zionism is racism” motion at the Green Party of England and Wales annual conference in Brighton in October 2026. BBC News reported that members passed the motion on Sunday 4 October 2026 by 1,022 votes to 813, and that Zack Polanski, the party’s leader, left the conference before the vote to campaign in the Holborn and St Pancras by-election. He was the Green candidate in that by-election, held on 8 October 2026; he was not the Green candidate in Holborn and St Pancras at the 4 July 2024 general election, when David Stansell stood for the party. Official UK Parliament results show that Labour’s Sagal Abdi-Wali won the by-election with 12,292 votes (45.2%) and that Polanski came second with 8,928 votes (32.8%), on a turnout of 38.6%. It is my own view, not a finding established by those sources, that the motion derailed his bid to become MP for the seat.",
+              "sources": [
+                {
+                  "id": "bbc-green-motion",
+                  "locator": "Green Party annual conference, Brighton; motion passed 1,022 to 813 on Sunday; Polanski left early to campaign in Holborn and St Pancras; article dated 4 October 2026, updated 5 October 2026"
+                },
+                {
+                  "id": "parliament-holborn-2026",
+                  "locator": "by-election, 8 October 2026: Abdi-Wali (Lab) 12,292 (45.2%), Polanski (Green) 8,928 (32.8%); turnout 38.6%"
+                },
+                {
+                  "id": "parliament-holborn-2024",
+                  "locator": "general election, 4 July 2024: Green candidate David Stansell, 4,030 votes (10.4%); Polanski did not stand"
+                },
+                {
+                  "id": "editorial",
+                  "locator": "the author’s own view that the motion derailed the bid; not a sourced causal finding"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -826,6 +1020,115 @@
       "type": "Our policy",
       "url": "https://independenttribunal.org/legal/editorial-standards/",
       "checked": "2026-11-13"
+    },
+    {
+      "id": "fl-doe-2026-primary",
+      "title": "August 18, 2026 Primary Election — Official Results, United States Representative, Republican",
+      "publisher": "Florida Division of Elections",
+      "type": "Official election results",
+      "url": "https://results.elections.myflorida.com/SummaryRpt.asp?ElectionDate=8%2F18%2F2026&Party=REP&Race=FED",
+      "date": "2026-08-18",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "ballotpedia-2026-primary",
+      "title": "Florida's 6th Congressional District election, 2026 (August 18 Republican primary)",
+      "publisher": "Ballotpedia",
+      "type": "Secondary reference work, certified tally",
+      "url": "https://ballotpedia.org/Florida's_6th_Congressional_District_election,_2026_(August_18_Republican_primary)",
+      "date": "2026-08-18",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-mars-support",
+      "title": "Post by @MarsitaTheUltra on support for Dan Bilzerian’s campaign",
+      "publisher": "X (Marsita the Ultra / Mars Robertson)",
+      "type": "Social media post",
+      "url": "https://x.com/MarsitaTheUltra/status/2120137598794694744",
+      "date": "2026-11-10",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "doj-epstein-library",
+      "title": "Epstein Library",
+      "publisher": "U.S. Department of Justice",
+      "type": "Official document library",
+      "url": "https://www.justice.gov/epstein",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "efta-01923671",
+      "title": "Email from Brock Pierce (EFTA01923671)",
+      "publisher": "Epstein Exposed index of DOJ Data Set 10",
+      "type": "Third-party index of an official release",
+      "url": "https://epsteinexposed.com/documents/efta-01923671",
+      "date": "2014-05-13",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "wikipedia-prusakova",
+      "title": "Mariya Prusakova (snowboarder)",
+      "publisher": "Wikipedia",
+      "type": "Secondary reference work",
+      "url": "https://en.wikipedia.org/wiki/Mariya_Prusakova_(snowboarder)",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "verge-epstein-bitcoin",
+      "title": "Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters",
+      "publisher": "The Verge (David Z. Morris)",
+      "type": "News report",
+      "url": "https://www.theverge.com/tech/885252/jeffrey-epstein-bitcoin-cryptocurrency-connections",
+      "date": "2026-02-27",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "bbc-green-motion",
+      "title": "Green Party members back 'Zionism is racism' conference motion",
+      "publisher": "BBC News (Kate Whannel)",
+      "type": "News report",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdm5n1vy7go",
+      "date": "2026-10-04",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "parliament-holborn-2026",
+      "title": "Holborn and St Pancras by-election — October 2026",
+      "publisher": "UK Parliament, House of Commons Library Election Results",
+      "type": "Official election results",
+      "url": "https://electionresults.parliament.uk/elections/4557",
+      "date": "2026-10-08",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "parliament-holborn-2024",
+      "title": "Holborn and St Pancras general election — July 2024",
+      "publisher": "UK Parliament, House of Commons Library Election Results",
+      "type": "Official election results",
+      "url": "https://electionresults.parliament.uk/elections/3540",
+      "date": "2024-07-04",
+      "checked": "2026-11-13"
+    }
+  ],
+  "artworks": [
+    {
+      "src": "/images/randy-fine-quite-well-2021.webp",
+      "width": 1174,
+      "height": 1848,
+      "after_entry": "thanks-for-the-pic",
+      "content_warning": "Graphic image of a child in rubble. The photograph of the child in the original post has been blurred. Select to reveal the screenshot.",
+      "alt": "Screenshot of an X exchange on 4 June 2021. Maram (@Palestinianengr) accuses Randy Fine of supporting the killing of innocent people and babies and asks how he sleeps at night, above a region where a photograph of a child in rubble has been blurred and labelled “Graphic image concealed”. Fine (@VoteRandyFine) replies: “Quite well, actually! Thanks for the pic!” The screenshot displays 9:45 PM, 4 June 2021, and a Riviera Beach, Florida location tag.",
+      "caption": "User-supplied screenshot of the 4 June 2021 exchange, checked against the still-public parent post by Maram (@Palestinianengr) and Fine’s reply at https://x.com/VoteRandyFine/status/1400916571892105221. The photograph of a child in rubble attached to the parent post has been blurred on this page. Graphic content.",
+      "transcript": "Maram @Palestinianengr · Jun 4, 2021: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” [Attached photograph of a child in rubble; blurred on this page, with the label “Graphic image concealed / Photograph of a child in rubble has been blurred”.] Randy Fine @VoteRandyFine: “Quite well, actually! Thanks for the pic!” Timestamp shown on the screenshot: 9:45 PM · Jun 4, 2021 from Riviera Beach, FL. The live post is timestamped 20:45:13 UTC on 4 June 2021."
+    },
+    {
+      "src": "/images/verge-epstein-madam.webp",
+      "width": 900,
+      "height": 687,
+      "after_entry": "authors-statement",
+      "alt": "Screenshot of The Verge article “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, from the section headed Epstein’s “Madam”, naming former pro-Putin activist Masha Drokova (also known as Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (also known as Masha Prusso).",
+      "caption": "User-supplied screenshot of the section “Epstein’s ‘Madam’” in David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. Reproduced here as a record of that reporting, not as a finding of this page.",
+      "transcript": "The Verge. Headline: “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters.” Section heading: Epstein’s “Madam”. Opening sentences: “While Epstein himself moved at the higher end of the crypto world, he appears to have put at least two of “his Russians” to work in the trenches: former pro-Putin activist Masha Drokova (aka Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (aka Masha Prusso). Epstein’s emails appear to show both women helping place deceptive media coverage to repair Epstein’s reputation, while using the same tactics and personnel to pump sketchy cryptocurrency investments.” The screenshot continues into a further paragraph naming Sarah Austin, M&A PR Studio, Forbes, The Next Web, the Huffington Post and Thrive Global. Those further characterisations are The Verge’s reporting, not findings of this page."
     }
   ]
 }

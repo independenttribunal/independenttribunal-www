@@ -79,4 +79,53 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
 
   const people = await read("public/people/index.html");
   assert.match(people, /href="\/research\/randy-fine\/"/);
+
+  assert.match(text("thanks-for-the-pic"), /user-supplied screenshot/);
+  assert.match(text("thanks-for-the-pic"), /checked against the still-public/);
+  assert.match(text("thanks-for-the-pic"), /photograph of the child has been blurred/);
+  assert.doesNotMatch(text("thanks-for-the-pic"), /does not reproduce the image/);
+  assert.match(text("bilzerian-primary"), /51,109/);
+  assert.match(text("bilzerian-primary"), /16,776/);
+  assert.match(text("bilzerian-primary"), /57\.6%/);
+  assert.match(text("bilzerian-primary"), /18\.9%/);
+  assert.match(text("bilzerian-primary"), /Republican primary/);
+  assert.match(text("bilzerian-primary"), /not as an independent/);
+  assert.equal(sources.get("fl-doe-2026-primary").url, "https://results.elections.myflorida.com/SummaryRpt.asp?ElectionDate=8%2F18%2F2026&Party=REP&Race=FED");
+  assert.match(text("authors-statement"), /I supported Dan Bilzerian/);
+  assert.match(text("authors-statement"), /provisional and temporary/);
+  assert.match(text("authors-statement"), /I refuse to call myself, or be labelled, a Nazi supporter/);
+  assert.match(text("authors-statement"), /not a finding of this page/);
+  assert.match(text("authors-statement"), /Paris based Ghislaine Maxwell/);
+  assert.match(text("authors-statement"), /according to Wikipedia|Wikipedia article|Wikipedia attaches|quotes Wikipedia/i);
+  assert.match(text("authors-statement"), /She recruited women into Epstein's trafficking network/);
+  assert.match(text("authors-statement"), /my own view, not a finding/);
+  assert.match(text("authors-statement"), /8 October 2026/);
+  assert.match(text("authors-statement"), /David Stansell/);
+  assert.doesNotMatch(text("authors-statement"), /Polanski stood in Holborn and St Pancras in 2024/);
+  assert.equal(sources.get("verge-epstein-bitcoin").url, "https://www.theverge.com/tech/885252/jeffrey-epstein-bitcoin-cryptocurrency-connections");
+  assert.equal(sources.get("x-mars-support").url, "https://x.com/MarsitaTheUltra/status/2120137598794694744");
+  assert.equal(sources.get("wikipedia-prusakova").url, "https://en.wikipedia.org/wiki/Mariya_Prusakova_(snowboarder)");
+  assert.equal(p.sections.find((s) => s.id === "authors-disclosure").intro.includes("not a finding of this page"), true);
+
+  const tweetImage = (p.artworks ?? []).find((image) => image.src === "/images/randy-fine-quite-well-2021.webp");
+  assert.equal(tweetImage.after_entry, "thanks-for-the-pic");
+  assert.equal(tweetImage.width, 1174);
+  assert.equal(tweetImage.height, 1848);
+  assert.match(tweetImage.content_warning, /graphic image of a child in rubble/i);
+  assert.match(tweetImage.alt, /Quite well, actually/);
+  assert.match(tweetImage.caption, /User-supplied screenshot/);
+  assert.match(tweetImage.caption, /checked against the still-public/);
+  const tweetFile = await stat(new URL("../public/images/randy-fine-quite-well-2021.webp", import.meta.url));
+  assert.ok(tweetFile.size > 20_000 && tweetFile.size < 400_000);
+  const vergeFile = await stat(new URL("../public/images/verge-epstein-madam.webp", import.meta.url));
+  assert.ok(vergeFile.size > 10_000 && vergeFile.size < 400_000);
+
+  assert.ok(html.includes('src="/images/randy-fine-quite-well-2021.webp"'));
+  assert.ok(html.includes('src="/images/verge-epstein-madam.webp"'));
+  assert.match(html, /profile-content-warning/);
+  assert.match(html, /Graphic image of a child in rubble/);
+  assert.match(html, /Author’s disclosure/);
+  assert.match(html, /51,109/);
+  // Official portrait remains the Open Graph image.
+  assert.ok(html.includes('property="og:image" content="https://independenttribunal.org/images/randy-fine-official-portrait.webp"'));
 });
