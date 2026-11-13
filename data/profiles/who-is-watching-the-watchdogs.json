@@ -1,0 +1,884 @@
+{
+  "id": "who-is-watching-the-watchdogs",
+  "category": "legal-study",
+  "title": "Who is watching the watchdogs?",
+  "subtitle": "Regulatory failure and institutional conflict of interest, asked as questions, not alleged as wrongdoing.",
+  "summary": "A former Metropolitan Police commissioner has been working as a paid adviser to Palantir, the US data company, since September 2025. Thames Water’s 2025/26 accounts put gearing at about 86% of regulated value. In September 2024 the UK government found a clear risk that certain arms exports to Israel might be used in serious violations of international humanitarian law, then suspended around 30 of about 350 licences and carved out F-35 components. This page records what reputable sources show and asks who is watching the watchdogs. It does not allege that any named person has broken the law.",
+  "checked": "2026-11-12",
+  "jurisdiction": "United Kingdom · public contracts, regulation and export licensing",
+  "tags": [
+    "uk",
+    "regulation",
+    "accountability",
+    "public-contracts",
+    "research"
+  ],
+  "scope": "United Kingdom public contracts, water regulation and arms export licensing. Named people appear only as they are described in the published sources cited here. Taking a job after leaving public office is not, by itself, a finding of misconduct. Questions are questions, not allegations of wrongdoing. The Gaza section is a short holding note for a forthcoming investigation.",
+  "status_note": "Sources reviewed on 12 November 2026. The Palantir appointment was first reported by the Bureau of Investigative Journalism on 10 November 2026. Thames Water figures are those already set out on our Thames Water page, which checked the 2025/26 accounts on 30 October 2026. The Gaza material is a holding section, not the investigation itself. Commentary is marked as such. This is research, not a finding of unlawfulness and not legal advice.",
+  "related": [
+    {
+      "id": "thames-water",
+      "title": "Thames Water: a marvel of financial engineering"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Palantir role, as reported",
+      "value": "Paid adviser",
+      "detail": "From September 2025 · Bureau of Investigative Journalism, 10 November 2026",
+      "target": "palantir-role"
+    },
+    {
+      "label": "Thames Water gearing",
+      "value": "About 86%",
+      "detail": "Of regulated value, 2025/26, as set out on our Thames Water page",
+      "target": "thames-gearing"
+    },
+    {
+      "label": "Israel export licences",
+      "value": "Around 30 of ~350",
+      "detail": "Suspended 2 September 2024 after an IHL review found a clear risk",
+      "target": "gaza-licences"
+    },
+    {
+      "label": "ACOBA advice letter",
+      "value": "Not found",
+      "detail": "No published letter on this appointment was identified in this review",
+      "target": "acoba-question"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-question",
+      "title": "Who is watching the watchdogs?",
+      "intro": "The question is simple. The facts below are taken from published reporting, official announcements and, for Thames Water, from the investigation already on this site. The questions that follow them are questions, not findings that anyone named here has broken the law.",
+      "entries": [
+        {
+          "id": "what-this-page-asks",
+          "title": "The facts that make the question worth asking",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Who is watching the watchdogs? A former Metropolitan Police commissioner has, according to an investigation published on 10 November 2026, been working as a paid adviser to Palantir, a US data company with a growing book of UK public-sector work, since September 2025. A privatised water monopoly was allowed to reach debt of about 86% of its regulated value under the eyes of its regulators. In September 2024 the UK government itself recorded a “clear risk” that certain military exports to Israel might be used to commit or facilitate serious violations of international humanitarian law, then suspended around 30 of approximately 350 licences and left components for the multinational F-35 programme largely in place.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "exclusive report and dated appointment"
+                },
+                {
+                  "id": "tw-page",
+                  "locator": "summary and gearing"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                },
+                {
+                  "id": "ar26",
+                  "locator": "financial review; net debt and regulated value"
+                },
+                {
+                  "id": "gov-suspend",
+                  "locator": "2 September 2024 announcement"
+                }
+              ]
+            },
+            {
+              "text": "None of that, on its own, proves that a named person committed an offence or acted improperly. The unsettling part is how ordinary it can be made to look. The core question on this page is whether regulatory failure and institutional conflict of interest are becoming normal. When official oversight is late, limited or caught in its own conflicts, investigative journalists often end up doing the accountability work that regulators and appointment rules were supposed to do.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "the exclusive itself"
+                },
+                {
+                  "id": "nao",
+                  "locator": "headline finding on water regulators"
+                },
+                {
+                  "id": "gov-suspend",
+                  "locator": "the government’s own risk finding"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-to-read",
+          "title": "How to read this page",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Every factual claim is attributed to a published source, linked in the usual way. Statements by Dame Cressida Dick and by Palantir are reported as their statements, not as findings by this site. Rhetorical questions are left as questions. Where we could not verify a figure, or could not find an official document, we say so. The Thames Water numbers are not re-investigated here; they are those already checked on the existing Thames Water page.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "title": "A former Met commissioner and Palantir",
+      "intro": "The facts in this section come from the Bureau of Investigative Journalism’s exclusive of 10 November 2026, from official contract notices, and from a later statement by the Mayor’s Office for Policing and Crime. They are set out so that dates, roles and denials stay in view. They are not a claim that the appointment caused any contract, or that anyone named here lobbied for one.",
+      "entries": [
+        {
+          "id": "palantir-role",
+          "title": "What the Bureau reported",
+          "kind": "Published reporting",
+          "date": "2026-11-10",
+          "paragraphs": [
+            {
+              "text": "On 10 November 2026 the Bureau of Investigative Journalism reported, as an exclusive by Mark Wilding, that Dame Cressida Dick, the former Metropolitan Police commissioner, “has been working for Palantir as a paid adviser for the last year”. The Bureau said she joined in September 2025. Palantir and Dame Cressida both gave statements to the Bureau, which treated the role as confirmed. The Bureau did not report how much she is paid, and this review has not found a published figure.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "headline, dateline and opening paragraphs"
+                }
+              ]
+            },
+            {
+              "text": "The Bureau identified her as Britain’s highest-ranking police officer between 2017 and 2022, after earlier roles leading the UK’s counterterrorism policing unit and as a director general in the Foreign and Commonwealth Office. That is the Bureau’s career sketch, included here only to identify the office she had held, not as a commentary on her record in it.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "career paragraph"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-she-says",
+          "title": "What Palantir and Dame Cressida said",
+          "kind": "Published reporting",
+          "paragraphs": [
+            {
+              "text": "A Palantir spokesperson told the Bureau: “Dame Cressida is advising us on how our software could help improve the delivery of services in the public sector, drawing on more than 40 years of public service in a variety of roles.”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "Palantir spokesperson statement"
+                }
+              ]
+            },
+            {
+              "text": "Dame Cressida told the Bureau: “My role is limited to providing advice on the ways in which products such as theirs may assist public sector services. I do not and have not ever lobbied or advocated for Palantir with any organisation or individual in any sector, nor have I ever introduced Palantir to any contact of mine.”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "Dame Cressida Dick statement"
+                }
+              ]
+            },
+            {
+              "text": "This page reports that denial. It does not contradict it. No source reviewed here has produced evidence that she lobbied, advocated or made introductions for Palantir. The questions that follow are about the rules and appearances that apply when a former commissioner advises a firm that sells to public bodies, including the police, not about a hidden finding that she broke those rules.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "the same attributed statements"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "acoba-question",
+          "title": "Was there published ACOBA advice?",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The Advisory Committee on Business Appointments (ACOBA) advised on applications under the government’s Business Appointment Rules. This review has not identified a published ACOBA advice letter about Dame Cressida Dick’s Palantir role. ACOBA did publish advice on some other Palantir appointments by former ministers and Crown servants, including Leo Docherty’s role as an adviser to Palantir Technologies UK Ltd. That contrast is recorded only to show that letters of that kind are, when issued, public. It is not a finding that she was required to apply and failed to do so.",
+              "sources": [
+                {
+                  "id": "acoba-gov",
+                  "locator": "organisation page and closure notice"
+                },
+                {
+                  "id": "docherty-acoba",
+                  "locator": "advice letter for a Palantir adviser role"
+                }
+              ]
+            },
+            {
+              "text": "Two timing points belong in view. First, ACOBA ceased operating on 13 October 2025; from that date, successor bodies handle new applications. The role the Bureau dates to September 2025 began shortly before that closure. Second, Dame Cressida left the Metropolitan Police in 2022, more than two years before the reported start of the Palantir work. The published Business Appointment Rules for Crown Servants are written for the Civil Service and equivalent services, and for those at Senior Civil Service level they ordinarily continue for two years after leaving. Whether, and for how long, any comparable rules applied to a former Met commissioner is a question about the reach of the rules. The absence of a letter in this review could mean several things, including that the rules did not apply, that no letter was published, or that we missed it. We state the gap, not a conclusion.",
+              "sources": [
+                {
+                  "id": "acoba-gov",
+                  "locator": "closure as of 13 October 2025"
+                },
+                {
+                  "id": "bars-crown",
+                  "locator": "scope and two-year period for SCS-level Crown servants"
+                },
+                {
+                  "id": "tbij",
+                  "locator": "left the Met in 2022; role from September 2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "palantir-contracts",
+          "title": "Palantir’s documented UK public-sector work",
+          "kind": "Official record",
+          "paragraphs": [
+            {
+              "text": "The contracts below are recorded because they show Palantir’s documented work with UK public bodies, including the police and the NHS. They are not evidence that Dame Cressida was involved in winning, negotiating or performing any of them. Several pre-date the role the Bureau dates to September 2025; others were awarded or reported later. The dates are the point.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "role dated September 2025"
+                },
+                {
+                  "id": "nhs-england",
+                  "locator": "November 2023 award"
+                }
+              ]
+            },
+            {
+              "text": "In November 2023 NHS England announced that a group led by Palantir Technologies UK had been awarded the contract to provide the NHS Federated Data Platform and associated services, after an open tender. NHS England said there would be up to £330 million of investment over a seven-year contractual period. The Contracts Finder notice records a published contract value of £182,242,760, and states that this is not a committed amount and that the value could increase to a forecasted amount of £330 million, which is also not a committed amount. This page uses that official wording rather than treating £330 million as money already spent.",
+              "sources": [
+                {
+                  "id": "nhs-england",
+                  "locator": "21 November 2023 announcement"
+                },
+                {
+                  "id": "contracts-fdp",
+                  "locator": "contract value and forecast note"
+                }
+              ]
+            },
+            {
+              "text": "On 1 June 2026 a Find a Tender contract award notice recorded that Palantir Technologies UK, Ltd had been selected to provide a replacement National Firearms Licensing Management System for Police Digital Service. The system is to enable all 43 police forces in England and Wales to record the grant, renewal and revocation of firearms licences, and to hold Home Office licensing information on explosives, explosive precursors and poisons. The notice gives a contract value of £7,500,000 excluding VAT and £9,000,000 including VAT, an estimated term from 4 September 2026 to 3 September 2031, and options to extend to 3 September 2036.",
+              "sources": [
+                {
+                  "id": "nflms",
+                  "locator": "award notice: supplier, value, term and scope"
+                }
+              ]
+            },
+            {
+              "text": "Separately, a Contracts Finder award notice records that the Metropolitan Police Service purchased licensing and services to trial Palantir Foundry software, with a total contract value of £489,999, running from 1 February 2026 to 30 April 2026. The stated aim was to bring together internal data already held, including for professional standards work. Reporting in May 2026, including in the Guardian, said the Mayor of London’s office had blocked a later proposed Metropolitan Police deal with Palantir worth up to £50 million. The Bureau repeated that the London mayor “blocked a £50m deal with the Met Police.” A 14 October 2026 statement by the Mayor’s Office for Policing and Crime (MOPAC) confirmed “MOPAC’s decision in May 2026 not to enter a UOA Contract in response to the Metropolitan Police Service’s (MPS’s) initial proposal,” said the decision was based on procurement, governance, affordability and value for money, and recorded that High Court proceedings had been resolved, with Palantir and MOPAC each withdrawing their allegations against the other. MOPAC’s statement does not itself give the £50 million figure; that figure is reported in the journalism cited here.",
+              "sources": [
+                {
+                  "id": "met-pilot",
+                  "locator": "Unified Data Platform Phase 1 award"
+                },
+                {
+                  "id": "guardian-mopac",
+                  "locator": "21 May 2026 report of a blocked deal worth up to £50m"
+                },
+                {
+                  "id": "tbij",
+                  "locator": "blocked £50m deal"
+                },
+                {
+                  "id": "mopac",
+                  "locator": "14 October 2026 statement on the May 2026 decision and later settlement"
+                }
+              ]
+            },
+            {
+              "text": "The Bureau also reported that Palantir had won a major new contract, worth £10 million, with a group of forces in the east of England: a five-year deal enabling Bedfordshire, Cambridgeshire and Hertfordshire police to use the company’s Foundry data platform. PublicTechnology, reporting the same week, said commercial documents showed a five-year “BCH Palantir Foundry Platform” agreement, with Cambridgeshire Police as the headline buyer, signed on 9 October 2026 and expected to be worth £10.1 million. This review did not open a primary Contracts Finder or Find a Tender notice for that award, so the figures are attributed to that reporting rather than to an official notice inspected here.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "£10m five-year east of England Foundry deal"
+                },
+                {
+                  "id": "publictech-bch",
+                  "locator": "£10.1m, signed 9 October 2026"
+                }
+              ]
+            },
+            {
+              "text": "The question worth asking is not whether a former commissioner is forbidden from working after leaving office. It is what transparency and conflict-of-interest rules apply, and how the public can see them, when someone who once led the country’s largest police force advises a company that sells data systems to police forces and other public bodies. That is a question about the system. It is not an allegation that this appointment broke a rule.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "the appointment and Palantir’s police work"
+                },
+                {
+                  "id": "nflms",
+                  "locator": "national police firearms system award"
+                },
+                {
+                  "id": "acoba-gov",
+                  "locator": "the public-advice model, where it applies"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thames",
+      "title": "Thames Water: where were the regulators?",
+      "intro": "This site already has a full investigation of Thames Water’s finances, pollution record and the chain of oversight. This section does not repeat that work. It records the headline figures, points to the existing page, and keeps the regulator question in view.",
+      "entries": [
+        {
+          "id": "thames-gearing",
+          "title": "About 86% of regulated value",
+          "kind": "Company accounts",
+          "paragraphs": [
+            {
+              "text": "Our Thames Water page, which checked the 2025/26 accounts on 30 October 2026, records net debt of £19.8 billion and gearing of about 86% of regulated value. In plain terms, as that page puts it, that is like owing £86 on a £100 house. The same page records underlying revenue of £3.6 billion and interest paid of £810 million, about 22 pence of every £1 of revenue. Those figures are taken from that investigation and from the company accounts and results it cites. This review has not re-opened the annual-report PDFs.",
+              "sources": [
+                {
+                  "id": "tw-page",
+                  "locator": "highlights, gearing table and 2025/26 figures"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "gearing and interest cover"
+                },
+                {
+                  "id": "ar26",
+                  "locator": "financial review; movements in net debt"
+                },
+                {
+                  "id": "results26",
+                  "locator": "financial highlights"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thames-distributions",
+          "title": "Shareholder distributions, in brief",
+          "kind": "Official record",
+          "paragraphs": [
+            {
+              "text": "The existing page sets out the record of dividends and other distributions in detail, including figures that are disputed. A Commons committee report says that during Macquarie’s stewardship, from 2006 to 2017, debt rose from £3.4 billion to £10.8 billion while an estimated £2.5 billion was paid in dividends to shareholders. Macquarie disputes those figures, and the Thames Water page records that dispute rather than treating one total as settled. This page does not pick a number of its own.",
+              "sources": [
+                {
+                  "id": "tw-page",
+                  "locator": "Macquarie years and the recorded dispute"
+                },
+                {
+                  "id": "efra",
+                  "locator": "para 4, debt and dividends 2006 to 2017"
+                }
+              ]
+            },
+            {
+              "text": "Separately, Ofwat found that Thames Water failed to comply with Licence Condition P30 when it approved interim dividends of £37.5 million in October 2023 and further dividends in March 2024. That is a regulator’s finding, already set out on the existing page, not a new conclusion here. The fuller account of what left the operating company, what reached outside investors, and what stayed inside the group belongs on that page.",
+              "sources": [
+                {
+                  "id": "ofwat-div",
+                  "locator": "final decision on Condition P30"
+                },
+                {
+                  "id": "tw-page",
+                  "locator": "the dividends that broke the rules"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thames-regulators",
+          "title": "Who was supposed to stop it?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "None of the debt or the dividends was a secret. The Thames Water page puts the useful question this way: it is not how nobody noticed, but why nobody stopped it. In April 2025 the National Audit Office reported under the headline “Regulators have failed to deliver a trusted and resilient water sector.” In December 2024 the Office for Environmental Protection found failures to comply with environmental law in the regulatory oversight of untreated sewage discharges. Ofwat, the Environment Agency, the Drinking Water Inspectorate and Defra each had a job. The existing page follows that chain, including the finding that the regulators themselves failed to comply with environmental law.",
+              "sources": [
+                {
+                  "id": "tw-page",
+                  "locator": "who was supposed to stop it, and who regulates the regulators"
+                },
+                {
+                  "id": "nao",
+                  "locator": "press release, April 2025"
+                },
+                {
+                  "id": "oep-press",
+                  "locator": "16 December 2024 findings"
+                }
+              ]
+            },
+            {
+              "text": "Where were the regulators, while gearing reached about 86% and money moved up the structure? That question is already the subject of a full investigation on this site. It is included here because it is the same watchdog question in a different register: not a secret crime, but a public failure that was allowed to become familiar.",
+              "sources": [
+                {
+                  "id": "tw-page",
+                  "locator": "gearing and the regulator question"
+                },
+                {
+                  "id": "nao",
+                  "locator": "headline finding"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaza",
+      "title": "Gaza: under investigation",
+      "intro": "A fuller investigation, to be published as a Gaza tribunal inquiry, is forthcoming. What follows is a short holding note. It records the UK government’s own published findings from September 2024, and points to people’s tribunals already documented on this site. It is not that forthcoming investigation, and it is not a determination that any crime has been proved in a court.",
+      "entries": [
+        {
+          "id": "forthcoming",
+          "title": "A forthcoming investigation",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "A fuller Gaza tribunal investigation is forthcoming. This site intends to return to Gaza in a dedicated investigation. Until that work is published, this section does no more than set out official UK findings already on the public record and link the people’s tribunals this site has already documented: the international Gaza Tribunal, and the UK Gaza Tribunal’s inquiry into British complicity. Those were concluded people’s tribunals, recorded from their own materials. They are not a substitute for the investigation still to come, and they are not judgments of a court.",
+              "sources": [
+                {
+                  "id": "site-gaza",
+                  "locator": "the international tribunal, as documented on this site"
+                },
+                {
+                  "id": "site-gaza-uk",
+                  "locator": "the UK inquiry into British complicity, as documented on this site"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gaza-licences",
+          "title": "The government’s own IHL review, 2 September 2024",
+          "kind": "Official announcement",
+          "date": "2024-09-02",
+          "paragraphs": [
+            {
+              "text": "On 2 September 2024 the UK government announced that it would suspend arms export licences to Israel for use in military operations in Gaza, following a review of Israel’s compliance with international humanitarian law. The announcement said the government would “suspend around 30 licences for items used in the current conflict in Gaza which go to the IDF, from a total of approximately 350 licences to Israel.” It said the assessment had concluded “there is a clear risk certain military exports to Israel might be used in violations of International Humanitarian Law.”",
+              "sources": [
+                {
+                  "id": "gov-suspend",
+                  "locator": "headline bullets and opening"
+                },
+                {
+                  "id": "ihl-summary",
+                  "locator": "Criterion 2(c) and the determination"
+                }
+              ]
+            },
+            {
+              "text": "The Foreign Secretary, in a statement to the House the same day, quoted Criterion 2(c) of the Strategic Export Licensing Criteria: the government will “not issue export licences if there is a clear risk that the items might be used to commit or facilitate serious violations of international humanitarian law.” He said the assessment left him “unable to conclude anything other than that for certain UK arms exports to Israel there does exist a clear risk that they might be used to commit or facilitate a serious violation of international humanitarian law.” He also said the government “is not an international court,” that the review was “a forward-looking evaluation, not a determination of innocence or guilt,” and that it would not prejudge determinations by competent courts. This page follows that official distinction.",
+              "sources": [
+                {
+                  "id": "lammy",
+                  "locator": "Criterion 2(c), clear-risk finding, and the ‘not an international court’ caveat"
+                },
+                {
+                  "id": "ihl-summary",
+                  "locator": "Criterion 2(c) as published in the official summary"
+                }
+              ]
+            },
+            {
+              "text": "The official summary of the IHL process said the key factors in the judgement included a conclusion that Israel had not fulfilled its duty, as Occupying Power, to ensure supplies essential to the survival of the population of Gaza, and that the level of aid remained insufficient; and that there had been credible claims of the mistreatment of detainees, with access denied to the ICRC. On the conduct of hostilities, it said it had not been possible to reach a determinative judgment. Those are the government’s published reasons, not findings added by this site.",
+              "sources": [
+                {
+                  "id": "ihl-summary",
+                  "locator": "humanitarian access, detainees, and conduct of hostilities"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f35-carve-out",
+          "title": "What was left in place, including the F-35 carve-out",
+          "kind": "Official announcement",
+          "paragraphs": [
+            {
+              "text": "The same announcement said the suspension was not a blanket ban. Licences assessed as not for military use in the current conflict in Gaza were not suspended. “UK components for the multi-national F-35 joint strike fighter programme will be excluded from this decision, except where going directly to Israel.” The government said any suspension of those pooled parts was “not possible without having a significant effect on the global F35 fleet with serious implications for international peace and security.” A Notice to Exporters the same day confirmed that the suspension “does not apply to exports for the F-35 programme, except where the items are going direct to Israel for use by Israel.”",
+              "sources": [
+                {
+                  "id": "gov-suspend",
+                  "locator": "F-35 exclusion and licences left in place"
+                },
+                {
+                  "id": "nte-israel",
+                  "locator": "scope of the suspension and the F-35 exception"
+                },
+                {
+                  "id": "lammy",
+                  "locator": "not a blanket ban; F-35 exemption"
+                }
+              ]
+            },
+            {
+              "text": "Given those official findings, the question this forthcoming investigation will have to take seriously is a simple one. If the government itself recorded a clear risk that certain exports might be used to commit or facilitate a serious violation of international humanitarian law, what does it mean that around 30 of approximately 350 licences were suspended, that the rest remained, and that F-35 components were carved out except where they were going directly to Israel? That is a question about the gap between a stated legal test and the licences that continued. It is not a finding, on this page, that continued licensing or other forms of cooperation were themselves a criminal act.",
+              "sources": [
+                {
+                  "id": "gov-suspend",
+                  "locator": "around 30 of approximately 350; F-35 carve-out"
+                },
+                {
+                  "id": "lammy",
+                  "locator": "clear risk finding and the statement that this is not an embargo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-watchers",
+      "title": "Who does the watching?",
+      "intro": "If regulators arrive late, if appointment rules do not clearly cover the people who once ran the institutions being sold to, and if a government can record a clear legal risk and still leave most of the relevant licences in place, the watchdog question becomes practical: who, then, does the work of scrutiny?",
+      "entries": [
+        {
+          "id": "journalism",
+          "title": "Why investigative journalists end up doing accountability work",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The Palantir appointment became a public fact because the Bureau of Investigative Journalism investigated it and published it, with on-the-record statements from both sides, more than a year after the role began. The Thames Water record on this site had to be assembled from a High Court judgment, filed accounts, a Commons committee report and the findings of the National Audit Office and the Office for Environmental Protection, after the debt and the discharges were already in plain view. In both cases, formal oversight existed on paper. In both cases, the work of putting the facts in front of the public still had to be done by investigators and by researchers willing to read the primary record.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "the exclusive, published 10 November 2026"
+                },
+                {
+                  "id": "tw-page",
+                  "locator": "method and the public record it draws on"
+                },
+                {
+                  "id": "nao",
+                  "locator": "April 2025 report on the regulators"
+                }
+              ]
+            },
+            {
+              "text": "That is not an argument that journalists replace courts, regulators or parliament. It is an observation about what happens when those institutions are slow, limited, or caught in institutional conflict of interest: the accountability function does not disappear. It moves, often, to people who have no official mandate except the duty to check and to publish. The risk is that this becomes the main safeguard rather than a last one.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "journalism as the source of the appointment becoming public"
+                },
+                {
+                  "id": "nao",
+                  "locator": "official audit arriving after a long public failure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "normalised",
+          "title": "When the extraordinary is treated as routine",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The thread running through these examples is not a single conspiracy and not a finding of guilt against a named person. It is a pattern of official systems that notice late, act narrowly, or leave the public to discover the facts elsewhere. A paid advisory role can be lawful and still raise a question about appearances. A water company can follow incentive rules and still end up with gearing of about 86%. A government can apply an export-licensing test, record a clear risk, and still leave most licences, and a major multinational weapons programme, in place. If each of those is treated as unremarkable, regulatory failure and institutional conflict of interest become part of the furniture.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "the Palantir appointment as reported"
+                },
+                {
+                  "id": "tw-page",
+                  "locator": "gearing and the regulator question"
+                },
+                {
+                  "id": "gov-suspend",
+                  "locator": "clear risk, partial suspension, F-35 carve-out"
+                },
+                {
+                  "id": "nao",
+                  "locator": "regulators have failed"
+                }
+              ]
+            },
+            {
+              "text": "Shocking and appalling became the new normal. That is the line this page is for: not one scandal in isolation, but the moment when the extraordinary is treated as routine. The work of a research site, and of investigative journalism, is to keep those facts in view, attributed and checkable, until official oversight does the job that the word “watchdog” is supposed to mean.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "a fact that became public through investigation"
+                },
+                {
+                  "id": "tw-page",
+                  "locator": "a record assembled from official documents"
+                },
+                {
+                  "id": "gov-suspend",
+                  "locator": "the government’s own published findings"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "About this page",
+      "intro": "How this research was assembled, and what it does not claim.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The Palantir section is built from the Bureau of Investigative Journalism’s exclusive of 10 November 2026 and from official contract and procurement notices, a MOPAC statement, and reporting that we have attributed where we could not open a primary notice. The Thames Water figures are those already checked on the existing Thames Water page on 30 October 2026, with the same underlying accounts, committee report and regulator decisions cited there. The Gaza holding section uses the government’s 2 September 2024 announcement, the Foreign Secretary’s statement, the published IHL summary and the Notice to Exporters. Commentary is marked “Our analysis.” Named people are described only as the cited sources describe them.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Limits",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "We did not find a published ACOBA advice letter for Dame Cressida Dick’s Palantir role; that is a limit of this review, not a finding that she was required to seek one. We have not found a published figure for what she is paid. We did not open a primary official notice for the Bedfordshire, Cambridgeshire and Hertfordshire Foundry award, so those figures are attributed to reporting. We did not re-open Thames Water’s 2025/26 annual-report PDFs for this page. The two campaign graphics on this page are Independent Tribunal artwork: illustrative commentary, not evidence. This page is not legal advice, not a charge, and not the forthcoming Gaza investigation.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tbij",
+      "title": "Exclusive: Ex-Met Police chief is paid adviser for Palantir",
+      "publisher": "The Bureau of Investigative Journalism",
+      "type": "Investigative reporting",
+      "url": "https://www.thebureauinvestigates.com/stories/2026-11-10/revealed-palantir-employing-cressida-dick-as-paid-adviser",
+      "date": "2026-11-10",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "tw-page",
+      "title": "Thames Water: a marvel of financial engineering",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/research/thames-water/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "twuf",
+      "title": "Thames Water Utilities Finance plc Annual Report 2025/26",
+      "publisher": "Thames Water",
+      "type": "Company accounts",
+      "url": "https://www.thameswater.co.uk/media-library/35cibnzp/twuf-annual-report-2025-26.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "ar26",
+      "title": "Thames Water Utilities Limited Annual Report and Financial Statements 2025/26",
+      "publisher": "Thames Water",
+      "type": "Company accounts",
+      "url": "https://www.thameswater.co.uk/media-library/2tad3w44/annual-report-2025-26.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "gov-suspend",
+      "title": "UK suspends around 30 arms export licences to Israel for use in Gaza over International Humanitarian Law concerns",
+      "publisher": "GOV.UK (Foreign, Commonwealth & Development Office and Department for Business and Trade)",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/news/uk-suspends-around-30-arms-export-licences-to-israel-for-use-in-gaza-over-international-humanitarian-law-concerns",
+      "date": "2024-09-02",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "nao",
+      "title": "Regulators have failed to deliver a trusted and resilient water sector",
+      "publisher": "National Audit Office",
+      "type": "Public audit body press release",
+      "url": "https://www.nao.org.uk/press-releases/regulators-have-failed-to-deliver-a-trusted-and-resilient-water-sector-nao/",
+      "date": "2025-04-25",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "acoba-gov",
+      "title": "Advisory Committee on Business Appointments",
+      "publisher": "GOV.UK",
+      "type": "Official process explanation",
+      "url": "https://www.gov.uk/government/organisations/advisory-committee-on-business-appointments",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "docherty-acoba",
+      "title": "Advice Letter: Leo Docherty, Advisor, Palantir Technologies UK Ltd",
+      "publisher": "GOV.UK (Advisory Committee on Business Appointments)",
+      "type": "Official announcement",
+      "url": "https://www.gov.uk/government/publications/docherty-leo-minister-of-state-for-the-armed-forces-at-the-ministry-of-defence-acoba-advice/advice-letter-leo-docherty-advisor-palantir-technologies-uk-ltd",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "bars-crown",
+      "title": "Business Appointment Rules for Crown Servants",
+      "publisher": "GOV.UK",
+      "type": "Official guidance",
+      "url": "https://www.gov.uk/government/publications/business-appointment-rules-for-crown-servants/business-appointment-rules-for-crown-servants",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "nhs-england",
+      "title": "New NHS software to improve care for millions of patients",
+      "publisher": "NHS England",
+      "type": "Official announcement",
+      "url": "https://www.england.nhs.uk/2023/11/new-nhs-software-to-improve-care-for-millions-of-patients/",
+      "date": "2023-11-21",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "contracts-fdp",
+      "title": "Federated Data Platform and Associated Services",
+      "publisher": "Contracts Finder",
+      "type": "Official contract notice",
+      "url": "https://www.contractsfinder.service.gov.uk/Notice/0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+      "date": "2023-11-22",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "nflms",
+      "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+      "publisher": "Find a Tender (Police Digital Service)",
+      "type": "Official contract notice",
+      "url": "https://www.find-tender.service.gov.uk/Notice/051257-2026",
+      "date": "2026-06-01",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "met-pilot",
+      "title": "Unified Data Platform Phase 1",
+      "publisher": "Contracts Finder (Metropolitan Police Service)",
+      "type": "Official contract notice",
+      "url": "https://www.contractsfinder.service.gov.uk/Notice/3e79d6d5-d090-4c74-9ecb-141cd987c6d6",
+      "date": "2026-02-23",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "guardian-mopac",
+      "title": "Sadiq Khan sparks row with Met after blocking £50m AI deal with Palantir",
+      "publisher": "The Guardian",
+      "type": "News report",
+      "url": "https://www.theguardian.com/uk-news/2026/may/21/london-mayor-sadiq-khan-blocks-met-police-deal-with-palantir",
+      "date": "2026-05-21",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "mopac",
+      "title": "Statement: MOPAC and Palantir",
+      "publisher": "Mayor’s Office for Policing and Crime (london.gov.uk)",
+      "type": "Official announcement",
+      "url": "https://www.london.gov.uk/statement-mopac-and-palantir",
+      "date": "2026-10-14",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "publictech-bch",
+      "title": "Eastern police forces sign £10m Palantir deal to support safeguarding – as reports claim NHS extension planned",
+      "publisher": "PublicTechnology",
+      "type": "Published reporting",
+      "url": "https://www.publictechnology.net/2026/11/10/public-order-justice-and-rights/eastern-police-forces-sign-10m-palantir-deal-to-support-safeguarding-as-reports-claim-nhs-extension-planned/",
+      "date": "2026-11-10",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "results26",
+      "title": "Thames Water Utilities Limited Annual Results for the year to 31 March 2026",
+      "publisher": "Thames Water",
+      "type": "Company announcement",
+      "url": "https://www.thameswater.co.uk/news/2026/jul/thames-water-annual-results-2025-26",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "efra",
+      "title": "The future of Thames Water and special administration (Second Report of Session 2026–27)",
+      "publisher": "House of Commons Environment, Food and Rural Affairs Committee",
+      "type": "Parliamentary report",
+      "url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmenvfru/664/report.html",
+      "date": "2026-09-18",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "ofwat-div",
+      "title": "Notice of Ofwat’s decision to impose a financial penalty on Thames Water for contravention of Condition P30",
+      "publisher": "Ofwat",
+      "type": "Regulatory decision",
+      "url": "https://www.ofwat.gov.uk/wp-content/uploads/2024/12/2025-05-28-Thames-Waters-Dividend-Payments-and-ConditIon-P30-Final-Decision.pdf",
+      "date": "2025-05-28",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "oep-press",
+      "title": "OEP finds there have been failures to comply with environmental law in relation to regulatory oversight of untreated sewage discharges",
+      "publisher": "Office for Environmental Protection",
+      "type": "Regulator's announcement",
+      "url": "https://www.theoep.org.uk/node/2165",
+      "date": "2024-12-16",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "site-gaza",
+      "title": "The Gaza Tribunal (international)",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/independent-tribunals/gaza-tribunal/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "site-gaza-uk",
+      "title": "The Gaza Tribunal: Inquiry into British Complicity",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/independent-tribunals/gaza-tribunal-uk/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "ihl-summary",
+      "title": "Summary of the IHL process, decision and the factors taken into account",
+      "publisher": "GOV.UK",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/publications/summary-of-the-international-humanitarian-law-ihl-process-decision-and-the-factors-taken-into-account/summary-of-the-ihl-process-decision-and-the-factors-taken-into-account",
+      "date": "2024-09-02",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "lammy",
+      "title": "UK policy on arms export licences to Israel: Foreign Secretary's statement",
+      "publisher": "GOV.UK (Foreign, Commonwealth & Development Office)",
+      "type": "Ministerial statement",
+      "url": "https://www.gov.uk/government/speeches/foreign-secretary-statement-on-uk-policy-on-arms-export-licenses-to-israel",
+      "date": "2024-09-02",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "nte-israel",
+      "title": "NTE 2024/20: suspension of licences for Israel",
+      "publisher": "GOV.UK (Export Control Joint Unit)",
+      "type": "Official guidance",
+      "url": "https://www.gov.uk/government/publications/notice-to-exporters-202420-suspension-of-licences-for-israel/nte-202420-suspension-of-licences-for-israel",
+      "date": "2024-09-02",
+      "checked": "2026-11-12"
+    }
+  ],
+  "evidence_image": {
+    "src": "/images/cressida-dick-palantir-adviser.webp",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Campaign graphic of Dame Cressida Dick in Metropolitan Police uniform, set against purple tentacles and the Palantir logo, with screens labelled NHS and Police and a London skyline. The headline reads Exclusive: Ex-Met Police chief hired as paid adviser by Palantir, with a line that she joined in September 2025, and the slogan NHS and now police. Shocking and appalling became the new normal.",
+    "caption": "Independent Tribunal campaign graphic (illustrative, not evidence). The appointment and September 2025 date are those later reported by the Bureau of Investigative Journalism, cited below. The tentacles, screens and slogan are commentary artwork, not a record that she obtained any contract."
+  },
+  "artworks": [
+    {
+      "src": "/images/independent-tribunal-campaign-poster.webp",
+      "width": 1200,
+      "height": 1200,
+      "after_section": "gaza",
+      "alt": "Gold-and-black Independent Tribunal campaign poster. The heading reads Independent Tribunal, investigating and prosecuting those enabling genocide and war crimes in public office. Four people sit behind a courtroom bench, in the likeness of David Lammy, Keir Starmer, Dame Cressida Dick and David Cameron, each with a plaque reading Defendant. Below, the poster says no immunity, no statute of limitations, justice will come no matter how slow, and We do not forget. We do remember, with a note that after the Second World War there were many courts and Nuremberg was only the most famous.",
+      "caption": "Independent Tribunal campaign graphic (illustrative, not evidence). The “Defendant” labels and the courtroom staging are the artwork’s rhetoric, not a court record or a finding that any named person has been charged or convicted.",
+      "transcript": "INDEPENDENT TRIBUNAL\nInvestigating and prosecuting those enabling GENOCIDE & WAR CRIMES in public office\nPLANETARY COUNCIL.ORG\nFour figures, each labelled DEFENDANT.\nNo immunity, no statute of limitations. Justice will come no matter how slow.\nWE DO NOT FORGET. WE DO REMEMBER.\nAfter World War II, there were many courts. Nuremberg was just the most famous.\nINDEPENDENTTRIBUNAL.ORG"
+    }
+  ]
+}

@@ -424,12 +424,23 @@ ${s.entries.map((e) => `
 }
 
 // Policy pages.
-const legalPage = ({ title, description, path, body, updated, meta }) => `<!doctype html>
+const legalPage = ({ title, description, path, body, updated, meta, image }) => `<!doctype html>
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="${escapeHtml(description)}">
+${image?.src ? `<meta property="og:title" content="${escapeHtml(title)} — Independent Tribunal">
+<meta property="og:description" content="${escapeHtml(description)}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="${abs(path)}">
+<meta property="og:image" content="${abs(image.src)}">
+<meta property="og:image:alt" content="${escapeHtml(image.alt ?? "")}">
+<meta property="og:image:width" content="${image.width}">
+<meta property="og:image:height" content="${image.height}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${abs(image.src)}">
+<meta name="twitter:image:alt" content="${escapeHtml(image.alt ?? "")}">` : ""}
 <link rel="canonical" href="${abs(path)}">
 <link rel="icon" href="/favicon.svg">
 <title>${escapeHtml(title)} — Independent Tribunal</title>
