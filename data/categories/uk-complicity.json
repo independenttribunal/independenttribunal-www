@@ -1,0 +1,111 @@
+{
+  "id": "uk-complicity",
+  "path": "/uk-complicity/",
+  "title": "UK complicity",
+  "lede": "Public contracts, a privatised monopoly, arms licensing and who gets to speak when the law is tested.",
+  "intro": "A category that gathers existing, sourced pages on one theme: when official oversight is late, narrow or left to other jurisdictions, who is watching? Each chapter points to a page that carries the evidence and the caveats. This hub does not allege that any named person has broken the law. Questions stay questions.",
+  "checked": "2026-11-12",
+  "image": {
+    "src": "/images/independent-tribunal-campaign-poster.webp",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Gold-and-black Independent Tribunal campaign poster. The heading reads Independent Tribunal, investigating and prosecuting those enabling genocide and war crimes in public office. Four people sit behind a courtroom bench, each with a plaque reading Defendant. Below, the poster says we do not forget, we do remember.",
+    "caption": "Independent Tribunal campaign graphic (illustrative, not evidence). Reused here as the category image. The “Defendant” labels are the artwork’s rhetoric, not a court record."
+  },
+  "chapters": [
+    {
+      "title": "Palantir, a former Met commissioner and Lord Mandelson",
+      "href": "/research/who-is-watching-the-watchdogs/#palantir",
+      "summary": "The Bureau of Investigative Journalism reported that Dame Cressida Dick, former Metropolitan Police commissioner, has been a paid Palantir adviser since September 2025; she has denied lobbying. Official records also show that Lord Peter Mandelson, co-founder of Global Counsel, was UK ambassador to the United States when the Prime Minister visited Palantir’s Washington offices on 27 February 2025, in a quarter when the statutory lobbyist register listed Global Counsel Ltd as a lobbyist for Palantir. He was withdrawn as ambassador on 11 September 2025 for reasons the government stated in relation to Jeffrey Epstein, not Palantir. The linked page sets out those sources and leaves the conflict-of-interest questions as questions.",
+      "links": [
+        {
+          "label": "Lord Mandelson, Global Counsel and the Washington visit",
+          "href": "/research/who-is-watching-the-watchdogs/#mandelson"
+        },
+        {
+          "label": "Dame Cressida Dick’s reported Palantir role",
+          "href": "/research/who-is-watching-the-watchdogs/#palantir-role"
+        },
+        {
+          "label": "Palantir’s documented UK public-sector work",
+          "href": "/research/who-is-watching-the-watchdogs/#palantir-contracts"
+        }
+      ]
+    },
+    {
+      "title": "Thames Water: how a stable monopoly reached about 86% gearing",
+      "href": "/research/thames-water/",
+      "summary": "A privatised water monopoly, with customers who cannot switch network, recorded net debt of £19.8 billion and gearing of about 86% of regulated value in 2025/26. The existing investigation follows the debt, shareholder distributions, the pollution record and the question the page itself poses: where were the regulators?",
+      "links": [
+        {
+          "label": "Gearing, in plain words",
+          "href": "/research/thames-water/#plain-words"
+        },
+        {
+          "label": "Who was supposed to stop it?",
+          "href": "/research/thames-water/#who-watched"
+        },
+        {
+          "label": "Who regulates the regulators?",
+          "href": "/research/thames-water/#regulators"
+        }
+      ]
+    },
+    {
+      "title": "Gaza: official findings and people’s tribunals",
+      "href": "/research/who-is-watching-the-watchdogs/#gaza",
+      "summary": "A fuller Gaza tribunal investigation on this site is forthcoming. In the meantime the watchdogs page records the UK government’s own 2 September 2024 finding of a “clear risk” that certain arms exports to Israel might be used in serious violations of international humanitarian law, the suspension of around 30 of approximately 350 licences, and the F-35 carve-out. Two concluded people’s tribunals, already documented here, are linked below: the international Gaza Tribunal, and the UK inquiry into British complicity.",
+      "links": [
+        {
+          "label": "The government’s IHL review and the licences",
+          "href": "/research/who-is-watching-the-watchdogs/#gaza-licences"
+        },
+        {
+          "label": "The Gaza Tribunal (international)",
+          "href": "/independent-tribunals/gaza-tribunal/"
+        },
+        {
+          "label": "The Gaza Tribunal: Inquiry into British Complicity",
+          "href": "/independent-tribunals/gaza-tribunal-uk/"
+        }
+      ]
+    },
+    {
+      "title": "Who gets to speak at the World Court?",
+      "href": "/research/who-speaks-at-the-world-court/",
+      "summary": "Before the International Court of Justice, only states may be parties in contentious cases. The Statute requires each party to be represented by an agent and allows counsel or advocates, but neither the Statute nor the Rules of Court say who a state may appoint or how the appointment is made: that is left to each state’s domestic arrangements. The Court regulates the agent’s role, not the choice of person. It also has no compulsory ethics code for those who appear.",
+      "links": [
+        {
+          "label": "Article 42: agents, counsel and advocates",
+          "href": "/research/who-speaks-at-the-world-court/#article-42"
+        },
+        {
+          "label": "The Court regulates the role, not who a state appoints",
+          "href": "/research/who-speaks-at-the-world-court/#who-appoints"
+        },
+        {
+          "label": "No ICJ ethics code for counsel",
+          "href": "/research/who-speaks-at-the-world-court/#no-code"
+        }
+      ]
+    }
+  ],
+  "related": [
+    {
+      "label": "Who is watching the watchdogs?",
+      "href": "/research/who-is-watching-the-watchdogs/"
+    },
+    {
+      "label": "Thames Water: a marvel of financial engineering",
+      "href": "/research/thames-water/"
+    },
+    {
+      "label": "Independent tribunals",
+      "href": "/independent-tribunals/"
+    },
+    {
+      "label": "Research library",
+      "href": "/research/"
+    }
+  ]
+}

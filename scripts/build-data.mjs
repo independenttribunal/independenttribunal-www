@@ -219,6 +219,8 @@ for (const r of [...research, ...commentary]) linkTargets.set(`/research/${r.id}
 for (const n of nuances) linkTargets.set(`/nuances/${n.id}/`, new Set());
 for (const t of timelines) linkTargets.set(t.path, new Set(t.sections.flatMap((s) => [s.id, ...(s.entries ?? []).map((e) => e.id)])));
 for (const p of policies) linkTargets.set(`/legal/${p.slug}/`, new Set());
+for (const t of tribunals) linkTargets.set(`/independent-tribunals/${t.id}/`, new Set());
+linkTargets.set("/independent-tribunals/", new Set());
 for (const c of categories) validateCategory(c, linkTargets, fail);
 
 if (errors.length) {
@@ -232,6 +234,7 @@ const built = new Date().toISOString();
 const builtDay = built.slice(0, 10);
 const abs = (path) => new URL(path, site.url).href;
 
+for (const c of categories) if (!GENERATED.includes(c.id)) GENERATED.push(c.id);
 for (const name of GENERATED) await rm(join(publicDir, name), { recursive: true, force: true });
 const put = async (path, content) => {
   const full = join(publicDir, path);
@@ -582,7 +585,7 @@ await put("independent-tribunals/index.html", legalPage({
 }));
 
 // Dated research imports, with provenance and status separate from verified references.
-await publishResearch({ records: research, profiles, commentary, put, page: legalPage, escapeHtml, site });
+await publishResearch({ records: research, profiles, commentary, categories, put, page: legalPage, escapeHtml, site });
 await publishPalestineAction({ collection: palestineAction, records: research, put, page: legalPage, escapeHtml });
 await publishProfiles({ profiles, put, page: legalPage, escapeHtml, site });
 for (const category of categories) {

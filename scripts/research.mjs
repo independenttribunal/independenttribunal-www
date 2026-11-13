@@ -57,7 +57,7 @@ export const researchText = (html) => html
   .replace(/&([a-z]+);/gi, (entity, name) => ({ amp: "&", quot: '"', apos: "'", lt: "<", gt: ">", nbsp: " ", ndash: "–", mdash: "—", lsquo: "‘", rsquo: "’", ldquo: "“", rdquo: "”", pound: "£", middot: "·" }[name] ?? entity))
   .replace(/[ \t]+/g, " ").trim();
 
-export async function publishResearch({ records, profiles = [], commentary = [], put, page, escapeHtml: e, site }) {
+export async function publishResearch({ records, profiles = [], commentary = [], categories = [], put, page, escapeHtml: e, site }) {
   const studies = profiles.filter((p) => p.category === "legal-study");
   const openJustice = studies.filter((p) => p.tags.includes("open-justice"));
   const otherStudies = studies.filter((p) => !p.tags.includes("open-justice"));
@@ -104,6 +104,7 @@ export async function publishResearch({ records, profiles = [], commentary = [],
     meta: `<p class="meta">Open research · <a href="/data/research.json">Dossiers JSON</a> · <a href="/data/profiles.json">Profiles JSON</a> · <a href="/legal/editorial-standards/">Editorial standards</a></p>`,
     body: `${styles}<div class="kicker">Independent Tribunal · Research library</div><h1>Follow the evidence.</h1>
       <p class="lede">Separate cases, distinct legal questions, and a public record you can examine for yourself.</p>
+      ${categories.length ? `<h2>Research categories</h2><p>Themed collections of existing, sourced pages.</p><ul class="policy-list">${categories.map((c) => `<li><span class="kicker">Research category · ${c.chapters.length} chapters</span><h3><a href="${e(c.path)}">${e(c.title)} →</a></h3><p>${e(c.lede)}</p></li>`).join("")}</ul>` : ""}
       <h2>Featured collection</h2><ul class="policy-list"><li><span class="kicker">UK · Cases, records and institutional accountability</span><h3><a href="/research/palestine-action/">Palestine Action →</a></h3><p>What is legal? What is normal? What is real? One chronological collection of cases, campaigns and institutional accounts, including actions before 7 October 2023—with connected research, the CAGE report and traceable corrections.</p></li></ul>
       ${otherStudies.length ? `<h2>Law, protest and accountability</h2><p>Legal powers, applications and public records, with dated findings and source limitations.</p><ul class="policy-list">${otherStudies.map((p) => `<li><span class="kicker">Legal study · ${e(p.jurisdiction)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Sources reviewed ${e(p.checked)}</span></li>`).join("")}</ul>` : ""}
       ${openJustice.length ? `<h2>Open justice and reporting restrictions</h2><p>Linked legal studies: secrecy about proceedings, protection of identity, and identification through combined information. Court findings and our analysis are distinguished.</p><ul class="policy-list">${openJustice.map((p) => `<li><span class="kicker">Legal study · ${e(p.jurisdiction)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Sources reviewed ${e(p.checked)}</span></li>`).join("")}</ul>` : ""}
