@@ -45,3 +45,30 @@ test("the infographic matches the reviewed file and its corrected text", async (
   const html = await read(`public/research/${id}/index.html`);
   assert.ok(html.includes(art.src));
 });
+
+test("the CPS determination poster appears after the optional improvement and is the share image", async () => {
+  const p = await json(`data/profiles/${id}.json`);
+  const poster = p.artworks.find((a) => a.src === "/images/cps-binding-preliminary-determination.webp");
+  assert.ok(poster);
+  assert.equal(poster.after_section, "cps-first-hearing");
+  assert.equal(poster.width, 1024);
+  assert.equal(poster.height, 1280);
+  assert.equal(poster.og, true);
+  assert.match(poster.alt, /binding preliminary CPS determination/i);
+  assert.match(poster.caption, /not current law/i);
+  assert.match(poster.caption, /Act of Parliament/);
+  assert.match(poster.transcript, /CERTAINTY AT THE START/);
+  assert.match(poster.transcript, /IF CPS DECLINES: NO LATER TAKEOVER/);
+  assert.match(poster.transcript, /TAKE OVER & CONTINUE/);
+  const bytes = await readFile(new URL("../public/images/cps-binding-preliminary-determination.webp", import.meta.url));
+  assert.ok(bytes.length > 10000);
+  const html = await read(`public/research/${id}/index.html`);
+  assert.ok(html.includes('src="/images/cps-binding-preliminary-determination.webp"'));
+  assert.ok(html.includes('property="og:image" content="https://independenttribunal.org/images/cps-binding-preliminary-determination.webp"'));
+  const cpsIdx = html.indexOf('id="cps-first-hearing"');
+  const imgIdx = html.indexOf('src="/images/cps-binding-preliminary-determination.webp"');
+  const researchIdx = html.indexOf('id="research"');
+  assert.ok(cpsIdx !== -1 && imgIdx > cpsIdx, "poster should appear after the CPS section heading");
+  assert.ok(researchIdx === -1 || imgIdx < researchIdx, "poster should appear before the next section");
+});
+
