@@ -85,7 +85,7 @@
     {
       "title": "Defamation",
       "href": "/research/calling-fraud-a-fraud/",
-      "summary": "The civil side. You can call a fraud a fraud if you can defend it: truth, honest opinion or public interest. Applied to a real case in the Thames Water study.",
+      "summary": "The civil side. You can call a fraud a fraud if you can defend it: truth, honest opinion or public interest. Applied to a real case in the Thames Water study. A companion chapter asks when suing over an insult is a bad trade.",
       "links": [
         {
           "label": "Calling fraud a fraud",
@@ -94,6 +94,10 @@
         {
           "label": "Thames Water",
           "href": "/research/thames-water/"
+        },
+        {
+          "label": "The game theory of suing for defamation",
+          "href": "/research/defamation-game-theory/"
         }
       ]
     },
