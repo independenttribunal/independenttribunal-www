@@ -17,6 +17,10 @@
   "status_note": "Sources reviewed on 12 November 2026. The Palantir appointment was first reported by the Bureau of Investigative Journalism on 10 November 2026. Thames Water figures are those already set out on our Thames Water page, which checked the 2025/26 accounts on 30 October 2026. The Gaza material is a holding section, not the investigation itself. Commentary is marked as such. This is research, not a finding of unlawfulness and not legal advice.",
   "related": [
     {
+      "id": "citizens-statement-of-concern",
+      "title": "A citizen’s statement of concern"
+    },
+    {
       "id": "thames-water",
       "title": "Thames Water: a marvel of financial engineering"
     }

@@ -1,0 +1,531 @@
+{
+  "id": "citizens-statement-of-concern",
+  "category": "legal-study",
+  "title": "A citizen’s statement of concern",
+  "subtitle": "I refuse to accept “shocking and appalling” as the new normal.",
+  "summary": "Citizens should not be expected to become desensitised to repeated institutional controversies simply because those controversies have become familiar. This statement takes three recent, non-equivalent public-interest matters — a reported Palantir appointment, Thames Water’s financial record, and the UK’s arms-export decisions concerning Israel and Gaza — and asks whether the institutions responsible for oversight are genuinely equipped, sufficiently independent and willing to investigate them. Independent Tribunal is an independent public-interest research and accountability initiative, not a court.",
+  "checked": "2026-11-13",
+  "jurisdiction": "United Kingdom · public-interest research and accountability",
+  "tags": [
+    "uk",
+    "accountability",
+    "regulation",
+    "public-interest",
+    "research"
+  ],
+  "scope": "A formal statement of concern about public oversight in the United Kingdom. The three examples are not treated as equivalent: they involve different institutions, evidence, legal frameworks and potential explanations. Named people appear only as they are described in the published sources cited here. Taking a later role after leaving public office is not, by itself, unlawful. This page asks questions; it does not find criminal or civil wrongdoing.",
+  "status_note": "Statement drafted and sources reviewed on 13 November 2026. The Palantir appointment was first reported by the Bureau of Investigative Journalism on 10 November 2026. Thames Water figures and the UK government’s 2 September 2024 export-licensing decision are those already set out, with sources, on our existing research pages. This statement asks questions; it does not find criminal or civil wrongdoing, and it does not allege that any named person has broken the law.",
+  "featured_source": "tbij",
+  "evidence_image": {
+    "src": "/images/cressida-dick-palantir-shocking-appalling.webp",
+    "width": 1200,
+    "height": 1200,
+    "alt": "Campaign graphic of Dame Cressida Dick in Metropolitan Police uniform, centred against a sky of purple tentacles and a Palantir logo, with screens labelled NHS and Police and a London skyline including the Elizabeth Tower. The headline reads Exclusive: Ex-Met Police chief hired as paid adviser by Palantir. A line beneath says Dame Cressida Dick joined the controversial tech giant in September 2025. The footer reads NHS and now Police. Shocking and appalling became the new normal.",
+    "caption": "Independent Tribunal campaign graphic (illustrative, not evidence). The appointment and the September 2025 date are those reported by the Bureau of Investigative Journalism, cited below. The tentacles, the screens and the slogan “shocking and appalling became the new normal” are commentary artwork, not a record that she obtained any contract or that any institution has made a finding."
+  },
+  "highlights": [
+    {
+      "label": "The centre line",
+      "value": "Shocking and appalling is not a standard of governance",
+      "detail": "And repetition does not constitute justification",
+      "target": "the-centre-line"
+    },
+    {
+      "label": "Palantir role, as reported",
+      "value": "Paid adviser",
+      "detail": "From September 2025 · Bureau of Investigative Journalism, 10 November 2026",
+      "target": "palantir-role"
+    },
+    {
+      "label": "What this project is",
+      "value": "Not a court",
+      "detail": "An independent public-interest research and accountability initiative",
+      "target": "what-we-are"
+    },
+    {
+      "label": "Our method",
+      "value": "Test the question too",
+      "detail": "Publish exculpatory evidence, allow a meaningful reply, and correct findings when needed",
+      "target": "our-method"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-statement",
+      "title": "A citizen’s statement of concern",
+      "intro": "The central argument is that citizens should not be expected to become desensitised to repeated institutional controversies simply because those controversies have become familiar.",
+      "entries": [
+        {
+          "id": "the-refusal",
+          "title": "I refuse to accept “shocking and appalling” as the new normal",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "From the perspective of an ordinary citizen, what is happening across some of Britain’s most important institutions appears shocking, obnoxious, obscene and, frankly, ridiculous. Familiarity is not a defence. The fact that a controversy has been repeated, reported or already debated does not make it a standard of acceptable governance.",
+              "sources": []
+            },
+            {
+              "text": "This page is a formal statement of concern, not a charge sheet and not a judgment. The three matters that follow are examples. They are not a complete catalogue, and they are not ranked as if they were the same case.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "three-matters",
+      "title": "Three matters, not treated as equivalent",
+      "intro": "Consider three very different matters. They involve different institutions, evidence, legal frameworks and potential explanations. They are set out here as questions, not as findings of wrongdoing.",
+      "entries": [
+        {
+          "id": "palantir-role",
+          "title": "Palantir and public trust",
+          "kind": "Published reporting",
+          "paragraphs": [
+            {
+              "text": "The Bureau of Investigative Journalism reported on 10 November 2026 that Dame Cressida Dick, the former Metropolitan Police commissioner, had been working as a paid adviser to Palantir, the US data-analytics company, after joining in September 2025. Palantir has documented public-sector work in the NHS and in British policing. The Bureau’s report is the source for the appointment and the date; it did not report how much she is paid.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "appointment as paid adviser from September 2025"
+                },
+                {
+                  "id": "nhs-england",
+                  "locator": "NHS software announcement"
+                },
+                {
+                  "id": "contracts-fdp",
+                  "locator": "Federated Data Platform contract notice"
+                },
+                {
+                  "id": "nflms",
+                  "locator": "National Firearms Licensing Management System notice"
+                },
+                {
+                  "id": "publictech-bch",
+                  "locator": "reported eastern police forces contract"
+                }
+              ]
+            },
+            {
+              "text": "A Palantir spokesperson told the Bureau that she advises on how the company’s software could help public-sector services, drawing on more than 40 years of public service. Dame Cressida told the Bureau that her role is limited to advice: “I do not and have not ever lobbied or advocated for Palantir with any organisation or individual in any sector, nor have I ever introduced Palantir to any contact of mine.” Nothing on this page contradicts that account or finds that she obtained any contract.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "Palantir spokesperson and Dame Cressida Dick’s statement"
+                }
+              ]
+            },
+            {
+              "text": "The questions this appointment raises are about disclosure, safeguards and independent verification. What obligations apply when a former holder of a senior public office takes a paid role with a company that has public-sector contracts? What governs potential conflicts of interest? Who checks compliance? The Business Appointment Rules and the Advisory Committee on Business Appointments are the published process for some Crown servants taking outside roles. Our earlier review has not identified a published ACOBA advice letter for this appointment. That is a record of what that review found and did not find; it is not a finding that she was required to apply and failed to do so. Those questions are examined, with sources, on Who is watching the watchdogs?",
+              "sources": [
+                {
+                  "id": "acoba-gov",
+                  "locator": "ACOBA’s published role"
+                },
+                {
+                  "id": "bars-crown",
+                  "locator": "Business Appointment Rules for Crown servants"
+                },
+                {
+                  "id": "watchdogs-page",
+                  "locator": "the ACOBA record check and the Palantir questions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thames-record",
+          "title": "Thames Water and regulatory accountability",
+          "kind": "Company accounts and official review",
+          "paragraphs": [
+            {
+              "text": "Thames Water is an essential monopoly utility: customers cannot switch the network that serves them. Its 2025/26 accounts, already examined on our Thames Water page, put gearing at about 86% of regulated value, with total debt reported at £19.8 billion. The financial history raises serious questions about shareholder distributions, executive incentives and regulatory oversight.",
+              "sources": [
+                {
+                  "id": "tw-page",
+                  "locator": "gearing, total debt and the regulatory questions"
+                },
+                {
+                  "id": "ar26",
+                  "locator": "Thames Water Utilities Limited Annual Report 2025/26"
+                },
+                {
+                  "id": "twuf",
+                  "locator": "Thames Water Utilities Finance plc Annual Report 2025/26"
+                }
+              ]
+            },
+            {
+              "text": "How did this happen? Who benefited? What did regulators know, and when? The National Audit Office has said that regulators have failed to deliver a trusted and resilient water sector. Those questions, and the underlying figures, are the subject of our existing Thames Water investigation. They are asked again here because the repetition of a regulatory failure does not make it normal.",
+              "sources": [
+                {
+                  "id": "nao",
+                  "locator": "headline finding on regulatory failure"
+                },
+                {
+                  "id": "tw-page",
+                  "locator": "the investigation and the question ‘where were the regulators?’"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gaza-licences",
+          "title": "Gaza and international humanitarian law",
+          "kind": "Government announcement",
+          "paragraphs": [
+            {
+              "text": "The United Kingdom declares its commitment to international humanitarian law. On 2 September 2024 the government announced that it would suspend around 30 arms export licences to Israel for items used in the conflict in Gaza, from a total of approximately 350 licences to Israel, after an assessment that there was a clear risk certain military exports might be used in violations of international humanitarian law. The same announcement was not a blanket ban: licences assessed as not for military use in that conflict were left in place, and UK components for the multinational F-35 programme were excluded except where they were going directly to Israel.",
+              "sources": [
+                {
+                  "id": "gov-suspend",
+                  "locator": "around 30 of approximately 350 licences; clear-risk finding; F-35 exclusion"
+                },
+                {
+                  "id": "ihl-summary",
+                  "locator": "Criterion 2(c) and the official determination"
+                },
+                {
+                  "id": "lammy",
+                  "locator": "Foreign Secretary’s statement of the same day"
+                },
+                {
+                  "id": "nte-israel",
+                  "locator": "scope of the suspension and the F-35 exception"
+                }
+              ]
+            },
+            {
+              "text": "Are government decisions consistent with the UK’s legal obligations? What independent scrutiny exists? Those remain questions, not findings on this page. A fuller Gaza investigation on this site is forthcoming. In the meantime the official record, and two concluded people’s tribunals already documented here, are set out on Who is watching the watchdogs? and in our independent-tribunals collection.",
+              "sources": [
+                {
+                  "id": "watchdogs-page",
+                  "locator": "the Gaza section and the forthcoming investigation"
+                },
+                {
+                  "id": "site-gaza",
+                  "locator": "the international Gaza Tribunal"
+                },
+                {
+                  "id": "site-gaza-uk",
+                  "locator": "the UK inquiry into British complicity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-common-question",
+      "title": "The common question",
+      "intro": "These matters are not equivalent. But they raise a common question about oversight.",
+      "entries": [
+        {
+          "id": "oversight-question",
+          "title": "Are the watchers equipped, independent and willing?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "When serious public-interest concerns repeatedly emerge, are the institutions responsible for oversight genuinely equipped, sufficiently independent and willing to investigate them? The Palantir appointment, Thames Water’s financial record and the export-licensing decisions are three different tests of that question. This statement does not answer it in advance. It insists that the question remains open even when the underlying controversies have become familiar.",
+              "sources": [
+                {
+                  "id": "tbij",
+                  "locator": "the reported Palantir appointment as one example"
+                },
+                {
+                  "id": "tw-page",
+                  "locator": "the Thames Water record as one example"
+                },
+                {
+                  "id": "gov-suspend",
+                  "locator": "the 2 September 2024 licensing decision as one example"
+                },
+                {
+                  "id": "watchdogs-page",
+                  "locator": "the same three matters, examined as questions"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-limits",
+      "title": "Questions, not findings",
+      "intro": "A statement of concern is not a conviction, and suspicion is not proof.",
+      "entries": [
+        {
+          "id": "no-presumption",
+          "title": "I do not presume criminal wrongdoing",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "I do not presume criminal wrongdoing. I do not confuse suspicion with proof. Nor do I accept that conduct must be criminal before it deserves public scrutiny. Conduct can be lawful and still raise a public-interest question about disclosure, conflicts, regulation or consistency with stated legal obligations.",
+              "sources": []
+            },
+            {
+              "text": "I am asking questions. I am seeking evidence. I am calling for accountability. And I refuse to accept that the repetition of something shocking makes it normal.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-method",
+      "title": "Investigating the question as well as the conduct",
+      "intro": "For Independent Tribunal, one further distinction is fundamental to its credibility.",
+      "entries": [
+        {
+          "id": "test-the-question",
+          "title": "The complainant’s assumptions must be tested too",
+          "kind": "Our editorial practice",
+          "paragraphs": [
+            {
+              "text": "The tribunal must be willing to investigate the complainant’s assumptions as rigorously as the conduct being questioned. That includes publishing exculpatory evidence, allowing meaningful responses from those criticised, and correcting findings when necessary. A page that only accumulates suspicion is not an investigation.",
+              "sources": [
+                {
+                  "id": "editorial",
+                  "locator": "our published editorial standards"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-we-are",
+      "title": "What this project is — and is not",
+      "intro": "The name “Independent Tribunal” describes an ambition of independence and of taking evidence seriously. It is not a claim of judicial power.",
+      "entries": [
+        {
+          "id": "not-a-court",
+          "title": "An independent public-interest research and accountability initiative",
+          "kind": "Our editorial practice",
+          "paragraphs": [
+            {
+              "text": "Unless it has recognised statutory authority, Independent Tribunal describes itself as an independent public-interest research and accountability initiative, not a court with coercive or judicial powers. We collect, organise and link to legislation, judgments, official publications and published reporting. Our authority, such as it is, rests on evidence and reasoning that readers can examine and challenge.",
+              "sources": [
+                {
+                  "id": "editorial",
+                  "locator": "how we describe the project and where our authority rests"
+                }
+              ]
+            },
+            {
+              "text": "Understanding is not endorsement. Investigation is not conviction. Accountability is not optional.",
+              "sources": [
+                {
+                  "id": "editorial",
+                  "locator": "the limits of what a finding on this site can be"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-line",
+      "title": "The line at the centre",
+      "intro": "The sentence this project puts at the centre of the work is a standard, not a slogan of despair.",
+      "entries": [
+        {
+          "id": "the-centre-line",
+          "title": "Shocking and appalling is not a standard of governance",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Shocking and appalling is not a standard of governance. And repetition does not constitute justification.",
+              "sources": []
+            },
+            {
+              "text": "IndependentTribunal.org",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tbij",
+      "title": "Exclusive: Ex-Met Police chief is paid adviser for Palantir",
+      "publisher": "The Bureau of Investigative Journalism",
+      "type": "Investigative reporting",
+      "url": "https://www.thebureauinvestigates.com/stories/2026-11-10/revealed-palantir-employing-cressida-dick-as-paid-adviser",
+      "date": "2026-11-10",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "nhs-england",
+      "title": "New NHS software to improve care for millions of patients",
+      "publisher": "NHS England",
+      "type": "Official announcement",
+      "url": "https://www.england.nhs.uk/2023/11/new-nhs-software-to-improve-care-for-millions-of-patients/",
+      "date": "2023-11-21",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "contracts-fdp",
+      "title": "Federated Data Platform and Associated Services",
+      "publisher": "Contracts Finder",
+      "type": "Official contract notice",
+      "url": "https://www.contractsfinder.service.gov.uk/Notice/0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+      "date": "2023-11-22",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "nflms",
+      "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+      "publisher": "Find a Tender (Police Digital Service)",
+      "type": "Official contract notice",
+      "url": "https://www.find-tender.service.gov.uk/Notice/051257-2026",
+      "date": "2026-06-01",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "publictech-bch",
+      "title": "Eastern police forces sign £10m Palantir deal to support safeguarding – as reports claim NHS extension planned",
+      "publisher": "PublicTechnology",
+      "type": "Published reporting",
+      "url": "https://www.publictechnology.net/2026/11/10/public-order-justice-and-rights/eastern-police-forces-sign-10m-palantir-deal-to-support-safeguarding-as-reports-claim-nhs-extension-planned/",
+      "date": "2026-11-10",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "acoba-gov",
+      "title": "Advisory Committee on Business Appointments",
+      "publisher": "GOV.UK",
+      "type": "Official process explanation",
+      "url": "https://www.gov.uk/government/organisations/advisory-committee-on-business-appointments",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "bars-crown",
+      "title": "Business Appointment Rules for Crown Servants",
+      "publisher": "GOV.UK",
+      "type": "Official guidance",
+      "url": "https://www.gov.uk/government/publications/business-appointment-rules-for-crown-servants/business-appointment-rules-for-crown-servants",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "watchdogs-page",
+      "title": "Who is watching the watchdogs?",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/research/who-is-watching-the-watchdogs/",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "tw-page",
+      "title": "Thames Water: a marvel of financial engineering",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/research/thames-water/",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "ar26",
+      "title": "Thames Water Utilities Limited Annual Report and Financial Statements 2025/26",
+      "publisher": "Thames Water",
+      "type": "Company accounts",
+      "url": "https://www.thameswater.co.uk/media-library/2tad3w44/annual-report-2025-26.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "twuf",
+      "title": "Thames Water Utilities Finance plc Annual Report 2025/26",
+      "publisher": "Thames Water",
+      "type": "Company accounts",
+      "url": "https://www.thameswater.co.uk/media-library/35cibnzp/twuf-annual-report-2025-26.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "nao",
+      "title": "Regulators have failed to deliver a trusted and resilient water sector",
+      "publisher": "National Audit Office",
+      "type": "Public audit body press release",
+      "url": "https://www.nao.org.uk/press-releases/regulators-have-failed-to-deliver-a-trusted-and-resilient-water-sector-nao/",
+      "date": "2025-04-25",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "gov-suspend",
+      "title": "UK suspends around 30 arms export licences to Israel for use in Gaza over International Humanitarian Law concerns",
+      "publisher": "GOV.UK (Foreign, Commonwealth & Development Office and Department for Business and Trade)",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/news/uk-suspends-around-30-arms-export-licences-to-israel-for-use-in-gaza-over-international-humanitarian-law-concerns",
+      "date": "2024-09-02",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "ihl-summary",
+      "title": "Summary of the IHL process, decision and the factors taken into account",
+      "publisher": "GOV.UK",
+      "type": "Government announcement",
+      "url": "https://www.gov.uk/government/publications/summary-of-the-international-humanitarian-law-ihl-process-decision-and-the-factors-taken-into-account/summary-of-the-ihl-process-decision-and-the-factors-taken-into-account",
+      "date": "2024-09-02",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "lammy",
+      "title": "UK policy on arms export licences to Israel: Foreign Secretary's statement",
+      "publisher": "GOV.UK (Foreign, Commonwealth & Development Office)",
+      "type": "Ministerial statement",
+      "url": "https://www.gov.uk/government/speeches/foreign-secretary-statement-on-uk-policy-on-arms-export-licenses-to-israel",
+      "date": "2024-09-02",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "nte-israel",
+      "title": "NTE 2024/20: suspension of licences for Israel",
+      "publisher": "GOV.UK (Export Control Joint Unit)",
+      "type": "Official guidance",
+      "url": "https://www.gov.uk/government/publications/notice-to-exporters-202420-suspension-of-licences-for-israel/nte-202420-suspension-of-licences-for-israel",
+      "date": "2024-09-02",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "site-gaza",
+      "title": "The Gaza Tribunal (international)",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/independent-tribunals/gaza-tribunal/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "site-gaza-uk",
+      "title": "The Gaza Tribunal: Inquiry into British Complicity",
+      "publisher": "Independent Tribunal",
+      "type": "Our research",
+      "url": "https://independenttribunal.org/independent-tribunals/gaza-tribunal-uk/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "editorial",
+      "title": "Editorial standards",
+      "publisher": "Independent Tribunal",
+      "type": "Our policy",
+      "url": "https://independenttribunal.org/legal/editorial-standards/",
+      "checked": "2026-11-13"
+    }
+  ],
+  "related": [
+    {
+      "id": "who-is-watching-the-watchdogs",
+      "title": "Who is watching the watchdogs?"
+    },
+    {
+      "id": "thames-water",
+      "title": "Thames Water: a marvel of financial engineering"
+    }
+  ]
+}
