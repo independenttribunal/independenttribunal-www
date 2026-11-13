@@ -29,6 +29,10 @@
   ],
   "related": [
     {
+      "id": "craig-wright-docket",
+      "title": "The Craig Wright docket"
+    },
+    {
       "id": "defences-withdrawn-from-jury",
       "title": "Defences removed by the judge, not considered by the jury"
     },
@@ -1267,6 +1271,31 @@
           ]
         },
         {
+          "id": "wright-civil-illustration",
+          "title": "A civil illustration, not a private prosecution",
+          "kind": "High Court judgments — civil proceedings",
+          "paragraphs": [
+            {
+              "text": "This page is about private prosecutions, which are criminal. A separate civil example of a court finding that its process had been used for fraud is COPA v Wright. At paragraph [926] of the identity judgment, Mr Justice Mellor wrote that Dr Craig Wright “engaged in the deliberate production of false documents to support false claims and use the Courts as a vehicle for fraud.” That is a finding in a civil case, not a criminal conviction, and it is not a private prosecution.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [926]"
+                }
+              ]
+            },
+            {
+              "text": "On 7 March 2025 the same judge granted a General Civil Restraint Order against Dr Wright for three years, until 7 March 2028. The order, the widest form of civil restraint, stops him issuing a claim or making an application in the High Court or a county court without a judge’s prior permission. The reasons are in the judgment of 12 May 2025. We keep that record on the Craig Wright docket. We include it here only as a contrast: it shows what a civil court can do when it finds its process has been abused. It is not a model for, or a finding about, private prosecutions.",
+              "sources": [
+                {
+                  "id": "gcro-1139",
+                  "locator": "paragraphs [1], [5], [97]"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "method",
           "title": "What was checked, and what was not",
           "kind": "Research method",
@@ -1564,6 +1593,22 @@
       "url": "https://www.postofficehorizoninquiry.org.uk/progress-update-sir-wyn-williams-0",
       "date": "2026-07-08",
       "checked": "2026-10-20"
+    },
+    {
+      "id": "copa-1198",
+      "title": "Crypto Open Patent Alliance v Wright [2024] EWHC 1198 (Ch)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2024/1198",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "gcro-1139",
+      "title": "Crypto Open Patent Alliance v Wright [2025] EWHC 1139 (Ch)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/1139",
+      "checked": "2026-11-13"
     }
   ]
 }

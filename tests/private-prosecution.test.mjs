@@ -21,6 +21,14 @@ test("private prosecution page separates current law from our proposal and the o
   assert.match(entries.get("illustrative-clause").kind, /not legislation/);
   assert.match(entries.get("dpp-takeover").paragraphs.map((x) => x.text).join(" "), /any stage/);
   assert.equal(entries.get("control-table").table.columns.length, 4);
+  assert.ok(p.related.some((r) => r.id === "craig-wright-docket"));
+  assert.match(entries.get("wright-civil-illustration").kind, /civil proceedings/);
+  const illustration = entries.get("wright-civil-illustration").paragraphs.map((x) => x.text).join(" ");
+  assert.match(illustration, /use the Courts as a vehicle for fraud/);
+  assert.match(illustration, /not a private prosecution/);
+  assert.match(illustration, /General Civil Restraint Order/);
+  const html = await read(`public/research/${id}/index.html`);
+  assert.ok(html.includes('href="/research/craig-wright-docket/"'));
 });
 
 test("the infographic matches the reviewed file and its corrected text", async () => {

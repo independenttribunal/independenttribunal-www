@@ -84,4 +84,10 @@ test("Craig Wright docket: court findings verified, fraud framing tied to the ju
   const { tiles } = await json("public/data/tiles.json");
   assert.equal(tiles.find((t) => t.id === id).kind, "study");
   assert.ok(p.related.some((r) => r.id === "calling-fraud-a-fraud"));
+  assert.ok(p.related.some((r) => r.id === "private-prosecution-staying-in-control"));
+  assert.ok(p.highlights.some((h) => h.target === "restraint-order"));
+  assert.match(text("restraint-order"), /General Civil Restraint Order/);
+  assert.match(text("restraint-order"), /until 7 March 2028/);
+  assert.match(text("restraint-order"), /The judge accepted those submissions/);
+  assert.doesNotMatch(text("restraint-order"), /The judge, drawing the threads together, said it was/);
 });
