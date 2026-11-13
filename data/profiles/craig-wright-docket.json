@@ -1,0 +1,1551 @@
+{
+  "id": "craig-wright-docket",
+  "category": "legal-study",
+  "title": "The Craig Wright docket",
+  "subtitle": "The court record on his claim to be Satoshi Nakamoto.",
+  "summary": "Every court that has examined Craig Steven Wright’s claim to be Satoshi Nakamoto, what each one found, and what followed. In COPA v Wright [2024] EWHC 1198 (Ch), Mr Justice Mellor declared as fact that Dr Wright is not the author of the Bitcoin white paper, did not operate the Satoshi pseudonym, did not create the Bitcoin system and did not write its original software. The judge found that he “lied to the Court extensively and repeatedly,” forged documents “on a grand scale,” and used the courts “as a vehicle for fraud.” Those are the court’s words, not this site’s allegation. A later judgment referred the papers to the Crown Prosecution Service. As of this review, no charging decision has been published. Dr Wright has not been charged with, or convicted of, a criminal offence of perjury or forgery. The word “fraud” on this page is tied to those court findings, and to an Oslo judgment that found ample factual basis for calling him a fraud in a defamation case. A $70 million feature film is not a finding of fact.",
+  "scope": "Civil and related proceedings in England and Wales, the United States, Norway and Australia, 2015 to 2026, in which Dr Wright’s Satoshi claim, or litigation built on it, was tested. The page also records a 2024 referral to the Crown Prosecution Service, a 2024 contempt sentence, a 2025 general civil restraint order, and reporting about a feature film. It is a court-record study, not a criminal charge sheet, and it is not legal advice.",
+  "status_note": "The main COPA judgments, the McCormack consequentials judgment, Wright v Ver, the 2025 restraint-order judgment and the Court of Appeal decisions cited were read from the official PDFs or Find Case Law on 12 November 2026. Key quotations from COPA v Wright [2024] EWHC 1198 (Ch) and [2024] EWHC 1809 (Ch) were checked against those official texts, including paragraphs [2], [5], [7], [63]–[64], [137], [915] and [926] of the May judgment and paragraph [199] of the July judgment. The Oslo wording is taken from contemporaneous English-language reporting, not from an official translation of the Norwegian judgment inspected here. The Kleiman sanctions language is taken from secondary accounts of the US order, not from the order PDF inspected in this review. The December 2024 contempt sentence and the November 2024 refusal of permission to appeal are taken from contemporaneous reporting; official sentencing remarks and the Court of Appeal determination were not inspected as official files in this review. No public CPS charging decision was identified as of 12 November 2026. This page was first published on Planetary Council and is maintained here. Dr Wright has not been charged with, or convicted of, a criminal offence of perjury or forgery. Nothing on this page says that he has.",
+  "jurisdiction": "England and Wales, with proceedings also in the United States, Norway and Australia",
+  "checked": "2026-11-12",
+  "tags": [
+    "craig-wright",
+    "bitcoin",
+    "satoshi-nakamoto",
+    "copa",
+    "high-court",
+    "forgery",
+    "contempt",
+    "defamation"
+  ],
+  "related": [
+    {
+      "id": "calling-fraud-a-fraud",
+      "title": "Calling fraud a fraud: defamation law for people who mean it"
+    }
+  ],
+  "evidence_image": {
+    "src": "/images/craig-wright-preview.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Editorial graphic. On the left, large type reads Craig Wright is a fraud, with the subtitle 11 court proceedings, 4 jurisdictions, and Everyone is Satoshi. Not Craig Wright. On the right, a stylised High Court of England and Wales document is stamped Not Satoshi over a silhouetted figure.",
+    "caption": "Editorial graphic first published as the social preview for this docket on Planetary Council. The headline “Craig Wright is a fraud” is the artwork’s wording, not a criminal conviction. In COPA v Wright [2024] EWHC 1198 (Ch), Mr Justice Mellor found that Dr Wright is not Satoshi Nakamoto, forged documents “on a grand scale,” and used the courts “as a vehicle for fraud.” The stamp on the depicted paper reads “Not Satoshi.” The graphic is illustrative commentary, not a court document."
+  },
+  "highlights": [
+    {
+      "label": "The High Court’s finding",
+      "value": "Not Satoshi",
+      "detail": "Four declarations, announced 14 March 2024 and set out in the written judgment of 20 May 2024",
+      "target": "declarations"
+    },
+    {
+      "label": "The judge’s words",
+      "value": "A vehicle for fraud",
+      "detail": "Mellor J, COPA v Wright [2024] EWHC 1198 (Ch), paragraph [926]",
+      "target": "vehicle-for-fraud"
+    },
+    {
+      "label": "Referral to the CPS",
+      "value": "16 July 2024",
+      "detail": "For consideration of perjury, forgery, an arrest warrant and extradition. No public charging decision was identified in this review",
+      "target": "cps-referral"
+    },
+    {
+      "label": "Contempt sentence",
+      "value": "12 months, suspended",
+      "detail": "Reported as suspended until 20 December 2026. Not a conviction for perjury",
+      "target": "contempt"
+    },
+    {
+      "label": "Courts that accepted he is Satoshi",
+      "value": "None found",
+      "detail": "England and Wales, the United States, Norway, and the Australian tax disputes recorded here",
+      "target": "the-pattern"
+    }
+  ],
+  "featured_source": "copa-1198",
+  "sections": [
+    {
+      "id": "finding",
+      "title": "What the High Court found",
+      "intro": "The identity trial in the High Court of England and Wales is the centre of this docket. The written judgment is public. The quotations that follow were checked against the official PDF.",
+      "entries": [
+        {
+          "id": "mellor-quote",
+          "title": "The opening of the written judgment",
+          "kind": "High Court judgment",
+          "date": "2024-05-20",
+          "citation": "COPA v Wright [2024] EWHC 1198 (Ch), Mellor J, paragraph [2], page 8",
+          "paragraphs": [
+            {
+              "text": "“I am entirely satisfied that Dr Wright lied to the Court extensively and repeatedly. Most of his lies related to the documents he had forged which purported to support his claim. All his lies and forged documents were in support of his biggest lie: his claim to be Satoshi Nakamoto.”",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [2], official PDF page 8"
+                },
+                {
+                  "id": "copa-1198-na",
+                  "locator": "paragraph [2]"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The same paragraph begins: “Thus, Dr Wright presents himself as an extremely clever person. However, in my judgment, he is not nearly as clever as he thinks he is.” The written judgment is dated 20 May 2024. The official PDF runs to 231 pages.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [2], official PDF page 8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "declarations",
+          "title": "Four declarations, announced as fact",
+          "kind": "High Court judgment",
+          "date": "2024-03-14",
+          "citation": "COPA v Wright [2024] EWHC 1198 (Ch), paragraph [7]",
+          "paragraphs": [
+            {
+              "text": "The identity trial was heard in February and March 2024. At the conclusion of closing submissions, on 14 March 2024, Mellor J announced the result of what he called the Identity Issue. He recorded that the evidence was “overwhelming,” and he made four declarations: Dr Wright is not the author of the Bitcoin White Paper; he is not the person who adopted or operated under the pseudonym Satoshi Nakamoto between 2008 and 2011; he is not the person who created the Bitcoin system; and he is not the author of the initial versions of the Bitcoin Software.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [7]; hearing dates on the judgment title page include 12th–14th March 2024"
+                },
+                {
+                  "id": "reuters-mar",
+                  "locator": "14 March 2024 report of the oral declarations"
+                },
+                {
+                  "id": "guardian-mar",
+                  "locator": "14 March 2024 report of the oral declarations"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vehicle-for-fraud",
+          "title": "Forged “on a grand scale,” and the courts “as a vehicle for fraud”",
+          "kind": "High Court judgment",
+          "date": "2024-05-20",
+          "paragraphs": [
+            {
+              "text": "At paragraph [5] the judge wrote that, to the extent evidence was said to support the claim, “at worst, it is fabricated and/or based on documents I am satisfied have been forged on a grand scale by Dr Wright.” At paragraph [137] he found: “Dr Wright proved to be an extremely slippery witness.” In the course of paragraph [915] he found Dr Wright “to be a thoroughly unreliable witness who has engaged in forgery on a grand scale and, in his attempts to sustain his case, has lied extensively.”",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraphs [5] (PDF page 8), [137] (PDF page 40), [915] (PDF page 225)"
+                }
+              ]
+            },
+            {
+              "text": "“Dr Wright’s attempts to prove he was/is Satoshi Nakamoto represent a most serious abuse of this Court’s process. … In all three jurisdictions, it is clear that Dr Wright engaged in the deliberate production of false documents to support false claims and use the Courts as a vehicle for fraud.”",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [926], official PDF page 227"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "Those are the words of the judge, not of this page’s author. This site does not add a criminal conviction that does not exist. The word “fraud” is used here because that is the word the High Court used for what it found he had done with the courts, and because, as recorded below, an Oslo court had already found ample factual basis for calling him a fraud in a defamation case.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [926]"
+                },
+                {
+                  "id": "coindesk-hodl",
+                  "locator": "Oslo District Court, as reported and translated, 20 October 2022"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "primary-documents",
+          "title": "The primary documents",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Do not take this page’s word for it. The May 2024 identity judgment is public, 231 pages, with a separate appendix of the documents the court treated as forgeries. A consequentials judgment of 16 July 2024, [2024] EWHC 1809 (Ch), deals with injunctions, a notice he was ordered to publish, and the referral to the Crown Prosecution Service at paragraphs [197] to [199]. Reasons for a three-year General Civil Restraint Order were handed down on 12 May 2025, [2025] EWHC 1139 (Ch). The May and July 2024 judgments are also on Find Case Law.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "231-page written judgment, 20 May 2024"
+                },
+                {
+                  "id": "copa-appx",
+                  "locator": "appendix of documents found to have been forged"
+                },
+                {
+                  "id": "copa-1809",
+                  "locator": "consequentials judgment, 16 July 2024, paragraphs [197]–[199]"
+                },
+                {
+                  "id": "copa-1809-na",
+                  "locator": "same judgment on Find Case Law"
+                },
+                {
+                  "id": "gcro-1139",
+                  "locator": "reasons, 12 May 2025, for the General Civil Restraint Order granted 7 March 2025"
+                },
+                {
+                  "id": "copa-1198-na",
+                  "locator": "May 2024 judgment on Find Case Law"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "as-reported",
+          "title": "As reported at the time",
+          "kind": "Contemporaneous court reporting",
+          "paragraphs": [
+            {
+              "text": "The oral declarations on 14 March 2024, the written judgment on 20 May 2024, and the 16 July 2024 referral to the CPS were reported by national and international news organisations on the day, including Reuters and the Guardian. The reporting is listed here so a reader can see how the findings were understood at the time; the official text remains the source of the findings themselves.",
+              "sources": [
+                {
+                  "id": "reuters-mar",
+                  "locator": "14 March 2024"
+                },
+                {
+                  "id": "guardian-mar",
+                  "locator": "14 March 2024"
+                },
+                {
+                  "id": "reuters-may",
+                  "locator": "20 May 2024"
+                },
+                {
+                  "id": "guardian-cps",
+                  "locator": "16 July 2024"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-followed",
+          "title": "What followed the identity judgment",
+          "kind": "High Court judgment and contemporaneous reporting",
+          "paragraphs": [
+            {
+              "text": "On 16 July 2024 Mellor J referred the papers to the Crown Prosecution Service. In November 2024 permission to appeal was refused, reported as “totally without merit,” with reporting that the grounds relied on fictitious authorities that appeared to be AI-generated; he was later reported to have been ordered to pay £225,000 towards the costs of resisting that application. In December 2024 he was reported to have been sentenced to twelve months’ imprisonment for contempt, suspended until 20 December 2026. On 7 March 2025 the court granted a three-year General Civil Restraint Order, with reasons on 12 May 2025. As of this review he has not spent a day in prison on these matters, and no criminal charge of perjury or forgery has been announced.",
+              "sources": [
+                {
+                  "id": "copa-1809",
+                  "locator": "paragraph [199]"
+                },
+                {
+                  "id": "protos-appeal",
+                  "locator": "refusal of permission, as reported"
+                },
+                {
+                  "id": "stevens-bolton",
+                  "locator": "costs of the failed appeal application, as reported"
+                },
+                {
+                  "id": "fortune-contempt",
+                  "locator": "suspended sentence, as reported 20 December 2024"
+                },
+                {
+                  "id": "forbes-contempt",
+                  "locator": "same sentence, as reported"
+                },
+                {
+                  "id": "gcro-1139",
+                  "locator": "GCRO granted 7 March 2025, reasons 12 May 2025"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "The exact words, page and paragraph",
+      "intro": "Bitcoin’s own rule is useful here: do not take anyone’s word for it. Each line gives a paragraph and a page in the official judgment so a reader can open the file and look.",
+      "entries": [
+        {
+          "id": "exact-words",
+          "title": "The exact words, page and paragraph",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Each quotation below gives the paragraph number the judge assigned and the printed page of the official judiciary.uk PDF, which was checked in this review. The May judgment is also on Find Case Law. Archive copies of the PDFs were linked from the original publication of this page; the official URLs are the ones to use first.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "official PDF of the May 2024 judgment"
+                },
+                {
+                  "id": "copa-1809",
+                  "locator": "official PDF of the July 2024 judgment"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Quotations from the COPA v Wright judgments, with paragraph number and official PDF page, as checked on 12 November 2026",
+            "columns": [
+              "Quotation",
+              "Where"
+            ],
+            "rows": [
+              [
+                "I am entirely satisfied that Dr Wright lied to the Court extensively and repeatedly. Most of his lies related to the documents he had forged which purported to support his claim. All his lies and forged documents were in support of his biggest lie: his claim to be Satoshi Nakamoto.",
+                "Paragraph [2], official PDF page 8, main judgment"
+              ],
+              [
+                "Dr Wright presents himself as an extremely clever person. However, in my judgment, he is not nearly as clever as he thinks he is.",
+                "Paragraph [2], official PDF page 8, main judgment"
+              ],
+              [
+                "…at worst, it is fabricated and/or based on documents I am satisfied have been forged on a grand scale by Dr Wright.",
+                "Paragraph [5], official PDF page 8, main judgment"
+              ],
+              [
+                "Dr Wright proved to be an extremely slippery witness.",
+                "Paragraph [137], official PDF page 40, main judgment"
+              ],
+              [
+                "I have found Dr Wright to be a thoroughly unreliable witness who has engaged in forgery on a grand scale and, in his attempts to sustain his case, has lied extensively.",
+                "Paragraph [915], official PDF page 225, main judgment"
+              ],
+              [
+                "Dr Wright’s attempts to prove he was/is Satoshi Nakamoto represent a most serious abuse of this Court’s process. … In all three jurisdictions, it is clear that Dr Wright engaged in the deliberate production of false documents to support false claims and use the Courts as a vehicle for fraud.",
+                "Paragraph [926], official PDF page 227, main judgment"
+              ],
+              [
+                "I have no doubt that I should refer the relevant papers in this case to the CPS for consideration of whether a prosecution should be commenced against Dr Wright for his wholescale perjury and forgery of documents and/or whether a warrant for his arrest should be issued and/or whether his extradition should be sought from wherever he now is.",
+                "Paragraph [199], official PDF page 52, consequentials judgment"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "docket",
+      "title": "The docket, chronological",
+      "intro": "Eleven proceedings, from an Australian tax dispute to a three-year restraint on bringing claims in England. Each entry records what was asserted, what was found, and how the matter ended.",
+      "entries": [
+        {
+          "id": "the-pattern",
+          "title": "Eleven proceedings, one pattern",
+          "kind": "Summary of the record",
+          "paragraphs": [
+            {
+              "text": "Between 2015 and 2025 the claim was tested in Australia, the United States, Norway and England. In every forum recorded here where his evidence was examined, it failed. Entries are numbered in the order the matters began, because later courts had the earlier record in front of them. Quotations are the judges’ own words, or, where the official text was not inspected in this review, the words as reported by the source cited.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "England, identity trial"
+                },
+                {
+                  "id": "coindesk-hodl",
+                  "locator": "Norway, as reported"
+                },
+                {
+                  "id": "wizsec-kleiman",
+                  "locator": "United States sanctions order, as reported"
+                },
+                {
+                  "id": "abc-raid",
+                  "locator": "Australia, ATO/AFP, as reported"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ato",
+          "title": "01 · Australian Taxation Office and Wright’s companies",
+          "kind": "News report of tax and search-warrant events",
+          "date": "2015-12-09",
+          "paragraphs": [
+            {
+              "text": "Wright’s companies lodged large GST refund and research-and-development tax-incentive claims built on bitcoin he said he had “injected” into the businesses, and on contracts whose reality was disputed. Contemporaneous reporting recorded that the ATO concluded the arrangements were entered into for the dominant purpose of obtaining tax benefits, that Hotwire collapsed into administration, and that a penalty in the region of A$1.7 million was assessed.",
+              "sources": [
+                {
+                  "id": "coindesk-tax",
+                  "locator": "10 December 2015 account of the tax disputes"
+                },
+                {
+                  "id": "abc-raid",
+                  "locator": "9 December 2015 report of the AFP search"
+                }
+              ]
+            },
+            {
+              "text": "On 9 December 2015, hours after Wired and Gizmodo named Wright as a possible Satoshi, the Australian Federal Police searched his Sydney home and office on an ATO warrant. ABC News quoted the AFP as saying the warrant was the tax office’s, and reported that the operation was “not believed to be related” to that morning’s Bitcoin reports. Wright later left Australia for the United Kingdom. The tax matters were civil and administrative. No criminal charge arising from the raid was announced in the reporting cited here.",
+              "sources": [
+                {
+                  "id": "abc-raid",
+                  "locator": "AFP statement as reported by ABC News, 9 December 2015"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kleiman",
+          "title": "02 · Kleiman v Wright",
+          "kind": "US court record, as reported",
+          "date": "2021-12-06",
+          "citation": "No. 9:18-cv-80176, US District Court, Southern District of Florida; affirmed 11th Cir., October 2023",
+          "paragraphs": [
+            {
+              "text": "The estate of Dave Kleiman sued for half of the roughly 1.1 million bitcoin Wright said he had mined as Satoshi. The defence relied on a “Tulip Trust” said to hold the coins. In August 2019, as reported from the sanctions order of Magistrate Judge Bruce Reinhart, the court found that Wright had given perjurious testimony and produced a fraudulent trust document, and rejected his account of the trust as one that “defies common sense and real-life experience.” The district judge later set aside the harshest sanction as too severe but, on the reporting cited here, let the finding of bad faith and a fee award stand. This review did not inspect the sanctions-order PDF itself.",
+              "sources": [
+                {
+                  "id": "wizsec-kleiman",
+                  "locator": "account of the 27 August 2019 sanctions order"
+                },
+                {
+                  "id": "courtlistener-kleiman",
+                  "locator": "docket, No. 9:18-cv-80176"
+                }
+              ]
+            },
+            {
+              "text": "In May 2020, 145 of the bitcoin addresses Wright had filed with the court as his own were reported to have signed a public message: “Craig Steven Wright is a liar and a fraud. He doesn't have the keys used to sign this message.” That is a blockchain message reported at the time, not a court finding.",
+              "sources": [
+                {
+                  "id": "decrypt-addresses",
+                  "locator": "25 May 2020"
+                }
+              ]
+            },
+            {
+              "text": "At trial in December 2021 the jury found no partnership and awarded the estate none of the bitcoin. It found Wright liable on a conversion count and ordered him to pay US$100 million to W&K Info Defense Research, later reported as about US$143 million with interest. The Eleventh Circuit affirmed in October 2023. Wright called the result a win.",
+              "sources": [
+                {
+                  "id": "coindesk-kleiman",
+                  "locator": "6 December 2021 verdict reporting"
+                },
+                {
+                  "id": "coindesk-11th",
+                  "locator": "October 2023 appeal reporting"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ver",
+          "title": "03 · Wright v Ver",
+          "kind": "High Court and Court of Appeal judgments",
+          "date": "2019-07-31",
+          "citation": "[2019] EWHC 2094 (QB), Nicklin J; appeal dismissed [2020] EWCA Civ 672",
+          "paragraphs": [
+            {
+              "text": "Wright sued Bitcoin.com founder Roger Ver in London for calling him a fraud and a liar. The High Court held that England was not clearly the most appropriate place to sue a Japan-resident defendant over statements aimed at a global audience, and dismissed the claim. The Court of Appeal refused to disturb that in May 2020. Contemporaneous reporting said he was ordered to pay about £60,000 in Ver’s costs. This was the first of three English libel actions against critics (Ver, Granath, McCormack); none produced a finding on the merits in his favour.",
+              "sources": [
+                {
+                  "id": "ver-2094",
+                  "locator": "Nicklin J, 31 July 2019"
+                },
+                {
+                  "id": "ver-672",
+                  "locator": "Court of Appeal, 2020"
+                },
+                {
+                  "id": "coindesk-ver",
+                  "locator": "costs, as reported"
+                }
+              ]
+            },
+            {
+              "text": "“The Claimant has not satisfied me that England and Wales is clearly the most appropriate place to bring his action for defamation over the publications complained of. In consequence, the Court has no jurisdiction to hear and determine the action.”",
+              "sources": [
+                {
+                  "id": "ver-2094",
+                  "locator": "paragraph [55]"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "granath",
+          "title": "04 · Granath v Wright · Wright v Granath",
+          "kind": "Oslo District Court judgment, as translated in reporting",
+          "date": "2022-10-20",
+          "citation": "Oslo tingrett, 20 October 2022, Engebrigtsen J; English wording as reported by CoinDesk",
+          "paragraphs": [
+            {
+              "text": "Wright threatened to sue Magnus Granath, the pseudonymous “Hodlonaut,” for tweets calling him a “fraud” and a “scammer.” Granath sued first in Norway for a declaration that the tweets were lawful. Wright also sued in London. After a two-week trial, CoinDesk reported that the Oslo District Court found Granath had “ample factual basis to claim that Wright had lied and cheated in his attempt to prove that he is Satoshi Nakamoto,” citing among other things documents in typefaces that did not exist in 2008. This review did not inspect an official English translation of the Norwegian judgment; the wording is the contemporaneous English report.",
+              "sources": [
+                {
+                  "id": "coindesk-hodl",
+                  "locator": "20 October 2022, including the translated passage"
+                }
+              ]
+            },
+            {
+              "text": "Wright was reported to have been ordered to pay Granath’s costs of NOK 4,053,750 (about US$383,000 at the time). He appealed, then abandoned the appeal in April 2024, one month after the English High Court’s declarations.",
+              "sources": [
+                {
+                  "id": "coindesk-hodl",
+                  "locator": "costs, as reported"
+                },
+                {
+                  "id": "coindesk-hodl2",
+                  "locator": "appeal dropped, 11 April 2024"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mccormack",
+          "title": "05 · Wright v McCormack",
+          "kind": "High Court judgment",
+          "date": "2022-12-21",
+          "citation": "[2022] EWHC 2068 (QB) and [2022] EWHC 3343 (KB), Chamberlain J",
+          "paragraphs": [
+            {
+              "text": "Wright sued podcaster Peter McCormack for tweets and a video calling him a fraud. To prove serious harm, Wright said he had been disinvited from academic conferences because of the tweets. That account collapsed shortly before trial. Because McCormack had dropped his truth defence for lack of funds, the publications were technically defamatory. Damages were £1. Wright was ordered to pay McCormack’s costs on the indemnity basis, and refused permission to appeal. In July 2024 McCormack obtained a worldwide freezing order over Wright’s assets to secure those costs.",
+              "sources": [
+                {
+                  "id": "mccormack-3343",
+                  "locator": "consequentials judgment, 21 December 2022"
+                },
+                {
+                  "id": "mccormack-3343-na",
+                  "locator": "same judgment on Find Case Law"
+                },
+                {
+                  "id": "coindesk-mcc",
+                  "locator": "1 August 2022 report of the liability findings"
+                },
+                {
+                  "id": "mccormack-wfo",
+                  "locator": "freezing order, 5 July 2024"
+                }
+              ]
+            },
+            {
+              "text": "“By that time, Dr Wright had been shown in a public judgment to have advanced a deliberately false case on an essential part of his claim and to have given deliberately false evidence on oath about it.”",
+              "sources": [
+                {
+                  "id": "mccormack-3343",
+                  "locator": "paragraph [48], 21 December 2022, referring back to the August 2022 findings"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "cobra",
+          "title": "06 · Wright v Cøbra (Bitcoin.org)",
+          "kind": "Solicitors' announcement of a default judgment",
+          "date": "2021-06-29",
+          "paragraphs": [
+            {
+              "text": "Wright claimed copyright in the Bitcoin white paper as its author, and sued the pseudonymous operator of bitcoin.org for hosting it. Cøbra did not file an acknowledgment of service or a defence, so judgment was entered by default. No court examined on the merits whether Wright wrote the paper. Bitcoin.org was ordered to remove the white paper for UK visitors and to pay costs, reported at about £35,000. It is the only “win” in this docket, and it was won against an empty chair. The 2024 declaration that Wright is not the author of the white paper removes its premise.",
+              "sources": [
+                {
+                  "id": "ontier",
+                  "locator": "ONTIER LLP statement, 29 June 2021, recording the default"
+                },
+                {
+                  "id": "protos-cobra",
+                  "locator": "default judgment and costs, as reported"
+                },
+                {
+                  "id": "copa-1198",
+                  "locator": "declaration that Dr Wright is not the author of the White Paper, paragraph [7]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tulip-trading",
+          "title": "07 · Tulip Trading Ltd v Bitcoin Association and developers",
+          "kind": "Court of Appeal judgment and later reporting",
+          "date": "2024-04-01",
+          "citation": "[2022] EWHC 667 (Ch); [2023] EWCA Civ 83; discontinued April 2024",
+          "paragraphs": [
+            {
+              "text": "Through a Seychelles company, Wright claimed to own about 111,000 bitcoin in two addresses whose keys he said were stolen in a hack, and sued developers of Bitcoin-derived networks to force them to rewrite the software and hand the coins back. One address, 1Feex, has been traced by blockchain forensics to the March 2011 theft from Mt. Gox. Falk J held in 2022 that there was no serious issue to be tried on the alleged duty and set aside service. The Court of Appeal allowed the claim to proceed to trial on the law in 2023. The case never reached a finding on who owned the coins, because the identity claim was decided first.",
+              "sources": [
+                {
+                  "id": "tulip-ewca",
+                  "locator": "[2023] EWCA Civ 83"
+                },
+                {
+                  "id": "wizsec-mtgox",
+                  "locator": "forensic account of the 1Feex coins and the March 2011 theft"
+                },
+                {
+                  "id": "karpeles",
+                  "locator": "Mark Karpelès, 12 June 2020, questioning the claimed ownership of 1Feex"
+                }
+              ]
+            },
+            {
+              "text": "Tulip Trading discontinued the case in April 2024, weeks after the COPA declarations, and became liable for the developers’ costs. Mt. Gox’s former CEO has said publicly that the 1Feex coins were taken in the March 2011 theft. Wright says he bought them. The discontinued claim is not a finding either way on ownership.",
+              "sources": [
+                {
+                  "id": "decrypt-tulip",
+                  "locator": "discontinuance, April 2024"
+                },
+                {
+                  "id": "karpeles",
+                  "locator": "public statement on 1Feex"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "copa",
+          "title": "08 · Crypto Open Patent Alliance v Wright",
+          "kind": "High Court judgment",
+          "date": "2024-05-20",
+          "citation": "[2024] EWHC 1198 (Ch); consequentials [2024] EWHC 1809 (Ch)",
+          "paragraphs": [
+            {
+              "text": "Wright maintained he was Satoshi Nakamoto and produced hundreds of documents as proof. After a six-week trial with forensic experts on both sides, Mellor J made the four declarations set out above. The judgment and its appendix catalogue the forgeries, including documents in fonts that did not exist on their claimed dates, and files whose artefacts did not match the dates they were said to bear.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraphs [5], [7] and the body of the judgment"
+                },
+                {
+                  "id": "copa-appx",
+                  "locator": "appendix"
+                }
+              ]
+            },
+            {
+              "text": "The July 2024 consequentials judgment dealt with injunctions barring him from asserting he is Satoshi or threatening litigation on that basis, a notice of the findings he was ordered to publish, costs of the identity trial, and the referral to the CPS. His witness Stefan Matthews was referred separately, for consideration of perjury only, at paragraph [201]. A worldwide freezing order over assets, and an interim payment on costs, were also part of the post-judgment orders as described in the official and contemporaneous sources cited here.",
+              "sources": [
+                {
+                  "id": "copa-1809",
+                  "locator": "paragraphs [199] and [201], and the consequentials generally"
+                },
+                {
+                  "id": "freshfields",
+                  "locator": "contemporaneous note of the findings and orders"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "appeal",
+          "title": "09 · Application to appeal the COPA identity judgment",
+          "kind": "Legal news report of a Court of Appeal determination",
+          "date": "2024-11-29",
+          "paragraphs": [
+            {
+              "text": "Wright, by then representing himself, sought permission to appeal the identity judgment and was reported as saying he would take the matter to the Supreme Court. Contemporaneous legal reporting recorded that Arnold LJ refused permission as “totally without merit,” that there was no route to the Supreme Court from that refusal, and that the grounds and skeleton argument contained “multiple falsehoods, including reliance upon fictitious authorities” that “appear to be AI-generated hallucinations.” In March 2025 he was reported to have been ordered to pay £225,000 towards his opponents’ costs of resisting the application, on the indemnity basis, for improper use of AI. This review did not inspect the official Court of Appeal determination.",
+              "sources": [
+                {
+                  "id": "protos-appeal",
+                  "locator": "refusal of permission, as reported"
+                },
+                {
+                  "id": "stevens-bolton",
+                  "locator": "costs order, as reported; also records the AI point"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contempt",
+          "title": "10 · COPA v Wright: committal for contempt",
+          "kind": "Contemporaneous court reporting",
+          "date": "2024-12-19",
+          "paragraphs": [
+            {
+              "text": "Three months after being enjoined from litigating his Satoshi claim, Wright was reported to have filed a new claim against a “BTC Core” partnership and Square Up Europe seeking £911 billion in damages. Contemporaneous reporting of the December 2024 committal recorded that the court found contempt proved to the criminal standard, that the new claim was a flagrant breach of the July 2024 injunctions, that he did not attend the liability hearing, and that he joined the sentencing by video from a location he would describe only as “Asia.” He was reported to have been sentenced to twelve months’ imprisonment, suspended until 20 December 2026, plus costs reported at £145,000. Any further breach before then can activate the sentence. Because he is abroad, activating it would require his return or extradition. Official sentencing remarks were not inspected in this review. A contempt finding is not a conviction for perjury or forgery.",
+              "sources": [
+                {
+                  "id": "fortune-contempt",
+                  "locator": "20 December 2024"
+                },
+                {
+                  "id": "forbes-contempt",
+                  "locator": "20 December 2024"
+                },
+                {
+                  "id": "copa-1809",
+                  "locator": "the July 2024 injunctions and referral, against which the later claim was reported to have been brought"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "restraint-order",
+          "title": "11 · General Civil Restraint Order",
+          "kind": "High Court judgment",
+          "date": "2025-05-12",
+          "citation": "[2025] EWHC 1139 (Ch), granted 7 March 2025, reasons 12 May 2025",
+          "paragraphs": [
+            {
+              "text": "Mellor J granted a General Civil Restraint Order, the widest form available, for three years, until 7 March 2028: no claim or application in an English county court or the High Court without a judge’s prior permission. He also referred the conduct to the Attorney General to consider a civil proceedings order, which could go further. He recorded that Dr Wright “has shown no remorse, and his conduct over recent months demonstrates continuing and brazen abuse of the Court’s process,” and that “Dr Wright has repeatedly returned to litigation as a means to terrorise perceived opponents.”",
+              "sources": [
+                {
+                  "id": "gcro-1139",
+                  "locator": "paragraphs [1], [83]–[84], [97]–[100]"
+                }
+              ]
+            },
+            {
+              "text": "On costs and court time, the applicants submitted that legal costs recovered by his opponents “may be conservatively estimated at £10 million,” and calculated that court days in this jurisdiction were approaching 100. The judge, drawing the threads together, said it was “difficult to find a precedent in the reported cases” of an abusive campaign on this scale, that Dr Wright’s conduct “stands apart when one considers its scale and effects on innocent victims and the court service,” and that his actions had “taken up far too much court time and resources already.”",
+              "sources": [
+                {
+                  "id": "gcro-1139",
+                  "locator": "paragraphs [80], [91], [95]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "title": "The judges, in their words",
+      "intro": "A short list of the findings already sourced above, so the pattern can be read in one place.",
+      "entries": [
+        {
+          "id": "judges-words",
+          "title": "Four judges, three countries, one conclusion",
+          "kind": "Summary of judgments",
+          "paragraphs": [
+            {
+              "text": "“Dr Wright lied to the Court extensively and repeatedly.” Mellor J, High Court of England and Wales, 2024.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [2]"
+                }
+              ]
+            },
+            {
+              "text": "“Forged on a grand scale.” Mellor J, on the documents produced as proof, 2024.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [5]"
+                }
+              ]
+            },
+            {
+              "text": "“Advanced a deliberately false case and … given deliberately false evidence on oath about it.” Chamberlain J, Wright v McCormack, 2022.",
+              "sources": [
+                {
+                  "id": "mccormack-3343",
+                  "locator": "paragraph [48]"
+                }
+              ]
+            },
+            {
+              "text": "“Ample factual basis to claim that Wright had lied and cheated.” Engebrigtsen J, Oslo District Court, 2022, as translated in contemporaneous reporting.",
+              "sources": [
+                {
+                  "id": "coindesk-hodl",
+                  "locator": "English-language report of the Oslo judgment"
+                }
+              ]
+            },
+            {
+              "text": "“Defies common sense and real-life experience.” Reinhart MJ, US District Court, Southern District of Florida, 2019, as reported from the sanctions order.",
+              "sources": [
+                {
+                  "id": "wizsec-kleiman",
+                  "locator": "account of the 27 August 2019 order"
+                }
+              ]
+            },
+            {
+              "text": "“Litigation as a means to terrorise perceived opponents.” Mellor J, General Civil Restraint Order reasons, 2025.",
+              "sources": [
+                {
+                  "id": "gcro-1139",
+                  "locator": "paragraph [84]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "title": "Why isn’t Craig Wright in jail?",
+      "intro": "A genuine question, not a claim that a criminal court has already answered it. The civil findings are real. A criminal conviction for perjury or forgery is not.",
+      "entries": [
+        {
+          "id": "civil-v-criminal",
+          "title": "The judge cannot jail him for perjury",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Every finding in the identity trial was made in a civil case. A civil judge can strip a liar of damages, order costs, freeze assets, and declare facts. He cannot convict a person of perjury. That is a separate criminal prosecution, which only the state can bring, to the criminal standard, before a different court. The referral described next is a request that the prosecuting authority consider that step. It is not a charge, and it is not a conviction.",
+              "sources": [
+                {
+                  "id": "copa-1809",
+                  "locator": "paragraph [199]: referral for consideration, “All those matters are to be decided by the CPS.”"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cps-referral",
+          "title": "The referral sits with prosecutors",
+          "kind": "High Court judgment",
+          "date": "2024-07-16",
+          "citation": "COPA v Wright [2024] EWHC 1809 (Ch), paragraph [199]",
+          "paragraphs": [
+            {
+              "text": "“I have no doubt that I should refer the relevant papers in this case to the CPS for consideration of whether a prosecution should be commenced against Dr Wright for his wholescale perjury and forgery of documents and/or whether a warrant for his arrest should be issued and/or whether his extradition should be sought from wherever he now is. All those matters are to be decided by the CPS.”",
+              "sources": [
+                {
+                  "id": "copa-1809",
+                  "locator": "paragraph [199], official PDF page 52"
+                },
+                {
+                  "id": "copa-1809-na",
+                  "locator": "same paragraph on Find Case Law"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "As of this review, more than two years later, no charging decision has been identified in public. The absence of a published decision is not itself a CPS statement, and the CPS does not usually comment on live referrals. Perjury prosecutions arising from civil trials are uncommon in England, and this one would involve a long forensic record and a defendant who, on the later contempt reporting, was abroad.",
+              "sources": [
+                {
+                  "id": "copa-1809",
+                  "locator": "paragraph [199]"
+                },
+                {
+                  "id": "guardian-cps",
+                  "locator": "contemporaneous report of the referral"
+                },
+                {
+                  "id": "fortune-contempt",
+                  "locator": "later reporting that he appeared from “Asia”"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "suspended-sentence",
+          "title": "The one sentence reported so far was suspended",
+          "kind": "Contemporaneous court reporting",
+          "date": "2024-12-19",
+          "paragraphs": [
+            {
+              "text": "Contempt is the only quasi-criminal finding in this docket so far, and, on the reporting cited above, the court imposed a twelve-month sentence suspended for two years rather than immediate custody. On that reporting, he goes to prison only if he breaches again before December 2026, and only if he is within reach of the court.",
+              "sources": [
+                {
+                  "id": "fortune-contempt",
+                  "locator": "suspended until 20 December 2026, as reported"
+                },
+                {
+                  "id": "forbes-contempt",
+                  "locator": "same sentence, as reported"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "not-in-the-country",
+          "title": "He is not in the country",
+          "kind": "Contemporaneous court reporting",
+          "paragraphs": [
+            {
+              "text": "Reporting of the contempt proceedings recorded that Wright had left England during 2024 and appeared by video from a location he refused to identify beyond “Asia.” A suspended sentence, an arrest warrant or a perjury charge is only enforceable against a person who can be found and brought before the court. Extradition requires an identified country, a treaty, and a decision to use it.",
+              "sources": [
+                {
+                  "id": "fortune-contempt",
+                  "locator": "appearance by video from “Asia,” as reported"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "why-guess",
+          "title": "A commentary, not a finding, about why the file still sits",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "The civil judgments in this docket were paid for privately. The state has announced no prosecution. A perjury case would mean a criminal team mastering a long forensic record, locating a defendant abroad, and, if needed, an extradition. That is a genuine institutional difficulty, not a finding that anyone has decided to protect him. The industry that funded the civil litigation has already obtained what a civil court can give: declarations, injunctions, and a restraint on further claims. The criminal file, if it is still a file, sits with the CPS. That is a description of the gap, and a question, not an accusation against prosecutors.",
+              "sources": [
+                {
+                  "id": "copa-1809",
+                  "locator": "the referral, and that the CPS decides"
+                },
+                {
+                  "id": "gcro-1139",
+                  "locator": "the scale of the civil litigation and the costs described to the court"
+                },
+                {
+                  "id": "freshfields",
+                  "locator": "note of the civil remedies obtained"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "act",
+      "title": "Asking the CPS",
+      "intro": "How a member of the public can ask, accurately, what has happened to a judicial referral. Charging remains a matter for the Crown Prosecution Service.",
+      "entries": [
+        {
+          "id": "ask-the-cps",
+          "title": "Ask the CPS where the referral got to",
+          "kind": "Official process explanation",
+          "paragraphs": [
+            {
+              "text": "A High Court judge sent this case to the Crown Prosecution Service on 16 July 2024 and said he had “no doubt” it should be considered for prosecution of perjury and forgery, an arrest warrant, and extradition. Charging is the CPS’s decision alone and is not taken by public vote. The CPS is a public body. How long a judicial referral sits is a fair question for the public to ask. The CPS contact portal is the proper front door. Freedom of information requests can be filed through WhatDoTheyKnow; an MP can be written to through WriteToThem. Cite the referral accurately: Crypto Open Patent Alliance v Wright [2024] EWHC 1809 (Ch), Mellor J, 16 July 2024, paragraph [199], and the underlying findings in [2024] EWHC 1198 (Ch).",
+              "sources": [
+                {
+                  "id": "copa-1809",
+                  "locator": "paragraph [199]"
+                },
+                {
+                  "id": "cps-contact",
+                  "locator": "CPS contact portal"
+                },
+                {
+                  "id": "wdtk",
+                  "locator": "Freedom of Information requests, published"
+                },
+                {
+                  "id": "writetothem",
+                  "locator": "writing to an MP"
+                }
+              ]
+            },
+            {
+              "text": "Be accurate: it is the strongest thing on the record. Wright has not been charged with or convicted of perjury, and is entitled to be treated as innocent of any criminal offence unless that changes. What is established is different, and enough: findings of forgery and lying made by a civil court, and, on the reporting cited above, a contempt of court proved to the criminal standard. Ask for a decision on the referral. Do not assert a conviction that does not exist. Do not send anything to the individuals named on this page.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "civil findings"
+                },
+                {
+                  "id": "copa-1809",
+                  "locator": "referral, not a charge"
+                },
+                {
+                  "id": "fortune-contempt",
+                  "locator": "contempt, as reported"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "red-carpet",
+          "title": "A proposal about timing, not a finding",
+          "kind": "Our proposal — not legal advice",
+          "paragraphs": [
+            {
+              "text": "The original publication of this page proposed that, if the CPS takes a charging decision and if a court then issues a warrant, there is a public-interest argument for the timing of any arrest to meet a public premiere of the film described below, because that is an occasion on which the subject of a warrant might announce in advance where he intends to be. That is a proposal about timing and publicity, offered as commentary. It is not a court order, not a CPS decision, and not a prediction. The warrant, if any, is for the CPS and the court. The film, as recorded below, had no announced premiere date in the September 2026 reporting, and this review found none later.",
+              "sources": [
+                {
+                  "id": "copa-1809",
+                  "locator": "paragraph [199], the judge’s list of what the CPS should consider"
+                },
+                {
+                  "id": "bitcoincom-film",
+                  "locator": "September 2026 film reporting; no release date on that account"
+                },
+                {
+                  "id": "pc-original",
+                  "locator": "the proposal as first published"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "title": "The $70 million film",
+      "intro": "A feature film is not a finding of fact. Production and reporting are recorded separately from the court record, with the caveats the sources themselves require.",
+      "entries": [
+        {
+          "id": "the-film",
+          "title": "A $70 million film is not a finding of fact",
+          "kind": "Film reporting and High Court judgment",
+          "paragraphs": [
+            {
+              "text": "A feature titled Bitcoin, originally announced as Killing Satoshi, has been reported as having completed production, directed by Doug Liman, with Casey Affleck as Craig Wright and Pete Davidson as Calvin Ayre. Reporting in 2026 described it as a large-budget, heavily AI-assisted production shot in the United Kingdom. As of the September 2026 accounts cited here, no release date and no major domestic distributor had been announced. This review on 12 November 2026 did not find an official premiere date.",
+              "sources": [
+                {
+                  "id": "deadline-film",
+                  "locator": "cast and production, April 2026"
+                },
+                {
+                  "id": "thewrap-film",
+                  "locator": "budget and production method, as reported"
+                },
+                {
+                  "id": "bitcoincom-film",
+                  "locator": "3 September 2026; second-hand accounts of how the film presents Wright"
+                }
+              ]
+            },
+            {
+              "text": "The High Court described Mr Ayre as the “financial muscle” said to be behind nChain, the company Wright had been associated with, and a public supporter of his Satoshi claim. The same judgment records that in September 2023, after a mock trial, Ayre emailed Wright making clear that he now believed Wright had forged documents and should confess (paragraphs [63] and [64]). Ayre later acknowledged that the email was his.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraphs [63]–[64]"
+                }
+              ]
+            },
+            {
+              "text": "Crypto-press reports on 3 September 2026, relaying second-hand accounts, said the film presents Wright as Satoshi. The filmmakers have not, in the sources cited here, said how the finished film treats the court record. That reporting is not a finding about the film’s contents. A screenplay is not evidence, a studio is not a court, and a budget is not a signature. The only English forum that has examined the actual documents ruled that they were forged.",
+              "sources": [
+                {
+                  "id": "bitcoincom-film",
+                  "locator": "second-hand accounts, as the original page already cautioned"
+                },
+                {
+                  "id": "copa-1198",
+                  "locator": "the identity findings"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "satoshi",
+      "title": "Commentary",
+      "intro": "The author’s reading of the record, labelled as commentary. It does not add findings to the judgments above.",
+      "entries": [
+        {
+          "id": "what-satoshi-would-do",
+          "title": "This is what Satoshi would do",
+          "kind": "Our commentary",
+          "paragraphs": [
+            {
+              "text": "This section is commentary. The court record is above. Satoshi Nakamoto published a paper under a pseudonym, released code, answered questions for a time, and then disappeared. Wright did the opposite on the public record that exists: a coordinated media reveal in 2016, a “proof” that was immediately disputed, and years of litigation instead of the one act that would have ended the argument — a signature from the early keys. In May 2016, after claiming to be the creator of Bitcoin, he was reported as saying he could not offer the proof he had promised.",
+              "sources": [
+                {
+                  "id": "bbc-claim",
+                  "locator": "May 2016 claim"
+                },
+                {
+                  "id": "forbes-proof",
+                  "locator": "5 May 2016, no proof offered"
+                }
+              ]
+            },
+            {
+              "text": "The courts eventually described what they found in the language available to them: forgery, false evidence, abuse of process, contempt. In May 2020, as recorded above, 145 of the addresses he had put forward were reported to have signed a message calling him a liar and a fraud. That message is part of the public record of the claim; it is not, by itself, a judgment.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "forgery and abuse of process"
+                },
+                {
+                  "id": "mccormack-3343",
+                  "locator": "deliberately false evidence"
+                },
+                {
+                  "id": "fortune-contempt",
+                  "locator": "contempt, as reported"
+                },
+                {
+                  "id": "decrypt-addresses",
+                  "locator": "May 2020 signed message, as reported"
+                }
+              ]
+            },
+            {
+              "text": "Let us be precise about the word, because he has sued people over it. This page is not independently declaring a criminal offence of fraud. It is recording that Mellor J found he had used the courts “as a vehicle for fraud,” and that the Oslo court, as reported, found ample factual basis for calling him a fraud. Those are the findings the record actually contains. Type the court’s words into the judgments linked above and read them in place.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [926]"
+                },
+                {
+                  "id": "coindesk-hodl",
+                  "locator": "Oslo wording, as reported"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "About this page",
+      "intro": "Where the page came from, what was checked for this review, and what was not.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Method and provenance",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "This page was first published on Planetary Council, at the URL in the source register, and is now maintained on Independent Tribunal so that a court-record study sits with the rest of this site’s legal research. The original filename used the word “fraud.” The title and the body of the page, then and now, treat that word as the High Court’s (and, in Norway, as reported, a defamation court’s), not as a criminal conviction. The preview graphic came across with the page and is captioned as artwork.",
+              "sources": []
+            },
+            {
+              "text": "Quotations from COPA v Wright [2024] EWHC 1198 (Ch) and [2024] EWHC 1809 (Ch), from Wright v McCormack [2022] EWHC 3343 (KB), from Wright v Ver, and from the 2025 restraint-order judgment were checked against official texts in this review. Where this page relies on reporting rather than an official file, that is stated in the entry. Corrections grounded in the public record are welcome. Nothing here is legal advice.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Limits",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "This review did not inspect official files for the Oslo judgment, the Kleiman sanctions order, the Court of Appeal’s refusal of permission in the COPA identity appeal, or the December 2024 contempt sentencing remarks. Those passages are attributed to the reporting or commentary cited. No public CPS charging decision was found as of 12 November 2026; that is not the same as a CPS statement that the referral is still live, or that it has been dropped. The film’s finished content has not been inspected.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "copa-1198",
+      "title": "Crypto Open Patent Alliance v Wright [2024] EWHC 1198 (Ch)",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Judgment (High Court)",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2024/05/COPA-v-Wright-Judgment.pdf",
+      "checked": "2026-11-12",
+      "date": "2024-05-20"
+    },
+    {
+      "id": "copa-1198-na",
+      "title": "Crypto Open Patent Alliance v Wright [2024] EWHC 1198 (Ch)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2024/1198",
+      "checked": "2026-11-12",
+      "date": "2024-05-20"
+    },
+    {
+      "id": "reuters-mar",
+      "title": "Self-proclaimed bitcoin inventor did not invent bitcoin, UK judge rules",
+      "publisher": "Reuters",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.reuters.com/world/uk/self-proclaimed-bitcoin-inventor-did-not-invent-bitcoin-uk-judge-rules-2024-03-14/",
+      "checked": "2026-11-12",
+      "date": "2024-03-14"
+    },
+    {
+      "id": "guardian-mar",
+      "title": "Australian Craig Wright is not bitcoin creator Satoshi Nakamoto, high court rules",
+      "publisher": "The Guardian",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.theguardian.com/technology/2024/mar/14/australian-craig-wright-not-bitcoin-creator-satoshi-nakamoto-high-court-rules",
+      "checked": "2026-11-12",
+      "date": "2024-03-14"
+    },
+    {
+      "id": "coindesk-hodl",
+      "title": "Hodlonaut wins Norwegian lawsuit against self-styled Satoshi Craig Wright",
+      "publisher": "CoinDesk",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.coindesk.com/policy/2022/10/20/hodlonaut-wins-norwegian-lawsuit-against-self-styled-satoshi-craig-wright",
+      "checked": "2026-11-12",
+      "date": "2022-10-20"
+    },
+    {
+      "id": "copa-appx",
+      "title": "COPA v Wright, appendix to the judgment: the forged documents",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Judgment appendix (High Court)",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2024/05/COPAv-Wright-Judgment-Appendix.pdf",
+      "checked": "2026-11-12",
+      "date": "2024-05-20"
+    },
+    {
+      "id": "copa-1809",
+      "title": "Crypto Open Patent Alliance v Wright [2024] EWHC 1809 (Ch)",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Judgment (High Court)",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2024/07/COPA-v-Wright-Judgment.pdf",
+      "checked": "2026-11-12",
+      "date": "2024-07-16"
+    },
+    {
+      "id": "copa-1809-na",
+      "title": "Crypto Open Patent Alliance v Wright [2024] EWHC 1809 (Ch)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2024/1809",
+      "checked": "2026-11-12",
+      "date": "2024-07-16"
+    },
+    {
+      "id": "gcro-1139",
+      "title": "Crypto Open Patent Alliance v Wright [2025] EWHC 1139 (Ch)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/1139",
+      "checked": "2026-11-12",
+      "date": "2025-05-12"
+    },
+    {
+      "id": "reuters-may",
+      "title": "Self-proclaimed bitcoin inventor lied repeatedly to support claim, says UK judge",
+      "publisher": "Reuters",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.reuters.com/technology/self-proclaimed-bitcoin-inventor-lied-repeatedly-support-claim-says-uk-judge-2024-05-20/",
+      "checked": "2026-11-12",
+      "date": "2024-05-20"
+    },
+    {
+      "id": "guardian-cps",
+      "title": "Case of man who falsely claimed to be bitcoin inventor referred to CPS",
+      "publisher": "The Guardian",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.theguardian.com/technology/article/2024/jul/16/case-of-man-craig-wright-who-falsely-claimed-to-be-bitcoin-inventor-referred-to-cps",
+      "checked": "2026-11-12",
+      "date": "2024-07-16"
+    },
+    {
+      "id": "protos-appeal",
+      "title": "Craig Wright COPA appeal rejected by UK court as meritless",
+      "publisher": "Protos",
+      "type": "Legal news report of a judgment",
+      "url": "https://protos.com/craig-wright-copa-appeal-rejected-by-uk-court-as-meritless/",
+      "checked": "2026-11-12",
+      "date": "2024-11-29"
+    },
+    {
+      "id": "stevens-bolton",
+      "title": "Dr Craig Wright in the courts: claims, controversies, civil restraints and costs",
+      "publisher": "Stevens & Bolton LLP",
+      "type": "Legal commentary",
+      "url": "https://www.stevens-bolton.com/insights/102lrqx/dr-craig-wright-in-the-courts-claims-controversies-civil-restraints-and-costs/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "fortune-contempt",
+      "title": "Craig Wright handed suspended prison sentence for contempt of court",
+      "publisher": "Fortune",
+      "type": "Contemporaneous court reporting",
+      "url": "https://fortune.com/crypto/2024/12/20/craig-wright-bitcoin-inventor-satoshi-nakamoto-suspended-prison-sentence-contempt-of-court",
+      "checked": "2026-11-12",
+      "date": "2024-12-20"
+    },
+    {
+      "id": "forbes-contempt",
+      "title": "Fake Bitcoin creator sentenced for contempt",
+      "publisher": "Forbes",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.forbes.com/sites/digital-assets/2024/12/20/fake-bitcoin-creator-sentenced-for-contempt/",
+      "checked": "2026-11-12",
+      "date": "2024-12-20"
+    },
+    {
+      "id": "wizsec-kleiman",
+      "title": "Kleiman v Wright, part 5: the 27 August 2019 sanctions order",
+      "publisher": "WizSec",
+      "type": "Legal commentary on a US court order",
+      "url": "https://blog.wizsec.jp/2019/08/kleiman-v-wright-part-5.html",
+      "checked": "2026-11-12",
+      "date": "2019-08-27"
+    },
+    {
+      "id": "abc-raid",
+      "title": "Sydney home of suspected Bitcoin founder raided by AFP over ATO warrant",
+      "publisher": "ABC News",
+      "type": "News report",
+      "url": "https://www.abc.net.au/news/2015-12-09/bitcoin-suspected-founder-craig-wright-home-raided-by-afp/7014254",
+      "checked": "2026-11-12",
+      "date": "2015-12-09"
+    },
+    {
+      "id": "coindesk-tax",
+      "title": "What we know: alleged Bitcoin creator Craig Wright’s tax troubles",
+      "publisher": "CoinDesk",
+      "type": "News report",
+      "url": "https://www.coindesk.com/markets/2015/12/10/what-we-know-alleged-bitcoin-creator-craig-wrights-tax-troubles",
+      "checked": "2026-11-12",
+      "date": "2015-12-10"
+    },
+    {
+      "id": "courtlistener-kleiman",
+      "title": "Kleiman v Wright, No. 9:18-cv-80176, docket",
+      "publisher": "CourtListener",
+      "type": "Court case record",
+      "url": "https://www.courtlistener.com/docket/6309656/kleiman-v-wright/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "decrypt-addresses",
+      "title": "Craig Wright labeled “fraud” by Bitcoin addresses he purportedly owns",
+      "publisher": "Decrypt",
+      "type": "News report",
+      "url": "https://decrypt.co/30098/craig-wright-fraud-bitcoin-addresses",
+      "checked": "2026-11-12",
+      "date": "2020-05-25"
+    },
+    {
+      "id": "coindesk-kleiman",
+      "title": "Craig Wright found not liable for breach of Kleiman business partnership",
+      "publisher": "CoinDesk",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.coindesk.com/markets/2021/12/06/craig-wright-found-not-liable-for-kleiman-business-partnership",
+      "checked": "2026-11-12",
+      "date": "2021-12-06"
+    },
+    {
+      "id": "coindesk-11th",
+      "title": "Eleventh Circuit affirms Kleiman v Wright verdict",
+      "publisher": "CoinDesk",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.coindesk.com/policy/2023/10/27/craig-wright-wins-us-appeal-in-billion-dollar-bitcoin-dispute",
+      "checked": "2026-11-12",
+      "date": "2023-10-27"
+    },
+    {
+      "id": "ver-2094",
+      "title": "Wright v Ver [2019] EWHC 2094 (QB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2019/2094",
+      "checked": "2026-11-12",
+      "date": "2019-07-31"
+    },
+    {
+      "id": "ver-672",
+      "title": "Wright v Ver [2020] EWCA Civ 672",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/672",
+      "checked": "2026-11-12",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "coindesk-ver",
+      "title": "Judge rules for Roger Ver in Craig Wright libel lawsuit",
+      "publisher": "CoinDesk",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.coindesk.com/markets/2019/07/31/judge-rules-for-roger-ver-in-craig-wright-libel-lawsuit",
+      "checked": "2026-11-12",
+      "date": "2019-07-31"
+    },
+    {
+      "id": "coindesk-hodl2",
+      "title": "Craig Wright drops appeal against Hodlonaut in Norway",
+      "publisher": "CoinDesk",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.coindesk.com/policy/2024/04/11/craig-wright-drops-appeal-against-hodlonaut-in-norway",
+      "checked": "2026-11-12",
+      "date": "2024-04-11"
+    },
+    {
+      "id": "mccormack-3343",
+      "title": "Wright v McCormack [2022] EWHC 3343 (KB)",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Judgment (High Court)",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2022/12/Wright-v-McCormack-Final-Judgment-for-Hand-Down.pdf",
+      "checked": "2026-11-12",
+      "date": "2022-12-21"
+    },
+    {
+      "id": "mccormack-3343-na",
+      "title": "Wright v McCormack [2022] EWHC 3343 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2022/3343",
+      "checked": "2026-11-12",
+      "date": "2022-12-21"
+    },
+    {
+      "id": "coindesk-mcc",
+      "title": "Wright put forward “false evidence,” will receive damages of £1",
+      "publisher": "CoinDesk",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.coindesk.com/policy/2022/08/01/craig-wright-v-peter-mccormack-wright-put-forward-false-evidence-will-receive-damages-of-1",
+      "checked": "2026-11-12",
+      "date": "2022-08-01"
+    },
+    {
+      "id": "mccormack-wfo",
+      "title": "McCormack v Wright, worldwide freezing-order judgment, 5 July 2024",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Judgment (High Court)",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2024/07/McCormack-v-Wright-WFO-Judgment-05.07.2024.pdf",
+      "checked": "2026-11-12",
+      "date": "2024-07-05"
+    },
+    {
+      "id": "ontier",
+      "title": "UK court awards default judgment in Bitcoin copyright infringement claim",
+      "publisher": "ONTIER LLP, via PR Newswire",
+      "type": "Solicitors' announcement",
+      "url": "https://www.prnewswire.com/news-releases/uk-court-awards-default-judgment-in-bitcoin-copyright-infringement-claim-301321163.html",
+      "checked": "2026-11-12",
+      "date": "2021-06-29"
+    },
+    {
+      "id": "protos-cobra",
+      "title": "Craig Wright wins Bitcoin white paper copyright suit by default",
+      "publisher": "Protos",
+      "type": "Legal news report of a judgment",
+      "url": "https://protos.com/craig-wright-bitcoin-white-paper-cobra-copyright-lawsuit-london/",
+      "checked": "2026-11-12",
+      "date": "2021-06-29"
+    },
+    {
+      "id": "tulip-ewca",
+      "title": "Tulip Trading Ltd v Van der Laan and others [2023] EWCA Civ 83",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (Court of Appeal)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/83",
+      "checked": "2026-11-12",
+      "date": "2023-02-03"
+    },
+    {
+      "id": "wizsec-mtgox",
+      "title": "The 80,000 stolen Mt. Gox bitcoins, the March 2011 theft",
+      "publisher": "WizSec",
+      "type": "Blockchain forensic commentary",
+      "url": "https://blog.wizsec.jp/2020/06/mtgox-march-2011-theft.html",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "karpeles",
+      "title": "Statement on the 1Feex address",
+      "publisher": "Mark Karpelès on X",
+      "type": "Public statement",
+      "url": "https://x.com/MagicalTux/status/1271473195921465344",
+      "checked": "2026-11-12",
+      "date": "2020-06-12"
+    },
+    {
+      "id": "decrypt-tulip",
+      "title": "Tulip Trading drops lawsuit against Bitcoin developers",
+      "publisher": "Decrypt",
+      "type": "News report",
+      "url": "https://decrypt.co/226947/has-craig-wright-finally-given-up-bitcoin-inventor-claim",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "freshfields",
+      "title": "Self-proclaimed creator of Bitcoin found to have lied by English court",
+      "publisher": "Freshfields",
+      "type": "Legal commentary",
+      "url": "https://www.freshfields.com/en/our-thinking/blogs/technology-quotient/self-proclaimed-creator-of-bitcoin-found-to-have-lied-by-english-court-crypto-op-102j8iq",
+      "checked": "2026-11-12",
+      "date": "2024-05-20"
+    },
+    {
+      "id": "cps-contact",
+      "title": "Contact the CPS",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official process explanation",
+      "url": "https://contact.cps.gov.uk/",
+      "checked": "2026-11-12",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "wdtk",
+      "title": "WhatDoTheyKnow",
+      "publisher": "mySociety",
+      "type": "Official process explanation",
+      "url": "https://www.whatdotheyknow.com/",
+      "checked": "2026-11-12",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "writetothem",
+      "title": "WriteToThem",
+      "publisher": "mySociety",
+      "type": "Official process explanation",
+      "url": "https://www.writetothem.com/",
+      "checked": "2026-11-12",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "bitcoincom-film",
+      "title": "$70M Bitcoin movie portrays Craig Wright as Satoshi",
+      "publisher": "Bitcoin.com News",
+      "type": "Film reporting, relaying second-hand accounts",
+      "url": "https://news.bitcoin.com/featured/70m-bitcoin-movie-portrays-craig-wright-as-satoshi/",
+      "checked": "2026-11-12",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "pc-original",
+      "title": "The Craig Wright Docket (original publication)",
+      "publisher": "Planetary Council",
+      "type": "Prior publication",
+      "url": "https://planetarycouncil.org/bitcoin-movie-craig-wright-is-a-fraud.html",
+      "checked": "2026-11-12",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "deadline-film",
+      "title": "Gal Gadot and Isla Fisher join Casey Affleck and Pete Davidson in Doug Liman thriller Bitcoin",
+      "publisher": "Deadline",
+      "type": "Film reporting",
+      "url": "https://deadline.com/2026/04/gal-gadot-isla-fisher-casey-affleck-pete-davidson-bitcoin-1236860330/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "thewrap-film",
+      "title": "Inside Doug Liman’s $70 million AI-made movie",
+      "publisher": "TheWrap",
+      "type": "Film reporting",
+      "url": "https://www.thewrap.com/creative-content/movies/ai-movie-bitcoin-killing-satoshi-gal-gadot-casey-affleck-doug-liman/",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "bbc-claim",
+      "title": "Australian Craig Wright claims to be Bitcoin creator",
+      "publisher": "BBC News",
+      "type": "News report",
+      "url": "https://www.bbc.co.uk/news/technology-36168863",
+      "checked": "2026-11-12",
+      "date": "2016-05-02"
+    },
+    {
+      "id": "forbes-proof",
+      "title": "Craig Wright says sorry, he can’t offer proof he’s Bitcoin creator Satoshi",
+      "publisher": "Forbes",
+      "type": "News report",
+      "url": "https://www.forbes.com/sites/thomasbrewster/2016/05/05/craig-wright-says-sorry-he-cant-offer-proof-hes-bitcoin-creator-satoshi/",
+      "checked": "2026-11-12",
+      "date": "2016-05-05"
+    }
+  ]
+}
