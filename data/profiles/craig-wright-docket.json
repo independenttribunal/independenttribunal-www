@@ -22,6 +22,10 @@
     {
       "id": "calling-fraud-a-fraud",
       "title": "Calling fraud a fraud: defamation law for people who mean it"
+    },
+    {
+      "id": "private-prosecution-staying-in-control",
+      "title": "Private prosecution and staying in control"
     }
   ],
   "evidence_image": {
@@ -61,6 +65,12 @@
       "value": "None found",
       "detail": "England and Wales, the United States, Norway, and the Australian tax disputes recorded here",
       "target": "the-pattern"
+    },
+    {
+      "label": "Civil restraint order",
+      "value": "General CRO, three years",
+      "detail": "Mellor J granted a General Civil Restraint Order on 7 March 2025, with reasons on 12 May 2025, lasting until 7 March 2028: no claim or application in the High Court or a county court without a judge’s prior permission",
+      "target": "restraint-order"
     }
   ],
   "featured_source": "copa-1198",
@@ -710,11 +720,11 @@
               ]
             },
             {
-              "text": "On costs and court time, the applicants submitted that legal costs recovered by his opponents “may be conservatively estimated at £10 million,” and calculated that court days in this jurisdiction were approaching 100. The judge, drawing the threads together, said it was “difficult to find a precedent in the reported cases” of an abusive campaign on this scale, that Dr Wright’s conduct “stands apart when one considers its scale and effects on innocent victims and the court service,” and that his actions had “taken up far too much court time and resources already.”",
+              "text": "On costs and court time, the applicants submitted that legal costs recovered by his opponents “may be conservatively estimated at £10 million,” and calculated that court days in this jurisdiction were approaching 100. Drawing the threads together, they submitted that it was “difficult to find a precedent in the reported cases” of an abusive campaign on this scale, and that Dr Wright’s conduct “stands apart when one considers its scale and effects on innocent victims and the court service.” The judge accepted those submissions. He also recorded that Dr Wright’s actions had “taken up far too much court time and resources already.”",
               "sources": [
                 {
                   "id": "gcro-1139",
-                  "locator": "paragraphs [80], [91], [95]"
+                  "locator": "paragraphs [80], [91], [95] and [97]"
                 }
               ]
             }

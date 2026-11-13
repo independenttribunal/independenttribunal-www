@@ -18,6 +18,10 @@
   ],
   "related": [
     {
+      "id": "craig-wright-docket",
+      "title": "The Craig Wright docket"
+    },
+    {
       "id": "mcalpine-v-bercow",
       "title": "“*Innocent face*”: McAlpine v Bercow, in praise of a judgment"
     },
@@ -975,6 +979,31 @@
           ]
         },
         {
+          "id": "wright-example",
+          "title": "When the High Court itself used the word",
+          "kind": "High Court judgment, with a link to our docket",
+          "paragraphs": [
+            {
+              "text": "The clearest example we maintain of a court using the word “fraud” for what a litigant had done with the courts is not a defamation case. In COPA v Wright, Mr Justice Mellor found that Dr Craig Wright is not Satoshi Nakamoto. At paragraph [926] he wrote that Dr Wright’s attempts to prove that claim were “a most serious abuse of this Court’s process,” and that “Dr Wright engaged in the deliberate production of false documents to support false claims and use the Courts as a vehicle for fraud.” Those are the judge’s words, checked against the official judgment. They are not a criminal conviction for fraud, perjury or forgery.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [926]"
+                }
+              ]
+            },
+            {
+              "text": "We keep the court record, including the later General Civil Restraint Order, on a separate docket. It is the example our house style is built for: quote the finding, name the judgment, and do not add a charge that has not been brought.",
+              "sources": [
+                {
+                  "id": "copa-1198",
+                  "locator": "paragraph [926]"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "method",
           "title": "Research method",
           "kind": "Research method",
@@ -1148,6 +1177,14 @@
       "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/1342",
       "checked": "2026-10-30",
       "date": "2013-05-24"
+    },
+    {
+      "id": "copa-1198",
+      "title": "Crypto Open Patent Alliance v Wright [2024] EWHC 1198 (Ch)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Judgment (High Court)",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2024/1198",
+      "checked": "2026-11-13"
     }
   ]
 }

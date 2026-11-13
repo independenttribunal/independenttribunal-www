@@ -26,6 +26,10 @@ test("the fraud study rests on primary sources and keeps its specimens labelled 
   assert.match(p.status_note, /Nothing on this page says that any person or company committed fraud/);
   const html = await read("public/research/calling-fraud-a-fraud/index.html");
   assert.ok(html.includes('href="/research/thames-water/"'));
+  assert.ok(html.includes('href="/research/craig-wright-docket/"'));
+  assert.match(text("wright-example"), /use the Courts as a vehicle for fraud/);
+  assert.match(text("wright-example"), /not a criminal conviction/);
+  assert.equal(sources.get("copa-1198").url, "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2024/1198");
   assert.ok((await read("public/research/thames-water/index.html")).includes('href="/research/calling-fraud-a-fraud/"'));
 });
 
