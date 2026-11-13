@@ -96,9 +96,11 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.match(text("authors-statement"), /provisional and temporary/);
   assert.match(text("authors-statement"), /I refuse to call myself, or be labelled, a Nazi supporter/);
   assert.match(text("authors-statement"), /not a finding of this page/);
-  assert.match(text("epstein-contacts"), /Paris based Ghislaine Maxwell/);
-  assert.match(text("epstein-contacts"), /according to Wikipedia|Wikipedia article|Wikipedia attaches|quotes Wikipedia/i);
-  assert.match(text("epstein-contacts"), /She recruited women into Epstein's trafficking network/);
+  assert.match(text("brock-pierce"), /documents released by the U\.S\. Department of Justice/);
+  assert.match(text("brock-pierce"), /this page makes no such finding/);
+  assert.match(text("maria-prusakova"), /Paris based Ghislaine Maxwell/);
+  assert.match(text("maria-prusakova"), /according to Wikipedia|Wikipedia article|Wikipedia attaches|quotes Wikipedia|Wikipedia attaches that sentence/i);
+  assert.match(text("maria-prusakova"), /She recruited women into Epstein's trafficking network/);
   assert.match(text("authors-green-view"), /my own view, not a finding/);
   assert.match(text("authors-green-view"), /8 October 2026/);
   assert.match(text("authors-green-view"), /David Stansell/);
@@ -131,11 +133,11 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.match(html, /Graphic image of a child in rubble/);
   assert.match(html, /Author’s disclosure/);
   assert.match(html, /<h2>Randy Fine<\/h2>/);
-  assert.match(html, /Working with Epstein Class mindset/);
-  assert.match(html, /sometimes need to remain politically correct, sometimes need to play the game/);
+  assert.match(html, /Playing the game\. Politics\. Diplomacy\. Epstein class\./);
+  assert.doesNotMatch(html, /Working with Epstein Class mindset/);
+  assert.doesNotMatch(html, /sometimes need to remain politically correct, sometimes need to play the game/);
   assert.ok(html.includes('id="randy-fine-main"'));
-  assert.ok(html.includes('id="working-with-epstein-class"'));
-  assert.ok(html.includes('id="epstein-class-play-the-game"'));
+  assert.ok(html.includes('id="playing-the-game"'));
   assert.match(html, /51,109/);
   // Official portrait remains the Open Graph image.
   assert.ok(html.includes('property="og:image" content="https://independenttribunal.org/images/randy-fine-official-portrait.webp"'));
@@ -173,7 +175,7 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.match(text("authors-green-view"), /Your Party/);
   assert.equal(sources.get("bbc-your-party").url, "https://www.bbc.co.uk/news/articles/cgkn3v1e7g3o");
   const vergeImage = (p.artworks ?? []).find((image) => image.src === "/images/verge-epstein-madam.webp");
-  assert.equal(vergeImage.after_entry, "epstein-contacts");
+  assert.equal(vergeImage.after_entry, "maria-prusakova");
   const satire = (p.artworks ?? []).find((image) => image.src === "/images/ultra-own-goals-satire.webp");
   assert.equal(satire.after_entry, "authors-green-view");
   assert.equal(satire.width, 1000);
