@@ -197,6 +197,8 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         .profile-status strong { font-size:1.2rem; line-height:1.3; }
         .profile-nav { display:flex; flex-wrap:wrap; gap:.5rem 1rem; padding:1rem 0; border-block:1px solid var(--line); font:600 13px/1.6 ui-sans-serif,system-ui,sans-serif; }
         .profile-group { margin-top:3.2rem; padding-top:1.2rem; border-top:4px solid var(--navy); scroll-margin-top:1.5rem; }
+        .profile-group + .profile-section-grouped + .profile-group,
+        .profile-section-grouped ~ .profile-group { margin-top:4.5rem; padding-top:2rem; border-top:4px solid var(--navy); }
         .profile-group h2 { margin:0; }
         .profile-section { scroll-margin-top:1.5rem; margin-top:3rem; }
         .profile-section-grouped { margin-top:2rem; }

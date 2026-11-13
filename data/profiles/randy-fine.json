@@ -759,74 +759,13 @@
       }
     },
     {
-      "id": "epstein-class-mindset",
-      "title": "Working with Epstein Class mindset",
+      "id": "playing-the-game-section",
+      "title": "Playing the game. Politics. Diplomacy. Epstein class.",
       "group": {
-        "id": "working-with-epstein-class",
-        "title": "Working with Epstein Class mindset"
+        "id": "playing-the-game",
+        "title": "Playing the game. Politics. Diplomacy. Epstein class."
       },
-      "intro": "This section is a first-person statement by Mars Robertson, the author of IndependentTribunal.org. It is his own account of his contacts and what he took from them, clearly marked as such. It is not a finding of this page, not a judgment of character, and not an allegation of wrongdoing against anyone named below.",
-      "entries": [
-        {
-          "id": "epstein-contacts",
-          "title": "Brock Pierce and Maria Prusakova",
-          "kind": "Author’s disclosure",
-          "paragraphs": [
-            {
-              "text": "Before the Epstein files were made public, I was in contact with individuals later named in them, including Brock Pierce and Maria Prusakova (also known as Masha Prusso). I value the lessons learnt. That is a statement about my own contacts and what I took from them. It is not an allegation against those individuals, and this page makes none in its own voice.",
-              "sources": [
-                {
-                  "id": "editorial",
-                  "locator": "the author’s own disclosure, not a finding"
-                },
-                {
-                  "id": "doj-epstein-library",
-                  "locator": "U.S. Department of Justice Epstein Files Transparency Act library"
-                },
-                {
-                  "id": "wikipedia-prusakova",
-                  "locator": "English Wikipedia biography of Mariya Prusakova (snowboarder)"
-                }
-              ]
-            },
-            {
-              "text": "Brock Pierce’s name appears in documents released by the U.S. Department of Justice under the Epstein Files Transparency Act. The official library is at https://www.justice.gov/epstein and includes a search of the full library; a search for “Brock Pierce” is the check invited here. Individual files on that site are behind an age-verification gate, and a live keyword search could not be completed from this publishing environment. Third-party indexes of the same official release include correspondence involving him, among them document EFTA01923671, an email dated 13 May 2014 from Brock Pierce to Jeffrey Epstein asking for information about Jeff Herman, indexed as coming from DOJ Data Set 10. Appearance in released documents is not, by itself, a finding of wrongdoing, and this page makes no such finding.",
-              "sources": [
-                {
-                  "id": "doj-epstein-library",
-                  "locator": "https://www.justice.gov/epstein — official library and search of the full collection"
-                },
-                {
-                  "id": "efta-01923671",
-                  "locator": "third-party index of official EFTA document EFTA01923671, email of 13 May 2014"
-                }
-              ]
-            },
-            {
-              "text": "For Maria Prusakova, this page quotes Wikipedia and names Wikipedia’s source. The English Wikipedia article “Mariya Prusakova (snowboarder)”, checked on 13 November 2026, states: “She recruited women into Epstein's trafficking network, calling herself the \"Paris based Ghislaine Maxwell\" in a 2013 email to Epstein.” Wikipedia attaches that sentence to David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. This page repeats the recruitment and trafficking characterisation only as Wikipedia’s, citing The Verge; it does not adopt it as a finding of its own. The Verge itself quotes the 2013 email as saying, in part, “Sometimes I think that I am your Paris based Ghislaine Maxwell.” The same Verge article, in a section headed Epstein’s “Madam”, names Masha Drokova (also known as Masha Bucher) and Maria Prusakova (also known as Masha Prusso). A user-supplied screenshot of that section is reproduced below, as a record of the reporting, not as a finding of this page.",
-              "sources": [
-                {
-                  "id": "wikipedia-prusakova",
-                  "locator": "exact wording of the 2013 email sentence, citing Morris, The Verge, 27 February 2026 (reference 5 on the live page)"
-                },
-                {
-                  "id": "verge-epstein-bitcoin",
-                  "locator": "section “Epstein’s ‘Madam’”; quotation “Sometimes I think that I am your Paris based Ghislaine Maxwell.”"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "epstein-class-play-the-game",
-      "title": "Epstein Class: sometimes need to remain politically correct, sometimes need to play the game",
-      "group": {
-        "id": "working-with-epstein-class",
-        "title": "Working with Epstein Class mindset"
-      },
-      "intro": "The remarks below are the author’s own opinions about political choices, clearly marked as such. They are not findings of this page.",
+      "intro": "This section is a first-person statement by Mars Robertson, the author of IndependentTribunal.org, about political choices and about contacts later named in the Epstein files. It is his own account, clearly marked as such. It is not a finding of this page, not a judgment of character, and not an allegation of wrongdoing against anyone named below.",
       "entries": [
         {
           "id": "authors-green-view",
@@ -873,6 +812,46 @@
                 {
                   "id": "bbc-your-party",
                   "locator": "Sam Francis, 18 September 2025: Corbyn called the email “unauthorised”; Sultana said the week’s emails lacked the agreed dual authorisation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brock-pierce",
+          "title": "Brock Pierce",
+          "kind": "Author’s disclosure",
+          "paragraphs": [
+            {
+              "text": "I was also in contact with Brock Pierce, whose name appears in documents released by the U.S. Department of Justice under the Epstein Files Transparency Act. The official library is at https://www.justice.gov/epstein. Appearance in released documents is not, by itself, a finding of wrongdoing, and this page makes no such finding.",
+              "sources": [
+                {
+                  "id": "doj-epstein-library",
+                  "locator": "https://www.justice.gov/epstein — official library and search of the full collection"
+                },
+                {
+                  "id": "efta-01923671",
+                  "locator": "third-party index of official EFTA document EFTA01923671, email of 13 May 2014"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "maria-prusakova",
+          "title": "Maria Prusakova (Masha Prusso)",
+          "kind": "Author’s disclosure",
+          "paragraphs": [
+            {
+              "text": "I was also in contact with Maria Prusakova (also known as Masha Prusso). The English Wikipedia article “Mariya Prusakova (snowboarder)”, checked on 13 November 2026, states: “She recruited women into Epstein's trafficking network, calling herself the \"Paris based Ghislaine Maxwell\" in a 2013 email to Epstein.” Wikipedia attaches that sentence to David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. This page repeats that characterisation only as Wikipedia’s, citing The Verge; it does not adopt it as a finding of its own. The Verge itself quotes the 2013 email as saying, in part, “Sometimes I think that I am your Paris based Ghislaine Maxwell.”",
+              "sources": [
+                {
+                  "id": "wikipedia-prusakova",
+                  "locator": "exact wording of the 2013 email sentence, citing Morris, The Verge, 27 February 2026 (reference 5 on the live page)"
+                },
+                {
+                  "id": "verge-epstein-bitcoin",
+                  "locator": "section “Epstein’s ‘Madam’”; quotation “Sometimes I think that I am your Paris based Ghislaine Maxwell.”"
                 }
               ]
             }
@@ -1309,7 +1288,7 @@
       "src": "/images/verge-epstein-madam.webp",
       "width": 900,
       "height": 687,
-      "after_entry": "epstein-contacts",
+      "after_entry": "maria-prusakova",
       "alt": "Screenshot of The Verge article “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, from the section headed Epstein’s “Madam”, naming former pro-Putin activist Masha Drokova (also known as Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (also known as Masha Prusso).",
       "caption": "User-supplied screenshot of the section “Epstein’s ‘Madam’” in David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. Reproduced here as a record of that reporting, not as a finding of this page.",
       "transcript": "The Verge. Headline: “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters.” Section heading: Epstein’s “Madam”. Opening sentences: “While Epstein himself moved at the higher end of the crypto world, he appears to have put at least two of “his Russians” to work in the trenches: former pro-Putin activist Masha Drokova (aka Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (aka Masha Prusso). Epstein’s emails appear to show both women helping place deceptive media coverage to repair Epstein’s reputation, while using the same tactics and personnel to pump sketchy cryptocurrency investments.” The screenshot continues into a further paragraph naming Sarah Austin, M&A PR Studio, Forbes, The Next Web, the Huffington Post and Thrive Global. Those further characterisations are The Verge’s reporting, not findings of this page."
