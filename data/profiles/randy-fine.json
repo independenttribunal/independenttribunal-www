@@ -1,0 +1,1258 @@
+{
+  "id": "randy-fine",
+  "title": "Randy Fine",
+  "subtitle": "Public statements about Gaza, in his own words",
+  "summary": "A sourced public-record profile of U.S. Representative Randy Fine (Republican, Florida’s 6th District), focused on his posts and broadcast remarks about Gaza. His words are quoted with dates and links. Characterisations by commentators, advocacy groups and journalists are attributed to them. This page asks questions; it is not a finding that any crime has been committed.",
+  "checked": "2026-11-13",
+  "jurisdiction": "United States · Florida’s 6th Congressional District",
+  "tags": [
+    "united-states",
+    "congress",
+    "gaza",
+    "public-statements",
+    "international-law"
+  ],
+  "scope": "A public-record profile of a sitting member of Congress, not a verdict and not a court. A post, a broadcast remark, a commentator’s title and a legal characterisation are different things. Screenshots of posts that could not be located as live records are labelled as unverified here. Inclusion is not a judgment of character.",
+  "status_note": "Sources reviewed on 13 November 2026. Posts were checked in X’s full archive for the official account @RepFine and the personal account @VoteRandyFine. Automatic captions were obtained for the 3 April 2025 Owen Jones video; because they are machine-generated, Fine’s words are quoted from the original posts and from reporting of a Fox News interview, not from those captions. This page does not find that any statement is a crime, and it does not adopt commentators’ labels as statements of fact.",
+  "related": [
+    {
+      "id": "who-is-watching-the-watchdogs",
+      "title": "Who is watching the watchdogs?"
+    }
+  ],
+  "evidence_image": {
+    "src": "/images/randy-fine-official-portrait.webp",
+    "width": 600,
+    "height": 750,
+    "alt": "Official portrait of U.S. Representative Randy Fine, a smiling man with short brown hair, wearing a dark suit, white shirt and a red tie patterned with white outlines of Florida, with a House lapel pin, photographed in front of an American flag against a blue background.",
+    "caption": "Official portrait of Representative Randy Fine for the 119th Congress. Photograph by the U.S. House of Representatives, 2 April 2025, via the Biographical Directory of the United States Congress and Wikimedia Commons. Public domain (U.S. federal government work)."
+  },
+  "highlights": [
+    {
+      "label": "U.S. House, Florida’s 6th District",
+      "value": "Sworn in 2 April 2025",
+      "detail": "Special election, 1 April 2025, succeeding Michael Waltz",
+      "target": "the-office"
+    },
+    {
+      "label": "18 August 2026 Republican primary",
+      "value": "Fine 57.6%, Bilzerian 18.9%",
+      "detail": "Official Florida Division of Elections result; Dan Bilzerian finished second in a four-candidate field",
+      "target": "the-2026-primary"
+    },
+    {
+      "label": "22 July 2025, on X",
+      "value": "“Until then, starve away.”",
+      "detail": "Posted from @RepFine, quoting an ABC report of famine deaths; condemned by the American Jewish Committee",
+      "target": "starve-away"
+    },
+    {
+      "label": "Fox News, May 2025",
+      "value": "WWII surrender comparison",
+      "detail": "He invoked the atomic bombing of Japan; he later denied calling for Gaza to be nuked",
+      "target": "fox-interview"
+    },
+    {
+      "label": "The legal question",
+      "value": "Asked, not decided",
+      "detail": "Incitement and collective punishment are raised here as questions, not as findings",
+      "target": "the-legal-question"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-person",
+      "title": "The office and the public record",
+      "intro": "The biographical facts below are taken from official congressional and Florida legislative sources, cross-checked with Ballotpedia.",
+      "entries": [
+        {
+          "id": "the-office",
+          "title": "Florida’s 6th District, 2025 special election",
+          "kind": "Official record",
+          "paragraphs": [
+            {
+              "text": "The official House biography records that Randy Fine was elected to represent Florida’s 6th Congressional District in April 2025 and was sworn in as a member of the U.S. House of Representatives by the Speaker on 2 April 2025. The Office of the Clerk records his party as Republican, his hometown as Melbourne Beach, and his oath date as 2 April 2025. He was assigned to the Committee on Education and the Workforce and the Committee on Foreign Affairs.",
+              "sources": [
+                {
+                  "id": "house-bio",
+                  "locator": "biography: election, swearing-in and committee assignments"
+                },
+                {
+                  "id": "clerk",
+                  "locator": "member profile: Florida 6th, Republican; oath of office 2 April 2025"
+                }
+              ]
+            },
+            {
+              "text": "The seat had been vacated by Michael Waltz. Ballotpedia records that Fine won the 1 April 2025 special general election with 110,980 votes (56.7%), ahead of Joshua Weil (Democrat) with 83,580 votes (42.7%). Fine’s official biography states that he earlier served eight years in the Florida House, the statutory maximum, before serving in the Florida Senate and then Congress.",
+              "sources": [
+                {
+                  "id": "ballotpedia",
+                  "locator": "2025 special general election results; predecessor Michael Waltz"
+                },
+                {
+                  "id": "house-bio",
+                  "locator": "eight years in the Florida House, then the Florida Senate, then Congress"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "florida-legislature",
+          "title": "Florida House and Florida Senate",
+          "kind": "Official record",
+          "paragraphs": [
+            {
+              "text": "The Florida House of Representatives biographical record states that Fine was elected to the House in 2016 and subsequently re-elected. For the 2022–2024 term the same official record lists him as a Republican for District 33, part of Brevard County, and as chair of the Health & Human Services Committee. Ballotpedia, consistent with contemporaneous Florida reporting, records that before the post-2022 maps he represented Florida House District 53. The Florida Senate records that he served as the Republican senator for District 19 (part of Brevard County) and resigned on 31 March 2025.",
+              "sources": [
+                {
+                  "id": "flhouse",
+                  "locator": "elected 2016; District 33, 2022–2024 term; biographical information"
+                },
+                {
+                  "id": "ballotpedia",
+                  "locator": "Florida House 2016–2024, including District 53 and later District 33; Senate District 19"
+                },
+                {
+                  "id": "flsenate",
+                  "locator": "Senator Randy Fine, District 19; resigned 31 March 2025"
+                }
+              ]
+            },
+            {
+              "text": "The Florida House biographical information records that he was born on 20 April 1974 in Tucson, Arizona, graduated from Harvard College (A.B., magna cum laude, 1996) and Harvard Business School (M.B.A., with high distinction, 1998), and lists his occupation as businessman. The official congressional biography adds that he founded and ran businesses in retail, technology and hospitality before entering public office, and that colleagues and national Jewish organisations have used the nickname “The Hebrew Hammer” for his work on antisemitism and opposition to terrorism. That nickname also appears in the description of his personal X account. It is recorded here as a self-description and as language used on his official biography, not as a characterisation by this site.",
+              "sources": [
+                {
+                  "id": "flhouse",
+                  "locator": "born 20 April 1974, Tucson; Harvard degrees; occupation"
+                },
+                {
+                  "id": "house-bio",
+                  "locator": "business career; ‘The Hebrew Hammer’ as used on the official biography"
+                },
+                {
+                  "id": "x-user-personal",
+                  "locator": "personal account @VoteRandyFine: ‘The “Hebrew Hammer.”’"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-2026-primary",
+      "title": "The 2026 Republican primary and Dan Bilzerian",
+      "intro": "Dan Bilzerian did run against Randy Fine in the 2026 Republican primary for Florida’s 6th Congressional District. The figures below are the official, certified results. Bilzerian appeared on the Republican primary ballot, not as an independent candidate.",
+      "entries": [
+        {
+          "id": "bilzerian-primary",
+          "title": "18 August 2026 · official primary result",
+          "kind": "Official record",
+          "date": "2026-08-18",
+          "paragraphs": [
+            {
+              "text": "The Florida Division of Elections published official results for the 18 August 2026 Republican primary in Florida’s 6th Congressional District. Randy Fine won and advanced as the Republican nominee, with 51,109 votes (57.6%). Dan Bilzerian, listed as a Republican candidate and not as an independent, finished second, with 16,776 votes (18.9%). Aaron Baker received 12,074 votes (13.6%) and Charles Gambaro 8,716 votes (9.8%). The four-candidate total is 88,675 votes.",
+              "sources": [
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "Official Results, United States Representative, District 6, Republican primary, 18 August 2026"
+                },
+                {
+                  "id": "ballotpedia-2026-primary",
+                  "locator": "certified Republican primary tally, 18 August 2026: Fine 51,109 (57.6%), Bilzerian 16,776 (18.9%), Baker 12,074 (13.6%), Gambaro 8,716 (9.8%); total 88,675"
+                }
+              ]
+            },
+            {
+              "text": "Ballotpedia’s certified table matches those official totals and records that Fine defeated Bilzerian, Baker and Gambaro. It also lists Manuel Asensio as a Republican who withdrew but remained on the ballot, along with other withdrawn or disqualified Republican candidates who do not appear as vote-getters in the Division of Elections official summary table used here. Some unofficial election-night tallies circulating online included slightly different counts, and in at least one case a small Asensio total; this page uses the official certified figures.",
+              "sources": [
+                {
+                  "id": "ballotpedia-2026-primary",
+                  "locator": "withdrawn or disqualified candidates, including Manuel Asensio (R) (Withdrew, still on ballot)"
+                },
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "official District 6 Republican primary table lists Baker, Bilzerian, Fine and Gambaro only"
+                }
+              ]
+            },
+            {
+              "text": "Fine was therefore the Republican nominee in the 3 November 2026 general election. This section is confined to the primary challenge from Bilzerian; it does not treat later general-election reporting as a substitute for the official primary record above.",
+              "sources": [
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "Fine’s plurality in the official Republican primary"
+                },
+                {
+                  "id": "ballotpedia-2026-primary",
+                  "locator": "Fine advanced from the Republican primary for the 3 November 2026 general election"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Official results, Florida Division of Elections, 18 August 2026 Republican primary, Florida’s 6th Congressional District. Figures match Ballotpedia’s certified tally. Total votes: 88,675.",
+            "columns": [
+              "Candidate",
+              "Votes",
+              "Share"
+            ],
+            "rows": [
+              [
+                "Randy Fine",
+                "51,109",
+                "57.6%"
+              ],
+              [
+                "Dan Bilzerian",
+                "16,776",
+                "18.9%"
+              ],
+              [
+                "Aaron Baker",
+                "12,074",
+                "13.6%"
+              ],
+              [
+                "Charles Gambaro",
+                "8,716",
+                "9.8%"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-video",
+      "title": "The video that prompted this page",
+      "intro": "The starting point for this profile is a YouTube video sent as a source. The title is the commentator’s. It is quoted as a title, not adopted as a finding.",
+      "entries": [
+        {
+          "id": "owen-jones-video",
+          "title": "Owen Jones, 3 April 2025",
+          "kind": "Published video",
+          "paragraphs": [
+            {
+              "text": "The video is titled “This Genocidal Psycho Just Got Elected To US Congress: ‘May The Streets of Gaza Overflow With Blood’.” YouTube’s oEmbed record and yt-dlp metadata both identify the channel as Owen Jones (https://www.youtube.com/@OwenJonesTalks), the upload date as 3 April 2025, and the duration as 9 minutes 53 seconds. The description reads: “Newly elected Randy Fine shows that you can say literally anything about Palestinians, with no consequences.” Those are Jones’s words and framing, not this site’s.",
+              "sources": [
+                {
+                  "id": "youtube",
+                  "locator": "title, channel, upload date 3 April 2025, duration 593 seconds, description"
+                }
+              ]
+            },
+            {
+              "text": "Automatic English captions were downloaded from YouTube’s timed-text service. They are machine-generated speech-to-text, not a human-reviewed transcript, and they contain obvious recognition errors. For that reason this page does not treat the captions as a verbatim record of Fine’s speech. Where Jones quotes or describes particular posts, those posts have been checked against X. Where a post could be located, Fine’s words are quoted from the live (or still-public) post, with a date and URL, below. Where a post could not be located, that is stated.",
+              "sources": [
+                {
+                  "id": "youtube",
+                  "locator": "automatic captions obtained 13 November 2026; not a human-reviewed transcript"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "posts-on-x",
+      "title": "Posts on X, quoted in full",
+      "intro": "The posts below were retrieved from X’s full archive on 13 November 2026, from Fine’s official congressional account @RepFine and his personal account @VoteRandyFine. Each quotation is the post’s own text.",
+      "entries": [
+        {
+          "id": "bibas-destroy",
+          "title": "19 February 2025 · “Destroy it all.”",
+          "kind": "The author’s own words",
+          "date": "2025-02-19",
+          "paragraphs": [
+            {
+              "text": "On 19 February 2025, from @VoteRandyFine, Fine wrote: “The Bibas brothers were taken hostage and killed by “Palestinian civilians.”   This culture is the embodiment of evil.  Destroy it all.  #BombsAway” The Jones video discusses this post. The quotation here is from the still-public post, not from the video captions.",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "x-bibas",
+                  "locator": "https://x.com/VoteRandyFine/status/1892277453101338696"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "moab-post",
+          "title": "8 February 2025 · “I hope they use it.”",
+          "kind": "The author’s own words",
+          "date": "2025-02-08",
+          "paragraphs": [
+            {
+              "text": "On 8 February 2025, from @VoteRandyFine, Fine wrote: “Calling these people animals is unfair to animals.   Israel has the MOAB.  I hope they use it.  #BombsAway” A MOAB is a large conventional bomb, not a nuclear weapon. The post itself does not name Hamas in its text.",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "x-moab",
+                  "locator": "https://x.com/VoteRandyFine/status/1888286146360127831"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "demon-post",
+          "title": "23 February 2025 · a definition offered as a slogan",
+          "kind": "The author’s own words",
+          "date": "2025-02-23",
+          "paragraphs": [
+            {
+              "text": "On 23 February 2025, from @VoteRandyFine, Fine wrote: “\"Palestinian\" is just another word for demon.”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "x-demon",
+                  "locator": "https://x.com/VoteRandyFine/status/1893792763067482238"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "care-less",
+          "title": "23 May 2024 · “I could care less what happens to Gazans”",
+          "kind": "The author’s own words",
+          "date": "2024-05-23",
+          "paragraphs": [
+            {
+              "text": "On 23 May 2024, from @VoteRandyFine, Fine wrote: “I just want to be exceedingly clear.  I could care less what happens to Gazans so long as Americans, young girls, and babies are held hostage.   #BombsAway” The wording is quoted exactly, including “could care less.”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "x-care-less",
+                  "locator": "https://x.com/VoteRandyFine/status/1793752482558218545"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gaza-deserve-it",
+          "title": "2 August 2025 · “Did Gaza deserve it?” — “Yes”",
+          "kind": "The author’s own words",
+          "date": "2025-08-02",
+          "paragraphs": [
+            {
+              "text": "On 2 August 2025, the account @VividProwess posted “Did Gaza deserve it?” with an aerial photograph of destroyed buildings in Gaza. Fine, from the official account @RepFine, replied: “Yes.” The live reply is timestamped 18:13:30 UTC on 2 August 2025 (7:13 pm British Summer Time that evening; 2:13 pm Eastern in Florida). At the time this page checked the post, X recorded about 58,400 views, matching the “58.3K Views” shown on the screenshot. A user-supplied screenshot of the exchange, which this page has checked against the still-public parent post and Fine’s reply, is reproduced below. The published image is cropped to those two posts; a later reply visible in the original file is not shown.",
+              "sources": [
+                {
+                  "id": "x-deserve-yes",
+                  "locator": "Fine’s reply, https://x.com/RepFine/status/1951707946829975570"
+                },
+                {
+                  "id": "x-deserve-parent",
+                  "locator": "the parent post, https://x.com/VividProwess/status/1951597805660684742"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thanks-for-the-pic",
+          "title": "4 June 2021 · “Quite well, actually!”",
+          "kind": "The author’s own words",
+          "date": "2021-06-04",
+          "paragraphs": [
+            {
+              "text": "On 4 June 2021, Maram (@Palestinianengr) replied to Fine: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” The post included a graphic photograph of a child in rubble. Fine replied from @VoteRandyFine: “Quite well, actually!  Thanks for the pic!” The live post is timestamped 20:45:13 UTC on 4 June 2021 (9:45 pm British Summer Time that evening; 4:45 pm Eastern in Florida). A user-supplied screenshot of the exchange, which this page has checked against the still-public parent post and Fine’s reply, is reproduced below, behind a content warning. The photograph of the child has been blurred. The Owen Jones video describes the attached image as a photograph of a dead Palestinian baby under rubble.",
+              "sources": [
+                {
+                  "id": "x-thanks-pic",
+                  "locator": "Fine’s reply, https://x.com/VoteRandyFine/status/1400916571892105221"
+                },
+                {
+                  "id": "x-thanks-parent",
+                  "locator": "the parent post, https://x.com/Palestinianengr/status/1400910223930540038"
+                },
+                {
+                  "id": "youtube",
+                  "locator": "Jones’s description of the attached image"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unverified-screenshots",
+          "title": "Words widely attributed, not located as live posts",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The Jones video title, and a number of secondary reports, attribute to Fine the sentences “There is no suffering adequate for these animals. May the streets of Gaza overflow with blood,” “Kill. Them. All. #NoMercy #BombsAway,” and “Gaza must be destroyed.” A full-archive search of @VoteRandyFine and @RepFine on 13 November 2026 did not locate a still-public post containing those exact texts. This page therefore does not present those sentences as verified live quotations. If the original posts are produced, this record should be updated.",
+              "sources": [
+                {
+                  "id": "youtube",
+                  "locator": "words attributed in the video title and commentary"
+                },
+                {
+                  "id": "wikipedia",
+                  "locator": "notes CAIR’s criticism of a post in which Fine is said to have written that ‘Gaza must be destroyed’"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fox-interview",
+      "title": "The Fox News interview and the nuclear comparison",
+      "intro": "In May 2025 Fine gave a Fox News interview after the killing of two Israeli embassy staff in Washington. What he said, how it was reported, and how he answered the reporting are set out separately.",
+      "entries": [
+        {
+          "id": "fox-quotes",
+          "title": "What Ynet reported him as saying",
+          "kind": "News reporting",
+          "date": "2025-05-23",
+          "paragraphs": [
+            {
+              "text": "Ynet, in an article later updated with a correction, reported that Fine was asked whether the Washington shooting changed the calculus on calls for a ceasefire in Gaza. It quoted him as saying: “The only end of the conflict [in Gaza] is complete and total surrender by those who support Muslim terror.” It then quoted him as saying: “In World War II, we didn’t negotiate a surrender with the Nazis. We didn’t negotiate a surrender with the Japanese. We nuked the Japanese twice in order to get unconditional surrender. That needs to be the same here.” And: “The fact of the matter is the Palestinian cause is an evil one. There is something deeply, deeply wrong with this culture, and it needs to be defeated.”",
+              "sources": [
+                {
+                  "id": "ynet-fox",
+                  "locator": "the quoted interview remarks, as published after Ynet’s correction"
+                }
+              ]
+            },
+            {
+              "text": "The same Ynet article ends with this correction: “A previous version of this story included a quote suggesting that Rep. Fine called for the use of nuclear weapons in Gaza. The quote has been removed, and the article has been updated to reflect the accurate details. We apologize for any confusion caused as a result of this error.” On 23 May 2025 Fine himself wrote that Ynet had quoted him as saying “we should nuke Gaza,” called that “a fabricated quote, blatant journalistic malpractice,” demanded a formal apology, and said he would be exploring legal action. After Ynet posted a correction, he wrote that it was “not good enough.”",
+              "sources": [
+                {
+                  "id": "ynet-fox",
+                  "locator": "correction at the end of the article"
+                },
+                {
+                  "id": "x-ynet-denial",
+                  "locator": "https://x.com/RepFine/status/1925946763321516299"
+                },
+                {
+                  "id": "x-ynet-not-enough",
+                  "locator": "https://x.com/RepFine/status/1925999576445591588"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "his-denial",
+          "title": "How he has explained the remark",
+          "kind": "The author’s own words",
+          "date": "2025-05-26",
+          "paragraphs": [
+            {
+              "text": "On 26 May 2025, replying from @VoteRandyFine to a user who had asked whether he had “just call[ed] to nuke Gaza,” Fine wrote a longer explanation: “Neither Fox nor any other legitimate outlet interpreted it as a call to nuke Gaza, which would be a stupid idea on multiple levels (would kill the hostages, fallout drifts into Israel, just to name the two most obvious, and there are many, many, many more).   If you watch the full thing, the statement basically is that Hamas is no different than Nazi Germany or Imperial Japan, and we did whatever was needed to get unconditional surrender.  In the case of Japan, that involved nuking them not once, but twice.  Israel needs to so whatever necessary to obtain the same result -- release of all hostages and unconditional surrender.”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "x-hilz-denial",
+                  "locator": "full text, https://x.com/VoteRandyFine/status/1927118679554093369"
+                }
+              ]
+            },
+            {
+              "text": "Jewish Insider, in a June 2025 interview, similarly recorded that “contrary to some reports, Fine has denied that he wants to see the territory nuked.” In the same interview it quoted him as arguing that “Palestinians in Gaza are on a level of evil that we saw in Japan and we saw in Germany back in World War II,” and as saying Hamas would not agree to a final surrender “unless the pain is sufficiently great to do that.” Those are Jewish Insider’s quotations of his interview remarks.",
+              "sources": [
+                {
+                  "id": "ji-2025",
+                  "locator": "denial that he wants Gaza nuked; WWII comparison; ‘unless the pain is sufficiently great’"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starve-away",
+      "title": "“Until then, starve away.”",
+      "intro": "In late July 2025 Fine posted repeatedly about reporting of starvation in Gaza. The posts, and a condemnation from the American Jewish Committee, are set out below.",
+      "entries": [
+        {
+          "id": "starve-post",
+          "title": "22 July 2025 · the post",
+          "kind": "The author’s own words",
+          "date": "2025-07-22",
+          "paragraphs": [
+            {
+              "text": "On 22 July 2025, from @RepFine, Fine quote-posted an ABC News post which said: “Fifteen people have died — including four children — from famine and malnutrition in Gaza in the last 24 hours, Hamas-run health ministry says.” Fine wrote: “Release the hostages.     Until then, starve away.    (This is all a lie anyway.  It amazes me that the media continues to regurgitate Muslim terror propaganda.)”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "x-starve",
+                  "locator": "https://x.com/RepFine/status/1947635219869139083"
+                },
+                {
+                  "id": "x-abc-parent",
+                  "locator": "the ABC post he quoted, https://x.com/ABC/status/1947626366024720625"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ajc-and-followups",
+          "title": "The AJC response and later posts",
+          "kind": "News reporting and the author’s own words",
+          "paragraphs": [
+            {
+              "text": "The Jewish Telegraphic Agency reported that the American Jewish Committee issued a statement on X: “The serious humanitarian situation in Gaza must not be taken lightly,” adding, “Implying that starvation is a legitimate tactic is unacceptable.” JTA presented that statement as a response to Fine’s post.",
+              "sources": [
+                {
+                  "id": "jta-ajc",
+                  "locator": "AJC statement, as quoted on 25 July 2025"
+                }
+              ]
+            },
+            {
+              "text": "On 24 July 2025, from @RepFine, Fine wrote: “When you wonder why I don't give a shit about Gazans, here is one reason.  As if it wasn't enough, there are 1450 more.” On 27 July 2025 he wrote: “There is no starvation.   Everything about the “Palestinian” cause is a lie.” On 30 July 2025 he wrote: “If kids were actually starving in Gaza, the New York Times wouldn't have had to use a picture of a child with a rare neuro-muscular condition to lie and claim there was.    Everything about the \"Palestinian\" cause is a lie.  Everything.” On 1 August 2025 he wrote: “This is actual starvation.  Not AI/Yemeni/genetic disorder/next to fat people bullshit Gazans fake to manipulate the weak and stupid.    Israel, do whatever is necessary in and to Gaza to secure the release of Rom Braslavski and the other 49 hostages.  Anything.    Bombs away.”",
+              "sources": [
+                {
+                  "id": "x-dont-give",
+                  "locator": "https://x.com/RepFine/status/1948197468832952361"
+                },
+                {
+                  "id": "x-no-starvation",
+                  "locator": "https://x.com/RepFine/status/1949440913958404517"
+                },
+                {
+                  "id": "x-nyt-image",
+                  "locator": "https://x.com/RepFine/status/1950508522078347680"
+                },
+                {
+                  "id": "x-actual-starvation",
+                  "locator": "https://x.com/RepFine/status/1951099040101199930"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "his-defence",
+      "title": "How he frames the statements",
+      "intro": "Fine’s own later posts and interviews are the best evidence of how he says the remarks should be read. They are recorded here as his defence, not as a conclusion of this page.",
+      "entries": [
+        {
+          "id": "terrorists-not-civilians",
+          "title": "“All terrorists deserve death”",
+          "kind": "The author’s own words",
+          "date": "2025-10-12",
+          "paragraphs": [
+            {
+              "text": "On 12 October 2025, from @RepFine, Fine wrote: “I always find it interesting when I say all terrorists deserve death and Muslims like Cenk hear “kill all the Palestinians.”    Maybe he knows something we don’t?” The remark is his own summary of how he says his words have been heard. It is not independent confirmation that every earlier post was only about Hamas.",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "x-terrorists-deserve",
+                  "locator": "https://x.com/RepFine/status/1977364981587775715"
+                }
+              ]
+            },
+            {
+              "text": "In a 2 August 2025 post he wrote that “Hamas is pure evil,” that “They’re the ones gouging food prices and hoarding supplies to fund their war machine,” and that “They need to wave the white flag or get wiped out, plain and simple,” ending: “The world should be demanding their unconditional surrender. FREE THE HOSTAGES.” On 3 August 2025 he wrote that “Gaza started a genocidal war whose goal was to kill as many men, women, and children as possible,” and that “if Gazans don’t want more of this, they can release the hostages and surrender.” Those posts put the emphasis on Hamas, hostages and surrender. Other posts quoted above, including “starve away,” “I could care less what happens to Gazans,” and “Destroy it all,” are not, on their face, limited to named members of Hamas. Readers can compare the texts.",
+              "sources": [
+                {
+                  "id": "x-white-flag",
+                  "locator": "full text, https://x.com/RepFine/status/1951674467400188160"
+                },
+                {
+                  "id": "x-gaza-started",
+                  "locator": "full text, https://x.com/RepFine/status/1952032982807568423"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "responses",
+      "title": "Responses and calls for censure",
+      "intro": "Advocacy groups and commentators have used much stronger language than this page will adopt. Their statements are attributed to them.",
+      "entries": [
+        {
+          "id": "how-critics-describe-him",
+          "title": "How critics describe him",
+          "kind": "Attributed comment",
+          "paragraphs": [
+            {
+              "text": "Owen Jones’s video, already cited on this page, is titled “This Genocidal Psycho Just Got Elected To US Congress: “May The Streets of Gaza Overflow With Blood”.” That phrase, “genocidal psycho,” is Jones’s title, not a label of this page. Some users on X have used similar language. On 2 August 2025, in a reply to Fine’s “Yes” post, the account @DiedSuddenly_ (display name Days of Noah) called him a “genocidal maniac.” That is that user’s characterisation, not a finding or a label of this page.",
+              "sources": [
+                {
+                  "id": "youtube",
+                  "locator": "video title, https://www.youtube.com/watch?v=xCQN25HBbGw"
+                },
+                {
+                  "id": "x-diedsuddenly",
+                  "locator": "reply of 2 August 2025, 18:17 UTC, https://x.com/DiedSuddenly_/status/1951709063764639891; this page quotes only the characterisation “genocidal maniac”"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cair-and-commentators",
+          "title": "CAIR, Jones, and the word ‘genocide’",
+          "kind": "Attributed commentary",
+          "paragraphs": [
+            {
+              "text": "The Council on American-Islamic Relations has, according to Wikipedia’s summary of its statements, labelled Fine an “anti-Muslim extremist” and characterised several of his remarks as “genocidal rhetoric,” including criticism of a post in which he is said to have written “Gaza must be destroyed,” and has called for Congress to condemn and censure him. Those are CAIR’s characterisations. Owen Jones, in the video already cited, argues that the posts amount to “direct and public incitement to commit genocide” under Article III of the 1948 Genocide Convention and under 18 U.S.C. § 1091. That is Jones’s legal argument, not a court finding and not a finding of this page.",
+              "sources": [
+                {
+                  "id": "wikipedia",
+                  "locator": "CAIR’s labelling and its characterisation of the statements; calls for condemnation"
+                },
+                {
+                  "id": "youtube",
+                  "locator": "Jones’s argument from Article III and 18 U.S.C. § 1091"
+                }
+              ]
+            },
+            {
+              "text": "The American Jewish Committee’s July 2025 statement, already quoted, did not use the word genocide. It said that implying starvation is a legitimate tactic is unacceptable. As of this review, this page has not located a resolution on Congress.gov recording that the House has voted to censure Fine.",
+              "sources": [
+                {
+                  "id": "jta-ajc",
+                  "locator": "AJC statement as quoted by JTA"
+                },
+                {
+                  "id": "wikipedia",
+                  "locator": "cross-check of public controversy; no House censure vote established here"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-legal-question",
+      "title": "The question this page will not pretend to decide",
+      "intro": "Independent Tribunal is not a court. The legal texts are set out so that readers can see what is being asked.",
+      "entries": [
+        {
+          "id": "article-iii",
+          "title": "Genocide Convention Article III(c)",
+          "kind": "Legal framework",
+          "paragraphs": [
+            {
+              "text": "Article III of the Convention on the Prevention and Punishment of the Crime of Genocide lists, among the acts that “shall be punishable,” “(c) Direct and public incitement to commit genocide.” The United States has implemented related offences in federal criminal law, including 18 U.S.C. § 1091, which addresses genocide and, in that setting, direct and public incitement. Those texts exist independently of this page.",
+              "sources": [
+                {
+                  "id": "convention",
+                  "locator": "Article III(c)"
+                },
+                {
+                  "id": "usc-1091",
+                  "locator": "18 U.S.C. § 1091"
+                }
+              ]
+            },
+            {
+              "text": "The questions worth asking, and which this page does not answer as a finding, include these. Do these statements amount to direct and public incitement to genocide under Article III(c), or to advocacy of collective punishment? Do they remain, as Fine says, calls for the defeat of Hamas and for unconditional surrender, directed at a terrorist organisation and not at a civilian population? A post that uses “Gazans” or “Palestinian” without naming Hamas is not automatically a legal conclusion either way. Suspicion is not proof. A commentator’s title is not a verdict. Independent Tribunal is an independent public-interest research and accountability initiative, not a court with coercive or judicial powers.",
+              "sources": [
+                {
+                  "id": "convention",
+                  "locator": "the text of Article III(c), against which the question is asked"
+                },
+                {
+                  "id": "x-hilz-denial",
+                  "locator": "Fine’s stated defence: unconditional surrender, not a call to nuke Gaza"
+                },
+                {
+                  "id": "editorial",
+                  "locator": "how this site describes itself"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authors-disclosure",
+      "title": "Author’s disclosure",
+      "intro": "This section is a first-person statement by Mars Robertson, the author of IndependentTribunal.org. It is his own account of his position and contacts, clearly marked as such. It is not a finding of this page, not a judgment of character, and not an allegation of wrongdoing against anyone named below.",
+      "entries": [
+        {
+          "id": "authors-statement",
+          "title": "A statement in the author’s own name",
+          "kind": "Author’s disclosure",
+          "paragraphs": [
+            {
+              "text": "Randy Fine was the reason I conditionally and strategically supported Bilzerian’s primary challenge. In that race I supported Dan Bilzerian’s campaign on a provisional and temporary basis. On 10 November 2026 I wrote, from @MarsitaTheUltra: “I support independent candidates, in principle. @DanBilzerian @ElectBilzerian was totally unserious about the campaign, 28.5M followers on Insta and not a single post... Totally unserious. My support to his campaign was provisional and temporary.” The post names Bilzerian and the campaign account @ElectBilzerian. Official election records, set out above, show that Bilzerian ran as a Republican in the 18 August 2026 primary, not as an independent candidate. My post also stated a general principle of supporting independent candidates. This is my own statement, not a finding of this page.",
+              "sources": [
+                {
+                  "id": "x-mars-support",
+                  "locator": "https://x.com/MarsitaTheUltra/status/2120137598794694744, 10 November 2026, 12:52 UTC"
+                },
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "Bilzerian listed among Republican primary candidates"
+                }
+              ]
+            },
+            {
+              "text": "That support was strategic and conditional. It was directed at a candidate with a large Instagram platform — the post gives the figure as 28.5 million followers — and at the possibility of reaching that audience. In politics and diplomacy, one may support or withhold support strategically, based on overarching objectives. An artist looking for an audience is a commonplace example. Support of that kind is not an endorsement of every view a candidate holds. I refuse to call myself, or be labelled, a Nazi supporter.",
+              "sources": [
+                {
+                  "id": "x-mars-support",
+                  "locator": "the same post, including the 28.5 million Instagram figure and the description of support as provisional and temporary"
+                },
+                {
+                  "id": "editorial",
+                  "locator": "the author’s own statement of position, not a finding of this page"
+                }
+              ]
+            },
+            {
+              "text": "Before the Epstein files were made public, I was in contact with individuals later named in them, including Brock Pierce and Maria Prusakova (also known as Masha Prusso). I value the lessons learnt. That is a statement about my own contacts and what I took from them. It is not an allegation against those individuals, and this page makes none in its own voice.",
+              "sources": [
+                {
+                  "id": "editorial",
+                  "locator": "the author’s own disclosure, not a finding"
+                },
+                {
+                  "id": "doj-epstein-library",
+                  "locator": "U.S. Department of Justice Epstein Files Transparency Act library"
+                },
+                {
+                  "id": "wikipedia-prusakova",
+                  "locator": "English Wikipedia biography of Mariya Prusakova (snowboarder)"
+                }
+              ]
+            },
+            {
+              "text": "Brock Pierce’s name appears in documents released by the U.S. Department of Justice under the Epstein Files Transparency Act. The official library is at https://www.justice.gov/epstein and includes a search of the full library; a search for “Brock Pierce” is the check invited here. Individual files on that site are behind an age-verification gate, and a live keyword search could not be completed from this publishing environment. Third-party indexes of the same official release include correspondence involving him, among them document EFTA01923671, an email dated 13 May 2014 from Brock Pierce to Jeffrey Epstein asking for information about Jeff Herman, indexed as coming from DOJ Data Set 10. Appearance in released documents is not, by itself, a finding of wrongdoing, and this page makes no such finding.",
+              "sources": [
+                {
+                  "id": "doj-epstein-library",
+                  "locator": "https://www.justice.gov/epstein — official library and search of the full collection"
+                },
+                {
+                  "id": "efta-01923671",
+                  "locator": "third-party index of official EFTA document EFTA01923671, email of 13 May 2014"
+                }
+              ]
+            },
+            {
+              "text": "For Maria Prusakova, this page quotes Wikipedia and names Wikipedia’s source. The English Wikipedia article “Mariya Prusakova (snowboarder)”, checked on 13 November 2026, states: “She recruited women into Epstein's trafficking network, calling herself the \"Paris based Ghislaine Maxwell\" in a 2013 email to Epstein.” Wikipedia attaches that sentence to David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. This page repeats the recruitment and trafficking characterisation only as Wikipedia’s, citing The Verge; it does not adopt it as a finding of its own. The Verge itself quotes the 2013 email as saying, in part, “Sometimes I think that I am your Paris based Ghislaine Maxwell.” The same Verge article, in a section headed Epstein’s “Madam”, names Masha Drokova (also known as Masha Bucher) and Maria Prusakova (also known as Masha Prusso). A user-supplied screenshot of that section is reproduced below, as a record of the reporting, not as a finding of this page.",
+              "sources": [
+                {
+                  "id": "wikipedia-prusakova",
+                  "locator": "exact wording of the 2013 email sentence, citing Morris, The Verge, 27 February 2026 (reference 5 on the live page)"
+                },
+                {
+                  "id": "verge-epstein-bitcoin",
+                  "locator": "section “Epstein’s ‘Madam’”; quotation “Sometimes I think that I am your Paris based Ghislaine Maxwell.”"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "authors-green-view",
+          "title": "The author’s view of the Green Party motion",
+          "kind": "Author’s disclosure",
+          "paragraphs": [
+            {
+              "text": "I appreciate the lessons from the “Zionism is racism” motion at the Green Party of England and Wales annual conference in Brighton in October 2026. BBC News reported that members passed the motion on Sunday 4 October 2026 by 1,022 votes to 813, and that Zack Polanski, the party’s leader, left the conference before the vote to campaign in the Holborn and St Pancras by-election. He was the Green candidate in that by-election, held on 8 October 2026; he was not the Green candidate in Holborn and St Pancras at the 4 July 2024 general election, when David Stansell stood for the party. Official UK Parliament results show that Labour’s Sagal Abdi-Wali won the by-election with 12,292 votes (45.2%) and that Polanski came second with 8,928 votes (32.8%), on a turnout of 38.6%. It is my own view, not a finding established by those sources, that the motion derailed his bid to become MP for the seat.",
+              "sources": [
+                {
+                  "id": "bbc-green-motion",
+                  "locator": "Green Party annual conference, Brighton; motion passed 1,022 to 813 on Sunday; Polanski left early to campaign in Holborn and St Pancras; article dated 4 October 2026, updated 5 October 2026"
+                },
+                {
+                  "id": "parliament-holborn-2026",
+                  "locator": "by-election, 8 October 2026: Abdi-Wali (Lab) 12,292 (45.2%), Polanski (Green) 8,928 (32.8%); turnout 38.6%"
+                },
+                {
+                  "id": "parliament-holborn-2024",
+                  "locator": "general election, 4 July 2024: Green candidate David Stansell, 4,030 votes (10.4%); Polanski did not stand"
+                },
+                {
+                  "id": "editorial",
+                  "locator": "the author’s own view that the motion derailed the bid; not a sourced causal finding"
+                }
+              ]
+            },
+            {
+              "text": "In my own view, which is not a finding of this page, that motion was a clusterfuck of epic proportions. Rather than focus on a historic breakthrough, on something majestic, they chose to focus on something shockingly bad. I am very not compliant, very not complicit.",
+              "sources": [
+                {
+                  "id": "editorial",
+                  "locator": "the author’s own opinion, not a finding of this page"
+                },
+                {
+                  "id": "bbc-green-motion",
+                  "locator": "the conference motion discussed above"
+                }
+              ]
+            },
+            {
+              "text": "A panel in the satire graphic below refers to a September 2025 dispute, reported by BBC News, over a Your Party membership launch. On 18 September 2025 the BBC reported that Jeremy Corbyn described an email promoting a membership portal as “unauthorised,” and that Zarah Sultana said she had launched the portal after being sidelined, and that that week’s emails did not have the “dual authorisation of both myself and Jeremy,” which, she said, “was the agreement made at the start of this process.” Those are the parties’ own characterisations as reported by the BBC, not findings of this page.",
+              "sources": [
+                {
+                  "id": "bbc-your-party",
+                  "locator": "Sam Francis, 18 September 2025: Corbyn called the email “unauthorised”; Sultana said the week’s emails lacked the agreed dual authorisation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "house-bio",
+      "title": "Biography",
+      "publisher": "U.S. House of Representatives (Office of Rep. Randy Fine)",
+      "type": "Official biography",
+      "url": "https://fine.house.gov/about",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "clerk",
+      "title": "Randy Fine, member profile",
+      "publisher": "Office of the Clerk, U.S. House of Representatives",
+      "type": "Official record",
+      "url": "https://clerk.house.gov/Members/F000484",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "ballotpedia",
+      "title": "Randy Fine",
+      "publisher": "Ballotpedia",
+      "type": "Secondary reference work",
+      "url": "https://ballotpedia.org/Randy_Fine",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "flhouse",
+      "title": "Randy Fine — 2022–2024 (Speaker Renner)",
+      "publisher": "Florida House of Representatives",
+      "type": "Official record",
+      "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4646",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "flsenate",
+      "title": "Senator Randy Fine, 2024–2026, District 19",
+      "publisher": "The Florida Senate",
+      "type": "Official record",
+      "url": "https://www.flsenate.gov/Senators/2024-2026/S19/5260",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-user-personal",
+      "title": "Randy Fine (@VoteRandyFine)",
+      "publisher": "X",
+      "type": "Official or personal account",
+      "url": "https://x.com/VoteRandyFine",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "youtube",
+      "title": "This Genocidal Psycho Just Got Elected To US Congress: “May The Streets of Gaza Overflow With Blood”",
+      "publisher": "Owen Jones (YouTube)",
+      "type": "Published video",
+      "url": "https://www.youtube.com/watch?v=xCQN25HBbGw",
+      "date": "2025-04-03",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "ynet-fox",
+      "title": "‘We didn’t negotiate with the Nazis’: US congressman calls for Hamas’ total surrender",
+      "publisher": "Ynet",
+      "type": "News report, later corrected",
+      "url": "https://www.ynetnews.com/article/syblszrbll",
+      "date": "2025-05-23",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "ji-2025",
+      "title": "Rep. Randy Fine says he’s on Capitol Hill to be a leader against antisemitism",
+      "publisher": "Jewish Insider",
+      "type": "Interview",
+      "url": "https://jewishinsider.com/2025/06/randy-fine-antisemitism-jewish-republican-florida-congress/",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "jta-ajc",
+      "title": "As hunger crisis mounts in Gaza, Jewish voices increasingly rise up in consternation",
+      "publisher": "Jewish Telegraphic Agency",
+      "type": "News report",
+      "url": "https://www.jta.org/2025/07/25/israel/as-starvation-mounts-in-gaza-jewish-voices-increasingly-rise-up-in-consternation",
+      "date": "2025-07-25",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-starve",
+      "title": "Release the hostages. Until then, starve away.",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1947635219869139083",
+      "date": "2025-07-22",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-abc-parent",
+      "title": "Fifteen people have died — including four children — from famine and malnutrition in Gaza",
+      "publisher": "ABC News (@ABC)",
+      "type": "News post on X",
+      "url": "https://x.com/ABC/status/1947626366024720625",
+      "date": "2025-07-22",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-dont-give",
+      "title": "When you wonder why I don't give a shit about Gazans, here is one reason.",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1948197468832952361",
+      "date": "2025-07-24",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-no-starvation",
+      "title": "There is no starvation.",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1949440913958404517",
+      "date": "2025-07-27",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-nyt-image",
+      "title": "If kids were actually starving in Gaza…",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1950508522078347680",
+      "date": "2025-07-30",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-actual-starvation",
+      "title": "This is actual starvation.",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1951099040101199930",
+      "date": "2025-08-01",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-bibas",
+      "title": "The Bibas brothers were taken hostage and killed by “Palestinian civilians.”",
+      "publisher": "Randy Fine (@VoteRandyFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/VoteRandyFine/status/1892277453101338696",
+      "date": "2025-02-19",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-moab",
+      "title": "Calling these people animals is unfair to animals.",
+      "publisher": "Randy Fine (@VoteRandyFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/VoteRandyFine/status/1888286146360127831",
+      "date": "2025-02-08",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-demon",
+      "title": "“Palestinian” is just another word for demon.",
+      "publisher": "Randy Fine (@VoteRandyFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/VoteRandyFine/status/1893792763067482238",
+      "date": "2025-02-23",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-care-less",
+      "title": "I could care less what happens to Gazans",
+      "publisher": "Randy Fine (@VoteRandyFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/VoteRandyFine/status/1793752482558218545",
+      "date": "2024-05-23",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-thanks-pic",
+      "title": "Quite well, actually! Thanks for the pic!",
+      "publisher": "Randy Fine (@VoteRandyFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/VoteRandyFine/status/1400916571892105221",
+      "date": "2021-06-04",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-thanks-parent",
+      "title": "Supporting killing innocent ppl and babies…",
+      "publisher": "Maram (@Palestinianengr)",
+      "type": "Another user’s post on X",
+      "url": "https://x.com/Palestinianengr/status/1400910223930540038",
+      "date": "2021-06-04",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-ynet-denial",
+      "title": "Where on earth did I say, as you quote, “we should nuke Gaza.”",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1925946763321516299",
+      "date": "2025-05-23",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-ynet-not-enough",
+      "title": "Not good enough. You fabricated the quote.",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1925999576445591588",
+      "date": "2025-05-23",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-hilz-denial",
+      "title": "Neither Fox nor any other legitimate outlet interpreted it as a call to nuke Gaza",
+      "publisher": "Randy Fine (@VoteRandyFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/VoteRandyFine/status/1927118679554093369",
+      "date": "2025-05-26",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-terrorists-deserve",
+      "title": "I always find it interesting when I say all terrorists deserve death",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1977364981587775715",
+      "date": "2025-10-12",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-white-flag",
+      "title": "Hamas is pure evil… wave the white flag or get wiped out",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1951674467400188160",
+      "date": "2025-08-02",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-gaza-started",
+      "title": "Gaza started a genocidal war whose goal was to kill as many men, women, and children as possible",
+      "publisher": "Congressman Randy Fine (@RepFine)",
+      "type": "The author’s post on X",
+      "url": "https://x.com/RepFine/status/1952032982807568423",
+      "date": "2025-08-03",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Randy Fine",
+      "publisher": "Wikipedia",
+      "type": "Secondary reference work, cross-checked",
+      "url": "https://en.wikipedia.org/wiki/Randy_Fine",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "convention",
+      "title": "Convention on the Prevention and Punishment of the Crime of Genocide",
+      "publisher": "United Nations (OHCHR)",
+      "type": "Treaty text",
+      "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-prevention-and-punishment-crime-genocide",
+      "date": "1948-12-09",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "usc-1091",
+      "title": "18 U.S.C. § 1091 — Genocide",
+      "publisher": "United States Code (Office of the Law Revision Counsel)",
+      "type": "Statute",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1091&num=0&edition=prelim",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "editorial",
+      "title": "Editorial standards",
+      "publisher": "Independent Tribunal",
+      "type": "Our policy",
+      "url": "https://independenttribunal.org/legal/editorial-standards/",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "fl-doe-2026-primary",
+      "title": "August 18, 2026 Primary Election — Official Results, United States Representative, Republican",
+      "publisher": "Florida Division of Elections",
+      "type": "Official election results",
+      "url": "https://results.elections.myflorida.com/SummaryRpt.asp?ElectionDate=8%2F18%2F2026&Party=REP&Race=FED",
+      "date": "2026-08-18",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "ballotpedia-2026-primary",
+      "title": "Florida's 6th Congressional District election, 2026 (August 18 Republican primary)",
+      "publisher": "Ballotpedia",
+      "type": "Secondary reference work, certified tally",
+      "url": "https://ballotpedia.org/Florida's_6th_Congressional_District_election,_2026_(August_18_Republican_primary)",
+      "date": "2026-08-18",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-mars-support",
+      "title": "Post by @MarsitaTheUltra on support for Dan Bilzerian’s campaign",
+      "publisher": "X (Marsita the Ultra / Mars Robertson)",
+      "type": "Social media post",
+      "url": "https://x.com/MarsitaTheUltra/status/2120137598794694744",
+      "date": "2026-11-10",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "doj-epstein-library",
+      "title": "Epstein Library",
+      "publisher": "U.S. Department of Justice",
+      "type": "Official document library",
+      "url": "https://www.justice.gov/epstein",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "efta-01923671",
+      "title": "Email from Brock Pierce (EFTA01923671)",
+      "publisher": "Epstein Exposed index of DOJ Data Set 10",
+      "type": "Third-party index of an official release",
+      "url": "https://epsteinexposed.com/documents/efta-01923671",
+      "date": "2014-05-13",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "wikipedia-prusakova",
+      "title": "Mariya Prusakova (snowboarder)",
+      "publisher": "Wikipedia",
+      "type": "Secondary reference work",
+      "url": "https://en.wikipedia.org/wiki/Mariya_Prusakova_(snowboarder)",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "verge-epstein-bitcoin",
+      "title": "Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters",
+      "publisher": "The Verge (David Z. Morris)",
+      "type": "News report",
+      "url": "https://www.theverge.com/tech/885252/jeffrey-epstein-bitcoin-cryptocurrency-connections",
+      "date": "2026-02-27",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "bbc-green-motion",
+      "title": "Green Party members back 'Zionism is racism' conference motion",
+      "publisher": "BBC News (Kate Whannel)",
+      "type": "News report",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdm5n1vy7go",
+      "date": "2026-10-04",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "parliament-holborn-2026",
+      "title": "Holborn and St Pancras by-election — October 2026",
+      "publisher": "UK Parliament, House of Commons Library Election Results",
+      "type": "Official election results",
+      "url": "https://electionresults.parliament.uk/elections/4557",
+      "date": "2026-10-08",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "parliament-holborn-2024",
+      "title": "Holborn and St Pancras general election — July 2024",
+      "publisher": "UK Parliament, House of Commons Library Election Results",
+      "type": "Official election results",
+      "url": "https://electionresults.parliament.uk/elections/3540",
+      "date": "2024-07-04",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-deserve-yes",
+      "title": "Yes",
+      "publisher": "X (Rep. Randy Fine, @RepFine)",
+      "type": "Social media post",
+      "url": "https://x.com/RepFine/status/1951707946829975570",
+      "date": "2025-08-02",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-deserve-parent",
+      "title": "Did Gaza deserve it?",
+      "publisher": "X (@VividProwess)",
+      "type": "Social media post",
+      "url": "https://x.com/VividProwess/status/1951597805660684742",
+      "date": "2025-08-02",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-diedsuddenly",
+      "title": "Reply to Rep. Fine, 2 August 2025",
+      "publisher": "X (@DiedSuddenly_ / Days of Noah)",
+      "type": "Social media post",
+      "url": "https://x.com/DiedSuddenly_/status/1951709063764639891",
+      "date": "2025-08-02",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "bbc-your-party",
+      "title": "Corbyn and Sultana clash over new party membership",
+      "publisher": "BBC News (Sam Francis)",
+      "type": "News report",
+      "url": "https://www.bbc.co.uk/news/articles/cgkn3v1e7g3o",
+      "date": "2025-09-18",
+      "checked": "2026-11-13"
+    }
+  ],
+  "artworks": [
+    {
+      "src": "/images/randy-fine-quite-well-2021.webp",
+      "width": 1174,
+      "height": 1848,
+      "after_entry": "thanks-for-the-pic",
+      "content_warning": "Graphic image of a child in rubble. The photograph of the child in the original post has been blurred. Select to reveal the screenshot.",
+      "alt": "Screenshot of an X exchange on 4 June 2021. Maram (@Palestinianengr) accuses Randy Fine of supporting the killing of innocent people and babies and asks how he sleeps at night, above a region where a photograph of a child in rubble has been blurred and labelled “Graphic image concealed”. Fine (@VoteRandyFine) replies: “Quite well, actually! Thanks for the pic!” The screenshot displays 9:45 PM, 4 June 2021, and a Riviera Beach, Florida location tag.",
+      "caption": "User-supplied screenshot of the 4 June 2021 exchange, checked against the still-public parent post by Maram (@Palestinianengr) and Fine’s reply at https://x.com/VoteRandyFine/status/1400916571892105221. The photograph of a child in rubble attached to the parent post has been blurred on this page. Graphic content.",
+      "transcript": "Maram @Palestinianengr · Jun 4, 2021: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” [Attached photograph of a child in rubble; blurred on this page, with the label “Graphic image concealed / Photograph of a child in rubble has been blurred”.] Randy Fine @VoteRandyFine: “Quite well, actually! Thanks for the pic!” Timestamp shown on the screenshot: 9:45 PM · Jun 4, 2021 from Riviera Beach, FL. The live post is timestamped 20:45:13 UTC on 4 June 2021."
+    },
+    {
+      "src": "/images/randy-fine-gaza-deserve-it-2025.webp",
+      "width": 700,
+      "height": 810,
+      "after_entry": "gaza-deserve-it",
+      "alt": "Screenshot of an X exchange on 2 August 2025. Vivid (@VividProwess) posts “Did Gaza deserve it?” above an aerial photograph of a densely built city in Gaza reduced to rubble. Congressman Randy Fine (@RepFine) replies “Yes.” The screenshot shows 7:13 PM, 2 August 2025, and 58.3K views.",
+      "caption": "User-supplied screenshot of the 2 August 2025 exchange, checked against the still-public parent post by @VividProwess and Fine’s reply at https://x.com/RepFine/status/1951707946829975570. Cropped to those two posts.",
+      "transcript": "Vivid. @VividProwess · Aug 2, 2025: “Did Gaza deserve it?” [Aerial photograph of destroyed buildings across a densely built area of Gaza.] Congressman Randy Fine @RepFine: “Yes.” Timestamp shown on the screenshot: 7:13 PM · Aug 2, 2025 · 58.3K Views. The live reply is timestamped 18:13:30 UTC on 2 August 2025."
+    },
+    {
+      "src": "/images/verge-epstein-madam.webp",
+      "width": 900,
+      "height": 687,
+      "after_entry": "authors-statement",
+      "alt": "Screenshot of The Verge article “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, from the section headed Epstein’s “Madam”, naming former pro-Putin activist Masha Drokova (also known as Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (also known as Masha Prusso).",
+      "caption": "User-supplied screenshot of the section “Epstein’s ‘Madam’” in David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. Reproduced here as a record of that reporting, not as a finding of this page.",
+      "transcript": "The Verge. Headline: “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters.” Section heading: Epstein’s “Madam”. Opening sentences: “While Epstein himself moved at the higher end of the crypto world, he appears to have put at least two of “his Russians” to work in the trenches: former pro-Putin activist Masha Drokova (aka Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (aka Masha Prusso). Epstein’s emails appear to show both women helping place deceptive media coverage to repair Epstein’s reputation, while using the same tactics and personnel to pump sketchy cryptocurrency investments.” The screenshot continues into a further paragraph naming Sarah Austin, M&A PR Studio, Forbes, The Next Web, the Huffington Post and Thrive Global. Those further characterisations are The Verge’s reporting, not findings of this page."
+    },
+    {
+      "src": "/images/ultra-own-goals-satire.webp",
+      "width": 1000,
+      "height": 1250,
+      "after_entry": "authors-green-view",
+      "alt": "Political satire infographic titled “ULTRA CLUSTERFUCKS: Meticulously engineered own goals.” Panel 1, labelled Your Party, names Zarah Sultana and Jeremy Corbyn and the line “membership launch without joint approval,” showing a figure at a computer as a shattered red block and a football fly into a goal. Panel 2, labelled Green Party, cites the “Zionism is racism” motion and “coalition fractures,” with a speaker at a podium, a ballot box, and a green bloc splitting as a ball hits the net. Panel 3 shows a figure walking away from the wreckage through an open door toward a desk labelled Marsita The Ultra, with the caption “Back to my own business” and the label “Political satire.”",
+      "caption": "Author’s political satire: “ULTRA CLUSTERFUCKS: Meticulously engineered own goals,” labelled “Political satire” on the graphic itself. This is the author’s commentary, not a finding of this page.",
+      "transcript": "Title: ULTRA CLUSTERFUCKS / METICULOUSLY ENGINEERED OWN GOALS. Panel 1: YOUR PARTY / Zarah Sultana · Jeremy Corbyn / Membership launch without joint approval. Panel 2: GREEN PARTY / “Zionism is racism” motion / Coalition fractures. Panel 3: a person walks away from the wreckage toward a desk labelled Marsita The Ultra. Caption: BACK TO MY OWN BUSINESS. / POLITICAL SATIRE."
+    }
+  ]
+}
