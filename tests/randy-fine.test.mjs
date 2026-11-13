@@ -98,10 +98,10 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.match(text("authors-statement"), /Paris based Ghislaine Maxwell/);
   assert.match(text("authors-statement"), /according to Wikipedia|Wikipedia article|Wikipedia attaches|quotes Wikipedia/i);
   assert.match(text("authors-statement"), /She recruited women into Epstein's trafficking network/);
-  assert.match(text("authors-statement"), /my own view, not a finding/);
-  assert.match(text("authors-statement"), /8 October 2026/);
-  assert.match(text("authors-statement"), /David Stansell/);
-  assert.doesNotMatch(text("authors-statement"), /Polanski stood in Holborn and St Pancras in 2024/);
+  assert.match(text("authors-green-view"), /my own view, not a finding/);
+  assert.match(text("authors-green-view"), /8 October 2026/);
+  assert.match(text("authors-green-view"), /David Stansell/);
+  assert.doesNotMatch(text("authors-green-view"), /Polanski stood in Holborn and St Pancras in 2024/);
   assert.equal(sources.get("verge-epstein-bitcoin").url, "https://www.theverge.com/tech/885252/jeffrey-epstein-bitcoin-cryptocurrency-connections");
   assert.equal(sources.get("x-mars-support").url, "https://x.com/MarsitaTheUltra/status/2120137598794694744");
   assert.equal(sources.get("wikipedia-prusakova").url, "https://en.wikipedia.org/wiki/Mariya_Prusakova_(snowboarder)");
@@ -128,4 +128,46 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.match(html, /51,109/);
   // Official portrait remains the Open Graph image.
   assert.ok(html.includes('property="og:image" content="https://independenttribunal.org/images/randy-fine-official-portrait.webp"'));
+
+  assert.match(text("gaza-deserve-it"), /Did Gaza deserve it\?/);
+  assert.match(text("gaza-deserve-it"), /replied: “Yes.”/);
+  assert.match(text("gaza-deserve-it"), /18:13:30 UTC on 2 August 2025/);
+  assert.match(text("gaza-deserve-it"), /user-supplied screenshot/);
+  assert.match(text("gaza-deserve-it"), /checked against the still-public/);
+  assert.equal(sources.get("x-deserve-yes").url, "https://x.com/RepFine/status/1951707946829975570");
+  assert.equal(sources.get("x-deserve-parent").url, "https://x.com/VividProwess/status/1951597805660684742");
+  const yesImage = (p.artworks ?? []).find((image) => image.src === "/images/randy-fine-gaza-deserve-it-2025.webp");
+  assert.equal(yesImage.after_entry, "gaza-deserve-it");
+  assert.equal(yesImage.width, 700);
+  assert.equal(yesImage.height, 810);
+  assert.match(yesImage.alt, /Did Gaza deserve it\?/);
+  assert.match(yesImage.caption, /User-supplied screenshot/);
+  const yesFile = await stat(new URL("../public/images/randy-fine-gaza-deserve-it-2025.webp", import.meta.url));
+  assert.ok(yesFile.size > 20_000 && yesFile.size < 400_000);
+  assert.ok(html.includes('src="/images/randy-fine-gaza-deserve-it-2025.webp"'));
+
+  assert.match(text("how-critics-describe-him"), /genocidal psycho/i);
+  assert.match(text("how-critics-describe-him"), /genocidal maniac/i);
+  assert.match(text("how-critics-describe-him"), /Owen Jones/);
+  assert.match(text("how-critics-describe-him"), /DiedSuddenly_/);
+  assert.match(text("how-critics-describe-him"), /not a label of this page|not a finding or a label of this page/);
+  assert.doesNotMatch(text("how-critics-describe-him"), /obesity/i);
+  assert.doesNotMatch(JSON.stringify(p), /obesity/i);
+  assert.equal(sources.get("x-diedsuddenly").url, "https://x.com/DiedSuddenly_/status/1951709063764639891");
+
+  assert.match(text("authors-statement"), /Randy Fine was the reason I conditionally and strategically supported Bilzerian/);
+  assert.match(text("authors-green-view"), /clusterfuck of epic proportions/);
+  assert.match(text("authors-green-view"), /very not compliant, very not complicit/);
+  assert.match(text("authors-green-view"), /not a finding of this page/);
+  assert.match(text("authors-green-view"), /Your Party/);
+  assert.equal(sources.get("bbc-your-party").url, "https://www.bbc.co.uk/news/articles/cgkn3v1e7g3o");
+  const satire = (p.artworks ?? []).find((image) => image.src === "/images/ultra-own-goals-satire.webp");
+  assert.equal(satire.after_entry, "authors-green-view");
+  assert.equal(satire.width, 1000);
+  assert.equal(satire.height, 1250);
+  assert.match(satire.caption, /political satire/i);
+  assert.match(satire.caption, /not a finding of this page/);
+  const satireFile = await stat(new URL("../public/images/ultra-own-goals-satire.webp", import.meta.url));
+  assert.ok(satireFile.size > 20_000 && satireFile.size < 400_000);
+  assert.ok(html.includes('src="/images/ultra-own-goals-satire.webp"'));
 });

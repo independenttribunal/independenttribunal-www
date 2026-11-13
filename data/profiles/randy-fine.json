@@ -335,6 +335,27 @@
           ]
         },
         {
+          "id": "gaza-deserve-it",
+          "title": "2 August 2025 · “Did Gaza deserve it?” — “Yes”",
+          "kind": "The author’s own words",
+          "date": "2025-08-02",
+          "paragraphs": [
+            {
+              "text": "On 2 August 2025, the account @VividProwess posted “Did Gaza deserve it?” with an aerial photograph of destroyed buildings in Gaza. Fine, from the official account @RepFine, replied: “Yes.” The live reply is timestamped 18:13:30 UTC on 2 August 2025 (7:13 pm British Summer Time that evening; 2:13 pm Eastern in Florida). At the time this page checked the post, X recorded about 58,400 views, matching the “58.3K Views” shown on the screenshot. A user-supplied screenshot of the exchange, which this page has checked against the still-public parent post and Fine’s reply, is reproduced below. The published image is cropped to those two posts; a later reply visible in the original file is not shown.",
+              "sources": [
+                {
+                  "id": "x-deserve-yes",
+                  "locator": "Fine’s reply, https://x.com/RepFine/status/1951707946829975570"
+                },
+                {
+                  "id": "x-deserve-parent",
+                  "locator": "the parent post, https://x.com/VividProwess/status/1951597805660684742"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "thanks-for-the-pic",
           "title": "4 June 2021 · “Quite well, actually!”",
           "kind": "The author’s own words",
@@ -559,6 +580,26 @@
       "intro": "Advocacy groups and commentators have used much stronger language than this page will adopt. Their statements are attributed to them.",
       "entries": [
         {
+          "id": "how-critics-describe-him",
+          "title": "How critics describe him",
+          "kind": "Attributed comment",
+          "paragraphs": [
+            {
+              "text": "Owen Jones’s video, already cited on this page, is titled “This Genocidal Psycho Just Got Elected To US Congress: “May The Streets of Gaza Overflow With Blood”.” That phrase, “genocidal psycho,” is Jones’s title, not a label of this page. Some users on X have used similar language. On 2 August 2025, in a reply to Fine’s “Yes” post, the account @DiedSuddenly_ (display name Days of Noah) called him a “genocidal maniac.” That is that user’s characterisation, not a finding or a label of this page.",
+              "sources": [
+                {
+                  "id": "youtube",
+                  "locator": "video title, https://www.youtube.com/watch?v=xCQN25HBbGw"
+                },
+                {
+                  "id": "x-diedsuddenly",
+                  "locator": "reply of 2 August 2025, 18:17 UTC, https://x.com/DiedSuddenly_/status/1951709063764639891; this page quotes only the characterisation “genocidal maniac”"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "cair-and-commentators",
           "title": "CAIR, Jones, and the word ‘genocide’",
           "kind": "Attributed commentary",
@@ -648,7 +689,7 @@
           "kind": "Author’s disclosure",
           "paragraphs": [
             {
-              "text": "In that race I supported Dan Bilzerian’s campaign on a provisional and temporary basis. On 10 November 2026 I wrote, from @MarsitaTheUltra: “I support independent candidates, in principle. @DanBilzerian @ElectBilzerian was totally unserious about the campaign, 28.5M followers on Insta and not a single post... Totally unserious. My support to his campaign was provisional and temporary.” The post names Bilzerian and the campaign account @ElectBilzerian. Official election records, set out above, show that Bilzerian ran as a Republican in the 18 August 2026 primary, not as an independent candidate. My post also stated a general principle of supporting independent candidates. This is my own statement, not a finding of this page.",
+              "text": "Randy Fine was the reason I conditionally and strategically supported Bilzerian’s primary challenge. In that race I supported Dan Bilzerian’s campaign on a provisional and temporary basis. On 10 November 2026 I wrote, from @MarsitaTheUltra: “I support independent candidates, in principle. @DanBilzerian @ElectBilzerian was totally unserious about the campaign, 28.5M followers on Insta and not a single post... Totally unserious. My support to his campaign was provisional and temporary.” The post names Bilzerian and the campaign account @ElectBilzerian. Official election records, set out above, show that Bilzerian ran as a Republican in the 18 August 2026 primary, not as an independent candidate. My post also stated a general principle of supporting independent candidates. This is my own statement, not a finding of this page.",
               "sources": [
                 {
                   "id": "x-mars-support",
@@ -715,7 +756,14 @@
                   "locator": "section “Epstein’s ‘Madam’”; quotation “Sometimes I think that I am your Paris based Ghislaine Maxwell.”"
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "authors-green-view",
+          "title": "The author’s view of the Green Party motion",
+          "kind": "Author’s disclosure",
+          "paragraphs": [
             {
               "text": "I appreciate the lessons from the “Zionism is racism” motion at the Green Party of England and Wales annual conference in Brighton in October 2026. BBC News reported that members passed the motion on Sunday 4 October 2026 by 1,022 votes to 813, and that Zack Polanski, the party’s leader, left the conference before the vote to campaign in the Holborn and St Pancras by-election. He was the Green candidate in that by-election, held on 8 October 2026; he was not the Green candidate in Holborn and St Pancras at the 4 July 2024 general election, when David Stansell stood for the party. Official UK Parliament results show that Labour’s Sagal Abdi-Wali won the by-election with 12,292 votes (45.2%) and that Polanski came second with 8,928 votes (32.8%), on a turnout of 38.6%. It is my own view, not a finding established by those sources, that the motion derailed his bid to become MP for the seat.",
               "sources": [
@@ -734,6 +782,28 @@
                 {
                   "id": "editorial",
                   "locator": "the author’s own view that the motion derailed the bid; not a sourced causal finding"
+                }
+              ]
+            },
+            {
+              "text": "In my own view, which is not a finding of this page, that motion was a clusterfuck of epic proportions. Rather than focus on a historic breakthrough, on something majestic, they chose to focus on something shockingly bad. I am very not compliant, very not complicit.",
+              "sources": [
+                {
+                  "id": "editorial",
+                  "locator": "the author’s own opinion, not a finding of this page"
+                },
+                {
+                  "id": "bbc-green-motion",
+                  "locator": "the conference motion discussed above"
+                }
+              ]
+            },
+            {
+              "text": "A panel in the satire graphic below refers to a September 2025 dispute, reported by BBC News, over a Your Party membership launch. On 18 September 2025 the BBC reported that Jeremy Corbyn described an email promoting a membership portal as “unauthorised,” and that Zarah Sultana said she had launched the portal after being sidelined, and that that week’s emails did not have the “dual authorisation of both myself and Jeremy,” which, she said, “was the agreement made at the start of this process.” Those are the parties’ own characterisations as reported by the BBC, not findings of this page.",
+              "sources": [
+                {
+                  "id": "bbc-your-party",
+                  "locator": "Sam Francis, 18 September 2025: Corbyn called the email “unauthorised”; Sultana said the week’s emails lacked the agreed dual authorisation"
                 }
               ]
             }
@@ -1108,6 +1178,42 @@
       "url": "https://electionresults.parliament.uk/elections/3540",
       "date": "2024-07-04",
       "checked": "2026-11-13"
+    },
+    {
+      "id": "x-deserve-yes",
+      "title": "Yes",
+      "publisher": "X (Rep. Randy Fine, @RepFine)",
+      "type": "Social media post",
+      "url": "https://x.com/RepFine/status/1951707946829975570",
+      "date": "2025-08-02",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-deserve-parent",
+      "title": "Did Gaza deserve it?",
+      "publisher": "X (@VividProwess)",
+      "type": "Social media post",
+      "url": "https://x.com/VividProwess/status/1951597805660684742",
+      "date": "2025-08-02",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "x-diedsuddenly",
+      "title": "Reply to Rep. Fine, 2 August 2025",
+      "publisher": "X (@DiedSuddenly_ / Days of Noah)",
+      "type": "Social media post",
+      "url": "https://x.com/DiedSuddenly_/status/1951709063764639891",
+      "date": "2025-08-02",
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "bbc-your-party",
+      "title": "Corbyn and Sultana clash over new party membership",
+      "publisher": "BBC News (Sam Francis)",
+      "type": "News report",
+      "url": "https://www.bbc.co.uk/news/articles/cgkn3v1e7g3o",
+      "date": "2025-09-18",
+      "checked": "2026-11-13"
     }
   ],
   "artworks": [
@@ -1122,6 +1228,15 @@
       "transcript": "Maram @Palestinianengr · Jun 4, 2021: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” [Attached photograph of a child in rubble; blurred on this page, with the label “Graphic image concealed / Photograph of a child in rubble has been blurred”.] Randy Fine @VoteRandyFine: “Quite well, actually! Thanks for the pic!” Timestamp shown on the screenshot: 9:45 PM · Jun 4, 2021 from Riviera Beach, FL. The live post is timestamped 20:45:13 UTC on 4 June 2021."
     },
     {
+      "src": "/images/randy-fine-gaza-deserve-it-2025.webp",
+      "width": 700,
+      "height": 810,
+      "after_entry": "gaza-deserve-it",
+      "alt": "Screenshot of an X exchange on 2 August 2025. Vivid (@VividProwess) posts “Did Gaza deserve it?” above an aerial photograph of a densely built city in Gaza reduced to rubble. Congressman Randy Fine (@RepFine) replies “Yes.” The screenshot shows 7:13 PM, 2 August 2025, and 58.3K views.",
+      "caption": "User-supplied screenshot of the 2 August 2025 exchange, checked against the still-public parent post by @VividProwess and Fine’s reply at https://x.com/RepFine/status/1951707946829975570. Cropped to those two posts.",
+      "transcript": "Vivid. @VividProwess · Aug 2, 2025: “Did Gaza deserve it?” [Aerial photograph of destroyed buildings across a densely built area of Gaza.] Congressman Randy Fine @RepFine: “Yes.” Timestamp shown on the screenshot: 7:13 PM · Aug 2, 2025 · 58.3K Views. The live reply is timestamped 18:13:30 UTC on 2 August 2025."
+    },
+    {
       "src": "/images/verge-epstein-madam.webp",
       "width": 900,
       "height": 687,
@@ -1129,6 +1244,15 @@
       "alt": "Screenshot of The Verge article “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, from the section headed Epstein’s “Madam”, naming former pro-Putin activist Masha Drokova (also known as Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (also known as Masha Prusso).",
       "caption": "User-supplied screenshot of the section “Epstein’s ‘Madam’” in David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. Reproduced here as a record of that reporting, not as a finding of this page.",
       "transcript": "The Verge. Headline: “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters.” Section heading: Epstein’s “Madam”. Opening sentences: “While Epstein himself moved at the higher end of the crypto world, he appears to have put at least two of “his Russians” to work in the trenches: former pro-Putin activist Masha Drokova (aka Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (aka Masha Prusso). Epstein’s emails appear to show both women helping place deceptive media coverage to repair Epstein’s reputation, while using the same tactics and personnel to pump sketchy cryptocurrency investments.” The screenshot continues into a further paragraph naming Sarah Austin, M&A PR Studio, Forbes, The Next Web, the Huffington Post and Thrive Global. Those further characterisations are The Verge’s reporting, not findings of this page."
+    },
+    {
+      "src": "/images/ultra-own-goals-satire.webp",
+      "width": 1000,
+      "height": 1250,
+      "after_entry": "authors-green-view",
+      "alt": "Political satire infographic titled “ULTRA CLUSTERFUCKS: Meticulously engineered own goals.” Panel 1, labelled Your Party, names Zarah Sultana and Jeremy Corbyn and the line “membership launch without joint approval,” showing a figure at a computer as a shattered red block and a football fly into a goal. Panel 2, labelled Green Party, cites the “Zionism is racism” motion and “coalition fractures,” with a speaker at a podium, a ballot box, and a green bloc splitting as a ball hits the net. Panel 3 shows a figure walking away from the wreckage through an open door toward a desk labelled Marsita The Ultra, with the caption “Back to my own business” and the label “Political satire.”",
+      "caption": "Author’s political satire: “ULTRA CLUSTERFUCKS: Meticulously engineered own goals,” labelled “Political satire” on the graphic itself. This is the author’s commentary, not a finding of this page.",
+      "transcript": "Title: ULTRA CLUSTERFUCKS / METICULOUSLY ENGINEERED OWN GOALS. Panel 1: YOUR PARTY / Zarah Sultana · Jeremy Corbyn / Membership launch without joint approval. Panel 2: GREEN PARTY / “Zionism is racism” motion / Coalition fractures. Panel 3: a person walks away from the wreckage toward a desk labelled Marsita The Ultra. Caption: BACK TO MY OWN BUSINESS. / POLITICAL SATIRE."
     }
   ]
 }
