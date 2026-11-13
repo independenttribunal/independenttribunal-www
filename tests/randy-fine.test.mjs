@@ -82,7 +82,8 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
 
   assert.match(text("thanks-for-the-pic"), /user-supplied screenshot/);
   assert.match(text("thanks-for-the-pic"), /checked against the still-public/);
-  assert.match(text("thanks-for-the-pic"), /photograph of the child has been blurred/);
+  assert.doesNotMatch(text("thanks-for-the-pic"), /blurred|Graphic image concealed/i);
+  assert.match(text("thanks-for-the-pic"), /behind a content warning/);
   assert.doesNotMatch(text("thanks-for-the-pic"), /does not reproduce the image/);
   assert.match(text("bilzerian-primary"), /51,109/);
   assert.match(text("bilzerian-primary"), /16,776/);
@@ -95,9 +96,9 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.match(text("authors-statement"), /provisional and temporary/);
   assert.match(text("authors-statement"), /I refuse to call myself, or be labelled, a Nazi supporter/);
   assert.match(text("authors-statement"), /not a finding of this page/);
-  assert.match(text("authors-statement"), /Paris based Ghislaine Maxwell/);
-  assert.match(text("authors-statement"), /according to Wikipedia|Wikipedia article|Wikipedia attaches|quotes Wikipedia/i);
-  assert.match(text("authors-statement"), /She recruited women into Epstein's trafficking network/);
+  assert.match(text("epstein-contacts"), /Paris based Ghislaine Maxwell/);
+  assert.match(text("epstein-contacts"), /according to Wikipedia|Wikipedia article|Wikipedia attaches|quotes Wikipedia/i);
+  assert.match(text("epstein-contacts"), /She recruited women into Epstein's trafficking network/);
   assert.match(text("authors-green-view"), /my own view, not a finding/);
   assert.match(text("authors-green-view"), /8 October 2026/);
   assert.match(text("authors-green-view"), /David Stansell/);
@@ -112,9 +113,13 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.equal(tweetImage.width, 1174);
   assert.equal(tweetImage.height, 1848);
   assert.match(tweetImage.content_warning, /graphic image of a child in rubble/i);
+  assert.doesNotMatch(tweetImage.content_warning, /blurred/i);
   assert.match(tweetImage.alt, /Quite well, actually/);
+  assert.doesNotMatch(tweetImage.alt, /blurred|Graphic image concealed/i);
   assert.match(tweetImage.caption, /User-supplied screenshot/);
   assert.match(tweetImage.caption, /checked against the still-public/);
+  assert.doesNotMatch(tweetImage.caption, /blurred/i);
+  assert.doesNotMatch(tweetImage.transcript, /blurred|Graphic image concealed/i);
   const tweetFile = await stat(new URL("../public/images/randy-fine-quite-well-2021.webp", import.meta.url));
   assert.ok(tweetFile.size > 20_000 && tweetFile.size < 400_000);
   const vergeFile = await stat(new URL("../public/images/verge-epstein-madam.webp", import.meta.url));
@@ -125,6 +130,12 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.match(html, /profile-content-warning/);
   assert.match(html, /Graphic image of a child in rubble/);
   assert.match(html, /Author’s disclosure/);
+  assert.match(html, /<h2>Randy Fine<\/h2>/);
+  assert.match(html, /Working with Epstein Class mindset/);
+  assert.match(html, /sometimes need to remain politically correct, sometimes need to play the game/);
+  assert.ok(html.includes('id="randy-fine-main"'));
+  assert.ok(html.includes('id="working-with-epstein-class"'));
+  assert.ok(html.includes('id="epstein-class-play-the-game"'));
   assert.match(html, /51,109/);
   // Official portrait remains the Open Graph image.
   assert.ok(html.includes('property="og:image" content="https://independenttribunal.org/images/randy-fine-official-portrait.webp"'));
@@ -161,6 +172,8 @@ test("Randy Fine profile quotes his Gaza statements, attributes labels, and does
   assert.match(text("authors-green-view"), /not a finding of this page/);
   assert.match(text("authors-green-view"), /Your Party/);
   assert.equal(sources.get("bbc-your-party").url, "https://www.bbc.co.uk/news/articles/cgkn3v1e7g3o");
+  const vergeImage = (p.artworks ?? []).find((image) => image.src === "/images/verge-epstein-madam.webp");
+  assert.equal(vergeImage.after_entry, "epstein-contacts");
   const satire = (p.artworks ?? []).find((image) => image.src === "/images/ultra-own-goals-satire.webp");
   assert.equal(satire.after_entry, "authors-green-view");
   assert.equal(satire.width, 1000);

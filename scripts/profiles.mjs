@@ -33,7 +33,16 @@ export function validateProfile(p, fail) {
     if (!safeId.test(id) || anchorIds.has(id)) fail(`unsafe or duplicate anchor ${id}`);
     anchorIds.add(id);
   };
+  const groupIds = new Set();
   for (const section of p.sections ?? []) {
+    if (section.group !== undefined) {
+      const g = section.group;
+      if (!g || !safeId.test(g.id ?? "") || !g.title?.trim()) fail(`section ${section.id}: group requires a safe id and title`);
+      if (!groupIds.has(g.id)) {
+        addAnchor(g.id);
+        groupIds.add(g.id);
+      }
+    }
     addAnchor(section.id);
     if (!section.title || !section.intro || !section.entries?.length) fail(`section ${section.id}: title, intro and entries required`);
     for (const entry of section.entries ?? []) {
@@ -97,7 +106,7 @@ export function profileText(p) {
     ...(p.evidence_image ? [`Image: ${p.evidence_image.src}\n${p.evidence_image.alt}\n${p.evidence_image.caption}`] : []),
     ...(p.artworks ?? []).map((image) => `Artwork after ${image.after_entry || image.after_section}: ${image.src}\n${image.alt}\n${image.caption}\n${image.content_warning ? `Content warning: ${image.content_warning}\n` : ""}Text equivalent: ${image.transcript}`),
     ...p.highlights.map((h) => `${h.label}: ${h.value}. ${h.detail}.`),
-    ...p.sections.map((section) => `### ${section.title}\n${section.intro}\n` + section.entries.map((entry) =>
+    ...p.sections.map((section) => `### ${section.group && section.title !== section.group.title ? `${section.group.title} · ` : ""}${section.title}\n${section.intro}\n` + section.entries.map((entry) =>
       `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + (entry.table ? `${entry.table.caption}\n${entry.table.rows.map((row) => row.map((cell, i) => `${entry.table.columns[i]}: ${cell}`).join(" · ")).join("\n")}\n\n` : "") + entry.paragraphs.map((para) => `${para.withheld ? "[Marked “This part is not published”. It is published: in law, words are published once a reader sees them.] " : ""}${para.embargo ? "[Not published until the case ends. This describes what is held back; the material itself is not on this site.] " : ""}${para.quote ? "> " : ""}${para.text}\n${para.sources.map((ref) => {
         const s = sources.get(ref.id);
         return `Source: ${s.title} (${s.publisher}; ${s.type}; checked ${s.checked})${ref.locator ? `, ${ref.locator}` : ""} <${s.url}>`;
@@ -132,6 +141,23 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
     }).join(" · ")}</span>` : "";
     const embargo = (inner) => `<div class="profile-embargo" role="note"><p class="profile-embargo-label">Not published until the case ends</p>${inner}<p class="profile-embargo-note">This box says what we are holding back. The material itself is not on this site, not linked from it, and not described in a way that would help anyone find it.</p></div>`;
     const withheld = (inner) => `<div class="profile-withheld"><div class="profile-withheld-bounce" aria-hidden="true"><span class="profile-bounce-x"><span class="profile-bounce-y">🦩</span></span><span class="profile-bounce-x"><span class="profile-bounce-y">💩</span></span></div><p class="profile-withheld-label">This part is not published*</p><div class="profile-withheld-text">${inner}</div><p class="profile-withheld-note">*It is. In law, words are published the moment a reader sees them, and a label saying otherwise changes nothing. Read it as published, and as our honest opinion on the facts above.</p></div>`;
+    const navItems = [];
+    const seenGroups = new Set();
+    for (const s of p.sections) {
+      if (s.group && !seenGroups.has(s.group.id)) {
+        seenGroups.add(s.group.id);
+        navItems.push(`<a href="#${s.group.id}">${e(s.group.title)}</a>`);
+      }
+      if (!s.group || s.title !== s.group.title) navItems.push(`<a href="#${s.id}">${e(s.title)}</a>`);
+    }
+    const sectionBlock = (s, i) => {
+      const prev = p.sections[i - 1];
+      const startGroup = s.group && prev?.group?.id !== s.group.id;
+      const groupHeading = startGroup ? `<header class="profile-group" id="${e(s.group.id)}"><h2>${e(s.group.title)}</h2></header>` : "";
+      const heading = s.group && s.title === s.group.title ? "" : (s.group ? `<h3>${e(s.title)}</h3>` : `<h2>${e(s.title)}</h2>`);
+      const entryTag = s.group ? "h4" : "h3";
+      return `${groupHeading}<section class="profile-section${s.group ? " profile-section-grouped" : ""}" id="${s.id}">${heading}<p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><${entryTag}>${e(entry.title)}</${entryTag}>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.table ? `<div class="profile-table-wrap" role="region" aria-label="${e(entry.table.caption)}" tabindex="0"><table class="profile-table" role="table"><caption>${e(entry.table.caption)}</caption><thead role="rowgroup"><tr role="row">${entry.table.columns.map((c) => `<th scope="col" role="columnheader">${e(c)}</th>`).join("")}</tr></thead><tbody role="rowgroup">${entry.table.rows.map((row) => `<tr role="row">${row.map((cell, i) => i === 0 ? `<th scope="row" role="rowheader">${e(cell)}</th>` : `<td role="cell" data-label="${e(entry.table.columns[i])}">${e(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}${entry.paragraphs.map((para) => para.embargo ? embargo(`<p>${e(para.text)}</p>${citations(para.sources)}`) : para.withheld ? withheld(`<p>${e(para.text)}</p>${citations(para.sources)}`) : `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${e(para.text)}</p></blockquote>` : `<p>${e(para.text)}</p>`}${citations(para.sources)}`).join("")}</article>${(p.artworks ?? []).filter((image) => image.after_entry === entry.id).map(artworkMarkup).join("")}`).join("")}${p.evidence_image?.after_section === s.id ? evidenceImage : ""}${(p.artworks ?? []).filter((image) => image.after_section === s.id).map(artworkMarkup).join("")}${p.interactive?.after_section === s.id ? `<div class="profile-interactive" id="${p.interactive.id}"><p>${e(p.interactive.fallback)}</p></div><script src="${p.interactive.script}" defer></script>` : ""}</section>`;
+    };
     await put(`research/${p.id}/index.html`, page({
       title: p.title, description: p.summary, path: `/research/${p.id}/`,
       image: p.evidence_image && !p.evidence_image.after_section ? p.evidence_image : (p.evidence_image || (p.artworks ?? []).find((image) => image.og) || undefined),
@@ -170,9 +196,13 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         .profile-status small { font:600 11px/1.5 ui-sans-serif,system-ui,sans-serif; color:var(--muted); }
         .profile-status strong { font-size:1.2rem; line-height:1.3; }
         .profile-nav { display:flex; flex-wrap:wrap; gap:.5rem 1rem; padding:1rem 0; border-block:1px solid var(--line); font:600 13px/1.6 ui-sans-serif,system-ui,sans-serif; }
+        .profile-group { margin-top:3.2rem; padding-top:1.2rem; border-top:4px solid var(--navy); scroll-margin-top:1.5rem; }
+        .profile-group h2 { margin:0; }
         .profile-section { scroll-margin-top:1.5rem; margin-top:3rem; }
+        .profile-section-grouped { margin-top:2rem; }
+        .profile-section-grouped > h3 { margin-top:0; }
         .profile-entry { border-top:1px solid var(--line); padding-top:1rem; margin-top:1.5rem; scroll-margin-top:1.5rem; }
-        .profile-entry h3 { margin-top:.6rem; }
+        .profile-entry h3, .profile-entry h4 { margin-top:.6rem; }
         .profile-entry .meta { font-size:11px; }
         .profile-quotation { margin:1.25rem 0; padding:1rem 1.25rem; border-left:3px solid var(--gold); background:#eee8da; }
         .profile-quotation p { margin:0; }
@@ -205,8 +235,8 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       <div class="profile-status">${p.highlights.map((h) => `<a href="#${h.target}"><small>${e(h.label)}</small><strong>${e(h.value)}</strong><small>${e(h.detail)}</small></a>`).join("")}</div>
       <p class="attributed">${e(p.status_note)}</p>
       ${featured ? `<p><a href="${e(featured.url)}" target="_blank" rel="noopener noreferrer">Read the report from ${e(featured.publisher)} ↗</a> <span class="meta">(opens in a new tab)</span></p>` : ""}
-      <nav class="profile-nav" aria-label="On this page">${p.sections.map((s) => `<a href="#${s.id}">${e(s.title)}</a>`).join("")}<a href="#sources">Source register</a></nav>
-      ${p.sections.map((s) => `<section class="profile-section" id="${s.id}"><h2>${e(s.title)}</h2><p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><h3>${e(entry.title)}</h3>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.table ? `<div class="profile-table-wrap" role="region" aria-label="${e(entry.table.caption)}" tabindex="0"><table class="profile-table" role="table"><caption>${e(entry.table.caption)}</caption><thead role="rowgroup"><tr role="row">${entry.table.columns.map((c) => `<th scope="col" role="columnheader">${e(c)}</th>`).join("")}</tr></thead><tbody role="rowgroup">${entry.table.rows.map((row) => `<tr role="row">${row.map((cell, i) => i === 0 ? `<th scope="row" role="rowheader">${e(cell)}</th>` : `<td role="cell" data-label="${e(entry.table.columns[i])}">${e(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}${entry.paragraphs.map((para) => para.embargo ? embargo(`<p>${e(para.text)}</p>${citations(para.sources)}`) : para.withheld ? withheld(`<p>${e(para.text)}</p>${citations(para.sources)}`) : `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${e(para.text)}</p></blockquote>` : `<p>${e(para.text)}</p>`}${citations(para.sources)}`).join("")}</article>${(p.artworks ?? []).filter((image) => image.after_entry === entry.id).map(artworkMarkup).join("")}`).join("")}${p.evidence_image?.after_section === s.id ? evidenceImage : ""}${(p.artworks ?? []).filter((image) => image.after_section === s.id).map(artworkMarkup).join("")}${p.interactive?.after_section === s.id ? `<div class="profile-interactive" id="${p.interactive.id}"><p>${e(p.interactive.fallback)}</p></div><script src="${p.interactive.script}" defer></script>` : ""}</section>`).join("")}
+      <nav class="profile-nav" aria-label="On this page">${navItems.join("")}<a href="#sources">Source register</a></nav>
+      ${p.sections.map(sectionBlock).join("")}
       <section class="profile-section" id="sources"><h2>Source register</h2><p>Sources are numbered in order of first citation; repeated citations keep their number. Source links open in a new tab. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${orderedSources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
       <h2>Related research</h2><ul>${p.related?.length || p.research_links?.length ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/people/">People &amp; public records</a></li><li><a href="/research/">Research library</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
     }));

@@ -139,7 +139,11 @@
             }
           ]
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "the-2026-primary",
@@ -223,7 +227,11 @@
             ]
           }
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "the-video",
@@ -255,7 +263,11 @@
             }
           ]
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "posts-on-x",
@@ -362,7 +374,7 @@
           "date": "2021-06-04",
           "paragraphs": [
             {
-              "text": "On 4 June 2021, Maram (@Palestinianengr) replied to Fine: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” The post included a graphic photograph of a child in rubble. Fine replied from @VoteRandyFine: “Quite well, actually!  Thanks for the pic!” The live post is timestamped 20:45:13 UTC on 4 June 2021 (9:45 pm British Summer Time that evening; 4:45 pm Eastern in Florida). A user-supplied screenshot of the exchange, which this page has checked against the still-public parent post and Fine’s reply, is reproduced below, behind a content warning. The photograph of the child has been blurred. The Owen Jones video describes the attached image as a photograph of a dead Palestinian baby under rubble.",
+              "text": "On 4 June 2021, Maram (@Palestinianengr) replied to Fine: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” The post included a graphic photograph of a child in rubble. Fine replied from @VoteRandyFine: “Quite well, actually!  Thanks for the pic!” The live post is timestamped 20:45:13 UTC on 4 June 2021 (9:45 pm British Summer Time that evening; 4:45 pm Eastern in Florida). A user-supplied screenshot of the exchange, which this page has checked against the still-public parent post and Fine’s reply, is reproduced below, behind a content warning. The Owen Jones video describes the attached image as a photograph of a dead Palestinian baby under rubble.",
               "sources": [
                 {
                   "id": "x-thanks-pic",
@@ -400,7 +412,11 @@
             }
           ]
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "fox-interview",
@@ -468,7 +484,11 @@
             }
           ]
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "starve-away",
@@ -534,7 +554,11 @@
             }
           ]
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "his-defence",
@@ -572,7 +596,11 @@
             }
           ]
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "responses",
@@ -632,7 +660,11 @@
             }
           ]
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "the-legal-question",
@@ -676,12 +708,16 @@
             }
           ]
         }
-      ]
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
     },
     {
       "id": "authors-disclosure",
       "title": "Author’s disclosure",
-      "intro": "This section is a first-person statement by Mars Robertson, the author of IndependentTribunal.org. It is his own account of his position and contacts, clearly marked as such. It is not a finding of this page, not a judgment of character, and not an allegation of wrongdoing against anyone named below.",
+      "intro": "This is a first-person statement by Mars Robertson, the author of IndependentTribunal.org, about his position in the 2026 primary. It is his own account, clearly marked as such, and not a finding of this page.",
       "entries": [
         {
           "id": "authors-statement",
@@ -713,7 +749,29 @@
                   "locator": "the author’s own statement of position, not a finding of this page"
                 }
               ]
-            },
+            }
+          ]
+        }
+      ],
+      "group": {
+        "id": "randy-fine-main",
+        "title": "Randy Fine"
+      }
+    },
+    {
+      "id": "epstein-class-mindset",
+      "title": "Working with Epstein Class mindset",
+      "group": {
+        "id": "working-with-epstein-class",
+        "title": "Working with Epstein Class mindset"
+      },
+      "intro": "This section is a first-person statement by Mars Robertson, the author of IndependentTribunal.org. It is his own account of his contacts and what he took from them, clearly marked as such. It is not a finding of this page, not a judgment of character, and not an allegation of wrongdoing against anyone named below.",
+      "entries": [
+        {
+          "id": "epstein-contacts",
+          "title": "Brock Pierce and Maria Prusakova",
+          "kind": "Author’s disclosure",
+          "paragraphs": [
             {
               "text": "Before the Epstein files were made public, I was in contact with individuals later named in them, including Brock Pierce and Maria Prusakova (also known as Masha Prusso). I value the lessons learnt. That is a statement about my own contacts and what I took from them. It is not an allegation against those individuals, and this page makes none in its own voice.",
               "sources": [
@@ -758,7 +816,18 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "epstein-class-play-the-game",
+      "title": "Epstein Class: sometimes need to remain politically correct, sometimes need to play the game",
+      "group": {
+        "id": "working-with-epstein-class",
+        "title": "Working with Epstein Class mindset"
+      },
+      "intro": "The remarks below are the author’s own opinions about political choices, clearly marked as such. They are not findings of this page.",
+      "entries": [
         {
           "id": "authors-green-view",
           "title": "The author’s view of the Green Party motion",
@@ -1222,10 +1291,10 @@
       "width": 1174,
       "height": 1848,
       "after_entry": "thanks-for-the-pic",
-      "content_warning": "Graphic image of a child in rubble. The photograph of the child in the original post has been blurred. Select to reveal the screenshot.",
-      "alt": "Screenshot of an X exchange on 4 June 2021. Maram (@Palestinianengr) accuses Randy Fine of supporting the killing of innocent people and babies and asks how he sleeps at night, above a region where a photograph of a child in rubble has been blurred and labelled “Graphic image concealed”. Fine (@VoteRandyFine) replies: “Quite well, actually! Thanks for the pic!” The screenshot displays 9:45 PM, 4 June 2021, and a Riviera Beach, Florida location tag.",
-      "caption": "User-supplied screenshot of the 4 June 2021 exchange, checked against the still-public parent post by Maram (@Palestinianengr) and Fine’s reply at https://x.com/VoteRandyFine/status/1400916571892105221. The photograph of a child in rubble attached to the parent post has been blurred on this page. Graphic content.",
-      "transcript": "Maram @Palestinianengr · Jun 4, 2021: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” [Attached photograph of a child in rubble; blurred on this page, with the label “Graphic image concealed / Photograph of a child in rubble has been blurred”.] Randy Fine @VoteRandyFine: “Quite well, actually! Thanks for the pic!” Timestamp shown on the screenshot: 9:45 PM · Jun 4, 2021 from Riviera Beach, FL. The live post is timestamped 20:45:13 UTC on 4 June 2021."
+      "content_warning": "Graphic image of a child in rubble. Select to reveal the screenshot.",
+      "alt": "Screenshot of an X exchange on 4 June 2021. Maram (@Palestinianengr) accuses Randy Fine of supporting the killing of innocent people and babies and asks how he sleeps at night, above a graphic photograph of a child in rubble. Fine (@VoteRandyFine) replies: “Quite well, actually! Thanks for the pic!” The screenshot displays 9:45 PM, 4 June 2021, and a Riviera Beach, Florida location tag.",
+      "caption": "User-supplied screenshot of the 4 June 2021 exchange, checked against the still-public parent post by Maram (@Palestinianengr) and Fine’s reply at https://x.com/VoteRandyFine/status/1400916571892105221. Graphic content: the parent post includes a photograph of a child in rubble.",
+      "transcript": "Maram @Palestinianengr · Jun 4, 2021: “Supporting killing innocent ppl and babies and smearing voices that fight against genocide for some AIPAC money says a lot about your character! You should be ashamed of yourself! How do you sleep at night??” [Attached graphic photograph of a child in rubble.] Randy Fine @VoteRandyFine: “Quite well, actually! Thanks for the pic!” Timestamp shown on the screenshot: 9:45 PM · Jun 4, 2021 from Riviera Beach, FL. The live post is timestamped 20:45:13 UTC on 4 June 2021."
     },
     {
       "src": "/images/randy-fine-gaza-deserve-it-2025.webp",
@@ -1240,7 +1309,7 @@
       "src": "/images/verge-epstein-madam.webp",
       "width": 900,
       "height": 687,
-      "after_entry": "authors-statement",
+      "after_entry": "epstein-contacts",
       "alt": "Screenshot of The Verge article “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, from the section headed Epstein’s “Madam”, naming former pro-Putin activist Masha Drokova (also known as Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (also known as Masha Prusso).",
       "caption": "User-supplied screenshot of the section “Epstein’s ‘Madam’” in David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. Reproduced here as a record of that reporting, not as a finding of this page.",
       "transcript": "The Verge. Headline: “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters.” Section heading: Epstein’s “Madam”. Opening sentences: “While Epstein himself moved at the higher end of the crypto world, he appears to have put at least two of “his Russians” to work in the trenches: former pro-Putin activist Masha Drokova (aka Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (aka Masha Prusso). Epstein’s emails appear to show both women helping place deceptive media coverage to repair Epstein’s reputation, while using the same tactics and personnel to pump sketchy cryptocurrency investments.” The screenshot continues into a further paragraph naming Sarah Austin, M&A PR Studio, Forbes, The Next Web, the Huffington Post and Thrive Global. Those further characterisations are The Verge’s reporting, not findings of this page."
