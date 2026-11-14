@@ -3,7 +3,7 @@
   "title": "Randy Fine",
   "subtitle": "Public statements about Gaza, in his own words",
   "summary": "A sourced public-record profile of U.S. Representative Randy Fine (Republican, Florida’s 6th District), focused on his posts and broadcast remarks about Gaza. His words are quoted with dates and links. Characterisations by commentators, advocacy groups and journalists are attributed to them. This page asks questions; it is not a finding that any crime has been committed.",
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "jurisdiction": "United States · Florida’s 6th Congressional District",
   "tags": [
     "united-states",
@@ -14,7 +14,7 @@
     "defamation"
   ],
   "scope": "A public-record profile of a sitting member of Congress, not a verdict and not a court. A post, a broadcast remark, a commentator’s title and a legal characterisation are different things. Screenshots of posts that could not be located as live records are labelled as unverified here. Inclusion is not a judgment of character.",
-  "status_note": "Sources reviewed on 13 November 2026. Posts were checked in X’s full archive for the official account @RepFine and the personal account @VoteRandyFine. Automatic captions were obtained for the 3 April 2025 Owen Jones video; because they are machine-generated, Fine’s words are quoted from the original posts and from reporting of a Fox News interview, not from those captions. This page does not find that any statement is a crime, and it does not adopt commentators’ labels as statements of fact.",
+  "status_note": "Sources reviewed on 13 November 2026, with additional author’s-disclosure sources checked on 14 November 2026. Posts were checked in X’s full archive for the official account @RepFine and the personal account @VoteRandyFine. Automatic captions were obtained for the 3 April 2025 Owen Jones video; because they are machine-generated, Fine’s words are quoted from the original posts and from reporting of a Fox News interview, not from those captions. This page does not find that any statement is a crime, and it does not adopt commentators’ labels as statements of fact.",
   "related": [
     {
       "id": "absurdity-paradox",
@@ -724,65 +724,153 @@
       }
     },
     {
-      "id": "authors-disclosure",
-      "title": "Author’s disclosure",
-      "intro": "This is a first-person statement by Mars Robertson, the author of IndependentTribunal.org, about his position in the 2026 primary. It is his own account, clearly marked as such, and not a finding of this page.",
+      "id": "fine-vs-bilzerian-section",
+      "title": "Randy Fine vs Dan Bilzerian in primaries",
+      "group": {
+        "id": "fine-vs-bilzerian",
+        "title": "Randy Fine vs Dan Bilzerian in primaries"
+      },
+      "intro": "This is a first-person statement by Mars Robertson, the author of IndependentTribunal.org, about his position in the 2026 Republican primary between Randy Fine and Dan Bilzerian, and a short related aside about another campaign. It is his own account, clearly marked as such, and not a finding of this page.",
       "entries": [
         {
           "id": "authors-statement",
-          "title": "A statement in the author’s own name",
           "kind": "Author’s disclosure",
+          "title": "A statement in the author’s own name",
           "paragraphs": [
             {
-              "text": "Randy Fine was the reason I conditionally and strategically supported Bilzerian’s primary challenge. In that race I supported Dan Bilzerian’s campaign on a provisional and temporary basis. On 10 November 2026 I wrote, from @MarsitaTheUltra: “I support independent candidates, in principle. @DanBilzerian @ElectBilzerian was totally unserious about the campaign, 28.5M followers on Insta and not a single post... Totally unserious. My support to his campaign was provisional and temporary.” The post names Bilzerian and the campaign account @ElectBilzerian. Official election records, set out above, show that Bilzerian ran as a Republican in the 18 August 2026 primary, not as an independent candidate. My post also stated a general principle of supporting independent candidates. This is my own statement, not a finding of this page.",
+              "text": "Randy Fine was the reason I conditionally and strategically supported Bilzerian’s primary challenge. I was doing strategic support of a candidate with 28.5 million followers to boost my career. In that race I supported Dan Bilzerian’s campaign on a provisional and temporary basis. On 10 November 2026 I wrote, from @MarsitaTheUltra: “I support independent candidates, in principle. @DanBilzerian @ElectBilzerian was totally unserious about the campaign, 28.5M followers on Insta and not a single post... Totally unserious. My support to his campaign was provisional and temporary.” The post names Bilzerian and the campaign account @ElectBilzerian. Official election records, set out above, show that Bilzerian ran as a Republican in the 18 August 2026 primary, not as an independent candidate. My post also stated a general principle of supporting independent candidates. This is my own statement, not a finding of this page.",
               "sources": [
                 {
-                  "id": "x-mars-support",
-                  "locator": "https://x.com/MarsitaTheUltra/status/2120137598794694744, 10 November 2026, 12:52 UTC"
+                  "id": "x-mars-support"
                 },
                 {
-                  "id": "fl-doe-2026-primary",
-                  "locator": "Bilzerian listed among Republican primary candidates"
+                  "id": "fl-doe-2026-primary"
                 }
               ]
             },
             {
-              "text": "That support was strategic and conditional. It was directed at a candidate with a large Instagram platform — the post gives the figure as 28.5 million followers — and at the possibility of reaching that audience. In politics and diplomacy, one may support or withhold support strategically, based on overarching objectives. An artist looking for an audience is a commonplace example. Support of that kind is not an endorsement of every view a candidate holds. I refuse to call myself, or be labelled, a Nazi supporter.",
+              "text": "That support was strategic and conditional. It was directed at a candidate with a large Instagram platform — the post gives the figure as 28.5 million followers — and at the possibility of reaching that audience. In politics and diplomacy, one may support or withhold support strategically, based on overarching objectives. An artist looking for an audience is a commonplace example. Support of that kind is not an endorsement of every view a candidate holds. I do not support Nazis. I refuse to call myself, or be labelled, a Nazi supporter.",
               "sources": [
                 {
-                  "id": "x-mars-support",
-                  "locator": "the same post, including the 28.5 million Instagram figure and the description of support as provisional and temporary"
+                  "id": "x-mars-support"
                 },
                 {
-                  "id": "editorial",
-                  "locator": "the author’s own statement of position, not a finding of this page"
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "I was made aware of the Nazi insignia. At the time I remained consistent with my strategy. In a further post the same day, at 16:04:55 UTC on 10 November 2026, I wrote the words quoted below. Official records still show that Bilzerian was a Republican primary candidate. The word “independent” in that post is mine; it does not change the ballot line. I’m extra cautious. If more Nazi stuff appears I will re-evaluate. That is my position now, not a finding of this page about any person.",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                },
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "fl-doe-2026-primary"
+                }
+              ]
+            },
+            {
+              "text": "I’m 100% honest: I had my own agendas. I do not support Nazis, and I support the “genocidal psycho” even less. “Genocidal psycho” is Owen Jones’s phrase, used as the title of his 3 April 2025 YouTube video about Fine; it is not a label of this page. As of 14 November 2026, YouTube’s structured data on Jones’s channel page, @OwenJonesTalks, listed 896,000 subscribers (some labels on the same page showed 895k). A journalist with roughly 896,000 YouTube subscribers uses that label openly in a published video title.",
+              "links": [
+                {
+                  "text": "genocidal psycho",
+                  "url": "https://www.youtube.com/watch?v=xCQN25HBbGw"
+                }
+              ],
+              "sources": [
+                {
+                  "id": "youtube"
+                },
+                {
+                  "id": "youtube-owen-channel"
+                },
+                {
+                  "id": "editorial"
                 }
               ]
             }
           ]
-        }
-      ],
-      "group": {
-        "id": "randy-fine-main",
-        "title": "Randy Fine"
-      }
-    },
-    {
-      "id": "playing-the-game-section",
-      "title": "Playing the game. Politics. Diplomacy. Epstein class.",
-      "group": {
-        "id": "playing-the-game",
-        "title": "Playing the game. Politics. Diplomacy. Epstein class."
-      },
-      "intro": "This section is a first-person statement by Mars Robertson, the author of IndependentTribunal.org, about political choices and about contacts later named in the Epstein files. It is his own account, clearly marked as such. It is not a finding of this page, not a judgment of character, and not an allegation of wrongdoing against anyone named below.",
-      "entries": [
+        },
+        {
+          "id": "authors-mars-video",
+          "kind": "Published video",
+          "title": "Why do I support Bilzerian?",
+          "date": "2026-05-29",
+          "video": {
+            "provider": "youtube",
+            "id": "SZjbDpob7zs",
+            "title": "Why do I support Bilzerian?",
+            "url": "https://www.youtube.com/watch?v=SZjbDpob7zs",
+            "channel": "Mars Robertson (genesis.re)"
+          },
+          "paragraphs": [
+            {
+              "text": "The YouTube listing for this video, on the channel Mars Robertson (genesis.re) at @genesisdotre, is titled “Why do I support Bilzerian?” YouTube’s video page lists the upload date as 28 May 2026, 17:50 Pacific Daylight Time (29 May 2026, 00:50 UTC) and the duration as 4 minutes 39 seconds. The published description reads: “Follow me on Twitter: https://x.com/MarsitaTheUltra/status/2060160929245909437” and “Clips from: https://www.youtube.com/watch?v=llYEEX2lws8”. This page records that listing. It does not treat the video or those clips as a transcript, and it does not describe footage that has not been independently verified here. The video is embedded below, with a direct link if the embed does not load.",
+              "sources": [
+                {
+                  "id": "youtube-bilzerian"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "authors-mars-post",
+          "kind": "Author’s disclosure",
+          "title": "10 November 2026, 16:04:55 UTC · a further post",
+          "date": "2026-11-10",
+          "paragraphs": [
+            {
+              "text": "On 10 November 2026 at 16:04:55 UTC I posted the following from @MarsitaTheUltra, in the same thread as the earlier support post. The post as retrieved included a photograph, which is not reproduced here. Official records, set out above, show that Bilzerian ran as a Republican in the primary, not as an independent.",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                },
+                {
+                  "id": "fl-doe-2026-primary"
+                }
+              ]
+            },
+            {
+              "quote": true,
+              "text": "@olamtrade180 @DanBilzerian @LauraLoomer @RepFine @Cyntaxed007 @RepThomasMassie @u_independents @owenjonesjourno @ElectBilzerian Which planet are you on?",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                }
+              ]
+            },
+            {
+              "quote": true,
+              "text": "Strategic support for independent candidate ≠ supporting a nazi.",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                }
+              ]
+            },
+            {
+              "quote": true,
+              "text": "At the time of issuing initial support I was informed about nazi insignia. Bearing in mind all the circumstances I remained consistent (could be a cognitive bias) towards an independent",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "authors-green-view",
-          "title": "The author’s view of the Green Party motion",
+          "title": "A related aside: the author’s view of the Green Party motion",
           "kind": "Author’s disclosure",
           "paragraphs": [
             {
-              "text": "I appreciate the lessons from the “Zionism is racism” motion at the Green Party of England and Wales annual conference in Brighton in October 2026. BBC News reported that members passed the motion on Sunday 4 October 2026 by 1,022 votes to 813, and that Zack Polanski, the party’s leader, left the conference before the vote to campaign in the Holborn and St Pancras by-election. He was the Green candidate in that by-election, held on 8 October 2026; he was not the Green candidate in Holborn and St Pancras at the 4 July 2024 general election, when David Stansell stood for the party. Official UK Parliament results show that Labour’s Sagal Abdi-Wali won the by-election with 12,292 votes (45.2%) and that Polanski came second with 8,928 votes (32.8%), on a turnout of 38.6%. It is my own view, not a finding established by those sources, that the motion derailed his bid to become MP for the seat.",
+              "text": "This short aside is a related lesson I draw from another campaign; it is not part of the Florida primary record. I appreciate the lessons from the “Zionism is racism” motion at the Green Party of England and Wales annual conference in Brighton in October 2026. BBC News reported that members passed the motion on Sunday 4 October 2026 by 1,022 votes to 813, and that Zack Polanski, the party’s leader, left the conference before the vote to campaign in the Holborn and St Pancras by-election. He was the Green candidate in that by-election, held on 8 October 2026; he was not the Green candidate in Holborn and St Pancras at the 4 July 2024 general election, when David Stansell stood for the party. Official UK Parliament results show that Labour’s Sagal Abdi-Wali won the by-election with 12,292 votes (45.2%) and that Polanski came second with 8,928 votes (32.8%), on a turnout of 38.6%. It is my own view, not a finding established by those sources, that the motion derailed his bid to become MP for the seat.",
               "sources": [
                 {
                   "id": "bbc-green-motion",
@@ -821,46 +909,6 @@
                 {
                   "id": "bbc-your-party",
                   "locator": "Sam Francis, 18 September 2025: Corbyn called the email “unauthorised”; Sultana said the week’s emails lacked the agreed dual authorisation"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "brock-pierce",
-          "title": "Brock Pierce",
-          "kind": "Author’s disclosure",
-          "paragraphs": [
-            {
-              "text": "I was also in contact with Brock Pierce, whose name appears in documents released by the U.S. Department of Justice under the Epstein Files Transparency Act. The official library is at https://www.justice.gov/epstein. Appearance in released documents is not, by itself, a finding of wrongdoing, and this page makes no such finding.",
-              "sources": [
-                {
-                  "id": "doj-epstein-library",
-                  "locator": "https://www.justice.gov/epstein — official library and search of the full collection"
-                },
-                {
-                  "id": "efta-01923671",
-                  "locator": "third-party index of official EFTA document EFTA01923671, email of 13 May 2014"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "maria-prusakova",
-          "title": "Maria Prusakova (Masha Prusso)",
-          "kind": "Author’s disclosure",
-          "paragraphs": [
-            {
-              "text": "I was also in contact with Maria Prusakova (also known as Masha Prusso). The English Wikipedia article “Mariya Prusakova (snowboarder)”, checked on 13 November 2026, states: “She recruited women into Epstein's trafficking network, calling herself the \"Paris based Ghislaine Maxwell\" in a 2013 email to Epstein.” Wikipedia attaches that sentence to David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. This page repeats that characterisation only as Wikipedia’s, citing The Verge; it does not adopt it as a finding of its own. The Verge itself quotes the 2013 email as saying, in part, “Sometimes I think that I am your Paris based Ghislaine Maxwell.”",
-              "sources": [
-                {
-                  "id": "wikipedia-prusakova",
-                  "locator": "exact wording of the 2013 email sentence, citing Morris, The Verge, 27 February 2026 (reference 5 on the live page)"
-                },
-                {
-                  "id": "verge-epstein-bitcoin",
-                  "locator": "section “Epstein’s ‘Madam’”; quotation “Sometimes I think that I am your Paris based Ghislaine Maxwell.”"
                 }
               ]
             }
@@ -925,7 +973,7 @@
       "type": "Published video",
       "url": "https://www.youtube.com/watch?v=xCQN25HBbGw",
       "date": "2025-04-03",
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     {
       "id": "ynet-fox",
@@ -1176,40 +1224,6 @@
       "checked": "2026-11-13"
     },
     {
-      "id": "doj-epstein-library",
-      "title": "Epstein Library",
-      "publisher": "U.S. Department of Justice",
-      "type": "Official document library",
-      "url": "https://www.justice.gov/epstein",
-      "checked": "2026-11-13"
-    },
-    {
-      "id": "efta-01923671",
-      "title": "Email from Brock Pierce (EFTA01923671)",
-      "publisher": "Epstein Exposed index of DOJ Data Set 10",
-      "type": "Third-party index of an official release",
-      "url": "https://epsteinexposed.com/documents/efta-01923671",
-      "date": "2014-05-13",
-      "checked": "2026-11-13"
-    },
-    {
-      "id": "wikipedia-prusakova",
-      "title": "Mariya Prusakova (snowboarder)",
-      "publisher": "Wikipedia",
-      "type": "Secondary reference work",
-      "url": "https://en.wikipedia.org/wiki/Mariya_Prusakova_(snowboarder)",
-      "checked": "2026-11-13"
-    },
-    {
-      "id": "verge-epstein-bitcoin",
-      "title": "Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters",
-      "publisher": "The Verge (David Z. Morris)",
-      "type": "News report",
-      "url": "https://www.theverge.com/tech/885252/jeffrey-epstein-bitcoin-cryptocurrency-connections",
-      "date": "2026-02-27",
-      "checked": "2026-11-13"
-    },
-    {
       "id": "bbc-green-motion",
       "title": "Green Party members back 'Zionism is racism' conference motion",
       "publisher": "BBC News (Kate Whannel)",
@@ -1271,6 +1285,32 @@
       "url": "https://www.bbc.co.uk/news/articles/cgkn3v1e7g3o",
       "date": "2025-09-18",
       "checked": "2026-11-13"
+    },
+    {
+      "id": "youtube-owen-channel",
+      "title": "Owen Jones YouTube channel (@OwenJonesTalks)",
+      "publisher": "YouTube",
+      "type": "Channel page",
+      "url": "https://www.youtube.com/@OwenJonesTalks",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "youtube-bilzerian",
+      "title": "Why do I support Bilzerian?",
+      "publisher": "Mars Robertson (genesis.re) (YouTube)",
+      "type": "Published video",
+      "url": "https://www.youtube.com/watch?v=SZjbDpob7zs",
+      "date": "2026-05-29",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "x-mars-insignia",
+      "title": "Post by @MarsitaTheUltra, 10 November 2026, 16:04:55 UTC",
+      "publisher": "X (Marsita the Ultra / Mars Robertson)",
+      "type": "Social media post",
+      "url": "https://x.com/MarsitaTheUltra/status/2120185947610321193",
+      "date": "2026-11-10",
+      "checked": "2026-11-14"
     }
   ],
   "artworks": [
@@ -1294,15 +1334,6 @@
       "transcript": "Vivid. @VividProwess · Aug 2, 2025: “Did Gaza deserve it?” [Aerial photograph of destroyed buildings across a densely built area of Gaza.] Congressman Randy Fine @RepFine: “Yes.” Timestamp shown on the screenshot: 7:13 PM · Aug 2, 2025 · 58.3K Views. The live reply is timestamped 18:13:30 UTC on 2 August 2025."
     },
     {
-      "src": "/images/verge-epstein-madam.webp",
-      "width": 900,
-      "height": 687,
-      "after_entry": "maria-prusakova",
-      "alt": "Screenshot of The Verge article “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, from the section headed Epstein’s “Madam”, naming former pro-Putin activist Masha Drokova (also known as Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (also known as Masha Prusso).",
-      "caption": "User-supplied screenshot of the section “Epstein’s ‘Madam’” in David Z. Morris, “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters”, The Verge, 27 February 2026. Reproduced here as a record of that reporting, not as a finding of this page.",
-      "transcript": "The Verge. Headline: “Jeffrey Epstein saw promise in Bitcoin — and its far-right supporters.” Section heading: Epstein’s “Madam”. Opening sentences: “While Epstein himself moved at the higher end of the crypto world, he appears to have put at least two of “his Russians” to work in the trenches: former pro-Putin activist Masha Drokova (aka Masha Bucher) and Russian Olympic snowboarder Maria Prusakova (aka Masha Prusso). Epstein’s emails appear to show both women helping place deceptive media coverage to repair Epstein’s reputation, while using the same tactics and personnel to pump sketchy cryptocurrency investments.” The screenshot continues into a further paragraph naming Sarah Austin, M&A PR Studio, Forbes, The Next Web, the Huffington Post and Thrive Global. Those further characterisations are The Verge’s reporting, not findings of this page."
-    },
-    {
       "src": "/images/ultra-own-goals-satire.webp",
       "width": 1000,
       "height": 1250,
@@ -1310,6 +1341,15 @@
       "alt": "Political satire infographic titled “ULTRA CLUSTERFUCKS: Meticulously engineered own goals.” Panel 1, labelled Your Party, names Zarah Sultana and Jeremy Corbyn and the line “membership launch without joint approval,” showing a figure at a computer as a shattered red block and a football fly into a goal. Panel 2, labelled Green Party, cites the “Zionism is racism” motion and “coalition fractures,” with a speaker at a podium, a ballot box, and a green bloc splitting as a ball hits the net. Panel 3 shows a figure walking away from the wreckage through an open door toward a desk labelled Marsita The Ultra, with the caption “Back to my own business” and the label “Political satire.”",
       "caption": "Author’s political satire: “ULTRA CLUSTERFUCKS: Meticulously engineered own goals,” labelled “Political satire” on the graphic itself. This is the author’s commentary, not a finding of this page.",
       "transcript": "Title: ULTRA CLUSTERFUCKS / METICULOUSLY ENGINEERED OWN GOALS. Panel 1: YOUR PARTY / Zarah Sultana · Jeremy Corbyn / Membership launch without joint approval. Panel 2: GREEN PARTY / “Zionism is racism” motion / Coalition fractures. Panel 3: a person walks away from the wreckage toward a desk labelled Marsita The Ultra. Caption: BACK TO MY OWN BUSINESS. / POLITICAL SATIRE."
+    },
+    {
+      "src": "/images/author-supplied-meeting.webp",
+      "width": 900,
+      "height": 1345,
+      "alt": "A person standing at a microphone in a meeting room, with a United States flag and a seated person in a suit at a table in the background.",
+      "caption": "Image supplied by the author. This page does not identify the speaker from the photograph alone. It has not been verified as a still from the video above, and it is not the photograph attached to the 10 November 2026 post quoted in this section.",
+      "transcript": "A colour photograph of a public meeting. A person stands in the foreground holding a handheld microphone and speaking. In the background there is a United States flag and a person in a suit seated at a table with papers. No readable signage or caption appears in the image.",
+      "after_entry": "authors-mars-video"
     }
   ]
 }
