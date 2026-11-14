@@ -112,6 +112,8 @@ export function profileText(p) {
         return `Source: ${s.title} (${s.publisher}; ${s.type}; checked ${s.checked})${ref.locator ? `, ${ref.locator}` : ""} <${s.url}>`;
       }).join("\n")}`).join("\n\n")
     ).join("\n\n")),
+    `Related:\n${(p.related?.length || p.research_links?.length ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `- ${r.title} <https://independenttribunal.org/research/${r.id}/>`) : ["- People & public records <https://independenttribunal.org/people/>", "- Research library <https://independenttribunal.org/research/>"]).join("\n")}`,
+    ...(p.category === "legal-study" ? [`Satire clause. In the unlikely event that educating people about the law is itself found to break the law, everything on this page should be read as militarised satire. Get-out-of-jail-free statement: “You are so ugly because your mother was raped by a dog.” — Mars Robertson. (Mere vulgar abuse, addressed to no one. See the absurdity paradox <https://independenttribunal.org/research/absurdity-paradox/>.) This clause is tongue-in-cheek. It does not change the not-legal-advice notes on this page, and it is not aimed at any real person.`] : []),
   ].join("\n\n");
 }
 
@@ -229,6 +231,15 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
           .profile-table td { border:0; padding:.35rem 0; }
           .profile-table td::before { content:attr(data-label); display:block; font:600 11px/1.5 ui-sans-serif,system-ui,sans-serif; color:var(--muted); letter-spacing:.03em; text-transform:uppercase; }
         }
+        .profile-related { margin:2.2rem 0 1.2rem; padding-top:1.4rem; border-top:1px solid var(--line); }
+        .profile-related h2 { margin-top:0; }
+        .profile-related ul { margin:.4rem 0 0; padding:0; list-style:none; }
+        .profile-related li { margin:0; border-bottom:1px solid var(--line); }
+        .profile-related a { display:block; padding:.7rem 0; text-decoration:none; }
+        .profile-satire { margin:2.4rem 0 0; padding:1.1rem 1.2rem; border:1px dashed var(--muted); }
+        .profile-satire-label { margin:0 0 .6rem; font:700 12px/1.5 ui-sans-serif,system-ui,sans-serif; letter-spacing:.06em; text-transform:uppercase; }
+        .profile-satire p { margin:0 0 .7rem; }
+        .profile-satire p:last-child { margin-bottom:0; color:var(--muted); font:14px/1.65 ui-sans-serif,system-ui,sans-serif; }
         @media print { .profile-nav,.contact { display:none; } }
       </style>
       <div class="profile-hero"><a href="/research/" class="kicker">Independent Tribunal · Research</a><h1>${e(p.title)}</h1><p class="lede">${e(p.subtitle)}</p>${p.evidence_image?.after_section ? "" : evidenceImage}<p>${e(p.summary)}</p><p class="meta">${e(p.jurisdiction)} · Sources reviewed <time datetime="${p.checked}">${e(p.checked)}</time></p></div>
@@ -237,10 +248,12 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       <div class="profile-status">${p.highlights.map((h) => `<a href="#${h.target}"><small>${e(h.label)}</small><strong>${e(h.value)}</strong><small>${e(h.detail)}</small></a>`).join("")}</div>
       <p class="attributed">${e(p.status_note)}</p>
       ${featured ? `<p><a href="${e(featured.url)}" target="_blank" rel="noopener noreferrer">Read the report from ${e(featured.publisher)} ↗</a> <span class="meta">(opens in a new tab)</span></p>` : ""}
-      <nav class="profile-nav" aria-label="On this page">${navItems.join("")}<a href="#sources">Source register</a></nav>
+      <nav class="profile-nav" aria-label="On this page">${navItems.join("")}<a href="#sources">Source register</a><a href="#related">Related</a>${p.category === "legal-study" ? '<a href="#satire-clause">Satire clause</a>' : ""}</nav>
       ${p.sections.map(sectionBlock).join("")}
       <section class="profile-section" id="sources"><h2>Source register</h2><p>Sources are numbered in order of first citation; repeated citations keep their number. Source links open in a new tab. A source’s type matters: a campaign statement or personal account is not a judgment. The review date records this page’s source check, not a guarantee of completeness.</p><ol class="profile-sources">${orderedSources.map((s) => `<li id="source-${s.id}"><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)}</a><small>${e(s.publisher)} · ${e(s.type)}${s.date ? ` · ${e(s.date)}` : ""}<br>Checked ${e(s.checked)}</small></li>`).join("")}</ol></section>
-      <h2>Related research</h2><ul>${p.related?.length || p.research_links?.length ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/people/">People &amp; public records</a></li><li><a href="/research/">Research library</a></li>'}</ul><p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>`,
+      <section class="profile-related" id="related"><h2>Related</h2><ul>${p.related?.length || p.research_links?.length ? [...(p.related ?? []), ...(p.research_links ?? [])].map((r) => `<li><a href="/research/${r.id}/">${e(r.title)}</a></li>`).join("") : '<li><a href="/people/">People &amp; public records</a></li><li><a href="/research/">Research library</a></li>'}</ul></section>
+      <p><a href="${site.source_repo}/blob/main/data/profiles/${p.id}.json">View the maintained source</a> · <a href="${site.contact.issues}">Submit a source or correction</a>. Do not post private case material publicly.</p>
+      ${p.category === "legal-study" ? `<aside class="profile-satire" id="satire-clause" role="note"><p class="profile-satire-label">Satire clause</p><p>In the unlikely event that educating people about the law is itself found to break the law, everything on this page should be read as militarised satire. Get-out-of-jail-free statement: “You are so ugly because your mother was raped by a dog.” — Mars Robertson. (Mere vulgar abuse, addressed to no one. See the <a href="/research/absurdity-paradox/">absurdity paradox</a>.)</p><p>This clause is tongue-in-cheek. It does not change the not-legal-advice notes on this page, and it is not aimed at any real person.</p></aside>` : ""}`,
     }));
   }
 }
