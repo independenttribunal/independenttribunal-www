@@ -10,11 +10,20 @@
     "congress",
     "gaza",
     "public-statements",
-    "international-law"
+    "international-law",
+    "defamation"
   ],
   "scope": "A public-record profile of a sitting member of Congress, not a verdict and not a court. A post, a broadcast remark, a commentator’s title and a legal characterisation are different things. Screenshots of posts that could not be located as live records are labelled as unverified here. Inclusion is not a judgment of character.",
   "status_note": "Sources reviewed on 13 November 2026. Posts were checked in X’s full archive for the official account @RepFine and the personal account @VoteRandyFine. Automatic captions were obtained for the 3 April 2025 Owen Jones video; because they are machine-generated, Fine’s words are quoted from the original posts and from reporting of a Fox News interview, not from those captions. This page does not find that any statement is a crime, and it does not adopt commentators’ labels as statements of fact.",
   "related": [
+    {
+      "id": "absurdity-paradox",
+      "title": "“Your mother was raped by a dog”: the absurdity paradox"
+    },
+    {
+      "id": "defamation-game-theory",
+      "title": "The game theory of suing for defamation"
+    },
     {
       "id": "who-is-watching-the-watchdogs",
       "title": "Who is watching the watchdogs?"
