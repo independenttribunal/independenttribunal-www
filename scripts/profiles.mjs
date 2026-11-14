@@ -53,6 +53,14 @@ export function validateProfile(p, fail) {
         if (!caption?.trim() || !Array.isArray(columns) || columns.length < 2 || !columns.every((c) => typeof c === "string" && c.trim()) || !Array.isArray(rows) || !rows.length || !rows.every((r) => Array.isArray(r) && r.length === columns.length && r.every((c) => typeof c === "string" && c.trim()))) fail(`entry ${entry.id}: table requires a caption, columns and matching nonempty rows`);
       }
       if (entry.date && !date.test(entry.date)) fail(`entry ${entry.id}: invalid date`);
+      if (entry.video !== undefined) {
+        const v = entry.video;
+        if (v.provider !== "youtube") fail(`entry ${entry.id}: only YouTube embeds are supported`);
+        if (!/^[A-Za-z0-9_-]{11}$/.test(v.id ?? "")) fail(`entry ${entry.id}: video id must be a YouTube video id`);
+        if (!v.title?.trim()) fail(`entry ${entry.id}: video title required`);
+        if (v.url !== `https://www.youtube.com/watch?v=${v.id}`) fail(`entry ${entry.id}: video url must be the canonical YouTube watch URL for that id`);
+        if (v.channel !== undefined && !String(v.channel).trim()) fail(`entry ${entry.id}: video channel must be nonempty when set`);
+      }
       for (const paragraph of entry.paragraphs ?? []) {
         if (!paragraph.text || !Array.isArray(paragraph.sources)) fail(`entry ${entry.id}: text and source array required`);
         if (paragraph.quote !== undefined && typeof paragraph.quote !== "boolean") fail(`entry ${entry.id}: quote must be boolean`);
@@ -60,6 +68,17 @@ export function validateProfile(p, fail) {
         if (paragraph.withheld !== undefined && paragraph.withheld !== true) fail(`entry ${entry.id}: withheld must be true when set`);
         if (paragraph.embargo !== undefined && paragraph.embargo !== true) fail(`entry ${entry.id}: embargo must be true when set`);
         if (paragraph.embargo && paragraph.withheld) fail(`entry ${entry.id}: a paragraph cannot be both embargoed and withheld`);
+        if (paragraph.links !== undefined) {
+          if (!Array.isArray(paragraph.links) || !paragraph.links.length) fail(`entry ${entry.id}: links must be a nonempty array when set`);
+          const seen = new Set();
+          for (const link of paragraph.links) {
+            if (!link?.text || typeof link.text !== "string" || !link.text.trim()) fail(`entry ${entry.id}: each link needs visible text`);
+            if (!paragraph.text.includes(link.text)) fail(`entry ${entry.id}: link text must appear in the paragraph`);
+            if (!/^https:\/\//.test(link.url ?? "")) fail(`entry ${entry.id}: link url must be HTTPS`);
+            if (seen.has(link.text)) fail(`entry ${entry.id}: duplicate link text`);
+            seen.add(link.text);
+          }
+        }
         if (!paragraph.sources?.length && entry.kind !== "Research method" && entry.kind !== "Coverage limitation") fail(`entry ${entry.id}: factual paragraph requires sources`);
         for (const s of paragraph.sources ?? []) if (!sourceIds.has(s.id)) fail(`entry ${entry.id}: unknown source ${s.id}`);
       }
@@ -107,7 +126,7 @@ export function profileText(p) {
     ...(p.artworks ?? []).map((image) => `Artwork after ${image.after_entry || image.after_section}: ${image.src}\n${image.alt}\n${image.caption}\n${image.content_warning ? `Content warning: ${image.content_warning}\n` : ""}Text equivalent: ${image.transcript}`),
     ...p.highlights.map((h) => `${h.label}: ${h.value}. ${h.detail}.`),
     ...p.sections.map((section) => `### ${section.group && section.title !== section.group.title ? `${section.group.title} · ` : ""}${section.title}\n${section.intro}\n` + section.entries.map((entry) =>
-      `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + (entry.table ? `${entry.table.caption}\n${entry.table.rows.map((row) => row.map((cell, i) => `${entry.table.columns[i]}: ${cell}`).join(" · ")).join("\n")}\n\n` : "") + entry.paragraphs.map((para) => `${para.withheld ? "[Marked “This part is not published”. It is published: in law, words are published once a reader sees them.] " : ""}${para.embargo ? "[Not published until the case ends. This describes what is held back; the material itself is not on this site.] " : ""}${para.quote ? "> " : ""}${para.text}\n${para.sources.map((ref) => {
+      `#### ${entry.title}\n${entry.kind}${entry.date ? ` · ${entry.date}` : ""}${entry.citation ? ` · ${entry.citation}` : ""}\n` + (entry.video ? `Video: ${entry.video.title}${entry.video.channel ? ` · ${entry.video.channel}` : ""} <${entry.video.url}>\n` : "") + (entry.table ? `${entry.table.caption}\n${entry.table.rows.map((row) => row.map((cell, i) => `${entry.table.columns[i]}: ${cell}`).join(" · ")).join("\n")}\n\n` : "") + entry.paragraphs.map((para) => `${para.withheld ? "[Marked “This part is not published”. It is published: in law, words are published once a reader sees them.] " : ""}${para.embargo ? "[Not published until the case ends. This describes what is held back; the material itself is not on this site.] " : ""}${para.quote ? "> " : ""}${para.text}${para.links?.length ? "\n" + para.links.map((link) => `Link: ${link.text} <${link.url}>`).join("\n") : ""}\n${para.sources.map((ref) => {
         const s = sources.get(ref.id);
         return `Source: ${s.title} (${s.publisher}; ${s.type}; checked ${s.checked})${ref.locator ? `, ${ref.locator}` : ""} <${s.url}>`;
       }).join("\n")}`).join("\n\n")
@@ -137,6 +156,35 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       return `<figure class="profile-evidence${image.content_warning ? " profile-sensitive" : ""}">${media}<figcaption>${e(image.caption)}</figcaption><details class="profile-transcript"><summary>Read the image text</summary><p>${e(image.transcript)}</p></details></figure>`;
     };
     const evidenceImage = p.evidence_image ? `<figure class="profile-evidence"><a href="${e(p.evidence_image.src)}" target="_blank" rel="noopener noreferrer" aria-label="Open image at full size (opens in a new tab)"><img src="${e(p.evidence_image.src)}" alt="${e(p.evidence_image.alt)}" width="${p.evidence_image.width}" height="${p.evidence_image.height}"></a><figcaption>${e(p.evidence_image.caption)}</figcaption></figure>` : "";
+    const paragraphHtml = (para) => {
+      const links = para.links ?? [];
+      if (!links.length) return e(para.text);
+      const hits = [];
+      for (const link of links) {
+        let from = 0;
+        while (true) {
+          const i = para.text.indexOf(link.text, from);
+          if (i < 0) break;
+          if (!hits.some((h) => !(i + link.text.length <= h.start || i >= h.end))) {
+            hits.push({ start: i, end: i + link.text.length, text: link.text, url: link.url });
+          }
+          from = i + link.text.length;
+        }
+      }
+      hits.sort((a, b) => a.start - b.start);
+      let html = "";
+      let cursor = 0;
+      for (const h of hits) {
+        html += e(para.text.slice(cursor, h.start));
+        html += `<a href="${e(h.url)}" target="_blank" rel="noopener noreferrer">${e(h.text)}</a>`;
+        cursor = h.end;
+      }
+      return html + e(para.text.slice(cursor));
+    };
+    const videoMarkup = (video) => {
+      const src = `https://www.youtube-nocookie.com/embed/${e(video.id)}`;
+      return `<div class="profile-video"><iframe src="${src}" title="${e(video.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe><p class="profile-video-fallback"><a href="${e(video.url)}" target="_blank" rel="noopener noreferrer">${e(video.title)}</a>${video.channel ? ` · ${e(video.channel)}` : ""}</p></div>`;
+    };
     const citations = (refs) => refs.length ? `<span class="profile-citations">${refs.map((ref) => {
       const s = sources.get(ref.id);
       return `<a href="${e(s.url)}" target="_blank" rel="noopener noreferrer" aria-label="Source ${s.number}: ${e(s.title)} (opens in a new tab)">[${s.number}] ${e(ref.locator ?? s.type)}</a>`;
@@ -158,7 +206,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       const groupHeading = startGroup ? `<header class="profile-group" id="${e(s.group.id)}"><h2>${e(s.group.title)}</h2></header>` : "";
       const heading = s.group && s.title === s.group.title ? "" : (s.group ? `<h3>${e(s.title)}</h3>` : `<h2>${e(s.title)}</h2>`);
       const entryTag = s.group ? "h4" : "h3";
-      return `${groupHeading}<section class="profile-section${s.group ? " profile-section-grouped" : ""}" id="${s.id}">${heading}<p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><${entryTag}>${e(entry.title)}</${entryTag}>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.table ? `<div class="profile-table-wrap" role="region" aria-label="${e(entry.table.caption)}" tabindex="0"><table class="profile-table" role="table"><caption>${e(entry.table.caption)}</caption><thead role="rowgroup"><tr role="row">${entry.table.columns.map((c) => `<th scope="col" role="columnheader">${e(c)}</th>`).join("")}</tr></thead><tbody role="rowgroup">${entry.table.rows.map((row) => `<tr role="row">${row.map((cell, i) => i === 0 ? `<th scope="row" role="rowheader">${e(cell)}</th>` : `<td role="cell" data-label="${e(entry.table.columns[i])}">${e(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}${entry.paragraphs.map((para) => para.embargo ? embargo(`<p>${e(para.text)}</p>${citations(para.sources)}`) : para.withheld ? withheld(`<p>${e(para.text)}</p>${citations(para.sources)}`) : `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${e(para.text)}</p></blockquote>` : `<p>${e(para.text)}</p>`}${citations(para.sources)}`).join("")}</article>${(p.artworks ?? []).filter((image) => image.after_entry === entry.id).map(artworkMarkup).join("")}`).join("")}${p.evidence_image?.after_section === s.id ? evidenceImage : ""}${(p.artworks ?? []).filter((image) => image.after_section === s.id).map(artworkMarkup).join("")}${p.interactive?.after_section === s.id ? `<div class="profile-interactive" id="${p.interactive.id}"><p>${e(p.interactive.fallback)}</p></div><script src="${p.interactive.script}" defer></script>` : ""}</section>`;
+      return `${groupHeading}<section class="profile-section${s.group ? " profile-section-grouped" : ""}" id="${s.id}">${heading}<p class="attributed">${e(s.intro)}</p>${s.entries.map((entry) => `<article class="profile-entry" id="${entry.id}"><p class="meta">${e(entry.kind)}${entry.date ? ` · <time datetime="${entry.date}">${e(entry.date)}</time>` : ""}</p><${entryTag}>${e(entry.title)}</${entryTag}>${entry.citation ? `<p><strong>${e(entry.citation)}</strong></p>` : ""}${entry.table ? `<div class="profile-table-wrap" role="region" aria-label="${e(entry.table.caption)}" tabindex="0"><table class="profile-table" role="table"><caption>${e(entry.table.caption)}</caption><thead role="rowgroup"><tr role="row">${entry.table.columns.map((c) => `<th scope="col" role="columnheader">${e(c)}</th>`).join("")}</tr></thead><tbody role="rowgroup">${entry.table.rows.map((row) => `<tr role="row">${row.map((cell, i) => i === 0 ? `<th scope="row" role="rowheader">${e(cell)}</th>` : `<td role="cell" data-label="${e(entry.table.columns[i])}">${e(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}${entry.paragraphs.map((para) => para.embargo ? embargo(`<p>${paragraphHtml(para)}</p>${citations(para.sources)}`) : para.withheld ? withheld(`<p>${paragraphHtml(para)}</p>${citations(para.sources)}`) : `${para.quote ? `<blockquote class="profile-quotation" cite="${e(sources.get(para.sources[0].id).url)}"><p>${paragraphHtml(para)}</p></blockquote>` : `<p>${paragraphHtml(para)}</p>`}${citations(para.sources)}`).join("")}${entry.video ? videoMarkup(entry.video) : ""}</article>${(p.artworks ?? []).filter((image) => image.after_entry === entry.id).map(artworkMarkup).join("")}`).join("")}${p.evidence_image?.after_section === s.id ? evidenceImage : ""}${(p.artworks ?? []).filter((image) => image.after_section === s.id).map(artworkMarkup).join("")}${p.interactive?.after_section === s.id ? `<div class="profile-interactive" id="${p.interactive.id}"><p>${e(p.interactive.fallback)}</p></div><script src="${p.interactive.script}" defer></script>` : ""}</section>`;
     };
     await put(`research/${p.id}/index.html`, page({
       title: p.title, description: p.summary, path: `/research/${p.id}/`,
@@ -210,6 +258,9 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         .profile-entry .meta { font-size:11px; }
         .profile-quotation { margin:1.25rem 0; padding:1rem 1.25rem; border-left:3px solid var(--gold); background:#eee8da; }
         .profile-quotation p { margin:0; }
+        .profile-video { margin:1.25rem 0; max-width:40rem; }
+        .profile-video iframe { display:block; width:100%; aspect-ratio:16 / 9; height:auto; border:0; background:#111; }
+        .profile-video-fallback { margin:.65rem 0 0; font:12px/1.6 ui-sans-serif,system-ui,sans-serif; }
         .profile-table-wrap { overflow-x:auto; margin:1rem 0; }
         .profile-table { width:100%; min-width:34rem; border-collapse:collapse; font-size:.95rem; }
         .profile-table caption { text-align:left; margin-bottom:.7rem; font-weight:600; }
