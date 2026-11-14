@@ -1,0 +1,487 @@
+{
+  "id": "dan-bilzerian",
+  "title": "Dan Bilzerian",
+  "subtitle": "Public profile, the 2026 Florida primary, and a reported insignia",
+  "summary": "A sourced public-record profile of Dan Bilzerian, a social media personality who ran as a Republican against Representative Randy Fine in the 18 August 2026 primary for Florida’s 6th Congressional District. Official results, follower counts and reporting are cited with dates and links. A reported Nazi insignia is presented as attributed reporting, not as a finding of this page. Questions are asked; they are not conclusions.",
+  "checked": "2026-11-14",
+  "jurisdiction": "United States · Florida’s 6th Congressional District",
+  "tags": [
+    "united-states",
+    "congress",
+    "public-statements",
+    "social-media"
+  ],
+  "scope": "A public-record profile, not a verdict and not a court. A journalist’s description, a campaign remark and an author’s view are different things. Inclusion is not a judgment of character. This page does not find that Bilzerian is, or is not, a Nazi.",
+  "status_note": "Sources reviewed on 14 November 2026. The X follower count is taken from X’s public profile metrics on that date. This page does not adopt commentators’ labels as statements of fact, and it does not treat a reported insignia as proof of a political identity. It is not legal advice.",
+  "related": [
+    {
+      "id": "randy-fine",
+      "title": "Randy Fine"
+    },
+    {
+      "id": "defamation-game-theory",
+      "title": "The game theory of suing for defamation"
+    },
+    {
+      "id": "absurdity-paradox",
+      "title": "“Your mother was raped by a dog”: the absurdity paradox"
+    }
+  ],
+  "evidence_image": {
+    "src": "/images/dan-bilzerian-2013.webp",
+    "width": 600,
+    "height": 800,
+    "alt": "Dan Bilzerian in 2013, smiling, with a beard and short dark hair, wearing a dark grey T-shirt, standing outdoors with his left hand raised to the back of his head.",
+    "caption": "Dan Bilzerian in 2013. Photograph by Curtis & Renee, 15 November 2013, originally posted to Flickr and archived on Wikimedia Commons. Licensed under Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)."
+  },
+  "highlights": [
+    {
+      "label": "X, @DanBilzerian",
+      "value": "2,128,185 followers",
+      "detail": "Public follower count on X, as of 14 November 2026",
+      "target": "the-person"
+    },
+    {
+      "label": "18 August 2026 Republican primary",
+      "value": "Second, 18.9%",
+      "detail": "Official Florida Division of Elections result: 16,776 votes, behind Randy Fine’s 51,109 (57.6%)",
+      "target": "the-2026-primary"
+    },
+    {
+      "label": "The insignia question",
+      "value": "Asked, not decided",
+      "detail": "Whether displaying a Nazi insignia makes someone a Nazi is posed here as a question, not as a finding",
+      "target": "the-insignia-question"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-person",
+      "title": "Who he is",
+      "group": {
+        "id": "dan-bilzerian-main",
+        "title": "Dan Bilzerian"
+      },
+      "intro": "A short public-record sketch of Dan Bilzerian’s identity and public profile, confined to sourced biographical facts and current follower counts. It is not a judgment of character.",
+      "entries": [
+        {
+          "id": "public-profile",
+          "kind": "Official record and published sources",
+          "title": "Social media personality and 2026 candidate",
+          "paragraphs": [
+            {
+              "text": "Daniel Brandon Bilzerian was born on 7 December 1980 in Tampa, Florida. He is an American social media personality and poker player. In the 2010s he became widely known for documenting an extravagant lifestyle on Instagram; on 10 December 2014 CNBC referred to him as the “King of Instagram,” a nickname that later also appears on his campaign biography. This page uses that phrase only as a published description, not as a finding of its own.",
+              "sources": [
+                {
+                  "id": "wikipedia",
+                  "locator": "born 7 December 1980, Tampa, Florida; social media personality and poker player"
+                },
+                {
+                  "id": "cnbc-king",
+                  "locator": "Sarah Whitten, 10 December 2014, headline: “‘King of Instagram’ held without bail in LA”"
+                },
+                {
+                  "id": "fec",
+                  "locator": "candidate name BILZERIAN, DANIEL BRANDON, candidate ID H6FL06415"
+                }
+              ]
+            },
+            {
+              "text": "As of 14 November 2026, X’s public profile metrics for the verified account @DanBilzerian listed 2,128,185 followers. That is a snapshot on that date, not a claim about any other platform. Wikipedia’s Bilzerian page, last updated in the site’s social-media box as of 13 June 2026 when that page was checked for this profile, listed 28.9 million Instagram followers; this page has not independently verified a live Instagram count today. An earlier post by Mars Robertson, quoted on this site, gave an Instagram figure of 28.5 million.",
+              "sources": [
+                {
+                  "id": "x-profile",
+                  "locator": "public_metrics.followers_count 2,128,185, checked 14 November 2026"
+                },
+                {
+                  "id": "wikipedia",
+                  "locator": "Instagram followers 28.9 million; box last updated 13 June 2026"
+                },
+                {
+                  "id": "x-mars-support",
+                  "locator": "28.5M followers on Insta, 10 November 2026"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-2026-primary",
+      "title": "The 2026 Republican primary",
+      "group": {
+        "id": "dan-bilzerian-main",
+        "title": "Dan Bilzerian"
+      },
+      "intro": "Bilzerian ran as a Republican, not as an independent, against incumbent Representative Randy Fine in Florida’s 6th Congressional District. The figures below are the official, certified results.",
+      "entries": [
+        {
+          "id": "primary-result",
+          "kind": "Official record",
+          "title": "18 August 2026 · official primary result",
+          "date": "2026-08-18",
+          "paragraphs": [
+            {
+              "text": "The Federal Election Commission’s candidate record lists Daniel Brandon Bilzerian as a Republican challenger for Florida’s 6th Congressional District in the 2026 cycle, candidate ID H6FL06415, with a first filing date of 7 April 2026 and party “REPUBLICAN PARTY.” Ballotpedia records that he lost the Republican primary on 18 August 2026.",
+              "sources": [
+                {
+                  "id": "fec",
+                  "locator": "H6FL06415, party REP, office House, district 06, first_file_date 2026-04-07, incumbent_challenge Challenger"
+                },
+                {
+                  "id": "ballotpedia-person",
+                  "locator": "Daniel Bilzerian (Republican Party) ran for Florida’s 6th District and lost in the Republican primary on 18 August 2026"
+                }
+              ]
+            },
+            {
+              "text": "The Florida Division of Elections published official results for the 18 August 2026 Republican primary in Florida’s 6th Congressional District. Randy Fine won and advanced as the Republican nominee, with 51,109 votes (57.6%). Dan Bilzerian, listed as a Republican candidate and not as an independent, finished second, with 16,776 votes (18.9%). Aaron Baker received 12,074 votes (13.6%) and Charles Gambaro 8,716 votes (9.8%). The four-candidate total is 88,675 votes. A dedicated public-record profile of Randy Fine is on this site’s Randy Fine page.",
+              "links": [
+                {
+                  "text": "Randy Fine page",
+                  "url": "https://independenttribunal.org/research/randy-fine/"
+                }
+              ],
+              "sources": [
+                {
+                  "id": "fl-doe-2026-primary",
+                  "locator": "Official Results, United States Representative, District 6, Republican primary, 18 August 2026"
+                },
+                {
+                  "id": "ballotpedia-2026-primary",
+                  "locator": "this page uses the official certified Division of Elections figures already cited on the Randy Fine profile"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-reported-insignia",
+      "title": "A reported Nazi insignia",
+      "group": {
+        "id": "dan-bilzerian-main",
+        "title": "Dan Bilzerian"
+      },
+      "intro": "This section records what was publicly reported, by whom and when, about Nazi insignia said to have appeared on a paintball marker in Bilzerian’s collection. The descriptions are those of the cited reporters and of a person who posted the video. They are not findings of this page. This page does not reproduce images of the markings.",
+      "entries": [
+        {
+          "id": "paintball-reporting",
+          "kind": "News reporting",
+          "title": "May 2025 · reporting of a paintball marker",
+          "date": "2025-05-14",
+          "paragraphs": [
+            {
+              "text": "On 12 May 2025, The Paintball Post reported that an Instagram story published earlier that week by Marcello Margott, described as a host of the Play the Game podcast, featured a tour of Bilzerian’s paintball gear collection, and that viewers had noticed “one particular marker in the mix. A Planet Eclipse CS3 with Nazi iconography, right down to a swastika on the feedneck.” The article’s editor’s note said a photograph accompanying that article was “not from Margott’s post, but it is a picture of the marker in question.” This page repeats those words as The Paintball Post’s, not as a finding of its own.",
+              "sources": [
+                {
+                  "id": "paintball-post",
+                  "locator": "“Does Paintball Have A Nazi Problem?”, 12 May 2025, “The smoking gun”"
+                }
+              ]
+            },
+            {
+              "text": "On 14 May 2025, Hannah Feuer reported in the Forward that the controversy started when Margott, described there as a paintball world champion and as Bilzerian’s trainee, “posted an Instagram story last week displaying his trainee Dan Bilzerian’s vast collection of paintball equipment,” and that viewers “noticed a paintball gun decorated with Nazi insignia — including the Nazi Eagle, SS Bolts, and Celtic Cross.” The Forward reported that, on the Tuesday of that week, the National Paintball League (NXL) created a new rule prohibiting “displaying offensive, inappropriate, or discriminatory content during any NXL-sanctioned event,” and that Margott was removed from the roster of the professional team Edmonton Impact.",
+              "sources": [
+                {
+                  "id": "forward-paintball",
+                  "locator": "Hannah Feuer, 14 May 2025, description of Margott’s Instagram story and the NXL rule"
+                }
+              ]
+            },
+            {
+              "text": "The Forward quoted an Instagram statement from Margott in which he wrote that he did not notice the paintball gun in his video until it was pointed out to him the next day: “I do not condone any symbol of hate, period.” The Forward also reported that he added that he believes “in having friends with different world views,” and that he “did not commit to stop coaching Bilzerian.” Those are Margott’s words and the Forward’s characterisation, not findings of this page.",
+              "sources": [
+                {
+                  "id": "forward-paintball",
+                  "locator": "Margott’s Instagram statement as quoted by Hannah Feuer, 14 May 2025"
+                }
+              ]
+            },
+            {
+              "text": "The Paintball Post noted that “many have started hunting for the company that did the anodizing job on the marker,” and warned that “false accusations can live on long after they are disproven.” This page does not determine who applied the markings, when they were applied, or why. Provenance — including whether the work was commissioned, how it entered the collection, or what happened along a supply chain — is not established here.",
+              "sources": [
+                {
+                  "id": "paintball-post",
+                  "locator": "12 May 2025, “What to do about witch hunts”"
+                }
+              ]
+            },
+            {
+              "text": "This page checked Bilzerian’s X account, @DanBilzerian, for posts in May 2025 using terms including paintball, marker, Margott, swastika and insignia, and did not locate a public post in that window explaining, confirming or denying the markings. It has not located a later public denial or explanation from him that addresses this specific report. The absence of a located statement is not itself a finding about what he believes. Later commentators applied labels to Bilzerian in other contexts, including campaign reporting; those labels are not adopted here, and they are not treated as a second documented insignia display. The sources located for this section describe one reported instance, in May 2025. That is a statement about the sources located, not a finding that no other instance exists.",
+              "sources": [
+                {
+                  "id": "x-profile",
+                  "locator": "X full-archive search of from:DanBilzerian in May 2025 for paintball, marker, Margott, swastika and insignia returned no posts"
+                },
+                {
+                  "id": "forward-paintball",
+                  "locator": "the Forward article does not quote a denial from Bilzerian about the marker"
+                },
+                {
+                  "id": "paintball-post",
+                  "locator": "the 12 May 2025 article does not quote a statement from Bilzerian about the marker"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-insignia-question",
+          "kind": "Question and the author’s view",
+          "title": "Can someone display a Nazi insignia without being a Nazi?",
+          "paragraphs": [
+            {
+              "text": "The question this section will not pretend to answer as a finding is: can someone display a Nazi insignia without being a Nazi? Context and provenance matter to that question — a single object in a collection, marks whose author is not established here, and the difference between one reported instance and a pattern — but they do not dispose of it. Displaying such insignia is not treated lightly on this page, and nothing that follows is a justification or an endorsement of Nazi symbols, Nazi politics, or hatred of Jewish people.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "The author’s view, which is not a conclusion of this page, is set out in the disclosure below: for him, one isolated instance is not decisive. That is his opinion. It is not a finding that the report was false, that the markings were accidental, or that further instances would be irrelevant. The question remains open.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authors-disclosure",
+      "title": "Author’s disclosure",
+      "group": {
+        "id": "dan-bilzerian-main",
+        "title": "Dan Bilzerian"
+      },
+      "intro": "This is a first-person statement by Mars Robertson, the author of IndependentTribunal.org, about his position in the 2026 Republican primary. It is his own account, clearly marked as such, and not a finding of this page.",
+      "entries": [
+        {
+          "id": "authors-statement",
+          "kind": "Author’s disclosure",
+          "title": "A statement in the author’s own name",
+          "paragraphs": [
+            {
+              "text": "My support was strategic and conditional. Even after I was made aware of the Nazi insignia, I continued to support Bilzerian, consistent with my strategy. For me, one isolated instance is not decisive. I do not support Nazis. If more Nazi material appears I will re-evaluate. Official election records, set out above, show that Bilzerian ran as a Republican in the 18 August 2026 primary, not as an independent candidate. This is my own statement, not a finding of this page about any person.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "x-mars-insignia"
+                },
+                {
+                  "id": "fl-doe-2026-primary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "authors-mars-video",
+          "kind": "Published video",
+          "title": "Why do I support Bilzerian?",
+          "date": "2026-05-29",
+          "video": {
+            "provider": "youtube",
+            "id": "SZjbDpob7zs",
+            "title": "Why do I support Bilzerian?",
+            "url": "https://www.youtube.com/watch?v=SZjbDpob7zs",
+            "channel": "Mars Robertson (genesis.re)"
+          },
+          "paragraphs": [
+            {
+              "text": "The YouTube listing for this video, on the channel Mars Robertson (genesis.re) at @genesisdotre, is titled “Why do I support Bilzerian?” YouTube’s video page lists the upload date as 28 May 2026, 17:50 Pacific Daylight Time (29 May 2026, 00:50 UTC) and the duration as 4 minutes 39 seconds. The published description reads: “Follow me on Twitter: https://x.com/MarsitaTheUltra/status/2060160929245909437” and “Clips from: https://www.youtube.com/watch?v=llYEEX2lws8”. This page records that listing. It does not treat the video or those clips as a transcript, and it does not describe footage that has not been independently verified here. The video is embedded below, with a direct link if the embed does not load.",
+              "sources": [
+                {
+                  "id": "youtube-bilzerian"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "authors-mars-post",
+          "kind": "Author’s disclosure",
+          "title": "10 November 2026, 16:04:55 UTC · a further post",
+          "date": "2026-11-10",
+          "paragraphs": [
+            {
+              "text": "On 10 November 2026 at 16:04:55 UTC I posted the following from @MarsitaTheUltra, in the same thread as the earlier support post. The post as retrieved included a photograph, which is not reproduced here. Official records, set out above, show that Bilzerian ran as a Republican in the primary, not as an independent.",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                },
+                {
+                  "id": "fl-doe-2026-primary"
+                }
+              ]
+            },
+            {
+              "quote": true,
+              "text": "@olamtrade180 @DanBilzerian @LauraLoomer @RepFine @Cyntaxed007 @RepThomasMassie @u_independents @owenjonesjourno @ElectBilzerian Which planet are you on?",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                }
+              ]
+            },
+            {
+              "quote": true,
+              "text": "Strategic support for independent candidate ≠ supporting a nazi.",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                }
+              ]
+            },
+            {
+              "quote": true,
+              "text": "At the time of issuing initial support I was informed about nazi insignia. Bearing in mind all the circumstances I remained consistent (could be a cognitive bias) towards an independent",
+              "sources": [
+                {
+                  "id": "x-mars-insignia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "artworks": [
+    {
+      "src": "/images/author-supplied-meeting.webp",
+      "width": 900,
+      "height": 1345,
+      "alt": "A person standing at a microphone in a meeting room, with a United States flag and a seated person in a suit at a table in the background.",
+      "caption": "Image supplied by the author. This page does not identify the speaker from the photograph alone. It has not been verified as a still from the video above, and it is not the photograph attached to the 10 November 2026 post quoted in this section.",
+      "transcript": "A colour photograph of a public meeting. A person stands in the foreground holding a handheld microphone and speaking. In the background there is a United States flag and a person in a suit seated at a table with papers. No readable signage or caption appears in the image.",
+      "after_entry": "authors-mars-video"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fl-doe-2026-primary",
+      "title": "August 18, 2026 Primary Election — Official Results, United States Representative, Republican",
+      "publisher": "Florida Division of Elections",
+      "type": "Official election results",
+      "url": "https://results.elections.myflorida.com/SummaryRpt.asp?ElectionDate=8%2F18%2F2026&Party=REP&Race=FED",
+      "date": "2026-08-18",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "ballotpedia-2026-primary",
+      "title": "Florida's 6th Congressional District election, 2026 (August 18 Republican primary)",
+      "publisher": "Ballotpedia",
+      "type": "Secondary reference work, certified tally",
+      "url": "https://ballotpedia.org/Florida's_6th_Congressional_District_election,_2026_(August_18_Republican_primary)",
+      "date": "2026-08-18",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "ballotpedia-person",
+      "title": "Daniel Bilzerian",
+      "publisher": "Ballotpedia",
+      "type": "Secondary reference work",
+      "url": "https://ballotpedia.org/Daniel_Bilzerian",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "fec",
+      "title": "BILZERIAN, DANIEL BRANDON, candidate H6FL06415",
+      "publisher": "Federal Election Commission",
+      "type": "Official candidate record",
+      "url": "https://www.fec.gov/data/candidate/H6FL06415/",
+      "date": "2026-04-07",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Dan Bilzerian",
+      "publisher": "Wikipedia",
+      "type": "Tertiary reference work",
+      "url": "https://en.wikipedia.org/wiki/Dan_Bilzerian",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "cnbc-king",
+      "title": "‘King of Instagram’ held without bail in LA",
+      "publisher": "CNBC",
+      "type": "News reporting",
+      "url": "https://www.cnbc.com/2014/12/10/king-of-instagram-held-without-bail-in-la.html",
+      "date": "2014-12-10",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "x-profile",
+      "title": "Dan Bilzerian (@DanBilzerian)",
+      "publisher": "X",
+      "type": "Social media profile",
+      "url": "https://x.com/DanBilzerian",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "x-mars-support",
+      "title": "Post by @MarsitaTheUltra on support for Dan Bilzerian’s campaign",
+      "publisher": "X (Marsita the Ultra / Mars Robertson)",
+      "type": "Social media post",
+      "url": "https://x.com/MarsitaTheUltra/status/2120137598794694744",
+      "date": "2026-11-10",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "youtube-bilzerian",
+      "title": "Why do I support Bilzerian?",
+      "publisher": "Mars Robertson (genesis.re) (YouTube)",
+      "type": "Published video",
+      "url": "https://www.youtube.com/watch?v=SZjbDpob7zs",
+      "date": "2026-05-29",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "x-mars-insignia",
+      "title": "Post by @MarsitaTheUltra, 10 November 2026, 16:04:55 UTC",
+      "publisher": "X (Marsita the Ultra / Mars Robertson)",
+      "type": "Social media post",
+      "url": "https://x.com/MarsitaTheUltra/status/2120185947610321193",
+      "date": "2026-11-10",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "editorial",
+      "title": "Editorial standards",
+      "publisher": "Independent Tribunal",
+      "type": "Our policy",
+      "url": "https://independenttribunal.org/legal/editorial-standards/",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "forward-paintball",
+      "title": "‘All my homies hate paintball Nazis’: Antisemitism scandal tears through paintball community",
+      "publisher": "The Forward",
+      "type": "News reporting",
+      "url": "https://forward.com/news/sports/720040/paintball-dan-bilzerian-marcello-margott/",
+      "date": "2025-05-14",
+      "checked": "2026-11-14"
+    },
+    {
+      "id": "paintball-post",
+      "title": "Does Paintball Have A Nazi Problem?",
+      "publisher": "The Paintball Post",
+      "type": "News reporting",
+      "url": "https://thepaintballpost.com/2025/05/12/does-paintball-have-a-nazi-problem/",
+      "date": "2025-05-12",
+      "checked": "2026-11-14"
+    }
+  ]
+}

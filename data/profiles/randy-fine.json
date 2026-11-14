@@ -17,6 +17,10 @@
   "status_note": "Sources reviewed on 13 November 2026, with additional author’s-disclosure sources checked on 14 November 2026. Posts were checked in X’s full archive for the official account @RepFine and the personal account @VoteRandyFine. Automatic captions were obtained for the 3 April 2025 Owen Jones video; because they are machine-generated, Fine’s words are quoted from the original posts and from reporting of a Fox News interview, not from those captions. This page does not find that any statement is a crime, and it does not adopt commentators’ labels as statements of fact.",
   "related": [
     {
+      "id": "dan-bilzerian",
+      "title": "Dan Bilzerian"
+    },
+    {
       "id": "absurdity-paradox",
       "title": "“Your mother was raped by a dog”: the absurdity paradox"
     },
@@ -192,7 +196,7 @@
               ]
             },
             {
-              "text": "Fine was therefore the Republican nominee in the 3 November 2026 general election. This section is confined to the primary challenge from Bilzerian; it does not treat later general-election reporting as a substitute for the official primary record above.",
+              "text": "Fine was therefore the Republican nominee in the 3 November 2026 general election. This section is confined to the primary challenge from Bilzerian; it does not treat later general-election reporting as a substitute for the official primary record above. A dedicated public-record profile of Dan Bilzerian is on this site’s Dan Bilzerian page.",
               "sources": [
                 {
                   "id": "fl-doe-2026-primary",
@@ -201,6 +205,12 @@
                 {
                   "id": "ballotpedia-2026-primary",
                   "locator": "Fine advanced from the Republican primary for the 3 November 2026 general election"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Dan Bilzerian page",
+                  "url": "https://independenttribunal.org/research/dan-bilzerian/"
                 }
               ]
             }
@@ -760,7 +770,13 @@
               ]
             },
             {
-              "text": "I was made aware of the Nazi insignia. At the time I remained consistent with my strategy. In a further post the same day, at 16:04:55 UTC on 10 November 2026, I wrote the words quoted below. Official records still show that Bilzerian was a Republican primary candidate. The word “independent” in that post is mine; it does not change the ballot line. I’m extra cautious. If more Nazi stuff appears I will re-evaluate. That is my position now, not a finding of this page about any person.",
+              "text": "I was made aware of the Nazi insignia. At the time I remained consistent with my strategy. I’m extra cautious. If more Nazi stuff appears I will re-evaluate. That is my position now, not a finding of this page about any person. The later post of 10 November 2026 at 16:04:55 UTC, the video “Why do I support Bilzerian?”, and a sourced account of the reported insignia are on this site’s Dan Bilzerian page.",
+              "links": [
+                {
+                  "text": "Dan Bilzerian page",
+                  "url": "https://independenttribunal.org/research/dan-bilzerian/"
+                }
+              ],
               "sources": [
                 {
                   "id": "x-mars-insignia"
@@ -790,75 +806,6 @@
                 },
                 {
                   "id": "editorial"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "authors-mars-video",
-          "kind": "Published video",
-          "title": "Why do I support Bilzerian?",
-          "date": "2026-05-29",
-          "video": {
-            "provider": "youtube",
-            "id": "SZjbDpob7zs",
-            "title": "Why do I support Bilzerian?",
-            "url": "https://www.youtube.com/watch?v=SZjbDpob7zs",
-            "channel": "Mars Robertson (genesis.re)"
-          },
-          "paragraphs": [
-            {
-              "text": "The YouTube listing for this video, on the channel Mars Robertson (genesis.re) at @genesisdotre, is titled “Why do I support Bilzerian?” YouTube’s video page lists the upload date as 28 May 2026, 17:50 Pacific Daylight Time (29 May 2026, 00:50 UTC) and the duration as 4 minutes 39 seconds. The published description reads: “Follow me on Twitter: https://x.com/MarsitaTheUltra/status/2060160929245909437” and “Clips from: https://www.youtube.com/watch?v=llYEEX2lws8”. This page records that listing. It does not treat the video or those clips as a transcript, and it does not describe footage that has not been independently verified here. The video is embedded below, with a direct link if the embed does not load.",
-              "sources": [
-                {
-                  "id": "youtube-bilzerian"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "authors-mars-post",
-          "kind": "Author’s disclosure",
-          "title": "10 November 2026, 16:04:55 UTC · a further post",
-          "date": "2026-11-10",
-          "paragraphs": [
-            {
-              "text": "On 10 November 2026 at 16:04:55 UTC I posted the following from @MarsitaTheUltra, in the same thread as the earlier support post. The post as retrieved included a photograph, which is not reproduced here. Official records, set out above, show that Bilzerian ran as a Republican in the primary, not as an independent.",
-              "sources": [
-                {
-                  "id": "x-mars-insignia"
-                },
-                {
-                  "id": "fl-doe-2026-primary"
-                }
-              ]
-            },
-            {
-              "quote": true,
-              "text": "@olamtrade180 @DanBilzerian @LauraLoomer @RepFine @Cyntaxed007 @RepThomasMassie @u_independents @owenjonesjourno @ElectBilzerian Which planet are you on?",
-              "sources": [
-                {
-                  "id": "x-mars-insignia"
-                }
-              ]
-            },
-            {
-              "quote": true,
-              "text": "Strategic support for independent candidate ≠ supporting a nazi.",
-              "sources": [
-                {
-                  "id": "x-mars-insignia"
-                }
-              ]
-            },
-            {
-              "quote": true,
-              "text": "At the time of issuing initial support I was informed about nazi insignia. Bearing in mind all the circumstances I remained consistent (could be a cognitive bias) towards an independent",
-              "sources": [
-                {
-                  "id": "x-mars-insignia"
                 }
               ]
             }
@@ -1295,15 +1242,6 @@
       "checked": "2026-11-14"
     },
     {
-      "id": "youtube-bilzerian",
-      "title": "Why do I support Bilzerian?",
-      "publisher": "Mars Robertson (genesis.re) (YouTube)",
-      "type": "Published video",
-      "url": "https://www.youtube.com/watch?v=SZjbDpob7zs",
-      "date": "2026-05-29",
-      "checked": "2026-11-14"
-    },
-    {
       "id": "x-mars-insignia",
       "title": "Post by @MarsitaTheUltra, 10 November 2026, 16:04:55 UTC",
       "publisher": "X (Marsita the Ultra / Mars Robertson)",
@@ -1341,15 +1279,6 @@
       "alt": "Political satire infographic titled “ULTRA CLUSTERFUCKS: Meticulously engineered own goals.” Panel 1, labelled Your Party, names Zarah Sultana and Jeremy Corbyn and the line “membership launch without joint approval,” showing a figure at a computer as a shattered red block and a football fly into a goal. Panel 2, labelled Green Party, cites the “Zionism is racism” motion and “coalition fractures,” with a speaker at a podium, a ballot box, and a green bloc splitting as a ball hits the net. Panel 3 shows a figure walking away from the wreckage through an open door toward a desk labelled Marsita The Ultra, with the caption “Back to my own business” and the label “Political satire.”",
       "caption": "Author’s political satire: “ULTRA CLUSTERFUCKS: Meticulously engineered own goals,” labelled “Political satire” on the graphic itself. This is the author’s commentary, not a finding of this page.",
       "transcript": "Title: ULTRA CLUSTERFUCKS / METICULOUSLY ENGINEERED OWN GOALS. Panel 1: YOUR PARTY / Zarah Sultana · Jeremy Corbyn / Membership launch without joint approval. Panel 2: GREEN PARTY / “Zionism is racism” motion / Coalition fractures. Panel 3: a person walks away from the wreckage toward a desk labelled Marsita The Ultra. Caption: BACK TO MY OWN BUSINESS. / POLITICAL SATIRE."
-    },
-    {
-      "src": "/images/author-supplied-meeting.webp",
-      "width": 900,
-      "height": 1345,
-      "alt": "A person standing at a microphone in a meeting room, with a United States flag and a seated person in a suit at a table in the background.",
-      "caption": "Image supplied by the author. This page does not identify the speaker from the photograph alone. It has not been verified as a still from the video above, and it is not the photograph attached to the 10 November 2026 post quoted in this section.",
-      "transcript": "A colour photograph of a public meeting. A person stands in the foreground holding a handheld microphone and speaking. In the background there is a United States flag and a person in a suit seated at a table with papers. No readable signage or caption appears in the image.",
-      "after_entry": "authors-mars-video"
     }
   ]
 }
