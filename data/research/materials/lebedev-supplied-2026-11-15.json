@@ -1,0 +1,2138 @@
+{
+  "schema_version": "3.0",
+  "publisher": "Independent Tribunal",
+  "slug": "evgeny-lebedev-peerage-and-media-ownership",
+  "title": "Evgeny Lebedev, the peerage and the free press",
+  "standfirst": "A free London newspaper proprietor entered Britain’s unelected second chamber after intelligence-related scrutiny. What was said, by whom and to whom?",
+  "status": "draft_public_record_dossier_not_published",
+  "compiled_on": "2026-11-15",
+  "underlying_research_reviewed_on": "2026-11-14",
+  "subject": {
+    "name": "Evgeny Alexandrovich Lebedev",
+    "title": "Baron Lebedev",
+    "parliamentary_affiliation": "Crossbench",
+    "father": {
+      "name": "Alexander Lebedev",
+      "claim_id": "alexander-kgb"
+    }
+  },
+  "scope": "Public-interest dossier on the appointment, transparency and the overlap between media ownership and access to legislative office. No finding of wrongdoing or espionage.",
+  "bottom_line": {
+    "text": "The public evidence is strongest on HOLAC’s final position. Its chair said the commission did not ultimately advise against the appointment. A reported early objection, a possible separate warning to No. 10 and an override of final HOLAC advice are three different claims. The underlying intelligence assessments were not released in the published bundle.",
+    "claim_ids": [
+      "holac-final-and-pressure",
+      "early-holac-position",
+      "mi6-warning",
+      "proxy-hypothesis",
+      "limited-disclosure"
+    ]
+  },
+  "advice_chain": [
+    {
+      "text": "Intelligence agencies supplied material. Separate MI5 and MI6 roles are attributed in reporting, but the public does not have the dated underlying intelligence documents or the exact advice to each recipient.",
+      "claim_ids": [
+        "mi5-pause",
+        "mi6-warning"
+      ]
+    },
+    {
+      "text": "HOLAC assessed propriety and advised the Prime Minister. It did not hold a veto. Press accounts described an early adverse position, but Bew’s official testimony establishes that HOLAC’s final position was not to advise against appointment. Peter Cruddas offers a contrast where the negative HOLAC recommendation is public.",
+      "claim_ids": [
+        "early-holac-position",
+        "holac-final-and-pressure",
+        "cruddas-comparator"
+      ]
+    },
+    {
+      "text": "A separate warning to No. 10 and final HOLAC non-objection are compatible. That does not prove an objection by proxy. Johnson’s denial and Bew’s description of the commission’s own process do not disclose what any agency separately sent to No. 10.",
+      "claim_ids": [
+        "intervention-and-denial",
+        "proxy-hypothesis"
+      ]
+    },
+    {
+      "text": "The Commons sought the papers. The government released a limited bundle and discussed national-security material with the ISC privately. The briefing is not evidence of a private or public clearance.",
+      "claim_ids": [
+        "commons-motion",
+        "limited-disclosure",
+        "isc-briefing"
+      ]
+    }
+  ],
+  "chronology": [
+    {
+      "date": "2009",
+      "date_precision": "year",
+      "text": "The Lebedevs acquired a stake in the Evening Standard.",
+      "claim_ids": [
+        "standard-proprietorship"
+      ]
+    },
+    {
+      "date": "2009-10",
+      "date_precision": "month",
+      "text": "The Evening Standard became a free London daily.",
+      "claim_ids": [
+        "free-daily"
+      ]
+    },
+    {
+      "date": "2020-03-17",
+      "date_precision": "day",
+      "text": "Relevant HOLAC meeting identified by Bew. The Sunday Times also placed Johnson’s reported receipt of an intelligence warning on that date.",
+      "claim_ids": [
+        "mi5-pause",
+        "mi6-warning",
+        "early-holac-position"
+      ]
+    },
+    {
+      "date": "2020-07-31",
+      "date_precision": "day",
+      "text": "Crossbench life peerage publicly announced.",
+      "claim_ids": [
+        "announcement"
+      ]
+    },
+    {
+      "date": "2020-11-19",
+      "date_precision": "day",
+      "text": "Life peerage created.",
+      "claim_ids": [
+        "creation-introduction"
+      ]
+    },
+    {
+      "date": "2020-12-17",
+      "date_precision": "day",
+      "text": "Formal introduction in the House of Lords.",
+      "claim_ids": [
+        "creation-introduction"
+      ]
+    },
+    {
+      "date": "2020-12-22",
+      "date_precision": "day",
+      "text": "Cruddas comparator publicly documented.",
+      "claim_ids": [
+        "cruddas-comparator"
+      ]
+    },
+    {
+      "date": "2022-02-28",
+      "date_precision": "day",
+      "text": "Tortoise published its account of the vetting, later summarised by the Commons Library.",
+      "claim_ids": [
+        "early-holac-position"
+      ]
+    },
+    {
+      "date": "2022-03",
+      "date_precision": "month",
+      "text": "Investigative reports and denials entered the public record.",
+      "claim_ids": [
+        "intervention-and-denial",
+        "lebedev-response"
+      ]
+    },
+    {
+      "date": "2022-03-29",
+      "date_precision": "day",
+      "text": "Commons agreed the Humble Address.",
+      "claim_ids": [
+        "commons-motion"
+      ]
+    },
+    {
+      "date": "2022-04-20",
+      "date_precision": "day",
+      "text": "Bew gave evidence to MPs.",
+      "claim_ids": [
+        "holac-final-and-pressure"
+      ]
+    },
+    {
+      "date": "2022-05-12",
+      "date_precision": "day",
+      "text": "Limited papers released. Detailed security advice withheld from publication.",
+      "claim_ids": [
+        "limited-disclosure",
+        "isc-briefing"
+      ]
+    },
+    {
+      "date": "2024-09-26",
+      "date_precision": "day",
+      "text": "Weekly London Standard launched.",
+      "claim_ids": [
+        "weekly-transition"
+      ]
+    },
+    {
+      "date": "2026-01-23",
+      "date_precision": "day",
+      "text": "Direct controlling interest ceased. Corporate register shows the indirect chain through Sovereignty Media.",
+      "claim_ids": [
+        "ownership-chain"
+      ]
+    },
+    {
+      "date": "2026-04",
+      "date_precision": "month",
+      "text": "Standard website transfer reported separately from continuing weekly print.",
+      "claim_ids": [
+        "digital-operations"
+      ]
+    },
+    {
+      "date": "2026-10",
+      "date_precision": "month",
+      "text": "Trade and press follow-up described the continuing separation of print and digital operations.",
+      "claim_ids": [
+        "digital-operations"
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "text": "Evgeny Lebedev denied being a security risk or an agent of Russia, and warned against discrimination based on Russian origins.",
+      "claim_ids": [
+        "lebedev-response"
+      ]
+    },
+    {
+      "text": "Boris Johnson denied intervening to override security concerns.",
+      "claim_ids": [
+        "intervention-and-denial"
+      ]
+    }
+  ],
+  "media_ownership": [
+    {
+      "text": "Historic proprietorship of a free daily is distinct from audited audience reach. Metro was a separate title.",
+      "claim_ids": [
+        "standard-proprietorship",
+        "free-daily"
+      ]
+    },
+    {
+      "text": "The title switched to weekly print in September 2024. The 2026 chain of corporate control and the separate website arrangement should not be collapsed into a single claim about managing the newsroom.",
+      "claim_ids": [
+        "weekly-transition",
+        "ownership-chain",
+        "digital-operations"
+      ]
+    }
+  ],
+  "editorial_note": {
+    "label": "Commentary, not a finding",
+    "text": "The irony is that the son of a former Soviet intelligence officer held the proprietorship of a free London newspaper and gained a seat in Britain’s unelected second chamber. The public-interest question concerns media power, legislative access and the transparency of appointments. A parent’s career is not evidence against a child, and ownership does not prove who directed any individual story.",
+    "claim_ids": [
+      "alexander-kgb",
+      "standard-proprietorship",
+      "announcement",
+      "limited-disclosure"
+    ]
+  },
+  "open_questions": [
+    {
+      "question": "What were the exact terms of each agency’s advice, and to whom did it go?",
+      "needed": "Dated MI5 and MI6 communications or releasable summaries that distinguish an assessment, a concern and an explicit recommendation. Identify whether No. 10 got separate advice.",
+      "claim_ids": [
+        "mi5-pause",
+        "mi6-warning",
+        "proxy-hypothesis"
+      ]
+    },
+    {
+      "question": "What did HOLAC communicate during March 2020, and what changed before final advice?",
+      "needed": "The 17 March record and dated versions of correspondence distinguishing an interim objection, a deferral and the final position.",
+      "claim_ids": [
+        "early-holac-position",
+        "holac-final-and-pressure"
+      ]
+    },
+    {
+      "question": "Did anyone at No. 10 ask for withdrawal, revision or further clarification?",
+      "needed": "A dated correspondence log or a releasable account distinguishing contacts with HOLAC from contacts with the agencies and Cabinet Office.",
+      "claim_ids": [
+        "intervention-and-denial",
+        "proxy-hypothesis"
+      ]
+    },
+    {
+      "question": "What can be said publicly about the ISC briefing?",
+      "needed": "The scope of the briefing and any releasable outcomes. No public ISC merits finding was identified in the reviewed sources.",
+      "claim_ids": [
+        "isc-briefing",
+        "limited-disclosure"
+      ]
+    }
+  ],
+  "methodology": {
+    "evidence_roles": {
+      "p": "primary_record",
+      "t": "official_testimony",
+      "o": "original_investigative_reporting",
+      "r": "contemporaneous_or_trade_reporting",
+      "a": "party_or_publisher_statement",
+      "f": "follow_up_or_shared_origin",
+      "c": "context_or_evidence_limit",
+      "x": "counterpoint_or_qualification"
+    },
+    "reading_rule": "Official records establish procedural events. Testimony establishes what witnesses said, not the unseen contents of classified documents. Attribution is part of the claim. Follow-ups, shared wire copy and separate reports repeating the same official statement do not become independent corroboration. Search phrases are prompts for readers, not evidence.",
+    "coverage_rule": "Counts are links relevant to a claim or its limits, not a count of independent witnesses. The ten-additional-page goal is shown for each claim and shortfalls are retained. Nationality and family history are not evidence of misconduct."
+  },
+  "claims": [
+    {
+      "id": "announcement",
+      "date": "2020-07-31",
+      "date_precision": "day",
+      "status": "documented",
+      "claim": "The government announced a crossbench life peerage for Evgeny Lebedev, citing philanthropy and services to the media.",
+      "hostile_reader_test": "The stated public rationale is not the full nomination paperwork or a security clearance. Separate the July announcement, November creation and December introduction.",
+      "search_queries": [
+        "Evgeny Lebedev 31 July 2020 philanthropy services to the media"
+      ],
+      "evidence": [
+        {
+          "source_id": "S003",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S023",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S024",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S025",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S026",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S027",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S028",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S029",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S001",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S030",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S031",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S118",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 13,
+        "additional_pages_vs_original": 9,
+        "target_additional_pages": 10,
+        "shortfall": 1,
+        "reason": "Fewer additional claim-specific links remained after excluding obvious duplicate URLs and weakly relevant pages."
+      }
+    },
+    {
+      "id": "creation-introduction",
+      "date": "2020-11-19",
+      "date_precision": "day",
+      "status": "documented",
+      "claim": "The life peerage was created on 19 November 2020. The Lords recorded Lebedev’s formal introduction on 17 December 2020.",
+      "hostile_reader_test": "Check the Letters Patent date rather than the Gazette publication date. Read the separate Lords introduction entry.",
+      "search_queries": [
+        "Lebedev Gazette 63182 19918 19 November 2020 introduction 17 December"
+      ],
+      "evidence": [
+        {
+          "source_id": "S029",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S001",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S031",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S032",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S033",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S034",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S118",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S119",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 8,
+        "additional_pages_vs_original": 7,
+        "target_additional_pages": 10,
+        "shortfall": 3,
+        "reason": "The exact dates rest on official records, not multiple separate witnesses."
+      }
+    },
+    {
+      "id": "alexander-kgb",
+      "date": null,
+      "date_precision": null,
+      "status": "documented",
+      "claim": "Evgeny is the son of Alexander Lebedev, a former KGB foreign intelligence officer.",
+      "hostile_reader_test": "Check which Lebedev is named. The father’s employment does not show the son worked for intelligence.",
+      "search_queries": [
+        "Alexander Lebedev former KGB officer son Evgeny Evening Standard"
+      ],
+      "evidence": [
+        {
+          "source_id": "S015",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S035",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S036",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S037",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S038",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S039",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S040",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S041",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S042",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S043",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S044",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S013",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S025",
+          "role": "contemporaneous_or_trade_reporting"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 13,
+        "additional_pages_vs_original": 11,
+        "target_additional_pages": 10,
+        "shortfall": 0
+      }
+    },
+    {
+      "id": "mi5-pause",
+      "date": "2020-03",
+      "date_precision": "month",
+      "status": "attributed_reporting",
+      "claim": "The Guardian attributed a pause in the nomination to MI5 advice. HOLAC chair Lord Bew confirmed a lengthy exchange with intelligence services, but did not publish MI5’s wording or endorse the description of the material as a warning.",
+      "hostile_reader_test": "Read Bew Q18–22 and Q43–49. A pause is not an explicit recommendation to No. 10 against granting the peerage.",
+      "search_queries": [
+        "Guardian Lebedev nomination paused MI5 April 20 2022 Lord Bew HOLAC"
+      ],
+      "evidence": [
+        {
+          "source_id": "S012",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S046",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S047",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S011",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S010",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S048",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S049",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S050",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 11,
+        "additional_pages_vs_original": 6,
+        "target_additional_pages": 10,
+        "shortfall": 4,
+        "reason": "MI5’s original language is unavailable. Follow-ups or background cannot establish the wording."
+      }
+    },
+    {
+      "id": "mi6-warning",
+      "date": "2020-03-17",
+      "date_precision": "day",
+      "status": "attributed_reporting",
+      "claim": "The Sunday Times reported that Johnson learned on 17 March 2020 that British intelligence had warned against the peerage. The same report separately described earlier concerns attributed to former MI6 chief Sir John Sawers about meeting Lebedev.",
+      "hostile_reader_test": "Earlier concerns about a meeting are not themselves a formal MI6 recommendation on the peerage. ITV drew on the Sunday Times reporting. No published document reviewed establishes that both MI5 and MI6 formally recommended against appointment.",
+      "search_queries": [
+        "56bl5hklb Lebedev 17 March 2020 Sunday Times John Sawers MI6 peerage"
+      ],
+      "evidence": [
+        {
+          "source_id": "S010",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S013",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S005",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S051",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S048",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S049",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S012",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S006",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S007",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 9,
+        "additional_pages_vs_original": 3,
+        "target_additional_pages": 10,
+        "shortfall": 7,
+        "reason": "The original agency material is not public and some press coverage depends on the same Sunday Times reporting."
+      }
+    },
+    {
+      "id": "early-holac-position",
+      "date": "2020-03",
+      "date_precision": "month",
+      "status": "disputed",
+      "claim": "Tortoise reported that HOLAC advised Johnson not to proceed, as summarised by the Commons Library. The Guardian reported an initial rejection followed by renewed consideration. The form and wording of any initial recommendation are unverified.",
+      "hostile_reader_test": "An interim objection, a pause for information and final negative advice are distinct claims. No published initial letter was located in the evidence reviewed.",
+      "search_queries": [
+        "Tortoise Lord of Siberia February 2022 HOLAC Guardian Lebedev initially dismissed March 2020"
+      ],
+      "evidence": [
+        {
+          "source_id": "S009",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S011",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S012",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S006",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S046",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S052",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S047",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S007",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S048",
+          "role": "follow_up_or_shared_origin"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 11,
+        "additional_pages_vs_original": 5,
+        "target_additional_pages": 10,
+        "shortfall": 5,
+        "reason": "The initial letter or minute has not been published in the evidence reviewed."
+      }
+    },
+    {
+      "id": "holac-final-and-pressure",
+      "date": "2022-04-20",
+      "date_precision": "day",
+      "status": "official_testimony",
+      "claim": "Lord Bew said HOLAC ultimately did not advise against the peerage. He said a final written report informed the outcome, there was no pressure on HOLAC and the commission received clarification rather than repudiation of an assessment.",
+      "hostile_reader_test": "Read Bew Q32, Q35, Q39 and Q46–49. He spoke about what HOLAC saw, not every agency or Downing Street interaction. Non-objection is not security clearance.",
+      "search_queries": [
+        "Lord Bew 20 April 2022 Lebedev Q46 Q48 final report no pressure"
+      ],
+      "evidence": [
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S012",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S008",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S046",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S052",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S047",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S053",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S007",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S054",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 11,
+        "additional_pages_vs_original": 6,
+        "target_additional_pages": 10,
+        "shortfall": 4,
+        "reason": "Several publications cover one hearing. The final written advice was not published."
+      }
+    },
+    {
+      "id": "intervention-and-denial",
+      "date": "2022-03",
+      "date_precision": "month",
+      "status": "disputed",
+      "claim": "The Sunday Times alleged, as reported by Sky and others, that an assessment was withdrawn after Johnson intervened. Johnson denied overriding security concerns. Bew challenged the account of a withdrawal insofar as it related to material HOLAC received.",
+      "hostile_reader_test": "A denial establishes the speaker’s position. Bew’s evidence does not establish what occurred outside HOLAC. Repeat reporting does not independently prove either an intervention or a withdrawal.",
+      "search_queries": [
+        "Boris Johnson March 7 2022 denies overriding Lebedev assessment withdrawn Sunday Times"
+      ],
+      "evidence": [
+        {
+          "source_id": "S014",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S011",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S055",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S056",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S057",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S058",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S059",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S060",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S061",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S050",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S044",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S062",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S006",
+          "role": "counterpoint_or_qualification"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 14,
+        "additional_pages_vs_original": 11,
+        "target_additional_pages": 10,
+        "shortfall": 0
+      }
+    },
+    {
+      "id": "proxy-hypothesis",
+      "date": null,
+      "date_precision": null,
+      "status": "not_established",
+      "claim": "A separate intelligence warning to No. 10 could coexist with HOLAC’s final non-objection. No reviewed public record establishes that HOLAC deliberately left its objection to MI5 or MI6.",
+      "hostile_reader_test": "Look for dated senders, recipients and versions of the advice. Bew described the commission asking for more material and then reaching its own position.",
+      "search_queries": [
+        "Lebedev HOLAC separate intelligence advice No 10 March 17 2020 Bew"
+      ],
+      "evidence": [
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S053",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S046",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S010",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S012",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S007",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S008",
+          "role": "official_testimony"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 8,
+        "additional_pages_vs_original": 2,
+        "target_additional_pages": 10,
+        "shortfall": 8,
+        "reason": "No dated record was identified that establishes a division of responsibility between HOLAC and intelligence agencies."
+      }
+    },
+    {
+      "id": "commons-motion",
+      "date": "2022-03-29",
+      "date_precision": "day",
+      "status": "documented",
+      "claim": "The Commons agreed a Humble Address seeking appointment papers, allowing redaction on national-security grounds.",
+      "hostile_reader_test": "Read the motion and division in Hansard. A call for disclosure was not a finding on the appointment.",
+      "search_queries": [
+        "29 March 2022 Appointment Lord Lebedev Humble Address Hansard"
+      ],
+      "evidence": [
+        {
+          "source_id": "S005",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S063",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S064",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S065",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S007",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S044",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S050",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S062",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S049",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S054",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S066",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S067",
+          "role": "contemporaneous_or_trade_reporting"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 13,
+        "additional_pages_vs_original": 10,
+        "target_additional_pages": 10,
+        "shortfall": 0
+      }
+    },
+    {
+      "id": "limited-disclosure",
+      "date": "2022-05-12",
+      "date_precision": "day",
+      "status": "documented",
+      "claim": "The government released a limited set of documents and did not publicly disclose the detailed security advice.",
+      "hostile_reader_test": "Inspect the bundle and written statement. The absence of the assessment does not establish either clearance or rejection.",
+      "search_queries": [
+        "HCWS22 Lebedev May 12 2022 Humble Address government response security advice"
+      ],
+      "evidence": [
+        {
+          "source_id": "S007",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S054",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S050",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S067",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S068",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S044",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S069",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S066",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S062",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S049",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S070",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S047",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S071",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S005",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 14,
+        "additional_pages_vs_original": 12,
+        "target_additional_pages": 10,
+        "shortfall": 0
+      }
+    },
+    {
+      "id": "isc-briefing",
+      "date": null,
+      "date_precision": null,
+      "status": "official_record_and_testimony",
+      "claim": "The government said it was providing national-security material to the Intelligence and Security Committee. Cabinet Secretary Simon Case confirmed a private briefing. No public finding on the merits by that committee was identified in the reviewed material.",
+      "hostile_reader_test": "Read Case Q388–392 and the written statement. A briefing is not an endorsement, clearance or public verdict.",
+      "search_queries": [
+        "Simon Case Lord Lebedev ISC briefed oral evidence 13497 Q389"
+      ],
+      "evidence": [
+        {
+          "source_id": "S054",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S008",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S007",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S068",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S044",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S050",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S067",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S069",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S062",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S049",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S072",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S066",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 12,
+        "additional_pages_vs_original": 10,
+        "target_additional_pages": 10,
+        "shortfall": 0
+      }
+    },
+    {
+      "id": "lebedev-response",
+      "date": "2022-03",
+      "date_precision": "month",
+      "status": "direct_statement",
+      "claim": "Lebedev denied being a Russian agent or a UK security risk and warned against judging people by their Russian origins. He later said he had nothing to hide. Bew said Lebedev had not objected to disclosure.",
+      "hostile_reader_test": "Reprints verify what was said, not whether the denial resolves the underlying questions. Separate his 11 March statement from his comments around the Commons vote.",
+      "search_queries": [
+        "Lebedev statement from proprietor March 11 not agent security risk 29 March nothing to hide"
+      ],
+      "evidence": [
+        {
+          "source_id": "S015",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S042",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S043",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S013",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S064",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S063",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S050",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S073",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 9,
+        "additional_pages_vs_original": 6,
+        "target_additional_pages": 10,
+        "shortfall": 4,
+        "reason": "Fewer additional claim-specific links remained after excluding obvious duplicate URLs and weakly relevant pages."
+      }
+    },
+    {
+      "id": "cruddas-comparator",
+      "date": "2020-12-22",
+      "date_precision": "day",
+      "status": "documented",
+      "claim": "HOLAC advised on propriety but had no veto. It publicly said it could not support Peter Cruddas’s separate nomination, and Johnson proceeded.",
+      "hostile_reader_test": "The Cruddas letter gives a documented example of an override. It is not evidence that the Lebedev case followed the same path.",
+      "search_queries": [
+        "Peter Cruddas December 22 2020 HOLAC unable to support Lord Bew letter"
+      ],
+      "evidence": [
+        {
+          "source_id": "S074",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S075",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S076",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S077",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S078",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S053",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S079",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S080",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S008",
+          "role": "official_testimony"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 12,
+        "additional_pages_vs_original": 9,
+        "target_additional_pages": 10,
+        "shortfall": 1,
+        "reason": "Fewer additional claim-specific links remained after excluding obvious duplicate URLs and weakly relevant pages."
+      }
+    },
+    {
+      "id": "standard-proprietorship",
+      "date": null,
+      "date_precision": null,
+      "status": "documented_historical",
+      "claim": "The Lebedevs acquired a stake in the Evening Standard in 2009. Evgeny was identified as its proprietor when he received his peerage. Metro is a different title.",
+      "hostile_reader_test": "Separate historic proprietorship, current corporate structure and editorial control over a given story.",
+      "search_queries": [
+        "Evgeny Alexander Lebedev Evening Standard acquisition 2009 Ofcom 2019 Metro ABC"
+      ],
+      "evidence": [
+        {
+          "source_id": "S081",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S039",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S040",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S041",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S082",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S083",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S084",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S085",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S025",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S028",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S086",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S087",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S017",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S020",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S021",
+          "role": "primary_record"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 15,
+        "additional_pages_vs_original": 12,
+        "target_additional_pages": 10,
+        "shortfall": 0
+      }
+    },
+    {
+      "id": "free-daily",
+      "date": "2009-10",
+      "date_precision": "month",
+      "status": "documented_historical",
+      "claim": "The Evening Standard became free in October 2009 and was a free London daily at the time of the peerage.",
+      "hostile_reader_test": "Distinguish launch from announcement. The dossier makes no circulation superlative. Comparisons need equivalent periods, geography and metrics.",
+      "search_queries": [
+        "Evening Standard October 12 2009 relaunch free London daily"
+      ],
+      "evidence": [
+        {
+          "source_id": "S088",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S089",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S090",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S091",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S092",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S093",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S094",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S095",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S096",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S097",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S098",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S099",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S100",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S020",
+          "role": "primary_record"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 14,
+        "additional_pages_vs_original": 13,
+        "target_additional_pages": 10,
+        "shortfall": 0
+      }
+    },
+    {
+      "id": "weekly-transition",
+      "date": "2024-09-26",
+      "date_precision": "day",
+      "status": "documented",
+      "claim": "The daily print edition ended in September 2024. The weekly London Standard launched on 26 September 2024.",
+      "hostile_reader_test": "Distinguish the May announcement, last daily issue and first weekly issue. Some industry sites republished the launch materials.",
+      "search_queries": [
+        "London Standard September 26 2024 first weekly last daily September 19"
+      ],
+      "evidence": [
+        {
+          "source_id": "S016",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S101",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S102",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S100",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S103",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S104",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S105",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S106",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S107",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S108",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S109",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S110",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S111",
+          "role": "primary_record"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 13,
+        "additional_pages_vs_original": 12,
+        "target_additional_pages": 10,
+        "shortfall": 0
+      }
+    },
+    {
+      "id": "ownership-chain",
+      "date": "2026-01-23",
+      "date_precision": "day",
+      "status": "documented_filings",
+      "claim": "Lebedev’s Lords register shows his direct controlling interest in Lebedev Holdings ceased on 23 January 2026. Companies House lists the indirect chain as Evgeny Lebedev → Sovereignty Media Limited → Lebedev Holdings Limited → Evening Standard Limited, with each upstream entity listed as holding significant control over the next.",
+      "hostile_reader_test": "Read the three live company filings alongside his register. A direct interest ending does not mean the indirect chain disappeared. Filings do not establish who made particular editorial decisions.",
+      "search_queries": [
+        "23 January 2026 Sovereignty Media 14412020 Lebedev Holdings 06764905 Evening Standard 06770098 PSC"
+      ],
+      "evidence": [
+        {
+          "source_id": "S002",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S112",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S113",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S087",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S114",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S115",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S116",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S019",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S018",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S017",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 10,
+        "additional_pages_vs_original": 6,
+        "target_additional_pages": 10,
+        "shortfall": 4,
+        "reason": "The chain is established by a small set of company filings and the Lords register, which additional press mentions cannot replace."
+      }
+    },
+    {
+      "id": "digital-operations",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "reported",
+      "claim": "In January 2026 trade reports described a proposed deal for Independent Media to operate the Standard website. Press Gazette reported the transfer in April while weekly print remained with the Standard. The New World reported the continuing split in October.",
+      "hostile_reader_test": "Distinguish a proposal from a completed transfer. Operating the website is not the same as buying the entire title or controlling print editorial.",
+      "search_queries": [
+        "Press Gazette April 2026 Standard website transfers Independent weekly print London Standard"
+      ],
+      "evidence": [
+        {
+          "source_id": "S017",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S117",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S018",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S019",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S116",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S002",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S087",
+          "role": "context_or_evidence_limit"
+        }
+      ],
+      "coverage": {
+        "linked_pages": 7,
+        "additional_pages_vs_original": 3,
+        "target_additional_pages": 10,
+        "shortfall": 7,
+        "reason": "Few reports specifically cover the operational handover. Corporate filings are contextual."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S001",
+      "title": "Parliamentary career for Lord Lebedev",
+      "url": "https://members.parliament.uk/member/4900/career"
+    },
+    {
+      "id": "S002",
+      "title": "Register of Interests for Lord Lebedev - MPs and Lords - UK Parliament",
+      "url": "https://members.parliament.uk/member/4900/registeredinterests"
+    },
+    {
+      "id": "S003",
+      "title": "Political Peerages 2020",
+      "url": "https://assets.publishing.service.gov.uk/media/5f24373c8fa8f57ac683d847/Political_Peerages_2020.pdf"
+    },
+    {
+      "id": "S004",
+      "title": "Advice relating to the appointment of Lord Lebedev - House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0075/"
+    },
+    {
+      "id": "S005",
+      "title": "Appointment of Lord Lebedev, Commons debate and division",
+      "url": "https://hansard.parliament.uk/Commons/2022-03-29/debates/D30351A6-5912-417B-A961-413167847683/AppointmentOfLordLebedev"
+    },
+    {
+      "id": "S006",
+      "title": "Lord Bew’s oral evidence, 20 April 2022, HC 1238",
+      "url": "https://committees.parliament.uk/oralevidence/10107/pdf/"
+    },
+    {
+      "id": "S007",
+      "title": "Combined Version - 2022.05.12 - Government response to Humble Address Motion on House of Lords Appointment.docx",
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1074883/Combined-Version-2022.05.12-Government-response-to-Humble-Address-Motion-on-House-of-Lords-Appointment.docx.pdf"
+    },
+    {
+      "id": "S008",
+      "title": "House of Commons",
+      "url": "https://committees.parliament.uk/oralevidence/13497/pdf"
+    },
+    {
+      "id": "S009",
+      "title": "Lord of Siberia",
+      "url": "https://www.tortoisemedia.com/file/lord-of-siberia/",
+      "access_note": "Original was not accessible in the earlier review. The Commons Library briefing summarises the attributed claim."
+    },
+    {
+      "id": "S010",
+      "title": "How Boris Johnson’s friendship with Evgeny Lebedev deepened despite MI6 concerns",
+      "url": "https://www.thetimes.com/uk/politics/article/how-boris-johnsons-friendship-with-evgeny-lebedev-deepened-despite-mi6-concerns-56bl5hklb",
+      "access_note": "May require a subscription. It does not publish the original assessment."
+    },
+    {
+      "id": "S011",
+      "title": "Boris Johnson denies overruling spies’ concerns over Evgeny Lebedev peerage | Boris Johnson | The Guardian",
+      "url": "https://www.theguardian.com/politics/2022/mar/07/boris-johnson-denies-overruling-spies-concerns-over-evgeny-lebedev-peerage"
+    },
+    {
+      "id": "S012",
+      "title": "Evgeny Lebedev’s nomination for peerage ‘paused’ after MI5 advice | Evgeny Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2022/apr/20/evgeny-lebedev-nomination-for-peerage-paused-after-mi5-advice"
+    },
+    {
+      "id": "S013",
+      "title": "MI6 'warned Boris Johnson about Russian oligarch friend Evgeny Lebedev' two years ago | ITV News",
+      "url": "https://www.itv.com/news/2022-03-13/m16-warned-pm-about-russian-oligarch-friend-evgeny-lebedev-two-years-ago"
+    },
+    {
+      "id": "S014",
+      "title": "Boris Johnson denies overriding security concerns to award Russian-born businessman Lord Lebedev peerage | Politics News | Sky News",
+      "url": "https://news.sky.com/story/boris-johnson-denies-overriding-security-concerns-to-award-russian-born-businessman-lord-lebedev-peerage-12559978"
+    },
+    {
+      "id": "S015",
+      "title": "statement from the proprietor in response to media speculation b987541.html",
+      "url": "https://app.standard.co.uk/news/london/statement-from-the-proprietor-in-response-to-media-speculation-b987541.html",
+      "access_note": "Direct reopening did not succeed. Link retained from the prior evidence review."
+    },
+    {
+      "id": "S016",
+      "title": "The London Standard hits the streets for the first time | The Standard",
+      "url": "https://www.standard.co.uk/news/london/london-standard-streets-first-weekly-newspaper-b1184317.html"
+    },
+    {
+      "id": "S017",
+      "title": "Independent to run London Standard newspaper",
+      "url": "https://www.cityam.com/independent-to-run-london-standard-newspaper/"
+    },
+    {
+      "id": "S018",
+      "title": "",
+      "url": "https://pressgazette.co.uk/publishers/regional-newspapers/standard-website-transfers-to-independent-with-around-30-staff-leaving/",
+      "access_note": "Direct reopening did not succeed. Link retained from the prior evidence review."
+    },
+    {
+      "id": "S019",
+      "title": "Standard cuts its losses - but revenues drop too - The New World",
+      "url": "https://www.thenewworld.co.uk/rats-in-a-sack-standard-cuts-its-losses-but-revenues-drop-too/"
+    },
+    {
+      "id": "S020",
+      "title": "ABC circulation archive for the former daily Evening Standard",
+      "url": "https://www.abc.org.uk/product/5341"
+    },
+    {
+      "id": "S021",
+      "title": "ABC circulation archive for Metro London",
+      "url": "https://www.abc.org.uk/product/920"
+    },
+    {
+      "id": "S022",
+      "title": "Evgeny Lebedev - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Evgeny_Lebedev"
+    },
+    {
+      "id": "S023",
+      "title": "Queen confers Peerages: 31 July 2020 - GOV.UK",
+      "url": "https://www.gov.uk/government/publications/queen-confers-peerages-31-july-2020"
+    },
+    {
+      "id": "S024",
+      "title": "New Lords appointments in July 2020 - House of Lords Library",
+      "url": "https://lordslibrary.parliament.uk/new-lords-appointments-in-july-2020/"
+    },
+    {
+      "id": "S025",
+      "title": "Evgeny Lebedev, Jo Johnson and Ian Botham among 36 peerage nominations | Honours system | The Guardian",
+      "url": "https://www.theguardian.com/politics/2020/jul/31/evgeny-lebedev-jo-johnson-and-ian-botham-among-36-peerage-nominations-boris"
+    },
+    {
+      "id": "S026",
+      "title": "Jo Johnson, Evgeny Lebedev and Ian Botham among 36 peerage nominations | ITV News",
+      "url": "https://www.itv.com/news/2020-07-31/jo-johnson-evgeny-lebedev-and-ian-botham-among-36-peerage-nominations"
+    },
+    {
+      "id": "S027",
+      "title": "Boris Johnson's brother Jo and Sir Ian Botham to join House of Lords | Politics News | Sky News",
+      "url": "https://news.sky.com/story/theresa-mays-husband-philip-to-be-knighted-as-part-of-new-honours-list-12039994"
+    },
+    {
+      "id": "S028",
+      "title": "The Independent’s Evgeny Lebedev awarded peerage by PM | The Independent | The Independent",
+      "url": "https://www.the-independent.com/news/uk/politics/evgeny-lebedev-lord-peerage-boris-johnson-a9648701.html"
+    },
+    {
+      "id": "S029",
+      "title": "The London Gazette | The Gazette",
+      "url": "https://www.thegazette.co.uk/London/issue/63182/page/19918"
+    },
+    {
+      "id": "S030",
+      "title": "Subscribe to read",
+      "url": "https://www.ft.com/content/735ff38d-a2ca-442a-a6c0-84afe7339b1f"
+    },
+    {
+      "id": "S031",
+      "title": "Lords Appointments: Life peerages created since 1958",
+      "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2021-0002/LLN-2021-0002.pdf"
+    },
+    {
+      "id": "S032",
+      "title": "Introduction: Lord Lebedev - Hansard - UK Parliament",
+      "url": "https://hansard.parliament.uk/Lords%E2%80%8F/2020-12-17/debates/40C0A63F-22C8-4E0F-B7A0-8C259BB65162/IntroductionLordLebedev"
+    },
+    {
+      "id": "S033",
+      "title": "?businessPaperDate=2020 12 17&sectionId=42",
+      "url": "https://lordsbusiness.parliament.uk/?businessPaperDate=2020-12-17&sectionId=42",
+      "access_note": "Direct reopening did not succeed. Link retained from the prior evidence review."
+    },
+    {
+      "id": "S034",
+      "title": "Evening Standard’s Evgeny Lebedev to take Lords title reflecting Russian roots and adopted home in London | The Standard",
+      "url": "https://www.standard.co.uk/news/politics/lord-lebedev-title-russia-london-b77400.html"
+    },
+    {
+      "id": "S035",
+      "title": "Commons Chamber - Hansard - UK Parliament",
+      "url": "https://hansard.parliament.uk/Commons/2022-07-07/debates/1f977753-e00d-4489-8553-c4cea26e57fa/CommonsChamber"
+    },
+    {
+      "id": "S036",
+      "title": "Alexander Lebedev profile: ex-KGB agent says he will champion a free press | Alexander Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2009/jan/14/alexander-lebedev-kgb-london-evening-standard"
+    },
+    {
+      "id": "S037",
+      "title": "The spy who loves media | Alexander Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2009/oct/12/alexander-lebedev-evening-standard"
+    },
+    {
+      "id": "S038",
+      "title": "Profile: Alexander and Evgeny Lebedev | Alexander Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2009/jan/08/alexander-lebedev-profile"
+    },
+    {
+      "id": "S039",
+      "title": "London's 'Evening Standard' Sold To Ex-KGB Agent",
+      "url": "https://www.rferl.org/a/Londons_Evening_Standard_Sold_To_ExKGB_Agent/1373048.html"
+    },
+    {
+      "id": "S040",
+      "title": "Russian Tycoon Lebedev Buys London's Evening Standard - The Washington Post",
+      "url": "https://www.washingtonpost.com/archive/national/2009/01/22/russian-tycoon-lebedev-buys-londons-evening-standard/56cdbedd-4e39-4e34-9c34-52f684594c8a/"
+    },
+    {
+      "id": "S041",
+      "title": "Evening Standard sold to Russian tycoon",
+      "url": "https://timesofmalta.com/article/evening-standard-sold-to-russian-tycoon.241801"
+    },
+    {
+      "id": "S042",
+      "title": "Evening Standard's Evgeny Lebedev says 'I am not some agent of Russia' amid peerage scrutiny | ITV News London",
+      "url": "https://www.itv.com/news/london/2022-03-11/lord-evgeny-lebedev-i-am-not-some-agent-of-russia"
+    },
+    {
+      "id": "S043",
+      "title": "Standard owner Evgeny Lebedev insists he is not ‘an agent of Russia’ | Ukraine | The Guardian",
+      "url": "https://www.theguardian.com/world/2022/mar/11/uk-announces-sanctions-against-386-members-of-russian-parliament-ukraine"
+    },
+    {
+      "id": "S044",
+      "title": "UK withholds security advice over peerage for oligarch's son | The Independent",
+      "url": "https://www.independent.co.uk/news/uk/politics/evgeny-lebedev-ap-boris-johnson-parliament-kgb-b2077752.html"
+    },
+    {
+      "id": "S045",
+      "title": "Boris Johnson did not put pressure on over Lebedev peerage, says watchdog chief | The Independent",
+      "url": "https://www.the-independent.com/news/uk/boris-johnson-prime-minister-peter-cruddas-kgb-evening-standard-b2061519.html"
+    },
+    {
+      "id": "S046",
+      "title": "HOUSE OF LORDS",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2022/03/2022-03-17-HOLAC-to-HM-Leader-of-the-Opposition-Lord-Lebedev-website.pdf"
+    },
+    {
+      "id": "S047",
+      "title": "HOUSE OF LORDS",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2023/01/2022-07-14-FOI2022_14.pdf"
+    },
+    {
+      "id": "S048",
+      "title": "Evgeny Lebedev: Boris Johnson could be forced to release secret report",
+      "url": "https://www.opendemocracy.net/en/boris-johnson-could-be-forced-to-release-secret-evgeny-lebedev-dossier/"
+    },
+    {
+      "id": "S049",
+      "title": "Boris Johnson Blocks Publishing Secret Lebedev Advice Due to ‘National Security' Concerns – Byline Times",
+      "url": "https://bylinetimes.com/2022/05/12/boris-johnson-levgeny-ebedev-advice-delayed-mps-mi5-mi6-security/"
+    },
+    {
+      "id": "S050",
+      "title": "Evgeny Lebedev: Ministers withhold security advice over Lords seat - BBC News",
+      "url": "https://www.bbc.co.uk/news/uk-politics-61427468"
+    },
+    {
+      "id": "S051",
+      "title": "Gove defends Evgeny Lebedev after new questions raised about peerage | Evgeny Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2022/mar/13/michael-gove-defends-evgeny-lebedev-new-questions-raised-about-peerage"
+    },
+    {
+      "id": "S052",
+      "title": "HOUSE OF LORDS",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2022/06/2022_05-HOLAC-FOI-1.pdf"
+    },
+    {
+      "id": "S053",
+      "title": "House of Lords Appointments Commission: Role and powers - House of Lords Library",
+      "url": "https://lordslibrary.parliament.uk/house-of-lords-appointments-commission-role-and-powers/"
+    },
+    {
+      "id": "S054",
+      "title": "Written statements - Written questions, answers and statements - UK Parliament",
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2022-05-12/hcws22"
+    },
+    {
+      "id": "S055",
+      "title": "PM denies intervening to override security concerns to secure peerage for Evgeny Lebedev | ITV News",
+      "url": "https://www.itv.com/news/2022-03-07/pm-denies-intervening-to-secure-peerage-for-evgeny-lebedev"
+    },
+    {
+      "id": "S056",
+      "title": "Boris Johnson denies intervening to secure peerage for Evgeny Lebedev | The Independent",
+      "url": "https://www.independent.co.uk/news/uk/politics/boris-johnson-evgeny-lebedev-peerage-b2030308.html"
+    },
+    {
+      "id": "S057",
+      "title": "PM denies intervening to secure peerage for Evgeny Lebedev | The Standard",
+      "url": "https://www.standard.co.uk/news/uk/evgeny-lebedev-boris-johnson-yvette-cooper-russian-house-of-lords-b986509.html"
+    },
+    {
+      "id": "S058",
+      "title": "Keir Starmer calls for investigation into Evgeny Lebedev’s peerage | Evgeny Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2022/mar/06/evgeny-lebedev-peerage-investigation-keir-starmer-boris-johnson"
+    },
+    {
+      "id": "S059",
+      "title": "'A matter of national security': Starmer calls for investigation into Lebedev peerage | ITV News",
+      "url": "https://www.itv.com/news/2022-03-06/a-matter-of-national-security-starmer-calls-for-probe-into-lebedev-peerage"
+    },
+    {
+      "id": "S060",
+      "title": "Why when Covid was raging did Boris Johnson care so much about giving Lebedev a peerage? | ITV News",
+      "url": "https://www.itv.com/news/2022-03-06/why-when-covid-was-raging-did-the-pm-care-about-giving-lebedev-a-peerage"
+    },
+    {
+      "id": "S061",
+      "title": "Lord Lebedev row: Dominic Raab says it is 'sheer nonsense' that security advice was overruled to award Russian-born businessman peerage | Politics News | Sky News",
+      "url": "https://news.sky.com/story/lord-lebedev-row-lord-speaker-calls-for-more-robust-appointment-process-for-peers-after-ukraine-war-fallout-12566919"
+    },
+    {
+      "id": "S062",
+      "title": "Government Refuses to Publish Full Lord Lebedev Peerage Advice Documents",
+      "url": "https://www.politicshome.com/news/article/government-refuses-to-publish-full-documents-relating-to-lord-lebedevs-peerage-advice"
+    },
+    {
+      "id": "S063",
+      "title": "Labour and Tory rebels force disclosure of security advice on Lebedev peerage | Boris Johnson | The Guardian",
+      "url": "https://www.theguardian.com/politics/2022/mar/29/no-10-release-security-advice-evgeny-lebedev-peerage-boris-johnson-labour"
+    },
+    {
+      "id": "S064",
+      "title": "Lord Lebedev peerage: Russian-born businessman says he has 'nothing to hide' as MPs approve call for 'transparency' over peerage | Politics News | Sky News",
+      "url": "https://news.sky.com/story/lord-lebedev-peerage-russian-born-businessman-says-he-has-nothing-to-hide-and-supports-labours-call-for-information-on-honour-to-be-released-12577498"
+    },
+    {
+      "id": "S065",
+      "title": "Evgeny Lebedev peerage: Labour seeks to force ministers to publish advice | Evgeny Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2022/mar/28/evgeny-lebedev-peerage-labour-seeks-to-force-ministers-to-publish-advice"
+    },
+    {
+      "id": "S066",
+      "title": "Lee Marsons and Sarah Nason: Public Law Current Survey (May – Jul 2022) – UK Constitutional Law Association",
+      "url": "https://ukconstitutionallaw.org/2022/09/26/lee-marsons-and-sarah-nason-public-law-current-survey/"
+    },
+    {
+      "id": "S067",
+      "title": "Government refuses to release Lebedev peerage details despite MPs’ instruction | Evgeny Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2022/may/12/government-refuses-to-release-lebedev-peerage-details-despite-mps-instruction"
+    },
+    {
+      "id": "S068",
+      "title": "Ministers block release of Lebedev peerage details on security grounds | The Independent",
+      "url": "https://www.independent.co.uk/news/uk/michael-ellis-government-boris-johnson-evgeny-lebedev-house-of-commons-b2077629.html"
+    },
+    {
+      "id": "S069",
+      "title": "UK refuses to publish security advice around Lebedev's appointment to upper chamber | Euronews",
+      "url": "https://www.euronews.com/2022/05/12/uk-britain-politics-lebedev"
+    },
+    {
+      "id": "S070",
+      "title": "Ministers accused of cover-up as release of Lebedev peerage details is blocked | The Independent",
+      "url": "https://www.independent.co.uk/news/uk/boris-johnson-prime-minister-isc-michael-ellis-government-b2077744.html"
+    },
+    {
+      "id": "S071",
+      "title": "Scandalous legacy: as Johnson heads for the exit, many issues remain unresolved | Boris Johnson | The Guardian",
+      "url": "https://www.theguardian.com/politics/2022/jul/09/scandalous-legacy-as-johnson-heads-for-the-exit-many-issues-remain-unresolved"
+    },
+    {
+      "id": "S072",
+      "title": "The Intelligence and Security Committee",
+      "url": "https://researchbriefings.files.parliament.uk/documents/SN02178/SN02178.pdf"
+    },
+    {
+      "id": "S073",
+      "title": "Michael Gove: No security concerns were shared with me about Evgeny Lebedev | The Standard",
+      "url": "https://www.standard.co.uk/news/uk/michael-gove-kgb-keir-starmer-prime-minister-russia-b987777.html"
+    },
+    {
+      "id": "S074",
+      "title": "HOUSE OF LORDS",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2020/12/2020-12-22-Chair-of-HOLAC-to-PACAC-Peter-Cruddas-peerage.pdf"
+    },
+    {
+      "id": "S075",
+      "title": "Political Peerages 2020 - GOV.UK",
+      "url": "https://www.gov.uk/government/news/political-peerages-2020"
+    },
+    {
+      "id": "S076",
+      "title": "PM rejects official advice in awarding peerage to Peter Cruddas | House of Lords | The Guardian",
+      "url": "https://www.theguardian.com/politics/2020/dec/22/pm-rejects-official-advice-in-awarding-peter-cruddas-peerage"
+    },
+    {
+      "id": "S077",
+      "title": "For Boris Johnson, following advice on ethics is the exception not the rule | Institute for Government",
+      "url": "https://www.instituteforgovernment.org.uk/article/comment/boris-johnson-following-advice-ethics-exception-not-rule"
+    },
+    {
+      "id": "S078",
+      "title": "Joining and leaving the House of Lords | Institute for Government",
+      "url": "https://www.instituteforgovernment.org.uk/explainer/joining-and-leaving-house-lords"
+    },
+    {
+      "id": "S079",
+      "title": "New Lords appointments: December 2020 - House of Lords Library",
+      "url": "https://lordslibrary.parliament.uk/new-lords-appointments-december-2020/"
+    },
+    {
+      "id": "S080",
+      "title": "21 01 19 HOLAC FOI 2021/4 Cruddas info",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2022/06/21-01-19-HOLAC-FOI-2021_4-Cruddas-info.pdf"
+    },
+    {
+      "id": "S081",
+      "title": "Lebedev's London Evening Standard takeover confirmed | Alexander Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/2009/jan/21/alexander-lebedev-london-evening-standard"
+    },
+    {
+      "id": "S082",
+      "title": "Ofcom report to DCMS",
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/955130/Ofcom_report_to_DCMS_LHL_and_IDNM_-_21_August_2019_Redacted_V2.pdf"
+    },
+    {
+      "id": "S083",
+      "title": "Leveson inquiry: Lebedevs spent £75m on Independent and Standard | Leveson inquiry | The Guardian",
+      "url": "https://www.theguardian.com/media/2012/apr/23/leveson-inquiry-lebedevs-independent"
+    },
+    {
+      "id": "S084",
+      "title": "Leveson Inquiry: Evgeny Lebedev defends political talks | The Independent | The Independent",
+      "url": "https://www.the-independent.com/news/media/press/leveson-inquiry-evgeny-lebedev-defends-political-talks-7670455.html"
+    },
+    {
+      "id": "S085",
+      "title": "Lebedevs pump almost £100m into Independent titles and Standard | Independent News & Media | The Guardian",
+      "url": "https://www.theguardian.com/media/2014/jul/04/lebedevs-100m-into-independent-titles-standard-funding"
+    },
+    {
+      "id": "S086",
+      "title": "Evgeny Lebedev | The Standard",
+      "url": "https://www.standard.co.uk/author/evgeny-lebedev"
+    },
+    {
+      "id": "S087",
+      "title": "EVENING STANDARD LIMITED persons with significant control - Find and update company information - GOV.UK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06770098/persons-with-significant-control"
+    },
+    {
+      "id": "S088",
+      "title": "London Evening Standard relaunches as a free | Media | The Guardian",
+      "url": "https://www.theguardian.com/media/2009/oct/12/london-evening-standard-free-today"
+    },
+    {
+      "id": "S089",
+      "title": "Evening Standard to go free from October 12",
+      "url": "https://www.marketingweek.com/evening-standard-to-go-free-from-october-12/"
+    },
+    {
+      "id": "S090",
+      "title": "InPublishing: Evening Standard goes free",
+      "url": "https://www.inpublishing.co.uk/articles/evening-standard-goes-free-13859"
+    },
+    {
+      "id": "S091",
+      "title": "London Evening Standard to go free | The Media Leader UK",
+      "url": "https://uk.themedialeader.com/london-evening-standard-to-go-free/"
+    },
+    {
+      "id": "S092",
+      "title": "London Evening Standard to become a free newspaper | The Independent | The Independent",
+      "url": "https://www.independent.co.uk/news/media/press/london-evening-standard-to-become-a-free-newspaper-1796567.html"
+    },
+    {
+      "id": "S093",
+      "title": "Standard given out free in bid to beat newspaper industry blues | The Independent | The Independent",
+      "url": "https://www.independent.co.uk/news/media/press/standard-given-out-free-in-bid-to-beat-newspaper-industry-blues-1801894.html"
+    },
+    {
+      "id": "S094",
+      "title": "London Evening Standard to go free",
+      "url": "https://www.journalism.co.uk/london-evening-standard-to-go-free/"
+    },
+    {
+      "id": "S095",
+      "title": "Evening Standard Becomes A Free Paper | Londonist",
+      "url": "https://londonist.com/2009/10/evening_standard_becomes_a_free_pap"
+    },
+    {
+      "id": "S096",
+      "title": "Russian billionaire makes London Evening Standard a free newspaper — MercoPress",
+      "url": "https://en.mercopress.com/2009/10/03/russian-billionaire-makes-london-evening-standard-a-free-newspaper"
+    },
+    {
+      "id": "S097",
+      "title": "london s evening standard becomes a free paper",
+      "url": "https://www.domain-b.com/industry/london-s-evening-standard-becomes-a-free-paper",
+      "access_note": "Direct reopening did not succeed. Link retained from the prior evidence review."
+    },
+    {
+      "id": "S098",
+      "title": "Standard-bearer of free business model | Media | The Guardian",
+      "url": "https://www.theguardian.com/media/greenslade/2010/jun/21/london-evening-standard-freesheets"
+    },
+    {
+      "id": "S099",
+      "title": "Evgeny Lebedev on the free Standard | Alexander Lebedev | The Guardian",
+      "url": "https://www.theguardian.com/media/greenslade/2009/nov/22/alexander-lebedev-london-evening-standard"
+    },
+    {
+      "id": "S100",
+      "title": "London Evening Standard to close daily newspaper and launch new weekly | Evening Standard | The Guardian",
+      "url": "https://www.theguardian.com/media/article/2024/may/29/london-evening-standard-close-daily-newspaper-launch-new-weekly"
+    },
+    {
+      "id": "S101",
+      "title": "We’ll see you next week ... with your new favourite newspaper | The Standard",
+      "url": "https://www.standard.co.uk/news/london/evening-standard-newspaper-weekly-launch-september-b1182999.html"
+    },
+    {
+      "id": "S102",
+      "title": "London's Evening Standard to scrap daily print edition for weekly publication | Money News | Sky News",
+      "url": "https://news.sky.com/story/londons-evening-standard-scraps-daily-print-edition-for-weekly-publication-13145075"
+    },
+    {
+      "id": "S103",
+      "title": "London Evening Standard to drop daily edition in favour of weekly newspaper | ITV News London",
+      "url": "https://www.itv.com/news/london/2024-05-29/evening-standard-to-drop-daily-edition-in-favour-of-weekly-newspaper"
+    },
+    {
+      "id": "S104",
+      "title": "Last daily edition of Evening Standard published ahead of weekly launch | The Independent",
+      "url": "https://www.independent.co.uk/news/uk/evening-standard-evgeny-lebedev-underground-louise-haigh-house-of-lords-b2615737.html"
+    },
+    {
+      "id": "S105",
+      "title": "Evening Standard Limited announces launch of The London Standard » Newsworks",
+      "url": "https://newsworks.org.uk/news-and-opinion/evening-standard-limited-announced-launch-of-the-london-standard/"
+    },
+    {
+      "id": "S106",
+      "title": "InPublishing: The London Standard launches",
+      "url": "https://www.inpublishing.co.uk/articles/the-london-standard-launches-24589"
+    },
+    {
+      "id": "S107",
+      "title": "Evening Standard relaunches as weekly London Standard – The Media Leader",
+      "url": "https://uk.themedialeader.com/evening-standard-relaunches-as-weekly-london-standard/"
+    },
+    {
+      "id": "S108",
+      "title": "The London Standard launches as a premium publication with high impact OOH campaign | JCDecaux UK",
+      "url": "https://www.jcdecaux.co.uk/news/london-standard-launches-premium-publication-high-impact-ooh-campaign"
+    },
+    {
+      "id": "S109",
+      "title": "The Evening Standard announces The London Standard launch - DIARY directory",
+      "url": "https://www.diarydirectory.com/newsarticle/the-evening-standard-announces-the-london-standard-launch/59311"
+    },
+    {
+      "id": "S110",
+      "title": "Details of the re-brand of the Evening Standard - ResponseSource",
+      "url": "https://www.responsesource.com/bulletin/news/details-of-the-re-brand-of-the-evening-standard/"
+    },
+    {
+      "id": "S111",
+      "title": "Archive",
+      "url": "https://www.standard.co.uk/archive/2024-09-27"
+    },
+    {
+      "id": "S112",
+      "title": "SOVEREIGNTY MEDIA LIMITED persons with significant control - Find and update company information - GOV.UK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14412020/persons-with-significant-control"
+    },
+    {
+      "id": "S113",
+      "title": "LEBEDEV HOLDINGS LIMITED persons with significant control - Find and update company information - GOV.UK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06764905/persons-with-significant-control"
+    },
+    {
+      "id": "S114",
+      "title": "LEBEDEV HOLDINGS LIMITED filing history - Find and update company information - GOV.UK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06764905/filing-history"
+    },
+    {
+      "id": "S115",
+      "title": "SOVEREIGNTY MEDIA LIMITED people - Find and update company information - GOV.UK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14412020/officers"
+    },
+    {
+      "id": "S116",
+      "title": "EVENING STANDARD LIMITED filing history - Find and update company information - GOV.UK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06770098/filing-history"
+    },
+    {
+      "id": "S117",
+      "title": "",
+      "url": "https://pressgazette.co.uk/news/independent-set-to-take-over-running-standard-website/",
+      "access_note": "Direct reopening did not succeed. Link retained from the prior evidence review."
+    },
+    {
+      "id": "S118",
+      "title": "Introducing Baron Lebedev of Siberia",
+      "url": "https://www.thelondoneconomic.com/politics/introducing-baron-lebedev-of-siberia-in-the-russian-federation-213440/"
+    },
+    {
+      "id": "S119",
+      "title": "Contributions for Lord Lebedev",
+      "url": "https://hansard.parliament.uk/search/MemberContributions?house=Lords&memberId=4900"
+    }
+  ],
+  "coverage_summary": {
+    "claims": 19,
+    "unique_indexed_pages": 119,
+    "claim_to_source_links": 217,
+    "claims_meeting_additional_page_target": 8
+  }
+}

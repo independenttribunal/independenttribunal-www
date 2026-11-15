@@ -1,0 +1,2346 @@
+{
+  "id": "evgeny-lebedev-peerage-and-media-ownership",
+  "title": "Evgeny Lebedev, the peerage and the free press",
+  "subtitle": "The son of a former KGB officer, a free newspaper and the security-vetting controversy",
+  "summary": "Evgeny Lebedev’s newspaper proprietorship, crossbench peerage and the dispute over security scrutiny: official testimony, attributed reporting, published denials and the papers still unavailable to the public.",
+  "checked": "2026-11-15",
+  "jurisdiction": "United Kingdom · Parliament, media ownership and public accountability",
+  "tags": [
+    "uk",
+    "parliament",
+    "media",
+    "accountability",
+    "transparency"
+  ],
+  "scope": "Public-interest research and labelled commentary on media ownership and appointment to legislative office. Alexander’s former KGB role is distinguished from Evgeny’s own record. No finding of espionage is made.",
+  "status_note": "21 research sources and four statutory provisions reviewed on 15 November 2026; all 119 supplied leads preserved separately. Ten adversarial challenges are addressed below. Reported early security concerns, HOLAC’s final position and separate agency advice to No. 10 are distinguished.",
+  "publication_status": "published",
+  "related": [
+    {
+      "id": "hansard-record",
+      "title": "Hansard and the disputed record"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The appointment",
+      "value": "2020",
+      "detail": "Announcement, creation and introduction separately dated",
+      "target": "appointment-dates"
+    },
+    {
+      "label": "Security scrutiny",
+      "value": "Advice and testimony",
+      "detail": "Reported concerns alongside the final HOLAC position",
+      "target": "security-vetting"
+    },
+    {
+      "label": "Ownership update",
+      "value": "14 May 2026",
+      "detail": "Later active personal-control entry in Companies House",
+      "target": "ownership-update"
+    }
+  ],
+  "sections": [
+    {
+      "id": "public-record",
+      "title": "The public record",
+      "intro": "A media proprietor’s appointment to legislative office raises questions about influence, scrutiny and the information available to the public.",
+      "entries": [
+        {
+          "id": "good-for-the-vibes",
+          "title": "Good for the vibes?",
+          "kind": "Satire and commentary",
+          "paragraphs": [
+            {
+              "text": "One could think this was excellent for the vibes: in 2020, the son of a former KGB foreign intelligence officer was the proprietor of London’s free Evening Standard and was nominated for a seat in the House of Lords. Subsequent reporting described explicit national-security concerns about that appointment. Our view is that this combination deserves public scrutiny.",
+              "sources": [
+                {
+                  "id": "s015"
+                },
+                {
+                  "id": "s003"
+                },
+                {
+                  "id": "s089"
+                },
+                {
+                  "id": "s004"
+                },
+                {
+                  "id": "s012"
+                }
+              ]
+            },
+            {
+              "text": "The criticism concerns media ownership, political patronage and an opaque vetting process. Evgeny Lebedev denied being a Russian agent or a security risk. Lord Bew later testified that HOLAC ultimately did not oppose the appointment and experienced no pressure in this case. Those responses are part of the story, including when the institutional judgement is being satirised.",
+              "sources": [
+                {
+                  "id": "s015"
+                },
+                {
+                  "id": "s006"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "which-lebedev",
+          "title": "The son, the father and the allegation",
+          "kind": "Documented relationship and published response",
+          "paragraphs": [
+            {
+              "text": "Evgeny Alexandrovich Lebedev is Lord Lebedev. His father, Alexander, was a KGB foreign intelligence officer. In his own published response, Evgeny acknowledged his father’s former role and denied that he himself was an agent of Russia or a security risk to Britain.",
+              "sources": [
+                {
+                  "id": "s015"
+                }
+              ]
+            },
+            {
+              "text": "Family history is relevant background to the reported scrutiny, but does not establish espionage by the son. The public-interest issue examined here is the appointment process and its transparency.",
+              "sources": [
+                {
+                  "id": "s015"
+                },
+                {
+                  "id": "s004"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "appointment-dates",
+          "title": "Announcement, creation and introduction",
+          "kind": "Official records",
+          "paragraphs": [
+            {
+              "text": "The government announced a crossbench nomination on 31 July 2020. Its list described Lebedev as owner of The Independent, The Evening Standard and London Live, and patron of Space for Giants.",
+              "sources": [
+                {
+                  "id": "s003"
+                },
+                {
+                  "id": "s023"
+                }
+              ]
+            },
+            {
+              "text": "Parliament’s membership record begins on 19 November 2020 and lists him as Crossbench. Hansard separately records his introduction on 17 December 2020. The announcement, creation and introduction are different events.",
+              "sources": [
+                {
+                  "id": "s001"
+                },
+                {
+                  "id": "s032"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security-vetting",
+      "title": "Security vetting — reports, testimony and denials",
+      "intro": "Reported early concerns, HOLAC’s final advice and any separate advice to Downing Street must be traced separately.",
+      "entries": [
+        {
+          "id": "reported-concerns",
+          "title": "What the reporting alleged",
+          "kind": "Attributed reporting",
+          "paragraphs": [
+            {
+              "text": "The Commons Library summarised Tortoise’s report that HOLAC took intelligence advice and initially advised Johnson not to proceed. That is the Library recording an attributed report, not publishing the original intelligence assessment.",
+              "sources": [
+                {
+                  "id": "s004"
+                }
+              ]
+            },
+            {
+              "text": "The Guardian reported a pause after MI5 advice.",
+              "sources": [
+                {
+                  "id": "s012"
+                }
+              ]
+            },
+            {
+              "text": "ITV attributed to The Sunday Times an account of intelligence concerns over Lebedev’s peerage and earlier concerns linked to former MI6 chief Sir John Sawers. Separate editorial reports revisiting that account are not additional intelligence witnesses.",
+              "sources": [
+                {
+                  "id": "s013"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "holac-final-position",
+          "title": "HOLAC’s final position",
+          "kind": "Official testimony",
+          "paragraphs": [
+            {
+              "text": "In evidence on 20 April 2022, Lord Bew said HOLAC ultimately did not say no to Lebedev’s appointment. He described a protracted exchange seeking clarification, a final written assessment and no pressure on HOLAC in this case. His evidence concerns the commission’s process; it does not reveal every communication an intelligence agency might separately have sent to No. 10.",
+              "sources": [
+                {
+                  "id": "s006",
+                  "locator": "Q18–22, Q28–32, Q35–39 and Q43–51"
+                }
+              ]
+            }
+          ],
+          "date": "2022-04-20"
+        },
+        {
+          "id": "johnson-and-lebedev-responses",
+          "title": "The published responses",
+          "kind": "Denials and party statement",
+          "paragraphs": [
+            {
+              "text": "Johnson denied that he intervened to override security concerns. ITV’s 7 March 2022 report records his denial alongside The Sunday Times allegation that an assessment was withdrawn after intervention.",
+              "sources": [
+                {
+                  "id": "s055"
+                }
+              ]
+            },
+            {
+              "text": "Lebedev’s 11 March 2022 statement denied being a Russian agent or a UK security risk, defended the editorial independence of his newspapers and warned against judging people by their Russian origins. His response is presented as his account, with the same prominence as the allegations.",
+              "sources": [
+                {
+                  "id": "s015"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "advice-chain",
+          "title": "Who advised whom?",
+          "kind": "Analysis of official procedure",
+          "paragraphs": [
+            {
+              "text": "HOLAC assesses propriety and advises the Prime Minister; it has no veto. A reported early adverse position, a separate warning to No. 10 and an override of final HOLAC advice are different propositions. The records reviewed here do not establish that HOLAC deliberately delegated an objection to the agencies.",
+              "sources": [
+                {
+                  "id": "s004"
+                },
+                {
+                  "id": "s006"
+                },
+                {
+                  "id": "s054"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Keep each stage of the advice chain distinct",
+            "columns": [
+              "Stage",
+              "What can be established",
+              "Open point"
+            ],
+            "rows": [
+              [
+                "Agencies → HOLAC",
+                "Bew describes exchanges and clarification.",
+                "Dated underlying intelligence documents remain unavailable here."
+              ],
+              [
+                "HOLAC → Prime Minister",
+                "Bew describes a final position allowing the appointment to proceed.",
+                "Exact terms and sequence of any interim recommendations."
+              ],
+              [
+                "Agencies → No. 10",
+                "Separate advice is alleged in reporting.",
+                "Precise recipient, wording and response."
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "disclosure",
+      "title": "Parliament sought the papers",
+      "intro": "Public scrutiny and confidential oversight answer different questions.",
+      "entries": [
+        {
+          "id": "humble-address",
+          "title": "29 March 2022: the Commons requests disclosure",
+          "kind": "Official parliamentary record",
+          "paragraphs": [
+            {
+              "text": "The Commons agreed a Humble Address seeking appointment papers and related communications, permitting redactions solely for national security. The debate records MPs’ arguments and allegations; their appearance in Hansard is not a finding that those allegations are true.",
+              "sources": [
+                {
+                  "id": "s005",
+                  "locator": "Motion, debate and resolution"
+                }
+              ]
+            }
+          ],
+          "date": "2022-03-29"
+        },
+        {
+          "id": "limited-disclosure",
+          "title": "12 May 2022: a limited release",
+          "kind": "Government’s published position",
+          "paragraphs": [
+            {
+              "text": "The government said it was laying a set of documents in response and justified the limits by reference to national security, appointments confidentiality and personal data. It also said it had supplied national-security material to the Intelligence and Security Committee following that committee’s separate request. This statement describes the government’s response; it does not disclose the intelligence itself.",
+              "sources": [
+                {
+                  "id": "s054",
+                  "locator": "Access to information; Intelligence and Security Committee; Vetting by HOLAC"
+                }
+              ]
+            }
+          ],
+          "date": "2022-05-12"
+        },
+        {
+          "id": "isc-briefing",
+          "title": "What the ISC briefing establishes",
+          "kind": "Official testimony",
+          "paragraphs": [
+            {
+              "text": "On 12 July 2023, Cabinet Secretary Simon Case said the ISC had been briefed on the circumstances around the nomination to provide security scrutiny. The testimony establishes that a briefing occurred; it is not a published ISC finding clearing or condemning the appointment.",
+              "sources": [
+                {
+                  "id": "s008",
+                  "locator": "Q383–384"
+                }
+              ]
+            }
+          ],
+          "date": "2023-07-12"
+        },
+        {
+          "id": "cruddas-comparator",
+          "title": "The separately documented Cruddas case",
+          "kind": "Procedural comparison",
+          "paragraphs": [
+            {
+              "text": "The Commons Library records HOLAC’s public statement that it could not support Peter Cruddas’s nomination and that Johnson went ahead. This offers a documented example of disregarding final negative HOLAC advice; it does not establish that the same final advice was given in Lebedev’s case.",
+              "sources": [
+                {
+                  "id": "s004"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "media-ownership",
+      "title": "The free paper and the ownership record",
+      "intro": "The historic free daily, today’s corporate filings and editorial operations have different scopes.",
+      "entries": [
+        {
+          "id": "free-newspaper",
+          "title": "The Evening Standard became free",
+          "kind": "Historical reporting",
+          "paragraphs": [
+            {
+              "text": "Marketing Week reported in October 2009 that the Evening Standard, bought by Alexander Lebedev earlier that year, would become free from 12 October. Metro was a separate newspaper. The government’s 2020 nomination list identifies Evgeny as the Standard’s owner at the time of the peerage.",
+              "sources": [
+                {
+                  "id": "s089"
+                },
+                {
+                  "id": "s003"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weekly-standard",
+          "title": "26 September 2024: a weekly publication",
+          "kind": "Publisher announcement",
+          "paragraphs": [
+            {
+              "text": "The Standard announced the first weekly London Standard on 26 September 2024, following the final daily edition the week before. The phrase “free daily newspaper” describes the earlier period, rather than its current print schedule.",
+              "sources": [
+                {
+                  "id": "s016"
+                }
+              ]
+            }
+          ],
+          "date": "2024-09-26"
+        },
+        {
+          "id": "ownership-update",
+          "title": "A January cessation entry is not the whole 2026 record",
+          "kind": "Live official filings and correction",
+          "paragraphs": [
+            {
+              "text": "Lebedev’s Lords register records that his controlling interest in Lebedev Holdings ceased on 23 January 2026 and lists Sovereignty Media among his interests. Companies House also records a ceased personal entry on that January date.",
+              "sources": [
+                {
+                  "id": "s002"
+                },
+                {
+                  "id": "s113"
+                }
+              ]
+            },
+            {
+              "text": "The live Companies House page now additionally lists Lord Evgeny Lebedev as an active person with significant control, notified on 14 May 2026, alongside Sovereignty Media’s active entry notified on 23 January. Each is listed with more than 50% but less than 75% of shares and voting rights. The January cessation should therefore not be read as the end of every recorded personal-control entry. The overlapping entries do not establish two separate, additive majority shareholdings.",
+              "sources": [
+                {
+                  "id": "s113",
+                  "locator": "Active Lord Evgeny Lebedev entry and active Sovereignty Media entry"
+                }
+              ]
+            },
+            {
+              "text": "The other registers list Evgeny as controlling 75% or more of Sovereignty Media, and Lebedev Holdings as controlling 75% or more of Evening Standard Limited. These are filed corporate-control records; they do not identify who directed an individual news story. Companies House states that it does not check the accuracy of information filed.",
+              "sources": [
+                {
+                  "id": "s112"
+                },
+                {
+                  "id": "s087"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "digital-and-print",
+          "title": "Digital operations and print ownership",
+          "kind": "Dated trade reporting",
+          "paragraphs": [
+            {
+              "text": "City A.M. reported negotiations in January 2026 for Independent Media to run the Standard’s digital and commercial operations while weekly print continued. The New World reported in October 2026 that digital editorial and advertising operations had transferred to Independent Digital News and Media, while Evening Standard Limited continued weekly print editorial. The later account is attributed reporting, not a substitute for the underlying contract.",
+              "sources": [
+                {
+                  "id": "s017"
+                },
+                {
+                  "id": "s019"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commentary",
+      "title": "Media power and public accountability",
+      "intro": "Independent Tribunal commentary on the documented facts, not a finding of espionage.",
+      "entries": [
+        {
+          "id": "public-interest-question",
+          "title": "A free paper, an unelected seat, an opaque process",
+          "kind": "Commentary",
+          "paragraphs": [
+            {
+              "text": "By the time of his 2020 nomination, the son of a former Soviet intelligence officer was identified by the government as owner of a widely distributed free London newspaper. He subsequently entered Britain’s unelected second chamber. In our view, the intersection of media ownership, access to politicians and confidential appointment vetting warrants scrutiny. Corporate control does not, by itself, prove that a proprietor dictated a particular story or establish what readers believed.",
+              "sources": [
+                {
+                  "id": "s015"
+                },
+                {
+                  "id": "s089"
+                },
+                {
+                  "id": "s003"
+                },
+                {
+                  "id": "s001"
+                }
+              ]
+            },
+            {
+              "text": "Readers should be able to distinguish the nomination’s public rationale, reported security concerns, the commission’s final position and what the government withheld. Demanding that distinction is a transparency argument, not an allegation that nationality or family history proves disloyalty.",
+              "sources": [
+                {
+                  "id": "s004"
+                },
+                {
+                  "id": "s006"
+                },
+                {
+                  "id": "s054"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open-questions",
+      "title": "What remains to be established",
+      "intro": "Questions guide further research; they are not conclusions.",
+      "entries": [
+        {
+          "id": "unreleased-advice",
+          "title": "The documents that would resolve the dispute",
+          "kind": "Research questions",
+          "paragraphs": [
+            {
+              "text": "What were the exact terms and dates of each agency’s advice, who received it, and how did recipients respond? What did HOLAC communicate at each interim stage? Were revision, withdrawal or clarification requested, and by whom? What releasable conclusion, if any, did the ISC reach? These questions require records beyond a reported concern or the fact of a private briefing.",
+              "sources": [
+                {
+                  "id": "s006"
+                },
+                {
+                  "id": "s054"
+                },
+                {
+                  "id": "s008"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adversarial-review",
+      "title": "Ten challenges to this account",
+      "intro": "A hostile reading is useful: each challenge identifies an inference the evidence must support, qualify or leave unresolved. This is an editorial self-review, not an independent legal opinion.",
+      "entries": [
+        {
+          "id": "challenge-identity",
+          "title": "1. Are father and son being conflated?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "Alexander’s former KGB service is acknowledged in Evgeny’s own statement. That family relationship does not establish that Evgeny worked for Russian intelligence; his denial is included next to the account.",
+              "sources": [
+                {
+                  "id": "s015"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-scope",
+          "title": "2. Does “controlling the press” overstate the evidence?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "This page identifies a particular newspaper and its corporate chain. It does not claim ownership of all London journalism, a monopoly over the free press, or that distributing a paper determines what its readers think.",
+              "sources": [
+                {
+                  "id": "s003"
+                },
+                {
+                  "id": "s089"
+                },
+                {
+                  "id": "s113"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-editorial",
+          "title": "3. Is corporate control being confused with editorial direction?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "Shareholdings and rights to appoint directors concern corporate control. They do not prove an instruction to an editor or a particular published line. Lebedev’s defence of editorial independence is included.",
+              "sources": [
+                {
+                  "id": "s113"
+                },
+                {
+                  "id": "s015"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-chronology",
+          "title": "4. Is a historical free daily being described as today’s business?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "The free daily belongs to the historical account. The paper moved to weekly publication in September 2024. Later reports about digital operations are dated and distinguished from the print company’s filings.",
+              "sources": [
+                {
+                  "id": "s089"
+                },
+                {
+                  "id": "s016"
+                },
+                {
+                  "id": "s017"
+                },
+                {
+                  "id": "s019"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-concerns",
+          "title": "5. Where are the explicit national-security concerns?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "The early adverse advice and pause are attributed to reporting, including reports summarised by the Commons Library. The original classified assessments have not been obtained. Their precise wording, recipients and sequence remain open questions.",
+              "sources": [
+                {
+                  "id": "s004"
+                },
+                {
+                  "id": "s012"
+                },
+                {
+                  "id": "s013"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-final-advice",
+          "title": "6. Did HOLAC finally reject the appointment?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "Bew’s testimony says that HOLAC ultimately did not say no and experienced no pressure. A reported early concern is not the same as a final negative recommendation. The separately documented Cruddas case cannot fill that evidential gap.",
+              "sources": [
+                {
+                  "id": "s006"
+                },
+                {
+                  "id": "s004"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-intervention",
+          "title": "7. Is an override by Johnson established?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "Intervention and withdrawal of an assessment were alleged in reporting; Johnson denied overriding security concerns. The evidence reviewed here does not settle every separate agency communication to No. 10. Confidentiality is not itself proof of a cover-up.",
+              "sources": [
+                {
+                  "id": "s055"
+                },
+                {
+                  "id": "s006"
+                },
+                {
+                  "id": "s054"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-ownership",
+          "title": "8. Do the 2026 filings actually show the ownership claimed?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "The Lords register and Companies House record different entries. Both the January cessation and the later active personal entry notified on 14 May are reported. PSC entries are not added together as separate shareholdings, and filed information is not treated as an audited transaction history.",
+              "sources": [
+                {
+                  "id": "s002"
+                },
+                {
+                  "id": "s113"
+                },
+                {
+                  "id": "s112"
+                },
+                {
+                  "id": "s087"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-corroboration",
+          "title": "9. Are repeated articles being counted as independent confirmation?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "All 119 supplied leads are retained, but only 21 research sources were checked for this account. Repetition of an originating report does not supply another intelligence witness. Official testimony is evidence of what the witness said, rather than disclosure of the intelligence itself.",
+              "sources": [
+                {
+                  "id": "s004"
+                },
+                {
+                  "id": "s006"
+                },
+                {
+                  "id": "s013"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "challenge-fairness",
+          "title": "10. Are satire, denials and publication fairness being handled honestly?",
+          "kind": "Adversarial review",
+          "paragraphs": [
+            {
+              "text": "The “vibes” line is labelled satire and the institutional criticism is expressed as opinion on identified facts. Lebedev’s and Johnson’s published denials appear in the security section. No fresh response has been requested; the reason for publishing with those existing responses is recorded below. These editorial choices do not guarantee a legal defence.",
+              "sources": [
+                {
+                  "id": "s015"
+                },
+                {
+                  "id": "s055"
+                },
+                {
+                  "id": "law-opinion"
+                },
+                {
+                  "id": "law-public-interest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defamation-law",
+      "title": "Defamation law: fact, opinion and public interest",
+      "intro": "England and Wales. These links explain the framework; they do not certify this article as immune from a claim.",
+      "entries": [
+        {
+          "id": "legal-fact-and-opinion",
+          "title": "Serious harm, truth and honest opinion",
+          "kind": "Legal framework",
+          "paragraphs": [
+            {
+              "text": "The Defamation Act 2013 requires serious reputational harm (section 1). Truth concerns whether the defamatory imputation is substantially true (section 2). Honest opinion requires an opinion whose basis is indicated and which an honest person could hold on the statutory basis; it can be defeated if the author did not hold it (section 3).",
+              "sources": [
+                {
+                  "id": "law-harm"
+                },
+                {
+                  "id": "law-truth"
+                },
+                {
+                  "id": "law-opinion"
+                }
+              ],
+              "links": [
+                {
+                  "text": "section 1",
+                  "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/1"
+                },
+                {
+                  "text": "section 2",
+                  "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/2"
+                },
+                {
+                  "text": "section 3",
+                  "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "legal-public-interest",
+          "title": "Public interest requires more than a label",
+          "kind": "Legal framework",
+          "paragraphs": [
+            {
+              "text": "Section 4 concerns publication on a matter of public interest and the publisher’s reasonable belief that publishing the statement was in that interest, assessed in all the circumstances with allowance for editorial judgement. Calling a passage satire, citing another outlet or declaring an innocent motive does not by itself establish these statutory defences. The factual basis, the meaning conveyed and the way the account was prepared still matter.",
+              "sources": [
+                {
+                  "id": "law-public-interest"
+                },
+                {
+                  "id": "law-truth"
+                },
+                {
+                  "id": "law-opinion"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Section 4",
+                  "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "Sources, scope and publication decision",
+      "intro": "The full supplied research is preserved; this page identifies the narrower set checked for this update.",
+      "entries": [
+        {
+          "id": "research-method",
+          "title": "What was checked",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The supplied dossier contains 19 claims and 119 indexed source leads. This account uses 21 opened research source pages or relevant indexed document texts, with four statutory provisions added for the legal framework. The complete input, including the other leads and its original coverage targets, is preserved in the repository; it has not been relabelled as 119 independently verified sources.",
+              "sources": []
+            },
+            {
+              "text": "Official records establish procedural events. Testimony establishes what an official said. Reporting remains attributed. Shared-origin coverage does not become an additional witness, and this account’s review date does not certify the unseen contents of classified files.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "publication-status",
+          "title": "Existing responses and the decision to publish",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "Publication decision, 15 November 2026: no fresh request for comment was sent by Independent Tribunal. This account revisits a long-published controversy using attributed reports, public testimony and the parties’ existing published responses. It makes no new allegation of espionage or finding that security advice was overridden. This is the recorded exception to our normal fresh right-of-reply practice. A substantive response or correction can be submitted through the site’s contact routes.",
+              "sources": []
+            },
+            {
+              "text": "The downloadable profile includes a claim-by-claim audit mapping all 19 supplied claims to the relevant entries, with the live-filings correction identified. Search prompts and additional-page targets are research aids, not evidence.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s001",
+      "title": "Parliamentary career for Lord Lebedev",
+      "publisher": "UK Parliament",
+      "type": "Official membership register",
+      "url": "https://members.parliament.uk/member/4900/career",
+      "checked": "2026-11-15",
+      "input_source_id": "S001",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material."
+    },
+    {
+      "id": "s002",
+      "title": "Register of Interests for Lord Lebedev - MPs and Lords - UK Parliament",
+      "publisher": "UK Parliament",
+      "type": "Live register of interests",
+      "url": "https://members.parliament.uk/member/4900/registeredinterests",
+      "checked": "2026-11-15",
+      "input_source_id": "S002",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material."
+    },
+    {
+      "id": "s003",
+      "title": "Political Peerages 2020",
+      "publisher": "Prime Minister’s Office",
+      "type": "Official nomination list",
+      "url": "https://assets.publishing.service.gov.uk/media/5f24373c8fa8f57ac683d847/Political_Peerages_2020.pdf",
+      "checked": "2026-11-15",
+      "input_source_id": "S003",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2020-07-31"
+    },
+    {
+      "id": "s004",
+      "title": "Advice relating to the appointment of Lord Lebedev - House of Commons Library",
+      "publisher": "House of Commons Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0075/",
+      "checked": "2026-11-15",
+      "input_source_id": "S004",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2022-03-29"
+    },
+    {
+      "id": "s005",
+      "title": "Appointment of Lord Lebedev, Commons debate and division",
+      "publisher": "UK Parliament — Hansard",
+      "type": "Official debate and resolution",
+      "url": "https://hansard.parliament.uk/Commons/2022-03-29/debates/D30351A6-5912-417B-A961-413167847683/AppointmentOfLordLebedev",
+      "checked": "2026-11-15",
+      "input_source_id": "S005",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2022-03-29"
+    },
+    {
+      "id": "s006",
+      "title": "Lord Bew’s oral evidence, 20 April 2022, HC 1238",
+      "publisher": "Public Administration and Constitutional Affairs Committee",
+      "type": "Official testimony — Lord Bew",
+      "url": "https://committees.parliament.uk/oralevidence/10107/pdf/",
+      "checked": "2026-11-15",
+      "input_source_id": "S006",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2022-04-20"
+    },
+    {
+      "id": "s008",
+      "title": "The work of the Cabinet Office — oral evidence, HC 950, 12 July 2023",
+      "publisher": "Public Administration and Constitutional Affairs Committee",
+      "type": "Official testimony — Simon Case",
+      "url": "https://committees.parliament.uk/oralevidence/13497/pdf",
+      "checked": "2026-11-15",
+      "input_source_id": "S008",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2023-07-12"
+    },
+    {
+      "id": "s012",
+      "title": "Evgeny Lebedev’s nomination for peerage ‘paused’ after MI5 advice | Evgeny Lebedev | The Guardian",
+      "publisher": "The Guardian — Dan Sabbagh",
+      "type": "Reporting on the vetting controversy",
+      "url": "https://www.theguardian.com/media/2022/apr/20/evgeny-lebedev-nomination-for-peerage-paused-after-mi5-advice",
+      "checked": "2026-11-15",
+      "input_source_id": "S012",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2022-04-20"
+    },
+    {
+      "id": "s013",
+      "title": "MI6 'warned Boris Johnson about Russian oligarch friend Evgeny Lebedev' two years ago | ITV News",
+      "publisher": "ITV News",
+      "type": "Reporting attributed to The Sunday Times",
+      "url": "https://www.itv.com/news/2022-03-13/m16-warned-pm-about-russian-oligarch-friend-evgeny-lebedev-two-years-ago",
+      "checked": "2026-11-15",
+      "input_source_id": "S013",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2022-03-13"
+    },
+    {
+      "id": "s015",
+      "title": "Statement from the proprietor in response to media speculation",
+      "publisher": "Evgeny Lebedev / The Standard",
+      "type": "Subject’s published response",
+      "url": "https://www.standard.co.uk/news/london/statement-from-the-proprietor-in-response-to-media-speculation-b987541.html",
+      "checked": "2026-11-15",
+      "input_source_id": "S015",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2022-03-11",
+      "original_supplied_url": "https://app.standard.co.uk/news/london/statement-from-the-proprietor-in-response-to-media-speculation-b987541.html"
+    },
+    {
+      "id": "s016",
+      "title": "The London Standard hits the streets for the first time | The Standard",
+      "publisher": "The Standard — Mark Wilkinson",
+      "type": "Publisher’s launch announcement",
+      "url": "https://www.standard.co.uk/news/london/london-standard-streets-first-weekly-newspaper-b1184317.html",
+      "checked": "2026-11-15",
+      "input_source_id": "S016",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2024-09-26"
+    },
+    {
+      "id": "s017",
+      "title": "Independent to run London Standard newspaper",
+      "publisher": "City A.M. — Ali Lyon",
+      "type": "Trade and business reporting",
+      "url": "https://www.cityam.com/independent-to-run-london-standard-newspaper/",
+      "checked": "2026-11-15",
+      "input_source_id": "S017",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2026-01-20"
+    },
+    {
+      "id": "s019",
+      "title": "Standard cuts its losses - but revenues drop too - The New World",
+      "publisher": "The New World",
+      "type": "Later reporting and commentary",
+      "url": "https://www.thenewworld.co.uk/rats-in-a-sack-standard-cuts-its-losses-but-revenues-drop-too/",
+      "checked": "2026-11-15",
+      "input_source_id": "S019",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "s023",
+      "title": "Queen confers Peerages: 31 July 2020 - GOV.UK",
+      "publisher": "Prime Minister’s Office",
+      "type": "Official publication notice",
+      "url": "https://www.gov.uk/government/publications/queen-confers-peerages-31-july-2020",
+      "checked": "2026-11-15",
+      "input_source_id": "S023",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2020-07-31"
+    },
+    {
+      "id": "s032",
+      "title": "Introduction: Lord Lebedev - Hansard - UK Parliament",
+      "publisher": "UK Parliament — Hansard",
+      "type": "Official introduction record",
+      "url": "https://hansard.parliament.uk/Lords%E2%80%8F/2020-12-17/debates/40C0A63F-22C8-4E0F-B7A0-8C259BB65162/IntroductionLordLebedev",
+      "checked": "2026-11-15",
+      "input_source_id": "S032",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2020-12-17"
+    },
+    {
+      "id": "s054",
+      "title": "Lord Lebedev appointment — ministerial response to the Humble Address (HCWS22)",
+      "publisher": "Cabinet Office / UK Parliament",
+      "type": "Minister’s written statement",
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2022-05-12/hcws22",
+      "checked": "2026-11-15",
+      "input_source_id": "S054",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2022-05-12"
+    },
+    {
+      "id": "s055",
+      "title": "PM denies intervening to override security concerns to secure peerage for Evgeny Lebedev | ITV News",
+      "publisher": "ITV News",
+      "type": "Contemporaneous reporting of Johnson’s denial",
+      "url": "https://www.itv.com/news/2022-03-07/pm-denies-intervening-to-secure-peerage-for-evgeny-lebedev",
+      "checked": "2026-11-15",
+      "input_source_id": "S055",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2022-03-07"
+    },
+    {
+      "id": "s087",
+      "title": "EVENING STANDARD LIMITED persons with significant control - Find and update company information - GOV.UK",
+      "publisher": "Companies House",
+      "type": "Live persons-with-significant-control register",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06770098/persons-with-significant-control",
+      "checked": "2026-11-15",
+      "input_source_id": "S087",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material."
+    },
+    {
+      "id": "s089",
+      "title": "Evening Standard to go free from October 12",
+      "publisher": "Marketing Week",
+      "type": "Contemporaneous trade reporting",
+      "url": "https://www.marketingweek.com/evening-standard-to-go-free-from-october-12/",
+      "checked": "2026-11-15",
+      "input_source_id": "S089",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material.",
+      "date": "2009-10-02"
+    },
+    {
+      "id": "s112",
+      "title": "SOVEREIGNTY MEDIA LIMITED persons with significant control - Find and update company information - GOV.UK",
+      "publisher": "Companies House",
+      "type": "Live persons-with-significant-control register",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14412020/persons-with-significant-control",
+      "checked": "2026-11-15",
+      "input_source_id": "S112",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material."
+    },
+    {
+      "id": "s113",
+      "title": "LEBEDEV HOLDINGS LIMITED persons with significant control - Find and update company information - GOV.UK",
+      "publisher": "Companies House",
+      "type": "Live persons-with-significant-control register",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06764905/persons-with-significant-control",
+      "checked": "2026-11-15",
+      "input_source_id": "S113",
+      "verification": "Page or relevant indexed document text opened and checked for the stated proposition; not authentication of underlying classified material."
+    },
+    {
+      "id": "law-harm",
+      "title": "Defamation Act 2013, section 1: Serious harm",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation · England and Wales",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/1",
+      "checked": "2026-11-15",
+      "verification": "Statutory wording checked against the official Act PDF and indexed revised legislation; section links are provided for readers.",
+      "verification_url": "https://www.legislation.gov.uk/ukpga/2013/26/pdfs/ukpga_20130026_en.pdf"
+    },
+    {
+      "id": "law-truth",
+      "title": "Defamation Act 2013, section 2: Truth",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation · England and Wales",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/2",
+      "checked": "2026-11-15",
+      "verification": "Statutory wording checked against the official Act PDF and indexed revised legislation; section links are provided for readers.",
+      "verification_url": "https://www.legislation.gov.uk/ukpga/2013/26/pdfs/ukpga_20130026_en.pdf"
+    },
+    {
+      "id": "law-opinion",
+      "title": "Defamation Act 2013, section 3: Honest opinion",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation · England and Wales",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/3",
+      "checked": "2026-11-15",
+      "verification": "Statutory wording checked against the official Act PDF and indexed revised legislation; section links are provided for readers.",
+      "verification_url": "https://www.legislation.gov.uk/ukpga/2013/26/pdfs/ukpga_20130026_en.pdf"
+    },
+    {
+      "id": "law-public-interest",
+      "title": "Defamation Act 2013, section 4: Publication on matter of public interest",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation · England and Wales",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/26/section/4",
+      "checked": "2026-11-15",
+      "verification": "Statutory wording checked against the official Act PDF and indexed revised legislation; section links are provided for readers.",
+      "verification_url": "https://www.legislation.gov.uk/ukpga/2013/26/pdfs/ukpga_20130026_en.pdf"
+    }
+  ],
+  "claim_audit": [
+    {
+      "id": "announcement",
+      "supplied_status": "documented",
+      "profile_entry": "appointment-dates",
+      "checked_source_ids": [
+        "s003",
+        "s023"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S003",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S023",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S024",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S025",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S026",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S027",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S028",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S029",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S001",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S030",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S031",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S118",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    },
+    {
+      "id": "creation-introduction",
+      "supplied_status": "documented",
+      "profile_entry": "appointment-dates",
+      "checked_source_ids": [
+        "s001",
+        "s032"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S029",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S001",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S031",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S032",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S033",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S034",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S118",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S119",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    },
+    {
+      "id": "alexander-kgb",
+      "supplied_status": "documented",
+      "profile_entry": "which-lebedev",
+      "checked_source_ids": [
+        "s015"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S015",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S035",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S036",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S037",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S038",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S039",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S040",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S041",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S042",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S043",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S044",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S013",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S025",
+          "role": "contemporaneous_or_trade_reporting"
+        }
+      ]
+    },
+    {
+      "id": "mi5-pause",
+      "supplied_status": "attributed_reporting",
+      "profile_entry": "reported-concerns",
+      "checked_source_ids": [
+        "s012",
+        "s006"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S012",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S046",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S047",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S011",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S010",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S048",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S049",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S050",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    },
+    {
+      "id": "mi6-warning",
+      "supplied_status": "attributed_reporting",
+      "profile_entry": "reported-concerns",
+      "checked_source_ids": [
+        "s013"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S010",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S013",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S005",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S051",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S048",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S049",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S012",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S006",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S007",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    },
+    {
+      "id": "early-holac-position",
+      "supplied_status": "disputed",
+      "profile_entry": "reported-concerns",
+      "checked_source_ids": [
+        "s004"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S009",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S011",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S012",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S006",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S046",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S052",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S047",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S007",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S048",
+          "role": "follow_up_or_shared_origin"
+        }
+      ]
+    },
+    {
+      "id": "holac-final-and-pressure",
+      "supplied_status": "official_testimony",
+      "profile_entry": "holac-final-position",
+      "checked_source_ids": [
+        "s006"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S012",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S008",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S046",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S052",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S047",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S053",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S007",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S054",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    },
+    {
+      "id": "intervention-and-denial",
+      "supplied_status": "disputed",
+      "profile_entry": "johnson-and-lebedev-responses",
+      "checked_source_ids": [
+        "s055",
+        "s006"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S014",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S011",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S055",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S056",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S057",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S058",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S059",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S060",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S061",
+          "role": "counterpoint_or_qualification"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S050",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S044",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S062",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S006",
+          "role": "counterpoint_or_qualification"
+        }
+      ]
+    },
+    {
+      "id": "proxy-hypothesis",
+      "supplied_status": "not_established",
+      "profile_entry": "advice-chain",
+      "checked_source_ids": [
+        "s004",
+        "s006",
+        "s054"
+      ],
+      "review": "not-established",
+      "original_evidence": [
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S053",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S046",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S010",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S012",
+          "role": "original_investigative_reporting"
+        },
+        {
+          "source_id": "S007",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S008",
+          "role": "official_testimony"
+        }
+      ]
+    },
+    {
+      "id": "commons-motion",
+      "supplied_status": "documented",
+      "profile_entry": "humble-address",
+      "checked_source_ids": [
+        "s005"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S005",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S063",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S064",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S065",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S007",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S044",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S050",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S062",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S049",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S054",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S066",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S067",
+          "role": "contemporaneous_or_trade_reporting"
+        }
+      ]
+    },
+    {
+      "id": "limited-disclosure",
+      "supplied_status": "documented",
+      "profile_entry": "limited-disclosure",
+      "checked_source_ids": [
+        "s054"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S007",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S054",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S050",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S067",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S068",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S044",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S069",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S066",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S062",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S049",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S070",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S047",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S071",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S005",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    },
+    {
+      "id": "isc-briefing",
+      "supplied_status": "official_record_and_testimony",
+      "profile_entry": "isc-briefing",
+      "checked_source_ids": [
+        "s008",
+        "s054"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S054",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S008",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S007",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S068",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S044",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S050",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S067",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S069",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S062",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S049",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S072",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S066",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    },
+    {
+      "id": "lebedev-response",
+      "supplied_status": "direct_statement",
+      "profile_entry": "johnson-and-lebedev-responses",
+      "checked_source_ids": [
+        "s015"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S015",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S042",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S043",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S013",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S064",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S063",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S050",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S073",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        }
+      ]
+    },
+    {
+      "id": "cruddas-comparator",
+      "supplied_status": "documented",
+      "profile_entry": "cruddas-comparator",
+      "checked_source_ids": [
+        "s004"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S074",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S075",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S004",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S006",
+          "role": "official_testimony"
+        },
+        {
+          "source_id": "S076",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S077",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S078",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S053",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S079",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S080",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S045",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S008",
+          "role": "official_testimony"
+        }
+      ]
+    },
+    {
+      "id": "standard-proprietorship",
+      "supplied_status": "documented_historical",
+      "profile_entry": "free-newspaper",
+      "checked_source_ids": [
+        "s003",
+        "s089"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S081",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S039",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S040",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S041",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S082",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S083",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S084",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S085",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S025",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S028",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S086",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S087",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S017",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S020",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S021",
+          "role": "primary_record"
+        }
+      ]
+    },
+    {
+      "id": "free-daily",
+      "supplied_status": "documented_historical",
+      "profile_entry": "free-newspaper",
+      "checked_source_ids": [
+        "s089",
+        "s016"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S088",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S089",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S090",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S091",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S092",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S093",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S094",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S095",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S096",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S097",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S098",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S099",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S100",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S020",
+          "role": "primary_record"
+        }
+      ]
+    },
+    {
+      "id": "weekly-transition",
+      "supplied_status": "documented",
+      "profile_entry": "weekly-standard",
+      "checked_source_ids": [
+        "s016"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S016",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S101",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S102",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S100",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S103",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S104",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S105",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S106",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S107",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S108",
+          "role": "party_or_publisher_statement"
+        },
+        {
+          "source_id": "S109",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S110",
+          "role": "follow_up_or_shared_origin"
+        },
+        {
+          "source_id": "S111",
+          "role": "primary_record"
+        }
+      ]
+    },
+    {
+      "id": "ownership-chain",
+      "supplied_status": "documented_filings",
+      "profile_entry": "ownership-update",
+      "checked_source_ids": [
+        "s002",
+        "s113",
+        "s112",
+        "s087"
+      ],
+      "review": "corrected-with-live-filings",
+      "original_evidence": [
+        {
+          "source_id": "S002",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S112",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S113",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S087",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S114",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S115",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S116",
+          "role": "primary_record"
+        },
+        {
+          "source_id": "S019",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S018",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S017",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    },
+    {
+      "id": "digital-operations",
+      "supplied_status": "reported",
+      "profile_entry": "digital-and-print",
+      "checked_source_ids": [
+        "s017",
+        "s019"
+      ],
+      "review": "attributed-and-scoped",
+      "original_evidence": [
+        {
+          "source_id": "S017",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S117",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S018",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S019",
+          "role": "contemporaneous_or_trade_reporting"
+        },
+        {
+          "source_id": "S116",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S002",
+          "role": "context_or_evidence_limit"
+        },
+        {
+          "source_id": "S087",
+          "role": "context_or_evidence_limit"
+        }
+      ]
+    }
+  ],
+  "input_provenance": {
+    "path": "data/research/materials/lebedev-supplied-2026-11-15.json",
+    "sha256": "eab2718bd53b67f3d239cf44e0b416efd0a4239890a090afdd6fdac6c8c3972e",
+    "supplied_claims": 19,
+    "supplied_source_leads": 119,
+    "checked_source_pages": 21,
+    "other_leads": 98,
+    "scope": "User-supplied research retained verbatim; original verification claims and coverage targets are not adopted as fresh checks."
+  },
+  "corrections": [
+    {
+      "id": "later-personal-control",
+      "checked": "2026-11-15",
+      "entry": "ownership-update",
+      "text": "Companies House lists an active personal PSC entry notified 14 May 2026 as well as the January corporate entry. The input described only the January cessation and indirect chain.",
+      "sources": [
+        "s113",
+        "s112",
+        "s087",
+        "s002"
+      ]
+    }
+  ],
+  "publication_review": {
+    "status": "approved-for-publication",
+    "fresh_right_of_reply_requested": false,
+    "existing_responses": [
+      "s015",
+      "s055"
+    ],
+    "underlying_classified_advice_obtained": false,
+    "authorisation": "User explicitly requested push/publication on 15 November 2026 after adversarial review.",
+    "adversarial_review": "Ten challenges and mitigations published in the article; editorial self-review, not independent legal clearance.",
+    "right_of_reply_exception": "Long-published controversy revisited from attributed reporting, official testimony and existing published responses; no fresh allegation of espionage or finding that an override occurred.",
+    "legal_provisions_added": 4
+  },
+  "published": "2026-11-15",
+  "adversarial_review": {
+    "reviewed": "2026-11-15",
+    "method": "Editorial self-review against a hostile reading; not an independent legal opinion.",
+    "challenges": [
+      {
+        "id": "identity",
+        "entry": "challenge-identity",
+        "challenge": "1. Are father and son being conflated?",
+        "response": "Alexander’s former KGB service is acknowledged in Evgeny’s own statement. That family relationship does not establish that Evgeny worked for Russian intelligence; his denial is included next to the account.",
+        "sources": [
+          "s015"
+        ]
+      },
+      {
+        "id": "scope",
+        "entry": "challenge-scope",
+        "challenge": "2. Does “controlling the press” overstate the evidence?",
+        "response": "This page identifies a particular newspaper and its corporate chain. It does not claim ownership of all London journalism, a monopoly over the free press, or that distributing a paper determines what its readers think.",
+        "sources": [
+          "s003",
+          "s089",
+          "s113"
+        ]
+      },
+      {
+        "id": "editorial",
+        "entry": "challenge-editorial",
+        "challenge": "3. Is corporate control being confused with editorial direction?",
+        "response": "Shareholdings and rights to appoint directors concern corporate control. They do not prove an instruction to an editor or a particular published line. Lebedev’s defence of editorial independence is included.",
+        "sources": [
+          "s113",
+          "s015"
+        ]
+      },
+      {
+        "id": "chronology",
+        "entry": "challenge-chronology",
+        "challenge": "4. Is a historical free daily being described as today’s business?",
+        "response": "The free daily belongs to the historical account. The paper moved to weekly publication in September 2024. Later reports about digital operations are dated and distinguished from the print company’s filings.",
+        "sources": [
+          "s089",
+          "s016",
+          "s017",
+          "s019"
+        ]
+      },
+      {
+        "id": "concerns",
+        "entry": "challenge-concerns",
+        "challenge": "5. Where are the explicit national-security concerns?",
+        "response": "The early adverse advice and pause are attributed to reporting, including reports summarised by the Commons Library. The original classified assessments have not been obtained. Their precise wording, recipients and sequence remain open questions.",
+        "sources": [
+          "s004",
+          "s012",
+          "s013"
+        ]
+      },
+      {
+        "id": "final-advice",
+        "entry": "challenge-final-advice",
+        "challenge": "6. Did HOLAC finally reject the appointment?",
+        "response": "Bew’s testimony says that HOLAC ultimately did not say no and experienced no pressure. A reported early concern is not the same as a final negative recommendation. The separately documented Cruddas case cannot fill that evidential gap.",
+        "sources": [
+          "s006",
+          "s004"
+        ]
+      },
+      {
+        "id": "intervention",
+        "entry": "challenge-intervention",
+        "challenge": "7. Is an override by Johnson established?",
+        "response": "Intervention and withdrawal of an assessment were alleged in reporting; Johnson denied overriding security concerns. The evidence reviewed here does not settle every separate agency communication to No. 10. Confidentiality is not itself proof of a cover-up.",
+        "sources": [
+          "s055",
+          "s006",
+          "s054"
+        ]
+      },
+      {
+        "id": "ownership",
+        "entry": "challenge-ownership",
+        "challenge": "8. Do the 2026 filings actually show the ownership claimed?",
+        "response": "The Lords register and Companies House record different entries. Both the January cessation and the later active personal entry notified on 14 May are reported. PSC entries are not added together as separate shareholdings, and filed information is not treated as an audited transaction history.",
+        "sources": [
+          "s002",
+          "s113",
+          "s112",
+          "s087"
+        ]
+      },
+      {
+        "id": "corroboration",
+        "entry": "challenge-corroboration",
+        "challenge": "9. Are repeated articles being counted as independent confirmation?",
+        "response": "All 119 supplied leads are retained, but only 21 research sources were checked for this account. Repetition of an originating report does not supply another intelligence witness. Official testimony is evidence of what the witness said, rather than disclosure of the intelligence itself.",
+        "sources": [
+          "s004",
+          "s006",
+          "s013"
+        ]
+      },
+      {
+        "id": "fairness",
+        "entry": "challenge-fairness",
+        "challenge": "10. Are satire, denials and publication fairness being handled honestly?",
+        "response": "The “vibes” line is labelled satire and the institutional criticism is expressed as opinion on identified facts. Lebedev’s and Johnson’s published denials appear in the security section. No fresh response has been requested; the reason for publishing with those existing responses is recorded below. These editorial choices do not guarantee a legal defence.",
+        "sources": [
+          "s015",
+          "s055",
+          "law-opinion",
+          "law-public-interest"
+        ]
+      }
+    ]
+  }
+}
