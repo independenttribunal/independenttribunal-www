@@ -141,9 +141,9 @@ export function profileText(p) {
 export async function publishProfiles({ profiles, put, page, escapeHtml: e, site }) {
   const people = profiles.filter((p) => p.category !== "legal-study");
   await put("people/index.html", page({
-    title: "People & public records", path: "/people/",
+    title: "Biography profiles", path: "/people/",
     description: "Individual profiles grounded in documents: public work, legal proceedings, responses and unresolved questions.",
-    body: `<p class="kicker">Independent Tribunal · Research category</p><h1>People &amp; public records</h1><p class="lede">The person. The claims. The record.</p><p>Public figures and individuals whose cases raise wider questions about law, power and accountability. Inclusion is not a judgment of character: an allegation is not a conviction, and a dismissal deserves the same prominence as a complaint.</p><ul class="policy-list">${people.map((p) => `<li><span class="kicker">${e(p.jurisdiction)}</span><h2><a href="/research/${p.id}/">${e(p.title)} →</a></h2><p>${e(p.summary)}</p><p class="meta">Sources reviewed ${e(p.checked)}</p></li>`).join("")}</ul><p><a href="/data/profiles.json">Download the profiles and legal studies JSON</a> · <a href="/research/">All research</a></p>`,
+    body: `<p class="kicker">Independent Tribunal · Research category</p><h1>Biography profiles</h1><p class="lede">The person. The claims. The record.</p><p>Public figures and individuals whose cases raise wider questions about law, power and accountability. Inclusion is not a judgment of character: an allegation is not a conviction, and a dismissal deserves the same prominence as a complaint.</p><ul class="policy-list">${people.map((p) => `<li><span class="kicker">${e(p.jurisdiction)}</span><h2><a href="/research/${p.id}/">${e(p.title)} →</a></h2><p>${e(p.summary)}</p><p class="meta">Sources reviewed ${e(p.checked)}</p></li>`).join("")}</ul><p><a href="/data/profiles.json">Download the profiles and legal studies JSON</a> · <a href="/research/">All research</a></p>`,
   }));
   for (const p of profiles) {
     const order = [...new Set(p.sections.flatMap((section) => section.entries.flatMap((entry) => entry.paragraphs.flatMap((para) => para.sources.map((ref) => ref.id)))))];

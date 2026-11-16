@@ -1,14 +1,48 @@
 {
   "links": [
-    { "label": "Research", "href": "/research/" },
-    { "label": "Speech offences", "href": "/speech-offences/" },
-    { "label": "UK complicity", "href": "/uk-complicity/" },
-    { "label": "Forensics", "href": "/forensics/" },
-    { "label": "Nuances", "href": "/nuances/" },
-    { "label": "Tribunals", "href": "/independent-tribunals/" },
-    { "label": "UK timeline", "href": "/uk-timeline/" },
-    { "label": "Legal", "href": "/legal/" },
-    { "label": "About", "href": "/about" }
+    {
+      "label": "Research",
+      "href": "/research/"
+    },
+    {
+      "label": "Speech offences",
+      "href": "/speech-offences/"
+    },
+    {
+      "label": "Biography profiles",
+      "href": "/people/"
+    },
+    {
+      "label": "UK complicity",
+      "href": "/uk-complicity/"
+    },
+    {
+      "label": "Forensics",
+      "href": "/forensics/"
+    },
+    {
+      "label": "Nuances",
+      "href": "/nuances/"
+    },
+    {
+      "label": "Tribunals",
+      "href": "/independent-tribunals/"
+    },
+    {
+      "label": "UK timeline",
+      "href": "/uk-timeline/"
+    },
+    {
+      "label": "Legal",
+      "href": "/legal/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    }
   ],
-  "app": { "label": "The app (BETA)", "href": "https://app.independenttribunal.org/" }
+  "app": {
+    "label": "The app (BETA)",
+    "href": "https://app.independenttribunal.org/"
+  }
 }

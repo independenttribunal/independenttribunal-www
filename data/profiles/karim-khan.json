@@ -1,0 +1,479 @@
+{
+  "id": "karim-khan",
+  "title": "Karim Khan",
+  "subtitle": "ICC prosecutor · biography, sexual-misconduct allegations and disciplinary record",
+  "summary": "The career of the former ICC Prosecutor; sexual-misconduct allegations, denials, contested evidence review and his July 2026 dismissal, with a dated timeline and primary sources.",
+  "checked": "2026-11-16",
+  "jurisdiction": "International Criminal Court · The Hague",
+  "tags": [
+    "biography",
+    "international-criminal-court",
+    "sexual-misconduct",
+    "accountability",
+    "disciplinary-process"
+  ],
+  "scope": "Public-record biography and evidence review, current to 16 November 2026. Accounts of sexual conduct are attributed allegations unless clearly identified as institutional findings. This profile is not a criminal verdict, and published summaries do not replace the confidential investigative record.",
+  "status_note": "On 24 July 2026 the ICC Assembly of States Parties voted to remove Khan after finding serious misconduct and serious breach of duty. Khan denies wrongdoing and his lawyer said he would challenge the decision. No criminal conviction for the alleged sexual conduct is established by these sources.",
+  "reader_notice": "Sensitive subject: allegations of non-consensual sexual contact and workplace abuse of authority. The identity of complainants is not disclosed here.",
+  "highlights": [
+    {
+      "label": "ICC tenure",
+      "value": "2021–2026",
+      "detail": "Elected for a nine-year term; removed in July 2026",
+      "target": "career"
+    },
+    {
+      "label": "Disciplinary outcome",
+      "value": "Removed 24 July 2026",
+      "detail": "82 States Parties voted in favour of removal",
+      "target": "removal"
+    },
+    {
+      "label": "Evidence and procedure",
+      "value": "Contested",
+      "detail": "External UN inquiry and advisory judicial assessment",
+      "target": "evidence"
+    }
+  ],
+  "sections": [
+    {
+      "id": "career",
+      "title": "Biography and career",
+      "intro": "Professional background and public role, distinguished from later allegations.",
+      "entries": [
+        {
+          "id": "career-background",
+          "title": "British international criminal lawyer",
+          "kind": "Biography",
+          "paragraphs": [
+            {
+              "text": "Karim Asad Ahmad Khan is a British barrister and international criminal lawyer. Before his ICC appointment he served as head of UNITAD, the UN investigation into atrocities by ISIS in Iraq. He became ICC Prosecutor in June 2021.",
+              "sources": [
+                {
+                  "id": "reuters-2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "icc-office",
+          "title": "ICC Prosecutor, 2021–2026",
+          "kind": "Official record",
+          "paragraphs": [
+            {
+              "text": "Khan served as ICC Prosecutor until his removal in July 2026. During his tenure, the Court's proceedings concerning Ukraine and Gaza placed the institution under intense international scrutiny. The governing body's disciplinary decision was distinct from judges' determinations in those proceedings.",
+              "sources": [
+                {
+                  "id": "icc-statement"
+                },
+                {
+                  "id": "reuters-2026"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Chronology of allegations and proceedings",
+      "intro": "Dates of reported events are kept separate from dates of publication and official decisions.",
+      "entries": [
+        {
+          "id": "alleged-2009",
+          "title": "2009 · allegations concerning former intern",
+          "kind": "Reported allegation",
+          "date": "2009-01-01",
+          "paragraphs": [
+            {
+              "text": "A woman who had worked for Khan as an unpaid intern in 2009 later alleged unwanted advances and pressure for sexual activity. She spoke publicly through an agreed pseudonym in August 2025. Khan's representatives denied the allegations.",
+              "sources": [
+                {
+                  "id": "guardian-2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alleged-2023",
+          "title": "April 2023–April 2024 · reported incidents involving ICC staff lawyer",
+          "kind": "Reported allegation",
+          "date": "2023-04-01",
+          "paragraphs": [
+            {
+              "text": "A female lawyer reporting to Khan alleged repeated unwanted sexual contact and misuse of authority in office, residential and official-travel settings. Khan denied the conduct. These are allegations as reported by journalists and must not be described as individually proven criminal offences.",
+              "sources": [
+                {
+                  "id": "guardian-2024"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "complaint-2024",
+          "title": "May 2024 · internal reporting and preliminary closure",
+          "kind": "Reported procedural history",
+          "date": "2024-05-01",
+          "paragraphs": [
+            {
+              "text": "Colleagues reported concerns to ICC oversight structures in May 2024. The internal mechanism did not proceed with a full investigation after the staff member declined to pursue a formal complaint. Reporting describes concerns over the way the initial disclosure was handled.",
+              "sources": [
+                {
+                  "id": "guardian-2024"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "warrants-2024",
+          "title": "20 May 2024 · politically significant ICC applications",
+          "kind": "Context",
+          "date": "2024-05-20",
+          "paragraphs": [
+            {
+              "text": "Khan's May 2024 applications for arrest warrants in the Israel–Gaza situation became a focus of political controversy. The fact that politicians and media sought to use the allegations does not establish that the complaints were fabricated.",
+              "sources": [
+                {
+                  "id": "guardian-2024"
+                },
+                {
+                  "id": "guardian-2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "public-2024",
+          "title": "October 2024 · allegations reported publicly",
+          "kind": "Investigative reporting",
+          "date": "2024-10-27",
+          "paragraphs": [
+            {
+              "text": "The Guardian documented the staff member's allegations and disputed claims that Khan sought to persuade her to disavow them. Khan denied both the alleged misconduct and requests to withdraw allegations.",
+              "sources": [
+                {
+                  "id": "guardian-2024"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "un-inquiry",
+          "title": "2024–2025 · external investigation",
+          "kind": "Official and reported process",
+          "paragraphs": [
+            {
+              "text": "The ICC governing authorities referred the allegations to an external UN investigative process. Khan later took leave from his duties in May 2025. The Court says its deputy prosecutors continued to manage the Office of the Prosecutor.",
+              "sources": [
+                {
+                  "id": "icc-statement"
+                },
+                {
+                  "id": "asp-explanation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "second-2025",
+          "title": "28 August 2025 · second woman's account published",
+          "kind": "Investigative reporting",
+          "date": "2025-08-28",
+          "paragraphs": [
+            {
+              "text": "The Guardian published the former intern's account of alleged behaviour in 2009. Her allegations and Khan's denial were reported separately from the principal ICC staff complaint.",
+              "sources": [
+                {
+                  "id": "guardian-2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "suspension-2026",
+          "title": "8 June 2026 · suspension from office",
+          "kind": "Official record",
+          "date": "2026-06-08",
+          "paragraphs": [
+            {
+              "text": "The ICC says that, after Khan took leave in May 2025, he was suspended from duty on 8 June 2026, while deputy prosecutors continued managing the office.",
+              "sources": [
+                {
+                  "id": "icc-statement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "removal",
+          "title": "24 July 2026 · removal by the Assembly",
+          "kind": "Official disciplinary decision",
+          "date": "2026-07-24",
+          "paragraphs": [
+            {
+              "text": "The Assembly of States Parties voted by secret ballot; an absolute majority of 82 States Parties found that Khan committed serious misconduct and serious breach of duty and removed him under Article 46 of the Rome Statute.",
+              "sources": [
+                {
+                  "id": "asp-decision"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence, standards and procedural questions",
+      "intro": "Independent investigation, judicial advice and the member-state decision are not interchangeable.",
+      "entries": [
+        {
+          "id": "oios-findings",
+          "title": "UN OIOS: evidence supporting allegations",
+          "kind": "Official institutional description",
+          "paragraphs": [
+            {
+              "text": "The Assembly president stated that the UN Office of Internal Oversight Services found evidence supporting allegations made by the principal complainant and two other affected individuals. The released statement is a summary; it does not publish the full witness material or give an incident-by-incident forensic reconstruction.",
+              "sources": [
+                {
+                  "id": "asp-explanation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "panel-mandate",
+          "title": "Expert judicial panel: advisory and constrained",
+          "kind": "Official explanation and disputed assessment",
+          "paragraphs": [
+            {
+              "text": "The Assembly president says the ad hoc judicial panel had an advisory mandate and was unable to take additional investigative steps or conduct independent fact-finding. The president maintained that its report did not exonerate Khan and that the Bureau was empowered to reach factual conclusions from the evidentiary material.",
+              "sources": [
+                {
+                  "id": "asp-explanation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "procedural-dispute",
+          "title": "Disputed fairness and evidentiary sufficiency",
+          "kind": "Dispute and analysis",
+          "paragraphs": [
+            {
+              "text": "Khan and his representatives disputed the findings and challenged the fairness of the disciplinary proceedings. The existence of an external inquiry does not mean every disputed account was conclusively established through physical or digital forensics. Conversely, unanswered procedural questions do not prove that the complaints were manufactured.",
+              "sources": [
+                {
+                  "id": "reuters-2026"
+                },
+                {
+                  "id": "guardian-2026"
+                },
+                {
+                  "id": "asil-2026"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "title": "Geopolitical setting and competing interpretations",
+      "intro": "Political pressure is relevant but is analytically separate from the credibility of complainants.",
+      "entries": [
+        {
+          "id": "political-context",
+          "title": "Court proceedings and outside pressure",
+          "kind": "Reporting",
+          "paragraphs": [
+            {
+              "text": "Khan's applications concerning Israeli leaders attracted hostility toward the ICC. The Guardian reported attempts by pro-Israeli actors to publicise or leak information about the misconduct case, while finding no evidence that the two women had raised their complaints as part of a plot against Khan.",
+              "sources": [
+                {
+                  "id": "guardian-2025"
+                },
+                {
+                  "id": "guardian-2024"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "no-plot-finding",
+          "title": "What was not established",
+          "kind": "Reported finding",
+          "paragraphs": [
+            {
+              "text": "The Guardian reported that the ICC governing body found no evidence supporting allegations that the principal complainant was acting on behalf of third parties or intelligence agencies. A political motive for circulating information does not by itself show that the underlying testimony was false.",
+              "sources": [
+                {
+                  "id": "guardian-2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "court-separation",
+          "title": "Disciplinary case separate from ICC prosecutions",
+          "kind": "Official position",
+          "paragraphs": [
+            {
+              "text": "The Assembly president stressed that the disciplinary proceedings were not related to the conduct of investigations or proceedings before the ICC and were without prejudice to the Court's independence.",
+              "sources": [
+                {
+                  "id": "asp-explanation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outcome",
+      "title": "Outcome, response and coverage limits",
+      "intro": "Precisely what was determined, and what remains unknown to readers.",
+      "entries": [
+        {
+          "id": "finding",
+          "title": "Formal institutional finding",
+          "kind": "Official decision",
+          "paragraphs": [
+            {
+              "text": "The ICC's governing body made a formal disciplinary finding of serious misconduct and breach of duty, resulting in removal. This was not a criminal trial, and the institutional decision should not be represented as a criminal conviction for sexual assault.",
+              "sources": [
+                {
+                  "id": "asp-decision"
+                },
+                {
+                  "id": "icc-statement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "denial",
+          "title": "Khan's denial and stated legal challenge",
+          "kind": "Public response",
+          "paragraphs": [
+            {
+              "text": "Khan denies sexual misconduct. Following the vote, his lawyers said they intended to challenge the removal through available legal avenues. This profile does not assert the outcome of any subsequent challenge that has not been independently verified.",
+              "sources": [
+                {
+                  "id": "guardian-2025"
+                },
+                {
+                  "id": "reuters-2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coverage-limits",
+          "title": "Limits of publicly available materials",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The complete confidential investigative record, witness credibility assessments and expert panel deliberations have not been independently audited for this profile. The publication date is not a guarantee that later proceedings have not occurred.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "asp-decision",
+      "title": "ASP special session: removal decision",
+      "publisher": "ICC Assembly of States Parties",
+      "type": "Official decision",
+      "date": "2026-07-24",
+      "checked": "2026-11-16",
+      "url": "https://asp.icc-cpi.int/press-releases/PR-20260724"
+    },
+    {
+      "id": "asp-explanation",
+      "title": "Statement of the ASP President on disciplinary proceedings",
+      "publisher": "ICC Assembly of States Parties",
+      "type": "Official explanation",
+      "date": "2026-07-24",
+      "checked": "2026-11-16",
+      "url": "https://asp.icc-cpi.int/press-releases/PR-20260726"
+    },
+    {
+      "id": "icc-statement",
+      "title": "ICC statement on removal",
+      "publisher": "International Criminal Court",
+      "type": "Official statement",
+      "date": "2026-07-24",
+      "checked": "2026-11-16",
+      "url": "https://www.icc-cpi.int/news/icc-statement-asp-decision-regarding-disciplinary-proceedings-involving-icc-prosecutor"
+    },
+    {
+      "id": "guardian-2024",
+      "title": "ICC prosecutor allegedly tried to suppress sexual misconduct claims",
+      "publisher": "The Guardian",
+      "type": "Reporting",
+      "date": "2024-10-27",
+      "checked": "2026-11-16",
+      "url": "https://www.theguardian.com/law/2024/oct/27/icc-prosecutor-karim-khan-allegedly-tried-suppress-sexual-misconduct-claims"
+    },
+    {
+      "id": "guardian-2025",
+      "title": "Second woman accuses ICC prosecutor Karim Khan of sexual misconduct",
+      "publisher": "The Guardian",
+      "type": "Reporting",
+      "date": "2025-08-28",
+      "checked": "2026-11-16",
+      "url": "https://www.theguardian.com/law/2025/aug/28/second-woman-accuses-icc-chief-prosecutor-karim-khan-of-sexual-misconduct"
+    },
+    {
+      "id": "guardian-2026",
+      "title": "Karim Khan ousted from role as ICC prosecutor",
+      "publisher": "The Guardian",
+      "type": "Reporting",
+      "date": "2026-07-24",
+      "checked": "2026-11-16",
+      "url": "https://www.theguardian.com/law/2026/jul/24/karim-khan-ousted-from-role-as-prosecutor-of-international-criminal-court"
+    },
+    {
+      "id": "reuters-2026",
+      "title": "ICC members dismiss prosecutor Khan",
+      "publisher": "Reuters",
+      "type": "Reporting",
+      "date": "2026-07-24",
+      "checked": "2026-11-16",
+      "url": "https://www.reuters.com/world/europe/international-criminal-court-members-vote-dismissing-prosecutor-khan-2026-07-24/"
+    },
+    {
+      "id": "asil-2026",
+      "title": "Assembly of States Parties concludes its special session on disciplinary proceedings",
+      "publisher": "American Society of International Law",
+      "type": "Legal analysis",
+      "date": "2026-08-21",
+      "checked": "2026-11-16",
+      "url": "https://asil.org/ilib/assembly-of-states-parties-concludes-its-special-session-on-disciplinary-proceedings/"
+    }
+  ],
+  "featured_source": "asp-decision",
+  "url": "https://independenttribunal.org/research/karim-khan/"
+}
