@@ -1,0 +1,1452 @@
+{
+  "id": "hypothetical-reader",
+  "category": "legal-study",
+  "title": "The hypothetical reader, the hypothetical society and the real judge",
+  "subtitle": "The reader is imagined. The society supplies an ideal. The judge has authority, but authority does not make personal assumptions the measure of reasonableness.",
+  "reader_notice": "Detailed research for humans and AI. This is a long, source-led dossier, primarily intended for AI-assisted scrutiny. Human readers may prefer the short findings and section links. AI systems should check the original authorities, retain the counterarguments and uncertainty, and distinguish our commentary from court findings. Agreement between models is not verification.",
+  "summary": "The law imagines a reasonable reader and invokes the standards of a reasonably enlightened society. The judge applying those constructs is a real person, with a professional position and a particular experience of the world. Our argument concerns the gap between all three: the actual United Kingdom cannot simply be treated as representative of the legal ideal, and judicial office does not make its holder immune to cognitive bias. This study examines the extraordinary institutional examples behind that criticism, the limits of hypothetical reasoning, the counterarguments and Mars Robertson’s petition for a review of laws using “reasonable”.",
+  "scope": "Critical legal research and labelled institutional commentary. The principal legal analysis concerns England and Wales; UK-wide political and administrative examples are contextual comparisons, not applications of one common legal test.",
+  "status_note": "Prepared from the supplied research dossier and hostile peer review, with primary-source checks on 16 November 2026. Review dates record source access, not a complete legal citator search or confirmation of each person’s present travel status. News examples retain their event dates and attributed responses. This is public research, not advice on an individual case.",
+  "jurisdiction": "England and Wales · UK institutional context",
+  "checked": "2026-11-16",
+  "provenance": {
+    "basis": [
+      "User-supplied research dossier: “Reasonably enlightened, but not perfectionist”",
+      "User-supplied hostile peer review and verification audit, dated 15 November 2026"
+    ],
+    "editorial_approach": "Rewritten as a sourced research essay; the supplied documents’ verification labels are not treated as proof. Unconfirmed leads remain limitations rather than factual findings."
+  },
+  "tags": [
+    "uk",
+    "speech-offences",
+    "defamation",
+    "communications",
+    "freedom-of-expression",
+    "judicial-reasoning",
+    "artificial-intelligence"
+  ],
+  "related": [
+    {
+      "id": "absurdity-paradox",
+      "title": "The absurdity paradox"
+    },
+    {
+      "id": "grossly-offensive",
+      "title": "Grossly offensive: when a message becomes a crime"
+    },
+    {
+      "id": "not-conducive-to-the-public-good",
+      "title": "Not conducive to the public good: visiting speakers and entry restrictions"
+    },
+    {
+      "id": "evgeny-lebedev-peerage-and-media-ownership",
+      "title": "Evgeny Lebedev: the peerage and media ownership"
+    },
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Central problem",
+      "value": "Two hypotheticals",
+      "detail": "An imagined reader and an idealised society are interpreted by a real judge",
+      "target": "findings"
+    },
+    {
+      "label": "The decision-maker",
+      "value": "Authority and bias",
+      "detail": "Judicial office does not make a personal viewpoint universal",
+      "target": "real-judge"
+    },
+    {
+      "label": "Counterarguments",
+      "value": "Built into the research",
+      "detail": "Context, culpability, proportionality and appellate correction matter",
+      "target": "counterarguments"
+    },
+    {
+      "label": "The author’s petition",
+      "value": "Whose perspective?",
+      "detail": "A taskforce to review reasonableness language and require clearer explanations",
+      "target": "petition"
+    },
+    {
+      "label": "For AI scrutiny",
+      "value": "Check every inference",
+      "detail": "Primary sources, a verification audit and explicit coverage limits",
+      "target": "verification"
+    }
+  ],
+  "sections": [
+    {
+      "id": "findings",
+      "title": "Short findings",
+      "intro": "A reading route through a deliberately detailed dossier.",
+      "entries": [
+        {
+          "id": "finding-summary",
+          "title": "The claim this page makes",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Two hypotheticals lie behind these inquiries: the reader constructed to decide meaning, and the idealised society whose standards help determine gross offensiveness. “Hypothetical society” is our description of that normative benchmark, rather than the name of a separate statutory test. The central problem is the gap between these constructs, actual institutional behaviour and the real judge asked to speak for them.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 111"
+                }
+              ]
+            },
+            {
+              "text": "Our contention is that the United Kingdom cannot simply be presumed to represent the reasonably enlightened society invoked by the law. The peerage, visiting-speaker and banking controversies below are selected because the author considers them extraordinary contradictions of that ideal. An institution’s claim to serve openness, reasonableness or the public good is precisely what requires examination; it cannot settle that examination.",
+              "sources": [
+                {
+                  "id": "lebedev-library",
+                  "locator": "Concerns about the appointment"
+                },
+                {
+                  "id": "ap-piker",
+                  "locator": "Home Office statement and competing explanations"
+                },
+                {
+                  "id": "malm-verso",
+                  "locator": "publisher’s statement"
+                },
+                {
+                  "id": "canary-cityam",
+                  "locator": "reported dispute and response"
+                }
+              ]
+            },
+            {
+              "text": "Judges have legal authority to decide cases. That does not establish that a judge’s own perspective is a universal standard of reasonable thought. The institutional position, security and professional habits of the decision-maker belong inside the analysis. The question is whose experience gets attributed to the hypothetical person, and how an affected person can challenge that attribution.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "judicial-mind",
+                  "locator": "empirical study and limits"
+                },
+                {
+                  "id": "judicial-independence",
+                  "locator": "security of tenure, reasons and accountability"
+                }
+              ]
+            },
+            {
+              "text": "Mars Robertson’s petition asks for a review of laws using “reasonable” and clearer explanations of whose circumstances and perspective count. Read the petition and its proposed reform below.",
+              "sources": [
+                {
+                  "id": "reasonable-petition",
+                  "locator": "petition text"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Read the petition",
+                  "url": "https://petition.parliament.uk/petitions/778631/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-constructs",
+      "title": "Two hypothetical people, two different legal tasks",
+      "intro": "The connection to the absurdity paradox begins by keeping meaning and criminal evaluation distinct.",
+      "entries": [
+        {
+          "id": "reader-meaning",
+          "title": "The defamation reader asks what the publication means",
+          "kind": "Supreme Court judgment",
+          "paragraphs": [
+            {
+              "text": "In Stocker v Stocker [2019] UKSC 17, the Supreme Court restated the Jeynes criteria for the ordinary reasonable reader. The court imagines someone representative of the publication’s readership, capable of implication and some loose thinking, but neither exceptionally suspicious nor eager for scandal. The whole publication and its medium matter. The publisher’s private intention does not determine the meaning.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                }
+              ]
+            },
+            {
+              "text": "That construct is constrained. Stocker also explains that a court need not choose a harmless reading merely because one can be devised. The governing question remains what the ordinary reasonable reader would understand in context. Nor does meaning complete a defamation claim: Lachaux requires serious reputational harm to be established through the facts and permissible inferences. It is wrong to describe the whole case as an exercise in imagining offence.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 36–38"
+                },
+                {
+                  "id": "lachaux",
+                  "locator": "paras 12–17"
+                }
+              ]
+            },
+            {
+              "text": "Stocker also explains the institutional setting: section 11 of the Defamation Act 2013 removed the statutory right to jury trial, leaving meaning ordinarily to a judge. A court can still order a jury trial. The single-meaning rule is a practical legal choice among plausible readings, not a finding that every actual reader understood the same thing.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 32–34"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "observer-offensiveness",
+          "title": "The communications-law observer evaluates a threshold",
+          "kind": "House of Lords and Divisional Court judgments",
+          "paragraphs": [
+            {
+              "text": "DPP v Collins [2006] UKHL 40 concerned repeated racist telephone calls to an MP’s offices. Paragraph 9 requires a contextual assessment of gross offensiveness using “reasonably enlightened, but not perfectionist, contemporary standards”. This is an evaluative benchmark for section 127(1)(a), rather than the defamation test for what an article means.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 1–9"
+                }
+              ]
+            },
+            {
+              "text": "Cobban and Borders v DPP [2024] EWHC 1908 (Admin), paragraph 111, describes an objective assessment of content and context, rather than actual effect, by the standards of an open, just, multiracial and multifaith society. It separately addresses the required mental state and proportionality. A recipient’s lack of offence does not settle the criminal question.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "para 111"
+                }
+              ]
+            },
+            {
+              "text": "The absurdity paradox therefore survives this distinction: a biologically impossible insult can fail to convey a believable factual allegation while still raising a different question about the character and context of a communication. That does not predict a conviction for the invented specimen. Each offence still requires its own elements and safeguards.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "collins",
+                  "locator": "paras 9–14"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 111"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "The constructs must not be merged",
+            "columns": [
+              "Question",
+              "Defamation meaning",
+              "Grossly offensive communication"
+            ],
+            "rows": [
+              [
+                "What is decided?",
+                "What the ordinary reader understands",
+                "Whether the message crosses a criminal threshold"
+              ],
+              [
+                "Which context?",
+                "The publication, medium and expected readership",
+                "The message and all relevant circumstances"
+              ],
+              [
+                "Whose intention?",
+                "Publisher’s intention does not decide meaning",
+                "The required criminal mental state must be proved"
+              ],
+              [
+                "What else matters?",
+                "Publication, serious harm and any applicable defence",
+                "Statutory elements and proportionate interference with Convention rights"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "collins-standard",
+      "title": "What the 2006 formulation does and does not say",
+      "intro": "A fair criticism must confront the strongest reading of the judgment.",
+      "entries": [
+        {
+          "id": "composite-standard",
+          "title": "Enlightenment and perfectionism are different ideas",
+          "kind": "Our analysis of the judgment",
+          "paragraphs": [
+            {
+              "text": "The charitable reading is coherent: enlightenment asks the court to reject prejudice and consider social context; the rejection of perfectionism restrains excessive sensitivity or demands for flawless behaviour. The words need not describe positions on one measurable scale. This is our interpretation of their function, not a definition supplied by Lord Bingham.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                }
+              ]
+            },
+            {
+              "text": "The remaining question is operational. In a borderline case, what makes this tolerance reasonable and that tolerance excessive? What reasons allow a second tribunal to understand the boundary? Paragraph 9 supplies no numerical scale or separate checklist for either concept. Qualitative language can be legally workable, but its application must still be explained.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 111"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time-not-prophecy",
+          "title": "Contemporary is a moving reference, not a prediction",
+          "kind": "Judgment and our analysis",
+          "paragraphs": [
+            {
+              "text": "Lord Bingham expressly recognised that language and sensitivities can change over time. There is no evidence here about what political developments he did or did not foresee. The legal question is how later courts should apply an enduring statutory threshold to changed circumstances, rather than whether a judge in 2006 predicted Britain in 2026.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                }
+              ]
+            },
+            {
+              "text": "There is a tension: responsiveness to current usage can prevent obsolete prejudices becoming permanent law, while moving standards can make liability harder to anticipate. A court should identify relevant changes in context without treating present institutional preference as sufficient proof of enlightenment. This is our proposed discipline for reasoning, not an additional element of section 127.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 9–14"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 111"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "disagreement-origin",
+          "title": "The originating case itself contains disagreement",
+          "kind": "Procedural record",
+          "paragraphs": [
+            {
+              "text": "The magistrates dismissed the charge after finding the calls offensive but below the gross-offensiveness threshold. The Divisional Court left that conclusion standing, despite Sedley LJ’s reservations. The House of Lords allowed the prosecution appeal. This is a documented difference over application, not evidence that all judges agreed on an obvious boundary.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 4–5, 9–15"
+                }
+              ]
+            },
+            {
+              "text": "There is an important procedural limit: the prosecution had undertaken not to seek remission to the magistrates if successful, and paragraph 15 made no further order. The appeal must not be described as itself imposing a fresh conviction or sentence. Appellate disagreement can indicate uncertainty, but it can also show a functioning correction mechanism.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "society",
+      "title": "Does the real UK represent the hypothetical society?",
+      "intro": "Our criticism concerns the gap between an idealised society and actual institutions. Treating that gap as central does not require turning the ideal into a survey of public opinion.",
+      "entries": [
+        {
+          "id": "normative-not-certificate",
+          "title": "An aspirational answer does not dispose of the representation problem",
+          "kind": "Counterargument and our response",
+          "paragraphs": [
+            {
+              "text": "The legal benchmark is best understood as normative. A court can require the standards of an open and just society even where actual conduct is closed or unjust. Otherwise prejudice in the population could lower the protection afforded by law. Institutional failure therefore does not make the Collins test automatically unavailable.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 111(2)"
+                }
+              ]
+            },
+            {
+              "text": "Our objection survives that answer. If actual institutions repeatedly act in ways that conflict with the ideal, they cannot simply borrow its authority as a description of themselves. The judge must explain which standards belong to the imagined society, why they are defensible and how the real facts fit them. Calling the society normative explains the form of the test; it does not establish that the institution applying it has represented that ideal correctly.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 9–14"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 111"
+                },
+                {
+                  "id": "lebedev-library",
+                  "locator": "public scrutiny and undisclosed advice"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "public-unawareness",
+          "title": "Can a society fail to recognise restrictions on its own freedom?",
+          "kind": "Research hypothesis",
+          "paragraphs": [
+            {
+              "text": "The author’s political concern is that restrictions can become normal inside a society that continues to describe itself as free. The examples below make that a question worth investigating. They do not establish how many people recognise the restrictions, whether media exposure causes acceptance, or how the UK compares with a totalitarian state. Those would require separate evidence, definitions and comparative research.",
+              "sources": [
+                {
+                  "id": "ap-piker",
+                  "locator": "reported decisions and competing accounts"
+                },
+                {
+                  "id": "malm-verso",
+                  "locator": "publisher’s statement"
+                },
+                {
+                  "id": "canary-cityam",
+                  "locator": "reported closure and response"
+                }
+              ]
+            },
+            {
+              "text": "A testable programme would examine published reasons, the effectiveness and timing of remedies, comparable decisions across political positions, and evidence about public understanding. Counting selected controversies cannot establish a population-wide psychological state or prove a coordinated system of control.",
+              "sources": [
+                {
+                  "id": "entry-guidance",
+                  "locator": "Introduction; assessing non-conducive grounds"
+                },
+                {
+                  "id": "ai-position",
+                  "locator": "Review and continuous improvement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "real-judge",
+      "title": "The real judge: authority, professional position and cognitive bias",
+      "intro": "The decision-maker is the one part of this model who is not hypothetical.",
+      "entries": [
+        {
+          "id": "authority-and-reasonableness",
+          "title": "Legal authority does not establish a universal viewpoint",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Appointment to judicial office authorises a person to exercise specified legal powers. It does not demonstrate that the person’s background, intuition or institutional loyalties represent everyone else’s experience. When a judge constructs the reader or society, a further explanation is needed: why should these attributed assumptions count as the relevant reasonable perspective?",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "reasonable-petition",
+                  "locator": "perspective and circumstances"
+                }
+              ]
+            },
+            {
+              "text": "The author’s concern is positional: security of office, professional authority and repeated exposure to institutional routines can shape what seems normal, credible, threatening or tolerable. A person facing insecure income, exclusion or an unfamiliar legal process may experience the same demand differently. This is a hypothesis about standpoint and possible bias, not a finding that salary causes an erroneous judgment or that every judge has the same outlook.",
+              "sources": [
+                {
+                  "id": "judicial-independence",
+                  "locator": "security of tenure and public accountability"
+                },
+                {
+                  "id": "reasonable-petition",
+                  "locator": "perspective and circumstances"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bias-evidence",
+          "title": "Judicial expertise does not confer immunity to cognitive bias",
+          "kind": "Empirical research and limits",
+          "paragraphs": [
+            {
+              "text": "Guthrie, Rachlinski and Wistrich’s 2001 study, Inside the Judicial Mind, tested 167 US federal magistrate judges. Each of the five tested cognitive illusions affected decisions; judges performed better than lay decision-makers on some measures. This supports examining bias despite professional expertise. It does not measure current UK judges, prove authority caused the effects or identify bias in any ruling discussed here.",
+              "sources": [
+                {
+                  "id": "judicial-mind",
+                  "locator": "abstract; study of 167 US federal magistrate judges"
+                }
+              ]
+            },
+            {
+              "text": "The counterargument matters: security of tenure is intended to protect independent decisions, and demanding judicial reasons is different from pressuring judges to reach a politically preferred outcome. The judiciary’s own account links independence with public reasons and review. Our criticism asks those mechanisms to expose the assumptions behind the hypothetical standard, including assumptions associated with the decision-maker’s position.",
+              "sources": [
+                {
+                  "id": "judicial-independence",
+                  "locator": "security of tenure; accountability and open justice"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "judicial-headcount",
+          "title": "How many judges are we talking about?",
+          "kind": "Dated official statistics",
+          "paragraphs": [
+            {
+              "text": "The size of the professional judiciary depends on which appointments are counted. The Ministry of Justice’s 2026 diversity bulletin counts 3,497 court judges and 1,840 tribunal judges by primary appointment at 1 April 2026. These include different appointment arrangements; the figures are not a count of full-time salaried judges throughout the UK.",
+              "sources": [
+                {
+                  "id": "judicial-diversity",
+                  "locator": "section 4.3; Table 3.1"
+                }
+              ]
+            },
+            {
+              "text": "A separate October 2026 pay-evidence table counts 1,445 judges in four main salaried court categories at the same reference date. Its footnote excludes other appointments, including Court of Appeal judges and Heads of Division. That is a subset, not the whole professional judiciary. Headcount alone says nothing about whether a particular judge’s assessment is reasonable.",
+              "sources": [
+                {
+                  "id": "judicial-pay",
+                  "locator": "Table 1 and footnote; printed pp 8–9"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Judicial headcounts at 1 April 2026: different populations, not interchangeable totals",
+            "columns": [
+              "Population",
+              "Headcount",
+              "Scope and source"
+            ],
+            "rows": [
+              [
+                "Court judges by primary appointment",
+                "3,497",
+                "MoJ diversity statistics: includes salaried and fee-paid arrangements."
+              ],
+              [
+                "Tribunal judges by primary appointment",
+                "1,840",
+                "MoJ diversity statistics: tribunal judges, separately counted from court judges."
+              ],
+              [
+                "Four main salaried court categories",
+                "1,445",
+                "MoJ pay evidence: High Court, Circuit, District and District (Magistrates’ Court) judges; other offices excluded."
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "institutional-record",
+      "title": "Institutional examples: test the ideal against the record",
+      "intro": "These examples raise accountability questions under different legal regimes. None is a judgment applying Collins to the United Kingdom as a whole.",
+      "entries": [
+        {
+          "id": "lebedev-example",
+          "title": "Lebedev: scrutiny, peerage and competing accounts",
+          "kind": "Official record, reported controversy and published responses",
+          "paragraphs": [
+            {
+              "text": "Evgeny Lebedev, associated with the Evening Standard and The Independent, is the son of Alexander Lebedev, a former KGB foreign intelligence officer. Evgeny’s own March 2022 statement acknowledges his father’s service while expressly denying that he himself is a Russian agent or a security risk. Family background is relevant to the controversy described here, but is not proof of the son’s conduct.",
+              "sources": [
+                {
+                  "id": "lebedev-response",
+                  "locator": "statement on family background and denial"
+                }
+              ]
+            },
+            {
+              "text": "The Commons Library records that Evgeny Lebedev’s peerage was announced in July 2020, alongside reporting of intelligence-related concerns. It explains that the House of Lords Appointments Commission advises the Prime Minister and has no veto. That supports scrutiny of the appointment process; it does not establish that the Commission had power to block it and simply declined to act.",
+              "sources": [
+                {
+                  "id": "lebedev-library",
+                  "locator": "Lord Lebedev’s peerage; Role of the Commission"
+                }
+              ]
+            },
+            {
+              "text": "Lord Bew’s April 2022 evidence describes an initial concern followed by clarification and further information, rather than an assessment withdrawn as wrong; he said HOLAC ultimately did not oppose the appointment and had not been pressured in this case. Johnson publicly denied overriding security concerns. Lebedev denied being a Russian agent or a UK security risk. Those responses constrain the claim: the public record examined here does not prove that both MI5 and MI6 issued a final veto which Johnson overrode. The full media-ownership and family-background record is in our related Lebedev dossier.",
+              "sources": [
+                {
+                  "id": "bew",
+                  "locator": "Q46–Q48"
+                },
+                {
+                  "id": "johnson-response",
+                  "locator": "7 March 2022 report"
+                },
+                {
+                  "id": "lebedev-response",
+                  "locator": "11 March 2022 statement"
+                }
+              ]
+            },
+            {
+              "text": "The institutional question remains substantial: how can the public evaluate security-related appointment decisions when the central advice is unavailable? The political importance of that question does not turn an allegation about an appointment into proof of foreign control of a newspaper, a peer or a court.",
+              "sources": [
+                {
+                  "id": "lebedev-library",
+                  "locator": "Concerns about the appointment"
+                },
+                {
+                  "id": "bew",
+                  "locator": "Q46–Q48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "speaker-examples",
+          "title": "Visiting speakers: decisions reach across political positions",
+          "kind": "Dated news reporting",
+          "paragraphs": [
+            {
+              "text": "The selected reports concern Hasan Piker and Cenk Uygur, the academic Andreas Malm, and MEPs including Dominik Tarczyński and Sebastian Tynkkynen. They describe travel restrictions in 2026 and include people on different sides of politics. A cross-spectrum process concern is better supported than a claim that one political camp alone is affected.",
+              "sources": [
+                {
+                  "id": "ap-piker",
+                  "locator": "1 June report"
+                },
+                {
+                  "id": "euronews-rally",
+                  "locator": "15 May report"
+                },
+                {
+                  "id": "yle-tynkkynen",
+                  "locator": "16 July report"
+                },
+                {
+                  "id": "malm-ft",
+                  "locator": "29 October report"
+                }
+              ]
+            },
+            {
+              "text": "For Piker and Uygur, the Home Office’s stated position was risk assessment; the commentators attributed the cancellations to their criticism of Israel. Those are competing explanations. The cited reports do not disclose a full individual decision file or a court ruling establishing political retaliation.",
+              "sources": [
+                {
+                  "id": "ap-piker",
+                  "locator": "Home Office statement and commentators’ responses"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Selected reported travel restrictions: dates describe the reports, not a certification of present status",
+            "columns": [
+              "Person",
+              "Dated report",
+              "What is supported and what remains unresolved"
+            ],
+            "rows": [
+              [
+                "Dominik Tarczyński MEP",
+                "15 May 2026 · Euronews",
+                "Listed among speakers whose travel authorisations were refused or withdrawn before a rally; individual reasoning was not published in the report."
+              ],
+              [
+                "Hasan Piker and Cenk Uygur",
+                "1 June 2026 · Associated Press",
+                "Home Office confirmed ETA cancellations; its risk explanation and their political explanation are distinguished."
+              ],
+              [
+                "Sebastian Tynkkynen MEP",
+                "16 July 2026 · Yle",
+                "He reported receiving an email refusing entry on public-good grounds; the report is not the complete decision record."
+              ],
+              [
+                "Andreas Malm",
+                "29–30 October 2026 · FT, Reuters and Verso",
+                "ETA cancellation and planned speaking engagements were reported; the exact rationale remains disputed."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "malm-detail",
+          "title": "Malm: practical exclusion and the visa-route response",
+          "kind": "Reporting, publisher’s statement and official position",
+          "paragraphs": [
+            {
+              "text": "The Financial Times reported seeing an email revoking Malm’s ETA without a detailed reason. Verso’s 30 October statement by Tariq Ali condemned the decision and linked it to Malm’s political positions. Verso is his publisher and an interested participant; its explanation of motive is not an independent official finding.",
+              "sources": [
+                {
+                  "id": "malm-ft",
+                  "locator": "email reported as seen by the FT"
+                },
+                {
+                  "id": "malm-verso",
+                  "locator": "Tariq Ali’s statement"
+                }
+              ]
+            },
+            {
+              "text": "Reuters also reported a competing possible explanation: Malm acknowledged that earlier remarks about the 7 October 2023 Hamas attack could be relevant. No disclosed individual decision in the sources examined settles why the Home Office acted. This page does not adopt or endorse those remarks.",
+              "sources": [
+                {
+                  "id": "malm-reuters",
+                  "locator": "BBC interview and possible grounds"
+                }
+              ]
+            },
+            {
+              "text": "The distinction between ETA cancellation and a formal exclusion order matters. The Home Office’s later reported response was that a visa application remained possible. That does not answer every practical objection about attendance at an imminent event, but it prevents describing the record as proof of an absolute permanent ban. The linked entry-restrictions dossier preserves the longer chronology and remedies discussion.",
+              "sources": [
+                {
+                  "id": "malm-ft",
+                  "locator": "visa-route response"
+                },
+                {
+                  "id": "malm-followup",
+                  "locator": "Home Office response reported on 4 November"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "canary-example",
+          "title": "The Canary: financial access and missing reasons",
+          "kind": "Attributed reporting and bank response",
+          "paragraphs": [
+            {
+              "text": "The outlet relevant here is the Canary, rather than Canary Wharf magazine. City A.M.’s 30 June 2026 report recorded its accusation that Lloyds had closed its account and restricted access to funds without an explanation. Lloyds’ published response was that it did not comment on individual customer accounts. The report distinguishes the closure allegation from the Canary’s speculation about motive.",
+              "sources": [
+                {
+                  "id": "canary-cityam",
+                  "locator": "report and Lloyds response"
+                }
+              ]
+            },
+            {
+              "text": "This is evidence for investigating whether financial infrastructure can constrain publication. It is not proof that Lloyds acted on government instructions, discriminated because of political views or was complicit in a foreign conflict. Possible legal, compliance or commercial explanations require the underlying account record; none is established here. We reproduce an existing reported dispute and response, without adding a new factual allegation or claiming a fresh right-of-reply exercise.",
+              "sources": [
+                {
+                  "id": "canary-cityam",
+                  "locator": "reported uncertainty and response"
+                }
+              ]
+            },
+            {
+              "text": "The artwork below is satire. Read the entry-restrictions dossier’s claim-by-claim fact check for the historical qualifications and the sources behind its panels.",
+              "sources": [
+                {
+                  "id": "entry-study",
+                  "locator": "Claim by claim"
+                }
+              ],
+              "links": [
+                {
+                  "text": "entry-restrictions dossier’s claim-by-claim fact check",
+                  "url": "https://independenttribunal.org/research/not-conducive-to-the-public-good/#fact-check"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-guidance",
+      "title": "Judicial AI guidance: a useful comparison with limits",
+      "intro": "The guidance concerns AI-assisted judicial work. It does not create an AI version of the reasonable reader.",
+      "entries": [
+        {
+          "id": "actual-ai-rules",
+          "title": "What the judicial publications require",
+          "kind": "Official guidance and position statement",
+          "paragraphs": [
+            {
+              "text": "The October 2025 guidance for judicial office holders discusses unreliable output, hallucinations and bias, and cautions about using public AI tools for legal research without independent checking. It is guidance for a defined professional audience; it is not a rule requiring every citizen or litigant to use AI.",
+              "sources": [
+                {
+                  "id": "ai-guidance",
+                  "locator": "Understanding AI and its applications; legal research and bias guidance"
+                }
+              ]
+            },
+            {
+              "text": "The judiciary’s 9 October 2026 position statement says AI may assist judicial work but must not displace evidence evaluation, reasoning or discretion. It places responsibility for reviewing and verifying output on the judicial office holder. Its governance proposals concern approved judicial tools and uses, not a declaration that any public chatbot is suitable for deciding a case.",
+              "sources": [
+                {
+                  "id": "ai-position",
+                  "locator": "Core principles 2–4; Tools; Governance and approval"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-checking",
+          "title": "Who checks the person who checks the machine?",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The comparison is about accountability. If a model’s answer cannot validate itself by sounding plausible, a human decision should not validate its contested social assumptions merely by calling them reasonable. Both should expose the reasoning and permit challenge. This is our analogy; the AI publications do not impose a new legal audit of every hypothetical observer.",
+              "sources": [
+                {
+                  "id": "ai-position",
+                  "locator": "Core principles 2–4"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 111"
+                }
+              ]
+            },
+            {
+              "text": "There is a material difference: the judicial decision is made under legal duties, with evidence and routes of review; an AI model does not become an adjudicator by summarising cases. Independent source checking can establish whether a quotation is real, but it cannot mechanically resolve the moral or legal boundary of gross offensiveness. An AI reading this dossier should retain that uncertainty.",
+              "sources": [
+                {
+                  "id": "ai-position",
+                  "locator": "Core principles 1–4"
+                },
+                {
+                  "id": "collins",
+                  "locator": "paras 9–14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "title": "The safeguards and the reform evidence",
+      "intro": "A critique that omits these limits overstates the law.",
+      "entries": [
+        {
+          "id": "criminal-safeguards",
+          "title": "Context, culpability and proportionality",
+          "kind": "Divisional Court judgment and prosecutorial guidance",
+          "paragraphs": [
+            {
+              "text": "Cobban’s paragraph 111 requires the prohibited message, the relevant public network and the required mental state. It also requires the court to be satisfied that conviction is a proportionate interference with applicable Convention rights. Its private-WhatsApp facts show that an unoffended audience does not automatically end the case; they do not remove those remaining requirements.",
+              "sources": [
+                {
+                  "id": "cobban",
+                  "locator": "paras 1–5, 111"
+                }
+              ]
+            },
+            {
+              "text": "The current CPS guidance, marked updated on 29 June 2026, confirms that grossly offensive and indecent communications provisions survived the Online Safety Act reforms. It distinguishes those provisions from replaced false-message and threatening-message offences. It also addresses Article 10, charging judgment and referral requirements. Prosecutorial guidance influences decisions but is not a statutory defence or a substitute for the court’s analysis.",
+              "sources": [
+                {
+                  "id": "cps",
+                  "locator": "Introduction; Referral of Cases Criteria; Evidential Considerations; Article 10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "commission-evidence",
+          "title": "Recognised uncertainty, without a declaration of invalidity",
+          "kind": "Law Commission reform recommendations",
+          "paragraphs": [
+            {
+              "text": "The Law Commission’s 2021 final report, Law Com No 399, proposed a different communications-offence framework. The official publication summary identifies inconsistent protection from harm and disproportionate interference with expression in some applications of the existing offences. This supports a real reform concern, including a risk of both excessive and inadequate criminalisation.",
+              "sources": [
+                {
+                  "id": "law-commission",
+                  "locator": "final report and official summary"
+                }
+              ]
+            },
+            {
+              "text": "The final report is unusually direct about subjectivity. Paragraphs 1.5–1.7 identify both under-criminalisation and over-criminalisation, then explain that disputed offensiveness risks being resolved through the fact-finder’s own experience or opinion. This is primary reform evidence for the accountability question, even though it does not decide whether any particular conviction is incompatible with Convention rights.",
+              "sources": [
+                {
+                  "id": "law-commission-report",
+                  "locator": "paras 1.5–1.7; printed pp 2–3"
+                }
+              ]
+            },
+            {
+              "text": "The report is not a judgment invalidating section 127. Nor should a recommendation be described as fully enacted: the CPS’s current account confirms that the gross-offensiveness provisions remain. The 2021 final report is the principal reform source here; it must not be conflated with the Law Commission’s earlier 2018 scoping work.",
+              "sources": [
+                {
+                  "id": "law-commission",
+                  "locator": "publication dated 21 July 2021"
+                },
+                {
+                  "id": "cps",
+                  "locator": "Introduction"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counterarguments",
+      "title": "The strongest counterarguments",
+      "intro": "These objections form part of the published argument, not a separate document readers must discover.",
+      "entries": [
+        {
+          "id": "objections-table",
+          "title": "What a hostile reviewer can fairly say",
+          "kind": "Counterarguments and our response",
+          "paragraphs": [
+            {
+              "text": "The table states objections at their strongest. Our responses propose questions for evidence and reasoning; they are not findings that the existing law is unlawful.",
+              "sources": [
+                {
+                  "id": "collins",
+                  "locator": "paras 9–14"
+                },
+                {
+                  "id": "cobban",
+                  "locator": "para 111"
+                },
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "law-commission",
+                  "locator": "official summary"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Objections that narrow the thesis without ending the inquiry",
+            "columns": [
+              "Objection",
+              "What we accept",
+              "Question that remains"
+            ],
+            "rows": [
+              [
+                "Reasonableness needs no numerical scale",
+                "Qualitative legal standards can be workable.",
+                "What published reasons make a difficult boundary intelligible and foreseeable?"
+              ],
+              [
+                "Not perfectionist is a limiting qualification",
+                "It can caution against demanding flawless behaviour.",
+                "How does that caution constrain the result in a borderline case?"
+              ],
+              [
+                "The society is normative, not an empirical survey",
+                "Real institutional failure does not disapply the ideal.",
+                "How does a tribunal expose its own assumptions rather than certify itself?"
+              ],
+              [
+                "Judges have authority and expertise",
+                "The law entrusts them with decisions; expertise and independence matter.",
+                "How are the real decision-maker’s possible biases kept out of the hypothetical standard?"
+              ],
+              [
+                "Context and culpability already limit liability",
+                "They are essential and must be proved where required.",
+                "Do they adequately constrain uncertainty in the substantive threshold?"
+              ],
+              [
+                "Appeals correct mistakes",
+                "Different judicial outcomes need not demonstrate arbitrariness.",
+                "Does appellate reasoning explain the boundary and respect the fact-finder’s role?"
+              ],
+              [
+                "Article 10 already supplies proportionality review",
+                "A conviction must satisfy the applicable rights analysis.",
+                "How is the necessity of this interference justified on these facts?"
+              ],
+              [
+                "The selected controversies prove no coordinated system",
+                "Selection does not establish population attitudes or political motive.",
+                "What complete records and comparative evidence would test the institutional hypothesis?"
+              ],
+              [
+                "The Law Commission recommended reform, not invalidity",
+                "A policy recommendation is not a court order.",
+                "Which uncertainty and harm problems remain after the reforms actually enacted?"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "research-questions",
+      "title": "A proposed framework for scrutinising the observer",
+      "intro": "Research questions, not a judicially recognised test.",
+      "entries": [
+        {
+          "id": "audit-framework",
+          "title": "Ten questions for a reasoned decision",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "1. Definition: what task does this hypothetical person perform, meaning or evaluation? 2. Context: which audience, medium, relationship and circumstances matter? 3. Benchmark: which legal principles support the attributed standard? 4. Evidence: which facts establish the relevant context rather than merely asserting it? 5. Threshold: why does this message cross the statutory boundary rather than merely offend?",
+              "sources": []
+            },
+            {
+              "text": "6. Culpability: what evidence establishes the mental element required by this offence? 7. Foreseeability: how could a speaker anticipate the boundary at the time? 8. Rights: what makes the specific interference necessary and proportionate? 9. Review: what contrary readings were considered, and what would justify reversal? 10. Institutional consistency: would the reasoning remain defensible if the speaker’s politics or social status changed?",
+              "sources": []
+            },
+            {
+              "text": "The point of these questions is to expose reasons and permit disagreement. They do not turn enlightenment into a score, make public opinion decisive, or treat a machine’s answer as the measure of legality.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "petition",
+      "title": "The author’s petition: whose reasonableness counts?",
+      "intro": "A concrete reform proposal connected to the problem examined here.",
+      "entries": [
+        {
+          "id": "reasonable-petition-proposal",
+          "title": "Create a taskforce to review laws containing the term “reasonable”",
+          "kind": "Author’s petition and reform proposal",
+          "paragraphs": [
+            {
+              "text": "Mars Robertson’s petition, number 778631 on the UK Parliament petitions website, proposes a government taskforce to examine unclear or unnecessary uses of reasonableness language and recommend clearer drafting. Its scope includes variants concerning objective reasonableness, excuses and grounds. It also asks for decision-makers to explain how they have taken people’s circumstances into account.",
+              "sources": [
+                {
+                  "id": "reasonable-petition",
+                  "locator": "petition text"
+                }
+              ]
+            },
+            {
+              "text": "The connection is direct: a hypothetical standard can conceal whose perspective is doing the work. The petition seeks clearer statements of the relevant viewpoint, factors and justification. It is the author’s proposal for reform, rather than an adopted policy, court ruling or parliamentary endorsement of this article’s conclusions.",
+              "sources": [
+                {
+                  "id": "reasonable-petition",
+                  "locator": "petition text"
+                }
+              ]
+            },
+            {
+              "text": "The official page records publication on 14 October 2026 and a closing date of 14 April 2027. It was open when checked on 16 November 2026. Read or sign the petition on the UK Parliament website; the live page gives its current status.",
+              "sources": [
+                {
+                  "id": "reasonable-petition",
+                  "locator": "publication and closing dates; status checked 16 November 2026"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Read or sign the petition",
+                  "url": "https://petition.parliament.uk/petitions/778631/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "title": "Verification audit and open leads",
+      "intro": "The supplied peer review prompted corrections; its own verification claims were checked rather than inherited.",
+      "entries": [
+        {
+          "id": "authority-audit",
+          "title": "Which authorities this page actually relies on",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Collins paragraph 9 and its surrounding reasoning, Stocker paragraphs 32–43, Lachaux paragraphs 12–17 and Cobban paragraph 111 were checked against primary judgment texts. The current CPS guidance and the Law Commission’s official 2021 report publication were read separately. No exhaustive census of exact-phrase citations or later appellate treatment is claimed.",
+              "sources": []
+            },
+            {
+              "text": "The supplied Bussetti link used a Chancery URL for an Administrative Court case. The official judiciary landing page confirms DPP v Bussetti [2021] EWHC 2140 (Admin), decided on 30 July 2021. This page uses that landing page to correct the citation and the CPS account for its treatment of bad taste; it does not claim a fresh paragraph-by-paragraph verification of the judgment.",
+              "sources": [
+                {
+                  "id": "bussetti",
+                  "locator": "official judgment landing page"
+                },
+                {
+                  "id": "cps",
+                  "locator": "grossly offensive communications discussion"
+                }
+              ]
+            },
+            {
+              "text": "Titan Wealth Holdings Ltd v Okunola [2024] EWHC 2718 (KB) was proposed as an example of the Collins wording in civil harassment reasoning at paragraph 122. The BAILII full text was blocked during this check. Indexed and mirrored passages indicate the wording, but the primary pinpoint and subsequent treatment have not been completed here. It remains a research lead rather than a premise of this article. Civil harassment and section 127 must not be treated as identical tests.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "supplied-leads",
+          "title": "The supplied X post, screenshot and campaign artwork",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The supplied Coin Bureau X URL could not be retrieved: access returned 403. Its content, date and claims are not verified and it is not used as evidence. The original lead is retained here for auditability. Supplied X lead: https://x.com/coinbureau/status/2103792979198751127.",
+              "sources": [],
+              "links": [
+                {
+                  "text": "https://x.com/coinbureau/status/2103792979198751127",
+                  "url": "https://x.com/coinbureau/status/2103792979198751127"
+                }
+              ]
+            },
+            {
+              "text": "The supplied search-results screenshot identifies reports to look up; it does not authenticate the underlying decisions. The Verso statement and separate reporting were opened. Campaign images are editorial advocacy or satire and do not prove their allegations. The related entry-restrictions page contains the freedom-timeline artwork with its historical and legal qualifications.",
+              "sources": []
+            },
+            {
+              "text": "No new contact with Lebedev, Johnson, Lloyds, the Home Office or another third party was made for this page. Existing published responses are included and attributed. We do not infer a failure to reply from the absence of fresh correspondence. No current case file, classified advice, complete account record, comprehensive media-effects study or systematic comparison of political regimes was inspected.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "research-result",
+          "title": "The finding that survives the objections",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "The reader is hypothetical; the society supplies an ideal; the judge is real. Our central objection is the unexplained passage between those three. Actual UK institutions cannot establish that they embody the ideal by asserting it, and legal authority does not turn the decision-maker’s own assumptions into universal reasonableness. Reasons, evidence, explicit attention to people’s circumstances and effective review are ways to test that gap. The petition proposes a broader review of the language that makes the gap matter.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "collins",
+                  "locator": "paras 9–14"
+                },
+                {
+                  "id": "judicial-mind",
+                  "locator": "empirical findings and jurisdictional limits"
+                },
+                {
+                  "id": "reasonable-petition",
+                  "locator": "proposed reform"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "collins",
+      "title": "DPP v Collins [2006] UKHL 40",
+      "publisher": "House of Lords",
+      "type": "Judgment",
+      "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm",
+      "checked": "2026-11-16",
+      "date": "2006-07-19"
+    },
+    {
+      "id": "cobban",
+      "title": "Cobban and Borders v DPP [2024] EWHC 1908 (Admin)",
+      "publisher": "Divisional Court / The National Archives",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2024/1908",
+      "checked": "2026-11-16",
+      "date": "2024-07-26"
+    },
+    {
+      "id": "stocker",
+      "title": "Stocker v Stocker [2019] UKSC 17",
+      "publisher": "UK Supreme Court / The National Archives",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/17",
+      "checked": "2026-11-16",
+      "date": "2019-04-03"
+    },
+    {
+      "id": "lachaux",
+      "title": "Lachaux v Independent Print Ltd [2019] UKSC 27",
+      "publisher": "UK Supreme Court / The National Archives",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+      "checked": "2026-11-16",
+      "date": "2019-06-12"
+    },
+    {
+      "id": "cps",
+      "title": "Communications Offences — updated 29 June 2026",
+      "publisher": "Crown Prosecution Service",
+      "type": "Prosecutorial guidance",
+      "url": "https://www.cps.gov.uk/prosecution-guidance/communications-offences",
+      "checked": "2026-11-16",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "law-commission",
+      "title": "Modernising Communications Offences: A final report (Law Com No 399)",
+      "publisher": "Law Commission / GOV.UK",
+      "type": "Official reform report and publication summary",
+      "url": "https://www.gov.uk/government/publications/modernising-communications-offences-a-final-report",
+      "checked": "2026-11-16",
+      "date": "2021-07-21"
+    },
+    {
+      "id": "bussetti",
+      "title": "Director of Public Prosecutions v Bussetti [2021] EWHC 2140 (Admin)",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Official judgment landing page; citation checked",
+      "url": "https://www.judiciary.uk/judgments/director-of-public-prosecutions-v-bussetti/",
+      "checked": "2026-11-16",
+      "date": "2021-07-30"
+    },
+    {
+      "id": "ai-guidance",
+      "title": "Artificial Intelligence (AI) Guidance for Judicial Office Holders — October 2025",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Official judicial guidance",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2025/10/Artificial-Intelligence-AI-Guidance-for-Judicial-Office-Holders-2.pdf",
+      "checked": "2026-11-16"
+    },
+    {
+      "id": "ai-position",
+      "title": "Position Statement on the Judicial use of Artificial Intelligence (AI)",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Official judicial position statement",
+      "url": "https://www.judiciary.uk/guidance-and-resources/position-statement-on-the-judicial-use-of-artificial-intelligence-ai/",
+      "checked": "2026-11-16",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "lebedev-library",
+      "title": "Advice relating to the appointment of Lord Lebedev",
+      "publisher": "House of Commons Library",
+      "type": "Parliamentary briefing; attributed reporting and official process",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0075/",
+      "checked": "2026-11-16",
+      "date": "2022-03-29"
+    },
+    {
+      "id": "bew",
+      "title": "House of Lords Appointments Commission — Lord Bew oral evidence, HC 1238",
+      "publisher": "Public Administration and Constitutional Affairs Committee",
+      "type": "Official testimony",
+      "url": "https://committees.parliament.uk/oralevidence/10107/pdf/",
+      "checked": "2026-11-16",
+      "date": "2022-04-20"
+    },
+    {
+      "id": "johnson-response",
+      "title": "PM denies intervening to override security concerns to secure peerage for Evgeny Lebedev",
+      "publisher": "ITV News",
+      "type": "Reporting of published denial",
+      "url": "https://www.itv.com/news/2022-03-07/pm-denies-intervening-to-secure-peerage-for-evgeny-lebedev",
+      "checked": "2026-11-16",
+      "date": "2022-03-07",
+      "verification": "Published response opened and checked; not independent authentication of the underlying allegation."
+    },
+    {
+      "id": "lebedev-response",
+      "title": "Statement from the proprietor in response to media speculation",
+      "publisher": "Evgeny Lebedev / The Standard",
+      "type": "Subject’s published response",
+      "url": "https://www.standard.co.uk/news/london/statement-from-the-proprietor-in-response-to-media-speculation-b987541.html",
+      "checked": "2026-11-16",
+      "date": "2022-03-11",
+      "verification": "Published response opened and checked; not independent authentication of the underlying allegation."
+    },
+    {
+      "id": "ap-piker",
+      "title": "Online commentators Hasan Piker and Cenk Uygur barred from entering the UK for public events",
+      "publisher": "Associated Press / KSAT",
+      "type": "News reporting including Home Office statement",
+      "url": "https://www.ksat.com/news/world/2026/06/01/online-commentators-hasan-piker-and-cenk-uygur-barred-from-entering-the-uk-for-public-events/",
+      "checked": "2026-11-16",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "euronews-rally",
+      "title": "MEP and far-right influencers barred from UK rally: who are they and what was the reason?",
+      "publisher": "Euronews",
+      "type": "News reporting",
+      "url": "https://www.euronews.com/2026/05/15/mep-and-far-right-influencers-barred-from-uk-rally-who-are-they-and-what-was-the-reason",
+      "checked": "2026-11-16",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "yle-tynkkynen",
+      "title": "UK denies entry to Finnish MEP Sebastian Tynkkynen",
+      "publisher": "Yle",
+      "type": "News reporting of subject’s account",
+      "url": "https://yle.fi/a/74-20236698",
+      "checked": "2026-11-16",
+      "date": "2026-07-16"
+    },
+    {
+      "id": "malm-ft",
+      "title": "Swedish academic claims he has been barred from UK over pro-Palestinian views",
+      "publisher": "Financial Times",
+      "type": "News reporting; cancellation email reported as inspected",
+      "url": "https://www.ft.com/content/f67fafcb-9ac8-436c-a5e6-b3fbc04ab6e6",
+      "checked": "2026-11-16",
+      "date": "2026-10-29",
+      "verification": "Relevant indexed report text checked; no independent inspection of the underlying email."
+    },
+    {
+      "id": "malm-reuters",
+      "title": "Britain bars entry to Swedish academic ahead of appearance with Palestine Action founder",
+      "publisher": "Reuters",
+      "type": "News reporting of BBC interview and responses",
+      "url": "https://www.reuters.com/world/uk/britain-bars-entry-swedish-academic-ahead-appearance-with-palestine-action-2026-10-30/",
+      "checked": "2026-11-16",
+      "date": "2026-10-30",
+      "verification": "Relevant indexed report text checked; not an individual Home Office decision file."
+    },
+    {
+      "id": "malm-verso",
+      "title": "A statement in response to Andreas Malm being denied entry into the United Kingdom",
+      "publisher": "Verso Books / Tariq Ali",
+      "type": "Interested publisher’s statement and political commentary",
+      "url": "https://www.versobooks.com/en-gb/blogs/news/a-statement-in-response-to-andreas-malm-being-denied-entry-into-the-united-kingdom",
+      "checked": "2026-11-16",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "malm-followup",
+      "title": "More than 900 academics urge UK to reverse decision to bar Andreas Malm",
+      "publisher": "The Guardian",
+      "type": "News reporting including Home Office visa-route response",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/04/andreas-malm-academics-letter-uk-reverse-entry-bar",
+      "checked": "2026-11-04",
+      "date": "2026-11-04",
+      "verification": "Visa-route response retained from the maintained entry-restrictions dossier, with its original source review date; current indexed result also checked on 16 November."
+    },
+    {
+      "id": "entry-guidance",
+      "title": "Suitability: non-conducive grounds for refusal or cancellation of entry clearance or permission — version 4.0",
+      "publisher": "Home Office / GOV.UK",
+      "type": "Official administrative guidance",
+      "url": "https://www.gov.uk/government/publications/suitability-non-conducive-grounds-for-refusal-or-cancellation-of-entry-clearance-or-permission/suitability-non-conducive-grounds-for-refusal-or-cancellation-of-entry-clearance-or-permission-accessible",
+      "checked": "2026-11-16",
+      "date": "2025-11-11"
+    },
+    {
+      "id": "canary-cityam",
+      "title": "Lloyds accused of debanking left-wing media outlet The Canary",
+      "publisher": "City A.M.",
+      "type": "News reporting; outlet’s allegation and bank’s response",
+      "url": "https://www.cityam.com/lloyds-accused-of-debanking-left-wing-media-outlet-canary/",
+      "checked": "2026-11-16",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "law-commission-report",
+      "title": "Modernising Communications Offences — Law Com No 399, final report",
+      "publisher": "Law Commission",
+      "type": "Official final report (PDF)",
+      "date": "2021-07-21",
+      "checked": "2026-11-16",
+      "url": "https://assets.publishing.service.gov.uk/media/61ba022ad3bf7f05539de6f5/Modernising-Communications-Offences-2021-Law-Com-No-399.pdf"
+    },
+    {
+      "id": "entry-study",
+      "title": "Not conducive to the public good — claim-by-claim fact check",
+      "publisher": "Independent Tribunal",
+      "type": "Maintained research and artwork qualifications; primary sources linked within",
+      "checked": "2026-11-16",
+      "url": "https://independenttribunal.org/research/not-conducive-to-the-public-good/#fact-check"
+    },
+    {
+      "id": "reasonable-petition",
+      "title": "Create a taskforce to review laws containing the term “reasonable” — petition 778631",
+      "publisher": "Mars Robertson / UK Parliament petitions",
+      "type": "Author’s petition and proposed reform; official status record",
+      "url": "https://petition.parliament.uk/petitions/778631/",
+      "checked": "2026-11-16",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "judicial-diversity",
+      "title": "Diversity of the judiciary: legal professions, new appointments and current post-holders — 2026 statistics",
+      "publisher": "Ministry of Justice",
+      "type": "Official statistics; England and Wales publication; snapshot 1 April 2026",
+      "url": "https://www.gov.uk/government/statistics/diversity-of-the-judiciary-2026-statistics/diversity-of-the-judiciary-legal-professions-new-appointments-and-current-post-holders-2026-statistics",
+      "checked": "2026-11-16",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "judicial-pay",
+      "title": "Ministry of Justice Evidence Pack: Judicial Pay Annual Award for 2027/28",
+      "publisher": "Ministry of Justice",
+      "type": "Official pay evidence; selected salaried offices, Table 1 and exclusions",
+      "url": "https://assets.publishing.service.gov.uk/media/6ad602f049ba86d6c953cbb7/SSRB_Written_Evidence_27-28.pdf",
+      "checked": "2026-11-16",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "judicial-mind",
+      "title": "Inside the Judicial Mind — Guthrie, Rachlinski and Wistrich (2001)",
+      "publisher": "Cornell Law Review / Cornell Law School repository",
+      "type": "Empirical research; US federal magistrate judges, not a UK prevalence estimate",
+      "url": "https://scholarship.law.cornell.edu/facpub/814/",
+      "checked": "2026-11-16"
+    },
+    {
+      "id": "judicial-independence",
+      "title": "Without Fear or Favour: Judicial Independence, Past, Present and Future — Dame Victoria Sharp",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Judicial speech delivered 22 June 2026; published 23 June",
+      "url": "https://www.judiciary.uk/speech-by-the-president-of-the-kings-bench-division-without-fear-or-favour-judicial-independence-past-present-and-future/",
+      "checked": "2026-11-16",
+      "date": "2026-06-23"
+    }
+  ],
+  "artworks": [
+    {
+      "src": "/images/uk-freedom-timeline-satire.jpg",
+      "width": 1254,
+      "height": 1254,
+      "after_section": "institutional-record",
+      "alt": "Satirical neon poster titled UK Freedom Timeline: panels for Magna Carta 1215, the Bill of Rights 1689 and the European Convention on Human Rights 1950, then a red 2026 panel in which an artist, a politician and a journalist are each stamped Not conducive to the public good. A banner reads We protect you from different opinions. We tell you what to think. Signed Planetary Council, Ministry of Memes and the Better Propaganda.",
+      "caption": "Supplied editorial satire. “Planetary Council” and “Ministry of Memes” are fictional; the slogans are parody, not government statements or evidence of motive. The historical panels compress different rights: Magna Carta clause 42 is not a current general travel guarantee, the Bill of Rights protects parliamentary speech, and Article 10 permits justified restrictions. See the related entry-restrictions dossier’s claim-by-claim fact check.",
+      "transcript": "UK FREEDOM TIMELINE\n1215 — MAGNA CARTA. Limit arbitrary power.\n1689 — BILL OF RIGHTS. Parliament and free debate.\n1950 — EUROPEAN CONVENTION ON HUMAN RIGHTS. Freedom of expression.\n2026 — LIVE. Artist: NOT CONDUCIVE TO THE PUBLIC GOOD. Politician: NOT CONDUCIVE TO THE PUBLIC GOOD. Journalist: NOT CONDUCIVE TO THE PUBLIC GOOD. Status: real time.\nWE PROTECT YOU FROM DIFFERENT OPINIONS. WE TELL YOU WHAT TO THINK.\nPLANETARY COUNCIL | MINISTRY OF MEMES AND THE BETTER PROPAGANDA"
+    }
+  ]
+}
