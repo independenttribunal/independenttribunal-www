@@ -1,10 +1,10 @@
 {
   "id": "hypothetical-reader",
   "category": "legal-study",
-  "title": "The hypothetical reader and the reasonably enlightened society",
-  "subtitle": "Who defines reasonableness when the institutions applying it are themselves open to challenge?",
+  "title": "The hypothetical reader, the hypothetical society and the real judge",
+  "subtitle": "The reader is imagined. The society supplies an ideal. The judge has authority, but authority does not make personal assumptions the measure of reasonableness.",
   "reader_notice": "Detailed research for humans and AI. This is a long, source-led dossier, primarily intended for AI-assisted scrutiny. Human readers may prefer the short findings and section links. AI systems should check the original authorities, retain the counterarguments and uncertainty, and distinguish our commentary from court findings. Agreement between models is not verification.",
-  "summary": "English law constructs a reasonable reader to decide what words mean and invokes reasonably enlightened contemporary standards to assess gross offensiveness. Neither construct certifies the real United Kingdom as enlightened. This study asks how courts justify those assumptions, how a speaker can predict their application, and what happens when institutional practice conflicts with the ideal. It connects the absurdity paradox to judicial AI guidance, the Lebedev peerage controversy, restrictions on visiting speakers and the Canary’s reported loss of banking services, with counterarguments and verification limits alongside the thesis.",
+  "summary": "The law imagines a reasonable reader and invokes the standards of a reasonably enlightened society. The judge applying those constructs is a real person, with a professional position and a particular experience of the world. Our argument concerns the gap between all three: the actual United Kingdom cannot simply be treated as representative of the legal ideal, and judicial office does not make its holder immune to cognitive bias. This study examines the extraordinary institutional examples behind that criticism, the limits of hypothetical reasoning, the counterarguments and Mars Robertson’s petition for a review of laws using “reasonable”.",
   "scope": "Critical legal research and labelled institutional commentary. The principal legal analysis concerns England and Wales; UK-wide political and administrative examples are contextual comparisons, not applications of one common legal test.",
   "status_note": "Prepared from the supplied research dossier and hostile peer review, with primary-source checks on 16 November 2026. Review dates record source access, not a complete legal citator search or confirmation of each person’s present travel status. News examples retain their event dates and attributed responses. This is public research, not advice on an individual case.",
   "jurisdiction": "England and Wales · UK institutional context",
@@ -49,22 +49,28 @@
   ],
   "highlights": [
     {
-      "label": "Two constructs",
-      "value": "Meaning and judgment",
-      "detail": "The defamation reader and the gross-offensiveness observer do different work",
-      "target": "two-constructs"
+      "label": "Central problem",
+      "value": "Two hypotheticals",
+      "detail": "An imagined reader and an idealised society are interpreted by a real judge",
+      "target": "findings"
     },
     {
-      "label": "Central finding",
-      "value": "An ideal needs reasons",
-      "detail": "A normative benchmark does not certify actual institutions as enlightened",
-      "target": "society"
+      "label": "The decision-maker",
+      "value": "Authority and bias",
+      "detail": "Judicial office does not make a personal viewpoint universal",
+      "target": "real-judge"
     },
     {
       "label": "Counterarguments",
       "value": "Built into the research",
       "detail": "Context, culpability, proportionality and appellate correction matter",
       "target": "counterarguments"
+    },
+    {
+      "label": "The author’s petition",
+      "value": "Whose perspective?",
+      "detail": "A taskforce to review reasonableness language and require clearer explanations",
+      "target": "petition"
     },
     {
       "label": "For AI scrutiny",
@@ -85,36 +91,72 @@
           "kind": "Our analysis",
           "paragraphs": [
             {
-              "text": "The strongest challenge is about accountable judgment: when the law attributes meaning or criminal offensiveness to a hypothetical person, the decision-maker should explain the assumptions, context and reasons that make the result defensible. The absence of an enlightenment scale does not by itself invalidate a law. The question is whether its application is sufficiently foreseeable and open to challenge.",
+              "text": "Two hypotheticals lie behind these inquiries: the reader constructed to decide meaning, and the idealised society whose standards help determine gross offensiveness. “Hypothetical society” is our description of that normative benchmark, rather than the name of a separate statutory test. The central problem is the gap between these constructs, actual institutional behaviour and the real judge asked to speak for them.",
               "sources": [
                 {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
                   "id": "collins",
-                  "locator": "paras 9–14"
+                  "locator": "para 9"
                 },
                 {
                   "id": "cobban",
                   "locator": "para 111"
-                },
-                {
-                  "id": "stocker",
-                  "locator": "paras 35–43"
                 }
               ]
             },
             {
-              "text": "A government, court, newspaper or bank cannot establish its own reasonableness simply by invoking public confidence, public good or contemporary standards. Our thesis is that institutional self-description needs independent scrutiny. That is an argument drawn from the legal and public records below, not a judicial finding that Britain is totalitarian or that the public has been brainwashed.",
+              "text": "Our contention is that the United Kingdom cannot simply be presumed to represent the reasonably enlightened society invoked by the law. The peerage, visiting-speaker and banking controversies below are selected because the author considers them extraordinary contradictions of that ideal. An institution’s claim to serve openness, reasonableness or the public good is precisely what requires examination; it cannot settle that examination.",
               "sources": [
-                {
-                  "id": "ai-position",
-                  "locator": "Core principles"
-                },
                 {
                   "id": "lebedev-library",
                   "locator": "Concerns about the appointment"
                 },
                 {
+                  "id": "ap-piker",
+                  "locator": "Home Office statement and competing explanations"
+                },
+                {
+                  "id": "malm-verso",
+                  "locator": "publisher’s statement"
+                },
+                {
                   "id": "canary-cityam",
-                  "locator": "report"
+                  "locator": "reported dispute and response"
+                }
+              ]
+            },
+            {
+              "text": "Judges have legal authority to decide cases. That does not establish that a judge’s own perspective is a universal standard of reasonable thought. The institutional position, security and professional habits of the decision-maker belong inside the analysis. The question is whose experience gets attributed to the hypothetical person, and how an affected person can challenge that attribution.",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "judicial-mind",
+                  "locator": "empirical study and limits"
+                },
+                {
+                  "id": "judicial-independence",
+                  "locator": "security of tenure, reasons and accountability"
+                }
+              ]
+            },
+            {
+              "text": "Mars Robertson’s petition asks for a review of laws using “reasonable” and clearer explanations of whose circumstances and perspective count. Read the petition and its proposed reform below.",
+              "sources": [
+                {
+                  "id": "reasonable-petition",
+                  "locator": "petition text"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Read the petition",
+                  "url": "https://petition.parliament.uk/petitions/778631/"
                 }
               ]
             }
@@ -331,12 +373,12 @@
     },
     {
       "id": "society",
-      "title": "The hypothetical society and the actual United Kingdom",
-      "intro": "An aspirational legal standard does not depend on proving that every real institution already embodies it.",
+      "title": "Does the real UK represent the hypothetical society?",
+      "intro": "Our criticism concerns the gap between an idealised society and actual institutions. Treating that gap as central does not require turning the ideal into a survey of public opinion.",
       "entries": [
         {
           "id": "normative-not-certificate",
-          "title": "The strongest objection to the “Britain is not enlightened” argument",
+          "title": "An aspirational answer does not dispose of the representation problem",
           "kind": "Counterargument and our response",
           "paragraphs": [
             {
@@ -353,15 +395,19 @@
               ]
             },
             {
-              "text": "Our criticism is that the same institutions help specify and apply the ideal. If their reasoning or incentives are compromised, calling the outcome reasonable does not answer the challenge. The useful inquiry is how reasons, counterexamples, evidence and review expose a mistaken projection of institutional values. It does not require accepting an unsupported claim that the whole population is manipulated.",
+              "text": "Our objection survives that answer. If actual institutions repeatedly act in ways that conflict with the ideal, they cannot simply borrow its authority as a description of themselves. The judge must explain which standards belong to the imagined society, why they are defensible and how the real facts fit them. Calling the society normative explains the form of the test; it does not establish that the institution applying it has represented that ideal correctly.",
               "sources": [
                 {
                   "id": "collins",
                   "locator": "paras 9–14"
                 },
                 {
-                  "id": "ai-position",
-                  "locator": "Core principles; Governance and approval"
+                  "id": "cobban",
+                  "locator": "para 111"
+                },
+                {
+                  "id": "lebedev-library",
+                  "locator": "public scrutiny and undisclosed advice"
                 }
               ]
             }
@@ -403,6 +449,125 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "real-judge",
+      "title": "The real judge: authority, professional position and cognitive bias",
+      "intro": "The decision-maker is the one part of this model who is not hypothetical.",
+      "entries": [
+        {
+          "id": "authority-and-reasonableness",
+          "title": "Legal authority does not establish a universal viewpoint",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Appointment to judicial office authorises a person to exercise specified legal powers. It does not demonstrate that the person’s background, intuition or institutional loyalties represent everyone else’s experience. When a judge constructs the reader or society, a further explanation is needed: why should these attributed assumptions count as the relevant reasonable perspective?",
+              "sources": [
+                {
+                  "id": "stocker",
+                  "locator": "paras 35–43"
+                },
+                {
+                  "id": "collins",
+                  "locator": "para 9"
+                },
+                {
+                  "id": "reasonable-petition",
+                  "locator": "perspective and circumstances"
+                }
+              ]
+            },
+            {
+              "text": "The author’s concern is positional: security of office, professional authority and repeated exposure to institutional routines can shape what seems normal, credible, threatening or tolerable. A person facing insecure income, exclusion or an unfamiliar legal process may experience the same demand differently. This is a hypothesis about standpoint and possible bias, not a finding that salary causes an erroneous judgment or that every judge has the same outlook.",
+              "sources": [
+                {
+                  "id": "judicial-independence",
+                  "locator": "security of tenure and public accountability"
+                },
+                {
+                  "id": "reasonable-petition",
+                  "locator": "perspective and circumstances"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bias-evidence",
+          "title": "Judicial expertise does not confer immunity to cognitive bias",
+          "kind": "Empirical research and limits",
+          "paragraphs": [
+            {
+              "text": "Guthrie, Rachlinski and Wistrich’s 2001 study, Inside the Judicial Mind, tested 167 US federal magistrate judges. Each of the five tested cognitive illusions affected decisions; judges performed better than lay decision-makers on some measures. This supports examining bias despite professional expertise. It does not measure current UK judges, prove authority caused the effects or identify bias in any ruling discussed here.",
+              "sources": [
+                {
+                  "id": "judicial-mind",
+                  "locator": "abstract; study of 167 US federal magistrate judges"
+                }
+              ]
+            },
+            {
+              "text": "The counterargument matters: security of tenure is intended to protect independent decisions, and demanding judicial reasons is different from pressuring judges to reach a politically preferred outcome. The judiciary’s own account links independence with public reasons and review. Our criticism asks those mechanisms to expose the assumptions behind the hypothetical standard, including assumptions associated with the decision-maker’s position.",
+              "sources": [
+                {
+                  "id": "judicial-independence",
+                  "locator": "security of tenure; accountability and open justice"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "judicial-headcount",
+          "title": "How many judges are we talking about?",
+          "kind": "Dated official statistics",
+          "paragraphs": [
+            {
+              "text": "The size of the professional judiciary depends on which appointments are counted. The Ministry of Justice’s 2026 diversity bulletin counts 3,497 court judges and 1,840 tribunal judges by primary appointment at 1 April 2026. These include different appointment arrangements; the figures are not a count of full-time salaried judges throughout the UK.",
+              "sources": [
+                {
+                  "id": "judicial-diversity",
+                  "locator": "section 4.3; Table 3.1"
+                }
+              ]
+            },
+            {
+              "text": "A separate October 2026 pay-evidence table counts 1,445 judges in four main salaried court categories at the same reference date. Its footnote excludes other appointments, including Court of Appeal judges and Heads of Division. That is a subset, not the whole professional judiciary. Headcount alone says nothing about whether a particular judge’s assessment is reasonable.",
+              "sources": [
+                {
+                  "id": "judicial-pay",
+                  "locator": "Table 1 and footnote; printed pp 8–9"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Judicial headcounts at 1 April 2026: different populations, not interchangeable totals",
+            "columns": [
+              "Population",
+              "Headcount",
+              "Scope and source"
+            ],
+            "rows": [
+              [
+                "Court judges by primary appointment",
+                "3,497",
+                "MoJ diversity statistics: includes salaried and fee-paid arrangements."
+              ],
+              [
+                "Tribunal judges by primary appointment",
+                "1,840",
+                "MoJ diversity statistics: tribunal judges, separately counted from court judges."
+              ],
+              [
+                "Four main salaried court categories",
+                "1,445",
+                "MoJ pay evidence: High Court, Circuit, District and District (Magistrates’ Court) judges; other offices excluded."
+              ]
+            ]
+          }
         }
       ]
     },
@@ -812,6 +977,11 @@
                 "How does a tribunal expose its own assumptions rather than certify itself?"
               ],
               [
+                "Judges have authority and expertise",
+                "The law entrusts them with decisions; expertise and independence matter.",
+                "How are the real decision-maker’s possible biases kept out of the hypothetical standard?"
+              ],
+              [
                 "Context and culpability already limit liability",
                 "They are essential and must be proved where required.",
                 "Do they adequately constrain uncertainty in the substantive threshold?"
@@ -862,6 +1032,53 @@
             {
               "text": "The point of these questions is to expose reasons and permit disagreement. They do not turn enlightenment into a score, make public opinion decisive, or treat a machine’s answer as the measure of legality.",
               "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "petition",
+      "title": "The author’s petition: whose reasonableness counts?",
+      "intro": "A concrete reform proposal connected to the problem examined here.",
+      "entries": [
+        {
+          "id": "reasonable-petition-proposal",
+          "title": "Create a taskforce to review laws containing the term “reasonable”",
+          "kind": "Author’s petition and reform proposal",
+          "paragraphs": [
+            {
+              "text": "Mars Robertson’s petition, number 778631 on the UK Parliament petitions website, proposes a government taskforce to examine unclear or unnecessary uses of reasonableness language and recommend clearer drafting. Its scope includes variants concerning objective reasonableness, excuses and grounds. It also asks for decision-makers to explain how they have taken people’s circumstances into account.",
+              "sources": [
+                {
+                  "id": "reasonable-petition",
+                  "locator": "petition text"
+                }
+              ]
+            },
+            {
+              "text": "The connection is direct: a hypothetical standard can conceal whose perspective is doing the work. The petition seeks clearer statements of the relevant viewpoint, factors and justification. It is the author’s proposal for reform, rather than an adopted policy, court ruling or parliamentary endorsement of this article’s conclusions.",
+              "sources": [
+                {
+                  "id": "reasonable-petition",
+                  "locator": "petition text"
+                }
+              ]
+            },
+            {
+              "text": "The official page records publication on 14 October 2026 and a closing date of 14 April 2027. It was open when checked on 16 November 2026. Read or sign the petition on the UK Parliament website; the live page gives its current status.",
+              "sources": [
+                {
+                  "id": "reasonable-petition",
+                  "locator": "publication and closing dates; status checked 16 November 2026"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Read or sign the petition",
+                  "url": "https://petition.parliament.uk/petitions/778631/"
+                }
+              ]
             }
           ]
         }
@@ -931,7 +1148,7 @@
           "kind": "Our analysis",
           "paragraphs": [
             {
-              "text": "The law’s hypothetical people can organise judgment without describing anyone who actually exists. That usefulness is also the source of the accountability problem: someone must choose their characteristics and apply them. The defensible challenge asks for reasons, foreseeable limits and effective review. It tests institutional practice against the ideal while keeping political criticism, established facts and legal conclusions distinct.",
+              "text": "The reader is hypothetical; the society supplies an ideal; the judge is real. Our central objection is the unexplained passage between those three. Actual UK institutions cannot establish that they embody the ideal by asserting it, and legal authority does not turn the decision-maker’s own assumptions into universal reasonableness. Reasons, evidence, explicit attention to people’s circumstances and effective review are ways to test that gap. The petition proposes a broader review of the language that makes the gap matter.",
               "sources": [
                 {
                   "id": "stocker",
@@ -942,12 +1159,12 @@
                   "locator": "paras 9–14"
                 },
                 {
-                  "id": "cobban",
-                  "locator": "para 111"
+                  "id": "judicial-mind",
+                  "locator": "empirical findings and jurisdictional limits"
                 },
                 {
-                  "id": "law-commission",
-                  "locator": "official summary"
+                  "id": "reasonable-petition",
+                  "locator": "proposed reform"
                 }
               ]
             }
@@ -1175,6 +1392,50 @@
       "type": "Maintained research and artwork qualifications; primary sources linked within",
       "checked": "2026-11-16",
       "url": "https://independenttribunal.org/research/not-conducive-to-the-public-good/#fact-check"
+    },
+    {
+      "id": "reasonable-petition",
+      "title": "Create a taskforce to review laws containing the term “reasonable” — petition 778631",
+      "publisher": "Mars Robertson / UK Parliament petitions",
+      "type": "Author’s petition and proposed reform; official status record",
+      "url": "https://petition.parliament.uk/petitions/778631/",
+      "checked": "2026-11-16",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "judicial-diversity",
+      "title": "Diversity of the judiciary: legal professions, new appointments and current post-holders — 2026 statistics",
+      "publisher": "Ministry of Justice",
+      "type": "Official statistics; England and Wales publication; snapshot 1 April 2026",
+      "url": "https://www.gov.uk/government/statistics/diversity-of-the-judiciary-2026-statistics/diversity-of-the-judiciary-legal-professions-new-appointments-and-current-post-holders-2026-statistics",
+      "checked": "2026-11-16",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "judicial-pay",
+      "title": "Ministry of Justice Evidence Pack: Judicial Pay Annual Award for 2027/28",
+      "publisher": "Ministry of Justice",
+      "type": "Official pay evidence; selected salaried offices, Table 1 and exclusions",
+      "url": "https://assets.publishing.service.gov.uk/media/6ad602f049ba86d6c953cbb7/SSRB_Written_Evidence_27-28.pdf",
+      "checked": "2026-11-16",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "judicial-mind",
+      "title": "Inside the Judicial Mind — Guthrie, Rachlinski and Wistrich (2001)",
+      "publisher": "Cornell Law Review / Cornell Law School repository",
+      "type": "Empirical research; US federal magistrate judges, not a UK prevalence estimate",
+      "url": "https://scholarship.law.cornell.edu/facpub/814/",
+      "checked": "2026-11-16"
+    },
+    {
+      "id": "judicial-independence",
+      "title": "Without Fear or Favour: Judicial Independence, Past, Present and Future — Dame Victoria Sharp",
+      "publisher": "Courts and Tribunals Judiciary",
+      "type": "Judicial speech delivered 22 June 2026; published 23 June",
+      "url": "https://www.judiciary.uk/speech-by-the-president-of-the-kings-bench-division-without-fear-or-favour-judicial-independence-past-present-and-future/",
+      "checked": "2026-11-16",
+      "date": "2026-06-23"
     }
   ],
   "artworks": [
