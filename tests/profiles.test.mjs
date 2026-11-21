@@ -31,7 +31,7 @@ test("Richard Heart separates the dismissed civil case, allegations and confirme
 
 test("people category contains people, not legal studies, and is discoverable", async () => {
   const html = await read("public/people/index.html");
-  assert.match(html, /People &amp; public records/);
+  assert.match(html, /Biography profiles/);
   assert.match(html, /Inclusion is not a judgment of character/);
   const profiles = (await json("public/data/profiles.json")).profiles;
   const tiles = (await json("public/data/tiles.json")).tiles;
@@ -167,7 +167,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const p = await json("public/data/profiles/roger-hallam.json");
   const collection = await json("public/data/profiles.json");
   assert.deepEqual(collection.profiles.find((profile) => profile.id === p.id), p);
-  assert.equal(collection.profiles.length, 39);
+  assert.equal(collection.profiles.length, 40);
   assert.equal(p.url, "https://independenttribunal.org/research/roger-hallam/");
   for (const s of p.sections) for (const entry of s.entries) for (const para of entry.paragraphs) for (const ref of para.sources) {
     assert.ok(ref.title && ref.type && ref.publisher && ref.checked);
