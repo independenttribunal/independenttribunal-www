@@ -3,8 +3,8 @@
   "category": "legal-study",
   "title": "Speech offences",
   "subtitle": "The wider record: words, symbols and criminal proceedings",
-  "summary": "A growing register of 45 case records covering UK speech and Hamas-related allegations, Palestine Action expression cases and a separate Jersey comparator, with dated outcomes, official scale figures and an explicit coverage audit.",
-  "checked": "2026-11-10",
+  "summary": "A growing register of 48 case records covering UK speech and Hamas-related allegations, Palestine Action expression cases and a separate Jersey comparator, with dated outcomes, official scale figures and an explicit coverage audit.",
+  "checked": "2026-11-21",
   "jurisdiction": "United Kingdom · England and Wales and Scotland · Jersey comparator separately identified",
   "tags": [
     "uk",
@@ -15,7 +15,7 @@
     "research"
   ],
   "scope": "A research register of Hamas-related proceedings and wider speech cases concerning Palestine, Israel and political expression. The legal provisions and outcomes differ. Jersey is outside the UK; no record is presented as proof that every intervention was justified or unjustified.",
-  "status_note": "Source review: 10 November 2026. 45 case records, including grouped defendants, separate events and anonymised appellate records. This is not a certified count of unique proceedings. Dates identify the last sourced position, not a guarantee of current status. Acquittals, dropped charges, procedural terminations, hung juries and convictions remain distinct. Current focus: Sarah Wilkinson; the cited June report is a dated account, not a current court-listing certificate. The separately tracked proscription appeal does not increase the 45-record count.",
+  "status_note": "Source review: 21 November 2026. 48 case records, including grouped defendants, separate events and anonymised appellate records. This is not a certified count of unique proceedings. Dates identify the last sourced position, not a guarantee of current status. Acquittals, dropped charges, procedural terminations, hung juries and convictions remain distinct. Current focus: Sarah Wilkinson; the cited June report is a dated account, not a current court-listing certificate. The separately tracked proscription appeal does not increase the 48-record count.",
   "related": [
     {
       "id": "hamas-deproscription",
@@ -47,8 +47,8 @@
   "highlights": [
     {
       "label": "The wider register",
-      "value": "45 case records",
-      "detail": "73 sources · grouped cases and coverage gaps identified",
+      "value": "48 case records",
+      "detail": "83 sources · grouped cases and coverage gaps identified",
       "target": "register-scope"
     },
     {
@@ -440,7 +440,7 @@
               "sources": []
             },
             {
-              "text": "A source review on 10 November 2026 does not turn an older report into a current court-status certificate. Each machine-readable case record includes its jurisdiction, scope, legal provisions and the date of the last sourced position when known. Unknown dates stay unknown. Scheduled hearings are not proof that hearings happened.",
+              "text": "A source review on 21 November 2026 does not turn an older report into a current court-status certificate. Each machine-readable case record includes its jurisdiction, scope, legal provisions and the date of the last sourced position when known. Unknown dates stay unknown. Scheduled hearings are not proof that hearings happened.",
               "sources": []
             },
             {
@@ -621,25 +621,29 @@
       "entries": [
         {
           "id": "cotte-verdict",
-          "title": "Sarah Cotte · acquittal reported in September 2026",
-          "kind": "Defence chambers' case note · Last sourced position: 2026-09-18 · England and Wales",
+          "title": "Sarah Cotte · acquitted at retrial in September 2026",
+          "kind": "Contemporaneous court reporting · Last sourced position: 2026-09-18 · England and Wales",
           "date": "2026-09-18",
           "paragraphs": [
             {
-              "text": "One Pump Court's case note, dated 18 September 2026, records Sarah Cotte's acquittal at the Old Bailey of offences under section 12(1A) of the Terrorism Act 2000. It describes her rally speech on 9 October 2023 and the prosecution allegation that references to armed resistance in Palestine were a veiled reference to Hamas.",
+              "text": "Press Association reporting published by the Evening Standard on 18 September 2026 records that, after a week-long retrial at the Old Bailey, Sarah Cotte was found not guilty of expressing support for a proscribed organisation. The charge concerned a rally speech outside SOAS on 9 October 2023. The prosecution alleged that comments offering “unconditional solidarity” with Palestinian armed resistance were thinly veiled references to Hamas, although she did not name the organisation. Cotte denied that the comments were about Hamas and said she had been supporting “the right to resist”. The jury deliberated for less than two hours.",
               "sources": [
                 {
-                  "id": "cotte-chambers",
-                  "locator": "R v Cotte [2026] Old Bailey"
+                  "id": "cotte-standard",
+                  "locator": "Retrial verdict and prosecution allegation"
                 }
               ]
             },
             {
-              "text": "The case note comes from the chambers of her defence barrister, Margo Munro Kerr. The formal count-by-count disposal, complete speech and any other charged material remain to be collected for this section.",
+              "text": "The same report records that, at an earlier trial, she was found not guilty of a second charge of expressing support for Hamas in a WhatsApp group. The chambers of her defence barrister, Margo Munro Kerr, published a case note of the September acquittal under section 12(1A) of the Terrorism Act 2000. The complete speech and formal count wording remain to be collected.",
               "sources": [
                 {
+                  "id": "cotte-standard",
+                  "locator": "Earlier WhatsApp-count acquittal"
+                },
+                {
                   "id": "cotte-chambers",
-                  "locator": "Representation and scope of published note"
+                  "locator": "R v Cotte [2026] Old Bailey"
                 }
               ]
             }
@@ -651,7 +655,7 @@
               "Terrorism Act 2000 s12(1A)"
             ],
             "scope": "hamas",
-            "last_sourced_position": "Acquitted",
+            "last_sourced_position": "Acquitted at retrial; earlier WhatsApp count also acquitted",
             "status_as_of": "2026-09-18",
             "outcome_type": "acquittal"
           }
@@ -802,6 +806,42 @@
             "outcome_type": "charge-dropped"
           },
           "date": "2024-01-26"
+        },
+        {
+          "id": "ab-acquittal",
+          "title": "AB · two posts · Acquitted",
+          "kind": "Defence chambers' case note · Last sourced position: 2026-11-20 · England and Wales · Central Criminal Court",
+          "date": "2026-11-20",
+          "paragraphs": [
+            {
+              "text": "Doughty Street Chambers reported on 20 November 2026 that an Old Bailey jury unanimously acquitted AB of inviting support for Hamas. The indictment alleged two offences contrary to section 12(1A) of the Terrorism Act 2000, based on two tweets published in October 2023 which described Hamas as a legitimate resistance organisation and as a Palestinian liberation organisation. The chambers uses the identifier AB; this register retains it. The case note does not supply the jury’s reasons.",
+              "sources": [
+                {
+                  "id": "ab-chambers"
+                }
+              ]
+            },
+            {
+              "text": "This published identifier has not been treated here as a later disposal of the separately recorded BDN prosecution. The page’s method is not to link anonymised records by inference.",
+              "sources": [
+                {
+                  "id": "ab-chambers",
+                  "locator": "Published identifier AB, not linked to BDN"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "AB · two posts",
+            "jurisdiction": "England and Wales · Central Criminal Court",
+            "provisions": [
+              "Terrorism Act 2000 s12(1A)"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Acquitted",
+            "status_as_of": "2026-11-20",
+            "outcome_type": "acquittal"
+          }
         }
       ]
     },
@@ -911,8 +951,12 @@
           "kind": "Case record · Jury unable to agree; retrial reported · Last sourced position: 2026-05-12 · England and Wales · Birmingham Crown Court",
           "paragraphs": [
             {
-              "text": "Novara Media reports that Freeman’s trial concluded on 11 May 2026 without the jury reaching a verdict on the charges, and that a retrial was set for September 2027. It describes allegations of encouraging terrorism and inviting or expressing support for a proscribed organisation through X and Instagram posts; Freeman denied the charges. A discharged jury is neither a conviction nor an acquittal. Verify the retrial order and count particulars.",
+              "text": "BBC News reports that Freeman’s trial at Birmingham Crown Court ended with a hung jury: after more than 13 and a half hours of deliberation, jurors could not reach a majority decision on any of the charges, which Freeman denied. On 11 May 2026 prosecutors confirmed a retrial listed for 20 September 2027. Novara Media likewise reported the 11 May conclusion and a September 2027 retrial. A discharged jury is neither a conviction nor an acquittal. Verify the retrial order and count particulars.",
               "sources": [
+                {
+                  "id": "freeman-bbc",
+                  "locator": "Hung jury and 20 September 2027 retrial listing"
+                },
                 {
                   "id": "freeman-retrial"
                 }
@@ -929,6 +973,80 @@
             "scope": "hamas",
             "last_sourced_position": "Jury unable to agree; retrial reported",
             "status_as_of": "2026-05-12",
+            "outcome_type": "hung-jury"
+          }
+        },
+        {
+          "id": "hanin-barghouthi",
+          "title": "Hanin Barghouthi · Brighton speech · Jury unable to agree; later retrial decision unverified",
+          "kind": "Case record · Jury unable to agree; later retrial decision unverified · Last sourced position: 2026-03-12 · England and Wales · Kingston Crown Court",
+          "paragraphs": [
+            {
+              "text": "BBC News and Press Association reports of 12 March 2026 record that a Kingston Crown Court jury was discharged after failing to reach a verdict, following 15 hours of deliberations, on a single count of expressing an opinion or belief supportive of Hamas. The charge concerned a speech at a Brighton rally on 8 October 2023. Barghouthi denied the charge and told the jury she did not support Hamas and had not known the full details of the 7 October attacks when she spoke. The prosecutor told the court the CPS was expected to decide the following week whether there would be a retrial. A discharged jury is neither a conviction nor an acquittal.",
+              "sources": [
+                {
+                  "id": "barghouthi-bbc"
+                },
+                {
+                  "id": "barghouthi-pa"
+                }
+              ]
+            },
+            {
+              "text": "A later campaign article dated 21 October 2026 listed Barghouthi among defendants awaiting a second trial. That account is attributed; the formal CPS decision and any retrial listing have not been independently verified here.",
+              "sources": [
+                {
+                  "id": "barghouthi-rcg",
+                  "locator": "Campaign list of defendants said to be awaiting retrial"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Hanin Barghouthi · Brighton speech",
+            "jurisdiction": "England and Wales · Kingston Crown Court",
+            "provisions": [
+              "Terrorism Act 2000 s12; exact subsection requires indictment"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Jury unable to agree; later retrial decision unverified",
+            "status_as_of": "2026-03-12",
+            "outcome_type": "hung-jury"
+          }
+        },
+        {
+          "id": "urslaan-khan",
+          "title": "Urslaan Khan · Whitehall speech · Jury unable to agree; retrial reported",
+          "kind": "Case record · Jury unable to agree; retrial reported · Last sourced position: 2026-09-15 · England and Wales · Central Criminal Court",
+          "paragraphs": [
+            {
+              "text": "Jewish News reports that on 15 September 2026 Judge Richard Marks KC discharged the Old Bailey jury after it failed to reach a verdict, having deliberated for seven hours and 37 minutes, on an allegation that Khan expressed support for Hamas in Whitehall on 17 October 2023. A two-day retrial was set for 26 April 2027. Khan denied the charge and declined to give evidence. A discharged jury is neither a conviction nor an acquittal.",
+              "sources": [
+                {
+                  "id": "khan-retrial",
+                  "locator": "Jury discharge and 26 April 2027 retrial listing"
+                }
+              ]
+            },
+            {
+              "text": "Press Association reporting of the trial opening, published on 9 September 2026, describes the prosecution case that Khan made a speech outside Downing Street while holding a placard that referred to Hamas, and that this expressed support for a proscribed organisation. Those are prosecution allegations, not findings.",
+              "sources": [
+                {
+                  "id": "khan-standard",
+                  "locator": "Trial opening; prosecution allegations"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Urslaan Khan · Whitehall speech",
+            "jurisdiction": "England and Wales · Central Criminal Court",
+            "provisions": [
+              "Terrorism Act 2000 s12; exact subsection requires indictment"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Jury unable to agree; retrial reported",
+            "status_as_of": "2026-09-15",
             "outcome_type": "hung-jury"
           }
         },
@@ -3005,18 +3123,90 @@
       "type": "Legislation",
       "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/118",
       "checked": "2026-11-12"
+    },
+    {
+      "id": "cotte-standard",
+      "title": "Student cleared of supporting Hamas in speech outside college",
+      "publisher": "Press Association · The Evening Standard",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.standard.co.uk/news/crime/hamas-old-bailey-london-israel-instagram-b1297519.html",
+      "date": "2026-09-18",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "barghouthi-bbc",
+      "title": "Jury fails to decide if former University of Sussex student supported Hamas",
+      "publisher": "BBC News",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.bbc.co.uk/news/articles/c5yrlpem3d4o",
+      "date": "2026-03-12",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "barghouthi-pa",
+      "title": "Jury fails to reach verdict in trial of Brighton woman accused of supporting Hamas",
+      "publisher": "Press Association · Brighton and Hove News",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.brightonandhovenews.org/2026/03/12/jury-fails-to-reach-verdict-in-trial-of-brighton-woman-accused-of-supporting-hamas/",
+      "date": "2026-03-12",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "barghouthi-rcg",
+      "title": "Defend the right to jury trial",
+      "publisher": "Revolutionary Communist Group / FRFI",
+      "type": "Attributed campaign commentary · later retrial listing not independently verified",
+      "url": "https://revolutionarycommunist.org/britain/police-prisons/defend-the-right-to-jury-trial/",
+      "date": "2026-10-21",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "khan-standard",
+      "title": "Alleged pro-Hamas protester called Braverman ‘Cruella Deville’ in speech – court",
+      "publisher": "Press Association · The Evening Standard",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.standard.co.uk/news/crime/israel-whitehall-downing-street-london-old-bailey-b1296361.html",
+      "date": "2026-09-09",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "khan-retrial",
+      "title": "Jury discharged in trial of alleged Downing Street pro-Hamas protester",
+      "publisher": "Jewish News",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.jewishnews.co.uk/jury-discharged-in-trial-of-alleged-downing-street-pro-hamas-protester/",
+      "date": "2026-09-15",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "ab-chambers",
+      "title": "Acquittal in prosecution alleging support for Hamas",
+      "publisher": "Doughty Street Chambers",
+      "type": "Defence chambers' case note",
+      "url": "https://www.doughtystreet.co.uk/news/acquittal-prosecution-alleging-support-hamas",
+      "date": "2026-11-20",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "freeman-bbc",
+      "title": "Hung jury after activist accused of encouraging terrorism",
+      "publisher": "BBC News",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.bbc.co.uk/news/articles/ce8p188k862o",
+      "date": "2026-05-11",
+      "checked": "2026-11-21"
     }
   ],
   "register_metadata": {
-    "record_count": 45,
+    "record_count": 48,
     "unit": "case records; grouped defendants, separate events and anonymised appellate records explicitly identified",
-    "checked": "2026-11-10",
+    "checked": "2026-11-21",
     "exhaustive": false,
     "jersey_in_uk_count": false,
-    "source_count": 75,
+    "source_count": 83,
     "unique_proceedings_verified": false,
     "by_scope": {
-      "hamas": 25,
+      "hamas": 28,
       "jersey-comparator": 1,
       "other-proscribed-organisation": 2,
       "palestine-action": 3,
@@ -3026,7 +3216,7 @@
     "legal_process_count": 1
   },
   "coverage_audit": {
-    "checked": "2026-11-10",
+    "checked": "2026-11-21",
     "supplied_note_review": {
       "matched_record_ids": [
         "abj-prosecution",
@@ -3044,7 +3234,9 @@
       "Systematic historical coverage before October 2023",
       "Reconciliation of anonymised appeals without inference or jigsaw identification",
       "Complete Palestine Action expression cohorts; official totals are not the named register",
-      "Sarah Wilkinson: actual disclosure notice, authorisation, charge particulars and confirmation of the reported January 2027 listing"
+      "Sarah Wilkinson: actual disclosure notice, authorisation, charge particulars and confirmation of the reported January 2027 listing",
+      "Hanin Barghouthi: formal CPS retrial decision and any listing, beyond the attributed October 2026 campaign account",
+      "AB and BDN: no source yet using both identifiers; do not merge by inference"
     ],
     "statistical_totals_are_additive": false
   },
