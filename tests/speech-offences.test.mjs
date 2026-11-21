@@ -50,6 +50,8 @@ test('speech register does not convert hung juries, procedural decisions or sear
     'zahir-khan': 'conviction', 'feras-al-jayoosi': 'conviction',
     'tatchell-nakba': 'no-further-action', 'tatchell-intifada': 'no-further-action',
     'jamal-nineham': 'conviction', 'pwr-akdogan-demir': 'conviction',
+    'hanin-barghouthi': 'hung-jury', 'urslaan-khan': 'hung-jury',
+    'ab-acquittal': 'acquittal',
   })) assert.equal(records.get(id).outcome_type, outcome, id);
   assert.equal(records.get('kneecap-liam').scope, 'other-proscribed-organisation');
   assert.equal(records.get('fiona-ryan').scope, 'related-speech');
