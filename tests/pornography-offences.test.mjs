@@ -16,7 +16,7 @@ test("the new pornography offences study is a sourced legal study with the cheek
   assert.deepEqual(p.sections.map((s) => s.id), [
     "sources-legislation",
     "the-offences",
-    "existing-law",
+    "overlapping-offences",
     "do-versus-record",
     "cheeky-table",
   ]);
@@ -54,12 +54,30 @@ test("the new pornography offences study is a sourced legal study with the cheek
   assert.match(html, /id="cheeky-table"/);
   assert.match(html, /id="satire-clause"/);
   assert.ok(html.indexOf('id="sources-legislation"') < html.indexOf('id="the-offences"'));
-  assert.ok(html.indexOf('id="the-offences"') < html.indexOf('id="existing-law"'));
-  assert.ok(html.indexOf('id="existing-law"') < html.indexOf('id="do-versus-record"'));
+  assert.ok(html.indexOf('id="the-offences"') < html.indexOf('id="overlapping-offences"'));
+  assert.ok(html.indexOf('id="overlapping-offences"') < html.indexOf('id="do-versus-record"'));
   assert.ok(html.indexOf('id="do-versus-record"') < html.indexOf('id="cheeky-table"'));
   assert.ok(html.indexOf('id="cheeky-table"') < html.indexOf('id="satire-clause"'));
   assert.match(html, /Cheeky table/);
   assert.match(html, /A short scorecard/);
+  assert.match(html, /Not prohibited here ≠ lawful everywhere/);
+  assert.match(html, /id="cross-reference-matrix"/);
+  assert.match(html, /id="four-stages"/);
+  assert.match(html, /id="research-question"/);
+  assert.match(html, /A gap in one offence is not a safe harbour/);
+  assert.match(text, /section 66F/);
+  assert.match(text, /Sexual Offences Act 2003, s\.66A/);
+  assert.match(text, /it is not a section of the 2023 Act/);
+  assert.match(text, /does not extend to Scotland or Northern Ireland/);
+  assert.match(text, /repealed in England, Wales and Northern Ireland only/);
+  assert.doesNotMatch(text, /updated November 2026/i);
+  assert.equal(
+    p.sections.find((s) => s.id === "cheeky-table")
+      .entries.find((e) => e.id === "cheeky-disclaimer")
+      .paragraphs[0].text,
+    "We do not suggest, we do not advocate, we do not support, we do not find enjoyable in any way, shape or form. The point of the “cheeky table” is to analyse and fine-tune the existing gaps that were left there on purpose. Or maybe by accident? Anyway, that’s the law. Talking about the law should not be an offence."
+  );
+  assert.ok(!ids.includes("existing-law"));
   assert.doesNotMatch(html, /Corrections to the supplied analysis|What remains unverified/);
   assert.match(html, /rel="canonical" href="https:\/\/independenttribunal.org\/research\/new-pornography-offences\/"/);
   for (const file of ["public/research/index.html", "public/sitemap.xml", "public/llms.txt", "public/llms-full.txt"]) {

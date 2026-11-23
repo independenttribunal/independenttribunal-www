@@ -3,7 +3,7 @@
   "category": "legal-study",
   "title": "New pornography offences in the UK",
   "subtitle": "What Part 5, Chapter 4 of the Crime and Policing Act 2026 actually criminalises, where it applies, and where the participant defences leave a gap.",
-  "summary": "From 6 November 2026, England and Wales has three new offences of possessing or publishing certain pornographic images: strangulation or suffocation; penetrative sex between people a reasonable person would think are, or are pretending to be, related; and sexual activity where a reasonable person would think at least one person is, or is pretending to be, under 16. A Scottish strangulation offence remains prospective and, once in force, will be stricter. The new offences largely target third-party possession and publication beyond the participants. A labelled “cheeky table” at the end tests two edge cases against that statutory scope. This is legal research, not legal advice, and it is not a guide to producing any image.",
+  "summary": "From 6 November 2026, England and Wales has three new offences of possessing or publishing certain pornographic images: strangulation or suffocation; penetrative sex between people a reasonable person would think are, or are pretending to be, related; and sexual activity where a reasonable person would think at least one person is, or is pretending to be, under 16. A Scottish strangulation offence remains prospective and, once in force, will be stricter. The new offences largely target third-party possession and publication beyond the participants. They sit inside a wider body of criminal and regulatory law: a defence or exception to one offence is not a declaration that the conduct is lawful. A labelled “cheeky table” at the end tests two edge cases against the statutory scope of the imagery offences. This is legal research, not legal advice, and it is not a guide to producing any image.",
   "scope": "United Kingdom, with the territorial differences set out below. Sections 104, 106 and 107 of the Crime and Policing Act 2026 are in force in England and Wales from 6 November 2026. Section 104 also extends to Northern Ireland but has not been commenced there. Section 105, for Scotland, is not in force. If an image depicts a person who is actually under 18, the Protection of Children Act 1978, section 160 of the Criminal Justice Act 1988 and related offences apply in addition to anything on this page.",
   "status_note": "The statutes and commencement instruments cited were read from legislation.gov.uk on 23 November 2026. The CPS Obscene Publications guidance was read the same day. This is legal research and commentary, not legal advice.",
   "jurisdiction": "United Kingdom (territorial differences apply)",
@@ -39,7 +39,7 @@
     {
       "label": "The recording gap",
       "value": "Keep, don’t share",
-      "detail": "For some role-play cases the new offences do not ban a participant’s private recording. They ban possession by others, and publication beyond the participants.",
+      "detail": "For some role-play cases the new offences do not ban a participant’s private recording. They ban possession by others, and publication beyond the participants. Other offences may still apply.",
       "target": "do-versus-record"
     },
     {
@@ -195,7 +195,7 @@
               ]
             },
             {
-              "text": "Sections 64 and 65 of the Sexual Offences Act 2003 criminalise penetrative sex between listed adult blood and adoptive relatives. Section 66 of that Act is the exposure offence. Section 66B covers sharing, or threatening to share, an intimate photograph or film. Section 66E, inserted by section 138 of the Data (Use and Access) Act 2025 and in force from 6 February 2026, is the offence of creating a purported intimate image of an adult. Section 62 of the Coroners and Justice Act 2009 is the offence of possessing a prohibited non-photographic image of a child; section 65 of that Act defines “image” and “child”. The Obscene Publications Act 1959, section 2, criminalises publication of an obscene article; having an obscene article for publication for gain is covered by the 1964 Act.",
+              "text": "Sections 64 and 65 of the Sexual Offences Act 2003 criminalise penetrative sex between listed adult blood and adoptive relatives. Section 66 of that Act is the exposure offence. Section 66A is the offence of sending a photograph or film of genitals. Section 66B covers sharing, or threatening to share, an intimate photograph or film. Section 66E, inserted by section 138 of the Data (Use and Access) Act 2025 and in force from 6 February 2026, is the offence of creating a purported intimate image of an adult; section 66F, in force from the same date, covers requesting such a creation. Sections 67 and 67A are the voyeurism offences. Section 62 of the Coroners and Justice Act 2009 is the offence of possessing a prohibited non-photographic image of a child; section 65 of that Act defines “image” and “child”. The Obscene Publications Act 1959, section 2, criminalises publication of an obscene article; having an obscene article for publication for gain is covered by the 1964 Act.",
               "sources": [
                 {
                   "id": "soa-64"
@@ -207,16 +207,28 @@
                   "id": "soa-66"
                 },
                 {
+                  "id": "soa-66a"
+                },
+                {
                   "id": "soa-66b"
                 },
                 {
                   "id": "soa-66e"
                 },
                 {
+                  "id": "soa-66f"
+                },
+                {
                   "id": "dua-138"
                 },
                 {
                   "id": "si-31"
+                },
+                {
+                  "id": "soa-67"
+                },
+                {
+                  "id": "soa-67a"
                 },
                 {
                   "id": "cja-62"
@@ -241,6 +253,10 @@
                   "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66"
                 },
                 {
+                  "text": "Section 66A",
+                  "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66A"
+                },
+                {
                   "text": "Section 66B",
                   "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66B"
                 },
@@ -249,12 +265,96 @@
                   "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66E"
                 },
                 {
+                  "text": "section 66F",
+                  "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66F"
+                },
+                {
+                  "text": "Sections 67 and 67A",
+                  "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/67"
+                },
+                {
                   "text": "Section 62 of the Coroners and Justice Act 2009",
                   "url": "https://www.legislation.gov.uk/ukpga/2009/25/section/62"
                 },
                 {
                   "text": "The Obscene Publications Act 1959, section 2",
                   "url": "https://www.legislation.gov.uk/ukpga/Eliz2/7-8/66/section/2"
+                }
+              ]
+            },
+            {
+              "text": "Other statutes that can apply to the same facts include section 127 of the Communications Act 2003, section 1 of the Malicious Communications Act 1988, the Protection of Children Act 1978, section 160 of the Criminal Justice Act 1988, the Protection from Harassment Act 1997, sections 44 to 46 of the Serious Crime Act 2007, the false and threatening communications offences in sections 179 and 181 of the Online Safety Act 2023, and the Indecent Displays (Control) Act 1981. Section 189 of the 2023 Act, in force from 31 January 2024, repealed only some limbs of the 2003 and 1988 communications offences in England, Wales and Northern Ireland.",
+              "sources": [
+                {
+                  "id": "ca-s127"
+                },
+                {
+                  "id": "mca-s1"
+                },
+                {
+                  "id": "pca-1"
+                },
+                {
+                  "id": "cja88-160"
+                },
+                {
+                  "id": "pha-2"
+                },
+                {
+                  "id": "sca-44"
+                },
+                {
+                  "id": "osa-s179"
+                },
+                {
+                  "id": "osa-s181"
+                },
+                {
+                  "id": "idca-1"
+                },
+                {
+                  "id": "osa-s189"
+                },
+                {
+                  "id": "si-2024-31"
+                }
+              ],
+              "links": [
+                {
+                  "text": "section 127 of the Communications Act 2003",
+                  "url": "https://www.legislation.gov.uk/ukpga/2003/21/section/127"
+                },
+                {
+                  "text": "section 1 of the Malicious Communications Act 1988",
+                  "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/1"
+                },
+                {
+                  "text": "the Protection of Children Act 1978",
+                  "url": "https://www.legislation.gov.uk/ukpga/1978/37/section/1"
+                },
+                {
+                  "text": "section 160 of the Criminal Justice Act 1988",
+                  "url": "https://www.legislation.gov.uk/ukpga/1988/33/section/160"
+                },
+                {
+                  "text": "the Protection from Harassment Act 1997",
+                  "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/2"
+                },
+                {
+                  "text": "sections 44 to 46 of the Serious Crime Act 2007",
+                  "url": "https://www.legislation.gov.uk/ukpga/2007/27/section/44"
+                },
+                {
+                  "text": "sections 179 and 181 of the Online Safety Act 2023",
+                  "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/179"
+                },
+                {
+                  "text": "the Indecent Displays (Control) Act 1981",
+                  "url": "https://www.legislation.gov.uk/ukpga/1981/42/section/1"
+                },
+                {
+                  "text": "Section 189 of the 2023 Act",
+                  "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/189"
                 }
               ]
             }
@@ -266,7 +366,7 @@
           "kind": "Official guidance and news reports",
           "paragraphs": [
             {
-              "text": "The Crown Prosecution Service Obscene Publications guidance, as read on 23 November 2026, lists the new 6 November 2026 offences. On the 1959 Act, it says that a prosecution is not likely where the conduct is consensual, no serious harm is caused, the conduct is not inextricably linked with other criminality, and the likely audience is not under 18 or otherwise vulnerable.",
+              "text": "The Crown Prosecution Service Obscene Publications guidance, as read on 23 November 2026, lists the new 6 November 2026 offences. It also lists, as possible offences for prosecutors to consider, a number of the older possession, communications, harassment, display and inchoate offences set out later on this page. The published page does not itself state a November 2026 revision date. On the 1959 Act, the guidance says that a prosecution is not likely where the conduct is consensual, no serious harm is caused, the conduct is not inextricably linked with other criminality, and the likely audience is not under 18 or otherwise vulnerable.",
               "sources": [
                 {
                   "id": "cps-obscene"
@@ -602,10 +702,100 @@
       ]
     },
     {
-      "id": "existing-law",
-      "title": "Existing law these offences sit with",
-      "intro": "The new offences borrow definitions from, and sit alongside, older possession, assault and sexual offences.",
+      "id": "overlapping-offences",
+      "title": "Not prohibited here ≠ lawful everywhere",
+      "intro": "A defence or exception to one offence is not a declaration that the conduct is lawful. The 2026 imagery offences sit inside a much larger body of law. The rows that follow are potential legal issues, not automatic offences whenever sexual material is involved.",
       "entries": [
+        {
+          "id": "core-principle",
+          "title": "A gap in one offence is not a declaration of legality",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "A defence or exception to one criminal offence is not a general declaration that the conduct is lawful. The new imagery offences sit alongside older possession, assault, sexual, communications and publication offences. The Home Office factsheet on the 2026 Act treats those new offences as additions to an existing regime, including the indecent-images-of-children offences, and states that they will be listed as priority offences under the Online Safety Act 2023.",
+              "sources": [
+                {
+                  "id": "cjia-63"
+                },
+                {
+                  "id": "pca-1"
+                },
+                {
+                  "id": "cja88-160"
+                },
+                {
+                  "id": "ho-porn-factsheet"
+                },
+                {
+                  "id": "cps-obscene"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Home Office factsheet on the 2026 Act",
+                  "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-pornography-factsheet"
+                }
+              ]
+            },
+            {
+              "text": "Prosecution guidance is not a statutory defence. The current CPS test for a prosecution under the 1959 Act, set out under sources above, indicates that a prosecution is not likely in particular consensual circumstances. That is a statement about charging practice. It does not mean that Parliament has made the material categorically lawful.",
+              "sources": [
+                {
+                  "id": "cps-obscene"
+                },
+                {
+                  "id": "opa-2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "four-stages",
+          "title": "Four stages of analysis",
+          "kind": "Our analysis",
+          "table": {
+            "caption": "A way of checking whether conduct that falls outside one of the 2026 imagery offences is still criminal under another provision. The stages can overlap, and more than one offence can apply to the same facts.",
+            "columns": [
+              "Stage",
+              "What to ask"
+            ],
+            "rows": [
+              [
+                "1. Underlying act",
+                "Consent, age, coercion, violence, injury — including whether the act itself is a sexual or assault offence, quite apart from any image."
+              ],
+              [
+                "2. Image creation",
+                "Recording, voyeurism, AI generation, and privacy: was the image made, requested, or generated, and with whose consent?"
+              ],
+              [
+                "3. Possession",
+                "Who has the image, and does a possession offence apply — including extreme pornography, prohibited images of children, and the 2026 possession offences?"
+              ],
+              [
+                "4. Distribution or communication",
+                "Publication, sending, sharing, display, or other communication — including obscenity, communications offences, and intimate-image offences."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "For each potentially applicable offence, the useful questions are the statutory elements, the mental element, the available defences or exceptions, territorial extent, commencement, relevant case law, and prosecution guidance.",
+              "sources": [
+                {
+                  "id": "cps-obscene"
+                },
+                {
+                  "id": "cpa-104"
+                },
+                {
+                  "id": "cjia-63"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "extreme-pornography",
           "title": "Extreme pornography: section 63",
@@ -727,13 +917,16 @@
               ]
             },
             {
-              "text": "Section 66B makes it an offence to share, or threaten to share, a photograph or film that shows, or appears to show, another person in an intimate state, without consent. Section 66E, in force from 6 February 2026, makes it an offence to create a purported intimate image of an adult without consent and without a reasonable belief in consent. Section 99 of the 2026 Act, in force from 29 June 2026, is a different offence: it inserts section 66I, which criminalises making or supplying a thing for use as a generator of purported intimate images.",
+              "text": "Section 66B makes it an offence to share, or threaten to share, a photograph or film that shows, or appears to show, another person in an intimate state, without consent. Section 66E, in force from 6 February 2026, makes it an offence to create a purported intimate image of an adult without consent and without a reasonable belief in consent. Section 66F, in force from the same date, makes it an offence to request the creation of such an image, or to request that it include or exclude something in particular, without consent and without a reasonable belief in consent. The request offence is committed whether or not the image is ever created, and there is a reasonable-excuse defence. Section 99 of the 2026 Act, in force from 29 June 2026, is a different offence: it inserts section 66I, which criminalises making or supplying a thing for use as a generator of purported intimate images.",
               "sources": [
                 {
                   "id": "soa-66b"
                 },
                 {
                   "id": "soa-66e"
+                },
+                {
+                  "id": "soa-66f"
                 },
                 {
                   "id": "dua-138"
@@ -745,8 +938,37 @@
                   "id": "cpa-99"
                 },
                 {
-                  "id": "si-689",
-                  "locator": "reg. 2(1)(i)"
+                  "id": "si-689"
+                }
+              ]
+            },
+            {
+              "text": "Section 66A, in force from 31 January 2024, is the cyberflashing offence: intentionally sending or giving a photograph or film of any person’s genitals, including a computer-generated image that appears to be such a photograph or film, with the intention that the recipient will see the genitals and be caused alarm, distress or humiliation, or for sexual gratification while reckless as to those effects. Sections 67 and 67A criminalise voyeurism, including recording a person doing a private act without consent for sexual gratification, and additional offences of recording beneath clothing or while a person is breastfeeding.",
+              "sources": [
+                {
+                  "id": "soa-66a"
+                },
+                {
+                  "id": "osa-s187"
+                },
+                {
+                  "id": "si-2024-31"
+                },
+                {
+                  "id": "soa-67"
+                },
+                {
+                  "id": "soa-67a"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Section 66A",
+                  "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66A"
+                },
+                {
+                  "text": "Sections 67 and 67A",
+                  "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/67"
                 }
               ]
             },
@@ -772,15 +994,396 @@
                   "url": "https://www.legislation.gov.uk/ukpga/2026/20/schedule/13"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "cross-reference-matrix",
+          "title": "Cross-reference matrix: England and Wales",
+          "kind": "Statute",
+          "table": {
+            "caption": "Potential legal issues, not automatic offences whenever sexual material is involved. Rows for statutes already discussed above are kept short. “Distribution” here includes publication, sending, sharing and public display. Links follow the table.",
+            "columns": [
+              "Law",
+              "Stage(s)",
+              "What it covers",
+              "Mental element",
+              "Defences / exceptions",
+              "Extent and status"
+            ],
+            "rows": [
+              [
+                "Obscene Publications Act 1959, s.2",
+                "Distribution",
+                "Publishing an obscene article, meaning its effect is such as to tend to deprave and corrupt persons likely to read, see or hear it. Private possession is not an offence. Having an article for publication for gain is covered by the 1964 Act, which also amends s.2.",
+                "Publication is a deliberate act. Obscenity is the statutory “deprave and corrupt” test, not the ordinary meaning of “obscene”.",
+                "A defence if the person has not examined the article and had no reasonable cause to suspect it was obscene (s.2(5)). Public-good defence in s.4 (science, literature, art or learning, or other objects of general concern). CPS charging guidance is not a defence.",
+                "England and Wales. In force. The Act does not extend to Scotland or Northern Ireland."
+              ],
+              [
+                "Communications Act 2003, s.127(1)",
+                "Distribution / communication",
+                "Sending, by a public electronic communications network, a message or other matter that is grossly offensive or of an indecent, obscene or menacing character. The offence is limited to that network. Section 127(2)(c) still covers persistently making use of such a network to cause annoyance, inconvenience or needless anxiety.",
+                "Intention that the message be of the prohibited character, or awareness that it may be so (DPP v Collins).",
+                "No general statutory defence. The public-network limit is an element of the offence.",
+                "United Kingdom for s.127(1) and s.127(2)(c). In force. From 31 January 2024, s.127(2)(a) and (b) (false messages) are repealed in England, Wales and Northern Ireland only; those limbs remain in force in Scotland."
+              ],
+              [
+                "Malicious Communications Act 1988, s.1",
+                "Distribution / communication",
+                "Sending a letter, electronic communication or article that conveys an indecent or grossly offensive message, or that is itself indecent or grossly offensive, if a purpose of sending it is to cause distress or anxiety to the recipient or to someone the sender intends it to reach. It is not limited to a public electronic communications network.",
+                "Purpose, or one of the purposes, of causing distress or anxiety.",
+                "No general statutory defence in the remaining provision.",
+                "England and Wales. In force. Does not extend to Scotland. From 31 January 2024 the limbs covering a threat, and information known or believed to be false, and the associated subsection (2), are repealed. Northern Ireland has a separate Order, similarly amended."
+              ],
+              [
+                "Criminal Justice and Immigration Act 2008, s.63",
+                "Possession",
+                "Possession of an extreme pornographic image, under the closed list set out above. Bodily fluids are not a listed category.",
+                "Possession. The image must be pornographic and of an obscene character, and a reasonable person looking at it must think the people, or the person or animal, were real.",
+                "Defences in sections 64 to 66, including the participant defence and the non-consensual-harm limit set out above.",
+                "England, Wales and Northern Ireland. In force."
+              ],
+              [
+                "Protection of Children Act 1978, s.1",
+                "Creation; possession with a view to distribution; distribution",
+                "Taking, making, distributing, showing, possessing with a view to distribution, or advertising indecent photographs or pseudo-photographs of a child (a person under 18). “Making” includes downloading an image.",
+                "The acts are intentional; whether an image is indecent is a question of fact.",
+                "Statutory defences include a legitimate reason, lack of knowledge or cause to suspect indecency in some cases, and limited marriage and civil-partnership exceptions.",
+                "England and Wales. In force. If an image depicts a person who is actually under 18, these offences apply in addition to the 2026 imagery offences."
+              ],
+              [
+                "Criminal Justice Act 1988, s.160",
+                "Possession",
+                "Simple possession of an indecent photograph or pseudo-photograph of a child.",
+                "Possession, with knowledge-related defences.",
+                "Legitimate reason; no knowledge or suspicion; unsolicited receipt where the image is not kept; limited marriage and civil-partnership exceptions.",
+                "England and Wales. In force."
+              ],
+              [
+                "Coroners and Justice Act 2009, s.62",
+                "Possession",
+                "Possession of a prohibited non-photographic image of a child, as set out above, including an imaginary child. There is no “reasonable person would think the person was real” requirement.",
+                "Possession. The image must be pornographic, of a listed kind, and grossly offensive, disgusting or otherwise of an obscene character.",
+                "Section 64, including legitimate reason, no knowledge, and an exclusion for certain classified films.",
+                "England, Wales and Northern Ireland. In force."
+              ],
+              [
+                "Sexual Offences Act 2003, s.66B",
+                "Distribution",
+                "Sharing, or threatening to share, a photograph or film that shows or appears to show another person in an intimate state, without consent, as set out above.",
+                "Intention to share or to threaten. Some forms of the offence require an intention to cause alarm, distress or humiliation, or that the act is done for sexual gratification.",
+                "Absence of consent, and absence of a reasonable belief in consent, are elements. Further exceptions are set out in the surrounding sections.",
+                "England and Wales. In force from 31 January 2024."
+              ],
+              [
+                "Sexual Offences Act 2003, ss.66E–66F",
+                "Creation",
+                "Section 66E: creating a purported intimate image of an adult without consent, as set out above. Section 66F: intentionally requesting the creation of such an image, or requesting that it include or exclude something in particular. The request offence is committed whether or not the image is created, and wherever in the world the person requested is located.",
+                "Intention to create or to request; no consent and no reasonable belief in consent.",
+                "Section 66F has a reasonable-excuse defence. Consent and reasonable belief in consent are elements of both offences.",
+                "England and Wales. In force from 6 February 2026."
+              ],
+              [
+                "Sexual Offences Act 2003, ss.67–67A",
+                "Creation / observation",
+                "Section 67: voyeurism, including observing or recording a person doing a private act, or operating or installing equipment for that purpose. Section 67A: additional offences of operating equipment or recording an image beneath a person’s clothing, and of observing or recording a person who is breastfeeding.",
+                "Section 67 requires a purpose of obtaining sexual gratification and knowledge that the person does not consent. Section 67A requires a purpose of sexual gratification, or of humiliating, alarming or distressing the person, and no consent and no reasonable belief in consent.",
+                "The consent elements are built into the offences as set out in the previous column.",
+                "England and Wales. Section 67 is in force. Section 67A has been in force since 12 April 2019; the breastfeeding limbs since 28 June 2022."
+              ],
+              [
+                "Sexual Offences Act 2003, s.66A",
+                "Distribution / communication",
+                "Cyberflashing: intentionally sending or giving a photograph or film of any person’s genitals, including a computer-generated image that appears to be such a photograph or film, or showing it or placing it for a particular person to find. This is a Sexual Offences Act offence, inserted by section 187 of the Online Safety Act 2023; it is not a section of the 2023 Act.",
+                "Intention that the recipient will see the genitals and be caused alarm, distress or humiliation; or sending for sexual gratification, reckless as to those effects.",
+                "No general statutory defence in section 66A.",
+                "England and Wales. In force from 31 January 2024."
+              ],
+              [
+                "Protection from Harassment Act 1997, ss.2 and 4",
+                "Distribution / communication (and other courses of conduct)",
+                "Section 2: pursuing a course of conduct (at least two occasions) that amounts to harassment of another, which includes alarming a person or causing them distress. Section 4: a course of conduct that causes another to fear, on at least two occasions, that violence will be used against them.",
+                "The person knows, or ought to know (a reasonable-person test), that the conduct amounts to harassment, or will cause that fear of violence.",
+                "Preventing or detecting crime; acting under a legal requirement; and, for section 2, that the pursuit was reasonable, or for section 4, that it was reasonable for the protection of the person or another or of property.",
+                "England and Wales. In force."
+              ],
+              [
+                "Common-law outraging public decency",
+                "Underlying act / public display",
+                "A lewd, obscene or disgusting act, of such a character as to outrage public decency, done in a place where there is a real possibility that at least two members of the public might witness it. The two people need not actually have seen it, or have been outraged.",
+                "A deliberate act. The outraging character is assessed objectively.",
+                "No general statutory defence. A purely private act is not this offence.",
+                "Common law of England and Wales. In force."
+              ],
+              [
+                "Serious Crime Act 2007, ss.44–46",
+                "Inchoate liability at any stage",
+                "Doing an act capable of encouraging or assisting an offence: with intent to encourage or assist it (s.44); believing that the offence will be committed and that the act will encourage or assist it (s.45); or believing that one or more of a number of offences will be committed (s.46). Intention is not inferred merely because encouragement or assistance was a foreseeable consequence (s.44(2)).",
+                "As in the three sections: intent (s.44), or the stated beliefs (ss.45–46).",
+                "A defence of acting reasonably, in circumstances known or reasonably believed (s.50).",
+                "England, Wales and Northern Ireland. In force from 1 October 2008."
+              ],
+              [
+                "Online Safety Act 2023, ss.179 and 181",
+                "Distribution / communication",
+                "Section 179: sending a message conveying information the sender knows to be false, intending that it cause non-trivial psychological or physical harm to a likely audience, with no reasonable excuse. Section 181: sending a message conveying a threat of death or serious harm — grievous bodily harm, rape, assault by penetration, or serious financial loss.",
+                "Section 179 requires knowledge of falsity and an intention to cause that harm. Section 181 requires intention, or recklessness, as to whether someone encountering the message would fear that the threat would be carried out.",
+                "Section 179 includes a “no reasonable excuse” element. These offences replaced the repealed false and threat limbs of the 1988 and 2003 Acts in England, Wales and Northern Ireland.",
+                "England, Wales and Northern Ireland. In force from 31 January 2024. They do not extend to Scotland."
+              ],
+              [
+                "Indecent Displays (Control) Act 1981, s.1",
+                "Distribution (public display)",
+                "Publicly displaying indecent matter, or causing or permitting such a display. Matter displayed in, or so as to be visible from, a public place is deemed publicly displayed. The human body itself is not “matter”.",
+                "Making, causing or permitting the display. “Indecent” is not defined in the Act.",
+                "Exceptions for certain paid-admission displays and shop areas behind an adequate warning notice, if people under 18 are not admitted; and specified exceptions for television, museums and galleries, Crown or local-authority buildings, plays, and licensed film exhibitions.",
+                "England, Wales and Scotland. In force from 27 October 1981. It does not extend to Northern Ireland."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The official texts are the Obscene Publications Act 1959, sections 1, 2 and 4; the Communications Act 2003, section 127; the Malicious Communications Act 1988, section 1; the Online Safety Act 2023, sections 179, 181 and 189; the Criminal Justice and Immigration Act 2008, section 63; the Protection of Children Act 1978, section 1; the Criminal Justice Act 1988, section 160; the Coroners and Justice Act 2009, sections 62 and 64; the Sexual Offences Act 2003, sections 66A, 66B, 66E, 66F, 67 and 67A; the Protection from Harassment Act 1997, sections 1, 2 and 4; the Serious Crime Act 2007, sections 44 to 46 and 50; and the Indecent Displays (Control) Act 1981, sections 1 and 5. The cases cited are DPP v Collins and R v Hamilton.",
+              "sources": [
+                {
+                  "id": "opa-1"
+                },
+                {
+                  "id": "opa-2"
+                },
+                {
+                  "id": "opa-4"
+                },
+                {
+                  "id": "opa-1964"
+                },
+                {
+                  "id": "ca-s127"
+                },
+                {
+                  "id": "mca-s1"
+                },
+                {
+                  "id": "mca-s3"
+                },
+                {
+                  "id": "osa-s189"
+                },
+                {
+                  "id": "si-2024-31"
+                },
+                {
+                  "id": "osa-s179"
+                },
+                {
+                  "id": "osa-s181"
+                },
+                {
+                  "id": "cjia-63"
+                },
+                {
+                  "id": "cjia-66"
+                },
+                {
+                  "id": "pca-1"
+                },
+                {
+                  "id": "cja88-160"
+                },
+                {
+                  "id": "cja-62"
+                },
+                {
+                  "id": "cja-64"
+                },
+                {
+                  "id": "soa-66a"
+                },
+                {
+                  "id": "soa-66b"
+                },
+                {
+                  "id": "soa-66e"
+                },
+                {
+                  "id": "soa-66f"
+                },
+                {
+                  "id": "soa-67"
+                },
+                {
+                  "id": "soa-67a"
+                },
+                {
+                  "id": "pha-1"
+                },
+                {
+                  "id": "pha-2"
+                },
+                {
+                  "id": "pha-4"
+                },
+                {
+                  "id": "sca-44"
+                },
+                {
+                  "id": "sca-45"
+                },
+                {
+                  "id": "sca-46"
+                },
+                {
+                  "id": "sca-50"
+                },
+                {
+                  "id": "idca-1"
+                },
+                {
+                  "id": "idca-5"
+                },
+                {
+                  "id": "collins"
+                },
+                {
+                  "id": "hamilton"
+                },
+                {
+                  "id": "cps-obscene"
+                },
+                {
+                  "id": "cps-comms"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Obscene Publications Act 1959, sections 1, 2 and 4",
+                  "url": "https://www.legislation.gov.uk/ukpga/Eliz2/7-8/66/section/2"
+                },
+                {
+                  "text": "Communications Act 2003, section 127",
+                  "url": "https://www.legislation.gov.uk/ukpga/2003/21/section/127"
+                },
+                {
+                  "text": "Malicious Communications Act 1988, section 1",
+                  "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/1"
+                },
+                {
+                  "text": "Online Safety Act 2023, sections 179, 181 and 189",
+                  "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/189"
+                },
+                {
+                  "text": "Criminal Justice and Immigration Act 2008, section 63",
+                  "url": "https://www.legislation.gov.uk/ukpga/2008/4/section/63"
+                },
+                {
+                  "text": "Protection of Children Act 1978, section 1",
+                  "url": "https://www.legislation.gov.uk/ukpga/1978/37/section/1"
+                },
+                {
+                  "text": "Criminal Justice Act 1988, section 160",
+                  "url": "https://www.legislation.gov.uk/ukpga/1988/33/section/160"
+                },
+                {
+                  "text": "Coroners and Justice Act 2009, sections 62 and 64",
+                  "url": "https://www.legislation.gov.uk/ukpga/2009/25/section/62"
+                },
+                {
+                  "text": "Sexual Offences Act 2003, sections 66A, 66B, 66E, 66F, 67 and 67A",
+                  "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66A"
+                },
+                {
+                  "text": "Protection from Harassment Act 1997, sections 1, 2 and 4",
+                  "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/2"
+                },
+                {
+                  "text": "Serious Crime Act 2007, sections 44 to 46 and 50",
+                  "url": "https://www.legislation.gov.uk/ukpga/2007/27/section/44"
+                },
+                {
+                  "text": "Indecent Displays (Control) Act 1981, sections 1 and 5",
+                  "url": "https://www.legislation.gov.uk/ukpga/1981/42/section/1"
+                },
+                {
+                  "text": "DPP v Collins",
+                  "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm"
+                },
+                {
+                  "text": "R v Hamilton",
+                  "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2007/2062"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "three-distinctions",
+          "title": "Three distinctions",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "Obscene publication is not the same as grossly offensive communication. The 1959 Act asks whether the article tends to deprave and corrupt those likely to read, see or hear it. Section 127 of the 2003 Act is about the character of a communication and the circumstances of sending it over a public electronic communications network. Something can be offensive without being criminally grossly offensive. In DPP v Collins the House of Lords held that a message is grossly offensive if it would be so regarded by reasonable persons in society, judged by the standards of an open and just multi-racial society, and that the sender must have intended it to be so or have been aware that it might be. The CPS notes that where another offence uses the word “obscene” but does not define it, the ordinary meaning applies, not the “deprave and corrupt” test.",
+              "sources": [
+                {
+                  "id": "opa-1"
+                },
+                {
+                  "id": "ca-s127"
+                },
+                {
+                  "id": "collins"
+                },
+                {
+                  "id": "cps-obscene"
+                }
+              ],
+              "links": [
+                {
+                  "text": "DPP v Collins",
+                  "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm"
+                }
+              ]
             },
             {
-              "text": "Private possession is not an offence under the Obscene Publications Act 1959. That Act, as read with the 1964 Act, covers publication, and having an obscene article for publication for gain. The current CPS test for a prosecution under the 1959 Act is set out under sources above. The 2012 Peacock acquittal is consistent with that approach. Whether any given publication would be charged remains a fact-specific decision.",
+              "text": "Consensual conduct is not necessarily lawful conduct. Non-fatal strangulation, actual bodily harm, grievous bodily harm, coercion and sexual offences can raise separate criminal liability even where everyone involved says they agreed. Consent does not automatically resolve every offence: the section 75A baseline, and the non-consensual-harm limit in the participant defences, are examples already set out above. Equally, a fictional depiction does not establish that the underlying conduct actually occurred.",
               "sources": [
+                {
+                  "id": "sca-75a"
+                },
+                {
+                  "id": "cjia-66"
+                },
+                {
+                  "id": "soa-64"
+                }
+              ]
+            },
+            {
+              "text": "Private possession, creation and publication are legally distinct. An image may be lawful for one participant to possess under a specific statutory defence, while publication of the same image beyond the participants is prohibited. That is the point of the participant-defence analysis on this page. Conversely, the communications offences require sending a message or article; they do not generally criminalise merely keeping material privately. Private possession is also outside the 1959 Act. The 2012 Peacock acquittal is consistent with the current CPS approach to that Act. Whether any given publication would be charged remains a fact-specific decision.",
+              "sources": [
+                {
+                  "id": "cpa-104"
+                },
+                {
+                  "id": "cpa-106"
+                },
+                {
+                  "id": "cpa-107"
+                },
+                {
+                  "id": "cjia-66"
+                },
                 {
                   "id": "opa-2"
                 },
                 {
                   "id": "opa-1964"
+                },
+                {
+                  "id": "ca-s127"
+                },
+                {
+                  "id": "mca-s1"
                 },
                 {
                   "id": "cps-obscene"
@@ -794,13 +1397,109 @@
               ]
             }
           ]
+        },
+        {
+          "id": "rights-overlay",
+          "title": "Rights and regulatory overlay",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "These are not additional criminal offences in the same sense as the rows above, but they affect the analysis. Article 10 of the European Convention on Human Rights protects freedom of expression; Article 8 protects private and family life. Both are given effect in domestic law by the Human Rights Act 1998. Public authorities, including prosecutors, must act compatibly with those rights. The CPS Obscene Publications guidance treats Article 10 as engaged by an alleged obscene publication, and says a prosecution may be compatible where it is prescribed by law and necessary and proportionate for the prevention of disorder or crime, or for the protection of health or morals.",
+              "sources": [
+                {
+                  "id": "hra-6"
+                },
+                {
+                  "id": "hra-sch1"
+                },
+                {
+                  "id": "cps-obscene"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Human Rights Act 1998",
+                  "url": "https://www.legislation.gov.uk/ukpga/1998/42/section/6"
+                }
+              ]
+            },
+            {
+              "text": "Intimate images of identifiable people are personal data. Data concerning a person’s sexual life is a special category of personal data under Article 9 of the UK GDPR, as supplemented by the Data Protection Act 2018. That is a regulatory regime for processing, not a substitute for the criminal offences.",
+              "sources": [
+                {
+                  "id": "uk-gdpr-9"
+                },
+                {
+                  "id": "dpa-2018"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Article 9 of the UK GDPR",
+                  "url": "https://www.legislation.gov.uk/eur/2016/679/article/9"
+                },
+                {
+                  "text": "Data Protection Act 2018",
+                  "url": "https://www.legislation.gov.uk/ukpga/2018/12/contents"
+                }
+              ]
+            },
+            {
+              "text": "The Online Safety Act 2023 also imposes duties on platforms, distinct from the user-facing communications offences. Section 81, in Part 5, requires providers of regulated provider pornographic content to use highly effective age verification or age estimation so that children are not normally able to encounter that content. That duty has been in force since 17 January 2025. The Home Office factsheet states that the 2026 imagery offences will be listed as priority offences under the same Act, which would engage the illegal-content duties on in-scope services.",
+              "sources": [
+                {
+                  "id": "osa-81"
+                },
+                {
+                  "id": "si-2024-1333"
+                },
+                {
+                  "id": "ho-porn-factsheet"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Section 81",
+                  "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/81"
+                },
+                {
+                  "text": "Home Office factsheet",
+                  "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-pornography-factsheet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research-question",
+          "title": "The research question",
+          "kind": "Our analysis",
+          "paragraphs": [
+            {
+              "text": "When Parliament creates a narrowly defined prohibition, how can someone tell whether conduct outside that prohibition is nevertheless criminal under another provision? The short answer is that they cannot treat the gap as a safe harbour. They have to ask, for each other offence that might apply, what the statutory elements are, what mental element must be proved, what defences or exceptions exist, where the offence extends, whether it is in force, what the case law does with the words, and what the prosecution guidance says — remembering that guidance is not itself a defence.",
+              "sources": [
+                {
+                  "id": "cps-obscene"
+                },
+                {
+                  "id": "cpa-104"
+                },
+                {
+                  "id": "opa-2"
+                },
+                {
+                  "id": "ca-s127"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "id": "do-versus-record",
       "title": "Do versus record",
-      "intro": "The new offences largely do not criminalise a participant’s private recording of an act that was lawful to perform, subject to the non-consensual-harm limit in England and Wales and to the “no actual strangulation” limit in Scotland once section 105 is in force. They criminalise possession by third parties and publication beyond the participants.",
+      "intro": "The new offences largely do not criminalise a participant’s private recording of an act that was lawful to perform, subject to the non-consensual-harm limit in England and Wales and to the “no actual strangulation” limit in Scotland once section 105 is in force. They criminalise possession by third parties and publication beyond the participants. Whether another offence also applies is a separate question, taken up in the overlapping-offences analysis above.",
       "entries": [
         {
           "id": "do-versus-record-table",
@@ -914,7 +1613,7 @@
     {
       "id": "cheeky-table",
       "title": "Cheeky table",
-      "intro": "Two edge cases, tested against the statutes set out above. The conclusions are about statutory scope, not a prediction of any charging decision or verdict.",
+      "intro": "Two edge cases, tested against the statutes set out above. The conclusions are about statutory scope, not a prediction of any charging decision or verdict, and not a statement that a gap in one offence is a safe harbour from every other offence.",
       "entries": [
         {
           "id": "cheeky-disclaimer",
@@ -1050,7 +1749,7 @@
           "title": "A short scorecard",
           "kind": "Our analysis",
           "table": {
-            "caption": "How the two edge cases sit against the 2026 pornography offences, the 2008 extreme-pornography offence, and other statutes. “Outside scope” means outside the cited offence, not that no other law could ever apply.",
+            "caption": "How the two edge cases sit against the 2026 pornography offences, the 2008 extreme-pornography offence, and other statutes. “Outside scope” means outside the cited offence, not that no other law could ever apply. The overlapping-offences analysis above is the place to test those other laws.",
             "columns": [
               "Scenario",
               "CPA 2026, ss.104–107",
@@ -1064,20 +1763,20 @@
                 "Outside scope (s.106 requires penetration; ss.104 and 107 are not engaged on these facts)",
                 "Outside scope (fluids are not a listed category)",
                 "Private possession is outside the 1959 Act. Publication is assessed under the current CPS test. The enacted semen-defaced-image offence is not in force. Public-place exposure and outraging public decency can still arise if the act is not private",
-                "Outside these imagery offences, with the traps above"
+                "Outside these imagery offences, with the traps above. Other offences may still apply."
               ],
               [
                 "AI-generated erotic image of a fictional adult with additional breasts, no listed act, no real person’s face, and not depicted as under 18",
                 "Outside scope if the “real person” test is not met, and in any event no listed act",
                 "Outside scope on the same two grounds",
                 "Must not be a prohibited image of a child (Coroners and Justice Act 2009, s.62). Must not depict a real person without consent (SOA 2003, ss.66E and 66B)",
-                "Outside these imagery offences if those tripwires are avoided. The “real person” filter is a question of fact"
+                "Outside these imagery offences if those tripwires are avoided. The “real person” filter is a question of fact. Other offences may still apply."
               ]
             ]
           },
           "paragraphs": [
             {
-              "text": "The scorecard is about statutory scope. It is not legal advice, and it is not a statement that any image or act is lawful in every respect.",
+              "text": "The scorecard is about statutory scope. It is not legal advice, and it is not a statement that any image or act is lawful in every respect. A gap in one offence is not a safe harbour from the others.",
               "sources": [
                 {
                   "id": "cpa-104"
@@ -1375,6 +2074,283 @@
       "url": "https://www.theguardian.com/law/2012/jan/07/obscene-publications-act-future-doubt",
       "checked": "2026-11-23",
       "date": "2012-01-07"
+    },
+    {
+      "id": "opa-1",
+      "title": "Obscene Publications Act 1959, section 1: test of obscenity",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/Eliz2/7-8/66/section/1",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "opa-4",
+      "title": "Obscene Publications Act 1959, section 4: defence of public good",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/Eliz2/7-8/66/section/4",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "ca-s127",
+      "title": "Communications Act 2003, section 127: improper use of public electronic communications network",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/section/127",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "mca-s1",
+      "title": "Malicious Communications Act 1988, section 1: sending letters etc. with intent to cause distress or anxiety",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/1",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "mca-s3",
+      "title": "Malicious Communications Act 1988, section 3: short title, commencement and extent",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1988/27/section/3",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "osa-s189",
+      "title": "Online Safety Act 2023, section 189: repeals in connection with offences under sections 179 and 181",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/189",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "osa-s179",
+      "title": "Online Safety Act 2023, section 179: false communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/179",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "osa-s181",
+      "title": "Online Safety Act 2023, section 181: threatening communications offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/181",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "si-2024-31",
+      "title": "The Online Safety Act 2023 (Commencement No. 3) Regulations 2024, regulation 2",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/2024/31/regulation/2",
+      "date": "2024-01-31",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "soa-66f",
+      "title": "Sexual Offences Act 2003, section 66F: requesting the creation of a purported intimate image of an adult",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66F",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "soa-66a",
+      "title": "Sexual Offences Act 2003, section 66A: sending etc photograph or film of genitals",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66A",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "osa-s187",
+      "title": "Online Safety Act 2023, section 187: sending etc photograph or film of genitals",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/187",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "soa-67",
+      "title": "Sexual Offences Act 2003, section 67: voyeurism",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/67",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "soa-67a",
+      "title": "Sexual Offences Act 2003, section 67A: voyeurism, additional offences",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/67A",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "pha-1",
+      "title": "Protection from Harassment Act 1997, section 1: prohibition of harassment",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/1",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "pha-2",
+      "title": "Protection from Harassment Act 1997, section 2: offence of harassment",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/2",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "pha-4",
+      "title": "Protection from Harassment Act 1997, section 4: putting people in fear of violence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1997/40/section/4",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "sca-44",
+      "title": "Serious Crime Act 2007, section 44: intentionally encouraging or assisting an offence",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2007/27/section/44",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "sca-45",
+      "title": "Serious Crime Act 2007, section 45: encouraging or assisting an offence believing it will be committed",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2007/27/section/45",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "sca-46",
+      "title": "Serious Crime Act 2007, section 46: encouraging or assisting offences believing one or more will be committed",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2007/27/section/46",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "sca-50",
+      "title": "Serious Crime Act 2007, section 50: defence of acting reasonably",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2007/27/section/50",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "idca-1",
+      "title": "Indecent Displays (Control) Act 1981, section 1: indecent displays",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/42/section/1",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "idca-5",
+      "title": "Indecent Displays (Control) Act 1981, section 5: short title, extent and commencement",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/42/section/5",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "cja-64",
+      "title": "Coroners and Justice Act 2009, section 64: defences to possession of a prohibited image of a child",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2009/25/section/64",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "osa-81",
+      "title": "Online Safety Act 2023, section 81: duties about regulated provider pornographic content",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/81",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "si-2024-1333",
+      "title": "The Online Safety Act 2023 (Commencement No. 4) Regulations 2024, regulation 2",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/2024/1333/regulation/2",
+      "date": "2025-01-17",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "hra-6",
+      "title": "Human Rights Act 1998, section 6: acts of public authorities",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/42/section/6",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "hra-sch1",
+      "title": "Human Rights Act 1998, Schedule 1: Articles 8 and 10 of the Convention",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/42/schedule/1",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "uk-gdpr-9",
+      "title": "UK GDPR, Article 9: processing of special categories of personal data",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/9",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "dpa-2018",
+      "title": "Data Protection Act 2018",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/contents",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "collins",
+      "title": "DPP v Collins [2006] UKHL 40",
+      "publisher": "House of Lords",
+      "type": "Judgment",
+      "url": "https://publications.parliament.uk/pa/ld200506/ldjudgmt/jd060719/collin-1.htm",
+      "date": "2006-07-19",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "hamilton",
+      "title": "R v Hamilton [2007] EWCA Crim 2062",
+      "publisher": "The National Archives",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2007/2062",
+      "date": "2007-08-16",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "cps-comms",
+      "title": "Communications Offences: legal guidance",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official guidance",
+      "url": "https://www.cps.gov.uk/prosecution-guidance/communications-offences",
+      "checked": "2026-11-23"
+    },
+    {
+      "id": "ho-porn-factsheet",
+      "title": "Crime and Policing Act 2026: pornography factsheet",
+      "publisher": "Home Office",
+      "type": "Official guidance",
+      "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-pornography-factsheet",
+      "date": "2026-09-30",
+      "checked": "2026-11-23"
     }
   ]
 }
