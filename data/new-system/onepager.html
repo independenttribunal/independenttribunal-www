@@ -1,0 +1,895 @@
+<title>The New System — Minimal Viable Law</title>
+<style>
+  :root {
+    --paper: #FFFFFF;
+    --ink: #1B2340;
+    --ink-soft: #5C6785;
+    --rule: #E4EBF8;
+    --accent: #2F7BFF;
+    --accent-tint: #EAF2FF;
+    --accent-deep: #2F7BFF;
+    --signal: #FF6A4D;
+    --signal-tint: #FFF0ED;
+    --good: #10C08A;
+    --amber: #E5A500;
+    --amber-tint: #FFF7DE;
+    --field: #FFFFFF;
+    --shadow: 0 1px 10px rgba(27, 35, 64, 0.05);
+  }
+  html { background: var(--paper); color-scheme: light only; }
+  body {
+    font-family: -apple-system, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .sheet {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 5rem;
+  }
+  .mono {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  /* Masthead */
+  header { text-align: center; padding-bottom: 2.2rem; }
+  .cite {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-tint);
+    padding: 0.35rem 0.85rem;
+    border-radius: 99px;
+    display: inline-block;
+  }
+  h1 {
+    font-size: clamp(2.4rem, 7vw, 3.6rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 1.1rem 0 0.4rem;
+    text-wrap: balance;
+    line-height: 1.05;
+  }
+  h1 .dot { color: var(--accent); }
+  .subtitle {
+    font-size: 1.08rem;
+    color: var(--ink-soft);
+    margin: 0.3rem auto 0;
+    max-width: 34rem;
+    text-wrap: balance;
+  }
+  /* Preamble */
+  .preamble {
+    margin: 1.8rem 0 0;
+    font-size: 1.15rem;
+    text-wrap: pretty;
+    text-align: center;
+  }
+  .preamble strong { color: var(--accent); font-weight: 700; }
+  /* Articles */
+  article { margin-top: 3rem; }
+  .art-label {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-tint);
+    padding: 0.3rem 0.75rem;
+    border-radius: 99px;
+    display: inline-block;
+  }
+  article h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin: 0.7rem 0 0.6rem;
+    text-wrap: balance;
+    line-height: 1.2;
+  }
+  article p { margin: 0.6rem 0; color: var(--ink); }
+  article p.note { color: var(--ink-soft); font-size: 0.95rem; }
+  .expiry { color: var(--signal); font-weight: 700; }
+  /* Life banner */
+  .life {
+    margin-top: 1.2rem;
+    background: linear-gradient(135deg, #6FB0FF, #2F7BFF);
+    color: #fff;
+    border-radius: 16px;
+    padding: 1.4rem 1.5rem;
+    box-shadow: 0 6px 24px rgba(59, 125, 245, 0.25);
+  }
+  .life .life-eyebrow {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    opacity: 0.85;
+  }
+  .life p {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0.4rem 0 0;
+    line-height: 1.4;
+    text-wrap: pretty;
+  }
+  .life p .soft { font-weight: 400; opacity: 0.92; }
+  /* Disclaimer */
+  .warn {
+    margin: 0.9rem 0 0;
+    border: 1.5px dashed var(--signal);
+    background: var(--signal-tint);
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+    color: var(--ink);
+  }
+  .warn .tag {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--signal);
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+  .oldlaws {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    background: var(--field);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .oldlaws li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+  }
+  .oldlaws li + li { border-top: 1px solid var(--rule); }
+  .oldlaws .src {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    white-space: nowrap;
+    align-self: center;
+  }
+  /* The form */
+  .form {
+    margin-top: 1.4rem;
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    background: var(--field);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .form-head {
+    padding: 0.85rem 1.1rem;
+    border-bottom: 1px solid var(--rule);
+    background: var(--accent-tint);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  .form-head .mono { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+  .form-head .specimen { color: var(--signal); }
+  .field { padding: 0.9rem 1.1rem 1rem; }
+  .field + .field { border-top: 1px solid var(--rule); }
+  .field-label {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .field-label .req { color: var(--signal); }
+  .field-help {
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+    margin: 0.25rem 0 0;
+    text-wrap: pretty;
+  }
+  .writing-line {
+    margin-top: 1.1rem;
+    border-bottom: 1.5px dashed var(--rule);
+    height: 1.1rem;
+  }
+  .sublayer { margin-top: 0.8rem; padding-left: 1rem; border-left: 3px solid var(--accent-tint); }
+  .sublayer .field-label { color: var(--ink); }
+  /* Definitions */
+  .defs {
+    margin-top: 1.2rem;
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    background: var(--field);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .defs dl { margin: 0; }
+  .defs .def-row { padding: 0.75rem 1.1rem; }
+  .defs .def-row + .def-row { border-top: 1px solid var(--rule); }
+  .defs dt {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .defs dd {
+    margin: 0.2rem 0 0;
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+  }
+  /* Rebuild steps */
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.4rem;
+  }
+  .step {
+    background: var(--field);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 0.9rem 1rem 1rem;
+    box-shadow: var(--shadow);
+  }
+  .step .n {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-tint);
+    border-radius: 99px;
+    padding: 0.2rem 0.6rem;
+    display: inline-block;
+  }
+  .step h3 { margin: 0.5rem 0 0.2rem; font-size: 1rem; font-weight: 800; }
+  .step p { margin: 0; font-size: 0.88rem; color: var(--ink-soft); text-wrap: pretty; }
+  /* Tribunal */
+  h3.sub { font-size: 1.02rem; font-weight: 800; margin: 1.8rem 0 0; }
+  ul.facts { padding-left: 1.1rem; margin: 0.4rem 0 0; }
+  ul.facts li { margin: 0.3rem 0; }
+  ol.flow { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 0.6rem; counter-reset: fl; }
+  ol.flow li { counter-increment: fl; background: var(--accent-tint); border-radius: 12px; padding: 0.7rem 0.9rem; font-size: 0.88rem; color: var(--ink); }
+  ol.flow li::before { content: counter(fl) " →"; display: block; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.72rem; font-weight: 700; color: var(--accent); margin-bottom: 0.2rem; }
+  /* Areas of law */
+  .areas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+    gap: 0.6rem;
+    margin-top: 1.2rem;
+  }
+  .area {
+    background: var(--field);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 0.55rem 0.8rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: var(--shadow);
+  }
+  .area.wild {
+    background: var(--amber-tint);
+    border-color: var(--amber);
+    color: var(--amber);
+    grid-column: 1 / -1;
+    font-weight: 700;
+  }
+  .area.wild .why { display: block; font-weight: 400; font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.15rem; }
+  /* Manifesto card */
+  .manifesto {
+    margin-top: 1.4rem;
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    background: var(--field);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .manifesto-head {
+    padding: 0.85rem 1.1rem;
+    border-bottom: 1px solid var(--rule);
+    background: var(--accent-tint);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  .manifesto-head .mono { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+  .manifesto ol { margin: 0; padding: 0; list-style: none; counter-reset: pt -1; }
+  .manifesto li {
+    display: grid;
+    grid-template-columns: 2.1rem 1fr;
+    gap: 0.2rem 0.6rem;
+    padding: 0.7rem 1.1rem 0.75rem;
+    counter-increment: pt;
+  }
+  .manifesto li + li { border-top: 1px solid var(--rule); }
+  .manifesto li::before {
+    content: counter(pt, decimal-leading-zero);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    padding-top: 0.22rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .manifesto li.zero::before { color: var(--signal); }
+  .manifesto .point { font-weight: 700; font-size: 1rem; text-wrap: pretty; }
+  .manifesto .because {
+    grid-column: 2;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+  /* Case gallery */
+  .cases {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 1rem;
+    margin-top: 1.4rem;
+  }
+  .case {
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    background: var(--field);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .case .plate {
+    aspect-ratio: 4 / 3;
+    display: grid;
+    place-items: center;
+    border-bottom: 1px solid var(--rule);
+    background: linear-gradient(135deg, var(--accent-tint), transparent);
+  }
+  .case .plate span {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    padding: 0.35rem 0.7rem;
+  }
+  .case-body { padding: 0.7rem 0.85rem 0.9rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .case-name { font-weight: 700; font-size: 0.98rem; line-height: 1.25; text-wrap: balance; }
+  .case-year {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    color: var(--ink-soft);
+  }
+  .case-note { font-size: 0.85rem; color: var(--ink-soft); text-wrap: pretty; margin: 0; }
+  .case .verdict-a { color: var(--good); font-weight: 700; }
+  .case .verdict-c { color: var(--signal); font-weight: 700; }
+  sup.fn {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.68em;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .refs {
+    margin-top: 3rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.2rem;
+  }
+  .refs h3 {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    font-weight: 400;
+    margin: 0 0 0.8rem;
+  }
+  .refs ol {
+    margin: 0;
+    padding-left: 1.4rem;
+    font-size: 0.86rem;
+    color: var(--ink-soft);
+  }
+  .refs li { margin: 0.45rem 0; text-wrap: pretty; }
+  .refs li::marker {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  footer {
+    margin-top: 3rem;
+    padding: 1.6rem 1.5rem;
+    background: var(--accent-tint);
+    border-radius: 16px;
+    text-align: center;
+  }
+  footer p { margin: 0.3rem 0; }
+  footer .motto { font-weight: 800; font-size: 1.15rem; letter-spacing: -0.01em; }
+  footer .cite { display: inline-block; margin-top: 0.9rem; background: var(--field); }
+</style>
+
+<div class="sheet">
+  <header>
+    <span class="cite">MVL / 2026 / No. 1 — Instrument of Onboarding</span>
+    <h1>The New System<span class="dot">.</span></h1>
+    <p class="subtitle">The smallest set of laws that can work, built from scratch. The sad, serious business of keeping law honest.</p>
+  </header>
+
+  <p class="preamble">
+    We are not patching the old system. We are writing a new one from scratch —
+    <strong>minimal by default</strong>, answerable to conscience, open to evidence.
+    Then we hold it against the old one, with a mandate to improve it.
+  </p>
+
+  <article>
+    <span class="art-label">Article 1 — First principle</span>
+    <h2>Life comes first</h2>
+    <div class="life">
+      <span class="life-eyebrow">Before every other rule</span>
+      <p>
+        Do not kill. Do not murder. Do not unjustifiably harm.
+        <span class="soft">Care for people, for other living creatures, and for the systems that sustain life.</span>
+      </p>
+    </div>
+    <p class="note">Every article below exists to serve this one. A law that does not serve life fails its review. A court that punishes care has lost its way.</p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 2 — The ten points</span>
+    <h2>Ten points each — and one sentence why</h2>
+    <p>
+      Root causes go unfixed because nobody has to state their reasons in public, side by side. So the new
+      system opens a standing forum with one rule. <strong>Any organisation may enter, and every organisation
+      enters the same way</strong> — ten points, one sentence of justification each.
+    </p>
+    <p>
+      Ten forces you to choose what matters most. One sentence forces you to say why — no burying it in a
+      hundred-page report nobody reads. The sameness is the whole point. A protest group, a bank, a police
+      force, an arms maker, a government department: same board, same shape. Their reasons sit side by side —
+      and refusing to enter is itself visible.
+    </p>
+
+    <div class="manifesto">
+      <div class="manifesto-head">
+        <span class="mono">Entry No. 1 — Ten Points</span>
+        <span class="mono who">The New System</span>
+      </div>
+      <ol>
+        <li class="zero">
+          <span class="point">Life comes first.</span>
+          <span class="because">Because every other rule exists to serve it.</span>
+        </li>
+        <li>
+          <span class="point">The jury answers to conscience.</span>
+          <span class="because">Because a law the public refuses to enforce has lost its permission, and someone must be able to say so out loud.</span>
+        </li>
+        <li>
+          <span class="point">Justification is always heard.</span>
+          <span class="because">Because no court should convict someone it has forbidden to explain themselves.</span>
+        </li>
+        <li>
+          <span class="point">The right to prosecute is earned by evidence, not by office.</span>
+          <span class="because">Because a gate that decides in advance which cases are worth hearing decides who the law is for.</span>
+        </li>
+        <li>
+          <span class="point">Every act is recorded in separate fields.</span>
+          <span class="because">Because judgment fails when reason, body, mind and the view of others are tangled into one story.</span>
+        </li>
+        <li>
+          <span class="point">Every law expires unless renewed.</span>
+          <span class="because">Because a law that cannot justify itself again is obeyed out of habit, not consent.</span>
+        </li>
+        <li>
+          <span class="point">Thresholds are named and ordered.</span>
+          <span class="because">Because a careless mistake and a chosen, repeated failure are different things and deserve different consequences.</span>
+        </li>
+        <li>
+          <span class="point">Honest belief is not truth.</span>
+          <span class="because">Because a lie repeated often enough is believed sincerely, and sincerity does not make it true.</span>
+        </li>
+        <li>
+          <span class="point">Serious accusations carry time limits, with serious exceptions.</span>
+          <span class="because">Because evidence decays, and a defence that can no longer be mounted is not a trial.</span>
+        </li>
+        <li>
+          <span class="point">Terrorism means intent to kill or injure.</span>
+          <span class="because">Because a word that covers both mass murder and spray paint no longer tells you anything about right and wrong.</span>
+        </li>
+        <li>
+          <span class="point">Every organisation states its ten points and justifies each in one sentence.</span>
+          <span class="because">Because power that will not explain itself in public is not accountable in private.</span>
+        </li>
+      </ol>
+    </div>
+    <p class="note">A person must always be <em>allowed</em> to say why. An institution must always be <em>required</em> to. Justification said openly, not hidden.</p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 3 — The record</span>
+    <h2>A standard record of what happened — and why</h2>
+    <p>
+      Judgment fails when everything gets tangled into one story. The record keeps things apart:
+      three fields of testimony, then one multi-step test of judgment by others.
+    </p>
+
+    <div class="form" role="img" aria-label="Specimen standard record: three testimony fields and a five-step judgment test">
+      <div class="form-head">
+        <span class="mono">Form MVL-1 · Standard Record of an Act</span>
+        <span class="mono specimen">Specimen</span>
+      </div>
+      <div class="field">
+        <span class="field-label">1 · Justification <span class="req">— required, always</span></span>
+        <p class="field-help">Why the person did it. There is always a reason. If there was none, "no reason" becomes the reason — and is recorded as such. No court can ever forbid this field, and it can never be left blank.</p>
+        <div class="writing-line"></div>
+      </div>
+      <div class="field">
+        <span class="field-label">2 · Physical state — recorded by default</span>
+        <p class="field-help">Drunk · on drugs · sick · exhausted · no sleep. Always a factor. A condition of the body, not a state of mind.</p>
+        <div class="writing-line"></div>
+      </div>
+      <div class="field">
+        <span class="field-label">3 · State of mind — subjective</span>
+        <p class="field-help">What the person was thinking in the moment. Their own testimony, kept strictly apart from the body's condition.</p>
+        <div class="writing-line"></div>
+      </div>
+      <div class="field">
+        <span class="field-label">4 · Judgment by others — the multi-step test</span>
+        <p class="field-help">Not one "reasonable person" but five distinct viewpoints, each answered on its own.</p>
+        <div class="sublayer">
+          <span class="field-label">4a · Then</span>
+          <p class="field-help">What others could fairly have thought in that moment, knowing only what was knowable then.</p>
+        </div>
+        <div class="sublayer">
+          <span class="field-label">4b · Now</span>
+          <p class="field-help">What others conclude today, knowing everything that has come to light since.</p>
+        </div>
+        <div class="sublayer">
+          <span class="field-label">4c · By people like me</span>
+          <p class="field-help">The judgment of peers — people in similar circumstances, who know what those circumstances demand.</p>
+        </div>
+        <div class="sublayer">
+          <span class="field-label">4d · By a judge</span>
+          <p class="field-help">The trained, dispassionate reading of the law — what lawyers call objective reasonableness.</p>
+        </div>
+        <div class="sublayer">
+          <span class="field-label">4e · Any other considerations</span>
+          <p class="field-help">Anything the first four steps could not hold. Named, not smuggled in.</p>
+        </div>
+      </div>
+    </div>
+    <p class="note">When Field 1 keeps drawing sympathy under the same law, that law goes to review. The record and the jury are the same signal, written down.</p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 4 — Who may prosecute</span>
+    <h2>The right to prosecute is earned by evidence, not office</h2>
+    <p>
+      Today, prosecution passes through gates. The main gate is the CPS — the Crown Prosecution Service,
+      the state's prosecutor. It applies a two-stage test: is conviction realistic, and is prosecuting in
+      the public interest.<sup class="fn">7</sup> Anyone else can bring a private prosecution, but only if a
+      magistrate approves it first. Even then, the CPS can take the case over and drop it.<sup class="fn">8</sup>
+    </p>
+    <p>
+      The new system removes the gates. <strong>Anyone who builds a dossier — a solid file of evidence —
+      has the authority to prosecute.</strong> The case goes straight to court, where the dossier is tested
+      in the open. The filter is the trial itself, not a door in front of it. Open prosecution in, conscience
+      acquittal out — two valves, keeping the system honest in both directions.
+    </p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 5 — The default</span>
+    <h2>Every law expires unless renewed</h2>
+    <p>
+      Every law carries a review date. At review, the default outcome is <span class="expiry">expiry</span> —
+      renewal is earned, never inherited. A law that cannot justify itself again leaves the books. The old
+      system has nothing like this, which is how each of these is still an offence:
+    </p>
+    <ul class="oldlaws">
+      <li><span>Handling salmon in suspicious circumstances</span><span class="src">Salmon Act 1986</span></li>
+      <li><span>Being drunk in a pub</span><span class="src">Licensing Act 1872</span></li>
+      <li><span>Wearing a suit of armour in Parliament</span><span class="src">Statute of 1313</span></li>
+      <li><span>Carrying a plank along a pavement</span><span class="src">Metropolitan Police Act 1839</span></li>
+    </ul>
+    <p class="note">The joke is not the laws. The joke is that the system has no way to let them go.</p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 6 — The rebuild</span>
+    <h2>Rebuild justice from the ground up</h2>
+    <p>The working method, in six moves:</p>
+    <div class="steps">
+      <div class="step"><span class="n">01</span><h3>Simplify</h3><p>Make the law clear enough for anyone to read.</p></div>
+      <div class="step"><span class="n">02</span><h3>Update</h3><p>Remove obsolete laws. Close loopholes.</p></div>
+      <div class="step"><span class="n">03</span><h3>Standardise</h3><p>Common standards for evidence, deadlines and penalties.</p></div>
+      <div class="step"><span class="n">04</span><h3>Decide fairly</h3><p>Independent judges. Proportional sentences. Timely justice.</p></div>
+      <div class="step"><span class="n">05</span><h3>Open to all</h3><p>Affordable, accessible, inclusive — everyone can be heard.</p></div>
+      <div class="step"><span class="n">06</span><h3>OpenScore</h3><p>Public records findable, searchable and transparent.</p></div>
+    </div>
+    <p style="margin-top:1.6rem;">Ten foundational areas of law — plus room for what nobody has thought of yet:</p>
+    <div class="areas">
+      <span class="area">Commercial</span>
+      <span class="area">Property</span>
+      <span class="area">Building</span>
+      <span class="area">Transport</span>
+      <span class="area">Work</span>
+      <span class="area">Family</span>
+      <span class="area">Information &amp; technology</span>
+      <span class="area">Environment</span>
+      <span class="area">Public administration</span>
+      <span class="area">Personal safety</span>
+      <span class="area wild">★ Wildcard<span class="why">We do not know what we do not know. Leave room for the best new ideas.</span></span>
+    </div>
+  </article>
+
+  <article>
+    <span class="art-label">Article 7 — Definitions</span>
+    <h2>Thresholds, named and ordered</h2>
+    <p>Judgment needs a ladder, not a blur. The new system names every rung:</p>
+    <div class="defs">
+      <dl>
+        <div class="def-row">
+          <dt>Negligence</dt>
+          <dd>Falling short of the care the situation asked for.</dd>
+        </div>
+        <div class="def-row">
+          <dt>Gross negligence</dt>
+          <dd>Falling so far short that the failure itself deserves blame.</dd>
+        </div>
+        <div class="def-row">
+          <dt>Wilful gross negligence</dt>
+          <dd>Knowing the failure and choosing it anyway.</dd>
+        </div>
+        <div class="def-row">
+          <dt>Persistent wilful gross negligence</dt>
+          <dd>Choosing it again, and again, after being told.</dd>
+        </div>
+      </dl>
+    </div>
+    <p style="margin-top:1.4rem;">
+      Truth needs the same ladder. A lie repeated often enough can be <em>genuinely believed</em> —
+      and honest belief is not the same as truth. So statements are graded:
+    </p>
+    <div class="defs">
+      <dl>
+        <div class="def-row">
+          <dt>True and verified</dt>
+          <dd>Said, checked, and checkable by anyone else.</dd>
+        </div>
+        <div class="def-row">
+          <dt>Honest belief, unverified</dt>
+          <dd>Genuinely believed, never checked — including beliefs planted by repetition.</dd>
+        </div>
+        <div class="def-row">
+          <dt>Reckless assertion</dt>
+          <dd>Said without caring whether it is true.</dd>
+        </div>
+        <div class="def-row">
+          <dt>Knowing falsehood</dt>
+          <dd>Said while knowing it is false.</dd>
+        </div>
+      </dl>
+    </div>
+    <p class="note">Field 3 of the record captures what a person believed. This ladder records how that belief stands against the truth — two different questions, never merged.</p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 8 — Time</span>
+    <h2>Reasonable limits, serious exceptions</h2>
+    <p>
+      England and Wales put no time limit on prosecuting serious crimes. Most of Europe sets limits even for
+      serious offences — England and Wales are the outlier.<sup class="fn">13</sup> For alleged sexual offences
+      involving adults, the new system proposes a <strong>presumptive ten-year limit</strong>. It applies only
+      where no complaint was made within that time. "Presumptive" means a normal rule the prosecution can
+      overcome — a default, not a wall. The reasons are about evidence, not morals. Evidence decays, memories
+      change with retelling, and a decades-old evening becomes impossible to defend fairly.
+    </p>
+    <div class="defs">
+      <dl>
+        <div class="def-row">
+          <dt>No clock ever</dt>
+          <dd>Crimes against children and minors, plus war crimes, genocide and crimes against humanity, never time out.</dd>
+        </div>
+        <div class="def-row">
+          <dt>The clock pauses</dt>
+          <dd>Coercion, incapacity or deliberate cover-up pauses the clock — silence the perpetrator created never counts in their favour.</dd>
+        </div>
+        <div class="def-row">
+          <dt>The past reopens</dt>
+          <dd>A new victim, or credible new evidence showing a pattern, reopens older linked allegations.</dd>
+        </div>
+        <div class="def-row">
+          <dt>Always</dt>
+          <dd>Innocence is presumed; late complaints are still heard; courts weigh delay, evidence and fairness on the record.</dd>
+        </div>
+      </dl>
+    </div>
+    <p class="note">Hear late complaints; protect fair trials. Not "believe" or "disbelieve" — keep the fields separate and judge each on the record.</p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 9 — The first case</span>
+    <h2>The Independent Tribunal — the system, in use</h2>
+    <p>
+      A system is proved by what it is willing to try. <strong>IndependentTribunal.org</strong> is the first
+      tool built on these rules. It gathers evidence against people who, <em>from public office</em>, enabled
+      genocide, crimes against humanity or war crimes — and sends it to every authority that can act.
+    </p>
+    <p>It starts from findings already on the record:</p>
+    <ul class="facts">
+      <li>UN Commission of Inquiry, Sept 2025: genocide has been committed in Gaza.<sup class="fn">15</sup></li>
+      <li>International Criminal Court, Nov 2024: arrest warrants for crimes against humanity and starvation as a weapon.<sup class="fn">16</sup></li>
+      <li>Al-Haq and GLAN: UK arms export licences taken to the High Court and Court of Appeal.<sup class="fn">17</sup></li>
+    </ul>
+
+    <h3 class="sub">How the tribunal runs on the New System</h3>
+    <div class="steps">
+      <div class="step"><span class="n">Art. 1</span><h3>Why it exists</h3><p>Life comes first. Supplying the means to destroy life is not neutral.</p></div>
+      <div class="step"><span class="n">Art. 3</span><h3>Every dossier is a Form MVL-1</h3><p>Conduct, knowledge, justification and judgment by others — each in its own field, never merged.</p></div>
+      <div class="step"><span class="n">Art. 4</span><h3>Evidence gives standing</h3><p>The dossier <em>is</em> the claim to prosecute. No office required.</p></div>
+      <div class="step"><span class="n">Art. 7</span><h3>Named thresholds</h3><p>Knew? Was warned? Kept going? Each step up the ladder is recorded separately.</p></div>
+      <div class="step"><span class="n">Art. 8</span><h3>No clock</h3><p>Atrocity crimes never expire. Evidence is preserved to last.</p></div>
+      <div class="step"><span class="n">Art. 2</span><h3>Right to reply</h3><p>Every named body is invited to state its position in ten points, one sentence each.</p></div>
+    </div>
+
+    <h3 class="sub">From evidence to court</h3>
+    <ol class="flow">
+      <li><strong>Collect</strong> — open-source evidence, verified and archived</li>
+      <li><strong>Record</strong> — one Form MVL-1 per act, per person</li>
+      <li><strong>Refer</strong> — ICC prosecutor, war crimes units, judicial review</li>
+      <li><strong>Publish</strong> — method and sources, open for anyone to check</li>
+    </ol>
+
+    <div class="warn" style="border-style:solid;">
+      <span class="tag">The old system indicts itself</span>
+      To prosecute war crimes in England and Wales you need the Attorney General's consent.<sup class="fn">18</sup>
+      A political officer holds the gate in front of prosecuting political officers. Article 4 was written for
+      exactly this door. <strong>Proposal:</strong> replace that consent with a judge's decision, in open court, with reasons.
+    </div>
+    <p class="note">The standard: name the conduct, cite the sources, allege a case to answer — never declare guilt a court has not. Same standard for every side.</p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 10 — The jury</span>
+    <h2>The jury answers to conscience</h2>
+    <p>
+      If a case is grossly unfair — immoral, obscene — the jury can say no. That is the foundation under
+      everything else. Since Bushel's Case in 1670, no juror can be punished for their verdict.<sup class="fn">1</sup>
+      Ponting walked free in 1985, against the judge's direction.<sup class="fn">2</sup> The Colston Four walked
+      in 2022, after Rajiv Menon KC told the jury it could acquit on conscience.<sup class="fn">3</sup>
+    </p>
+    <p>
+      The old system punishes people for saying this out loud. David Nixon of Insulate Britain was jailed
+      eight weeks for contempt — for telling the jury <em>why he did it</em>.<sup class="fn">4</sup> Giovanna Lewis
+      and Amy Pritchard were jailed seven weeks for mentioning the climate crisis.<sup class="fn">5</sup> Trudi Warner
+      was prosecuted over a sign about jury conscience; the High Court threw the case out.<sup class="fn">6</sup>
+    </p>
+    <p>
+      Now it reaches the lawyers too. In January 2026, <strong>Rajiv Menon KC</strong> gave a closing speech
+      invoking jury conscience, defending one of the Filton accused. For that speech he faces contempt
+      proceedings — up to two years in prison. He is the first barrister in modern British legal history
+      prosecuted for a closing speech.<sup class="fn">14</sup> A system that jails the defendant, the bystander,
+      and now the barrister is not defending the trial. It is defending itself from the trial.
+    </p>
+    <p class="note">The new system says this power out loud. When juries keep acquitting on conscience under one law, that law goes to review — the public has withdrawn its mandate.</p>
+
+    <div class="cases" role="list" aria-label="Case gallery">
+      <div class="case" role="listitem">
+        <div class="plate"><span>F·6</span></div>
+        <div class="case-body">
+          <span class="case-year">2026 · Woolwich</span>
+          <span class="case-name">The Filton Six</span>
+          <p class="case-note"><span class="verdict-a">Not convicted.</span> The jury acquitted or refused to convict on every charge — including one that carried a life sentence. The case was over an action at an Elbit site.<sup class="fn">9</sup></p>
+        </div>
+      </div>
+      <div class="case" role="listitem">
+        <div class="plate"><span>B·5</span></div>
+        <div class="case-body">
+          <span class="case-year">2026 · Burnley</span>
+          <span class="case-name">The Barclays Five</span>
+          <p class="case-note"><span class="verdict-c">Convicted</span> of criminal damage. At sentencing the judge moved to add a "terrorist connection" — a question no jury was ever asked.<sup class="fn">10</sup></p>
+        </div>
+      </div>
+      <div class="case" role="listitem">
+        <div class="plate"><span>D·N</span></div>
+        <div class="case-body">
+          <span class="case-year">2023 · Inner London</span>
+          <span class="case-name">David Nixon</span>
+          <p class="case-note"><span class="verdict-c">Jailed 8 weeks</span> for contempt — for telling the jury why he did it. Field 1, forbidden in court.<sup class="fn">4</sup></p>
+        </div>
+      </div>
+      <div class="case" role="listitem">
+        <div class="plate"><span>R·M</span></div>
+        <div class="case-body">
+          <span class="case-year">2026 · High Court</span>
+          <span class="case-name">Rajiv Menon KC</span>
+          <p class="case-note"><span class="verdict-c">Faces two years.</span> Contempt proceedings for a closing speech on jury conscience — a first for a barrister in modern British legal history.<sup class="fn">14</sup></p>
+        </div>
+      </div>
+      <div class="case" role="listitem">
+        <div class="plate"><span>T·W</span></div>
+        <div class="case-body">
+          <span class="case-year">2024 · High Court</span>
+          <span class="case-name">Trudi Warner</span>
+          <p class="case-note"><span class="verdict-a">Case dismissed.</span> Prosecuted over a sign saying jurors may follow their conscience; the High Court threw the case out.<sup class="fn">6</sup></p>
+        </div>
+      </div>
+    </div>
+    <p class="note">Plates stand where photographs will go — licensed portraits to be added.</p>
+  </article>
+
+  <article>
+    <span class="art-label">Article 11 — The word</span>
+    <h2>A label that covers everything describes nothing</h2>
+    <div class="warn">
+      <span class="tag">⚠ Disclaimer</span>
+      Politically sensitive. Toxic. Radioactive. Do not mention this article if you ever want to get a job.
+    </div>
+    <p>
+      At one end, "terrorism" means deliberately killing many civilians. At the other, it now covers broken
+      windows at a factory and paint on a bank. A word doing both jobs no longer tells you anything about
+      right and wrong. It becomes a lever, not a description — and a lever can be pulled at anyone.
+    </p>
+    <p>
+      This is not a fringe view. In July 2025, UN special rapporteurs — independent rights experts — issued
+      a warning. Property damage without intent to kill or injure, they said, is not terrorism. They called
+      the UK out of step with comparable democracies.<sup class="fn">11</sup> In February 2026 the High Court ruled
+      a protest group's proscription — its official ban as terrorist — unlawful. The Court of Appeal reversed
+      that in June 2026.<sup class="fn">12</sup> When senior judges split on whether a ban was lawful, it is a live
+      question, not settled fact.
+    </p>
+    <p>
+      <strong>The new system's rule: terrorism means intent to kill or injure people.</strong> Break a window,
+      and you answer for a broken window — at the scale of the damage done. A terrorist ban is a law like any
+      other: justified in public, tested in open court. And it <span class="expiry">expires unless renewed</span>.
+    </p>
+    <p class="note">Once you have seen this label cover a broken window, look again at everyone it has ever covered. In both directions, without flinching at what you find.</p>
+  </article>
+
+  <div class="refs">
+    <h3>References</h3>
+    <ol>
+      <li>Bushel's Case (1670) 124 E.R. 1006 — jurors imprisoned for acquitting William Penn and William Mead; the Court of Common Pleas ruled no juror may be punished for their verdict.</li>
+      <li>R v Ponting (1985) — civil servant acquitted of an Official Secrets Act charge over the Belgrano papers, against the judge's direction that he had no defence in law.</li>
+      <li>R v Willoughby &amp; ors ("the Colston Four", Bristol Crown Court, 2022) — Rajiv Menon KC's closing speech invited the jury to acquit according to conscience; they did.</li>
+      <li>David Nixon, Insulate Britain — jailed 8 weeks for contempt, Inner London Crown Court, February 2023, for telling the jury his motivation (fuel poverty) in defiance of the judge's ruling.</li>
+      <li>Giovanna Lewis and Amy Pritchard, Insulate Britain — jailed 7 weeks each for contempt, same court, March 2023, for mentioning the climate crisis to the jury.</li>
+      <li>Solicitor General v Trudi Warner — contempt proceedings over a sign outside Inner London Crown Court stating jurors' right to acquit on conscience; dismissed by the High Court, April 2024.</li>
+      <li>The Full Code Test, Code for Crown Prosecutors — evidential stage and public interest stage.</li>
+      <li>Prosecution of Offences Act 1985, s.6(1) — the right of private prosecution; s.6(2) — the CPS power to take over.</li>
+      <li>The Filton Six (Palestine Action, of the "Filton 24") — February 2026: jury acquitted Fatema Zainab Rajwani, Zoe Rogers and Jordan Devlin and refused to convict Charlotte Head, Samuel Corner and Leona Kamio on all charges, including aggravated burglary; CPS pursuing retrial.</li>
+      <li>The Barclays Five (Palestine Action) — Brendon O'Hagan, Amanda Kelly, Hmeera Atiqnisar, Mohammed Malik and Alma Yaniv, convicted 2026 of £212,000 criminal damage at a Burnley branch; the judge subsequently moved to sentence with a "terrorist connection" despite no terrorism charge at trial.</li>
+      <li>UN special rapporteurs, joint statement, 1 July 2025 (OHCHR) — including Irene Khan (freedom of expression) and Ben Saul (human rights and counter-terrorism): protest that damages property without intent to kill or injure should not be treated as terrorism; the UK's approach described as out of step with comparable liberal democracies.</li>
+      <li>R (Ammori) v Secretary of State for the Home Department — Divisional Court, 13 February 2026: proscription held unlawful on policy grounds and under ECHR Articles 10 and 11. Reversed on appeal: Home Secretary v Ammori [2026] EWCA Civ 1721 (June 2026), proscription held lawful. Amnesty International UK and Liberty intervened against the proscription.</li>
+      <li>Comparative limitation periods — England &amp; Wales: none for indictable offences; Germany, France, the Netherlands and most continental systems time-limit prosecution of rape between adults (typically 10–20 years, with tolling for concealment and minority). Verify per-country details before publication.</li>
+      <li>Re Rajiv Menon KC — contempt proceedings over a closing speech of 8 January 2026 invoking jury equity in the defence of a Filton defendant; Johnson J ruled on 22 June 2026 that threshold conditions were met and proceeding was in the public interest. Maximum sentence two years. Judgment: judiciary.uk.</li>
+      <li>UN Independent International Commission of Inquiry on the Occupied Palestinian Territory, report of 16 September 2025 — concluded that genocide has been committed in Gaza, finding four of the five genocidal acts under the 1948 Convention, and called for genocide charges to be added to the ICC warrants.</li>
+      <li>ICC arrest warrants, 21 November 2024 — Benjamin Netanyahu and Yoav Gallant, for crimes against humanity (murder, persecution) and the war crime of starvation as a method of warfare.</li>
+      <li>Al-Haq and GLAN v Secretary of State for Business and Trade — judicial review of UK arms export licensing to Israel and the F-35 "carve-out"; High Court judgment July 2025 held the question one for Parliament; permission to appeal pursued in the Court of Appeal.</li>
+      <li>International Criminal Court Act 2001, s.53(3) — proceedings for genocide, crimes against humanity and war crimes may be brought only with the consent of the Attorney General. Similar consent requirements apply under the Geneva Conventions Act 1957 and s.135 Criminal Justice Act 1988 (torture). Verify current text before publication.</li>
+    </ol>
+  </div>
+
+  <footer>
+    <p class="motto">Simplify. Start fresh. Serve life.</p>
+    <p>Answerable to conscience. Open to evidence. Minimal by default.</p>
+    <p>You are now onboarded.</p>
+    <span class="cite">The New System — mapped against the old, with a mandate to improve it</span>
+  </footer>
+</div>

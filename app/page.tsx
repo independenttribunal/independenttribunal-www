@@ -16,10 +16,16 @@ export default function Home() {
     <SiteFrame path="/"><main id="main-content">
       <section className="hub-hero">
         <div className="shell">
-          <p className="overline"><span /> United Kingdom first · open data</p>
+          <p className="overline"><span /> Part of the <a href="https://planetarycouncil.org/">Planetary Council</a> · United Kingdom first · open data</p>
           <h1>The law,<br /><em>shown openly.</em></h1>
           <p className="hub-intro">Legal nuances, people&apos;s tribunals and case research, brought into the open. Follow the sources, distinguish the commentary, and learn how to navigate the system yourself.</p>
           <p className="hub-agents">Built for people and for AI: <a href="/llms.txt">llms.txt</a> · <a href="/data/index.json">open data</a> · <a href="/data/tiles.json">tiles.json</a></p>
+          <a className="hub-newsystem" href="/new-system/">
+            <span className="hub-newsystem-tag">New · The method</span>
+            <strong>The New System</strong>
+            <span>Minimal viable law, built from first principles. Life comes first · ten points · a standard record · the right to prosecute earned by evidence.</span>
+            <i>Read the New System →</i>
+          </a>
           <p className="hub-agents">Explore: <a href="/people/">People &amp; public records</a> · <a href="/research/">Research library</a></p>
         </div>
       </section>

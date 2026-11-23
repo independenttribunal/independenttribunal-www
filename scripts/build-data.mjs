@@ -23,12 +23,13 @@ import { loadCategories, validateCategory, publishCategory, categoryText } from 
 import { loadCommentary, publishCommentary, commentaryText } from "./commentary.mjs";
 import { renderSiteHeader, renderSiteFooter } from "../shared/site-shell.mjs";
 import { loadPalestineAction, publishPalestineAction, palestineActionTile } from "./palestine-action.mjs";
+import { loadNewSystem, newSystemPage, newSystemPath } from "./new-system.mjs";
 import { loadForensics, publishForensics, forensicTile, forensicText, forensicPath } from "./forensics.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "data");
 const publicDir = join(root, "public");
-const GENERATED = ["data", "legal", "nuances", "independent-tribunals", "research", "people", "speech-offences", "forensics", "uk-timeline", "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml"];
+const GENERATED = ["data", "legal", "nuances", "independent-tribunals", "research", "people", "speech-offences", "forensics", "uk-timeline", "new-system", "llms.txt", "llms-full.txt", "robots.txt", "sitemap.xml"];
 
 const REFERENCE_TYPES = new Set(["legislation", "judgment", "official", "report", "article", "organisation", "dataset"]);
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
@@ -193,6 +194,7 @@ const research = await loadResearch(dataDir, fail);
 const palestineAction = await loadPalestineAction(dataDir);
 const profiles = await loadProfiles(dataDir, fail);
 const forensics = await loadForensics(dataDir);
+const newSystem = await loadNewSystem(dataDir);
 for (const p of profiles) for (const related of p.research_links ?? []) {
   if (![...research.map((r) => r.id), palestineActionTile.id].includes(related.id)) fail(`profiles/${p.id}`, `missing related research ${related.id}`);
 }
@@ -596,6 +598,19 @@ for (const category of categories) {
 await publishCommentary({ commentary, put, page: legalPage, escapeHtml });
 await publishForensics({ record: forensics, dataDir, put, page: legalPage, escapeHtml, site });
 
+// The New System: the method behind the tribunal, part of the Planetary Council.
+await put("new-system/index.html", newSystemPage({
+  ns: newSystem,
+  head: `<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The New System: minimal viable law, built from first principles. Life comes first, ten points, a standard record, open prosecution. Part of the Planetary Council.">
+<link rel="canonical" href="${abs(newSystemPath)}">
+<link rel="icon" href="/favicon.svg">
+<title>The New System — Independent Tribunal</title>`,
+  siteHeader: renderSiteHeader({ navigation, path: newSystemPath }),
+  siteFooter: renderSiteFooter({ navigation, site }),
+}));
+
 // Agent-facing text.
 const llms = `# ${site.name}
 
@@ -645,6 +660,7 @@ ${profilesOut.map((p) => `- [${p.title}](${p.url}): ${p.subtitle}; sources revie
 ${researchOut.map((r) => `- [${r.title}](${r.url}): ${r.summary} (historical import; source date ${r.source_as_of}; current review pending)`).join("\n")}
 
 ${timelinesOut.map((t) => `- [${t.seo_title}](${t.url})`).join("\n")}
+- [The New System](${abs(newSystemPath)}): minimal viable law from first principles, the method behind the tribunal; part of the Planetary Council
 - [About](${abs("/about")}): origins of the idea and acknowledgements
 
 ## Policies
@@ -687,6 +703,7 @@ const pages = ["/", "/about", "/research/", "/people/", ...categories.map((c) =>
 pages.push(...commentary.map((p) => `/research/${p.id}/`));
 pages.push(palestineActionTile.href);
 pages.push("/forensics/", forensicPath);
+pages.push(newSystemPath);
 await put("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map((p) => `  <url><loc>${abs(p)}</loc><lastmod>${builtDay}</lastmod></url>`).join("\n")}

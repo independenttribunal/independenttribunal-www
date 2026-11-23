@@ -1,6 +1,10 @@
 {
   "links": [
     {
+      "label": "New System",
+      "href": "/new-system/"
+    },
+    {
       "label": "Research",
       "href": "/research/"
     },
