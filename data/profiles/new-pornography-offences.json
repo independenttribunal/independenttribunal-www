@@ -3,9 +3,9 @@
   "category": "legal-study",
   "title": "New pornography offences in the UK",
   "subtitle": "What Part 5, Chapter 4 of the Crime and Policing Act 2026 actually criminalises, where it applies, and where the participant defences leave a gap.",
-  "summary": "From 6 November 2026, England and Wales has three new offences of possessing or publishing certain pornographic images: strangulation or suffocation; penetrative sex between people a reasonable person would think are, or are pretending to be, related; and sexual activity where a reasonable person would think at least one person is, or is pretending to be, under 16. A Scottish strangulation offence remains prospective and, once in force, will be stricter. The new offences largely target third-party possession and publication beyond the participants. This page sets out the statutory text, commencement and extent, and then tests two edge cases in a labelled “cheeky table”. It is legal research, not legal advice, and it is not a guide to producing any image.",
+  "summary": "From 6 November 2026, England and Wales has three new offences of possessing or publishing certain pornographic images: strangulation or suffocation; penetrative sex between people a reasonable person would think are, or are pretending to be, related; and sexual activity where a reasonable person would think at least one person is, or is pretending to be, under 16. A Scottish strangulation offence remains prospective and, once in force, will be stricter. The new offences largely target third-party possession and publication beyond the participants. A labelled “cheeky table” at the end tests two edge cases against that statutory scope. This is legal research, not legal advice, and it is not a guide to producing any image.",
   "scope": "United Kingdom, with the territorial differences set out below. Sections 104, 106 and 107 of the Crime and Policing Act 2026 are in force in England and Wales from 6 November 2026. Section 104 also extends to Northern Ireland but has not been commenced there. Section 105, for Scotland, is not in force. If an image depicts a person who is actually under 18, the Protection of Children Act 1978, section 160 of the Criminal Justice Act 1988 and related offences apply in addition to anything on this page.",
-  "status_note": "The statutes and commencement instruments cited were read from legislation.gov.uk on 23 November 2026. The CPS Obscene Publications guidance was read the same day. All five commencement instruments made under the 2026 Act up to Commencement No. 5 were checked for the semen-defaced-image offence. Items marked as our analysis are our interpretation, not findings of a court. This is legal research and commentary, not legal advice.",
+  "status_note": "The statutes and commencement instruments cited were read from legislation.gov.uk on 23 November 2026. The CPS Obscene Publications guidance was read the same day. This is legal research and commentary, not legal advice.",
   "jurisdiction": "United Kingdom (territorial differences apply)",
   "checked": "2026-11-23",
   "tags": [
@@ -34,7 +34,7 @@
       "label": "In force",
       "value": "6 November 2026",
       "detail": "Sections 104, 106 and 107 are in force in England and Wales. The Scottish strangulation offence remains prospective.",
-      "target": "commencement"
+      "target": "the-offences"
     },
     {
       "label": "The recording gap",
@@ -46,157 +46,16 @@
       "label": "Scotland",
       "value": "A stricter defence",
       "detail": "Once section 105 is in force, a recording of real strangulation has no participant defence in Scotland, even if the act was consensual and caused no injury.",
-      "target": "scotland"
+      "target": "section-105"
     },
     {
       "label": "Section 98",
       "value": "Not yet in force",
       "detail": "The enacted offence of sharing a semen-defaced image has not been commenced. Only a related Online Safety Act amendment was brought in on 29 June 2026.",
-      "target": "semen-images"
+      "target": "soa-image-offences"
     }
   ],
   "sections": [
-    {
-      "id": "the-offences",
-      "title": "The new offences",
-      "intro": "Four sections in Part 5, Chapter 4 of the Crime and Policing Act 2026 add new possession and publication offences for certain pornographic images. They sit alongside the older extreme-pornography offence, not in place of it.",
-      "entries": [
-        {
-          "id": "what-was-added",
-          "title": "What was added",
-          "kind": "Statute",
-          "paragraphs": [
-            {
-              "text": "Section 104 inserts sections 67A to 67D into the Criminal Justice and Immigration Act 2008. It is an offence to possess or publish a pornographic image that portrays, in an explicit and realistic way, a person strangling or suffocating another person, where a reasonable person looking at the image would think that the persons were real. Publishing includes giving or making the image available to another person by any means.",
-              "sources": [
-                {
-                  "id": "cpa-104",
-                  "locator": "s.104(1), inserting ss.67A(1)–(3)"
-                }
-              ],
-              "links": [
-                {
-                  "text": "Section 104",
-                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/104"
-                }
-              ]
-            },
-            {
-              "text": "Section 106 inserts sections 67E to 67G. The image must be pornographic and must portray, in an explicit and realistic way, sexual penetration of the vagina or anus with a body part or anything else, or of the mouth by a penis. A reasonable person must think the people were real, and — taking into account any sound or information associated with the image — that they were related, or pretending to be related, in a listed way. For blood and adoptive relationships the offence is not limited by age. For step and foster relationships, at least one person must be, or be pretending to be, under 18. A fanciful pretence of relationship is excluded.",
-              "sources": [
-                {
-                  "id": "cpa-106",
-                  "locator": "s.106(1), inserting ss.67E(1)–(3), (7)"
-                }
-              ],
-              "links": [
-                {
-                  "text": "Section 106",
-                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/106"
-                }
-              ]
-            },
-            {
-              "text": "Section 107 inserts sections 67H to 67J. Possession or publication is an offence where a reasonable person, looking at a pornographic image and taking into account any associated sound or information, would think that it portrays, in an explicit and realistic way, sexual activity between two people who are real, and that at least one of them is, or is pretending to be, under 16. Penetration is not required. A person is not to be taken as pretending to be under 16 if it is fanciful that they actually are under 16 in the way pretended.",
-              "sources": [
-                {
-                  "id": "cpa-107",
-                  "locator": "s.107(1), inserting ss.67H(1)–(3)"
-                }
-              ],
-              "links": [
-                {
-                  "text": "Section 107",
-                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/107"
-                }
-              ]
-            },
-            {
-              "text": "If anyone depicted is actually under 18, other offences already apply, including taking, making or distributing an indecent photograph of a child and possession of such a photograph. Section 107 does not replace those offences. The participant defence to section 107 is unavailable if either person was in fact under 16. This page discusses the new imagery offences, including the statutory treatment of adult role-play. It is not a guide to producing any image, and it does not discuss, and is not about, sexual images of actual children.",
-              "sources": [
-                {
-                  "id": "cpa-107",
-                  "locator": "s.107(1), inserting s.67I(2)(d)"
-                },
-                {
-                  "id": "pca-1"
-                },
-                {
-                  "id": "cja88-160"
-                }
-              ]
-            },
-            {
-              "text": "Section 105 would insert sections 51D to 51G into the Civic Government (Scotland) Act 1982, creating a Scottish offence of possessing or publishing pornographic images of strangulation or suffocation. It is not in force.",
-              "sources": [
-                {
-                  "id": "cpa-105",
-                  "locator": "s.105(1); commencement note I1"
-                }
-              ],
-              "links": [
-                {
-                  "text": "Section 105",
-                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/105"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "commencement",
-          "title": "Commencement and penalties",
-          "kind": "Statute and commencement regulations",
-          "paragraphs": [
-            {
-              "text": "Sections 104(1) to (3) came into force on 6 November 2026 so far as they extend to England and Wales. Sections 106 and 107 came into force on the same day. These dates are set by regulation 2 of the Crime and Policing Act 2026 (Commencement No. 4) Regulations 2026. Section 105 has not been commenced.",
-              "sources": [
-                {
-                  "id": "si-1090",
-                  "locator": "reg. 2(a)–(d)"
-                },
-                {
-                  "id": "cpa-105",
-                  "locator": "commencement note I1, s.255(10)(e)"
-                }
-              ],
-              "links": [
-                {
-                  "text": "regulation 2 of the Crime and Policing Act 2026 (Commencement No. 4) Regulations 2026",
-                  "url": "https://www.legislation.gov.uk/uksi/2026/1090/regulation/2"
-                }
-              ]
-            },
-            {
-              "text": "On conviction on indictment in England and Wales, possession under section 67A or 67E carries a maximum of two years, and possession under section 67H a maximum of three years. Publication of any of those images carries a maximum of five years. Proceedings in England and Wales may not be instituted except by or with the consent of the Director of Public Prosecutions. For the section 104 offence in Northern Ireland, once commenced, the consent of the Director of Public Prosecutions for Northern Ireland would be required.",
-              "sources": [
-                {
-                  "id": "cpa-104",
-                  "locator": "ss.67A(6), 67C"
-                },
-                {
-                  "id": "cpa-106",
-                  "locator": "ss.67E(13), 67G"
-                },
-                {
-                  "id": "cpa-107",
-                  "locator": "ss.67H(9), 67J"
-                }
-              ]
-            },
-            {
-              "text": "The same indictment maxima are written into the Scottish section 105 offence: two years for possession and five years for publication, once that section is in force. A claim that the Scottish possession maximum is three years is not supported by the enacted text.",
-              "sources": [
-                {
-                  "id": "cpa-105",
-                  "locator": "s.105(1), inserting s.51F"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "sources-legislation",
       "title": "Sources and legislation",
@@ -204,18 +63,70 @@
       "entries": [
         {
           "id": "primary-2026",
-          "title": "The 2026 Act and its commencement",
+          "title": "The 2026 Act",
           "kind": "Legislation",
           "paragraphs": [
             {
-              "text": "Part 5, Chapter 4 of the Crime and Policing Act 2026 is the pornography chapter. The individual offence-creating sections are 104, 105, 106 and 107. Extent is set out in section 254. Section 98 and Schedule 13 deal with semen-defaced images and related intimate-image amendments. Section 99 inserts a separate offence of making or supplying a purported intimate image generator. Section 113, in force from 29 September 2026, restates the exposure offence in section 66 of the Sexual Offences Act 2003.",
+              "text": "Part 5, Chapter 4 of the Crime and Policing Act 2026 is the pornography chapter. The offence-creating sections are section 104, section 105, section 106 and section 107. Extent is set out in section 254. The Commencement No. 4 Regulations brought sections 104(1) to (3), so far as they extend to England and Wales, and sections 106 and 107, into force on 6 November 2026.",
               "sources": [
                 {
                   "id": "cpa-ch4"
                 },
                 {
-                  "id": "cpa-254"
+                  "id": "cpa-104"
                 },
+                {
+                  "id": "cpa-105"
+                },
+                {
+                  "id": "cpa-106"
+                },
+                {
+                  "id": "cpa-107"
+                },
+                {
+                  "id": "cpa-254",
+                  "locator": "s.254"
+                },
+                {
+                  "id": "si-1090",
+                  "locator": "reg. 2(a)–(d)"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Part 5, Chapter 4 of the Crime and Policing Act 2026",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/part/5/chapter/4"
+                },
+                {
+                  "text": "section 104",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/104"
+                },
+                {
+                  "text": "section 105",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/105"
+                },
+                {
+                  "text": "section 106",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/106"
+                },
+                {
+                  "text": "section 107",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/107"
+                },
+                {
+                  "text": "section 254",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/254"
+                },
+                {
+                  "text": "Commencement No. 4 Regulations",
+                  "url": "https://www.legislation.gov.uk/uksi/2026/1090/regulation/2"
+                }
+              ]
+            },
+            {
+              "text": "Section 98 and Schedule 13 deal with semen-defaced images and related intimate-image amendments. Section 99 inserts an offence of making or supplying a purported intimate image generator. Section 113, in force from 29 September 2026, restates the exposure offence in section 66 of the Sexual Offences Act 2003.",
+              "sources": [
                 {
                   "id": "cpa-98"
                 },
@@ -229,18 +140,11 @@
                   "id": "cpa-113"
                 },
                 {
-                  "id": "si-960"
+                  "id": "si-960",
+                  "locator": "reg. 3(a)"
                 }
               ],
               "links": [
-                {
-                  "text": "Part 5, Chapter 4 of the Crime and Policing Act 2026",
-                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/part/5/chapter/4"
-                },
-                {
-                  "text": "section 254",
-                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/254"
-                },
                 {
                   "text": "Section 98",
                   "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/98"
@@ -254,36 +158,16 @@
                   "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/99"
                 }
               ]
-            },
-            {
-              "text": "Commencement of the pornography offences is in the Commencement No. 4 Regulations. Commencement of section 98, so far as it has been commenced at all, and of section 99, is in the Commencement No. 1 Regulations. We also read Commencement No. 2, No. 3 and No. 5 to check whether the semen-defaced-image offence had been brought into force later. It had not, as at 23 November 2026.",
-              "sources": [
-                {
-                  "id": "si-1090"
-                },
-                {
-                  "id": "si-689"
-                },
-                {
-                  "id": "si-939"
-                },
-                {
-                  "id": "si-960"
-                },
-                {
-                  "id": "si-1158"
-                }
-              ]
             }
           ]
         },
         {
-          "id": "older-law",
-          "title": "The older statutes these offences sit with",
+          "id": "older-law-sources",
+          "title": "The older statutes",
           "kind": "Legislation",
           "paragraphs": [
             {
-              "text": "The new offences use the definition of a “pornographic” image in section 63 of the Criminal Justice and Immigration Act 2008, and they use the definition of “non-consensual harm” in section 66(3) of that Act. Section 63 remains the extreme-pornography possession offence. Section 75A of the Serious Crime Act 2015 is the offline offence of strangulation or suffocation in England and Wales. Sections 64 and 65 of the Sexual Offences Act 2003 criminalise penetrative sex between listed adult blood and adoptive relatives. Section 66 of that Act is the exposure offence. Section 66B covers sharing, or threatening to share, an intimate photograph or film. Section 66E, inserted by section 138 of the Data (Use and Access) Act 2025 and in force from 6 February 2026, is the offence of creating a purported intimate image of an adult.",
+              "text": "The new offences use the definition of a “pornographic” image in section 63 of the Criminal Justice and Immigration Act 2008, and the definition of “non-consensual harm” in section 66(3) of that Act. Section 63 remains the extreme-pornography possession offence. Section 75A of the Serious Crime Act 2015 is the offline offence of strangulation or suffocation in England and Wales.",
               "sources": [
                 {
                   "id": "cjia-63"
@@ -293,7 +177,26 @@
                 },
                 {
                   "id": "sca-75a"
+                }
+              ],
+              "links": [
+                {
+                  "text": "section 63 of the Criminal Justice and Immigration Act 2008",
+                  "url": "https://www.legislation.gov.uk/ukpga/2008/4/section/63"
                 },
+                {
+                  "text": "section 66(3) of that Act",
+                  "url": "https://www.legislation.gov.uk/ukpga/2008/4/section/66"
+                },
+                {
+                  "text": "Section 75A of the Serious Crime Act 2015",
+                  "url": "https://www.legislation.gov.uk/ukpga/2015/9/section/75A"
+                }
+              ]
+            },
+            {
+              "text": "Sections 64 and 65 of the Sexual Offences Act 2003 criminalise penetrative sex between listed adult blood and adoptive relatives. Section 66 of that Act is the exposure offence. Section 66B covers sharing, or threatening to share, an intimate photograph or film. Section 66E, inserted by section 138 of the Data (Use and Access) Act 2025 and in force from 6 February 2026, is the offence of creating a purported intimate image of an adult. Section 62 of the Coroners and Justice Act 2009 is the offence of possessing a prohibited non-photographic image of a child; section 65 of that Act defines “image” and “child”. The Obscene Publications Act 1959, section 2, criminalises publication of an obscene article; having an obscene article for publication for gain is covered by the 1964 Act.",
+              "sources": [
                 {
                   "id": "soa-64"
                 },
@@ -314,21 +217,21 @@
                 },
                 {
                   "id": "si-31"
+                },
+                {
+                  "id": "cja-62"
+                },
+                {
+                  "id": "cja-65"
+                },
+                {
+                  "id": "opa-2"
+                },
+                {
+                  "id": "opa-1964"
                 }
               ],
               "links": [
-                {
-                  "text": "section 63 of the Criminal Justice and Immigration Act 2008",
-                  "url": "https://www.legislation.gov.uk/ukpga/2008/4/section/63"
-                },
-                {
-                  "text": "section 66(3) of that Act",
-                  "url": "https://www.legislation.gov.uk/ukpga/2008/4/section/66"
-                },
-                {
-                  "text": "Section 75A of the Serious Crime Act 2015",
-                  "url": "https://www.legislation.gov.uk/ukpga/2015/9/section/75A"
-                },
                 {
                   "text": "Sections 64 and 65 of the Sexual Offences Act 2003",
                   "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/64"
@@ -344,26 +247,7 @@
                 {
                   "text": "Section 66E",
                   "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/66E"
-                }
-              ]
-            },
-            {
-              "text": "Section 62 of the Coroners and Justice Act 2009 is the offence of possessing a prohibited non-photographic image of a child. Section 65 of that Act defines “image” and “child”, including imaginary children and the “impression conveyed” test. The Obscene Publications Act 1959, section 2, criminalises publication of an obscene article, and having an obscene article for publication for gain is covered by the 1964 Act. Private possession, without publication or an intention to publish for gain, is not an offence under those Acts.",
-              "sources": [
-                {
-                  "id": "cja-62"
                 },
-                {
-                  "id": "cja-65"
-                },
-                {
-                  "id": "opa-2"
-                },
-                {
-                  "id": "opa-1964"
-                }
-              ],
-              "links": [
                 {
                   "text": "Section 62 of the Coroners and Justice Act 2009",
                   "url": "https://www.legislation.gov.uk/ukpga/2009/25/section/62"
@@ -382,7 +266,7 @@
           "kind": "Official guidance and news reports",
           "paragraphs": [
             {
-              "text": "The Crown Prosecution Service Obscene Publications guidance, as read on 23 November 2026, already lists the new 6 November 2026 offences. On the 1959 Act itself, the guidance says that content relating to non-criminal conduct is unlikely to be obscene provided the audience is not young or otherwise vulnerable, and that a prosecution under the Act is not likely where the conduct is consensual, no serious harm is caused, the conduct is not inextricably linked with other criminality, and the likely audience is not under 18 or otherwise vulnerable.",
+              "text": "The Crown Prosecution Service Obscene Publications guidance, as read on 23 November 2026, lists the new 6 November 2026 offences. On the 1959 Act, it says that a prosecution is not likely where the conduct is consensual, no serious harm is caused, the conduct is not inextricably linked with other criminality, and the likely audience is not under 18 or otherwise vulnerable.",
               "sources": [
                 {
                   "id": "cps-obscene"
@@ -396,7 +280,7 @@
               ]
             },
             {
-              "text": "On 6 January 2012 a jury at Southwark Crown Court acquitted Michael Peacock of six charges under the Obscene Publications Act arising from the sale of DVDs to an undercover officer. BBC News and The Guardian reported the unanimous not guilty verdicts. The Guardian reported that the material included so-called “water-sports” and other acts that are legal between consenting adults. The films themselves were not independently reviewed for this page.",
+              "text": "On 6 January 2012 a jury at Southwark Crown Court acquitted Michael Peacock of six charges under the Obscene Publications Act arising from the sale of DVDs to an undercover officer. BBC News and The Guardian reported the unanimous not guilty verdicts. The Guardian reported that the material included so-called “water-sports” and other acts that are legal between consenting adults.",
               "sources": [
                 {
                   "id": "peacock-bbc"
@@ -421,34 +305,318 @@
       ]
     },
     {
-      "id": "our-analysis",
-      "title": "Our analysis",
-      "intro": "The notes below follow the structure of the supplied analysis, checked against the primary text. Where that draft overstated or mis-cited the law, the corrected position is set out here. This is our commentary, not legal advice.",
+      "id": "the-offences",
+      "title": "The offences",
+      "intro": "Four sections add possession and publication offences for certain pornographic images. They sit alongside the older extreme-pornography offence, not in place of it. Shared machinery is set out first; each section then has its own elements, participant defence, extent, commencement and penalties.",
       "entries": [
         {
-          "id": "extent",
-          "title": "Extent, and what is actually in force",
-          "kind": "Our analysis of the statute and commencement regulations",
+          "id": "shared-features",
+          "title": "What they have in common",
+          "kind": "Statute",
           "paragraphs": [
             {
-              "text": "The default extent of the 2026 Act is England and Wales only. Section 104(1) to (3) — the strangulation offence itself and the associated information-society-service rules — extend to England and Wales and Northern Ireland. Section 104(5), the Online Safety Act amendment, extends to the whole United Kingdom. Sections 106(2) and (3) and 107(2) and (3), certain ancillary provisions, extend to England and Wales and Northern Ireland. Sections 106(7) and 107(5), the Online Safety Act amendments, extend to the whole United Kingdom. The offence-creating subsections of sections 106 and 107 themselves follow the default and extend to England and Wales only. Section 105 extends to Scotland only.",
+              "text": "Each provision creates a possession offence and a publication offence. An image is pornographic if it must reasonably be assumed to have been produced solely or principally for the purpose of sexual arousal, the definition in section 63 of the 2008 Act. Publishing includes giving or making the image available to another person by any means. The offences do not apply to excluded images within the meaning of section 64 of the 2008 Act or, in Scotland once section 105 is in force, section 51B of the Civic Government (Scotland) Act 1982. In England and Wales, proceedings may not be instituted except by or with the consent of the Director of Public Prosecutions.",
               "sources": [
                 {
-                  "id": "cpa-254",
-                  "locator": "ss.254(1), (2)(p)–(r), (4)(b)–(d), (7)(c)"
+                  "id": "cjia-63",
+                  "locator": "s.63(3)"
+                },
+                {
+                  "id": "cpa-104",
+                  "locator": "ss.67A(3)–(4), (6)"
+                },
+                {
+                  "id": "cpa-105",
+                  "locator": "ss.51D(3)–(4)"
+                },
+                {
+                  "id": "cpa-106",
+                  "locator": "ss.67E(5), (11), (13)"
+                },
+                {
+                  "id": "cpa-107",
+                  "locator": "ss.67H(5), (8)–(9)"
                 }
               ]
             },
             {
-              "text": "Extent is not the same as commencement. Regulation 2(a) of the Commencement No. 4 Regulations brought section 104(1) to (3) into force on 6 November 2026 only “so far as it extends to England and Wales”. The Northern Ireland extent of that offence has not been commenced. Sections 106 and 107 were commenced in full on the same day, but the offences themselves only extend to England and Wales.",
+              "text": "For sections 104, 106 and 107, and for the Scottish offence once in force, a reasonable person looking at the image must think that the persons were real. Section 106 and section 107 also take into account any sound or information associated with the image. The same “real person” test appears in section 63 of the 2008 Act.",
               "sources": [
                 {
+                  "id": "cpa-104",
+                  "locator": "s.67A(1)(c)"
+                },
+                {
+                  "id": "cpa-105",
+                  "locator": "s.51D(1)(c)"
+                },
+                {
+                  "id": "cpa-106",
+                  "locator": "s.67E(1)(c)–(d)"
+                },
+                {
+                  "id": "cpa-107",
+                  "locator": "s.67H(1)(b), (2)(b)"
+                },
+                {
+                  "id": "cjia-63",
+                  "locator": "ss.63(7), (7A)"
+                }
+              ]
+            },
+            {
+              "text": "There are defences of legitimate reason; of not having seen the image and having no cause to suspect its character; and, for possession, of having been sent it unsolicited and not keeping it for an unreasonable time. A further defence is available to a person who directly participated in the act, on conditions that differ by section and are set out below. For publication, that participant defence also requires that the image was published only to the other participant or participants. Where the defence refers to “non-consensual harm”, the phrase has the meaning in section 66(3) of the 2008 Act, set out under existing law below.",
+              "sources": [
+                {
+                  "id": "cpa-104",
+                  "locator": "s.67B"
+                },
+                {
+                  "id": "cpa-105",
+                  "locator": "s.51E"
+                },
+                {
+                  "id": "cpa-106",
+                  "locator": "s.67F"
+                },
+                {
+                  "id": "cpa-107",
+                  "locator": "s.67I"
+                },
+                {
+                  "id": "cjia-66",
+                  "locator": "s.66(3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-104",
+          "title": "Section 104: strangulation or suffocation (England and Wales, and Northern Ireland)",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 104 inserts sections 67A to 67D into the 2008 Act. It is an offence to possess or publish a pornographic image that portrays, in an explicit and realistic way, a person strangling or suffocating another person.",
+              "sources": [
+                {
+                  "id": "cpa-104",
+                  "locator": "s.104(1), inserting s.67A(1)–(2)"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Section 104",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/104"
+                }
+              ]
+            },
+            {
+              "text": "The participant defence is available if the person directly participated in the act portrayed and the act did not involve the infliction of any non-consensual harm on any person.",
+              "sources": [
+                {
+                  "id": "cpa-104",
+                  "locator": "ss.67B(2)(d), (4)(c)"
+                }
+              ]
+            },
+            {
+              "text": "Subsections (1) to (3) extend to England and Wales and Northern Ireland. They have been in force in England and Wales since 6 November 2026, and only so far as they extend to England and Wales. They have not been commenced in Northern Ireland. The Online Safety Act amendment in subsection (5) extends to the whole United Kingdom and came into force on the same date.",
+              "sources": [
+                {
+                  "id": "cpa-254",
+                  "locator": "ss.254(2)(p), (4)(b)"
+                },
+                {
                   "id": "si-1090",
-                  "locator": "reg. 2(a)–(d)"
+                  "locator": "reg. 2(a)–(b)"
+                }
+              ]
+            },
+            {
+              "text": "On conviction on indictment, possession carries a maximum of two years, and publication a maximum of five years. Once the offence is in force in Northern Ireland, the consent of the Director of Public Prosecutions for Northern Ireland would be required.",
+              "sources": [
+                {
+                  "id": "cpa-104",
+                  "locator": "ss.67A(6), 67C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-105",
+          "title": "Section 105: strangulation or suffocation (Scotland)",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 105 would insert sections 51D to 51G into the Civic Government (Scotland) Act 1982. It is an offence to possess or publish a pornographic image that depicts, in an explicit and realistic way, a person strangling or suffocating another person. The section extends to Scotland only. It is not in force.",
+              "sources": [
+                {
+                  "id": "cpa-105",
+                  "locator": "s.105(1), inserting s.51D; commencement note I1"
                 },
                 {
                   "id": "cpa-254",
-                  "locator": "ss.254(1), (4)(b)"
+                  "locator": "s.254(7)(c)"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Section 105",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/105"
+                }
+              ]
+            },
+            {
+              "text": "The participant defence is available only if the person directly participated and “the act did not actually involve strangulation or suffocation of any person”. A recording of real strangulation would have no participant defence in Scotland, even if the act was consensual and caused no injury. That is stricter than the England and Wales defence under section 67B.",
+              "sources": [
+                {
+                  "id": "cpa-105",
+                  "locator": "s.105(1), inserting ss.51E(2)(d), (4)(c)"
+                },
+                {
+                  "id": "cpa-104",
+                  "locator": "s.67B(2)(d)"
+                }
+              ]
+            },
+            {
+              "text": "Once the section is in force, the indictment maxima would be two years for possession and five years for publication.",
+              "sources": [
+                {
+                  "id": "cpa-105",
+                  "locator": "s.105(1), inserting s.51F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-106",
+          "title": "Section 106: sex between relatives",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 106 inserts sections 67E to 67G. The image must be pornographic and must portray, in an explicit and realistic way, sexual penetration of the vagina or anus with a body part or anything else, or of the mouth by a penis. A reasonable person must think the people were real, and — taking into account any associated sound or information — that they were related, or pretending to be related, in a listed way. For blood and adoptive relationships (parent, grandparent, child, grandchild, brother, sister, half-brother, half-sister, uncle, aunt, nephew or niece) the offence is not limited by age. For step and foster relationships, at least one person must be, or be pretending to be, under 18. A fanciful pretence of relationship is excluded.",
+              "sources": [
+                {
+                  "id": "cpa-106",
+                  "locator": "s.106(1), inserting ss.67E(1)–(3), (7)–(9)"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Section 106",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/106"
+                }
+              ]
+            },
+            {
+              "text": "The participant defence requires direct participation, no non-consensual harm, and that the person was not, and had not been, related to the other person in a listed way.",
+              "sources": [
+                {
+                  "id": "cpa-106",
+                  "locator": "ss.67F(2)(d), (4)(c)"
+                }
+              ]
+            },
+            {
+              "text": "The offence itself extends to England and Wales only, and came into force on 6 November 2026. Subsections (2) and (3), certain ancillary provisions, extend to England and Wales and Northern Ireland. The Online Safety Act amendment in subsection (7) extends to the whole United Kingdom.",
+              "sources": [
+                {
+                  "id": "cpa-254",
+                  "locator": "ss.254(1), (2)(q), (4)(c)"
+                },
+                {
+                  "id": "si-1090",
+                  "locator": "reg. 2(c)"
+                }
+              ]
+            },
+            {
+              "text": "On conviction on indictment, possession carries a maximum of two years, and publication a maximum of five years.",
+              "sources": [
+                {
+                  "id": "cpa-106",
+                  "locator": "ss.67E(13), 67G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-107",
+          "title": "Section 107: sexual activity with a person under 16, or pretended to be under 16",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 107 inserts sections 67H to 67J. The statutory heading is “Pornographic images of sexual activity with child under 16”. Possession or publication is an offence where a reasonable person, looking at a pornographic image and taking into account any associated sound or information, would think that it portrays, in an explicit and realistic way, sexual activity between two people who are real, and that at least one of them is, or is pretending to be, under 16. Penetration is not required. A person is not to be taken as pretending to be under 16 if it is fanciful that they actually are under 16 in the way pretended.",
+              "sources": [
+                {
+                  "id": "cpa-107",
+                  "locator": "s.107(1), inserting ss.67H(1)–(3)"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Section 107",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/section/107"
+                }
+              ]
+            },
+            {
+              "text": "The participant defence requires direct participation, no non-consensual harm, and that neither person was actually under 16. If anyone depicted is actually under 18, the Protection of Children Act 1978, section 160 of the Criminal Justice Act 1988 and related offences already apply. Section 107 does not replace them. This page discusses the statutory treatment of adult role-play imagery. It is not a guide to producing any image, and it is not about sexual images of actual children.",
+              "sources": [
+                {
+                  "id": "cpa-107",
+                  "locator": "ss.67I(2)(d), (4)(c)"
+                },
+                {
+                  "id": "pca-1"
+                },
+                {
+                  "id": "cja88-160"
+                }
+              ]
+            },
+            {
+              "text": "The offence itself extends to England and Wales only, and came into force on 6 November 2026. Subsections (2) and (3), certain ancillary provisions, extend to England and Wales and Northern Ireland. The Online Safety Act amendment in subsection (5) extends to the whole United Kingdom. On conviction on indictment, possession carries a maximum of three years, and publication a maximum of five years.",
+              "sources": [
+                {
+                  "id": "cpa-254",
+                  "locator": "ss.254(1), (2)(r), (4)(d)"
+                },
+                {
+                  "id": "si-1090",
+                  "locator": "reg. 2(d)"
+                },
+                {
+                  "id": "cpa-107",
+                  "locator": "ss.67H(9), 67J"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "existing-law",
+      "title": "Existing law these offences sit with",
+      "intro": "The new offences borrow definitions from, and sit alongside, older possession, assault and sexual offences.",
+      "entries": [
+        {
+          "id": "extreme-pornography",
+          "title": "Extreme pornography: section 63",
+          "kind": "Statute",
+          "paragraphs": [
+            {
+              "text": "Section 63 of the 2008 Act remains the offence of possessing an extreme pornographic image. An “extreme image” must be grossly offensive, disgusting or otherwise of an obscene character, and must fall within a closed list. Subsection (7) covers acts that threaten a person’s life; acts that result, or are likely to result, in serious injury to a person’s anus, breasts or genitals; sexual interference with a human corpse; and intercourse or oral sex with an animal. Subsection (7A) covers two forms of non-consensual penetration. In each case a reasonable person looking at the image must think the people, or the person or animal, were real. Bodily fluids are not a listed category.",
+              "sources": [
+                {
+                  "id": "cjia-63",
+                  "locator": "ss.63(5A), (7), (7A)"
                 }
               ]
             }
@@ -456,11 +624,11 @@
         },
         {
           "id": "non-consensual-harm",
-          "title": "Non-consensual harm",
-          "kind": "Our analysis of the statute",
+          "title": "Non-consensual harm: section 66(3)",
+          "kind": "Statute",
           "paragraphs": [
             {
-              "text": "The participant defences in the new England and Wales offences — sections 67B, 67F and 67I — use the existing definition in section 66(3) of the 2008 Act. Harm inflicted on a person is “non-consensual” harm if (a) the harm is of such a nature that the person cannot, in law, consent to it being inflicted on himself or herself; or (b) where the person can, in law, consent to it being so inflicted, the person does not in fact consent to it being so inflicted. Those are the two limbs of section 66(3), now verified from the official text.",
+              "text": "The participant defences in sections 67B, 67F and 67I use the definition in section 66(3) of the 2008 Act. Harm inflicted on a person is “non-consensual” harm if (a) the harm is of such a nature that the person cannot, in law, consent to it being inflicted on himself or herself; or (b) where the person can, in law, consent to it being so inflicted, the person does not in fact consent to it being so inflicted.",
               "sources": [
                 {
                   "id": "cjia-66",
@@ -479,26 +647,13 @@
                   "locator": "s.67I(5)"
                 }
               ]
-            },
-            {
-              "text": "For strangulation imagery in England and Wales, the participant defence therefore fails if the act involved harm that the law does not allow a person to consent to, or harm to which the person did not in fact consent. That is our reading of the cross-reference, not a judicial determination of any particular image or injury.",
-              "sources": [
-                {
-                  "id": "cjia-66",
-                  "locator": "s.66(3)"
-                },
-                {
-                  "id": "cpa-104",
-                  "locator": "s.67B(2)(d)"
-                }
-              ]
             }
           ]
         },
         {
           "id": "s75a-baseline",
-          "title": "The offline baseline: section 75A",
-          "kind": "Our analysis of the statute",
+          "title": "Offline strangulation: section 75A",
+          "kind": "Statute and our analysis",
           "paragraphs": [
             {
               "text": "Section 75A of the Serious Crime Act 2015 makes it an offence in England and Wales intentionally to strangle another person, or to do any other act that affects the person’s ability to breathe and constitutes battery. Consent is a defence, but that defence does not apply if the person suffers “serious harm” and the defendant intended that harm or was reckless as to it. “Serious harm” is defined as grievous bodily harm, wounding, or actual bodily harm. The consent defence is evidential: sufficient evidence must be adduced to raise the issue, and the prosecution must then disprove it beyond reasonable doubt.",
@@ -510,7 +665,7 @@
               ]
             },
             {
-              "text": "This is the offline statutory baseline that the England and Wales pornography participant defence appears designed to track. The two tests are not worded identically. Whether a given injury that would defeat the section 75A consent defence also amounts to “non-consensual harm” under section 66(3) would be a question for a court. That last sentence is our analysis.",
+              "text": "That is the offline statutory baseline that the England and Wales pornography participant defence appears designed to track. The two tests are not worded identically. Whether a given injury that would defeat the section 75A consent defence also amounts to “non-consensual harm” under section 66(3) would be a question for a court.",
               "sources": [
                 {
                   "id": "sca-75a",
@@ -525,77 +680,131 @@
           ]
         },
         {
-          "id": "scotland",
-          "title": "Scotland compared with England and Wales",
-          "kind": "Our analysis of the statute",
+          "id": "soa-relatives",
+          "title": "Sex with an adult relative: sections 64 and 65",
+          "kind": "Statute",
           "paragraphs": [
             {
-              "text": "In England and Wales, the section 67B participant defence is available if the person directly participated in the act portrayed and the act did not involve the infliction of any non-consensual harm on any person. For publication, the image must also have been published only to other people who directly participated.",
+              "text": "Sections 64 and 65 of the Sexual Offences Act 2003 make it an offence for a person aged 16 or over to penetrate, or to consent to being penetrated by, a listed adult blood or adoptive relative, knowing or being reasonably expected to know of the relationship. The listed relationships are the same blood and adoptive relationships used in section 106. Step and foster relationships are not included. The offline offences require sexual penetration; they do not apply merely because two adults are step or foster relatives, both 18 or over.",
               "sources": [
                 {
-                  "id": "cpa-104",
-                  "locator": "ss.67B(2)(d), (4)(c)"
-                }
-              ]
-            },
-            {
-              "text": "The Scottish defence, once section 105 is in force, is available only if the person directly participated and “the act did not actually involve strangulation or suffocation of any person”. For publication, the image must also have been published only to other participants. The wording is in the 2026 Act itself, as the text that will be inserted as sections 51D to 51G of the Civic Government (Scotland) Act 1982.",
-              "sources": [
-                {
-                  "id": "cpa-105",
-                  "locator": "s.105(1), inserting ss.51E(2)(d), (4)(c)"
-                }
-              ]
-            },
-            {
-              "text": "The Scottish version is stricter. A recording of real strangulation would have no participant defence in Scotland, even if the act was fully consensual and caused no injury. England and Wales allows the defence provided the harm threshold in section 66 is not crossed. That comparison is our analysis of the enacted wording. Section 105 is still prospective.",
-              "sources": [
-                {
-                  "id": "cpa-105",
-                  "locator": "s.51E and commencement note I1"
+                  "id": "soa-64",
+                  "locator": "ss.64(1)–(3A)"
                 },
                 {
-                  "id": "cpa-104",
-                  "locator": "s.67B(2)(d)"
+                  "id": "soa-65"
+                },
+                {
+                  "id": "cpa-106",
+                  "locator": "s.67E(2)–(3)"
                 }
               ]
             }
           ]
         },
         {
-          "id": "section-107",
-          "title": "Section 107: confirmed elements",
-          "kind": "Our analysis of the statute",
+          "id": "soa-image-offences",
+          "title": "Other image and exposure offences",
+          "kind": "Statute",
           "paragraphs": [
             {
-              "text": "The statutory heading is “Pornographic images of sexual activity with child under 16”. The elements, confirmed from the inserted section 67H, are these. The image must be pornographic. A reasonable person, looking at it and taking into account any associated sound or information, must think that it portrays, in an explicit and realistic way, sexual activity between two people; that those people are real; and that at least one of them is, or is pretending to be, under 16. Penetration is not required. A fanciful pretence of being under 16 is excluded. The participant defence requires direct participation, no non-consensual harm, and that neither person was actually under 16. For the publication offence, the image must also have been published only to the other participant. The indictment maxima are three years for possession and five years for publication. The Director of Public Prosecutions must consent to proceedings.",
+              "text": "Section 66 of the Sexual Offences Act 2003 is titled “Exposure”, not “indecent exposure”. From 29 September 2026, a person who intentionally exposes their genitals commits the offence if they intend that someone will see the genitals and be caused alarm, distress or humiliation, or if they expose them for sexual gratification with the intention that someone will see them and being reckless as to whether someone who sees them will be caused alarm, distress or humiliation. Common-law outraging public decency is a separate offence.",
               "sources": [
                 {
-                  "id": "cpa-107",
-                  "locator": "ss.67H, 67I, 67J"
+                  "id": "soa-66",
+                  "locator": "ss.66(1)–(1A)"
+                },
+                {
+                  "id": "cpa-113"
+                },
+                {
+                  "id": "si-960",
+                  "locator": "reg. 3(a)"
+                },
+                {
+                  "id": "cps-obscene"
                 }
               ]
             },
             {
-              "text": "Those elements include adult role-play imagery. They also include imagery of a person who is actually under 16. In that second case the participant defence is unavailable, and the Protection of Children Act 1978 and section 160 of the Criminal Justice Act 1988 are the primary offences. Nothing on this page should be read as commenting on, or offering any analysis of how to produce, sexual images of actual children.",
+              "text": "Section 66B makes it an offence to share, or threaten to share, a photograph or film that shows, or appears to show, another person in an intimate state, without consent. Section 66E, in force from 6 February 2026, makes it an offence to create a purported intimate image of an adult without consent and without a reasonable belief in consent. Section 99 of the 2026 Act, in force from 29 June 2026, is a different offence: it inserts section 66I, which criminalises making or supplying a thing for use as a generator of purported intimate images.",
               "sources": [
                 {
-                  "id": "cpa-107",
-                  "locator": "ss.67H(2), 67I(2)(d)"
+                  "id": "soa-66b"
                 },
                 {
-                  "id": "pca-1"
+                  "id": "soa-66e"
                 },
                 {
-                  "id": "cja88-160"
+                  "id": "dua-138"
+                },
+                {
+                  "id": "si-31"
+                },
+                {
+                  "id": "cpa-99"
+                },
+                {
+                  "id": "si-689",
+                  "locator": "reg. 2(1)(i)"
+                }
+              ]
+            },
+            {
+              "text": "Schedule 13, paragraph 2 of the 2026 Act would insert a new section 66AA, “Sharing semen-defaced image”. A person would commit an offence by intentionally sharing a semen-defaced image of another person, without that person’s consent, and without a reasonable belief in consent. A “semen-defaced image” is a photograph or film which shows, or appears to show, that person and which has, or appears to have, semen on it or in its immediate vicinity, or a photograph or film of such an image. There is a reasonable-excuse defence, and an exception where the image had already been publicly shared with consent. It would be a summary-only offence. The offence is the sharing, not a private act between consenting participants. As at 23 November 2026 the provision remains prospective. On 29 June 2026, section 98 was commenced only so far as it relates to Schedule 13, paragraph 24, an Online Safety Act amendment.",
+              "sources": [
+                {
+                  "id": "cpa-sch13",
+                  "locator": "para. 2, inserting s.66AA; para. 24"
+                },
+                {
+                  "id": "cpa-98",
+                  "locator": "commencement note I2"
+                },
+                {
+                  "id": "si-689",
+                  "locator": "reg. 2(1)(h), (z9)"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Schedule 13, paragraph 2 of the 2026 Act",
+                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/schedule/13"
+                }
+              ]
+            },
+            {
+              "text": "Private possession is not an offence under the Obscene Publications Act 1959. That Act, as read with the 1964 Act, covers publication, and having an obscene article for publication for gain. The current CPS test for a prosecution under the 1959 Act is set out under sources above. The 2012 Peacock acquittal is consistent with that approach. Whether any given publication would be charged remains a fact-specific decision.",
+              "sources": [
+                {
+                  "id": "opa-2"
+                },
+                {
+                  "id": "opa-1964"
+                },
+                {
+                  "id": "cps-obscene"
+                },
+                {
+                  "id": "peacock-bbc"
+                },
+                {
+                  "id": "peacock-guardian"
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "do-versus-record",
+      "title": "Do versus record",
+      "intro": "The new offences largely do not criminalise a participant’s private recording of an act that was lawful to perform, subject to the non-consensual-harm limit in England and Wales and to the “no actual strangulation” limit in Scotland once section 105 is in force. They criminalise possession by third parties and publication beyond the participants.",
+      "entries": [
         {
-          "id": "do-versus-record",
-          "title": "Do versus record",
+          "id": "do-versus-record-table",
+          "title": "The recording gap",
           "kind": "Our analysis",
           "table": {
             "caption": "How the new imagery offences, once in force in the relevant territory, treat the offline act, a private recording kept by a participant, and sharing beyond the participants. Each cell is about these offences, not every other offence that might apply.",
@@ -653,7 +862,7 @@
           },
           "paragraphs": [
             {
-              "text": "The table is our analysis of how the new offences and the participant defences apply to typical scenarios. It is not a statement that any scenario is lawful for all purposes. Other offences — including those protecting children, the extreme-pornography offence, the Obscene Publications Act, and public-order or public-decency offences — may still apply on particular facts.",
+              "text": "For actual blood or adoptive relatives in a listed relationship, there is no “lawful to do, lawful to record, criminal to share” gap: the offline penetrative act is already an offence, and the participant defence to the imagery offence is unavailable. For the role-play cases, that gap is the point of the participant defence. Other offences — including those protecting children, section 63, the Obscene Publications Act, and public-place offences — may still apply on particular facts.",
               "sources": [
                 {
                   "id": "cpa-104"
@@ -680,69 +889,9 @@
                   "id": "cjia-66"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "interaction",
-          "title": "Key interaction points",
-          "kind": "Our analysis",
-          "paragraphs": [
-            {
-              "text": "The new offences largely do not criminalise the private recording, by the participants themselves, of an act that was lawful to perform, subject to the non-consensual-harm limit in England and Wales and to the “no actual strangulation” limit in Scotland once section 105 is in force. They criminalise possession by third parties and publication beyond the participants. That is the “lawful to do, lawful to record and keep, criminal to share” gap in the role-play cases.",
-              "sources": [
-                {
-                  "id": "cpa-104"
-                },
-                {
-                  "id": "cpa-105"
-                },
-                {
-                  "id": "cpa-106"
-                },
-                {
-                  "id": "cpa-107"
-                }
-              ]
             },
             {
-              "text": "For actual blood or adoptive relatives in a listed relationship, that gap does not exist. The offline penetrative act is already an offence under sections 64 and 65 of the Sexual Offences Act 2003, and the participant defence to the imagery offence is unavailable.",
-              "sources": [
-                {
-                  "id": "soa-64"
-                },
-                {
-                  "id": "soa-65"
-                },
-                {
-                  "id": "cpa-106",
-                  "locator": "s.67F(2)(d)"
-                }
-              ]
-            },
-            {
-              "text": "AI-generated images can be caught by the new offences, and by section 63, if the relevant reasonable-person tests are satisfied. Each of those offences requires that a reasonable person looking at the image would think the people were real. For section 107, that assessment also takes into account associated sound or information.",
-              "sources": [
-                {
-                  "id": "cjia-63",
-                  "locator": "ss.63(7), (7A)"
-                },
-                {
-                  "id": "cpa-104",
-                  "locator": "s.67A(1)(c)"
-                },
-                {
-                  "id": "cpa-106",
-                  "locator": "s.67E(1)(c)"
-                },
-                {
-                  "id": "cpa-107",
-                  "locator": "s.67H(2)(b)"
-                }
-              ]
-            },
-            {
-              "text": "Possession is, in principle, a continuing act. An image still held after 6 November 2026 can be possessed on or after the commencement date even if it was first acquired earlier. That is our analysis of the ordinary meaning of a possession offence. We found no transitional exemption in the Commencement No. 4 Regulations, and no official guidance on cloud backups, caches or shared accounts. That last point remains unverified.",
+              "text": "Possession is, in principle, a continuing act. An image still held after 6 November 2026 can be possessed on or after that date even if it was first acquired earlier. That is the ordinary reading of a possession offence. We found no transitional exemption in the Commencement No. 4 Regulations, and no official guidance on cloud backups, caches or shared accounts.",
               "sources": [
                 {
                   "id": "si-1090"
@@ -757,106 +906,6 @@
                   "id": "cpa-107"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "corrections",
-          "title": "Corrections to the supplied analysis",
-          "kind": "Our analysis",
-          "table": {
-            "caption": "Claims in the supplied notes, checked against the official text",
-            "columns": [
-              "Draft claim",
-              "What the record shows"
-            ],
-            "rows": [
-              [
-                "Section 104(1)–(3) is in force in England and Wales and Northern Ireland from 6 November 2026",
-                "It extends to both, but it has been commenced only so far as it extends to England and Wales"
-              ],
-              [
-                "Section 98, in force on 29 June 2026, created the offence of sharing semen-defaced images",
-                "The offence is enacted as Schedule 13, paragraph 2, inserting section 66AA, but remains prospective. On 29 June 2026, section 98 was commenced only so far as it relates to Schedule 13, paragraph 24 (an Online Safety Act amendment). Commencement Nos. 2 to 5 do not bring paragraph 2 into force"
-              ],
-              [
-                "Deepfaking a real person’s face is an offence under section 66B and section 99 of the 2026 Act",
-                "Creating a purported intimate image of an adult without consent is section 66E, in force from 6 February 2026. Sharing an image that appears to show a person in an intimate state can engage section 66B. Section 99, in force on 29 June 2026, is a different offence: making or supplying a generator of such images"
-              ],
-              [
-                "Filming in a public swimming pool “triggers” indecent exposure under section 66 of the Sexual Offences Act 2003",
-                "Section 66 is titled “Exposure”, not “indecent exposure”. As restated from 29 September 2026, it requires specified intention or recklessness about alarm, distress or humiliation. Common-law outraging public decency is a separate offence. Whether either is made out depends on the facts"
-              ],
-              [
-                "Director of Public Prosecutions consent is required for section 107",
-                "Consent is also required for the section 104 and section 106 offences in England and Wales"
-              ],
-              [
-                "Current CPS guidance “explicitly lists” consensual mutual masturbation as an activity that will “not normally” be prosecuted",
-                "The current guidance uses a general test: consensual conduct, no serious harm, not inextricably linked with other criminality, and an audience that is not under 18 or otherwise vulnerable. It does not contain that older specific list"
-              ],
-              [
-                "The Scottish section 105 possession maximum is three years (a claim reviewed as unverified in the source notes)",
-                "The enacted maximum on indictment is two years for possession and five years for publication"
-              ]
-            ]
-          },
-          "paragraphs": [
-            {
-              "text": "These corrections are taken from the official text of the Act, the five commencement instruments, the current CPS guidance, and the Sexual Offences Act and Data (Use and Access) Act provisions cited above. A further claim, that the BBFC still refuses R18 certificates for certain fluid acts on physical discs, was not independently verified against the current classification guidelines and is not relied on below.",
-              "sources": [
-                {
-                  "id": "si-1090"
-                },
-                {
-                  "id": "si-689"
-                },
-                {
-                  "id": "si-939"
-                },
-                {
-                  "id": "si-960"
-                },
-                {
-                  "id": "si-1158"
-                },
-                {
-                  "id": "cpa-sch13"
-                },
-                {
-                  "id": "cpa-99"
-                },
-                {
-                  "id": "soa-66"
-                },
-                {
-                  "id": "soa-66b"
-                },
-                {
-                  "id": "soa-66e"
-                },
-                {
-                  "id": "cps-obscene"
-                },
-                {
-                  "id": "cpa-105"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "open-verification",
-          "title": "What remains unverified",
-          "kind": "Coverage limitation",
-          "paragraphs": [
-            {
-              "text": "Three items in the supplied analysis can now be closed. The wording of the Scottish sections 51D to 51G is in section 105 of the 2026 Act and is set out above, though those sections have not yet been inserted because section 105 is not in force. The two limbs of section 66(3) of the 2008 Act have been read from the official text. The section 75A consent rules have been read from the official text.",
-              "sources": []
-            },
-            {
-              "text": "These points remain unverified. We found no CPS or official guidance on whether, or how, the new possession offences apply to cloud backups, caches or shared accounts, or on the continuing-possession point more generally. We have not independently verified current BBFC R18 practice on depictions of bodily fluids. We have not attempted to confirm historical Hansard column or amendment numbers, which the source notes already treated as unconfirmed.",
-              "sources": []
             }
           ]
         }
@@ -865,7 +914,7 @@
     {
       "id": "cheeky-table",
       "title": "Cheeky table",
-      "intro": "Two edge cases, taken from the supplied notes, tested against the statutes cited above. The conclusions are our analysis of scope, not a prediction of any charging decision or verdict.",
+      "intro": "Two edge cases, tested against the statutes set out above. The conclusions are about statutory scope, not a prediction of any charging decision or verdict.",
       "entries": [
         {
           "id": "cheeky-disclaimer",
@@ -884,24 +933,7 @@
           "kind": "Our analysis",
           "paragraphs": [
             {
-              "text": "On the face of the statutes, neither the new Chapter 4 offences nor the extreme-pornography offence criminalises consenting adults, in private, engaging in mutual masturbation or in activity involving bodily fluids, including semen or urine, where no listed act is portrayed.",
-              "sources": [
-                {
-                  "id": "cpa-104"
-                },
-                {
-                  "id": "cpa-106"
-                },
-                {
-                  "id": "cpa-107"
-                },
-                {
-                  "id": "cjia-63"
-                }
-              ]
-            },
-            {
-              "text": "Sections 104 and 107 are not engaged if there is no strangulation or suffocation, and no portrayal of a person who is, or is pretending to be, under 16. Section 106 is not engaged by mutual masturbation even if the people were framed as biological siblings, because section 67E requires sexual penetration of the vagina or anus, or of the mouth by a penis.",
+              "text": "On the face of the statutes, neither Chapter 4 nor section 63 criminalises consenting adults, in private, engaging in mutual masturbation or in activity involving bodily fluids, including semen or urine, where no listed act is portrayed. Sections 104 and 107 are not engaged if there is no strangulation or suffocation, and no portrayal of a person who is, or is pretending to be, under 16. Section 106 is not engaged, even if the people were framed as biological siblings, because that offence requires sexual penetration. Fluids are not a listed category under section 63.",
               "sources": [
                 {
                   "id": "cpa-104",
@@ -914,20 +946,29 @@
                 {
                   "id": "cpa-107",
                   "locator": "s.67H(2)"
-                }
-              ]
-            },
-            {
-              "text": "Section 63 of the 2008 Act is a closed list. Subsection (7) covers acts that threaten life; acts that result, or are likely to result, in serious injury to a person’s anus, breasts or genitals; sexual interference with a human corpse; and intercourse or oral sex with an animal. Subsection (7A), added later, covers two forms of non-consensual penetration. In each case a reasonable person looking at the image must think the people, or the person or animal, were real, and the image must also be grossly offensive, disgusting or otherwise of an obscene character. Bodily fluids are not a listed category.",
-              "sources": [
+                },
                 {
                   "id": "cjia-63",
-                  "locator": "ss.63(5A), (7), (7A)"
+                  "locator": "ss.63(7), (7A)"
                 }
               ]
             },
             {
-              "text": "Private possession is not an offence under the Obscene Publications Act 1959. The 1959 Act, as read with the 1964 Act, covers publication, and having an obscene article for publication for gain. On publication, the current CPS guidance does not list particular sexual acts. It says a prosecution under the Act is not likely where the conduct is consensual, no serious harm is caused, the conduct is not inextricably linked with other criminality, and the likely audience is not under 18 or otherwise vulnerable. The 2012 acquittal in R v Peacock is consistent with that approach, but it does not make such prosecutions “obsolete”. Whether any given publication would be charged remains a fact-specific decision.",
+              "text": "Two traps sit elsewhere on the statute book. First, if section 66AA is commenced, sharing a semen-defaced image of another person without consent would be a summary offence, as set out above. A private recording of consenting participants is not that offence. Second, venue matters. Exposure under section 66 requires the mental elements already stated; it is not made out automatically merely because the setting is a public swimming pool. Outraging public decency is a separate common-law offence.",
+              "sources": [
+                {
+                  "id": "cpa-sch13"
+                },
+                {
+                  "id": "soa-66"
+                },
+                {
+                  "id": "cps-obscene"
+                }
+              ]
+            },
+            {
+              "text": "Private possession is outside the 1959 Act. A publication of this kind of material would be assessed under the current CPS test set out above.",
               "sources": [
                 {
                   "id": "opa-2"
@@ -940,57 +981,6 @@
                 },
                 {
                   "id": "peacock-bbc"
-                },
-                {
-                  "id": "peacock-guardian"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "semen-images",
-          "title": "Two traps to watch, one of them not yet in force",
-          "kind": "Our analysis of the statute",
-          "paragraphs": [
-            {
-              "text": "Schedule 13, paragraph 2 of the 2026 Act would insert a new section 66AA into the Sexual Offences Act 2003, “Sharing semen-defaced image”. A person would commit an offence by intentionally sharing a semen-defaced image of another person, without that person’s consent, and without a reasonable belief in consent. A “semen-defaced image” is a photograph or film which shows, or appears to show, that person and which has, or appears to have, semen on it or in its immediate vicinity, or a photograph or film of such an image. The offence is the sharing, not the private act between consenting participants. There is a reasonable-excuse defence, and an exception where the image had already been publicly shared with consent. It would be a summary-only offence. As at 23 November 2026 this provision remains prospective. It should not be described as already in force.",
-              "sources": [
-                {
-                  "id": "cpa-sch13",
-                  "locator": "para. 2, inserting s.66AA"
-                },
-                {
-                  "id": "cpa-98",
-                  "locator": "commencement note I2"
-                },
-                {
-                  "id": "si-689",
-                  "locator": "reg. 2(1)(h), (z9)"
-                }
-              ],
-              "links": [
-                {
-                  "text": "Schedule 13, paragraph 2 of the 2026 Act",
-                  "url": "https://www.legislation.gov.uk/ukpga/2026/20/schedule/13"
-                }
-              ]
-            },
-            {
-              "text": "Venue is a different issue. Section 66 of the Sexual Offences Act 2003 is the offence of “Exposure”. From 29 September 2026, a person who intentionally exposes their genitals commits the offence if they intend that someone will see the genitals and be caused alarm, distress or humiliation, or if they expose them for sexual gratification with the intention that someone will see them and being reckless as to whether someone who sees them will be caused alarm, distress or humiliation. That is not automatic merely because the setting is a public swimming pool; the mental elements have to be proved. Common-law outraging public decency is a separate offence, and other public-place legislation may also arise on particular facts.",
-              "sources": [
-                {
-                  "id": "soa-66",
-                  "locator": "ss.66(1)–(1A)"
-                },
-                {
-                  "id": "cpa-113"
-                },
-                {
-                  "id": "si-960"
-                },
-                {
-                  "id": "cps-obscene"
                 }
               ]
             }
@@ -1002,7 +992,7 @@
           "kind": "Our analysis",
           "paragraphs": [
             {
-              "text": "The supplied notes treat an AI-generated erotic image of a fictional adult with four breasts as falling outside the 2008 and 2026 pornography offences. Two points in the statutes are relevant. First, section 63 and the new Chapter 4 offences all require that a reasonable person looking at the image would think the person, or persons, were real. Second, even if that test were met, four breasts, without more, are not a listed act under section 63, section 67A, section 67E or section 67H.",
+              "text": "An AI-generated erotic image of a fictional adult with four breasts sits outside Chapter 4 and section 63 if the “real person” test is not met, and in any event four breasts, without more, are not a listed act under section 63, section 67A, section 67E or section 67H. Whether a particular image would fail the “real person” test is a question of fact, not a rule of law. It can be argued that a torso with four breasts would not be taken by a reasonable person as a real human being. A prosecutor might invite a different conclusion by reference to rare congenital conditions.",
               "sources": [
                 {
                   "id": "cjia-63",
@@ -1023,27 +1013,7 @@
               ]
             },
             {
-              "text": "Whether a particular image would fail the “real person” test is a question of fact, not a rule of law. It can be argued that a torso with four breasts would not be taken by a reasonable person as a real human being. A prosecutor might invite a different conclusion by reference to rare congenital conditions. We do not treat the “real person” filter as an automatic defence, and we do not describe the scenario as “completely lawful” or “double-insulated”. On the face of the listed-act requirements, additional breasts alone do not supply the underlying offence.",
-              "sources": [
-                {
-                  "id": "cjia-63",
-                  "locator": "ss.63(7), (7A)"
-                },
-                {
-                  "id": "cpa-104",
-                  "locator": "s.67A(1)(c)"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ai-tripwires",
-          "title": "Three tripwires that still matter",
-          "kind": "Our analysis of the statute",
-          "paragraphs": [
-            {
-              "text": "First, section 62 of the Coroners and Justice Act 2009 — possession of a prohibited image of a child — is a different regime. It applies to non-photographic images, including computer-generated images, and it has no “reasonable person would think the person was real” requirement of the kind found in section 63 and in Chapter 4. A “child” is a person under 18. References to an image of a child include an imaginary child. Where an image shows a person, it is to be treated as an image of a child if the impression conveyed is that the person shown is a child, or if that is the predominant impression even though some of the physical characteristics shown are not those of a child. Fantasy anatomy does not, by itself, take an image outside section 62 if the character is depicted as under 18. The image must still be pornographic, fall within the listed forms of content, and be grossly offensive, disgusting or otherwise of an obscene character.",
+              "text": "Three other offences can still apply. Section 62 of the Coroners and Justice Act 2009 — possession of a prohibited image of a child — has no “reasonable person would think the person was real” requirement. A “child” is a person under 18, including an imaginary child. Where an image shows a person, it is to be treated as an image of a child if the impression conveyed is that the person shown is a child, or if that is the predominant impression even though some of the physical characteristics shown are not those of a child. Fantasy anatomy does not, by itself, take an image outside section 62 if the character is depicted as under 18. The image must still be pornographic, fall within the listed forms of content, and be grossly offensive, disgusting or otherwise of an obscene character.",
               "sources": [
                 {
                   "id": "cja-62",
@@ -1056,7 +1026,7 @@
               ]
             },
             {
-              "text": "Second, creating or sharing a purported intimate image of a real, identifiable person without consent is already a crime, whether or not the image also alters the person’s anatomy. The creating offence is section 66E of the Sexual Offences Act 2003, inserted by the Data (Use and Access) Act 2025 and in force from 6 February 2026. Sharing an image that shows, or appears to show, another person in an intimate state can engage section 66B. Section 99 of the 2026 Act, in force from 29 June 2026, is not that offence. It inserts section 66I, which criminalises making or supplying a thing for use as a generator of purported intimate images.",
+              "text": "Creating or sharing a purported intimate image of a real, identifiable person without consent is already a crime, whether or not the image also alters the person’s anatomy: that is sections 66E and 66B, not section 99. And if a generated image passed the “appears real” test and also portrayed a listed extreme act — for example an act involving a human corpse, an animal, or non-consensual penetration — section 63 would be capable of applying to that act.",
               "sources": [
                 {
                   "id": "soa-66e"
@@ -1065,23 +1035,8 @@
                   "id": "soa-66b"
                 },
                 {
-                  "id": "dua-138"
-                },
-                {
-                  "id": "si-31"
-                },
-                {
                   "id": "cpa-99"
                 },
-                {
-                  "id": "si-689",
-                  "locator": "reg. 2(1)(i)"
-                }
-              ]
-            },
-            {
-              "text": "Third, if a generated image passed the “appears real” test and also portrayed a listed extreme act — for example an act involving a human corpse, an animal, or non-consensual penetration — section 63 would be capable of applying to that act. The additional breasts would not be what made the image extreme.",
-              "sources": [
                 {
                   "id": "cjia-63",
                   "locator": "ss.63(7), (7A)"
@@ -1122,7 +1077,7 @@
           },
           "paragraphs": [
             {
-              "text": "The scorecard is our analysis of statutory scope. It is not legal advice, and it is not a statement that any image or act is lawful in every respect.",
+              "text": "The scorecard is about statutory scope. It is not legal advice, and it is not a statement that any image or act is lawful in every respect.",
               "sources": [
                 {
                   "id": "cpa-104"
@@ -1265,23 +1220,6 @@
       "url": "https://www.legislation.gov.uk/uksi/2026/960/made",
       "checked": "2026-11-23",
       "date": "2026-09-02"
-    },
-    {
-      "id": "si-1158",
-      "title": "The Crime and Policing Act 2026 (Commencement No. 5) Regulations 2026",
-      "publisher": "legislation.gov.uk",
-      "type": "Statutory instrument",
-      "url": "https://www.legislation.gov.uk/uksi/2026/1158/made",
-      "checked": "2026-11-23",
-      "date": "2026-11-03"
-    },
-    {
-      "id": "si-939",
-      "title": "The Crime and Policing Act 2026 (Commencement No. 2) Regulations 2026",
-      "publisher": "legislation.gov.uk",
-      "type": "Statutory instrument",
-      "url": "https://www.legislation.gov.uk/uksi/2026/939/made",
-      "checked": "2026-11-23"
     },
     {
       "id": "cjia-63",
