@@ -1,0 +1,1366 @@
+{
+  "id": "shand-v-kemkers",
+  "category": "legal-study",
+  "title": "A lawyer is not an investigator of the client’s case: Shand v Kemkers",
+  "subtitle": "The High Court refused permission for contempt proceedings against five lawyers and a company director. Advancing a client’s case is not personally certifying it. Knowingly misleading the court remains forbidden.",
+  "summary": "In Shand v Kemkers [2026] EWHC 341 (KB), Mr Justice Cotter refused Martina Yvonne Shand, a litigant in person, permission to bring contempt proceedings against six people involved in long-running litigation about her flat: five lawyers and a company director. He held that the allegations were totally without merit and would be bound to fail. He restated a settled professional rule: a barrister or solicitor advancing a client’s case on instructions is not personally vouching for the truth of the facts, and there is no general duty to investigate whether the client or a witness is telling the truth. That is not a licence to mislead. A lawyer who states facts known to be false, or who otherwise deliberately interferes with the administration of justice, can still be the subject of contempt proceedings. Recklessness is not enough; after Norman v Adler, knowledge is required. A linked 2025 claim against Mishcon de Reya LLP and DWF Law LLP was struck out as totally without merit. The judge made an extended civil restraint order for three years. That order is not a total bar on further claims: it requires prior judicial permission. This is a 2026 judgment. It is not the first case to state that advocates are not investigators of their client’s facts.",
+  "scope": "England and Wales. This page is a study of Shand v Kemkers [2026] EWHC 341 (KB), the later consequentials judgment in Shand v Mishcon de Reya LLP [2026] EWHC 2291 (KB), and the civil-procedure and professional-conduct rules the court applied. It is not a finding that any lawyer committed misconduct, and it is not a finding that any client deceived counsel. Scotland and Northern Ireland have different procedure and professional regulation. This is not legal advice.",
+  "status_note": "Both judgments were read in full from the official texts on the National Archives (Find Case Law) on 25 November 2026. Quotations are taken from them, including their spelling. Where the February judgment cites Norman v Adler as [2023] EWCA Civ 783, the official citation of that Court of Appeal decision is [2023] EWCA Civ 785; we use the official citation and note the typographical difference. The Civil Procedure Rules, the BSB Handbook and the SRA Code of Conduct were checked the same day. The Law Gazette report of 23 February 2026 is used only as secondary reporting. Analytical labels, the “first case” question and the counter-strategy section are our commentary, not findings of the court. This is legal research and public education, not legal advice.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-25",
+  "tags": [
+    "uk",
+    "contempt",
+    "statements-of-truth",
+    "professional-conduct",
+    "advocacy",
+    "honesty",
+    "evidence"
+  ],
+  "featured_source": "judgment",
+  "related": [
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth: what does the system reward?"
+    },
+    {
+      "id": "robinson-v-murphy",
+      "title": "False statement of truth, not a lie: Robinson v Murphy"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The holding",
+      "value": "Permission refused",
+      "detail": "All six contempt applications were held totally without merit and bound to fail",
+      "target": "holding"
+    },
+    {
+      "label": "The professional rule",
+      "value": "Not a voucher",
+      "detail": "A lawyer advancing a client’s case on instructions is not personally certifying the facts",
+      "target": "not-an-investigator"
+    },
+    {
+      "label": "The mental element",
+      "value": "Knowledge, not recklessness",
+      "detail": "After Norman v Adler, recklessness is not enough for this form of contempt",
+      "target": "legal-test"
+    },
+    {
+      "label": "A 2026 case, not a first",
+      "value": "Settled principle, recent application",
+      "detail": "The underlying professional rule was already in the codes and earlier authorities",
+      "target": "not-a-first"
+    }
+  ],
+  "sections": [
+    {
+      "id": "holding",
+      "title": "The holding",
+      "intro": "What the High Court decided in February 2026, what it did not decide, and why this is not “the first case” on the underlying professional rule.",
+      "entries": [
+        {
+          "id": "what-was-held",
+          "title": "Permission refused, and the allegations were held totally without merit",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 18 February 2026, Mr Justice Cotter, sitting in the King’s Bench Division, handed down judgment in Shand v Kemkers [2026] EWHC 341 (KB). The judgment determined two matters heard together on 18 and 19 November 2025: a Part 8 application by Martina Yvonne Shand, acting in person, for permission to bring contempt proceedings against six people, and an application to strike out a linked Part 7 claim issued in 2025 against Mishcon de Reya LLP and DWF Law LLP.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 1, 6; header"
+                }
+              ]
+            },
+            {
+              "text": "The six respondents to the contempt application were Peter Edward Kemkers, a finance director of the former landlord; Daniel Joseph Levy, a partner at Mishcon de Reya, which had acted for Ms Shand; Jarret Bevan Brown, also of Mishcon, who signed a statement of truth on its defence; John Bennett, a solicitor at DWF with conduct of Mishcon’s defence; and two barristers instructed for Mishcon, Jamie Charles Smith KC and Timothy Hamar Chelmick. Five of the six are lawyers. Mr Kemkers is not.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "header; paras 25, 27, 54, 67"
+                }
+              ]
+            },
+            {
+              "text": "The judge held that Ms Shand had made “allegations of the most serious character,” including an alleged “egregious multi-party fraud on the court,” and that those allegations “would all be bound to fail.” Where permission was required, he refused it. In any event he would have struck the allegations out as having no realistic prospect of success and/or as an abuse of process. The applications for permission against all six defendants were each “totally without merit.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 2, 264–265"
+                }
+              ]
+            },
+            {
+              "text": "He also struck out the 2025 Part 7 claim and declared it totally without merit. He made an extended civil restraint order against Ms Shand for three years. That order, he explained, is not a total bar on a fresh claim or application about these matters: it means the court’s permission is required, and she would have to persuade the court that the proposed claim or application has some merit.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 287, 305–307"
+                },
+                {
+                  "id": "pd3c",
+                  "locator": "paras 3.1–3.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-was-not-decided",
+          "title": "What the court did not decide",
+          "kind": "High Court judgment and our analysis",
+          "paragraphs": [
+            {
+              "text": "The court did not find that any of the six respondents had committed a contempt. It did not try the underlying facts of the original dispute about Ms Shand’s flat, and it did not decide whether a client had knowingly given false instructions to a barrister or solicitor. The applications failed at the permission and strike-out stage. An admission of professional negligence by Mishcon, made years earlier and later repeated in the 2019 action, is recorded in the judgment; it is not a finding of dishonesty or of a conspiracy.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 40, 66, 216, 264–265"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "The hypothetical discussed later on this page — a client who knowingly gives false instructions, and an advocate who innocently advances them — is our analysis of a question the judgment leaves standing. It is not a finding about these parties.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "not-a-first",
+          "title": "A 2026 case, not the first statement of the rule",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The judgment was handed down on 18 February 2026. In that limited sense it is a case from this year. No official report or news account we have read describes it as the first case of its kind, and the judge did not present the professional rule as new.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "header; paras 121–123"
+                },
+                {
+                  "id": "gazette",
+                  "locator": "23 February 2026"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "The central proposition — that an advocate must not knowingly mislead the court, but is not required to investigate and decide whether the client’s account is true before putting that account forward — was already in the Bar Standards Board Handbook, in the SRA Code of Conduct, and in earlier authorities. Cotter J quoted the Handbook guidance on Core Duties 1 and 2, and applied Norman v Adler on the mental element for contempt. What the 2026 judgment usefully does is apply those settled rules, in clear terms, to a contempt application brought by a litigant in person against the lawyers on the other side of her case, and against her former solicitors.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 97, 121–123"
+                },
+                {
+                  "id": "bsb"
+                },
+                {
+                  "id": "sra-code"
+                },
+                {
+                  "id": "norman",
+                  "locator": "paras 60–61"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "One procedural point was argued as less well covered. Counsel for the defendants submitted that none of the reported cases to date had dealt with whether proceedings that have been struck out or settled remain “existing proceedings” for the permission filter in CPR 81.3. The judge applied earlier reasoning of Bacon, Pepperall and Johnson JJ and held that, once proceedings have been issued, they remain “existing” for that purpose even if later struck out or settled. That is an application of existing reasoning to a gap the parties identified, not a claim that the whole case breaks new ground.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 100–107"
+                },
+                {
+                  "id": "cpr81-3",
+                  "locator": "r 81.3(5)"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "facts",
+      "title": "The dispute and the application",
+      "intro": "A long-running complaint about a London flat, several earlier claims, and a 226-page contempt application.",
+      "entries": [
+        {
+          "id": "the-flat",
+          "title": "The underlying complaint about the flat",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Ms Shand bought Flat 23, The Lab Building, 177 Rosebery Avenue, London, on 26 March 1999. From shortly after purchase she complained of water ingress, noisome odours and potentially toxic gases associated with the soil stack. Insurance and NHBC payments followed between 2005 and 2013, and works were carried out in 2008 and 2009. By the time of the 2025 hearings the dispute, in one form or another, had been running for more than 13 years and was still unresolved.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 17, 21–24"
+                }
+              ]
+            },
+            {
+              "text": "The original landlord was St James Homes Limited, until 30 April 2012. The property manager was OM Limited, later subcontracting to Peverel and then First Port. Mr Kemkers, finance director of St James, took over conduct of the dispute from Simon Fairless in September 2012. He instructed solicitors and authorised the signing of statements of truth on St James’s defences in 2012 and 2019.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 20, 25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2012-and-mishcon",
+          "title": "The 2012 claim and the Mishcon retainer",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Ms Shand issued a claim against St James and OM on 25 October 2012. She instructed Mishcon de Reya on 19 February 2013. Counsel Nicholas Trompeter settled particulars of claim dated 26 June 2013. Mishcon missed a directions-questionnaire deadline, and the claim was struck out. Mishcon ended the retainer in May 2016.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 27, 32, 36, 38"
+                }
+              ]
+            },
+            {
+              "text": "Ms Shand complained in August 2016. In a letter of 14 November 2016, Triton (the insurers’ solicitors) admitted a breach of duty in Mishcon’s handling of the 2012 claim — including a failure of advice, allowing the strike-out, and misleading communications from Jonathan Warren, the solicitor with day-to-day conduct — and tendered £93,820. The tender was not cashed.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 39–41"
+                }
+              ]
+            },
+            {
+              "text": "In August 2018 an application to reopen the 2012 proceedings was dismissed and certified totally without merit.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 44, 299"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2019-and-2020",
+          "title": "The 2019 and 2020 claims, discontinuance and settlement",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 20 June 2019 Ms Shand issued a High Court claim seeking damages in excess of £1 million against ten defendants, including Mishcon, Withers, OM, St James, Mr Trompeter, First Port, Eversheds, JB Leitch, Michael James and Mr Warren. The claim was not issued against Mr Kemkers or Mr Levy personally, but allegations of fraud and dishonesty against Mr Levy formed part of the claim against Mishcon. The particulars included allegations of a “Staged Bucket Flood Fraud” and of a cover-up conspiracy. Those are her pleaded allegations, not findings of the court.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 48–52"
+                }
+              ]
+            },
+            {
+              "text": "DWF acted for Mishcon. Mr Bennett had conduct. Mr Smith KC was instructed, later replaced for ill-health by Mr Chelmick in November 2020. On 25 November 2019 Ms Shand served a notice of discontinuance of the conspiracy, deceit and dishonesty issues. On 11 December 2019 she settled with St James on terms of no costs, in exchange for no further claims arising from the 2019 proceedings or the same facts, recorded in a Tomlin order.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 54, 58, 61–63"
+                }
+              ]
+            },
+            {
+              "text": "The remaining negligence claim against Mishcon was defended in a defence dated 10 December 2019, verified by a statement of truth signed by Mr Brown and drafted by Mr Smith KC, repeating the earlier Triton admissions. That claim was settled on 22 January 2021 by late acceptance of a Part 36 offer. The settlement sum is later recorded in the judgment as £290,000, paid net of other costs liabilities. The judge did not assess whether the settlement was a “fair” one.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 67–68, 82, 216, 271, 297"
+                }
+              ]
+            },
+            {
+              "text": "On 21 June 2020, while the 2019 claim was still live, she issued a harassment claim against Mishcon on largely the same facts. Chief Master Marsh struck it out on 23 November 2020 and ordered costs of £50,000. The order did not also declare the claim totally without merit, although he appears to have said that it was.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 68–69, 80, 300"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-application",
+          "title": "The 2025 contempt application",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The application for permission was dated 13 May 2025. Contempt had been intimated against Mr Smith KC in June 2023 and against Mr Chelmick in August 2023, with a “Notice of Committal Action” in April 2024. The judge recorded a long delay: about 11 and a half years after the 2012 defence, and about five and a half years after the 2019 defence.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 6, 84–85, 171"
+                }
+              ]
+            },
+            {
+              "text": "The particulars of contempt ran to 226 pages, supported by a 171-page affidavit and about 16 exhibit bundles — some 10,000 pages and 2,200 documents. Ms Shand said she had spent more than 400 days preparing the material. The judge described the documents as disproportionate, prolix and unworkably long.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 13–14"
+                }
+              ]
+            },
+            {
+              "text": "During the hearing she indicated that she wished to concentrate on Mr Kemkers and Mr Levy, and later that the applications against the other four were weak. She did not formally withdraw those allegations, so the judge addressed all six respondents.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 9, 12, 16"
+                }
+              ]
+            },
+            {
+              "text": "The judge recorded that she “presented as little short of crestfallen and overwhelmed and was clearly very upset,” and that she described counsel’s presentation of the defendants’ case as “cruel.” He said that nothing said on their behalf was remotely cruel, and that the demolition of the case was a consequence of its lack of merit. She had chosen to bring serious allegations against six people, five of them lawyers, and they were entitled to respond.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parties",
+      "title": "The parties’ positions",
+      "intro": "What Ms Shand alleged, and how the six respondents answered. These are positions, not findings.",
+      "entries": [
+        {
+          "id": "shand-case",
+          "title": "Ms Shand’s case",
+          "kind": "Party position — not a finding",
+          "paragraphs": [
+            {
+              "text": "On the Part 8 claim form, as recorded by the judge, Ms Shand alleged an “egregious multi-party fraud on the court.” She said the defendants had “dishonestly, individually and collectively, painted a false and misleading picture” with the intention of defeating her in the 2019 and 2020 actions. She later indicated that one purpose of the contempt application was to raise another claim in respect of Mr Kemkers, after the 2019 settlement and discontinuance.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 2, 64"
+                }
+              ]
+            },
+            {
+              "text": "Against the lawyers, her case as the judge understood it included a belief that a barrister or solicitor is required to investigate and verify where the truth lies before putting the client’s case forward. Against Mr Levy she also alleged a conflict of interest arising from Mishcon’s relationship with companies in the Berkeley Group, of which St James was a member, and that this had been concealed.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 131, 236–237"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "defendants-case",
+          "title": "The respondents’ case",
+          "kind": "Party position — not a finding",
+          "paragraphs": [
+            {
+              "text": "The defendants’ united position, as recorded at the outset of the judgment, was that the allegations were wholly unfounded, based on a non-existent multi-party conspiracy, had no prospect of being proved to the criminal standard, and were vexatious and an abuse of process. Their case was that the true purpose of the application was to air grievances and to relitigate claims that had already been discontinued, settled or struck out.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 3"
+                }
+              ]
+            },
+            {
+              "text": "Mr Levy’s statement in the proceedings, quoted by the judge, said that Mishcon had carried out a conflict check when opening the matter, that the check had not revealed a conflict, that Mishcon had not acted for Berkeley on the purchase of Marco Polo House (it had acted for the seller), and that a later internal compliance review did not indicate that Mishcon had acted on any matter connected to Ms Shand’s case or giving rise to confidentiality issues. Mishcon did not waive privilege. Leigh-Ann Mulcahy KC, for the Mishcon-side defendants, submitted that there was no evidence which would justify the court going behind that conclusion, still less treating a non-existent conflict as the fuel of a conspiracy.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 124, 238, 240"
+                }
+              ]
+            },
+            {
+              "text": "The Solicitors Regulation Authority, as recorded in the judgment, informed Mr Levy in January 2022 that a complaint that he had misled Ms Shand into thinking he had read her file did not require further investigation, and confirmed in August 2023 that no action would be taken. Cotter J treated the regulator’s recorded position as a public-interest factor, not as a court finding that every allegation was untrue.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 83, 231"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-test",
+      "title": "The legal test",
+      "intro": "Permission under CPR 81, the knowledge requirement after Norman v Adler, and why the court looks at the substance of an allegation rather than the label put on it.",
+      "entries": [
+        {
+          "id": "permission",
+          "title": "Permission, public interest and the criminal standard",
+          "kind": "High Court judgment and the Civil Procedure Rules",
+          "paragraphs": [
+            {
+              "text": "Contempt proceedings for a false statement of truth are usually treated as “criminal” contempt and are public-interest proceedings. Permission is required under CPR 81.3(5) where the allegation is of interference with the due administration of justice, otherwise than in existing High Court or county court proceedings, or of making a false statement of truth. The ordinary permission test, as Cotter J summarised it from Newson-Smith v Al Zawawi, is whether there is a strong prima facie case which, if unanswered, would be likely to result in a finding of contempt; whether the public interest requires the committal proceedings to be brought; and whether the applicant is a proper person to bring them, with a sufficient interest and an appropriate degree of independence and proportionality.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 93–96"
+                },
+                {
+                  "id": "cpr81-3",
+                  "locator": "r 81.3(5)"
+                },
+                {
+                  "id": "kjm",
+                  "locator": "[2009] 1 WLR 2406"
+                }
+              ]
+            },
+            {
+              "text": "The factors in KJM Superbikes Ltd v Hinton include the seriousness of the alleged contempt, the public interest in enforcement, delay, and whether the application is being used for a private purpose rather than to protect the administration of justice.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 94–95"
+                },
+                {
+                  "id": "kjm"
+                }
+              ]
+            },
+            {
+              "text": "As already noted, the judge held that proceedings remain “existing proceedings” for the permission filter once they have been issued, even if later struck out or settled. He also held that all allegations concerning false statements of truth require permission, even if made in existing proceedings. Many of Ms Shand’s counts, though labelled as interference with the administration of justice, were in substance false-statement allegations and therefore required permission under rule 81.3(5)(b). The court looks at the true nature of the allegation, not the label: Cole v Carpenter and UK Insurance v Ali were cited for that approach.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 104–114"
+                },
+                {
+                  "id": "cpr81-3",
+                  "locator": "r 81.3(5)"
+                }
+              ]
+            },
+            {
+              "text": "The power to strike out a contempt application was retained after the 2020 reform of CPR Part 81, even though the accompanying practice direction was revoked. Where both permission and strike-out are in play, the route, the judge said, should not change the merits outcome.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 115–117"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "knowledge",
+          "title": "Knowledge is required; recklessness is not enough",
+          "kind": "Court of Appeal authority as applied in this case",
+          "paragraphs": [
+            {
+              "text": "Cotter J recorded that the mental element is as stated by the Court of Appeal in Norman v Adler. He cited that decision as “[2023] EWCA Civ 783, at paras 60–61.” The official neutral citation of Norman v Adler is [2023] EWCA Civ 785; the quoted wording matches that judgment. Recklessness is not enough. A person alleged to have made a false statement of truth must be shown to have known that the statement was false, or to have had no honest belief in its truth in the sense required by the authorities — not merely to have been careless, or not to have cared. Ms Shand recognised in her submissions that a reckless alternative would not suffice.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 97, 123, 209"
+                },
+                {
+                  "id": "norman",
+                  "locator": "paras 60–61; official citation [2023] EWCA Civ 785"
+                }
+              ]
+            },
+            {
+              "text": "The same knowledge requirement is analysed, in a different factual setting, in our study of Robinson v Murphy [2024] EWHC 798 (KB). There, a signed statement was objectively false, but the committal application still failed because knowledge was not proved. Shand v Kemkers applies the same requirement to applications aimed at advocates and solicitors who were advancing a client’s case rather than personally vouching for the facts.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "norman"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Robinson v Murphy",
+                  "url": "https://independenttribunal.org/research/robinson-v-murphy/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "who-vouches",
+          "title": "Who vouches for a statement of truth",
+          "kind": "Civil Procedure Rules as applied in the judgment",
+          "paragraphs": [
+            {
+              "text": "Under CPR 22.1(6) and the White Book commentary recorded in the judgment, it is the client or the witness who vouches for the truth of a statement of case or witness statement, even if a solicitor signs the statement of truth on the client’s behalf. A party who instructs a legal representative to sign, knowing the pleading is false, is treated as “making” a false statement. That allocation of responsibility is one reason a contempt application aimed at the advocate, rather than at the person who knew the facts, has to clear a high bar.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 111–113, 123"
+                },
+                {
+                  "id": "cpr22",
+                  "locator": "r 22.1(6)"
+                },
+                {
+                  "id": "pd22",
+                  "locator": "Practice Direction 22"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "not-an-investigator",
+      "title": "A lawyer is not an investigator of the client’s case",
+      "intro": "The 2026 restatement of a settled professional rule, and the limits that remain.",
+      "entries": [
+        {
+          "id": "no-automatic-shield",
+          "title": "No automatic shield, but the role of the advocate matters",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Lawyers, Cotter J held, have no automatic shield against contempt if they disobey an order, make a statement they know to be false, or deliberately interfere with the administration of justice. Account must, however, be taken of the particular role they undertake.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "not-the-judge",
+          "title": "It is not the lawyer’s function to decide whether the client is to be believed",
+          "kind": "High Court judgment and the professional codes",
+          "paragraphs": [
+            {
+              "text": "It is an error, the judge said, to think that a barrister or solicitor must act as investigator or judge of the client’s case. Lawyers advance the client’s case; the judge decides the facts and the law.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 121"
+                }
+              ]
+            },
+            {
+              "text": "He quoted, describing it as “Bar Standards Guidance,” the BSB Handbook guidance on Core Duties 1 and 2: the duty to the court does not prevent an advocate from putting forward the client’s case simply because the advocate does not believe that the facts are as the client states them to be, provided the positive case accords with instructions and the advocate does not mislead the court. “It is not for you to decide whether your client’s case is to be believed.” Otherwise, advocates would be placed in an impossible conflict, and the rule of law would be undermined. The official source of that guidance is the BSB Handbook, not a separate “Guidance” document.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 121"
+                },
+                {
+                  "id": "bsb",
+                  "locator": "Core Duties 1 and 2 and associated guidance"
+                }
+              ]
+            },
+            {
+              "text": "The SRA Code of Conduct, which he also recorded, requires solicitors not to mislead the court or others (rule 1.4), not to generate false evidence (rule 2.2), and to put only properly arguable assertions (rule 2.4).",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 122"
+                },
+                {
+                  "id": "sra-code",
+                  "locator": "rules 1.4, 2.2, 2.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "not-vouching",
+          "title": "Advancing a case on instructions is not personally vouching for the facts",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The judge accepted a submission by Simon Wilton KC, for the two barristers, which he treated as a correct statement of the law:",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 123"
+                }
+              ]
+            },
+            {
+              "text": "When drafting a statement of case, a witness statement or a skeleton argument, or making oral submissions, a barrister or solicitor “is advancing his or her client’s case on instructions and is not personally vouching for the truth of any factual contentions or legal argument.” The client or witness vouches for the facts, even if a solicitor signs the statement of truth. The duty to the court takes precedence, including a duty not to state facts the lawyer knows to be false and not to mislead. “There is no general or overarching duty to investigate the accuracy or veracity of what a client or witness says.” Presenting a contested, or even highly unlikely, factual case — or a contestable view of the law — is not itself a breach, subject to the duty not to mislead and not to make statements of fact known to be false. Recklessness is not sufficient; knowledge is required.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 123"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "Applying that test to Mr Smith KC and Mr Chelmick, the judge held that there was no evidence, by inference or otherwise, that the barristers knew they were presenting a false factual picture or a wholly unfounded contention. Ms Shand was “plainly proceeding under the false impression that it is part of the duty of a barrister to undertake investigations to verify where the truth lies before putting forward his or her client’s case.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 131"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "privilege",
+          "title": "Privilege and adverse inferences",
+          "kind": "House of Lords authority as applied in the judgment",
+          "paragraphs": [
+            {
+              "text": "Mishcon did not waive privilege, as was its absolute right. The judge applied Medcalf v Mardell [2002] UKHL 27, [2003] 1 AC 120: extreme care is required before drawing adverse inferences against an advocate about the instructions he or she received. (The February judgment cites the Appeal Cases reference as “[2003] 1 AC 20”; the official report is [2003] 1 AC 120.) Ms Shand did not know what instructions the barristers had been given.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 124"
+                },
+                {
+                  "id": "medcalf",
+                  "locator": "[2002] UKHL 27"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "title": "The outcomes",
+      "intro": "How the court disposed of the applications against each respondent, the 2025 claim, and the restraint order.",
+      "entries": [
+        {
+          "id": "barristers-and-solicitors",
+          "title": "The four lawyers instructed on Mishcon’s defence, and Mr Brown",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Against Mr Bennett, the judge refused permission on counts 1 to 4 and 7, and struck out counts 5 and 6 as totally without merit and an abuse of process.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 161"
+                }
+              ]
+            },
+            {
+              "text": "Against Mr Smith KC and Mr Chelmick, he refused permission on all counts and, alternatively, would have struck the allegations out. The applications were an attempt to relitigate, and were held totally without merit.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 162–163"
+                }
+              ]
+            },
+            {
+              "text": "Against Mr Brown, who had signed the statement of truth on Mishcon’s 2019 defence, Ms Shand accepted that the case was weak. The judge held that there was no evidence he had signed knowing the defence was false, and no prospect of proof to the criminal standard. The application was an attempt to relitigate the 2019 Mishcon claim. Permission was refused; the application would also have been struck out; and it was held totally without merit.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 201, 203–206"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kemkers",
+          "title": "Mr Kemkers",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Sixteen counts were advanced against Mr Kemkers. The judge held that there had been excessive delay; that the application had an improper collateral purpose, namely to relitigate and to circumvent the earlier strike-out and discontinuance; and that it was an abuse of process in the Henderson v Henderson sense, as explained in Johnson v Gore Wood & Co, including after discontinuance (the judgment also cites King v Kings Solutions Group Ltd [2020] EWHC 2861).",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 168–175"
+                },
+                {
+                  "id": "johnson",
+                  "locator": "[2002] 2 AC 1"
+                }
+              ]
+            },
+            {
+              "text": "He refused permission, or struck out, all sixteen counts, and held the allegations totally without merit.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 181, 188, 198–199"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "levy",
+          "title": "Mr Levy",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Three counts were advanced against Mr Levy, arising from a 2020 witness statement in which he denied fraud and dishonesty. A reckless alternative was, as already noted, insufficient. The judge held that the allegations largely repeated the discontinued 2019 deceit and conspiracy claims, and were an abuse. There was also delay.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 71, 208–209, 214–218"
+                }
+              ]
+            },
+            {
+              "text": "On emails said to show that Mr Levy had claimed to have “considered the file,” the judge recorded Mr Levy’s later clarification that he had not read the file, but had considered the matter with Mr Warren. The wording “may not have been as clear as it could have been,” but there was no unequivocal statement that he had read the whole file, and the material fell well short of a prima facie contempt case.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 223–225"
+                }
+              ]
+            },
+            {
+              "text": "An allegation about the job title of Mr Warren in the Triton letter was also rejected as a foundation for contempt. The letter was wrong to call Mr Warren a Managing Associate as at January 2014 (he later held that title, and held it at the time of the Triton letter). There was no strong prima facie case that Mr Levy had not considered him a senior and trusted member of the team.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 226"
+                }
+              ]
+            },
+            {
+              "text": "Allegations about Mr Levy’s knowledge of the other side’s defence, and of Mr Kemkers’ belief, were described as “baseless and fanciful.” There was no strong prima facie evidence of dishonesty or fraud. Permission was refused on counts 1 and 2; count 3 was struck out as devoid of merit and an abuse. The judge said he would also have refused permission on public-interest grounds, given the SRA’s recorded conclusion and the delay; on abuse grounds; and because the application had a collateral purpose, including a wish to set aside the notice of discontinuance and the Part 36 settlement — relief that contempt proceedings are not designed to deliver.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 227, 230–234"
+                }
+              ]
+            },
+            {
+              "text": "Late, post-hearing material about an alleged conflict of interest involving Tony Pidgley, Susan Freeman, Nick Doffman and a London Chamber of Commerce co-hosting was not admitted. The judge said that if it had been admitted, his conclusions would have been unaltered, and that the allegations were fanciful.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 219, 261–263"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "overall-and-stay",
+          "title": "The overall disposal, and the stay of the 2019 claim",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Standing back, the judge repeated that where permission was required he refused it, and that in any event he would strike out all the allegations as having no realistic prospect of success and/or as an abuse. The applications were each totally without merit. An application to lift the stay of the 2019 action, and to obtain interim costs, was dismissed. He could see no arguable basis for lifting the stay of a claim settled by acceptance of a Part 36 offer, under which Ms Shand had received £290,000 (paid net of other costs liabilities).",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 264–265, 271, 273"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2025-claim",
+          "title": "The 2025 Part 7 claim was struck out",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 26 September 2025 Ms Shand issued Part 7 proceedings against Mishcon and DWF, valued “in excess of £500,000.” The claim had not been served by the November 2025 hearing, but had been provided informally on 2 October 2025. The judge struck the claim out and declared it totally without merit.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 274, 287, 301"
+                },
+                {
+                  "id": "gazette",
+                  "locator": "23 February 2026"
+                }
+              ]
+            },
+            {
+              "text": "The claim against Mishcon was held to be an abuse: the Part 36 settlement of 22 January 2021 barred further claims on the same facts; discontinued wider allegations could not be revived; and the principle of finality, expressed in Johnson v Gore Wood as that “a party should not be twice vexed in the same matter,” applied. A different standard of proof applies to strike-out (the civil standard) from that which applies to contempt (the criminal standard).",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 285–286"
+                },
+                {
+                  "id": "johnson"
+                }
+              ]
+            },
+            {
+              "text": "The judge recorded that Ms Shand did have a claim against Mishcon, pursued it, and obtained £290,000; and that she had apparently also received about £130,000 via insurance in respect of the underlying defects. He also recorded that she had pursued a conspiracy theory and many serious allegations.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 297–298"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ecro",
+          "title": "An extended civil restraint order for three years",
+          "kind": "High Court judgment and Practice Direction 3C",
+          "paragraphs": [
+            {
+              "text": "Having held the permission applications and the 2025 claim totally without merit, the judge considered a civil restraint order. When a statement of case is struck out and the court considers the claim totally without merit, CPR 3.4(6) requires the order to record that fact and requires the court to consider whether a civil restraint order is appropriate. The February judgment refers at this point to “CPR 33.4 (6).” Part 33 of the Civil Procedure Rules concerns hearsay evidence. The provision that fits the court’s reasoning, and that we cite, is rule 3.4(6).",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 294"
+                },
+                {
+                  "id": "cpr3-4",
+                  "locator": "r 3.4(6)"
+                }
+              ]
+            },
+            {
+              "text": "A limited civil restraint order was held inadequate, because Ms Shand had started multiple new claims (the 2020 claim in parallel with the 2019 claim; the 2025 claim alongside the Part 8 application) and because her particulars contemplated claims against up to 18 defendants. At least three totally-without-merit orders is a minimum indicator of persistence, not automatically decisive. The judge held that an extended civil restraint order was “necessary and proper,” and that the decision was not reached lightly. It would be “a real blow for Ms Shand who was very emotional at the prospect.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 303–305"
+                },
+                {
+                  "id": "pd3c",
+                  "locator": "paras 3.1–3.2"
+                }
+              ]
+            },
+            {
+              "text": "The term was three years. The order is not a total bar: she needs the court’s permission, and must show that a proposed claim or application has some merit.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 306–307"
+                },
+                {
+                  "id": "pd3c",
+                  "locator": "para 3.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "later-judgment",
+      "title": "The later judgment of 11 September 2026",
+      "intro": "Consequentials in the same 2025 Part 7 claim, after Ms Shand sought to reformulate it.",
+      "entries": [
+        {
+          "id": "mishcon-2291",
+          "title": "The reformulated conflict claim was also struck out",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 11 September 2026, after a hearing on 31 July 2026, Cotter J handed down a further judgment in Shand v Mishcon de Reya LLP [2026] EWHC 2291 (KB). DWF was no longer a defendant in the heading. The February judgment had already struck out the 2025 claim as then formulated and declared it totally without merit. At a consequentials hearing, originally listed for 19 May 2026 and then relisted, Ms Shand sought to reformulate the claim as a conflict-of-interest, “own-interest conflict” and deliberate-sabotage case involving Mishcon, Susan Freeman and Tony Pidgley.",
+              "sources": [
+                {
+                  "id": "mishcon-2291",
+                  "locator": "paras 1–4, header"
+                }
+              ]
+            },
+            {
+              "text": "The judge held that the factual claim that any suggested own-interest conflict had caused the admitted failure to advance her 2012 claim was fanciful. Mishcon’s negligence in handling that claim was not in dispute and had been admitted long before. Standing back over 14 years of litigation, he described the reformulated claim as “yet another facet of a conspiracy theory which has evolved to counter any set back,” and said it was “time that the underlying conspiracy theory is given its quietus.”",
+              "sources": [
+                {
+                  "id": "mishcon-2291",
+                  "locator": "paras 51–52"
+                }
+              ]
+            },
+            {
+              "text": "He also held the claim time-barred. The alleged failure to disclose a conflict was during the retainer, which ended in May 2016; the primary limitation period expired on 1 June 2022; the proceedings were issued on 26 September 2025. The public material on which the reformulated case relied had, he found, been available since 2014 or 2015. There was no deliberate concealment for the purpose of section 32 of the Limitation Act 1980. Mishcon had consistently denied that there was a conflict, or that anything more sinister than the admitted negligence of Mr Warren lay behind the 2012 failure.",
+              "sources": [
+                {
+                  "id": "mishcon-2291",
+                  "locator": "paras 53–56"
+                }
+              ]
+            },
+            {
+              "text": "He formally disallowed amendments made without permission, dismissed the application for further amendments, and struck out the unamended claim under CPR 3.4(2)(a) and/or as an abuse under CPR 3.4(2)(b) and/or as statute-barred, and as totally without merit. He allowed 21 days for written submissions on costs, including whether costs should be assessed on the indemnity basis, and directed that time for appeal would not run until a final order was made.",
+              "sources": [
+                {
+                  "id": "mishcon-2291",
+                  "locator": "paras 57–58"
+                },
+                {
+                  "id": "cpr3-4",
+                  "locator": "r 3.4(2)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "title": "What the judgment leaves standing",
+      "intro": "Our commentary, not findings of the court. The professional rule is settled. The hard case it does not decide is still a live question for any honest system of proof.",
+      "entries": [
+        {
+          "id": "settled-rule",
+          "title": "A clear 2026 citation for a rule already in the codes",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The useful work of this judgment, for anyone studying how English law treats truth in court, is not that it invented a new principle. It is that a High Court judge, dealing with a determined litigant in person who had aimed contempt proceedings at the lawyers in her case, set out the existing rule in terms that can be cited without embroidery: the advocate advances the client’s case on instructions and does not personally vouch for the facts; there is no general duty to investigate the client’s veracity; knowledge, not recklessness, is required for this form of contempt; and none of that is a licence to mislead.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "That is why we have added it to Frameworks of truth, next to the existing discussion of a client as the source of a lawyer’s instructions, and next to Robinson v Murphy, which asked a related question about a signed statement that turned out to be false. The two cases are complementary. Robinson concerned a legal executive who had himself verified statements of truth. Shand concerns lawyers who were, on the material before the court, advancing a client’s or a witness’s case rather than certifying the underlying facts.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Frameworks of truth",
+                  "url": "https://independenttribunal.org/research/frameworks-of-truth/"
+                },
+                {
+                  "text": "Robinson v Murphy",
+                  "url": "https://independenttribunal.org/research/robinson-v-murphy/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-hypothetical",
+          "title": "The question the court did not have to answer",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "A different question is sometimes asked, including on our Frameworks of truth page: what happens if a client knowingly gives false instructions, and a barrister or solicitor who does not know they are false then advances them? This judgment does not find that any such thing happened here, and it does not decide that hypothetical as a finding of fact. It does, however, confirm the legal architecture within which that question would have to be answered.",
+              "sources": [
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "If the facts advanced are later shown to be false, the first target of a contempt application about a false statement of truth is ordinarily the person who vouched for those facts — the client or the witness — not the advocate who put the case on instructions. The advocate can still be in jeopardy if it can be proved, to the criminal standard, that he or she knew the facts were false, or otherwise deliberately misled the court. Privilege, and the warning in Medcalf v Mardell about drawing inferences as to instructions, make that a demanding inquiry. The permission filter, the public-interest test and the prohibition on using contempt to relitigate a settled or discontinued claim remain in place.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "medcalf"
+                },
+                {
+                  "id": "cpr32"
+                }
+              ]
+            },
+            {
+              "text": "None of that means a false case has no consequence. A party who has verified a false statement, or who has instructed a lawyer to sign one knowing it was false, can still face proceedings under CPR 32.14 and Part 81. A lawyer who later learns that the court has been misled is under a duty to correct the position. A regulator can still investigate professional misconduct on a different standard and for a different purpose. The 2026 judgment is not a finding that those routes are closed. It is a finding that they were not opened, on the evidence, against these six people, in this form.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "cpr32"
+                },
+                {
+                  "id": "cpr81"
+                },
+                {
+                  "id": "sra-code"
+                },
+                {
+                  "id": "bsb"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counter-strategy",
+      "title": "Counter-strategy: lawful responses",
+      "intro": "Practical steps that stay inside the rules this judgment applied. This is not a guide to bringing contempt proceedings, and it is not legal advice.",
+      "entries": [
+        {
+          "id": "for-opponents",
+          "title": "If you are facing a case you believe is untrue",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The ordinary tools remain the right first tools: disclosure, Part 18 requests, witness evidence, and cross-examination. Those are how a court tests a factual case. Treating the other side’s barrister or solicitor as a personal certifier of the client’s facts is, on this judgment, a category error. If a verified statement is later shown to have been made without an honest belief in its truth, the person who made it, or who caused it to be made, is the usual respondent under CPR 32.14 and Part 81 — often the client or the witness, not the advocate who drafted on instructions.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "cpr32"
+                },
+                {
+                  "id": "cpr81"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 111–113, 123"
+                }
+              ]
+            },
+            {
+              "text": "A contempt application is a public-interest procedure, not a second civil claim. After KJM Superbikes and this judgment, a court will ask whether the purpose is to protect the administration of justice, or to relitigate, to set aside a settlement, or to punish an opponent. Permission, the criminal standard, proof of knowledge rather than recklessness, delay, and the applicant’s independence and proportionality all stand in the way. Using the process for a collateral purpose risks not only refusal, but a totally-without-merit finding and, in a serious enough pattern, a civil restraint order.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "kjm"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 93–96, 233, 304–307"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "for-lawyers",
+          "title": "If you are the lawyer advancing the case, or later accused",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The judgment is not a relaxation of the duty to the court. A barrister or solicitor must still not state facts known to be false, must not mislead, and must only advance properly arguable points. If you later know that the court has been given a false picture, the duty is to correct it, even if that is against the client’s immediate interest. Keeping a clear written record of instructions, of what was checked, and of any correction, is ordinary professional self-protection. It is not a substitute for the duty itself.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "bsb"
+                },
+                {
+                  "id": "sra-code"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 120–123"
+                }
+              ]
+            },
+            {
+              "text": "If you are later accused, privilege may limit what you can say about your instructions unless the client waives it. Medcalf v Mardell requires a court to be extremely careful before inferring, from the fact that a case was put, that the advocate knew it was false. That protection is real, and it is not a reason to be careless. A regulatory investigation by the BSB or the SRA is a different process, on a different standard, and may still be the proper forum for a complaint about professional conduct even where contempt permission is refused.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "medcalf"
+                },
+                {
+                  "id": "bsb"
+                },
+                {
+                  "id": "sra-code"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "for-litigants",
+          "title": "If you believe you were misled by former lawyers or by the other side",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "There are lawful routes that do not depend on a contempt permission application. A civil claim for professional negligence, if it is in time and has not already been settled, is one. A complaint to the SRA or the BSB is another. Those routes have their own limits — limitation, settlement, discontinuance, and the rule in Henderson v Henderson against being “twice vexed in the same matter.” This case is a warning that dressing the same allegations as contempt, or issuing a fresh claim on the same facts after a Part 36 settlement, is likely to be treated as an abuse.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "johnson"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 231, 233, 285, 297"
+                }
+              ]
+            },
+            {
+              "text": "Ms Shand did have a negligence claim against Mishcon. She pursued it and obtained a substantial settlement. The later contempt applications and the 2025 claim failed, in part, because they sought to reopen that history. An extended civil restraint order, if one is made, is still not a total bar: it requires prior permission and some merit. It is a filter, not a finding that a person may never be heard again.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 297, 305–307"
+                },
+                {
+                  "id": "pd3c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "for-journalists",
+          "title": "If you are reporting the case, or a similar one",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "Reporting that a barrister “told the court” a fact is accurate as a description of advocacy. Treating that as a personal certification by the advocate is not. The person who ordinarily vouches for a civil fact is the client or the witness who verifies the statement of truth. Serious allegations of fraud, conspiracy or professional dishonesty should be attributed to the person making them, and should be reported alongside the denials and, where a court has spoken, the court’s actual finding — which in this case was a refusal of permission, not a trial of the underlying facts.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 2–3, 123, 264"
+                }
+              ]
+            },
+            {
+              "text": "The judgment is a 2026 High Court decision of some importance for professional conduct and contempt procedure. It is not, on the official text or on the reporting we have read, “the first case” in which an English court has said that an advocate is not an investigator of the client’s facts. A careful report can say that this is a clear recent application of a settled rule, including to contempt applications brought against lawyers.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "gazette"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Method and limits",
+      "intro": "How this page was compiled, and what it cannot do.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "How this page was compiled",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The February and September 2026 judgments were read in full from the official texts on the National Archives (Find Case Law), including the downloadable XML of the February judgment, which was used to check paragraph numbering from 1 to 307. The Law Gazette report of 23 February 2026 was read as secondary reporting only. The Civil Procedure Rules, Practice Direction 22, Practice Direction 3C, the BSB Handbook and the SRA Code of Conduct were checked on 25 November 2026. Norman v Adler was read from the official Court of Appeal text.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Limits of this study",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "This page is a study of two published High Court judgments and the rules they applied. It is not a retrial of the dispute about the flat, not a finding about any person’s honesty, and not legal advice. We have not independently audited the 10,000 pages of exhibits, the underlying 2012, 2019 or 2020 case files, or the SRA’s closed file. Where the February judgment contains typographical slips (including the Norman citation, a reference to “CPR 33.4 (6),” and occasional inversions of party labels), we have used the official citations and identified the parties from the claim heading. BAILII was not used as the primary text of either 2026 judgment, because the official National Archives texts were available.",
+              "sources": []
+            },
+            {
+              "text": "Analytical labels, the “first case” question, the un-decided hypothetical about false instructions, and the counter-strategy section are our commentary. They should not be read as findings of Cotter J, or as a prediction of what another court would do on different facts.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "judgment",
+      "title": "Shand v Kemkers [2026] EWHC 341 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/341",
+      "checked": "2026-11-25",
+      "date": "2026-02-18"
+    },
+    {
+      "id": "mishcon-2291",
+      "title": "Shand v Mishcon de Reya LLP [2026] EWHC 2291 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/2291",
+      "checked": "2026-11-25",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "gazette",
+      "title": "High Court dismisses contempt applications against lawyers",
+      "publisher": "Law Gazette",
+      "type": "News report",
+      "url": "https://www.lawgazette.co.uk/news/high-court-dismisses-contempt-applications-against-lawyers/5125954.article",
+      "checked": "2026-11-25",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "norman",
+      "title": "Norman v Adler [2023] EWCA Civ 785, [2023] 1 WLR 4232",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/785",
+      "checked": "2026-11-25",
+      "date": "2023-07-07"
+    },
+    {
+      "id": "kjm",
+      "title": "KJM Superbikes Ltd v Hinton [2008] EWCA Civ 1280, [2009] 1 WLR 2406",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/1280",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "medcalf",
+      "title": "Medcalf v Mardell [2002] UKHL 27, [2003] 1 AC 120",
+      "publisher": "BAILII",
+      "type": "House of Lords judgment",
+      "url": "https://www.bailii.org/uk/cases/UKHL/2002/27.html",
+      "checked": "2026-11-25",
+      "date": "2002-06-27"
+    },
+    {
+      "id": "johnson",
+      "title": "Johnson v Gore Wood & Co [2000] UKHL 65, [2002] 2 AC 1",
+      "publisher": "BAILII",
+      "type": "House of Lords judgment",
+      "url": "https://www.bailii.org/uk/cases/UKHL/2000/65.html",
+      "checked": "2026-11-25",
+      "date": "2000-12-14"
+    },
+    {
+      "id": "cpr32",
+      "title": "Civil Procedure Rules, rule 32.14: false statements",
+      "publisher": "justice.gov.uk",
+      "type": "Procedure rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part32#32.14",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cpr81",
+      "title": "Civil Procedure Rules, Part 81: applications and proceedings in relation to contempt of court",
+      "publisher": "justice.gov.uk",
+      "type": "Procedure rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-81-applications-and-proceedings-in-relation-to-contempt-of-court",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cpr81-3",
+      "title": "Civil Procedure Rules, rule 81.3: how to make a contempt application",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1998/3132/rule/81.3",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cpr22",
+      "title": "Civil Procedure Rules, rule 22.1: documents to be verified by a statement of truth",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1998/3132/rule/22.1",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "pd22",
+      "title": "Practice Direction 22: statements of truth",
+      "publisher": "justice.gov.uk",
+      "type": "Practice direction",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part22/pd_part22",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cpr3-4",
+      "title": "Civil Procedure Rules, rule 3.4: power to strike out a statement of case",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1998/3132/rule/3.4",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "pd3c",
+      "title": "Practice Direction 3C: civil restraint orders",
+      "publisher": "justice.gov.uk",
+      "type": "Practice direction",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part03/pd_part03c",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "bsb",
+      "title": "BSB Handbook: Core Duties and guidance on the duty to the court",
+      "publisher": "Bar Standards Board",
+      "type": "Professional rules",
+      "url": "https://www.barstandardsboard.org.uk/the-bsb-handbook.html",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "sra-code",
+      "title": "SRA Code of Conduct for Solicitors, RELs and RFLs",
+      "publisher": "Solicitors Regulation Authority",
+      "type": "Professional rules",
+      "url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "editorial",
+      "title": "Independent Tribunal editorial commentary",
+      "publisher": "Independent Tribunal",
+      "type": "Editorial",
+      "url": "https://independenttribunal.org/research/shand-v-kemkers/",
+      "checked": "2026-11-25"
+    }
+  ]
+}

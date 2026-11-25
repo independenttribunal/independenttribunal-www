@@ -7,7 +7,7 @@
   "scope": "England and Wales · Case 2024/1532/D5. The misconduct was knowingly misleading the court, not the later confession. Findings, commentary, satire and proposed reforms are identified separately.",
   "status_note": "The report records an order for disbarment on 8 April 2026, and the regulator’s announcement described the findings as subject to appeal. On 24 October 2026 the regulator’s register listed her status as Disbarred and the finding as Final, although its sanction line still read “sentence still to take effect … pending any appeal”. We have not found a published appeal decision. The family’s identities are not investigated here. The section “Implication, silence and legal games” was added on 31 October 2026; its legislation, the Ivey judgment and the Bar Standards Board Handbook (version 5.0) were checked that day. The Spice Girls decision is described from published reports because we could not open the judgment text. A cross-reference to Robinson v Murphy [2024] EWHC 798 (KB) was added on 25 November 2026, after the judgment was read from the National Archives.",
   "jurisdiction": "England and Wales",
-  "checked": "2026-11-05",
+  "checked": "2026-11-25",
   "tags": [
     "uk",
     "professional-conduct",
@@ -21,6 +21,10 @@
     {
       "id": "robinson-v-murphy",
       "title": "False statement of truth, not a lie: Robinson v Murphy"
+    },
+    {
+      "id": "shand-v-kemkers",
+      "title": "A lawyer is not an investigator of the client’s case: Shand v Kemkers"
     },
     {
       "id": "defences-withdrawn-from-jury",
@@ -831,6 +835,50 @@
                 },
                 {
                   "id": "pd22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shand-v-kemkers",
+          "title": "A lawyer does not vouch for the client’s facts: Shand v Kemkers",
+          "kind": "High Court judgment and our analysis",
+          "paragraphs": [
+            {
+              "text": "In Shand v Kemkers [2026] EWHC 341 (KB), Mr Justice Cotter refused a litigant in person permission to bring contempt proceedings against five lawyers and a company director, and held the applications totally without merit. He restated a settled professional rule: a barrister or solicitor advancing a client’s case on instructions is not personally vouching for the truth of the facts, and there is no general duty to investigate whether the client or a witness is telling the truth. Recklessness is not enough; knowledge is required. Knowingly misleading the court remains forbidden. The judgment is a 2026 application of that rule, not the first case to state it. The court did not find that a client had deceived counsel, and it did not try the underlying facts.",
+              "sources": [
+                {
+                  "id": "shand-kemkers",
+                  "locator": "paras 120–123, 131, 264–265"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Shand v Kemkers",
+                  "url": "https://independenttribunal.org/research/shand-v-kemkers/"
+                }
+              ]
+            },
+            {
+              "text": "That is the complement of Robinson v Murphy, which asked whether a person who had himself verified a later-false statement of truth knew it was untrue. Shand v Kemkers asks a different question: whether advancing a case on instructions is itself a personal certification of the facts. It is not. The usual voucher is the client or the witness. A full account of the litigation history, the later September 2026 judgment, and a counter-strategy section is on the dedicated page, not repeated here.",
+              "sources": [
+                {
+                  "id": "shand-kemkers",
+                  "locator": "paras 111–113, 123"
+                },
+                {
+                  "id": "robinson-murphy"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Shand v Kemkers",
+                  "url": "https://independenttribunal.org/research/shand-v-kemkers/"
+                },
+                {
+                  "text": "Robinson v Murphy",
+                  "url": "https://independenttribunal.org/research/robinson-v-murphy/"
                 }
               ]
             }
@@ -2021,6 +2069,15 @@
       "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2024/798",
       "checked": "2026-11-25",
       "date": "2024-04-12"
+    },
+    {
+      "id": "shand-kemkers",
+      "title": "Shand v Kemkers [2026] EWHC 341 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/341",
+      "checked": "2026-11-25",
+      "date": "2026-02-18"
     }
   ]
 }
