@@ -1,0 +1,717 @@
+{
+  "id": "peter-cruddas",
+  "title": "Peter Cruddas: the peerage HOLAC would not support",
+  "subtitle": "A Conservative donor, a mixed Court of Appeal judgment, and the first time a Prime Minister publicly set aside the Appointments Commission’s advice",
+  "summary": "In December 2020 Boris Johnson nominated Peter Cruddas, now Lord Cruddas, for a Conservative life peerage after the House of Lords Appointments Commission said it could not support the nomination. It was the first time a Prime Minister had publicly not followed HOLAC’s advice. Johnson’s published justification relied in part on the Sunday Times libel litigation. The High Court had found for Mr Cruddas in 2013; the Court of Appeal in 2015 held that the “cash for access” meaning of the articles was substantially true, while the foreign-donations allegations remained libellous, and reduced damages from £180,000 to £50,000.",
+  "scope": "United Kingdom. This page is a public-record study of Peter Andrew Cruddas (Lord Cruddas): the December 2020 nomination, HOLAC’s published advice, the Prime Minister’s letter, the creation and introduction of the peerage, the 2012 Sunday Times articles, the High Court and Court of Appeal judgments, and registered political donations. It is not a finding of dishonesty, of a sale of honours, or of professional or regulatory misconduct. It is not legal advice.",
+  "status_note": "Primary records were read on 25 November 2026: the government’s Political Peerages 2020 announcement, the Prime Minister’s letter of 21 December 2020, Lord Bew’s letter to PACAC of 22 December 2020, the Gazette notice of the letters patent, Parliament’s membership record, the High Court and Court of Appeal judgments, and an Electoral Commission donations-register search. Baroness Deech’s February 2025 account and the House of Lords Library briefing updated on 15 September 2026 were used for later institutional context. We have not seen HOLAC’s confidential vetting file or any Conservative Party internal investigation report. Analytical labels and research questions are our commentary, not findings of a court or of the commission.",
+  "jurisdiction": "United Kingdom",
+  "checked": "2026-11-25",
+  "tags": [
+    "uk",
+    "parliament",
+    "house-of-lords",
+    "appointments",
+    "defamation",
+    "political-donations",
+    "accountability",
+    "transparency"
+  ],
+  "related": [
+    {
+      "id": "house-of-lords-appointments-commission",
+      "title": "The House of Lords Appointments Commission"
+    },
+    {
+      "id": "evgeny-lebedev-peerage-and-media-ownership",
+      "title": "Evgeny Lebedev, the peerage and the free press"
+    },
+    {
+      "id": "defamation-game-theory",
+      "title": "The game theory of suing for defamation"
+    },
+    {
+      "id": "hansard-record",
+      "title": "Hansard and the disputed record"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The override",
+      "value": "22 December 2020",
+      "detail": "HOLAC said it could not support the nomination; the Prime Minister went ahead and published his reasons",
+      "target": "the-override"
+    },
+    {
+      "label": "The litigation",
+      "value": "A mixed result",
+      "detail": "The Court of Appeal held the “cash for access” meaning substantially true and left the foreign-donations libels standing",
+      "target": "court-of-appeal"
+    },
+    {
+      "label": "The peerage",
+      "value": "January and February 2021",
+      "detail": "Letters patent on 27 January; introduction to the House on 2 February",
+      "target": "creation-and-introduction"
+    },
+    {
+      "label": "What this page does not decide",
+      "value": "Open questions",
+      "detail": "No finding on HOLAC’s confidential reasons, on a sale of honours, or on whether the Prime Minister’s summary of the judgment was fair",
+      "target": "limits"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-person",
+      "title": "Who he is",
+      "intro": "The public record distinguishes the businessman, the party treasurer, the litigant and the life peer.",
+      "entries": [
+        {
+          "id": "public-record",
+          "title": "Businessman, treasurer and Conservative peer",
+          "kind": "Official records and High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Peter Andrew Cruddas is Lord Cruddas, a Conservative life peer. Parliament’s membership record begins on 27 January 2021. The letters patent created him Baron Cruddas, of Shoreditch in the London Borough of Hackney.",
+              "sources": [
+                {
+                  "id": "parliament-career"
+                },
+                {
+                  "id": "gazette",
+                  "locator": "Letters Patent dated 27 January 2021"
+                }
+              ]
+            },
+            {
+              "text": "In the 2013 libel trial, Mr Justice Tugendhat recorded Mr Cruddas’s own evidence that he was born in 1953, left Shoreditch Comprehensive at 15 with no qualifications, and in 1989 founded the business later called CMC Markets. Those are findings about what he told the court, set out in a judgment, not a fresh investigation of his business career.",
+              "sources": [
+                {
+                  "id": "hc-2013",
+                  "locator": "para 132"
+                }
+              ]
+            },
+            {
+              "text": "The Court of Appeal recorded that he was Treasurer of the Conservative Party between May 2011 and 24 March 2012, the date on which he resigned after The Sunday Times published its articles.",
+              "sources": [
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 3, 143"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-appointment",
+      "title": "The nomination and the override",
+      "intro": "Announcement, advice, letters patent and introduction are different events. The first three happened in public, with reasons the Prime Minister chose to publish.",
+      "entries": [
+        {
+          "id": "the-override",
+          "title": "22 December 2020: HOLAC could not support the nomination",
+          "kind": "Official announcement and commission letter",
+          "paragraphs": [
+            {
+              "text": "On 22 December 2020 the government published a list of political peerages. Peter Cruddas was named among the Conservative nominations and described as a “businessman and philanthropist.”",
+              "sources": [
+                {
+                  "id": "gov-peerages"
+                }
+              ]
+            },
+            {
+              "text": "The same announcement stated that the House of Lords Appointments Commission had been invited to vet the nominees, that it was “an independent non statutory body,” that it “provides advice, but appointments are a matter for the Prime Minister,” and that it “advised the Prime Minister that it could not support one nominee – Peter Cruddas.” The Prime Minister, it said, had “considered the Commission’s advice and wider factors, and concluded that, exceptionally, the nomination should proceed.” He had written to the chair of the commission on 21 December, and the letter was published.",
+              "sources": [
+                {
+                  "id": "gov-peerages"
+                }
+              ]
+            },
+            {
+              "text": "Lord Bew, then chair of HOLAC, wrote the same day to William Wragg MP, chair of the Commons Public Administration and Constitutional Affairs Committee. He said the commission had advised that it was “unable to support this nomination after carrying out its vetting, against published criteria.” He restated the commission’s definition of propriety: that a nominee “should be in good standing in the community in general and with the public regulatory authorities in particular,” and that “the past conduct of the nominee would not reasonably be regarded as bringing the House of Lords into disrepute.” The commission, he said, “plays no part in assessing the suitability of those nominated by the political parties.”",
+              "sources": [
+                {
+                  "id": "holac-pacac"
+                }
+              ]
+            },
+            {
+              "text": "Lord Bew was explicit about the constitutional limit: “The Commission provides advice but does not have a veto. Ultimately, appointments are a matter for the Prime Minister.”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "holac-pacac"
+                }
+              ]
+            },
+            {
+              "text": "He also recorded a first. The commission had “been unable to support individuals nominated by the Parties on previous occasions” and publicly confirmed the numbers. “This is the first occasion on which its advice has not been followed.” He declined to discuss the confidential detail of the case, which, he said, would be “highly unfair on individuals” and would risk undermining confidence in the process. He welcomed the Prime Minister’s decision to publish his letter and the indication that the case was treated as exceptional.",
+              "sources": [
+                {
+                  "id": "holac-pacac"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "johnsons-letter",
+          "title": "The Prime Minister’s published reasons",
+          "kind": "Official letter",
+          "paragraphs": [
+            {
+              "text": "Boris Johnson’s letter of 21 December 2020, addressed to Lord Bew, is the fullest official account of why the nomination proceeded. He thanked the commission for its “careful and thoughtful advice,” recorded that it had “confirmed that it is unable to support the nomination,” and said that this “relates to historic concerns in respect of allegations made during Mr Cruddas’ term as Treasurer of the Conservative Party, and the judgement reached by the Court of Appeal in subsequent libel action.”",
+              "sources": [
+                {
+                  "id": "pm-letter"
+                }
+              ]
+            },
+            {
+              "text": "He then set out the “wider factors” on which he relied. “Firstly, the most serious accusations levelled at the time were found to be untrue and libellous.” He wrote that Mr Cruddas had resigned, “offered an apology for any impression of impropriety,” and that “[a]n internal Conservative Party investigation subsequently found that there had been no intentional wrongdoing on Mr Cruddas’ part.” He added that the events “date back eight years,” and that “the Commission has found no suggestion of any matters of concern before or since that time.”",
+              "sources": [
+                {
+                  "id": "pm-letter"
+                }
+              ]
+            },
+            {
+              "text": "The letter also commended Mr Cruddas’s business career and charitable work, including a statement that his foundation “has pledged over £16 million to good causes through over 200 charities.” Those charitable figures are the Prime Minister’s published claims. We have not audited the foundation’s accounts and do not treat the letter as independent verification of the totals.",
+              "sources": [
+                {
+                  "id": "pm-letter"
+                }
+              ]
+            },
+            {
+              "text": "Johnson said he saw the case “as a clear and rare exception,” that the commission’s role “is advisory,” and that he continued “to place great weight on your careful and considered opinions.” He said he would make clear, when the list was published, that he had “reached a different conclusion to the Commission on this particular case,” and would place the letter “in the public domain.”",
+              "sources": [
+                {
+                  "id": "pm-letter"
+                }
+              ]
+            },
+            {
+              "text": "Whether “the most serious accusations … were found to be untrue and libellous” is a fair summary of the Court of Appeal’s 2015 judgment is a question this page returns to below. The judgment was already public when the letter was written. We quote both, and we do not treat a contested summary as a lie, or as a complete account of what the court held.",
+              "sources": [
+                {
+                  "id": "pm-letter"
+                },
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 144–146"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creation-and-introduction",
+          "title": "Letters patent and introduction",
+          "kind": "Official records",
+          "paragraphs": [
+            {
+              "text": "The Queen created the peerage by letters patent dated 27 January 2021. The Gazette notice records the title as Baron Cruddas, of Shoreditch in the London Borough of Hackney. Parliament’s membership record starts on that day. Joining the House, in that official sense, is not the same event as being introduced.",
+              "sources": [
+                {
+                  "id": "gazette"
+                },
+                {
+                  "id": "parliament-career"
+                },
+                {
+                  "id": "lords-library-vetting"
+                }
+              ]
+            },
+            {
+              "text": "He was introduced in the House of Lords on 2 February 2021, took the oath, was supported by Lord Leigh of Hurley and Baroness Stuart of Edgbaston, and signed an undertaking to abide by the Code of Conduct.",
+              "sources": [
+                {
+                  "id": "intro-twfy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-litigation",
+      "title": "The Sunday Times case",
+      "intro": "The nomination letter points to the libel action. The action did not end with a simple finding that “the allegations were untrue.”",
+      "entries": [
+        {
+          "id": "the-articles",
+          "title": "15 March 2012: the meeting, the articles and the resignation",
+          "kind": "High Court and Court of Appeal judgments",
+          "paragraphs": [
+            {
+              "text": "The litigation concerned three articles in The Sunday Times of 25 March 2012, including one headed “Tory treasurer charges £250,000 to meet PM.” They reported a meeting on 15 March 2012 at which two Sunday Times journalists, Jonathan Calvert and Heidi Blake, posing as potential donors, spoke to Mr Cruddas. The meeting was covertly recorded. There was an agreed transcript.",
+              "sources": [
+                {
+                  "id": "hc-2013",
+                  "locator": "paras 1–4, 312 (Annex I)"
+                },
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 2–3, 6, 143"
+                }
+              ]
+            },
+            {
+              "text": "Tugendhat J recorded that, after a first edition had appeared on the night of 24 March, Lord Feldman informed Mr Cruddas that he was expected to resign and sent a draft letter, which Mr Cruddas signed that night. The letter said: “I deeply regret any impression of impropriety arising from my bluster in that conversation.” It also said there was “no question of donors being able to influence policy or gain undue access to politicians.”",
+              "sources": [
+                {
+                  "id": "hc-2013",
+                  "locator": "paras 129–130"
+                }
+              ]
+            },
+            {
+              "text": "At trial, the judge recorded, “Mr Cruddas regrets signing that letter, and does not admit that he did give an impression of impropriety.” The signed letter and that later evidence both form part of the public record. They are not the same thing.",
+              "sources": [
+                {
+                  "id": "hc-2013",
+                  "locator": "para 131"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-three-meanings",
+          "title": "The three meanings the court had to try",
+          "kind": "Court of Appeal judgment",
+          "paragraphs": [
+            {
+              "text": "Mr Cruddas sued the two journalists and Times Newspapers Ltd for libel and malicious falsehood. The Court of Appeal later summarised the three meanings he attributed to the articles. Meaning 1, sometimes called “cash for access,” was that “in return for cash donations to the Conservative Party, the Claimant corruptly offered for sale the opportunity to influence government policy and gain unfair advantage through secret meetings with the Prime Minister and other senior ministers.” Meanings 2 and 3, the “foreign donations allegations,” were that he knew the money was to come from Middle Eastern investors in a Liechtenstein fund, in breach of the ban under UK electoral law, and that he was “happy that the foreign donors should use deceptive devices” so that the true source would be concealed.",
+              "sources": [
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 44–45"
+                }
+              ]
+            },
+            {
+              "text": "Those were the claimant’s pleaded meanings, as determined for the libel claim. They are not, without more, findings that each allegation was true. The defences raised at trial were justification — truth — not Reynolds public-interest privilege or honest opinion.",
+              "sources": [
+                {
+                  "id": "hc-2013",
+                  "locator": "para 3"
+                },
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 43–46, 143"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "high-court",
+          "title": "31 July 2013: the High Court found for Mr Cruddas",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 31 July 2013, Tugendhat J held that the claim succeeded in both libel and malicious falsehood. He awarded £180,000, including £15,000 in aggravated damages, a figure he said was “necessary and proportionate to mark the vindication that Mr Cruddas is entitled to, and compensate him for his distress and humiliation.”",
+              "sources": [
+                {
+                  "id": "hc-2013",
+                  "locator": "paras 305, 311"
+                }
+              ]
+            },
+            {
+              "text": "That was the judgment at first instance. It is the “libel win” often mentioned in later reporting. It was not the last word.",
+              "sources": [
+                {
+                  "id": "hc-2013",
+                  "locator": "para 311"
+                },
+                {
+                  "id": "ca-2015",
+                  "locator": "para 143"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "court-of-appeal",
+          "title": "17 March 2015: a mixed result in the Court of Appeal",
+          "kind": "Court of Appeal judgment",
+          "paragraphs": [
+            {
+              "text": "On 17 March 2015 the Court of Appeal (Jackson, Ryder and Christopher Clarke LJJ) allowed the defendants’ appeal in part. Jackson LJ’s executive summary is the holding that later official letters had to accommodate.",
+              "sources": [
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 143–149"
+                }
+              ]
+            },
+            {
+              "text": "On a proper reading of the transcript of the meeting on 15 March 2012, he said, “Mr Cruddas was effectively saying to the journalists that if they donated large sums to the Conservative Party, they would have an opportunity to influence Government policy and to gain unfair commercial advantage through confidential meetings with the Prime Minister and other senior ministers. That was unacceptable, inappropriate and wrong. Therefore meaning 1 was substantially true.” The defendants were not liable in libel or malicious falsehood for that meaning. He added that what Mr Cruddas said “does not represent the true position of the Conservative Party,” and that the Prime Minister had “dissociated himself and the party from what Mr Cruddas said.”",
+              "quote": true,
+              "sources": [
+                {
+                  "id": "ca-2015",
+                  "locator": "para 144"
+                }
+              ]
+            },
+            {
+              "text": "In the body of the judgment he also held that Mr Cruddas “was not suggesting any form of criminal offence under the Bribery Act 2010.” The finding of substantial truth was a finding about what he had offered in that conversation, not a finding that a bribery offence had been committed.",
+              "sources": [
+                {
+                  "id": "ca-2015",
+                  "locator": "para 85"
+                }
+              ]
+            },
+            {
+              "text": "On meanings 2 and 3, the court agreed with the trial judge. The defendants had “failed to justify” those meanings and remained “liable for libel and malicious falsehood in respect of those matters.” They could not rely on section 5 of the Defamation Act 1952 to escape liability. Damages were reduced to £50,000, comprising £43,000 in general damages and £7,000 in aggravated damages. The injunction was confined to the foreign-donations meanings.",
+              "sources": [
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 141–142, 145–147"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-summary-question",
+          "title": "How should the judgment have been described?",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "Johnson’s letter said that “the most serious accusations levelled at the time were found to be untrue and libellous,” and pointed specifically to “the judgement reached by the Court of Appeal.” The Court of Appeal had, in fact, split the case. It left standing the libels about foreign donations and evasion of electoral law — allegations which Jackson LJ described as being “of a different character” to cash-for-access and as alleging that the claimant was “countenancing criminal conduct.” It also held that the cash-for-access meaning, understood as an offer of influence and unfair commercial advantage through confidential ministerial meetings, was substantially true, though not as an offer of a Bribery Act offence.",
+              "sources": [
+                {
+                  "id": "pm-letter"
+                },
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 85, 137–138, 144–146"
+                }
+              ]
+            },
+            {
+              "text": "A reader can fairly ask whether “untrue and libellous,” even if limited to “the most serious accusations,” was a complete account of that mixed result. The letter does mention the Court of Appeal. It does not mention that meaning 1 had been held substantially true. We do not infer from that omission that the Prime Minister sought to mislead. We do say that the judgment, not the letter, is the better record of what was and was not proved.",
+              "sources": [
+                {
+                  "id": "pm-letter"
+                },
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 144–146"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "donations",
+      "title": "Registered donations",
+      "intro": "Donation totals are taken from the Electoral Commission register, not from press estimates. A registered donation is not evidence that a peerage was sold.",
+      "entries": [
+        {
+          "id": "register-totals",
+          "title": "What the Electoral Commission register shows",
+          "kind": "Official donations register",
+          "paragraphs": [
+            {
+              "text": "A search of the Electoral Commission register for “peter cruddas,” covering party, regulated-donee, permitted-participant and referendum donations, was run on 25 November 2026. It returned 85 records, with accepted or received dates from 18 November 2009 to 16 March 2023, in which the donor name is a variant of Peter, Peter A, Dr Peter, Dr Peter Andrew, or The Rt Hon (the Lord) Peter Andrew Cruddas. The figures below are the sums of those records. They are not a claim that the search is a complete lifetime total, or that no donation was ever made in another name or through another entity.",
+              "sources": [
+                {
+                  "id": "ec-search"
+                }
+              ]
+            },
+            {
+              "text": "Of those records, 68 are donations to the Conservative and Unionist Party, totalling £3,340,274.66, accepted between November 2009 and May 2022. Other records in the same search include £700,000 to Vote Leave Limited, £400,000 to No Campaign Limited, £80,000 to Conservative Voice Limited, a £50,000 cash donation to Mr Boris Johnson MP accepted on 6 June 2019, during the Conservative leadership contest, and smaller donations to other regulated donees.",
+              "sources": [
+                {
+                  "id": "ec-search"
+                },
+                {
+                  "id": "ec-johnson"
+                }
+              ]
+            },
+            {
+              "text": "Among the party donations is a £500,000 cash donation, received on 5 February 2021 and accepted on 8 February 2021 — three and six days after Lord Cruddas was introduced to the House. The dates are a matter of public record. They do not, without more, establish that the peerage was offered or accepted in return for a payment. Selling an honour is a criminal offence under the Honours (Prevention of Abuses) Act 1925. We have seen no prosecution, charge or finding to that effect in this case, and we do not make one.",
+              "sources": [
+                {
+                  "id": "ec-500k"
+                },
+                {
+                  "id": "honours-act"
+                },
+                {
+                  "id": "intro-twfy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lebedev-comparison",
+      "title": "A comparison, not a parallel: Lebedev",
+      "intro": "The two Johnson-era appointments are often discussed together. The official records are not the same.",
+      "entries": [
+        {
+          "id": "how-they-differ",
+          "title": "Different benches, different public advice",
+          "kind": "Official records and our analysis",
+          "paragraphs": [
+            {
+              "text": "Evgeny Lebedev’s nomination, announced on 31 July 2020, was for a Crossbench life peerage, not a party-political one. Lord Cruddas was nominated by the Conservative Party. The distinction matters for what HOLAC was being asked to do, and for how the two cases can be compared.",
+              "sources": [
+                {
+                  "id": "gov-peerages"
+                },
+                {
+                  "id": "lebedev-list"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Evgeny Lebedev’s nomination",
+                  "url": "https://independenttribunal.org/research/evgeny-lebedev-peerage-and-media-ownership/"
+                }
+              ]
+            },
+            {
+              "text": "In the Cruddas case, HOLAC said publicly that it could not support the nomination, and the Prime Minister publicly disagreed. In the Lebedev case, later reporting described early security concerns, and the Commons sought papers; Lord Bew later testified that HOLAC ultimately did not say no, and that the commission experienced no pressure in that case. A documented override of final negative advice is not established for Lebedev on the records reviewed on our Lebedev page. The Cruddas letters are the documented example of a final “unable to support,” followed by an appointment.",
+              "sources": [
+                {
+                  "id": "holac-pacac"
+                },
+                {
+                  "id": "commons-library-lebedev"
+                },
+                {
+                  "id": "bew-evidence"
+                }
+              ]
+            },
+            {
+              "text": "Both appointments were made on the Prime Minister’s advice to the sovereign. Both show that HOLAC’s advice, as the law and practice now stand, is advice. They do not show that the commission reached the same final view in each case. The HOLAC page sets out the commission’s remit and the reform debate that followed.",
+              "sources": [
+                {
+                  "id": "gov-peerages"
+                },
+                {
+                  "id": "holac-pacac"
+                },
+                {
+                  "id": "lords-library-role"
+                }
+              ],
+              "links": [
+                {
+                  "text": "The HOLAC page",
+                  "url": "https://independenttribunal.org/research/house-of-lords-appointments-commission/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Method and limits",
+      "intro": "How this page was built, and what it does not claim.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The Political Peerages 2020 announcement and the Prime Minister’s letter were read from GOV.UK; the letter is a scanned official PDF and was read in full. Lord Bew’s letter to PACAC was read from the text of the commission’s published PDF. The Gazette notice, Parliament’s membership record (including the members API), and the TheyWorkForYou record of the 2 February 2021 introduction were used for the creation and introduction dates. Cruddas v Calvert was read from the official texts on the National Archives (Find Case Law): the trial judgment [2013] EWHC 2298 (QB) and the Court of Appeal judgment [2015] EWCA Civ 171. Donation figures were taken from an Electoral Commission register search for “peter cruddas” on 25 November 2026, and from the individual register entries for the June 2019 donation to Mr Boris Johnson MP and the February 2021 £500,000 party donation. Baroness Deech’s February 2025 blog and the House of Lords Library briefings were used only for later institutional context, not as a substitute for the 2020 letters or the judgments.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Coverage limits",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "This page is about a real person. We do not say that Lord Cruddas bought a peerage, that he committed a criminal offence, or that he is dishonest. The Court of Appeal’s finding that meaning 1 was substantially true is a finding about the 15 March 2012 conversation, as recorded in an agreed transcript; it is not a finding that a Bribery Act offence was committed, and the court said the Conservative Party had dissociated itself from what was said. We have not seen HOLAC’s confidential vetting file, so we cannot add reasons beyond those the commission and the Prime Minister put on the public record. We have not seen the Conservative Party investigation whose conclusion Johnson reported. The charitable totals in the Prime Minister’s letter have not been independently audited here. The Electoral Commission figures are the product of a named search on a stated date; they are not offered as a complete lifetime total. We have not found a later published judgment overturning the 2015 Court of Appeal decision, or a published finding that the 1925 Act was breached.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "gov-peerages",
+      "title": "Political Peerages 2020",
+      "publisher": "Prime Minister’s Office, 10 Downing Street",
+      "type": "Official nomination list",
+      "url": "https://www.gov.uk/government/news/political-peerages-2020",
+      "date": "2020-12-22",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "pm-letter",
+      "title": "PM letter to the House of Lords Appointments Commission: 21 December",
+      "publisher": "Prime Minister’s Office, 10 Downing Street",
+      "type": "Official letter",
+      "url": "https://www.gov.uk/government/publications/pm-letter-to-the-the-house-of-lords-appointments-commission-21-december",
+      "date": "2020-12-21",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "holac-pacac",
+      "title": "Letter from the Chair of HOLAC to the Chair of PACAC on the nomination of Peter Cruddas",
+      "publisher": "House of Lords Appointments Commission",
+      "type": "Official letter",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2020/12/2020-12-22-Chair-of-HOLAC-to-PACAC-Peter-Cruddas-peerage.pdf",
+      "date": "2020-12-22",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "gazette",
+      "title": "Crown Office: Letters Patent dated 27 January 2021, Baron Cruddas",
+      "publisher": "The Gazette",
+      "type": "Official notice",
+      "url": "https://www.thegazette.co.uk/notice/3724333",
+      "date": "2021-01-29",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "parliament-career",
+      "title": "Parliamentary career for Lord Cruddas",
+      "publisher": "UK Parliament",
+      "type": "Official membership register",
+      "url": "https://members.parliament.uk/member/4907/career",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "intro-twfy",
+      "title": "Introduction: Lord Cruddas, 2 February 2021",
+      "publisher": "TheyWorkForYou (House of Lords Hansard record)",
+      "type": "Parliamentary record",
+      "url": "https://www.theyworkforyou.com/lords/?id=2021-02-02c.2013.4",
+      "date": "2021-02-02",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "lords-library-vetting",
+      "title": "Vetting appointments to the House of Lords",
+      "publisher": "House of Lords Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://lordslibrary.parliament.uk/vetting-appointments-to-the-house-of-lords/",
+      "date": "2022-02-28",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "hc-2013",
+      "title": "Cruddas v Calvert & Ors [2013] EWHC 2298 (QB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/qb/2013/2298",
+      "date": "2013-07-31",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ca-2015",
+      "title": "Cruddas v Calvert & Ors [2015] EWCA Civ 171",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/171",
+      "date": "2015-03-17",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ec-search",
+      "title": "Electoral Commission register search: donations, query “peter cruddas”",
+      "publisher": "The Electoral Commission",
+      "type": "Official donations register",
+      "url": "https://search.electoralcommission.org.uk/?currentPage=1&et=perpar&et=pp&et=ppm&et=rd&isIrishSourceNo=true&isIrishSourceYes=true&order=desc&postPoll=true&prePoll=false&query=peter+cruddas&register=gb&register=ni&register=none",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ec-johnson",
+      "title": "Donation C0406095: £50,000 to Mr Boris Johnson MP, accepted 6 June 2019",
+      "publisher": "The Electoral Commission",
+      "type": "Official donations register",
+      "url": "https://search.electoralcommission.org.uk/English/Donations/C0406095",
+      "date": "2019-06-06",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ec-500k",
+      "title": "Donation C0545244: £500,000 to the Conservative and Unionist Party, accepted 8 February 2021",
+      "publisher": "The Electoral Commission",
+      "type": "Official donations register",
+      "url": "https://search.electoralcommission.org.uk/English/Donations/C0545244",
+      "date": "2021-02-08",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "honours-act",
+      "title": "Honours (Prevention of Abuses) Act 1925",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/72",
+      "date": "1925-12-22",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "lebedev-list",
+      "title": "Political Peerages 2020 (31 July 2020 list, including Evgeny Lebedev)",
+      "publisher": "Prime Minister’s Office, 10 Downing Street",
+      "type": "Official nomination list",
+      "url": "https://assets.publishing.service.gov.uk/media/5f24373c8fa8f57ac683d847/Political_Peerages_2020.pdf",
+      "date": "2020-07-31",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "commons-library-lebedev",
+      "title": "Advice relating to the appointment of Lord Lebedev",
+      "publisher": "House of Commons Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0075/",
+      "date": "2022-03-29",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "bew-evidence",
+      "title": "Lord Bew’s oral evidence, 20 April 2022, HC 1238",
+      "publisher": "House of Commons Public Administration and Constitutional Affairs Committee",
+      "type": "Official testimony",
+      "url": "https://committees.parliament.uk/oralevidence/10107/pdf/",
+      "date": "2022-04-20",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "lords-library-role",
+      "title": "House of Lords Appointments Commission: Role and powers",
+      "publisher": "House of Lords Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://lordslibrary.parliament.uk/house-of-lords-appointments-commission-role-and-powers/",
+      "date": "2026-09-15",
+      "checked": "2026-11-25"
+    }
+  ]
+}
