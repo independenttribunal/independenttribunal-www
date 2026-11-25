@@ -1,0 +1,676 @@
+{
+  "id": "house-of-lords-appointments-commission",
+  "category": "legal-study",
+  "title": "The House of Lords Appointments Commission",
+  "subtitle": "Advisory vetting, Crossbench recruitment, and what happens when a Prime Minister says no",
+  "summary": "The House of Lords Appointments Commission, established in 2000, vets nominations for life peerages for propriety and recommends non-party-political Crossbench peers. It is an advisory, non-statutory body. Its advice is not a veto. In December 2020 Boris Johnson proceeded with Peter Cruddas’s nomination after HOLAC said it could not support it — the first, and as of the commission chair’s February 2025 account still the only, public occasion on which that advice was not followed. The Lebedev appointment raised a different public record: reported security concerns, a Commons request for papers, and testimony that HOLAC’s final position was not a refusal.",
+  "scope": "United Kingdom. This page is a study of the House of Lords Appointments Commission: its establishment, remit, lack of a statutory veto, the Cruddas and Lebedev cases, later nomination-list episodes, the open application route for Crossbench peerages, and proposals to put the commission on a statutory footing. It is not a finding that any named person was unfit for the House, or that any peerage was sold. It is not legal advice.",
+  "status_note": "Official letters, government announcements, parliamentary briefings, Hansard and committee evidence, and the commission chair’s February 2025 account were read on 25 November 2026. The House of Lords Library briefing on the commission’s role, updated on 15 September 2026, is used for later institutional figures and reform history, and is not treated as a primary substitute for the 2020 letters. HOLAC’s individual vetting files are confidential; we can report only what the commission, ministers and witnesses have put on the public record. Analytical questions about design and reform are our commentary.",
+  "jurisdiction": "United Kingdom",
+  "checked": "2026-11-25",
+  "tags": [
+    "uk",
+    "parliament",
+    "house-of-lords",
+    "appointments",
+    "constitution",
+    "accountability",
+    "transparency"
+  ],
+  "related": [
+    {
+      "id": "peter-cruddas",
+      "title": "Peter Cruddas: the peerage HOLAC would not support"
+    },
+    {
+      "id": "evgeny-lebedev-peerage-and-media-ownership",
+      "title": "Evgeny Lebedev, the peerage and the free press"
+    },
+    {
+      "id": "hansard-record",
+      "title": "Hansard and the disputed record"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "What it is",
+      "value": "Advisory, not a veto",
+      "detail": "A non-statutory commission, established in 2000, whose advice the Prime Minister may decline to follow",
+      "target": "what-it-is"
+    },
+    {
+      "label": "Two functions",
+      "value": "Vetting and recommending",
+      "detail": "Propriety checks on nominees, and an open process for non-party-political Crossbench peers",
+      "target": "two-functions"
+    },
+    {
+      "label": "The public override",
+      "value": "Cruddas, December 2020",
+      "detail": "The first published occasion on which HOLAC’s advice was not followed",
+      "target": "cruddas-case"
+    },
+    {
+      "label": "Reform",
+      "value": "Still not statutory",
+      "detail": "Repeated proposals to put the commission on a statutory footing have not been enacted",
+      "target": "reform"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "title": "What HOLAC is",
+      "intro": "The commission is often described as a watchdog. In law and practice it is an adviser.",
+      "entries": [
+        {
+          "id": "established",
+          "title": "An advisory body, created in 2000, not by statute",
+          "kind": "Official record and parliamentary research",
+          "paragraphs": [
+            {
+              "text": "On 4 May 2000 the Prime Minister, Tony Blair, confirmed the establishment of an interim House of Lords Appointments Commission and announced its first members, with Lord Stevenson of Coddenham as the independent chair. The House of Lords Library records that it was created as an independent, advisory non-departmental public body, following a proposal in the 1998 white paper on Lords reform.",
+              "sources": [
+                {
+                  "id": "blair-wa"
+                },
+                {
+                  "id": "lords-library-role"
+                }
+              ]
+            },
+            {
+              "text": "Unlike the National Audit Office, the Electoral Commission or the Judicial Appointments Commission, HOLAC was not created by statute. Because it is not a statutory body, the government can change its remit without amending legislation. The Library gives as an example the 2010 coalition government’s request that it also vet ministerial appointments to the Lords.",
+              "sources": [
+                {
+                  "id": "lords-library-role"
+                }
+              ]
+            },
+            {
+              "text": "The current chair is Baroness Deech, appointed in 2023. Previous chairs were Lord Stevenson of Coddenham (2000–2008), Lord Jay of Ewelme (2008–2013), Lord Kakkar (2013–2018) and Lord Bew (2018–2023). The commission has a majority of independent members, with one place each for the Conservative, Labour and Liberal Democrat parties, drawn from the House of Lords.",
+              "sources": [
+                {
+                  "id": "lords-library-role"
+                },
+                {
+                  "id": "deech-cspl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "two-functions",
+          "title": "Two functions, and a limit",
+          "kind": "Parliamentary research and the commission chair’s account",
+          "paragraphs": [
+            {
+              "text": "HOLAC has two main functions. First, it vets nominations for life peerages — party-political and non-party-political — for propriety, and advises the Prime Minister. Second, it runs an open process and recommends individuals for appointment as non-party-political Crossbench peers. Since December 2024 it has also collected short published citations for successful political nominations. It does not decide how large the House should be, or how many appointments a Prime Minister may make.",
+              "sources": [
+                {
+                  "id": "lords-library-role"
+                },
+                {
+                  "id": "deech-cspl"
+                },
+                {
+                  "id": "hcws284"
+                }
+              ]
+            },
+            {
+              "text": "When vetting, the commission uses a published definition of propriety: that “the individual should be in good standing in the community in general and with the public regulatory authorities in particular,” and that “the past conduct of the nominee would not reasonably be regarded as bringing the House of Lords into disrepute.” It does not, on the present remit, assess the suitability or merit of party nominees. That, as Baroness Deech has put it, “is for the political party.”",
+              "sources": [
+                {
+                  "id": "holac-pacac"
+                },
+                {
+                  "id": "lords-library-role"
+                },
+                {
+                  "id": "deech-cspl"
+                }
+              ]
+            },
+            {
+              "text": "Life peerages are created by the sovereign, on the advice of the Prime Minister, under the Life Peerages Act 1958 and the residual prerogative. A Prime Minister who sits in the House of Commons is not confined to Commons business when advising on appointments to the Lords. The two Houses have distinct legislative roles; they do not have separate appointing authorities. HOLAC sits in that process as an adviser, not as a second sovereign.",
+              "sources": [
+                {
+                  "id": "life-peerages-act"
+                },
+                {
+                  "id": "lords-library-role"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "no-veto",
+          "title": "Advice without a veto: what is the point?",
+          "kind": "Official letters and our analysis",
+          "paragraphs": [
+            {
+              "text": "Lord Bew’s letter of 22 December 2020 put the limit in one sentence: “The Commission provides advice but does not have a veto. Ultimately, appointments are a matter for the Prime Minister.” Johnson’s letter of the previous day said the same thing the other way around: the commission’s role “is advisory,” even as he called the Cruddas case “a clear and rare exception.”",
+              "sources": [
+                {
+                  "id": "holac-pacac"
+                },
+                {
+                  "id": "pm-letter"
+                }
+              ]
+            },
+            {
+              "text": "A fair question follows. If a Prime Minister can proceed anyway, what does the commission add? The public record suggests at least four practical effects that stop short of a legal veto: names may be dropped or delayed before a list is published; a refusal to support a name, once disclosed, has a political cost; an open letter can put the disagreement on the record, as happened in 2020; and, separately, the commission itself chooses whom to recommend for Crossbench appointments. None of those effects is a substitute for a binding power. Whether they are enough is a question of constitutional design, not a finding that the present system is a sham, or that it is adequate.",
+              "sources": [
+                {
+                  "id": "holac-pacac"
+                },
+                {
+                  "id": "pm-letter"
+                },
+                {
+                  "id": "deech-cspl"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "case-studies",
+      "title": "What the public record shows in particular cases",
+      "intro": "Confidential vetting means the public usually sees only the names that are appointed. Two Johnson-era cases, and one later list, are exceptions in different ways.",
+      "entries": [
+        {
+          "id": "cruddas-case",
+          "title": "Peter Cruddas: the published override",
+          "kind": "Official letters and later institutional accounts",
+          "paragraphs": [
+            {
+              "text": "On 22 December 2020 the government announced a Conservative nomination for Peter Cruddas. The announcement stated that HOLAC “could not support” that nomination, and that the Prime Minister had “exceptionally” decided it should proceed. Lord Bew wrote to the Commons Public Administration and Constitutional Affairs Committee the same day to record that this was “the first occasion on which its advice has not been followed.” The peerage was created on 27 January 2021 and Lord Cruddas was introduced on 2 February 2021.",
+              "sources": [
+                {
+                  "id": "gov-peerages"
+                },
+                {
+                  "id": "holac-pacac"
+                },
+                {
+                  "id": "gazette"
+                },
+                {
+                  "id": "intro-twfy"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Peter Cruddas",
+                  "url": "https://independenttribunal.org/research/peter-cruddas/"
+                }
+              ]
+            },
+            {
+              "text": "Johnson’s published letter linked the commission’s concerns to the 2012 Sunday Times allegations and “the judgement reached by the Court of Appeal.” Our Cruddas page sets out that judgment in full: the Court of Appeal in 2015 held the “cash for access” meaning substantially true, while the foreign-donations allegations remained libellous. The present page does not repeat that analysis. It records that the override was public, reasoned in a published letter, and treated by the commission as a first.",
+              "sources": [
+                {
+                  "id": "pm-letter"
+                },
+                {
+                  "id": "ca-2015",
+                  "locator": "paras 144–146"
+                }
+              ]
+            },
+            {
+              "text": "In a February 2025 blog for the Committee on Standards in Public Life, Baroness Deech, writing as chair, said that in the commission’s 25 years “HOLAC’s advice has been accepted on all but one occasion in 2020 when the then Chair wrote to Parliament and put this information into the public domain to ensure transparency and accountability.” We have not found a later published case in which a Prime Minister proceeded after a public statement that HOLAC could not support the nomination. Absence of a later public letter is not a complete proof that advice has never since been quietly set aside.",
+              "sources": [
+                {
+                  "id": "deech-cspl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lebedev-case",
+          "title": "Evgeny Lebedev: reported concerns, a different final record",
+          "kind": "Parliamentary records, testimony and published responses",
+          "paragraphs": [
+            {
+              "text": "Evgeny Lebedev’s Crossbench nomination was announced on 31 July 2020. Subsequent reporting described security and propriety concerns about the appointment. The Commons Library summarised attributed reporting that HOLAC had taken intelligence advice and had initially advised the Prime Minister not to proceed. That is the Library recording a report, not publishing the underlying intelligence assessment.",
+              "sources": [
+                {
+                  "id": "lebedev-list"
+                },
+                {
+                  "id": "commons-library-lebedev"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Evgeny Lebedev’s Crossbench nomination",
+                  "url": "https://independenttribunal.org/research/evgeny-lebedev-peerage-and-media-ownership/"
+                }
+              ]
+            },
+            {
+              "text": "On 20 April 2022 Lord Bew told a Commons committee that HOLAC ultimately did not say no to the appointment. He described a protracted exchange, a final written assessment, and no pressure on the commission in that case. His evidence is about the commission’s process. It does not disclose every communication an intelligence agency might separately have sent to Downing Street.",
+              "sources": [
+                {
+                  "id": "bew-evidence"
+                }
+              ]
+            },
+            {
+              "text": "On 29 March 2022 the House of Commons agreed a Humble Address seeking advice given to the Prime Minister about the appointment. On 12 May 2022 the government issued a limited ministerial response. Lord Lebedev, in a published statement, denied being a Russian agent or a security risk to Britain. Our Lebedev page sets out that record, the denials, and the papers that remain unavailable. The point for this page is narrower: a reported early concern, a final HOLAC position that was not a public refusal, and an override of final negative HOLAC advice are different propositions. The Cruddas letters establish the third. The Lebedev record, as it stands, does not.",
+              "sources": [
+                {
+                  "id": "humble-address"
+                },
+                {
+                  "id": "hcws22"
+                },
+                {
+                  "id": "lebedev-statement"
+                },
+                {
+                  "id": "commons-library-lebedev"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "resignation-list-2023",
+          "title": "The 2023 resignation list: advice that was followed",
+          "kind": "Parliamentary research and contemporaneous reporting",
+          "paragraphs": [
+            {
+              "text": "The commission has, on Lord Bew’s account, been unable to support party nominees on earlier occasions without those names then being appointed. A later public example points the other way. The House of Lords Library records that HOLAC issued a statement on 12 June 2023 confirming it had not supported eight nominees on Boris Johnson’s resignation honours list, and that the then Prime Minister, Rishi Sunak, accepted that advice. Those individuals were not included in the final list. BBC News reported the same disagreement between Johnson and Sunak. That episode is evidence that advice can still be followed, including after the Cruddas case. It is not evidence that the commission acquired a veto.",
+              "sources": [
+                {
+                  "id": "lords-library-role"
+                },
+                {
+                  "id": "lords-library-2023"
+                },
+                {
+                  "id": "bbc-2023"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-apply",
+      "title": "How a non-party-political peerage is sought",
+      "intro": "Not every seat in the Lords is in the gift of a party leader. One route is an open application to the commission.",
+      "entries": [
+        {
+          "id": "open-process",
+          "title": "An open process, and a narrow gate",
+          "kind": "Commission chair’s account and parliamentary research",
+          "paragraphs": [
+            {
+              "text": "Individuals can apply directly to HOLAC to be considered for a non-party-political Crossbench life peerage. The commission publishes application guidance and assessment criteria on its website. Baroness Deech has described “an open, merit-based process” for people “with experience and expertise to bring to the process of scrutinising legislation.” She noted that she herself was appointed by that route in 2005, before later becoming the commission’s chair.",
+              "sources": [
+                {
+                  "id": "deech-cspl"
+                },
+                {
+                  "id": "lords-library-role"
+                },
+                {
+                  "id": "holac-apply"
+                }
+              ]
+            },
+            {
+              "text": "The gate is narrow. Deech wrote in February 2025 that more than 5,500 people had applied and that 76 peers had been appointed that way in 25 years. In recent years, she said, the commission had been asked to appoint only two non-party-political peers a year, “so competition is intense.” Giving evidence to PACAC in March 2024, she said that just over 1% of applicants had become members of the Lords. The House of Lords Library, in its briefing updated on 15 September 2026, puts the number of HOLAC-recommended Crossbench appointments since 2000 at 78, most of them in the commission’s first decade, and records that in 2012 David Cameron asked the commission to limit recommendations to two a year.",
+              "sources": [
+                {
+                  "id": "deech-cspl"
+                },
+                {
+                  "id": "lords-library-role"
+                }
+              ]
+            },
+            {
+              "text": "The number and timing of those Crossbench appointments remain a matter for the Prime Minister; the choice of whom to recommend, Deech said, is made by the commission alone. That is a public process, not a private invitation list. Most applicants are not appointed. Understanding how the process actually works — including when advice is followed, and when it is not — is part of taking the House, and appointment to it, seriously.",
+              "sources": [
+                {
+                  "id": "deech-cspl"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reform",
+      "title": "Should HOLAC be put on a statutory footing?",
+      "intro": "The argument that an appointments commission should exist in statute is almost as old as the commission itself. It has not been carried into law.",
+      "entries": [
+        {
+          "id": "the-proposals",
+          "title": "A long debate, and bills that stopped",
+          "kind": "Parliamentary research and official evidence",
+          "paragraphs": [
+            {
+              "text": "The Royal Commission on the Reform of the House of Lords recommended in 2000 that the appointments commission should become a statutory body, so that its role could not be altered or abolished without reference to Parliament. The Joint Committee on the Draft House of Lords Reform Bill made a similar recommendation in 2012. The subsequent reform bill was not passed.",
+              "sources": [
+                {
+                  "id": "lords-library-role"
+                }
+              ]
+            },
+            {
+              "text": "Lord Norton of Louth has twice introduced a House of Lords (Peerage Nominations) Bill: in the 2022–23 session and again in 2024–26. The later bill would have put HOLAC on a statutory basis, required the Prime Minister to wait for its advice, and provided that if the commission advised that a nominee did not meet specified criteria, the Prime Minister could not recommend that person to the sovereign until two years had elapsed. Both bills were debated at second reading and did not progress further.",
+              "sources": [
+                {
+                  "id": "norton-bill-2025"
+                },
+                {
+                  "id": "lords-library-role"
+                }
+              ]
+            },
+            {
+              "text": "In January 2025 the House of Lords Constitution Committee recommended that the government review whether HOLAC’s role should be set out in statute. The government’s response, as recorded by the Library, did not refer to HOLAC specifically and said it was committed to “keeping our ethics bodies under review.” Labour’s 2024 manifesto said it would reform the appointments process to “ensure the quality of new appointments,” without a specific commitment on HOLAC. In December 2024 the government required published citations for successful political nominations and asked HOLAC to collect them, while leaving suitability vetting outside the commission’s remit.",
+              "sources": [
+                {
+                  "id": "lords-library-role"
+                },
+                {
+                  "id": "hcws284"
+                }
+              ]
+            },
+            {
+              "text": "Baroness Deech has described the commission’s present basis as “rather flimsy.” She has said HOLAC itself had not formed a collective view on a statutory footing, that her personal view was there was “some merit” in it, and that she would “personally welcome” a power to consider the suitability of party nominees, while acknowledging “different views round the table.” She has also said she believed it unlikely that a Prime Minister would be willing to lose the final say.",
+              "sources": [
+                {
+                  "id": "lords-library-role"
+                },
+                {
+                  "id": "deech-cspl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "design-questions",
+          "title": "Design questions the present system leaves open",
+          "kind": "Our analysis — not a legislative proposal",
+          "paragraphs": [
+            {
+              "text": "The Cruddas and Lebedev records, taken together, pose a design problem rather than a single scandal. If the test remains propriety only, a commission can say nothing official about conflicts of interest, media ownership or the capacity to do the work, except where those matters also go to “good standing” or disrepute. If the test is widened to suitability, someone must define it, and someone must be accountable for the definition. If advice remains non-binding, a Prime Minister can still appoint, at a political cost that may be large or small. If advice is made binding, the commission becomes something closer to a tribunal or a veto, and the Prime Minister’s responsibility to the sovereign and to Parliament is redrawn.",
+              "sources": [
+                {
+                  "id": "holac-pacac"
+                },
+                {
+                  "id": "lords-library-role"
+                },
+                {
+                  "id": "norton-bill-2025"
+                }
+              ]
+            },
+            {
+              "text": "A short way of setting out the options, without pretending that this page can choose among them, is a design matrix. On the standard of review: propriety only, as now; propriety plus a stated conflicts or foreign-influence test; or a broader suitability and merit test, of the kind Lord Norton’s bill would have written in (“conspicuous merit” and a “willingness and capacity to contribute”). On binding effect: non-binding advice, perhaps with a duty to give public reasons when departing from it; a binding veto on propriety grounds; or a ruling subject to a narrow parliamentary or statutory review. On transparency: publication of reasons where national security permits, and routine publication of overrides, as Johnson chose to do in 2020 and as the 1917 Lords resolution, in a different honours context, once urged. These are research questions about institutional design. They are not findings that any particular appointment was improper, and they are not a draft bill.",
+              "sources": [
+                {
+                  "id": "norton-bill-2025"
+                },
+                {
+                  "id": "lords-library-vetting"
+                },
+                {
+                  "id": "pm-letter"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Method and limits",
+      "intro": "How this page was built, and what it does not claim.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The government’s Political Peerages 2020 announcement, the Prime Minister’s letter of 21 December 2020 and Lord Bew’s letter to PACAC of 22 December 2020 were read as official texts. The Life Peerages Act 1958 was read on legislation.gov.uk. Tony Blair’s written answer of 4 May 2000 was read from the historic Commons Hansard. Baroness Deech’s 10 February 2025 blog for the Committee on Standards in Public Life, the Library’s role-and-powers briefing updated on 15 September 2026, including its record of her March 2024 PACAC evidence, and the Library’s briefing on Lord Norton’s 2024–25 bill were used for later membership figures, reform history and the 2023 resignation-list episode. The Lebedev Commons debate, the 12 May 2022 ministerial statement, Lord Bew’s April 2022 oral evidence and Lord Lebedev’s published statement were used for that case, consistently with our separate Lebedev page. HOLAC’s own “how to apply” pages are cited as the commission’s published guidance; some of those pages could not be retrieved in full from this research environment, so eligibility minutiae that we could not read in the official text are not restated here.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Coverage limits",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "HOLAC does not publish the detail of individual vetting files. We cannot know, and do not guess, every reason the commission may have had in the Cruddas or Lebedev cases beyond what it, ministers and witnesses have said in public. Baroness Deech’s February 2025 statement that advice had been accepted on all but one occasion is an account by the sitting chair; it is strong evidence, not a complete audit of every unpublished exchange. The September 2026 Lords Library briefing, in the paragraph on whether advice is always followed, contains a sentence that is difficult to reconcile with the rest of that paragraph and with Deech’s account; we have relied on the 2020 letters, Deech’s wording, and the Library’s narrative of the Cruddas and 2023 episodes, and we have not quoted that sentence. This page does not find that any named person was unfit for the House, that any peerage was sold, or that any intelligence assessment was well or ill founded. Design questions about a statutory commission are labelled as analysis.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "blair-wa",
+      "title": "House of Commons written answers, 4 May 2000: establishment of the House of Lords Appointments Commission",
+      "publisher": "UK Parliament (historic Hansard)",
+      "type": "Official written answer",
+      "url": "https://publications.parliament.uk/pa/cm199900/cmhansrd/vo000504/text/00504w01.htm",
+      "date": "2000-05-04",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "life-peerages-act",
+      "title": "Life Peerages Act 1958",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/Eliz2/6-7/21",
+      "date": "1958-04-30",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "lords-library-role",
+      "title": "House of Lords Appointments Commission: Role and powers",
+      "publisher": "House of Lords Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://lordslibrary.parliament.uk/house-of-lords-appointments-commission-role-and-powers/",
+      "date": "2026-09-15",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "deech-cspl",
+      "title": "Peer pressure: the work of the House of Lords Appointments Commission",
+      "publisher": "Committee on Standards in Public Life",
+      "type": "Commission chair’s published account",
+      "url": "https://cspl.blog.gov.uk/2025/02/10/peer-pressure-the-work-of-the-house-of-lords-appointments-commission/",
+      "date": "2025-02-10",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "holac-pacac",
+      "title": "Letter from the Chair of HOLAC to the Chair of PACAC on the nomination of Peter Cruddas",
+      "publisher": "House of Lords Appointments Commission",
+      "type": "Official letter",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2020/12/2020-12-22-Chair-of-HOLAC-to-PACAC-Peter-Cruddas-peerage.pdf",
+      "date": "2020-12-22",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "pm-letter",
+      "title": "PM letter to the House of Lords Appointments Commission: 21 December",
+      "publisher": "Prime Minister’s Office, 10 Downing Street",
+      "type": "Official letter",
+      "url": "https://www.gov.uk/government/publications/pm-letter-to-the-the-house-of-lords-appointments-commission-21-december",
+      "date": "2020-12-21",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "gov-peerages",
+      "title": "Political Peerages 2020",
+      "publisher": "Prime Minister’s Office, 10 Downing Street",
+      "type": "Official nomination list",
+      "url": "https://www.gov.uk/government/news/political-peerages-2020",
+      "date": "2020-12-22",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "gazette",
+      "title": "Crown Office: Letters Patent dated 27 January 2021, Baron Cruddas",
+      "publisher": "The Gazette",
+      "type": "Official notice",
+      "url": "https://www.thegazette.co.uk/notice/3724333",
+      "date": "2021-01-29",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "intro-twfy",
+      "title": "Introduction: Lord Cruddas, 2 February 2021",
+      "publisher": "TheyWorkForYou (House of Lords Hansard record)",
+      "type": "Parliamentary record",
+      "url": "https://www.theyworkforyou.com/lords/?id=2021-02-02c.2013.4",
+      "date": "2021-02-02",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ca-2015",
+      "title": "Cruddas v Calvert & Ors [2015] EWCA Civ 171",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/171",
+      "date": "2015-03-17",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "lebedev-list",
+      "title": "Political Peerages 2020 (31 July 2020 list, including Evgeny Lebedev)",
+      "publisher": "Prime Minister’s Office, 10 Downing Street",
+      "type": "Official nomination list",
+      "url": "https://assets.publishing.service.gov.uk/media/5f24373c8fa8f57ac683d847/Political_Peerages_2020.pdf",
+      "date": "2020-07-31",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "commons-library-lebedev",
+      "title": "Advice relating to the appointment of Lord Lebedev",
+      "publisher": "House of Commons Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0075/",
+      "date": "2022-03-29",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "bew-evidence",
+      "title": "Lord Bew’s oral evidence, 20 April 2022, HC 1238",
+      "publisher": "House of Commons Public Administration and Constitutional Affairs Committee",
+      "type": "Official testimony",
+      "url": "https://committees.parliament.uk/oralevidence/10107/pdf/",
+      "date": "2022-04-20",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "humble-address",
+      "title": "Appointment of Lord Lebedev, Commons debate and division",
+      "publisher": "Hansard, House of Commons",
+      "type": "Official debate and resolution",
+      "url": "https://hansard.parliament.uk/Commons/2022-03-29/debates/D30351A6-5912-417B-A961-413167847683/AppointmentOfLordLebedev",
+      "date": "2022-03-29",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "hcws22",
+      "title": "Lord Lebedev appointment — ministerial response to the Humble Address (HCWS22)",
+      "publisher": "UK Parliament written statements",
+      "type": "Minister’s written statement",
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2022-05-12/hcws22",
+      "date": "2022-05-12",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "lebedev-statement",
+      "title": "Statement from the proprietor in response to media speculation",
+      "publisher": "Evening Standard",
+      "type": "Subject’s published response",
+      "url": "https://www.standard.co.uk/news/london/statement-from-the-proprietor-in-response-to-media-speculation-b987541.html",
+      "date": "2022-03-11",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "lords-library-2023",
+      "title": "New life peerages in 2023: Boris Johnson’s resignation list",
+      "publisher": "House of Lords Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://lordslibrary.parliament.uk/new-life-peerages-in-2023-boris-johnsons-resignation-list/",
+      "date": "2023-06-14",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "bbc-2023",
+      "title": "Boris Johnson and Rishi Sunak trade barbs in row over honours list",
+      "publisher": "BBC News",
+      "type": "News reporting",
+      "url": "https://www.bbc.co.uk/news/uk-politics-65876723",
+      "date": "2023-06-12",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "holac-apply",
+      "title": "How to apply",
+      "publisher": "House of Lords Appointments Commission",
+      "type": "Official guidance",
+      "url": "https://lordsappointments.independent.gov.uk/how-to-apply-2",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "hcws284",
+      "title": "House of Lords (appointments) (HCWS284)",
+      "publisher": "UK Parliament written statements",
+      "type": "Minister’s written statement",
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2024-12-05/hcws284",
+      "date": "2024-12-05",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "norton-bill-2025",
+      "title": "House of Lords (Peerage Nominations) Bill [HL]: HL Bill 36 of 2024–25",
+      "publisher": "House of Lords Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2025-0014/LLN-2025-0014.pdf",
+      "date": "2025-03-11",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "lords-library-vetting",
+      "title": "Vetting appointments to the House of Lords",
+      "publisher": "House of Lords Library",
+      "type": "Parliamentary research briefing",
+      "url": "https://lordslibrary.parliament.uk/vetting-appointments-to-the-house-of-lords/",
+      "date": "2022-02-28",
+      "checked": "2026-11-25"
+    }
+  ]
+}

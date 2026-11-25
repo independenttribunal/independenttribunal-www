@@ -19,6 +19,14 @@
     {
       "id": "hansard-record",
       "title": "Hansard and the disputed record"
+    },
+    {
+      "id": "peter-cruddas",
+      "title": "Peter Cruddas: the peerage HOLAC would not support"
+    },
+    {
+      "id": "house-of-lords-appointments-commission",
+      "title": "The House of Lords Appointments Commission"
     }
   ],
   "highlights": [
@@ -328,10 +336,20 @@
           "kind": "Procedural comparison",
           "paragraphs": [
             {
-              "text": "The Commons Library records HOLAC’s public statement that it could not support Peter Cruddas’s nomination and that Johnson went ahead. This offers a documented example of disregarding final negative HOLAC advice; it does not establish that the same final advice was given in Lebedev’s case.",
+              "text": "The Commons Library records HOLAC’s public statement that it could not support Peter Cruddas’s nomination and that Johnson went ahead. This offers a documented example of disregarding final negative HOLAC advice; it does not establish that the same final advice was given in Lebedev’s case. Our separate studies of Peter Cruddas and of the House of Lords Appointments Commission set out the official letters, the later Court of Appeal judgment, and how the two appointments differ.",
               "sources": [
                 {
                   "id": "s004"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Peter Cruddas",
+                  "url": "https://independenttribunal.org/research/peter-cruddas/"
+                },
+                {
+                  "text": "the House of Lords Appointments Commission",
+                  "url": "https://independenttribunal.org/research/house-of-lords-appointments-commission/"
                 }
               ]
             }
