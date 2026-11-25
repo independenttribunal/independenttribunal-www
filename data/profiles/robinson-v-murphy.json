@@ -22,6 +22,10 @@
     {
       "id": "frameworks-of-truth",
       "title": "Frameworks of truth: what does the system reward?"
+    },
+    {
+      "id": "shand-v-kemkers",
+      "title": "A lawyer is not an investigator of the client’s case: Shand v Kemkers"
     }
   ],
   "highlights": [
@@ -1180,6 +1184,28 @@
               ]
             }
           ]
+        },
+        {
+          "id": "shand-v-kemkers",
+          "title": "A later application of the same knowledge requirement: Shand v Kemkers",
+          "kind": "High Court judgment and our analysis",
+          "paragraphs": [
+            {
+              "text": "In Shand v Kemkers [2026] EWHC 341 (KB), Mr Justice Cotter applied the same knowledge requirement, after Norman v Adler, to contempt applications aimed at lawyers who were advancing a client’s case rather than personally verifying the underlying facts. He held that a barrister or solicitor is not personally vouching for those facts, and that there is no general duty to investigate the client’s veracity. Permission was refused and the applications were held totally without merit. The court did not find that any lawyer had committed a contempt, and it did not find that a client had deceived counsel. The case is discussed in full on a dedicated page, including why it is a 2026 application of a settled rule rather than a first statement of that rule.",
+              "sources": [
+                {
+                  "id": "shand-kemkers",
+                  "locator": "paras 97, 120–123, 131, 264–265"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Shand v Kemkers",
+                  "url": "https://independenttribunal.org/research/shand-v-kemkers/"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1386,6 +1412,15 @@
       "type": "Editorial",
       "url": "https://independenttribunal.org/research/robinson-v-murphy/",
       "checked": "2026-11-25"
+    },
+    {
+      "id": "shand-kemkers",
+      "title": "Shand v Kemkers [2026] EWHC 341 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/341",
+      "checked": "2026-11-25",
+      "date": "2026-02-18"
     }
   ]
 }
