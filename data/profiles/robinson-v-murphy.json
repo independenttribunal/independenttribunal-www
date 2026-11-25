@@ -1,0 +1,1391 @@
+{
+  "id": "robinson-v-murphy",
+  "category": "legal-study",
+  "title": "False statement of truth, not a lie: Robinson v Murphy",
+  "subtitle": "A verified falsehood is not, without more, a proven lie. The High Court dismissed a contempt application because knowledge of falsity was not proved to the criminal standard.",
+  "summary": "In Robinson v Murphy [2024] EWHC 798 (KB), His Honour Judge Cawson KC, sitting as a judge of the High Court, dismissed an application to commit Darrell Robinson, a Fellow of CILEx and then senior partner of a personal injury firm, for contempt of court. Mr Robinson had signed two documents verified by statements of truth asserting that James Gibson had been a passenger in a taxi rear-ended in the Lake District on 16 November 2019. Dashcam footage showed Mr Gibson was not in the vehicle. Mr Gibson later admitted he had followed in another car and had made a false claim. It was common ground that both verified statements were false. The only contested issue was whether Mr Robinson knew they were untrue. The judge said the evidence caused him “real concern” and that the application disclosed a strong prima facie case, but he found alternative explanations that were at least reasonably credible, and held that knowledge was not proved so that he could be sure. Recklessness was not pursued, following Norman v Adler. The dismissal is not a finding that professional standards were met, and it is not a finding about recklessness or carelessness.",
+  "scope": "England and Wales. This page is a study of the committal judgment in Robinson v Murphy [2024] EWHC 798 (KB), the civil-procedure rules on statements of truth, and the professional-regulation questions the judgment leaves open. The underlying personal injury claim was in the County Court at Manchester (claim no. G01MA072). The contempt application was determined in the King’s Bench Division by HHJ Cawson KC sitting as a High Court judge under CPR 81.3(8). Scotland and Northern Ireland have different procedure and professional regulation. This is not a finding of professional misconduct, and it is not legal advice.",
+  "status_note": "The judgment was read in full from the official text on the National Archives (Find Case Law) on 25 November 2026. Quotations are taken from it, including its spelling. The Civil Procedure Rules, Practice Direction 22, the CILEx Code of Conduct, CILEx Regulation’s sanctions guidance, and the Solicitors (Disciplinary Proceedings) Rules 2019 were checked the same day. We have not found a published CILEx Regulation or Solicitors Regulation Authority decision about Mr Robinson or The Rose Partnership Solicitors LLP, nor a published later ruling on the costs of the contempt application or an appeal. Companies House and the London Gazette show that the firm entered creditors’ voluntary liquidation on 5 March 2024; the public notices we have seen do not state a connection with these proceedings, and we do not infer one. Analytical labels and research questions are our commentary, not findings of the court. This is legal research and public education, not legal advice.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-25",
+  "tags": [
+    "uk",
+    "contempt",
+    "statements-of-truth",
+    "professional-conduct",
+    "honesty",
+    "evidence",
+    "personal-injury"
+  ],
+  "featured_source": "judgment",
+  "related": [
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth: what does the system reward?"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The holding",
+      "value": "Application dismissed",
+      "detail": "Knowledge that the statements were false was not proved to the criminal standard",
+      "target": "holding"
+    },
+    {
+      "label": "Falsity",
+      "value": "Not disputed",
+      "detail": "Two statements of truth said James Gibson was in the taxi; the footage showed he was not",
+      "target": "two-statements"
+    },
+    {
+      "label": "After Norman v Adler",
+      "value": "Knowledge, not recklessness",
+      "detail": "Recklessness was not pursued and was not decided",
+      "target": "legal-test"
+    },
+    {
+      "label": "What was not decided",
+      "value": "Open questions",
+      "detail": "No finding on recklessness, carelessness, or professional misconduct",
+      "target": "what-was-not-decided"
+    }
+  ],
+  "sections": [
+    {
+      "id": "holding",
+      "title": "The holding",
+      "intro": "What the High Court decided — and, just as important, what it did not decide.",
+      "entries": [
+        {
+          "id": "what-was-held",
+          "title": "Knowledge of falsity was not proved",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 12 April 2024, His Honour Judge Cawson KC, sitting as a judge of the King’s Bench Division of the High Court, dismissed an application by Michael Murphy to commit Darrell Robinson to prison for contempt of court. The application alleged that Mr Robinson had knowingly made two false statements in documents verified by statements of truth.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 1, 143, 146; header"
+                }
+              ]
+            },
+            {
+              "text": "It was common ground that both statements were false, and that the only contested issue was whether it had been proved to the criminal standard that Mr Robinson made one or both of them “without an honest belief in their truth, i.e. in the knowledge that they were untrue.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 14"
+                }
+              ]
+            },
+            {
+              "text": "The judge held that the case in contempt had not been proved to that standard. He therefore dismissed the application.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 143, 146"
+                }
+              ]
+            },
+            {
+              "text": "The Law Gazette reported the dismissal on 15 April 2024, including the finding that contempt had not been proved to the criminal standard and that Mr Robinson “did not come across as an obviously evasive or dishonest witness.” The account below follows the judgment, not the news report.",
+              "sources": [
+                {
+                  "id": "gazette",
+                  "locator": "15 April 2024"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "para 116"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "core-takeaway",
+          "title": "Proof of falsehood is not proof of a lie",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The case is a sharp illustration of a distinction the law actually draws. A statement of truth can be false, and can support a claim that should never have been paid, without the court being able to say that the person who signed it knew it was false. Proof of falsehood is not proof of dishonesty. [JUDGMENT]",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 14, 143, 146"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "The converse also holds, and the judgment does not establish it as a clean bill of health. Absence of proven dishonesty is not proof of professional competence. And after Norman v Adler, a finding that knowledge was not proved is not even a finding about recklessness. Those points are our commentary on what the court left open, not findings the judge made.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 15, 146"
+                },
+                {
+                  "id": "norman",
+                  "locator": "para 61"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-was-not-decided",
+          "title": "What the court did not decide",
+          "kind": "High Court judgment and our analysis",
+          "paragraphs": [
+            {
+              "text": "An alternative allegation that Mr Robinson had made the statements “having no idea whether they were right or wrong” — that is, recklessly — was not pursued. The judge recorded that this was not how the application had originally been put, and that in any event the Court of Appeal in Norman v Adler had held that recklessness in not caring whether a statement was true or false would not be sufficient for permission to bring committal proceedings. The court therefore made no finding either way on recklessness or carelessness.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 15"
+                },
+                {
+                  "id": "norman",
+                  "locator": "para 61"
+                }
+              ]
+            },
+            {
+              "text": "The judgment does not determine professional misconduct, and it does not apply the civil standard of proof to the question of dishonesty. No regulator is mentioned in the judgment, beyond the fact that Mr Robinson is a Fellow of the Chartered Institute of Legal Executives. Costs of the contempt application, and any application for permission to appeal, were adjourned to a later hearing. We have not found a published later ruling on those consequentials.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 18, 147"
+                },
+                {
+                  "id": "cilex-records"
+                },
+                {
+                  "id": "sra-check"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "facts",
+      "title": "What happened",
+      "intro": "The underlying accident was real. One of the claims made in its wake was not. The account below is taken from the judgment, including the parties’ evidence as the judge recorded it.",
+      "entries": [
+        {
+          "id": "the-accident",
+          "title": "A real collision, and a passenger who was not there",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Over the weekend of 16 and 17 November 2019, Mr Robinson, then 57, went to the Lake District with male friends from the Manchester area: Allan Gibson, James Gibson (Allan’s son), Paul Serle, Martyn Shedwick and Craig Froggatt. The judge recorded that some of them were, as he understood it, providers of work to Mr Robinson and his firm, but had become friends. They stayed at a property of Mr Serle’s near Great Langdale.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 18–20"
+                }
+              ]
+            },
+            {
+              "text": "On Saturday 16 November 2019, after drinking at the Wainwrights’ Inn in Great Langdale, a taxi was ordered to take the party to Ambleside. During that journey, Michael Murphy’s car drove into the back of the taxi. Dashcam footage later obtained by Skyfire Insurance Company Limited showed the occupants, apart from the driver, to be Mr Serle (beside the driver), Mr Shedwick, Mr Froggatt and Mr Robinson in the middle row (with Mr Robinson on the nearside), and Allan Gibson on the offside of the third row. The nearside seat on the third row was empty. James Gibson was not in the taxi.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 21–22"
+                }
+              ]
+            },
+            {
+              "text": "The judge treated 16 November 2019 as the date of the accident. Some of the claim documents, including claim notification forms and the Stage 2 settlement pack, gave the date as 19 November 2019. The medical reports used 16 November 2019. The judgment records both dates and does not expressly resolve the discrepancy.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 22, 32, 33, 36, 38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "james-gibson",
+          "title": "James Gibson’s false claim",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Photographic evidence showed James Gibson with Mr Robinson and others in Ambleside later that evening, near the Royal Oak. The judge noted that this was consistent with James Gibson’s account that he had been following the rest of the party in his girlfriend’s car. It was not suggested that the photographs were fabricated.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 24"
+                }
+              ]
+            },
+            {
+              "text": "In an affidavit of 26 June 2023, James Gibson said he had been following the taxi, was not involved in the accident, and had told Mr Serle that he had been in the vehicle. He accepted that that was a lie. The judge recorded that he “candidly accepts that he made a false claim.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 4, 28, 31"
+                }
+              ]
+            },
+            {
+              "text": "Mr Serle’s affidavit was that, on the Sunday, James Gibson had raised his hand and said he was inside the vehicle; that Mr Serle had later given Mr Robinson the names of those who said they had been injured; and that he had no reason to believe James Gibson was not telling the truth, and did not believe Mr Robinson did either. Mr Serle did not attend for cross-examination, and the judge attached limited weight to affidavits from witnesses who did not attend.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 27, 88–91, 141"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "robinson-role",
+          "title": "Mr Robinson’s professional position and his own case",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Mr Robinson is a Fellow of the Chartered Institute of Legal Executives, having qualified as such in the 1990s. At all relevant times he was the senior partner in The Rose Partnership Solicitors LLP, a firm which for over 15 years had carried out predominantly low-value motor personal injury work.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 18"
+                }
+              ]
+            },
+            {
+              "text": "His firm had conduct of the occupants’ claims, including James Gibson’s. Another partner in the firm, Sophie Cobham, acted on Mr Robinson’s own claim. Mr Robinson’s evidence under cross-examination was that he could remember Mr Serle, Mr Shedwick, Mr Froggatt and Allan Gibson being in the vehicle, but that he could not specifically recall James Gibson being in it. It was his case that, at all relevant times, he believed James Gibson had been in the taxi, in the light of James Gibson’s presence with the party in Ambleside shortly after the accident and what he had been told by others. As he put it in his affidavit: “He lied to me, my firm, the medical expert and the Defendants. I did not know he was not present.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 25, 29–31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "two-statements",
+          "title": "The two statements of truth",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The committal application concerned two documents. The first was a Stage 2 settlement pack which Mr Robinson signed on James Gibson’s behalf on 18 February 2020. It contained a statement of truth in these terms: “I am the claimant’s legal representative. The claimant believes that the facts stated in this claim form are true. I have written authority for the claimant to sign this statement.” The pack set out injuries said to have been caused by the accident and the amount James Gibson was prepared to accept.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 13, 38"
+                },
+                {
+                  "id": "pd22"
+                }
+              ]
+            },
+            {
+              "text": "Mr Murphy accepted the offer. The defendant agreed to pay James Gibson £3,100 and costs, including the medical report, of £816. Those two figures add up to £3,916. At paragraph 39 the judge wrote “i.e. £3,960 in total”; at paragraph 63 he described “the damages and costs (totalling £3,916) paid to James Gibson.” We report the two component figures as stated, and note that inconsistency in the judgment’s own totals. The sum was subsequently paid to James Gibson.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 39, 63"
+                }
+              ]
+            },
+            {
+              "text": "The second document was Mr Robinson’s response, verified on 13 July 2020, to a Part 18 request. He confirmed that there were seven occupants, and that James Gibson “was sat in the right seat” of the last row. He signed under a statement of truth: “I believe that the facts stated in this Part 18 response are true … I understand that proceedings for contempt of court may be brought against anyone who makes, or causes to be made, a false statement in a document verified by a statement of truth without an honest belief in its truth.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 13, 59–62"
+                }
+              ]
+            },
+            {
+              "text": "The alleged falsehoods, as set out in the schedule of allegations, were that James Gibson had sustained the injuries described as a result of the accident, when he was not present and did not suffer those injuries; and that there were seven occupants including James Gibson in the right rear seat, when he was not in the vehicle.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "footage-timeline",
+          "title": "Who had the footage, and when",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Skyfire and/or First Central Insurance Management Ltd, which was managing the claims for Skyfire, received the dashcam footage on 2 April 2020. It was sent to Keoghs, the solicitors instructed by Mr Murphy and Skyfire, on 6 May 2020. That it had been obtained as early as 2 April 2020 was not disclosed until this was conceded on 2 June 2023. The footage was provided to Mrs Cobham on 20 August 2020, attached to an email at 14:58.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 2, 42, 45, 63"
+                }
+              ]
+            },
+            {
+              "text": "First Central had already withdrawn offers on 30 March 2020 and, on 14 April 2020, written that “occupancy is an issue” and raised “whether your client is supporting (a) phantom passenger claim(s).” On 5 June 2020, Keoghs asked Mr Robinson’s firm to confirm the number of occupants and their seating positions, saying they understood there had been only six occupants (the driver and five passengers) but had received seven claims notification forms.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 42, 47, 52"
+                }
+              ]
+            },
+            {
+              "text": "The second statement of truth, on 13 July 2020, was therefore signed after the insurer had the footage and after occupancy had been queried, but before the footage was disclosed to Mr Robinson’s firm. The judge treated that history as cutting more than one way: it was part of the context in which Mr Robinson verified a further statement, and it was also the background to Mrs Cobham later accusing Mr Wilson of Keoghs of being dishonest in not informing them about the footage.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 45, 61–64"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "intoxication",
+          "title": "The late account of a “bender”",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Intoxication was not mentioned in the Part 18 response. It was first raised, on the judge’s account of Mr Wilson’s note, in a telephone conversation between Mrs Cobham and Mr Wilson on 20 August 2020, the day the footage was disclosed. Mrs Cobham is recorded as saying that Mr Robinson “was on a ‘bender’ he was drunk and didn’t know and has relied on what his friends have said and he has been hoodwinked by them.” Mr Wilson is recorded as responding that this was the first that had been mentioned of this, and that there had been no ambiguity until then.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 61, 64"
+                }
+              ]
+            },
+            {
+              "text": "In his Reply and Defence to Counterclaim dated 7 October 2020, Mr Robinson pleaded that he “had been drinking alcohol for a period of approximately 12 hours and was extremely intoxicated at the time of the accident.” The judge found that, even if Mr Robinson was not particularly intoxicated at the time of the accident, the evening became a very boozy one over a considerable number of hours. He was “inclined to think that Mr Robinson has subsequently exaggerated his level of intoxication at the time of the accident, not necessarily deliberately so, but more likely as he has sought to rationalise in the light of the disclosure of the dashcam footage why he cannot specifically recall whether or not James Gibson was in the taxi.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 69, 125–126"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "money-and-aftermath",
+          "title": "Discontinuance, repayment and James Gibson’s judgment",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 17 March 2020, Mr Robinson received an interim payment of £3,200 on his own claim. The later counterclaim also sought to recover £816 paid to him on account of costs. He discontinued his own claim before a trial listed for 19 May 2022, repaid interim payments of £4,016 plus interest of £8.70, and had judgment entered on the counterclaim for £8,041 plus interest of £20.10, a total of £8,061.10. He agreed to pay Mr Murphy’s costs of the claim and counterclaim on the indemnity basis in an agreed amount of £20,184, waiving QOCS protection. Those amounts were subsequently paid.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 41, 63, 74"
+                }
+              ]
+            },
+            {
+              "text": "James Gibson was joined as a Part 20 defendant on 26 November 2020, Mr Murphy seeking to recover the sums paid in settlement of his claim and exemplary damages. On 27 February 2021 he filed an admission of a debt of £5,916. Allan Gibson, on behalf of his son, sent a cheque for that amount, which was cashed on 30 March 2021. Judgment was entered against James Gibson for £5,916, together with costs to be assessed if not agreed, at a case management conference on 5 October 2021. The judgment does not break down how the £5,916 was composed.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 70–72"
+                }
+              ]
+            },
+            {
+              "text": "The contempt application was issued on 8 March 2023, notionally by Mr Murphy. The judge found it “reasonably clear” that Skyfire was behind it. Permission to apply for a committal order was granted on 7 June 2023 by His Honour Judge Sephton KC, sitting as a judge of the King’s Bench Division, under CPR 81.3(5). The application was heard on 22 February and 4 April 2024.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 1–3, 75; header"
+                },
+                {
+                  "id": "cpr81-3",
+                  "locator": "r 81.3(5), (8)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-firm",
+          "title": "The firm later went into creditors’ voluntary liquidation",
+          "kind": "Public company and Gazette records",
+          "paragraphs": [
+            {
+              "text": "The Rose Partnership Solicitors LLP (company number OC363340) remains on the Companies House register with the status “Liquidation.” The London Gazette of 14 March 2024 records that the members passed a special resolution that the company be wound up voluntarily, and that the requisite voting majority was received on 5 March 2024, between the two hearings of the contempt application. The notice is given in the name of Darrell Robinson, described there as director, and records the appointment of joint liquidators that day.",
+              "sources": [
+                {
+                  "id": "companies-house"
+                },
+                {
+                  "id": "london-gazette",
+                  "locator": "notice 4578167, 14 March 2024"
+                }
+              ]
+            },
+            {
+              "text": "This is a creditors’ voluntary liquidation, an insolvency process. It is not, on the face of the notices we have seen, an SRA intervention or a disciplinary finding. Those notices do not state a connection with the contempt proceedings, and we do not infer one.",
+              "sources": [
+                {
+                  "id": "companies-house"
+                },
+                {
+                  "id": "london-gazette"
+                },
+                {
+                  "id": "sra-check"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "intro": "Dates below are as recorded in the judgment, except the firm’s winding-up, which comes from the London Gazette and Companies House.",
+      "entries": [
+        {
+          "id": "chronology",
+          "title": "From the accident to the judgment",
+          "kind": "High Court judgment and official company records",
+          "paragraphs": [
+            {
+              "text": "The sequence matters, especially the gap between the insurer obtaining the footage and disclosing it, and the point at which intoxication was first raised.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 22–75, 147"
+                },
+                {
+                  "id": "london-gazette"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Key dates as recorded in the judgment and, for the winding-up, in official notices",
+            "columns": [
+              "Date",
+              "Event"
+            ],
+            "rows": [
+              [
+                "16 November 2019",
+                "Accident on the journey from Great Langdale to Ambleside. James Gibson was not in the taxi."
+              ],
+              [
+                "9 January 2020",
+                "Dr Ballin examines James Gibson and produces a medical report."
+              ],
+              [
+                "13 February 2020",
+                "Dr Ballin examines Mr Robinson and produces a medical report."
+              ],
+              [
+                "18 February 2020",
+                "Mr Robinson signs the Stage 2 settlement pack for James Gibson (first statement of truth)."
+              ],
+              [
+                "17 March 2020",
+                "Mr Robinson receives a £3,200 interim payment on his own claim."
+              ],
+              [
+                "2 April 2020",
+                "The insurer obtains the dashcam footage."
+              ],
+              [
+                "6 May 2020",
+                "The footage is sent to Keoghs."
+              ],
+              [
+                "5 June 2020",
+                "Keoghs queries the number of occupants."
+              ],
+              [
+                "13 July 2020",
+                "Mr Robinson verifies the Part 18 response naming seven occupants (second statement of truth)."
+              ],
+              [
+                "20 August 2020",
+                "The footage is disclosed to Mr Robinson’s firm. Intoxication is first raised."
+              ],
+              [
+                "7 October 2020",
+                "Reply and Defence to Counterclaim pleads extreme intoxication."
+              ],
+              [
+                "May 2022",
+                "Mr Robinson discontinues his own claim; repayment and a counterclaim judgment follow."
+              ],
+              [
+                "8 March 2023",
+                "The contempt application is issued."
+              ],
+              [
+                "2 June 2023",
+                "The insurer concedes that the footage was obtained on 2 April 2020."
+              ],
+              [
+                "7 June 2023",
+                "HHJ Sephton KC grants permission to bring the committal application."
+              ],
+              [
+                "26 June 2023",
+                "James Gibson’s affidavit admitting the false claim."
+              ],
+              [
+                "5 March 2024",
+                "Members resolve to wind up The Rose Partnership Solicitors LLP voluntarily (Gazette and Companies House, not the judgment)."
+              ],
+              [
+                "22 February and 4 April 2024",
+                "Hearings of the committal application."
+              ],
+              [
+                "12 April 2024",
+                "Judgment handed down: application dismissed."
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "legal-test",
+      "title": "The legal test",
+      "intro": "Contempt for a false statement of truth is a criminal-standard allegation with a knowledge requirement. Recklessness is not enough.",
+      "entries": [
+        {
+          "id": "cpr-test",
+          "title": "CPR 32.14 and the general law of contempt",
+          "kind": "Civil Procedure Rules and High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The procedural basis for the application was CPR 32.14, which provides that proceedings for contempt of court may be brought against a person who “makes or causes to be made a false statement in a document, prepared in anticipation of or during proceedings and verified by a statement of truth, without an honest belief in its truth.”",
+              "sources": [
+                {
+                  "id": "cpr32"
+                },
+                {
+                  "id": "cpr32-leg"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "para 76"
+                }
+              ]
+            },
+            {
+              "text": "The judge noted that CPR 32.14 does not create a new form of contempt. It draws attention to a wider principle: it is a contempt to engage in conduct which interferes with the due administration of justice. So Mr Murphy also had to prove, to the criminal standard, that the statements would have been likely to interfere with the course of justice in some material respect, and that Mr Robinson knew of that likelihood when he made them. Those further elements were not in issue if knowledge of falsity were proved.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 16, 77"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "norman-knowledge",
+          "title": "After Norman v Adler, recklessness is not enough",
+          "kind": "Court of Appeal judgment",
+          "paragraphs": [
+            {
+              "text": "In Norman v Adler [2023] EWCA Civ 785, [2023] 1 WLR 4232, Thirlwall LJ, giving the judgment of the Court of Appeal, approved earlier authority that, for this form of contempt, it must be shown that the individual “knew that what he was saying was false and that his false statement was likely to interfere with the course of justice.”",
+              "sources": [
+                {
+                  "id": "norman",
+                  "locator": "para 37"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "para 78"
+                }
+              ]
+            },
+            {
+              "text": "On the alternative of not caring whether a statement was true, she said:",
+              "sources": [
+                {
+                  "id": "norman",
+                  "locator": "para 61"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "para 15"
+                }
+              ]
+            },
+            {
+              "text": "“It is not sufficient to say that the contemnor did not care whether what he said was true or false. It must first be proved to the requisite standard that he knew that he did not know whether what he said was true or not.”",
+              "sources": [
+                {
+                  "id": "norman",
+                  "locator": "para 61"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "para 15"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "That is a knowledge requirement. A person who signs without caring may still be open to professional regulation; after Norman, that state of mind is not enough, without more, for this species of contempt. In Robinson v Murphy the reckless alternative was dropped, and the court did not test it.",
+              "sources": [
+                {
+                  "id": "norman",
+                  "locator": "para 61"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "para 15"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "criminal-standard",
+          "title": "The criminal standard, and when an inference is allowed",
+          "kind": "High Court and Court of Appeal judgments",
+          "paragraphs": [
+            {
+              "text": "Allegations in contempt proceedings must be proved to the criminal standard: beyond reasonable doubt, or so that the judge is sure. The burden remained on Mr Murphy throughout. The judge cited JSC BTA Bank v Ablyazov for that proposition.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 79"
+                },
+                {
+                  "id": "ablyazov"
+                }
+              ]
+            },
+            {
+              "text": "Mr Murphy’s case on knowledge was inferential. The judge directed himself that circumstantial evidence can be relied on, but must be scrutinised with care; that if more than one inference can reasonably be drawn, and one is incompatible with contempt, the case must fail; and that if the respondent’s explanation is or may be true, the application must fail. He also applied the Court of Appeal’s recent endorsement of the proposition that a court may not infer an essential element unless the inference is one that no reasonable person would fail to draw. In Navigator Equities Ltd v Deripaska [2024] EWCA Civ 268, at [47], Males LJ endorsed a first-instance self-direction to that effect, citing Masri. The Robinson judgment cites this as “Navigator Equites Ltd v Deripaska (No. 2) [2024] EWCA Civ 265”; [2024] EWCA Civ 265 is a different case, and the official name of the Deripaska appeal is Navigator Equities.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 82–84"
+                },
+                {
+                  "id": "ablyazov"
+                },
+                {
+                  "id": "navigator",
+                  "locator": "para 47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "which-court",
+          "title": "Why this is an EWHC (KB) judgment of a county court claim",
+          "kind": "Civil Procedure Rules and High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The heading of the judgment says “IN THE COUNTY COURT AT MANCHESTER” and also that HHJ Cawson KC was “SITTING AS A JUDGE OF THE KING’S BENCH DIVISION OF THE HIGH COURT (For the purposes of CPR 81.3(8)).” That is not a contradiction. The underlying claim was a county court action. Where permission is required to bring a contempt application relating to county court proceedings — as it is for an allegation of knowingly making a false statement verified by a statement of truth — CPR 81.3(8) provides that permission, and then the application itself, are determined by a judge of the King’s Bench Division. The neutral citation is therefore [2024] EWHC 798 (KB).",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "header; para 3"
+                },
+                {
+                  "id": "cpr81"
+                },
+                {
+                  "id": "cpr81-3",
+                  "locator": "r 81.3(5)(b), (8)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parties",
+      "title": "The parties’ cases",
+      "intro": "Contempt had to be proved by Mr Murphy. Mr Robinson’s case was that he believed the statements to be true. Both positions are taken from the judgment.",
+      "entries": [
+        {
+          "id": "murphys-case",
+          "title": "Mr Murphy’s case",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "Christopher Kennedy KC, instructed by Keoghs LLP, appeared for Mr Murphy and, in substance, for Skyfire. The case was that Mr Robinson, a legal executive since the 1990s and part-owner of a personal injury practice, knew the importance of a statement of truth; that Allan Gibson was a friend of long standing to whom he would probably have turned if an issue had arisen on the night; and that the weight of the evidence did not permit the conclusion that he had an honest belief James Gibson was in the taxi, “even applying the criminal standard of proof, on the basis that there is too much to explain that is either improbable or beyond improbable.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 2, 103–105"
+                }
+              ]
+            },
+            {
+              "text": "Among the points pressed were these: that Mr Robinson did not contact the other claimants when First Central raised the spectre of a phantom passenger; that, when occupancy was later queried, he asked Mr Froggatt about the middle row but not Allan or James Gibson; that the first suggestion he had checked James Gibson’s medical report for a seating position came in his 2023 affidavit; that intoxication appeared only after the footage was disclosed; and that the Reply’s reference to relying on “other passengers” to confirm positions was misleading when he had only messaged Mr Froggatt. Counsel submitted that the only credible explanation for not asking his friends, once occupancy was challenged, was that Mr Robinson knew what the answers would be.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 106, 131, 136, 140"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "robinsons-case",
+          "title": "Mr Robinson’s case",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "David Boyle, instructed by Harvey Roberts, appeared for Mr Robinson. His case, in short, was that at all relevant times he believed James Gibson had been in the taxi, and that he therefore made the statements in the honest belief that they were true. That belief, he said, was reconstructed after a boozy night out, with the assistance of photographs showing James Gibson in Ambleside shortly after the accident, and of James Gibson coming forward to make a claim, in circumstances in which Mr Robinson could not specifically recall him being in the taxi but had no reason to doubt that he had been.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 17, 108"
+                }
+              ]
+            },
+            {
+              "text": "He said these were his friends, and he had no reason not to trust them until the footage emerged. When it did, Mrs Cobham described him as genuinely in disbelief, and he promptly made an irate call to James Gibson — a call which, Mr Boyle submitted, was consistent only with Mr Robinson having believed until then that the claim was genuine. James Gibson’s own affidavit described a “very irate” call in which Mr Robinson was “very angry and told me that I would have to repay the money quickly and that he could no longer act for me.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 67–68, 109, 141"
+                }
+              ]
+            },
+            {
+              "text": "In closing, Mr Boyle posed the question, “How does it feel to be wrong?” The judge understood the point to be that, once someone becomes convinced of a state of affairs, it is difficult to accept that one is wrong, and that the exchanges with First Central and Keoghs until the footage emerged should be read in that light.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 110"
+                }
+              ]
+            },
+            {
+              "text": "It was also Mr Boyle, not counsel for Mr Murphy, who argued that the “History” sections in Dr Ballin’s medical reports for James Gibson (9 January 2020) and Mr Robinson (13 February 2020) followed a formulaic pattern and shared much of their wording. The judge accepted that there was “a fair point” that much of the history was “standard stuff, with little particular individual detail.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 33, 36, 37, 111, 124"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "title": "How the judge decided",
+      "intro": "The judge took the application seriously. He also found that the evidence still admitted of another, reasonably credible reading.",
+      "entries": [
+        {
+          "id": "real-concern",
+          "title": "A strong prima facie case, and “real concern”",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The judge had “no doubt that this was a properly brought application, and that the Application disclosed a strong prima facie case for committal that required an explanation from Mr Robinson.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 144"
+                }
+              ]
+            },
+            {
+              "text": "Mr Kennedy’s points had, at times, “caused me to have a real concern that Mr Robinson may have been aware that the relevant statements were not true.” The judge also had concerns about the vagueness of some of Mr Robinson’s answers under cross-examination, including on the Sunday after the accident, on inconsistencies with the later intoxication account, and on the March and April 2020 correspondence. A number of those answers were “capable at least of being construed as being evasive.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 114, 142"
+                }
+              ]
+            },
+            {
+              "text": "He was nonetheless “inclined to the view that the imperfections in Mr Robinson’s evidence … are more readily explicable on the basis of a genuine inability to clearly recall events after the passage of time, and/or a subconscious reconstruction of events.” He added: “Certainly, Mr Robinson did not come across to me as an obviously evasive or dishonest witness attempting to mislead the Court.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 116"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "professional-improbability",
+          "title": "The inherent improbability of professional dishonesty",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "A starting point, the judge said, was “the inherent improbability of a professional person such as Mr Robinson, an experienced legal executive, acting dishonestly,” so that stronger or more convincing evidence may be required, particularly where the case is based on inference. There was “no suggestion that Mr Robinson has anything but an unblemished professional career, or is otherwise than of previous good character.” He considered that improbability “at least a material consideration” where Mr Robinson “had little, if anything, to gain from lending his name to a false low value claim, and a great deal to lose by doing so, including potentially losing his career and his liberty.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 85, 113"
+                }
+              ]
+            },
+            {
+              "text": "When the judge put that point to Mr Kennedy in submissions, counsel suggested it should be viewed against what might have been perceived as a limited risk, if Mr Robinson had not factored in the possibility of the insurer obtaining the dashcam footage. The judge said he took that consideration into account. The friendship with James Gibson, the judge added, “really came about through his much closer friendship with his father, Allan Gibson.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 113, 117"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reasonably-credible",
+          "title": "Alternative explanations that were at least reasonably credible",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On each of the main strands of Mr Murphy’s inferential case, the judge found that the circumstances admitted of “alternative reasonably credible explanations.” If Mr Robinson’s mindset was that all six of the party had been in the taxi, he may have seen no reason to query his friends once occupancy was challenged. The possibility that James Gibson had lied to him could not “fairly be dismissed as lacking credibility.” The later intoxication account was treated as probably exaggerated in hindsight, but not as proof of a knowing falsehood at the time of signing.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 125, 127–130, 134, 139"
+                }
+              ]
+            },
+            {
+              "text": "The judge attached rather more weight to James Gibson’s evidence than to the other absent witnesses, because of attempts made by Mr Robinson to get him to court. The irate call after the footage emerged had “a ring of truth about it” and was “only rationally explicable on the basis that Mr Robinson [had] thought that James Gibson had been in the taxi and was pursuing a genuine claim.” That evidence was “cogently supportive” of Mr Robinson’s defence, although the decision did not turn on it.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 141"
+                }
+              ]
+            },
+            {
+              "text": "He also had regard to the unreliability of memory, citing Gestmin, and to the process by which a witness may subconsciously reconstruct events and give “honestly held, but false evidence.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 86"
+                },
+                {
+                  "id": "gestmin",
+                  "locator": "paras 15–22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-dismissal",
+          "title": "Why the application failed",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The judge’s conclusion was that, although there was much force in the inferential case, the matters raised did not lead to “such an inevitable or irresistible inference that Mr Robinson knew that the relevant statements were not true” that he could be sure. More than one inference could reasonably be drawn, including that Mr Robinson did believe the statements were true, and that the explanation he provided may be true. The inference of knowledge was not “one that no reasonable person would fail to draw.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 142, 144–145"
+                }
+              ]
+            },
+            {
+              "text": "“In view of what I consider to be these reasonable doubts as to Mr Robinson’s liability for contempt, I consider myself bound to conclude that the application to commit him to prison for contempt of court has not been proved the requisite criminal standard and therefore must be dismissed.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 146"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "title": "Frameworks of truth",
+      "intro": "This site’s study Frameworks of truth asks what a signed statement actually claims, and what a court has and has not found. Robinson v Murphy is a worked example. The labels below are our analysis, not a classification used by the judge.",
+      "entries": [
+        {
+          "id": "labels-applied",
+          "title": "Signed, and later found false, is not the same as found to be a lie",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "On the five provenance labels proposed in Frameworks of truth, James Gibson’s presence in the taxi was asserted by him, then signed by Mr Robinson in two statements of truth, then supported by a medical report and a settlement payment, and later found — on footage that was not seriously in dispute — to have been false. What the High Court did not find, because the criminal standard was not met, is that Mr Robinson knew the signed statements were false. A statement can be Signed and later Found to have been untrue without a finding that the signer Knew it was untrue.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 14, 22, 38, 61, 146"
+                },
+                {
+                  "id": "editorial"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Frameworks of truth",
+                  "url": "https://independenttribunal.org/research/frameworks-of-truth/"
+                }
+              ]
+            },
+            {
+              "text": "Practice Direction 22 already distinguishes a client’s belief from a legal representative’s own belief where the representative signs on the client’s behalf. The first of the two statements here was in that representative form: “The claimant believes that the facts stated in this claim form are true.” The second was Mr Robinson’s own belief about occupancy, including seating. The contempt case treated both as statements made by him without an honest belief in their truth. The court did not have to decide a separate point about the representative form, because falsity was common ground and knowledge was the only issue.",
+              "sources": [
+                {
+                  "id": "pd22"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 13–14, 38, 61"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "The same facts also show how an unverified assertion can acquire the appearance of confirmation by repetition in professional documents: a false account to a friend became a medical history, then a settlement pack, then a verified Part 18 response. That is our description of the paper trail in the judgment, not a finding that Mr Robinson designed it that way.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 27–28, 33, 38, 60–61"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "threshold",
+          "title": "The same evidence, a different threshold",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The outcome turned on the standard of proof and on the mental element that had to be proved. The same record might be assessed differently in a forum that applies the balance of probabilities, or that asks about integrity, competence or diligence without having to prove dishonesty. Whether it would in fact be assessed differently is a question, not an answer. The High Court did not decide that question, and we do not pretend to decide it here.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 15, 79, 146"
+                },
+                {
+                  "id": "cilex-annex2"
+                },
+                {
+                  "id": "sdt-r5"
+                },
+                {
+                  "id": "wingate"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulation",
+      "title": "Professional regulation: a different forum, a different question",
+      "intro": "Dismissal of the committal application does not close the regulatory question, and it does not open a finding of misconduct either. Both directions need to be stated.",
+      "entries": [
+        {
+          "id": "different-forum",
+          "title": "Honesty, integrity and a lower standard of proof",
+          "kind": "Professional rules and our analysis",
+          "paragraphs": [
+            {
+              "text": "The CILEx Code of Conduct requires members, among other things, not to “knowingly or recklessly allow the court to be misled” (provision 1.2), to “be honest in all your dealings” (3.1), and not to “intentionally mislead anyone you deal with” (3.2). Those duties are not limited to what can be proved beyond reasonable doubt in committal proceedings. Recklessness, which was legally excluded from this contempt application after Norman v Adler, is expressly within provision 1.2.",
+              "sources": [
+                {
+                  "id": "cilex-code",
+                  "locator": "provisions 1.2, 3.1, 3.2"
+                },
+                {
+                  "id": "norman",
+                  "locator": "para 61"
+                }
+              ]
+            },
+            {
+              "text": "CILEx Regulation’s sanctions guidance, Annex 2 to its Enforcement Handbook, states that the Disciplinary Tribunal “decides on the balance of probabilities, whether the charges have been proved.” That is the civil standard. The same document describes the Professional Conduct Panel as deciding whether a case to answer can be established; it does not, in the passage we have, state a standard of proof for the Panel in the same express terms, and we do not attribute one to it beyond what the guidance says.",
+              "sources": [
+                {
+                  "id": "cilex-annex2",
+                  "locator": "paras 12, 15"
+                }
+              ]
+            },
+            {
+              "text": "If a matter concerning an SRA-regulated body were before the Solicitors Disciplinary Tribunal, rule 5 of the Solicitors (Disciplinary Proceedings) Rules 2019 provides that “the civil standard of proof” must be applied. In Wingate v SRA the Court of Appeal said that integrity is a broader concept than honesty, connoting adherence to the ethical standards of one’s own profession. A professional can lack integrity without being dishonest. Whether any of that would be made out on these facts is not a question this page answers.",
+              "sources": [
+                {
+                  "id": "sdt-r5"
+                },
+                {
+                  "id": "wingate"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "no-published-decision",
+          "title": "No published regulatory decision found",
+          "kind": "Official registers and the limits of this review",
+          "paragraphs": [
+            {
+              "text": "On 25 November 2026 we searched CILEx Regulation’s published disciplinary records and did not find Mr Robinson listed. We also found no published Solicitors Regulation Authority decision, on the SRA’s public check-a-record pages as they then stood, about Mr Robinson or The Rose Partnership Solicitors LLP in connection with this case. Those registers are incomplete by design: not every investigation is published, publication can expire, and the CILEx directory of decisions does not include people who are no longer Chartered Legal Executives. Absence from a public list is not proof that no investigation was opened, and it is not proof that one was.",
+              "sources": [
+                {
+                  "id": "cilex-records"
+                },
+                {
+                  "id": "sra-check"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "open-questions",
+          "title": "Questions the judgment leaves standing",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The judgment is a decision about one allegation, in one forum, to one standard. It still leaves questions that are fair to ask and that we cannot answer from the public record: once an insurer queries occupancy, what verification should a specialist personal injury practitioner carry out before verifying a further statement of truth? When does inadequate verification become a professional-conduct issue even if knowledge is not proved? Should a presumption that professionals are unlikely to be dishonest apply with the same force where the professional is also a claimant, a witness, head of the firm acting for the others, and a friend of people who provided work to that firm? After Norman v Adler, is professional regulation the only realistic remaining sanction for a reckless statement of truth by a lawyer? Would this false claim have been discovered at all without the footage?",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 19, 29, 52, 61, 113"
+                },
+                {
+                  "id": "norman",
+                  "locator": "para 61"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            },
+            {
+              "text": "Those are research questions. They are not accusations, and they are not a finding that Mr Robinson was reckless or lacking in integrity. The court did not decide those points, and neither do we.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 15, 146"
+                },
+                {
+                  "id": "editorial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "related-authorities",
+      "title": "Related authorities",
+      "intro": "The judgment sits in a short line of cases about knowledge, memory and what a court may infer. A later disciplinary case, on very different facts, is included only as a contrast.",
+      "entries": [
+        {
+          "id": "authorities",
+          "title": "The cases the judge applied",
+          "kind": "High Court and Court of Appeal judgments",
+          "paragraphs": [
+            {
+              "text": "Norman v Adler is the leading recent authority on the mental element: knowledge of falsity, not mere recklessness, and a warning that the mental element may be difficult to prove to the criminal standard without an admission or compelling documentation. JSC BTA Bank v Ablyazov supplies the criminal standard and the approach to circumstantial inference. Gestmin is cited for the unreliability of memory and the risk of honest but reconstructed evidence. Those were the authorities the judge actually used.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 15, 78–80, 86"
+                },
+                {
+                  "id": "norman",
+                  "locator": "paras 37, 61, 63"
+                },
+                {
+                  "id": "ablyazov"
+                },
+                {
+                  "id": "gestmin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "smith-contrast",
+          "title": "A contrast, not a parallel: Smith",
+          "kind": "Our analysis — not a like-for-like comparison",
+          "paragraphs": [
+            {
+              "text": "In Bar Standards Board v Emma Elizabeth Smith, a barrister who misled the Family Court, reported herself two hours later and admitted dishonesty was disbarred. The facts are not the same as Robinson v Murphy: there, dishonesty was admitted; here, knowledge was the issue and was not proved. The contrast is useful only for this limited point, which is developed in Frameworks of truth: when a court or a regulator does find that a lawyer knowingly misled a court, the professional consequences can be severe, and a later frank account does not by itself determine the outcome. It is not a template to be laid over Mr Robinson’s case.",
+              "sources": [
+                {
+                  "id": "bsb-smith"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 14, 146"
+                },
+                {
+                  "id": "editorial"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Frameworks of truth",
+                  "url": "https://independenttribunal.org/research/frameworks-of-truth/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Method and limits",
+      "intro": "How this page was built, and what it does not claim.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "Research method",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The judgment was read in full from the official text on the National Archives (Find Case Law), including the XML and the official PDF. Quotations are copied from that text, including its spelling and the wording of paragraph 146, which omits the word “to” before “the requisite criminal standard.” Norman v Adler, Ablyazov, Gestmin, Navigator Equities Ltd v Deripaska and Wingate were read from the same service. The Civil Procedure Rules and Practice Direction 22 were read from justice.gov.uk and, for CPR 32.14, 81.3 and the Solicitors (Disciplinary Proceedings) Rules 2019, rule 5, from legislation.gov.uk. The CILEx Code of Conduct and CILEx Regulation sanctions guidance were read from the PDFs published by CILEx Regulation. The Law Gazette report of 15 April 2024 was used only as secondary reporting, and not as a substitute for the judgment. Companies House and the London Gazette were used only for the firm’s later insolvency status.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Coverage limits",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "This page is about a real contempt application involving named people. Mr Robinson was not found to have been in contempt, and we do not say that he lied. James Gibson’s admission of a false claim is taken from the judgment. We have not seen the underlying claim files, the footage, or any regulatory file. We have not found a published decision on the costs of the contempt application or on any appeal, and we have not found a published CILEx Regulation or SRA decision about Mr Robinson or the firm. The firm’s creditors’ voluntary liquidation is a matter of public record; we do not treat it as a finding about these proceedings. Medical-report wording, seating positions and the 16 versus 19 November date discrepancy are reported as the judgment records them. Analytical labels, research questions and the comparison with the Smith disciplinary case are our commentary, not judicial findings.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "judgment",
+      "title": "Robinson v Murphy [2024] EWHC 798 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2024/798",
+      "checked": "2026-11-25",
+      "date": "2024-04-12"
+    },
+    {
+      "id": "norman",
+      "title": "Norman v Adler [2023] EWCA Civ 785, [2023] 1 WLR 4232",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/785",
+      "checked": "2026-11-25",
+      "date": "2023-07-07"
+    },
+    {
+      "id": "cpr32",
+      "title": "Civil Procedure Rules, rule 32.14: false statements",
+      "publisher": "justice.gov.uk",
+      "type": "Procedure rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part32#32.14",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cpr32-leg",
+      "title": "Civil Procedure Rules, rule 32.14 (legislation.gov.uk)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1998/3132/rule/32.14",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cpr81",
+      "title": "Civil Procedure Rules, Part 81: applications and proceedings in relation to contempt of court",
+      "publisher": "justice.gov.uk",
+      "type": "Procedure rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-81-applications-and-proceedings-in-relation-to-contempt-of-court",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cpr81-3",
+      "title": "Civil Procedure Rules, rule 81.3: how to make a contempt application",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1998/3132/rule/81.3",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "pd22",
+      "title": "Practice Direction 22: statements of truth",
+      "publisher": "justice.gov.uk",
+      "type": "Practice direction",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part22/pd_part22",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ablyazov",
+      "title": "JSC BTA Bank v Ablyazov (No. 8) [2012] EWCA Civ 1411, [2013] 1 WLR 1331",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/1411",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "gestmin",
+      "title": "Gestmin SGPS SA v Credit Suisse (UK) Ltd [2013] EWHC 3560 (Comm)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2013/3560",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "navigator",
+      "title": "Navigator Equities Ltd v Deripaska [2024] EWCA Civ 268",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/268",
+      "checked": "2026-11-25",
+      "date": "2024-03-20"
+    },
+    {
+      "id": "gazette",
+      "title": "Legal executive cleared of contempt in High Court after boozy night in Lake District led to false whiplash claim",
+      "publisher": "Law Gazette",
+      "type": "News report",
+      "url": "https://www.lawgazette.co.uk/news/lawyer-cleared-of-contempt-after-boozy-night-led-to-false-pi-claim/5119373.article",
+      "checked": "2026-11-25",
+      "date": "2024-04-15"
+    },
+    {
+      "id": "cilex-code",
+      "title": "CILEx Code of Conduct",
+      "publisher": "CILEx Regulation",
+      "type": "Professional rules",
+      "url": "https://cilexregulation.org.uk/wp-content/uploads/2021/02/Code-of-Conduct-2015.pdf",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cilex-annex2",
+      "title": "CILEx Regulation sanctions guidance (Enforcement Handbook Annex 2)",
+      "publisher": "CILEx Regulation",
+      "type": "Official guidance",
+      "url": "https://cilexregulation.org.uk/wp-content/uploads/2018/12/Enforcement-Handbook-Annex-2.pdf",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cilex-records",
+      "title": "Disciplinary records of CILEx members, practitioners and authorised entities",
+      "publisher": "CILEx Regulation",
+      "type": "Official register",
+      "url": "https://cilexregulation.org.uk/disciplinary-records/",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "sdt-r5",
+      "title": "The Solicitors (Disciplinary Proceedings) Rules 2019, rule 5: standard of proof",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/2019/1185/article/5",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "sra-check",
+      "title": "Check a solicitor’s record",
+      "publisher": "Solicitors Regulation Authority",
+      "type": "Official register",
+      "url": "https://www.sra.org.uk/consumers/solicitor-check/",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "wingate",
+      "title": "Wingate v Solicitors Regulation Authority [2018] EWCA Civ 366",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/366",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "companies-house",
+      "title": "THE ROSE PARTNERSHIP SOLICITORS LLP (OC363340), company overview",
+      "publisher": "Companies House",
+      "type": "Official company record",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/OC363340",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "london-gazette",
+      "title": "THE ROSE PARTNERSHIP SOLICITORS LLP: resolutions for winding-up, notice 4578167",
+      "publisher": "The London Gazette",
+      "type": "Official notice",
+      "url": "https://www.thegazette.co.uk/notice/4578167",
+      "checked": "2026-11-25",
+      "date": "2024-03-14"
+    },
+    {
+      "id": "bsb-smith",
+      "title": "Barrister Emma Elizabeth Smith ordered to be disbarred",
+      "publisher": "Bar Standards Board",
+      "type": "Regulator announcement",
+      "url": "https://www.barstandardsboard.org.uk/resources/barrister-emma-elizabeth-smith-ordered-to-be-disbarred.html",
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "editorial",
+      "title": "Independent Tribunal editorial commentary",
+      "publisher": "Independent Tribunal",
+      "type": "Editorial",
+      "url": "https://independenttribunal.org/research/robinson-v-murphy/",
+      "checked": "2026-11-25"
+    }
+  ]
+}

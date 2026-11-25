@@ -5,7 +5,7 @@
   "subtitle": "She reported herself two hours later. Her frankness was commended. The outcome was disbarment.",
   "summary": "A disciplinary case, an argument about incentives, a proposal to distinguish what is asserted, signed, supported, checked and found, and the wider legal framework of knowledge, silence and dishonesty that surrounds them.",
   "scope": "England and Wales · Case 2024/1532/D5. The misconduct was knowingly misleading the court, not the later confession. Findings, commentary, satire and proposed reforms are identified separately.",
-  "status_note": "The report records an order for disbarment on 8 April 2026, and the regulator’s announcement described the findings as subject to appeal. On 24 October 2026 the regulator’s register listed her status as Disbarred and the finding as Final, although its sanction line still read “sentence still to take effect … pending any appeal”. We have not found a published appeal decision. The family’s identities are not investigated here. The section “Implication, silence and legal games” was added on 31 October 2026; its legislation, the Ivey judgment and the Bar Standards Board Handbook (version 5.0) were checked that day. The Spice Girls decision is described from published reports because we could not open the judgment text.",
+  "status_note": "The report records an order for disbarment on 8 April 2026, and the regulator’s announcement described the findings as subject to appeal. On 24 October 2026 the regulator’s register listed her status as Disbarred and the finding as Final, although its sanction line still read “sentence still to take effect … pending any appeal”. We have not found a published appeal decision. The family’s identities are not investigated here. The section “Implication, silence and legal games” was added on 31 October 2026; its legislation, the Ivey judgment and the Bar Standards Board Handbook (version 5.0) were checked that day. The Spice Girls decision is described from published reports because we could not open the judgment text. A cross-reference to Robinson v Murphy [2024] EWHC 798 (KB) was added on 25 November 2026, after the judgment was read from the National Archives.",
   "jurisdiction": "England and Wales",
   "checked": "2026-11-05",
   "tags": [
@@ -18,6 +18,10 @@
   ],
   "featured_source": "tribunal",
   "related": [
+    {
+      "id": "robinson-v-murphy",
+      "title": "False statement of truth, not a lie: Robinson v Murphy"
+    },
     {
       "id": "defences-withdrawn-from-jury",
       "title": "Defences removed by the judge, not considered by the jury"
@@ -789,6 +793,44 @@
                 {
                   "id": "pd22",
                   "locator": "context for our reform analysis—not endorsement of the proposed labels"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "robinson-v-murphy",
+          "title": "A signed falsehood can still fail as a lie: Robinson v Murphy",
+          "kind": "High Court judgment and our analysis",
+          "paragraphs": [
+            {
+              "text": "In Robinson v Murphy [2024] EWHC 798 (KB), His Honour Judge Cawson KC dismissed a committal application against a legal executive who had verified two statements of truth asserting that a friend of the group, James Gibson, had been in a taxi. Dashcam footage showed that he had not been. Objective falsity was not disputed. The only issue was whether the signer knew the statements were untrue. The judge said the evidence caused him “real concern” and disclosed a strong prima facie case, but held that knowledge was not proved to the criminal standard.",
+              "sources": [
+                {
+                  "id": "robinson-murphy",
+                  "locator": "paras 14, 142–146"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Robinson v Murphy",
+                  "url": "https://independenttribunal.org/research/robinson-v-murphy/"
+                }
+              ]
+            },
+            {
+              "text": "The case is a worked example of the distinction this page draws. A statement can be signed, and later found to have been false, without a finding that the signer knew it was false. Recklessness was not pursued, following Norman v Adler: not caring whether a statement is true is not enough for this form of contempt. The dismissal is not a finding that professional standards were met, and it is not a finding about recklessness or carelessness.",
+              "sources": [
+                {
+                  "id": "robinson-murphy",
+                  "locator": "para 15"
+                },
+                {
+                  "id": "cpr32",
+                  "locator": "r 32.14"
+                },
+                {
+                  "id": "pd22"
                 }
               ]
             }
@@ -1970,6 +2012,15 @@
       "type": "Our research",
       "url": "https://independenttribunal.org/research/who-speaks-at-the-world-court/",
       "checked": "2026-11-05"
+    },
+    {
+      "id": "robinson-murphy",
+      "title": "Robinson v Murphy [2024] EWHC 798 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2024/798",
+      "checked": "2026-11-25",
+      "date": "2024-04-12"
     }
   ]
 }
