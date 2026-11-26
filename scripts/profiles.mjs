@@ -12,6 +12,8 @@ export function validateProfile(p, fail) {
   if (p.reader_notice !== undefined && (typeof p.reader_notice !== "string" || !p.reader_notice.trim())) fail("reader notice must be nonempty text");
   if (p.category && p.category !== "legal-study") fail("unknown profile category");
   if (p.pinned !== undefined && p.pinned !== true) fail("pinned must be true when set");
+  if (p.archived !== undefined && p.archived !== true) fail("archived must be true when set");
+  if (p.archived && p.pinned) fail("a profile cannot be both pinned and archived");
   if (p.artworks !== undefined && !Array.isArray(p.artworks)) fail("artworks must be an array");
   for (const image of [p.evidence_image, ...(p.artworks ?? [])].filter(Boolean)) {
     if (!/^\/images\/[a-z0-9-]+\.(png|jpg|webp)$/.test(image.src) || !image.alt?.trim() || !image.caption?.trim()) fail("evidence image requires a local image path, alt text and caption");
@@ -123,7 +125,7 @@ export function profileText(p) {
   const sources = new Map(p.sources.map((s) => [s.id, s]));
   return [
     ...(p.reader_notice ? [`Reader notice: ${p.reader_notice}`] : []),
-    `## ${p.title} — ${p.subtitle}\nURL: ${p.url}\nSource review: ${p.checked}\n${p.scope}\n${p.status_note}`,
+    `## ${p.title} — ${p.subtitle}\nURL: ${p.url}\nSource review: ${p.checked}${p.archived ? "\nArchived: not listed on the homepage. Listed at /research/archive/." : ""}\n${p.scope}\n${p.status_note}`,
     ...(p.evidence_image ? [`Image: ${p.evidence_image.src}\n${p.evidence_image.alt}\n${p.evidence_image.caption}`] : []),
     ...(p.artworks ?? []).map((image) => `Artwork after ${image.after_entry || image.after_section}: ${image.src}\n${image.alt}\n${image.caption}\n${image.content_warning ? `Content warning: ${image.content_warning}\n` : ""}Text equivalent: ${image.transcript}`),
     ...p.highlights.map((h) => `${h.label}: ${h.value}. ${h.detail}.`),
@@ -217,6 +219,8 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
       body: `<style>
         .profile-reader-notice { margin:0 0 1.5rem; padding:1rem 1.2rem; border:1px solid var(--gold); background:#eee8da; font:14px/1.7 ui-sans-serif,system-ui,sans-serif; }
         .profile-reader-notice p { margin:0; }
+        .profile-archived { margin:0 0 1.2rem; padding:1rem 1.2rem; border-left:3px solid var(--gold); background:#eee8da; }
+        .profile-archived p { margin:0; }
         .profile-hero { border-top:4px solid var(--navy); padding-top:1.6rem; }
         .profile-evidence { margin:1.5rem 0; }
         .profile-evidence img { display:block; width:100%; height:auto; border:1px solid var(--line); }
@@ -298,6 +302,7 @@ export async function publishProfiles({ profiles, put, page, escapeHtml: e, site
         @media print { .profile-nav,.contact { display:none; } }
       </style>
       ${p.reader_notice ? `<aside class="profile-reader-notice" aria-label="Research reading notice"><p>${e(p.reader_notice)}</p></aside>` : ""}
+      ${p.archived ? `<aside class="profile-archived" role="note"><p><strong>Archived study.</strong> This page stays at this address and is listed in the <a href="/research/archive/">research archive</a>. It is not shown on the homepage.</p></aside>` : ""}
       <div class="profile-hero"><a href="/research/" class="kicker">Independent Tribunal · Research</a><h1>${e(p.title)}</h1><p class="lede">${e(p.subtitle)}</p>${p.evidence_image?.after_section ? "" : evidenceImage}<p>${e(p.summary)}</p><p class="meta">${e(p.jurisdiction)} · Sources reviewed <time datetime="${p.checked}">${e(p.checked)}</time></p></div>
       ${p.category !== "legal-study" ? '<p><a href="/people/">People &amp; public records →</a></p>' : ""}
       <aside class="profile-scope">${e(p.scope)}</aside>

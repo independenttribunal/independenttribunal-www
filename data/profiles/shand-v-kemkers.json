@@ -20,6 +20,10 @@
   "featured_source": "judgment",
   "related": [
     {
+      "id": "collateral-purpose",
+      "title": "Collateral purpose: when a proceeding is brought for the wrong reason"
+    },
+    {
       "id": "frameworks-of-truth",
       "title": "Frameworks of truth: what does the system reward?"
     },
@@ -1362,5 +1366,6 @@
       "url": "https://independenttribunal.org/research/shand-v-kemkers/",
       "checked": "2026-11-25"
     }
-  ]
+  ],
+  "archived": true
 }

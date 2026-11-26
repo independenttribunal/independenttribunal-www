@@ -1,0 +1,556 @@
+{
+  "id": "collateral-purpose",
+  "category": "legal-study",
+  "title": "Collateral purpose: when a proceeding is brought for the wrong reason",
+  "subtitle": "English courts can refuse permission, or strike a claim out, where the real aim is not the purpose for which that procedure exists. Having a second motive is not, by itself, enough.",
+  "summary": "In English civil procedure, a proceeding may be an abuse of process if it is being used for a collateral purpose: a real or dominant aim other than the purpose for which that type of proceeding exists. Contempt applications, for example, exist to protect the administration of justice in the public interest; they are not a private route to reopen a settled, discontinued or struck-out claim. That idea sits alongside, but is not the same as, the rule in Henderson v Henderson, restated in Johnson v Gore Wood & Co, that a party should not be twice vexed in the same matter and should not raise in later proceedings an issue that could and should have been raised earlier. In Shand v Kemkers [2026] EWHC 341 (KB), Mr Justice Cotter applied both ideas when refusing permission for contempt proceedings. Related labels — the “collateral use” of disclosed documents under CPR 31.22, and the narrow statutory SLAPP rules in the Economic Crime and Corporate Transparency Act 2023 — use similar words for different tests. This page is legal research, not legal advice.",
+  "scope": "England and Wales. This page is a study of the procedural doctrine of abuse of process by collateral purpose, the related rule in Henderson v Henderson as restated in Johnson v Gore Wood & Co, a 2026 High Court application in Shand v Kemkers, and two neighbouring rules that are easily confused with it. Scotland and Northern Ireland have different procedure. This is not legal advice, and it is not a finding about any person’s honesty or motive outside what a cited court actually held.",
+  "status_note": "The February and September 2026 Shand judgments were read from the official National Archives texts. Lord Bingham’s restatement in Johnson v Gore Wood & Co was checked against the quotation set out by Cotter J, which matches the official House of Lords report at [2002] 2 AC 1, 31A–F, and against the official parliamentary text of the judgment of 14 December 2000. Goldsmith v Sperrings and Broxton v McClelland are quoted as they appear in the official text of JSC BTA Bank v Ablyazov [2011] EWHC 1136 (Comm). Land Securities v Fladgate Fielder was read from the official Court of Appeal text. The Civil Procedure Rules and sections 194–195 of the Economic Crime and Corporate Transparency Act 2023 were checked on legislation.gov.uk on 26 November 2026. Analytical labels and the comparison of neighbouring doctrines are our commentary, not findings of any court.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-26",
+  "tags": [
+    "uk",
+    "abuse-of-process",
+    "contempt",
+    "civil-procedure",
+    "honesty",
+    "evidence"
+  ],
+  "featured_source": "judgment",
+  "related": [
+    {
+      "id": "shand-v-kemkers",
+      "title": "A lawyer is not an investigator of the client’s case: Shand v Kemkers"
+    },
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth: what does the system reward?"
+    },
+    {
+      "id": "robinson-v-murphy",
+      "title": "False statement of truth, not a lie: Robinson v Murphy"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The phrase",
+      "value": "The wrong purpose",
+      "detail": "A proceeding is vulnerable if its real aim is not the purpose for which that procedure exists",
+      "target": "what-it-means"
+    },
+    {
+      "label": "A neighbouring rule",
+      "value": "Not the same as Henderson",
+      "detail": "Finality, and not being twice vexed, is a related but distinct ground of abuse",
+      "target": "two-ideas"
+    },
+    {
+      "label": "A 2026 example",
+      "value": "Shand v Kemkers",
+      "detail": "Permission for contempt was refused, in part, for an improper collateral purpose",
+      "target": "shand-example"
+    },
+    {
+      "label": "Similar words, different tests",
+      "value": "Not every “collateral” rule is this one",
+      "detail": "Collateral use of disclosure, and the statutory SLAPP rules, are different",
+      "target": "neighbouring-rules"
+    }
+  ],
+  "sections": [
+    {
+      "id": "holding",
+      "title": "What “collateral purpose” means",
+      "intro": "A short account of the idea, before the authorities and a 2026 example.",
+      "entries": [
+        {
+          "id": "what-it-means",
+          "title": "A proceeding used for a purpose it was not designed to serve",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "In English civil procedure, a proceeding is said to have a collateral purpose when its real or dominant aim is something other than the purpose for which that type of proceeding exists. The court is not confined to the label the applicant puts on the application. It looks at the relief sought, the timing, the history, and the practical effect.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "ablyazov",
+                  "locator": "paras 9–16"
+                }
+              ]
+            },
+            {
+              "text": "Classic illustrations, which are examples of the idea rather than a closed statutory list, include using contempt proceedings mainly to reopen a claim that has already been settled, discontinued or struck out; starting a second set of proceedings primarily to generate findings, documents or pressure for use somewhere else; and using the threat of one process as leverage in another, rather than to obtain the relief that process is designed to provide.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 172, 233"
+                }
+              ]
+            },
+            {
+              "text": "Proceedings to commit a person for what is usually characterised as “criminal” contempt are, as Cotter J put it in Shand v Kemkers, “public law proceedings which are pursued in the public interest, not in the interests of a private litigant.” Their purpose is to protect the administration of justice. They are not a private tool for gathering evidence, putting pressure on the other side, or taking a second chance at issues already decided.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "not-every-second-motive",
+          "title": "A second motive is not automatically an abuse",
+          "kind": "High Court and Court of Appeal authority",
+          "paragraphs": [
+            {
+              "text": "It does not follow that every proceeding with more than one motive is improper. The authorities on staying an ordinary claim for a collateral purpose, as collected by Teare J in JSC BTA Bank v Ablyazov, treat a purpose as illegitimate where the litigant is reaching for an object “not within the scope of the process,” or for an advantage “unrelated to the subject matter of the litigation.” An advantage that is reasonably related to redress for the grievance is not condemned merely because the court could not itself have ordered it. A claimant who has a genuine claim is not ordinarily debarred merely because success would also have some further consequence.",
+              "sources": [
+                {
+                  "id": "ablyazov",
+                  "locator": "paras 9–16"
+                }
+              ]
+            },
+            {
+              "text": "Those cases also show that the precise test for mixed purposes has been expressed in more than one way. One line of reasoning asks whether the improper purpose is the predominant one; another, which Teare J preferred in Ablyazov, is that if one of the purposes is legitimate the claimant should ordinarily be allowed to proceed. The question is fact-sensitive. In a contempt permission application, the court has additional tools: the public-interest filter, the requirement of a strong prima facie case, and the power to refuse permission or strike the application out.",
+              "sources": [
+                {
+                  "id": "ablyazov",
+                  "locator": "paras 13–16"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 93–96, 233"
+                },
+                {
+                  "id": "cpr81"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-ideas",
+      "title": "Collateral purpose and the rule in Henderson v Henderson",
+      "intro": "Two related grounds of abuse, often found together, but not the same test.",
+      "entries": [
+        {
+          "id": "henderson-johnson",
+          "title": "Finality, and not being twice vexed",
+          "kind": "House of Lords authority as applied in later cases",
+          "paragraphs": [
+            {
+              "text": "A neighbouring, and better-known, ground of abuse is the principle associated with Henderson v Henderson (1843) 3 Hare 100, restated by the House of Lords in Johnson v Gore Wood & Co [2002] 2 AC 1. That principle is about finality: a party should not be required to meet, in later proceedings, a claim or defence that could and should have been raised earlier. Cotter J, applying it in 2026, quoted Lord Bingham, with whom three other members of the House agreed, as follows.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 173"
+                },
+                {
+                  "id": "johnson",
+                  "locator": "[2002] 2 AC 1, 31A–F"
+                }
+              ]
+            },
+            {
+              "text": "“But Henderson v Henderson abuse of process, as now understood, although separate and distinct from cause of action estoppel and issue estoppel, has much in common with them. The underlying public interest is the same: that there should be finality in litigation and that a party should not be twice vexed in the same matter. This public interest is reinforced by the current emphasis on efficiency and economy in the conduct of litigation, in the interests of the parties and the public as a whole. The bringing of a claim or the raising of a defence in later proceedings may, without more, amount to abuse if the court is satisfied (the onus being on the party alleging abuse) that the claim or defence should have been raised in the earlier proceedings if it was to be raised at all.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 173"
+                },
+                {
+                  "id": "johnson",
+                  "locator": "[2002] 2 AC 1, 31A–F"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "Lord Bingham went on to say that it is not necessary to identify some extra element, such as a collateral attack on a previous decision or dishonesty, before abuse may be found — though those elements make the abuse more obvious. He also said that “there will rarely be a finding of abuse unless the later proceeding involves what the court regards as unjust harassment of a party.” It is “wrong to hold that because a matter could have been raised in earlier proceedings it should have been, so as to render the raising of it in later proceedings necessarily abusive.” The approach is a “broad, merits-based judgment” of all the circumstances, asking whether the party is misusing the process of the court.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "para 173"
+                },
+                {
+                  "id": "johnson",
+                  "locator": "[2002] 2 AC 1, 31A–F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-they-differ",
+          "title": "How the two ideas differ",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "Henderson abuse asks whether the later proceeding is an attempt to raise, again, something that belonged in the earlier one. Collateral purpose asks whether this proceeding is being used for an object it was not designed to achieve. The two often travel together: using contempt proceedings to relitigate a settled claim can be both a collateral use of the contempt jurisdiction and a second vexing of the same matter. They can also come apart. A first-time claim might still be an abuse if it is being used only as pressure in some other dispute; a later claim might be a Henderson abuse even if the claimant sincerely wants the relief the later claim is designed to give.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 172–176, 233"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shand-example",
+      "title": "How the idea was applied in Shand v Kemkers",
+      "intro": "A 2026 High Court example, not a restatement of every earlier case. The full study of the judgment is on a separate, archived page.",
+      "entries": [
+        {
+          "id": "contempt-permission",
+          "title": "Permission refused, in part, for an improper collateral purpose",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "In Shand v Kemkers [2026] EWHC 341 (KB), Martina Yvonne Shand, a litigant in person, sought permission to bring contempt proceedings against six people involved in long-running litigation about her flat. Mr Justice Cotter refused permission, held the applications totally without merit, and would in any event have struck the allegations out. The full account of the parties, the professional-conduct holdings and the later September 2026 judgment is on our study of that case, which remains published at its original address.",
+              "sources": [
+                {
+                  "id": "judgment"
+                }
+              ],
+              "links": [
+                {
+                  "text": "Shand v Kemkers",
+                  "url": "https://independenttribunal.org/research/shand-v-kemkers/"
+                }
+              ]
+            },
+            {
+              "text": "On the application against Peter Edward Kemkers, the judge held that he was “satisfied that the contempt application against Mr Kemkers is being brought for an improper collateral purpose.” It was “clear from the remedies sought” that Ms Shand was “seeking to relitigate elements of the previous claims brought in 2012 and 2019 and to go behind/circumvent the strike out of one claim and the discontinuance of another.” He would have refused permission, or struck the counts out, on that ground alone. He separately held that claims against Mr Kemkers arising from the 2012 proceedings should have been brought in the 2019 proceedings if they were to be brought at all — the Henderson principle — and that allowing the allegations to proceed would “offend against the principle of finality” and “amount to unjust harassment.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 172–176, 181, 188"
+                }
+              ]
+            },
+            {
+              "text": "On the application against Daniel Joseph Levy, the judge held that there was “a clear collateral purpose driving the application,” namely an attempt “for a second time” to resurrect the 2019 proceedings. That was “obvious from the relief sought (which could not be obtained in contempt proceedings) of the setting aside her notice of discontinuance in the 2019 action and setting aside the Part 36 settlement.” Contempt proceedings, he said, “are aimed at protecting the public interest in the administration of Justice not the furtherance of an underlying dispute.” He would have refused permission, or struck the allegations out, on that basis alone. The defendants’ position, recorded at the outset, was that the allegations were wholly unfounded and that the true purpose was to air grievances and relitigate.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 3, 233"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "later-claim-and-ecro",
+          "title": "The later claim and the restraint order rest on related, not identical, grounds",
+          "kind": "High Court judgment",
+          "paragraphs": [
+            {
+              "text": "The judge also struck out a linked 2025 Part 7 claim against Mishcon de Reya LLP and DWF Law LLP, and declared it totally without merit. The ground he stated for striking out the claim against Mishcon was abuse by relitigation after a Part 36 settlement and discontinuance: the settlement of 22 January 2021 barred a further claim on the same facts, and to allow a fresh action “would plainly offend against the principle of finality and the rule in Henderson-v-Henderson.” He quoted Lord Bingham’s words that a party should not be twice vexed in the same matter. That is the finality ground, not a separate finding labelled “collateral purpose.”",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 285, 287"
+                }
+              ]
+            },
+            {
+              "text": "An extended civil restraint order for three years followed from the findings that the permission applications and the 2025 claim were totally without merit, and from a pattern of further claims. The order is not a total bar: it requires prior judicial permission and some merit. A later judgment, Shand v Mishcon de Reya LLP [2026] EWHC 2291 (KB), also struck out a reformulated conflict claim as fanciful, abusive and time-barred. Those later steps are part of the same history; they should not be read as if “collateral purpose” were the sole stated reason for each of them.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 301, 305–307"
+                },
+                {
+                  "id": "mishcon-2291",
+                  "locator": "paras 51–57"
+                },
+                {
+                  "id": "pd3c",
+                  "locator": "paras 3.1–3.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-practice",
+      "title": "Legitimate parallel proceedings, and why the strategy can still fail",
+      "intro": "There is no absolute rule that a second proceeding is always forbidden. The court looks at the whole history.",
+      "entries": [
+        {
+          "id": "legitimate-parallel",
+          "title": "When a second proceeding may still be legitimate",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "Parallel proceedings can be legitimate where they concern genuinely different issues or different parties; where they are brought in a different jurisdiction, or under a different statutory scheme with its own purpose; or where they are not being used primarily to avoid the risks, costs, evidential rules or finality of the main case. They become vulnerable to strike-out or to refusal of permission when the court concludes that the dominant practical purpose is collateral — for example, to force a party to defend the same allegations twice, to obtain findings for use elsewhere, or to reopen matters already settled or discontinued.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "cpr3-4"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 172–176, 233, 285"
+                }
+              ]
+            },
+            {
+              "text": "The fact that a strategy seemed practical, or protective, to the person who adopted it does not prevent the court from finding it improper. That is especially so for litigants in person, who may reasonably think that a separate proceeding is a safer way to test evidence without risking the main case. English procedure places a high value on finality and on not forcing a party to meet the same allegations more than once.",
+              "sources": [
+                {
+                  "id": "editorial"
+                },
+                {
+                  "id": "judgment",
+                  "locator": "paras 11, 233, 285"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "consequences",
+          "title": "Practical consequences",
+          "kind": "Civil Procedure Rules and High Court practice",
+          "paragraphs": [
+            {
+              "text": "Permission for a contempt application can be refused, or the application struck out, on collateral-purpose grounds alone. A fresh civil claim that seeks to relitigate the same, or substantially the same, issues after settlement or discontinuance is likely to be struck out under CPR 3.4 as an abuse of process. Repeated attempts of this kind, especially if declared totally without merit, can lead to a civil restraint order, so that further claims or applications need prior judicial permission.",
+              "sources": [
+                {
+                  "id": "judgment",
+                  "locator": "paras 181, 233, 285, 305–307"
+                },
+                {
+                  "id": "cpr3-4",
+                  "locator": "r 3.4"
+                },
+                {
+                  "id": "cpr81"
+                },
+                {
+                  "id": "pd3c",
+                  "locator": "paras 3.1–3.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neighbouring-rules",
+      "title": "Neighbouring rules that use similar words",
+      "intro": "These are easy to confuse with collateral purpose. They are different tests.",
+      "entries": [
+        {
+          "id": "land-securities-tort",
+          "title": "The tort of abuse of process is a damages claim, not the strike-out power",
+          "kind": "Court of Appeal authority",
+          "paragraphs": [
+            {
+              "text": "The phrase “collateral purpose” also appears in a narrow tort of abuse of process, discussed by the Court of Appeal in Land Securities plc v Fladgate Fielder [2009] EWCA Civ 1402. That case was about whether a party could claim damages for the way judicial-review proceedings had been used, not about whether those proceedings should themselves have been struck out. The Court of Appeal treated the tort as tightly confined, and declined to extend it in the way the claimants sought. A discussion of “collateral purpose” in a damages claim should not be read as if it were the same as the procedural power to stay or strike out an abusive claim, or to refuse permission for contempt.",
+              "sources": [
+                {
+                  "id": "land-securities",
+                  "locator": "headnote; paras 77, and the court’s conclusions on the scope of the tort"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "disclosure",
+          "title": "“Collateral use” of disclosed documents is a different rule",
+          "kind": "Civil Procedure Rules",
+          "paragraphs": [
+            {
+              "text": "CPR 31.22 restricts the subsequent use of a document that has been disclosed. A party to whom a document has been disclosed may use it only for the purpose of the proceedings in which it was disclosed, unless the document has been read to or by the court, or referred to, at a hearing in public; the court gives permission; or the disclosing party and the person to whom the document belongs agree. The court can still restrict or prohibit use even where the document has been read in public. That is a rule about what may be done with disclosed material. It is not the same as the doctrine that a proceeding itself is being brought for a collateral purpose.",
+              "sources": [
+                {
+                  "id": "cpr31-22",
+                  "locator": "r 31.22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "slapp",
+          "title": "The statutory SLAPP rules are narrower than a general “wrong purpose” test",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Sections 194 and 195 of the Economic Crime and Corporate Transparency Act 2023 require the Civil Procedure Rules to include a pre-trial strike-out power, and costs protection, for a defined class of “SLAPP claim.” A claim falls within that definition only if, among other conditions, the claimant’s behaviour has or is intended to have the effect of restraining the defendant’s freedom of speech; the information has to do with economic crime; the disclosure is or would be for a purpose related to the public interest in combating economic crime; and the claimant’s behaviour is intended to cause harassment, alarm, distress, expense or other harm or inconvenience beyond that ordinarily encountered in properly conducted litigation. That is a specific statutory filter, not a general restatement of collateral purpose, and not a finding about any case discussed on this page.",
+              "sources": [
+                {
+                  "id": "eccta-194",
+                  "locator": "s 194"
+                },
+                {
+                  "id": "eccta-195",
+                  "locator": "s 195"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "title": "Method and limits",
+      "intro": "How this page was compiled, and what it cannot do.",
+      "entries": [
+        {
+          "id": "method",
+          "title": "How this page was compiled",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The Shand judgments were read in full from the official National Archives texts. Lord Bingham’s restatement was checked against the quotation in Shand v Kemkers at paragraph 173 and against the official parliamentary text of Johnson v Gore Wood & Co. Goldsmith v Sperrings Ltd [1977] 1 WLR 478 and Broxton v McClelland [1995] EMLR 485 are used as they are quoted in the official text of JSC BTA Bank v Ablyazov, which was also read from the National Archives. Land Securities v Fladgate Fielder, CPR 3.4, 31.22 and 81, Practice Direction 3C, and sections 194–195 of the 2023 Act were checked on the official sites on 26 November 2026.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Limits of this study",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "This page is a study of published authorities and rules, not legal advice and not a prediction of what another court would do on different facts. We have not independently verified a case sometimes referred to as “Grosvenor Hotel v Hamilton” in connection with this doctrine, and we do not cite it. We have not treated family procedure as identical to the Civil Procedure Rules; the family court has its own case-management and strike-out powers, but this page does not map them. Whether any given set of parallel proceedings is legitimate or abusive depends on the precise facts, the history, and the applicable rules.",
+              "sources": []
+            },
+            {
+              "text": "Analytical comparisons — including the distinction between collateral purpose and Henderson abuse, and the warning that “collateral use” of disclosure and the statutory SLAPP rules are different tests — are our commentary. They should not be read as findings of Cotter J or of the House of Lords.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "judgment",
+      "title": "Shand v Kemkers [2026] EWHC 341 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/341",
+      "checked": "2026-11-26",
+      "date": "2026-02-18"
+    },
+    {
+      "id": "mishcon-2291",
+      "title": "Shand v Mishcon de Reya LLP [2026] EWHC 2291 (KB)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/2291",
+      "checked": "2026-11-26",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "johnson",
+      "title": "Johnson v Gore Wood & Co [2000] UKHL 65, [2002] 2 AC 1",
+      "publisher": "UK Parliament (House of Lords judgments)",
+      "type": "House of Lords judgment",
+      "url": "https://publications.parliament.uk/pa/ld200001/ldjudgmt/jd001214/johnso-2.htm",
+      "checked": "2026-11-26",
+      "date": "2000-12-14"
+    },
+    {
+      "id": "ablyazov",
+      "title": "JSC BTA Bank v Ablyazov [2011] EWHC 1136 (Comm)",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2011/1136",
+      "checked": "2026-11-26",
+      "date": "2011-05-10"
+    },
+    {
+      "id": "land-securities",
+      "title": "Land Securities plc v Fladgate Fielder [2009] EWCA Civ 1402, [2010] Ch 467",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/1402",
+      "checked": "2026-11-26",
+      "date": "2009-12-18"
+    },
+    {
+      "id": "cpr3-4",
+      "title": "Civil Procedure Rules, rule 3.4: power to strike out a statement of case",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1998/3132/rule/3.4",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "cpr81",
+      "title": "Civil Procedure Rules, Part 81: applications and proceedings in relation to contempt of court",
+      "publisher": "justice.gov.uk",
+      "type": "Procedure rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-81-applications-and-proceedings-in-relation-to-contempt-of-court",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "cpr31-22",
+      "title": "Civil Procedure Rules, rule 31.22: subsequent use of disclosed documents",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1998/3132/rule/31.22",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "eccta-194",
+      "title": "Economic Crime and Corporate Transparency Act 2023, section 194",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/56/section/194",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "eccta-195",
+      "title": "Economic Crime and Corporate Transparency Act 2023, section 195",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/56/section/195",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "pd3c",
+      "title": "Practice Direction 3C: civil restraint orders",
+      "publisher": "justice.gov.uk",
+      "type": "Practice direction",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part03/pd_part03c",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "editorial",
+      "title": "Independent Tribunal editorial commentary",
+      "publisher": "Independent Tribunal",
+      "type": "Editorial",
+      "url": "https://independenttribunal.org/research/collateral-purpose/",
+      "checked": "2026-11-26"
+    }
+  ]
+}
