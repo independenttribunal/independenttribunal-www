@@ -300,7 +300,7 @@ const tiles = [
   ...petitions.map((p) => ({ ...p, kind: "petition", external: true, uk: p.tags.includes("uk") })),
   palestineActionTile,
   ...commentary.map((p) => ({ kind: "commentary", id: p.id, title: p.title, label: p.genre, summary: p.summary, tags: p.tags, href: `/research/${p.id}/`, uk: p.tags.includes("uk") })),
-  ...profiles.map((p) => ({ kind: p.category === "legal-study" ? "study" : "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.category === "legal-study" ? p.tags : [...new Set(["people", ...p.tags])], href: `/research/${p.id}/`, uk: p.tags.includes("uk"), ...(p.pinned ? { pinned: true } : {}) })),
+  ...profiles.filter((p) => !p.archived).map((p) => ({ kind: p.category === "legal-study" ? "study" : "profile", id: p.id, title: p.title, label: p.subtitle, summary: p.summary, tags: p.category === "legal-study" ? p.tags : [...new Set(["people", ...p.tags])], href: `/research/${p.id}/`, uk: p.tags.includes("uk"), ...(p.pinned ? { pinned: true } : {}) })),
   ...research.map((r) => ({ kind: "research", id: r.id, title: r.title, label: `${r.jurisdiction} · ${r.updates?.length ? "case update available" : "historical dossier"}`, summary: r.summary, tags: [...r.tags, "research"], href: `/research/${r.id}/`, uk: r.tags.includes("uk") })),
   ...nuancesOut.map((n) => ({ kind: "nuance", id: n.id, title: n.title, label: n.label, summary: plain(n.summary), tags: n.tags ?? [], href: `/nuances/${n.id}/`, uk: true })),
   ...timelinesOut.map((t) => ({ kind: "timeline", id: t.id, title: t.title, label: t.kicker, summary: plain(t.description), tags: ["protest", "timeline"], href: t.path, uk: true })),
@@ -699,7 +699,7 @@ const full = [
 ].join("");
 await put("llms-full.txt", full);
 
-const pages = ["/", "/about", "/research/", "/people/", ...categories.map((c) => c.path), ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
+const pages = ["/", "/about", "/research/", "/research/archive/", "/people/", ...categories.map((c) => c.path), ...profiles.map((p) => `/research/${p.id}/`), ...research.map((r) => `/research/${r.id}/`), ...timelines.map((t) => t.path), "/nuances/", ...nuances.map((n) => `/nuances/${n.id}/`), "/independent-tribunals/", ...tribunals.map((t) => `/independent-tribunals/${t.id}/`), "/legal/", ...policies.map((p) => `/legal/${p.slug}/`)];
 pages.push(...commentary.map((p) => `/research/${p.id}/`));
 pages.push(palestineActionTile.href);
 pages.push("/forensics/", forensicPath);

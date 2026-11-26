@@ -7,7 +7,7 @@
   "scope": "England and Wales · Case 2024/1532/D5. The misconduct was knowingly misleading the court, not the later confession. Findings, commentary, satire and proposed reforms are identified separately.",
   "status_note": "The report records an order for disbarment on 8 April 2026, and the regulator’s announcement described the findings as subject to appeal. On 24 October 2026 the regulator’s register listed her status as Disbarred and the finding as Final, although its sanction line still read “sentence still to take effect … pending any appeal”. We have not found a published appeal decision. The family’s identities are not investigated here. The section “Implication, silence and legal games” was added on 31 October 2026; its legislation, the Ivey judgment and the Bar Standards Board Handbook (version 5.0) were checked that day. The Spice Girls decision is described from published reports because we could not open the judgment text. A cross-reference to Robinson v Murphy [2024] EWHC 798 (KB) was added on 25 November 2026, after the judgment was read from the National Archives.",
   "jurisdiction": "England and Wales",
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "tags": [
     "uk",
     "professional-conduct",
@@ -25,6 +25,10 @@
     {
       "id": "shand-v-kemkers",
       "title": "A lawyer is not an investigator of the client’s case: Shand v Kemkers"
+    },
+    {
+      "id": "collateral-purpose",
+      "title": "Collateral purpose: when a proceeding is brought for the wrong reason"
     },
     {
       "id": "defences-withdrawn-from-jury",
@@ -879,6 +883,32 @@
                 {
                   "text": "Robinson v Murphy",
                   "url": "https://independenttribunal.org/research/robinson-v-murphy/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "collateral-purpose",
+          "title": "A proceeding can fail because it is brought for the wrong purpose",
+          "kind": "High Court judgment and our analysis",
+          "paragraphs": [
+            {
+              "text": "A neighbouring idea, distinct from whether a statement was a lie, is collateral purpose: using a procedure for an aim it was not designed to serve. In Shand v Kemkers [2026] EWHC 341 (KB), Mr Justice Cotter refused permission for contempt proceedings in part because he found an improper collateral purpose — an attempt to relitigate or to set aside a discontinuance and a settlement, which contempt proceedings are not designed to do. That sits beside, but is not the same as, the rule in Henderson v Henderson and Johnson v Gore Wood that a party should not be twice vexed in the same matter. The doctrine, its limits, and two rules that use similar words for different tests, are on a dedicated page.",
+              "sources": [
+                {
+                  "id": "shand-kemkers",
+                  "locator": "paras 172–176, 233"
+                }
+              ],
+              "links": [
+                {
+                  "text": "collateral purpose",
+                  "url": "https://independenttribunal.org/research/collateral-purpose/"
+                },
+                {
+                  "text": "Shand v Kemkers",
+                  "url": "https://independenttribunal.org/research/shand-v-kemkers/"
                 }
               ]
             }

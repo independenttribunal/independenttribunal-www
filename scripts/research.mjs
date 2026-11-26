@@ -59,9 +59,12 @@ export const researchText = (html) => html
 
 export async function publishResearch({ records, profiles = [], commentary = [], categories = [], put, page, escapeHtml: e, site }) {
   const studies = profiles.filter((p) => p.category === "legal-study");
-  const openJustice = studies.filter((p) => p.tags.includes("open-justice"));
-  const otherStudies = studies.filter((p) => !p.tags.includes("open-justice"));
+  const archivedStudies = studies.filter((p) => p.archived);
+  const liveStudies = studies.filter((p) => !p.archived);
+  const openJustice = liveStudies.filter((p) => p.tags.includes("open-justice"));
+  const otherStudies = liveStudies.filter((p) => !p.tags.includes("open-justice"));
   profiles = profiles.filter((p) => p.category !== "legal-study");
+  const studyList = (items) => items.map((p) => `<li><span class="kicker">Legal study · ${e(p.jurisdiction)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Sources reviewed ${e(p.checked)}</span></li>`).join("");
   const updatesHtml = (r) => (r.updates ?? []).map((u) => `<section class="research-update" id="${u.id}" aria-labelledby="${u.id}-title"><p class="kicker">Case update · <time datetime="${u.date}">${e(u.date_label)}</time></p><h2 id="${u.id}-title">${e(u.title)}</h2><p><strong>${e(u.summary)}</strong></p>${u.paragraphs.map((p) => `<p>${e(p)}</p>`).join("")}<ul>${u.sources.map((s) => `<li><a href="${e(s.url)}">${e(s.title)}</a><br><span class="attributed">${e(s.publisher)}</span></li>`).join("")}</ul><p class="meta">Ruling checked ${e(u.checked)} · original dossier retained below</p></section>`).join("");
   const relatedUpdatesHtml = (r) => (r.related_updates ?? []).map((id) => {
     const other = records.find((x) => x.id === id);
@@ -106,15 +109,25 @@ export async function publishResearch({ records, profiles = [], commentary = [],
       <p class="lede">Separate cases, distinct legal questions, and a public record you can examine for yourself.</p>
       ${categories.length ? `<h2>Research categories</h2><p>Themed collections of existing, sourced pages.</p><ul class="policy-list">${categories.map((c) => `<li><span class="kicker">Research category · ${c.chapters.length} chapters</span><h3><a href="${e(c.path)}">${e(c.title)} →</a></h3><p>${e(c.lede)}</p></li>`).join("")}</ul>` : ""}
       <h2>Featured collection</h2><ul class="policy-list"><li><span class="kicker">UK · Cases, records and institutional accountability</span><h3><a href="/research/palestine-action/">Palestine Action →</a></h3><p>What is legal? What is normal? What is real? One chronological collection of cases, campaigns and institutional accounts, including actions before 7 October 2023—with connected research, the CAGE report and traceable corrections.</p></li></ul>
-      ${otherStudies.length ? `<h2>Law, protest and accountability</h2><p>Legal powers, applications and public records, with dated findings and source limitations.</p><ul class="policy-list">${otherStudies.map((p) => `<li><span class="kicker">Legal study · ${e(p.jurisdiction)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Sources reviewed ${e(p.checked)}</span></li>`).join("")}</ul>` : ""}
-      ${openJustice.length ? `<h2>Open justice and reporting restrictions</h2><p>Linked legal studies: secrecy about proceedings, protection of identity, and identification through combined information. Court findings and our analysis are distinguished.</p><ul class="policy-list">${openJustice.map((p) => `<li><span class="kicker">Legal study · ${e(p.jurisdiction)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Sources reviewed ${e(p.checked)}</span></li>`).join("")}</ul>` : ""}
+      ${otherStudies.length ? `<h2>Law, protest and accountability</h2><p>Legal powers, applications and public records, with dated findings and source limitations.</p><ul class="policy-list">${studyList(otherStudies)}</ul>` : ""}
+      ${openJustice.length ? `<h2>Open justice and reporting restrictions</h2><p>Linked legal studies: secrecy about proceedings, protection of identity, and identification through combined information. Court findings and our analysis are distinguished.</p><ul class="policy-list">${studyList(openJustice)}</ul>` : ""}
+      ${archivedStudies.length ? `<h2 id="archive">Archive</h2><p>Studies kept at their original addresses, but not listed on the homepage. <a href="/research/archive/">Open the archive page →</a></p><ul class="policy-list">${studyList(archivedStudies)}</ul>` : ""}
       ${commentary.length ? `<h2>Commentary and research questions</h2><p>Arguments and questions, distinguished from verified facts and findings. Anecdotes, satire and limitations are labelled.</p><ul class="policy-list">${commentary.map((p) => `<li><span class="kicker">${e(p.genre)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Cited sources checked ${e(p.checked)} · <a href="/data/commentary/${p.id}.json">JSON</a></span></li>`).join("")}</ul>` : ""}
       ${profiles.length ? `<h2>Public-record profiles</h2><p>Selected court records and public background. Individually sourced; not a judges database or a complete criminal record.</p><ul class="policy-list">${profiles.map((p) => `<li><span class="kicker">${e(p.subtitle)}</span><h3><a href="/research/${p.id}/">${e(p.title)} →</a></h3><p>${e(p.summary)}</p><span class="meta">Sources reviewed ${e(p.checked)} · coverage limits stated</span></li>`).join("")}</ul>` : ""}
       <h2>Research dossiers</h2>
       <aside class="research-notice"><strong>About this research collection</strong><p>Independent Tribunal maintains these six dossiers and their source material. The original research is dated 28 July 2026. Read any dated case updates first; the historical material has not had a full current-status review. It includes reporting and commentary, not just primary sources.</p></aside>
       <ul class="policy-list">${records.map((r) => `<li><span class="kicker">0${r.order} · ${e(r.jurisdiction)}</span><h2><a href="/research/${r.id}/">${e(r.title)} →</a></h2><p>${e(r.summary)}</p><span class="meta">Historical dossier · source date ${e(r.source_as_of)}</span></li>`).join("")}</ul>`,
   }));
+  await put("research/archive/index.html", page({
+    title: "Research archive", path: "/research/archive/", description: "Legal studies and profiles kept available at their original addresses, but not listed on the homepage.",
+    meta: `<p class="meta">Open research · <a href="/research/">Research library</a> · <a href="/data/profiles.json">Profiles JSON</a></p>`,
+    body: `${styles}<div class="kicker"><a href="/research/">Legal research</a> · Archive</div><h1>Archive</h1>
+      <p class="lede">These pages remain published at their original addresses. They are listed here, and not on the homepage, so the front of the site stays easier to scan.</p>
+      ${archivedStudies.length ? `<ul class="policy-list">${studyList(archivedStudies)}</ul>` : "<p>No studies are currently archived.</p>"}
+      <p><a href="/research/">Back to the research library →</a></p>`,
+  }));
   for (const r of records) {
+
     const source = `${site.source_repo}/blob/main/data/research/${r.id}.json`;
     await put(`research/${r.id}/index.html`, page({
       title: r.title, description: r.summary, path: `/research/${r.id}/`,

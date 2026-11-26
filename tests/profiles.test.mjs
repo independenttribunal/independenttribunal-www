@@ -39,7 +39,13 @@ test("people category contains people, not legal studies, and is discoverable", 
   assert.ok(content);
   for (const p of profiles) {
     assert.equal(content.includes(`href="/research/${p.id}/"`), p.category !== "legal-study", p.id);
-    assert.equal(tiles.find((t) => t.id === p.id).tags.includes("people"), p.category !== "legal-study");
+    const tile = tiles.find((t) => t.id === p.id);
+    if (p.archived) {
+      assert.equal(tile, undefined, `${p.id} should not have a homepage tile`);
+      continue;
+    }
+    assert.ok(tile, p.id);
+    assert.equal(tile.tags.includes("people"), p.category !== "legal-study");
   }
   for (const file of ["public/sitemap.xml", "public/llms.txt"]) assert.ok((await read(file)).includes("/people/"), file);
   for (const file of ["public/research/index.html", "public/sitemap.xml", "public/llms.txt", "public/llms-full.txt"]) assert.ok((await read(file)).includes("/research/richard-heart/"), file);
@@ -167,7 +173,7 @@ test("profiles are discoverable and preserve paragraph-level attribution in expo
   const p = await json("public/data/profiles/roger-hallam.json");
   const collection = await json("public/data/profiles.json");
   assert.deepEqual(collection.profiles.find((profile) => profile.id === p.id), p);
-  assert.equal(collection.profiles.length, 45);
+  assert.equal(collection.profiles.length, 46);
   assert.equal(p.url, "https://independenttribunal.org/research/roger-hallam/");
   for (const s of p.sections) for (const entry of s.entries) for (const para of entry.paragraphs) for (const ref of para.sources) {
     assert.ok(ref.title && ref.type && ref.publisher && ref.checked);
