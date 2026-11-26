@@ -1,0 +1,447 @@
+{
+  "id": "thames-water-legal-strategy",
+  "category": "legal-study",
+  "title": "Thames Water: challenging the bill — an open legal strategy",
+  "subtitle": "If the County Court cannot deliver a remedy, can the question be taken to a court that can?",
+  "summary": "We are building in public. This companion study explores withholding wastewater charges, judicial conscience, transfer to the High Court, appeals and judicial review. It publishes the proposed strategy, its objections and the evidence still needed, without claiming a right to stop paying.",
+  "scope": "England and Wales · Domestic wastewater charges, civil procedure and a proposed reform of judicial discretion.",
+  "status_note": "Version 0.1 · Open research, not legal advice or a filed defence. Sources reviewed 26 November 2026. No successful domestic sewage-bill withholding precedent has been established by this study. We do not recommend deliberately accruing debt. Corrections and contrary authorities are welcome.",
+  "jurisdiction": "England and Wales",
+  "checked": "2026-11-26",
+  "pinned": true,
+  "tags": [
+    "uk",
+    "water",
+    "environment",
+    "courts",
+    "civil-procedure",
+    "reform"
+  ],
+  "related": [
+    {
+      "id": "thames-water",
+      "title": "Thames Water: a marvel of financial engineering"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Transfer",
+      "value": "CPR 30.3",
+      "detail": "Public significance is a relevant factor, not an entitlement",
+      "target": "transfer-route"
+    },
+    {
+      "label": "Conscience",
+      "value": "A proposed doctrine",
+      "detail": "Not an existing civil defence",
+      "target": "conscience-proposal"
+    },
+    {
+      "label": "Pending litigation",
+      "value": "8–9 February 2027",
+      "detail": "Listed Supreme Court hearing, subject to change",
+      "target": "existing-litigation"
+    }
+  ],
+  "sections": [
+    {
+      "id": "starting-point",
+      "title": "The question in plain English",
+      "intro": "A small bill can raise a large question, but the two must be connected in law.",
+      "entries": [
+        {
+          "id": "reported-case",
+          "title": "The judge who said he was bound by law",
+          "kind": "Court reporting",
+          "paragraphs": [
+            {
+              "text": "On 26 March 2026, ITV reported that District Judge Peter Furness at Canterbury County Court ruled for South East Water, billing agent for Southern Water, against Julie Wassmer and Jonathan Kasparian. The order was for £1,445.83 including costs. This was not a Thames Water case. We have not obtained the judgment or pleadings.",
+              "sources": [
+                {
+                  "id": "itv"
+                }
+              ]
+            },
+            {
+              "text": "Whatever sympathies I may or may not have with your position I am obliged to act within the law, it’s as simple as that.",
+              "sources": [
+                {
+                  "id": "itv"
+                }
+              ],
+              "quote": true
+            }
+          ]
+        },
+        {
+          "id": "thames-facts",
+          "title": "Why Thames Water is a candidate for research",
+          "kind": "Regulatory record",
+          "paragraphs": [
+            {
+              "text": "On 28 May 2025 Ofwat imposed a £104.5 million wastewater penalty on Thames Water and issued an enforcement order. These findings are evidence of regulatory failures, not a finding that any particular household bill is invalid.",
+              "sources": [
+                {
+                  "id": "ofwat"
+                }
+              ]
+            },
+            {
+              "text": "The statutory charging power and the enforcement scheme must be examined together. A regulatory penalty is not automatically a debt owed to individual customers.",
+              "sources": [
+                {
+                  "id": "charges"
+                },
+                {
+                  "id": "enforcement"
+                },
+                {
+                  "id": "ofwat"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conscience",
+      "title": "Can conscience prevail over law?",
+      "intro": "We distinguish a philosophical proposal from what judges are presently empowered to do.",
+      "entries": [
+        {
+          "id": "jury-equity",
+          "title": "The jury analogy",
+          "kind": "Current law",
+          "paragraphs": [
+            {
+              "text": "The High Court discussed jury equity in Warner, paragraphs 13–23. Criminal juries have a practical ability to acquit contrary to directions; this is not a general legal entitlement to disregard the law. A civil debt judge must give legally defensible reasons, and an error of law can be appealed.",
+              "sources": [
+                {
+                  "id": "warner"
+                },
+                {
+                  "id": "appeal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "conscience-proposal",
+          "title": "Manifest injustice: a proposed reform",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Our proposal for debate: where strict application of a legal rule would result in manifest injustice, should a court have a narrowly defined power to depart from it, subject to written reasons, a high threshold and appellate review? This is a proposed change to the law, not a power we assert exists today.",
+              "sources": []
+            },
+            {
+              "text": "The objection is substantial: personal conscience can produce arbitrary or inconsistent outcomes, undermine parliamentary sovereignty and make rights unpredictable. The proposal must explain who defines manifest injustice, what safeguards apply and whether legislation would be necessary. The same rule must protect both sides.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "The procedural strategy",
+      "intro": "Transfer, a stay, an appeal and judicial review are different mechanisms; none supplies a missing substantive defence.",
+      "entries": [
+        {
+          "id": "transfer-route",
+          "title": "1. Ask for transfer to the High Court",
+          "kind": "Current law and proposed application",
+          "paragraphs": [
+            {
+              "text": "Section 42 of the County Courts Act and CPR 30.3 govern the proposed transfer route. CPR 30.3(2) includes complexity, public importance and the possible need for a Human Rights Act declaration among relevant considerations. Financial value also matters. Transfer is discretionary and subject to applicable jurisdictional restrictions.",
+              "sources": [
+                {
+                  "id": "cca"
+                },
+                {
+                  "id": "transfer"
+                }
+              ]
+            },
+            {
+              "text": "Our proposed argument is that the court should assess a properly pleaded question about the enforceability of wastewater charges or a corresponding remedy, rather than treat public significance alone as a defence. Identify the exact disputed legal provision, explain why the higher forum is appropriate and seek a reasoned order.",
+              "sources": [
+                {
+                  "id": "transfer"
+                },
+                {
+                  "id": "charges"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stay-route",
+          "title": "2. Request a stay",
+          "kind": "Current law and proposed application",
+          "paragraphs": [
+            {
+              "text": "CPR 3.1(2)(g) permits a stay of proceedings or judgment. A party could seek a stay pending determination of a transfer request or a closely related appeal, explaining its relevance and proportionality. Filing an application does not automatically stop deadlines or enforcement.",
+              "sources": [
+                {
+                  "id": "stay"
+                },
+                {
+                  "id": "appeal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "appeal-route",
+          "title": "3. Appeal an adverse decision",
+          "kind": "Current law",
+          "paragraphs": [
+            {
+              "text": "CPR Part 52 governs appeals. Permission is generally required; the ordinary time limit is 21 days from the decision unless directed otherwise. The route depends on the judge and decision. An appeal from a district judge will commonly go to a circuit judge, not straight to the High Court. Identify an error of law or other recognised appeal ground, not simply disagreement with the result.",
+              "sources": [
+                {
+                  "id": "appeal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "review-route",
+          "title": "4. Consider a separate judicial review",
+          "kind": "Current law",
+          "paragraphs": [
+            {
+              "text": "CPR Part 54 concerns review of the lawfulness of public decisions or acts. Identify a specific reviewable decision or omission, standing, legal grounds and an appropriate remedy; consider alternative remedies. Permission is required and claims generally must be brought promptly and within three months, subject to exceptions. Judicial review is not the ordinary route for challenging a county court debt judgment.",
+              "sources": [
+                {
+                  "id": "review"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rights-route",
+          "title": "5. Identify an actual Convention issue",
+          "kind": "Current law",
+          "paragraphs": [
+            {
+              "text": "The High Court can make a declaration of incompatibility under section 4 of the Human Rights Act; the County Court cannot. A declaration does not invalidate legislation or automatically cancel a bill. Article 6 protects fair adjudication of civil rights but does not itself guarantee a substantive compensation right. A specific incompatibility must be identified before relying on this route.",
+              "sources": [
+                {
+                  "id": "hra"
+                },
+                {
+                  "id": "transfer"
+                },
+                {
+                  "id": "itv"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "merits",
+      "title": "The missing substantive defence",
+      "intro": "The procedural vehicle matters only if there is a legally arguable question to carry.",
+      "entries": [
+        {
+          "id": "statutory-bar",
+          "title": "The strongest objections",
+          "kind": "Current law",
+          "paragraphs": [
+            {
+              "text": "Section 142 provides statutory charging powers; section 18(8) raises potential restrictions on remedies for regulatory breaches. A supplier can argue that payment is independent of environmental compliance and that statutory enforcement is the prescribed remedy. Investigate the applicable charging scheme, statutory construction, independent causes of action, consumer protections and any legally available set-off. None has been established here as a successful defence.",
+              "sources": [
+                {
+                  "id": "charges"
+                },
+                {
+                  "id": "enforcement"
+                },
+                {
+                  "id": "roberts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "existing-litigation",
+          "title": "Do not duplicate existing litigation",
+          "kind": "Judgments and pending proceedings",
+          "paragraphs": [
+            {
+              "text": "Manchester Ship Canal [2024] UKSC 22 establishes that the statutory scheme does not necessarily bar independent nuisance or trespass claims by watercourse owners. It does not confer a household right to withhold charges.",
+              "sources": [
+                {
+                  "id": "canal"
+                }
+              ]
+            },
+            {
+              "text": "Professor Carolyn Roberts seeks collective competition-law proceedings concerning alleged misleading pollution reporting and higher household charges. Permission to appeal was granted on 29 June 2026; the Supreme Court lists a hearing on 8–9 February 2027, subject to change. The case concerns the availability of a collective remedy, not an established non-payment defence.",
+              "sources": [
+                {
+                  "id": "roberts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open-work",
+      "title": "Building in public: research checklist",
+      "intro": "Publish the arguments, counterarguments and revisions; do not publish private customer information or restricted court material.",
+      "entries": [
+        {
+          "id": "next-steps",
+          "title": "Before any test case",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Obtain the Wassmer pleadings, order and judgment or transcript lawfully. Identify any appeal and seek contrary authorities. Collect the relevant Thames Water charging scheme, itemised bills, customer correspondence and Ofwat findings. Map each proposed remedy to a legal cause of action and evidence of individual loss.",
+              "sources": []
+            },
+            {
+              "text": "Seek specialist advice on merits, limitation, procedure, costs and potential funding. Consider payment under protest and complaints rather than deliberately generating debt; payment under protest does not by itself preserve every claim or extend limitation. If proceedings already exist, meet all deadlines unless the court orders otherwise.",
+              "sources": []
+            },
+            {
+              "text": "Maintain a public change log with dated sources, unresolved questions, corrections and the strongest arguments against our position. Redact personal details, respect reporting restrictions and obtain advice before publishing material from live proceedings. No application or claim is represented as filed.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "success-criteria",
+          "title": "What success would mean",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "A reasoned answer to a properly framed legal question, whether favourable or adverse. If existing law provides no viable remedy, identify precisely which provision or precedent blocks it and publish a narrowly drafted reform proposal. The aim is accountability through lawful process, not a favourable outcome at any cost.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "itv",
+      "title": "Campaigner ordered to pay Southern Water wastewater bills",
+      "publisher": "ITV News",
+      "type": "Court reporting",
+      "url": "https://www.itv.com/news/meridian/2026-03-26/court-orders-campaigner-to-pay-unpaid-southern-water-wastewater-bills",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "ofwat",
+      "title": "Enforcement case: Thames Water sewage treatment works and sewerage networks",
+      "publisher": "Ofwat",
+      "type": "Regulatory decision",
+      "url": "https://www.ofwat.gov.uk/enforcement-case-in-thames-waters-management-of-its-sewage-treatment-works-and-sewerage-networks/",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "charges",
+      "title": "Water Industry Act 1991, section 142",
+      "publisher": "UK Parliament",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1991/56/section/142",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "enforcement",
+      "title": "Water Industry Act 1991, section 18",
+      "publisher": "UK Parliament",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1991/56/section/18",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "warner",
+      "title": "HM Solicitor General v Trudi Ann Warner [2024] EWHC 918 (KB)",
+      "publisher": "The National Archives",
+      "type": "Judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2024/918",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "transfer",
+      "title": "Civil Procedure Rules Part 30",
+      "publisher": "Ministry of Justice",
+      "type": "Court rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part30",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "cca",
+      "title": "County Courts Act 1984, section 42",
+      "publisher": "UK Parliament",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1984/28/section/42",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "stay",
+      "title": "Civil Procedure Rules Part 3",
+      "publisher": "Ministry of Justice",
+      "type": "Court rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part03",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "appeal",
+      "title": "Civil Procedure Rules Part 52",
+      "publisher": "Ministry of Justice",
+      "type": "Court rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part52",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "review",
+      "title": "Civil Procedure Rules Part 54",
+      "publisher": "Ministry of Justice",
+      "type": "Court rules",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part54",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "hra",
+      "title": "Human Rights Act 1998, section 4",
+      "publisher": "UK Parliament",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/42/section/4",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "canal",
+      "title": "Manchester Ship Canal Company v United Utilities Water (No 2) [2024] UKSC 22",
+      "publisher": "UK Supreme Court",
+      "type": "Judgment",
+      "url": "https://www.supremecourt.uk/cases/judgments/uksc-2022-0121",
+      "checked": "2026-11-26"
+    },
+    {
+      "id": "roberts",
+      "title": "Roberts v Severn Trent Water and others, UKSC/2026/0042",
+      "publisher": "UK Supreme Court",
+      "type": "Pending appeal",
+      "url": "https://www.supremecourt.uk/cases/uksc-2026-0042",
+      "checked": "2026-11-26"
+    }
+  ]
+}
