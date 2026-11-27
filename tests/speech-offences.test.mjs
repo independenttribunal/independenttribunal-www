@@ -51,7 +51,7 @@ test('speech register does not convert hung juries, procedural decisions or sear
     'tatchell-nakba': 'no-further-action', 'tatchell-intifada': 'no-further-action',
     'jamal-nineham': 'conviction', 'pwr-akdogan-demir': 'conviction',
     'hanin-barghouthi': 'hung-jury', 'urslaan-khan': 'hung-jury',
-    'ab-acquittal': 'acquittal',
+    'ab-acquittal': 'acquittal', 'ucl-dove-banner': 'no-further-action',
   })) assert.equal(records.get(id).outcome_type, outcome, id);
   assert.equal(records.get('kneecap-liam').scope, 'other-proscribed-organisation');
   assert.equal(records.get('fiona-ryan').scope, 'related-speech');
@@ -124,4 +124,26 @@ test('current focus distinguishes a RIPA notice allegation from the separate pro
   assert.equal(cohort.charged_detailed, cohort.section_13_detailed + cohort.section_12_detailed + cohort.section_57_detailed);
   assert.notEqual(cohort.headline_section_12_13, cohort.section_13_detailed + cohort.section_12_detailed);
   assert.equal(cohort.internal_discrepancy_unresolved, true);
+});
+
+
+test('UCL dove banner entry keeps the supplied artwork with the attributed arrest record', async () => {
+  const p = await json('data/profiles/speech-offences.json');
+  const records = new Map(recordsOf(p).map(e => [e.id, e]));
+  const e = records.get('ucl-dove-banner');
+  assert.equal(e.case_record.scope, 'hamas');
+  assert.equal(e.case_record.outcome_type, 'no-further-action');
+  const image = (p.artworks ?? []).find((a) => a.after_entry === 'ucl-dove-banner');
+  assert.equal(image.src, '/images/ucl-dove-banner.webp');
+  assert.match(image.alt, /dove/i);
+  assert.match(image.caption, /supplied for this page/i);
+  assert.match(image.transcript, /Free/);
+  const html = await read('public/research/speech-offences/index.html');
+  assert.ok(html.includes('id="ucl-dove-banner"'));
+  assert.ok(html.includes('src="/images/ucl-dove-banner.webp"'));
+  assert.match(html, /attributed interview account/);
+  assert.doesNotMatch(html, /blue sky interpreted as terrorism/);
+  const { stat } = await import('node:fs/promises');
+  const file = await stat(new URL('../public/images/ucl-dove-banner.webp', import.meta.url));
+  assert.ok(file.size > 10_000 && file.size < 150_000);
 });
