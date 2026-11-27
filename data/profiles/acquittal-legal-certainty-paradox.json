@@ -1,0 +1,964 @@
+{
+  "id": "acquittal-legal-certainty-paradox",
+  "category": "legal-study",
+  "title": "The acquittal–legal certainty paradox",
+  "subtitle": "Context, jury discretion, and speech liability under section 12 of the Terrorism Act 2000",
+  "summary": "An acquittal tells you that one defendant was not convicted on one charge, on the evidence in that trial. It does not, by itself, tell everyone else whether the same words would be lawful in their mouths. This study sets out three different thresholds — legality, prosecutability and adjudication — and walks a structured thought experiment comparing the Greenstein case with a hypothetical typical speaker, without inviting anyone to repeat the words.",
+  "checked": "2026-11-27",
+  "jurisdiction": "England and Wales / United Kingdom / European Convention on Human Rights",
+  "tags": [
+    "uk",
+    "speech",
+    "terrorism",
+    "juries",
+    "legal-certainty",
+    "article-10",
+    "section-12"
+  ],
+  "scope": "A legal study of what a Crown Court acquittal does and does not settle, and of lawful ways to seek a reasoned ruling. It is not legal advice, not a prediction of any verdict, and not an invitation to publish the words discussed.",
+  "status_note": "Checked 27 November 2026. Trial transcripts and the judge’s directions in R v Greenstein have not been obtained. No public Attorney General’s Reference arising from that acquittal has been located in this review. The thought experiment is analysis, not a finding.",
+  "featured_source": "aljazeera-jnp",
+  "related": [
+    {
+      "id": "speech-offences",
+      "title": "Speech offences: the case register"
+    },
+    {
+      "id": "hamas-deproscription",
+      "title": "Hamas deproscription — the statutory route"
+    },
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth"
+    },
+    {
+      "id": "hypothetical-reader",
+      "title": "The hypothetical reasonable reader"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The core distinction",
+      "value": "Three thresholds",
+      "detail": "Legality, prosecutability and jury adjudication are not the same question",
+      "target": "three-thresholds"
+    },
+    {
+      "label": "The baseline case",
+      "value": "21 August 2026",
+      "detail": "Tony Greenstein acquitted at Kingston Crown Court of inviting support for Hamas",
+      "target": "greenstein-baseline"
+    },
+    {
+      "label": "Two offences",
+      "value": "s. 12(1) and s. 12(1A)",
+      "detail": "An acquittal on one subsection does not automatically decide the other",
+      "target": "two-offences"
+    },
+    {
+      "label": "The thought experiment",
+      "value": "Person A and Person B",
+      "detail": "A structured comparison, not a predicted verdict and not an invitation to post the words",
+      "target": "mock-trial"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-question",
+      "title": "The question this page is asking",
+      "intro": "A law-abiding citizen can be left unsure of the rules even after a widely reported acquittal. The public interest in knowing where the criminal law draws the line on speech is real. Repeating charged words in order to test that line is not a safe or sufficient way to find out.",
+      "entries": [
+        {
+          "id": "jnp-and-the-dilemma",
+          "title": "A deproscription application, and a narrower speech question",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "On 26 November 2026, Al Jazeera reported that the Jewish Network for Palestine had that day submitted an application to the Home Secretary, under section 4 of the Terrorism Act 2000, to deproscribe Hamas. The report said the filing came five years to the day after Hamas was fully proscribed in the United Kingdom, and that the Home Secretary, Shabana Mahmoud, has 90 days beginning the day after the application is received. Section 4 requires regulations to fix a period for determination. Regulation 7 of the 2006 Regulations sets that period at 90 days beginning with the day after receipt, which matches the figure in the report. If the application is refused, section 5 of the Act gives the applicant a right of appeal to the Proscribed Organisations Appeal Commission. Al Jazeera reported that the group can appeal a refusal; it did not name the Commission in the body of the article.",
+              "sources": [
+                {
+                  "id": "aljazeera-jnp",
+                  "locator": "JNP application, 90-day period and right of appeal"
+                },
+                {
+                  "id": "ta2000-s4",
+                  "locator": "Application to the Secretary of State"
+                },
+                {
+                  "id": "si-2006-2299-reg7",
+                  "locator": "90 days beginning the day after receipt"
+                },
+                {
+                  "id": "ta2000-s5",
+                  "locator": "Appeal to the Proscribed Organisations Appeal Commission"
+                }
+              ]
+            },
+            {
+              "text": "The same report returned to Tony Greenstein, a Jewish anti-Zionist activist and writer, then 72, who had been prosecuted after publishing material on 7 October 2023. Press Association reporting, carried by The Jewish Chronicle, records that a Kingston Crown Court jury acquitted him on 21 August 2026 of inviting support for Hamas. It was an acquittal, not a hung jury. The report identifies him as the son of an Orthodox rabbi. He is not reported to be a rabbi himself. Al Jazeera quoted him on the chilling effect of the Hamas ban and described the charge as having been brought in November 2024.",
+              "sources": [
+                {
+                  "id": "aljazeera-jnp",
+                  "locator": "Greenstein comments, November 2024 charge, August 2026 acquittal"
+                },
+                {
+                  "id": "jc-greenstein",
+                  "locator": "Kingston acquittal, age, background and verdict date"
+                }
+              ]
+            },
+            {
+              "text": "The question that follows is narrower than deproscription, and it is the subject of this page. An acquittal establishes that a particular defendant has not been convicted of a particular offence on the evidence in that trial. It does not necessarily establish that the words used are lawful for everyone, in every context. A 40-year-old non-Jewish Polish man who used the same words, on the same date, on the same platform, would not automatically inherit that result. The Crown Prosecution Service, applying the Full Code Test, assesses whether an impartial, properly directed jury would be more likely than not to convict on the evidence in the new case. If a previous acquittal of comparable words lowers that assessment, there may be no charge and therefore no new judicial ruling. If there is a charge, another unreasoned jury verdict still may not produce a binding statement of the general law. How, then, can a law-abiding person obtain an authoritative court ruling on the boundary without first risking a terrorism prosecution?",
+              "sources": [
+                {
+                  "id": "jc-greenstein",
+                  "locator": "The acquittal as a fact-specific verdict"
+                },
+                {
+                  "id": "cps-code",
+                  "locator": "Full Code Test, evidential stage, paras 4.6–4.7"
+                },
+                {
+                  "id": "ta2000-s12",
+                  "locator": "The speech offences against which the question is asked"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "three-thresholds",
+      "title": "Three thresholds that are not the same question",
+      "intro": "Part of the confusion comes from treating legality, charging and a jury verdict as if they were a single switch.",
+      "entries": [
+        {
+          "id": "thresholds-table",
+          "title": "Legality, prosecutability and adjudication",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "Legality is a question about the statute and its interpretation by appellate courts: do the words and surrounding circumstances satisfy the elements of an offence? Prosecutability is a question for the Crown Prosecution Service under the Full Code Test: is there a realistic prospect of conviction, and is a prosecution required in the public interest? Adjudication, in a Crown Court trial on indictment, is a question for the jury: are they sure that every element is proved? A case which does not pass the evidential stage must not proceed, no matter how serious or sensitive it may be. A realistic prospect means that an objective, impartial and reasonable jury, properly directed, is more likely than not to convict. That is a different, and lower, threshold than the criminal standard of proof, which requires the court to be sure of guilt. A jury verdict of not guilty does not usually come with reasons, so it often leaves open which element failed.",
+              "sources": [
+                {
+                  "id": "cps-code",
+                  "locator": "Evidential stage, paras 4.6–4.7; public interest, paras 4.9–4.10"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Three thresholds, three institutions, and what each result can settle",
+            "columns": [
+              "Stage",
+              "The question",
+              "Who decides",
+              "Does it bind later speakers?"
+            ],
+            "rows": [
+              [
+                "Legality",
+                "Do the words and circumstances satisfy the statutory elements of an offence?",
+                "Parliament, and the appellate courts when they interpret the offence",
+                "A reasoned appellate judgment can state the law. A Crown Court acquittal does not."
+              ],
+              [
+                "Prosecutability",
+                "Is there a realistic prospect of conviction, and is prosecution required in the public interest?",
+                "The Crown Prosecution Service, applying the Full Code Test",
+                "No. A charging decision is not a precedent, and a decision not to charge produces no ruling."
+              ],
+              [
+                "Adjudication",
+                "Is the jury sure that every element is proved on the facts of this trial?",
+                "A Crown Court jury, on the judge’s legal directions",
+                "No. The verdict decides the defendant’s case. It does not usually explain itself, and it does not freeze the law for everyone else."
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "greenstein-baseline",
+      "title": "The Greenstein case, as reported",
+      "intro": "The comparison only works if the baseline is stated carefully, including what the prosecution actually put before the jury and what remains unseen.",
+      "entries": [
+        {
+          "id": "what-was-reported",
+          "title": "What the contemporaneous reports support",
+          "kind": "Contemporaneous court reporting",
+          "date": "2026-08-21",
+          "paragraphs": [
+            {
+              "text": "Press Association reporting records that a Kingston Crown Court jury acquitted Tony Greenstein on a single count of inviting support for Hamas. The count concerned three posts published on 7 October 2023 and material linked from them. The jury was out for two hours and eleven minutes. The same reporting identifies him as a Jewish activist and writer, aged 72 at trial, and the son of an Orthodox rabbi. His position, as reported, was that he did not support Hamas as an organisation, even though he held strong views about the events of 7 October 2023. The prosecution material, as reported, included praise for the attack in a linked blog. Al Jazeera later described a blog titled “Full Support for the Gaza Ghetto Uprising” and said he was charged in November 2024 under section 12 for inviting support “on the basis of one sentence in that blog and for writing ‘please share’.” The two accounts are consistent in outline and differ in emphasis. This review has not inspected the indictment, the posts as exhibited, or the linked article as used at trial, so the precise charging text remains a matter of those reports.",
+              "sources": [
+                {
+                  "id": "jc-greenstein",
+                  "locator": "Single count, three posts, linked material, 2 hours 11 minutes, defence and prosecution positions"
+                },
+                {
+                  "id": "aljazeera-jnp",
+                  "locator": "Blog title, November 2024 charge, ‘please share’ and one sentence in the blog"
+                }
+              ]
+            },
+            {
+              "text": "The phrase most often repeated in later discussion is “Full support for the Gaza ghetto uprising.” Isolated from the posts and the linked blog, that slogan is an incomplete account of what the jury was asked to consider. A fair comparison with another speaker has to start from the publication as alleged, not from a five-word extract.",
+              "sources": [
+                {
+                  "id": "jc-greenstein",
+                  "locator": "Posts and linked blog as the subject-matter of the count"
+                },
+                {
+                  "id": "aljazeera-jnp",
+                  "locator": "‘Please share’ and the blog sentence as described in later reporting"
+                }
+              ]
+            },
+            {
+              "text": "The case is already recorded in the speech-offences register, which should be read alongside this study. Press Association reporting also recorded that the trial judge considered, and then declined to pursue, a contempt issue arising from the defendant’s closing address, describing that speech in terms that referred to his age. That exchange was about contempt of court. It is not a judicial finding that age caused the acquittal, and it does not tell us which element of the offence the jury rejected. We have not obtained the trial transcript or the legal directions.",
+              "sources": [
+                {
+                  "id": "jc-greenstein",
+                  "locator": "Acquittal reporting; contempt issue arising from the closing address"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-offences",
+      "title": "Two different offences under section 12",
+      "intro": "Section 12 contains more than one offence. The reported Greenstein charge was inviting support. A later or different prosecution could, in principle, be put on another subsection. An acquittal on one does not automatically decide the other.",
+      "entries": [
+        {
+          "id": "section-12-1",
+          "title": "Section 12(1): inviting support",
+          "kind": "Court of Appeal judgment",
+          "paragraphs": [
+            {
+              "text": "Section 12(1) makes it an offence to invite support for a proscribed organisation, other than support that is, or is restricted to, the provision of money or other property. In R v Choudary and Rahman, decided on 22 March 2016, the Court of Appeal treated “invite” and “support” as ordinary English words which a jury can understand without elaborate definition. The prosecution must prove that the organisation was proscribed; that the defendant used words which in fact invited support for that organisation; and that the defendant knew at the time that he was inviting support for that proscribed organisation. Knowledge that the organisation was proscribed is part of what must be proved. The court also accepted that the word “invite” itself connotes a mental element: it is difficult to see how an invitation could be inadvertent. What the court did not require was proof that the defendant himself supported the organisation, intended to support it, or invited others to join him in providing support. The criminality lies in inviting support from third parties.",
+              "sources": [
+                {
+                  "id": "ta2000-s12",
+                  "locator": "Section 12(1)"
+                },
+                {
+                  "id": "choudary",
+                  "locator": "Paras 41–49: ordinary meaning; knowledge; invitation not inadvertent; no need to prove the defendant’s own support"
+                }
+              ]
+            },
+            {
+              "text": "The same judgment is careful to distinguish an invitation of support from the mere holding or expression of personal beliefs, or an invitation to someone else to share an opinion or belief. That distinction is often the whole of a difficult case. It is also why context — surrounding words, a linked article, timing, and the way a message would reasonably have been understood — can matter without any need to treat the speaker’s religion or nationality as an element of the offence.",
+              "sources": [
+                {
+                  "id": "choudary",
+                  "locator": "Para 49: invitation of support distinguished from mere expression of belief"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-12-1a",
+          "title": "Section 12(1A): expressing a supportive opinion while reckless as to encouragement",
+          "kind": "Supreme Court judgment",
+          "paragraphs": [
+            {
+              "text": "Section 12(1A) was inserted by section 1 of the Counter-Terrorism and Border Security Act 2019 and came into force on 12 April 2019. It is a different offence. It is committed where a person expresses an opinion or belief that is supportive of a proscribed organisation, and is reckless as to whether a person to whom the expression is directed will be encouraged to support that organisation. The maximum sentence on indictment for the section 12 offences is 14 years’ imprisonment. That maximum was substituted on 29 June 2021 by section 26 of the Counter-Terrorism and Sentencing Act 2021. It was not created by the 2019 Act, which inserted subsection (1A) while the previous 10-year maximum still applied.",
+              "sources": [
+                {
+                  "id": "ta2000-s12",
+                  "locator": "Section 12(1A) and the current maximum"
+                },
+                {
+                  "id": "ctbsa-2019-s1",
+                  "locator": "Insertion of section 12(1A), in force 12 April 2019"
+                },
+                {
+                  "id": "ctsa-2021-s26",
+                  "locator": "14-year maximum substituted 29 June 2021"
+                }
+              ]
+            },
+            {
+              "text": "In R v ABJ and BDN [2026] UKSC 8, decided on 26 February 2026, the Supreme Court considered section 12(1A) and article 10 of the Convention. The appeals were brought on certified points of law before trial, and were unanimously dismissed. Lord Reed, with whom the other justices agreed, summarised the ingredients of the offence at paragraph 82. The defendant must have expressed an opinion or belief; that opinion or belief must be objectively supportive of the organisation, judged by how the words would naturally and reasonably have been understood in the circumstances; the defendant must have known that the opinion or belief was supportive of the organisation; the organisation must then have been proscribed; there must have been a risk that a person to whom the expression was directed would be encouraged to support that organisation; the defendant must have known of that risk; and it must have been objectively unreasonable to take that risk in the circumstances known to the defendant. Recklessness is the two-limb test in R v G: awareness of the risk, and unreasonableness in taking it. The Court also held that “directed” imports an intention that the words be read or heard; a post on public social media is directed to anyone who reads it.",
+              "sources": [
+                {
+                  "id": "uksc-8",
+                  "locator": "Paras 75–83: ingredients of section 12(1A); recklessness; “directed”"
+                },
+                {
+                  "id": "hra-sch1",
+                  "locator": "Article 10, freedom of expression"
+                }
+              ]
+            },
+            {
+              "text": "On article 10, the Court rejected the contention that, once the ingredients are proved, a trial court or jury must carry out a further, separate assessment of whether conviction would be a proportionate interference with freedom of expression. Paragraphs 135 to 139 explain why. Proportionality had already been assessed by the government in bringing forward the 2019 Act, by Parliament in enacting it, and by the courts in the appeal itself. The function of the trial court is to determine whether the ingredients set out in paragraph 82 have been proved to the criminal standard. Compatibility with Convention rights is a question of law, not a question of fact for the jury. The judge must still withdraw a case on which a reasonable jury could not be sure, and must ensure that any sentence is proportionate. ABJ and BDN were not a trial of Greenstein’s words, and they concerned subsection (1A), not the inviting-support offence reported in his case. They do, however, place a substantial obstacle in the way of a general article 10 attack on section 12(1A).",
+              "sources": [
+                {
+                  "id": "uksc-8",
+                  "locator": "Paras 135–139: no separate trial-court proportionality assessment; compatibility is a question of law"
+                },
+                {
+                  "id": "hra-sch1",
+                  "locator": "Article 10"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Section 12(1) and section 12(1A), compared at the level of the statutory ingredients",
+            "columns": [
+              "Point",
+              "Section 12(1)",
+              "Section 12(1A)"
+            ],
+            "rows": [
+              [
+                "Conduct",
+                "Inviting support for a proscribed organisation",
+                "Expressing an opinion or belief that is supportive of a proscribed organisation"
+              ],
+              [
+                "The main additional question",
+                "Did the words, in context, amount to an invitation, and did the speaker know that?",
+                "Was the speaker reckless as to whether a person to whom the expression was directed would be encouraged to support the organisation?"
+              ],
+              [
+                "Greenstein, as reported",
+                "This was the reported charge",
+                "Not the reported charge"
+              ],
+              [
+                "Maximum on indictment",
+                "14 years, from 29 June 2021",
+                "The same maximum"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "no-just-cause-exception",
+          "title": "Political or “just cause” framing is not a statutory defence",
+          "kind": "Supreme Court judgment",
+          "paragraphs": [
+            {
+              "text": "Two earlier authorities are relevant to any argument that words such as “uprising” or “resistance” fall outside the terrorism legislation because of the speaker’s political or moral framing. In R v Gul, the Supreme Court held that the definition of terrorism in section 1 of the 2000 Act is broad and contains no exemption for armed attacks on state or coalition forces during an armed conflict. In R v F, the Court of Appeal held that there is no “just cause” or tyrannical-regime exception built into the Act. Motive or perceived moral justification does not, by itself, take conduct outside the statutory language. Those holdings do not decide whether any particular post invited support or expressed a supportive opinion. They do show why a speaker’s own description of events as resistance is not a complete answer once the statutory elements are in play.",
+              "sources": [
+                {
+                  "id": "gul",
+                  "locator": "No armed-conflict exemption in the section 1 definition of terrorism"
+                },
+                {
+                  "id": "r-v-f",
+                  "locator": "No “just cause” exception"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mock-trial",
+      "title": "A thought experiment, not a mock prosecution",
+      "intro": "What follows is a structured comparison, on paper, of two speakers. It is not a prediction. It is not a finding. It is not an invitation to anyone to publish the words discussed, to invite a charge, or to test the Crown Prosecution Service. The point of the exercise is to show which questions the law actually asks, and which differences are legally irrelevant.",
+      "entries": [
+        {
+          "id": "person-a-and-person-b",
+          "title": "Person A and Person B",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "Person A is Tony Greenstein, as reported: a 72-year-old Jewish anti-Zionist activist and writer, the son of an Orthodox rabbi, who was tried at Kingston Crown Court on a count of inviting support for Hamas and acquitted on 21 August 2026. Person B is a hypothetical 40-year-old non-Jewish Polish man who, on the same date and on the same kind of platform, published the same words — meaning, so far as the reports allow, the posts and the linked blog material that formed the subject of the count, not a detached slogan. The question can be put plainly, and even a little casually: the dude was 72 and Jewish — might that have influenced the jury? We are monitoring the situation. It is a fair question to ask in public. It is not evidence that those facts caused the acquittal. Age, nationality, ethnicity and religion are not elements of section 12, and they are not a lawful ground for treating two speakers differently.",
+              "sources": [
+                {
+                  "id": "jc-greenstein",
+                  "locator": "Person A’s reported profile, charge and acquittal"
+                },
+                {
+                  "id": "ta2000-s12",
+                  "locator": "Identity is not an ingredient of either subsection"
+                }
+              ]
+            },
+            {
+              "text": "There is, however, a legitimate distinction that has nothing to do with identity. The reporting records that the court heard evidence of Greenstein’s earlier published criticism of Hamas, and that he argued “congratulating” Hamas was a figure of speech, while maintaining that he did not support Hamas as an organisation. A hypothetical Person B, imagined only as a typical speaker of the same words on the same day, would not automatically have that publication history, those surrounding statements, or that body of evidence. Context of that kind can be relevant to whether words amounted to an invitation, and to whether the speaker knew they were inviting support. Treating that evidence as relevant is not the same thing as treating Jewish identity, or age, as a reason for a different result.",
+              "sources": [
+                {
+                  "id": "jc-greenstein",
+                  "locator": "Prior published criticism of Hamas, and the defence position, as reported"
+                },
+                {
+                  "id": "choudary",
+                  "locator": "Invitation, knowledge and the distinction from mere belief depend on context"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "The comparison, stated as a thought experiment",
+            "columns": [
+              "Point",
+              "Person A — the reported case",
+              "Person B — hypothetical"
+            ],
+            "rows": [
+              [
+                "Speaker",
+                "Tony Greenstein, 72, Jewish anti-Zionist activist and writer; son of an Orthodox rabbi; not himself reported to be a rabbi",
+                "A 40-year-old non-Jewish Polish man, otherwise undescribed"
+              ],
+              [
+                "Publication, so far as reported",
+                "Three posts on 7 October 2023, including “please share” and “Full support for the Gaza ghetto uprising,” plus linked blog material",
+                "The same words, on the same date, on the same kind of platform — if, and only if, the comparison uses the same surrounding publication"
+              ],
+              [
+                "Charge as reported",
+                "Inviting support for a proscribed organisation, section 12(1)",
+                "Unknown: there is no actual charge"
+              ],
+              [
+                "Outcome",
+                "Not guilty, 21 August 2026, Kingston Crown Court",
+                "Not known, and not predicted on this page"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "walking-the-elements",
+          "title": "Walking the statutory elements",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "On a section 12(1) charge, the same legal questions would be asked of both speakers. Was Hamas a proscribed organisation at the time? Did the words, taken in their circumstances, in fact invite support for Hamas? Did the speaker know, at the time, that he was inviting support for that proscribed organisation? A judge would be likely to direct a jury, in line with Choudary, that “invite” and “support” bear their ordinary meaning; that an invitation is not accidental; that the speaker need not himself support the organisation or invite others to join him; and that merely holding or expressing a belief, or inviting someone to share an opinion, is not enough. We do not have the directions actually given in Greenstein, so this is a statement of the appellate law, not a reconstruction of that summing-up.",
+              "sources": [
+                {
+                  "id": "choudary",
+                  "locator": "The elements and the likely shape of a direction"
+                },
+                {
+                  "id": "ta2000-s12",
+                  "locator": "Section 12(1)"
+                }
+              ]
+            },
+            {
+              "text": "On a section 12(1A) charge — which was not the reported Greenstein charge, but which a later prosecutor might consider — the questions would follow paragraph 82 of ABJ and BDN. Was an opinion or belief expressed? Would those words naturally and reasonably have been understood, in the circumstances, as supportive of Hamas? Did the speaker know that? Was there a risk that a person to whom the expression was directed would be encouraged to support Hamas? Did the speaker know of that risk, and was it objectively unreasonable to take it? The jury would not be asked to carry out a separate article 10 proportionality assessment. The judge would still have to decide whether the evidence was capable of making a reasonable jury sure of each ingredient.",
+              "sources": [
+                {
+                  "id": "uksc-8",
+                  "locator": "Para 82 ingredients; paras 135–139, no separate jury proportionality assessment"
+                },
+                {
+                  "id": "ta2000-s12",
+                  "locator": "Section 12(1A)"
+                }
+              ]
+            },
+            {
+              "text": "At the charging stage, the Full Code Test would be applied to Person B on the evidence actually available in that case. A previous acquittal of another person is relevant to the prosecutor’s assessment of how an impartial jury might view comparable words, but it does not automatically take a new case below the evidential threshold. Each case is considered on its own facts. If the evidential stage is not met, the case must stop there. If it is met, the prosecutor still has to ask whether a prosecution is required in the public interest. The Code does not exist in order to obtain a test-case ruling for the benefit of public debate, and a desire for legal clarity is not, by itself, a reason to charge someone.",
+              "sources": [
+                {
+                  "id": "cps-code",
+                  "locator": "Paras 4.6–4.10: own-facts assessment, evidential stage first, then public interest"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Variables that can affect a result, and whether they are legal ingredients",
+            "columns": [
+              "Variable",
+              "Legal role",
+              "Why it can still matter, or why it must not"
+            ],
+            "rows": [
+              [
+                "The exact wording",
+                "Primary evidence",
+                "Directly relevant to whether the words invited support or were objectively supportive."
+              ],
+              [
+                "Surrounding posts, captions and a linked article",
+                "Contextual evidence",
+                "Highly relevant. In the reported Greenstein case, the count was not confined to a detached slogan."
+              ],
+              [
+                "Date and timing",
+                "Situational context",
+                "Publication on 7 October 2023 is part of the circumstances in which the words would have been understood."
+              ],
+              [
+                "Audience and platform",
+                "Reach and, under subsection (1A), the “directed to” question",
+                "A public social-media post can be directed to anyone who reads it."
+              ],
+              [
+                "Mental state",
+                "An element of the offence",
+                "Knowledge of inviting support, or knowledge plus recklessness under subsection (1A), must be proved."
+              ],
+              [
+                "Earlier publications and public posture",
+                "Possible contextual evidence",
+                "May help a fact-finder interpret meaning or knowledge, subject to ordinary rules of relevance and fairness. This is a real difference if Person B has no comparable record."
+              ],
+              [
+                "Age and demeanour",
+                "Not an element",
+                "May affect how a witness or a defendant is perceived in court. That possibility is a hypothesis, not evidence, and it is not a legal test."
+              ],
+              [
+                "Nationality, ethnicity or religion",
+                "Not an element",
+                "Impermissible as a ground of different treatment. Relevant only if it forms part of legitimate contextual evidence, or in a properly evidenced article 14 claim."
+              ],
+              [
+                "The jury",
+                "The fact-finder",
+                "Different juries can assess the same evidence differently. Their verdict is almost always unexplained, and their deliberations cannot lawfully be investigated."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "what-the-experiment-can-and-cannot-show",
+          "title": "What this experiment can and cannot show",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The honest conclusion is limited, and it should stay limited. We cannot say that Person B would be convicted, or acquitted, or not charged. Unreasoned jury verdicts cannot be replayed. In England and Wales, section 20D of the Juries Act 1974 makes it an offence intentionally to disclose, solicit or obtain information about statements made, opinions expressed, arguments advanced or votes cast by members of a jury in the course of their deliberations in the proceedings. The older prohibition in section 8 of the Contempt of Court Act 1981 was repealed for England and Wales by the Criminal Justice and Courts Act 2015. It is therefore not possible, and not lawful, to settle this question by asking the Greenstein jury why it acquitted. Controlled research about juries in general is a different thing from reopening a particular trial. This review has not relied on any such study, because a live official text of the often-cited Ministry of Justice paper was not verified in this pass.",
+              "sources": [
+                {
+                  "id": "juries-act-20d",
+                  "locator": "Offence of disclosing, soliciting or obtaining jury deliberation information"
+                },
+                {
+                  "id": "jc-greenstein",
+                  "locator": "The actual verdict remains unexplained in the public reports"
+                }
+              ]
+            },
+            {
+              "text": "What can be said is this. The legally relevant questions are the same for both speakers. Identity should be irrelevant to the legal test, even if, as a hypothesis, a jury’s perception of a defendant might be influenced by age, manner or background. There is no evidence that Greenstein’s Jewish identity, or his age, caused the acquittal. A hypothetical Person B might still face a different evidential picture because the surrounding publication, or the absence of a long record of criticism of Hamas, would not be the same. An acquittal on section 12(1) would not, in any event, decide a section 12(1A) charge. The plausible outcome range for Person B therefore includes no investigation, no charge, a charge and an acquittal, or a charge and a conviction. This page does not pick one. Repeating the words in public in order to force a ruling would not reliably produce a reasoned precedent, and it would put the speaker at risk of prosecution. That is not a route this study recommends or invites.",
+              "sources": [
+                {
+                  "id": "jc-greenstein",
+                  "locator": "No public evidence that identity caused the verdict"
+                },
+                {
+                  "id": "ta2000-s12",
+                  "locator": "Two offences, and identity is not an ingredient of either"
+                },
+                {
+                  "id": "choudary",
+                  "locator": "Context and knowledge remain the legally relevant questions"
+                },
+                {
+                  "id": "cps-code",
+                  "locator": "A new case is still assessed on its own evidence"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prosecutorial-paradox",
+      "title": "The prosecutorial paradox",
+      "intro": "The Full Code Test can leave a citizen without either a prosecution or a ruling, and a prosecution still may not produce a precedent.",
+      "entries": [
+        {
+          "id": "full-code-bind",
+          "title": "Why a previous acquittal does not automatically close, or open, the next case",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The observation that started this study is a real institutional tension, not a trick of wording. A citizen wants to know whether particular words are criminal. A comparable defendant has been acquitted. When the Crown Prosecution Service assesses a new case, a previous acquittal may reduce the assessed prospect of conviction. If the evidential stage is not met, there is no prosecution and no judicial determination. If it is met, and the public-interest stage is also met, the result is another fact-specific trial, which may end in another unexplained verdict. Neither path necessarily produces a binding statement of the general law. The important qualification is that one previous acquittal does not automatically drive a new case below the charging threshold. The Code requires an assessment of the evidence in that case, including any defence the suspect may rely on. Equally, the Service’s function is to decide whether to prosecute on the tests in the Code, not to supply advisory rulings so that public debate can be conducted with certainty.",
+              "sources": [
+                {
+                  "id": "cps-code",
+                  "locator": "Paras 4.6–4.10: evidential stage, own facts, public interest; the Code is a charging test, not an advisory jurisdiction"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lawful-routes",
+      "title": "Lawful routes to a reasoned ruling",
+      "intro": "There are procedures that do not require a person to attract a terrorism charge in order to ask the courts a legal question. None of them is a guaranteed route to a free-standing ruling on a particular phrase, and none of them is advice to bring a claim.",
+      "entries": [
+        {
+          "id": "purdy-model",
+          "title": "Judicial review of prosecutorial guidance: the Purdy model",
+          "kind": "House of Lords judgment",
+          "paragraphs": [
+            {
+              "text": "In R (Purdy) v Director of Public Prosecutions, decided on 30 July 2009, Debbie Purdy sought greater clarity about the risk of prosecution for a person who might assist her to travel abroad for an assisted death. The House of Lords held that, for the purposes of article 8, and the requirement that an interference be “in accordance with the law,” the Director should publish more specific offence-focused guidance so that a person in her position could foresee, to the extent the nature of the subject-matter allowed, the likely consequences of a course of conduct. The case is a procedural model for asking whether published prosecutorial policy is sufficiently foreseeable. It is not a template that can be copied, without more, onto section 12 and article 10. The underlying right was article 8, not article 10; the offence and the published guidance were different; and any analogous claim today would have to be framed in the light of the statutory text and of ABJ and BDN. Success is not guaranteed, and this page does not say that such a claim ought to be brought.",
+              "sources": [
+                {
+                  "id": "purdy",
+                  "locator": "Foreseeability and the direction to publish more specific DPP guidance, in an article 8 context"
+                },
+                {
+                  "id": "hra-sch1",
+                  "locator": "Article 8 and, by analogy only, the foreseeability principle"
+                },
+                {
+                  "id": "uksc-8",
+                  "locator": "Any later article 10 argument about section 12(1A) faces the 2026 judgment"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "declarations-and-article-14",
+          "title": "Declarations, and a discrimination claim that would need evidence",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The High Court can, in a properly constituted claim, grant a declaration of legal rights. English courts do not, however, sit to give advisory opinions on abstract or hypothetical questions. A person seeking a declaration about the criminal limits of particular speech would have to show a real legal controversy, a sufficient interest, and an appropriate defendant. Whether any particular publishing or educational activity would meet that threshold is a question for specialist advice on the facts. It is not answered here.",
+              "sources": [
+                {
+                  "id": "purdy",
+                  "locator": "A concrete controversy and a proper defendant were essential even in the model case"
+                }
+              ]
+            },
+            {
+              "text": "A separate question would arise if there were evidence that the state treated materially equivalent expressions differently because of nationality, ethnicity or religion. Article 14 of the Convention, read with article 10, prohibits discrimination in the enjoyment of Convention rights. A claim of that kind would require comparative evidence of differential official treatment, not speculation about how different juries might have reacted to a defendant’s manner or identity. No such evidential record is offered or found on this page.",
+              "sources": [
+                {
+                  "id": "hra-sch1",
+                  "locator": "Article 14, read with article 10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "deproscription-and-ag-reference",
+          "title": "Deproscription, and an Attorney General’s Reference after an acquittal",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "The Jewish Network for Palestine application, already described, is an existing statutory route for challenging the listing of Hamas. It addresses the proscription itself, not the rules on how a jury should treat a particular form of words, and it is a different application from earlier deproscription efforts discussed elsewhere on this site. A refusal can be appealed to the Proscribed Organisations Appeal Commission, whose test is whether the refusal was flawed on judicial-review principles. Further appeal on a point of law is a later, limited step. That process may change the legal environment in which section 12 operates, but it is not a ruling on the Greenstein wording.",
+              "sources": [
+                {
+                  "id": "aljazeera-jnp",
+                  "locator": "The 26 November 2026 application"
+                },
+                {
+                  "id": "ta2000-s4",
+                  "locator": "The application mechanism"
+                },
+                {
+                  "id": "ta2000-s5",
+                  "locator": "POAC appeal and the judicial-review standard"
+                }
+              ]
+            },
+            {
+              "text": "There is also a procedure that starts from an acquittal. Under section 36 of the Criminal Justice Act 1972, where a person tried on indictment has been acquitted, the Attorney General may refer a point of law that has arisen in the case to the Court of Appeal, which must consider the point and give its opinion. A further reference to the Supreme Court is possible. Section 36(7) is explicit: a reference under the section shall not affect the trial or any acquittal in that trial. The defendant remains acquitted. The public, however, can obtain a reasoned statement of the law. The power belongs to the Attorney General, not to a private citizen. A search of public reports for this review has not located an Attorney General’s Reference arising from the Greenstein acquittal. That is not a finding that none was considered, only that none has been found in the public domain.",
+              "sources": [
+                {
+                  "id": "cja-1972-s36",
+                  "locator": "Reference of a point of law after acquittal; section 36(7), the acquittal stands"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparative-repository",
+      "title": "A comparative record, rather than an experiment in public speech",
+      "intro": "If the aim is to understand how section 12 is being applied, the productive work is to collect comparable cases, not to generate a new defendant.",
+      "entries": [
+        {
+          "id": "repository-fields",
+          "title": "What a useful record needs to keep",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "The speech-offences register already collects named and anonymised cases with dated outcomes, provisions and sources. A tighter comparative record of section 12 prosecutions would still need, for each case, the exact words alleged, the surrounding publication, the subsection charged, the mental element the prosecution said it could prove, what the police and the Crown Prosecution Service did, the trial court’s directions where they can lawfully be obtained, the verdict or other disposal, and whether a reasoned judgment exists. Anonymised identifiers used in other cases must not be joined up by inference. Trial transcripts and the judge’s directions in Greenstein remain outstanding, and they would be more informative than the verdict alone.",
+              "sources": []
+            }
+          ],
+          "table": {
+            "caption": "Fields for a comparative section 12 record",
+            "columns": [
+              "Field",
+              "What it is for"
+            ],
+            "rows": [
+              [
+                "case_id",
+                "A stable public identifier that does not invent identities."
+              ],
+              [
+                "utterance_verbatim",
+                "The words actually alleged, not a later paraphrase."
+              ],
+              [
+                "surrounding_context_summary",
+                "Posts, links, captions, timing and audience, so far as they can be sourced."
+              ],
+              [
+                "publication_date",
+                "The date of the expression, which may differ from the charge or the verdict."
+              ],
+              [
+                "statutory_section_and_subsection",
+                "Section 12(1), 12(1A), or another provision, stated exactly."
+              ],
+              [
+                "alleged_mens_rea_or_recklessness",
+                "What the prosecution said it could prove, not what commentators infer."
+              ],
+              [
+                "police_action",
+                "Arrest, search, bail, no further action, or not known."
+              ],
+              [
+                "cps_charging_decision_and_rationale",
+                "Charge, no charge, or discontinued, with any published reason."
+              ],
+              [
+                "trial_court_and_judge_directions_summary",
+                "Only where a lawful public record exists."
+              ],
+              [
+                "verdict_or_disposal",
+                "Acquittal, conviction, hung jury, or another disposal, kept distinct."
+              ],
+              [
+                "reasoned_judgment_available",
+                "Whether the result produced precedent, or only a verdict."
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "legal-certainty",
+      "title": "The legal certainty paradox, named",
+      "intro": "When an acquittal establishes individual non-liability without establishing the general lawfulness of the underlying expression, other people remain unsure whether materially equivalent speech may expose them to prosecution.",
+      "entries": [
+        {
+          "id": "five-principles",
+          "title": "The principles in play, and the question that remains",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "Five principles are engaged. Article 7 requires that criminal liability be sufficiently foreseeable. Article 10 protects freedom of expression, subject to lawful and necessary restrictions. Article 14 prohibits discrimination in the enjoyment of Convention rights, including on grounds such as religion or national origin. Equality before the law requires that legal tests be applied without improper distinction. Legal certainty, in the broad sense used in this study, is the ability of a person to regulate their conduct in advance. Those principles do not decide that any particular phrase is lawful. They explain why an unexplained jury verdict is an incomplete answer to a citizen who is trying to stay on the right side of the line.",
+              "sources": [
+                {
+                  "id": "hra-sch1",
+                  "locator": "Articles 7, 10 and 14"
+                }
+              ]
+            },
+            {
+              "text": "The objective worth seeking is a reasoned judicial determination, not another unexplained verdict. Even a second acquittal, obtained by repeating the same words, might reproduce the very uncertainty this page is trying to describe. The strongest research question is therefore not “what would happen if someone else said it?” The strongest question is: how can a law-abiding citizen obtain authoritative clarification of the boundaries of criminalised speech without first having to risk criminal prosecution? The public in the United Kingdom is entitled to know, as far as the law can make known, what the rules on free speech are. The lawful ways of asking that question are the procedures set out above, a careful comparative record of real cases, and — if the Attorney General considers that a point of law arose in Greenstein — a reference that would leave the acquittal untouched.",
+              "sources": [
+                {
+                  "id": "hra-sch1",
+                  "locator": "Articles 7 and 10, and the foreseeability interest they protect"
+                },
+                {
+                  "id": "cja-1972-s36",
+                  "locator": "A reasoned opinion on a point of law that leaves the acquittal in place"
+                },
+                {
+                  "id": "purdy",
+                  "locator": "The model, in a different context, of seeking clarity without first committing the conduct"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Limits of this review",
+      "intro": "Several documents that would tighten the analysis have not been obtained.",
+      "entries": [
+        {
+          "id": "what-remains-unseen",
+          "title": "What has not been seen, and what this page is not",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "This review has not obtained the Greenstein indictment, the posts and linked article as exhibited, the prosecution openings or consents, the judge’s legal directions, or a transcript of the evidence or speeches. It has not located a public Attorney General’s Reference arising from the acquittal. It has not independently inspected the Jewish Network for Palestine application file, only contemporaneous reporting of the filing and the statutory procedure. Official jury-research publications sometimes cited in this area were not verified from a live official text in this pass and are therefore not relied on. The thought experiment is not a prediction of any verdict, not a finding about why the Greenstein jury acquitted, and not legal advice. It is not an invitation to publish the words discussed.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "aljazeera-jnp",
+      "title": "Proscribing free speech: Why a Jewish group is challenging UK’s Hamas ban",
+      "publisher": "Al Jazeera",
+      "type": "News report",
+      "url": "https://www.aljazeera.com/news/2026/11/26/proscribing-free-speech-why-a-jewish-group-is-challenging-uks-hamas-ban",
+      "date": "2026-11-26",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ta2000-s4",
+      "title": "Terrorism Act 2000, section 4",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/4",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "si-2006-2299-reg7",
+      "title": "The Proscribed Organisations (Applications for Deproscription etc.) Regulations 2006, regulation 7",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/2006/2299/regulation/7",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ta2000-s5",
+      "title": "Terrorism Act 2000, section 5",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/5",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "jc-greenstein",
+      "title": "Tony Greenstein cleared of inviting support for Hamas",
+      "publisher": "Press Association · The Jewish Chronicle",
+      "type": "Contemporaneous court reporting",
+      "url": "https://www.thejc.com/news/uk/tony-greenstein-cleared-inviting-support-hamas-bfbjrlik",
+      "date": "2026-08-21",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "cps-code",
+      "title": "The Code for Crown Prosecutors",
+      "publisher": "Crown Prosecution Service",
+      "type": "Prosecutorial guidance",
+      "url": "https://www.cps.gov.uk/publication/code-crown-prosecutors",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ta2000-s12",
+      "title": "Terrorism Act 2000, section 12",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/11/section/12",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "choudary",
+      "title": "R v Choudary and Rahman [2016] EWCA Crim 61",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2016/61",
+      "date": "2016-03-22",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ctbsa-2019-s1",
+      "title": "Counter-Terrorism and Border Security Act 2019, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2019/3/section/1",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ctsa-2021-s26",
+      "title": "Counter-Terrorism and Sentencing Act 2021, section 26",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2021/11/section/26",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "uksc-8",
+      "title": "R v ABJ; R v BDN [2026] UKSC 8",
+      "publisher": "The Supreme Court",
+      "type": "Supreme Court judgment",
+      "url": "https://supremecourt.uk/uploads/uksc_2025_0059_0079_judgment_b1b1beab96.pdf",
+      "date": "2026-02-26",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "hra-sch1",
+      "title": "Human Rights Act 1998, Schedule 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/42/schedule/1",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "gul",
+      "title": "R v Gul [2013] UKSC 64",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Supreme Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2013/64",
+      "date": "2013-10-23",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "r-v-f",
+      "title": "R v F [2007] EWCA Crim 243",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2007/243",
+      "date": "2007-02-16",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "juries-act-20d",
+      "title": "Juries Act 1974, section 20D",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1974/23/section/20D",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "purdy",
+      "title": "R (Purdy) v Director of Public Prosecutions [2009] UKHL 45",
+      "publisher": "BAILII",
+      "type": "House of Lords judgment",
+      "url": "https://www.bailii.org/uk/cases/UKHL/2009/45.html",
+      "date": "2009-07-30",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "cja-1972-s36",
+      "title": "Criminal Justice Act 1972, section 36",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1972/71/section/36",
+      "checked": "2026-11-27"
+    }
+  ]
+}

@@ -18,6 +18,10 @@
   "status_note": "Source review: 27 November 2026. 49 case records, including grouped defendants, separate events and anonymised appellate records. This is not a certified count of unique proceedings. Dates identify the last sourced position, not a guarantee of current status. Acquittals, dropped charges, procedural terminations, hung juries and convictions remain distinct. Current focus: Sarah Wilkinson; the cited June report is a dated account, not a current court-listing certificate. The separately tracked proscription appeal does not increase the 49-record count.",
   "related": [
     {
+      "id": "acquittal-legal-certainty-paradox",
+      "title": "The acquittal–legal certainty paradox"
+    },
+    {
       "id": "hamas-deproscription",
       "title": "Hamas deproscription — a separate legal process"
     },
@@ -612,6 +616,10 @@
           "paragraphs": [
             {
               "text": "Obtain the indictment, full posts and linked article as used at trial, prosecution consents, preparatory rulings, legal directions and formal verdict record. Examine the reasons for prosecuting and any documented costs or restrictions. The verdict alone does not explain which part of the prosecution case the jury rejected or establish bad faith by officials.",
+              "sources": []
+            },
+            {
+              "text": "A separate legal study, The acquittal–legal certainty paradox, examines what this acquittal does and does not settle for another person who used the same words, and why a further public experiment is not a reliable way to obtain a reasoned ruling. The verdict alone still does not identify which element the jury rejected.",
               "sources": []
             }
           ]
