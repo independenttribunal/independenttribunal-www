@@ -3,8 +3,8 @@
   "category": "legal-study",
   "title": "Speech offences",
   "subtitle": "The wider record: words, symbols and criminal proceedings",
-  "summary": "A growing register of 48 case records covering UK speech and Hamas-related allegations, Palestine Action expression cases and a separate Jersey comparator, with dated outcomes, official scale figures and an explicit coverage audit.",
-  "checked": "2026-11-21",
+  "summary": "A growing register of 49 case records covering UK speech and Hamas-related allegations, Palestine Action expression cases and a separate Jersey comparator, with dated outcomes, official scale figures and an explicit coverage audit.",
+  "checked": "2026-11-27",
   "jurisdiction": "United Kingdom · England and Wales and Scotland · Jersey comparator separately identified",
   "tags": [
     "uk",
@@ -15,7 +15,7 @@
     "research"
   ],
   "scope": "A research register of Hamas-related proceedings and wider speech cases concerning Palestine, Israel and political expression. The legal provisions and outcomes differ. Jersey is outside the UK; no record is presented as proof that every intervention was justified or unjustified.",
-  "status_note": "Source review: 21 November 2026. 48 case records, including grouped defendants, separate events and anonymised appellate records. This is not a certified count of unique proceedings. Dates identify the last sourced position, not a guarantee of current status. Acquittals, dropped charges, procedural terminations, hung juries and convictions remain distinct. Current focus: Sarah Wilkinson; the cited June report is a dated account, not a current court-listing certificate. The separately tracked proscription appeal does not increase the 48-record count.",
+  "status_note": "Source review: 27 November 2026. 49 case records, including grouped defendants, separate events and anonymised appellate records. This is not a certified count of unique proceedings. Dates identify the last sourced position, not a guarantee of current status. Acquittals, dropped charges, procedural terminations, hung juries and convictions remain distinct. Current focus: Sarah Wilkinson; the cited June report is a dated account, not a current court-listing certificate. The separately tracked proscription appeal does not increase the 49-record count.",
   "related": [
     {
       "id": "hamas-deproscription",
@@ -51,8 +51,8 @@
   "highlights": [
     {
       "label": "The wider register",
-      "value": "48 case records",
-      "detail": "83 sources · grouped cases and coverage gaps identified",
+      "value": "49 case records",
+      "detail": "86 sources · grouped cases and coverage gaps identified",
       "target": "register-scope"
     },
     {
@@ -444,7 +444,7 @@
               "sources": []
             },
             {
-              "text": "A source review on 21 November 2026 does not turn an older report into a current court-status certificate. Each machine-readable case record includes its jurisdiction, scope, legal provisions and the date of the last sourced position when known. Unknown dates stay unknown. Scheduled hearings are not proof that hearings happened.",
+              "text": "A source review on 27 November 2026 does not turn an older report into a current court-status certificate. Each machine-readable case record includes its jurisdiction, scope, legal provisions and the date of the last sourced position when known. Unknown dates stay unknown. Scheduled hearings are not proof that hearings happened.",
               "sources": []
             },
             {
@@ -1364,6 +1364,72 @@
             "aliases": [
               "Feras Al Jayoosi"
             ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ucl-dove-banner-section",
+      "title": "A banner arrest that did not lead to a charge",
+      "intro": "A display can be investigated under section 13 without becoming a conviction. Interview accounts, official statements and later disposal reports are kept apart.",
+      "entries": [
+        {
+          "id": "ucl-dove-banner",
+          "title": "Four people · UCL dove banner · Arrests reported; no further action later reported",
+          "kind": "Case record · No further action later reported · Last sourced position: 2025-08-14 · England and Wales · arrest on 2024-05-04",
+          "date": "2024-05-04",
+          "paragraphs": [
+            {
+              "text": "Morning Star, writing on 5 May 2024, reports that four people — two men and two women — were arrested at about 6.30pm on Saturday 4 May outside University College London, as a banner was being packed away after a protest in solidarity with a student encampment. They were released under investigation, on police bail, for an alleged offence under section 13 of the Terrorism Act 2000, which concerns wearing, carrying or displaying an article in such a way or in such circumstances as to arouse reasonable suspicion that the person is a member or supporter of a proscribed organisation. A Met Police spokeswoman confirmed that four people were arrested “in relation to the displaying of a banner that appeared to be supporting a proscribed organisation.” Deputy Assistant Commissioner Ade Adelekan said the force’s “response was proportionate” in its operations during the protests, and that it would “continue to police without fear or favour.” An arrest is not a charge or a conviction.",
+              "sources": [
+                {
+                  "id": "ucl-banner-ms",
+                  "locator": "Arrests, bail under investigation, Met confirmation and Adelekan remarks"
+                },
+                {
+                  "id": "section-thirteen",
+                  "locator": "Section 13(1)"
+                }
+              ]
+            },
+            {
+              "text": "The same report, drawing on people who spoke after the four were released, describes the banner as showing a dove carrying a key flying through a breach in a concrete wall, against a clear blue sky. It quotes the account that, in interview, officers said the image allegedly supported Hamas because it “depicted a clear blue sky with no clouds, and on October 7 there was clear blue sky with no clouds.” That is an attributed interview account, not a published Metropolitan Police explanation. The Met’s public remarks reviewed here confirm arrests in relation to a banner that appeared to support a proscribed organisation, and do not mention the sky. Whether a painting of a dove, a key and a blue sky could reasonably be suspected of supporting a proscribed organisation is the statutory question under section 13; this page does not answer it.",
+              "sources": [
+                {
+                  "id": "ucl-banner-ms",
+                  "locator": "Attributed interview account of the ‘clear blue sky’ reasoning"
+                }
+              ]
+            },
+            {
+              "text": "In the 14 August 2025 London Review of Books, David Renton writes that the four were interviewed, held under police bail and spent months facing a possible section 13 prosecution before the police decided to take no further action. The decision letter has not been inspected here. The four are not named in the contemporaneous reports cited in this entry.",
+              "sources": [
+                {
+                  "id": "ucl-banner-lrb",
+                  "locator": "Later report of no further action"
+                }
+              ]
+            },
+            {
+              "text": "The Tab, citing the Telegraph, also reported a separate fifth arrest at the same protest for an alleged public-order incident involving spitting toward counter-protesters. That allegation is not part of this banner record. UCL said a protest with tents on campus had so far been peaceful and in line with its codes of conduct, and that protests on the public streets outside were organised by external groups.",
+              "sources": [
+                {
+                  "id": "ucl-banner-tab",
+                  "locator": "Separate public-order arrest, cited from the Telegraph, and UCL statement"
+                }
+              ]
+            }
+          ],
+          "case_record": {
+            "name": "Four people · UCL dove banner",
+            "jurisdiction": "England and Wales",
+            "provisions": [
+              "Terrorism Act 2000 s13; alleged display of an article"
+            ],
+            "scope": "hamas",
+            "last_sourced_position": "Arrests reported; no further action later reported",
+            "status_as_of": "2025-08-14",
+            "outcome_type": "no-further-action"
           }
         }
       ]
@@ -3199,18 +3265,45 @@
       "url": "https://www.bbc.co.uk/news/articles/ce8p188k862o",
       "date": "2026-05-11",
       "checked": "2026-11-21"
+    },
+    {
+      "id": "ucl-banner-ms",
+      "title": "‘Biased’ Met Police arrest protesters for holding image of ‘clear blue sky’",
+      "publisher": "Morning Star",
+      "type": "Contemporaneous reporting, including an attributed interview account and a Metropolitan Police confirmation",
+      "url": "https://morningstaronline.co.uk/article/%E2%80%98biased%E2%80%99-met-police-arrest-palestine-protesters-holding-image-%E2%80%98clear-blue-sky%E2%80%99",
+      "date": "2024-05-05",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ucl-banner-tab",
+      "title": "Met Police arrest five protestors outside UCL encampment following counter protest",
+      "publisher": "The Tab",
+      "type": "Contemporaneous campus reporting, including a UCL statement and a citation of a separate public-order arrest",
+      "url": "https://thetab.com/2024/05/08/met-police-arrest-five-protestors-outside-ucl-encampment-following-counter-protest",
+      "date": "2024-05-08",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ucl-banner-lrb",
+      "title": "Short Cuts: What is the meaning of support?",
+      "publisher": "London Review of Books",
+      "type": "Later essay reporting that the police decided to take no further action",
+      "url": "https://www.lrb.co.uk/the-paper/v47/n14/david-renton/short-cuts",
+      "date": "2025-08-14",
+      "checked": "2026-11-27"
     }
   ],
   "register_metadata": {
-    "record_count": 48,
+    "record_count": 49,
     "unit": "case records; grouped defendants, separate events and anonymised appellate records explicitly identified",
-    "checked": "2026-11-21",
+    "checked": "2026-11-27",
     "exhaustive": false,
     "jersey_in_uk_count": false,
-    "source_count": 83,
+    "source_count": 86,
     "unique_proceedings_verified": false,
     "by_scope": {
-      "hamas": 28,
+      "hamas": 29,
       "jersey-comparator": 1,
       "other-proscribed-organisation": 2,
       "palestine-action": 3,
@@ -3220,7 +3313,7 @@
     "legal_process_count": 1
   },
   "coverage_audit": {
-    "checked": "2026-11-21",
+    "checked": "2026-11-27",
     "supplied_note_review": {
       "matched_record_ids": [
         "abj-prosecution",
@@ -3240,7 +3333,8 @@
       "Complete Palestine Action expression cohorts; official totals are not the named register",
       "Sarah Wilkinson: actual disclosure notice, authorisation, charge particulars and confirmation of the reported January 2027 listing",
       "Hanin Barghouthi: formal CPS retrial decision and any listing, beyond the attributed October 2026 campaign account",
-      "AB and BDN: no source yet using both identifiers; do not merge by inference"
+      "AB and BDN: no source yet using both identifiers; do not merge by inference",
+      "UCL dove banner: official interview record or any Metropolitan Police account of the sky reasoning, and the written no-further-action decision"
     ],
     "statistical_totals_are_additive": false
   },
@@ -3251,5 +3345,16 @@
     "report_date": "2026-06-24",
     "current_listing_verified": false,
     "notice_and_charge_particulars_obtained": false
-  }
+  },
+  "artworks": [
+    {
+      "src": "/images/ucl-dove-banner.webp",
+      "width": 894,
+      "height": 443,
+      "after_entry": "ucl-dove-banner",
+      "alt": "A painted banner showing a white dove with spread wings holding a dark key, the word Free in green script above it, a clear blue sky, and grey concrete wall sections with watchtowers on both sides and broken rubble in the middle.",
+      "caption": "Image supplied for this page, matching contemporaneous descriptions of the banner displayed outside University College London on 4 May 2024. Inclusion is not a finding about the meaning of the work, and it is not official police evidence.",
+      "transcript": "A colour photograph of a painted banner. A white dove with red beak and spread wings holds a dark key at its feet. The word “Free” is written in green cursive script above the dove, against a clear blue sky. On either side are grey concrete wall sections with watchtowers; broken masonry and a strip of brown ground sit beneath the gap. No other wording is readable."
+    }
+  ]
 }
