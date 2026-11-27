@@ -75,4 +75,18 @@ test("acquittal–legal certainty paradox: verified holdings, thought experiment
   const category = await json("data/categories/speech-offences.json");
   const hamas = category.chapters.find((c) => c.title === "Supporting Hamas");
   assert.ok(hamas.links.some((l) => l.href === `/research/${id}/`));
+
+  assert.match(html, /id="awareness-paradox"/);
+  assert.match(blob, /quantum meta shape-shifting entangled paradox/);
+  assert.match(blob, /no more than evidence of the opinion of that jury/);
+  assert.match(blob, /Better legal knowledge is therefore not automatically aggravating/);
+  assert.match(blob, /not a reason to publish the words in order to test the point/);
+  assert.match(blob, /Freedom of Information Act 2000/);
+  assert.match(blob, /£600/);
+  assert.match(blob, /section 23 is an absolute exemption/);
+  assert.match(blob, /No Freedom of Information requests have been made/);
+  assert.equal(sources.get("hui-chi-ming").url, "https://www.bailii.org/uk/cases/UKPC/1991/29.html");
+  assert.equal(sources.get("golam-rassoude").url, "https://caselaw.nationalarchives.gov.uk/ewca/crim/2020/704");
+  assert.equal(sources.get("ho-tact-stats-2026").url.startsWith("https://www.gov.uk/government/statistics/operation-of-police-powers-under-tact-2000-to-june-2026"), true);
+  assert.ok(html.includes('href="#awareness-paradox"') || html.includes('id="awareness-paradox"'));
 });

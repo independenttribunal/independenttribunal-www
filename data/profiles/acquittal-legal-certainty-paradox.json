@@ -16,7 +16,7 @@
     "section-12"
   ],
   "scope": "A legal study of what a Crown Court acquittal does and does not settle, and of lawful ways to seek a reasoned ruling. It is not legal advice, not a prediction of any verdict, and not an invitation to publish the words discussed.",
-  "status_note": "Checked 27 November 2026. Trial transcripts and the judge’s directions in R v Greenstein have not been obtained. No public Attorney General’s Reference arising from that acquittal has been located in this review. The thought experiment is analysis, not a finding.",
+  "status_note": "Checked 27 November 2026. Trial transcripts and the judge’s directions in R v Greenstein have not been obtained. No public Attorney General’s Reference arising from that acquittal has been located in this review. The thought experiment is analysis, not a finding. No Freedom of Information requests have been made for this review.",
   "featured_source": "aljazeera-jnp",
   "related": [
     {
@@ -60,6 +60,12 @@
       "value": "Person A and Person B",
       "detail": "A structured comparison, not a predicted verdict and not an invitation to post the words",
       "target": "mock-trial"
+    },
+    {
+      "label": "A paradox inside the paradox",
+      "value": "Awareness cannot be unlearned",
+      "detail": "Citing a prior acquittal is not a defence, and informed repetition is not a replay of the same case",
+      "target": "awareness-paradox"
     }
   ],
   "sections": [
@@ -598,6 +604,202 @@
       ]
     },
     {
+      "id": "awareness-paradox",
+      "title": "The awareness paradox",
+      "intro": "There is a paradox inside the paradox. Once Person B knows the Greenstein case, the charging tests, and the ways a defendant’s circumstances may have been perceived, that knowledge cannot be unlearned. Citing the acquittal is not a defence. Deliberate, informed repetition of the same words is not the same experiment.",
+      "entries": [
+        {
+          "id": "acquittal-is-not-a-defence",
+          "title": "A prior acquittal is not a defence, and it is rarely evidence",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "If Person B were ever on trial, the instinctive plea — “but Tony Greenstein was acquitted for the same words” — does not answer the charge. An acquittal decides that particular defendant’s case. It does not declare the words lawful for everyone, and a jury verdict creates no precedent. The plea that a person has already been acquitted protects that acquitted person on that charge. It does not travel with the words to a later speaker.",
+              "sources": [
+                {
+                  "id": "hui-chi-ming",
+                  "locator": "A different defendant’s earlier verdict is, in principle, only that jury’s opinion"
+                }
+              ]
+            },
+            {
+              "text": "The leading statement is in Hui Chi-ming v The Queen. The Privy Council held that a defendant was not entitled to adduce evidence of another person’s earlier acquittal, because “the verdict reached by a different jury (whether on the same or different evidence) in the earlier trial was irrelevant and amounted to no more than evidence of the opinion of that jury.” The Court of Appeal (Criminal Division) has restated the general rule in England and Wales: generally speaking, evidence of the outcome of an earlier trial arising out of the same events is irrelevant and therefore inadmissible, since it is no more than the opinion of that earlier jury. There are narrow exceptions, for example where an acquittal is said to bear on the credibility of a confession or of a prosecution witness. Those exceptions are about the fairness of related proceedings, not about using someone else’s unexplained verdict as proof that a phrase is lawful. The Greenstein verdict, reached on different evidence about a different speaker and without public reasons, sits even further from that territory.",
+              "sources": [
+                {
+                  "id": "hui-chi-ming",
+                  "locator": "Different jury’s verdict is irrelevant: no more than that jury’s opinion"
+                },
+                {
+                  "id": "golam-rassoude",
+                  "locator": "Para 22: general rule, and the limited exceptions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "awareness-and-mens-rea",
+          "title": "Why awareness cannot simply be parked at the door",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The colourful name suggested for this further twist — a quantum meta shape-shifting entangled paradox — is a way of stating a simpler point. Ignorance of the surrounding circumstances might have left Person B closer, in appearance, to a one-off speaker of the same words. Awareness cannot be put back in the bottle. Person B now knows, or could be shown to know, that the words were prosecuted as an invitation of support for Hamas; that the count was not confined to a detached slogan; that Greenstein’s age, Jewish identity and earlier published criticism of Hamas formed part of how the case was reported; and that the Crown Prosecution Service asks whether a realistic prospect of conviction exists, and whether a prosecution is required in the public interest. He cannot honestly recast himself as Greenstein, or replay Greenstein’s evidence, merely by repeating the words.",
+              "sources": [
+                {
+                  "id": "jc-greenstein",
+                  "locator": "The reported charge, the surrounding publication, and the contextual evidence in that trial"
+                },
+                {
+                  "id": "cps-code",
+                  "locator": "The Full Code Test that a later, informed speaker can be shown to know"
+                }
+              ]
+            },
+            {
+              "text": "The legally interesting question is not whether that knowledge is “too woke” or “too meta.” It is whether it could affect the inferences a jury is asked to draw about mental state and purpose. Under section 12(1), the prosecution must prove that the defendant knew, at the time, that he was inviting support for a proscribed organisation. Under section 12(1A), the prosecution must prove knowledge that the opinion or belief was supportive of the organisation, and recklessness as to encouragement: awareness of a risk that a person to whom the expression was directed would be encouraged to support that organisation, and that it was objectively unreasonable to take that risk. Might deliberate repetition of words already prosecuted, by a speaker who has studied the earlier case, make it easier to infer that knowledge, or that awareness of risk? Might a jury also be invited to ask what the repetition was for? Those are questions about how evidence may be assessed. They are not a finding that awareness converts an otherwise lawful statement into a crime, and they are not a reason to publish the words in order to test the point.",
+              "sources": [
+                {
+                  "id": "choudary",
+                  "locator": "Section 12(1): knowledge that the defendant was inviting support for a proscribed organisation"
+                },
+                {
+                  "id": "uksc-8",
+                  "locator": "Section 12(1A): knowledge, and recklessness as awareness of risk plus objective unreasonableness"
+                },
+                {
+                  "id": "ta2000-s12",
+                  "locator": "The two offences"
+                }
+              ]
+            },
+            {
+              "text": "The inference can also run the other way, and it should be stated equally plainly. Knowing the legal ingredients more clearly might, in some framings, support an argument that the speaker was trying to stay on the lawful side of the line: for example, by avoiding language of invitation, by making clear that a comment was a personal opinion, or by declining to encourage anyone to support a proscribed organisation. Recklessness is not made out merely because a risk was known; the taking of the risk must also have been objectively unreasonable in the circumstances known to the defendant. Better legal knowledge is therefore not automatically aggravating, and it is not automatically exculpatory. It is part of the circumstances. The safe conclusion remains the one already reached: this is not a puzzle to be solved by repeating the words.",
+              "sources": [
+                {
+                  "id": "uksc-8",
+                  "locator": "The second limb of recklessness: unreasonableness in the circumstances known to the defendant"
+                },
+                {
+                  "id": "choudary",
+                  "locator": "Mere expression of belief, or an invitation to share an opinion, is distinguished from inviting support"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "foi-as-a-sideline",
+          "title": "Freedom of Information, as a sideline",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "A lawful way of asking for more official transparency, without generating a new defendant, is a request under the Freedom of Information Act 2000. Public authorities, including the Home Office, the Crown Prosecution Service and police forces such as the Metropolitan Police, are under a duty to communicate recorded information they hold, subject to cost limits and exemptions. Some of the numbers that matter are already published. The Home Office series “Operation of police powers under the Terrorism Act 2000” is official statistics on arrests, outcomes and stop and search in Great Britain. The latest release, published on 8 October 2026, covers the period to 30 June 2026 and is the final quarterly edition; the series is moving to a six-monthly schedule. The commentary records that, of arrests in the year ending June 2026, 704 had so far resulted in a charge, including 634 under section 12 or section 13 linked to supporting Palestine Action. Those figures are aggregated across two sections and are dominated, in that year, by Palestine Action-linked cases. The release does not isolate Hamas-related speech cases. The CPS itself points to the Home Office series for arrest and prosecution numbers, and does not publish official statistics of its own.",
+              "sources": [
+                {
+                  "id": "foia-s1",
+                  "locator": "The general right of access to recorded information held by a public authority"
+                },
+                {
+                  "id": "ho-tact-stats-2026",
+                  "locator": "Latest official statistics to 30 June 2026; s.12 or s.13 charges linked to Palestine Action; move to a six-monthly cycle"
+                },
+                {
+                  "id": "cps-terrorism-page",
+                  "locator": "CPS statement that terrorism arrest and prosecution numbers are published by the Home Office"
+                }
+              ]
+            },
+            {
+              "text": "FOI can still be useful for figures or documents that are not in those releases: for example, a count of section 12 arrests, charges, no-further-action decisions and outcomes, broken down by subsection, or charging guidance that is not already on the public record. A published CPS FOI response dated 1 June 2025 said the Service had commenced 11 prosecutions under section 12(1A) between 7 October 2023 and 7 October 2024 inclusive, in England and Wales, from manual records described as provisional and not official statistics. That is an illustration of what a narrow request can yield, not a complete map of section 12. This review has not made its own FOI requests.",
+              "sources": [
+                {
+                  "id": "cps-foi-s12-1a",
+                  "locator": "11 prosecutions under s.12(1A), 7 October 2023 to 7 October 2024; provisional manual records"
+                }
+              ]
+            },
+            {
+              "text": "Requests often fail, or come back heavily redacted, for reasons set out in the Act. Section 12 permits a refusal where the authority estimates that the cost of compliance would exceed the appropriate limit, prescribed as £600 for authorities listed in Part I of Schedule 1 to the Act (broadly, central government) and £450 for other public authorities, including police forces. Among the exemptions most likely to be considered for terrorism-related material, section 23 is an absolute exemption for information supplied by, or relating to, listed security bodies. Section 24 is a qualified exemption, subject to a public-interest test, where exemption is required for the purpose of safeguarding national security. Section 30 covers information held for criminal investigations or proceedings, and section 31 covers prejudice to law enforcement where section 30 does not apply; both are qualified. Section 40 protects personal data, and is absolute in the cases provided for by section 2. Sections 23 and 30, in particular, often bite on terrorism investigation and prosecution files. Aggregate statistical information that is already held in a retrievable form is more likely to be disclosable than case files, operational methods, or information about identifiable suspects. FOI is a transparency tool. It is not a ruling on whether particular words are criminal.",
+              "sources": [
+                {
+                  "id": "foia-s12",
+                  "locator": "Cost-of-compliance limit"
+                },
+                {
+                  "id": "foia-fees",
+                  "locator": "Regulation 3: £600 and £450"
+                },
+                {
+                  "id": "foia-s2",
+                  "locator": "Which Part II provisions confer absolute exemption, including section 23 and parts of section 40"
+                },
+                {
+                  "id": "foia-s23",
+                  "locator": "Information supplied by or relating to listed security bodies"
+                },
+                {
+                  "id": "foia-s24",
+                  "locator": "National security, qualified"
+                },
+                {
+                  "id": "foia-s30",
+                  "locator": "Investigations and proceedings, qualified"
+                },
+                {
+                  "id": "foia-s31",
+                  "locator": "Law-enforcement prejudice, qualified"
+                },
+                {
+                  "id": "foia-s40",
+                  "locator": "Personal data"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "FOI limits and exemptions most likely to arise on a section 12 transparency request",
+            "columns": [
+              "Provision",
+              "What it addresses",
+              "Absolute or qualified"
+            ],
+            "rows": [
+              [
+                "Section 12, with the 2004 Fees Regulations",
+                "Refusal where the estimated cost of compliance exceeds £600 (Part I authorities) or £450 (other public authorities, including the police)",
+                "A cost limit, not a content exemption"
+              ],
+              [
+                "Section 23",
+                "Information supplied by, or relating to, listed security bodies",
+                "Absolute"
+              ],
+              [
+                "Section 24",
+                "Exemption required for the purpose of safeguarding national security",
+                "Qualified (public-interest test)"
+              ],
+              [
+                "Section 30",
+                "Information held for criminal investigations or proceedings",
+                "Qualified"
+              ],
+              [
+                "Section 31",
+                "Disclosure that would, or would be likely to, prejudice law enforcement, where section 30 does not apply",
+                "Qualified"
+              ],
+              [
+                "Section 40",
+                "Personal data of identifiable individuals",
+                "Absolute in the cases set out in section 2"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "lawful-routes",
       "title": "Lawful routes to a reasoned ruling",
       "intro": "There are procedures that do not require a person to attract a terrorism charge in order to ask the courts a legal question. None of them is a guaranteed route to a free-standing ruling on a particular phrase, and none of them is advice to bring a claim.",
@@ -808,7 +1010,7 @@
           "kind": "Coverage limitation",
           "paragraphs": [
             {
-              "text": "This review has not obtained the Greenstein indictment, the posts and linked article as exhibited, the prosecution openings or consents, the judge’s legal directions, or a transcript of the evidence or speeches. It has not located a public Attorney General’s Reference arising from the acquittal. It has not independently inspected the Jewish Network for Palestine application file, only contemporaneous reporting of the filing and the statutory procedure. Official jury-research publications sometimes cited in this area were not verified from a live official text in this pass and are therefore not relied on. The thought experiment is not a prediction of any verdict, not a finding about why the Greenstein jury acquitted, and not legal advice. It is not an invitation to publish the words discussed.",
+              "text": "This review has not obtained the Greenstein indictment, the posts and linked article as exhibited, the prosecution openings or consents, the judge’s legal directions, or a transcript of the evidence or speeches. It has not located a public Attorney General’s Reference arising from the acquittal. It has not independently inspected the Jewish Network for Palestine application file, only contemporaneous reporting of the filing and the statutory procedure. Official jury-research publications sometimes cited in this area were not verified from a live official text in this pass and are therefore not relied on. No Freedom of Information requests have been made for this review. The thought experiment is not a prediction of any verdict, not a finding about why the Greenstein jury acquitted, and not legal advice. It is not an invitation to publish the words discussed.",
               "sources": []
             }
           ]
@@ -941,6 +1143,122 @@
       "publisher": "legislation.gov.uk",
       "type": "Legislation",
       "url": "https://www.legislation.gov.uk/ukpga/1974/23/section/20D",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "hui-chi-ming",
+      "title": "Hui Chi-ming v The Queen [1992] 1 AC 34",
+      "publisher": "BAILII",
+      "type": "Privy Council judgment",
+      "url": "https://www.bailii.org/uk/cases/UKPC/1991/29.html",
+      "date": "1991-08-05",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "golam-rassoude",
+      "title": "R v Golam-Rassoude and another [2020] EWCA Crim 704",
+      "publisher": "The National Archives (Find Case Law)",
+      "type": "Court of Appeal judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2020/704",
+      "date": "2020-05-20",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-s1",
+      "title": "Freedom of Information Act 2000, section 1",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/1",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "ho-tact-stats-2026",
+      "title": "Operation of police powers under the Terrorism Act 2000 and subsequent legislation: Arrests, outcomes, and stop and search, Great Britain, to June 2026",
+      "publisher": "Home Office",
+      "type": "Official statistics",
+      "url": "https://www.gov.uk/government/statistics/operation-of-police-powers-under-tact-2000-to-june-2026/operation-of-police-powers-under-the-terrorism-act-2000-and-subsequent-legislation-arrests-outcomes-and-stop-and-search-great-britain-to-june-202",
+      "date": "2026-10-08",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "cps-terrorism-page",
+      "title": "Terrorism",
+      "publisher": "Crown Prosecution Service",
+      "type": "Official guidance page",
+      "url": "https://www.cps.gov.uk/types-crime/terrorism",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "cps-foi-s12-1a",
+      "title": "Section 12(1A) Terrorism Act 2000 prosecutions, 7 October 2023 to 7 October 2024 inclusive",
+      "publisher": "Crown Prosecution Service",
+      "type": "FOI response",
+      "url": "https://www.cps.gov.uk/foi/2025/section-121a-terrorism-act-2000-prosecutions-7-october-2023-7-october-2024-inclusive",
+      "date": "2025-06-01",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-s12",
+      "title": "Freedom of Information Act 2000, section 12",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/12",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-fees",
+      "title": "The Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004, regulation 3",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/uksi/2004/3244/regulation/3",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-s2",
+      "title": "Freedom of Information Act 2000, section 2",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/2",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-s23",
+      "title": "Freedom of Information Act 2000, section 23",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/23",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-s24",
+      "title": "Freedom of Information Act 2000, section 24",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/24",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-s30",
+      "title": "Freedom of Information Act 2000, section 30",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/30",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-s31",
+      "title": "Freedom of Information Act 2000, section 31",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/31",
+      "checked": "2026-11-27"
+    },
+    {
+      "id": "foia-s40",
+      "title": "Freedom of Information Act 2000, section 40",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/40",
       "checked": "2026-11-27"
     },
     {
