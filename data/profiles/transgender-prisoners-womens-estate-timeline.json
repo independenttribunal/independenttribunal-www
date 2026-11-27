@@ -1,0 +1,1445 @@
+{
+  "id": "transgender-prisoners-womens-estate-timeline",
+  "category": "legal-study",
+  "title": "Who decides sex in prison? A timeline of transgender prisoner placement in England and Wales",
+  "subtitle": "The rules have moved from legal gender and case boards, to a ministerial exemption for the general women's estate. The Supreme Court has now held that sex in the Equality Act 2010 means biological sex. That is not the same thing as a minister deciding someone's sex.",
+  "jurisdiction": "England and Wales; Scotland where stated",
+  "checked": "2026-11-27",
+  "tags": [
+    "uk",
+    "prisons",
+    "equality-act",
+    "policy",
+    "statistics"
+  ],
+  "featured_source": "hmpps-pf-2024",
+  "summary": "This page is a sourced timeline of how transgender prisoners have been placed in England and Wales, with a short account of the parallel changes in Scotland. It sets out who decided under each regime, the official figures for the transgender prison population and for sexual assaults in the women's estate, and the Supreme Court's 2025 holding that sex in the Equality Act 2010 means biological sex. As of 1 April 2026, ministers said fewer than five transgender women were held in the general women's estate. The latest published HMPPS framework on this subject was reissued on 14 November 2024. We found no 2026 HMPPS Policy Framework. A minister does not decide a prisoner's legal or biological sex. Under the 2023-24 rules, the Secretary of State for Justice takes the final decision on an exceptional placement in the general women's estate, after a Complex Case Board recommendation and consideration by the HMPPS Director General of Operations.",
+  "scope": "England and Wales prison policy is the main subject. Scottish Prison Service policy is included where it explains the 2023 Isla Bryson case, the 2026 Court of Session judgment, and the later confirmation that no biological males remained in the Scottish women's estate. The page does not cover immigration detention, youth custody in detail, or prisons in Northern Ireland.",
+  "status_note": "The 14 November 2024 HMPPS policy framework, the HMPPS Offender Equalities Annual Report 2025-26 published on 26 November 2026, the written answers cited below, For Women Scotland Ltd v The Scottish Ministers [2025] UKSC 16, and the opinion of Lady Ross in For Women Scotland, Petitioner [2026] CSOH 59 were read from the official texts. PSI 07/2011 and the November 2016 review were read from archived official copies. The full text of PSI 17/2016 is no longer hosted on GOV.UK, having been replaced; the account of that instruction is taken from the 2016 review, the 2019/2024 framework's description of what it replaced, and official news. The full text of R (FDJ) v Secretary of State for Justice [2021] EWHC 1746 (Admin) could not be retrieved from BAILII or the judiciary site at the time of writing; quotations from that judgment are taken from contemporaneous BBC reporting of the approved judgment and are attributed as such.",
+  "related": [
+    {
+      "id": "frameworks-of-truth",
+      "title": "Frameworks of truth: what does the system reward?"
+    }
+  ],
+  "artworks": [
+    {
+      "src": "/images/minister-for-genitalia-assessment-satire.webp",
+      "width": 784,
+      "height": 1168,
+      "after_section": "who-decides",
+      "alt": "Satirical parody poster in the style of a Ministry of Justice recruitment notice, including a coat of arms in the style of the Royal Arms. The heading advertises a post of Minister for Genitalia Assessment in an Exceptional Circumstances Division for women's estate placements. The footer refers to an HMPPS Policy Framework 2026 and the line Sex means biological sex. This is not a government document.",
+      "caption": "Satire and parody, created for commentary. This is not a Ministry of Justice or HMPPS document, not an official recruitment notice, and not evidence of a real vacancy. It imitates the style of a government notice, including a coat of arms in the style of the Royal Arms, which are not ours and do not imply endorsement or official status. There is no published ministerial post called Minister for Genitalia Assessment. We also found no document titled HMPPS Policy Framework 2026. The latest published HMPPS framework on this subject was reissued on 14 November 2024. The joke is aimed at the idea that the minister decides the sex. What the published policy actually provides is a ministerial exemption for placement in the general women's estate, after a Complex Case Board recommendation. Open the image for full size.",
+      "transcript": "MINISTRY OF JUSTICE. Recruitment notice, parody. MINISTER FOR GENITALIA ASSESSMENT, Exceptional Circumstances Division — Women's Estate Placements. Footer: HMPPS Policy Framework 2026 / Sex means biological sex. This transcript describes a satirical poster, not an official form."
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Who decides",
+      "value": "Placement, not sex",
+      "detail": "A minister does not decide a prisoner's legal or biological sex. The Secretary of State takes the final decision on an exceptional placement in the general women's estate.",
+      "target": "the-actual-rule"
+    },
+    {
+      "label": "In the general women's estate",
+      "value": "Fewer than five",
+      "detail": "On 1 April 2026, ministers said fewer than five transgender women were held in the general women's estate, none of them convicted of sexual or stalking offences.",
+      "target": "womens-estate-composition"
+    },
+    {
+      "label": "Sexual assaults",
+      "value": "Official answers conflict",
+      "detail": "MoJ categories usually record sexual assaults, not rape. The 2010-2019 answers do not match each other. A later answer said there had been none by transgender women in the general women's estate in the five years to April 2026.",
+      "target": "sexual-assaults-answers"
+    },
+    {
+      "label": "Biological sex",
+      "value": "The Act, not yet the framework",
+      "detail": "In April 2025 the Supreme Court held that sex in the Equality Act 2010 means biological sex. Scotland later moved trans women out of the women's estate. England and Wales had not, as of 26 November 2026, published a replacement framework.",
+      "target": "fws-2025"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-question",
+      "title": "The question",
+      "intro": "A short account of what this page is, and is not, asking.",
+      "entries": [
+        {
+          "id": "what-this-page-asks",
+          "title": "Placement decisions, not a verdict on anyone's identity",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "The question this page tries to answer is a narrow one. Under the prison rules of England and Wales, women prisoners are normally kept separate from male prisoners. Over the past fifteen years, ministers and the prison service have changed the tests for when a transgender prisoner may be held in the women's estate. The interesting institutional point is who decides, under each version of the rules, and what they are deciding.",
+              "sources": [
+                {
+                  "id": "prison-rule-12"
+                }
+              ],
+              "links": [
+                {
+                  "text": "women prisoners are normally kept separate from male prisoners",
+                  "url": "https://www.legislation.gov.uk/uksi/1999/728/article/12"
+                }
+              ]
+            },
+            {
+              "text": "A common way of putting the current rule is that \"the minister decides the sex\". That is a sharp phrase, and it is worth testing. The published policy does not give a minister the power to determine a prisoner's legal sex or biological sex. It gives the Secretary of State for Justice the final decision on an exceptional placement in the general women's estate, after a Complex Case Board has recommended an exemption and the HMPPS Director General of Operations has considered it.",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "paras 1.5, 4.7, 4.35"
+                },
+                {
+                  "id": "moj-feb-2023"
+                }
+              ]
+            },
+            {
+              "text": "The page uses the Supreme Court's terminology for clarity, and because that is now the language of the Equality Act 2010. A trans woman is a person who was of the male sex at birth and has the protected characteristic of gender reassignment. A trans man is a person who was of the female sex at birth and has that characteristic. \"Biological sex\" means sex at birth. None of that is a comment on how any person should be addressed, or on the seriousness of the risks some trans prisoners face.",
+              "sources": [
+                {
+                  "id": "fws-uksc",
+                  "locator": "paras 6-9, 264"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "A timeline of the rules",
+      "intro": "Who could be placed in the women's estate, and who decided, under each published regime.",
+      "entries": [
+        {
+          "id": "psi-2011",
+          "title": "2011: legal gender, with a senior-manager override",
+          "kind": "Prison Service Instruction",
+          "paragraphs": [
+            {
+              "text": "PSI 07/2011, The Care and Management of Transsexual Prisoners, was issued on 2 March 2011 and came into force on 14 March 2011. It applied to prisoners with and without a gender recognition certificate. Prison Rule 12 was the starting point: women prisoners should normally be kept separate from male prisoners.",
+              "sources": [
+                {
+                  "id": "psi-2011",
+                  "locator": "issue page and paras 4.1-4.2"
+                },
+                {
+                  "id": "prison-rule-12"
+                }
+              ]
+            },
+            {
+              "text": "The mandatory rule was that, in most cases, prisoners must be located according to their gender as recognised under UK law. A male-to-female transsexual person with a gender recognition certificate could be refused location in the female estate \"only on security grounds — in other words, only when it can be demonstrated that other women with an equivalent security profile would also be held in the male estate.\" A female-to-male transsexual person with a certificate could not be refused location in the male estate.",
+              "sources": [
+                {
+                  "id": "psi-2011",
+                  "locator": "paras 4.2-4.4"
+                }
+              ]
+            },
+            {
+              "text": "If a prisoner asked to be held in the estate opposite to the legally recognised gender, a case conference had to be convened. The conference considered the relevant factors and made a recommendation to \"a relevant senior manager above establishment level\", who made the final decision. Location was described as \"a legal issue rather than an anatomical one.\"",
+              "sources": [
+                {
+                  "id": "psi-2011",
+                  "locator": "paras 4.5-4.6"
+                }
+              ]
+            }
+          ],
+          "date": "2011-03-14"
+        },
+        {
+          "id": "review-2016-and-psi",
+          "title": "2016: a review, then a broader instruction",
+          "kind": "Official review",
+          "paragraphs": [
+            {
+              "text": "In December 2015 the government announced a review of the care and management of transgender offenders, after what the published report later called \"a number of events linked to transgender prisoners\" in the autumn of 2015. The review was published on 9 November 2016. It was overseen independently by Peter Dawson of the Prison Reform Trust and Jay Stewart of Gendered Intelligence, and it was intended to inform a new NOMS instruction replacing PSI 07/2011.",
+              "sources": [
+                {
+                  "id": "review-2016",
+                  "locator": "pp. 3-4"
+                },
+                {
+                  "id": "govuk-2016-review"
+                }
+              ]
+            },
+            {
+              "text": "The review's general presumption was that people living in a gender different from their assigned sex at birth should be treated according to the gender in which they identify. It also said that allocation decisions, especially in custody, had to weigh evidence and \"all known risks\", including \"the impact on and risks to those in current or potential establishments especially, for instance, in the women's estate where many prisoners will have been the victims of domestic violence or sexual abuse.\" Complex cases were to have centralised support.",
+              "sources": [
+                {
+                  "id": "review-2016",
+                  "locator": "pp. 5-6"
+                }
+              ]
+            },
+            {
+              "text": "The new instruction was PSI 17/2016, The Care and Management of Transgender Offenders. The 2016 GOV.UK publication page says that the review formed the basis of a new NOMS instruction, published separately, replacing PSI 07/2011. The later HMPPS framework describes itself as replacing and building on PSI 17/2016. The full text of that 2016 instruction is no longer hosted on GOV.UK. On the official account, prisoners were still initially allocated according to legal gender, with a Transgender Case Board process where placement in the other estate was under consideration.",
+              "sources": [
+                {
+                  "id": "govuk-2016-review"
+                },
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "implementation page and para 1.5"
+                },
+                {
+                  "id": "equalities-guide-2025-26",
+                  "locator": "p. 10, footnote 7"
+                }
+              ]
+            }
+          ],
+          "date": "2016-11-09"
+        },
+        {
+          "id": "karen-white",
+          "title": "2017-18: the Karen White case",
+          "kind": "News reports of sentencing and an official apology",
+          "paragraphs": [
+            {
+              "text": "In September 2017 Karen White, who was born male and was then transitioning, was transferred on remand to HMP New Hall, a women's prison in West Yorkshire, after being arrested on suspicion of stabbing a neighbour. Between September and October 2017, White sexually assaulted two women prisoners. On 11 October 2018, Leeds Crown Court imposed a life sentence, with a minimum term of eight years and 116 days, after White admitted those two sexual assaults, the rapes of two other women outside prison, and a wounding.",
+              "sources": [
+                {
+                  "id": "white-guardian"
+                },
+                {
+                  "id": "white-men"
+                }
+              ]
+            },
+            {
+              "text": "The rapes for which White was sentenced were committed outside prison. The offences against fellow prisoners at New Hall were sexual assaults. The prosecution told the court that there was \"smatterings of evidence\" that White's approach to transitioning had been \"less than committed\", and suggested that a transgender persona had been used to get close to vulnerable people. That was a prosecution allegation, not a finding recorded here as fact.",
+              "sources": [
+                {
+                  "id": "white-guardian"
+                },
+                {
+                  "id": "white-men"
+                }
+              ]
+            },
+            {
+              "text": "A Prison Service spokesperson said: \"We apologise sincerely for the mistakes which were made in this case.\" Contemporary reports said that a Transgender Case Board, which was supposed to consider previous offending history and risk, did not take place before White was held at New Hall. White was later held in the men's estate at HMP Leeds. The apology is an official admission of operational failure in that case. It is not, by itself, a finding about the 2016 policy as a whole.",
+              "sources": [
+                {
+                  "id": "white-men"
+                }
+              ]
+            }
+          ],
+          "date": "2018-10-11"
+        },
+        {
+          "id": "framework-2019",
+          "title": "2019: a policy framework, and Local and Complex Case Boards",
+          "kind": "Policy framework",
+          "paragraphs": [
+            {
+              "text": "HMPPS published The Care and Management of Individuals who are Transgender in 2019. The GOV.UK page is dated 22 July 2019. The framework's own implementation date is 31 October 2019, with some board and disclosure requirements brought in from 1 August and 1 September 2019. It replaced PSI 17/2016. The official statistics guide later summarised that replacement as taking effect in August 2019.",
+              "sources": [
+                {
+                  "id": "hmpps-pf-page"
+                },
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "implementation page"
+                },
+                {
+                  "id": "equalities-guide-2025-26",
+                  "locator": "p. 10, footnote 7"
+                }
+              ]
+            },
+            {
+              "text": "The 2019 framework kept legal gender as the starting point for allocation, and strengthened the board structure: Local Case Boards chaired by a competent operational manager, and Complex Case Boards, convened monthly and chaired by Prison Group Directors, for the more difficult placement decisions. Risk to others, including women in custody, was part of the assessment. The later revisions of 2023 and 2024 added the presumption and the ministerial exemption discussed below. They did not repeal the 2019 framework; they amended it.",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "paras 1.5, 4.8-4.42 and revisions table"
+                }
+              ]
+            }
+          ],
+          "date": "2019-10-31"
+        },
+        {
+          "id": "fdj-2021",
+          "title": "2021: the High Court dismisses a challenge to the 2019 policy",
+          "kind": "News report of a High Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 2 July 2021 the High Court dismissed a claim by a female prisoner, anonymised as FDJ, against the Secretary of State for Justice. The citation is R (FDJ) v Secretary of State for Justice [2021] EWHC 1746 (Admin). Lord Justice Holroyde gave the judgment. The claimant challenged aspects of the policy under which trans women could be held in women's prisons. BBC News, reporting the approved judgment, said she claimed she had been sexually assaulted in 2017 by a trans woman who had a gender recognition certificate and convictions for serious sexual offences. The Ministry of Justice, the BBC reported, did not say whether it accepted that the alleged incident had taken place.",
+              "sources": [
+                {
+                  "id": "fdj-bbc"
+                }
+              ]
+            },
+            {
+              "text": "According to that BBC report of the judgment, Holroyde LJ accepted that the proportion of trans prisoners convicted of sexual offences was \"substantially higher\" than for other prisoners, but said that claims about a general risk of sexual assault were a \"misuse of the statistics, which... are so low in number, and so lacking in detail, that they are an unsafe basis for general conclusions.\" The report also records him as saying that women prisoners \"may suffer fear and acute anxiety\" if housed with a transgender woman who has male genitalia, but that the policies required a careful, case-by-case assessment of risk, and that, properly applied, \"non-transgender prisoners only have contact with transgender prisoners when it is safe for them to do so.\"",
+              "sources": [
+                {
+                  "id": "fdj-bbc"
+                }
+              ]
+            },
+            {
+              "text": "The claimant, as quoted by the BBC, said she was disappointed, and that she had not sought to exclude all trans women from women's prisons, but that \"trans women who have a history of violence and sexual offending against women should not be in a situation where they can put our safety at risk.\" A Ministry of Justice spokesperson said the department was \"pleased the court agrees that the way we manage transgender offenders strikes the right balance between protecting their legal rights and ensuring the safety of all prisoners.\" The full official text of the judgment could not be retrieved for this page; the quotations above are from contemporaneous BBC reporting and should be checked against the approved transcript.",
+              "sources": [
+                {
+                  "id": "fdj-bbc"
+                }
+              ]
+            }
+          ],
+          "date": "2021-07-02"
+        },
+        {
+          "id": "lewis-2022",
+          "title": "October 2022: a first ministerial announcement",
+          "kind": "Written ministerial statement",
+          "paragraphs": [
+            {
+              "text": "On 4 October 2022 the then Lord Chancellor and Justice Secretary, Brandon Lewis, announced reforms to the allocation of transgender prisoners. In a written statement on 11 October 2022 he said that, under the reforms, \"transgender prisoners with male genitalia should no longer be held in the general women's estate. This will not be a blanket rule; exemptions to these new rules will be considered on a case-by-case basis.\" The same approach, he said, would apply to transgender women convicted of a sex offence. A revised policy framework was to follow before the end of that year.",
+              "sources": [
+                {
+                  "id": "hcws313"
+                }
+              ]
+            },
+            {
+              "text": "That announcement is sometimes remembered as Dominic Raab's. Raab returned to the Ministry of Justice later in October 2022 and implemented a wider version of the rule in February 2023. The October announcement itself was made by Lewis.",
+              "sources": [
+                {
+                  "id": "hcws313"
+                },
+                {
+                  "id": "moj-jan-2023"
+                },
+                {
+                  "id": "moj-feb-2023"
+                }
+              ]
+            }
+          ],
+          "date": "2022-10-11"
+        },
+        {
+          "id": "bryson-and-sps-pause",
+          "title": "January-February 2023: Isla Bryson and a Scottish pause",
+          "kind": "Official review and news reports",
+          "paragraphs": [
+            {
+              "text": "In January 2023 Isla Bryson, a trans woman, was convicted in Scotland of two rapes committed before she had changed gender, and was first taken to HMP & YOI Cornton Vale, a women's prison, where she was held in segregation. After public and political criticism she was moved to a men's prison within days. The case is part of this timeline because it framed the political argument in both jurisdictions. Dominic Raab later told interviewers that the English and Welsh rules coming into force in February were not a reaction to that case.",
+              "sources": [
+                {
+                  "id": "bbc-raab-2023"
+                },
+                {
+                  "id": "sps-review-2023"
+                }
+              ]
+            },
+            {
+              "text": "On 9 February 2023 the Scottish Government published the outcome of an urgent SPS case review. The published summary said that women were not at risk of harm, that the person \"did not come into contact with any other prisoners during their time at HMP&YOI Cornton Vale\", and that SPS policy had been followed. Pending a wider policy review, SPS said that any transgender person in custody with a history of violence against women, including sexual offences, would not be relocated from the male to the female estate, and that any newly convicted or remanded transgender prisoner would initially be placed in an establishment \"commensurate with their birth gender.\"",
+              "sources": [
+                {
+                  "id": "sps-review-2023"
+                }
+              ]
+            }
+          ],
+          "date": "2023-02-09"
+        },
+        {
+          "id": "raab-2023",
+          "title": "27 February 2023: the ministerial-exemption rule comes into force",
+          "kind": "Policy framework and official news",
+          "paragraphs": [
+            {
+              "text": "On 27 February 2023 the Ministry of Justice announced that an updated framework was in force in England and Wales. Transgender women who retained male genitalia, or who had been convicted of a sexual or violent offence, would not be held in the general women's estate \"unless in the most exceptional cases — and with the express approval of Ministers.\" The rule applied whether or not the prisoner had a gender recognition certificate. Transgender women who could not safely be housed in a men's prison could be held in a specialist unit. The announcement said that more than 90% of transgender women were already housed in men's prisons, and that most did not request a move.",
+              "sources": [
+                {
+                  "id": "moj-feb-2023"
+                },
+                {
+                  "id": "moj-jan-2023"
+                }
+              ]
+            },
+            {
+              "text": "The framework's own revisions table dates the change 26 February 2023: a \"presumption\" that transgender women with any sexual or violent offence conviction or current charge, and/or who have birth genitalia, \"will not be held in the general women's estate.\" The detailed decision chain is set out in the Who decides section below. The BBC quoted Stonewall as saying that trans prisoners are a vulnerable population, and that \"there is no evidence to suggest that the automatic placing of trans women in line with their sex assigned at birth is safer than an individualised risk assessment.\"",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "revisions table and para 1.5"
+                },
+                {
+                  "id": "bbc-raab-2023"
+                }
+              ]
+            }
+          ],
+          "date": "2023-02-27"
+        },
+        {
+          "id": "sps-2024-policy",
+          "title": "2023-24: Scotland publishes a new individualised policy",
+          "kind": "News reports and later court findings",
+          "paragraphs": [
+            {
+              "text": "SPS later replaced the interim pause with a new policy on the management of transgender people in custody, published in December 2023 and brought into force on 26 February 2024. That later Prisons Guidance is the policy Lady Ross considered in 2026. As recorded in her opinion, it allowed for placement in a prison for the opposite biological sex after risk assessment. The lawfulness of that approach was later the question in the Court of Session.",
+              "sources": [
+                {
+                  "id": "csoh-59",
+                  "locator": "paras 6-15, 184"
+                }
+              ]
+            }
+          ],
+          "date": "2024-02-26"
+        },
+        {
+          "id": "framework-2024-reissue",
+          "title": "14 November 2024: the current published HMPPS framework",
+          "kind": "Policy framework",
+          "paragraphs": [
+            {
+              "text": "HMPPS reissued the same named framework on 14 November 2024. The revisions table describes that reissue as a \"minor amendment to wording\" about the initial allocation of transgender women, to add clarity about the changes implemented on 26 February 2023, plus minor amendments about board attendees. There were also wording changes on 31 March 2023 and 11 January 2024. The official statistics guide published on 26 November 2026 still describes November 2024 as the most recent revision.",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "revisions table"
+                },
+                {
+                  "id": "hmpps-pf-page"
+                },
+                {
+                  "id": "equalities-guide-2025-26",
+                  "locator": "p. 10"
+                }
+              ]
+            },
+            {
+              "text": "That matters for a simple reason. The satirical poster on this page carries the footer \"HMPPS Policy Framework 2026\". We searched GOV.UK for a framework of that name and date. We did not find one. The published instrument remains the November 2024 reissue of the 2019 framework, as amended in 2023 and 2024.",
+              "sources": [
+                {
+                  "id": "hmpps-pf-page"
+                },
+                {
+                  "id": "hmpps-pf-2024"
+                },
+                {
+                  "id": "equalities-guide-2025-26",
+                  "locator": "p. 10"
+                }
+              ]
+            }
+          ],
+          "date": "2024-11-14"
+        },
+        {
+          "id": "fws-2025",
+          "title": "16 April 2025: sex in the Equality Act means biological sex",
+          "kind": "Supreme Court judgment",
+          "paragraphs": [
+            {
+              "text": "On 16 April 2025 the Supreme Court gave judgment in For Women Scotland Ltd v The Scottish Ministers [2025] UKSC 16. The question was one of statutory interpretation, not a general definition of gender or a policy choice about prisons. The court held that the words \"sex\", \"woman\" and \"man\" in sections 11 and 212(1) of the Equality Act 2010 \"mean (and were always intended to mean) biological sex, biological woman and biological man.\" A trans woman with a gender recognition certificate is a man for the purposes of those sex-discrimination provisions, and is not entitled to be treated as a woman under the Equality Act. The court added that this conclusion does not remove the protections the Act gives trans people, including people with a certificate, under the characteristic of gender reassignment.",
+              "sources": [
+                {
+                  "id": "fws-uksc",
+                  "locator": "paras 2, 8-9, 264, 268"
+                },
+                {
+                  "id": "fws-uksc-page"
+                }
+              ]
+            },
+            {
+              "text": "The judgment is not, by itself, a rewriting of the HMPPS allocation framework. It is a holding about the meaning of the Equality Act. What it does to prison placement is a further legal and policy question, on which England and Wales and Scotland have not moved in lockstep.",
+              "sources": [
+                {
+                  "id": "fws-uksc",
+                  "locator": "paras 2, 264"
+                },
+                {
+                  "id": "q124145"
+                },
+                {
+                  "id": "csoh-59",
+                  "locator": "paras 182-184"
+                }
+              ]
+            }
+          ],
+          "date": "2025-04-16"
+        },
+        {
+          "id": "ehrc-and-review",
+          "title": "2025-26: EHRC guidance, and a promised English policy review",
+          "kind": "Official guidance and written answers",
+          "paragraphs": [
+            {
+              "text": "In the months after the judgment, ministers in England and Wales said they were reviewing prison allocation policy in the light of the Supreme Court ruling. On 10 June 2025, Sir Nicholas Dakin told the Commons: \"We are reviewing the policy in light of the Supreme Court ruling and will set out any changes to our approach in due course.\" On 13 April 2026, Jake Richards said the government was \"working through the implications\" of the ruling \"and the Government is considering the draft updated Code of Practice produced by the Equality and Human Rights Commission. Once this process has been completed, we will confirm any updates to the transgender prisoner allocation policy.\"",
+              "sources": [
+                {
+                  "id": "q56664"
+                },
+                {
+                  "id": "q124145"
+                }
+              ]
+            },
+            {
+              "text": "The EHRC's updated Code of Practice for services, public functions and associations came into force on 5 August 2026, with ministerial approval, and revoked the 2011 Code on the same date. The Commission has been careful to say that the Code does not make new law or create new legal obligations. It is statutory guidance on the existing law, including the Supreme Court's holding on the meaning of sex, and courts must consider any relevant part of it. As of the 26 November 2026 statistics guide, HMPPS had not published a replacement allocation framework.",
+              "sources": [
+                {
+                  "id": "ehrc-code-page"
+                },
+                {
+                  "id": "ehrc-code-news"
+                },
+                {
+                  "id": "equalities-guide-2025-26",
+                  "locator": "p. 10"
+                }
+              ]
+            }
+          ],
+          "date": "2026-08-05"
+        },
+        {
+          "id": "csoh-2026",
+          "title": "19 June 2026: the Court of Session holds the Scottish prisons guidance unlawful",
+          "kind": "Court of Session opinion",
+          "paragraphs": [
+            {
+              "text": "On 19 June 2026 Lady Ross, in the Outer House of the Court of Session, gave her opinion in the petition of For Women Scotland for judicial review, [2026] CSOH 59. She held that sex segregation in prisons, following the Supreme Court, means segregation according to biological sex; that the Prisons Guidance, insofar as it allowed SPS to accommodate trans prisoners in prisons for the opposite biological sex, misstated the law; and that \"the Prisons Guidance is unlawful and the petitioner is entitled to orders for declarator and reduction.\"",
+              "sources": [
+                {
+                  "id": "csoh-59",
+                  "locator": "paras 182-184"
+                }
+              ]
+            },
+            {
+              "text": "She also held that trans prisoners have rights under Article 8 of the Convention, but that this does not extend to a right to be accommodated in a prison for the opposite biological sex, and that a bright-line rule of sex segregation is capable of justification. She left open, in the abstract, whether in an exceptional individual case involving a threat to life through suicide it might be necessary to consider disapplying a prison rule. \"In any event,\" she wrote, \"disapplication or disregard of subordinate legislation cannot form part of a general policy.\"",
+              "sources": [
+                {
+                  "id": "csoh-59",
+                  "locator": "paras 182-183"
+                }
+              ]
+            }
+          ],
+          "date": "2026-06-19"
+        },
+        {
+          "id": "sps-zero",
+          "title": "12 November 2026: SPS says there are no biological males in the women's estate",
+          "kind": "News report of official evidence",
+          "paragraphs": [
+            {
+              "text": "On 12 November 2026, BBC News reported evidence given to the Scottish Parliament's Equalities Committee by Adam Jobson, SPS deputy chief executive. He said a small number of transgender prisoners had been moved to comply with the June ruling, that trans women were now held in men's prisons, and that there were \"zero biological males within the women's estate.\" He also said trans prisoners were \"absolutely\" being treated with respect and that detailed transfer plans had been put in place. Holly Bruce MSP said she had safeguarding concerns around trans prisoners.",
+              "sources": [
+                {
+                  "id": "bbc-sps-2026"
+                }
+              ]
+            }
+          ],
+          "date": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "the-figures",
+      "title": "What the official figures actually say",
+      "intro": "Population counts, sexual-assault answers, and why rape and sexual assault are not interchangeable here.",
+      "entries": [
+        {
+          "id": "how-counts-work",
+          "title": "How the transgender prisoner count is made",
+          "kind": "Official statistics",
+          "paragraphs": [
+            {
+              "text": "The annual HMPPS Offender Equalities report counts transgender prisoners as people known to be living in, or presenting in, a gender different from their biological sex, and who have had a Local Case Board under the current framework. It is a snapshot, not a continuous register. The figures \"are likely to underestimate the true number\", because some transgender prisoners may not have declared that they are transgender or had a board. People with a gender recognition certificate are counted only as a separate total, with no further breakdown, because disclosing that a person holds a certificate can be a criminal offence.",
+              "sources": [
+                {
+                  "id": "equalities-2025-26"
+                },
+                {
+                  "id": "equalities-guide-2025-26",
+                  "locator": "pp. 10, notes on transgender prisoners"
+                },
+                {
+                  "id": "trans-tables-2025-26",
+                  "locator": "Notes 1, 6"
+                }
+              ]
+            },
+            {
+              "text": "From the 2024-25 report onwards, the tables use \"biological sex\" where earlier editions had reported \"legal gender\". The notes say that, for the population without a certificate, the two are treated as the same. The 2020 collection was cancelled because of Covid-19. Small counts are often replaced with a tilde, meaning the exact figure is withheld to reduce the risk of identifying someone.",
+              "sources": [
+                {
+                  "id": "trans-tables-2025-26",
+                  "locator": "Notes 1-3"
+                },
+                {
+                  "id": "equalities-guide-2025-26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "population-table",
+          "title": "The snapshot counts, 2016 to 2026",
+          "kind": "Official statistics",
+          "paragraphs": [
+            {
+              "text": "The latest official snapshot, published on 26 November 2026, recorded 348 transgender prisoners without a gender recognition certificate on 31 March 2026, and ten additional prisoners known to have a certificate. That compared with 339 plus nine a year earlier. The table below is taken from Table 2.1 of that release. It does not include certificate-holders in the estate breakdowns. A dash means the figure was not collected on that basis in that year. A tilde means the number was suppressed.",
+              "sources": [
+                {
+                  "id": "equalities-2025-26"
+                },
+                {
+                  "id": "trans-tables-2025-26",
+                  "locator": "Table 2.1"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Transgender prisoners in England and Wales without a gender recognition certificate, official snapshots. Source: HMPPS Offender Equalities Annual Report 2025-26, Table 2.1. Certificate-holders are a separate total and are not in the estate rows.",
+            "columns": [
+              "Snapshot",
+              "Total without a GRC",
+              "Known GRC total",
+              "In women's establishments",
+              "In men's establishments"
+            ],
+            "rows": [
+              [
+                "March/April 2016",
+                "69",
+                "Not collected",
+                "Not collected",
+                "Not collected"
+              ],
+              [
+                "March/April 2017",
+                "124",
+                "Not collected",
+                "Not collected",
+                "Not collected"
+              ],
+              [
+                "March/May 2018",
+                "139",
+                "Not collected",
+                "Not collected",
+                "Not collected"
+              ],
+              [
+                "March/April 2019",
+                "162",
+                "Not collected",
+                "Not collected",
+                "Not collected"
+              ],
+              [
+                "31 March 2020",
+                "No collection",
+                "No collection",
+                "No collection",
+                "No collection"
+              ],
+              [
+                "31 March 2021",
+                "197",
+                "10",
+                "40",
+                "157"
+              ],
+              [
+                "31 March 2022",
+                "230",
+                "11",
+                "49",
+                "181"
+              ],
+              [
+                "31 March 2023",
+                "268",
+                "13",
+                "48",
+                "220"
+              ],
+              [
+                "31 March 2024",
+                "295",
+                "10",
+                "51",
+                "244"
+              ],
+              [
+                "31 March 2025",
+                "339",
+                "9",
+                "64",
+                "275"
+              ],
+              [
+                "31 March 2026",
+                "348",
+                "10",
+                "56",
+                "292"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "womens-estate-composition",
+          "title": "Most transgender prisoners in the women's estate are trans men",
+          "kind": "Official statistics and written answers",
+          "paragraphs": [
+            {
+              "text": "The headline number of transgender prisoners \"in women's establishments\" is easy to misread. In the official tables, that row is made up mostly of trans men: biological females who identify as male, and who are held in the women's estate. On 31 March 2026 there were 56 transgender prisoners in women's establishments, of whom 50 were trans men. The number of trans women — biological males who identify as female — in women's establishments was suppressed. So was the residual \"other\" category. The same suppression was applied for 31 March 2024 and 31 March 2025. The last published exact figure for trans women in women's establishments is five, on 31 March 2023, shortly after the February 2023 change. It was six on 31 March 2022.",
+              "sources": [
+                {
+                  "id": "trans-tables-2025-26",
+                  "locator": "Table 2.1, women's establishments rows"
+                }
+              ]
+            },
+            {
+              "text": "Those \"women's establishments\" rows are also not the same as the \"general women's estate\". On 10 June 2025, Sir Nicholas Dakin said there were then seven biological male prisoners at HMP Downview, \"and all of them are on E Wing, which is a transgender only facility.\" On 13 April 2026, Jake Richards said that as of 1 April 2026 \"fewer than five transgender women were being held in the general women's prison estate. None of these has convictions for sexual or stalking offences.\" He also said that E Wing, although on the Downview site, \"is not part of the general women's estate\", and that prisoners there are accommodated \"completely separately to biological women, in a discrete building behind a gated fence.\"",
+              "sources": [
+                {
+                  "id": "q56664"
+                },
+                {
+                  "id": "q124145"
+                }
+              ]
+            },
+            {
+              "text": "A related, and often-quoted, older figure is that in the 2019 snapshot there were 34 transgender prisoners in women's prisons. BBC News reported that figure in May 2020, from official data collected in April and May 2019, and also reported it as part of the High Court's 2021 judgment. The official equalities tables published in 2026 do not give an estate breakdown for 2019, so the 34 is cited here from those contemporaneous reports, not from the later table.",
+              "sources": [
+                {
+                  "id": "bbc-2020-assaults"
+                },
+                {
+                  "id": "fdj-bbc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sexual-assaults-answers",
+          "title": "Sexual assaults in the women's estate: the official answers do not match",
+          "kind": "Written answers",
+          "paragraphs": [
+            {
+              "text": "Campaign discussions often cite \"seven of 124 sexual assaults\" in women's prisons between 2010 and 2018 as having been carried out by transgender prisoners. That figure circulated in May 2020 after ministerial answers, and was reported by BBC News on 21 May 2020 as ministers having revealed, the previous week, that \"out of 124 sexual assaults in five women's jails over the previous nine years, from 2010 to 2018, seven had been carried out by trans prisoners.\" One of the cases, the BBC noted, was Karen White.",
+              "sources": [
+                {
+                  "id": "bbc-2020-assaults"
+                }
+              ]
+            },
+            {
+              "text": "The formal written answers on the parliamentary record are not identical, and they should be read side by side rather than collapsed into one number.",
+              "sources": [
+                {
+                  "id": "hl3198"
+                },
+                {
+                  "id": "hl5875"
+                },
+                {
+                  "id": "bbc-2020-assaults"
+                }
+              ]
+            },
+            {
+              "text": "On 5 May 2020, answering HL3198, Lord Keen of Elie said there had been no reported sexual assaults against prison officers by transgender prisoners. He also said: \"Since 2010, out of the 122 sexual assaults that occurred in the female estate a total of five of those were sexual assaults against females in custody perpetrated by transgender individuals.\" Those, he said, occurred at HMP Low Newton, HMP Foston Hall, HMP Peterborough (Female) and HMP Bronzefield. The answer did not include New Hall. The department said it could not break the figures down by year, or describe the action taken against each perpetrator, without identifying individuals.",
+              "sources": [
+                {
+                  "id": "hl3198"
+                }
+              ]
+            },
+            {
+              "text": "On 1 July 2020, answering HL5875, Lord Keen gave a different cut of the data. \"Between 1 January 2016 to 31 December 2019, there were 97 sexual assaults in the women's estate overall and 7 of these assaults involved a transgender prisoner. Out of those 7 incidents, there were 6 sexual assaults where a transgender prisoner was recorded as the assailant or suspected assailant. In one incident the transgender prisoner was recorded as having 'active involvement', which means they did not necessarily start the assault.\" The answer also said it was not possible from the records to confirm that those transgender prisoners were born male and later identified as female. People born female who identify as male, or who identify as non-binary, might be included.",
+              "sources": [
+                {
+                  "id": "hl5875"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Official Ministry of Justice answers on sexual assaults in the women's estate involving transgender prisoners. These are different cuts of the data, not a single reconciled series.",
+            "columns": [
+              "Answer",
+              "Period and scope",
+              "Total sexual assaults in the women's estate",
+              "Figure involving transgender prisoners",
+              "What the answer does not settle"
+            ],
+            "rows": [
+              [
+                "HL3198, 5 May 2020",
+                "Since 2010; assaults against females in custody perpetrated by transgender individuals",
+                "122",
+                "5, at Low Newton, Foston Hall, Peterborough (Female) and Bronzefield",
+                "No year breakdown; New Hall is not listed; perpetrator sex at birth is not stated"
+              ],
+              [
+                "BBC report, 21 May 2020, of a ministerial figure",
+                "2010 to 2018, five women's jails",
+                "124",
+                "7 carried out by trans prisoners, including Karen White at New Hall",
+                "The underlying written answer was not located on the parliamentary site for this page"
+              ],
+              [
+                "HL5875, 1 July 2020",
+                "1 January 2016 to 31 December 2019; assaults that involved a transgender prisoner",
+                "97",
+                "7 involved a transgender prisoner, of which 6 were recorded as assailant or suspected assailant, and 1 as active involvement",
+                "Birth sex of those prisoners is not confirmed; involved is wider than perpetrated"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rape-distinction",
+          "title": "The recorded category is usually sexual assault, not rape",
+          "kind": "Written answers and news reports of sentencing",
+          "paragraphs": [
+            {
+              "text": "MoJ prison-incident figures in these answers are given as \"sexual assaults\". They do not usually split out rape. That is one reason why a question about how many rapes of females in the female prison cannot be answered with a single official rape count.",
+              "sources": [
+                {
+                  "id": "hl3198"
+                },
+                {
+                  "id": "hl5875"
+                }
+              ]
+            },
+            {
+              "text": "The same 1 July 2020 answer said: \"There is no reported incident of rape or attempted rape by prisoners who have reported they are declared male on their birth certificate who self-identify as a female in the women's estate.\" Karen White's two rape convictions, as reported at sentence, were for offences outside prison. The in-prison offences at New Hall were sexual assaults. An absence of a recorded rape incident is not the same thing as a finding that every sexual assault in the data set was minor, and it is not a finding about unreported incidents.",
+              "sources": [
+                {
+                  "id": "hl5875"
+                },
+                {
+                  "id": "white-guardian"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "later-assaults",
+          "title": "What ministers have said about the years after 2019",
+          "kind": "Written answers",
+          "paragraphs": [
+            {
+              "text": "On 13 April 2026, answering a group of Commons questions about transgender women in the prison estate, Jake Richards said: \"There have been no assaults or sexual assaults committed by transgender women in the general women's estate in the last five years.\" That answer is limited to transgender women, to the general women's estate, and to a five-year window ending in April 2026. It does not, by its own terms, reopen or correct the 2010-2019 figures, and it does not cover E Wing or the men's estate. The department said that the number of safeguarding alerts involving transgender prisoners in the women's estate over those five years could be obtained only at disproportionate cost.",
+              "sources": [
+                {
+                  "id": "q124145"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "offending-profile",
+          "title": "Sexual offending in the wider transgender count",
+          "kind": "Written answers",
+          "paragraphs": [
+            {
+              "text": "The placement debate is often mixed up with the offending profile of the wider group. Those are different facts. On 23 December 2024, Sir Nicholas Dakin said that of the 245 transgender prisoners who on 31 March 2024 reported their legal gender as male — \"i.e. those who now identify as women, non-binary or gender-fluid\" — 151 had been convicted of a sexual offence, including contact and non-contact offences, with offence data unavailable for one person. Of the 50 whose legal gender was recorded as female, the number convicted of a sexual offence was five or fewer. Most of the 245 were held in the men's estate.",
+              "sources": [
+                {
+                  "id": "q20298"
+                },
+                {
+                  "id": "trans-tables-2025-26",
+                  "locator": "Table 2.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-decides",
+      "title": "Who decides, and what they decide",
+      "intro": "The nuance is narrower, and more procedural, than the phrase \"the minister decides the sex\".",
+      "entries": [
+        {
+          "id": "the-actual-rule",
+          "title": "The published chain of decision",
+          "kind": "Policy framework",
+          "paragraphs": [
+            {
+              "text": "Under the framework as reissued on 14 November 2024, allocation is first made according to legal gender. Legal gender is proved by a birth certificate or a gender recognition certificate, or by confirmation from the Gender Recognition Panel. If legal gender has not been confirmed, allocation is initially in line with birth sex, so a trans woman is first allocated to the male estate. All prisoners with a certificate must be referred to the Central Operational Frameworks Team.",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "paras 3.6-3.11, 4.8"
+                }
+              ]
+            },
+            {
+              "text": "On top of that starting point there is a presumption. Transgender women, including those with certificates, \"with birth genitalia and/or any sexual or violent offence conviction (see Annex D) or current charge should not be held in the general women's estate.\" An exemption may be recommended by a Complex Case Board, which is chaired by a Prison Group Director. That recommendation is referred \"to the HMPPS Director General Operations for consideration and the Secretary of State for Justice for a final decision. An agreed exemption must be in place before any allocation to the general women's estate can occur.\" The framework says exemptions will be considered only where there is a \"compelling reason\", and gives as an example a risk of suicide or serious self-harm that cannot reasonably be managed elsewhere.",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "paras 1.5, 4.7, 4.15, 4.35, 4.42"
+                }
+              ]
+            },
+            {
+              "text": "The 27 February 2023 press notice put the same rule in ministerial language: exemptions \"only to be made in the most exceptional cases — and with the express approval of Ministers,\" or, in Dominic Raab's words, \"unless explicitly approved at the highest level.\" The official statistics guide shortens this to \"unless an exemption is granted by a Minister.\" The long-form instrument is more precise about the two official steps that precede the Secretary of State's decision.",
+              "sources": [
+                {
+                  "id": "moj-feb-2023"
+                },
+                {
+                  "id": "equalities-guide-2025-26",
+                  "locator": "p. 10"
+                },
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "para 1.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e-wing",
+          "title": "E Wing is not the general women's estate",
+          "kind": "Policy framework and written answers",
+          "paragraphs": [
+            {
+              "text": "The framework also provides for separate accommodation in the women's estate, \"e.g. E Wing at HMP/YOI Downview\", for some trans women with certificates who have birth genitalia and/or a sexual or violent offence or charge, where a Complex Case Board deems that appropriate. Ministers have been explicit that this unit is not the general women's estate. In April 2026 Jake Richards said prisoners there \"are accommodated completely separately to biological women, in a discrete building behind a gated fence\" and \"can only access the prison's wider regime under supervision, and where a local risk assessment deems this appropriate.\"",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "paras 3.6, 4.8, 4.15"
+                },
+                {
+                  "id": "q124145"
+                },
+                {
+                  "id": "q56664"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "exemptions-granted",
+          "title": "How many exemptions have been granted",
+          "kind": "Written answers",
+          "paragraphs": [
+            {
+              "text": "The exemption process dates from February 2023. On 28 October 2026, Lord Lemos gave the following official figures for ministerial exemptions provided to transgender women: 9 in 2023; five or fewer between 1 January and 4 July 2024; none from 5 July to 31 December 2024; none in 2025; and none in 2026 to the date of the answer. Labour ministers had already said, in December 2025 and again in April 2026, that \"no transgender women have received such an exemption under this Government.\" The government changed on 5 July 2024, which is why the 2024 figures are split on that date.",
+              "sources": [
+                {
+                  "id": "hl4104"
+                },
+                {
+                  "id": "hl12327"
+                },
+                {
+                  "id": "q124145"
+                }
+              ]
+            }
+          ],
+          "table": {
+            "caption": "Ministerial exemptions for placement of transgender women in the general women's estate, as given in written answer HL4104 on 28 October 2026. The process began in February 2023.",
+            "columns": [
+              "Period",
+              "Exemptions provided"
+            ],
+            "rows": [
+              [
+                "2023",
+                "9"
+              ],
+              [
+                "1 January to 4 July 2024",
+                "Five or fewer"
+              ],
+              [
+                "5 July to 31 December 2024",
+                "0"
+              ],
+              [
+                "2025",
+                "0"
+              ],
+              [
+                "2026 to 28 October 2026",
+                "0"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "not-legal-sex",
+          "title": "A minister does not decide legal or biological sex",
+          "kind": "Our analysis — not a judicial finding",
+          "paragraphs": [
+            {
+              "text": "Legal sex, for the starting allocation, is still a matter of the birth certificate or a gender recognition certificate issued under the Gender Recognition Act 2004. Biological sex, for the Equality Act 2010, is now a matter of the Supreme Court's interpretation of that Act. The Secretary of State's role under the current framework is a placement decision: whether, exceptionally, a particular trans woman may be held in the general women's estate. It is fair to call that a high-level political decision about who shares a women's prison. It is not accurate to say that the minister decides \"the sex\".",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "paras 3.6-3.11, 1.5"
+                },
+                {
+                  "id": "gra-2004-s9"
+                },
+                {
+                  "id": "fws-uksc",
+                  "locator": "para 264"
+                }
+              ]
+            },
+            {
+              "text": "That is the interesting nuance. The more the public rule is compressed into \"the minister decides the sex\", the easier it is to miss both the board-and-director-general procedure and the legal categories the minister is not being asked to rewrite. The satirical poster below is aimed at that compression. It is not a government document, and it should not be read as one.",
+              "sources": [
+                {
+                  "id": "hmpps-pf-2024",
+                  "locator": "para 1.5"
+                },
+                {
+                  "id": "moj-feb-2023"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perspectives",
+      "title": "What campaigners and official bodies have said",
+      "intro": "These are attributed positions, not findings of this page.",
+      "entries": [
+        {
+          "id": "womens-safety",
+          "title": "Women's safety campaigners",
+          "kind": "Attributed positions",
+          "paragraphs": [
+            {
+              "text": "The claimant in FDJ, as quoted by BBC News after the 2021 judgment, said she had not sought to prevent trans women in prison from living in dignity, or to exclude all trans women from women's prisons, but that trans women \"who have a history of violence and sexual offending against women should not be in a situation where they can put our safety at risk.\"",
+              "sources": [
+                {
+                  "id": "fdj-bbc"
+                }
+              ]
+            },
+            {
+              "text": "After the February 2023 change, Sex Matters published a response welcoming the announcement that men who identify as women would no longer be housed in women's prisons if they had male genitalia or had committed sexual or violent crimes, with exceptions only by ministerial authority. It also said, jointly with the position it attributed to Woman's Place UK and Keep Prisons Single Sex, that the policy \"does not go far enough.\" In Sex Matters' words: \"No male prisoners should be housed in women's prisons at all, regardless of whether they have convictions for violent or sexual offences, whether they have had surgery on their genitals, or whether they have a gender-recognition certificate.\"",
+              "sources": [
+                {
+                  "id": "sex-matters-2023"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trans-and-welfare",
+          "title": "Trans rights and prisoner-welfare positions",
+          "kind": "Attributed positions",
+          "paragraphs": [
+            {
+              "text": "The 2016 review was overseen by Peter Dawson of the Prison Reform Trust and Jay Stewart of Gendered Intelligence. The review's own published presumption was that people living in a gender different from their assigned sex at birth should, as a general rule, be treated according to the gender in which they identify, while still requiring a recorded process and a full risk assessment, including risk to women in custody.",
+              "sources": [
+                {
+                  "id": "review-2016",
+                  "locator": "pp. 3-6"
+                }
+              ]
+            },
+            {
+              "text": "When the 2023 English and Welsh rule came into force, BBC News quoted a Stonewall spokesperson as saying: \"Trans prisoners are a vulnerable population, and there is no evidence to suggest that the automatic placing of trans women in line with their sex assigned at birth is safer than an individualised risk assessment.\" The Ministry of Justice's own 2023 announcement said the safety of all prisoners was paramount, and that transgender prisoners who could not safely be housed in a men's prison could be held in a specialist unit.",
+              "sources": [
+                {
+                  "id": "bbc-raab-2023"
+                },
+                {
+                  "id": "moj-feb-2023"
+                }
+              ]
+            },
+            {
+              "text": "In Scotland, after the 2026 transfers, Holly Bruce MSP told the Equalities Committee that she had safeguarding concerns for the trans prisoners who had been moved. SPS, through Adam Jobson, said those prisoners were being treated with respect and that detailed plans had been put in place. Those are political and operational statements, not court findings.",
+              "sources": [
+                {
+                  "id": "bbc-sps-2026"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Limits",
+      "intro": "What this page does not claim, and what it could not check.",
+      "entries": [
+        {
+          "id": "what-is-not-settled",
+          "title": "Open points and sources we could not read",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "We did not obtain the full official text of PSI 17/2016, which is no longer hosted on GOV.UK, or the approved transcript of R (FDJ) v Secretary of State for Justice. Quotations from that judgment are taken from BBC reporting of it. We also did not locate, on the parliamentary written-answer site, the precise earlier answer behind the \"seven of 124\" figure reported by BBC News in May 2020; that figure is therefore attributed to that report, and set beside the answers that are on the record.",
+              "sources": []
+            },
+            {
+              "text": "The official statistics do not say where the small number of prisoners with gender recognition certificates are held. They do not give a public, person-level account of the nine exemptions granted in 2023, or of the \"five or fewer\" granted in the first half of 2024. They do not reconcile the 2010-2019 sexual-assault answers with one another. A written answer that records no rape or attempted rape, or no assault in a later five-year window, is only as complete as the underlying incident recording.",
+              "sources": []
+            },
+            {
+              "text": "Whether HMPPS has, since 26 November 2026, prepared a draft replacement framework that has not yet been published is not something this page can verify. Ministers have said that a review is under way. A review is not the same thing as a new published rule. This page is not legal advice, and it is not a recommendation about how any individual prisoner should be held.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "prison-rule-12",
+      "title": "The Prison Rules 1999, rule 12",
+      "publisher": "legislation.gov.uk",
+      "type": "legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1999/728/article/12",
+      "checked": "2026-11-27",
+      "date": "1999-03-12"
+    },
+    {
+      "id": "gra-2004-s9",
+      "title": "Gender Recognition Act 2004, section 9",
+      "publisher": "legislation.gov.uk",
+      "type": "legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2004/7/section/9",
+      "checked": "2026-11-27",
+      "date": "2004-07-01"
+    },
+    {
+      "id": "ea-2010",
+      "title": "Equality Act 2010",
+      "publisher": "legislation.gov.uk",
+      "type": "legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/contents",
+      "checked": "2026-11-27",
+      "date": "2010-04-08"
+    },
+    {
+      "id": "psi-2011",
+      "title": "PSI 07/2011, The Care and Management of Transsexual Prisoners",
+      "publisher": "National Offender Management Service",
+      "type": "official",
+      "url": "https://murrayblackburnmackenzie.org/wp-content/uploads/2023/01/2011-MOJ-policy.pdf",
+      "checked": "2026-11-27",
+      "date": "2011-03-02"
+    },
+    {
+      "id": "review-2016",
+      "title": "Review on the Care and Management of Transgender Offenders",
+      "publisher": "Ministry of Justice",
+      "type": "official",
+      "url": "https://assets.publishing.service.gov.uk/media/5a80bb0fe5274a2e87dbb7e8/transgender-review-findings-web.PDF",
+      "checked": "2026-11-27",
+      "date": "2016-11-09"
+    },
+    {
+      "id": "govuk-2016-review",
+      "title": "Care and management of transgender offenders",
+      "publisher": "GOV.UK",
+      "type": "official",
+      "url": "https://www.gov.uk/government/publications/care-and-management-of-transgender-offenders",
+      "checked": "2026-11-27",
+      "date": "2016-11-09"
+    },
+    {
+      "id": "white-guardian",
+      "title": "Transgender prisoner who sexually assaulted inmates jailed for life",
+      "publisher": "The Guardian",
+      "type": "article",
+      "url": "https://www.theguardian.com/uk-news/2018/oct/11/transgender-prisoner-who-sexually-assaulted-inmates-jailed-for-life",
+      "checked": "2026-11-27",
+      "date": "2018-10-11"
+    },
+    {
+      "id": "white-men",
+      "title": "Prison Service apologise for mistakes which allowed transgender sex attacker to prey on women in prison",
+      "publisher": "Manchester Evening News",
+      "type": "article",
+      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/prison-service-apologise-mistakes-allowed-15271851",
+      "checked": "2026-11-27",
+      "date": "2018-10-12"
+    },
+    {
+      "id": "hmpps-pf-page",
+      "title": "The care and management of individuals who are transgender",
+      "publisher": "GOV.UK",
+      "type": "official",
+      "url": "https://www.gov.uk/government/publications/the-care-and-management-of-individuals-who-are-transgender",
+      "checked": "2026-11-27",
+      "date": "2019-07-22"
+    },
+    {
+      "id": "hmpps-pf-2024",
+      "title": "The Care and Management of Individuals who are Transgender (re-issued 14 November 2024)",
+      "publisher": "HM Prison and Probation Service",
+      "type": "official",
+      "url": "https://assets.publishing.service.gov.uk/media/67360999f6920bfb5abc7b80/2024_11_14_The_Care_and_Management_of_Individuals_who_are_Transgender_PF.pdf",
+      "checked": "2026-11-27",
+      "date": "2024-11-14"
+    },
+    {
+      "id": "fdj-bbc",
+      "title": "Trans women in female jails policy lawful, High Court rules",
+      "publisher": "BBC News",
+      "type": "article",
+      "url": "https://www.bbc.com/news/uk-57692993",
+      "checked": "2026-11-27",
+      "date": "2021-07-02"
+    },
+    {
+      "id": "hcws313",
+      "title": "Update on Transgender Prisoners, HCWS313",
+      "publisher": "UK Parliament",
+      "type": "official",
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2022-10-11/hcws313",
+      "checked": "2026-11-27",
+      "date": "2022-10-11"
+    },
+    {
+      "id": "moj-jan-2023",
+      "title": "Update on changes to transgender prisoner policy framework",
+      "publisher": "GOV.UK",
+      "type": "official",
+      "url": "https://www.gov.uk/government/news/update-on-changes-to-transgender-prisoner-policy-framework",
+      "checked": "2026-11-27",
+      "date": "2023-01-25"
+    },
+    {
+      "id": "moj-feb-2023",
+      "title": "New transgender prisoner policy comes into force",
+      "publisher": "GOV.UK",
+      "type": "official",
+      "url": "https://www.gov.uk/government/news/new-transgender-prisoner-policy-comes-into-force",
+      "checked": "2026-11-27",
+      "date": "2023-02-27"
+    },
+    {
+      "id": "bbc-raab-2023",
+      "title": "Ban on trans women in female prisons extended - Raab",
+      "publisher": "BBC News",
+      "type": "article",
+      "url": "https://www.bbc.co.uk/news/uk-64781360",
+      "checked": "2026-11-27",
+      "date": "2023-02-27"
+    },
+    {
+      "id": "sps-review-2023",
+      "title": "Case review on management of a transgender prisoner",
+      "publisher": "Scottish Government",
+      "type": "official",
+      "url": "https://www.gov.scot/news/case-review-on-management-of-a-transgender-prisoner/",
+      "checked": "2026-11-27",
+      "date": "2023-02-09"
+    },
+    {
+      "id": "fws-uksc",
+      "title": "For Women Scotland Ltd v The Scottish Ministers [2025] UKSC 16",
+      "publisher": "The Supreme Court / The National Archives",
+      "type": "Supreme Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/uksc/2025/16",
+      "checked": "2026-11-27",
+      "date": "2025-04-16"
+    },
+    {
+      "id": "fws-uksc-page",
+      "title": "For Women Scotland Ltd (Appellant) v The Scottish Ministers (Respondent)",
+      "publisher": "The Supreme Court",
+      "type": "official",
+      "url": "https://supremecourt.uk/cases/judgments/uksc-2024-0042",
+      "checked": "2026-11-27",
+      "date": "2025-04-16"
+    },
+    {
+      "id": "csoh-59",
+      "title": "Petition of For Women Scotland for Judicial Review [2026] CSOH 59",
+      "publisher": "Scottish Courts and Tribunals Service",
+      "type": "Court of Session opinion",
+      "url": "https://scotcourts.gov.uk/media/pnbpzgex/2026csoh59-petition-of-for-women-scotland-for-judicial-review.pdf",
+      "checked": "2026-11-27",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "bbc-sps-2026",
+      "title": "No biological males in women's prisons, Scottish Prison Service confirms",
+      "publisher": "BBC News",
+      "type": "article",
+      "url": "https://www.bbc.co.uk/news/articles/c962p8217zxdo",
+      "checked": "2026-11-27",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ehrc-code-page",
+      "title": "Equality Act 2010: Code of Practice for services, public functions and associations, 2026",
+      "publisher": "GOV.UK",
+      "type": "official",
+      "url": "https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026",
+      "checked": "2026-11-27",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "ehrc-code-news",
+      "title": "Services Code of Practice comes into force",
+      "publisher": "Equality and Human Rights Commission",
+      "type": "official",
+      "url": "https://www.equalityhumanrights.com/news/news/services-code-practice-comes-force",
+      "checked": "2026-11-27",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "equalities-2025-26",
+      "title": "HMPPS Offender Equalities Annual Report 2025-26",
+      "publisher": "GOV.UK",
+      "type": "official statistics",
+      "url": "https://www.gov.uk/government/statistics/hmpps-offender-equalities-annual-report-2025-to-2026/hmpps-offender-equalities-annual-report-2025-26",
+      "checked": "2026-11-27",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "equalities-guide-2025-26",
+      "title": "Guide to HMPPS Offender Equalities Annual Report 2025-26",
+      "publisher": "Ministry of Justice",
+      "type": "official statistics",
+      "url": "https://assets.publishing.service.gov.uk/media/6b071cbf44b16eb36a9dbf3e/Guide_to_HMPPS_Offender_Equalities_Annual_Report_2025-26.pdf",
+      "checked": "2026-11-27",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "trans-tables-2025-26",
+      "title": "Tables, Chapter 2: Transgender prisoners, 2025-26",
+      "publisher": "Ministry of Justice",
+      "type": "dataset",
+      "url": "https://assets.publishing.service.gov.uk/media/6b0718b244b16eb36a9dbf39/Tables_-_Chapter_2_-_Transgender_prisoners_-_2025-26__3_.ods",
+      "checked": "2026-11-27",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "hl3198",
+      "title": "Written answer HL3198, Prisoners: Sexual Offences",
+      "publisher": "UK Parliament",
+      "type": "written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2020-04-21/HL3198",
+      "checked": "2026-11-27",
+      "date": "2020-05-05"
+    },
+    {
+      "id": "hl5875",
+      "title": "Written answer HL5875, Sexual Offences: Transgender People",
+      "publisher": "UK Parliament",
+      "type": "written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2020-06-17/HL5875",
+      "checked": "2026-11-27",
+      "date": "2020-07-01"
+    },
+    {
+      "id": "bbc-2020-assaults",
+      "title": "Eleven transgender inmates sexually assaulted in male prisons last year",
+      "publisher": "BBC News",
+      "type": "article",
+      "url": "https://www.bbc.co.uk/news/uk-52748117",
+      "checked": "2026-11-27",
+      "date": "2020-05-21"
+    },
+    {
+      "id": "q20298",
+      "title": "Written answer 20298, Prisoners: Transgender People",
+      "publisher": "UK Parliament",
+      "type": "written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2024-12-16/20298",
+      "checked": "2026-11-27",
+      "date": "2024-12-23"
+    },
+    {
+      "id": "q56664",
+      "title": "Written answer 56664, Prisoners' Transfers: Transgender People",
+      "publisher": "UK Parliament",
+      "type": "written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-06-02/56664",
+      "checked": "2026-11-27",
+      "date": "2025-06-10"
+    },
+    {
+      "id": "q124145",
+      "title": "Written answer 124145, Prisoners: Transgender People",
+      "publisher": "UK Parliament",
+      "type": "written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-03-26/124145",
+      "checked": "2026-11-27",
+      "date": "2026-04-13"
+    },
+    {
+      "id": "hl12327",
+      "title": "Written answer HL12327, Prisoners: Transgender People",
+      "publisher": "UK Parliament",
+      "type": "written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-11-25/hl12327",
+      "checked": "2026-11-27",
+      "date": "2025-12-04"
+    },
+    {
+      "id": "hl4104",
+      "title": "Written answer HL4104, Women's Prisons: Transgender People",
+      "publisher": "UK Parliament",
+      "type": "written answer",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-14/HL4104",
+      "checked": "2026-11-27",
+      "date": "2026-10-28"
+    },
+    {
+      "id": "sex-matters-2023",
+      "title": "New MoJ transgender prisoner policy: Sex Matters' response",
+      "publisher": "Sex Matters",
+      "type": "article",
+      "url": "https://sex-matters.org/posts/crime/new-moj-transgender-prisoner-policy/",
+      "checked": "2026-11-27",
+      "date": "2023-03-06"
+    }
+  ]
+}
