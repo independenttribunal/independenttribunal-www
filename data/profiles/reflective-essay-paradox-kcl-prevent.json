@@ -1,0 +1,1699 @@
+{
+  "id": "reflective-essay-paradox-kcl-prevent",
+  "category": "legal-study",
+  "title": "The Reflective Essay Paradox: Niamh Grant, KCL and Prevent",
+  "subtitle": "When a university sets reflection as a penalty, marks it, and then refers it to counter-terrorism safeguarding",
+  "summary": "On 26 November 2026 Novara Media reported that King’s College London had referred a student, Niamh Grant, to Prevent over a “reflective essay” the university required her to write as a condition of returning to study. KCL says the referral rested on her behaviour and the essay’s contents, that an advisory group assessed it without identifying details, and that religion or identity would never be grounds for referral. Grant calls it “incredibly Islamophobic”. This study sets out what is reported, the statute and guidance that govern a university’s Prevent decisions, the tension between discipline, education and safeguarding, a consistency thought experiment, and the records that would settle the questions. It makes no finding that KCL acted unlawfully or discriminated.",
+  "checked": "2026-11-28",
+  "jurisdiction": "England and Wales / United Kingdom",
+  "tags": [
+    "uk",
+    "prevent",
+    "universities",
+    "freedom-of-speech",
+    "academic-freedom",
+    "counter-terrorism",
+    "kcl",
+    "equality",
+    "foi"
+  ],
+  "scope": "A legal and policy study of one reported Prevent referral and the framework around it. It relies on press reports, KCL’s statements to the press, legislation, official guidance and official statistics. It is not legal advice, not a finding about any person’s motives, and not a substitute for the essays, the referral form or the university’s records, none of which the author has seen.",
+  "status_note": "Checked 28 November 2026. The essays, the referral form, the advisory group’s assessment and the outcome of the misconduct process have not been obtained; the reports give no dates for the essays or the referral, and nothing reported shows whether police or a Channel panel took the referral further. KCL has not said which advisory group acted. KCL’s misconduct regulations and Prevent referral procedure have not been reviewed in full. No Freedom of Information or subject access requests have been made for this review.",
+  "featured_source": "novara",
+  "related": [
+    {
+      "id": "speech-offences",
+      "title": "Speech offences: the case register"
+    },
+    {
+      "id": "acquittal-legal-certainty-paradox",
+      "title": "The acquittal–legal certainty paradox"
+    },
+    {
+      "id": "collateral-purpose",
+      "title": "Collateral purpose: when a proceeding is brought for the wrong reason"
+    },
+    {
+      "id": "hypothetical-reader",
+      "title": "The hypothetical reader, the hypothetical society and the real judge"
+    },
+    {
+      "id": "speech-law-reform",
+      "title": "Reform tracker: free speech laws in progress"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "The reported referral",
+      "value": "26 Nov 2026",
+      "detail": "Novara Media reports KCL referred a student to Prevent over a required essay",
+      "target": "reported-account"
+    },
+    {
+      "label": "One essay, three jobs",
+      "value": "Discipline, education, safeguarding",
+      "detail": "Each function asks a different question of the same piece of writing",
+      "target": "three-functions"
+    },
+    {
+      "label": "The statutory test",
+      "value": "“Drawn into terrorism”",
+      "detail": "Section 26 asks about terrorism, not about harm in general; section 31 adds a free speech qualifier",
+      "target": "law"
+    },
+    {
+      "label": "The thought experiment",
+      "value": "Same sentence, different saint",
+      "detail": "A consistency test, not proof of discrimination",
+      "target": "counterfactual"
+    },
+    {
+      "label": "What would settle it",
+      "value": "Ten FOI questions",
+      "detail": "Plus a subject access request for Grant’s own records",
+      "target": "foi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "the-question",
+      "title": "The question this page is asking",
+      "intro": "A student can be required to reflect, can have that reflection marked inadequate, and can then have the same writing examined for safety. Each step may be defensible alone. The question is what happens when they form one chain, and who outside the university can examine it.",
+      "entries": [
+        {
+          "id": "reflection-or-conformity",
+          "title": "Where does legitimate reflection end and compelled ideological conformity begin?",
+          "kind": "Our analysis — not a finding",
+          "paragraphs": [
+            {
+              "text": "On 26 November 2026 Novara Media reported that King’s College London (KCL) had referred Niamh Grant, a 22-year-old Social Sciences student, to Prevent, the government’s counter-terrorism programme. The referral concerned a “reflective essay” KCL required her to write as a condition of returning to study after a May 2025 suspension. JOE carried the story the same day and The New Arab the next. All three rest on Grant’s account, correspondence seen by Novara Media and a statement from KCL. None has published the essays, the referral or the university’s assessment.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Referral, essay as condition of return, May 2025 suspension"
+                },
+                {
+                  "id": "joe",
+                  "locator": "Same account, 26 November 2026"
+                },
+                {
+                  "id": "newarab",
+                  "locator": "Same account, 27 November 2026"
+                }
+              ]
+            },
+            {
+              "text": "This page treats that account as reported, not established. KCL says the referral rested on Grant’s behaviour and on the contents of her essay, that a student’s identity or religious belief would never be grounds for a referral, and that an advisory group assessed the essay without identifying details. Grant says the referral was “incredibly Islamophobic” and that her words were “deliberately decontextualised”. The page does not choose between those accounts. It asks what the statute, the official guidance and KCL’s own published structures would need to show for either to be right.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "KCL statement; Grant’s comments"
+                },
+                {
+                  "id": "newarab",
+                  "locator": "KCL statement to The New Arab"
+                }
+              ]
+            },
+            {
+              "text": "The structure of the story has a name here: the reflective essay paradox. A university sets reflection as a penalty. The same university judges whether the reflection is adequate. If the answer is “not enough”, the student writes again, now knowing what the assessor wants to read. If the second version is then examined by another part of the institution, for another purpose, for signs of risk, the student has been asked to disclose a worldview under conditions where the disclosure can be used. Legitimate reflection invites honesty. Compelled conformity rewards the expected answer. One piece of writing cannot easily be both a test of sincerity and a safe place for it. The reports show that the first essay was rejected as not giving “the necessary assurance” and that the second led to the referral; they do not show that the paradox in fact operated here.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "First essay rejected; second essay; referral"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-to-read",
+          "title": "How to read this page",
+          "kind": "Research method",
+          "paragraphs": [
+            {
+              "text": "Facts about people and events are attributed to the outlet or document that reports them. Statute and guidance are quoted from the primary text. Entries marked “Our analysis — not a finding” are argument and questions, not findings by any court, regulator or journalist. Advocacy statements are labelled as such. The consistency table is a thought experiment about method and proves nothing about what happened. Where a date or document is not public, the page says so rather than filling the gap.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reported-account",
+      "title": "What has been reported",
+      "intro": "Everything here comes from press reports and KCL’s statements to those outlets. Dates the reports do not give are marked as not reported.",
+      "entries": [
+        {
+          "id": "timeline",
+          "title": "Timeline, as far as it is reported",
+          "kind": "News reports",
+          "table": {
+            "caption": "Timeline of the reported events, with the source and its limits",
+            "columns": [
+              "When",
+              "What is reported",
+              "Source and limits"
+            ],
+            "rows": [
+              [
+                "Summer 2024",
+                "Pro-Palestine encampment at KCL. Novara says Grant was a leader in negotiations; The New Arab says she and Usama Ghanem became known as leaders and say they faced emergency exclusion. Novara reports the encampment led KCL to agree to stop investing in controversial-weapons companies.",
+                "Novara Media; The New Arab. Grant’s role is as she and Novara describe it; KCL’s account of the exclusion is not given."
+              ],
+              [
+                "2024 (date not reported)",
+                "The protest incident behind the allegations: entering a kitchen area and being part of a group obstruction said to have led to physical injury to staff.",
+                "Novara Media. Grant denies it."
+              ],
+              [
+                "May 2025",
+                "Suspension over alleged misconduct. The New Arab describes it as indefinite.",
+                "Novara Media; JOE; The New Arab."
+              ],
+              [
+                "Not reported",
+                "First reflective essay submitted and rejected by the head of student conduct and appeals as not giving the “necessary assurance”.",
+                "Novara Media. No date given."
+              ],
+              [
+                "Not reported",
+                "Second essay submitted. A student welfare adviser, and per The New Arab the student safety and well-being team, emails Grant that KCL has referred her to Prevent over it.",
+                "Novara Media; The New Arab. No date given."
+              ],
+              [
+                "Not reported",
+                "Grant reported to the misconduct committee for allegedly failing to comply adequately with the essay penalty and for “acting in an intimidating and hostile manner”. A hearing is pending.",
+                "Novara Media; The New Arab. No date given."
+              ],
+              [
+                "26 Nov 2026",
+                "Novara Media publishes its investigation, updated at 15:39 to add a CAGE comment. JOE publishes at 16:11 GMT.",
+                "Novara Media; JOE."
+              ],
+              [
+                "27 Nov 2026",
+                "The New Arab publishes, with a KCL spokesperson’s statement and Grant’s comments.",
+                "The New Arab."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The reports give two firm dates before publication: the suspension in May 2025 and the 2024 encampment period. They give no dates for the two essays, the referral emails or the misconduct committee report. The New Arab says Grant has been banned from campus for over a year and faces a hearing; neither Novara nor The New Arab says when. Whether the referral went beyond KCL to police, or to a Channel panel, is not reported.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Suspension in May 2025; essays; misconduct committee"
+                },
+                {
+                  "id": "newarab",
+                  "locator": "Campus ban, hearing, one term left"
+                },
+                {
+                  "id": "joe",
+                  "locator": "Grant suspended in May 2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-essays",
+          "title": "The essays, as quoted in the reports",
+          "kind": "News reports",
+          "paragraphs": [
+            {
+              "text": "The task, as Novara reports it, was to reflect on the “health and safety issues” caused when Grant entered a kitchen area and was part of a group that created an obstruction that “led to the physical injury of staff” at a 2024 protest, which she denies. It also invited her to reflect on a protest policy no longer in effect after criticism from Liberty and Amnesty International.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "The essay task"
+                }
+              ]
+            },
+            {
+              "text": "Of the first essay Novara quotes Grant writing that Palestinian suffering “must induce an imperative” and that she cares about “my university’s investments in the Israeli arms trade”. The head of student conduct and appeals replied: “I cannot consider this essay provides the necessary assurance that you will not cause any further health and safety concerns, that you appreciate how your actions impacted other members of the King’s community and that you understand the importance of the university’s policies and procedures as related to protest and behaviour.”",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "First essay and the reply"
+                }
+              ]
+            },
+            {
+              "text": "Of the second essay Novara reports that Grant suggested the university needed “a bit of humility… before it begins to lecture other people and groups about violence, crimes and the obstruction of other people’s lives”, compared the campaign with the student struggle over apartheid-era investments, and wrote that she drew inspiration from Imam Hussein. Novara describes him as a historic figure in Islam who sacrificed his life standing up against oppression, and reports that she compared her smaller sacrifice, the interruption of her studies, with his. It quotes her saying that he and his family left an example of “how we should sacrifice for the cause of fighting injustice and establishing justice on Earth”. Novara also reports that she criticised university staff over links to the 2003 invasion of Iraq (see below).",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Second essay; Imam Hussein passage"
+                }
+              ]
+            },
+            {
+              "text": "Novara writes that “from correspondence seen by Novara Media, the reference to Hussein appears to be the basis of the university’s Prevent referral”. JOE says the reference “appears to have prompted” it. The New Arab reports instead that the safety and well-being team’s email said “the language” in the resubmitted essay warranted a referral, without naming the passage. KCL’s statement refers to the student’s “behaviour and contents of their reflective exercise” and does not identify a passage. The hedge matters: the link between the Hussein sentence and the referral is a reasonable reading of correspondence the public has not seen, not a confirmed fact.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Hussein reference “appears to be” the basis"
+                },
+                {
+                  "id": "joe",
+                  "locator": "Reference “appears to have prompted” the referral"
+                },
+                {
+                  "id": "newarab",
+                  "locator": "“language in her resubmitted essay”"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kcl-position",
+          "title": "KCL’s position",
+          "kind": "KCL statement, as published",
+          "paragraphs": [
+            {
+              "text": "“We want everyone at King’s to feel safe, and will always uphold our students’ rights to lawful freedom of expression including the right to lawful protest. Like all universities, King’s is required by law to have Prevent policies and procedures in place to safeguard students who may be at risk of harm. These are entirely separate to misconduct processes, applied after careful assessment of what is best for the individual student and their circumstances, and always balanced with our commitment to lawful freedom of expression. A student’s identity or religious beliefs would never be grounds for a referral to Prevent.”",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "KCL spokesperson, first paragraph"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "“In this instance, the student’s behaviour and contents of their reflective exercise suggested that there was a risk of harm that met the statutory threshold for a referral to the Prevent programme. This was subject to extensive governance, including by a Freedom of Expression advisory group who independently assessed the reflective essay with no identifying details about the student or her specific beliefs, and determined that a referral to Prevent was an appropriate safeguarding action.”",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "KCL spokesperson, second paragraph"
+                }
+              ],
+              "quote": true
+            },
+            {
+              "text": "The New Arab quotes the same passages and adds that KCL “would never discipline a student based on their views or lawful freedom of expression, including lawful activism and protest”. KCL’s statements do not say which advisory group acted, when it met, what “behaviour” was relied on, what the “statutory threshold” was taken to be, or what the police or a Channel panel decided. Those are the gaps the FOI questions below target.",
+              "sources": [
+                {
+                  "id": "newarab",
+                  "locator": "KCL statement to The New Arab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "grant-and-supporters",
+          "title": "Grant’s account and the advocacy comments",
+          "kind": "Statements and advocacy comments",
+          "paragraphs": [
+            {
+              "text": "Grant told Novara that the referral was “incredibly Islamophobic” and “a method of intimidation”, that she “made an effort to explain what it means to have my degree taken away from me”, and that her words were “deliberately decontextualised” to “create a justification for the Prevent referral”. She believes a Christian student who wrote of taking inspiration from the sacrifice of Jesus Christ would not have been flagged. She told The New Arab that if you explain what your faith means to you, “that is, from the onset, treated as immediately suspicious”. Those are her views; KCL denies any religious basis.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Grant’s comments"
+                },
+                {
+                  "id": "newarab",
+                  "locator": "Grant’s comments"
+                }
+              ]
+            },
+            {
+              "text": "Dr Layla Aitlhadj, director and senior caseworker of Prevent Watch, called the referral “horrifying” and described Prevent as a “political tool rather than one of security”. Leigh Day describes Prevent Watch as monitoring, documenting and providing casework support to people affected by the Prevent duty, and it supported the families in the school-badge claim described below. CAGE International told Novara it has supported Grant’s case for two years and linked it to the Ghanem case. These are advocacy organisations’ opinions and are labelled as such here. Novara does not say whether either had seen the referral papers.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Aitlhadj and CAGE comments"
+                },
+                {
+                  "id": "leighday",
+                  "locator": "Prevent Watch’s role in the school claim"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "further-misconduct",
+          "title": "The further misconduct allegations",
+          "kind": "News reports",
+          "paragraphs": [
+            {
+              "text": "Novara reports that, alongside the referral, Grant has been reported to KCL’s misconduct committee over allegations that she failed to comply adequately with the essay penalty and for “acting in an intimidating and hostile manner” by criticising university staff in her essay over links to the 2003 invasion of Iraq. Novara adds that Grant is of Iraqi mixed heritage. The New Arab reports a pending hearing on failing to uphold the penalty and on intimidating and hostile behaviour. KCL’s reply to the specific allegations is not published.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Misconduct committee report"
+                },
+                {
+                  "id": "newarab",
+                  "locator": "Hearing pending"
+                }
+              ]
+            },
+            {
+              "text": "If the charge is described accurately, the content of a required essay is itself being treated as possible misconduct. That sharpens the paradox: the essay is first judged for sufficient contrition, then for safety, then for hostility. Whether KCL accepts that description, and on what regulation the charge rests, is not known.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Reported charge based on essay content"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "three-functions",
+      "title": "Discipline, education and safeguarding: one essay, three jobs",
+      "intro": "KCL says its Prevent processes are “entirely separate to misconduct processes”. The reports describe one piece of writing passing through three functions, each with its own question and its own legal frame.",
+      "entries": [
+        {
+          "id": "three-functions-table",
+          "title": "Three functions, three questions",
+          "kind": "Our analysis — not a finding",
+          "table": {
+            "caption": "The three functions touching the essay",
+            "columns": [
+              "Function",
+              "The question it asks",
+              "Who acts, as reported or published",
+              "Risk if the functions blur"
+            ],
+            "rows": [
+              [
+                "Discipline",
+                "Did the student breach the rules, and what penalty or condition follows?",
+                "The head of student conduct and appeals rejected the first essay; the misconduct committee has a further report (Novara).",
+                "The student’s agreement with the institution becomes a condition of return."
+              ],
+              [
+                "Education",
+                "Has the student reflected and learned?",
+                "The essay was set as a condition of return; it was marked for “assurance” rather than for argument (Novara).",
+                "A learning exercise judged on sincerity cannot safely receive sincere dissent."
+              ],
+              [
+                "Safeguarding (Prevent)",
+                "Is the student susceptible to being drawn into terrorism, and would support help?",
+                "A student welfare adviser or the safety and well-being team told Grant of the referral; KCL says an advisory group reviewed the essay (Novara; The New Arab; KCL).",
+                "A safeguarding referral that follows a disciplinary disappointment can be read as a further sanction."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The table sets out what each function asks, on the reports and on KCL’s published description of its structures. It does not allege that KCL merged them; it shows where a student, a regulator or a court would need to look to see whether they stayed apart. KCL’s misconduct regulations were not reviewed for this page, so the first row relies on how the reports describe the process.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Head of student conduct and appeals; student welfare adviser; misconduct committee"
+                },
+                {
+                  "id": "newarab",
+                  "locator": "Student conduct and appeals team; safety and well-being team"
+                },
+                {
+                  "id": "kcl-prevent",
+                  "locator": "Prevent implemented and reviewed by named teams and groups"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "separation-questions",
+          "title": "What “entirely separate” would need to mean",
+          "kind": "Our analysis — not a finding",
+          "paragraphs": [
+            {
+              "text": "For the three functions to be separate in a sense that matters to the student, the following would need to be true: that the people deciding on the Prevent referral did not know the essay had been rejected as inadequate by the conduct team; that the disciplinary file was not used in assessing risk; and that no one in the conduct line decided or influenced the referral. KCL’s statement says it considered Grant’s “behaviour” as well as the essay, which suggests conduct information was considered. The documents that would show the actual flow are the referral form, any information-sharing protocol and the advisory group’s record.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "KCL statement: behaviour and contents of the essay"
+                }
+              ]
+            },
+            {
+              "text": "KCL’s Prevent page says Prevent is implemented by its Academic Regulation, Policy and Compliance team, reviewed by its Safeguarding Oversight and Steering Groups, and that the Prevent Lead is the Director of Students and Education. Whether any of those roles also sit in the line that runs student conduct is not established by that page.",
+              "sources": [
+                {
+                  "id": "kcl-prevent",
+                  "locator": "Teams, groups and Prevent Lead"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "The law: a due-regard duty with a free-speech qualifier",
+      "intro": "The legal frame is narrower than “universities must report extremism”. It is a duty of due regard, tied to terrorism, expressly qualified for universities by freedom of speech and academic freedom.",
+      "entries": [
+        {
+          "id": "ctsa-duty",
+          "title": "Sections 26, 29 and 31 of the Counter-Terrorism and Security Act 2015",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Section 26(1) requires a specified authority, in the exercise of its functions, to “have due regard to the need to prevent people from being drawn into terrorism”. Schedule 6 lists the authorities, which include higher education governing bodies. Section 29 provides for statutory guidance, which authorities must “have regard” to.",
+              "sources": [
+                {
+                  "id": "ctsa-s26",
+                  "locator": "Duty to have due regard"
+                },
+                {
+                  "id": "ctsa-s29",
+                  "locator": "Statutory guidance"
+                }
+              ]
+            },
+            {
+              "text": "Section 31 adds a specific rule for higher and further education. In carrying out the section 26 duty, the governing body of a relevant institution must have “particular regard” to the duty to take steps to secure freedom of speech under section 43(1) of the Education (No. 2) Act 1986 and, where it applies, under section A1(1) of the Higher Education and Research Act 2017, and to “the importance of academic freedom” for qualifying institutions. The Secretary of State must have the same regard when issuing guidance or directions. “Need to ensure freedom of speech” means taking reasonably practicable steps to secure freedom of speech within the law for members, students, employees and visiting speakers. A summary of section 31 as “particular regard to freedom of speech and academic freedom” is accurate in substance, but the statute does so by reference to those two specific duties.",
+              "sources": [
+                {
+                  "id": "ctsa-s31",
+                  "locator": "Particular regard to the free speech duties and academic freedom"
+                }
+              ]
+            },
+            {
+              "text": "Section A1 of the 2017 Act, as in force from 1 August 2025, requires the governing body of a registered higher education provider to take the steps that, “having particular regard to the importance of freedom of speech”, are reasonably practicable to secure freedom of speech within the law for staff, members, students and visiting speakers.",
+              "sources": [
+                {
+                  "id": "hera-a1",
+                  "locator": "Section A1(1) and (2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "guidance-paragraphs",
+          "title": "What the Prevent duty guidance says about referral thresholds",
+          "kind": "Official guidance",
+          "table": {
+            "caption": "Prevent duty guidance paragraphs relevant to a university referral",
+            "columns": [
+              "Paragraph",
+              "What it says",
+              "Why it matters here"
+            ],
+            "rows": [
+              [
+                "34",
+                "A risk-based, proportionate approach; one consistent threshold across all ideologies; a referrer should say why the risk is relevant to Prevent; because Prevent is a counter-terrorism capability, the presence or possible presence of terrorist or terrorism-linked ideology is an important consideration.",
+                "Tests whether KCL can say why the essay was relevant to terrorism, not just to conduct or harm."
+              ],
+              [
+                "35–38",
+                "Radicalisation is the process of legitimising support for or use of terrorist violence; there is no single profile or pathway; susceptibility and vulnerability are discussed.",
+                "Sets the subject matter of a referral."
+              ],
+              [
+                "40",
+                "Frontline professionals should consider whether the person may be on a pathway that could lead to terrorism.",
+                "The question the referrer is meant to ask."
+              ],
+              [
+                "41",
+                "Signs that extremist views are being adopted may be used; the threshold involves considering the harm posed to the person and whether Prevent might stop potential wider societal harm committed by the person.",
+                "Possible source of the word “harm” in KCL’s statement, read in a radicalisation context."
+              ],
+              [
+                "42–43",
+                "Notice, check, share; use the national referral form; escalate to the designated safeguarding lead or Prevent lead; the referral goes to police, who assess suitability for Channel.",
+                "Points to the referral form and escalation record that would exist."
+              ],
+              [
+                "44",
+                "A referrer should ensure there is concern the person may be susceptible to becoming involved in terrorism or supporting it; the precise ideological driver may be unclear; better to receive referrals that prove unnecessary than miss someone.",
+                "The strongest support for a cautious referral; it still requires a terrorism-related concern."
+              ],
+              [
+                "46",
+                "If unsure, seek advice; consider whether another type of support or safeguarding route is more suitable.",
+                "Whether a non-Prevent route was considered."
+              ],
+              [
+                "49",
+                "Police assess whether there are “reasonable grounds to suspect that a person is susceptible to becoming a terrorist or supporting terrorism” (the gateway assessment); other support should proceed unless there is good reason not to.",
+                "The external check; the outcome is unknown here."
+              ],
+              [
+                "164, 197",
+                "Higher education should be especially mindful of free speech and academic freedom, including under section 31; settings must balance duties, and risks can usually be mitigated without shutting down speech.",
+                "The free speech qualifier in operation."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The Prevent duty guidance for England and Wales (the page reviewed is headed as updated on 6 March 2024) is the guidance universities must have regard to. The paragraph numbers below are those on that page. The central drafting point is that Prevent is “a counter-terrorism capability”, so ideology linked to terrorism is an “important consideration”, while paragraph 44 also tells referrers that over-referring is better than missing someone who needs support. Those two statements pull in different directions, and a university’s record of how it reconciled them is the test.",
+              "sources": [
+                {
+                  "id": "prevent-guidance",
+                  "locator": "Paragraphs 34, 40–44, 46, 49–51, 164 and 197"
+                }
+              ]
+            },
+            {
+              "text": "Paragraphs 34 and 49–51 are about consistency: “one consistent and proportionate threshold applied to Prevent activity across all extremist ideologies and radicalisation concerns”, with police using decision-making frameworks “to ensure there is no disparity in the threshold for making a referral dependent on ideology”. Paragraph 16 reminds authorities to comply with the Equality Act and data protection law, and paragraphs 16 and 164 say higher education settings should be “especially mindful” of freedom of speech and academic freedom, including under section 31.",
+              "sources": [
+                {
+                  "id": "prevent-guidance",
+                  "locator": "Paragraphs 16, 34, 50–51 and 164"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ofs-ra24",
+          "title": "The Office for Students’ free speech guidance",
+          "kind": "Regulator guidance",
+          "paragraphs": [
+            {
+              "text": "The Office for Students’ regulatory advice 24 (RA24) says a provider will wish to ensure it complies with the free speech duty for any measure or decision that affects speech within the law, including, as its example, a decision to take disciplinary action against a member of staff. It sets out a three-step framework it would expect to be helpful: whether the speech is within the law; whether there are reasonably practicable steps to secure it; and, if the speech is interfered with, whether the interference is prescribed by law and proportionate under the European Convention on Human Rights. It is guidance, not a statutory test.",
+              "sources": [
+                {
+                  "id": "ra24",
+                  "locator": "Paragraphs 23–24: measures and the three steps"
+                }
+              ]
+            },
+            {
+              "text": "On Prevent, RA24 states that the duty is to have “due regard” and “is not a duty to achieve the aim”, and that universities must have “particular regard” to freedom of speech and academic freedom. The OfS published an updated version on 5 August 2026 which, it says, amended the three-step framework in response to the University of Sussex judgment and added one example. The framework therefore existed before that date; what changed on 5 August is the amendment, which this study has not compared line by line with the 2025 text.",
+              "sources": [
+                {
+                  "id": "ra24",
+                  "locator": "Paragraphs 96–97"
+                },
+                {
+                  "id": "ofs-aug26",
+                  "locator": "5 August 2026 update and amended three-step framework"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equality-human-rights",
+          "title": "Equality Act 2010 and Human Rights Act 1998",
+          "kind": "Legislation",
+          "paragraphs": [
+            {
+              "text": "Religion or belief is a protected characteristic (section 10 of the Equality Act). Direct discrimination is less favourable treatment “because of a protected characteristic” compared with how others are or would be treated (section 13). The comparison with a hypothetical person is built into the legal test, which is why the thought experiment below follows the same shape. Section 149 requires public authorities to have due regard to the need to eliminate discrimination, advance equality of opportunity and foster good relations. Whether KCL’s referral amounts to discrimination is a question for a court or tribunal on evidence; nothing here suggests that it does or does not.",
+              "sources": [
+                {
+                  "id": "ea-s10",
+                  "locator": "Religion or belief"
+                },
+                {
+                  "id": "ea-s13",
+                  "locator": "Direct discrimination and hypothetical comparators"
+                },
+                {
+                  "id": "ea-s149",
+                  "locator": "Public sector equality duty"
+                }
+              ]
+            },
+            {
+              "text": "Convention rights incorporated by the Human Rights Act 1998 include thought, conscience and religion (Article 9), expression (Article 10) and non-discrimination in the enjoyment of those rights (Article 14). They bind KCL to the extent it is a public authority for the function in question; that question has not been analysed here.",
+              "sources": [
+                {
+                  "id": "hra",
+                  "locator": "Schedule 1: Articles 9, 10 and 14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harm-and-terrorism",
+      "title": "Harm is not the same as susceptibility to terrorism",
+      "intro": "KCL’s statement speaks of a “risk of harm that met the statutory threshold”. The statute does not use that phrase.",
+      "entries": [
+        {
+          "id": "two-tests",
+          "title": "Different words, different tests",
+          "kind": "Our analysis — not a finding",
+          "table": {
+            "caption": "Different concepts that can be confused in a Prevent referral",
+            "columns": [
+              "Concept",
+              "Where it comes from",
+              "What it asks",
+              "How it appears in this story"
+            ],
+            "rows": [
+              [
+                "Misconduct risk",
+                "KCL’s conduct rules (not reviewed)",
+                "Did the student breach rules or create a health and safety or hostility risk?",
+                "The kitchen-area and obstruction allegations; the hostility charge (Novara)."
+              ],
+              [
+                "Risk of harm",
+                "KCL’s statement",
+                "Undefined in the statement.",
+                "KCL says behaviour and contents suggested a risk of harm meeting the threshold."
+              ],
+              [
+                "Susceptibility to being drawn into terrorism",
+                "CTSA s.26; guidance paras 35–44, 49",
+                "Is the person susceptible to supporting or becoming involved in terrorism?",
+                "Not stated by KCL in terms; the question the statute and guidance require."
+              ],
+              [
+                "Terrorism-linked ideology present",
+                "Guidance para 34",
+                "Is there, or may there be, a terrorist or terrorism-linked ideology?",
+                "Not stated; reported material quotes a religious figure and a political campaign."
+              ],
+              [
+                "Lawful, protected expression",
+                "HERA s.A1; CTSA s.31; Convention Arts 9 and 10",
+                "Is the speech within the law, and has particular regard been paid to it?",
+                "KCL says it upholds lawful expression; Grant says her words were decontextualised."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Section 26 concerns the need to prevent people “from being drawn into terrorism”. The guidance describes radicalisation as legitimising support for or use of terrorist violence, and a referral as resting on concern that someone may be susceptible to becoming involved in terrorism or supporting it. “Harm” appears in paragraph 41, where a referrer weighs the harm posed to the person and potential wider societal harm in deciding whether the threshold is met. It sits inside that terrorism framework. If KCL used “harm” in that sense, the statement is consistent with the guidance. If it used it more broadly, to mean harm of any kind to the student or others, then paragraph 46 asks whether a different support route was more suitable.",
+              "sources": [
+                {
+                  "id": "ctsa-s26",
+                  "locator": "Duty framed by terrorism"
+                },
+                {
+                  "id": "prevent-guidance",
+                  "locator": "Paragraphs 35, 41, 44 and 46"
+                },
+                {
+                  "id": "novara",
+                  "locator": "KCL: “risk of harm that met the statutory threshold”"
+                }
+              ]
+            },
+            {
+              "text": "There is a second distinction: concern about conduct is not concern about radicalisation. The reports describe allegations of obstruction, health and safety risk and hostility. Those are matters for a conduct process, where the student has the usual procedural safeguards. A Prevent referral requires a terrorism-related concern, not a conduct concern. KCL says both the behaviour and the essay’s contents were relevant, and the second step of the analysis is whether the essay’s contents, taken alone, could ground a terrorism-related concern in the sense of paragraphs 34 and 44.",
+              "sources": [
+                {
+                  "id": "prevent-guidance",
+                  "locator": "Paragraphs 34, 40 and 44"
+                },
+                {
+                  "id": "novara",
+                  "locator": "Allegations and KCL’s reference to behaviour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-the-passages-show",
+          "title": "What the quoted passages do and do not show",
+          "kind": "Our analysis — not a finding",
+          "paragraphs": [
+            {
+              "text": "None of the passages quoted in the three reports advocates violence against any person. They express strong criticism of the university, a political position and a religious reference to sacrifice in a cause of justice. That does not settle whether the full essay contained something else: the reports quote extracts chosen by journalists, and KCL has not said which passage concerned it. Grant’s allegation that her words were taken out of context and KCL’s assertion that the contents suggested a risk can both be true of different parts of a document no one outside KCL has read. The fair statement is therefore conditional: if the Hussein sentence is the basis of the referral, the question is what terrorism-related concern it can lawfully support; if something else is, KCL has not said what.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Quoted passages"
+                },
+                {
+                  "id": "joe",
+                  "locator": "Reference “appears to have prompted” referral"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "independence",
+      "title": "Who checked the check?",
+      "intro": "KCL says a Freedom of Expression advisory group “independently” assessed the essay. KCL’s own pages show what such groups are.",
+      "entries": [
+        {
+          "id": "kcl-groups",
+          "title": "KCL’s freedom of expression groups",
+          "kind": "University governance documents",
+          "table": {
+            "caption": "KCL freedom of expression groups, as KCL describes them",
+            "columns": [
+              "Group",
+              "KCL’s description",
+              "Composition",
+              "Does a published remit cover Prevent referrals?"
+            ],
+            "rows": [
+              [
+                "FEMG",
+                "University Executive sub-committee on freedom of expression; chaired by the Assistant Principal (Academic Freedom and Freedom of Expression); parent of the three groups.",
+                "Internal",
+                "Not stated in the pages reviewed"
+              ],
+              [
+                "FESAG",
+                "Protecting and promoting freedom of expression for students; KCLSU describes a 2018 origin as a Standing Advisory Group.",
+                "Joint with the students’ union",
+                "Not stated in the pages reviewed"
+              ],
+              [
+                "FEOG",
+                "Risk assessments and mitigations for student and other events.",
+                "Joint with the students’ union",
+                "Not stated; events-focused"
+              ],
+              [
+                "FECAG",
+                "Academic panel advising Student Conduct and Appeals and/or HR on whether expression complained about is permitted.",
+                "Academic panel",
+                "Not stated; remit is complaints and conduct advice"
+              ],
+              [
+                "Safeguarding Oversight and Steering Groups",
+                "Review Prevent implementation (KCL Prevent page).",
+                "Internal",
+                "Implementation oversight, not case decisions, on the page reviewed"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "KCL’s Code of Practice on academic freedom and freedom of expression (effective 1 August 2025) and its policy pages describe a Freedom of Expression Management Group (FEMG), a University Executive sub-committee chaired by the Assistant Principal (Academic Freedom and Freedom of Expression), with three sub-groups. The Freedom of Expression Students Advisory Group (FESAG) is a joint committee of the University and the Students’ Union (KCLSU) focused on protecting and promoting freedom of expression for students; KCLSU’s page describes its origin as a Standing Advisory Group established in 2018. The Freedom of Expression Operations Group (FEOG) is a joint committee that carries out risk assessments and develops mitigations for student and other events. The Freedom of Expression Complaints Advisory Group (FECAG) is an academic panel giving “independent advice to Student Conduct and Appeals and/or HR, on whether the expression that is the subject of a complaint is permitted”. KCL’s procedures document says it triages complaints and advises whether a formal investigation is required.",
+              "sources": [
+                {
+                  "id": "kcl-foe",
+                  "locator": "Description of the FEMG and its sub-groups"
+                },
+                {
+                  "id": "kcl-code",
+                  "locator": "Code of Practice, effective 1 August 2025"
+                },
+                {
+                  "id": "kcl-procedures",
+                  "locator": "Complaints triage by FECAG"
+                },
+                {
+                  "id": "kclsu-fesag",
+                  "locator": "FESAG page"
+                }
+              ]
+            },
+            {
+              "text": "KCL’s Prevent page adds that student representatives sit on the Safeguarding Oversight Group and on the freedom of expression advisory group, and that those groups review how the duty is implemented. No document reviewed here describes a role for any of these groups in deciding whether an individual student should be referred to Prevent.",
+              "sources": [
+                {
+                  "id": "kcl-prevent",
+                  "locator": "Safeguarding groups and student representatives"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "independence-questions",
+          "title": "Internal independence versus external independence",
+          "kind": "Our analysis — not a finding",
+          "paragraphs": [
+            {
+              "text": "A body can be independent of the team that made a referral and still be part of the university that set the penalty and wrote the statement. KCL’s statement does not say which of the groups acted, so the claim of independence cannot be tested against its published terms. Three questions would let an outsider test it: which group, and under what terms of reference it assessed a Prevent referral; who sat on it and whether any member was involved in the conduct case; and whether it advised or decided.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "KCL: advisory group assessed the essay"
+                },
+                {
+                  "id": "kcl-foe",
+                  "locator": "Internal composition of the groups"
+                }
+              ]
+            },
+            {
+              "text": "The statement says the essay was assessed “with no identifying details about the student or her specific beliefs”. If the reported trigger is a religious reference, the group either saw it or did not. If the reference was removed, the group cannot have assessed the basis the reports describe; if it was retained, the essay still disclosed a belief. That is a question to put to KCL, not an inference about what happened.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "KCL: assessed with no identifying details"
+                },
+                {
+                  "id": "joe",
+                  "locator": "Hussein reference as the reported basis"
+                }
+              ]
+            },
+            {
+              "text": "The checks outside KCL that the sources describe are narrower than they may appear. Police assess a referral at the gateway stage (guidance para 49). The Office for Students monitors providers’ compliance with the Prevent duty under a framework issued on 23 September 2026 and to be followed from 1 January 2027, and says it would not expect “business as usual” Prevent referrals that follow established escalation protocols to be reportable events. For students’ free speech complaints, the OfS says students use the Office of the Independent Adjudicator; the new OfS complaints scheme, scheduled to open on 1 September 2026, is for staff, visiting speakers and others. This review did not find a route in those sources that reviews the merits of an individual referral.",
+              "sources": [
+                {
+                  "id": "prevent-guidance",
+                  "locator": "Paragraph 49: gateway assessment"
+                },
+                {
+                  "id": "ofs-prevent",
+                  "locator": "Monitoring framework and reportable events"
+                },
+                {
+                  "id": "ofs-aug26",
+                  "locator": "Complaints scheme and the OIA for students"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "counterfactual",
+      "title": "A consistency thought experiment",
+      "intro": "Grant says a Christian student who cited Jesus’s sacrifice would not have been flagged. The Equality Act asks the same kind of question about a hypothetical comparator. The table tests the logic of a referral rationale, nothing more.",
+      "entries": [
+        {
+          "id": "same-sentence",
+          "title": "Same sentence, different tradition",
+          "kind": "Our analysis — not a finding",
+          "table": {
+            "caption": "Counterfactual essay lines and the question a consistent process should answer",
+            "columns": [
+              "Imagined essay line",
+              "What stays the same",
+              "What changes",
+              "Question for a consistent process"
+            ],
+            "rows": [
+              [
+                "“I take inspiration from the sacrifice of Jesus Christ, who gave his life opposing injustice.” (invented)",
+                "A student compares a small personal sacrifice with a religious figure’s sacrifice in a cause of justice.",
+                "The tradition and the figure.",
+                "Would the referral rationale apply unchanged? If not, what terrorism-related concern attaches to the substituted figure?"
+              ],
+              [
+                "“Imam Hussein and his family left an example of how we should sacrifice for the cause of fighting injustice.” (reported paraphrase of the passage Novara quotes)",
+                "As above.",
+                "Islamic tradition; a figure from the 7th century.",
+                "What in this sentence, if it was the basis, is terrorism-related under guidance paras 34–44?"
+              ],
+              [
+                "“I take inspiration from Socrates, who accepted an Athenian court’s sentence rather than stop questioning authority.” (invented)",
+                "As above, with a secular philosopher.",
+                "No religious reference.",
+                "Would an advisory group have regarded this as relevant to Prevent at all?"
+              ],
+              [
+                "“I take inspiration from Martin Luther King Jr, who accepted jail rather than obey an unjust law.” (invented)",
+                "As above, with a civil rights leader.",
+                "A politically familiar rather than contested figure.",
+                "Is reflection on accepting a penalty for protest treated differently if the protest was politically comfortable?"
+              ],
+              [
+                "“I draw inspiration from campaigners who were disciplined for demanding divestment from apartheid South Africa.” (invented; Novara reports Grant also cited this struggle)",
+                "Disciplined protest, praised later.",
+                "A political rather than religious reference.",
+                "Is the political comparison alone enough to meet para 34, and if not, why does adding a religious figure change the answer?"
+              ],
+              [
+                "The same Hussein sentence from a student with no disciplinary history.",
+                "The sentence.",
+                "The surrounding conduct file.",
+                "How much of the referral rests on the sentence and how much on the conduct allegations Grant denies?"
+              ],
+              [
+                "An essay that praised a violent attack and urged others to copy it (control).",
+                "None of the reported passages.",
+                "Content that would raise a terrorism-related concern whatever its source.",
+                "Marks the boundary: a consistent process refers this regardless of faith or politics."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Guidance paragraphs 34 and 50–51 require one consistent threshold across ideologies and no disparity by ideology, and section 13 of the Equality Act asks how a person would have been treated if they did not share the protected characteristic. A referral rationale can be tested the same way: replace the figure in the reported sentence and see whether the stated reasons still apply. If the reasons stay the same, the figure was incidental. If the reasons change, the question is what about the figure triggered them and whether that answer is a legitimate, terrorism-related one. The sentences below, apart from the second row, are invented for illustration and are not anyone’s words.",
+              "sources": [
+                {
+                  "id": "prevent-guidance",
+                  "locator": "Paragraphs 34 and 50–51"
+                },
+                {
+                  "id": "ea-s13",
+                  "locator": "Hypothetical comparators"
+                },
+                {
+                  "id": "novara",
+                  "locator": "Reported Hussein passage; Grant’s Jesus comparison"
+                }
+              ]
+            },
+            {
+              "text": "This is not proof of discrimination. It cannot say how KCL’s advisory group in fact reasoned, whether the surrounding conduct allegations influenced the outcome, or whether other referrals have been made or declined. KCL’s statement says the behaviour, not belief, was the basis. The reported conduct allegations are a variable the table cannot control, which is why the last rows isolate it. Only the referral form and the group’s record can supply the answer.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "KCL statement; conduct allegations"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wider-context",
+      "title": "Wider context, kept in proportion",
+      "intro": "These items put the case in context. They are different institutions, different facts and, in some cases, different kinds of claim, so none is evidence about what happened to Grant.",
+      "entries": [
+        {
+          "id": "kcl-discipline-figures",
+          "title": "KCL’s other pro-Palestine discipline records",
+          "kind": "News reports",
+          "paragraphs": [
+            {
+              "text": "On 9 July 2026 Al Jazeera and Liberty Investigates reported, from Freedom of Information requests to 156 universities, that 42 had investigated up to 236 pro-Gaza students and staff. KCL had investigated at least 26 students between October 2023 and November 2025, the highest of any university in the reporting, ahead of UCL (24), Oxford (18) and Cardiff (12). KCL’s response is quoted in those reports, and Al Jazeera’s September report records that KCL denies disciplining students for activism.",
+              "sources": [
+                {
+                  "id": "aj-jul",
+                  "locator": "FOI to 156 universities; KCL figures"
+                },
+                {
+                  "id": "li-jul",
+                  "locator": "Same investigation"
+                },
+                {
+                  "id": "aj-sep",
+                  "locator": "KCL denies disciplining students for activism"
+                }
+              ]
+            },
+            {
+              "text": "The same investigation describes a student given the pseudonym “Khadija”, who was ordered to write a 2,000-word reflective essay and called to a meeting to consider referring her to Prevent; the outlet reports that in the end no referral was made. This is a comparator inside KCL, drawn from one student’s account and documents as reported, not an adjudicated fact. It suggests that KCL has considered Prevent in a disciplinary context before with a different outcome, and the contrast raises the question of what distinguished the two cases.",
+              "sources": [
+                {
+                  "id": "li-jul",
+                  "locator": "“Khadija” reflective essay and no referral"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ghanem",
+          "title": "Usama Ghanem",
+          "kind": "News reports",
+          "paragraphs": [
+            {
+              "text": "Novara says KCL reinstated Usama Ghanem in September 2026. Al Jazeera’s 11 September report says KCL lifted his suspension “late last month” and that he was returning to complete his degree. KCL said it had “upheld the original reasons” for the suspension but that he had met the conditions agreed and re-enrolment was the appropriate outcome. Al Jazeera reports that his visa was revoked as a result of the disciplinary action; KCL says visa sponsorship decisions are not its own but that it must notify UK Visas and Immigration of changes in student status. KCL also denied monitoring Ghanem, saying information gathered by the private firm Horus was publicly available, and that it uses Horus as a “horizon scanning” tool. CAGE links the Grant case to Ghanem’s. Ghanem’s suspension letter, as Al Jazeera describes it, included charges of acting in an intimidating and hostile manner and causing a health and safety concern; Grant’s reported charges are similar in wording but concern a different student and facts.",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Reinstated in September; private security firm"
+                },
+                {
+                  "id": "aj-sep",
+                  "locator": "Suspension lifted; KCL’s statements; Horus"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "school-trust",
+          "title": "A school trust’s apology over Prevent warnings",
+          "kind": "Claimants’ solicitors’ press release",
+          "paragraphs": [
+            {
+              "text": "Leigh Day, the claimants’ solicitors, reported on 20 November 2026 that Lion Academy Trust, which runs Barclay Primary School in Leyton, east London, apologised and agreed financial settlements with four children. The families alleged that after the children wore Palestinian colours at a Children in Need day in November 2023 the school threatened Prevent and police hate-crime referrals, discouraged discussion of Palestine, and treated those expressions differently from support for Ukraine. The claims were brought under the Equality Act 2010 and the Human Rights Act 1998 and settled with court approval at an infant settlement hearing on 19 November 2026. The press release does not say amounts, and it does not describe a judicial finding on the allegations; the trust’s apology is reported but its position on liability is not stated there. JOE and Novara report the case as occurring the week before the Grant story.",
+              "sources": [
+                {
+                  "id": "leighday",
+                  "locator": "Apology, allegations, Equality Act and Human Rights Act claims, 19 November hearing"
+                },
+                {
+                  "id": "joe",
+                  "locator": "Children aged six to ten; reported as the previous week"
+                }
+              ]
+            },
+            {
+              "text": "It is a different institution, a different age group and a different claim. Its relevance is limited to showing that a Prevent-referral warning over expression has been the subject of litigation and a negotiated outcome in the same month, and that the claimants’ solicitors’ own account is the source here.",
+              "sources": [
+                {
+                  "id": "leighday",
+                  "locator": "Scope of the claims"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prevent-numbers",
+          "title": "Prevent in numbers",
+          "kind": "Official statistics and audit",
+          "table": {
+            "caption": "Selected Prevent figures, with what each does and does not show",
+            "columns": [
+              "Measure",
+              "Figure",
+              "Source",
+              "Caution"
+            ],
+            "rows": [
+              [
+                "Referrals, year to September 2025",
+                "10,293 (9,957 individuals); up 39% from 7,408",
+                "Home Office statistics, 6 August 2026",
+                "Referrals and individuals differ; 39% is the referrals figure."
+              ],
+              [
+                "Education sector share",
+                "3,496 (34%)",
+                "Home Office statistics",
+                "Not split into higher education or by institution."
+              ],
+              [
+                "Discussed at a Channel panel / adopted",
+                "2,159 (21%) / 1,810 (18%)",
+                "Home Office statistics",
+                "Different measures; adoption is 17.6% in the statistics’ own calculation."
+              ],
+              [
+                "Referrals with a clear dominant ideology",
+                "30%, against 73% in 2016–17",
+                "NAO report, November 2026",
+                "Shows ideology is often unclear, which bears on guidance para 44."
+              ],
+              [
+                "No identified ideology",
+                "2,859",
+                "NAO report",
+                "The largest referral category."
+              ],
+              [
+                "No further action (derived share)",
+                "3,135, about 30.5% of referrals",
+                "NAO Figure 4; share calculated here",
+                "Outcome categories overlap and are not additive."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "Home Office statistics published on 6 August 2026 report 10,293 referrals in the year to September 2025 (9,957 individuals), a 39% increase in referrals on 7,408 the year before and the highest since the series began in 2015; the number of individuals rose by 37%. The education sector made 3,496 referrals (34%), then the police 3,208 (31%). 2,159 (21%) were discussed at a Channel panel and 1,810 (18%) were adopted as Channel cases.",
+              "sources": [
+                {
+                  "id": "ho-stats",
+                  "locator": "Referral numbers, education share and Channel outcomes"
+                }
+              ]
+            },
+            {
+              "text": "The National Audit Office’s report of 13 November 2026 found that only 30% of referrals presented a clear, dominant extremist ideology, against 73% in the year to September 2017, and that 2,859 cases (the largest category) had no identified ideology. It also found that 14% of individuals who met the threshold for Channel discussion were categorised as fascinated by extreme violence or mass-casualty attacks. Its Figure 4 shows 3,135 referrals with no further action and 5,184 referred to other services, but the categories overlap and sum to more than 10,293, so they cannot be added. The share of referrals with no further action, about 30.5%, is arithmetic on those figures (3,135 over 10,293), not an NAO-stated percentage. The report found evidence of positive impact but that it is hard to show Prevent reduces terrorism, and made recommendations on oversight and financial management. The publications reviewed give no figures specific to KCL or higher education.",
+              "sources": [
+                {
+                  "id": "nao-report",
+                  "locator": "30% and 73%; 2,859; 14%; Figure 4"
+                },
+                {
+                  "id": "nao-press",
+                  "locator": "Press release, 13 November 2026"
+                }
+              ]
+            },
+            {
+              "text": "A Public Accounts Committee inquiry, “Reducing radicalisation: The Prevent programme”, will take evidence from senior Home Office officials on the basis of the NAO’s report. The committee says it will welcome written evidence in due course, that no events have yet been held, and that the inquiry cannot assist with individual cases. The case is therefore a possible illustration for the inquiry, not a matter the inquiry will decide.",
+              "sources": [
+                {
+                  "id": "pac",
+                  "locator": "Scope, timetable and individual cases"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "regulator-and-parliament",
+          "title": "Regulator and Parliament",
+          "kind": "Regulator guidance and parliamentary inquiry page",
+          "paragraphs": [
+            {
+              "text": "The Office for Students issued its Prevent monitoring framework for higher education on 23 September 2026, to be followed from 1 January 2027. It says the OfS’s monitoring is a risk-based approach to providers’ compliance and that the OfS will have regard to its general duties, including freedom of speech and academic freedom. The sources reviewed do not mention this case.",
+              "sources": [
+                {
+                  "id": "ofs-prevent",
+                  "locator": "Framework and general duties"
+                },
+                {
+                  "id": "ra24",
+                  "locator": "Prevent duty and free speech guidance"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foi",
+      "title": "What would settle it: records and how to ask for them",
+      "intro": "Most of the open questions are questions about documents. KCL is within the Freedom of Information Act through its governing body, and Grant’s own records are reached by a different route.",
+      "entries": [
+        {
+          "id": "foi-questions",
+          "title": "Ten Freedom of Information questions for KCL",
+          "kind": "Our analysis — not a finding",
+          "table": {
+            "caption": "Ten proposed FOI questions to KCL, with likely hurdles",
+            "columns": [
+              "No.",
+              "Question",
+              "Why it matters",
+              "Likely hurdle"
+            ],
+            "rows": [
+              [
+                "1",
+                "The current and previous versions, since 2023, of KCL’s procedure for deciding a Prevent referral, including who decides, the threshold applied and what is recorded.",
+                "Shows whether the decision follows the guidance paragraphs on threshold and documentation.",
+                "Mostly published; little hurdle."
+              ],
+              [
+                "2",
+                "Terms of reference, membership by role, and meeting guidance of FESAG, FEOG and FECAG, and any record of which group may review a Prevent referral.",
+                "Tests the claim that an advisory group reviewed the essay.",
+                "Minutes may attract section 36 or section 40."
+              ],
+              [
+                "3",
+                "The number of Prevent referrals KCL made in each academic year since 2019–20, by referring team.",
+                "Gives a baseline.",
+                "Small-number withholding."
+              ],
+              [
+                "4",
+                "Of those, the number made while the student was subject to a conduct or misconduct process.",
+                "Shows how often discipline and Prevent overlap.",
+                "May not be recorded; section 12."
+              ],
+              [
+                "5",
+                "The number of proposed referrals reviewed by a freedom of expression advisory group, and how many were then made or not made.",
+                "Tests how common and how decisive such review is.",
+                "Small numbers; may not be recorded."
+              ],
+              [
+                "6",
+                "The number of times a reflective essay or similar exercise was part of the information considered in a Prevent referral.",
+                "Isolates the reflective essay category.",
+                "Very likely not recorded as a category."
+              ],
+              [
+                "7",
+                "Guidance given to conduct staff on setting, marking and assessing reflective essays as conditions of return, including assurance criteria.",
+                "Shows how “sufficient” reflection is judged.",
+                "Mostly internal guidance; section 36 possible."
+              ],
+              [
+                "8",
+                "Information-sharing protocols, data protection impact assessments and privacy notices between conduct, welfare and Prevent teams.",
+                "Tests the claim that the functions are separate.",
+                "Section 36 possible; generally disclosable in part."
+              ],
+              [
+                "9",
+                "Any equality impact assessment or monitoring data on Prevent referrals by religion or ethnicity, including for the public sector equality duty.",
+                "Tests whether section 149 is being monitored.",
+                "May not exist; small numbers."
+              ],
+              [
+                "10",
+                "Reports to the Safeguarding Oversight Group or the governing body on Prevent referral numbers and outcomes since 2023.",
+                "Shows what governance sees.",
+                "Section 36 and section 40 possible."
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "The Freedom of Information Act 2000 applies to the governing bodies of higher education institutions listed in Schedule 1, and KCL’s page says requests go to its information compliance team, in writing with a name and address for correspondence, and are due within twenty working days. A request must describe recorded information; an authority need not create information it does not hold. The questions below are drafted to ask for recorded information and aggregates, not for the content of any student’s case.",
+              "sources": [
+                {
+                  "id": "foia-sch1",
+                  "locator": "Governing bodies of higher education institutions"
+                },
+                {
+                  "id": "kcl-foi",
+                  "locator": "How to make a request"
+                },
+                {
+                  "id": "foia-s8",
+                  "locator": "Form of a request"
+                },
+                {
+                  "id": "foia-s10",
+                  "locator": "Twenty working days"
+                }
+              ]
+            },
+            {
+              "text": "Likely hurdles are the cost limit (section 12), personal data of others (section 40), information provided in confidence, for example by police or Prevent partners (section 41), and the prejudice exemption for the effective conduct of public affairs (section 36). A small number of cases in a category can risk identification, so aggregates may be refused or rounded. None of this needs to defeat a well-framed request; the refusal notice is itself information.",
+              "sources": [
+                {
+                  "id": "foia-s12",
+                  "locator": "Cost limit"
+                },
+                {
+                  "id": "foia-s40",
+                  "locator": "Personal information"
+                },
+                {
+                  "id": "foia-s41",
+                  "locator": "Confidence"
+                },
+                {
+                  "id": "foia-s36",
+                  "locator": "Effective conduct of public affairs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sar",
+          "title": "Grant’s own records: a subject access request, not FOI",
+          "kind": "Official guidance",
+          "paragraphs": [
+            {
+              "text": "Information that is the personal data of the person asking is exempt from the Freedom of Information Act (section 40(1)), because it is reached through the right of access under data protection law. Under the UK GDPR, a person can ask an organisation whether it holds their personal data and for a copy, and organisations usually have one month to respond, according to the Information Commissioner’s Office. A subject access request from Grant to KCL for the essays, the referral form, the advisory group’s assessment and the correspondence is the route that could produce the documents this page lacks. Any request is for Grant to make or authorise; this review has not made one and does not suggest that anything other than her own request would be proper.",
+              "sources": [
+                {
+                  "id": "foia-s40",
+                  "locator": "Section 40(1): applicant’s own personal data"
+                },
+                {
+                  "id": "ico-sar",
+                  "locator": "Right of access and one month"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "where-this-sits",
+      "title": "Where this sits on the site, and the paradox named",
+      "intro": "This is a research study, not a register entry, and it sits beside rather than inside the speech offences pages.",
+      "entries": [
+        {
+          "id": "cross-references",
+          "title": "Relationship to other pages",
+          "kind": "Our analysis — not a finding",
+          "paragraphs": [
+            {
+              "text": "A Prevent referral is not an offence and not a prosecution, so the speech offences register does not carry an entry for it; the register is cross-referenced here and links back to this page in its related items. The acquittal–legal certainty paradox asks where a person can find the line when criminal verdicts do not state reasons; this study asks the parallel question for safeguarding thresholds, where decisions are recorded in documents the person may never see. The collateral purpose page concerns civil procedure and the doctrine does not apply here; it is linked only as an analogy for the question, which belongs to Grant and her supporters rather than to this page, of whether a safeguarding mechanism was used for a purpose other than the one it exists for. The reform tracker records the higher education free speech duties in force from 1 August 2025 that frame the university’s obligations.",
+              "sources": [
+                {
+                  "id": "ctsa-s31",
+                  "locator": "Free speech qualifier on the duty"
+                },
+                {
+                  "id": "ra24",
+                  "locator": "Free speech duties in force from 1 August 2025"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paradox-named",
+          "title": "The reflective essay paradox, named",
+          "kind": "Our analysis — not a finding",
+          "paragraphs": [
+            {
+              "text": "A student asked to reflect is asked to disclose how they think. The institution that asks also marks the answer, so a reflection that does not reassure is rejected; a reflection that discloses a faith or a politics can be examined for risk. The more candid the student, the more material the institution has; the more guarded, the less likely the exercise is accepted as sincere. A legal system that wants both academic freedom and safeguarding must say where the line runs between the two: when a belief becomes a terrorism-related concern, and who, outside the institution that set the exercise, can check. Where does legitimate reflection end and compelled ideological conformity begin?",
+              "sources": [
+                {
+                  "id": "novara",
+                  "locator": "Essays, referral and KCL’s statement"
+                },
+                {
+                  "id": "prevent-guidance",
+                  "locator": "Paragraphs 34, 44 and 197"
+                },
+                {
+                  "id": "ctsa-s31",
+                  "locator": "Particular regard to free speech"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Limits of this review",
+      "intro": "What this page has not seen, and what it cannot say.",
+      "entries": [
+        {
+          "id": "limits-entry",
+          "title": "What has not been seen",
+          "kind": "Coverage limitation",
+          "paragraphs": [
+            {
+              "text": "The essays, the Prevent referral form, KCL’s advisory group assessment and minutes, any police or Channel outcome, and the result of the misconduct process have not been seen. The reports give no dates for the essays or the referral, and KCL has not said which advisory group acted, so no part of this page depends on the order of events between them. The reports rely heavily on Grant’s account and on correspondence seen only by Novara Media; KCL’s account is its press statements. KCL’s misconduct regulations and Prevent referral procedure were not reviewed in full, and the guidance paragraph numbers are those on the version of the Prevent duty guidance reviewed on 28 November 2026. The school trust claim rests on the claimants’ solicitors’ press release and press reports, and the amount of any settlement is not stated there. The Prevent figures do not give higher education or KCL-specific data. No finding is made that KCL’s referral was unlawful, discriminatory or in breach of any free speech duty.",
+              "sources": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "novara",
+      "title": "King’s College London made a pro-Palestine student write an essay as punishment, then reported her to Prevent for it",
+      "publisher": "Novara Media",
+      "type": "News report (investigation)",
+      "url": "https://novaramedia.com/2026/11/26/kings-college-london-made-a-pro-palestine-student-write-an-essay-as-punishment-then-reported-her-to-prevent-for-it/",
+      "checked": "2026-11-28",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "joe",
+      "title": "University reports student to counter-terrorism scheme over essay it made her write",
+      "publisher": "JOE",
+      "type": "News report",
+      "url": "https://www.joe.co.uk/news/kings-college-london-student-prevent-referral-556756",
+      "checked": "2026-11-28",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "newarab",
+      "title": "King’s College London reported student to Prevent over pro-Palestine essay",
+      "publisher": "The New Arab",
+      "type": "News report",
+      "url": "https://www.newarab.com/news/kings-college-reported-student-prevent-over-palestine-essay",
+      "checked": "2026-11-28",
+      "date": "2026-11-27"
+    },
+    {
+      "id": "leighday",
+      "title": "London’s Barclay Primary School apologises and settles legal claims over Prevent referral warnings to children",
+      "publisher": "Leigh Day",
+      "type": "Law firm press release (claimants’ solicitors)",
+      "url": "https://www.leighday.co.uk/news/press-releases/2026-news/londons-barclay-primary-school-apologises-and-settles-legal-claims-over-prevent-referral-warnings-to-children/",
+      "checked": "2026-11-28",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "kcl-prevent",
+      "title": "The Prevent duty",
+      "publisher": "King’s College London",
+      "type": "University policy page",
+      "url": "https://www.kcl.ac.uk/about/governance-policies-and-procedures/the-prevent-duty",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ctsa-s26",
+      "title": "Counter-Terrorism and Security Act 2015, section 26 (general duty)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2015/6/section/26",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ctsa-s29",
+      "title": "Counter-Terrorism and Security Act 2015, section 29 (duty to have regard to guidance)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2015/6/section/29",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ctsa-s31",
+      "title": "Counter-Terrorism and Security Act 2015, section 31 (freedom of speech and academic freedom)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2015/6/section/31",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "hera-a1",
+      "title": "Higher Education and Research Act 2017, Part A1 (freedom of speech)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2017/29/part/A1",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "prevent-guidance",
+      "title": "Prevent duty guidance: for England and Wales (accessible)",
+      "publisher": "Home Office, GOV.UK",
+      "type": "Official guidance page",
+      "url": "https://www.gov.uk/government/publications/prevent-duty-guidance/prevent-duty-guidance-for-england-and-wales-accessible",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ra24",
+      "title": "Regulatory advice 24: Guidance related to freedom of speech (August 2026 PDF)",
+      "publisher": "Office for Students",
+      "type": "Regulator guidance",
+      "url": "https://www.officeforstudents.org.uk/media/g3agsas0/regulatory-advice-24-freedom-of-speech-guidance-august-2026.pdf",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ofs-aug26",
+      "title": "OfS publishes rules and updates guidance ahead of freedom of speech complaints scheme launch",
+      "publisher": "Office for Students",
+      "type": "Regulator press release",
+      "url": "https://www.officeforstudents.org.uk/news-blog-and-events/press-and-media/ofs-publishes-rules-and-updates-guidance-ahead-of-freedom-of-speech-complaints-scheme-launch/",
+      "checked": "2026-11-28",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "ea-s10",
+      "title": "Equality Act 2010, section 10 (religion or belief)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/10",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ea-s13",
+      "title": "Equality Act 2010, section 13 (direct discrimination)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/13",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ea-s149",
+      "title": "Equality Act 2010, section 149 (public sector equality duty)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/149",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "hra",
+      "title": "Human Rights Act 1998, Schedule 1 (Convention rights, including Articles 9, 10 and 14)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/1998/42/schedule/1",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "kcl-foe",
+      "title": "Freedom of expression",
+      "publisher": "King’s College London",
+      "type": "University policy page",
+      "url": "https://www.kcl.ac.uk/about/freedom-of-expression",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "kcl-code",
+      "title": "Code of Practice: academic freedom and freedom of expression (effective 1 August 2025)",
+      "publisher": "King’s College London",
+      "type": "University policy",
+      "url": "https://www.kcl.ac.uk/assets/policyzone/governancelegal/academic-freedom-freedom-of-expression.pdf",
+      "checked": "2026-11-28",
+      "date": "2025-08-01"
+    },
+    {
+      "id": "kcl-procedures",
+      "title": "Events, protests and gatherings: procedures",
+      "publisher": "King’s College London",
+      "type": "University policy",
+      "url": "https://www.kcl.ac.uk/assets/policyzone/governancelegal/events-protests-gatherings-procedures.pdf",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "kclsu-fesag",
+      "title": "Freedom of Expression",
+      "publisher": "King’s College London Students’ Union",
+      "type": "Students’ union page",
+      "url": "https://www.kclsu.org/news/article/6015/Freedom-of-Expression/",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ofs-prevent",
+      "title": "Prevent duty: framework for monitoring in higher education in England (OfS 2026.41)",
+      "publisher": "Office for Students",
+      "type": "Regulator guidance",
+      "url": "https://www.officeforstudents.org.uk/media/qnklv24k/prevent-duty-framework-for-monitoring-in-higher-education-in-england.pdf",
+      "checked": "2026-11-28",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "aj-jul",
+      "title": "Inside King’s College London’s crackdown on pro-Palestine students",
+      "publisher": "Al Jazeera",
+      "type": "News report",
+      "url": "https://www.aljazeera.com/news/2026/7/9/kcl-pro-palestine-tensions",
+      "checked": "2026-11-28",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "li-jul",
+      "title": "Inside King’s College London’s crackdown on pro-Palestine students",
+      "publisher": "Liberty Investigates",
+      "type": "News report",
+      "url": "https://libertyinvestigates.org.uk/articles/inside-kings-college-londons-crackdown-on-pro-palestine-students/",
+      "checked": "2026-11-28",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "aj-sep",
+      "title": "Pro-Palestine student suspended by King’s College London returns to campus",
+      "publisher": "Al Jazeera",
+      "type": "News report",
+      "url": "https://www.aljazeera.com/news/2026/9/11/pro-palestine-student-suspended-by-kings-college-london-returns-to-campus",
+      "checked": "2026-11-28",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "ho-stats",
+      "title": "Individuals referred to and supported through the Prevent programme: October 2024 to September 2025",
+      "publisher": "Home Office, GOV.UK",
+      "type": "Official statistics",
+      "url": "https://www.gov.uk/government/statistics/individuals-referred-to-prevent-to-september-2025/individuals-referred-to-and-supported-through-the-prevent-programme-october-2024-to-september-2025",
+      "checked": "2026-11-28",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "nao-report",
+      "title": "Reducing radicalisation: the Prevent programme",
+      "publisher": "National Audit Office",
+      "type": "Audit report",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2026/11/reducing-radicalisation-the-prevent-programme.pdf",
+      "checked": "2026-11-28",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "nao-press",
+      "title": "Stronger Home Office oversight needed as Prevent referrals hit record high",
+      "publisher": "National Audit Office",
+      "type": "Press release",
+      "url": "https://www.nao.org.uk/press-releases/stronger-home-office-oversight-needed-as-prevent-referrals-hit-record-high/",
+      "checked": "2026-11-28",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "pac",
+      "title": "Reducing radicalisation: The Prevent programme (inquiry)",
+      "publisher": "House of Commons Public Accounts Committee",
+      "type": "Parliamentary inquiry page",
+      "url": "https://committees.parliament.uk/work/9906/",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "foia-sch1",
+      "title": "Freedom of Information Act 2000, Schedule 1, paragraph 53 (higher education governing bodies)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/schedule/1/paragraph/53",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "kcl-foi",
+      "title": "Freedom of Information",
+      "publisher": "King’s College London",
+      "type": "University policy page",
+      "url": "https://www.kcl.ac.uk/professional-services/business-assurance/freedom-of-information",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "foia-s8",
+      "title": "Freedom of Information Act 2000, section 8 (request for information)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/8",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "foia-s10",
+      "title": "Freedom of Information Act 2000, section 10 (time for compliance)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/10",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "foia-s12",
+      "title": "Freedom of Information Act 2000, section 12 (cost limit)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/12",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "foia-s40",
+      "title": "Freedom of Information Act 2000, section 40 (personal information)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/40",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "foia-s41",
+      "title": "Freedom of Information Act 2000, section 41 (information provided in confidence)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/41",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "foia-s36",
+      "title": "Freedom of Information Act 2000, section 36 (prejudice to effective conduct of public affairs)",
+      "publisher": "legislation.gov.uk",
+      "type": "Legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/36/section/36",
+      "checked": "2026-11-28"
+    },
+    {
+      "id": "ico-sar",
+      "title": "Getting copies of your information (subject access request)",
+      "publisher": "Information Commissioner’s Office",
+      "type": "Official guidance page",
+      "url": "https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request",
+      "checked": "2026-11-28"
+    }
+  ]
+}
